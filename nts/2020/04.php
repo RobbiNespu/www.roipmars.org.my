@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ms-MY">
+<html lang="ms-MY" data-bs-color-scheme="dark">
 
 <head>
   <title>RoIPMARS|Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group</title>
@@ -47,6 +47,7 @@
   <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap' >
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
@@ -115,6 +116,7 @@
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
 </body>
 
 </html>

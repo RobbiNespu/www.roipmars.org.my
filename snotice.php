@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ms-MY">
+<html lang='ms-MY' data-bs-color-scheme='light'>
 
 <head>
   <title>RoIPMARS|Notis Perkhidmatan</title>
@@ -28,6 +28,7 @@
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
   <meta name='theme-color' content='#336699'>
+  <meta name='color-scheme' content='light dark'>
   <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon-16x16.png'>
@@ -46,6 +47,7 @@
   <link rel='manifest' href='./vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
   <script>
@@ -59,8 +61,7 @@
         j = d.createElement(s),
         dl = l != 'dataLayer' ? '&l=' + l : '';
       j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PHLPNS8');
   </script>
@@ -69,7 +70,6 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
     function gtag() {
       dataLayer.push(arguments);
     }
@@ -124,6 +124,7 @@
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="https://www.roipmars.org.my"><img class="img-fluid d-inline-block align-text-top" src="./images/brand.png" width="150" alt="PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)"></a>
+      <button type="button" class="btn btn-sm btn-outline-dark" id="darkmode-button">Switch View</button>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg"><span class="navbar-toggler-icon"></span></button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
         <ul class="navbar-nav nav-pills nav-fill justify-content-end">
@@ -132,7 +133,7 @@
           <li class="nav-item"><a class="nav-link" href="howto">Tutorial</a></li>
           <li class="nav-item"><a class="nav-link" href="cbinfo">Informasi Jalur Rakyat</a></li>
           <li class="nav-item"><a class="nav-link" href="cbmars">CB RoIPMARS</a></li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="snotice">Notis Perkhidmatan</a></li>
+          <li class="nav-item"><a class="nav-link active rounded-pill" aria-current="page" href="snotice">Notis Perkhidmatan</a></li>
           <li class="nav-item"><a class="nav-link" href="member">Keahlian</a></li>
           <!--<li class="nav-item"><a class="nav-link" href="mailus">Hubungi Kami</a></li>-->
           <li class="nav-item"><a class="nav-link" href="https://kedai.roipmars.org.my/" target="_blank"><i class="fa-solid fa-store"></i> Kedai</a></li>
@@ -151,91 +152,91 @@
   </div>
   <div class="container">
     <div class="row">
-      <table class="table table-striped text-center table-sm table-responsive-sm">
-        <thead class="th-sm thead-light">
+      <table class="table table-striped text-center">
+        <thead class="th-sm thead-light align-middle">
           <th>Tarikh Notis</th>
           <th>Tentang</th>
           <th colspan="2">Rujukan</th>
         </thead>
-        <tbody>
+        <tbody class="align-middle">
 
           <tr>
             <td>26 Sep 2022</td>
             <td>Perubahan Platform <a href="https://kedai.roipmars.org.my/" target="_blank">Kedai.RoIPMARS.org.MY</a></td>
-            <td>NtsMARS2022/02</td>
-            <td><a href="nts/2022/02" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2022/02</td>
+            <td class="text-start"><a href="nts/2022/02" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>20 Jul 2022</td>
             <td>Perubahan domain</td>
-            <td>NtsMARS2022/01</td>
-            <td><a href="nts/2022/01" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2022/01</td>
+            <td class="text-start"><a href="nts/2022/01" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>20 Apr 2021</td>
             <td>Rombakan Isyarat Panggilan Jalur Rakyat</td>
-            <td>NtsMARS2021/01</td>
-            <td><a href="nts/2021/01" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2021/01</td>
+            <td class="text-start"><a href="nts/2021/01" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>25 Ogo 2020</td>
             <td>Server Downtime 30 Aug 2020</td>
-            <td>NtsMARS2020/09</td>
-            <td><a href="nts/2020/09" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2020/09</td>
+            <td class="text-start"><a href="nts/2020/09" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>19 Apr 2020</td>
             <td>CB CS Inactive Status and Methods</td>
-            <td>NtsMARS2020/08</td>
-            <td><a href="nts/2020/08" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2020/08</td>
+            <td class="text-start"><a href="nts/2020/08" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>02 Apr 2020</td>
             <td>Teamspeak DomainName:PortNo Issue</td>
-            <td>NtsMARS2020/07</td>
-            <td><a href="nts/2020/07" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2020/07</td>
+            <td class="text-start"><a href="nts/2020/07" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>23 Mac 2020</td>
             <td>Website interruption for service upgrade</td>
-            <td>NtsMARS2020/06</td>
-            <td><a href="nts/2020/06" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2020/06</td>
+            <td class="text-start"><a href="nts/2020/06" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>06 Mac 2020</td>
             <td>Change of Info in CB_DB</td>
-            <td>NtsMARS2020/05</td>
-            <td><a href="nts/2020/05" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2020/05</td>
+            <td class="text-start"><a href="nts/2020/05" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>01 Mac 2020</td>
             <td>CB DB Maintenance</td>
-            <td>NtsMARS2020/04</td>
-            <td><a href="nts/2020/04" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2020/04</td>
+            <td class="text-start"><a href="nts/2020/04" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>16 Feb 2020</td>
             <td>Webpage Notification</td>
-            <td>NtsMARS2020/03</td>
-            <td><a href="nts/2020/03" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2020/03</td>
+            <td class="text-start"><a href="nts/2020/03" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>08 Feb 2020</td>
             <td>Discontinued Weekly NCS Certificate</td>
-            <td>NtsMARS2020/02</td>
-            <td><a href="nts/2020/02" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2020/02</td>
+            <td class="text-start"><a href="nts/2020/02" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>07 Feb 2020</td>
             <td>Server Maintainence</td>
-            <td>NtsMARS2020/01</td>
-            <td><a href="nts/2020/01" target="_blank"><button type="button" class="btn btn-block btn-outline-secondary btn-sm">Baca Lanjut...</button></a></td>
+            <td class="text-end">NtsMARS2020/01</td>
+            <td class="text-start"><a href="nts/2020/01" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
-  <footer class="footer mt-auto py-1 page-footer font-small text-bg-light">
+  <footer class="footer mt-auto py-1 page-footer font-small bg-light">
     <div class="container">
       <div class="row my-0">
         <div class="col-md-7 col-lg-7 col-xl-7 mx-auto my-1">
@@ -262,7 +263,7 @@
     <div class="container-fluid">
       <div class="row mt-5 mb-0 d-flex align-middle">
         <div class="col-md-8 col-lg-8 col-xl-8">
-          <p class="text-start font-monospace"><a href="policies" class="text-dark text-decoration-none font-monospace">Polisi Perkhidmatan</a> | &#91;PPM-006-10-01062020&#93;<br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
+          <p class="text-start font-monospace"><a href="policies" class="text-dark text-decoration-none font-monospace">Polisi Perkhidmatan</a><br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
         </div>
         <div class="col-md-4 col-lg-4 col-xl-4 ml-lg-0">
           <div class="text-end text-decoration-none">
@@ -277,6 +278,12 @@
   </footer>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
+  <script>
+    document.querySelector("#darkmode-button").onclick = function(e){
+      darkmode.toggleDarkMode();
+    }
+  </script>
 </body>
 
 </html>

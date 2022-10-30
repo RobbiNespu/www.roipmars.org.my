@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ms-MY">
+<html lang='ms-MY'>
 
 <head>
   <title>RoIPMARS|Merchandise</title>
@@ -56,8 +56,7 @@
         j = d.createElement(s),
         dl = l != 'dataLayer' ? '&l=' + l : '';
       j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PHLPNS8');
   </script>
@@ -66,7 +65,6 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
     function gtag() {
       dataLayer.push(arguments);
     }
@@ -442,7 +440,7 @@
       </div>
     </div>
   </div>
-  <footer class="footer mt-auto py-1 page-footer font-small text-bg-light">
+  <footer class="footer mt-auto py-1 page-footer font-small bg-light">
     <div class="container">
       <div class="row my-0">
         <div class="col-md-7 col-lg-7 col-xl-7 mx-auto my-1">
@@ -469,7 +467,7 @@
     <div class="container-fluid">
       <div class="row mt-5 mb-0 d-flex align-middle">
         <div class="col-md-8 col-lg-8 col-xl-8 text-muted">
-          <p class="text-start"><a href="../policies" class="text-muted text-decoration-none">Polisi Perkhidmatan</a> | &#91;PPM-006-10-01062020&#93;<br>&copy;2014-<script>
+          <p class="text-start"><a href="../policies" class="text-muted text-decoration-none">Polisi Perkhidmatan</a><br>&copy;2014-<script>
               document.write(new Date().getFullYear())
             </script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
         </div>

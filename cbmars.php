@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ms-MY">
+<html lang='ms-MY' data-bs-color-scheme>
 
 <head>
   <title>RoIPMARS|Citizen Band CallSign</title>
@@ -28,6 +28,7 @@
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
   <meta name='theme-color' content='#336699'>
+  <meta name='color-scheme' content='light dark'>
   <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon-16x16.png'>
@@ -46,6 +47,7 @@
   <link rel='manifest' href='./vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
   <script>
@@ -59,8 +61,7 @@
         j = d.createElement(s),
         dl = l != 'dataLayer' ? '&l=' + l : '';
       j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PHLPNS8');
   </script>
@@ -69,7 +70,6 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
     function gtag() {
       dataLayer.push(arguments);
     }
@@ -124,6 +124,7 @@
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="https://www.roipmars.org.my"><img class="img-fluid d-inline-block align-text-top" src="./images/brand.png" width="150" alt="PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)"></a>
+      <button type="button" class="btn btn-sm btn-outline-dark" id="darkmode-button">Switch View</button>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg"><span class="navbar-toggler-icon"></span></button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
         <ul class="navbar-nav nav-pills nav-fill justify-content-end">
@@ -131,7 +132,7 @@
           <li class="nav-item"><a class="nav-link" href="activities">Aktiviti</a></li>
           <li class="nav-item"><a class="nav-link" href="howto">Tutorial</a></li>
           <li class="nav-item"><a class="nav-link" href="cbinfo">Informasi Jalur Rakyat</a></li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="cbmars">CB RoIPMARS</a>
+          <li class="nav-item"><a class="nav-link active rounded-pill" aria-current="page" href="cbmars">CB RoIPMARS</a>
             <!--<li class="nav-item"><a class="nav-link disabled" aria-disabled="true" href="ncs">MARS NET</a></li>-->
             <!--<li class="nav-item"><a class="nav-link" href="merc">Barang Dagangan</a></li>-->
           </li>
@@ -157,7 +158,7 @@
     <div class="row">
       <div class="col-12 p-2 text-center" id="regind">
         <h3>Pendaftaran CS Individu CB RoIPMARS Group</h3>
-        <a type="button" class="btn btn-lg btn-block btn-primary active" style="font-size:larger" href="https://forms.gle/hxFgHW3S5S3hqGg49" target="_blank">Permohonan Isyarat Panggilan Jalur Rakyat RoIPMARS Individu</a>
+        <a type="button" class="btn btn-lg btn-block btn-primary rounded-pill" style="font-size:larger" href="https://forms.gle/hxFgHW3S5S3hqGg49" target="_blank">Permohonan Isyarat Panggilan Jalur Rakyat RoIPMARS Individu</a>
         <p style="font-size:small">Sumbangan RM 10.00 (minimum) digalakkan untuk setiap pendaftaran isyarat panggilan individu.</p>
       </div>
       <!--
@@ -207,7 +208,7 @@
       </div>
     </div>
   </div>
-  <footer class="footer mt-auto py-1 page-footer font-small text-bg-light">
+  <footer class="footer mt-auto py-1 page-footer font-small bg-light">
     <div class="container">
       <div class="row my-0">
         <div class="col-md-7 col-lg-7 col-xl-7 mx-auto my-1">
@@ -234,7 +235,7 @@
     <div class="container-fluid">
       <div class="row mt-5 mb-0 d-flex align-middle">
         <div class="col-md-8 col-lg-8 col-xl-8">
-          <p class="text-start font-monospace"><a href="policies" class="text-dark text-decoration-none font-monospace">Polisi Perkhidmatan</a> | &#91;PPM-006-10-01062020&#93;<br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
+          <p class="text-start font-monospace"><a href="policies" class="text-dark text-decoration-none font-monospace">Polisi Perkhidmatan</a><br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
         </div>
         <div class="col-md-4 col-lg-4 col-xl-4 ml-lg-0">
           <div class="text-end text-decoration-none">
@@ -249,6 +250,12 @@
   </footer>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
+  <script>
+    document.querySelector("#darkmode-button").onclick = function(e){
+      darkmode.toggleDarkMode();
+    }
+  </script>
 </body>
 
 </html>

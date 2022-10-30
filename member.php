@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ms-MY">
+<html lang='ms-MY' data-bs-color-scheme>
 
 <head>
   <title>RoIPMARS|Keahlian</title>
@@ -28,6 +28,7 @@
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
   <meta name='theme-color' content='#336699'>
+  <meta name='color-scheme' content='light dark'>
   <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon-16x16.png'>
@@ -66,6 +67,7 @@
   </style>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
   <script>
@@ -79,8 +81,7 @@
         j = d.createElement(s),
         dl = l != 'dataLayer' ? '&l=' + l : '';
       j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PHLPNS8');
   </script>
@@ -89,7 +90,6 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
     function gtag() {
       dataLayer.push(arguments);
     }
@@ -144,6 +144,7 @@
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="https://www.roipmars.org.my"><img class="img-fluid d-inline-block align-text-top" src="./images/brand.png" width="150" alt="PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)"></a>
+      <button type="button" class="btn btn-sm btn-outline-dark" id="darkmode-button">Switch View</button>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg"><span class="navbar-toggler-icon"></span></button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
         <ul class="navbar-nav nav-pills nav-fill justify-content-end">
@@ -153,7 +154,7 @@
           <li class="nav-item"><a class="nav-link" href="cbinfo">Informasi Jalur Rakyat</a></li>
           <li class="nav-item"><a class="nav-link" href="cbmars">CB RoIPMARS</a></li>
           <li class="nav-item"><a class="nav-link" href="snotice">Notis Perkhidmatan</a></li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="member">Keahlian</a></li>
+          <li class="nav-item"><a class="nav-link active rounded-pill" aria-current="page" href="member">Keahlian</a></li>
           <!--<li class="nav-item"><a class="nav-link" href="mailus">Hubungi Kami</a></li>-->
           <li class="nav-item"><a class="nav-link" href="https://kedai.roipmars.org.my/" target="_blank"><i class="fa-solid fa-store"></i> Kedai</a></li>
           <!--<li class="nav-item"><a class="nav-link" href="https://books.zoho.com/portal/roipmarsorgmy/" target="_blank"><i class="fa-solid fa-user-shield"></i> Portal Ahli</a></li>-->
@@ -181,23 +182,21 @@
           </tr>
           <tr>
             <td>
-              <!--
-        <div class="btn-group btn-group-sm" role="group" aria-label="rosreg">
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#roscertModalLong">Sijil</button>
-          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#rosappletModalLong">Surat</button>
-        </div>
--->
-              <div class="btn-group btn-group-lg" role="group" aria-label="memreg">
-                <!--          <a type="button" class="btn btn-outline-info" href="https://ftp.roipmars.org.my/members/mars-perlembagaan.pdf" download>Perlembagaan Ahli</a>-->
-                <a type="button" class="btn btn-primary" href="https://forms.gle/gGvi5jeZkMXJ5TjEA" target="_blank">Borang Permohonan Keahlian &#91;Google Form&#93;</a>
-                <a type="button" class="btn btn-secondary" href="https://na1.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAVX38EPFxDCfZXmgZsV6-icMiFomOtBDdsIEdQhG7Od5CA5YpUvKcopwoYOkcvUUY*" target="_blank">Borang Permohonan Keahlian &#91;Adobe E-Sign&#93;</a>
-                <a type="button" class="btn btn-success" href="https://ftp.roipmars.org.my/members/pprk_manualregform.pdf" download>Borang Permohonan Keahlian &#91;PDF&#93;</a>
+              <div class="hstack gap-1">
+                <a type="button" class="btn btn-sm btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#roscertModalLong">Sijil Kelulusan Pertubuhan</a>
+                <a type="button" class="btn btn-sm btn-info rounded-pill mx-auto" href="https://ftp.roipmars.org.my/members/mars-perlembagaan.pdf">Perlembagaan Pertubuhan</a>
+                <a type="button" class="btn btn-sm btn-success rounded-pill" data-bs-toggle="modal" data-bs-target="#rosappletModalLong">Surat Kelulusan Pertubuhan</a>
+              </div>
+              <br>
+              <div class="vstack gap-1">
+                <a type="button" class="btn btn-primary btn-block rounded-pill" href="https://forms.gle/gGvi5jeZkMXJ5TjEA" target="_blank">Borang Permohonan Keahlian &#91;<i class="fa-brands fa-google"></i>&#93;</a>
+                <a type="button" class="btn btn-secondary btn-block rounded-pill" href="https://na1.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAVX38EPFxDCfZXmgZsV6-icMiFomOtBDdsIEdQhG7Od5CA5YpUvKcopwoYOkcvUUY*" target="_blank">Borang Permohonan Keahlian &#91;<i class="fa-solid fa-signature"></i>&#93;</a>
+                <a type="button" class="btn btn-success btn-block rounded-pill" href="https://ftp.roipmars.org.my/members/pprk_manualregform.pdf" download>Borang Permohonan Keahlian &#91;<i class="fa-solid fa-file-pdf"></i>&#93;</a>
               </div>
             </td>
           </tr>
         </tbody>
       </table>
-      <!--
     <div class="modal fade" id="roscertModalLong" tabindex="-1" role="dialog" aria-labelledby="roscertModalTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -222,18 +221,15 @@
         </div>
       </div>
     </div>  	
--->
     </div>
-    <!--
-  <div class="row">
-  	<div class="col-12 my-2">
-      <h4 class="h4 text-center">Kelebihan Keahlian ROIPMARS</h4>
-      <div class="ratio ratio-21x9">
-        <p></p>
+    <!--<div class="row">
+      <div class="col-12 my-2">
+        <h4 class="h4 text-center">Kelebihan Keahlian ROIPMARS</h4>
+        <div class="ratio ratio-21x9">
+          <p></p>
+        </div>
       </div>
-    </div>
-  </div>
--->
+    </div>-->
     <div class="row">
       <div class="col-12 my-2 text-center">
         <h4 class="h4 text-center">Jawatankuasa</h4>
@@ -395,7 +391,7 @@
       </div>
     </div>
   </div>
-  <footer class="footer mt-auto py-1 page-footer font-small text-bg-light">
+  <footer class="footer mt-auto py-1 page-footer font-small bg-light">
     <div class="container">
       <div class="row my-0">
         <div class="col-md-7 col-lg-7 col-xl-7 mx-auto my-1">
@@ -422,7 +418,7 @@
     <div class="container-fluid">
       <div class="row mt-5 mb-0 d-flex align-middle">
         <div class="col-md-8 col-lg-8 col-xl-8">
-          <p class="text-start font-monospace"><a href="policies" class="text-dark text-decoration-none font-monospace">Polisi Perkhidmatan</a> | &#91;PPM-006-10-01062020&#93;<br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
+          <p class="text-start font-monospace"><a href="policies" class="text-dark text-decoration-none font-monospace">Polisi Perkhidmatan</a><br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
         </div>
         <div class="col-md-4 col-lg-4 col-xl-4 ml-lg-0">
           <div class="text-end text-decoration-none">
@@ -437,6 +433,12 @@
   </footer>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
+  <script>
+    document.querySelector("#darkmode-button").onclick = function(e){
+      darkmode.toggleDarkMode();
+    }
+  </script>
 </body>
 
 </html>

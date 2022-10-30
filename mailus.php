@@ -71,7 +71,6 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-
 		function gtag() {
 			dataLayer.push(arguments);
 		}
@@ -187,7 +186,7 @@
 						</div>
 						<div class="col-3 text-end">
 							<button type="reset" class="btn btn-outline-secondary btn-sm">Reset</button>
-							<button type="submit" class="btn btn-primary btn-sm" id="sendMessageButton">Submit</button>
+							<button type="submit" class="btn btn-primary btn-sm" id="sendMessage" class="g-recaptcha" data-sitekey="6Ld1N1YhAAAAAPqWlFQhJtNWCS-KuZTG10inRhCR" data-callback='onSubmit' data-action='submit'>Submit</button>
 						</div>
 					</div>
 				</form>
@@ -243,20 +242,13 @@
     }
   </script>
 	<script src="/vendor/mail/contact.js"></script>
-	<script src="/vendor/mail/jqBootstrapValidation.js"></script>
-	<script src="https://www.google.com/recaptcha/api.js?render=6Ld1N1YhAAAAAPqWlFQhJtNWCS-KuZTG10inRhCR"></script>
-	<script>
-		function onClick(e) {
-			e.preventDefault();
-			grecaptcha.ready(function() {
-				grecaptcha.execute('6Ld1N1YhAAAAAPqWlFQhJtNWCS-KuZTG10inRhCR', {
-					action: 'submit'
-				}).then(function(token) {
-					// Add your logic to submit to your backend server here.
-				});
-			});
-		}
-	</script>
+  <script src="/vendor/mail/jqBootstrapValidation.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script>
+    function onSubmit(token) {
+     document.getElementById("contactForm").submit();
+    }
+  </script>
 </body>
 
 </html>

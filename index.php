@@ -195,7 +195,7 @@
           <img src="./images/pic02.jpg" class="card-img-top">
           <div class="card-body">
             <h4 class="card-title">Kerjasama</h4>
-            <p class="card-text">Apabila peluang muncul, kami berusaha untuk menyertai kelab / persatuan lain untuk mempromosikan radio amatur. Beberapa kelab tempatan kini telah bersatu padu dengan ROIP dan menjadi penyokong setia kami. Semua bersetuju bahawa ROIP adalah alternatif terutama apabila pengulang tidak berfungsi.</p>
+            <p class="card-text">Apabila peluang muncul, kami berusaha untuk bekerjasama dengan kelab / persatuan lain untuk mempromosikan radio amatur. Beberapa kelab tempatan kini telah bersatu padu dengan ROIP dan menjadi penyokong setia kami. Semua bersetuju bahawa ROIP adalah alternatif terutama apabila pengulang tidak berfungsi.</p>
           </div>
         </div>
       </div>
@@ -213,7 +213,7 @@
           <img src="./images/pic04.jpg" class="card-img-top">
           <div class="card-body">
             <h4 class="card-title">Generasi Baru</h4>
-            <p class="card-text">Sambutan daripada anak-anak adalah di luar jangkaan kami. Mereka bersemangat apabila diberi peluang untuk mengendalikan sebuah stesen. Orang yang ramai lebih sukar untuk dikendalikan tetapi bernilai masa dan usaha kami. Kami menyukai semangat tinggi yang dipaparkan.</p>
+            <p class="card-text">Sambutan daripada kanak-kanak adalah di luar jangkaan kami. Mereka bersemangat apabila diberi peluang untuk mengendalikan sebuah stesen. Orang yang ramai lebih sukar untuk dikendalikan tetapi bernilai masa dan usaha kami. Kami menyukai semangat tinggi yang dipaparkan.</p>
           </div>
         </div>
       </div>
@@ -224,11 +224,9 @@
           <div class="alert-heading text-center">
             <h4>SEBARAN AWAM</h4>
           </div>
-          <div class="text-center">
             <p>Kepada INDIVIDU atau KELAB, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS.</p>
             <p>Kami juga menyediakan perkhidmatan komunikasi buat SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan.</p>
             <p>Pasukan teknikal kami sedia membantu anda. Hubungi kami di <a class="text-primary text-decoration-none" href="mailto:member@roipmars.org.my">member@roipmars.org.my</a> untuk sebarang pertanyaan dan permohonan.</p>
-          </div>
           <h6 class="text-end text-dark">"JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI"</h6>
           <p class="text-end text-dark">Tulus Ikhlas, Pengurusan RoIPMARS</p>
         </div>

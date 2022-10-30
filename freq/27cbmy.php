@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang='ms-MY'>
+<html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
   <title>RoIPMARS|27MHz CB-MY2000</title>
@@ -28,7 +28,8 @@
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='../images/ms-icon-144x144.png'>
   <meta name='theme-color' content='#336699'>
-  <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'>
+  <meta name='color-scheme' content='dark'>
+  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='../images/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='../images/favicon-16x16.png'>
   <link rel='icon' type='image/png' sizes='32x32' href='../images/favicon-32x32.png'>
@@ -46,6 +47,7 @@
   <link rel='manifest' href='../vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
   <script>
@@ -112,326 +114,49 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td>26.965</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>26.975</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>26.985</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>27.005</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td></td>
-            </tr>
+            <tr><td>1</td><td>26.965</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
+            <tr><td>2</td><td>26.975</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
+            <tr><td>3</td><td>26.985</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
+            <tr><td>4</td><td>27.005</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
             <tr class="table-danger border-danger">
-              <td>5</td>
-              <td>27.015</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td>Not for use</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>27.025</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>27.035</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>8</td>
-              <td>27.055</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td>27.065</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td>Emergency</td>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td>27.075</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>11</td>
-              <td>27.085</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td>Calling</td>
-            </tr>
-            <tr>
-              <td>12</td>
-              <td>27.105</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>13</td>
-              <td>27.115</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>14</td>
-              <td>27.125</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>15</td>
-              <td>27.135</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>16</td>
-              <td>27.155</td>
-              <td>LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td>Calling</td>
-            </tr>
+              <td>5</td><td>27.015</td><td>AM</td><td>4</td><td>6</td><td>Not for use</td></tr>
+            <tr><td>6</td><td>27.025</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
+            <tr><td>7</td><td>27.035</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
+            <tr><td>8</td><td>27.055</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
+            <tr><td>9</td><td>27.065</td><td>AM</td><td>4</td><td>6</td><td>Emergency</td></tr>
+            <tr><td>10</td><td>27.075</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
+            <tr><td>11</td><td>27.085</td><td>AM</td><td>4</td><td>6</td><td>Calling</td></tr>
+            <tr><td>12</td><td>27.105</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
+            <tr><td>13</td><td>27.115</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>14</td><td>27.125</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>15</td><td>27.135</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>16</td><td>27.155</td><td>LSB</td><td>12</td><td>3</td><td>Calling</td></tr>
             <tr class="table-danger border-danger">
-              <td>17</td>
-              <td>27.165</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td>Not for use</td>
-            </tr>
-            <tr>
-              <td>18</td>
-              <td>27.175</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>19</td>
-              <td>27.185</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>20</td>
-              <td>27.205</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
+              <td>17</td><td>27.165</td><td>USB/LSB</td><td>12</td><td>3</td><td>Not for use</td></tr>
+            <tr><td>18</td><td>27.175</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>19</td><td>27.185</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>20</td><td>27.205</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
             <tr class="table-danger border-danger">
-              <td>21</td>
-              <td>27.215</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td>Not for use</td>
-            </tr>
-            <tr>
-              <td>22</td>
-              <td>27.225</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>23</td>
-              <td>27.235</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>24</td>
-              <td>27.245</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>25</td>
-              <td>27.255</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>26</td>
-              <td>27.265</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>27</td>
-              <td>27.275</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>28</td>
-              <td>27.285</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>29</td>
-              <td>27.295</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>30</td>
-              <td>27.305</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>31</td>
-              <td>27.315</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>32</td>
-              <td>27.325</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>33</td>
-              <td>27.335</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>34</td>
-              <td>27.345</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>35</td>
-              <td>27.355</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>36</td>
-              <td>27.365</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>37</td>
-              <td>27.375</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>38</td>
-              <td>27.385</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>39</td>
-              <td>27.395</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>40</td>
-              <td>27.405</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
+              <td>21</td><td>27.215</td><td>USB/LSB</td><td>12</td><td>3</td><td>Not for use</td></tr>
+            <tr><td>22</td><td>27.225</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>23</td><td>27.235</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>24</td><td>27.245</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>25</td><td>27.255</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>26</td><td>27.265</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>27</td><td>27.275</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>28</td><td>27.285</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>29</td><td>27.295</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>30</td><td>27.305</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>31</td><td>27.315</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>32</td><td>27.325</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>33</td><td>27.335</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>34</td><td>27.345</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>35</td><td>27.355</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>36</td><td>27.365</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>37</td><td>27.375</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>38</td><td>27.385</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>39</td><td>27.395</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr><td>40</td><td>27.405</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
           </tbody>
         </table>
       </div>
@@ -439,6 +164,7 @@
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
 </body>
 
 </html>

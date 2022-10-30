@@ -1,50 +1,54 @@
 <!doctype html>
-<html lang='ms-MY'>
+<html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
 	<title>RoIPMARS|Contact Us</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="title" content="RoIPMARS|Contact Us">
-	<meta name="description" content="Malaysian Amateur RoIP Society (MARS)">
-	<meta name="keywords" content="roipmars, mars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia">
-	<meta name="robots" content="index, follow">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta http-equiv="content-language" content="ms-my">
-	<meta name="language" content="Malay">
-	<meta name="author" content="mhrtech.my">
-	<meta property=”og:title” content=”RoIPMARS-OfficialWebsite”>
-	<meta property=”og:description” content=”MalaysianAmateurRoIPSociety(MARS)”>
-	<meta property=”og:image” content=”https://www.roipmars.org.my/images/brand.png”>
-	<meta property=”og:url” content=”https://www.roipmars.org.my/”>
-	<meta property=”og:site_name” content=”RoIPMARS”>
-	<meta name=”twitter:title” content=”RoIPMARS-OfficialWebsite”>
-	<meta name=”twitter:description” content=”MalaysianAmateurRoIPSociety(MARS)”>
-	<meta name=”twitter:image” content=”https://www.roipmars.org.my/images/brand.png”>
-	<meta name=”twitter:creator” content=”@HafiziRuslan”>
-	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" sizes="57x57" href="./images/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="./images/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="./images/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="./images/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="./images/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="./images/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="./images/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="./images/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="./images/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="./images/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-	<link rel="manifest" href="./vendor/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="./images/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<link rel="stylesheet" href="https://use.typekit.net/kew7gwq.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-	<script src="https://kit.fontawesome.com/221737b641.js" crossorigin="anonymous"></script>
+	<meta charset='utf-8'>
+  <meta http-equiv='Content-Type' content='text/html'>
+  <meta http-equiv='content-language' content='ms-MY'>
+  <meta name='language' content='Malay'>
+  <meta name='author' content='HafiziRuslan'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+  <meta name='title' content='RoIPMARS|Contact Us'>
+  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Contact Us'>
+  <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
+  <meta name='robots' content='index, follow'>
+  <meta property='og:site_name' content='RoIPMARS'>
+  <meta property='og:title' content='RoIPMARS|Contact Us'>
+  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Contact Us'>
+  <meta property='og:url' content='https://www.roipmars.org.my/mailusn'>
+  <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
+  <meta property='og:type' content='website'>
+  <meta property='og:locale' content='ms-MY'>
+  <meta name='twitter:title' content='RoIPMARS|Contact Us'>
+  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Contact Us'>
+  <meta name='twitter:url' content='https://www.roipmars.org.my/amailus'>
+  <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
+  <meta name='twitter:creator' content='@HafiziRuslan'>
+  <meta name='msapplication-TileColor' content='#336699'>
+  <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
+  <meta name='theme-color' content='#336699'>
+  <meta name='color-scheme' content='dark'>
+  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon-16x16.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='./images/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='./images/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='./images/android-icon-192x192.png'>
+  <link rel='apple-touch-icon' sizes='57x57' href='./images/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='./images/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='./images/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='./images/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='./images/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='./images/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='./images/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='./images/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='./images/apple-icon-180x180.png'>
+  <link rel='manifest' href='./vendor/manifest.json'>
+  <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
+  <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
 	<!-- Google Tag Manager -->
 	<script>
 		(function(w, d, s, l, i) {
@@ -122,6 +126,7 @@
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="https://www.roipmars.org.my"><img class="img-fluid d-inline-block align-text-top" src="./images/brand.png" width="150" alt="PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)"></a>
+      <button type="button" class="btn btn-sm btn-outline-dark" id="darkmode-button">Switch View</button>
 			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg"><span class="navbar-toggler-icon"></span></button>
 			<div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
 				<ul class="navbar-nav nav-pills nav-fill justify-content-end">
@@ -132,7 +137,7 @@
 					<li class="nav-item"><a class="nav-link" href="cbmars">CB RoIPMARS</a></li>
 					<li class="nav-item"><a class="nav-link" href="snotice">Notis Perkhidmatan</a></li>
 					<li class="nav-item"><a class="nav-link" href="member">Keahlian</a></li>
-					<li class="nav-item"><a class="nav-link active" aria-current="page" href="mailus">Hubungi Kami</a></li>
+					<li class="nav-item"><a class="nav-link active rounded-pill" aria-current="page" href="mailus">Hubungi Kami</a></li>
 					<li class="nav-item"><a class="nav-link" href="https://kedai.roipmars.org.my/" target="_blank"><i class="fa-solid fa-store"></i> Kedai</a></li>
 					<!--<li class="nav-item"><a class="nav-link" href="https://books.zoho.com/portal/roipmarsorgmy/" target="_blank"><i class="fa-solid fa-user-shield"></i> Portal Ahli</a></li>-->
 					<li class="nav-item"><a class="nav-link" href="https://ftp.roipmars.org.my/" target="_blank"><i class="fa-solid fa-download"></i> Muat Turun</a></li>
@@ -229,8 +234,14 @@
 			</div>
 		</div>
 	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
+	<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
+  <script>
+    document.querySelector("#darkmode-button").onclick = function(e){
+      darkmode.toggleDarkMode();
+    }
+  </script>
 	<script src="/vendor/mail/contact.js"></script>
 	<script src="/vendor/mail/jqBootstrapValidation.js"></script>
 	<script src="https://www.google.com/recaptcha/api.js?render=6Ld1N1YhAAAAAPqWlFQhJtNWCS-KuZTG10inRhCR"></script>

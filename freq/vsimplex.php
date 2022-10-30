@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang='ms-MY'>
+<html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
   <title>RoIPMARS|VHF Amateur Simplex</title>
@@ -28,7 +28,8 @@
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='../images/ms-icon-144x144.png'>
   <meta name='theme-color' content='#336699'>
-  <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'>
+  <meta name='color-scheme' content='dark'>
+  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='../images/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='../images/favicon-16x16.png'>
   <link rel='icon' type='image/png' sizes='32x32' href='../images/favicon-32x32.png'>
@@ -46,6 +47,7 @@
   <link rel='manifest' href='../vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
   <script>
@@ -106,218 +108,59 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>V17</td>
-              <td>145.2125</td>
-            </tr>
-            <tr>
-              <td>V18</td>
-              <td>145.2250</td>
-            </tr>
-            <tr>
-              <td>V19</td>
-              <td>145.2375</td>
-            </tr>
-            <tr>
-              <td>V20</td>
-              <td>145.2500</td>
-            </tr>
-            <tr>
-              <td>V21</td>
-              <td>145.2625</td>
-            </tr>
-            <tr>
-              <td>V22</td>
-              <td>145.2750</td>
-            </tr>
-            <tr>
-              <td>V23</td>
-              <td>145.2875</td>
-            </tr>
-            <tr>
-              <td>V24</td>
-              <td>145.3000</td>
-            </tr>
-            <tr>
-              <td>V25</td>
-              <td>145.3125</td>
-            </tr>
-            <tr>
-              <td>V26</td>
-              <td>145.3250</td>
-            </tr>
-            <tr>
-              <td>V27</td>
-              <td>145.3375</td>
-            </tr>
-            <tr>
-              <td>V28</td>
-              <td>145.3500</td>
-            </tr>
-            <tr>
-              <td>V29</td>
-              <td>145.3625</td>
-            </tr>
-            <tr>
-              <td>V30</td>
-              <td>145.3750</td>
-            </tr>
-            <tr>
-              <td>V31</td>
-              <td>145.3875</td>
-            </tr>
-            <tr>
-              <td>V32</td>
-              <td>145.4000</td>
-            </tr>
-            <tr>
-              <td>V33</td>
-              <td>145.4125</td>
-            </tr>
-            <tr>
-              <td>V34</td>
-              <td>145.4250</td>
-            </tr>
-            <tr>
-              <td>V35</td>
-              <td>145.4375</td>
-            </tr>
-            <tr>
-              <td>V36</td>
-              <td>145.4500</td>
-            </tr>
-            <tr>
-              <td>V37</td>
-              <td>145.4625</td>
-            </tr>
-            <tr>
-              <td>V38</td>
-              <td>145.4750</td>
-            </tr>
-            <tr>
-              <td>V39</td>
-              <td>145.4875</td>
-            </tr>
-            <tr>
-              <td>V40 (Call)</td>
-              <td>145.5000</td>
-            </tr>
-            <tr>
-              <td>V41</td>
-              <td>145.5125</td>
-            </tr>
-            <tr>
-              <td>V42</td>
-              <td>145.5250</td>
-            </tr>
-            <tr>
-              <td>V43</td>
-              <td>145.5375</td>
-            </tr>
-            <tr>
-              <td>V44</td>
-              <td>145.5500</td>
-            </tr>
-            <tr>
-              <td>V45</td>
-              <td>145.5625</td>
-            </tr>
-            <tr>
-              <td>V46</td>
-              <td>145.5750</td>
-            </tr>
-            <tr>
-              <td>V47</td>
-              <td>145.5875</td>
-            </tr>
-            <tr>
-              <td>V48</td>
-              <td>146.4000</td>
-            </tr>
-            <tr>
-              <td>V49</td>
-              <td>146.4125</td>
-            </tr>
-            <tr>
-              <td>V50</td>
-              <td>146.4250</td>
-            </tr>
-            <tr>
-              <td>V51</td>
-              <td>146.4375</td>
-            </tr>
-            <tr>
-              <td>V52</td>
-              <td>146.4500</td>
-            </tr>
-            <tr>
-              <td>V53</td>
-              <td>146.4625</td>
-            </tr>
-            <tr>
-              <td>V54</td>
-              <td>146.4750</td>
-            </tr>
-            <tr>
-              <td>V55</td>
-              <td>146.4875</td>
-            </tr>
-            <tr>
-              <td>V56</td>
-              <td>146.5000</td>
-            </tr>
-            <tr>
-              <td>V57</td>
-              <td>146.5125</td>
-            </tr>
-            <tr>
-              <td>V58</td>
-              <td>146.5250</td>
-            </tr>
-            <tr>
-              <td>V59</td>
-              <td>146.5375</td>
-            </tr>
-            <tr>
-              <td>V60</td>
-              <td>146.5500</td>
-            </tr>
-            <tr>
-              <td>V61</td>
-              <td>146.5625</td>
-            </tr>
-            <tr>
-              <td>V62</td>
-              <td>146.5750</td>
-            </tr>
-            <tr>
-              <td>V63</td>
-              <td>146.5875</td>
-            </tr>
-            <tr>
-              <td>V64</td>
-              <td>147.4350</td>
-            </tr>
-            <tr>
-              <td>V65</td>
-              <td>147.4650</td>
-            </tr>
-            <tr>
-              <td>V66</td>
-              <td>147.4950</td>
-            </tr>
-            <tr>
-              <td>V67</td>
-              <td>147.5250</td>
-            </tr>
-            <tr>
-              <td>V68</td>
-              <td>147.5550</td>
-            </tr>
-            <tr>
-              <td>V69</td>
-              <td>147.5850</td>
-            </tr>
+            <tr><td>V17</td><td>145.2125</td></tr>
+            <tr><td>V18</td><td>145.2250</td></tr>
+            <tr><td>V19</td><td>145.2375</td></tr>
+            <tr><td>V20</td><td>145.2500</td></tr>
+            <tr><td>V21</td><td>145.2625</td></tr>
+            <tr><td>V22</td><td>145.2750</td></tr>
+            <tr><td>V23</td><td>145.2875</td></tr>
+            <tr><td>V24</td><td>145.3000</td></tr>
+            <tr><td>V25</td><td>145.3125</td></tr>
+            <tr><td>V26</td><td>145.3250</td></tr>
+            <tr><td>V27</td><td>145.3375</td></tr>
+            <tr><td>V28</td><td>145.3500</td></tr>
+            <tr><td>V29</td><td>145.3625</td></tr>
+            <tr><td>V30</td><td>145.3750</td></tr>
+            <tr><td>V31</td><td>145.3875</td></tr>
+            <tr><td>V32</td><td>145.4000</td></tr>
+            <tr><td>V33</td><td>145.4125</td></tr>
+            <tr><td>V34</td><td>145.4250</td></tr>
+            <tr><td>V35</td><td>145.4375</td></tr>
+            <tr><td>V36</td><td>145.4500</td></tr>
+            <tr><td>V37</td><td>145.4625</td></tr>
+            <tr><td>V38</td><td>145.4750</td></tr>
+            <tr><td>V39</td><td>145.4875</td></tr>
+            <tr><td>V40 (Call)</td><td>145.5000</td></tr>
+            <tr><td>V41</td><td>145.5125</td></tr>
+            <tr><td>V42</td><td>145.5250</td></tr>
+            <tr><td>V43</td><td>145.5375</td></tr>
+            <tr><td>V44</td><td>145.5500</td></tr>
+            <tr><td>V45</td><td>145.5625</td></tr>
+            <tr><td>V46</td><td>145.5750</td></tr>
+            <tr><td>V47</td><td>145.5875</td></tr>
+            <tr><td>V48</td><td>146.4000</td></tr>
+            <tr><td>V49</td><td>146.4125</td></tr>
+            <tr><td>V50</td><td>146.4250</td></tr>
+            <tr><td>V51</td><td>146.4375</td></tr>
+            <tr><td>V52</td><td>146.4500</td></tr>
+            <tr><td>V53</td><td>146.4625</td></tr>
+            <tr><td>V54</td><td>146.4750</td></tr>
+            <tr><td>V55</td><td>146.4875</td></tr>
+            <tr><td>V56</td><td>146.5000</td></tr>
+            <tr><td>V57</td><td>146.5125</td></tr>
+            <tr><td>V58</td><td>146.5250</td></tr>
+            <tr><td>V59</td><td>146.5375</td></tr>
+            <tr><td>V60</td><td>146.5500</td></tr>
+            <tr><td>V61</td><td>146.5625</td></tr>
+            <tr><td>V62</td><td>146.5750</td></tr>
+            <tr><td>V63</td><td>146.5875</td></tr>
+            <tr><td>V64</td><td>147.4350</td></tr>
+            <tr><td>V65</td><td>147.4650</td></tr>
+            <tr><td>V66</td><td>147.4950</td></tr>
+            <tr><td>V67</td><td>147.5250</td></tr>
+            <tr><td>V68</td><td>147.5550</td></tr>
+            <tr><td>V69</td><td>147.5850</td></tr>
           </tbody>
         </table>
       </div>
@@ -325,6 +168,7 @@
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
 </body>
 
 </html>

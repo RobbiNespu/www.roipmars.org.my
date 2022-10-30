@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang='ms-MY'>
+<html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
   <title>RoIPMARS|27MHz CB-PRS</title>
@@ -28,7 +28,8 @@
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='../images/ms-icon-144x144.png'>
   <meta name='theme-color' content='#336699'>
-  <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'>
+  <meta name='color-scheme' content='dark'>
+  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='../images/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='../images/favicon-16x16.png'>
   <link rel='icon' type='image/png' sizes='32x32' href='../images/favicon-32x32.png'>
@@ -46,6 +47,7 @@
   <link rel='manifest' href='../vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
   <script>
@@ -116,446 +118,86 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td>26.9650</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>26.9750</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>26.9850</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>27.0050</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>27.0150</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>27.0250</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>27.0350</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>8</td>
-              <td>27.0550</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td>27.0650</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td>Emergency</td>
-              </td>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td>27.0750</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>11</td>
-              <td>27.0850</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td>Calling</td>
-              </td>
-            </tr>
-            <tr>
-              <td>12</td>
-              <td>27.1050</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>13</td>
-              <td>27.1150</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>14</td>
-              <td>27.1250</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>15</td>
-              <td>27.1350</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>16</td>
-              <td>27.1550</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>17</td>
-              <td>27.1650</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>18</td>
-              <td>27.1750</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>19</td>
-              <td>27.1850</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>20</td>
-              <td>27.2050</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>21</td>
-              <td>27.2150</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>22</td>
-              <td>27.2250</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>23</td>
-              <td>27.2350</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>24</td>
-              <td>27.2450</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>25</td>
-              <td>27.2550</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>26</td>
-              <td>27.2650</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>27</td>
-              <td>27.2750</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>28</td>
-              <td>27.2850</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>29</td>
-              <td>27.2950</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>30</td>
-              <td>27.3050</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>31</td>
-              <td>27.3150</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>32</td>
-              <td>27.3250</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>33</td>
-              <td>27.3350</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>34</td>
-              <td>27.3450</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>35</td>
-              <td>27.3550</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>36</td>
-              <td>27.3650</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>37</td>
-              <td>27.3750</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>38</td>
-              <td>27.3850</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>39</td>
-              <td>27.3950</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
-            <tr>
-              <td>40</td>
-              <td>27.4050</td>
-              <td>AM / FM</td>
-              <td>4</td>
-              <td>12</td>
-              <td>6</td>
-              <td>3</td>
-              <td></td>
-              </td>
-            </tr>
+            <tr><td>1</td><td>26.9650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>2</td><td>26.9750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>3</td><td>26.9850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>4</td><td>27.0050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>5</td><td>27.0150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>6</td><td>27.0250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>7</td><td>27.0350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>8</td><td>27.0550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>9</td><td>27.0650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td>Emergency</td>
+              </td></tr>
+            <tr><td>10</td><td>27.0750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>11</td><td>27.0850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td>Calling</td>
+              </td></tr>
+            <tr><td>12</td><td>27.1050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>13</td><td>27.1150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>14</td><td>27.1250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>15</td><td>27.1350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>16</td><td>27.1550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>17</td><td>27.1650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>18</td><td>27.1750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>19</td><td>27.1850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>20</td><td>27.2050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>21</td><td>27.2150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>22</td><td>27.2250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>23</td><td>27.2350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>24</td><td>27.2450</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>25</td><td>27.2550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>26</td><td>27.2650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>27</td><td>27.2750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>28</td><td>27.2850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>29</td><td>27.2950</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>30</td><td>27.3050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>31</td><td>27.3150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>32</td><td>27.3250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>33</td><td>27.3350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>34</td><td>27.3450</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>35</td><td>27.3550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>36</td><td>27.3650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>37</td><td>27.3750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>38</td><td>27.3850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>39</td><td>27.3950</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
+            <tr><td>40</td><td>27.4050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
+              </td></tr>
           </tbody>
         </table>
       </div>
@@ -563,6 +205,7 @@
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ms-MY" data-bs-color-scheme="dark">
+<html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
   <title>RoIPMARS|Perubahan Platform Kedai RoIPMARS</title>
@@ -28,7 +28,7 @@
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='../../images/ms-icon-144x144.png'>
   <meta name='theme-color' content='#336699'>
-  <meta name="color-scheme" content="light dark">
+  <meta name='color-scheme' content='dark'>
   <link rel='shortcut icon' type='image/x-icon' href='../../images/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='../../images/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='../../images/favicon-16x16.png'>
@@ -49,7 +49,6 @@
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
   <script>

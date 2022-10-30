@@ -3,36 +3,50 @@
 
 <head>
   <title>RoIPMARS|Members List</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="title" content="RoIPMARS|members List - RMARS">
-  <meta name="description" content="Members Database by PPRK (ROIP)">
-  <meta name="keywords" content="roipmars, mars, pprk">
-  <meta name="robots" content="index, follow">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="language" content="Malay">
-  <meta name="author" content="mhrtech.my">
-  <link rel="apple-touch-icon" sizes="57x57" href=".../images/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href=".../images/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href=".../images/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href=".../images/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href=".../images/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href=".../images/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href=".../images/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href=".../images/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href=".../images/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href=".../images/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href=".../images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href=".../images/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href=".../images/favicon-16x16.png">
-  <link rel="manifest" href="../vendor/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content=".../images/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://use.typekit.net/kew7gwq.css">
-  <script src="https://kit.fontawesome.com/221737b641.js" crossorigin="anonymous"></script>
+  <meta charset='utf-8'>
+  <meta http-equiv='Content-Type' content='text/html'>
+  <meta http-equiv='content-language' content='ms-MY'>
+  <meta name='language' content='Malay'>
+  <meta name='author' content='HafiziRuslan'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+  <meta name='title' content='RoIPMARS|Members List'>
+  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Members List'>
+  <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
+  <meta name='robots' content='index, follow'>
+  <meta property='og:site_name' content='RoIPMARS'>
+  <meta property='og:title' content='RoIPMARS|Members List'>
+  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Members List'>
+  <meta property='og:url' content='https://www.roipmars.org.my/list/members'>
+  <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
+  <meta property='og:type' content='website'>
+  <meta property='og:locale' content='ms-MY'>
+  <meta name='twitter:title' content='RoIPMARS|Members List'>
+  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Members List'>
+  <meta name='twitter:url' content='https://www.roipmars.org.my/list/members'>
+  <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
+  <meta name='twitter:creator' content='@HafiziRuslan'>
+  <meta name='msapplication-TileColor' content='#336699'>
+  <meta name='msapplication-TileImage' content='../images/ms-icon-144x144.png'>
+  <meta name='theme-color' content='#336699'>
+  <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='../images/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='16x16' href='../images/favicon-16x16.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='../images/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='../images/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='../images/android-icon-192x192.png'>
+  <link rel='apple-touch-icon' sizes='57x57' href='../images/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='../images/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='../images/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='../images/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='../images/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='../images/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='../images/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='../images/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='../images/apple-icon-180x180.png'>
+  <link rel='manifest' href='../vendor/manifest.json'>
+  <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
@@ -289,7 +303,7 @@
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js' crossorigin='anonymous'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" crossorigin="anonymous"></script>
   <script>
     function nameSrch() {
       var input, filter, table, tr, td, i, txtValue;

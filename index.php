@@ -46,7 +46,6 @@
   <link rel='manifest' href='./vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' crossorigin='anonymous'>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
   <script>
@@ -239,13 +238,13 @@
         <div class="card">
           <div class="card-header text-center">Bacaan Lanjut</div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/files/attachments/Guideline_Amateur_Radio_Service_2012.pdf" download>Garis Panduan Perkhidmatan Radio Amatur di Malaysia-SKMM <i class="fa-solid fa-file-pdf"></i></a></li>
-            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Attachment-II-Ethics-and-Procedure-for-Radio-Amateur.pdf" download>Etika dan Prosedur Operasi untuk Radio Amatur-SKMM <i class="fa-solid fa-file-pdf"></i></a></li>
-            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/files/attachments/WTS_ARE.pdf" download>Spesifikasi Teknikal untuk Peralatan Radio Amatur-SKMM <i class="fa-solid fa-file-pdf"></i></a></li>
-            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Guideline-on-the-Allocation-of-Call-Sign-to-the-Amateur-Radio-Service.pdf" download>Garis Panduan Mengenai Peruntukan Tanda Panggilan kepada Perkhidmatan Radio Amatur-SKMM <i class="fa-solid fa-file-pdf"></i></a></li>
-            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Guideline-for-Apparatus-Assignment_Final-121112.pdf" download>Garis Panduan Penugasan Radas-SKMM <i class="fa-solid fa-file-pdf"></i></a></li>
-            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.arrl.org/files/file/VoIP.pdf" download>VoIP dan Radio Amatur-ARRL <i class="fa-solid fa-file-pdf"></i></a></li>
-            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Form-AMATEUR-SERVICE_v2018_ISO.pdf" download>Borang Permohonan Tugasan Radas Amatur-SKMM <i class="fa-solid fa-file-pdf"></i></a></li>
+            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/files/attachments/Guideline_Amateur_Radio_Service_2012.pdf" download><i class="fa-solid fa-file-pdf"></i> Garis Panduan Perkhidmatan Radio Amatur di Malaysia-SKMM</a></li>
+            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Attachment-II-Ethics-and-Procedure-for-Radio-Amateur.pdf" download><i class="fa-solid fa-file-pdf"></i> Etika dan Prosedur Operasi untuk Radio Amatur-SKMM</a></li>
+            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/files/attachments/WTS_ARE.pdf" download><i class="fa-solid fa-file-pdf"></i> Spesifikasi Teknikal untuk Peralatan Radio Amatur-SKMM</a></li>
+            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Guideline-on-the-Allocation-of-Call-Sign-to-the-Amateur-Radio-Service.pdf" download><i class="fa-solid fa-file-pdf"></i> Garis Panduan Mengenai Peruntukan Tanda Panggilan kepada Perkhidmatan Radio Amatur-SKMM</a></li>
+            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Guideline-for-Apparatus-Assignment_Final-121112.pdf" download><i class="fa-solid fa-file-pdf"></i> Garis Panduan Penugasan Radas-SKMM</a></li>
+            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.arrl.org/files/file/VoIP.pdf" download><i class="fa-solid fa-file-pdf"></i> VoIP dan Radio Amatur-ARRL</a></li>
+            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Form-AMATEUR-SERVICE_v2018_ISO.pdf" download><i class="fa-solid fa-file-pdf"></i> Borang Permohonan Tugasan Radas Amatur-SKMM</a></li>
           </ul>
         </div>
       </div>
@@ -257,10 +256,9 @@
             <li class="list-group-item"><a class="text-black text-decoration-none" href="https://mares.org.my/" target="_blank">Malaysian Amateur Radio Emergency Service Society &#40;MARES&#41;</a></li>
             <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.jasra.org.my/" target="_blank">Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</a></li>
             <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.astra.name.my/" target="_blank">Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41;</a></li>
-            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://fb.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063" target="_blank">Radio Emergency Drone Sarawak &#40;REDS&#41; <i class="fa-brands fa-facebook-f"></i></a>
+            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://fb.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063" target="_blank"><i class="fa-brands fa-facebook-f"></i> Radio Emergency Drone Sarawak &#40;REDS&#41;</a></li>
             <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.qrz.com/db/9M4CRP" target="_blank">Kelab Radio Amatur Papar &#40;PARC&#41;</a></li>
-            </li>
-            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://fb.com/krasb.selangor" target="_blank">Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41; <i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://fb.com/krasb.selangor" target="_blank"><i class="fa-brands fa-facebook-f"></i> Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41;</a></li>
           </ul>
         </div>
       </div>
@@ -268,10 +266,10 @@
         <div class="card">
           <div class="card-header text-center">Pautan Luar</div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.iaru-r3.org/" target="_blank">Kesatuan Radio Amatur Antarabangsa - Wilayah 3 </a></li>
+            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.iaru-r3.org/" target="_blank">Kesatuan Radio Amatur Antarabangsa - Wilayah 3</a></li>
             <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.mcmc.gov.my/" target="_blank">Suruhanjaya Komunikasi &amp; Multimedia Malaysia &#40;SKMM&#41;</a></li>
             <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.ros.gov.my/" target="_blank">Jabatan Pendaftaran Pertubuhan Malaysia &#40;JPPM&#41;</a></li>
-            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://ms.wikipedia.org/wiki/Senarai_persatuan_radio_amatur_di_Malaysia" target="_blank">Senarai Persatuan Radio Amatur Malaysia <i class="fa-brands fa-wikipedia-w"></i></a></li>
+            <li class="list-group-item"><a class="text-black text-decoration-none" href="https://ms.wikipedia.org/wiki/Senarai_persatuan_radio_amatur_di_Malaysia" target="_blank"><i class="fa-brands fa-wikipedia-w"></i> Senarai Persatuan Radio Amatur Malaysia</a></li>
             <li class="list-group-item"><a class="text-black text-decoration-none" href="https://bruneiamatureradio.blogspot.com/" target="_blank">Brunei Darussalam Amateur Radio Association &#40;BDARA&#41;</a></li>
             <li class="list-group-item"><a class="text-black text-decoration-none" href="https://orari.or.id/" target="_blank">Organisasi Amatir Radio Indonesia &#40;ORARI&#41;</a></li>
             <li class="list-group-item"><a class="text-black text-decoration-none" href="https://www.rast.or.th/" target="_blank">Radio Amateur Society of Thailand &#40;RAST&#41;</a></li>

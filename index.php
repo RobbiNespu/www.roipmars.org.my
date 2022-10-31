@@ -255,9 +255,9 @@
             <li class="list-group-item"><a href="https://mares.org.my/" target="_blank">Malaysian Amateur Radio Emergency Service Society &#40;MARES&#41;</a></li>
             <li class="list-group-item"><a href="https://www.jasra.org.my/" target="_blank">Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</a></li>
             <li class="list-group-item"><a href="https://www.astra.name.my/" target="_blank">Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41;</a></li>
-            <li class="list-group-item"><a href="https://fb.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063" target="_blank"><i class="fa-brands fa-facebook-f"></i> Radio Emergency Drone Sarawak &#40;REDS&#41;</a></li>
+            <li class="list-group-item"><a href="https://www.facebook.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063" target="_blank"><i class="fa-brands fa-facebook-f"></i> Radio Emergency Drone Sarawak &#40;REDS&#41;</a></li>
             <li class="list-group-item"><a href="https://www.qrz.com/db/9M4CRP" target="_blank">Kelab Radio Amatur Papar &#40;PARC&#41;</a></li>
-            <li class="list-group-item"><a href="https://fb.com/krasb.selangor" target="_blank"><i class="fa-brands fa-facebook-f"></i> Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41;</a></li>
+            <li class="list-group-item"><a href="https://www.facebook.com/krasb.selangor" target="_blank"><i class="fa-brands fa-facebook-f"></i> Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41;</a></li>
           </ul>
         </div>
       </div>
@@ -308,7 +308,7 @@
         </div>
         <div class="col-md-4 col-lg-4 col-xl-4 ml-lg-0">
           <div class="text-end text-decoration-none">
-            <a href="https://fb.com/roipmars.org.my"><span class="fa-stack fa-xl"><i class="fa-solid fa-circle fa-stack-2x"></i><i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i></span></a>
+            <a href="https://www.facebook.com/roipmars.org.my"><span class="fa-stack fa-xl"><i class="fa-solid fa-circle fa-stack-2x"></i><i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i></span></a>
             <a href="https://t.me/marsts3servercyberjaya"><span class="fa-stack fa-xl"><i class="fa-solid fa-circle fa-stack-2x"></i><i class="fa-brands fa-telegram fa-stack-1x fa-inverse"></i></span></a>
             <a href="https://wa.me/c/60333960874"><span class="fa-stack fa-xl"><i class="fa-solid fa-circle fa-stack-2x"></i><i class="fa-brands fa-whatsapp fa-stack-1x fa-inverse"></i></span></a>
             <a href="#" onClick="TSLoginWindow=window.open('https://www.roipmars.org.my/ts3login', 'LogIn TS RoIPMARS', 'width=800,height=600'); return false;"><span class="fa-stack fa-xl"><i class="fa-solid fa-circle fa-stack-2x"></i><i class="fa-brands fa-teamspeak fa-stack-1x fa-inverse"></i></span></a>

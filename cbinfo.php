@@ -152,15 +152,15 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-5">
+      <div class="col-lg-8">
         <h2 class="text-center">Pengenalan</h2>
         <p>CB Radio atau CITIZEN BAND radio sangat popular di Amerika sekitar tahun 70an. Kemudian penggunaanya merebak ke negara-negara lain seperti Britain, Australia, New Zealand serta lain-lain negara. Kebanyakan negara di seluruh dunia sekarang ini, sudah tidak memerlukan lesen peribadi atau lesen CB Radio untuk menggunakan CB Radio, tidak sebagaimana penggunaan Radio Amatur yang memerlukan AA (Aparatus Assignment) dimana pemiliknya perlu lulus ujian atau peperiksaan Radio Amatur. USA menggugurkan keperluan lesen CB Radio sekitar tahun 1982 di ikuti negara Australia termasuk UK pada tahun 2006 serta lain-lain negara eropah.</p>
         <p>Penggunaan CB Radio di Malaysia tidak begitu ketara kerana di Malaysia pada masa lalu sangat-sangat ketat peraturan mengenai pengunaan gelombang radio dan CB radio mulai sah di gunakan di Malaysia bilamana pihak MCMC (Malaysia Communication and Multimedia Comission) atau SKMM (Suruhanjaya Komunikasi dan Mutimedia Malaysia) mengeluarkan notis pengumuman PENGUNTUKAN KELAS pada April 2000 dan di tambah beberapa jalur baru pada 1 APRIL 2010 (Class Assignments no. 1 of 2010). Penggunaan CB radio di Malaysia TIDAK DI KENAKAN APA-APA BAYARAN atau MEMERLUKAN LESEN PERIBADI (AA) seperti RADIO AMATUR selagi penggunaanya mengikut peraturan-peraturan yang di sebutkan didalam PENGUMUMAN PENGUNTUKAN KELAS.</p>
         <p>Jadi disini menunjukkan sekarang ini orang ramai tidak dihalang untuk menggunakan peralatan radio komunikasi tanpa perlu mendapatkan lesen peribadi selagi penggunaannya mengikut terma dan syarat MCMC (SKMM), kerana ianya tidak perlu menduduki apa-apa peperiksaan seperti Radio Amatur atau Ham Radio. Anda boleh menubuhkan group atau KELAB CB RADIO dikalangan rakan-rakan anda dan memilih senarai jalur mana yang anda ingin gunakan, samada CB HF 27 Mhz atau UHF CB FM 477 Mhz atau PMR 446 Mhz atau kesemua frequency yang di benarkan dengan membeli transceiver atau walkie-talkie untuk HF 27Mhz CB dan UHF 446Mhz atau 477Mhz.</p>
         <p>Sesungguhnya hobi di bidang radio ini mempunyai keseronokan tersendiri yang tidak ditemui dalam hobi yang lain, kenapa anda tidak ceburi dan rasai sendiri keseronokan bersembang dengan rakan-rakan yang anda kenali atau baru ingin mengenalinya melalui udara tanpa memikirkan bil yang harus dibayar seperti penggunaan talipon bimbit. Jarak perhubungan purata CB radio adalah di antara 2km hingga 18km dimana dalam masa-masa tertentu boleh mencapai sehingga ribuan km sekiranya anda menggunakan HF CB 27Mhz mode SSB (USB atau LSB).</p>
-        <p class="alert alert-info">CB RADIO ADALAH UNTUK KEGUNAAN SEMUA RAKYAT DI DUNIA.<br>TANPA PERLU MEMBAYAR SEBARANG LESEN PERIBADI ATAU MENGAMBIL SEBARANG PEPERIKSAAN.</p>
+        <p class="alert alert-info text-center">CB RADIO ADALAH UNTUK KEGUNAAN SEMUA RAKYAT DI DUNIA TANPA PERLU MEMBAYAR SEBARANG LESEN PERIBADI ATAU MENGAMBIL SEBARANG PEPERIKSAAN.</p>
         <p>Yang perlu cuma anda membeli sebuah CB Transceiver, power supply dan antenna atau Mobile CB antenna (untuk kegunaan pada kereta, lori, caravan atau bas). Anda boleh membeli CB Transceiver samada melalui e-dagang seperti Shopee, Lazada, Carousell, Mudah.my, Lelong.my, atau kedai yang menjual Radio Transceiver seperti di Jalan Pasar, KL atau Plaza Low Yatt, KL. Tak kira anda siapa, peguam, jurutera, pemandu bas, pemandu trailer kontena, pemandu teksi, guru atau sebagainya yang penting anda sukakan hobi perhubungan radio maka cb radio ni sangat berguna untuk anda gunakan semasa dalam perjalanan, semasa berkonvoi, semasa kecemasan atau hanya untuk sembang-sembang.</p>
-        <p class="alert alert-danger">PERINGATAN! Adalah menjadi kesalahan disisi undang-undang Suruhanjaya Komunikasi dan Multimedia Malaysia (MCMC), menggunakan sebarang peralatan komunikasi dua hala selain dari CB RADIO atau PMR di dalam kenderaan atau sebagainya tanpa memiliki lesen (AA) yang sah, jadi satu-satunya alat komunikasi dua hala yang tidak memerlukan lesen untuk digunakan adalah CB RADIO atau PRS RADIO.</p>
+        <p class="alert alert-danger text-center">PERINGATAN! Adalah menjadi kesalahan disisi undang-undang dobawah AKTA 588 Suruhanjaya Komunikasi dan Multimedia Malaysia (SKMM), menggunakan sebarang peralatan komunikasi dua hala selain dari CB RADIO atau PMR di dalam kenderaan atau sebagainya tanpa memiliki lesen yang sah.<br>Jadi satu-satunya alat komunikasi dua hala yang tidak memerlukan lesen untuk digunakan adalah CB RADIO atau PRS RADIO.</p>
       </div>
       <div class="col-lg-4 text-center">
         <h2>Jalur</h2>
@@ -209,48 +209,13 @@
         </div>
         <table class="table table-bordered table-responsive table-sm text-wrap" style="font-size:xx-small">
           <thead class="align-middle">
-            <tr>
-              <th>Channel</th>
-              <th>Frequency (MHz)</th>
-              <th>Modulation Type</th>
-              <th>Peak power (Watts)</th>
-              <th>Bandwidth (kHz)</th>
-              <th>Reserved Channel</th>
-            </tr>
+            <tr><th>Channel</th><th>Frequency (MHz)</th><th>Modulation Type</th><th>Peak power (Watts)</th><th>Bandwidth (kHz)</th><th>Reserved Channel</th></tr>
           </thead>
           <tbody>
-            <tr>
-              <td>9</td>
-              <td>27.065</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td>Emergency</td>
-            </tr>
-            <tr>
-              <td>11</td>
-              <td>27.085</td>
-              <td>AM</td>
-              <td>4</td>
-              <td>6</td>
-              <td>Calling</td>
-            </tr>
-            <tr>
-              <td>16</td>
-              <td>27.155</td>
-              <td>LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td>Calling</td>
-            </tr>
-            <tr style="background-color: #336699;color: white;font-family: tekton-pro, sans-serif;font-weight: 400;font-style: normal;">
-              <td>30</td>
-              <td>27.305</td>
-              <td>USB/LSB</td>
-              <td>12</td>
-              <td>3</td>
-              <td></td>
-            </tr>
+            <tr><td>9</td><td>27.065</td><td>AM</td><td>4</td><td>6</td><td>Emergency</td></tr>
+            <tr><td>11</td><td>27.085</td><td>AM</td><td>4</td><td>6</td><td>Calling</td></tr>
+            <tr><td>16</td><td>27.155</td><td>LSB</td><td>12</td><td>3</td><td>Calling</td></tr>
+            <tr style="background-color: #336699;color: white;font-family: tekton-pro, sans-serif;font-weight: 400;font-style: normal;"><td>30</td><td>27.305</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
           </tbody>
         </table>
         <hr>
@@ -297,24 +262,11 @@
         </div>
         <table class="table table-bordered table-responsive table-sm text-wrap" style="font-size:xx-small">
           <thead class="align-middle">
-            <tr>
-              <th>Channel</th>
-              <th>Frequency (MHz)</th>
-              <th>Modulation type</th>
-              <th>Peak power (Watts)</th>
-              <th>Bandwidth (kHz)</th>
-              <th>Reserved Channel</th>
-            </tr>
+            <tr><th>Channel</th><th>Frequency (MHz)</th><th>Modulation type</th><th>Peak power (Watts)</th><th>Bandwidth (kHz)</th><th>Reserved Channel</th></tr>
           </thead>
           <tbody>
             <tr style="background-color: #336699;color: white;font-family: tekton-pro, sans-serif;font-weight: 400;font-style: normal;">
-              <td>10</td>
-              <td>477.625</td>
-              <td>FM/PM</td>
-              <td>0.5</td>
-              <td>12.5</td>
-              <td></td>
-            </tr>
+              <td>10</td><td>477.625</td><td>FM/PM</td><td>0.5</td><td>12.5</td><td></td></tr>
           </tbody>
         </table>
         <hr>
@@ -386,306 +338,267 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 text-center">
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-4 text-center">
         <h2>Kod 10</h2>
-        <table class="table table-bordered table-sm" style="font-size: x-small">
+        <table class="table table-bordered table-sm">
           <thead>
             <th>Kod 10</th>
             <th>Maksud</th>
           </thead>
           <tbody>
-            <tr>
-              <td>10-1</td>
-              <td class="text-start">Penerimaan Tidak Memuaskan</td>
-            </tr>
-            <tr>
-              <td>10-2</td>
-              <td class="text-start">Penerimaan Yang Baik</td>
-            </tr>
-            <tr>
-              <td>10-3</td>
-              <td class="text-start">Berhenti Keudara</td>
-            </tr>
-            <tr>
-              <td>10-4</td>
-              <td class="text-start">Ok/Faham/Betul</td>
-            </tr>
-            <tr>
-              <td>10-5</td>
-              <td class="text-start">Mesej Untuk Disampaikan</td>
-            </tr>
-            <tr>
-              <td>10-6</td>
-              <td class="text-start">Sedang Sibuk Kecuali Ada Trafik</td>
-            </tr>
-            <tr>
-              <td>10-7</td>
-              <td class="text-start">Ada Kerosakan /Tidak Keudara</td>
-            </tr>
-            <tr>
-              <td>10-8</td>
-              <td class="text-start">Boleh Keudara</td>
-            </tr>
-            <tr>
-              <td>10-9</td>
-              <td class="text-start">Sila Ulang Mesej</td>
-            </tr>
-            <tr>
-              <td>10-10</td>
-              <td class="text-start">Penyampaian Mesej Tamat</td>
-            </tr>
-            <tr>
-              <td>10-11</td>
-              <td class="text-start">Bercakap Terlalu Cepat</td>
-            </tr>
-            <tr>
-              <td>10-12</td>
-              <td class="text-start">Mengundurkan Diri/Ada Tetamu</td>
-            </tr>
-            <tr>
-              <td>10-13</td>
-              <td class="text-start">Keadaan Cuaca /Jalan</td>
-            </tr>
-            <tr>
-              <td>10-16</td>
-              <td class="text-start">Harap Dijemput /Diambil Pada...</td>
-            </tr>
-            <tr>
-              <td>10-17</td>
-              <td class="text-start">Ada Urusan Penting</td>
-            </tr>
-            <tr>
-              <td>10-18</td>
-              <td class="text-start">Ada Sesuatu Untuk Kita?</td>
-            </tr>
-            <tr>
-              <td>10-19</td>
-              <td class="text-start">Bukan Untuk Kita, Dikembalikan Kepada Pengkalan</td>
-            </tr>
-            <tr>
-              <td>10-20</td>
-              <td class="text-start">Lokasi Stesen (Tx)</td>
-            </tr>
-            <tr>
-              <td>10-21</td>
-              <td class="text-start">Hubungi Melalui Telefon</td>
-            </tr>
-            <tr>
-              <td>10-22</td>
-              <td class="text-start">Sila Lapor Terus Ke ...</td>
-            </tr>
-            <tr>
-              <td>10-23</td>
-              <td class="text-start">Standby / Meminta Untuk Menunggu</td>
-            </tr>
-            <tr>
-              <td>10-24</td>
-              <td class="text-start">Selesai Menjalankan Tugas</td>
-            </tr>
-            <tr>
-              <td>10-25</td>
-              <td class="text-start">Dapat Menghubungi ...?</td>
-            </tr>
-            <tr>
-              <td>10-26</td>
-              <td class="text-start">Abaikan Mesej Terakhir</td>
-            </tr>
-            <tr>
-              <td>10-27</td>
-              <td class="text-start">Tukar Saluran ke ...</td>
-            </tr>
-            <tr>
-              <td>10-28</td>
-              <td class="text-start">Identiti Stesen</td>
-            </tr>
-            <tr>
-              <td>10-29</td>
-              <td class="text-start">Masa Berhubung Tamat</td>
-            </tr>
-            <tr>
-              <td>10-30</td>
-              <td class="text-start">Tidak Patuh Peraturan</td>
-            </tr>
-            <tr>
-              <td>10-32</td>
-              <td class="text-start">Laporan Radas</td>
-            </tr>
-            <tr>
-              <td>10-33</td>
-              <td class="text-start">Keadaan Darurat/Bencana Dikawasan Stesen</td>
-            </tr>
-            <tr>
-              <td>10-34</td>
-              <td class="text-start">Ada Kerosakan/Perlu Bantuan</td>
-            </tr>
-            <tr>
-              <td>10-35</td>
-              <td class="text-start">Informasi Rahsia</td>
-            </tr>
-            <tr>
-              <td>10-36</td>
-              <td class="text-start">Pukul Berapa Sekarang?</td>
-            </tr>
-            <tr>
-              <td>10-39</td>
-              <td class="text-start">Pesanan Telah Disampaikan</td>
-            </tr>
-            <tr>
-              <td>10-41</td>
-              <td class="text-start">Sila Tukar Saluran Ke ...</td>
-            </tr>
-            <tr>
-              <td>10-42</td>
-              <td class="text-start">Ada Kemalangan Di ...</td>
-            </tr>
-            <tr>
-              <td>10-43</td>
-              <td class="text-start">Kesesakan Jalan Raya Di ...</td>
-            </tr>
-            <tr>
-              <td>10-44</td>
-              <td class="text-start">Ada Pesanan Untuk Anda</td>
-            </tr>
-            <tr>
-              <td>10-45</td>
-              <td class="text-start">Yang Berhampiran Sila Lapor</td>
-            </tr>
-            <tr>
-              <td>10-50</td>
-              <td class="text-start">'Break!' Sila Kosongkan Saluran</td>
-            </tr>
-            <tr>
-              <td>10-51</td>
-              <td class="text-start">Salam Hormat</td>
-            </tr>
-            <tr>
-              <td>10-55</td>
-              <td class="text-start">Apa Khabar</td>
-            </tr>
-            <tr>
-              <td>10-60</td>
-              <td class="text-start">Ada Informasi Lanjut</td>
-            </tr>
-            <tr>
-              <td>10-62</td>
-              <td class="text-start">Tidak Faham / Sila Guna Telefon</td>
-            </tr>
-            <tr>
-              <td>10-65</td>
-              <td class="text-start">Menunggu Mesej Selanjutnya</td>
-            </tr>
-            <tr>
-              <td>10-67</td>
-              <td class="text-start">Semua Unit Sedia/Patuh</td>
-            </tr>
-            <tr>
-              <td>10-70</td>
-              <td class="text-start">Ada Kebakaran Di ...</td>
-            </tr>
-            <tr>
-              <td>10-71</td>
-              <td class="text-start">Radas Yang Digunakan</td>
-            </tr>
-            <tr>
-              <td>10-73</td>
-              <td class="text-start">Kamera Perangkap Kelajuan di ...</td>
-            </tr>
-            <tr>
-              <td>10-75</td>
-              <td class="text-start">Penyebab Gangguan</td>
-            </tr>
-            <tr>
-              <td>10-76</td>
-              <td class="text-start">Dalam Perjalanan Ke ...</td>
-            </tr>
-            <tr>
-              <td>10-77</td>
-              <td class="text-start">Tidak Dapat Menghubungi</td>
-            </tr>
-            <tr>
-              <td>10-84</td>
-              <td class="text-start">No. Telefon Saya ...</td>
-            </tr>
-            <tr>
-              <td>10-85</td>
-              <td class="text-start">Alamat saya ...</td>
-            </tr>
-            <tr>
-              <td>10-91</td>
-              <td class="text-start">Bercakap Dekat Dengan Mikrofon</td>
-            </tr>
-            <tr>
-              <td>10-92</td>
-              <td class="text-start">Radas Anda Perlu Dilaras</td>
-            </tr>
-            <tr>
-              <td>10-93</td>
-              <td class="text-start">Semak jalur Saya Di Saluran Ini</td>
-            </tr>
-            <tr>
-              <td>10-94</td>
-              <td class="text-start">Cuba Bercakap Lama Sedikit</td>
-            </tr>
-            <tr>
-              <td>10-95</td>
-              <td class="text-start">'Tx' Selama 5 Saat</td>
-            </tr>
-            <tr>
-              <td>10-99</td>
-              <td class="text-start">Tugas Selesai Dan Semua Selamat</td>
-            </tr>
-            <tr>
-              <td>10-37</td>
-              <td class="text-start">Perlu Kenderaan Tunda Di ...</td>
-            </tr>
-            <tr>
-              <td>10-46</td>
-              <td class="text-start">Perlu Mekank Di ...</td>
-            </tr>
-            <tr>
-              <td>10-38</td>
-              <td class="text-start">Perlu Ambulan Di ...</td>
-            </tr>
-            <tr>
-              <td>10-40</td>
-              <td class="text-start">Perlu Paramedik Di ...</td>
-            </tr>
-            <tr>
-              <td>10-100</td>
-              <td class="text-start">Perlu Ke Tandas</td>
-            </tr>
-            <tr>
-              <td>10-200</td>
-              <td class="text-start">Perlu Bantuan Polis Di ...</td>
-            </tr>
-            <tr>
-              <td>10-300</td>
-              <td class="text-start">Perlu Bantuan Bomba Di ...</td>
-            </tr>
-            <tr>
-              <td>10-400</td>
-              <td class="text-start">Perlu Bantuan Penguatkuasa Di ...</td>
-            </tr>
-            <tr>
-              <td>10-500</td>
-              <td class="text-start">Perlu Bantuan Polis Tatatertib Di ...</td>
-            </tr>
-            <tr>
-              <td>10-600</td>
-              <td class="text-start">Perlu Bantuan Polis Tentera Di ...</td>
-            </tr>
-            <tr>
-              <td>10-700</td>
-              <td class="text-start">Perlu Bantuan Pasukan Penyelamat Di ...</td>
-            </tr>
-            <tr>
-              <td>10-800</td>
-              <td class="text-start">Perlu Bantuan Petugas Elektrik Di ...</td>
-            </tr>
-            <tr>
-              <td>10-900</td>
-              <td class="text-start">Perlu Bantuan Umum Di ...</td>
-            </tr>
+            <tr><td>10-1</td><td class="text-start">Penerimaan Tidak Memuaskan</td></tr>
+            <tr><td>10-2</td><td class="text-start">Penerimaan Yang Baik</td></tr>
+            <tr><td>10-3</td><td class="text-start">Berhenti Keudara</td></tr>
+            <tr><td>10-4</td><td class="text-start">Ok/Faham/Betul</td></tr>
+            <tr><td>10-5</td><td class="text-start">Mesej Untuk Disampaikan</td></tr>
+            <tr><td>10-6</td><td class="text-start">Sedang Sibuk Kecuali Ada Trafik</td></tr>
+            <tr><td>10-7</td><td class="text-start">Ada Kerosakan /Tidak Keudara</td></tr>
+            <tr><td>10-8</td><td class="text-start">Boleh Keudara</td></tr>
+            <tr><td>10-9</td><td class="text-start">Sila Ulang Mesej</td></tr>
+            <tr><td>10-10</td><td class="text-start">Penyampaian Mesej Tamat</td></tr>
+            <tr><td>10-11</td><td class="text-start">Bercakap Terlalu Cepat</td></tr>
+            <tr><td>10-12</td><td class="text-start">Mengundurkan Diri/Ada Tetamu</td></tr>
+            <tr><td>10-13</td><td class="text-start">Keadaan Cuaca /Jalan</td></tr>
+            <tr><td>10-16</td><td class="text-start">Harap Dijemput /Diambil Pada...</td></tr>
+            <tr><td>10-17</td><td class="text-start">Ada Urusan Penting</td></tr>
+            <tr><td>10-18</td><td class="text-start">Ada Sesuatu Untuk Kita?</td></tr>
+            <tr><td>10-19</td><td class="text-start">Bukan Untuk Kita, Dikembalikan Kepada Pengkalan</td></tr>
+            <tr><td>10-20</td><td class="text-start">Lokasi Stesen (Tx)</td></tr>
+            <tr><td>10-21</td><td class="text-start">Hubungi Melalui Telefon</td></tr>
+            <tr><td>10-22</td><td class="text-start">Sila Lapor Terus Ke ...</td></tr>
+            <tr><td>10-23</td><td class="text-start">Standby / Meminta Untuk Menunggu</td></tr>
+            <tr><td>10-24</td><td class="text-start">Selesai Menjalankan Tugas</td></tr>
+            <tr><td>10-25</td><td class="text-start">Dapat Menghubungi ...?</td></tr>
+            <tr><td>10-26</td><td class="text-start">Abaikan Mesej Terakhir</td></tr>
+            <tr><td>10-27</td><td class="text-start">Tukar Saluran ke ...</td></tr>
+            <tr><td>10-28</td><td class="text-start">Identiti Stesen</td></tr>
+            <tr><td>10-29</td><td class="text-start">Masa Berhubung Tamat</td></tr>
+            <tr><td>10-30</td><td class="text-start">Tidak Patuh Peraturan</td></tr>
+            <tr><td>10-32</td><td class="text-start">Laporan Radas</td></tr>
+            <tr><td>10-33</td><td class="text-start">Keadaan Darurat/Bencana Dikawasan Stesen</td></tr>
+            <tr><td>10-34</td><td class="text-start">Ada Kerosakan/Perlu Bantuan</td></tr>
+            <tr><td>10-35</td><td class="text-start">Informasi Rahsia</td></tr>
+            <tr><td>10-36</td><td class="text-start">Jam Berapa Sekarang?</td></tr>
+            <tr><td>10-39</td><td class="text-start">Pesanan Telah Disampaikan</td></tr>
+            <tr><td>10-41</td><td class="text-start">Sila Tukar Saluran Ke ...</td></tr>
+            <tr><td>10-42</td><td class="text-start">Ada Kemalangan di ...</td></tr>
+            <tr><td>10-43</td><td class="text-start">Kesesakan Jalan Raya di ...</td></tr>
+            <tr><td>10-44</td><td class="text-start">Ada Pesanan Untuk Anda</td></tr>
+            <tr><td>10-45</td><td class="text-start">Yang Berhampiran Sila Lapor</td></tr>
+            <tr><td>10-50</td><td class="text-start">'Break!' Sila Kosongkan Saluran</td></tr>
+            <tr><td>10-51</td><td class="text-start">Salam Hormat</td></tr>
+            <tr><td>10-55</td><td class="text-start">Apa Khabar</td></tr>
+            <tr><td>10-60</td><td class="text-start">Ada Informasi Lanjut</td></tr>
+            <tr><td>10-62</td><td class="text-start">Tidak Faham / Sila Guna Telefon</td></tr>
+            <tr><td>10-65</td><td class="text-start">Menunggu Mesej Selanjutnya</td></tr>
+            <tr><td>10-67</td><td class="text-start">Semua Unit Sedia/Patuh</td></tr>
+            <tr><td>10-70</td><td class="text-start">Ada Kebakaran di ...</td></tr>
+            <tr><td>10-71</td><td class="text-start">Radas Yang Digunakan</td></tr>
+            <tr><td>10-73</td><td class="text-start">Kamera Perangkap Kelajuan di ...</td></tr>
+            <tr><td>10-75</td><td class="text-start">Penyebab Gangguan</td></tr>
+            <tr><td>10-76</td><td class="text-start">Dalam Perjalanan Ke ...</td></tr>
+            <tr><td>10-77</td><td class="text-start">Tidak Dapat Menghubungi</td></tr>
+            <tr><td>10-84</td><td class="text-start">No. Telefon Saya ...</td></tr>
+            <tr><td>10-85</td><td class="text-start">Alamat saya ...</td></tr>
+            <tr><td>10-91</td><td class="text-start">Bercakap Dekat Dengan Mikrofon</td></tr>
+            <tr><td>10-92</td><td class="text-start">Radas Anda Perlu Dilaras</td></tr>
+            <tr><td>10-93</td><td class="text-start">Semak jalur Saya Di Saluran Ini</td></tr>
+            <tr><td>10-94</td><td class="text-start">Cuba Bercakap Lama Sedikit</td></tr>
+            <tr><td>10-95</td><td class="text-start">'Tx' Selama 5 Saat</td></tr>
+            <tr><td>10-99</td><td class="text-start">Tugas Selesai Dan Semua Selamat</td></tr>
+            <tr><td>10-37</td><td class="text-start">Perlu Kenderaan Tunda di ...</td></tr>
+            <tr><td>10-46</td><td class="text-start">Perlu Mekank di ...</td></tr>
+            <tr><td>10-38</td><td class="text-start">Perlu Ambulan di ...</td></tr>
+            <tr><td>10-40</td><td class="text-start">Perlu Petugas Kesihatan di ...</td></tr>
+            <tr><td>10-100</td><td class="text-start">Perlu Ke Tandas</td></tr>
+            <tr><td>10-200</td><td class="text-start">Perlu Bantuan Polis di ...</td></tr>
+            <tr><td>10-300</td><td class="text-start">Perlu Bantuan Bomba di ...</td></tr>
+            <tr><td>10-400</td><td class="text-start">Perlu Bantuan Penguatkuasa di ...</td></tr>
+            <tr><td>10-500</td><td class="text-start">Perlu Bantuan Polis Tatatertib di ...</td></tr>
+            <tr><td>10-600</td><td class="text-start">Perlu Bantuan Polis Tentera di ...</td></tr>
+            <tr><td>10-700</td><td class="text-start">Perlu Bantuan Pasukan Penyelamat di ...</td></tr>
+            <tr><td>10-800</td><td class="text-start">Perlu Bantuan Petugas Elektrik di ...</td></tr>
+            <tr><td>10-900</td><td class="text-start">Perlu Bantuan Umum di ...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col text-center">
+        <h2>Tanda Panggilan Jalur Rakyat Negara Asal</h2>
+        <table class="table table-bordered table-sm align-middle">
+          <thead>
+            <tr><th>KOD</th><th>KAWASAN</th><th>KOD</th><th>KAWASAN</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>ITALY</td><td>168</td><td>MAURITIUS IS.</td></tr>
+            <tr><td>2</td><td>U.S.A.</td><td>169</td><td>GUERNSEY ISLAND</td></tr>
+            <tr><td>3</td><td>BRAZIL</td><td>170</td><td>BOURKINA FASO</td></tr>
+            <tr><td>4</td><td>ARGENTINA</td><td>171</td><td>SVALBARD</td></tr>
+            <tr><td>5</td><td>VENEZUELA</td><td>172</td><td>NEW CALEDONIA</td></tr>
+            <tr><td>6</td><td>COLUMBIA</td><td>173</td><td>REUNION ISLAND</td></tr>
+            <tr><td>7</td><td>N. ATILLES</td><td>174</td><td>UGANDA</td></tr>
+            <tr><td>8</td><td>PERU</td><td>175</td><td>CHAD</td></tr>
+            <tr><td>9</td><td>CANADA</td><td>176</td><td>CENTRAL AFRICAN REP</td></tr>
+            <tr><td>10</td><td>MEXICO</td><td>177</td><td>SRILANKA</td></tr>
+            <tr><td>11</td><td>PUERTORICO</td><td>178</td><td>BULGARY</td></tr>
+            <tr><td>12</td><td>URUGUAIY</td><td>179</td><td>CZECHOSLOVAKIA</td></tr>
+            <tr><td>13</td><td>W. GERMANY</td><td>180</td><td>OMAN</td></tr>
+            <tr><td>14</td><td>FRANCE</td><td>181</td><td>SYRIA</td></tr>
+            <tr><td>15</td><td>SWITZERLAND</td><td>182</td><td>GUINEA REPUBLIC</td></tr>
+            <tr><td>16</td><td>BELGIUM</td><td>183</td><td>BENIN (EX DAHOMEY)</td></tr>
+            <tr><td>17</td><td>HAWAII</td><td>184</td><td>BURUNDI</td></tr>
+            <tr><td>18</td><td>GREECE</td><td>185</td><td>COMORO ISLAND</td></tr>
+            <tr><td>19</td><td>HOLLAND</td><td>186</td><td>DIJBOUTI</td></tr>
+            <tr><td>20</td><td>NORWAY</td><td>187</td><td>KENYA</td></tr>
+            <tr><td>21</td><td>SWEDEN</td><td>188</td><td>MALAGASY REPUBLIC</td></tr>
+            <tr><td>22</td><td>GUAYANA</td><td>189</td><td>MAYOTTE ISLAND</td></tr>
+            <tr><td>23</td><td>JAMAICA</td><td>190</td><td>SEYCHELLES ISLAND</td></tr>
+            <tr><td>24</td><td>PANAMA</td><td>191</td><td>SWAZILAND</td></tr>
+            <tr><td>25</td><td>JAPAN</td><td>192</td><td>COCOS IS. (C USA)</td></tr>
+            <tr><td>26</td><td>ENGLAND</td><td>193</td><td>COCOS IS. (OCEANIA)</td></tr>
+            <tr><td>27</td><td>ICELAND</td><td>194</td><td>DOMINICA ISLAND</td></tr>
+            <tr><td>28</td><td>HONDURAS</td><td>195</td><td>GRENADA ISLAND</td></tr>
+            <tr><td>29</td><td>IRELAND</td><td>196</td><td>GUADELOUPE</td></tr>
+            <tr><td>30</td><td>SPAIN</td><td>197</td><td>VANAUTU</td></tr>
+            <tr><td>31</td><td>PORTUGAL</td><td>198</td><td>FALKLAND ISLAND</td></tr>
+            <tr><td>32</td><td>CHILLE</td><td>199</td><td>GUINEA EQUATOR</td></tr>
+            <tr><td>33</td><td>ALASKA</td><td>200</td><td>SHETLAND ISLAND</td></tr>
+            <tr><td>34</td><td>CANARY IS</td><td>201</td><td>FRENCH POLINESIA</td></tr>
+            <tr><td>35</td><td>AUSTRIA</td><td>202</td><td>BHUTAN</td></tr>
+            <tr><td>36</td><td>R. S. MARINO</td><td>203</td><td>CHINA REPUBLIC</td></tr>
+            <tr><td>37</td><td>R. DOMINICANA</td><td>204</td><td>MOZAMBIQUE</td></tr>
+            <tr><td>38</td><td>GREENLAND</td><td>205</td><td>CAPE VERDE REPUBLIC</td></tr>
+            <tr><td>39</td><td>ANGOLA</td><td>206</td><td>ETHIOPIA</td></tr>
+            <tr><td>40</td><td>LIECHTENSTEIN</td><td>207</td><td>SAINT MARTIN IS.</td></tr>
+            <tr><td>41</td><td>NEW ZEALAND</td><td>208</td><td>GLORIOSO ISLAND</td></tr>
+            <tr><td>42</td><td>LIBERIA</td><td>209</td><td>JUAN DE NOVA EUROPA</td></tr>
+            <tr><td>43</td><td>AUSTRALIA</td><td>210</td><td>WALLIS &amp; FUTUNA IS.</td></tr>
+            <tr><td>44</td><td>S. AFRICA</td><td>211</td><td>JAN MAYEN ISLAND</td></tr>
+            <tr><td>45</td><td>SERBIA</td><td>212</td><td>ALAN ISLAND</td></tr>
+            <tr><td></td><td></td><td>213</td><td>MARKET REEF</td></tr>
+            <tr><td>47</td><td>DENMARK</td><td>214</td><td>CONGO</td></tr>
+            <tr><td>48</td><td>SAUDI ARABIA</td><td>215</td><td>GABON</td></tr>
+            <tr><td>49</td><td>BALEARES IS</td><td>216</td><td>MALI</td></tr>
+            <tr><td>50</td><td>U. S. S. R.</td><td>217</td><td>CHRISTMAS ISLAND</td></tr>
+            <tr><td>51</td><td>ANDORRA</td><td>218</td><td>BELIZE</td></tr>
+            <tr><td>52</td><td>FAROE IS.</td><td>219</td><td>ANGUILLA ISLAND</td></tr>
+            <tr><td>53</td><td>EL SALVADOR</td><td>220</td><td>S. VINCENT &amp; DEPEND</td></tr>
+            <tr><td>54</td><td>LUXEMBOURG</td><td>221</td><td>SOUTH ORKNEY</td></tr>
+            <tr><td>55</td><td>GIBRALTAR</td><td>222</td><td>SANDWICH ISLAND</td></tr>
+            <tr><td>56</td><td>FINLAND</td><td>223</td><td>GLORIOSO ISLAND</td></tr>
+            <tr><td>57</td><td>INDIA</td><td>224</td><td>GILBERT &amp; OCEAN IS.</td></tr>
+            <tr><td>58</td><td>MALAYSIA EAST</td><td>225</td><td>BRUNEI</td></tr>
+            <tr><td>59</td><td>DODECANESE IS.</td><td>226</td><td>MALAWI</td></tr>
+            <tr><td>60</td><td>HONG KONG</td><td>227</td><td>RWUANDA</td></tr>
+            <tr><td>61</td><td>EQUADOR</td><td>228</td><td>CHAGOS</td></tr>
+            <tr><td>62</td><td>GUAM IS.</td><td>229</td><td>HEARD ISLAND</td></tr>
+            <tr><td>63</td><td>ST HELENA IS.</td><td>230</td><td>MICRONESIA</td></tr>
+            <tr><td>64</td><td>SENEGAL</td><td>231</td><td>ST PETER/PAUL ROCKS</td></tr>
+            <tr><td>65</td><td>SIERIA LEONE</td><td>232</td><td>ARUBA</td></tr>
+            <tr><td>66</td><td>MAURITANIA</td><td>233</td><td>ROMANIA</td></tr>
+            <tr><td>67</td><td>PARAGUAY</td><td>234</td><td>AFGANISTAN</td></tr>
+            <tr><td>68</td><td>ULSTER</td><td>235</td><td>ITU GENEVA</td></tr>
+            <tr><td>69</td><td>COSTA RICA</td><td>236</td><td>BANGLADESH</td></tr>
+            <tr><td>70</td><td>AMERICAN SAMOA</td><td>237</td><td>BIRMANIA</td></tr>
+            <tr><td>71</td><td>MIDWAY</td><td>238</td><td>CAMBOGIA</td></tr>
+            <tr><td>72</td><td>GUATEMALA</td><td>239</td><td>LAOS</td></tr>
+            <tr><td>73</td><td>SURINAM</td><td>240</td><td>MACAO</td></tr>
+            <tr><td>74</td><td>NAMBIA S. W. A.</td><td>241</td><td>SPRATLY</td></tr>
+            <tr><td>75</td><td>AZORES IS.</td><td>242</td><td>VIETNAM</td></tr>
+            <tr><td>76</td><td>MOROCCO</td><td>243</td><td>AGALEGA &amp; ST BRANDO</td></tr>
+            <tr><td>77</td><td>GHANA</td><td>244</td><td>ANNOBON</td></tr>
+            <tr><td>78</td><td>ZAMBIA</td><td>245</td><td>NIGER</td></tr>
+            <tr><td>79</td><td>PHILIPPINAS</td><td>246</td><td>SAO TOMBE/PRINCIPLE IS.</td></tr>
+            <tr><td>80</td><td>BOLIVIA</td><td>247</td><td>NAVASSA ISLAND</td></tr>
+            <tr><td>81</td><td>S. ANDRES IS.</td><td>248</td><td>TURKS &amp; CAOCOS IS.</td></tr>
+            <tr><td>82</td><td>GUANTANAMO BAY</td><td>249</td><td>AMSTERDAM &amp; S PAUL</td></tr>
+            <tr><td>83</td><td>TANZANIA</td><td>250</td><td>COOK ISLAND</td></tr>
+            <tr><td>84</td><td>IVORY COAST</td><td>251</td><td>ALBANIA</td></tr>
+            <tr><td>85</td><td>ZIMBABWE</td><td>252</td><td>REVILLA ET GIGEDO</td></tr>
+            <tr><td>86</td><td>NEPAL</td><td>253</td><td>ANDAMAN</td></tr>
+            <tr><td>87</td><td>YEMAN N. (DEL)</td><td>254</td><td>MOUNTH ATHOS</td></tr>
+            <tr><td>88</td><td>CUBA</td><td>255</td><td>KERGUELEEN</td></tr>
+            <tr><td>89</td><td>NIGERIA</td><td>256</td><td>MARION ISLAND</td></tr>
+            <tr><td>90</td><td>CRETE</td><td>257</td><td>RODRIGUES ISLAND</td></tr>
+            <tr><td>91</td><td>INDONESIA</td><td>258</td><td>TRISTAN DA CUNDHA</td></tr>
+            <tr><td>92</td><td>LIBYA</td><td>259</td><td>TOMELIN</td></tr>
+            <tr><td>93</td><td>MALTA</td><td>260</td><td>BAKER HOWLAND</td></tr>
+            <tr><td>94</td><td>U.A.E. EMIRAT ARABIA</td><td>261</td><td>CHATAM ISLAND</td></tr>
+            <tr><td>95</td><td>MONGOLIA</td><td>262</td><td>JOHNSTON ISLAND</td></tr>
+            <tr><td>96</td><td>TONGA</td><td>263</td><td>KERMADEC ISLAND</td></tr>
+            <tr><td>97</td><td>ISRAEL</td><td>264</td><td>KINGMAN REEF IS.</td></tr>
+            <tr><td>98</td><td>SINGAPORE</td><td>265</td><td>KIRIBATI CENTRE</td></tr>
+            <tr><td>99</td><td>FIJI ISLAND</td><td>266</td><td>KIRIBATI EAST</td></tr>
+            <tr><td>100</td><td>KOREA</td><td>267</td><td>KURE ISLAND</td></tr>
+            <tr><td>101</td><td>PAPUA NEW GUINEA</td><td>268</td><td>LORD HOWE ISLAND</td></tr>
+            <tr><td>102</td><td>KUWAIT</td><td>269</td><td>MELLISH REEF</td></tr>
+            <tr><td>103</td><td>HAITI</td><td>270</td><td>MINAMI TORISHIMA</td></tr>
+            <tr><td>104</td><td>CORSE</td><td>271</td><td>NAURU</td></tr>
+            <tr><td>105</td><td>BOTSWANA</td><td>272</td><td>NIVE ISLAND</td></tr>
+            <tr><td>106</td><td>CEUTA MELILLA</td><td>273</td><td>PALMYRA ISLAND</td></tr>
+            <tr><td>107</td><td>MONACO</td><td>274</td><td>PITCAIRN</td></tr>
+            <tr><td>108</td><td>SCOTLAND</td><td>275</td><td>TOKELAUS</td></tr>
+            <tr><td>109</td><td>HUNGARY</td><td>276</td><td>TUVALU</td></tr>
+            <tr><td>110</td><td>CYPRUS</td><td>277</td><td>SABLE ISLAND</td></tr>
+            <tr><td>111</td><td>JORDAN</td><td>278</td><td>WAKE ISLAND</td></tr>
+            <tr><td>112</td><td>LYBAN LEBANON</td><td>279</td><td>WILLIS ISLAND</td></tr>
+            <tr><td>113</td><td>MALAYSIA WEST</td><td>280</td><td>AVES ISLAND</td></tr>
+            <tr><td>114</td><td>PAKISTAN</td><td>281</td><td>OGASAWARA ISLAND</td></tr>
+            <tr><td>115</td><td>QATAR</td><td>282</td><td>AUKLAND CAMBELL</td></tr>
+            <tr><td>116</td><td>TURKYA</td><td>283</td><td>S KITTS E NEVIS</td></tr>
+            <tr><td>117</td><td>EGYPT</td><td>284</td><td>SAINT PAUL</td></tr>
+            <tr><td>118</td><td>THE GAMBIA</td><td>285</td><td>FERNANDO DE NOROHA</td></tr>
+            <tr><td>119</td><td>MADERIA</td><td>286</td><td>JUAN FERNANDEZ</td></tr>
+            <tr><td>120</td><td>ANTIGUA</td><td>287</td><td>MALPELO</td></tr>
+            <tr><td>121</td><td>BAHAMAS</td><td>288</td><td>S FELIX S AMBROSIO</td></tr>
+            <tr><td>122</td><td>BARBADOS</td><td>289</td><td>SOUTH GEORGIA ISLAND</td></tr>
+            <tr><td>123</td><td>BERMUDA</td><td>290</td><td>TRINIDADE MARTIN VAZ</td></tr>
+            <tr><td>124</td><td>AMSREDAM IS.</td><td>291</td><td>CYPRUS ZCA (S. BASE)</td></tr>
+            <tr><td>125</td><td>CAYMAN IS.</td><td>292</td><td>ABU AIL</td></tr>
+            <tr><td>126</td><td>NICARAGUA</td><td>293</td><td>GUINEA BISSAU</td></tr>
+            <tr><td>127</td><td>VIRGIN IS. (US)</td><td>294</td><td>PETER IST ISLAND</td></tr>
+            <tr><td>128</td><td>VIRGIN IS. (UK)</td><td>295</td><td>SOUTHERN SUDAN</td></tr>
+            <tr><td>129</td><td>MACQUAIRE IS. (US)</td><td>296</td><td>CLIPPERTON ISLAND</td></tr>
+            <tr><td>130</td><td>NORFOLK IS. (US)</td><td>297</td><td>BOUVET ISLAND</td></tr>
+            <tr><td>131</td><td>GUAYANA (BRITISH)</td><td>298</td><td>CROZET ISLAND</td></tr>
+            <tr><td>132</td><td>MARSHAL ISLAND</td><td>299</td><td>DESECHEO ISLAND</td></tr>
+            <tr><td>133</td><td>MARIANA ISLAND</td><td>300</td><td>W. SAHARA RIO DE ORO</td></tr>
+            <tr><td>134</td><td>CAROINE ISLAND</td><td>301</td><td>ARMENIA</td></tr>
+            <tr><td>135</td><td>SOLOMON ISLAND</td><td>302</td><td>ASIATIC RUSSIA</td></tr>
+            <tr><td>136</td><td>MARTINI QUE ISLAND</td><td>303</td><td>AZERBAIJAN</td></tr>
+            <tr><td>137</td><td>MAN (U.K.)</td><td>304</td><td>ESTONIA</td></tr>
+            <tr><td>138</td><td>VATICAN CITY</td><td>305</td><td>FRANZ JOSEPHLAND</td></tr>
+            <tr><td>139</td><td>SOUTH YEMAN (DEL)</td><td>306</td><td>GEORGIA</td></tr>
+            <tr><td>140</td><td>ANTARCTICA (CHILE)</td><td>307</td><td>KALINGRADSK</td></tr>
+            <tr><td>141</td><td>S. PIERRE &amp; MIQUELON</td><td>308</td><td>KAZAKH</td></tr>
+            <tr><td>142</td><td>LESOTHO</td><td>309</td><td>KIRGHIZ</td></tr>
+            <tr><td>143</td><td>S. LUCIA ISLAND</td><td>310</td><td>LATVIA</td></tr>
+            <tr><td>144</td><td>EASTER IS.(PASQUA)</td><td>311</td><td>LITHUANIA</td></tr>
+            <tr><td>145</td><td>GALAPAGOS ISLAND</td><td>312</td><td>MOLDAVIA</td></tr>
+            <tr><td>146</td><td>ALGERIA</td><td>313</td><td>TADZHIK</td></tr>
+            <tr><td>147</td><td>TUNISIA</td><td>314</td><td>TURKOMAN</td></tr>
+            <tr><td>148</td><td>ASCENSION ISLAND</td><td>315</td><td>UKRAINE</td></tr>
+            <tr><td>149</td><td>LACCADIVE ISLAND</td><td>316</td><td>UZBEK</td></tr>
+            <tr><td>150</td><td>BAHARAIN</td><td>317</td><td>WHITE RUSSIA</td></tr>
+            <tr><td>151</td><td>IRAQ</td><td>318</td><td>S.M.O.M.</td></tr>
+            <tr><td>152</td><td>MALDIVE</td><td>319</td><td>O.N.U. NEW YORK</td></tr>
+            <tr><td>153</td><td>THAILAND</td><td>320</td><td>BANABA ISLAND</td></tr>
+            <tr><td>154</td><td>IRAN</td><td>321</td><td>CONWAY REEF</td></tr>
+            <tr><td>155</td><td>TAIWAN</td><td>322</td><td>WALVIS BAY</td></tr>
+            <tr><td>156</td><td>CAMEROON</td><td>323</td><td>REP YEMEN</td></tr>
+            <tr><td>157</td><td>MONT SERRAT</td><td>324</td><td>PENGUIN ISLAND</td></tr>
+            <tr><td>158</td><td>TRINIDAD &amp; TOBAGO</td><td>325</td><td>ROTUMA ISLAND</td></tr>
+            <tr><td>159</td><td>SOMALIA</td><td>326</td><td>MALYJVYSOTSKJ IS.</td></tr>
+            <tr><td>160</td><td>SUDAN</td><td>327</td><td>SLOVENIA</td></tr>
+            <tr><td>161</td><td>POLAND</td><td>328</td><td>CROATIA</td></tr>
+            <tr><td>162</td><td>ZAIRE</td><td>329</td><td>CZECH REP</td></tr>
+            <tr><td>163</td><td>WALES</td><td>330</td><td>SLOVAKIA</td></tr>
+            <tr><td>164</td><td>TOGO</td><td>331</td><td>BOSNIA</td></tr>
+            <tr><td>165</td><td>SARDINIA</td><td>332</td><td>MACEDONIA</td></tr>
+            <tr><td>166</td><td>S. MAARTEN IS.</td><td>333</td><td>AFRICA (ERITREA)</td></tr>
+            <tr><td>167</td><td>JERSEY</td><td></td><td></td></tr>
           </tbody>
         </table>
       </div>
@@ -693,821 +606,13 @@
     <hr>
     <div class="row">
       <div class="col">
-        <h3 class="text-center">Callsign Country Code</h3>
-        <table class="table table-bordered table-sm table-responsive-sm" style="font-size:xx-small">
-          <tr>
-            <td>1</td>
-            <td>ITALY</td>
-            <td>51</td>
-            <td>ANDORRA</td>
-            <td>101</td>
-            <td>PAPUA NEW GUINEA</td>
-            <td>151</td>
-            <td>IRAQ</td>
-            <td>201</td>
-            <td>FRENCH POLINESIA</td>
-            <td>251</td>
-            <td>ALBANIA</td>
-            <td>301</td>
-            <td>ARMENIA</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>U.S.A.</td>
-            <td>52</td>
-            <td>FAROE IS.</td>
-            <td>102</td>
-            <td>KUWAIT</td>
-            <td>152</td>
-            <td>MALDIVE</td>
-            <td>202</td>
-            <td>BHUTAN</td>
-            <td>252</td>
-            <td>REVILLA ET GIGEDO</td>
-            <td>302</td>
-            <td>ASIATIC RUSSIA</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>BRAZIL</td>
-            <td>53</td>
-            <td>EL SALVADOR</td>
-            <td>103</td>
-            <td>HAITI</td>
-            <td class="table-info font-weight-bolder"><strong>153</strong></td>
-            <td class="table-info font-weight-bolder"><strong>THAILAND</strong></td>
-            <td>203</td>
-            <td>CHINA REPUBLIC</td>
-            <td>253</td>
-            <td>ANDAMAN</td>
-            <td>303</td>
-            <td>AZERBAIJAN</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>ARGENTINA</td>
-            <td>54</td>
-            <td>LUXEMBOURG</td>
-            <td>104</td>
-            <td>CORSE</td>
-            <td>154</td>
-            <td>IRAN</td>
-            <td>204</td>
-            <td>MOZAMBIQUE</td>
-            <td>254</td>
-            <td>MOUNTH ATHOS</td>
-            <td>304</td>
-            <td>ESTONIA</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>VENEZUELA</td>
-            <td>55</td>
-            <td>GIBRALTAR</td>
-            <td>105</td>
-            <td>BOTSWANA</td>
-            <td>155</td>
-            <td>TAIWAN</td>
-            <td>205</td>
-            <td>CAPE VERDE REPUBLIC</td>
-            <td>255</td>
-            <td>KERGUELEEN</td>
-            <td>305</td>
-            <td>FRANZ JOSEPHLAND</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>COLUMBIA</td>
-            <td>56</td>
-            <td>FINLAND</td>
-            <td>106</td>
-            <td>CEUTA MELILLA</td>
-            <td>156</td>
-            <td>CAMEROON</td>
-            <td>206</td>
-            <td>ETHIOPIA</td>
-            <td>256</td>
-            <td>MARION ISLAND</td>
-            <td>306</td>
-            <td>GEORGIA</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>N. ATILLES</td>
-            <td>57</td>
-            <td>INDIA</td>
-            <td>107</td>
-            <td>MONACO</td>
-            <td>157</td>
-            <td>MONT SERRAT</td>
-            <td>207</td>
-            <td>SAINT MARTIN IS.</td>
-            <td>257</td>
-            <td>RODRIGUES ISLAND</td>
-            <td>307</td>
-            <td>KALINGRADSK</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>PERU</td>
-            <td class="table-info font-weight-bolder"><strong>58</strong></td>
-            <td class="table-info font-weight-bolder"><strong>MALAYSIA EAST</strong></td>
-            <td>108</td>
-            <td>SCOTLAND</td>
-            <td>158</td>
-            <td>TRINIDAD &amp; TOBAGO</td>
-            <td>208</td>
-            <td>GLORIOSO ISLAND</td>
-            <td>258</td>
-            <td>TRISTAN DA CUNDHA</td>
-            <td>308</td>
-            <td>KAZAKH</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>CANADA</td>
-            <td>59</td>
-            <td>DODECANESE IS.</td>
-            <td>109</td>
-            <td>HUNGARY</td>
-            <td>159</td>
-            <td>SOMALIA</td>
-            <td>209</td>
-            <td>JUAN DE NOVA EUROPA</td>
-            <td>259</td>
-            <td>TOMELIN</td>
-            <td>309</td>
-            <td>KIRGHIZ</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>MEXICO</td>
-            <td>60</td>
-            <td>HONG KONG</td>
-            <td>110</td>
-            <td>CYPRUS</td>
-            <td>160</td>
-            <td>SUDAN</td>
-            <td>210</td>
-            <td>WALLIS &amp; FUTUNA IS.</td>
-            <td>260</td>
-            <td>BAKER HOWLAND</td>
-            <td>310</td>
-            <td>LATVIA</td>
-          </tr>
-          <tr>
-            <td>11</td>
-            <td>PUERTORICO</td>
-            <td>61</td>
-            <td>EQUADOR</td>
-            <td>111</td>
-            <td>JORDAN</td>
-            <td>161</td>
-            <td>POLAND</td>
-            <td>211</td>
-            <td>JAN MAYEN ISLAND</td>
-            <td>261</td>
-            <td>CHATAM ISLAND</td>
-            <td>311</td>
-            <td>LITHUANIA</td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>URUGUAIY</td>
-            <td>62</td>
-            <td>GUAM IS.</td>
-            <td>112</td>
-            <td>LYBAN LEBANON</td>
-            <td>162</td>
-            <td>ZAIRE</td>
-            <td>212</td>
-            <td>ALAN ISLAND</td>
-            <td>262</td>
-            <td>JOHNSTON ISLAND</td>
-            <td>312</td>
-            <td>MOLDAVIA</td>
-          </tr>
-          <tr>
-            <td>13</td>
-            <td>W. GERMANY</td>
-            <td>63</td>
-            <td>ST HELENA IS.</td>
-            <td class="table-info font-weight-bolder"><strong>113</strong></td>
-            <td class="table-info font-weight-bolder"><strong>MALAYSIA WEST</strong></td>
-            <td>163</td>
-            <td>WALES</td>
-            <td>213</td>
-            <td>MARKET REEF</td>
-            <td>263</td>
-            <td>KERMADEC ISLAND</td>
-            <td>313</td>
-            <td>TADZHIK</td>
-          </tr>
-          <tr>
-            <td>14</td>
-            <td>FRANCE</td>
-            <td>64</td>
-            <td>SENEGAL</td>
-            <td>114</td>
-            <td>PAKISTAN</td>
-            <td>164</td>
-            <td>TOGO</td>
-            <td>214</td>
-            <td>CONGO</td>
-            <td>264</td>
-            <td>KINGMAN REEF IS.</td>
-            <td>314</td>
-            <td>TURKOMAN</td>
-          </tr>
-          <tr>
-            <td>15</td>
-            <td>SWITZERLAND</td>
-            <td>65</td>
-            <td>SIERIA LEONE</td>
-            <td>115</td>
-            <td>QATAR</td>
-            <td>165</td>
-            <td>SARDINIA</td>
-            <td>215</td>
-            <td>GABON</td>
-            <td>265</td>
-            <td>KIRIBATI CENTRE</td>
-            <td>315</td>
-            <td>UKRAINE</td>
-          </tr>
-          <tr>
-            <td>16</td>
-            <td>BELGIUM</td>
-            <td>66</td>
-            <td>MAURITANIA</td>
-            <td>116</td>
-            <td>TURKYA</td>
-            <td>166</td>
-            <td>S. MAARTEN IS.</td>
-            <td>216</td>
-            <td>MALI</td>
-            <td>266</td>
-            <td>KIRIBATI EAST</td>
-            <td>316</td>
-            <td>UZBEK</td>
-          </tr>
-          <tr>
-            <td>17</td>
-            <td>HAWAII</td>
-            <td>67</td>
-            <td>PARAGUAY</td>
-            <td>117</td>
-            <td>EGYPT</td>
-            <td>167</td>
-            <td>JERSEY</td>
-            <td>217</td>
-            <td>CHRISTMAS ISLAND</td>
-            <td>267</td>
-            <td>KURE ISLAND</td>
-            <td>317</td>
-            <td>WHITE RUSSIA</td>
-          </tr>
-          <tr>
-            <td>18</td>
-            <td>GREECE</td>
-            <td>68</td>
-            <td>ULSTER</td>
-            <td>118</td>
-            <td>THE GAMBIA</td>
-            <td>168</td>
-            <td>MAURITIUS IS.</td>
-            <td>218</td>
-            <td>BELIZE</td>
-            <td>268</td>
-            <td>LORD HOWE ISLAND</td>
-            <td>318</td>
-            <td>S.M.O.M.</td>
-          </tr>
-          <tr>
-            <td>19</td>
-            <td>HOLLAND</td>
-            <td>69</td>
-            <td>COSTA RICA</td>
-            <td>119</td>
-            <td>MADERIA</td>
-            <td>169</td>
-            <td>GUERNSEY ISLAND</td>
-            <td>219</td>
-            <td>ANGUILLA ISLAND</td>
-            <td>269</td>
-            <td>MELLISH REEF</td>
-            <td>319</td>
-            <td>O.N.U. NEW YORK</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>NORWAY</td>
-            <td>70</td>
-            <td>AMERICAN SAMOA</td>
-            <td>120</td>
-            <td>ANTIGUA</td>
-            <td>170</td>
-            <td>BOURKINA FASO</td>
-            <td>220</td>
-            <td>S. VINCENT &amp; DEPEND</td>
-            <td>270</td>
-            <td>MINAMI TORISHIMA</td>
-            <td>320</td>
-            <td>BANABA ISLAND</td>
-          </tr>
-          <tr>
-            <td>21</td>
-            <td>SWEDEN</td>
-            <td>71</td>
-            <td>MIDWAY</td>
-            <td>121</td>
-            <td>BAHAMAS</td>
-            <td>171</td>
-            <td>SVALBARD</td>
-            <td>221</td>
-            <td>SOUTH ORKNEY</td>
-            <td>271</td>
-            <td>NAURU</td>
-            <td>321</td>
-            <td>CONWAY REEF</td>
-          </tr>
-          <tr>
-            <td>22</td>
-            <td>GUAYANA</td>
-            <td>72</td>
-            <td>GUATEMALA</td>
-            <td>122</td>
-            <td>BARBADOS</td>
-            <td>172</td>
-            <td>NEW CALEDONIA</td>
-            <td>222</td>
-            <td>SANDWICH ISLAND</td>
-            <td>272</td>
-            <td>NIVE ISLAND</td>
-            <td>322</td>
-            <td>WALVIS BAY</td>
-          </tr>
-          <tr>
-            <td>23</td>
-            <td>JAMAICA</td>
-            <td>73</td>
-            <td>SURINAM</td>
-            <td>123</td>
-            <td>BERMUDA</td>
-            <td>173</td>
-            <td>REUNION ISLAND</td>
-            <td>223</td>
-            <td>GLORIOSO ISLAND</td>
-            <td>273</td>
-            <td>PALMYRA ISLAND</td>
-            <td>323</td>
-            <td>REP YEMEN</td>
-          </tr>
-          <tr>
-            <td>24</td>
-            <td>PANAMA</td>
-            <td>74</td>
-            <td>NAMBIA S. W. A.</td>
-            <td>124</td>
-            <td>AMSREDAM IS.</td>
-            <td>174</td>
-            <td>UGANDA</td>
-            <td>224</td>
-            <td>GILBERT &amp; OCEAN IS.</td>
-            <td>274</td>
-            <td>PITCAIRN</td>
-            <td>324</td>
-            <td>PENGUIN ISLAND</td>
-          </tr>
-          <tr>
-            <td>25</td>
-            <td>JAPAN</td>
-            <td>75</td>
-            <td>AZORES IS.</td>
-            <td>125</td>
-            <td>CAYMAN IS.</td>
-            <td>175</td>
-            <td>CHAD</td>
-            <td class="table-info font-weight-bolder"><strong>225</strong></td>
-            <td class="table-info font-weight-bolder"><strong>BRUNEI</strong></td>
-            <td>275</td>
-            <td>TOKELAUS</td>
-            <td>325</td>
-            <td>ROTUMA ISLAND</td>
-          </tr>
-          <tr>
-            <td>26</td>
-            <td>ENGLAND</td>
-            <td>76</td>
-            <td>MOROCCO</td>
-            <td>126</td>
-            <td>NICARAGUA</td>
-            <td>176</td>
-            <td>CENTRAL AFRICAN REP</td>
-            <td>226</td>
-            <td>MALAWI</td>
-            <td>276</td>
-            <td>TUVALU</td>
-            <td>326</td>
-            <td>MALYJVYSOTSKJ IS.</td>
-          </tr>
-          <tr>
-            <td>27</td>
-            <td>ICELAND</td>
-            <td>77</td>
-            <td>GHANA</td>
-            <td>127</td>
-            <td>VIRGIN IS. (US)</td>
-            <td>177</td>
-            <td>SRILANKA</td>
-            <td>227</td>
-            <td>RWUANDA</td>
-            <td>277</td>
-            <td>SABLE ISLAND</td>
-            <td>327</td>
-            <td>SLOVENIA</td>
-          </tr>
-          <tr>
-            <td>28</td>
-            <td>HONDURAS</td>
-            <td>78</td>
-            <td>ZAMBIA</td>
-            <td>128</td>
-            <td>VIRGIN IS. (UK)</td>
-            <td>178</td>
-            <td>BULGARY</td>
-            <td>228</td>
-            <td>CHAGOS</td>
-            <td>278</td>
-            <td>WAKE ISLAND</td>
-            <td>328</td>
-            <td>CROATIA</td>
-          </tr>
-          <tr>
-            <td>29</td>
-            <td>IRELAND</td>
-            <td>79</td>
-            <td>PHILIPPINAS</td>
-            <td>129</td>
-            <td>MACQUAIRE IS. (US)</td>
-            <td>179</td>
-            <td>CZECHOSLOVAKIA</td>
-            <td>229</td>
-            <td>HEARD ISLAND</td>
-            <td>279</td>
-            <td>WILLIS ISLAND</td>
-            <td>329</td>
-            <td>CZECH REP</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>SPAIN</td>
-            <td>80</td>
-            <td>BOLIVIA</td>
-            <td>130</td>
-            <td>NORFOLK IS. (US)</td>
-            <td>180</td>
-            <td>OMAN</td>
-            <td>230</td>
-            <td>MICRONESIA</td>
-            <td>280</td>
-            <td>AVES ISLAND</td>
-            <td>330</td>
-            <td>SLOVAKIA</td>
-          </tr>
-          <tr>
-            <td>31</td>
-            <td>PORTUGAL</td>
-            <td>81</td>
-            <td>S. ANDRES IS.</td>
-            <td>131</td>
-            <td>GUAYANA (BRITISH)</td>
-            <td>181</td>
-            <td>SYRIA</td>
-            <td>231</td>
-            <td>ST PETER/PAUL ROCKS</td>
-            <td>281</td>
-            <td>OGASAWARA ISLAND</td>
-            <td>331</td>
-            <td>BOSNIA</td>
-          </tr>
-          <tr>
-            <td>32</td>
-            <td>CHILLE</td>
-            <td>82</td>
-            <td>GUANTANAMO BAY</td>
-            <td>132</td>
-            <td>MARSHAL ISLAND</td>
-            <td>182</td>
-            <td>GUINEA REPUBLIC</td>
-            <td>232</td>
-            <td>ARUBA</td>
-            <td>282</td>
-            <td>AUKLAND CAMBELL</td>
-            <td>332</td>
-            <td>MACEDONIA</td>
-          </tr>
-          <tr>
-            <td>33</td>
-            <td>ALASKA</td>
-            <td>83</td>
-            <td>TANZANIA</td>
-            <td>133</td>
-            <td>MARIANA ISLAND</td>
-            <td>183</td>
-            <td>BENIN (EX DAHOMEY)</td>
-            <td>233</td>
-            <td>ROMANIA</td>
-            <td>283</td>
-            <td>S KITTS E NEVIS</td>
-            <td>333</td>
-            <td>AFRICA (ERITREA)</td>
-          </tr>
-          <tr>
-            <td>34</td>
-            <td>CANARY IS</td>
-            <td>84</td>
-            <td>IVORY COAST</td>
-            <td>134</td>
-            <td>CAROINE ISLAND</td>
-            <td>184</td>
-            <td>BURUNDI</td>
-            <td>234</td>
-            <td>AFGANISTAN</td>
-            <td>284</td>
-            <td>SAINT PAUL</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>35</td>
-            <td>AUSTRIA</td>
-            <td>85</td>
-            <td>ZIMBABWE</td>
-            <td>135</td>
-            <td>SOLOMON ISLAND</td>
-            <td>185</td>
-            <td>COMORO ISLAND</td>
-            <td>235</td>
-            <td>ITU GENEVA</td>
-            <td>285</td>
-            <td>FERNANDO DE NOROHA</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>36</td>
-            <td>R. S. MARINO</td>
-            <td>86</td>
-            <td>NEPAL</td>
-            <td>136</td>
-            <td>MARTINI QUE ISLAND</td>
-            <td>186</td>
-            <td>DIJBOUTI</td>
-            <td>236</td>
-            <td>BANGLADESH</td>
-            <td>286</td>
-            <td>JUAN FERNANDEZ</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>37</td>
-            <td>R. DOMINICANA</td>
-            <td>87</td>
-            <td>YEMAN N. (DEL)</td>
-            <td>137</td>
-            <td>MAN (U.K.)</td>
-            <td>187</td>
-            <td>KENYA</td>
-            <td>237</td>
-            <td>BIRMANIA</td>
-            <td>287</td>
-            <td>MALPELO</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>38</td>
-            <td>GREENLAND</td>
-            <td>88</td>
-            <td>CUBA</td>
-            <td>138</td>
-            <td>VATICAN CITY</td>
-            <td>188</td>
-            <td>MALAGASY REPUBLIC</td>
-            <td>238</td>
-            <td>CAMBOGIA</td>
-            <td>288</td>
-            <td>S FELIX S AMBROSIO</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>39</td>
-            <td>ANGOLA</td>
-            <td>89</td>
-            <td>NIGERIA</td>
-            <td>139</td>
-            <td>SOUTH YEMAN (DEL)</td>
-            <td>189</td>
-            <td>MAYOTTE ISLAND</td>
-            <td>239</td>
-            <td>LAOS</td>
-            <td>289</td>
-            <td>SOUTH GEORGIA ISLAND</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>40</td>
-            <td>LIECHTENSTEIN</td>
-            <td>90</td>
-            <td>CRETE</td>
-            <td>140</td>
-            <td>ANTARCTICA (CHILE)</td>
-            <td>190</td>
-            <td>SEYCHELLES ISLAND</td>
-            <td>240</td>
-            <td>MACAO</td>
-            <td>290</td>
-            <td>TRINIDADE MARTIN VAZ</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>41</td>
-            <td>NEW ZEALAND</td>
-            <td class="table-info font-weight-bolder"><strong>91</strong></td>
-            <td class="table-info font-weight-bolder"><strong>INDONESIA</strong></td>
-            <td>141</td>
-            <td>S. PIERRE &amp; MIQUELON</td>
-            <td>191</td>
-            <td>SWAZILAND</td>
-            <td>241</td>
-            <td>SPRATLY</td>
-            <td>291</td>
-            <td>CYPRUS ZCA (S. BASE)</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>42</td>
-            <td>LIBERIA</td>
-            <td>92</td>
-            <td>LIBYA</td>
-            <td>142</td>
-            <td>LESOTHO</td>
-            <td>192</td>
-            <td>COCOS IS. (C USA)</td>
-            <td>242</td>
-            <td>VIETNAM</td>
-            <td>292</td>
-            <td>ABU AIL</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>43</td>
-            <td>AUSTRALIA</td>
-            <td>93</td>
-            <td>MALTA</td>
-            <td>143</td>
-            <td>S. LUCIA ISLAND</td>
-            <td>193</td>
-            <td>COCOS IS. (OCEANIA)</td>
-            <td>243</td>
-            <td>AGALEGA &amp; ST BRANDO</td>
-            <td>293</td>
-            <td>GUINEA BISSAU</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>44</td>
-            <td>S. AFRICA</td>
-            <td>94</td>
-            <td>U.A.E. EMIRAT ARABIA</td>
-            <td>144</td>
-            <td>EASTER IS.(PASQUA)</td>
-            <td>194</td>
-            <td>DOMINICA ISLAND</td>
-            <td>244</td>
-            <td>ANNOBON</td>
-            <td>294</td>
-            <td>PETER IST ISLAND</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>45</td>
-            <td>SERBIA</td>
-            <td>95</td>
-            <td>MONGOLIA</td>
-            <td>145</td>
-            <td>GALAPAGOS ISLAND</td>
-            <td>195</td>
-            <td>GRENADA ISLAND</td>
-            <td>245</td>
-            <td>NIGER</td>
-            <td>295</td>
-            <td>SOUTHERN SUDAN</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td>96</td>
-            <td>TONGA</td>
-            <td>146</td>
-            <td>ALGERIA</td>
-            <td>196</td>
-            <td>GUADELOUPE</td>
-            <td>246</td>
-            <td>SAO TOMBE/PRINCIPLE IS.</td>
-            <td>296</td>
-            <td>CLIPPERTON ISLAND</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>47</td>
-            <td>DENMARK</td>
-            <td>97</td>
-            <td>ISRAEL</td>
-            <td>147</td>
-            <td>TUNISIA</td>
-            <td>197</td>
-            <td>VANAUTU</td>
-            <td>247</td>
-            <td>NAVASSA ISLAND</td>
-            <td>297</td>
-            <td>BOUVET ISLAND</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>48</td>
-            <td>SAUDI ARABIA</td>
-            <td class="table-info font-weight-bolder"><strong>98</strong></td>
-            <td class="table-info font-weight-bolder"><strong>SINGAPORE</strong></td>
-            <td>148</td>
-            <td>ASCENSION ISLAND</td>
-            <td>198</td>
-            <td>FALKLAND ISLAND</td>
-            <td>248</td>
-            <td>TURKS &amp; CAOCOS IS.</td>
-            <td>298</td>
-            <td>CROZET ISLAND</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>49</td>
-            <td>BALEARES IS</td>
-            <td>99</td>
-            <td>FIJI ISLAND</td>
-            <td>149</td>
-            <td>LACCADIVE ISLAND</td>
-            <td>199</td>
-            <td>GUINEA EQUATOR</td>
-            <td>249</td>
-            <td>AMSTERDAM &amp; S PAUL</td>
-            <td>299</td>
-            <td>DESECHEO ISLAND</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>50</td>
-            <td>U. S. S. R.</td>
-            <td>100</td>
-            <td>KOREA</td>
-            <td>150</td>
-            <td>BAHARAIN</td>
-            <td>200</td>
-            <td>SHETLAND ISLAND</td>
-            <td>250</td>
-            <td>COOK ISLAND</td>
-            <td>300</td>
-            <td>W. SAHARA RIO DE ORO</td>
-            <td></td>
-            <td></td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="col">
-        <h3 class="text-capitalize text-center">FAQ</h3>
+        <h3 class="text-capitalize text-center">Soalan Lazim</h3>
         <div class="accordion mb-3" id="accordionFAQ" role="tablist" aria-multiselectable="true">
           <div class="card">
             <div class="card-header" role="tab" id="headingOne">
               <h5 class="mb-0">
-                <a class="collapsed text-decoration-none text-black" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                  <span>1. </span>Apakah saya perlu dapatkan LESEN dari MCMC (SKMM) sekiranya saya ingin menggunakan CB RADIO?</a>
+                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <span>1. </span>Adakah saya perlu dapatkan LESEN dari MCMC (SKMM) sekiranya saya ingin menggunakan CB RADIO?</a>
               </h5>
             </div>
             <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
@@ -1534,7 +639,7 @@
           <div class="card">
             <div class="card-header" role="tab" id="headingTwo">
               <h5 class="mb-0">
-                <a class="collapsed text-decoration-none text-black" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   <span>2. </span>Adakah saya perlu berdaftar dengan mana-mana kelab atau dengan SKMM untuk mendapatkan Isyarat Panggilan?</a>
               </h5>
             </div>
@@ -1545,191 +650,45 @@
                 <p>Antara sebutan Phonetic yang sering di gunakan oleh operator AMATUR RADIO adalah seperti berikut</p>
                 <table class="table table-bordered table-sm text-center">
                   <thead class="thead-light">
-                    <th>Symbol</th>
-                    <th>ITU Phonetic</th>
-                    <th>Malay Phonetic</th>
+                    <th>Symbol</th><th>ITU Phonetic</th><th>Malay Phonetic</th>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>A</td>
-                      <td>Alfa</td>
-                      <td>Agas</td>
-                    </tr>
-                    <tr>
-                      <td>B</td>
-                      <td>Bravo</td>
-                      <td>Bola</td>
-                    </tr>
-                    <tr>
-                      <td>C</td>
-                      <td>Charlie</td>
-                      <td>Ciku</td>
-                    </tr>
-                    <tr>
-                      <td>D</td>
-                      <td>Delta</td>
-                      <td>Duku</td>
-                    </tr>
-                    <tr>
-                      <td>E</td>
-                      <td>Echo</td>
-                      <td>Elok</td>
-                    </tr>
-                    <tr>
-                      <td>F</td>
-                      <td>Foxtrot</td>
-                      <td>Fajar</td>
-                    </tr>
-                    <tr>
-                      <td>G</td>
-                      <td>Golf</td>
-                      <td>Gagak</td>
-                    </tr>
-                    <tr>
-                      <td>H</td>
-                      <td>Hotel</td>
-                      <td>Handal</td>
-                    </tr>
-                    <tr>
-                      <td>I</td>
-                      <td>India</td>
-                      <td>Intan</td>
-                    </tr>
-                    <tr>
-                      <td>J</td>
-                      <td>Juliett</td>
-                      <td>Jala</td>
-                    </tr>
-                    <tr>
-                      <td>K</td>
-                      <td>Kilo</td>
-                      <td>Kota</td>
-                    </tr>
-                    <tr>
-                      <td>L</td>
-                      <td>Lima</td>
-                      <td>Laju</td>
-                    </tr>
-                    <tr>
-                      <td>M</td>
-                      <td>Mike</td>
-                      <td>Merah</td>
-                    </tr>
-                    <tr>
-                      <td>N</td>
-                      <td>November</td>
-                      <td>Nuri</td>
-                    </tr>
-                    <tr>
-                      <td>O</td>
-                      <td>Oscar</td>
-                      <td>Ombak</td>
-                    </tr>
-                    <tr>
-                      <td>P</td>
-                      <td>Papa</td>
-                      <td>Palang</td>
-                    </tr>
-                    <tr>
-                      <td>Q</td>
-                      <td>Quebec</td>
-                      <td>Quen</td>
-                    </tr>
-                    <tr>
-                      <td>R</td>
-                      <td>Romeo</td>
-                      <td>Rakit</td>
-                    </tr>
-                    <tr>
-                      <td>S</td>
-                      <td>Sierra</td>
-                      <td>Singa</td>
-                    </tr>
-                    <tr>
-                      <td>T</td>
-                      <td>Tango</td>
-                      <td>Tari</td>
-                    </tr>
-                    <tr>
-                      <td>U</td>
-                      <td>Uniform</td>
-                      <td>Udang</td>
-                    </tr>
-                    <tr>
-                      <td>V</td>
-                      <td>Victor</td>
-                      <td>Victor</td>
-                    </tr>
-                    <tr>
-                      <td>W</td>
-                      <td>Whiskey</td>
-                      <td>Wayang</td>
-                    </tr>
-                    <tr>
-                      <td>X</td>
-                      <td>X-ray</td>
-                      <td>X-ray</td>
-                    </tr>
-                    <tr>
-                      <td>Y</td>
-                      <td>Yankee</td>
-                      <td>Yakin</td>
-                    </tr>
-                    <tr>
-                      <td>Z</td>
-                      <td>Zulu</td>
-                      <td>Zaman</td>
-                    </tr>
-                    <tr>
-                      <td>0</td>
-                      <td>Zero</td>
-                      <td>Kosong</td>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>One</td>
-                      <td>Satu</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Two</td>
-                      <td>Dua</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>Three</td>
-                      <td>Tiga</td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Four</td>
-                      <td>Empat</td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                      <td>Five</td>
-                      <td>Lima</td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                      <td>Six</td>
-                      <td>Enam</td>
-                    </tr>
-                    <tr>
-                      <td>7</td>
-                      <td>Seven</td>
-                      <td>Tujuh</td>
-                    </tr>
-                    <tr>
-                      <td>8</td>
-                      <td>Eight</td>
-                      <td>Lapan</td>
-                    </tr>
-                    <tr>
-                      <td>9</td>
-                      <td>Nine</td>
-                      <td>Sembilan</td>
-                    </tr>
+                    <tr><td>A</td><td>Alfa</td><td>Agas</td></tr>
+                    <tr><td>B</td><td>Bravo</td><td>Bola</td></tr>
+                    <tr><td>C</td><td>Charlie</td><td>Ciku</td></tr>
+                    <tr><td>D</td><td>Delta</td><td>Duku</td></tr>
+                    <tr><td>E</td><td>Echo</td><td>Elok</td></tr>
+                    <tr><td>F</td><td>Foxtrot</td><td>Fajar</td></tr>
+                    <tr><td>G</td><td>Golf</td><td>Gagak</td></tr>
+                    <tr><td>H</td><td>Hotel</td><td>Handal</td></tr>
+                    <tr><td>I</td><td>India</td><td>Intan</td></tr>
+                    <tr><td>J</td><td>Juliett</td><td>Jala</td></tr>
+                    <tr><td>K</td><td>Kilo</td><td>Kota</td></tr>
+                    <tr><td>L</td><td>Lima</td><td>Laju</td></tr>
+                    <tr><td>M</td><td>Mike</td><td>Merah</td></tr>
+                    <tr><td>N</td><td>November</td><td>Nuri</td></tr>
+                    <tr><td>O</td><td>Oscar</td><td>Ombak</td></tr>
+                    <tr><td>P</td><td>Papa</td><td>Palang</td></tr>
+                    <tr><td>Q</td><td>Quebec</td><td>Quen</td></tr>
+                    <tr><td>R</td><td>Romeo</td><td>Rakit</td></tr>
+                    <tr><td>S</td><td>Sierra</td><td>Singa</td></tr>
+                    <tr><td>T</td><td>Tango</td><td>Tari</td></tr>
+                    <tr><td>U</td><td>Uniform</td><td>Udang</td></tr>
+                    <tr><td>V</td><td>Victor</td><td>Victor</td></tr>
+                    <tr><td>W</td><td>Whiskey</td><td>Wayang</td></tr>
+                    <tr><td>X</td><td>X-ray</td><td>X-ray</td></tr>
+                    <tr><td>Y</td><td>Yankee</td><td>Yakin</td></tr>
+                    <tr><td>Z</td><td>Zulu</td><td>Zaman</td></tr>
+                    <tr><td>0</td><td>Zero</td><td>Kosong</td></tr>
+                    <tr><td>1</td><td>One</td><td>Satu</td></tr>
+                    <tr><td>2</td><td>Two</td><td>Dua</td></tr>
+                    <tr><td>3</td><td>Three</td><td>Tiga</td></tr>
+                    <tr><td>4</td><td>Four</td><td>Empat</td></tr>
+                    <tr><td>5</td><td>Five</td><td>Lima</td></tr>
+                    <tr><td>6</td><td>Six</td><td>Enam</td></tr>
+                    <tr><td>7</td><td>Seven</td><td>Tujuh</td></tr>
+                    <tr><td>8</td><td>Eight</td><td>Lapan</td></tr>
+                    <tr><td>9</td><td>Nine</td><td>Sembilan</td></tr>
                   </tbody>
                 </table>
                 <h6>Penggunaan Isyarat Panggilan</h6>
@@ -1740,7 +699,7 @@
           <div class="card">
             <div class="card-header" role="tab" id="headingThree">
               <h5 class="mb-0">
-                <a class="collapsed text-decoration-none text-black" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   <span>3. </span>Dimana saya boleh membeli peralatan CB RADIO?</a>
               </h5>
             </div>
@@ -1753,7 +712,7 @@
           <div class="card">
             <div class="card-header" role="tab" id="headingFour">
               <h5 class="mb-0">
-                <a class="collapsed text-decoration-none text-black" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                   <span>4. </span>Berapa harga sebuah CB RADIO jenis Handy atau jenis mobile?</a>
               </h5>
             </div>
@@ -1766,7 +725,7 @@
           <div class="card">
             <div class="card-header" role="tab" id="headingFive">
               <h5 class="mb-0">
-                <a class="collapsed text-decoration-none text-black" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                   <span>5. </span>Ada ke pengguna CB RADIO di Malaysia kerana bila saya monitor macam tak ada orang guna sebagaimana RADIO AMATUR (VHF)?</a>
               </h5>
             </div>
@@ -1792,7 +751,7 @@
           <div class="card">
             <div class="card-header" role="tab" id="headingSix">
               <h5 class="mb-0">
-                <a class="collapsed text-decoration-none text-black" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                   <span>6. </span>Berapa jarak perhubungan yang boleh di capai menggunakan CB RADIO atau PRS RADIO?</a>
               </h5>
             </div>

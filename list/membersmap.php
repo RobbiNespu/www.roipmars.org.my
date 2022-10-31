@@ -1,17 +1,16 @@
 <!doctype html>
-<html>
+<html data-bs-color-scheme>
 
 <head>
   <title>RoIPMARS|Members Directory</title>
   <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+  <meta name='author' content='HafiziRuslan'>
+  <meta name='color-scheme' content='light dark'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.2/leaflet.min.css' crossorigin='anonymous' >
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.77.0/dist/L.Control.Locate.min.css' crossorigin='anonymous'>
-  <style type='text/css'>
-    html,
-    body { height: 98% }
-    #map { height: 100% }
-  </style>
+  <style type='text/css'> html, body { height: 100% } #map { height: 100% } </style>
   <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
@@ -59,14 +58,15 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div id='map'></div>
+  <div class='container-fluid' id='map'></div>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.2/leaflet.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.77.0/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-plugins/3.4.0/layer/vector/KML.min.js' crossorigin='anonymous'></script>
   <script type='text/javascript'>
     var mapOptions = {
       center: [4.174977, 109.467492],
-      zoom: 6
+      zoom: 5
     };
     var map = new L.map('map', mapOptions);
     var osmtile = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -82,7 +82,7 @@
       position: 'topleft',
       setView: 'once',
       strings: {
-        title: "Lokasi Saya"
+        title: 'Lokasi Saya'
       }      
     }).addTo(map);
     //    var kmlmap = new L.kml('https://www.google.com/maps/d/u/0/kml?mid=1eBSxjXRbFPITH0cUhFQJHjr-Ab1fWDip').addTo(map);

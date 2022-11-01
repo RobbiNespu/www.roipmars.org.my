@@ -178,7 +178,7 @@
                 <h5 class="modal-title" id="27cbModalLabel">27MHz Citizen Band - PRS</h5>
               </div>
               <div class="modal-body">
-                <div class="ratio ratio-21x9">
+                <div class="ratio ratio-1x1">
                   <iframe src="freq/27cb"></iframe>
                 </div>
               </div>
@@ -196,7 +196,7 @@
                 <h5 class="modal-title" id="27cbmyModalLabel">HF Frequencies [KTKM(S) 353/146/5 Klt. 4; PN(PU2) 601]</h5>
               </div>
               <div class="modal-body">
-                <div class="ratio ratio-21x9">
+                <div class="ratio ratio-1x1">
                   <iframe src="freq/27cbmy"></iframe>
                 </div>
               </div>
@@ -231,7 +231,7 @@
                 <h5 class="modal-title" id="477cbModalLabel">477MHz Citizen Band - PRS</h5>
               </div>
               <div class="modal-body">
-                <div class="ratio ratio-21x9">
+                <div class="ratio ratio-1x1">
                   <iframe src="freq/477cb"></iframe>
                 </div>
               </div>
@@ -249,7 +249,7 @@
                 <h5 class="modal-title" id="27cbmyModalLabel">UHF Frequencies [KTKM(S) 353/146/5 Klt. 4; PN(PU2) 601]</h5>
               </div>
               <div class="modal-body">
-                <div class="ratio ratio-21x9">
+                <div class="ratio ratio-1x1">
                   <iframe src="freq/477cbmy"></iframe>
                 </div>
               </div>
@@ -281,7 +281,7 @@
                 <h5 class="modal-title" id="477fbModalLabel">477MHz Family Band - PRS</h5>
               </div>
               <div class="modal-body">
-                <div class="ratio ratio-21x9">
+                <div class="ratio ratio-1x1">
                   <iframe src="freq/477fb"></iframe>
                 </div>
               </div>
@@ -304,7 +304,7 @@
                 <h5 class="modal-title" id="446pmrModalLabel">446MHz Personal Mobile Radio</h5>
               </div>
               <div class="modal-body">
-                <div class="ratio ratio-21x9">
+                <div class="ratio ratio-1x1">
                   <iframe src="freq/446pmr"></iframe>
                 </div>
               </div>
@@ -327,7 +327,7 @@
                 <h5 class="modal-title" id="vsimplexModalLabel">VHF Amateur Channel</h5>
               </div>
               <div class="modal-body">
-                <div class="ratio ratio-21x9">
+                <div class="ratio ratio-1x1">
                   <iframe src="freq/vsimplex"></iframe>
                 </div>
               </div>

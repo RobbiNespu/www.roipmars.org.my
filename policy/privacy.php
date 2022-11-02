@@ -2,26 +2,26 @@
 <html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
-  <title>RoIPMARS|Privacy Policy</title>
+  <title>RoIPMARS|Dasar Privasi</title>
   <meta charset='utf-8'>
   <meta http-equiv='Content-Type' content='text/html'>
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-  <meta name='title' content='RoIPMARS|Privacy Policy'>
-  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Privacy Policy'>
+  <meta name='title' content='RoIPMARS|Dasar Privasi'>
+  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Dasar Privasi'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
-  <meta property='og:title' content='RoIPMARS|Privacy Policy'>
-  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Privacy Policy'>
+  <meta property='og:title' content='RoIPMARS|Dasar Privasi'>
+  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Dasar Privasi'>
   <meta property='og:url' content='https://www.roipmars.org.my/policy/privacy'>
   <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
-  <meta name='twitter:title' content='RoIPMARS|Privacy Policy'>
-  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Privacy Policy'>
+  <meta name='twitter:title' content='RoIPMARS|Dasar Privasi'>
+  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Dasar Privasi'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/policy/privacy'>
   <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
@@ -98,43 +98,43 @@
   <!-- End Google Tag Manager (noscript) -->
   <div class="container">
     <div class="row">
-      <h1 class="text-center">Privacy Policy for<br>PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]</h1>
-      <p>At RoIPMARS, accessible from https://www.roipmars.org.my, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by RoIPMARS and how we use it.</p>
-      <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
-      <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in RoIPMARS. This policy is not applicable to any information collected offline or via channels other than this website.</p>
-      <h2>Consent</h2>
-      <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
-      <h2>Information we collect</h2>
-      <p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</p>
-      <p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</p>
-      <p>When you register for an Account, we may ask for your contact information, including items such as name, address, email address, and telephone number.</p>
-      <h2>How we use your information</h2>
-      <p>We use the information we collect in various ways, including to:</p>
+      <h1 class="text-center">Dasar Privasi<br>PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]</h1>
+      <p>Di RoIPMARS, boleh diakses daripada https://www.roipmars.org.my, salah satu keutamaan utama kami ialah privasi pelawat kami. Dokumen Dasar Privasi ini mengandungi jenis maklumat yang dikumpul dan direkodkan oleh RoIPMARS dan cara kami menggunakannya.</p>
+      <p>Jika anda mempunyai soalan tambahan atau memerlukan maklumat lanjut tentang Dasar Privasi kami, jangan teragak-agak untuk menghubungi kami.</p>
+      <p>Dasar Privasi ini hanya terpakai untuk aktiviti dalam talian kami dan sah untuk pelawat ke laman web kami berkenaan dengan maklumat yang mereka kongsi dan/atau kumpulkan dalam RoIPMARS. Dasar ini tidak terpakai kepada sebarang maklumat yang dikumpul di luar talian atau melalui saluran selain laman web ini.</p>
+      <h2>Persetujuan</h2>
+      <p>Dengan menggunakan laman web kami, anda dengan ini bersetuju dengan Dasar Privasi kami dan bersetuju dengan termanya.</p>
+      <h2>Maklumat yang kami kumpul</h2>
+      <p>Maklumat peribadi yang anda diminta, dan sebab mengapa anda diminta memberikannya, akan dijelaskan kepada anda pada ketika kami meminta anda memberikan maklumat peribadi anda.</p>
+      <p>Jika anda menghubungi kami secara terus, kami mungkin menerima maklumat tambahan tentang anda seperti nama, alamat e-mel, nombor telefon, kandungan mesej dan/atau lampiran yang mungkin anda hantar kepada kami dan sebarang maklumat lain yang anda boleh pilih untuk berikan.</p>
+      <p>Apabila anda mendaftar akaun atau keahlian, kami mungkin meminta maklumat anda, termasuk seperti nama, alamat, alamat e-mel dan nombor telefon.</p>
+      <h2>Cara kami menggunakan maklumat anda</h2>
+      <p>Kami menggunakan maklumat yang kami kumpulkan dalam pelbagai cara, termasuk untuk:</p>
       <ul>
-        <li>Provide, operate, and maintain our website</li>
-        <li>Improve, personalize, and expand our website</li>
-        <li>Understand and analyze how you use our website</li>
-        <li>Develop new products, services, features, and functionality</li>
-        <li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes</li>
-        <li>Send you emails</li>
-        <li>Find and prevent fraud</li>
+        <li>Menyediakan, mengendalikan dan menyelenggara laman web kami</li>
+        <li>Perbaiki, peribadikan dan kembangkan laman web kami</li>
+        <li>Fahami dan analisis cara anda menggunakan laman web kami</li>
+        <li>Membangunkan produk, perkhidmatan, ciri dan fungsi baharu</li>
+        <li>Berkomunikasi dengan anda, sama ada secara langsung atau melalui salah satu rakan kongsi kami, termasuk untuk perkhidmatan pelanggan, untuk memberikan anda kemas kini dan maklumat lain yang berkaitan dengan laman web, dan untuk tujuan pemasaran dan promosi</li>
+        <li>Hantar e-mel kepada anda</li>
+        <li>Cari dan cegah penipuan</li>
       </ul>
-      <h2>Log Files</h2>
-      <p>RoIPMARS follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
-      <h2>Cookies and Web Beacons</h2>
-      <p>Like any other website, RoIPMARS uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
-      <h2>Google DoubleClick DART Cookie</h2>
-      <p>Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to roipmars.org.my and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <a href="https://policies.google.com/technologies/ads" class="text-black">https://policies.google.com/technologies/ads</a></p>
-      <h2>Advertising Partners Privacy Policies</h2>
-      <P>You may consult this list to find the Privacy Policy for each of the advertising partners of RoIPMARS.</p>
-      <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on RoIPMARS, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
-      <p>Note that RoIPMARS has no access to or control over these cookies that are used by third-party advertisers.</p>
-      <h2>Third Party Privacy Policies</h2>
-      <p>RoIPMARS's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
-      <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
-      <h2>Children's Information</h2>
-      <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
-      <p>RoIPMARS does not knowingly collect any Personal Identifiable Information from children under the age of 18. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+      <h2>Fail Log</h2>
+      <p>RoIPMARS mengikut prosedur standard menggunakan fail log. Fail ini merekodkan pelawat apabila mereka melawat laman web. Semua syarikat pengehosan melakukan ini dan sebahagian daripada analisis perkhidmatan pengehosan. Maklumat yang dikumpul oleh fail log termasuk alamat protokol Internet (IP), jenis pelayar, Pembekal Perkhidmatan Internet (ISP), tarikh dan masa, halaman rujukan/keluar, dan mungkin bilangan klik. Ini tidak dikaitkan dengan sebarang maklumat yang boleh dikenal pasti secara peribadi. Tujuan maklumat adalah untuk menganalisis arah aliran, mentadbir laman, menjejaki pergerakan pengguna di laman web, dan mengumpul maklumat demografi.</p>
+      <h2>Kuki dan Suar Web</h2>
+      <p>Seperti mana-mana laman web lain, RoIPMARS menggunakan 'kuki'. Kuki ini digunakan untuk menyimpan maklumat termasuk keutamaan pelawat, dan halaman di laman web yang diakses atau dilawati oleh pelawat. Maklumat ini digunakan untuk mengoptimumkan pengalaman pengguna dengan menyesuaikan kandungan halaman web kami berdasarkan jenis pelayar pelawat dan/atau maklumat lain.</p>
+      <h2>Kuki DART Google DoubleClick</h2>
+      <p>Google ialah salah satu vendor pihak ketiga di laman kami. Ia juga menggunakan kuki, dikenali sebagai kuki DART, untuk menyiarkan iklan kepada pelawat laman kami berdasarkan lawatan mereka ke RoIPMARS dan laman lain di internet. Walau bagaimanapun, pelawat boleh memilih untuk menolak penggunaan kuki DART dengan melawati iklan Google dan Dasar Privasi rangkaian kandungan di URL berikut – <a href="https://policies.google.com/technologies/ads">https:/ /policies.google.com/technologies/ads</a></p>
+      <h2>Dasar Privasi Rakan Kongsi Pengiklanan</h2>
+      <P>Anda boleh merujuk senarai ini untuk mencari Dasar Privasi bagi setiap rakan kongsi pengiklanan RoIPMARS.</p>
+      <p>Pelayan iklan pihak ketiga atau rangkaian iklan menggunakan teknologi seperti kuki, JavaScript atau Suar Web yang digunakan dalam iklan dan pautan masing-masing yang dipaparkan di RoIPMARS, yang dihantar terus ke pelayar pengguna. Mereka secara automatik menerima alamat IP anda apabila ini berlaku. Teknologi ini digunakan untuk mengukur keberkesanan kempen pengiklanan mereka dan/atau untuk memperibadikan kandungan pengiklanan yang anda lihat di laman web yang anda lawati.</p>
+      <p>Ambil perhatian bahawa RoIPMARS tidak mempunyai akses kepada atau kawalan ke atas kuki ini yang digunakan oleh pengiklan pihak ketiga.</p>
+      <h2>Dasar Privasi Pihak Ketiga</h2>
+      <p>Dasar Privasi RoIPMARS tidak terpakai kepada pengiklan atau laman web lain. Oleh itu, kami menasihatkan anda untuk merujuk Dasar Privasi masing-masing bagi pelayan iklan pihak ketiga ini untuk mendapatkan maklumat yang lebih terperinci. Ia mungkin termasuk amalan dan arahan mereka tentang cara memilih keluar daripada pilihan tertentu. </p>
+      <p>Anda boleh memilih untuk melumpuhkan kuki melalui pilihan pelayar individu anda. Untuk mengetahui maklumat lebih terperinci tentang pengurusan kuki dengan pelayan web tertentu, ia boleh didapati di laman web pelayar masing-masing.</p>
+      <h2>Maklumat Kanak-kanak</h2>
+      <p>Satu lagi bahagian keutamaan kami ialah menambah perlindungan untuk kanak-kanak semasa menggunakan internet. Kami menggalakkan ibu bapa dan penjaga untuk memerhati, mengambil bahagian dalam dan/atau memantau serta membimbing aktiviti dalam talian mereka.</p>
+      <p>RoIPMARS tidak secara sengaja mengumpul sebarang Maklumat Pengenalan Peribadi daripada kanak-kanak di bawah umur 18 tahun. Jika anda berpendapat bahawa anak anda memberikan maklumat seperti ini di laman web kami, kami amat menggalakkan anda menghubungi kami dengan segera dan kami akan melakukan usaha yang terbaik untuk mengalih keluar maklumat sedemikian dengan segera daripada rekod kami.</p>
     </div>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>

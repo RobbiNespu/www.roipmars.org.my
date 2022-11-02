@@ -2,26 +2,26 @@
 <html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
-  <title>RoIPMARS|Return &amp; Refund Policy</title>
+  <title>RoIPMARS|Dasar Pemulangan &amp; Bayaran Balik</title>
   <meta charset='utf-8'>
   <meta http-equiv='Content-Type' content='text/html'>
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-  <meta name='title' content='RoIPMARS|Return & Refund Policy'>
-  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Return & Refund Policy'>
+  <meta name='title' content='RoIPMARS|Dasar Pemulangan & Bayaran Balik'>
+  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Dasar Pemulangan & Bayaran Balik'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
-  <meta property='og:title' content='RoIPMARS|Return & Refund Policy'>
-  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Return & Refund Policy'>
+  <meta property='og:title' content='RoIPMARS|Dasar Pemulangan & Bayaran Balik'>
+  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Dasar Pemulangan & Bayaran Balik'>
   <meta property='og:url' content='https://www.roipmars.org.my/policy/return'>
   <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
-  <meta name='twitter:title' content='RoIPMARS|Return & Refund Policy'>
-  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Return & Refund Policy'>
+  <meta name='twitter:title' content='RoIPMARS|Dasar Pemulangan & Bayaran Balik'>
+  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Dasar Pemulangan & Bayaran Balik'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/policy/return'>
   <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
@@ -98,68 +98,56 @@
   <!-- End Google Tag Manager (noscript) -->
   <div class="container">
     <div class="row">
-      <h1 class="text-center">Return and Refund Policy</h1>
-      <p>Last updated: September 04, 2022</p>
-      <p>Thank you for shopping at RoIPMARS. If, for any reason, You are not completely satisfied with a purchase We invite You to review our policy on refunds and returns. The following terms are applicable for any products / services that You purchased with Us.</p>
-      <h2 class="text-center">Interpretation and Definitions</h2>
-      <h3>Interpretation</h3>
-      <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
-      <h3>Definitions</h3>
-      <p>For the purposes of this Return and Refund Policy:</p>
+      <h1 class="text-center">Dasar Pemulangan dan Bayaran Balik</h1>
+      <p>Terakhir dikemas kini: 04 September 2022</p>
+      <p>Terima kasih kerana membeli-belah di RoIPMARS. Jika, atas sebarang sebab, Anda tidak berpuas hati sepenuhnya dengan pembelian Kami menjemput Anda untuk menyemak dasar kami mengenai bayaran balik dan pemulangan. Terma berikut terpakai untuk sebarang produk / perkhidmatan yang Anda beli dengan Kami.</p>
+      <h2 class="text-center">Tafsiran dan Definisi</h2>
+      <h3>Tafsiran</h3>
+      <p>Perkataan yang huruf awalnya ditulis dengan huruf besar mempunyai makna yang ditakrifkan di bawah syarat berikut. Takrifan berikut hendaklah mempunyai makna yang sama tanpa mengira sama ada ia muncul dalam bentuk tunggal atau jamak.</p>
+      <h3>Takrif</h3>
+      <p>Untuk tujuan Polisi Pemulangan dan Bayaran Balik ini:</p>
       <ul>
-        <li>
-          <p><strong>Organisation</strong> (referred to as either &quot;the Organisation&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP(RADIO OVER NTERNET PROTOCOL)) [PPM-006-10-01062020]</p>
-        </li>
-        <li>
-          <p><strong>Goods</strong> refer to the items offered for sale on the Service.</p>
-        </li>
-        <li>
-          <p><strong>Orders</strong> mean a request by You to purchase Goods from Us.</p>
-        </li>
-        <li>
-          <p><strong>Service</strong> refers to the Website.</p>
-        </li>
-        <li>
-          <p><strong>Website</strong> refers to RoIPMARS, accessible from <a href="https://www.roipmars.org.my" target="_blank">https://www.roipmars.org.my</a></p>
-        </li>
-        <li>
-          <p><strong>You</strong> means the individual accessing or using the Service, or the organisation, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
-        </li>
+        <li><p><strong>Organisasi</strong> (dirujuk sama ada &quot;Organisasi&quot;, &quot;Kami&quot; dalam Perjanjian ini) merujuk kepada PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP(RADIO OVER NTERNET PROTOKOL)) [PPM-006-10-01062020]</p></li>
+        <li><p><strong>Barang</strong> merujuk kepada item yang ditawarkan untuk dijual pada Perkhidmatan.</p></li>
+        <li><p><strong>Pesanan</strong> bermaksud permintaan oleh Anda untuk membeli Barang daripada Kami.</p></li>
+        <li><p><strong>Perkhidmatan</strong> merujuk kepada laman Web.</p></li>
+        <li><p><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada <a href="https://www.roipmars.org.my" target="_blank">https://www.roipmars.org.my</a></p></li>
+        <li><p><strong>Anda</strong> bermaksud individu yang mengakses atau menggunakan Perkhidmatan, atau organisasi, atau entiti undang-undang lain bagi pihak individu tersebut mengakses atau menggunakan Perkhidmatan, mengikut mana yang berkenaan.</p ></li>
       </ul>
-      <h2>Your Order Cancellation Rights</h2>
-      <p>You are entitled to cancel Your Order within 3 days without giving any reason for doing so.</p>
-      <p>The deadline for cancelling an Order is 3 days from the date on which You received the Goods or on which a third party you have appointed, who is not the carrier, takes possession of the product delivered.</p>
-      <p>In order to exercise Your right of cancellation, You must inform Us of your decision by means of a clear statement. You can inform us of your decision by:</p>
+      <h2>Hak Pembatalan Pesanan Anda</h2>
+      <p>Anda berhak membatalkan Pesanan Anda dalam masa 3 hari tanpa memberikan sebarang sebab untuk berbuat demikian.</p>
+      <p>Tarikh akhir untuk membatalkan Pesanan ialah 3 hari dari tarikh Anda menerima Barangan atau pada mana pihak ketiga yang anda lantik, yang bukan pembawa, mengambil milik produk yang dihantar.</p>
+      <p>Untuk melaksanakan hak pembatalan Anda, Anda mesti memaklumkan Kami tentang keputusan anda melalui pernyataan yang jelas. Anda boleh memaklumkan kepada kami keputusan anda dengan:</p>
       <ul>
-        <li>By email: member@roipmars.org.my</li>
+        <li>Melalui e-mel: member@roipmars.org.my</li>
       </ul>
-      <p>We will reimburse You no later than 7 working days from the day on which We receive the returned Goods. We will use the same means of payment as You used for the Order, and You will not incur any fees for such reimbursement.</p>
-      <h2>Conditions for Returns</h2>
-      <p>In order for the Goods to be eligible for a return, please make sure that:</p>
+      <p>Kami akan membayar balik kepada Anda tidak lewat daripada 7 hari bekerja dari hari Kami menerima Barang yang dikembalikan. Kami akan menggunakan cara pembayaran yang sama seperti yang Anda gunakan untuk Pesanan dan Anda tidak akan dikenakan sebarang bayaran untuk pembayaran balik tersebut.</p>
+      <h2>Syarat untuk Pemulangan</h2>
+      <p>Untuk memastikan Barangan layak untuk pemulangan, sila pastikan bahawa:</p>
       <ul>
-        <li>The Goods were purchased in the last 3 days</li>
-        <li>The Goods are in the original packaging</li>
+        <li>Barang telah dibeli dalam 3 hari yang lalu</li>
+        <li>Barang berada dalam pembungkusan asal</li>
       </ul>
-      <p>The following Goods cannot be returned:</p>
+      <p>Barang berikut tidak boleh dikembalikan:</p>
       <ul>
-        <li>The supply of Goods made to Your specifications or clearly personalized.</li>
-        <li>The supply of Goods which according to their nature are not suitable to be returned, deteriorate rapidly or where the date of expiry is over.</li>
-        <li>The supply of Goods which are not suitable for return due to health protection or hygiene reasons and were unsealed after delivery.</li>
-        <li>The supply of Goods which are, after delivery, according to their nature, inseparably mixed with other items.</li>
+        <li>Pembekalan Barangan yang dibuat mengikut spesifikasi Anda atau diperibadikan dengan jelas.</li>
+        <li>Pembekalan Barangan yang mengikut sifatnya tidak sesuai untuk dipulangkan, merosot dengan cepat atau di mana tarikh luputnya tamat.</li>
+        <li>Pembekalan Barangan yang tidak sesuai untuk dipulangkan atas sebab perlindungan kesihatan atau kebersihan dan telah dibuka selepas penghantaran.</li>
+        <li>Pembekalan Barangan yang, selepas penghantaran, mengikut sifatnya, tidak dapat dipisahkan dengan barang lain.</li>
       </ul>
-      <p>We reserve the right to refuse returns of any merchandise that does not meet the above return conditions in our sole discretion.</p>
-      <p>Only regular priced Goods may be refunded. Unfortunately, Goods on sale cannot be refunded. This exclusion may not apply to You if it is not permitted by applicable law.</p>
-      <h2>Returning Goods</h2>
-      <p>You are responsible for the cost and risk of returning the Goods to Us. You should send the Goods at the following address:</p>
+      <p>Kami berhak untuk menolak pemulangan mana-mana barangan yang tidak memenuhi syarat pemulangan di atas mengikut budi bicara kami sendiri.</p>
+      <p>Hanya Barang berharga biasa boleh dikembalikan. Malangnya, Barangan yang dijual tidak boleh dikembalikan. Pengecualian ini mungkin tidak terpakai kepada Anda jika ia tidak dibenarkan oleh undang-undang yang berkenaan.</p>
+      <h2>Pemulangan Barang</h2>
+      <p>Anda bertanggungjawab ke atas kos dan risiko memulangkan Barang kepada Kami. Anda hendaklah menghantar Barangan di alamat berikut:</p>
       <p>31, LORONG NALURI SUKMA 8/13, SEKSYEN 8, BANDAR PUNCAK ALAM,<br>42300 KUALA SELANGOR, SELANGOR DARUL EHSAN, MALAYSIA</p>
-      <p>We cannot be held responsible for Goods damaged or lost in return shipment. Therefore, We recommend an insured and trackable mail service. We are unable to issue a refund without actual receipt of the Goods or proof of received return delivery.</p>
-      <h2>Gifts</h2>
-      <p>If the Goods were marked as a gift when purchased and then shipped directly to you, You'll receive a gift credit for the value of your return. Once the returned product is received, a gift certificate will be mailed to You.</p>
-      <p>If the Goods weren't marked as a gift when purchased, or the gift giver had the Order shipped to themselves to give it to You later, We will send the refund to the gift giver.</p>
-      <h3>Contact Us</h3>
-      <p>If you have any questions about our Returns and Refunds Policy, please contact us:</p>
+      <p>Kami tidak akan bertanggungjawab ke atas Barangan yang rosak atau hilang semasa penghantaran pulangan. Oleh itu, Kami mengesyorkan perkhidmatan mel yang diinsuranskan dan boleh dikesan. Kami tidak akan mengeluarkan bayaran balik tanpa penerimaan sebenar Barang atau bukti penghantaran pulangan yang diterima.</p>
+      <h2>Hadiah</h2>
+      <p>Jika Barangan ditandakan sebagai hadiah apabila dibeli dan kemudian dihantar terus kepada anda, Anda akan menerima kredit hadiah untuk nilai pemulangan anda. Setelah produk yang dipulangkan diterima, sijil hadiah akan dihantar kepada Anda.</p>
+      <p>Jika Barangan tidak ditandakan sebagai hadiah semasa dibeli, atau pemberi hadiah telah menghantar Pesanan kepada diri mereka sendiri untuk memberikannya kepada Anda kemudian, Kami akan menghantar bayaran balik kepada pemberi hadiah.</p>
+      <h3>Hubungi Kami</h3>
+      <p>Jika anda mempunyai sebarang soalan tentang Polisi Pemulangan dan Bayaran Balik kami, sila hubungi kami:</p>
       <ul>
-        <li>By email: member@roipmars.org.my</li>
+        <li>Melalui e-mel: member@roipmars.org.my</li>
       </ul>
     </div>
   </div>

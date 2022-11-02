@@ -2,26 +2,26 @@
 <html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
-  <title>RoIPMARS|Term &amp; Condition</title>
+  <title>RoIPMARS|Terma &amp; Syarat</title>
   <meta charset='utf-8'>
   <meta http-equiv='Content-Type' content='text/html'>
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-  <meta name='title' content='RoIPMARS|Term & Condition'>
-  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Term & Condition'>
+  <meta name='title' content='RoIPMARS|Terma & Syarat'>
+  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Terma & Syarat'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
-  <meta property='og:title' content='RoIPMARS|Term & Condition'>
-  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Term & Condition'>
+  <meta property='og:title' content='RoIPMARS|Terma & Syarat'>
+  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Terma & Syarat'>
   <meta property='og:url' content='https://www.roipmars.org.my/policy/tnc'>
   <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
-  <meta name='twitter:title' content='RoIPMARS|Term & Condition'>
-  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Term & Condition'>
+  <meta name='twitter:title' content='RoIPMARS|Terma & Syarat'>
+  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Terma & Syarat'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/policy/tnc'>
   <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
@@ -98,85 +98,102 @@
   <!-- End Google Tag Manager (noscript) -->
   <div class="container">
     <div class="row">
-      <h2 class="text-center"><strong>Terms and Conditions</strong></h2>
-      <p>Welcome to RoIPMARS!</p>
-      <p>These terms and conditions outline the rules and regulations for the use of PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]'s Website, located at https://www.roipmars.org.my.</p>
-      <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use RoIPMARS if you do not agree to take all of the terms and conditions stated on this page.</p>
-      <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Organisation’s terms and conditions. "The Organisation", "Ourselves", "We", "Our" and "Us", refers to our Organisation. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Organisation’s stated services, in accordance with and subject to, prevailing law of Malaysia. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
-      <h3><strong>Cookies</strong></h3>
-      <p>We employ the use of cookies. By accessing RoIPMARS, you agreed to use cookies in agreement with the PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]'s Privacy Policy. </p>
-      <p>Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
-      <h3><strong>License</strong></h3>
-      <p>Unless otherwise stated, PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] and/or its licensors own the intellectual property rights for all material on RoIPMARS. All intellectual property rights are reserved. You may access this from RoIPMARS for your own personal use subjected to restrictions set in these terms and conditions.</p>
-      <p>You must not:</p>
-      <ul>
-        <li>Republish material from RoIPMARS</li>
-        <li>Sell, rent or sub-license material from RoIPMARS</li>
-        <li>Reproduce, duplicate or copy material from RoIPMARS</li>
-        <li>Redistribute content from RoIPMARS</li>
+      <h2 class="text-center"><strong>Terma dan Syarat</strong></h2>
+      <p>Selamat datang ke RoIPMARS!</p>
+      <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan Laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], terletak di https://www.roipmars.org.my.</p>
+      <p>Dengan mengakses laman sesawang ini, kami menganggap anda menerima dan bersetuju dengan terma dan syarat ini. Jangan terus menggunakan RoIPMARS jika anda tidak bersetuju untuk menerima semua terma dan syarat yang dinyatakan di halaman ini.</p>
+      <p>Istilah berikut digunakan untuk Terma dan Syarat ini, Pernyataan Privasi dan Notis Penafian dan semua Perjanjian:</p>
+        <ul>
+          <li>&quot;Pengguna&quot;, &quot;Anda&quot;, merujuk kepada anda, orang yang log masuk ke laman sesawang ini dan mematuhi terma dan syarat.</li>
+          <li>&quot;Organisasi&quot;, &quot;Kami Sendiri&quot;, &quot;Kami&quot;, merujuk kepada Organisasi kami.</li>
+          <li>&quot;Parti&quot;, &quot;Pihak&quot;, atau &quot;Kami&quot;, merujuk kepada kedua-dua pengguna dan diri kita sendiri.</li>
       </ul>
-      <p>This Agreement shall begin on the date hereof.</p>
-      <p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p>
-      <p>PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
-      <p>You warrant and represent that:</p>
+      <p>Semua terma merujuk kepada tawaran, penerimaan dan pertimbangan pembayaran yang diperlukan untuk menjalankan proses bantuan kami kepada pengguna dengan cara yang paling sesuai untuk tujuan nyata memenuhi keperluan pengguna berkenaan dengan penyediaan perkhidmatan yang dinyatakan oleh Organisasi, selaras dengan dan tertakluk kepada, undang-undang semasa Malaysia. Sebarang penggunaan istilah di atas atau perkataan lain dalam bentuk tunggal, jamak, huruf besar dan/atau dia atau mereka, dianggap sebagai boleh ditukar ganti dan oleh itu merujuk kepada yang sama.</p>
+      <h3><strong>Kuki</strong></h3>
+      <p>Kami menggunakan penggunaan kuki. Dengan mengakses RoIPMARS, anda bersetuju untuk menggunakan kuki dalam persetujuan dengan Dasar Privasi Organisasi. </p>
+      <p>Kebanyakan laman sesawang interaktif menggunakan kuki untuk membolehkan kami mendapatkan semula butiran pengguna untuk setiap lawatan. Kuki digunakan oleh laman sesawang kami untuk membolehkan kefungsian kawasan tertentu untuk memudahkan orang melawat laman sesawang kami. Beberapa ahli gabungan/rakan kongsi pengiklanan kami juga mungkin menggunakan kuki.</p>
+      <h3><strong>Lesen</strong></h3>
+      <p>Melainkan dinyatakan sebaliknya, Organisasi dan/atau pemberi lesennya memiliki hak harta intelek untuk semua bahan di RoIPMARS. Semua hak harta intelek adalah terpelihara. Anda boleh mengakses ini daripada RoIPMARS untuk kegunaan peribadi anda sendiri tertakluk pada sekatan yang ditetapkan dalam terma dan syarat ini.</p>
+      <p>Anda tidak boleh:</p>
       <ul>
-        <li>You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li>
-        <li>The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;</li>
-        <li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy</li>
-        <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
+        <li>Terbitkan semula bahan daripada RoIPMARS</li>
+        <li>Jual, sewa atau sub-lesen bahan daripada RoIPMARS</li>
+        <li>Menghasilkan semula, menduplikasi atau menyalin bahan daripada RoIPMARS</li>
+        <li>Agihkan semula kandungan daripada RoIPMARS</li>
       </ul>
-      <p>You hereby grant PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
-      <h3><strong>Hyperlinking to our Content</strong></h3>
-      <p>The following organizations may link to our Website without prior written approval:</p>
+      <p>Perjanjian ini hendaklah bermula pada tarikh ini.</p>
+      <p>Sebahagian daripada laman sesawang ini menawarkan peluang kepada pengguna untuk menyiarkan dan bertukar-tukar pendapat dan maklumat dalam kawasan tertentu laman sesawang. Organisasi tidak menapis, mengubah, menerbitkan atau menyemak Komen sebelum kehadirannya di laman sesawang. Komen tidak menggambarkan pandangan dan pendapat organisasi, ejen dan/atau ahli gabungannya. Komen mencerminkan pandangan dan pendapat orang yang menyiarkan pandangan dan pendapat mereka. Setakat yang dibenarkan oleh undang-undang yang terpakai, organisasi tidak akan bertanggungjawab ke atas Komen atau untuk sebarang liabiliti, kerosakan atau perbelanjaan yang disebabkan dan/atau dialami akibat daripada sebarang penggunaan dan/atau penyiaran dan/atau penampilan Ulasan di laman sesawang ini.</p>
+      <p>Organisasi berhak untuk memantau semua Komen dan mengalih keluar sebarang Komen yang boleh dianggap tidak sesuai, menyinggung perasaan atau menyebabkan pelanggaran Terma dan Syarat ini.</p>
+      <p>Anda menjamin dan menyatakan bahawa:</p>
       <ul>
-        <li>Government agencies;</li>
-        <li>Search engines;</li>
-        <li>News organizations;</li>
-        <li>Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and</li>
-        <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.</li>
+        <li>Anda berhak menyiarkan Komen di laman sesawang kami dan mempunyai semua lesen dan persetujuan yang diperlukan untuk berbuat demikian;</li>
+        <li>Komen tersebut tidak menceroboh mana-mana hak harta intelek, termasuk tanpa had hak cipta, paten atau tanda dagangan mana-mana pihak ketiga;</li>
+        <li>Komen tersebut tidak mengandungi bahan yang memfitnah, menyinggung perasaan, tidak senonoh atau sebaliknya menyalahi undang-undang yang merupakan pencerobohan privasi;</li>
+        <li>Komen tidak akan digunakan untuk meminta atau mempromosikan perniagaan atau adat atau membentangkan aktiviti komersial atau aktiviti yang menyalahi undang-undang.</li>
       </ul>
-      <p>These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.</p>
-      <p>We may consider and approve other link requests from the following types of organizations:</p>
+      <p>Anda dengan ini memberikan organisasi lesen bukan eksklusif untuk menggunakan, mengeluarkan semula, mengubah dan memberi kebenaran kepada orang lain untuk menggunakan, mengeluarkan semula dan mengubah mana-mana Komen anda dalam sebarang dan semua bentuk, format atau media.</p>
+      <h3><strong>Pautan ke Kandungan kami</strong></h3>
+      <p>Organisasi berikut mungkin memaut ke Laman sesawang kami tanpa kelulusan bertulis terlebih dahulu:</p>
       <ul>
-        <li>commonly-known consumer and/or business information sources;</li>
-        <li>dot.com community sites;</li>
-        <li>associations or other groups representing charities;</li>
-        <li>online directory distributors;</li>
-        <li>internet portals;</li>
-        <li>accounting, law and consulting firms; and</li>
-        <li>educational institutions and trade associations.</li>
+        <li>Agensi kerajaan;</li>
+        <li>Enjin carian;</li>
+        <li>Organisasi berita;</li>
+        <li>Pengedar direktori dalam talian boleh memaut ke Laman sesawang kami dengan cara yang sama seperti mereka memaut ke Laman sesawang perniagaan tersenarai lain; dan</li>
+        <li>Perniagaan Bertauliah kecuali organisasi bukan untung, pusat beli-belah amal dan kumpulan pengumpulan dana amal yang mungkin tidak memaut ke laman sesawang kami.</li>
       </ul>
-      <p>We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]; and (d) the link is in the context of general resource information.</p>
-      <p>These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.</p>
-      <p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p>
-      <p>Approved organizations may hyperlink to our Website as follows:</p>
+      <p>Organisasi ini mungkin memaut ke halaman utama kami, ke penerbitan atau ke maklumat Laman sesawang lain selagi pautan: (a) tidak dalam apa-apa cara mengelirukan; (b) tidak secara palsu membayangkan penajaan, pengendorsan atau kelulusan pihak yang memautkan dan produk dan/atau perkhidmatannya; dan (c) sesuai dalam konteks laman pihak yang memautkan.</p>
+      <p>Kami mungkin mempertimbangkan dan meluluskan permintaan pautan lain daripada jenis organisasi berikut:</p>
       <ul>
-        <li>By use of our organisation or brand name; or</li>
-        <li>By use of the uniform resource locator being linked to; or</li>
-        <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.</li>
+        <li>sumber maklumat pengguna dan/atau perniagaan yang biasa dikenali;</li>
+        <li>laman komuniti dot.com;</li>
+        <li>persatuan atau kumpulan lain yang mewakili badan amal;</li>
+        <li>pengedar direktori dalam talian;</li>
+        <li>portal internet;</li>
+        <li>firma perakaunan, undang-undang dan perunding; dan</li>
+        <li>institusi pendidikan dan persatuan perdagangan.</li>
       </ul>
-      <p>No use of PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]'s logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
+      <p>Kami akan meluluskan permintaan pautan daripada organisasi ini jika kami memutuskan bahawa:</p>
+      <ol type="a">
+        <li>pautan itu tidak akan membuatkan kami memandang tidak baik kepada diri kami sendiri atau kepada perniagaan kami yang diiktiraf;</li>
+        <li>organisasi tidak mempunyai sebarang rekod negatif dengan kami;</li>
+        <li>faedah kepada kami daripada keterlihatan pautan mengimbangi ketiadaan organisasi; dan</li>
+        <li>pautan adalah dalam konteks maklumat sumber am.</li>
+      </ol>
+      <p>Organisasi ini mungkin memaut ke halaman utama kami selagi pautan:</p>
+      <ol type="a">
+        <li>tidak dalam apa-apa cara mengelirukan;</li>
+        <li>tidak secara palsu membayangkan penajaan, pengendorsan atau kelulusan pihak yang menghubungkan dan produk atau perkhidmatannya; dan</li>
+        <li>sesuai dalam konteks laman pihak yang memautkan.</li>
+      </ol>
+      <p>Jika anda adalah salah satu organisasi yang disenaraikan dalam perenggan 2 di atas dan berminat untuk memaut ke laman sesawang kami, anda mesti memaklumkan kami dengan menghantar e-mel kepada member@roipmars.org.my. Sila sertakan nama anda, nama organisasi anda, maklumat hubungan serta URL laman anda, senarai mana-mana URL yang anda ingin dipautkan ke Laman sesawang kami dan senarai URL di laman kami yang anda ingin pautkan. Tunggu 2-3 minggu untuk maklum balas.</p>
+      <p>Organisasi yang diluluskan boleh membuat pautan ke Laman sesawang kami seperti berikut:</p>
+      <ul>
+        <li>Dengan menggunakan organisasi atau nama jenama kami; atau</li>
+        <li>Dengan menggunakan pengesan sumber seragam yang dipautkan kepada; atau</li>
+        <li>Dengan menggunakan mana-mana perihalan lain mengenai Laman sesawang kami yang dipautkan dengan yang masuk akal dalam konteks dan format kandungan di laman pihak yang memautkan.</li>
+      </ul>
+      <p>Tiada penggunaan logo organisasi atau karya seni lain akan dibenarkan untuk dipautkan tanpa perjanjian lesen tanda dagangan.</p>
       <h3><strong>iFrames</strong></h3>
-      <p>Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.</p>
-      <h3><strong>Content Liability</strong></h3>
-      <p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p>
-      <h3><strong>Your Privacy</strong></h3>
-      <p>Please read <a href="/policy/privacy" class="text-black">Privacy Policy</a></p>
-      <h3><strong>Reservation of Rights</strong></h3>
-      <p>We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amend these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>
-      <h3><strong>Removal of links from our website</strong></h3>
-      <p>If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p>
-      <p>We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.</p>
-      <h3><strong>Disclaimer</strong></h3>
-      <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>
+      <p>Tanpa kelulusan dan kebenaran bertulis terlebih dahulu, anda tidak boleh membuat bingkai di sekeliling Halaman sesawang kami yang mengubah dalam apa jua cara persembahan visual atau penampilan Laman sesawang kami.</p>
+      <h3><strong>Liabiliti Kandungan</strong></h3>
+      <p>Kami tidak akan bertanggungjawab untuk sebarang kandungan yang muncul di Laman sesawang anda. Anda bersetuju untuk melindungi dan mempertahankan kami daripada semua tuntutan yang meningkat di Laman sesawang anda. Tiada pautan harus dipaparkan pada mana-mana Laman sesawang yang boleh ditafsirkan sebagai fitnah, lucah atau jenayah, atau yang melanggar, sebaliknya melanggar, atau menyokong pelanggaran atau pelanggaran lain, mana-mana hak pihak ketiga.</p>
+      <h3><strong>Privasi Anda</strong></h3>
+      <p>Sila baca <a href="/policy/privacy">Dasar Privasi</a></p>
+      <h3><strong>Pemeliharaan Hak</strong></h3>
+      <p>Kami berhak meminta anda mengalih keluar semua pautan atau mana-mana pautan tertentu ke Laman sesawang kami. Anda meluluskan untuk segera mengalih keluar semua pautan ke Laman sesawang kami atas permintaan. Kami juga berhak untuk meminda terma dan syarat ini dan polisi pautan pada bila-bila masa. Dengan memaut secara berterusan ke Laman sesawang kami, anda bersetuju untuk terikat dan mematuhi terma dan syarat pemautan ini.</p>
+      <h3><strong>Pengalihan keluar pautan daripada laman sesawang kami</strong></h3>
+      <p>Jika anda menjumpai sebarang pautan di Laman sesawang kami yang menyinggung atas sebarang sebab, anda bebas untuk menghubungi dan memaklumkan kami pada bila-bila masa. Kami akan mempertimbangkan permintaan untuk mengalih keluar pautan tetapi kami tidak berkewajipan untuk berbuat demikian atau untuk membalas terus kepada anda.</p>
+      <p>Kami tidak memastikan bahawa maklumat di laman sesawang ini adalah betul, kami tidak menjamin kesempurnaan atau ketepatannya; kami juga tidak berjanji untuk memastikan laman sesawang kekal tersedia atau bahan di laman sesawang sentiasa dikemas kini.</p>
+      <h3><strong>Penafian</strong></h3>
+      <p>Setakat maksimum yang dibenarkan oleh undang-undang yang terpakai, kami mengecualikan semua representasi, waranti dan syarat yang berkaitan dengan laman sesawang kami dan penggunaan laman sesawang ini. Tiada apa-apa dalam penafian ini akan:</p>
       <ul>
-        <li>limit or exclude our or your liability for death or personal injury;</li>
-        <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
-        <li>limit any of our or your liabilities in any way that is not permitted under applicable law; or</li>
-        <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
+        <li>menghadkan atau mengecualikan liabiliti kami atau anda untuk kematian atau kecederaan peribadi;</li>
+        <li>menghadkan atau mengecualikan liabiliti kami atau anda untuk penipuan atau salah nyata penipuan;</li>
+        <li>menghadkan mana-mana liabiliti kami atau anda dalam apa jua cara yang tidak dibenarkan di bawah undang-undang yang terpakai; atau</li>
+        <li>kecualikan mana-mana liabiliti kami atau anda yang mungkin tidak dikecualikan di bawah undang-undang yang terpakai.</li>
       </ul>
-      <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
-      <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
+      <p>Penghadan dan larangan liabiliti yang ditetapkan dalam Seksyen ini dan di tempat lain dalam penafian ini: (a) tertakluk kepada perenggan sebelumnya; dan (b) mengawal semua liabiliti yang timbul di bawah penafian, termasuk liabiliti yang timbul dalam kontrak dan untuk pelanggaran kewajipan berkanun.</p>
+      <p>Selagi laman sesawang dan maklumat serta perkhidmatan di laman sesawang disediakan secara percuma, kami tidak akan bertanggungjawab ke atas sebarang kehilangan atau kerosakan dalam apa jua bentuk.</p>
     </div>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>

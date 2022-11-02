@@ -149,7 +149,7 @@
       <div class="accordion accordion-flush mb-3" id="policies">
         <div class="accordion-item">
           <h2 class="accordion-header" id="privacy">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-privacy" aria-expanded="false" aria-controls="flush-privacy">Privasi</button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-privacy" aria-expanded="false" aria-controls="flush-privacy">Dasar Privasi</button>
           </h2>
           <div id="flush-privacy" class="accordion-collapse collapse" aria-labelledby="privacy" data-bs-parent="#policies">
             <div class="accordion-body ratio ratio-1x1">
@@ -159,7 +159,7 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="return">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-return" aria-expanded="false" aria-controls="flush-return">Pulangan &amp; Bayaran Balik</button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-return" aria-expanded="false" aria-controls="flush-return">Dasar Pemulangan &amp; Bayaran Balik</button>
           </h2>
           <div id="flush-return" class="accordion-collapse collapse" aria-labelledby="return" data-bs-parent="#policies">
             <div class="accordion-body ratio ratio-1x1">
@@ -179,7 +179,7 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="tos">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-tos" aria-expanded="false" aria-controls="flush-tos">Terma Perkhidmatan</button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-tos" aria-expanded="false" aria-controls="flush-tos">Syarat Perkhidmatan</button>
           </h2>
           <div id="flush-tos" class="accordion-collapse collapse" aria-labelledby="tos" data-bs-parent="#policies">
             <div class="accordion-body ratio ratio-1x1">

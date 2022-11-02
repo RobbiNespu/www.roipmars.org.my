@@ -2,26 +2,26 @@
 <html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
-  <title>RoIPMARS|Terms of Service</title>
+  <title>RoIPMARS|Syarat Perkhidmatan</title>
   <meta charset='utf-8'>
   <meta http-equiv='Content-Type' content='text/html'>
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-  <meta name='title' content='RoIPMARS|Terms of Service'>
-  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Terms of Service'>
+  <meta name='title' content='RoIPMARS|Syarat Perkhidmatan'>
+  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Syarat Perkhidmatan'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
-  <meta property='og:title' content='RoIPMARS|Terms of Service'>
-  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Terms of Service'>
+  <meta property='og:title' content='RoIPMARS|Syarat Perkhidmatan'>
+  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Syarat Perkhidmatan'>
   <meta property='og:url' content='https://www.roipmars.org.my/policy/tos'>
   <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
-  <meta name='twitter:title' content='RoIPMARS|Terms of Service'>
-  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Terms of Service'>
+  <meta name='twitter:title' content='RoIPMARS|Syarat Perkhidmatan'>
+  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Syarat Perkhidmatan'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/policy/tos'>
   <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
@@ -98,33 +98,33 @@
   <!-- End Google Tag Manager (noscript) -->
   <div class="container">
     <div class="row">
-      <h1 class="text-center">Website Terms and Conditions of Use</h1>
-      <h2>1. Terms</h2>
-      <p>By accessing this Website, accessible from https://www.roipmars.org.my, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
-      <h2>2. Use License</h2>
-      <p>Permission is granted to temporarily download one copy of the materials on PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]'s Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+      <h1 class="text-center">Terma dan Syarat Penggunaan Laman Web</h1>
+      <h2>1. Syarat</h2>
+      <p>Dengan mengakses Laman Web ini, boleh diakses dari https://www.roipmars.org.my, anda bersetuju untuk terikat dengan Terma dan Syarat Penggunaan Laman Web ini dan bersetuju bahawa anda bertanggungjawab ke atas perjanjian dengan mana-mana undang-undang tempatan yang berkenaan. Jika anda tidak bersetuju dengan mana-mana syarat ini, anda dilarang mengakses laman ini. Bahan-bahan yang terkandung dalam Laman Web ini dilindungi oleh undang-undang hak cipta dan tanda dagangan.</p>
+      <h2>2. Penggunaan Lesen</h2>
+      <p>Kebenaran diberikan untuk memuat turun sementara satu salinan bahan di Laman Web PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] untuk tontonan peribadi bukan komersial sahaja. Ini ialah pemberian lesen, bukan pemindahan hak milik, dan di bawah lesen ini anda tidak boleh:</p>
       <ul>
-        <li>modify or copy the materials;</li>
-        <li>use the materials for any commercial purpose or for any public display;</li>
-        <li>attempt to reverse engineer any software contained on PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]'s Website;</li>
-        <li>remove any copyright or other proprietary notations from the materials; or</li>
-        <li>transferring the materials to another person or "mirror" the materials on any other server.</li>
+        <li>ubah suai atau salin bahan;</li>
+        <li>gunakan bahan untuk sebarang tujuan komersial atau untuk sebarang paparan awam;</li>
+        <li>cuba untuk merekayasa balik mana-mana perisian yang terdapat pada Laman Web PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)];</li>
+        <li>alih keluar sebarang hak cipta atau notasi proprietari lain daripada bahan; atau</li>
+        <li>memindahkan bahan kepada orang lain atau &quot;cerminkan&quot; bahan pada mana-mana pelayan lain.</li>
       </ul>
-      <p>This will let PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format.</p>
-      <h2>3. Disclaimer</h2>
-      <p>All the materials on PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]’s Website are provided "as is". PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.</p>
-      <h2>4. Limitations</h2>
-      <p>PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]’s Website, even if PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.</p>
-      <h2>5. Revisions and Errata</h2>
-      <p>The materials appearing on PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]’s Website may include technical, typographical, or photographic errors. PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] will not promise that any of the materials in this Website are accurate, complete, or current. PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] may change the materials contained on its Website at any time without notice. PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] does not make any commitment to update the materials.</p>
-      <h2>6. Links</h2>
-      <p>PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] of the site. The use of any linked website is at the user’s own risk.</p>
-      <h2>7. Site Terms of Use Modifications</h2>
-      <p>PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.</p>
-      <h2>8. Your Privacy</h2>
-      <p>Please read our <a href="/policy/privacy" class="text-black">Privacy Policy</a>.</p>
-      <h2>9. Governing Law</h2>
-      <p>Any claim related to PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]'s Website shall be governed by the laws of my without regards to its conflict of law provisions.</p>
+      <p>Ini akan membenarkan PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] untuk ditamatkan apabila melanggar mana-mana sekatan ini. Selepas penamatan, hak tontonan anda juga akan ditamatkan dan anda harus memusnahkan sebarang bahan yang dimuat turun dalam simpanan anda sama ada ia bercetak atau format elektronik.</p>
+      <h2>3. Penafian</h2>
+      <p>Semua bahan di Laman Web PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] disediakan &quot;seadanya&quot;. PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] tidak membuat jaminan, boleh dinyatakan atau tersirat, oleh itu menafikan semua jaminan lain. Tambahan pula, PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] tidak membuat sebarang representasi mengenai ketepatan atau kebolehpercayaan penggunaan bahan di Laman Webnya atau sebaliknya berkaitan dengan bahan tersebut atau mana-mana laman yang dipautkan ke Laman Web ini.</p>
+      <h2>4. Had</h2>
+      <p>PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] atau pembekalnya tidak akan bertanggungjawab atas sebarang kerosakan yang akan timbul dengan penggunaan atau ketidakupayaan untuk menggunakan bahan-bahan di PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], walaupun PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] atau wakil yang diberi kuasa untuk Laman Web ini telah dimaklumkan, secara lisan atau bertulis, tentang kemungkinan kerosakan tersebut. Sesetengah bidang kuasa tidak membenarkan pengehadan ke atas waranti tersirat atau pengehadan liabiliti untuk kerosakan sampingan, pengehadan ini mungkin tidak terpakai kepada anda.</p>
+      <h2>5. Semakan dan Ralat</h2>
+      <p>Bahan-bahan yang terdapat di Laman Web PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] mungkin termasuk ralat teknikal, tipografi atau fotografi. PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] tidak akan menjanjikan bahawa mana-mana bahan dalam Laman Web ini adalah tepat, lengkap atau terkini. PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] boleh menukar bahan-bahan yang terkandung di Laman Webnya pada bila-bila masa tanpa notis. PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] tidak membuat sebarang komitmen untuk mengemas kini bahan.</p>
+      <h2>6. Pautan</h2>
+      <p>PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] belum menyemak semua laman yang dipautkan ke Laman Webnya dan tidak bertanggungjawab ke atas kandungan mana-mana laman yang dipautkan sedemikian. Kehadiran sebarang pautan tidak membayangkan pengesahan oleh PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]. Penggunaan mana-mana laman web yang dipautkan adalah atas risiko pengguna sendiri.</p>
+      <h2>7. Pengubahsuaian Syarat Penggunaan laman</h2>
+      <p>PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] boleh menyemak Terma Penggunaan ini untuk Laman Webnya pada bila-bila masa tanpa notis terlebih dahulu. Dengan menggunakan Laman Web ini, anda bersetuju untuk terikat dengan versi semasa Terma dan Syarat Penggunaan ini.</p>
+      <h2>8. Privasi Anda</h2>
+      <p>Sila baca <a href="/policy/privacy">Dasar Privasi</a> kami.</p>
+      <h2>9. Undang-undang yang Mentadbir</h2>
+      <p>Sebarang tuntutan yang berkaitan dengan Laman Web PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] hendaklah dikawal oleh undang-undang saya tanpa mengambil kira percanggahan peruntukan undang-undangnya.</p>
     </div>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>

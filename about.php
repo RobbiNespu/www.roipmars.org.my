@@ -158,9 +158,7 @@
         <h4 class="text-center font-weight-bold">PENGENALAN</h4>
         <p>Kami adalah Penyelia Perkhidmatan Pelayan Teamspeak 3 yang berasaskan Windows untuk sarana komunikasi alternatif kepada pengendali stesen Amatur dan juga Komersil untuk berkomunikasi antara satu sama lain walau dimana sahaja berada samada menggunakan kaedah RoIP atau VoIP.</p>
         <h4 class="text-center font-weight-bold">SEJARAH</h4>
-        <p>Pelayan Teamspeak 3 mula di perkenalkan di Malaysia untuk sarana komunikasi Amatur dan Komersil oleh 9W2UZL sekitar 2014 dan mula diterima ramai sekitar 2016 sehingga sekarang &#40;<script>
-            document.write(new Date().getFullYear())
-          </script>&#41;.</p>
+        <p>Pelayan Teamspeak 3 mula di perkenalkan di Malaysia untuk sarana komunikasi Amatur dan Komersil oleh 9W2UZL sekitar 2014 dan mula diterima ramai sekitar 2016 sehingga sekarang &#40;<script>document.write(new Date().getFullYear())</script>&#41;.</p>
         <p>Pada awal pengenalan, komuniti pengendali stesen komunikasi tidak dapat menerima pembaharuan serta menentang segala cubaan bagi menjatuhkan semangat pengguna yang lain agar tidak menerima aplikasi Teamspeak atau VOIP (secara amnya) sebagai satu alternatif komunikasi yang baru.</p>
         <p>Namun begitu, kami tidak patah semangat dan terus berjuang sehingga dapat menyewa satu pelayan (server) di Singapura lalu ke Perancis, Jerman dan kembali ke Malaysia.</p>
         <p>Kini, sudah ramai pengguna baru yang berminat untuk mengetahui lebih lanjut mengenai aplikasi komunikasi Teamspeak3.</p>
@@ -171,44 +169,31 @@
       </div>
       <div class="col-lg-8">
         <h4 class="text-center font-weight-bold">PENGENALAN RADIO AMATUR</h4>
-        <p>
-        <ol type="1">
+        <p><ol type="1">
           <li>Radio Amatur ditakrifkan di dalam <a class="text-decoration-none" href="https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998" target="_blank">Akta Komunikasi dan Multimedia 1998 [Akta 588]</a> dan <a class="text-decoration-none" href="https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio" target="_blank">PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA (SPEKTRUM) 2000 [P.U.(A) 128/2000]</a>.</li>
-          <ol type="i">
-            <li>Perkhidmatan Radio Komunikasi (termasuk Bumi [Tanah] &amp; Satelit).</li>
-            <li>Di mana kegunaan stesen dengan tujuan latihan sendiri, komunikasi dan penyiasatan teknikal.</li>
-            <li>Dijalankan oleh seseorang yang berkelayakan yang mempunyai keinginan mendalami teknik radio diatas usaha peribadi dan tidak mempunyai niat yang lain.</li>
-          </ol>
+            <ol type="i">
+              <li>Perkhidmatan Radio Komunikasi (termasuk Bumi [Tanah] &amp; Satelit).</li>
+              <li>Di mana kegunaan stesen dengan tujuan latihan sendiri, komunikasi dan penyiasatan teknikal.</li>
+              <li>Dijalankan oleh seseorang yang berkelayakan yang mempunyai keinginan mendalami teknik radio diatas usaha peribadi dan tidak mempunyai niat yang lain.</li>
+            </ol>
           <li>Radio Amatur juga diiktiraf sebagai salah satu peralatan komunikasi radio yang mana ITU (International Telecommunication Union) memantau dan menyediakan jalur khas untuk perkhidmatan Radio Amatur yang mana jalur tersebut dapat digunakan diseluruh dunia.</li>
           <li>Pengendali Radio Amatur mesti memberikan perkhidmatan bagi membantu kerajaan sesebuah negara ketika berlakunya bencana sekiranya sistem komunikasi yang lain tidak boleh berfungsi atau tiada kemudahan komunikasi yang lain.</li>
           <li>Salah satu kehebatan yang ada pada Radio Amatur ialah: <span class="badge rounded-pill text-bg-success">&lsquo;perasaan muhibah antarabangsa&rsquo;</span> diantara rakan HAM seluruh dunia dengan ikatan persaudaraan antara manusia tanpa mengira darjat atau kasta.</li>
-        </ol>
-        </p>
+        </ol></p>
         <h4 class="text-center font-weight-bold">KOD ETIKA RADIO AMATUR</h4>
         <table class="table table-borderless text-center">
           <tbody class="table-success">
-            <tr>
-              <td>Setia</td>
-              <td>Progresif</td>
-              <td>Ramah Tamah</td>
-            </tr>
-            <tr>
-              <td>Berjiwa Perwira</td>
-              <td>Berjiwa Seimbang</td>
-              <td>Berjiwa Patriotik</td>
-            </tr>
+            <tr><td>Setia</td><td>Progresif</td><td>Ramah Tamah</td></tr>
+            <tr><td>Berjiwa Perwira</td><td>Berjiwa Seimbang</td><td>Berjiwa Patriotik</td></tr>
           </tbody>
         </table>
         <h4 class="text-center font-weight-bold">PERKARA-PERKARA YANG DILARANG DI DALAM STESEN RADIO AMATUR</h4>
-        <p>
-        <ol class="text-bg-danger">
+        <p><ol class="text-bg-danger">
           <li>Stesen Radio Amatur (ARS) dilarang menggunakan Radio Amatur untuk tujuan komersil.</li>
-          <li>Menyiarkan sebarang bahan yang telah sedia ada berupa lagu, percakapan, berita atau apa sahaja yang berkaitan (Re-broadcast).</li>
-        </ol>
-        </p>
+          <li>Menyiarkan sebarang bahan yang telah sedia ada berupa lagu, percakapan, berita atau apa sahaja yang berkaitan (ulang siar).</li>
+        </ol></p>
         <h4 class="text-center font-weight-bold">PERKARA-PERKARA YANG DIBENARKAN BAGI STESEN RADIO AMATUR</h4>
-        <p>
-        <ol class="text-bg-success">
+        <p><ol class="text-bg-success">
           <li>Komunikasi dengan stesen radio amatur diseluruh dunia dengan menggunakan Radio HF dan satelit.</li>
           <li>Komunikasi di antara bandar-bandar tempatan dengan menggunakan radio pemancar VHF dan UHF.</li>
           <li>Memberi khidmat komunikasi ketika berlakunya bencana sekiranya tidak terdapat alat komunikasi yang lain atau alat komunikasi yang lain tidak berfungsi.</li>
@@ -219,8 +204,7 @@
           <li>Mengambil bahagian di dalam sebarang pertandingan Radio Ham atau mengadakan peralatan tunjuk arah.</li>
           <li>Mengambil bahagian di dalam aktiviti mencari dan menyelamat.</li>
           <li>Memancarkan dan menyebarkan berita-berita semasa berkaitan persekitaran mereka sendiri umpamanya berita kematian, bencana, aktiviti masyarakat dan apa sahaja informasi yang memberi faedah umum.</li>
-        </ol>
-        </p>
+        </ol></p>
       </div>
     </div>
   </div>

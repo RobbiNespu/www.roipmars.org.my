@@ -2,26 +2,26 @@
 <html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
-  <title>RoIPMARS|VHF Amateur Simplex</title>
+  <title>RoIPMARS|VHF Amateur Channel</title>
   <meta charset='utf-8'>
   <meta http-equiv='Content-Type' content='text/html'>
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-  <meta name='title' content='RoIPMARS|VHF Amateur Simplex'>
-  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) VHF Amateur Simplex'>
+  <meta name='title' content='RoIPMARS|VHF Amateur Channel'>
+  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) VHF Amateur Channel'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
-  <meta property='og:title' content='RoIPMARS|VHF Amateur Simplex'>
-  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) VHF Amateur Simplex'>
+  <meta property='og:title' content='RoIPMARS|VHF Amateur Channel'>
+  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) VHF Amateur Channel'>
   <meta property='og:url' content='https://www.roipmars.org.my/freq/vsimplex'>
   <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
-  <meta name='twitter:title' content='RoIPMARS|VHF Amateur Simplex'>
-  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) VHF Amateur Simplex'>
+  <meta name='twitter:title' content='RoIPMARS|VHF Amateur Channel'>
+  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) VHF Amateur Channel'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/freq/vsimplex'>
   <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
@@ -108,6 +108,19 @@
             </tr>
           </thead>
           <tbody>
+            <tr><td>V1</td><td>144.7250</td></tr>
+            <tr><td>V2</td><td>144.7500</td></tr>
+            <tr><td>V3</td><td>144.7750</td></tr>
+            <tr><td>V4</td><td>144.8000</td></tr>
+            <tr><td>V5</td><td>144.8250</td></tr>
+            <tr><td>V6</td><td>144.8500</td></tr>
+            <tr><td>V7</td><td>144.8750</td></tr>
+            <tr><td>V8</td><td>144.9000</td></tr>
+            <tr><td>V9</td><td>144.9250</td></tr>
+            <tr><td>V10</td><td>144.9500</td></tr>
+            <tr><td>V11</td><td>144.9750</td></tr>
+            <tr><td>V12</td><td>145.0000</td></tr>
+            <tr><td>V16</td><td>145.2000</td></tr>
             <tr><td>V17</td><td>145.2125</td></tr>
             <tr><td>V18</td><td>145.2250</td></tr>
             <tr><td>V19</td><td>145.2375</td></tr>
@@ -161,6 +174,101 @@
             <tr><td>V67</td><td>147.5250</td></tr>
             <tr><td>V68</td><td>147.5550</td></tr>
             <tr><td>V69</td><td>147.5850</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 m-0 text-center">
+        <p>A short-range repeater radiocommunications service for amateur use</p>
+        <table class="table table-striped table-bordered border-dark table-sm">
+          <thead class="thead-light align-middle">
+            <tr>
+              <th>Channel</th>
+              <th>Transmit Frequency (MHz)</th>
+              <th>Receive Frequency (MHz)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>RV48</td><td>145.0000</td><td>145.6000</td></tr>
+            <tr><td>RV49</td><td>145.0125</td><td>145.6125</td></tr>
+            <tr><td>RV50</td><td>145.0250</td><td>145.6250</td></tr>
+            <tr><td>RV51</td><td>145.0375</td><td>145.6375</td></tr>
+            <tr><td>RV52</td><td>145.0500</td><td>145.6500</td></tr>
+            <tr><td>RV53</td><td>145.0625</td><td>145.6625</td></tr>
+            <tr><td>RV54</td><td>145.0750</td><td>145.6750</td></tr>
+            <tr><td>RV55</td><td>145.0875</td><td>145.6875</td></tr>
+            <tr><td>RV56</td><td>145.1000</td><td>145.7000</td></tr>
+            <tr><td>RV57</td><td>145.1125</td><td>145.7125</td></tr>
+            <tr><td>RV58</td><td>145.1250</td><td>145.7250</td></tr>
+            <tr><td>RV59</td><td>145.1375</td><td>145.7375</td></tr>
+            <tr><td>RV60</td><td>145.1500</td><td>145.7500</td></tr>
+            <tr><td>RV61</td><td>145.1625</td><td>145.7625</td></tr>
+            <tr><td>RV62</td><td>145.1750</td><td>145.7750</td></tr>
+            <tr><td>RV63</td><td>145.1875</td><td>145.7875</td></tr>
+            <tr><td>RV64</td><td>146.0125</td><td>146.6125</td></tr>
+            <tr><td>RV65</td><td>146.0250</td><td>146.6250</td></tr>
+            <tr><td>RV66</td><td>146.0375</td><td>146.6375</td></tr>
+            <tr><td>RV67</td><td>146.0500</td><td>146.6500</td></tr>
+            <tr><td>RV68</td><td>146.0625</td><td>146.6625</td></tr>
+            <tr><td>RV69</td><td>146.0750</td><td>146.6750</td></tr>
+            <tr><td>RV70</td><td>146.0875</td><td>146.6875</td></tr>
+            <tr><td>RV71</td><td>146.1000</td><td>146.7000</td></tr>
+            <tr><td>RV72</td><td>146.1125</td><td>146.7125</td></tr>
+            <tr><td>RV73</td><td>146.1250</td><td>146.7250</td></tr>
+            <tr><td>RV74</td><td>146.1375</td><td>146.7375</td></tr>
+            <tr><td>RV75</td><td>146.1500</td><td>146.7500</td></tr>
+            <tr><td>RV76</td><td>146.1625</td><td>146.7625</td></tr>
+            <tr><td>RV77</td><td>146.1750</td><td>146.7750</td></tr>
+            <tr><td>RV78</td><td>146.1875</td><td>146.7875</td></tr>
+            <tr><td>RV79</td><td>146.2000</td><td>146.8000</td></tr>
+            <tr><td>RV80</td><td>146.2125</td><td>146.8125</td></tr>
+            <tr><td>RV81</td><td>146.2250</td><td>146.8250</td></tr>
+            <tr><td>RV82</td><td>146.2375</td><td>146.8375</td></tr>
+            <tr><td>RV83</td><td>146.2500</td><td>146.8500</td></tr>
+            <tr><td>RV84</td><td>146.2625</td><td>146.8625</td></tr>
+            <tr><td>RV85</td><td>146.2750</td><td>146.8750</td></tr>
+            <tr><td>RV86</td><td>146.2875</td><td>146.8875</td></tr>
+            <tr><td>RV87</td><td>146.3000</td><td>146.9000</td></tr>
+            <tr><td>RV88</td><td>146.3125</td><td>146.9125</td></tr>
+            <tr><td>RV89</td><td>146.3250</td><td>146.9250</td></tr>
+            <tr><td>RV90</td><td>146.3375</td><td>146.9375</td></tr>
+            <tr><td>RV91</td><td>146.3500</td><td>146.9500</td></tr>
+            <tr><td>RV92</td><td>146.3625</td><td>146.9625</td></tr>
+            <tr><td>RV93</td><td>146.3750</td><td>146.9750</td></tr>
+            <tr><td>RV94</td><td>146.3875</td><td>146.9875</td></tr>
+            <tr><td>RV95</td><td>147.0000</td><td>147.6000</td></tr>
+            <tr><td>RV96</td><td>147.0125</td><td>147.6125</td></tr>
+            <tr><td>RV97</td><td>147.0250</td><td>147.6250</td></tr>
+            <tr><td>RV98</td><td>147.0375</td><td>147.6375</td></tr>
+            <tr><td>RV99</td><td>147.0500</td><td>147.6500</td></tr>
+            <tr><td>RV100</td><td>147.0625</td><td>147.6625</td></tr>
+            <tr><td>RV101</td><td>147.0750</td><td>147.6750</td></tr>
+            <tr><td>RV102</td><td>147.0875</td><td>147.6875</td></tr>
+            <tr><td>RV103</td><td>147.1000</td><td>147.7000</td></tr>
+            <tr><td>RV104</td><td>147.1125</td><td>147.7125</td></tr>
+            <tr><td>RV105</td><td>147.1250</td><td>147.7250</td></tr>
+            <tr><td>RV106</td><td>147.1375</td><td>147.7375</td></tr>
+            <tr><td>RV107</td><td>147.1500</td><td>147.7500</td></tr>
+            <tr><td>RV108</td><td>147.1625</td><td>147.7625</td></tr>
+            <tr><td>RV109</td><td>147.1750</td><td>147.7750</td></tr>
+            <tr><td>RV110</td><td>147.1875</td><td>147.7875</td></tr>
+            <tr><td>RV111</td><td>147.2000</td><td>147.8000</td></tr>
+            <tr><td>RV112</td><td>147.2125</td><td>147.8125</td></tr>
+            <tr><td>RV113</td><td>147.2250</td><td>147.8250</td></tr>
+            <tr><td>RV114</td><td>147.2375</td><td>147.8375</td></tr>
+            <tr><td>RV115</td><td>147.2500</td><td>147.8500</td></tr>
+            <tr><td>RV116</td><td>147.2625</td><td>147.8625</td></tr>
+            <tr><td>RV117</td><td>147.2750</td><td>147.8750</td></tr>
+            <tr><td>RV118</td><td>147.2875</td><td>147.8875</td></tr>
+            <tr><td>RV119</td><td>147.3000</td><td>147.9000</td></tr>
+            <tr><td>RV120</td><td>147.3125</td><td>147.9125</td></tr>
+            <tr><td>RV121</td><td>147.3250</td><td>147.9250</td></tr>
+            <tr><td>RV122</td><td>147.3375</td><td>147.9375</td></tr>
+            <tr><td>RV123</td><td>147.3500</td><td>147.9500</td></tr>
+            <tr><td>RV124</td><td>147.3625</td><td>147.9625</td></tr>
+            <tr><td>RV125</td><td>147.3750</td><td>147.9750</td></tr>
+            <tr><td>RV126</td><td>147.3875</td><td>147.9875</td></tr>
           </tbody>
         </table>
       </div>

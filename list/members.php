@@ -116,7 +116,7 @@
           <tr><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>DIS 2025</td><td>AKTIF</td></tr>
           <tr><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>DIS 2026</td><td>AKTIF</td></tr>
-          <tr class="text-secondary text-opacity-25"><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>
+          <tr><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr class="text-secondary text-opacity-25"><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>
           <tr><td>A012</td><td>9W2RNH</td><td>ROSNAH BINTI ABD RAPAR</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr class="text-secondary text-opacity-25"><td>A013</td><td>9W8VWW</td><td>VERONICA CATHERINE ANAK NOHAN</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>

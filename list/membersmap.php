@@ -128,11 +128,11 @@
       //      shadowSize: [68, 95],
       //      shadowAnchor: [22, 94]
     });
-    var A001 = L.marker([3.231078, 101.423520], {
+    var A001 = L.marker([3.231110, 101.423487], {
       title: 'A001',
       icon: myIcon
     }).bindPopup('<p style="text-align: center"><img src="../images/member/001.png" loading="lazy" height="50%" width="50%"><br>A001<br>9W2LGX<br>MOHAMAD HAFIZI BIN RUSLAN</p>');
-    var A001C = L.circle([3.231078, 101.423520], {
+    var A001C = L.circle([3.231110, 101.423487], {
       radius: 5000,
       opacity: 0.05
     });

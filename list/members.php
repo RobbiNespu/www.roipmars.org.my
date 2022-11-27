@@ -100,11 +100,7 @@
     <div class="col-sm-12 pb-2 text-center text-uppercase">
       <table class="table table-lg" id="memberlist">
         <thead class="table-dark sticky-top">
-          <th>ID</th>
-          <th>Callsign</th>
-          <th><input class="form-control form-control-sm text-center rounded-5" type="text" id="nameInput" onkeyup="nameSrch()" placeholder="Nama Ahli" title="Carian menggunakan Nama Ahli"></th>
-          <th>Luput</th>
-          <th>Status</th>
+          <th>ID</th><th>Callsign</th><th><input class="form-control form-control-sm text-center rounded-5" type="text" id="nameInput" onkeyup="nameSrch()" placeholder="Nama Ahli" title="Carian menggunakan Nama Ahli"></th><th>Tarikh Luput</th><th>Status</th>
         </thead>
         <tbody>
           <tr><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>DIS 2023</td><td>AKTIF</td></tr>
@@ -117,20 +113,20 @@
           <tr><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>DIS 2025</td><td>AKTIF</td></tr>
           <tr><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>DIS 2026</td><td>AKTIF</td></tr>
           <tr><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>DIS 2022</td><td>AKTIF</td></tr>
-          <tr class="text-secondary text-opacity-25"><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>
+<!--          <tr class="text-secondary text-opacity-25"><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>JUL 2021</td><td>LUPUT</td></tr>-->
           <tr><td>A012</td><td>9W2RNH</td><td>ROSNAH BINTI ABD RAPAR</td><td>DIS 2022</td><td>AKTIF</td></tr>
-          <tr class="text-secondary text-opacity-25"><td>A013</td><td>9W8VWW</td><td>VERONICA CATHERINE ANAK NOHAN</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>
-          <tr class="text-secondary text-opacity-25"><td>A014</td><td>9W8DNX</td><td>STANLEY SUMPING ANAK ALBERT BEJIE</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>
-          <tr class="text-secondary text-opacity-25"><td>A015</td><td>9M2NUZ</td><td>SITI NUSILAH BINTI HASAN</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>
+<!--          <tr class="text-secondary text-opacity-25"><td>A013</td><td>9W8VWW</td><td>VERONICA CATHERINE ANAK NOHAN</td><td>JUL 2021</td><td>LUPUT</td></tr>-->
+<!--          <tr class="text-secondary text-opacity-25"><td>A014</td><td>9W8DNX</td><td>STANLEY SUMPING ANAK ALBERT BEJIE</td><td>JUL 2021</td><td>LUPUT</td></tr>-->
+<!--          <tr class="text-secondary text-opacity-25"><td>A015</td><td>9M2NUZ</td><td>SITI NUSILAH BINTI HASAN</td><td>JUL 2021</td><td>LUPUT</td></tr>-->
           <tr><td>A016</td><td>9W8ZZK</td><td>MOHAMAD ZAHEER BIN ZAKARIA</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A017</td><td>9M6RDY</td><td>MATTHEUS @ RUDY BIN BENEDICT</td><td>DIS 2022</td><td>AKTIF</td></tr>
-          <tr class="text-secondary text-opacity-25"><td>A018</td><td>9W6GEO</td><td>GEOFFREY BIN COSMAS</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>
-          <tr class="text-secondary text-opacity-25"><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>
+<!--          <tr class="text-secondary text-opacity-25"><td>A018</td><td>9W6GEO</td><td>GEOFFREY BIN COSMAS</td><td>JUL 2021</td><td>LUPUT</td></tr>-->
+<!--          <tr class="text-secondary text-opacity-25"><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>JUL 2021</td><td>LUPUT</td></tr>-->
           <tr><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>DIS 2022</td><td>AKTIF</td></tr>
-          <tr class="text-secondary text-opacity-25"><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>
-          <tr class="text-secondary text-opacity-25"><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>
+<!--          <tr class="text-secondary text-opacity-25"><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>JUL 2021</td><td>LUPUT</td></tr>-->
+<!--          <tr class="text-secondary text-opacity-25"><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>JUL 2021</td><td>LUPUT</td></tr>-->
           <tr><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>DIS 2022</td><td>AKTIF</td></tr>
-          <tr class="text-secondary text-opacity-25"><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>JUL 2021</td><td>TIDAK AKTIF</td></tr>
+<!--          <tr class="text-secondary text-opacity-25"><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>JUL 2021</td><td>LUPUT</td></tr>-->
           <tr><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>DIS 2022</td><td>AKTIF</td></tr>

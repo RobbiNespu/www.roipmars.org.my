@@ -107,7 +107,7 @@
           <tr><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>DIS 2024</td><td>AKTIF</td></tr>
-          <tr><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>DIS 2025</td><td>AKTIF</td></tr>
+          <tr><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>DIS 2024</td><td>AKTIF</td></tr>
           <tr><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>OKT 2024</td><td>AKTIF</td></tr>
           <tr><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>DIS 2025</td><td>AKTIF</td></tr>

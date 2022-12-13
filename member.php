@@ -97,6 +97,9 @@
     gtag('config', 'G-DJYTZHZXFN');
   </script>
   <!-- End Global site tag (gtag.js) - Google Analytics -->
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495" crossorigin="anonymous"></script>
+  <!-- End Google AdSense -->
   <!-- Clarity tracking code for https://www.roipmars.org.my/ -->
   <script>
     (function(c, l, a, r, i, t, y) {

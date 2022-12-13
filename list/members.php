@@ -108,10 +108,10 @@
           <tr><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>DIS 2024</td><td>AKTIF</td></tr>
           <tr><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>DIS 2024</td><td>AKTIF</td></tr>
-          <tr><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>OKT 2024</td><td>AKTIF</td></tr>
+          <tr><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>DIS 2024</td><td>AKTIF</td></tr>
           <tr><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>DIS 2025</td><td>AKTIF</td></tr>
-          <tr><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>MAC 2026</td><td>AKTIF</td></tr>
+          <tr><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>DIS 2025</td><td>AKTIF</td></tr>
           <tr><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>DIS 2022</td><td>AKTIF</td></tr>
 <!--          <tr class="text-secondary text-opacity-25"><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>JUL 2021</td><td>LUPUT</td></tr>-->
           <tr><td>A012</td><td>9W2RNH</td><td>ROSNAH BINTI ABD RAPAR</td><td>DIS 2022</td><td>AKTIF</td></tr>

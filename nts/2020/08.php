@@ -68,7 +68,7 @@
   </script>
   <!-- End Google Tag Manager -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN"></script>
+  <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -79,7 +79,7 @@
   </script>
   <!-- End Global site tag (gtag.js) - Google Analytics -->
   <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495" crossorigin="anonymous"></script>
+  <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
   <!-- End Google AdSense -->
   <!-- Clarity tracking code for https://www.roipmars.org.my/ -->
   <script>
@@ -89,16 +89,16 @@
       };
       t = l.createElement(r);
       t.async = 1;
-      t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt";
+      t.src = 'https://www.clarity.ms/tag/' + i + '?ref=bwt';
       y = l.getElementsByTagName(r)[0];
       y.parentNode.insertBefore(t, y);
-    })(window, document, "clarity", "script", "dtxpwmki8s");
+    })(window, document, 'clarity', 'script', 'dtxpwmki8s');
   </script>
 </head>
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div class="container">
     <h1 class="tk-gilbert-color text-center">MARS Group</h1>

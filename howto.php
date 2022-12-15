@@ -709,7 +709,7 @@
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
   <script>
-    document.querySelector("#darkmode-button").onclick = function(e){
+    document.querySelector('#darkmode-button').onclick = function(e){
       darkmode.toggleDarkMode();
     }
   </script>

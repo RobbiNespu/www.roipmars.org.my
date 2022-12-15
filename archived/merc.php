@@ -95,12 +95,12 @@
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <!-- Messenger Chat plugin -->
-  <div id="fb-root"></div>
-  <div id="fb-customer-chat" class="fb-customerchat"></div>
+  <div id='fb-root'></div>
+  <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script>
     var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute("page_id", "100870702762488");
-    chatbox.setAttribute("attribution", "biz_inbox");
+    chatbox.setAttribute('page_id', '100870702762488');
+    chatbox.setAttribute('attribution', 'biz_inbox');
   </script>
   <script>
     window.fbAsyncInit = function() {

@@ -100,12 +100,12 @@
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <!-- Messenger Chat plugin -->
-  <div id="fb-root"></div>
-  <div id="fb-customer-chat" class="fb-customerchat"></div>
+  <div id='fb-root'></div>
+  <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script>
     var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute("page_id", "100870702762488");
-    chatbox.setAttribute("attribution", "biz_inbox");
+    chatbox.setAttribute('page_id', '100870702762488');
+    chatbox.setAttribute('attribution', 'biz_inbox');
   </script>
   <script>
     window.fbAsyncInit = function() {
@@ -149,7 +149,7 @@
   <div class="container-fluid">
     <div class="row text-center">
       <div class="col my-3 jumbotron-fluid">
-        <img src="./images/web-banner.png" loading="lazy" class="img-fluid border border-light rounded-5 mb-3" alt="banner-index">
+        <img src="./images/web-banner.png" loading="lazy" class="img-fluid border border-light rounded-5 mb-3 bg-light" alt="banner-index">
         <h1 class="h1-responsive">Selamat Datang ke RoIPMARS</h1>
         <p class="font-smaller">Malaysian Amateur Radio over Internet Protocol Society</p>
       </div>
@@ -324,7 +324,7 @@
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
   <script>
-    document.querySelector("#darkmode-button").onclick = function(e){
+    document.querySelector('#darkmode-button').onclick = function(e){
       darkmode.toggleDarkMode();
     }
   </script>

@@ -262,7 +262,7 @@
         <div class="row">
           <div class="col-1"></div>
           <div class="col-2">
-            <h5 class="text-decoration-underline">SETIAUSAHA</h5>
+            <h5 class="text-decoration-underline">SETIAUSAHA AGUNG</h5>
             <img class="img-fluid rounded-5" loading="lazy" src="./images/member/001.png" width="100px" height="100px">
             <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">9W2LGX<br>Hafizi Ruslan</p>
           </div>
@@ -270,7 +270,7 @@
           <div class="col-1 right-long-line"></div>
           <div class="col-3"></div>
           <div class="col-2">
-            <h5 class="text-decoration-underline">BENDAHARI</h5>
+            <h5 class="text-decoration-underline">BENDAHARI AGUNG</h5>
             <img class="img-fluid rounded-5" loading="lazy" src="./images/member/007.png" width="100px" height="100px">
             <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">9W2ELM<br>Sulaiman Mazlan</p>
           </div>
@@ -290,7 +290,7 @@
           </div>
           <div class="col-2"></div>
           <div class="col-2">
-            <h5 class="text-decoration-underline">TIMBALAN PRESIDEN</h5>
+            <h5 class="text-decoration-underline">TIMB. PRESIDEN</h5>
             <img class="img-fluid rounded-5" loading="lazy" src="./images/member/008.png" width="100px" height="100px">
             <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">9W2OGK<br>Kamarudzaman</p>
           </div>

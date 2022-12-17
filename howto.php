@@ -101,24 +101,27 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe class="rounded-5" src="https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="https://www.roipmars.org.my"><img class="img-fluid d-inline-block align-text-top" src="./images/brand.png" width="150" alt="PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)"></a>
-      <button type="button" class="btn btn-sm btn-outline-dark" id="darkmode-button">Switch View</button>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg"><span class="navbar-toggler-icon"></span></button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
-        <ul class="navbar-nav nav-pills nav-fill justify-content-end">
-          <li class="nav-item"><a class="nav-link" href="about">Tentang Kami</a></li>
-          <li class="nav-item"><a class="nav-link" href="activities">Aktiviti</a></li>
-          <li class="nav-item"><a class="nav-link active rounded-pill" aria-current="page" href="howto">Tutorial</a></li>
-          <li class="nav-item"><a class="nav-link" href="cbinfo">Informasi Jalur Rakyat</a></li>
-          <li class="nav-item"><a class="nav-link" href="cbmars">CB RoIPMARS</a></li>
-          <li class="nav-item"><a class="nav-link" href="snotice">Notis Perkhidmatan</a></li>
-          <li class="nav-item"><a class="nav-link" href="member">Keahlian</a></li>
-          <!--<li class="nav-item"><a class="nav-link" href="mailus">Hubungi Kami</a></li>-->
-          <li class="nav-item"><a class="nav-link" href="https://kedai.roipmars.org.my/" target="_blank"><i class="fa-solid fa-store"></i> Kedai</a></li>
-          <!--<li class="nav-item"><a class="nav-link" href="https://books.zoho.com/portal/roipmarsorgmy/" target="_blank"><i class="fa-solid fa-user-shield"></i> Portal Ahli</a></li>-->
-          <li class="nav-item"><a class="nav-link" href="https://ftp.roipmars.org.my/" target="_blank"><i class="fa-solid fa-download"></i> Muat Turun</a></li>
+  <nav class='navbar sticky-top navbar-expand-lg navbar-light text-bg-light'>
+    <div class='container-fluid'>
+      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <button type='button' class='btn btn-sm btn-outline-dark' id='darkmode-button'>Switch View</button>
+      <button class='navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#navbarOffcanvasLg' aria-controls='navbarOffcanvasLg'><span class='navbar-toggler-icon'></span></button>
+      <div class='offcanvas offcanvas-end' tabindex='-1' id='navbarOffcanvasLg' aria-labelledby='navbarOffcanvasLgLabel'>
+        <div class='offcanvas-header text-bg-light'>
+          <h5 class='offcanvas-title' id='navbarOffcanvasLgLabel'>MENU</h5>
+        </div>
+        <ul class='navbar-nav nav-pills nav-fill justify-content-end'>
+          <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
+          <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
+          <li class='nav-item'><a class='nav-link active rounded-pill' aria-current='page' href='howto'>Tutorial</a></li>
+          <li class='nav-item'><a class='nav-link' href='cbinfo'>Informasi Jalur Rakyat</a></li>
+          <li class='nav-item'><a class='nav-link' href='cbmars'>CB RoIPMARS</a></li>
+          <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
+          <li class='nav-item'><a class='nav-link' href='member'>Keahlian</a></li>
+          <!--<li class='nav-item'><a class='nav-link' href='mailus'>Hubungi Kami</a></li>-->
+          <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my/' target='_blank'><i class='fa-solid fa-store'></i> Kedai</a></li>
+          <!--<li class='nav-item'><a class='nav-link' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='fa-solid fa-user-shield'></i> Portal Ahli</a></li>-->
+          <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my/' target='_blank'><i class='fa-solid fa-download'></i> Muat Turun</a></li>
         </ul>
       </div>
     </div>

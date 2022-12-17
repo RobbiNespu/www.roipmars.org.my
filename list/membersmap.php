@@ -185,7 +185,7 @@
     var A026C = L.circle([2.557167, 102.123333], { radius: 5000, opacity: 0.05 });
     var A027 = L.marker([3.228340, 101.653016], { title: 'A027', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/027.png" loading="lazy" height="50%" width="50%"><br>A027<br>9M2EZU<br>MOHD IZZUDIN BIN ABD RAHIM</p>');
     var A027C = L.circle([3.228340, 101.653016], { radius: 5000, opacity: 0.05 });
-    var MarkersList = L.layerGroup([A001, A001C, A002, A002C, A003, A003C, A004, A004C, B005, B005C, A006, A006C, A007, A007C, A008, A008C, A009, A009C, A010, A010C, /*A011, A011C,*/ A012, A012C, /*A013, A013C, A014, A014C, A015, A015C,*/ A016, A016C, A017, A017C, /*A018, A018C, B019, B019C,*/ A020, A020C, /*A021, A021C, A022, A022C,*/ A023, A023C, /*A024, A024C*/ A025, A025C, A026, A026C, A027, A027C]).addTo(map);
+    var MarkersList = L.layerGroup([A001, A001C, A002, A002C, A003, A003C, A004, A004C, B005, B005C, A006, A006C, A007, A007C, A008, A008C, A009, A009C, A010, A010C, /*A011, A011C,*/ A012, A012C, /*A013, A013C, A014, A014C, A015, A015C,*/ A016, A016C, A017, A017C, /*A018, A018C, B019, B019C,*/ A020, A020C, /*A021, A021C,*/ A022, A022C, A023, A023C, /*A024, A024C*/ A025, A025C, A026, A026C, A027, A027C]).addTo(map);
   </script>
 </body>
 

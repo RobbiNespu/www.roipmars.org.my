@@ -68,7 +68,7 @@
 	</script>
 	<!-- End Google Tag Manager -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN"></script>
+	<script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() {
@@ -86,10 +86,10 @@
 			};
 			t = l.createElement(r);
 			t.async = 1;
-			t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt";
+			t.src = 'https://www.clarity.ms/tag/' + i + '?ref=bwt';
 			y = l.getElementsByTagName(r)[0];
 			y.parentNode.insertBefore(t, y);
-		})(window, document, "clarity", "script", "dtxpwmki8s");
+		})(window, document, 'clarity', 'script', 'dtxpwmki8s');
 	</script>
 </head>
 
@@ -98,12 +98,12 @@
 	<noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<!-- Messenger Chat plugin -->
-	<div id="fb-root"></div>
-	<div id="fb-customer-chat" class="fb-customerchat"></div>
+	<div id='fb-root'></div>
+	<div id='fb-customer-chat' class='fb-customerchat'></div>
 	<script>
 		var chatbox = document.getElementById('fb-customer-chat');
-		chatbox.setAttribute("page_id", "100870702762488");
-		chatbox.setAttribute("attribution", "biz_inbox");
+		chatbox.setAttribute('page_id', '100870702762488');
+		chatbox.setAttribute('attribution', 'biz_inbox');
 	</script>
 	<script>
 		window.fbAsyncInit = function() {
@@ -147,49 +147,49 @@
       </div>
     </div>
   </nav>
-	<div class="container-fluid">
-		<div class="row text-center">
-			<div class="col mt-2 mb-2 jumbotron-fluid">
-				<h1 class="h1-responsive">Contact Form</h1>
+	<div class='container-fluid'>
+		<div class='row text-center'>
+			<div class='col mt-2 mb-2 jumbotron-fluid'>
+				<h1 class='h1-responsive'>Contact Form</h1>
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md">
-				<form id="contactForm" method="post" action="/vendor/mail/contact_me.php">
-					<div class="form-row">
-						<div class="col-auto">
-							<div class="form-floating">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Name" aria-required="true" required data-validation-required-message="Please enter your name">
-								<label for="name">Name</label>
+	<div class='container'>
+		<div class='row'>
+			<div class='col-md'>
+				<form id='contactForm' method='post' action='./vendor/mail/contact_me.php'>
+					<div class='form-row'>
+						<div class='col-auto'>
+							<div class='form-floating'>
+								<input type='text' class='form-control' id='name' name='name' placeholder='Name' aria-required='true' required data-validation-required-message='Please enter your name'>
+								<label for='name'>Name</label>
 							</div>
 						</div>
-						<div class="col-auto">
-							<div class="form-floating">
-								<input type="email" class="form-control" id="email" name="email" placeholder="yourname@yourdomain.tld" aria-required="true" required data-validation-required-message="Please enter your email">
-								<label for="email">E-Mail</label>
+						<div class='col-auto'>
+							<div class='form-floating'>
+								<input type='email' class='form-control' id='email' name='email' placeholder='yourname@yourdomain.tld' aria-required='true' required data-validation-required-message='Please enter your email'>
+								<label for='email'>E-Mail</label>
 							</div>
 						</div>
-						<div class="col-auto">
-							<div class="form-floating">
-								<input type="text" class="form-control" id="phone" name="phone" placeholder="+60123456789" aria-required="true" required data-validation-required-message="Please enter your phone">
-								<label for="phone">Phone</label>
+						<div class='col-auto'>
+							<div class='form-floating'>
+								<input type='text' class='form-control' id='phone' name='phone' placeholder='+60123456789' aria-required='true' required data-validation-required-message='Please enter your phone'>
+								<label for='phone'>Phone</label>
 							</div>
 						</div>
 					</div>
-					<div class="input-group">
-						<span class="input-group-text">Message</span>
-						<textarea class="form-control" aria-label="Message" id="message" name="message" placeholder="Message" rows="6" aria-required="true" required data-validation-required-message="Please enter your message"></textarea>
+					<div class='input-group'>
+						<span class='input-group-text'>Message</span>
+						<textarea class='form-control' aria-label='Message' id='message' name='message' placeholder='Message' rows='6' aria-required='true' required data-validation-required-message='Please enter your message'></textarea>
 					</div>
-					<div class="row my-2">
-						<div class="col-9">
+					<div class='row my-2'>
+						<div class='col-9'>
 							<!-- For success/fail messages -->
-							<div class="text-start" id="success"></div>
+							<div class='text-start' id='success'></div>
 						</div>
-						<div class="col-3 text-end">
-							<button type="reset" class="btn btn-outline-secondary btn-sm">Reset</button>
-							<button type="submit" class="btn btn-primary btn-sm" id="sendMessage" class="g-recaptcha" data-sitekey="6Ld1N1YhAAAAAPqWlFQhJtNWCS-KuZTG10inRhCR" data-callback='onSubmit' data-action='submit'>Submit</button>
+						<div class='col-3 text-end'>
+							<button type='reset' class='btn btn-outline-secondary btn-sm'>Reset</button>
+							<button type='submit' class='btn btn-primary btn-sm' id='sendMessage' class='g-recaptcha' data-sitekey='6Ld1N1YhAAAAAPqWlFQhJtNWCS-KuZTG10inRhCR' data-callback='onSubmit' data-action='submit'>Submit</button>
 						</div>
 					</div>
 				</form>
@@ -239,17 +239,13 @@
 	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
 	<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
-  <script>
-    document.querySelector('#darkmode-button').onclick = function(e){
-      darkmode.toggleDarkMode();
-    }
-  </script>
-	<script src="/vendor/mail/contact.js"></script>
-  <script src="/vendor/mail/jqBootstrapValidation.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script> document.querySelector('#darkmode-button').onclick = function(e){ darkmode.toggleDarkMode(); } </script>
+	<script src='./vendor/mail/contact.js'></script>
+  <script src='./vendor/mail/jqBootstrapValidation.js'></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
   <script>
     function onSubmit(token) {
-     document.getElementById("contactForm").submit();
+     document.getElementById('contactForm').submit();
     }
   </script>
 </body>

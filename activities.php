@@ -281,11 +281,7 @@
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
-  <script>
-    document.querySelector('#darkmode-button').onclick = function(e){
-      darkmode.toggleDarkMode();
-    }
-  </script>
+  <script> document.querySelector('#darkmode-button').onclick = function(e){ darkmode.toggleDarkMode(); } </script>
   <!--Start of Tawk.to Script-->
   <script type='text/javascript'>
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

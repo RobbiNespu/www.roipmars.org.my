@@ -189,7 +189,7 @@
 						</div>
 						<div class='col-3 text-end'>
 							<button type='reset' class='btn btn-outline-secondary btn-sm'>Reset</button>
-							<button type='submit' class='btn btn-primary btn-sm' id='sendMessage' class='g-recaptcha' data-sitekey='6Ld1N1YhAAAAAPqWlFQhJtNWCS-KuZTG10inRhCR' data-callback='onSubmit' data-action='submit'>Submit</button>
+							<button type='submit' class='btn btn-primary btn-sm' id='sendMessage' class='cf-turnstile' data-sitekey='0x4AAAAAAABo4nJ8nQ9QZgbE' data-callback='onSubmit' data-action='submit'>Submit</button>
 						</div>
 					</div>
 				</form>
@@ -242,12 +242,9 @@
   <script> document.querySelector('#darkmode-button').onclick = function(e){ darkmode.toggleDarkMode(); } </script>
 	<script src='./vendor/mail/contact.js'></script>
   <script src='./vendor/mail/jqBootstrapValidation.js'></script>
-  <script src='https://www.google.com/recaptcha/api.js'></script>
-  <script>
-    function onSubmit(token) {
-     document.getElementById('contactForm').submit();
-    }
-  </script>
+  <script src='https://challenges.cloudflare.com/turnstile/v0/api.js' async defer></script>
+<!--  <script src='https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha' async defer></script>-->
+  <script> function onSubmit(token) { document.getElementById('contactForm').submit(); } </script>
 </body>
 
 </html>

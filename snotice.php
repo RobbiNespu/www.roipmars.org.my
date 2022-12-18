@@ -240,41 +240,41 @@
       </table>
     </div>
   </div>
-  <footer class="footer mt-auto py-1 page-footer font-small bg-light">
-    <div class="container">
-      <div class="row my-0">
-        <div class="col-md-7 col-lg-7 col-xl-7 mx-auto my-1">
-          <h5 class="text-uppercase mb-2 font-weight-bold">Sumbangan</h5>
-          <p class="mb-3">Sumbangan anda membantu Penyelidikan &amp; Pembangunan serta perkhidmatan kami tersedia sepanjang masa</p>
-          <table class="table table-sm table-bordered border-dark text-center my-0">
+  <footer class='footer mt-auto py-1 page-footer font-small bg-light'>
+    <div class='container'>
+      <div class='row my-0'>
+        <div class='col-md-7 col-lg-7 col-xl-7 mx-auto my-1'>
+          <h5 class='text-uppercase mb-2 font-weight-bold'>Sumbangan</h5>
+          <p class='mb-3'>Sumbangan anda membantu Penyelidikan &amp; Pembangunan serta perkhidmatan kami tersedia sepanjang masa</p>
+          <table class='table table-sm table-bordered border-dark text-center my-0'>
             <tr><td>Nama</td><td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
             <tr><td>Akaun</td><td>12140000437712</td></tr>
           </table>
-          <p class="my-0 text-center">Kami juga menerima <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;"><img src="./images/tngew_ht.png" class="img-fluid" width="50px"></a> dan <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;"><img src="./images/fpx.png" class="img-fluid" width="50px"></a> dan <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;"><i class="fa-regular fa-credit-card"></i></i></a></p>
-          <p class="my-0 text-center">&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;<br>&mdash; KEHADIRAN ANDA KEBANGGAAN KAMI &mdash;</p>
+          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;"><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;"><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;"><i class='fa-regular fa-credit-card'></i></i></a></p>
+          <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;<br>&mdash; KEHADIRAN ANDA KEBANGGAAN KAMI &mdash;</p>
         </div>
-        <hr class="w-100 clearfix d-md-none">
-        <div class="col-md-5 col-lg-5 col-xl-5 mx-auto my-1 text-end">
-          <h5 class="text-uppercase mb-2 font-weight-bold">Hubungi Kami</h5>
-          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:member@roipmars.org.my" class="text-dark text-decoration-none">member<i class="fas fa-at"></i>roipmars.org.my</a></p>
-          <div class="d-flex justify-content-end">
-            <img class="img-fluid rounded-5" loading="lazy" src="https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve">
+        <hr class='w-100 clearfix d-md-none'>
+        <div class='col-md-5 col-lg-5 col-xl-5 mx-auto my-1 text-end'>
+          <h5 class='text-uppercase mb-2 font-weight-bold'>Hubungi Kami</h5>
+          <p><i class='fa-solid fa-envelope'></i> <a href='mailto:member@roipmars.org.my' class='text-dark text-decoration-none'>member<i class='fas fa-at'></i>roipmars.org.my</a></p>
+          <div class='d-flex justify-content-end'>
+            <img class='img-fluid rounded-5' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
           </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row mt-5 mb-0 d-flex align-middle">
-        <div class="col-md-8 col-lg-8 col-xl-8">
-          <p class="text-start font-monospace"><a href="policies" class="text-dark text-decoration-none font-monospace">Polisi Perkhidmatan</a><br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
+    <div class='container-fluid'>
+      <div class='row mt-5 mb-0 d-flex align-middle'>
+        <div class='col-md-8 col-lg-8 col-xl-8'>
+          <p class='text-start font-monospace'><a href='policies' class='text-dark text-decoration-none font-monospace'>Polisi Perkhidmatan</a><br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
         </div>
-        <div class="col-md-4 col-lg-4 col-xl-4 ml-lg-0">
-          <div class="text-end text-decoration-none">
-            <a href="https://www.facebook.com/roipmars.org.my"><span class="fa-stack fa-xl"><i class="fa-solid fa-circle fa-stack-2x"></i><i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i></span></a>
-            <a href="https://t.me/marsts3servercyberjaya"><span class="fa-stack fa-xl"><i class="fa-solid fa-circle fa-stack-2x"></i><i class="fa-brands fa-telegram fa-stack-1x fa-inverse"></i></span></a>
-            <a href="https://wa.me/c/60333960874"><span class="fa-stack fa-xl"><i class="fa-solid fa-circle fa-stack-2x"></i><i class="fa-brands fa-whatsapp fa-stack-1x fa-inverse"></i></span></a>
-            <a href="#" onClick="TSLoginWindow=window.open('https://www.roipmars.org.my/ts3login', 'LogIn TS RoIPMARS', 'width=800,height=600'); return false;"><span class="fa-stack fa-xl"><i class="fa-solid fa-circle fa-stack-2x"></i><i class="fa-brands fa-teamspeak fa-stack-1x fa-inverse"></i></span></a>
+        <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
+          <div class='text-end text-decoration-none'>
+            <a href='https://www.facebook.com/roipmars.org.my'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-facebook-f fa-stack-1x fa-inverse'></i></span></a>
+            <a href='https://t.me/marsts3servercyberjaya'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-telegram fa-stack-1x fa-inverse'></i></span></a>
+            <a href='https://wa.me/c/60333960874'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-whatsapp fa-stack-1x fa-inverse'></i></span></a>
+            <a href='#' onClick="TSLoginWindow=window.open('https://www.roipmars.org.my/ts3login', 'LogIn TS RoIPMARS', 'width=800,height=600'); return false;"><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
           </div>
         </div>
       </div>

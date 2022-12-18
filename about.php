@@ -162,7 +162,7 @@
     <div class="row">
       <div class="col-lg-4">
         <h4 class="text-center font-weight-bold">PENGENALAN</h4>
-        <p>Kami adalah Penyelia Perkhidmatan Pelayan Teamspeak 3 yang berasaskan Windows untuk sarana komunikasi alternatif kepada pengendali stesen Amatur dan juga Komersil untuk berkomunikasi antara satu sama lain walau dimana sahaja berada samada menggunakan kaedah RoIP atau VoIP.</p>
+        <p>Kami adalah Penyelia Perkhidmatan Pelayan Teamspeak 3 yang berasaskan Windows &amp; Android untuk sarana komunikasi alternatif kepada pengendali stesen Amatur dan juga Komersil untuk berkomunikasi antara satu sama lain walau dimana sahaja berada samada menggunakan kaedah RoIP atau VoIP.</p>
         <h4 class="text-center font-weight-bold">SEJARAH</h4>
         <p>Pelayan Teamspeak 3 mula di perkenalkan di Malaysia untuk sarana komunikasi Amatur dan Komersil oleh 9W2UZL sekitar 2014 dan mula diterima ramai sekitar 2016 sehingga sekarang &#40;<script>document.write(new Date().getFullYear())</script>&#41;.</p>
         <p>Pada awal pengenalan, komuniti pengendali stesen komunikasi tidak dapat menerima pembaharuan serta menentang segala cubaan bagi menjatuhkan semangat pengguna yang lain agar tidak menerima aplikasi Teamspeak atau VOIP (secara amnya) sebagai satu alternatif komunikasi yang baru.</p>

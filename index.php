@@ -234,8 +234,8 @@
             <p>Kepada INDIVIDU atau KELAB, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS.</p>
             <p>Kami juga menyediakan perkhidmatan komunikasi buat SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan.</p>
             <p>Pasukan teknikal kami sedia membantu anda. Hubungi kami di <a class="text-primary text-decoration-none" href="mailto:member@roipmars.org.my">member@roipmars.org.my</a> untuk sebarang pertanyaan dan permohonan.</p>
-          <h6 class="text-end text-dark">"JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI"</h6>
-          <p class="text-end text-dark">Tulus Ikhlas, Pengurusan RoIPMARS</p>
+          <h6 class="text-end">"JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI"</h6>
+          <p class="text-end">Tulus Ikhlas, Pengurusan RoIPMARS</p>
         </div>
       </div>
     </div>

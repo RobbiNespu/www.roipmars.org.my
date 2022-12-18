@@ -193,31 +193,12 @@
         <h2 class='h2 font-weight-bold'>Jadual Program</h2>
         <p class='fs-5'><?php date_default_timezone_set('Asia/Kuala_Lumpur'); $current_file_name = basename($_SERVER['PHP_SELF']); $file_last_modified = filemtime($current_file_name); echo 'Dijadualkan setakat: ' . date('l, d F Y, h:iA e', $file_last_modified); ?></p>
       </div>
-      <div class='col-3'>
-        <div id='list-program' class='list-group'>
-          <a class='list-group-item list-group-item-action' href='#jan23'>Januari 2023</a>
-          <a class='list-group-item list-group-item-action' href='#feb23'>Februari 2023</a>
-          <a class='list-group-item list-group-item-action' href='#mar23'>Mac 2023</a>
-          <a class='list-group-item list-group-item-action' href='#apr23'>April 2023</a>
-          <a class='list-group-item list-group-item-action' href='#may23'>Mei 2023</a>
-          <a class='list-group-item list-group-item-action' href='#jun23'>Jun 2023</a>
-          <a class='list-group-item list-group-item-action' href='#jul23'>Julai 2023</a>
-          <a class='list-group-item list-group-item-action' href='#aug23'>Ogos 2023</a>
-          <a class='list-group-item list-group-item-action' href='#sep23'>September 2023</a>
-          <a class='list-group-item list-group-item-action' href='#oct23'>Oktober 2023</a>
-          <a class='list-group-item list-group-item-action' href='#nov23'>November 2023</a>
-          <a class='list-group-item list-group-item-action' href='#dec23'>Disember 2023</a>
-        </div>
-        <hr>
-        <ul class='list-group list-group-flush font-italic fs-6'>
-          <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-          <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
-        </ul>
-      </div>
-      <div class='col-9'>
-        <div data-bs-spy='scroll' data-bs-target='#list-program' data-bs-smooth-scroll='true' class='scrollspy' tabindex='0'>
-          <p class='fs-3 bg-light' id='jan23'>Januari 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+    </div>
+    <div class='row'>
+      <div class='col-12'>
+        <p class='fs-3 bg-light text-center'>Januari 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#D71110'><td>52</td><td>Ahad</td><td>01 Jan 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; CB Net<br>&#40;Tahun Baru 2023&#41;</td><td></td><td></td></tr>
@@ -239,8 +220,10 @@
               <tr><td>4<td>Ahad</td><td>29 Jan 2023</td><td>9:00PM MYT</td><td>CB Net</td><td></td><td></td></tr>
             </tbody>
           </table>
-          <p class='fs-3 bg-light' id='feb23'>Februari 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+        </div>
+        <p class='fs-3 bg-light text-center'>Februari 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#56C3E7'><td>5<td>Rabu</td><td>01 Feb 2023</td><td>9:00PM MYT</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Federal Territory Day&#41;</td><td></td><td></td></tr>
@@ -261,8 +244,14 @@
               <tr><td>8<td>Ahad</td><td>26 Feb 2023</td><td>9:00PM MYT</td><td>CB Net</td><td></td><td></td></tr>
             </tbody>
           </table>
-          <p class='fs-3 bg-light' id='mar23'>Mac 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+        </div>
+        <p class='fs-3 bg-light text-center'>Mac 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
+            <caption><ul class='list-group fs-6'>
+              <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
+              <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
+            </ul></capton>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>9<td>Rabu</td><td>01 Mac 2023</td><td>9:00PM MYT</td><td>English Net</td><td></td><td></td></tr>
@@ -291,8 +280,14 @@
               <tr><td>13<td>Jumaat</td><td>31 Mac 2023</td><td>4:00AM MYT</td><td>Sahur Net #9</td><td></td><td></td></tr>
             </tbody>
           </table>
-          <p class='fs-3 bg-light' id='apr23'>April 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+        </div>
+        <p class='fs-3 bg-light text-center'>April 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
+            <caption><ul class='list-group fs-6'>
+              <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
+              <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
+            </ul></capton>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>13<td>Sabtu</td><td>01 Apr 2023</td><td>4:00AM MYT</td><td>Sahur Net #10</td><td></td><td></td></tr>
@@ -326,8 +321,10 @@
               <tr bgcolor='#D71110'><td>17<td>Ahad</td><td>30 Apr 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Jazz Sedunia&#41;</td><td></td><td></td></tr>
             </tbody>
           </table>
-          <p class='fs-3 bg-light' id='may23'>Mei 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+        </div>
+        <p class='fs-3 bg-light text-center'>Mei 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#336699'><td>18<td>Isnin</td><td>01 Mei 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Pekerja&#41;</td><td></td><td></td></tr>
@@ -350,8 +347,14 @@
               <tr bgcolor='#56C3E7'><td>22<td>Rabu</td><td>31 Mei 2023</td><td>9:00PM MYT</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Harvest Festival&#41;<br>&#40;World No Tobacco Day&#41;</td><td></td><td></td></tr>
             </tbody>
           </table>
-          <p class='fs-3 bg-light' id='jun23'>Jun 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+        </div>
+        <p class='fs-3 bg-light text-center'>Jun 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
+            <caption><ul class='list-group fs-6'>
+              <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
+              <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
+            </ul></capton>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#336699'><td>22<td>Khamis</td><td>01 Jun 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Ulang Tahun Persatuan Ke-3&#41;</td><td></td><td></td></tr>
@@ -374,8 +377,10 @@
               <tr bgcolor='#336699'><td>26<td>Jumaat</td><td>30 Jun 2023<sup>1</sup></td><td>9:00PM MYT</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Raya Aidiladha<sup>1</sup>&#41;</td><td></td><td></td></tr>
             </tbody>
           </table>
-          <p class='fs-3 bg-light' id='jul23'>Julai 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+        </div>
+        <p class='fs-3 bg-light text-center'>Julai 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>26<td>Sabtu</td><td>01 Jul 2023</td><td>9:00PM MYT</td><td>MARS Net</td><td></td><td></td></tr>
@@ -398,8 +403,10 @@
               <tr bgcolor='#D71110'><td>30<td>Ahad</td><td>30 Jul 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Keputeraan Sultan Pahang&#41;<br>&#40;Hari Persahabatan&#41;</td><td></td><td></td></tr>
             </tbody>
           </table>
-          <p class='fs-3 bg-light' id='aug23'>Ogos 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+        </div>
+        <p class='fs-3 bg-light text-center'>Ogos 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>31<td>Rabu</td><td>02 Ogo 2023</td><td>9:00PM MYT</td><td>English Net</td><td></td><td></td></tr>
@@ -421,8 +428,10 @@
               <tr bgcolor='#56C3E7'><td>35<td>Rabu</td><td>30 Ogo 2023</td><td>9:00PM MYT</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Threshold of Malaysia&#39;s National Day&#41;</td><td></td><td></td></tr>
             </tbody>
           </table>
-          <p class='fs-3 bg-light' id='sep23'>September 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+        </div>
+        <p class='fs-3 bg-light text-center'>September 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>35<td>Jumaat</td><td>01 Sep 2023</td><td>9:00PM MYT</td><td>MARS Net</td><td></td><td></td></tr>
@@ -445,8 +454,10 @@
               <tr><td>39<td>Sabtu</td><td>30 Sep 2023</td><td>9:00PM MYT</td><td>MARS Net</td><td></td><td></td></tr>
             </tbody>
           </table>
-          <p class='fs-3 bg-light' id='oct23'>Oktober 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+        </div>
+        <p class='fs-3 bg-light text-center'>Oktober 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#D71110'><td>39<td>Ahad</td><td>01 Okt 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Kopi Antarabangsa&#41;</td><td></td><td></td></tr>
@@ -468,8 +479,10 @@
               <tr><td>43<td>Ahad</td><td>29 Okt 2023</td><td>9:00PM MYT</td><td>CB Net</td><td></td><td></td></tr>
             </tbody>
           </table>
-          <p class='fs-3 bg-light' id='nov23'>November 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+        </div>
+        <p class='fs-3 bg-light text-center'>November 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>44<td>Rabu</td><td>01 Nov 2023</td><td>9:00PM MYT</td><td>English Net</td><td></td><td></td></tr>
@@ -491,8 +504,10 @@
               <tr><td>48<td>Rabu</td><td>29 Nov 2023</td><td>9:00PM MYT</td><td>English Net</td><td></td><td></td></tr>
             </tbody>
           </table>
-          <p class='fs-3 bg-light' id='dec23'>Disember 2023</p>
-          <table class='table table-sm table-responsive table-bordered table-striped text-center align-middle'>
+        </div>
+        <p class='fs-3 bg-light text-center'>Disember 2023</p>
+        <div class='table-responsive'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#336699'><td>48<td>Jumaat</td><td>01 Dis 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari AIDS Sedunia&#41;</td><td></td><td></td></tr>

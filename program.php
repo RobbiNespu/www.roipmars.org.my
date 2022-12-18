@@ -217,7 +217,7 @@
       <div class='col-9'>
         <div data-bs-spy='scroll' data-bs-target='#list-program' data-bs-smooth-scroll='true' class='scrollspy' tabindex='0'>
           <p class='fs-3 bg-light' id='jan23'>Januari 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#D71110'><td>52</td><td>Ahad</td><td>01 Jan 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; CB Net<br>&#40;Tahun Baru 2023&#41;</td><td></td><td></td></tr>
@@ -240,7 +240,7 @@
             </tbody>
           </table>
           <p class='fs-3 bg-light' id='feb23'>Februari 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#336699'><td>5<td>Rabu</td><td>01 Feb 2023</td><td>9:00PM MYT</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Federal Territory Day&#41;</td><td></td><td></td></tr>
@@ -262,7 +262,7 @@
             </tbody>
           </table>
           <p class='fs-3 bg-light' id='mar23'>Mac 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>9<td>Rabu</td><td>01 Mac 2023</td><td>9:00PM MYT</td><td>English Net</td><td></td><td></td></tr>
@@ -292,7 +292,7 @@
             </tbody>
           </table>
           <p class='fs-3 bg-light' id='apr23'>April 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>13<td>Sabtu</td><td>01 Apr 2023</td><td>4:00AM MYT</td><td>Sahur Net #10</td><td></td><td></td></tr>
@@ -327,7 +327,7 @@
             </tbody>
           </table>
           <p class='fs-3 bg-light' id='may23'>Mei 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#336699'><td>18<td>Isnin</td><td>01 Mei 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Pekerja&#41;</td><td></td><td></td></tr>
@@ -351,7 +351,7 @@
             </tbody>
           </table>
           <p class='fs-3 bg-light' id='jun23'>Jun 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#336699'><td>22<td>Khamis</td><td>01 Jun 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Ulang Tahun Persatuan Ke-3&#41;</td><td></td><td></td></tr>
@@ -375,7 +375,7 @@
             </tbody>
           </table>
           <p class='fs-3 bg-light' id='jul23'>Julai 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>26<td>Sabtu</td><td>01 Jul 2023</td><td>9:00PM MYT</td><td>MARS Net</td><td></td><td></td></tr>
@@ -399,7 +399,7 @@
             </tbody>
           </table>
           <p class='fs-3 bg-light' id='aug23'>Ogos 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>31<td>Rabu</td><td>02 Ogo 2023</td><td>9:00PM MYT</td><td>English Net</td><td></td><td></td></tr>
@@ -422,7 +422,7 @@
             </tbody>
           </table>
           <p class='fs-3 bg-light' id='sep23'>September 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>35<td>Jumaat</td><td>01 Sep 2023</td><td>9:00PM MYT</td><td>MARS Net</td><td></td><td></td></tr>
@@ -446,7 +446,7 @@
             </tbody>
           </table>
           <p class='fs-3 bg-light' id='oct23'>Oktober 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#D71110'><td>39<td>Ahad</td><td>01 Okt 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Kopi Antarabangsa&#41;</td><td></td><td></td></tr>
@@ -469,7 +469,7 @@
             </tbody>
           </table>
           <p class='fs-3 bg-light' id='nov23'>November 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>44<td>Rabu</td><td>01 Nov 2023</td><td>9:00PM MYT</td><td>English Net</td><td></td><td></td></tr>
@@ -492,7 +492,7 @@
             </tbody>
           </table>
           <p class='fs-3 bg-light' id='dec23'>Disember 2023</p>
-          <table class='table table-bordered table-striped text-center align-middle'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr bgcolor='#336699'><td>48<td>Jumaat</td><td>01 Dis 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari AIDS Sedunia&#41;</td><td></td><td></td></tr>

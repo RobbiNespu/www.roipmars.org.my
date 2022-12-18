@@ -191,7 +191,7 @@
     <div class='row'>
       <div class='col-12 my-1 text-center'>
         <h2 class='h2 font-weight-bold'>Jadual Program</h2>
-        <p class='fs-5'><?php date_default_timezone_set('Asia/Kuala_Lumpur'); $current_file_name = basename($_SERVER['PHP_SELF']); $file_last_modified = filemtime($current_file_name); echo 'Dijadualkan setakat: ' . date('l, d F Y, h:iA e', $file_last_modified) . '\n'; ?></p>
+        <p class='fs-5'><?php date_default_timezone_set('Asia/Kuala_Lumpur'); $current_file_name = basename($_SERVER['PHP_SELF']); $file_last_modified = filemtime($current_file_name); echo 'Dijadualkan setakat: ' . date('l, d F Y, h:iA e', $file_last_modified); ?></p>
       </div>
       <div class='col-3'>
         <div id='list-program' class='list-group'>
@@ -521,7 +521,7 @@
     </div>
     <hr>
     <div class='row'>
-      <div class='col-6'>
+      <div class='col-4'>
         <h4 class='h4 text-center'>5 NCS Terbaik Tahun 2023</h4>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Callsign</th></thead>
@@ -534,7 +534,7 @@
           </tbody>
         </table>
       </div>
-      <div class='col-6'>
+      <div class='col-4'>
         <h4 class='h4 text-center'>5 Stesen Tertinggi oleh NCS Tahun 2023</h4>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Callsign</th></thead>
@@ -546,7 +546,8 @@
             <tr><td>5<sup>th</sup></td><td></td></tr>
           </tbody>
         </table>
-      </div><div class='col-12'>
+      </div>
+      <div class='col-4'>
         <h4 class='h4 text-center'>5 Stesen Paling Aktif Tahun 2023</h4>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Callsign</th></thead>

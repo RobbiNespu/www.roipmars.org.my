@@ -2,7 +2,7 @@ $(function() {
 
   // This is the demo secret key. In production, we recommend
   // you store your secret key(s) safely.
-  const SECRET_KEY = '1x0000000000000000000000000000000AA';
+  const SECRET_KEY = '0x4AAAAAAABo4mQOtJP4zpz-E_X53r62JBo';
 
   async function handlePost(request) {	
     const body = await request.formData();	// Turnstile injects a token in "cf-turnstile-response".

@@ -124,7 +124,7 @@
     }(document, 'script', 'facebook-jssdk'));
   </script>
   <!-- End Messenger Chat plugin -->
-  <nav class='navbar sticky-top navbar-expand-lg navbar-light text-bg-light'>
+  <nav class='navbar sticky-top navbar-expand-lg navbar-light bg-light'>
     <div class='container-fluid'>
       <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <button type='button' class='btn btn-sm btn-outline-dark' id='darkmode-button'>Switch View</button>
@@ -154,7 +154,8 @@
       <div class="col my-3 jumbotron-fluid">
         <img src="./images/web-banner.png" loading="lazy" class="img-fluid border border-light rounded-5 mb-3 bg-light" alt="banner-index">
         <h1 class="h1-responsive">Selamat Datang ke RoIPMARS</h1>
-        <p class="font-smaller">Malaysian Amateur Radio over Internet Protocol Society</p>
+        <p class="fs-5">Malaysian Amateur Radio over Internet Protocol Society</p>
+        <p class="fs-3">&#8212; MUDAH &#8212; MURAH &#8212; MERIAH &#8212; MERAPATKAN HUBUNGAN &#8212; MENJAGA SILATURRAHIM &#8212;</p>
       </div>
     </div>
   </div>

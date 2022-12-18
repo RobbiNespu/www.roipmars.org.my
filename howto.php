@@ -101,7 +101,7 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe class="rounded-5" src="https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <nav class='navbar sticky-top navbar-expand-lg navbar-light text-bg-light'>
+  <nav class='navbar sticky-top navbar-expand-lg navbar-light bg-light'>
     <div class='container-fluid'>
       <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <button type='button' class='btn btn-sm btn-outline-dark' id='darkmode-button'>Switch View</button>

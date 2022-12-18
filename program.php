@@ -171,7 +171,7 @@
             <tr bgcolor='#D71110'><td>Ahad</td><td>09:00PM MYT</td><td>CB Net</td><td>ROIPDARULAMAN</td></tr>
           </tbody>
         </table>
-        <p class='text-center'>Bagi individu / kelab yang berminat untuk menjalankan Aktiviti 'Special Net' bersempena dengan apa-apa acara / hari diluar jadual kami, anda boleh berhubung terus dengan Jawatankuasa Aktiviti Pertubuhan # <a class='badge rounded-pill bg-success' href='https://wa.me/#'><i class='fab fa-whatsapp'></i> WhatsApp</a>.</p>
+        <p class='text-center'>Bagi individu / kelab yang berminat untuk menjalankan Aktiviti 'Special Net' bersempena dengan apa-apa acara / hari diluar jadual kami, anda boleh berhubung terus dengan Pegawai  Aktiviti kami ditalian <a class='btn btn-sm rounded-5 bg-success' href='https://wa.me/#'><i class='fab fa-whatsapp'></i> WhatsApp</a>.</p>
       </div>
       <div class='col-lg-7 my-2'>
         <div class='row'>

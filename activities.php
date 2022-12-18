@@ -70,9 +70,7 @@
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-DJYTZHZXFN');
   </script>
@@ -284,15 +282,19 @@
   <script> document.querySelector('#darkmode-button').onclick = function(e){ darkmode.toggleDarkMode(); } </script>
   <!--Start of Tawk.to Script-->
   <script type='text/javascript'>
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     (function(){
-      var s1=document.createElement('script'), s0=document.getElementsByTagName('script')[0];
-      s1.async=true;
-      s1.src='https://embed.tawk.to/639da9ffb0d6371309d4e1b5/1gkfu04hu';
-      s1.charset='UTF-8';
+      var s1 = document.createElement('script'), s0 = document.getElementsByTagName('script')[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/639da9ffb0d6371309d4e1b5/1gkfu04hu';
+      s1.charset = 'UTF-8';
       s1.setAttribute('crossorigin','*');
       s0.parentNode.insertBefore(s1,s0);
     })();
+    Tawk_API.onChatStarted = function () { gtag('event', 'chat_started'{ event : 'tawk.to', eventAction : 'chat_started' }); };
+    Tawk_API.onChatEnded = function () { gtag('event', 'chat_ended'{ event : 'tawk.to', eventAction : 'chat_ended' }); };
+    Tawk_API.onPrechatSubmit = function () { gtag('event', 'prechat_submit'{ event : 'tawk.to', eventAction : 'prechat_submit' }); };
+    Tawk_API.onOfflineSubmit = function () { gtag('event', 'offline_submit'{ event : 'tawk.to', eventAction : 'offline_submit' }); };
   </script>
   <!--End of Tawk.to Script-->
 </body>

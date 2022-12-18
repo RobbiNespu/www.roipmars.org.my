@@ -70,9 +70,7 @@
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-DJYTZHZXFN');
   </script>
@@ -99,38 +97,38 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <h1 class="text-center bg-light py-3"><img class="img-fluid d-inline-block align-text-top" src="./images/brand.png" width="300"><br>Comm Apps Login</h1>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-2"></div>
-      <div class="col-lg-8">
-        <form class="my-3 align-middle text-center">
-          <div class="col-lg my-1">
-            <label for="callsign" class="form-label">Callsign | Isyarat Panggilan</label>
-            <input type="text" class="form-control form-control-lg text-center rounded-pill" pattern="[A-Z0-9]{6-8}" minlength="6" maxlength="8" aria-label="callsign" id="callsign" name="callsign" placeholder="9M2XXX" required>
+  <h1 class='text-center bg-light py-3'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='300'><br>Comm Apps Login</h1>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-2'></div>
+      <div class='col-lg-8'>
+        <form class='my-3 align-middle text-center'>
+          <div class='col-lg my-1'>
+            <label for='callsign' class='form-label'>Callsign | Isyarat Panggilan</label>
+            <input type='text' class='form-control form-control-lg text-center rounded-pill' pattern='[A-Z0-9]{6-8}' minlength='6' maxlength='8' aria-label='callsign' id='callsign' name='callsign' placeholder='9M2XXX' required>
           </div>
-          <div class="col-lg my-1">
-            <label for="name" class="form-label">Name | Nama</label>
-            <input type="text" class="form-control form-control-lg text-center rounded-pill" pattern="[A-Z]{3-15}" minlength="3" maxlength="15" aria-label="name" id="name" name="name" placeholder="ALBAB" required>
+          <div class='col-lg my-1'>
+            <label for='name' class='form-label'>Name | Nama</label>
+            <input type='text' class='form-control form-control-lg text-center rounded-pill' pattern='[A-Z]{3-15}' minlength='3' maxlength='15' aria-label='name' id='name' name='name' placeholder='ALBAB' required>
           </div>
-          <div class="col-lg my-1">
-            <label for="location" class="form-label">QTH | Lokasi</label>
-            <input type="text" class="form-control form-control-lg text-center rounded-pill" pattern="[\w]{3-19}" minlength="3" maxlength="19" aria-label="location" id="location" name="location" placeholder="KUALA LUMPUR" required>
+          <div class='col-lg my-1'>
+            <label for='location' class='form-label'>QTH | Lokasi</label>
+            <input type='text' class='form-control form-control-lg text-center rounded-pill' pattern='[\w]{3-19}' minlength='3' maxlength='19' aria-label='location' id='location' name='location' placeholder='KUALA LUMPUR' required>
           </div>
-          <div class="hstack gap-3 mt-3 text-center">
-            <button class="btn btn-outline-primary btn-lg rounded-pill" type="submit" onClick="ts3login()">Log into TeamSpeak <img class="img-fluid d-inline-block align-middle" src="./images/brand.png" width="150"></button>
-            <button class="btn btn-outline-secondary btn-lg rounded-pill ms-auto" type="submit" onClick="mumblelogin()">Log into Mumble <img class="img-fluid d-inline-block align-middle" src="./images/brand.png" width="150"></button>
+          <div class='hstack gap-3 mt-3 text-center'>
+            <button class='btn btn-outline-primary btn-lg rounded-pill' type='submit' onClick='ts3login()'>Log into TeamSpeak <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
+            <button class='btn btn-outline-secondary btn-lg rounded-pill ms-auto' type='submit' onClick='mumblelogin()'>Log into Mumble <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
           </div>
         </form>
       </div>
-      <div class="col-lg-2"></div>
+      <div class='col-lg-2'></div>
     </div>
   </div>
-  <footer class="footer page-footer font-small bg-light fixed-bottom">
-    <div class="container">
-      <div class="row my-3 d-flex align-middle pt-2">
-        <div class="col-12">
-          <p class="text-start font-monospace"><a href="policies" class="text-dark text-decoration-none font-monospace">Polisi Perkhidmatan</a><br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
+  <footer class='footer page-footer font-small bg-light fixed-bottom'>
+    <div class='container'>
+      <div class='row my-3 d-flex align-middle pt-2'>
+        <div class='col-12'>
+          <p class='text-start font-monospace'><a href='policies' class='text-dark text-decoration-none font-monospace'>Polisi Perkhidmatan</a><br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
         </div>
       </div>
     </div>
@@ -140,39 +138,43 @@
   <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
   <script>
     function ts3login() {
-      var cs = document.getElementById("callsign").value;
-      var name = document.getElementById("name").value;
-      var location = document.getElementById("location").value;
+      var cs = document.getElementById('callsign').value;
+      var name = document.getElementById('name').value;
+      var location = document.getElementById('location').value;
       if ((cs == '') || (name == '') || (location == '')) {
-        return blank
+        return blank;
       } else {
-        window.location.href = "ts3server://roipmars.org.my?nickname=" + cs + "%20" + name + "%20" + location + "&cid=7&addbookmark=RoIPMARS.org.MY"
+        window.location.href = 'ts3server://roipmars.org.my?nickname=' + cs + '%20' + name + '%20' + location + '&cid=7&addbookmark=RoIPMARS.org.MY';
       }
     }
   </script>
   <script>
     function mumblelogin() {
-      var cs = document.getElementById("callsign").value;
-      var name = document.getElementById("name").value;
-      var location = document.getElementById("location").value;
+      var cs = document.getElementById('callsign').value;
+      var name = document.getElementById('name').value;
+      var location = document.getElementById('location').value;
       if ((cs == '') || (name == '') || (location == '')) {
-        return blank
+        return blank;
       } else {
-        window.location.href = "mumble://" + cs + "%20" + name + "%20" + location + "@roipmars.org.my/root?title=RoIPMARS.org.MY&url=roipmars.org.my"
+        window.location.href = 'mumble://' + cs + '%20' + name + '%20' + location + '@roipmars.org.my/root?title=RoIPMARS.org.MY&url=roipmars.org.my';
       }
     }
   </script>
   <!--Start of Tawk.to Script-->
   <script type='text/javascript'>
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     (function(){
-      var s1=document.createElement('script'), s0=document.getElementsByTagName('script')[0];
-      s1.async=true;
-      s1.src='https://embed.tawk.to/639da9ffb0d6371309d4e1b5/1gkfu04hu';
-      s1.charset='UTF-8';
+      var s1 = document.createElement('script'), s0 = document.getElementsByTagName('script')[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/639da9ffb0d6371309d4e1b5/1gkfu04hu';
+      s1.charset = 'UTF-8';
       s1.setAttribute('crossorigin','*');
       s0.parentNode.insertBefore(s1,s0);
     })();
+    Tawk_API.onChatStarted = function () { gtag('event', 'chat_started'{ event : 'tawk.to', eventAction : 'chat_started' }); };
+    Tawk_API.onChatEnded = function () { gtag('event', 'chat_ended'{ event : 'tawk.to', eventAction : 'chat_ended' }); };
+    Tawk_API.onPrechatSubmit = function () { gtag('event', 'prechat_submit'{ event : 'tawk.to', eventAction : 'prechat_submit' }); };
+    Tawk_API.onOfflineSubmit = function () { gtag('event', 'offline_submit'{ event : 'tawk.to', eventAction : 'offline_submit' }); };
   </script>
   <!--End of Tawk.to Script-->
 </body>

@@ -267,10 +267,6 @@
       s1.setAttribute('crossorigin','*');
       s0.parentNode.insertBefore(s1,s0);
     })();
-    Tawk_API.onChatStarted = function () { gtag('event', 'chat_started'{ event : 'tawk.to', eventAction : 'chat_started' }); };
-    Tawk_API.onChatEnded = function () { gtag('event', 'chat_ended'{ event : 'tawk.to', eventAction : 'chat_ended' }); };
-    Tawk_API.onPrechatSubmit = function () { gtag('event', 'prechat_submit'{ event : 'tawk.to', eventAction : 'prechat_submit' }); };
-    Tawk_API.onOfflineSubmit = function () { gtag('event', 'offline_submit'{ event : 'tawk.to', eventAction : 'offline_submit' }); };
   </script>
   <!--End of Tawk.to Script-->
 </body>

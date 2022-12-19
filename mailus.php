@@ -140,9 +140,9 @@
           <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
           <li class='nav-item'><a class='nav-link' href='member'>Keahlian</a></li>
           <!--<li class='nav-item'><a class='nav-link active rounded-pill' aria-current='page' href='mailus'>Hubungi Kami</a></li>-->
-          <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my/' target='_blank'><i class='fa-solid fa-store'></i> Kedai</a></li>
+          <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='fa-solid fa-store'></i> Kedai</a></li>
           <!--<li class='nav-item'><a class='nav-link' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='fa-solid fa-user-shield'></i> Portal Ahli</a></li>-->
-          <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my/' target='_blank'><i class='fa-solid fa-download'></i> Muat Turun</a></li>
+          <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='fa-solid fa-download'></i> Muat Turun</a></li>
         </ul>
       </div>
     </div>

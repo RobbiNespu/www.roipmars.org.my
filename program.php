@@ -236,7 +236,7 @@
               <tr><td>6</td><td>Ahad</td><td>12 Feb 2023</td><td>9:00PM MYT</td><td>CB Net</td><td></td><td></td></tr>
               <tr><td>7</td><td>Rabu</td><td>15 Feb 2023</td><td>9:00PM MYT</td><td>English Net</td><td></td><td></td></tr>
               <tr><td>7</td><td>Jumaat</td><td>17 Feb 2023</td><td>9:00PM MYT</td><td>MARS Net</td><td></td><td></td></tr>
-              <tr><td>&mdash;</td><td>Sabtu</td><td>18 Feb 2023</td><td>9:00AM - 12:00PM</td><td>Mesyuarat Agung Pertubuhan sesi 2022</td><td>Lokasi akan dimaklumkan kelak</td><td>&mdash;</td></tr>
+              <tr class='table-dark'><td>&mdash;</td><td>Sabtu</td><td>18 Feb 2023</td><td>9:00AM - 12:00PM</td><td>Mesyuarat Agung Pertubuhan sesi 2022</td><td>Lokasi akan dimaklumkan kelak</td><td>&mdash;</td></tr>
               <tr bgcolor='#336699'><td>7</td><td>Sabtu</td><td>18 Feb 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Israk Mikraj&#41;</td><td></td><td></td></tr>
               <tr><td>7</td><td>Ahad</td><td>19 Feb 2023</td><td>9:00PM MYT</td><td>CB Net</td><td></td><td></td></tr>
               <tr bgcolor='#56C3E7'><td>8</td><td>Rabu</td><td>22 Feb 2023</td><td>9:00PM MYT</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Thinking Day&#41;</td><td></td><td></td></tr>

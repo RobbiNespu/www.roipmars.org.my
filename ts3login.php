@@ -116,8 +116,8 @@
             <input type='text' class='form-control form-control-lg text-center rounded-pill' pattern='[\w]{3-19}' minlength='3' maxlength='19' aria-label='location' id='location' name='location' placeholder='KUALA LUMPUR' required>
           </div>
           <div class='hstack gap-3 mt-3 text-center'>
-            <button class='btn btn-outline-primary btn-lg rounded-pill' type='submit' onClick='ts3login()'>Log into TeamSpeak <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
-            <button class='btn btn-outline-secondary btn-lg rounded-pill ms-auto' type='submit' onClick='mumblelogin()'>Log into Mumble <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
+            <button class='btn btn-outline-primary btn-lg rounded-pill' type='submit' onClick='ts3login()'>Log into <img class='img-fluid d-inline-block align-middle' src='https://cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='100'> <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
+            <button class='btn btn-outline-secondary btn-lg rounded-pill ms-auto' type='submit' onClick='mumblelogin()'>Log into <img class='img-fluid d-inline-block align-middle' src='https://www.mumble.info/css/mumble.svg' width='20'> Mumble <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
           </div>
         </form>
       </div>

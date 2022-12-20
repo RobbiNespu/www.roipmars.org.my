@@ -319,7 +319,7 @@
     <div class="row">
       <div class="col-12 my-1 text-center">
         <h2 class="h2 font-weight-bold">Jadual &lsquo;<i class="font-italic">Net Control Station</i>&rsquo; (NCS)</h2>
-        <p><?php date_default_timezone_set('Asia/Kuala_Lumpur');
+        <p><?php date_default_timezone_get();
             $current_file_name = basename($_SERVER['PHP_SELF']);
             $file_last_modified = filemtime($current_file_name);
             echo "Dijadualkan Setakat: " . date("l, d F Y, h:iA e", $file_last_modified) . "\n"; ?></p>

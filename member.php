@@ -172,7 +172,7 @@
     <div class="row text-center">
       <div class="col mt-2 mb-2 jumbotron-fluid">
         <h1 class="h1-responsive">Ahli Kumpulan RoIPMARS</h1>
-        <p class="font-small"><span><?php date_default_timezone_set('Asia/Kuala_Lumpur'); $file_last_modified = filemtime("list/members.php"); echo "Kemaskini pada: " . date("D, jS M Y h:iA T", $file_last_modified); ?></span></p>
+        <p class="font-small"><span><?php date_default_timezone_get(); $file_last_modified = filemtime("list/members.php"); echo "Kemaskini pada: " . date("D, jS M Y h:iA T", $file_last_modified); ?></span></p>
       </div>
     </div>
   </div>

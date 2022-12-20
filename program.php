@@ -191,7 +191,7 @@
     <div class='row'>
       <div class='col-12 my-1 text-center'>
         <h2 class='h2 font-weight-bold'>Jadual Program</h2>
-        <p class='fs-5'><?php date_default_timezone_set('Asia/Kuala_Lumpur'); $current_file_name = basename($_SERVER['PHP_SELF']); $file_last_modified = filemtime($current_file_name); echo 'Dijadualkan setakat: ' . date('l, d F Y, h:iA e', $file_last_modified); ?></p>
+        <p class='fs-5'><?php date_default_timezone_get(); $current_file_name = basename($_SERVER['PHP_SELF']); $file_last_modified = filemtime($current_file_name); echo 'Dijadualkan setakat: ' . date('l, d F Y, h:iA', $file_last_modified); ?></p>
       </div>
     </div>
     <div class='row'>
@@ -201,7 +201,7 @@
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
-              <tr bgcolor='#D71110'><td>52</td><td>Ahad</td><td>01 Jan 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; CB Net<br>&#40;Tahun Baru 2023&#41;</td><td></td><td></td></tr>
+              <tr bgcolor='#D71110'><td>52</td><td>Ahad</td><td>01 Jan 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; CB Net<br>&#40;Tahun Baru 2023H&#41;</td><td></td><td></td></tr>
               <tr bgcolor='#56C3E7'><td>1</td><td>Rabu</td><td>04 Jan 2023</td><td>9:00PM MYT</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td></td><td></td></tr>
               <tr><td>1</td><td>Jumaat</td><td>06 Jan 2023</td><td>9:00PM MYT</td><td>MARS Net</td><td></td><td></td></tr>
               <tr><td>1</td><td>Sabtu</td><td>07 Jan 2023</td><td>9:00PM MYT</td><td>MARS Net</td><td></td><td></td></tr>
@@ -394,7 +394,7 @@
               <tr><td>28</td><td>Jumaat</td><td>14 Jul 2023</td><td>9:00PM MYT</td><td>MARS Net</td><td></td><td></td></tr>
               <tr><td>28</td><td>Sabtu</td><td>15 Jul 2023</td><td>9:00PM MYT</td><td>MARS Net</td><td></td><td></td></tr>
               <tr><td>28</td><td>Ahad</td><td>16 Jul 2023</td><td>9:00PM MYT</td><td>CB Net</td><td></td><td></td></tr>
-              <tr bgcolor='#56C3E7'><td>29</td><td>Rabu</td><td>19 Jul 2023</td><td>9:00PM MYT</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Maal Hjrah&#41;</td><td></td><td></td></tr>
+              <tr bgcolor='#56C3E7'><td>29</td><td>Rabu</td><td>19 Jul 2023</td><td>9:00PM MYT</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Awal Muharram 1445H&#41;</td><td></td><td></td></tr>
               <tr><td>29</td><td>Jumaat</td><td>21 Jul 2023</td><td>9:00PM MYT</td><td>MARS Net</td><td></td><td></td></tr>
               <tr bgcolor='#336699'><td>29</td><td>Sabtu</td><td>22 Jul 2023</td><td>9:00PM MYT</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Kemerdekaan Sarawak&#41;</td><td></td><td></td></tr>
               <tr><td>29</td><td>Ahad</td><td>23 Jul 2023</td><td>9:00PM MYT</td><td>CB Net</td><td></td><td></td></tr>

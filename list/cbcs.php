@@ -99,7 +99,7 @@
   <!-- End Google Tag Manager (noscript) -->
   <div class="container-fluid">
     <div class="col-12 my-3 text-center lh-1">
-      <p><?php date_default_timezone_set('Asia/Kuala_Lumpur');
+      <p><?php date_default_timezone_get();
           $file_last_modified = filemtime(__FILE__);
           echo "Kemaskini pada " . date("D, jS M Y h:iA T", $file_last_modified); ?> : <span class="badge rounded-pill text-bg-success">496</span></p>
       <p class="fw-bold">Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>

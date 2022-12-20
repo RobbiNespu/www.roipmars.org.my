@@ -143,30 +143,30 @@
         <table class="table table-sm text-center table-bordered">
           <tbody>
             <tr>
-              <th scope="row" class="align-middle">Operating Sytem</th>
-              <td>Windows <i class="fa-brands fa-windows"></i><br>Windows 7 SP1 and above<br>32-bit and 64-bit</td>
-              <td>Linux <i class="fa-brands fa-linux"></i><br>Any recent Linux distribution with libstdc++ 6<br>32-bit and 64-bit</td>
-              <td>Mac <i class="fa-brands fa-apple"></i><br>Mac OS X 10.9 and above<br>64-bit Intel CPU</td>
+              <th scope="row" class="align-middle">Sistem Operasi</th>
+              <td>Windows <i class="fa-brands fa-windows"></i><br>Windows 7 SP1 dan keatas<br>32-bit dan 64-bit</td>
+              <td>Linux <i class="fa-brands fa-linux"></i><br>Sebarang pengedaran Linux terkini dengan libstdc++6<br>32-bit dan 64-bit</td>
+              <td>Mac <i class="fa-brands fa-apple"></i><br>macOS 11.0 atau lebih baharu dan Mac dengan cip Apple M1 atau lebih baharu.</td>
             </tr>
             <tr>
-              <th scope="row">Central Processing Unit <i class="fa-solid fa-microchip"></i></th>
-              <td colspan="3">SSE2 capable CPU</td>
+              <th scope="row">Unit Pemprosesan Pusat <i class="fa-solid fa-microchip"></i></th>
+              <td colspan="3">CPU berkebolehan SSE2</td>
             </tr>
             <tr>
-              <th scope="row">Memory <i class="fa-solid fa-memory"></i></th>
-              <td colspan="3">Minimum 1 GB RAM &#40;recommended&#41;. Some OS may require more memory to run smoothly.</td>
+              <th scope="row" class="align-middle">Memori Capaian Rawak &#40;RAM&#41; <i class="fa-solid fa-memory"></i></th>
+              <td colspan="3">Minima 1GB RAM &#40;DISYORKAN&#41;<br>Sesetengah OS mungkin memerlukan lebih banyak memori untuk berjalan dengan lancar.</td>
             </tr>
             <tr>
-              <th scope="row">Storage <i class="fa-solid fa-hard-drive"></i></th>
-              <td colspan="3">60-100 MB free space (depending on OS)</td>
+              <th scope="row">Pemacu Storan <i class="fa-solid fa-hard-drive"></i></th>
+              <td colspan="3">60-512MB ruang kosong (bergantung pada OS)</td>
             </tr>
             <tr>
-              <th scope="row">Accessories</th>
-              <td colspan="3">Microphone, Headphone or Speaker, Webcam (optional)</td>
+              <th scope="row" class="align-middle">Aksesori</th>
+              <td colspan="3">Mikrofon, Fon Kepala atau Pembesar Suara<br>Kamera Web (pilihan)</td>
             </tr>
           </tbody>
         </table>
-        <p class="text-center">Additional software for desktop assistance: <a class="btn btn-sm btn-outline-primary" role="button" href="https://dl.teamviewer.com/download/TeamViewer_Setup.exe" download>Download TeamViewer (Windows)</a></p>
+        <p class="text-center">Perisian tambahan untuk bantuan desktop: <a class="btn btn-sm btn-primary" role="button" href="https://dl.teamviewer.com/download/TeamViewer_Setup.exe" download>Muat Turun TeamViewer (Windows)</a></p>
       </div>
     </div>
     <div id="pcwin" class="row no-gutters bg-light position-relative mb-3 rounded-5">
@@ -176,24 +176,24 @@
         </div>
       </div>
       <div class="col-md-4 position-static p-4 pl-md-0">
-        <h5 class="mt-0 text-center">Install &amp; Configure Teamspeak in Windows</h5>
-        <p class="text-center">Video tutorial ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di PC / Laptop Windows anda.</p>
+        <h5 class="mt-0 text-center">Pasang &amp; Konfigurasikan Teamspeak dalam Windows</h5>
+        <p class="text-center">Video ini menunjukkan cara pemasangan dan konfigurasi Teamspeak pada PC/Laptop Windows anda.</p>
         <table class="table table-sm text-center align-middle">
           <tbody>
             <tr>
-              <th scope="row">Version</th>
+              <th scope="row">Versi</th>
               <td>v3.1.10</td>
               <td>v3.5.6</td>
             </tr>
             <tr>
               <th scope="row">Windows 32-bit</th>
-              <td><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win32-3.1.10.exe" download>Download</a></td>
-              <td><a class="btn btn-outline-primary" role="button" href="https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe" download>Download</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win32-3.1.10.exe" download>Muat Turun</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe" download>Muat Turun</a></td>
             </tr>
             <tr>
               <th scope="row">Windows 64-bit</th>
-              <td><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win64-3.1.10.exe" download>Download</a></td>
-              <td><a class="btn btn-outline-primary" role="button" href="https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win64-3.5.6.exe" download>Download</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win64-3.1.10.exe" download>Muat Turun</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win64-3.5.6.exe" download>Muat Turun</a></td>
             </tr>
           </tbody>
         </table>
@@ -206,24 +206,24 @@
         </div>
       </div>
       <div class="col-md-4 position-static p-4 pl-md-0">
-        <h5 class="mt-0 text-center">Install &amp; Configure Teamspeak in Linux</h5>
-        <p class="text-center">Video tutorial ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di PC / Laptop Linux anda.</p>
+        <h5 class="mt-0 text-center">Pasang &amp; Konfigurasikan Teamspeak dalam Linux</h5>
+        <p class="text-center">Video ini menunjukkan cara pemasangan dan konfigurasi Teamspeak pada PC/Laptop Linux anda.</p>
         <table class="table table-sm text-center align-middle">
           <tbody>
             <tr>
-              <th scope="row">Version</th>
+              <th scope="row">Versi</th>
               <td>v3.1.10</td>
               <td>v3.5.6</td>
             </tr>
             <tr>
               <th scope="row">Linux x86</th>
-              <td><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/linux/teamspeak3-client-linux_x86-3.1.10.run" download>Download</a></td>
-              <td><a class="btn btn-outline-primary" role="button" href="https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_x86-3.5.6.run" download>Download</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/linux/teamspeak3-client-linux_x86-3.1.10.run" download>Muat Turun</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_x86-3.5.6.run" download>Muat Turun</a></td>
             </tr>
             <tr>
               <th scope="row">Linux AMD64</th>
-              <td><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/linux/teamspeak3-client-linux_amd64-3.1.10.run" download>Download</a></td>
-              <td><a class="btn btn-outline-primary" role="button" href="https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_amd64-3.5.6.run" download>Download</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/linux/teamspeak3-client-linux_amd64-3.1.10.run" download>Muat Turun</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_amd64-3.5.6.run" download>Muat Turun</a></td>
             </tr>
           </tbody>
         </table>
@@ -236,19 +236,19 @@
         </div>
       </div>
       <div class="col-md-4 position-static p-4 pl-md-0">
-        <h5 class="mt-0 text-center">Install &amp; Configure Teamspeak in Mac</h5>
-        <p class="text-center">Video tutorial ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di Macbook anda.</p>
+        <h5 class="mt-0 text-center">Pasang &amp; Konfigurasikan Teamspeak dalam Mac</h5>
+        <p class="text-center">Video ini menunjukkan cara pemasangan dan konfigurasi Teamspeak pada PC/Laptop Macbook anda.</p>
         <table class="table table-sm text-center align-middle">
           <tbody>
             <tr>
-              <th scope="row">Version</th>
+              <th scope="row">Versi</th>
               <td>v3.1.10</td>
               <td>v3.5.6</td>
             </tr>
             <tr>
               <th scope="row">MAC OS</th>
-              <td><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/mac/teamspeak3-client-macosx-3.1.10.dmg" download>Download</a></td>
-              <td><a class="btn btn-outline-primary" role="button" href="https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-macosx-3.5.6.dmg" download>Download</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/mac/teamspeak3-client-macosx-3.1.10.dmg" download>Muat Turun</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-macosx-3.5.6.dmg" download>Muat Turun</a></td>
             </tr>
           </tbody>
         </table>
@@ -261,25 +261,25 @@
         </div>
       </div>
       <div class="col-md-4 position-static p-4 pl-md-0">
-        <h5 class="mt-0 text-center">Install &amp; Configure Video Conference Plugin in Windows</h5>
-        <p class="text-center">Video tutorial ini menunjukkan cara pemasangan dan konfigurasi Video Conference di PC / Laptop Windows anda.</p>
+        <h5 class="mt-0 text-center">Pasang &amp; Konfigurasikan Pemalam Persidangan Video dalam Windows</h5>
+        <p class="text-center">Video ini menunjukkan cara pemasangan dan konfigurasi Pemalam Persidangan Video di PC/Laptop Windows anda.</p>
         <table class="table table-sm text-center align-middle">
           <tbody>
             <tr>
-              <th scope="row">Version</th>
+              <th scope="row">Versi</th>
               <td>CC v0.11</td>
               <td>CC v0.13</td>
               <td>CC v0.14</td>
             <tr>
               <th scope="row">Windows</th>
-              <td><a class="btn btn-outline-primary" role="button" href="https://github.com/mfreiholz/ts3video/releases/download/v0.11/Conference_Client-0.11_Setup.exe" download>CC API20</a></td>
-              <td><a class="btn btn-outline-primary" role="button" href="https://github.com/mfreiholz/ts3video/releases/download/v0.13/Conference_Client-0.13_Setup.exe" download>CC API22</a></td>
-              <td><a class="btn btn-outline-primary" role="button" href="https://github.com/mfreiholz/ts3video/releases/download/v0.14/Conference_Client-0.14_Setup.exe" download>CC API23</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://github.com/mfreiholz/ts3video/releases/download/v0.11/Conference_Client-0.11_Setup.exe" download>CC API20</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://github.com/mfreiholz/ts3video/releases/download/v0.13/Conference_Client-0.13_Setup.exe" download>CC API22</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://github.com/mfreiholz/ts3video/releases/download/v0.14/Conference_Client-0.14_Setup.exe" download>CC API23</a></td>
             </tr>
             <tr>
-              <th scope="row">Supporting Files</th>
+              <th scope="row">Fail Sokongan</th>
               <td colspan="3">
-                <div class="hstack gap-1"><a class="btn btn-sm btn-outline-primary" role="button" href="https://aka.ms/vs/17/release/vc_redist.x86.exe" download>VCRedistAIO (x86)</a><a class="btn btn-sm btn-outline-primary ms-auto" role="button" href="https://aka.ms/vs/17/release/vc_redist.x64.exe" download>VCRedistAIO (x64)</a></div>
+                <div class="hstack gap-1"><a class="btn btn-sm btn-primary" role="button" href="https://aka.ms/vs/17/release/vc_redist.x86.exe" download>VCRedistAIO (x86)</a><a class="btn btn-sm btn-primary ms-auto" role="button" href="https://aka.ms/vs/17/release/vc_redist.x64.exe" download>VCRedistAIO (x64)</a></div>
               </td>
             </tr>
           </tbody>
@@ -293,24 +293,25 @@
         </div>
       </div>
       <div class="col-md-4 position-static p-4 pl-md-0">
-        <h5 class="mt-0 text-center">Install &amp; Configure TS-Gateway Commander Plugin in Windows</h5>
-        <p class="text-center">Video tutorial ini menunjukkan cara pemasangan dan konfigurasi TS-Gateway Commander di PC / Laptop Windows anda.</p>
+        <h5 class="mt-0 text-center">Pasang &amp; Konfigurasikan TS-Gateway Commander Plugin dalam Windows</h5>
+        <p class="text-center">Video ini menunjukkan cara pemasangan dan konfigurasi TS-Gateway Commander Plugin di PC/Laptop Windows anda.</p>
         <table class="table table-sm text-center align-middle">
           <tbody>
             <tr>
               <th scope="row">TS</th>
-              <td class="text-nowrap"><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win32-3.0.19.4.exe" download>TS3.0.19.4</a></td>
-              <td class="text-nowrap"><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win32-3.1.10.exe" download>TS3.1.10</a></td>
+              <td class="text-nowrap"><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win32-3.0.19.4.exe" download>TS3.0.19.4</a></td>
+              <td class="text-nowrap"><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win32-3.1.10.exe" download>TS3.1.10</a></td>
             </tr>
             <tr>
               <th scope="row">Gateway</th>
-              <td class="text-nowrap"><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/ts-gateway-commander-3.0.14.exe" download>TSGC3.0.14</a></td>
-              <td class="text-nowrap"><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/ts-gateway-commander-4.0.2.exe" download>TSGC4.0.2</a></td>
+              <td class="text-nowrap"><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/ts-gateway-commander-3.0.14.exe" download>TSGC3.0.14</a></td>
+              <td class="text-nowrap"><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/ts-gateway-commander-4.0.2.exe" download>TSGC4.0.2</a></td>
             </tr>
             <tr>
               <th scope="row">Plugin</th>
-              <td><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/tsgateway_link_32bit_api20.dll" download>TSGCP_API20</a></td>
-              <td><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/tsgateway_link_32bit_api21.dll" download>TSGCP_API21</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/tsgateway_link_32bit_api20.dll" download>TSGCP_API20</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/tsgateway_link_32bit_api21.dll" download>TSGCP_API21</a></td>
+              <td><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/windows/tsgateway_link_32bit_api23.dll" download>TSGCP_API23</a></td>
             </tr>
           </tbody>
         </table>
@@ -322,13 +323,13 @@
           </div>
       </div>
       <div class="col-md-6 mb-md-0 p-md-3" id="gwpc">
-        <p class="text-center">Gateway on Mobile Transceiver and PC</p>
+        <p class="text-center">Gateway pada Pemancar Mudah Alih dan PC</p>
         <div class="ratio ratio-21x9">
           <iframe class="rounded-5" loading="lazy" src="https://www.youtube.com/embed/-JGQpxAyEQo" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
       <div class="col-md-6 mb-md-0 p-md-3" id="gwandroid">
-        <p class="text-center">Gateway on Portable Transceiver and Android Smartphone</p>
+        <p class="text-center">Gateway pada Pemancar Mudah Alih dan Telefon Pintar Android</p>
         <div class="ratio ratio-21x9">
           <iframe class="rounded-5" loading="lazy" src="https://www.youtube.com/embed/dDiEqN2xC3M" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -338,12 +339,12 @@
     <h2 class="text-center">TeamSpeak3 Android</h2>
     <div class="row">
       <div class="col-md mb-2">
-        Minimum Android Specifications:
+        Spesifikasi Minima Android:
         <table class="table table-sm text-center table-bordered">
           <tbody>
             <tr>
-              <th scope="row">Operating System</th>
-              <td>Android 4.2 and above, ARM v7 CPU, Google Play Store support</td>
+              <th scope="row">Sistem Poerasi</th>
+              <td>Android 4.2 dan keatas, CPU ARM v7, sokongan Google Play</td>
             </tr>
           </tbody>
         </table>
@@ -351,7 +352,7 @@
     </div>
     <div id="androidps" class="row no-gutters bg-light position-relative mb-3 rounded-5">
       <div class="col-12 mt-3">
-        <h5 class="text-center">Install &amp; Configure TeamSpeak in Android <strong>(RECOMENDED)</strong></h5>
+        <h5 class="text-center">Pasang &amp; Konfigurasikan Teamspeak dalam Android</h5>
       </div>
       <div class="col-md-4 mb-md-0 p-md-3">
         <div class="ratio ratio-21x9">
@@ -360,18 +361,26 @@
       </div>
       <div class="col-md-3 position-static p-4 pl-md-0">
         <p class="text-center">Video tutorial ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di Android Phone anda.</p>
-        <h6 class="text-center text-uppercase">Sila buat pembelian aplikasi "<em>TeamSpeak3</em>" di Google Play Store berharga <strong>$0.99</strong> terlebih dahulu</h6>
+        <h6 class="text-center text-uppercase">Sila buat pembelian aplikasi "<em>TeamSpeak3</em>" di Google Play berharga <strong>RM4.50</strong> terlebih dahulu</h6>
         <table class="table table-sm text-center align-middle">
           <tbody>
             <tr>
-              <th scope="row">Version</th>
-              <td>v3.1.9-beta.194</td>
-              <td>Latest<br><strong>(RECOMENDED)</strong></td>
+              <th scope="col">Versi</th>
+              <th scope="col">Android</th>
             </tr>
             <tr>
-              <th scope="row">Android</th>
-              <td><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/android/teamspeak_3.1.9_b194.apk" download>Download</a></td>
-              <td><a href="https://play.google.com/store/apps/details?id=com.teamspeak.ts3client" target="_blank"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" class="img-fluid"></a></td>
+              <td>Non-Google</td>
+              <td><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/android/roipmarsts3.apk" download>Muat Turun</a></td>
+            </tr>
+<!--
+            <tr>
+              <td>v3.1.9-beta.194</td>
+              <td><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/android/teamspeak_3.1.9_b194.apk" download>Muat Turun</a></td>
+            </tr>
+-->
+            <tr>
+              <td>Terkini<br>(DISYORKAN)</td>
+              <td><a href="https://play.google.com/store/apps/details?id=com.teamspeak.ts3client" target="_blank"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/ms_badge_web_generic.png" class="img-fluid"></a></td>
             </tr>
           </tbody>
         </table>
@@ -384,7 +393,7 @@
               <td>RoIPMARS</td>
             </tr>
             <tr>
-              <th scope="row">Server Nickname or Address</th>
+              <th scope="row">Server Address</th>
               <td><a href="#" onClick="TSLoginWindow=window.open('https://www.roipmars.org.my/ts3login', 'LogIn TS RoIPMARS', 'width=800,height=600'); return false;">roipmars.org.my</a></td>
             </tr>
             <tr>
@@ -466,7 +475,7 @@
     <!--
 <div id="androidcr" class="row no-gutters bg-light position-relative mb-3 rounded-5">
   <div class="col-12 mt-3">
-    <h5 class="text-center">Install &amp; Configure TeamSpeak in Android <em>(OUT OF SUPPORT-END DEC 2020)</em></h5>
+    <h5 class="text-center">Pasang &amp; Konfigurasikan Teamspeak dalam Android <em>(OUT OF SUPPORT-END DEC 2020)</em></h5>
   </div>
   <div class="col-md-4 mb-md-0 p-md-3">
     <div class="ratio ratio-21x9">
@@ -478,7 +487,7 @@
     <table class="table table-sm text-center align-middle">
       <tbody>
         <tr><th scope="row">Version</th><td>v3.0.13.1</td></tr>
-        <tr><th scope="row">Android</th><td><a class="btn btn-outline-primary" role="button" href="https://ftp.roipmars.org.my/downloads/android/roipmarsts3.apk" download>Download</a></td></tr>
+        <tr><th scope="row">Android</th><td><a class="btn btn-primary" role="button" href="https://ftp.roipmars.org.my/downloads/android/roipmarsts3.apk" download>Muat Turun</a></td></tr>
       </tbody>
     </table>
   </div>
@@ -547,12 +556,12 @@
     <h2 class="text-center">TeamSpeak3 iOS</h2>
     <div class="row">
       <div class="col-md mb-2">
-        Minimum iOS Specifications:
+        Spesifikasi Minima iOS:
         <table class="table table-sm text-center table-bordered">
           <tbody>
             <tr>
-              <th scope="row">Operating System</th>
-              <td>iOS 7.1 and above</td>
+              <th scope="row">Sistem Operasi</th>
+              <td>iOS 12.0 dan keatas</td>
             </tr>
           </tbody>
         </table>
@@ -560,7 +569,7 @@
     </div>
     <div id="ios" class="row no-gutters bg-light position-relative mb-3 rounded-5">
       <div class="col-12 mt-3">
-        <h5 class="text-center">Install &amp; Configure TeamSpeak in iOS</h5>
+        <h5 class="text-center">Pasang &amp; Konfigurasikan Teamspeak dalam iOS</h5>
       </div>
       <div class="col-md-4 mb-md-0 p-md-3">
         <div class="ratio ratio-21x9">
@@ -568,16 +577,16 @@
         </div>
       </div>
       <div class="col-md-3 position-static p-4 pl-md-0">
-        <p class="text-center">Video tutorial ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di Apple iPhone / iPad / iPod Touch anda.</p>
-        <h6 class="text-center text-uppercase">Sila buat pembelian aplikasi "<em>TeamSpeak3</em>" di Apple App Store berharga <strong>$0.99</strong> terlebih dahulu</h6>
+        <p class="text-center">Video ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di Apple iPhone/iPad/iPod Touch anda.</p>
+        <h6 class="text-center text-uppercase">Sila buat pembelian aplikasi "<em>TeamSpeak3</em>" di App Store berharga <strong>RM4.50</strong> terlebih dahulu</h6>
         <table class="table table-sm text-center align-middle">
           <tbody>
             <tr>
-              <th scope="row">Version</th>
-              <td>Latest</td>
+              <th scope="col">Versi</th>
+              <th scope="col">App Store</th>
             </tr>
             <tr>
-              <th scope="row">App Store</th>
+              <td>Terkini</td>
               <td><a href="https://itunes.apple.com/app/teamspeak-3/id577628510" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" class="img-fluid"></a></td>
             </tr>
           </tbody>

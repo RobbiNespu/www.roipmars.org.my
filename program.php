@@ -539,7 +539,7 @@
     <div class='row'>
       <div class='col-12 my-2 d-block mx-auto'>
         <h6 class='h6 text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan &amp; Penghormatan Kami <i class='fas fa-quote-right fa-xs'></i></h6>
-        <img class='img-fluid rounded mx-auto d-block my-1' width='100%' src='./images/net_graph.svg' alt='NetGraph23'>
+        <img class='img-fluid rounded mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&amp;format=image' alt='NetGraph23'>
         <h6 class='h6 text-center'><i class='fas fa-quote-left fa-xs'></i> Your Participation &amp; Support is Our Pride &amp; Honour <i class='fas fa-quote-right fa-xs'></i></h6>
       </div>
       <div class='col-4'>

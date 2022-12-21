@@ -46,24 +46,10 @@
   <link rel='apple-touch-icon' sizes='180x180' href='./images/apple-icon-180x180.png'>
   <link rel='manifest' href='./vendor/manifest.json'>
   <style>
-    .right-line {
-      border-right: 3px #999 solid;
-      height: 1em
-    }
-
-    .right-long-line {
-      border-right: 3px #999 solid;
-      height: auto
-    }
-
-    .top-line {
-      border-top: 3px #999 solid;
-    }
-
-    .halved {
-      width: 50%;
-      float: left;
-    }
+    .right-line { border-right: 3px #999 solid; height: 1em; }
+    .right-long-line { border-right: 3px #999 solid; height: auto; }
+    .top-line { border-top: 3px #999 solid; }
+    .halved { width: 50%; float: left; }
   </style>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css' crossorigin='anonymous'>
@@ -192,8 +178,8 @@
               </div>
               <br>
               <div class="vstack gap-1">
-                <a type="button" class="btn btn-primary btn-block rounded-pill" href="https://forms.gle/gGvi5jeZkMXJ5TjEA" target="_blank">Borang Permohonan Keahlian &#91;<i class="fa-brands fa-google"></i>&#93;</a>
-                <a type="button" class="btn btn-secondary btn-block rounded-pill" href="https://na1.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAVX38EPFxDCfZXmgZsV6-icMiFomOtBDdsIEdQhG7Od5CA5YpUvKcopwoYOkcvUUY*" target="_blank">Borang Permohonan Keahlian &#91;<i class="fa-solid fa-signature"></i>&#93;</a>
+                <a type="button" class="btn btn-primary btn-block rounded-pill" href="https://bit.ly/daftarmars" target="_blank">Borang Permohonan Keahlian &#91;<i class="fa-brands fa-google"></i>&#93;</a>
+                <a type="button" class="btn btn-secondary btn-block rounded-pill" href="https://bit.ly/borangdaftarroipmars*" target="_blank">Borang Permohonan Keahlian &#91;<i class="fa-solid fa-signature"></i>&#93;</a>
                 <a type="button" class="btn btn-success btn-block rounded-pill" href="https://ftp.roipmars.org.my/members/pprk_manualregform.pdf" download>Borang Permohonan Keahlian &#91;<i class="fa-solid fa-file-pdf"></i>&#93;</a>
               </div>
             </td>

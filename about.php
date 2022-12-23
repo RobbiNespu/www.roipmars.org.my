@@ -218,7 +218,7 @@
       <div class='row my-0'>
         <div class='col-md-7 col-lg-7 col-xl-7 mx-auto my-1'>
           <h5 class='text-uppercase mb-2 font-weight-bold'>Sumbangan</h5>
-          <p class='mb-3'>Sumbangan anda membantu Penyelidikan &amp; Pembangunan serta perkhidmatan kami tersedia sepanjang masa</p>
+          <p class='mb-3'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan kami serta semua Perkhidmatan kami tersedia untuk anda pada bila-bila masa di mana sahaja</p>
           <table class='table table-sm table-bordered border-dark text-center my-0'>
             <tr><td>Nama</td><td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>

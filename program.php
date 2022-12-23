@@ -201,7 +201,7 @@
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
-              <tr bgcolor='#D71110'><td>52</td><td>Ahad</td><td>01 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Tahun Baru 2023H&#41;</td><td></td><td></td></tr>
+              <tr bgcolor='#D71110'><td>52</td><td>Ahad</td><td>01 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Tahun Baru 2023&#41;</td><td></td><td></td></tr>
               <tr bgcolor='#56C3E7'><td>1</td><td>Rabu</td><td>04 Jan 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td></td><td></td></tr>
               <tr><td>1</td><td>Jumaat</td><td>06 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
               <tr><td>1</td><td>Sabtu</td><td>07 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>

@@ -554,6 +554,51 @@
         <img class='img-fluid rounded mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&amp;format=image' alt='NetGraph23'>
         <h6 class='h6 text-center'><i class='fas fa-quote-left fa-xs'></i> Your Participation &amp; Support is Our Pride &amp; Honour <i class='fas fa-quote-right fa-xs'></i></h6>
       </div>
+      <div class='col-12'>
+        <h3>Jalur Amatur</h3>
+      </div>
+      <div class='col-4'>
+        <h4 class='h4 text-center'>5 NCS Terbaik Tahun 2023</h4>
+        <table class='table table-bordered table-sm table-responsive-sm text-center'>
+          <thead><th>No</th><th>Station</th></thead>
+          <tbody>
+            <tr><td>1<sup>st</sup></td><td></td></tr>
+            <tr><td>2<sup>nd</sup></td><td></td></tr>
+            <tr><td>3<sup>rd</sup></td><td></td></tr>
+            <tr><td>4<sup>th</sup></td><td></td></tr>
+            <tr><td>5<sup>th</sup></td><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class='col-4'>
+        <h4 class='h4 text-center'>5 Stesen Tertinggi oleh NCS Tahun 2023</h4>
+        <table class='table table-bordered table-sm table-responsive-sm text-center'>
+          <thead><th>No</th><th>Station</th></thead>
+          <tbody>
+            <tr><td>1<sup>st</sup></td><td></td></tr>
+            <tr><td>2<sup>nd</sup></td><td></td></tr>
+            <tr><td>3<sup>rd</sup></td><td></td></tr>
+            <tr><td>4<sup>th</sup></td><td></td></tr>
+            <tr><td>5<sup>th</sup></td><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class='col-4'>
+        <h4 class='h4 text-center'>5 Stesen Paling Aktif Tahun 2023</h4>
+        <table class='table table-bordered table-sm table-responsive-sm text-center'>
+          <thead><th>No</th><th>Station</th></thead>
+          <tbody>
+            <tr><td>1<sup>st</sup></td><td></td></tr>
+            <tr><td>2<sup>nd</sup></td><td></td></tr>
+            <tr><td>3<sup>rd</sup></td><td></td></tr>
+            <tr><td>4<sup>th</sup></td><td></td></tr>
+            <tr><td>5<sup>th</sup></td><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class='col-12'>
+        <h3>Jalur Rakyat</h3>
+      </div>
       <div class='col-4'>
         <h4 class='h4 text-center'>5 NCS Terbaik Tahun 2023</h4>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>

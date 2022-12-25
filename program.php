@@ -556,7 +556,7 @@
       </div>
       <div class='col-12'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
       <div class='col-4'>
-        <h4 class='h4 text-center'>5 NCS Terbaik Tahun 2023</h4>
+        <h6 class='text-center'>5 NCS Terbaik Tahun 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -569,7 +569,7 @@
         </table>
       </div>
       <div class='col-4'>
-        <h4 class='h4 text-center'>5 Stesen Tertinggi oleh NCS Tahun 2023</h4>
+        <h6 class='text-center'>5 Stesen Tertinggi oleh NCS Tahun 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -582,7 +582,7 @@
         </table>
       </div>
       <div class='col-4'>
-        <h4 class='h4 text-center'>5 Stesen Paling Aktif Tahun 2023</h4>
+        <h6 class='text-center'>5 Stesen Paling Aktif Tahun 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -596,7 +596,7 @@
       </div>
       <div class='col-12'><h3 class='text-center'>Kategori Jalur Rakyat</h3></div>
       <div class='col-4'>
-        <h4 class='h4 text-center'>5 NCS Terbaik Tahun 2023</h4>
+        <h6 class='text-center'>5 NCS Terbaik Tahun 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -609,7 +609,7 @@
         </table>
       </div>
       <div class='col-4'>
-        <h4 class='h4 text-center'>5 Stesen Tertinggi oleh NCS Tahun 2023</h4>
+        <h6 class='text-center'>5 Stesen Tertinggi oleh NCS Tahun 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -622,7 +622,7 @@
         </table>
       </div>
       <div class='col-4'>
-        <h4 class='h4 text-center'>5 Stesen Paling Aktif Tahun 2023</h4>
+        <h6 class='text-center'>5 Stesen Paling Aktif Tahun 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>

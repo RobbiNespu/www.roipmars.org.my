@@ -2,25 +2,25 @@
 <html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
-  <title>RoIPMARS|AppLogin</title>
+  <title>RoIPMARS | AppLogin</title>
   <meta charset='utf-8'>
   <meta http-equiv='Content-Type' content='text/html'>
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-  <meta name='title' content='RoIPMARS|AppLogin'>
+  <meta name='title' content='RoIPMARS | AppLogin'>
   <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Log Masuk Aplikasi'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
-  <meta property='og:title' content='RoIPMARS|AppLogin'>
+  <meta property='og:title' content='RoIPMARS | AppLogin'>
   <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Log Masuk Aplikasi'>
   <meta property='og:url' content='https://www.roipmars.org.my/applogin'>
   <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
-  <meta name='twitter:title' content='RoIPMARS|AppLogin'>
+  <meta name='twitter:title' content='RoIPMARS | AppLogin'>
   <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Log Masuk Aplikasi'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/applogin'>
   <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>

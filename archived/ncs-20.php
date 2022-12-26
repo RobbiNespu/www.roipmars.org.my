@@ -2,10 +2,10 @@
 <html lang='ms-MY'>
 
 <head>
-  <title>RoIPMARS|NCS Schedule</title>
+  <title>RoIPMARS | NCS Schedule</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="title" content="RoIPMARS|ROIPMARS">
+  <meta name="title" content="RoIPMARS | ROIPMARS">
   <meta name="description" content="Malaysian Amateur RoIP Society (MARS)">
   <meta name="keywords" content="roipmars, mars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia">
   <meta name="robots" content="index, follow">

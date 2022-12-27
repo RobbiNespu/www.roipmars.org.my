@@ -204,7 +204,7 @@
           <table class="table table-sm table-bordered border-dark text-center my-0">
             <tr><td>Nama</td><td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
-            <tr><td>Akaun</td><td>12140000437712</td></tr>
+            <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
           </table>
           <p class="my-0 text-center">Kami juga menerima <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;"><img src="./images/tngew_ht.png" class="img-fluid" width="50px"></a> dan <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;"><img src="./images/fpx.png" class="img-fluid" width="50px"></a> dan <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;"><i class="fa-regular fa-credit-card"></i></i></a></p>
           <p class="my-0 text-center">&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;<br>&mdash; KEHADIRAN ANDA KEBANGGAAN KAMI &mdash;</p>

@@ -450,7 +450,7 @@
           <table class="table-sm table-bordered text-center">
             <tr><td>Nama</td><td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
-            <tr><td>Akaun</td><td>12140000437712</td></tr>
+            <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
           </table>
           <p class="my-1">Sumbangan melalui <a class="text-decoration-none" href="https://payment.tngdigital.com.my/sc/bDLnBmDoDq" onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'RoIPMARS Donation', 'width=800,height=600'); return false;"><img src="../images/tngew_ht.png" class="img-fluid" width="50px"></a> atau <a class="text-decoration-none" href="https://toyyibpay.com/sumbanganroipmars" onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'RoIPMARS Donation', 'width=800,height=600'); return false;"><img src="../images/fpx.png" class="img-fluid" width="50px"></a> atau <a class="text-decoration-none" href="https://donate.stripe.com/5kA8AceIg7Gegbm5kk" onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'RoIPMARS Donation', 'width=800,height=600'); return false;"><i class="fa-brands fa-stripe"></i></i></a></p>
           <p class="text-center">&mdash; DARI ANDA KEMBALI PADA ANDA &mdash; KEHADIRAN ANDA KEBANGGAAN KAMI &mdash;</p>

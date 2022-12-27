@@ -123,7 +123,7 @@
       </tr>
       <tr>
         <td>Akaun</td>
-        <td>12140000437712</td>
+        <td>1214 0000 4377 12</td>
       </tr>
     </table>
     <p class="my-0 text-center">Kami juga menerima <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;"><img src="../../images/tngew_ht.png" class="img-fluid" width="50px"></a> dan <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;"><img src="../../images/fpx.png" class="img-fluid" width="50px"></a> dan <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;"><i class="fa-regular fa-credit-card"></i></i></a></p>

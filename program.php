@@ -428,11 +428,12 @@
               <tr><td>34</td><td>Jumaat</td><td>25 Ogo 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
               <tr><td>34</td><td>Sabtu</td><td>26 Ogo 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
               <tr><td>34</td><td>Ahad</td><td>27 Ogo 2023</td><td>9:00PM</td><td>CB Net</td><td></td><td></td></tr>
-              <tr bgcolor='#56C3E7'><td>35</td><td>Rabu</td><td>30 Ogo 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Threshold of Malaysia&#39;s National Day&#41;</td><td></td><td></td></tr>
-              <tr bgcolor='#D71110'><td>35</td><td>Rabu</td><td>30 Ogo 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Hari Kebangsaan&#41;</td><td></td><td></td></tr>
-              <tr bgcolor='#6f42c1'><td>35</td><td>Khamis</td><td>31 Ogo 2023</td><td>9:00AM</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66xx&#41;</td><td></td><td></td></tr>
-              <tr bgcolor='#6f42c1'><td>35</td><td>Khamis</td><td>31 Ogo 2023</td><td>2:00PM</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66xx&#41;</td><td></td><td></td></tr>
-              <tr bgcolor='#6f42c1'><td>35</td><td>Khamis</td><td>31 Ogo 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66xx&#41;</td><td></td><td></td></tr>
+              <tr bgcolor='#56C3E7'><td>35</td><td>Rabu</td><td>30 Ogo 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Threshold of Malaysia&#39;s National Day&#41; &#40;9M66MB&#41;</td><td></td><td></td></tr>
+              <tr bgcolor='#D71110'><td>35</td><td>Rabu</td><td>30 Ogo 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Kebangsaan&#41;</td><td></td><td></td></tr>
+              <tr bgcolor='#6f42c1'><td>35</td><td>Khamis</td><td>31 Ogo 2023</td><td>9:00AM</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66Mx&#41;</td><td></td><td></td></tr>
+              <tr bgcolor='#6f42c1'><td>35</td><td>Khamis</td><td>31 Ogo 2023</td><td>12:00PM</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66Mx&#41;</td><td></td><td></td></tr>
+              <tr bgcolor='#6f42c1'><td>35</td><td>Khamis</td><td>31 Ogo 2023</td><td>3:00PM</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66Mx&#41;</td><td></td><td></td></tr>
+              <tr bgcolor='#6f42c1'><td>35</td><td>Khamis</td><td>31 Ogo 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66Mx&#41;</td><td></td><td></td></tr>
             </tbody>
           </table>
         </div>
@@ -441,7 +442,7 @@
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
-              <tr><td>35</td><td>Jumaat</td><td>01 Sep 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
+              <tr bgcolor='#6f42c1'><td>35</td><td>Jumaat</td><td>01 Sep 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66Mx&#41;</td><td></td><td></td></tr>
               <tr><td>35</td><td>Sabtu</td><td>02 Sep 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
               <tr><td>35</td><td>Ahad</td><td>03 Sep 2023</td><td>9:00PM</td><td>CB Net</td><td></td><td></td></tr>
               <tr><td>36</td><td>Rabu</td><td>06 Sep 2023</td><td>9:00PM</td><td>English Net</td><td></td><td></td></tr>

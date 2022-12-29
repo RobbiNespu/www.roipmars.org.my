@@ -558,7 +558,7 @@
       </div>
       <div class='col-12'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
       <div class='col-4'>
-        <h6 class='text-center'>5 NCS Terbaik Tahun 2023</h6>
+        <h6 class='text-center'>5 Stesen Tertinggi oleh NCS</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -571,7 +571,7 @@
         </table>
       </div>
       <div class='col-4'>
-        <h6 class='text-center'>5 Stesen Tertinggi oleh NCS Tahun 2023</h6>
+        <h6 class='text-center'>5 Stesen Bahasa Melayu Paling Aktif</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -584,7 +584,7 @@
         </table>
       </div>
       <div class='col-4'>
-        <h6 class='text-center'>5 Stesen Paling Aktif Tahun 2023</h6>
+        <h6 class='text-center'>5 Stesen Bahasa Inggeris Paling Aktif</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -597,8 +597,8 @@
         </table>
       </div>
       <div class='col-12'><h3 class='text-center'>Kategori Jalur Rakyat</h3></div>
-      <div class='col-4'>
-        <h6 class='text-center'>5 NCS Terbaik Tahun 2023</h6>
+      <div class='col-6'>
+        <h6 class='text-center'>5 Stesen Tertinggi oleh NCS</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -610,21 +610,8 @@
           </tbody>
         </table>
       </div>
-      <div class='col-4'>
-        <h6 class='text-center'>5 Stesen Tertinggi oleh NCS Tahun 2023</h6>
-        <table class='table table-bordered table-sm table-responsive-sm text-center'>
-          <thead><th>No</th><th>Station</th></thead>
-          <tbody>
-            <tr><td>1<sup>st</sup></td><td></td></tr>
-            <tr><td>2<sup>nd</sup></td><td></td></tr>
-            <tr><td>3<sup>rd</sup></td><td></td></tr>
-            <tr><td>4<sup>th</sup></td><td></td></tr>
-            <tr><td>5<sup>th</sup></td><td></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class='col-4'>
-        <h6 class='text-center'>5 Stesen Paling Aktif Tahun 2023</h6>
+      <div class='col-6'>
+        <h6 class='text-center'>5 Stesen Jalur Rakyat Paling Aktif</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>

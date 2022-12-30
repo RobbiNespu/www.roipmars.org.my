@@ -131,14 +131,14 @@
         <div class='offcanvas-header text-bg-light'>
           <h5 class='offcanvas-title' id='navbarOffcanvasLgLabel'>MENU</h5>
         </div>
-        <ul class='navbar-nav nav-pills justify-content-end'>
+        <ul class='navbar-nav nav-pills text-center'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link' href='howto'>Tutorial</a></li>
           <li class='nav-item'><a class='nav-link' href='cbinfo'>Informasi Jalur Rakyat</a></li>
           <li class='nav-item'><a class='nav-link' href='cbmars'>CB RoIPMARS</a></li>
-          <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
           <li class='nav-item'><a class='nav-link' href='member'>Keahlian</a></li>
+          <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
           <!--<li class='nav-item'><a class='nav-link active rounded-pill' aria-current='page' href='mailus'>Hubungi Kami</a></li>-->
           <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='fa-solid fa-store'></i> Kedai</a></li>
           <!--<li class='nav-item'><a class='nav-link' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='fa-solid fa-user-shield'></i> Portal Ahli</a></li>-->

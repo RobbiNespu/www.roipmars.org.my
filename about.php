@@ -131,15 +131,15 @@
         <div class='offcanvas-header text-bg-light'>
           <h5 class='offcanvas-title' id='navbarOffcanvasLgLabel'>MENU</h5>
         </div>
-        <ul class='navbar-nav nav-pills justify-content-end'>
+        <ul class='navbar-nav nav-pills text-center'>
           <li class='nav-item'><a class='nav-link active rounded-pill' aria-current='page' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link' href='program'>Program</a></li>
           <li class='nav-item'><a class='nav-link' href='howto'>Tutorial</a></li>
           <li class='nav-item'><a class='nav-link' href='cbinfo'>Informasi Jalur Rakyat</a></li>
           <li class='nav-item'><a class='nav-link' href='cbmars'>CB RoIPMARS</a></li>
-          <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
           <li class='nav-item'><a class='nav-link' href='member'>Keahlian</a></li>
+          <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
           <!--<li class='nav-item'><a class='nav-link' href='mailus'>Hubungi Kami</a></li>-->
           <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='fa-solid fa-store'></i> Kedai</a></li>
           <!--<li class='nav-item'><a class='nav-link' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='fa-solid fa-user-shield'></i> Portal Ahli</a></li>-->
@@ -151,8 +151,7 @@
   <div class="container-fluid">
     <div class="row text-center">
       <div class="col mt-2 mb-2 jumbotron-fluid">
-        <h1 class="h1-responsive">Tentang RoIPMARS
-        </h1>
+        <h1 class="h1-responsive">Tentang RoIPMARS</h1>
         <p class="font-smaller">Malaysian Amateur Radio over Internet Protocol Society</p>
       </div>
     </div>
@@ -161,14 +160,14 @@
     <div class="row">
       <div class="col-lg-4">
         <h4 class="text-center font-weight-bold">PENGENALAN</h4>
-        <p>Kami adalah Penyelia Perkhidmatan Pelayan Teamspeak 3 yang berasaskan Windows &amp; Android untuk sarana komunikasi alternatif kepada pengendali stesen Amatur dan juga Komersil untuk berkomunikasi antara satu sama lain walau dimana sahaja berada samada menggunakan kaedah RoIP atau VoIP.</p>
+        <p>Kami adalah Penyelia Perkhidmatan Pelayan TeamSpeak3 yang berasaskan Windows &amp; Android untuk sarana komunikasi alternatif kepada pengendali stesen Amatur dan juga Komersil untuk berkomunikasi antara satu sama lain walau dimana sahaja berada samada menggunakan kaedah RoIP atau VoIP.</p>
         <h4 class="text-center font-weight-bold">SEJARAH</h4>
-        <p>Pelayan Teamspeak 3 mula di perkenalkan di Malaysia untuk sarana komunikasi Amatur dan Komersil oleh 9W2UZL sekitar 2014 dan mula diterima ramai sekitar 2016 sehingga sekarang &#40;<script>document.write(new Date().getFullYear())</script>&#41;.</p>
-        <p>Pada awal pengenalan, komuniti pengendali stesen komunikasi tidak dapat menerima pembaharuan serta menentang segala cubaan bagi menjatuhkan semangat pengguna yang lain agar tidak menerima aplikasi Teamspeak atau VOIP (secara amnya) sebagai satu alternatif komunikasi yang baru.</p>
+        <p>Pelayan TeamSpeak3 mula di perkenalkan di Malaysia untuk sarana komunikasi Amatur dan Komersil oleh 9W2UZL sekitar 2014 dan mula diterima ramai sekitar 2016 sehingga sekarang &#40;<script>document.write(new Date().getFullYear())</script>&#41;.</p>
+        <p>Pada awal pengenalan, komuniti pengendali stesen komunikasi tidak dapat menerima pembaharuan serta menentang segala cubaan bagi menjatuhkan semangat pengguna yang lain agar tidak menerima aplikasi TeamSpeak atau VOIP (secara amnya) sebagai satu alternatif komunikasi yang baru.</p>
         <p>Namun begitu, kami tidak patah semangat dan terus berjuang sehingga dapat menyewa satu pelayan (server) di Singapura lalu ke Perancis, Jerman dan kembali ke Malaysia.</p>
-        <p>Kini, sudah ramai pengguna baru yang berminat untuk mengetahui lebih lanjut mengenai aplikasi komunikasi Teamspeak3.</p>
+        <p>Kini, sudah ramai pengguna baru yang berminat untuk mengetahui lebih lanjut mengenai aplikasi komunikasi TeamSpeak3.</p>
         <h4 class="text-center font-weight-bold">PROMOSI</h4>
-        <p>Semua penggemar dan penggiat komunikasi terutamanya aplikasi Teamspeak 3 dialu-alukan untuk turut serta masuk berkomunikasi di Server MARS kerana didalam server Teamspeak 3 telah disediakan channel / bilik untuk berkomunikasi samada Amatur atau Komersil bahkan keluarga dan individu juga dialu-alukan untuk turut serta.</p>
+        <p>Semua penggemar dan penggiat komunikasi terutamanya aplikasi TeamSpeak3 dialu-alukan untuk turut serta masuk berkomunikasi di Server MARS kerana didalam server TeamSpeak3 telah disediakan channel / bilik untuk berkomunikasi samada Amatur atau Komersil bahkan keluarga dan individu juga dialu-alukan untuk turut serta.</p>
         <h4 class="text-center font-weight-bold">TUJUAN</h4>
         <p>Merapatkan hubungan siraturahim antara stesen seluruh dunia disamping menguji peralatan masing-masing serta berkomunikasi antara satu sama lain.</p>
       </div>

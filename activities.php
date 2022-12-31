@@ -131,7 +131,7 @@
         <div class='offcanvas-header text-bg-light'>
           <h5 class='offcanvas-title' id='navbarOffcanvasLgLabel'>MENU</h5>
         </div>
-        <ul class='navbar-nav nav-pills text-center'>
+        <ul class='navbar-nav nav-pills text-center justify-content-end'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link active rounded-pill' aria-current='page' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link' href='program'>Program</a></li>

@@ -97,14 +97,14 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 m-0 text-center">
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class='col-lg-12 m-0 text-center'>
         <h3>Table A</h3>
         <p>HF Frequencies</p>
-        <p class="text-end">Made 30 March 2000 [KTKM(S) 353/146/5 Klt. 4; PN(PU2) 601]</p>
-        <table class="table table-striped table-bordered border-dark table-sm">
-          <thead class="thead-light align-middle">
+        <p class='text-end'>Made 30 March 2000 [KTKM(S) 353/146/5 Klt. 4; PN(PU2) 601]</p>
+        <table class='table table-striped table-bordered border-dark table-sm'>
+          <thead class='thead-light align-middle'>
             <tr>
               <th>Channel</th>
               <th>Frequency (MHz)</th>
@@ -119,7 +119,7 @@
             <tr><td>2</td><td>26.975</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
             <tr><td>3</td><td>26.985</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
             <tr><td>4</td><td>27.005</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
-            <tr class="table-danger border-danger">
+            <tr class='table-danger border-danger'>
               <td>5</td><td>27.015</td><td>AM</td><td>4</td><td>6</td><td>Not for use</td></tr>
             <tr><td>6</td><td>27.025</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
             <tr><td>7</td><td>27.035</td><td>AM</td><td>4</td><td>6</td><td></td></tr>
@@ -132,12 +132,12 @@
             <tr><td>14</td><td>27.125</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
             <tr><td>15</td><td>27.135</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
             <tr><td>16</td><td>27.155</td><td>LSB</td><td>12</td><td>3</td><td>Calling</td></tr>
-            <tr class="table-danger border-danger">
+            <tr class='table-danger border-danger'>
               <td>17</td><td>27.165</td><td>USB/LSB</td><td>12</td><td>3</td><td>Not for use</td></tr>
             <tr><td>18</td><td>27.175</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
             <tr><td>19</td><td>27.185</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
             <tr><td>20</td><td>27.205</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
-            <tr class="table-danger border-danger">
+            <tr class='table-danger border-danger'>
               <td>21</td><td>27.215</td><td>USB/LSB</td><td>12</td><td>3</td><td>Not for use</td></tr>
             <tr><td>22</td><td>27.225</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
             <tr><td>23</td><td>27.235</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>

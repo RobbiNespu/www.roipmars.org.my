@@ -98,22 +98,22 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <h1 class="tk-gilbert-color text-center">MARS Group</h1>
-    <h4 class="tk-gilbert text-center font-weight-light">&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
-    <h2 class="tk-nueva-std text-center">Notice CB CS Inactive Status and Methods</h2>
-    <h3 class="tk-nueva-std-condensed text-end">Ruj: NtsMARS2020/08<br>Tarikh Notis: 19 April 2020 | 2000 MYT</h3>
-    <h2 class="tk-tekton-pro">Per: Notis Isyarat Panggilan Jalur Rakyat Status Tidak Aktif &amp; Kaedah</h2>
+  <div class='container'>
+    <h1 class='tk-gilbert-color text-center'>MARS Group</h1>
+    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
+    <h2 class='tk-nueva-std text-center'>Notice CB CS Inactive Status and Methods</h2>
+    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2020/08<br>Tarikh Notis: 19 April 2020 | 2000 MYT</h3>
+    <h2 class='tk-tekton-pro'>Per: Notis Isyarat Panggilan Jalur Rakyat Status Tidak Aktif &amp; Kaedah</h2>
     <p>Tuan / Puan / En. / Cik,</p>
-    <p>Berhubung perkara diatas, pihak pengurusan tertinggi MARS telahpun membuat keputusan untuk menyahaktifkan <font class="font-italic">'Callsign'</font> yang tidak aktif di dalam acara Net Mingguan CB pada setiap hari Ahad jam 9 Malam berkuatkuasa pada 1 Mei 2020.</p>
+    <p>Berhubung perkara diatas, pihak pengurusan tertinggi MARS telahpun membuat keputusan untuk menyahaktifkan <font class='font-italic'>'Callsign'</font> yang tidak aktif di dalam acara Net Mingguan CB pada setiap hari Ahad jam 9 Malam berkuatkuasa pada 1 Mei 2020.</p>
     <p>Pemarkahan Merit &amp; Dimerit akan diambil kira kepada semua ahli berdaftar dan sekiranya dalam satu-satu bulan tersebut, isyarat panggilan anda tiada didalam laporan kegiatan net selama 2 (dua) minggu berturut-turut, pihak pengurusan MARS akan mengeluarkan notis peringatan dan minta tunjuk sebab kenapa dan mengapa anda tidak aktif. Kegagalan membalas notis berkenaan, pihak pengurusan MARS beranggapan anda sudah tidak berminat untuk menyandang isyarat panggilan yang dimiliki dan juga boleh dibatalkan dan diberi kepada orang lain sekiranya ada yang berminat dengan isyarat panggilan berkenaan.</p>
     <p>Kaedah untuk pemilikan semula isyarat panggilan adalah seperti rajah di bawah:<br>
-      <img class="img-fluid rounded-lg" loadig="lazy" src="../../images/kaedah_cbcs_recycle.png">
+      <img class='img-fluid rounded-lg' loadig='lazy' src='../../images/kaedah_cbcs_recycle.png'>
     </p>
-    <p class="text-center">Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
-    <p class="text-center">Sekiranya anda memerlukan bantuan, sila email kepada: <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a></p>
-    <h6 class="tk-adobe-handwriting-ernie text-end">Server Administrator</h6>
-    <p class="text-end" style="font-size:small">Management of MARS Group</p>
+    <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
+    <p class='text-end' style='font-size:small'>Management of MARS Group</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>

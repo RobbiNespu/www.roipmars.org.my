@@ -98,19 +98,19 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <h1 class="tk-gilbert-color text-center">MARS Group</h1>
-    <h4 class="tk-gilbert text-center font-weight-light">&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
-    <h2 class="tk-nueva-std text-center">Notice NCS Certificate</h2>
-    <h3 class="tk-nueva-std-condensed text-end">Ruj: NtsMARS2020/02<br>Tarikh Notis: 08 Februari 2020 | 2100 MYT</h3>
-    <h2 class="tk-tekton-pro">Per: Pemberitahuan berkenaan Sijil NCS Mingguan RoIP MARS</h2>
+  <div class='container'>
+    <h1 class='tk-gilbert-color text-center'>MARS Group</h1>
+    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
+    <h2 class='tk-nueva-std text-center'>Notice NCS Certificate</h2>
+    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2020/02<br>Tarikh Notis: 08 Februari 2020 | 2100 MYT</h3>
+    <h2 class='tk-tekton-pro'>Per: Pemberitahuan berkenaan Sijil NCS Mingguan RoIP MARS</h2>
     <p>Tuan / Puan / En. / Cik,</p>
-    <p class="mb-2">Berhubung dengan perkara diatas, bermula Februari 2020, pihak pengurusan RoIP MARS tidak lagi mengeluarkan sijil bagi NCS Mingguan di server TS3 RoIP MARS tetapi bakal digantikan dengan Sijil 'Top NCS' dan 'Top Station of NCS' secara tahunan.</p>
-    <p>Setelah meneliti berkenaan pengeluaran sijil NCS Mingguan tersebut, kami mengambil keputusan untuk tidak lagi mengeluarkan sijil NCS secara mingguan atas sebab kekangan ruang <i>(disk space)</i> di laman sesawang (<a href="https://ftp.roipmars.org.my/#/certificates">Sijil</a>) untuk kami simpan dan siarkan kepada umum.</p>
-    <p class="text-center">Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
-    <p class="text-center">Sekiranya anda memerlukan bantuan, sila email kepada: <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a></p>
-    <h6 class="tk-adobe-handwriting-ernie text-end">Server Administrator</h6>
-    <p class="text-end" style="font-size:small">Management of MARS Group</p>
+    <p class='mb-2'>Berhubung dengan perkara diatas, bermula Februari 2020, pihak pengurusan RoIP MARS tidak lagi mengeluarkan sijil bagi NCS Mingguan di server TS3 RoIP MARS tetapi bakal digantikan dengan Sijil 'Top NCS' dan 'Top Station of NCS' secara tahunan.</p>
+    <p>Setelah meneliti berkenaan pengeluaran sijil NCS Mingguan tersebut, kami mengambil keputusan untuk tidak lagi mengeluarkan sijil NCS secara mingguan atas sebab kekangan ruang <i>(disk space)</i> di laman sesawang (<a href='https://ftp.roipmars.org.my/#/certificates'>Sijil</a>) untuk kami simpan dan siarkan kepada umum.</p>
+    <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
+    <p class='text-end' style='font-size:small'>Management of MARS Group</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>

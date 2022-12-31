@@ -97,12 +97,12 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <div class="row">
-      <h1 class="text-center">Dasar Pemulangan dan Bayaran Balik</h1>
+  <div class='container'>
+    <div class='row'>
+      <h1 class='text-center'>Dasar Pemulangan dan Bayaran Balik</h1>
       <p>Terakhir dikemas kini: 04 September 2022</p>
       <p>Terima kasih kerana membeli-belah di RoIPMARS. Jika, atas sebarang sebab, Anda tidak berpuas hati sepenuhnya dengan pembelian Kami menjemput Anda untuk menyemak dasar kami mengenai bayaran balik dan pemulangan. Terma berikut terpakai untuk sebarang produk / perkhidmatan yang Anda beli dengan Kami.</p>
-      <h2 class="text-center">Tafsiran dan Definisi</h2>
+      <h2 class='text-center'>Tafsiran dan Definisi</h2>
       <h3>Tafsiran</h3>
       <p>Perkataan yang huruf awalnya ditulis dengan huruf besar mempunyai makna yang ditakrifkan di bawah syarat berikut. Takrifan berikut hendaklah mempunyai makna yang sama tanpa mengira sama ada ia muncul dalam bentuk tunggal atau jamak.</p>
       <h3>Takrif</h3>
@@ -112,7 +112,7 @@
         <li><p><strong>Barang</strong> merujuk kepada item yang ditawarkan untuk dijual pada Perkhidmatan.</p></li>
         <li><p><strong>Pesanan</strong> bermaksud permintaan oleh Anda untuk membeli Barang daripada Kami.</p></li>
         <li><p><strong>Perkhidmatan</strong> merujuk kepada laman Web.</p></li>
-        <li><p><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada <a href="https://www.roipmars.org.my" target="_blank">https://www.roipmars.org.my</a></p></li>
+        <li><p><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada <a href='https://www.roipmars.org.my' target='_blank'>https://www.roipmars.org.my</a></p></li>
         <li><p><strong>Anda</strong> bermaksud individu yang mengakses atau menggunakan Perkhidmatan, atau organisasi, atau entiti undang-undang lain bagi pihak individu tersebut mengakses atau menggunakan Perkhidmatan, mengikut mana yang berkenaan.</p ></li>
       </ul>
       <h2>Hak Pembatalan Pesanan Anda</h2>

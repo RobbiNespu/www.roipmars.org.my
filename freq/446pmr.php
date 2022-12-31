@@ -97,13 +97,13 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 m-0 text-center">
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class='col-lg-12 m-0 text-center'>
         <h3>Analog Personal Mobile Radio 446 MHz (Analog PMR 446)</h3>
         <p>A short-range simplex radiocommunications service for business and commercial use</p>
-        <table class="table table-striped table-bordered border-dark table-sm">
-          <thead class="thead-light align-middle">
+        <table class='table table-striped table-bordered border-dark table-sm'>
+          <thead class='thead-light align-middle'>
             <tr>
               <th>Channel</th>
               <th>Frequency (MHz)</th>
@@ -125,12 +125,12 @@
         </table>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-12 m-0 text-center">
+    <div class='row'>
+      <div class='col-lg-12 m-0 text-center'>
         <h3>Digital Personal Mobile Radio 446 MHz (Digital PMR 446)</h3>
         <p>A short-range simplex radiocommunications service for business and commercial use</p>
-        <table class="table table-striped table-bordered border-dark table-sm">
-          <thead class="thead-light align-middle">
+        <table class='table table-striped table-bordered border-dark table-sm'>
+          <thead class='thead-light align-middle'>
             <tr>
               <th>Channel</th>
               <th>Frequency (MHz)</th>

@@ -97,9 +97,9 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <div class="row">
-      <h1 class="text-center">Terma dan Syarat Penggunaan Laman Web</h1>
+  <div class='container'>
+    <div class='row'>
+      <h1 class='text-center'>Terma dan Syarat Penggunaan Laman Web</h1>
       <h2>1. Syarat</h2>
       <p>Dengan mengakses Laman Web ini, boleh diakses dari https://www.roipmars.org.my, anda bersetuju untuk terikat dengan Terma dan Syarat Penggunaan Laman Web ini dan bersetuju bahawa anda bertanggungjawab ke atas perjanjian dengan mana-mana undang-undang tempatan yang berkenaan. Jika anda tidak bersetuju dengan mana-mana syarat ini, anda dilarang mengakses laman ini. Bahan-bahan yang terkandung dalam Laman Web ini dilindungi oleh undang-undang hak cipta dan tanda dagangan.</p>
       <h2>2. Penggunaan Lesen</h2>
@@ -123,7 +123,7 @@
       <h2>7. Pengubahsuaian Syarat Penggunaan laman</h2>
       <p>PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] boleh menyemak Terma Penggunaan ini untuk Laman Webnya pada bila-bila masa tanpa notis terlebih dahulu. Dengan menggunakan Laman Web ini, anda bersetuju untuk terikat dengan versi semasa Terma dan Syarat Penggunaan ini.</p>
       <h2>8. Privasi Anda</h2>
-      <p>Sila baca <a href="/policy/privacy">Dasar Privasi</a> kami.</p>
+      <p>Sila baca <a href='/policy/privacy'>Dasar Privasi</a> kami.</p>
       <h2>9. Undang-undang yang Mentadbir</h2>
       <p>Sebarang tuntutan yang berkaitan dengan Laman Web PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)] hendaklah dikawal oleh undang-undang saya tanpa mengambil kira percanggahan peruntukan undang-undangnya.</p>
     </div>

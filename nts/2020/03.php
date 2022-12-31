@@ -98,17 +98,17 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <h1 class="tk-gilbert-color text-center">MARS Group</h1>
-    <h4 class="tk-gilbert text-center font-weight-light">&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
-    <h2 class="tk-nueva-std text-center">Notice Downloads Webpage</h2>
-    <h3 class="tk-nueva-std-condensed text-end">Ruj: NtsMARS2020/03<br>Tarikh Notis: 16 Februari 2020 | 0000 MYT</h3>
-    <h2 class="tk-tekton-pro">Per: Makluman buat pengguna TeamSpeak samada baru mahupun sedia ada</h2>
+  <div class='container'>
+    <h1 class='tk-gilbert-color text-center'>MARS Group</h1>
+    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
+    <h2 class='tk-nueva-std text-center'>Notice Downloads Webpage</h2>
+    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2020/03<br>Tarikh Notis: 16 Februari 2020 | 0000 MYT</h3>
+    <h2 class='tk-tekton-pro'>Per: Makluman buat pengguna TeamSpeak samada baru mahupun sedia ada</h2>
     <p>Tuan / Puan / En. / Cik,</p>
-    <p class="mb-2">Berhubung dengan perkara diatas, bermula Februari 2020, pihak pengurusan MARS Group bakal mengambil inisiatif untuk memberitahu kepada umum bagaimana untuk berhubung dengan MARS Group.</p>
-    <p>Segala platform perhubungan (Teamspeak, Echolink, Zello, eQSO, FRN) akan dibuat video 'tutorial' dan akan dimuatnaik di [<a href="../../howto" target="_blank">Tutorial</a>] untuk rujukan kita bersama. </p>
+    <p class='mb-2'>Berhubung dengan perkara diatas, bermula Februari 2020, pihak pengurusan MARS Group bakal mengambil inisiatif untuk memberitahu kepada umum bagaimana untuk berhubung dengan MARS Group.</p>
+    <p>Segala platform perhubungan (Teamspeak, Echolink, Zello, eQSO, FRN) akan dibuat video 'tutorial' dan akan dimuatnaik di [<a href='../../howto' target='_blank'>Tutorial</a>] untuk rujukan kita bersama. </p>
     <p>Berikut merupakan senarai laman:</p>
-    <table class="table table-striped table-sm text-center">
+    <table class='table table-striped table-sm text-center'>
       <thead>
         <th>Laman</th>
         <th>Download / View</th>
@@ -116,45 +116,45 @@
       <tbody>
         <tr>
           <td>Download page</td>
-          <td><a href="https://ftp.roipmars.org.my/" target="_blank">View</a></td>
+          <td><a href='https://ftp.roipmars.org.my/' target='_blank'>View</a></td>
         </tr>
         <tr>
           <td>Tutorial</td>
-          <td><a href="../../howto" target="_blank">View</a></td>
+          <td><a href='../../howto' target='_blank'>View</a></td>
         </tr>
         <tr>
           <td>PC Download (x86) 32-bit</td>
-          <td><a href="https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win32-3.1.10.exe" target="_blank">Download</a></td>
+          <td><a href='https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win32-3.1.10.exe' target='_blank'>Download</a></td>
         </tr>
         <tr>
           <td>PC Download (x64) 64-bit</td>
-          <td><a href="https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win64-3.1.10.exe" target="_blank">Download</a></td>
+          <td><a href='https://ftp.roipmars.org.my/downloads/windows/teamspeak3-client-win64-3.1.10.exe' target='_blank'>Download</a></td>
         </tr>
         <!--
       <tr>
         <td>PC Video Conference</td>
-        <td><a href="#" target="_blank">Download</a></td>
+        <td><a href='#' target='_blank'>Download</a></td>
       </tr>
       <tr>
         <td>Android free</td>
-        <td><a href="https://ftp.roipmars.org.my/downloads/android/roipmarsts3.apk" target="_blank">Download</a></td>
+        <td><a href='https://ftp.roipmars.org.my/downloads/android/roipmarsts3.apk' target='_blank'>Download</a></td>
       </tr>
 -->
         <tr>
           <td>Android downgrade</td>
-          <td><a href="https://ftp.roipmars.org.my/downloads/android/teamspeak-3.1.9_b194.apk" target="_blank">Download</a></td>
+          <td><a href='https://ftp.roipmars.org.my/downloads/android/teamspeak-3.1.9_b194.apk' target='_blank'>Download</a></td>
         </tr>
         <tr>
           <td>Zello for F22/F40/etc (network radio)</td>
-          <td><a href="https://ftp.roipmars.org.my/downloads/android/zello-3.109.apk" target="_blank">Download</a></td>
+          <td><a href='https://ftp.roipmars.org.my/downloads/android/zello-3.109.apk' target='_blank'>Download</a></td>
         </tr>
       </tbody>
     </table>
     <!--  <p>Harap maaf bagi pengguna iOS, pada masa ini kami tidak mempunyai fail aplikasi untuk versi percuma pada peranti iOS disebabkan tahap keselamatan yang Apple sediakan (semua pembelian dibuat dalam peranti iOS ditag dengan ID pengguna iCloud)</p>-->
-    <p class="text-center">Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
-    <p class="text-center">Sekiranya anda memerlukan bantuan, sila email kepada: <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a></p>
-    <h6 class="tk-adobe-handwriting-ernie text-end">Server Administrator</h6>
-    <p class="text-end" style="font-size:small">Management of MARS Group</p>
+    <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
+    <p class='text-end' style='font-size:small'>Management of MARS Group</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>

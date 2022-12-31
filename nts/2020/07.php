@@ -98,19 +98,19 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <h1 class="tk-gilbert-color text-center">MARS Group</h1>
-    <h4 class="tk-gilbert text-center font-weight-light">&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
-    <h2 class="tk-nueva-std text-center">Notice Teamspeak DomainName:PortNumber Issue</h2>
-    <h3 class="tk-nueva-std-condensed text-end">Ruj: NtsMARS2020/07<br>Tarikh Notis: 02 April 2020 | 0900 MYT</h3>
-    <h2 class="tk-tekton-pro">Per: Notis perubahan alamat server TS3 di bawah naungan MARS</h2>
+  <div class='container'>
+    <h1 class='tk-gilbert-color text-center'>MARS Group</h1>
+    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
+    <h2 class='tk-nueva-std text-center'>Notice Teamspeak DomainName:PortNumber Issue</h2>
+    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2020/07<br>Tarikh Notis: 02 April 2020 | 0900 MYT</h3>
+    <h2 class='tk-tekton-pro'>Per: Notis perubahan alamat server TS3 di bawah naungan MARS</h2>
     <p>Tuan / Puan / En. / Cik,</p>
-    <p>Berhubung perkara diatas, pihak pengurusan MARS ingin memaklumkan bahawa kami sedang menyelenggara sistem <font class="font-italic">Domain Name System (DNS)</font> kami.</p>
+    <p>Berhubung perkara diatas, pihak pengurusan MARS ingin memaklumkan bahawa kami sedang menyelenggara sistem <font class='font-italic'>Domain Name System (DNS)</font> kami.</p>
     <p>Namun begitu, sistem tersebut tidak dapat menghasilkan apa yang kami harapkan. Antara masalah yang telah ditemui adalah ketidakboleh kerja TSDNS bagi aplikasi Teamspeak.</p>
     <p>Terdapat beberapa server Teamspeak dibawah naungan kami terjejas dengan isu ini. Jadi, bagi mengatasi masalah ini, pengguna perlu menukar alamat server ke subdomain yang baru. Server yang tidak tersenarai di bawah alamatnya tidak terjejas, anda boleh masuk seperti biasa. Server yang terjejas dan subdomain yang baru adalah seperti jadual di bawah</p>
-    <h6 class="text-center">SERVER TEAMSPEAK 3 YANG TERJEJAS</h6>
-    <table class="table table-bordered text-center table-sm table-responsive-sm">
-      <thead class="thead-light">
+    <h6 class='text-center'>SERVER TEAMSPEAK 3 YANG TERJEJAS</h6>
+    <table class='table table-bordered text-center table-sm table-responsive-sm'>
+      <thead class='thead-light'>
         <th>Server</th>
         <th>Alamat Lama</th>
         <th>Alamat Baru</th>
@@ -133,10 +133,10 @@
         </tr>
       </tbody>
     </table>
-    <p class="text-center">Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
-    <p class="text-center">Sekiranya anda memerlukan bantuan, sila email kepada: <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a></p>
-    <h6 class="tk-adobe-handwriting-ernie text-end">Server Administrator</h6>
-    <p class="text-end" style="font-size:small">Management of MARS Group</p>
+    <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
+    <p class='text-end' style='font-size:small'>Management of MARS Group</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>

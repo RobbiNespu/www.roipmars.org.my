@@ -148,94 +148,94 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
-    <div class="row text-center">
-      <div class="col mt-2 mb-2 jumbotron-fluid">
-        <h1 class="h1-responsive">Notis Perkhidmatan</h1>
+  <div class='container-fluid'>
+    <div class='row text-center'>
+      <div class='col mt-2 mb-2 jumbotron-fluid'>
+        <h1 class='h1-responsive'>Notis Perkhidmatan</h1>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <table class="table table-striped text-center">
-        <thead class="th-sm thead-light align-middle">
+  <div class='container'>
+    <div class='row'>
+      <table class='table table-striped text-center'>
+        <thead class='th-sm thead-light align-middle'>
           <th>Tarikh Notis</th>
           <th>Tentang</th>
-          <th colspan="2">Rujukan</th>
+          <th colspan='2'>Rujukan</th>
         </thead>
-        <tbody class="align-middle">
+        <tbody class='align-middle'>
 
           <tr>
             <td>26 Sep 2022</td>
-            <td>Perubahan Platform <a href="https://kedai.roipmars.org.my/" target="_blank">Kedai.RoIPMARS.org.MY</a></td>
-            <td class="text-end">NtsMARS2022/02</td>
-            <td class="text-start"><a href="nts/2022/02" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td>Perubahan Platform <a href='https://kedai.roipmars.org.my/' target='_blank'>Kedai.RoIPMARS.org.MY</a></td>
+            <td class='text-end'>NtsMARS2022/02</td>
+            <td class='text-start'><a href='nts/2022/02' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>20 Jul 2022</td>
             <td>Perubahan domain</td>
-            <td class="text-end">NtsMARS2022/01</td>
-            <td class="text-start"><a href="nts/2022/01" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td class='text-end'>NtsMARS2022/01</td>
+            <td class='text-start'><a href='nts/2022/01' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>20 Apr 2021</td>
             <td>Rombakan Isyarat Panggilan Jalur Rakyat</td>
-            <td class="text-end">NtsMARS2021/01</td>
-            <td class="text-start"><a href="nts/2021/01" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td class='text-end'>NtsMARS2021/01</td>
+            <td class='text-start'><a href='nts/2021/01' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>25 Ogo 2020</td>
             <td>Server Downtime 30 Aug 2020</td>
-            <td class="text-end">NtsMARS2020/09</td>
-            <td class="text-start"><a href="nts/2020/09" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td class='text-end'>NtsMARS2020/09</td>
+            <td class='text-start'><a href='nts/2020/09' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>19 Apr 2020</td>
             <td>CB CS Inactive Status and Methods</td>
-            <td class="text-end">NtsMARS2020/08</td>
-            <td class="text-start"><a href="nts/2020/08" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td class='text-end'>NtsMARS2020/08</td>
+            <td class='text-start'><a href='nts/2020/08' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>02 Apr 2020</td>
             <td>Teamspeak DomainName:PortNo Issue</td>
-            <td class="text-end">NtsMARS2020/07</td>
-            <td class="text-start"><a href="nts/2020/07" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td class='text-end'>NtsMARS2020/07</td>
+            <td class='text-start'><a href='nts/2020/07' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>23 Mac 2020</td>
             <td>Website interruption for service upgrade</td>
-            <td class="text-end">NtsMARS2020/06</td>
-            <td class="text-start"><a href="nts/2020/06" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td class='text-end'>NtsMARS2020/06</td>
+            <td class='text-start'><a href='nts/2020/06' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>06 Mac 2020</td>
             <td>Change of Info in CB_DB</td>
-            <td class="text-end">NtsMARS2020/05</td>
-            <td class="text-start"><a href="nts/2020/05" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td class='text-end'>NtsMARS2020/05</td>
+            <td class='text-start'><a href='nts/2020/05' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>01 Mac 2020</td>
             <td>CB DB Maintenance</td>
-            <td class="text-end">NtsMARS2020/04</td>
-            <td class="text-start"><a href="nts/2020/04" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td class='text-end'>NtsMARS2020/04</td>
+            <td class='text-start'><a href='nts/2020/04' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>16 Feb 2020</td>
             <td>Webpage Notification</td>
-            <td class="text-end">NtsMARS2020/03</td>
-            <td class="text-start"><a href="nts/2020/03" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td class='text-end'>NtsMARS2020/03</td>
+            <td class='text-start'><a href='nts/2020/03' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>08 Feb 2020</td>
             <td>Discontinued Weekly NCS Certificate</td>
-            <td class="text-end">NtsMARS2020/02</td>
-            <td class="text-start"><a href="nts/2020/02" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td class='text-end'>NtsMARS2020/02</td>
+            <td class='text-start'><a href='nts/2020/02' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>07 Feb 2020</td>
             <td>Server Maintainence</td>
-            <td class="text-end">NtsMARS2020/01</td>
-            <td class="text-start"><a href="nts/2020/01" target="_blank"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Baca Lanjut...</button></a></td>
+            <td class='text-end'>NtsMARS2020/01</td>
+            <td class='text-start'><a href='nts/2020/01' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
         </tbody>
       </table>
@@ -252,7 +252,7 @@
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
             <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
           </table>
-          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;"><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;"><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;"><i class='fa-regular fa-credit-card'></i></i></a></p>
+          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='fa-regular fa-credit-card'></i></i></a></p>
           <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;<br>&mdash; KEHADIRAN ANDA KEBANGGAAN KAMI &mdash;</p>
         </div>
         <hr class='w-100 clearfix d-md-none'>
@@ -275,7 +275,7 @@
             <a href='https://www.facebook.com/roipmars.org.my'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-facebook-f fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://t.me/marsts3servercyberjaya'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-telegram fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://wa.me/c/60333960874'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-whatsapp fa-stack-1x fa-inverse'></i></span></a>
-            <a href='#' onClick="TSLoginWindow=window.open('https://www.roipmars.org.my/ts3login', 'LogIn TS RoIPMARS', 'width=800,height=600'); return false;"><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
+            <a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
           </div>
         </div>
       </div>

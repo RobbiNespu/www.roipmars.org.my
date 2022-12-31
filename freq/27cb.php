@@ -97,19 +97,19 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 m-0 text-center">
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class='col-lg-12 m-0 text-center'>
         <p>A medium-range simplex radiocommunications service for commercial and recreational use</p>
-        <table class="table table-striped table-bordered border-dark table-sm">
-          <thead class="thead-light align-middle">
+        <table class='table table-striped table-bordered border-dark table-sm'>
+          <thead class='thead-light align-middle'>
             <tr>
-              <th rowspan="2">Channel</th>
-              <th rowspan="2">Frequency (MHz)</th>
-              <th rowspan="2">Modulation Type</th>
-              <th colspan="2">Peak power (Watts) (Maximum EIRP)</th>
-              <th colspan="2">Channel Spacing (kHz)</th>
-              <th rowspan="2">Reserved Channel</th>
+              <th rowspan='2'>Channel</th>
+              <th rowspan='2'>Frequency (MHz)</th>
+              <th rowspan='2'>Modulation Type</th>
+              <th colspan='2'>Peak power (Watts) (Maximum EIRP)</th>
+              <th colspan='2'>Channel Spacing (kHz)</th>
+              <th rowspan='2'>Reserved Channel</th>
             </tr>
             <tr>
               <th>Double Side Band: AM/FM</th>

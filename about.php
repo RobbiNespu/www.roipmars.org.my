@@ -148,56 +148,56 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
-    <div class="row text-center">
-      <div class="col mt-2 mb-2 jumbotron-fluid">
-        <h1 class="h1-responsive">Tentang RoIPMARS</h1>
-        <p class="font-smaller">Malaysian Amateur Radio over Internet Protocol Society</p>
+  <div class='container-fluid'>
+    <div class='row text-center'>
+      <div class='col mt-2 mb-2 jumbotron-fluid'>
+        <h1 class='h1-responsive'>Tentang RoIPMARS</h1>
+        <p class='font-smaller'>Malaysian Amateur Radio over Internet Protocol Society</p>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <h4 class="text-center font-weight-bold">PENGENALAN</h4>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-4'>
+        <h4 class='text-center font-weight-bold'>PENGENALAN</h4>
         <p>Kami adalah Penyelia Perkhidmatan Pelayan TeamSpeak3 yang berasaskan Windows &amp; Android untuk sarana komunikasi alternatif kepada pengendali stesen Amatur dan juga Komersil untuk berkomunikasi antara satu sama lain walau dimana sahaja berada samada menggunakan kaedah RoIP atau VoIP.</p>
-        <h4 class="text-center font-weight-bold">SEJARAH</h4>
+        <h4 class='text-center font-weight-bold'>SEJARAH</h4>
         <p>Pelayan TeamSpeak3 mula di perkenalkan di Malaysia untuk sarana komunikasi Amatur dan Komersil oleh 9W2UZL sekitar 2014 dan mula diterima ramai sekitar 2016 sehingga sekarang &#40;<script>document.write(new Date().getFullYear())</script>&#41;.</p>
         <p>Pada awal pengenalan, komuniti pengendali stesen komunikasi tidak dapat menerima pembaharuan serta menentang segala cubaan bagi menjatuhkan semangat pengguna yang lain agar tidak menerima aplikasi TeamSpeak atau VOIP (secara amnya) sebagai satu alternatif komunikasi yang baru.</p>
         <p>Namun begitu, kami tidak patah semangat dan terus berjuang sehingga dapat menyewa satu pelayan (server) di Singapura lalu ke Perancis, Jerman dan kembali ke Malaysia.</p>
         <p>Kini, sudah ramai pengguna baru yang berminat untuk mengetahui lebih lanjut mengenai aplikasi komunikasi TeamSpeak3.</p>
-        <h4 class="text-center font-weight-bold">PROMOSI</h4>
+        <h4 class='text-center font-weight-bold'>PROMOSI</h4>
         <p>Semua penggemar dan penggiat komunikasi terutamanya aplikasi TeamSpeak3 dialu-alukan untuk turut serta masuk berkomunikasi di Server MARS kerana didalam server TeamSpeak3 telah disediakan channel / bilik untuk berkomunikasi samada Amatur atau Komersil bahkan keluarga dan individu juga dialu-alukan untuk turut serta.</p>
-        <h4 class="text-center font-weight-bold">TUJUAN</h4>
+        <h4 class='text-center font-weight-bold'>TUJUAN</h4>
         <p>Merapatkan hubungan siraturahim antara stesen seluruh dunia disamping menguji peralatan masing-masing serta berkomunikasi antara satu sama lain.</p>
       </div>
-      <div class="col-lg-8">
-        <h4 class="text-center font-weight-bold">PENGENALAN RADIO AMATUR</h4>
-        <p><ol type="1">
-          <li>Radio Amatur ditakrifkan di dalam <a class="text-decoration-none" href="https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998" target="_blank">Akta Komunikasi dan Multimedia 1998 [Akta 588]</a> dan <a class="text-decoration-none" href="https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio" target="_blank">PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA (SPEKTRUM) 2000 [P.U.(A) 128/2000]</a>.</li>
-            <ol type="i">
+      <div class='col-lg-8'>
+        <h4 class='text-center font-weight-bold'>PENGENALAN RADIO AMATUR</h4>
+        <p><ol type='1'>
+          <li>Radio Amatur ditakrifkan di dalam <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998' target='_blank'>Akta Komunikasi dan Multimedia 1998 [Akta 588]</a> dan <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio' target='_blank'>PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA (SPEKTRUM) 2000 [P.U.(A) 128/2000]</a>.</li>
+            <ol type='i'>
               <li>Perkhidmatan Radio Komunikasi (termasuk Bumi [Tanah] &amp; Satelit).</li>
               <li>Di mana kegunaan stesen dengan tujuan latihan sendiri, komunikasi dan penyiasatan teknikal.</li>
               <li>Dijalankan oleh seseorang yang berkelayakan yang mempunyai keinginan mendalami teknik radio diatas usaha peribadi dan tidak mempunyai niat yang lain.</li>
             </ol>
           <li>Radio Amatur juga diiktiraf sebagai salah satu peralatan komunikasi radio yang mana ITU (International Telecommunication Union) memantau dan menyediakan jalur khas untuk perkhidmatan Radio Amatur yang mana jalur tersebut dapat digunakan diseluruh dunia.</li>
           <li>Pengendali Radio Amatur mesti memberikan perkhidmatan bagi membantu kerajaan sesebuah negara ketika berlakunya bencana sekiranya sistem komunikasi yang lain tidak boleh berfungsi atau tiada kemudahan komunikasi yang lain.</li>
-          <li>Salah satu kehebatan yang ada pada Radio Amatur ialah: <span class="badge rounded-pill text-bg-success">&lsquo;perasaan muhibah antarabangsa&rsquo;</span> diantara rakan HAM seluruh dunia dengan ikatan persaudaraan antara manusia tanpa mengira darjat atau kasta.</li>
+          <li>Salah satu kehebatan yang ada pada Radio Amatur ialah: <span class='badge rounded-pill text-bg-success'>&lsquo;perasaan muhibah antarabangsa&rsquo;</span> diantara rakan HAM seluruh dunia dengan ikatan persaudaraan antara manusia tanpa mengira darjat atau kasta.</li>
         </ol></p>
-        <h4 class="text-center font-weight-bold">KOD ETIKA RADIO AMATUR</h4>
-        <table class="table table-borderless text-center">
-          <tbody class="table-success">
+        <h4 class='text-center font-weight-bold'>KOD ETIKA RADIO AMATUR</h4>
+        <table class='table table-borderless text-center'>
+          <tbody class='table-success'>
             <tr><td>Setia</td><td>Progresif</td><td>Ramah Tamah</td></tr>
             <tr><td>Berjiwa Perwira</td><td>Berjiwa Seimbang</td><td>Berjiwa Patriotik</td></tr>
           </tbody>
         </table>
-        <h4 class="text-center font-weight-bold">PERKARA-PERKARA YANG DILARANG DI DALAM STESEN RADIO AMATUR</h4>
-        <p><ol class="text-bg-danger">
+        <h4 class='text-center font-weight-bold'>PERKARA-PERKARA YANG DILARANG DI DALAM STESEN RADIO AMATUR</h4>
+        <p><ol class='text-bg-danger'>
           <li>Stesen Radio Amatur (ARS) dilarang menggunakan Radio Amatur untuk tujuan komersil.</li>
           <li>Menyiarkan sebarang bahan yang telah sedia ada berupa lagu, percakapan, berita atau apa sahaja yang berkaitan (ulang siar).</li>
         </ol></p>
-        <h4 class="text-center font-weight-bold">PERKARA-PERKARA YANG DIBENARKAN BAGI STESEN RADIO AMATUR</h4>
-        <p><ol class="text-bg-success">
+        <h4 class='text-center font-weight-bold'>PERKARA-PERKARA YANG DIBENARKAN BAGI STESEN RADIO AMATUR</h4>
+        <p><ol class='text-bg-success'>
           <li>Komunikasi dengan stesen radio amatur diseluruh dunia dengan menggunakan Radio HF dan satelit.</li>
           <li>Komunikasi di antara bandar-bandar tempatan dengan menggunakan radio pemancar VHF dan UHF.</li>
           <li>Memberi khidmat komunikasi ketika berlakunya bencana sekiranya tidak terdapat alat komunikasi yang lain atau alat komunikasi yang lain tidak berfungsi.</li>
@@ -223,7 +223,7 @@
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
             <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
           </table>
-          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;"><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;"><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;"><i class='fa-regular fa-credit-card'></i></i></a></p>
+          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='fa-regular fa-credit-card'></i></i></a></p>
           <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;<br>&mdash; KEHADIRAN ANDA KEBANGGAAN KAMI &mdash;</p>
         </div>
         <hr class='w-100 clearfix d-md-none'>
@@ -246,7 +246,7 @@
             <a href='https://www.facebook.com/roipmars.org.my'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-facebook-f fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://t.me/marsts3servercyberjaya'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-telegram fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://wa.me/c/60333960874'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-whatsapp fa-stack-1x fa-inverse'></i></span></a>
-            <a href='#' onClick="TSLoginWindow=window.open('https://www.roipmars.org.my/ts3login', 'LogIn TS RoIPMARS', 'width=800,height=600'); return false;"><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
+            <a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
           </div>
         </div>
       </div>

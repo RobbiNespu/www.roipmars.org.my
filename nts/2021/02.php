@@ -98,16 +98,16 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <h1 class="tk-gilbert-color text-center">MARS Group</h1>
-    <h4 class="tk-gilbert text-center font-weight-light">&mdash; roipmars.com &mdash; roipdarulaman.com &mdash; kopdarmobile.net &mdash; plnroip.net &mdash;</h4>
-    <h2 class="tk-nueva-std text-center">Penyeleggaraan Aplikasi</h2>
-    <h3 class="tk-nueva-std-condensed text-end">Ruj: NtsMARS2021/02<br>Tarikh Notis: 10 Ogos 2021 | 1630 MYT</h3>
-    <h2 class="tk-tekton-pro">Per: Penyeleggaraan migrasi tidak berjadual</h2>
+  <div class='container'>
+    <h1 class='tk-gilbert-color text-center'>MARS Group</h1>
+    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash; kopdarmobile.net &mdash; plnroip.net &mdash;</h4>
+    <h2 class='tk-nueva-std text-center'>Penyeleggaraan Aplikasi</h2>
+    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2021/02<br>Tarikh Notis: 10 Ogos 2021 | 1630 MYT</h3>
+    <h2 class='tk-tekton-pro'>Per: Penyeleggaraan migrasi tidak berjadual</h2>
     <p>Tuan / Puan / En. / Cik,</p>
-    <p class="mb-2">Harap Maaf buat semua pengguna MARS Group kerana tidak dapat menggunakan perkhidmatan kami sejak Isnin, 9 Ogos 2021. Pihak kami sedang membuat penyelenggaraan migrasi tidak berjadual terhadap semua 'server' dan 'domain' di bawah kelolaan kami.</p>
+    <p class='mb-2'>Harap Maaf buat semua pengguna MARS Group kerana tidak dapat menggunakan perkhidmatan kami sejak Isnin, 9 Ogos 2021. Pihak kami sedang membuat penyelenggaraan migrasi tidak berjadual terhadap semua 'server' dan 'domain' di bawah kelolaan kami.</p>
     <p>Penyelengaraan tersebut meliputi aplikasi
-    <ul type="circle">
+    <ul type='circle'>
       <li>TeamSpeak</li>
       <li>Conference Server (TS Add-On)</li>
       <li><s>FRN</s></li>
@@ -116,7 +116,7 @@
     </ul>
     </p>
     <p>Semua penyelengaraan ini dijangka selesai pada
-    <table class="table table-sm table-responsive border-dark text-center">
+    <table class='table table-sm table-responsive border-dark text-center'>
       <thead>
         <th>Tarikh</th>
         <th>Waktu</th>
@@ -130,9 +130,9 @@
     </table>
     </p>
     <p>Pihak pengguna tidak perlu membuat apa-apa perubahan ke atas 'software' selepas penyelenggaraan ini selesai.</p>
-    <p class="text-center">Sekiranya anda memerlukan bantuan, sila email kepada: <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a></p>
-    <h6 class="tk-adobe-handwriting-ernie text-end">Server Administrator</h6>
-    <p class="text-end" style="font-size:small">Management of MARS Group</p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
+    <p class='text-end' style='font-size:small'>Management of MARS Group</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>

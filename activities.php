@@ -148,93 +148,93 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
-    <div class="row text-center">
-      <div class="col mt-2 mb-2 jumbotron-fluid">
-        <h1 class="h1-responsive">Galeri RoIPMARS
+  <div class='container-fluid'>
+    <div class='row text-center'>
+      <div class='col mt-2 mb-2 jumbotron-fluid'>
+        <h1 class='h1-responsive'>Galeri RoIPMARS
         </h1>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/042.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/041.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/040.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/039.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/038.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/037.jpg"></div>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/042.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/041.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/040.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/039.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/038.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/037.jpg'></div>
     </div>
-    <div class="row">
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/036.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/035.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/034.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/033.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/032.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/031.jpg"></div>
+    <div class='row'>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/036.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/035.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/034.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/033.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/032.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/031.jpg'></div>
     </div>
-    <div class="row">
-      <div class="col-12 m-0 p-1">
-        <div class="ratio ratio-21x9">
-          <img class="figure-img img-fluid rounded-5 mx-auto d-block" src="./images/krasb22.jpg">
+    <div class='row'>
+      <div class='col-12 m-0 p-1'>
+        <div class='ratio ratio-21x9'>
+          <img class='figure-img img-fluid rounded-5 mx-auto d-block' src='./images/krasb22.jpg'>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg">
-        <div class="card text-bg-light text-center rounded-5 rounded-top">
-          <div class="card-header">
-            <h4 class="card-header-pills">Persidangan bersama MARTS (Malaysian Amateur Radio Transmitters' Society)</h4>
+    <div class='row'>
+      <div class='col-lg'>
+        <div class='card text-bg-light text-center rounded-5 rounded-top'>
+          <div class='card-header'>
+            <h4 class='card-header-pills'>Persidangan bersama MARTS (Malaysian Amateur Radio Transmitters' Society)</h4>
           </div>
-          <div class="card-body">
-            <p class="card-text">Persidangan bersama dengan 9M2PRO (Wakil MARTS) melalui pelayan kami membincangkan mengenai kepentingan persidangan video semasa Perintah Kawalan Pergerakan (PKP).</p>
-            <!--<img src="./images/conf_9m2pro.png" class="card-img shadow-lg rounded-5">-->
-            <div class="ratio ratio-21x9">
-              <iframe class="rounded-5 rounded-top" loading="lazy" src="https://www.youtube.com/embed/iWNZUnVvm-o" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class='card-body'>
+            <p class='card-text'>Persidangan bersama dengan 9M2PRO (Wakil MARTS) melalui pelayan kami membincangkan mengenai kepentingan persidangan video semasa Perintah Kawalan Pergerakan (PKP).</p>
+            <!--<img src='./images/conf_9m2pro.png' class='card-img shadow-lg rounded-5'>-->
+            <div class='ratio ratio-21x9'>
+              <iframe class='rounded-5 rounded-top' loading='lazy' src='https://www.youtube.com/embed/iWNZUnVvm-o' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/030.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/029.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/028.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/027.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/026.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/025.jpg"></div>
+    <div class='row'>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/030.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/029.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/028.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/027.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/026.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/025.jpg'></div>
     </div>
-    <div class="row">
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/024.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/023.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/022.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/021.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/020.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/019.jpg"></div>
+    <div class='row'>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/024.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/023.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/022.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/021.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/020.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/019.jpg'></div>
     </div>
-    <div class="row">
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/018.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/017.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/016.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/015.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/014.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/013.jpg"></div>
+    <div class='row'>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/018.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/017.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/016.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/015.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/014.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/013.jpg'></div>
     </div>
-    <div class="row">
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/012.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/011.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/010.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/009.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/008.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/007.jpg"></div>
+    <div class='row'>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/012.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/011.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/010.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/009.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/008.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/007.jpg'></div>
     </div>
-    <div class="row">
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/006.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/005.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/004.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/003.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/002.jpg"></div>
-      <div class="col-xxl-6 m-0 p-1"><img class="figure-img img-fluid rounded-5 mx-auto d-block" loading="lazy" src="./images/001.jpg"></div>
+    <div class='row'>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/006.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/005.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/004.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/003.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/002.jpg'></div>
+      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/001.jpg'></div>
     </div>
   </div>
   <footer class='footer mt-auto py-1 page-footer font-small bg-light'>
@@ -248,7 +248,7 @@
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
             <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
           </table>
-          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;"><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;"><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;"><i class='fa-regular fa-credit-card'></i></i></a></p>
+          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='fa-regular fa-credit-card'></i></i></a></p>
           <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;<br>&mdash; KEHADIRAN ANDA KEBANGGAAN KAMI &mdash;</p>
         </div>
         <hr class='w-100 clearfix d-md-none'>
@@ -271,7 +271,7 @@
             <a href='https://www.facebook.com/roipmars.org.my'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-facebook-f fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://t.me/marsts3servercyberjaya'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-telegram fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://wa.me/c/60333960874'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-whatsapp fa-stack-1x fa-inverse'></i></span></a>
-            <a href='#' onClick="TSLoginWindow=window.open('https://www.roipmars.org.my/ts3login', 'LogIn TS RoIPMARS', 'width=800,height=600'); return false;"><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
+            <a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
           </div>
         </div>
       </div>

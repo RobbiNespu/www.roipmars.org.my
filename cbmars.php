@@ -148,64 +148,64 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
-    <div class="row text-center">
-      <div class="col mt-2 mb-1 jumbotron-fluid">
-        <h1 class="h1-responsive">Citizen Band RoIPMARS Group</h1>
-        <p class="font-smaller">Pengkalan Data Isyarat Panggilan Jalur Rakyat RoIPMARS Group</p>
+  <div class='container-fluid'>
+    <div class='row text-center'>
+      <div class='col mt-2 mb-1 jumbotron-fluid'>
+        <h1 class='h1-responsive'>Citizen Band RoIPMARS Group</h1>
+        <p class='font-smaller'>Pengkalan Data Isyarat Panggilan Jalur Rakyat RoIPMARS Group</p>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 p-2 text-center" id="regind">
+  <div class='container'>
+    <div class='row'>
+      <div class='col-12 p-2 text-center' id='regind'>
         <h3>Pendaftaran CS Individu CB RoIPMARS Group</h3>
-        <a type="button" class="btn btn-lg btn-block btn-primary rounded-pill" style="font-size:larger" href="https://forms.gle/hxFgHW3S5S3hqGg49" target="_blank">Permohonan Isyarat Panggilan Jalur Rakyat RoIPMARS Individu</a>
-        <p style="font-size:small">Sumbangan RM 10.00 (minimum) digalakkan untuk setiap pendaftaran isyarat panggilan individu.</p>
+        <a type='button' class='btn btn-lg btn-block btn-primary rounded-pill' style='font-size:larger' href='https://forms.gle/hxFgHW3S5S3hqGg49' target='_blank'>Permohonan Isyarat Panggilan Jalur Rakyat RoIPMARS Individu</a>
+        <p style='font-size:small'>Sumbangan RM 10.00 (minimum) digalakkan untuk setiap pendaftaran isyarat panggilan individu.</p>
       </div>
       <!--
-  <hr class="h-100">
-  <div class="col-6 p-2 text-end" id="regate">
+  <hr class='h-100'>
+  <div class='col-6 p-2 text-end' id='regate'>
     <h3>Permohonan CS Gateway CB MARS Group</h3>
-    <p style="font-size:small">Yuran pendaftaran berupa sumbangan RM 10.00 (minimum) diperlukan untuk pendaftaran isyarat panggilan Radio Gateway.</p>
-    <a type="button" class="btn btn-sm btn-secondary disabled" aria-disabled="true" href="https://forms.gle/3oX7RdKMF79oSiBo7" target="_blank">Permohonan Isyarat Panggilan Jalur Rakyat MARS Radio Gateway</a>
+    <p style='font-size:small'>Yuran pendaftaran berupa sumbangan RM 10.00 (minimum) diperlukan untuk pendaftaran isyarat panggilan Radio Gateway.</p>
+    <a type='button' class='btn btn-sm btn-secondary disabled' aria-disabled='true' href='https://forms.gle/3oX7RdKMF79oSiBo7' target='_blank'>Permohonan Isyarat Panggilan Jalur Rakyat MARS Radio Gateway</a>
   </div>
 -->
       <hr>
-      <div class="col-12 text-center mt-1">
-        <table class="table table-sm table-responsive-sm table-bordered">
-          <thead class="th-sm thead-light">
-            <th colspan="2">Network</th>
+      <div class='col-12 text-center mt-1'>
+        <table class='table table-sm table-responsive-sm table-bordered'>
+          <thead class='th-sm thead-light'>
+            <th colspan='2'>Network</th>
             <th>Pengurus</th>
           </thead>
           <tbody>
             <tr>
-              <td>RoIP MARS <span class="badge bg-info">(113MS)</span> <span class="badge bg-info">(113KL)</span> <span class="badge bg-info">(58MS)</span> <span class="badge bg-info">(91MS)</span></td>
+              <td>RoIP MARS <span class='badge bg-info'>(113MS)</span> <span class='badge bg-info'>(113KL)</span> <span class='badge bg-info'>(58MS)</span> <span class='badge bg-info'>(91MS)</span></td>
               <td>roipmars.org.my</td>
-              <td class="align-middle" rowspan="2"><a href="https://wa.me/601110795693">113MSUZL</a></td>
+              <td class='align-middle' rowspan='2'><a href='https://wa.me/601110795693'>113MSUZL</a></td>
             </tr>
-            <tr class="text-decoration-line-through">
-              <td>Gateway / Crosslink <span class="badge bg-info text-decoration-line-through">(113RG)</span> <span class="badge bg-info text-decoration-line-through">(58RG)</span> <span class="badge bg-info text-decoration-line-through">(225RG)</span></td>
+            <tr class='text-decoration-line-through'>
+              <td>Gateway / Crosslink <span class='badge bg-info text-decoration-line-through'>(113RG)</span> <span class='badge bg-info text-decoration-line-through'>(58RG)</span> <span class='badge bg-info text-decoration-line-through'>(225RG)</span></td>
               <td>MARS Group Network</td>
             </tr>
             <tr>
-              <td>Darul Aman <span class="badge bg-info">(113DA)</span></td>
+              <td>Darul Aman <span class='badge bg-info'>(113DA)</span></td>
               <td>roipdarulaman.com</td>
-              <td><a href="https://wa.me/60134009222">113DAOGK</a></td>
+              <td><a href='https://wa.me/60134009222'>113DAOGK</a></td>
             </tr>
             <!--
         <tr>
-          <td>Indonesia <span class="badge bg-info">(91KM)</span></td>
+          <td>Indonesia <span class='badge bg-info'>(91KM)</span></td>
           <td>kopdarmobile.net</td>
-          <td><a href="https://wa.me/6281323111121">91KMEGG</a></td>
+          <td><a href='https://wa.me/6281323111121'>91KMEGG</a></td>
         </tr>
 -->
           </tbody>
         </table>
       </div>
-      <div class="col-12 my-3" id="cblist">
-        <div class="ratio ratio-4x3">
-          <iframe src="list/cbcs"></iframe>
+      <div class='col-12 my-3' id='cblist'>
+        <div class='ratio ratio-4x3'>
+          <iframe src='list/cbcs'></iframe>
         </div>
       </div>
     </div>
@@ -221,7 +221,7 @@
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
             <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
           </table>
-          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;"><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;"><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;"><i class='fa-regular fa-credit-card'></i></i></a></p>
+          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='fa-regular fa-credit-card'></i></i></a></p>
           <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;<br>&mdash; KEHADIRAN ANDA KEBANGGAAN KAMI &mdash;</p>
         </div>
         <hr class='w-100 clearfix d-md-none'>
@@ -244,7 +244,7 @@
             <a href='https://www.facebook.com/roipmars.org.my'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-facebook-f fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://t.me/marsts3servercyberjaya'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-telegram fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://wa.me/c/60333960874'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-whatsapp fa-stack-1x fa-inverse'></i></span></a>
-            <a href='#' onClick="TSLoginWindow=window.open('https://www.roipmars.org.my/ts3login', 'LogIn TS RoIPMARS', 'width=800,height=600'); return false;"><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
+            <a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
           </div>
         </div>
       </div>

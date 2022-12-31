@@ -98,20 +98,20 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <h1 class="tk-gilbert-color text-center">MARS Group</h1>
-    <h4 class="tk-gilbert text-center font-weight-light">&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
-    <h2 class="tk-nueva-std text-center">Notice CB DB Maintainence MARS Group</h2>
-    <h3 class="tk-nueva-std-condensed text-end">Ruj: NtsMARS2020/04<br>Tarikh Notis: 01 Mac 2020 | 0110 MYT</h3>
-    <h2 class="tk-tekton-pro">Per: Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group</h2>
+  <div class='container'>
+    <h1 class='tk-gilbert-color text-center'>MARS Group</h1>
+    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
+    <h2 class='tk-nueva-std text-center'>Notice CB DB Maintainence MARS Group</h2>
+    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2020/04<br>Tarikh Notis: 01 Mac 2020 | 0110 MYT</h3>
+    <h2 class='tk-tekton-pro'>Per: Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group</h2>
     <p>Tuan / Puan / En. / Cik,</p>
-    <p class="mb-2">Berhubung perkara diatas, pihak pengurusan MARS Group akan menutup sementara borang permohonan / pendaftaran CS selama 2 hari bagi tujuan penyelenggaraan sistem.</p>
+    <p class='mb-2'>Berhubung perkara diatas, pihak pengurusan MARS Group akan menutup sementara borang permohonan / pendaftaran CS selama 2 hari bagi tujuan penyelenggaraan sistem.</p>
     <p>Sistem tersebut akan ditutup <strong>pada 1 Mac 2020 jam 0200 MYT sehingga 3 Mac 2020 jam 0600 MYT</strong>. Laman tersebut akan dibuka semula kepada umum pada 3 Mac 2020.</p>
-    <p>Tujuan penyelenggaraan adalah untuk menambah baik sistem carian di laman sesawang (<a href="../../cbmars">CB RoIPMARS</a>).</p>
-    <p class="text-center">Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
-    <p class="text-center">Sekiranya anda memerlukan bantuan, sila email kepada: <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a></p>
-    <h6 class="tk-adobe-handwriting-ernie text-end">Server Administrator</h6>
-    <p class="text-end" style="font-size:small">Management of MARS Group</p>
+    <p>Tujuan penyelenggaraan adalah untuk menambah baik sistem carian di laman sesawang (<a href='../../cbmars'>CB RoIPMARS</a>).</p>
+    <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
+    <p class='text-end' style='font-size:small'>Management of MARS Group</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>

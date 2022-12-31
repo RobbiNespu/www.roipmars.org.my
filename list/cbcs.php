@@ -97,21 +97,21 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container-fluid">
-    <div class="col-12 my-3 text-center lh-1">
+  <div class='container-fluid'>
+    <div class='col-12 my-3 text-center lh-1'>
       <p><?php date_default_timezone_get();
           $file_last_modified = filemtime(__FILE__);
-          echo "Kemaskini pada " . date("D, jS M Y h:iA T", $file_last_modified); ?> : <span class="badge rounded-pill text-bg-success">496</span></p>
-      <p class="fw-bold">Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
-      <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila email maklumat lengkap anda ke <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a></p>
+          echo 'Kemaskini pada ' . date('D, jS M Y h:iA T', $file_last_modified); ?> : <span class='badge rounded-pill text-bg-success'>496</span></p>
+      <p class='fw-bold'>Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
+      <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila email maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
     </div>
-    <div class="col-sm-12 pb-2">
-      <table class="table table-striped text-center text-uppercase" id="cbcslist">
-        <thead class="text-bg-dark sticky-top">
+    <div class='col-sm-12 pb-2'>
+      <table class='table table-striped text-center text-uppercase' id='cbcslist'>
+        <thead class='text-bg-dark sticky-top'>
           <th>Reg. ID</th>
-          <th><input class="form-control form-control-sm text-center rounded-5" type="text" id="csInput" onkeyup="csSrch()" placeholder="Callsign" title="search for a callsign"></th>
-          <th><input class="form-control form-control-sm text-center rounded-5" type="text" id="nameInput" onkeyup="nameSrch()" placeholder="Full Name" title="search for a name"></th>
-          <th><input class="form-control form-control-sm text-center rounded-5" type="text" id="locInput" onkeyup="locSrch()" placeholder="Base Location" title="search for a location"></th>
+          <th><input class='form-control form-control-sm text-center rounded-5' type='text' id='csInput' onkeyup='csSrch()' placeholder='Callsign' title='search for a callsign'></th>
+          <th><input class='form-control form-control-sm text-center rounded-5' type='text' id='nameInput' onkeyup='nameSrch()' placeholder='Full Name' title='search for a name'></th>
+          <th><input class='form-control form-control-sm text-center rounded-5' type='text' id='locInput' onkeyup='locSrch()' placeholder='Base Location' title='search for a location'></th>
           <th>Reg. Date</th>
         </thead>
         <tbody>
@@ -632,7 +632,7 @@
           <tr><td>G06</td><td>113RGHJ</td><td>NOOR MAZRUL MIZAM BIN DERAMAN</td><td>ALAM IMPIAN, SHAH ALAM</td><td>08 Feb 2020</td></tr>
           <tr><td>G05</td><td>113RGYF</td><td>ARIF ZAKWAN BIN RAMAT</td><td>MITC MELAKA</td><td>07 Feb 2020</td></tr>
           <tr><td>G04</td><td>113RGSG</td><td>MUHAMMAD RIDZUAN BIN AHMAD SUSAH</td><td>SERI GADING, BATU PAHAT, JOHOR</td><td>07 Feb 2020</td></tr>
-          <!--<tr class="text-bg-danger"><td>G03</td><td>113RGBS</td><td>MOHAMAD KAMARUL HANAFI</td><td>TERONOH, PERAK</td><td>07 Feb 2020</td></tr>-->
+          <!--<tr class='text-bg-danger'><td>G03</td><td>113RGBS</td><td>MOHAMAD KAMARUL HANAFI</td><td>TERONOH, PERAK</td><td>07 Feb 2020</td></tr>-->
           <tr><td>G02</td><td>225RGLM</td><td>PG ALIMSHAH BIN PG HJ OSMAN</td><td>KG TUNGKU GADONG, BRUNEI</td><td>07 Feb 2020</td></tr>
           <tr><td>G01</td><td>113RG11</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>PUNCAK ALAM, KUALA SELANGOR</td><td>07 Feb 2020</td></tr>
         </tbody>
@@ -640,9 +640,9 @@
     </div>
   </div>
   <!--
-<div class="footer fixed-bottom">
-  <div class="col-sm-12 py-1 bg-dark text-white text-center text-uppercase align-middle fw-light fs-6">
-    ERROR LEGENDS: <code class="text-danger">REGISTRATION VERIFICATION FAILED</code> / <code class="text-danger text-decoration-underline">CALLSIGN PENDING VERIFICATION</code>
+<div class='footer fixed-bottom'>
+  <div class='col-sm-12 py-1 bg-dark text-white text-center text-uppercase align-middle fw-light fs-6'>
+    ERROR LEGENDS: <code class='text-danger'>REGISTRATION VERIFICATION FAILED</code> / <code class='text-danger text-decoration-underline'>CALLSIGN PENDING VERIFICATION</code>
   </div>
 </div>
 -->
@@ -652,26 +652,26 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js' crossorigin='anonymous'></script>
   <script>
     function rowcount() {
-      var table = document.getElementById("cbcslist");
+      var table = document.getElementById('cbcslist');
       var tbrc = table.tBodies[0].rows.length;
-      document.getElementById("trc").innerHTML = '<span class="badge rounded-pill text-bg-success">' + tbrc + '</span>';
+      document.getElementById('trc').innerHTML = '<span class="badge rounded-pill text-bg-success">' + tbrc + '</span>';
     }
   </script>
   <script>
     function nameSrch() {
       var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById("nameInput");
+      input = document.getElementById('nameInput');
       filter = input.value.toUpperCase();
-      table = document.getElementById("cbcslist");
-      tr = table.getElementsByTagName("tr");
+      table = document.getElementById('cbcslist');
+      tr = table.getElementsByTagName('tr');
       for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[2];
+        td = tr[i].getElementsByTagName('td')[2];
         if (td) {
           txtValue = td.textContent || td.innerText;
           if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = "";
+            tr[i].style.display = '';
           } else {
-            tr[i].style.display = "none";
+            tr[i].style.display = 'none';
           }
         }
       }
@@ -680,18 +680,18 @@
   <script>
     function csSrch() {
       var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById("csInput");
+      input = document.getElementById('csInput');
       filter = input.value.toUpperCase();
-      table = document.getElementById("cbcslist");
-      tr = table.getElementsByTagName("tr");
+      table = document.getElementById('cbcslist');
+      tr = table.getElementsByTagName('tr');
       for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[1];
+        td = tr[i].getElementsByTagName('td')[1];
         if (td) {
           txtValue = td.textContent || td.innerText;
           if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = "";
+            tr[i].style.display = '';
           } else {
-            tr[i].style.display = "none";
+            tr[i].style.display = 'none';
           }
         }
       }
@@ -700,18 +700,18 @@
   <script>
     function locSrch() {
       var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById("locInput");
+      input = document.getElementById('locInput');
       filter = input.value.toUpperCase();
-      table = document.getElementById("cbcslist");
-      tr = table.getElementsByTagName("tr");
+      table = document.getElementById('cbcslist');
+      tr = table.getElementsByTagName('tr');
       for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[3];
+        td = tr[i].getElementsByTagName('td')[3];
         if (td) {
           txtValue = td.textContent || td.innerText;
           if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = "";
+            tr[i].style.display = '';
           } else {
-            tr[i].style.display = "none";
+            tr[i].style.display = 'none';
           }
         }
       }

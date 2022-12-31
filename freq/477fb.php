@@ -97,12 +97,12 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 m-0 text-center">
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class='col-lg-12 m-0 text-center'>
         <p>A very short-range simplex radiocommunications service for recreational use</p>
-        <table class="table table-striped table-bordered border-dark table-sm">
-          <thead class="thead-light align-middle">
+        <table class='table table-striped table-bordered border-dark table-sm'>
+          <thead class='thead-light align-middle'>
             <tr>
               <th>Channel</th>
               <th>Frequency (MHz)</th>

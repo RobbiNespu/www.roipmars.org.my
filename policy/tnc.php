@@ -97,9 +97,9 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <div class="row">
-      <h2 class="text-center"><strong>Terma dan Syarat</strong></h2>
+  <div class='container'>
+    <div class='row'>
+      <h2 class='text-center'><strong>Terma dan Syarat</strong></h2>
       <p>Selamat datang ke RoIPMARS!</p>
       <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan Laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], terletak di https://www.roipmars.org.my.</p>
       <p>Dengan mengakses laman sesawang ini, kami menganggap anda menerima dan bersetuju dengan terma dan syarat ini. Jangan terus menggunakan RoIPMARS jika anda tidak bersetuju untuk menerima semua terma dan syarat yang dinyatakan di halaman ini.</p>
@@ -154,14 +154,14 @@
         <li>institusi pendidikan dan persatuan perdagangan.</li>
       </ul>
       <p>Kami akan meluluskan permintaan pautan daripada organisasi ini jika kami memutuskan bahawa:</p>
-      <ol type="a">
+      <ol type='a'>
         <li>pautan itu tidak akan membuatkan kami memandang tidak baik kepada diri kami sendiri atau kepada perniagaan kami yang diiktiraf;</li>
         <li>organisasi tidak mempunyai sebarang rekod negatif dengan kami;</li>
         <li>faedah kepada kami daripada keterlihatan pautan mengimbangi ketiadaan organisasi; dan</li>
         <li>pautan adalah dalam konteks maklumat sumber am.</li>
       </ol>
       <p>Organisasi ini mungkin memaut ke halaman utama kami selagi pautan:</p>
-      <ol type="a">
+      <ol type='a'>
         <li>tidak dalam apa-apa cara mengelirukan;</li>
         <li>tidak secara palsu membayangkan penajaan, pengendorsan atau kelulusan pihak yang menghubungkan dan produk atau perkhidmatannya; dan</li>
         <li>sesuai dalam konteks laman pihak yang memautkan.</li>
@@ -179,7 +179,7 @@
       <h3><strong>Liabiliti Kandungan</strong></h3>
       <p>Kami tidak akan bertanggungjawab untuk sebarang kandungan yang muncul di Laman sesawang anda. Anda bersetuju untuk melindungi dan mempertahankan kami daripada semua tuntutan yang meningkat di Laman sesawang anda. Tiada pautan harus dipaparkan pada mana-mana Laman sesawang yang boleh ditafsirkan sebagai fitnah, lucah atau jenayah, atau yang melanggar, sebaliknya melanggar, atau menyokong pelanggaran atau pelanggaran lain, mana-mana hak pihak ketiga.</p>
       <h3><strong>Privasi Anda</strong></h3>
-      <p>Sila baca <a href="/policy/privacy">Dasar Privasi</a></p>
+      <p>Sila baca <a href='/policy/privacy'>Dasar Privasi</a></p>
       <h3><strong>Pemeliharaan Hak</strong></h3>
       <p>Kami berhak meminta anda mengalih keluar semua pautan atau mana-mana pautan tertentu ke Laman sesawang kami. Anda meluluskan untuk segera mengalih keluar semua pautan ke Laman sesawang kami atas permintaan. Kami juga berhak untuk meminda terma dan syarat ini dan polisi pautan pada bila-bila masa. Dengan memaut secara berterusan ke Laman sesawang kami, anda bersetuju untuk terikat dan mematuhi terma dan syarat pemautan ini.</p>
       <h3><strong>Pengalihan keluar pautan daripada laman sesawang kami</strong></h3>

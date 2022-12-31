@@ -148,196 +148,196 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
-    <div class="row text-center">
-      <div class="col mt-2 mb-1 jumbotron-fluid">
-        <h1 class="h1-responsive">Infomasi Jalur Rakyat</h1>
+  <div class='container-fluid'>
+    <div class='row text-center'>
+      <div class='col mt-2 mb-1 jumbotron-fluid'>
+        <h1 class='h1-responsive'>Infomasi Jalur Rakyat</h1>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <h2 class="text-center">Pengenalan</h2>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-8'>
+        <h2 class='text-center'>Pengenalan</h2>
         <p>CB Radio atau CITIZEN BAND radio sangat popular di Amerika sekitar tahun 70-an. Kemudian penggunaanya merebak ke negara-negara lain seperti Britain, Australia, New Zealand serta lain-lain negara. Kebanyakan negara di seluruh dunia sekarang ini, sudah tidak memerlukan lesen peribadi atau lesen CB Radio untuk menggunakan CB Radio, tidak sebagaimana penggunaan Radio Amatur yang memerlukan AA (Aparatus Assignment) dimana pemiliknya perlu lulus ujian atau peperiksaan Radio Amatur. USA menggugurkan keperluan lesen CB Radio sekitar tahun 1982 diikuti negara Australia termasuk UK pada tahun 2006 serta lain-lain negara eropah.</p>
         <p>Penggunaan CB Radio di Malaysia tidak begitu ketara kerana di Malaysia pada masa lalu sangat-sangat ketat peraturan mengenai pengunaan gelombang radio dan CB radio mulai sah di gunakan di Malaysia bilamana pihak MCMC (Malaysia Communication and Multimedia Comission) atau SKMM (Suruhanjaya Komunikasi dan Mutimedia Malaysia) mengeluarkan notis pengumuman PENGUNTUKAN KELAS pada April 2000 dan di tambah beberapa jalur baru pada 1 APRIL 2010 (Class Assignments no. 1 of 2010). Penggunaan CB radio di Malaysia TIDAK DI KENAKAN APA-APA BAYARAN atau MEMERLUKAN LESEN PERIBADI (AA) seperti RADIO AMATUR selagi penggunaannya mengikut peraturan-peraturan yang di sebutkan didalam PENGUMUMAN PENGUNTUKAN KELAS.</p>
         <p>Jadi disini menunjukkan sekarang ini orang ramai tidak dihalang untuk menggunakan peralatan radio komunikasi tanpa perlu mendapatkan lesen peribadi selagi penggunaannya mengikut terma dan syarat MCMC (SKMM), kerana ianya tidak perlu menduduki apa-apa peperiksaan seperti Radio Amatur atau Ham Radio. Anda boleh menubuhkan kumpulan atau KELAB CB RADIO dikalangan rakan-rakan anda dan memilih senarai jalur mana yang anda ingin gunakan, samada CB HF 27 Mhz atau UHF CB FM 477 Mhz atau PMR 446 Mhz atau kesemua frekuensi yang di benarkan dengan membeli transceiver atau walkie-talkie untuk HF 27Mhz CB dan UHF 446Mhz atau 477Mhz.</p>
         <p>Sesungguhnya hobi di bidang radio ini mempunyai keseronokan tersendiri yang tidak ditemui dalam hobi yang lain, kenapa anda tidak ceburi dan rasai sendiri keseronokan berkomunikasi dengan rakan-rakan yang anda kenali atau baru ingin mengenalinya melalui udara tanpa memikirkan bil yang harus dibayar seperti penggunaan talifon bimbit. Jarak perhubungan purata CB radio adalah di antara 2km hingga 18km dimana dalam masa-masa tertentu boleh mencapai sehingga ribuan km sekiranya anda menggunakan HF CB 27Mhz mode SSB (USB atau LSB).</p>
-        <p class="alert alert-info text-center">CB RADIO ADALAH UNTUK KEGUNAAN SEMUA RAKYAT DI DUNIA<br>TANPA PERLU MEMBAYAR SEBARANG LESEN PERIBADI ATAU MENGAMBIL SEBARANG PEPERIKSAAN.</p>
+        <p class='alert alert-info text-center'>CB RADIO ADALAH UNTUK KEGUNAAN SEMUA RAKYAT DI DUNIA<br>TANPA PERLU MEMBAYAR SEBARANG LESEN PERIBADI ATAU MENGAMBIL SEBARANG PEPERIKSAAN.</p>
         <p>Yang perlu cuma anda membeli sebuah CB Transceiver, power supply dan antenna atau Mobile CB antenna (untuk kegunaan pada kereta, lori, caravan atau bas). Anda boleh membeli CB Transceiver samada melalui e-dagang seperti Shopee, Lazada, Carousell, Mudah.my, Lelong.my, atau kedai yang menjual Radio Transceiver seperti di Jalan Pasar, KL atau Plaza Low Yatt, KL. Tak kira anda siapa, peguam, jurutera, pemandu bas, pemandu lori kontena, pemandu teksi, guru atau sebagainya yang penting anda sukakan hobi perhubungan radio maka cb radio ni sangat berguna untuk anda gunakan semasa dalam perjalanan, semasa berkonvoi, semasa kecemasan atau hanya untuk berkomunikasi.</p>
-        <p class="alert alert-danger text-center">PERINGATAN! Adalah menjadi kesalahan disisi undang-undang dibawah AKTA 588 1998 Suruhanjaya Komunikasi dan Multimedia Malaysia (SKMM), menggunakan sebarang peralatan komunikasi dua hala selain dari CB RADIO atau PMR di dalam kenderaan atau sebagainya tanpa memiliki lesen yang sah.<br>Jadi satu-satunya alat komunikasi dua hala yang tidak memerlukan lesen untuk digunakan adalah CB RADIO atau PRS RADIO.</p>
+        <p class='alert alert-danger text-center'>PERINGATAN! Adalah menjadi kesalahan disisi undang-undang dibawah AKTA 588 1998 Suruhanjaya Komunikasi dan Multimedia Malaysia (SKMM), menggunakan sebarang peralatan komunikasi dua hala selain dari CB RADIO atau PMR di dalam kenderaan atau sebagainya tanpa memiliki lesen yang sah.<br>Jadi satu-satunya alat komunikasi dua hala yang tidak memerlukan lesen untuk digunakan adalah CB RADIO atau PRS RADIO.</p>
       </div>
-      <div class="col-lg-4 text-center">
+      <div class='col-lg-4 text-center'>
         <h2>Jalur</h2>
-        <p class="mb-0">Berdasarkan Akta Komunikasi &amp; Multimedia 1998 (Akta 588), berikut merupakan senarai jalur yang dibenarkan untuk penggunaan Jalur Rakyat di Malaysia</p>
-        <p class="alert alert-success"><a href="member" class="text-decoration-none">Pihak Pengurusan Kumpulan RoIPMARS</a> telah bersetuju untuk menyelaraskan komunikasi radio dua hala <a href="cbmars" class="text-decoration-none">Jalur Rakyat RoIPMARS</a><br><strong style="font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;">HF: 27.305MHz USB</strong>;<strong style="font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;">UHF: 477.625MHz FM</strong></p>
-        <div class="hstack gap-1">
-          <h3 class="text-secondary mb-0">HF - 27MHz Citizen Band</h3>
-          <button type="button" class="btn btn-sm btn-secondary ms-auto" data-bs-toggle="modal" data-bs-target=".bd-27cb-modal-xl">27 CB</button>
-          <button type="button" class="btn btn-sm btn-secondary" data-bs-toggle="modal" data-bs-target=".bd-27cbmy-modal-xl">27 CB MY</button>
+        <p class='mb-0'>Berdasarkan Akta Komunikasi &amp; Multimedia 1998 (Akta 588), berikut merupakan senarai jalur yang dibenarkan untuk penggunaan Jalur Rakyat di Malaysia</p>
+        <p class='alert alert-success'><a href='member' class='text-decoration-none'>Pihak Pengurusan Kumpulan RoIPMARS</a> telah bersetuju untuk menyelaraskan komunikasi radio dua hala <a href='cbmars' class='text-decoration-none'>Jalur Rakyat RoIPMARS</a><br><strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>HF: 27.305MHz USB</strong>;<strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>UHF: 477.625MHz FM</strong></p>
+        <div class='hstack gap-1'>
+          <h3 class='text-secondary mb-0'>HF - 27MHz Citizen Band</h3>
+          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-27cb-modal-xl'>27 CB</button>
+          <button type='button' class='btn btn-sm btn-secondary' data-bs-toggle='modal' data-bs-target='.bd-27cbmy-modal-xl'>27 CB MY</button>
         </div>
-        <div class="modal fade bd-27cb-modal-xl" tabindex="-1" role="dialog" aria-labelledby="27cbModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="27cbModalLabel">27MHz Citizen Band - PRS</h5>
+        <div class='modal fade bd-27cb-modal-xl' tabindex='-1' role='dialog' aria-labelledby='27cbModalLabel' aria-hidden='true'>
+          <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='27cbModalLabel'>27MHz Citizen Band - PRS</h5>
               </div>
-              <div class="modal-body">
-                <div class="ratio ratio-4x3">
-                  <iframe src="./freq/27cb"></iframe>
+              <div class='modal-body'>
+                <div class='ratio ratio-4x3'>
+                  <iframe src='./freq/27cb'></iframe>
                 </div>
               </div>
-              <div class="modal-footer">
-                <a href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf" download><button type="button" class="btn btn-outline-primary">Muat Turun Peruntukan Kelas 2015</button></a>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <div class='modal-footer'>
+                <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf' download><button type='button' class='btn btn-outline-primary'>Muat Turun Peruntukan Kelas 2015</button></a>
+                <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="modal fade bd-27cbmy-modal-xl" tabindex="-1" role="dialog" aria-labelledby="27cbmyModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="27cbmyModalLabel">HF Frequencies [KTKM(S) 353/146/5 Klt. 4; PN(PU2) 601]</h5>
+        <div class='modal fade bd-27cbmy-modal-xl' tabindex='-1' role='dialog' aria-labelledby='27cbmyModalLabel' aria-hidden='true'>
+          <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='27cbmyModalLabel'>HF Frequencies [KTKM(S) 353/146/5 Klt. 4; PN(PU2) 601]</h5>
               </div>
-              <div class="modal-body">
-                <div class="ratio ratio-4x3">
-                  <iframe src="./freq/27cbmy"></iframe>
+              <div class='modal-body'>
+                <div class='ratio ratio-4x3'>
+                  <iframe src='./freq/27cbmy'></iframe>
                 </div>
               </div>
-              <div class="modal-footer">
-                <a href="https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/notification-of-issuance-of-class-assignments-(1)" target="_blank"><button type="button" class="btn btn-outline-primary">Baca Lanjut</button></a>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <div class='modal-footer'>
+                <a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/notification-of-issuance-of-class-assignments-(1)' target='_blank'><button type='button' class='btn btn-outline-primary'>Baca Lanjut</button></a>
+                <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
               </div>
             </div>
           </div>
         </div>
-        <table class="table table-bordered table-responsive table-sm text-wrap" style="font-size:xx-small">
-          <thead class="align-middle">
+        <table class='table table-bordered table-responsive table-sm text-wrap' style='font-size:xx-small'>
+          <thead class='align-middle'>
             <tr><th>Channel</th><th>Frequency (MHz)</th><th>Modulation Type</th><th>Peak power (Watts)</th><th>Bandwidth (kHz)</th><th>Reserved Channel</th></tr>
           </thead>
           <tbody>
             <tr><td>9</td><td>27.065</td><td>AM</td><td>4</td><td>6</td><td>Emergency</td></tr>
             <tr><td>11</td><td>27.085</td><td>AM</td><td>4</td><td>6</td><td>Calling</td></tr>
             <tr><td>16</td><td>27.155</td><td>LSB</td><td>12</td><td>3</td><td>Calling</td></tr>
-            <tr style="background-color: #336699;color: white;font-family: tekton-pro, sans-serif;font-weight: 400;font-style: normal;"><td>30</td><td>27.305</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
+            <tr style='background-color: #336699;color: white;font-family: tekton-pro, sans-serif;font-weight: 400;font-style: normal;'><td>30</td><td>27.305</td><td>USB/LSB</td><td>12</td><td>3</td><td></td></tr>
           </tbody>
         </table>
         <hr>
-        <div class="hstack gap-1">
-          <h3 class="text-secondary mb-0">UHF - 477MHz Citizen Band</h3>
-          <button type="button" class="btn btn-sm btn-secondary ms-auto" data-bs-toggle="modal" data-bs-target=".bd-477cb-modal-xl">477 CB</button>
-          <button type="button" class="btn btn-sm btn-secondary" data-bs-toggle="modal" data-bs-target=".bd-477cbmy-modal-xl">477 CB MY</button>
+        <div class='hstack gap-1'>
+          <h3 class='text-secondary mb-0'>UHF - 477MHz Citizen Band</h3>
+          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477cb-modal-xl'>477 CB</button>
+          <button type='button' class='btn btn-sm btn-secondary' data-bs-toggle='modal' data-bs-target='.bd-477cbmy-modal-xl'>477 CB MY</button>
         </div>
-        <div class="modal fade bd-477cb-modal-xl" tabindex="-1" role="dialog" aria-labelledby="477cbModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="477cbModalLabel">477MHz Citizen Band - PRS</h5>
+        <div class='modal fade bd-477cb-modal-xl' tabindex='-1' role='dialog' aria-labelledby='477cbModalLabel' aria-hidden='true'>
+          <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='477cbModalLabel'>477MHz Citizen Band - PRS</h5>
               </div>
-              <div class="modal-body">
-                <div class="ratio ratio-4x3">
-                  <iframe src="./freq/477cb"></iframe>
+              <div class='modal-body'>
+                <div class='ratio ratio-4x3'>
+                  <iframe src='./freq/477cb'></iframe>
                 </div>
               </div>
-              <div class="modal-footer">
-                <a href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf" download><button type="button" class="btn btn-outline-primary">Muat Turun Peruntukan Kelas 2015</button></a>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <div class='modal-footer'>
+                <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf' download><button type='button' class='btn btn-outline-primary'>Muat Turun Peruntukan Kelas 2015</button></a>
+                <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="modal fade bd-477cbmy-modal-xl" tabindex="-1" role="dialog" aria-labelledby="477cbmyModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="27cbmyModalLabel">UHF Frequencies [KTKM(S) 353/146/5 Klt. 4; PN(PU2) 601]</h5>
+        <div class='modal fade bd-477cbmy-modal-xl' tabindex='-1' role='dialog' aria-labelledby='477cbmyModalLabel' aria-hidden='true'>
+          <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='27cbmyModalLabel'>UHF Frequencies [KTKM(S) 353/146/5 Klt. 4; PN(PU2) 601]</h5>
               </div>
-              <div class="modal-body">
-                <div class="ratio ratio-4x3">
-                  <iframe src="./freq/477cbmy"></iframe>
+              <div class='modal-body'>
+                <div class='ratio ratio-4x3'>
+                  <iframe src='./freq/477cbmy'></iframe>
                 </div>
               </div>
-              <div class="modal-footer">
-                <a href="https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/notification-of-issuance-of-class-assignments-(1)" target="_blank"><button type="button" class="btn btn-outline-primary">Baca Lanjut</button></a>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <div class='modal-footer'>
+                <a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/notification-of-issuance-of-class-assignments-(1)' target='_blank'><button type='button' class='btn btn-outline-primary'>Baca Lanjut</button></a>
+                <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
               </div>
             </div>
           </div>
         </div>
-        <table class="table table-bordered table-responsive table-sm text-wrap" style="font-size:xx-small">
-          <thead class="align-middle">
+        <table class='table table-bordered table-responsive table-sm text-wrap' style='font-size:xx-small'>
+          <thead class='align-middle'>
             <tr><th>Channel</th><th>Frequency (MHz)</th><th>Modulation type</th><th>Peak power (Watts)</th><th>Bandwidth (kHz)</th><th>Reserved Channel</th></tr>
           </thead>
           <tbody>
-            <tr style="background-color: #336699;color: white;font-family: tekton-pro, sans-serif;font-weight: 400;font-style: normal;">
+            <tr style='background-color: #336699;color: white;font-family: tekton-pro, sans-serif;font-weight: 400;font-style: normal;'>
               <td>10</td><td>477.625</td><td>FM/PM</td><td>0.5</td><td>12.5</td><td></td></tr>
           </tbody>
         </table>
         <hr>
-        <div class="hstack">
-          <h3 class="text-secondary">UHF - 477MHz Family Band</h3>
-          <button type="button" class="btn btn-sm btn-secondary ms-auto" data-bs-toggle="modal" data-bs-target=".bd-477fb-modal-xl">477 FB</button>
+        <div class='hstack'>
+          <h3 class='text-secondary'>UHF - 477MHz Family Band</h3>
+          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477fb-modal-xl'>477 FB</button>
         </div>
-        <div class="modal fade bd-477fb-modal-xl" tabindex="-1" role="dialog" aria-labelledby="477fbModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="477fbModalLabel">477MHz Family Band - PRS</h5>
+        <div class='modal fade bd-477fb-modal-xl' tabindex='-1' role='dialog' aria-labelledby='477fbModalLabel' aria-hidden='true'>
+          <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='477fbModalLabel'>477MHz Family Band - PRS</h5>
               </div>
-              <div class="modal-body">
-                <div class="ratio ratio-4x3">
-                  <iframe src="./freq/477fb"></iframe>
+              <div class='modal-body'>
+                <div class='ratio ratio-4x3'>
+                  <iframe src='./freq/477fb'></iframe>
                 </div>
               </div>
-              <div class="modal-footer">
-                <a href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf" download><button type="button" class="btn btn-outline-primary">Muat Turun Peruntukan Kelas 2015</button></a>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <div class='modal-footer'>
+                <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf' download><button type='button' class='btn btn-outline-primary'>Muat Turun Peruntukan Kelas 2015</button></a>
+                <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
               </div>
             </div>
           </div>
         </div>
         <hr>
-        <div class="hstack">
-          <h3 class="text-secondary">UHF - 446MHz PMR</h3>
-          <button type="button" class="btn btn-sm btn-secondary ms-auto" data-bs-toggle="modal" data-bs-target=".bd-446pmr-modal-xl">446 PMR</button>
+        <div class='hstack'>
+          <h3 class='text-secondary'>UHF - 446MHz PMR</h3>
+          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-446pmr-modal-xl'>446 PMR</button>
         </div>
-        <div class="modal fade bd-446pmr-modal-xl" tabindex="-1" role="dialog" aria-labelledby="446pmrModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="446pmrModalLabel">446MHz Personal Mobile Radio</h5>
+        <div class='modal fade bd-446pmr-modal-xl' tabindex='-1' role='dialog' aria-labelledby='446pmrModalLabel' aria-hidden='true'>
+          <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='446pmrModalLabel'>446MHz Personal Mobile Radio</h5>
               </div>
-              <div class="modal-body">
-                <div class="ratio ratio-4x3">
-                  <iframe src="./freq/446pmr"></iframe>
+              <div class='modal-body'>
+                <div class='ratio ratio-4x3'>
+                  <iframe src='./freq/446pmr'></iframe>
                 </div>
               </div>
-              <div class="modal-footer">
-                <a href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf" download><button type="button" class="btn btn-outline-primary">Muat Turun Peruntukan Kelas 2015</button></a>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <div class='modal-footer'>
+                <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf' download><button type='button' class='btn btn-outline-primary'>Muat Turun Peruntukan Kelas 2015</button></a>
+                <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
               </div>
             </div>
           </div>
         </div>
         <hr>
-        <div class="hstack">
-          <h3 class="text-secondary">VHF Amateur Channel</h3>
-          <button type="button" class="btn btn-sm btn-secondary ms-auto" data-bs-toggle="modal" data-bs-target=".bd-vsimplex-modal-xl">V Channel</button>
+        <div class='hstack'>
+          <h3 class='text-secondary'>VHF Amateur Channel</h3>
+          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-vsimplex-modal-xl'>V Channel</button>
         </div>
-        <div class="modal fade bd-vsimplex-modal-xl" tabindex="-1" role="dialog" aria-labelledby="vsimplexModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="vsimplexModalLabel">VHF Amateur Channel</h5>
+        <div class='modal fade bd-vsimplex-modal-xl' tabindex='-1' role='dialog' aria-labelledby='vsimplexModalLabel' aria-hidden='true'>
+          <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='vsimplexModalLabel'>VHF Amateur Channel</h5>
               </div>
-              <div class="modal-body">
-                <div class="ratio ratio-4x3">
-                  <iframe src="./freq/vsimplex"></iframe>
+              <div class='modal-body'>
+                <div class='ratio ratio-4x3'>
+                  <iframe src='./freq/vsimplex'></iframe>
                 </div>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <div class='modal-footer'>
+                <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
               </div>
             </div>
           </div>
@@ -345,101 +345,101 @@
       </div>
     </div>
     <hr>
-    <div class="row">
-      <div class="col-12 text-center">
+    <div class='row'>
+      <div class='col-12 text-center'>
         <h2>Identiti Isyarat Panggilan Jalur Rakyat</h2>
-        <img class="img-fluid rounded-5" src="./images/ipjr.png">
+        <img class='img-fluid rounded-5' src='./images/ipjr.png'>
       </div>
     </div>
     <hr>
-    <div class="row">
-      <div class="col-lg-4 text-center">
+    <div class='row'>
+      <div class='col-lg-4 text-center'>
         <h2>Kod 10</h2>
-        <table class="table table-bordered table-sm">
+        <table class='table table-bordered table-sm'>
           <thead>
             <th>Kod 10</th>
             <th>Maksud</th>
           </thead>
           <tbody>
-            <tr><td>10-1</td><td class="text-start">Penerimaan Tidak Memuaskan</td></tr>
-            <tr><td>10-2</td><td class="text-start">Penerimaan Yang Baik</td></tr>
-            <tr><td>10-3</td><td class="text-start">Berhenti Keudara</td></tr>
-            <tr><td>10-4</td><td class="text-start">Ok / Faham / Betul</td></tr>
-            <tr><td>10-5</td><td class="text-start">Mesej Untuk Disampaikan</td></tr>
-            <tr><td>10-6</td><td class="text-start">Sedang Sibuk Kecuali Ada Trafik</td></tr>
-            <tr><td>10-7</td><td class="text-start">Ada Kerosakan / Tidak Keudara</td></tr>
-            <tr><td>10-8</td><td class="text-start">Boleh Keudara</td></tr>
-            <tr><td>10-9</td><td class="text-start">Sila Ulang Mesej</td></tr>
-            <tr><td>10-10</td><td class="text-start">Penyampaian Mesej Tamat</td></tr>
-            <tr><td>10-11</td><td class="text-start">Bercakap Terlalu Cepat</td></tr>
-            <tr><td>10-12</td><td class="text-start">Mengundurkan Diri/ Ada Tetamu</td></tr>
-            <tr><td>10-13</td><td class="text-start">Keadaan Cuaca / Jalan</td></tr>
-            <tr><td>10-16</td><td class="text-start">Harap Dijemput / Diambil Pada...</td></tr>
-            <tr><td>10-17</td><td class="text-start">Ada Urusan Penting</td></tr>
-            <tr><td>10-18</td><td class="text-start">Ada Sesuatu Untuk Kita?</td></tr>
-            <tr><td>10-19</td><td class="text-start">Bukan Untuk Kita, Dikembalikan Kepada Pengkalan</td></tr>
-            <tr><td>10-20</td><td class="text-start">Lokasi Stesen (Tx)</td></tr>
-            <tr><td>10-21</td><td class="text-start">Hubungi Melalui Telefon</td></tr>
-            <tr><td>10-22</td><td class="text-start">Sila Lapor Terus Ke ...</td></tr>
-            <tr><td>10-23</td><td class="text-start">Standby / Meminta Untuk Menunggu</td></tr>
-            <tr><td>10-24</td><td class="text-start">Selesai Menjalankan Tugas</td></tr>
-            <tr><td>10-25</td><td class="text-start">Dapat Menghubungi ...?</td></tr>
-            <tr><td>10-26</td><td class="text-start">Abaikan Mesej Terakhir</td></tr>
-            <tr><td>10-27</td><td class="text-start">Tukar Saluran ke ...</td></tr>
-            <tr><td>10-28</td><td class="text-start">Identiti Stesen</td></tr>
-            <tr><td>10-29</td><td class="text-start">Masa Berhubung Tamat</td></tr>
-            <tr><td>10-30</td><td class="text-start">Tidak Patuh Peraturan</td></tr>
-            <tr><td>10-32</td><td class="text-start">Laporan Radas</td></tr>
-            <tr><td>10-33</td><td class="text-start">Keadaan Darurat/Bencana Dikawasan Stesen</td></tr>
-            <tr><td>10-34</td><td class="text-start">Ada Kerosakan/Perlu Bantuan</td></tr>
-            <tr><td>10-35</td><td class="text-start">Informasi Rahsia</td></tr>
-            <tr><td>10-36</td><td class="text-start">Jam Berapa Sekarang?</td></tr>
-            <tr><td>10-39</td><td class="text-start">Pesanan Telah Disampaikan</td></tr>
-            <tr><td>10-41</td><td class="text-start">Sila Tukar Saluran Ke ...</td></tr>
-            <tr><td>10-42</td><td class="text-start">Ada Kemalangan di ...</td></tr>
-            <tr><td>10-43</td><td class="text-start">Kesesakan Jalan Raya di ...</td></tr>
-            <tr><td>10-44</td><td class="text-start">Ada Pesanan Untuk Anda</td></tr>
-            <tr><td>10-45</td><td class="text-start">Yang Berhampiran Sila Lapor</td></tr>
-            <tr><td>10-50</td><td class="text-start">&#39;Break!&#39; Sila Kosongkan Saluran</td></tr>
-            <tr><td>10-51</td><td class="text-start">Salam Hormat</td></tr>
-            <tr><td>10-55</td><td class="text-start">Apa Khabar</td></tr>
-            <tr><td>10-60</td><td class="text-start">Ada Informasi Lanjut</td></tr>
-            <tr><td>10-62</td><td class="text-start">Tidak Faham / Sila Guna Telefon</td></tr>
-            <tr><td>10-65</td><td class="text-start">Menunggu Mesej Selanjutnya</td></tr>
-            <tr><td>10-67</td><td class="text-start">Semua Unit Sedia/Patuh</td></tr>
-            <tr><td>10-70</td><td class="text-start">Ada Kebakaran di ...</td></tr>
-            <tr><td>10-71</td><td class="text-start">Radas Yang Digunakan</td></tr>
-            <tr><td>10-73</td><td class="text-start">Kamera Perangkap Kelajuan di ...</td></tr>
-            <tr><td>10-75</td><td class="text-start">Penyebab Gangguan</td></tr>
-            <tr><td>10-76</td><td class="text-start">Dalam Perjalanan Ke ...</td></tr>
-            <tr><td>10-77</td><td class="text-start">Tidak Dapat Menghubungi</td></tr>
-            <tr><td>10-84</td><td class="text-start">No. Telefon Saya ...</td></tr>
-            <tr><td>10-85</td><td class="text-start">Alamat saya ...</td></tr>
-            <tr><td>10-91</td><td class="text-start">Bercakap Dekat Dengan Mikrofon</td></tr>
-            <tr><td>10-92</td><td class="text-start">Radas Anda Perlu Dilaras</td></tr>
-            <tr><td>10-93</td><td class="text-start">Semak jalur Saya Di Saluran Ini</td></tr>
-            <tr><td>10-94</td><td class="text-start">Cuba Bercakap Lama Sedikit</td></tr>
-            <tr><td>10-95</td><td class="text-start">'Tx' Selama 5 Saat</td></tr>
-            <tr><td>10-99</td><td class="text-start">Tugas Selesai Dan Semua Selamat</td></tr>
-            <tr><td>10-37</td><td class="text-start">Perlu Kenderaan Tunda di ...</td></tr>
-            <tr><td>10-46</td><td class="text-start">Perlu Mekanik di ...</td></tr>
-            <tr><td>10-38</td><td class="text-start">Perlu Ambulan di ...</td></tr>
-            <tr><td>10-40</td><td class="text-start">Perlu Petugas Kesihatan di ...</td></tr>
-            <tr><td>10-100</td><td class="text-start">Perlu Ke Tandas</td></tr>
-            <tr><td>10-200</td><td class="text-start">Perlu Bantuan Polis di ...</td></tr>
-            <tr><td>10-300</td><td class="text-start">Perlu Bantuan Bomba di ...</td></tr>
-            <tr><td>10-400</td><td class="text-start">Perlu Bantuan Penguatkuasa di ...</td></tr>
-            <tr><td>10-500</td><td class="text-start">Perlu Bantuan Polis Tatatertib di ...</td></tr>
-            <tr><td>10-600</td><td class="text-start">Perlu Bantuan Polis Tentera di ...</td></tr>
-            <tr><td>10-700</td><td class="text-start">Perlu Bantuan Pasukan Penyelamat di ...</td></tr>
-            <tr><td>10-800</td><td class="text-start">Perlu Bantuan Petugas Elektrik di ...</td></tr>
-            <tr><td>10-900</td><td class="text-start">Perlu Bantuan Umum di ...</td></tr>
+            <tr><td>10-1</td><td class='text-start'>Penerimaan Tidak Memuaskan</td></tr>
+            <tr><td>10-2</td><td class='text-start'>Penerimaan Yang Baik</td></tr>
+            <tr><td>10-3</td><td class='text-start'>Berhenti Keudara</td></tr>
+            <tr><td>10-4</td><td class='text-start'>Ok / Faham / Betul</td></tr>
+            <tr><td>10-5</td><td class='text-start'>Mesej Untuk Disampaikan</td></tr>
+            <tr><td>10-6</td><td class='text-start'>Sedang Sibuk Kecuali Ada Trafik</td></tr>
+            <tr><td>10-7</td><td class='text-start'>Ada Kerosakan / Tidak Keudara</td></tr>
+            <tr><td>10-8</td><td class='text-start'>Boleh Keudara</td></tr>
+            <tr><td>10-9</td><td class='text-start'>Sila Ulang Mesej</td></tr>
+            <tr><td>10-10</td><td class='text-start'>Penyampaian Mesej Tamat</td></tr>
+            <tr><td>10-11</td><td class='text-start'>Bercakap Terlalu Cepat</td></tr>
+            <tr><td>10-12</td><td class='text-start'>Mengundurkan Diri/ Ada Tetamu</td></tr>
+            <tr><td>10-13</td><td class='text-start'>Keadaan Cuaca / Jalan</td></tr>
+            <tr><td>10-16</td><td class='text-start'>Harap Dijemput / Diambil Pada...</td></tr>
+            <tr><td>10-17</td><td class='text-start'>Ada Urusan Penting</td></tr>
+            <tr><td>10-18</td><td class='text-start'>Ada Sesuatu Untuk Kita?</td></tr>
+            <tr><td>10-19</td><td class='text-start'>Bukan Untuk Kita, Dikembalikan Kepada Pengkalan</td></tr>
+            <tr><td>10-20</td><td class='text-start'>Lokasi Stesen (Tx)</td></tr>
+            <tr><td>10-21</td><td class='text-start'>Hubungi Melalui Telefon</td></tr>
+            <tr><td>10-22</td><td class='text-start'>Sila Lapor Terus Ke ...</td></tr>
+            <tr><td>10-23</td><td class='text-start'>Standby / Meminta Untuk Menunggu</td></tr>
+            <tr><td>10-24</td><td class='text-start'>Selesai Menjalankan Tugas</td></tr>
+            <tr><td>10-25</td><td class='text-start'>Dapat Menghubungi ...?</td></tr>
+            <tr><td>10-26</td><td class='text-start'>Abaikan Mesej Terakhir</td></tr>
+            <tr><td>10-27</td><td class='text-start'>Tukar Saluran ke ...</td></tr>
+            <tr><td>10-28</td><td class='text-start'>Identiti Stesen</td></tr>
+            <tr><td>10-29</td><td class='text-start'>Masa Berhubung Tamat</td></tr>
+            <tr><td>10-30</td><td class='text-start'>Tidak Patuh Peraturan</td></tr>
+            <tr><td>10-32</td><td class='text-start'>Laporan Radas</td></tr>
+            <tr><td>10-33</td><td class='text-start'>Keadaan Darurat/Bencana Dikawasan Stesen</td></tr>
+            <tr><td>10-34</td><td class='text-start'>Ada Kerosakan/Perlu Bantuan</td></tr>
+            <tr><td>10-35</td><td class='text-start'>Informasi Rahsia</td></tr>
+            <tr><td>10-36</td><td class='text-start'>Jam Berapa Sekarang?</td></tr>
+            <tr><td>10-39</td><td class='text-start'>Pesanan Telah Disampaikan</td></tr>
+            <tr><td>10-41</td><td class='text-start'>Sila Tukar Saluran Ke ...</td></tr>
+            <tr><td>10-42</td><td class='text-start'>Ada Kemalangan di ...</td></tr>
+            <tr><td>10-43</td><td class='text-start'>Kesesakan Jalan Raya di ...</td></tr>
+            <tr><td>10-44</td><td class='text-start'>Ada Pesanan Untuk Anda</td></tr>
+            <tr><td>10-45</td><td class='text-start'>Yang Berhampiran Sila Lapor</td></tr>
+            <tr><td>10-50</td><td class='text-start'>&#39;Break!&#39; Sila Kosongkan Saluran</td></tr>
+            <tr><td>10-51</td><td class='text-start'>Salam Hormat</td></tr>
+            <tr><td>10-55</td><td class='text-start'>Apa Khabar</td></tr>
+            <tr><td>10-60</td><td class='text-start'>Ada Informasi Lanjut</td></tr>
+            <tr><td>10-62</td><td class='text-start'>Tidak Faham / Sila Guna Telefon</td></tr>
+            <tr><td>10-65</td><td class='text-start'>Menunggu Mesej Selanjutnya</td></tr>
+            <tr><td>10-67</td><td class='text-start'>Semua Unit Sedia/Patuh</td></tr>
+            <tr><td>10-70</td><td class='text-start'>Ada Kebakaran di ...</td></tr>
+            <tr><td>10-71</td><td class='text-start'>Radas Yang Digunakan</td></tr>
+            <tr><td>10-73</td><td class='text-start'>Kamera Perangkap Kelajuan di ...</td></tr>
+            <tr><td>10-75</td><td class='text-start'>Penyebab Gangguan</td></tr>
+            <tr><td>10-76</td><td class='text-start'>Dalam Perjalanan Ke ...</td></tr>
+            <tr><td>10-77</td><td class='text-start'>Tidak Dapat Menghubungi</td></tr>
+            <tr><td>10-84</td><td class='text-start'>No. Telefon Saya ...</td></tr>
+            <tr><td>10-85</td><td class='text-start'>Alamat saya ...</td></tr>
+            <tr><td>10-91</td><td class='text-start'>Bercakap Dekat Dengan Mikrofon</td></tr>
+            <tr><td>10-92</td><td class='text-start'>Radas Anda Perlu Dilaras</td></tr>
+            <tr><td>10-93</td><td class='text-start'>Semak jalur Saya Di Saluran Ini</td></tr>
+            <tr><td>10-94</td><td class='text-start'>Cuba Bercakap Lama Sedikit</td></tr>
+            <tr><td>10-95</td><td class='text-start'>'Tx' Selama 5 Saat</td></tr>
+            <tr><td>10-99</td><td class='text-start'>Tugas Selesai Dan Semua Selamat</td></tr>
+            <tr><td>10-37</td><td class='text-start'>Perlu Kenderaan Tunda di ...</td></tr>
+            <tr><td>10-46</td><td class='text-start'>Perlu Mekanik di ...</td></tr>
+            <tr><td>10-38</td><td class='text-start'>Perlu Ambulan di ...</td></tr>
+            <tr><td>10-40</td><td class='text-start'>Perlu Petugas Kesihatan di ...</td></tr>
+            <tr><td>10-100</td><td class='text-start'>Perlu Ke Tandas</td></tr>
+            <tr><td>10-200</td><td class='text-start'>Perlu Bantuan Polis di ...</td></tr>
+            <tr><td>10-300</td><td class='text-start'>Perlu Bantuan Bomba di ...</td></tr>
+            <tr><td>10-400</td><td class='text-start'>Perlu Bantuan Penguatkuasa di ...</td></tr>
+            <tr><td>10-500</td><td class='text-start'>Perlu Bantuan Polis Tatatertib di ...</td></tr>
+            <tr><td>10-600</td><td class='text-start'>Perlu Bantuan Polis Tentera di ...</td></tr>
+            <tr><td>10-700</td><td class='text-start'>Perlu Bantuan Pasukan Penyelamat di ...</td></tr>
+            <tr><td>10-800</td><td class='text-start'>Perlu Bantuan Petugas Elektrik di ...</td></tr>
+            <tr><td>10-900</td><td class='text-start'>Perlu Bantuan Umum di ...</td></tr>
           </tbody>
         </table>
       </div>
-      <div class="col text-center">
+      <div class='col text-center'>
         <h2>Tanda Panggilan Jalur Rakyat Negara Asal</h2>
-        <table class="table table-bordered table-sm align-middle">
+        <table class='table table-bordered table-sm align-middle'>
           <thead>
             <tr><th>KOD</th><th>KAWASAN</th><th>KOD</th><th>KAWASAN</th></tr>
           </thead>
@@ -616,23 +616,23 @@
       </div>
     </div>
     <hr>
-    <div class="row">
-      <div class="col">
-        <h3 class="text-capitalize text-center">Soalan Lazim</h3>
-        <div class="accordion mb-3" id="accordionFAQ" role="tablist" aria-multiselectable="true">
-          <div class="card">
-            <div class="card-header" role="tab" id="headingOne">
-              <h5 class="mb-0">
-                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+    <div class='row'>
+      <div class='col'>
+        <h3 class='text-capitalize text-center'>Soalan Lazim</h3>
+        <div class='accordion mb-3' id='accordionFAQ' role='tablist' aria-multiselectable='true'>
+          <div class='card'>
+            <div class='card-header' role='tab' id='headingOne'>
+              <h5 class='mb-0'>
+                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseOne' aria-expanded='false' aria-controls='collapseOne'>
                   <span>1. </span>Adakah saya perlu dapatkan LESEN dari MCMC (SKMM) sekiranya saya ingin menggunakan CB RADIO?</a>
               </h5>
             </div>
-            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-              <div class="card-body">
+            <div id='collapseOne' class='collapse' role='tabpanel' aria-labelledby='headingOne'>
+              <div class='card-body'>
                 <p>Anda tidak perlu memohon sebarang lesen AA seperti RADIO AMATUR atau Radio landmobile yang lain samada bentuk walkie-talkie atau handie atau bentuk mobil radio asalkan ianya mengunakan frequency CB atau PRS frequency maka anda tidak perlu mendapatkan apa-apa lesen AA kerana anda dibenarkan menggunakanya tanpa lesen.</p>
                 <h6>Frequency bands</h6>
                 <p>A personal radio service device shall only utilize any of the following frequency bands assigned for this class assignment, amongst other uses, on a shared non-exclusive basis:</p>
-                <ol type="a">
+                <ol type='a'>
                   <li>26.965000 MHz to 27.405000 MHz</li>
                   <li>446.006250 MHz to 446.093750 MHz</li>
                   <li>446.103125 MHz to 446.196875 MHz</li>
@@ -641,27 +641,27 @@
                 </ol>
                 <h6>Class assignment</h6>
                 <p>This class assignment confers rights on any person to operate a personal radio service device subject to:</p>
-                <ol type="a">
+                <ol type='a'>
                   <li>the conditions as specified in paragraph 4</li>
                   <li>the device operating within the frequency bands as specified in the second column of Tables B, C, D, E and F.</li>
                 </ol>
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
-              <h5 class="mb-0">
-                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <div class='card'>
+            <div class='card-header' role='tab' id='headingTwo'>
+              <h5 class='mb-0'>
+                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo'>
                   <span>2. </span>Adakah saya perlu berdaftar dengan mana-mana kelab atau dengan SKMM untuk mendapatkan Isyarat Panggilan?</a>
               </h5>
             </div>
-            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-              <div class="card-body">
+            <div id='collapseTwo' class='collapse' role='tabpanel' aria-labelledby='headingTwo'>
+              <div class='card-body'>
                 <p>Anda tidak perlu memohon, mendaftar atau membayar apa-apa bayaran untuk isyarat panggilan kerana pengguna CB RADIO tidak memerlukan sebarang isyarat panggilan yang khusus seperti Radio Amatur. Anda boleh cipta sendiri isyarat panggilan yang di perlukan sebagai pengenalan kepada rakan-rakan kumpulan anda atau ahli keluarga anda bagi memudahkan perhubungan melalui radio 2 hala atau CB RADIO.</p>
-                <p class="alert alert-danger">Namun begitu, permohonan diperlukan sekiranya kelab tersebut memerlukannya bagi mengelakkan pertindihan.</p>
+                <p class='alert alert-danger'>Namun begitu, permohonan diperlukan sekiranya kelab tersebut memerlukannya bagi mengelakkan pertindihan.</p>
                 <p>Antara sebutan Phonetic yang sering di gunakan oleh operator AMATUR RADIO adalah seperti berikut</p>
-                <table class="table table-bordered table-sm text-center">
-                  <thead class="thead-light">
+                <table class='table table-bordered table-sm text-center'>
+                  <thead class='thead-light'>
                     <th>Symbol</th><th>ITU Phonetic</th><th>Malay Phonetic</th>
                   </thead>
                   <tbody>
@@ -708,67 +708,67 @@
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingThree">
-              <h5 class="mb-0">
-                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <div class='card'>
+            <div class='card-header' role='tab' id='headingThree'>
+              <h5 class='mb-0'>
+                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseThree' aria-expanded='false' aria-controls='collapseThree'>
                   <span>3. </span>Dimana saya boleh membeli peralatan CB RADIO?</a>
               </h5>
             </div>
-            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-              <div class="card-body">
+            <div id='collapseThree' class='collapse' role='tabpanel' aria-labelledby='headingThree'>
+              <div class='card-body'>
                 <p>Anda boleh membeli melalui e-dagang di Malaysia, melalui rakan-rakan CB atau kedai Radio Amateur samada di Jalan Pasar, Plaza Low Yatt atau Plaza Digital Mall. Yang penting ianya adalah CB RADIO yang jalurnya telah diaturkan seperti diatas. Kami mencadangkan anda tidak membeli melalui e-dagang luar negara kerana nanti anda akan kerugian masa, wang dan sebagainya di atas kerenah birokrasi yang bermacam-macam samada dari pihak kastam ataupun pihak SIRIM mengenai peralatan radio.</p>
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingFour">
-              <h5 class="mb-0">
-                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <div class='card'>
+            <div class='card-header' role='tab' id='headingFour'>
+              <h5 class='mb-0'>
+                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseFour' aria-expanded='false' aria-controls='collapseFour'>
                   <span>4. </span>Berapa harga sebuah CB RADIO jenis Handy atau jenis mobile?</a>
               </h5>
             </div>
-            <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-              <div class="card-body">
+            <div id='collapseFour' class='collapse' role='tabpanel' aria-labelledby='headingFour'>
+              <div class='card-body'>
                 <p>Harga purata kebanyakan CB Radio adalah mengikut jenis samada Handy atau mobile dan multimode atau hanya mode AM dan FM sahaja. Untuk jenis Handy mode AM dan FM purata harganya adalah sekitar RM 50.00 ke RM 400.00 manakala untuk jenis mobile mode AM dan FM harganya sekitar RM 200.00 ke RM 900.00. Untuk CB RADIO jenis mobile multimode agak mahal sedikit kerana kebanyakan jenis multimode mempunyai berbagai kelebihan seperti frequency counter, echo, scanning dan sebagainya seperti peralatan HAM RADIO. Harganya boleh mencapai sehingga RM 2,500.00. Jadi pada pendapat saya tujuan radio 2 hala adalah untuk perhubungan maka basic CB Radio pun sudah memadai tidak perlu membeli peralatan yang canggih dengan berbagai fungsi sedangkan kita tidak menggunakan fungsi tersebut semasa berbual atau berhubung dengan rakan-rakan CB.</p>
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingFive">
-              <h5 class="mb-0">
-                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          <div class='card'>
+            <div class='card-header' role='tab' id='headingFive'>
+              <h5 class='mb-0'>
+                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseFive' aria-expanded='false' aria-controls='collapseFive'>
                   <span>5. </span>Ada ke pengguna CB RADIO di Malaysia kerana bila saya monitor macam tak ada orang guna sebagaimana RADIO AMATUR (VHF)?</a>
               </h5>
             </div>
-            <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
-              <div class="card-body">
+            <div id='collapseFive' class='collapse' role='tabpanel' aria-labelledby='headingFive'>
+              <div class='card-body'>
                 <p>CB RADIO masih baru di Malaysia , maka tidak ramai yang tahu mengenainya kerana tidak ada promosi di buat untuk penggemar CB Radio. Orang ramai lebih suka mempromosikan Radio Amatur kerana merasakan CB RADIO ni untuk golongan yang kurang kemampuan dan hanya menggunakan radio 2 hala sebagai hobi suka-suka sahaja tidak seperti Radio Amatur ada kelebihan seperti kena ambil peperiksaan, (maknanya kena belajar atau join kelas RAE), kena bayar lesen AA, ada Callsign yang diberikan oleh pihak SKMM dan sebagainya. Namun bagi saya kalau ada hobi menggunakan radio 2 hala secara murah untuk permulaan kenapa kita tidak gunakan yang penting boleh guna untuk berhubung di antara satu sama lain sama juga dengan fungsi Radio Amatur. Namun demikian saya yakin nanti ada kelab atau group yang akan mempromosi atau memperkenalkan CB RADIO kepada orang ramai sebagai alat perhubungan alternatif atau pilihan kedua selain Handfone atau Ham Radio. CB RADIO juga bagus untuk kegunaan pemandu lori kontenna yang berkonvoi semasa perjalanan malam, pemandu bas ekspres untuk mengelak dari mengantuk atau boleh di buat sebagai peralatan pemberi amaran awal sekiranya rakan pemandu melihat atau ternampak sesuatu yang mencurigakan di jalan raya. Semasa event sukan, camping, atau kenapa tidak anda memulakan penggunaan CB RADIO sebagai alat perhubungan anda dan keluarga anda semasa konvoi dan sebagainya selagi pengunaanya selari dengan 'rules' dan 'regulations' yang tertera di dalam 'peruntukan kelas' (Class Assignments)</p>
-                <div class="alert alert-secondary" role="alert">
-                  <h4 class="alert-heading text-center">COMMUNICATIONS AND MULTIMEDIA ACT 1998</h4>
-                  <h5 class="text-center">CLASS ASSIGNMENTS NO. 2 OF 2015</h5>
+                <div class='alert alert-secondary' role='alert'>
+                  <h4 class='alert-heading text-center'>COMMUNICATIONS AND MULTIMEDIA ACT 1998</h4>
+                  <h5 class='text-center'>CLASS ASSIGNMENTS NO. 2 OF 2015</h5>
                   <p>IN exercise of the powers conferred by section 169 of the Communications and Multimedia Act 1998 [Act 588], the Commission issues class assignments which confer rights on any person to use the frequency bands for the following devices:</p>
                   <p>(e) personal radio service device as specified in the Fifth Schedule;</p>
-                  <a href="https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf" target="_blank">Baca Lanjut...</a>
+                  <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf' target='_blank'>Baca Lanjut...</a>
                   <hr>
-                  <h4 class="alert-heading text-center">FIFTH SCHEDULE</h4>
-                  <h5 class="text-center">Class Assignment for Citizen Band Communications Device</h5>
+                  <h4 class='alert-heading text-center'>FIFTH SCHEDULE</h4>
+                  <h5 class='text-center'>Class Assignment for Citizen Band Communications Device</h5>
                   <p>1. Definition</p>
                   <p>(1) “citizen band communications device” means a two way radiocommunications device</p>
-                  <a href="https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/notification-of-issuance-of-class-assignments-(1)" target="_blank">Baca Lanjut...</a>
+                  <a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/notification-of-issuance-of-class-assignments-(1)' target='_blank'>Baca Lanjut...</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingSix">
-              <h5 class="mb-0">
-                <a class="collapsed text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordionFAQ" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          <div class='card'>
+            <div class='card-header' role='tab' id='headingSix'>
+              <h5 class='mb-0'>
+                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseSix' aria-expanded='false' aria-controls='collapseSix'>
                   <span>6. </span>Berapa jarak perhubungan yang boleh di capai menggunakan CB RADIO atau PRS RADIO?</a>
               </h5>
             </div>
-            <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
-              <div class="card-body">
+            <div id='collapseSix' class='collapse' role='tabpanel' aria-labelledby='headingSix'>
+              <div class='card-body'>
                 <p>Jarak purata CB RADIO 27MHz adalah sekitar 5 ke 18 KM manakala untuk CB RADIO 477MHz adalah sekitar 5 ke 20 KM bergantung kepada bentuk permukaan bumi dan halangan seperti bangunan tinggi hutan yang tebal atau keadaan cuaca dan sebagainya. Namun demikian sekiranya keadaan propagasi membuka dengan menggunakan CB RADIO 27Mhz USB anda akan terkejut bila station dari Indonesia atau Australia menjawab panggilan anda, bayangkan perasaan anda semasa itu. Oleh itu CB Radio 27MHz SSB juga boleh mencapai ribuan kilometer sekiranya propagasi cuaca membuka atau sebagainya.</p>
               </div>
             </div>
@@ -788,7 +788,7 @@
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
             <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
           </table>
-          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;"><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;"><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;"><i class='fa-regular fa-credit-card'></i></i></a></p>
+          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='fa-regular fa-credit-card'></i></i></a></p>
           <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;<br>&mdash; KEHADIRAN ANDA KEBANGGAAN KAMI &mdash;</p>
         </div>
         <hr class='w-100 clearfix d-md-none'>
@@ -811,7 +811,7 @@
             <a href='https://www.facebook.com/roipmars.org.my'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-facebook-f fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://t.me/marsts3servercyberjaya'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-telegram fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://wa.me/c/60333960874'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-whatsapp fa-stack-1x fa-inverse'></i></span></a>
-            <a href='#' onClick="TSLoginWindow=window.open('https://www.roipmars.org.my/ts3login', 'LogIn TS RoIPMARS', 'width=800,height=600'); return false;"><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
+            <a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
           </div>
         </div>
       </div>

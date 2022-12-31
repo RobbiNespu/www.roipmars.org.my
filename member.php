@@ -154,228 +154,228 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
-    <div class="row text-center">
-      <div class="col mt-2 mb-2 jumbotron-fluid">
-        <h1 class="h1-responsive">Ahli Kumpulan RoIPMARS</h1>
-        <p class="font-small"><span><?php date_default_timezone_get(); $file_last_modified = filemtime("list/members.php"); echo "Kemaskini pada: " . date("D, jS M Y h:iA T", $file_last_modified); ?></span></p>
+  <div class='container-fluid'>
+    <div class='row text-center'>
+      <div class='col mt-2 mb-2 jumbotron-fluid'>
+        <h1 class='h1-responsive'>Ahli Kumpulan RoIPMARS</h1>
+        <p class='font-small'><span><?php date_default_timezone_get(); $file_last_modified = filemtime('list/members.php'); echo 'Kemaskini pada: ' . date('D, jS M Y h:iA T', $file_last_modified); ?></span></p>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <table class="table table-sm text-center">
+  <div class='container'>
+    <div class='row'>
+      <table class='table table-sm text-center'>
         <tbody>
           <tr>
-            <td class="font-weight-bold h3">PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; <sup>PPM-006-10-01062020</sup></td>
+            <td class='font-weight-bold h3'>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; <sup>PPM-006-10-01062020</sup></td>
           </tr>
           <tr>
             <td>
-              <div class="hstack gap-1">
-                <a type="button" class="btn btn-sm btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#roscertModalLong">Sijil Kelulusan Pertubuhan</a>
-                <a type="button" class="btn btn-sm btn-info rounded-pill mx-auto" href="https://ftp.roipmars.org.my/members/mars-perlembagaan.pdf">Perlembagaan Pertubuhan</a>
-                <a type="button" class="btn btn-sm btn-success rounded-pill" data-bs-toggle="modal" data-bs-target="#rosappletModalLong">Surat Kelulusan Pertubuhan</a>
+              <div class='hstack gap-1'>
+                <a type='button' class='btn btn-sm btn-primary rounded-pill' data-bs-toggle='modal' data-bs-target='#roscertModalLong'>Sijil Kelulusan Pertubuhan</a>
+                <a type='button' class='btn btn-sm btn-info rounded-pill mx-auto' href='https://ftp.roipmars.org.my/members/mars-perlembagaan.pdf'>Perlembagaan Pertubuhan</a>
+                <a type='button' class='btn btn-sm btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
               </div>
               <br>
-              <div class="vstack gap-1">
-                <a type="button" class="btn btn-primary btn-block rounded-pill" href="https://bit.ly/daftarmars" target="_blank">Borang Permohonan Keahlian &#91;<i class="fa-brands fa-google"></i>&#93;</a>
-                <a type="button" class="btn btn-secondary btn-block rounded-pill" href="https://bit.ly/borangdaftarroipmars*" target="_blank">Borang Permohonan Keahlian &#91;<i class="fa-solid fa-signature"></i>&#93;</a>
-                <a type="button" class="btn btn-success btn-block rounded-pill" href="https://ftp.roipmars.org.my/members/pprk_manualregform.pdf" download>Borang Permohonan Keahlian &#91;<i class="fa-solid fa-file-pdf"></i>&#93;</a>
+              <div class='vstack gap-1'>
+                <a type='button' class='btn btn-primary btn-block rounded-pill' href='https://bit.ly/daftarmars' target='_blank'>Borang Permohonan Keahlian &#91;<i class='fa-brands fa-google'></i>&#93;</a>
+                <a type='button' class='btn btn-secondary btn-block rounded-pill' href='https://bit.ly/borangdaftarroipmars*' target='_blank'>Borang Permohonan Keahlian &#91;<i class='fa-solid fa-signature'></i>&#93;</a>
+                <a type='button' class='btn btn-success btn-block rounded-pill' href='https://ftp.roipmars.org.my/members/pprk_manualregform.pdf' download>Borang Permohonan Keahlian &#91;<i class='fa-solid fa-file-pdf'></i>&#93;</a>
               </div>
             </td>
           </tr>
         </tbody>
       </table>
-    <div class="modal fade" id="roscertModalLong" tabindex="-1" role="dialog" aria-labelledby="roscertModalTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="roscertModalTitle">Sijil Pendaftaran Pertubuhan</h5>
+    <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>
+      <div class='modal-dialog modal-dialog-centered' role='document'>
+        <div class='modal-content'>
+          <div class='modal-header'>
+            <h5 class='modal-title' id='roscertModalTitle'>Sijil Pendaftaran Pertubuhan</h5>
           </div>
-          <div class="modal-body">
-            <img class="img-fluid" loading="lazy" src="./images/ros-sijil.png">
+          <div class='modal-body'>
+            <img class='img-fluid' loading='lazy' src='./images/ros-sijil.png'>
           </div>
         </div>
       </div>
     </div>
-    <div class="modal fade" id="rosappletModalLong" tabindex="-1" role="dialog" aria-labelledby="rosappletModalTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="rosappletModalTitle">Surat Kelulusan Pendaftaran Pertubuhan</h5>
+    <div class='modal fade' id='rosappletModalLong' tabindex='-1' role='dialog' aria-labelledby='rosappletModalTitle' aria-hidden='true'>
+      <div class='modal-dialog modal-dialog-centered' role='document'>
+        <div class='modal-content'>
+          <div class='modal-header'>
+            <h5 class='modal-title' id='rosappletModalTitle'>Surat Kelulusan Pendaftaran Pertubuhan</h5>
           </div>
-          <div class="modal-body">
-            <img class="img-fluid" loading="lazy" src="./images/ros-surat.png">
+          <div class='modal-body'>
+            <img class='img-fluid' loading='lazy' src='./images/ros-surat.png'>
           </div>
         </div>
       </div>
     </div>  	
     </div>
-    <!--<div class="row">
-      <div class="col-12 my-2">
-        <h4 class="h4 text-center">Kelebihan Keahlian ROIPMARS</h4>
-        <div class="ratio ratio-21x9">
+    <!--<div class='row'>
+      <div class='col-12 my-2'>
+        <h4 class='h4 text-center'>Kelebihan Keahlian ROIPMARS</h4>
+        <div class='ratio ratio-21x9'>
           <p></p>
         </div>
       </div>
     </div>-->
-    <div class="row">
-      <div class="col-12 my-2 text-center">
-        <h4 class="h4 text-center">Jawatankuasa</h4>
-        <div class="row">
-          <div class="col-12">
-            <h4 class="fw-bold">Organisasi Pusat<br>Sesi 2022/2023</h4>
+    <div class='row'>
+      <div class='col-12 my-2 text-center'>
+        <h4 class='h4 text-center'>Jawatankuasa</h4>
+        <div class='row'>
+          <div class='col-12'>
+            <h4 class='fw-bold'>Organisasi Pusat<br>Sesi 2022/2023</h4>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12">
-            <h5 class="text-decoration-underline">PRESIDEN</h5>
-            <img class="img-fluid rounded-5" loading="lazy" src="./images/member/002.png" width="100px" height="100px">
-            <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">9W2UZL<br>Zulkifli Abu</p>
+        <div class='row'>
+          <div class='col-12'>
+            <h5 class='text-decoration-underline'>PRESIDEN</h5>
+            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/002.png' width='100px' height='100px'>
+            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W2UZL<br>Zulkifli Abu</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-6 right-line"></div>
-          <div class="col-6"></div>
+        <div class='row'>
+          <div class='col-6 right-line'></div>
+          <div class='col-6'></div>
         </div>
-        <div class="row">
-          <div class="col-2 right-line"></div>
-          <div class="col-4 right-line top-line"></div>
-          <div class="col-4 right-line top-line"></div>
-          <div class="col-2"></div>
+        <div class='row'>
+          <div class='col-2 right-line'></div>
+          <div class='col-4 right-line top-line'></div>
+          <div class='col-4 right-line top-line'></div>
+          <div class='col-2'></div>
         </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-2">
-            <h5 class="text-decoration-underline">SETIAUSAHA AGUNG</h5>
-            <img class="img-fluid rounded-5" loading="lazy" src="./images/member/001.png" width="100px" height="100px">
-            <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">9W2LGX<br>Hafizi Ruslan</p>
+        <div class='row'>
+          <div class='col-1'></div>
+          <div class='col-2'>
+            <h5 class='text-decoration-underline'>SETIAUSAHA AGUNG</h5>
+            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/001.png' width='100px' height='100px'>
+            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W2LGX<br>Hafizi Ruslan</p>
           </div>
-          <div class="col-2"></div>
-          <div class="col-1 right-long-line"></div>
-          <div class="col-3"></div>
-          <div class="col-2">
-            <h5 class="text-decoration-underline">BENDAHARI AGUNG</h5>
-            <img class="img-fluid rounded-5" loading="lazy" src="./images/member/007.png" width="100px" height="100px">
-            <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">9W2ELM<br>Sulaiman Mazlan</p>
+          <div class='col-2'></div>
+          <div class='col-1 right-long-line'></div>
+          <div class='col-3'></div>
+          <div class='col-2'>
+            <h5 class='text-decoration-underline'>BENDAHARI AGUNG</h5>
+            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/007.png' width='100px' height='100px'>
+            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W2ELM<br>Sulaiman Mazlan</p>
           </div>
-          <div class="col-1"></div>
+          <div class='col-1'></div>
         </div>
-        <div class="row">
-          <div class="col-2 right-line"></div>
-          <div class="col-4 right-line"></div>
-          <div class="col-6"></div>
+        <div class='row'>
+          <div class='col-2 right-line'></div>
+          <div class='col-4 right-line'></div>
+          <div class='col-6'></div>
         </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-2">
-            <h5 class="text-decoration-underline">PEN. SETIAUSAHA</h5>
-            <img class="img-fluid rounded-5" loading="lazy" src="./images/member/020.png" width="100px" height="100px">
-            <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">9M2SFF<br>Rozaiman Suffian</p>
+        <div class='row'>
+          <div class='col-1'></div>
+          <div class='col-2'>
+            <h5 class='text-decoration-underline'>PEN. SETIAUSAHA</h5>
+            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/020.png' width='100px' height='100px'>
+            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9M2SFF<br>Rozaiman Suffian</p>
           </div>
-          <div class="col-2"></div>
-          <div class="col-2">
-            <h5 class="text-decoration-underline">TIMB. PRESIDEN</h5>
-            <img class="img-fluid rounded-5" loading="lazy" src="./images/member/008.png" width="100px" height="100px">
-            <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">9W2OGK<br>Kamarudzaman</p>
+          <div class='col-2'></div>
+          <div class='col-2'>
+            <h5 class='text-decoration-underline'>TIMB. PRESIDEN</h5>
+            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/008.png' width='100px' height='100px'>
+            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W2OGK<br>Kamarudzaman</p>
           </div>
-          <div class="col-5"></div>
+          <div class='col-5'></div>
         </div>
-        <div class="row">
-          <div class="col-6 right-line"></div>
-          <div class="col-6"></div>
+        <div class='row'>
+          <div class='col-6 right-line'></div>
+          <div class='col-6'></div>
         </div>
-        <div class="row">
-          <div class="col-5 p-0">
-            <div class="halved right-line"></div>
-            <div class="halved top-line"></div>
+        <div class='row'>
+          <div class='col-5 p-0'>
+            <div class='halved right-line'></div>
+            <div class='halved top-line'></div>
           </div>
-          <div class="col-2 p-0">
-            <div class="halved right-line top-line"></div>
-            <div class="halved top-line"></div>
+          <div class='col-2 p-0'>
+            <div class='halved right-line top-line'></div>
+            <div class='halved top-line'></div>
           </div>
-          <div class="col-5 p-0">
-            <div class="halved right-line top-line"></div>
-            <div class="halved"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-5">
-            <h5 class="text-decoration-underline">KETUA BAHAGIAN</h5>
-            <p class="fw-light">PERHUBUNGAN AWAM DOMESTIK</p>
-            <img class="img-fluid rounded-5" loading="lazy" src="https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png" width="80px" height="80px">
-            <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">VACANT<br>Name</p>
-          </div>
-          <div class="col-1 right-long-line"></div>
-          <div class="col-1"></div>
-          <div class="col-5">
-            <h5 class="text-decoration-underline">KETUA BAHAGIAN</h5>
-            <p class="fw-light">PERHUBUNGAN AWAM ANTARABANGSA</p>
-            <img class="img-fluid rounded-5" loading="lazy" src="https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png" width="80px" height="80px">
-            <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">VACANT<br>Name</p>
+          <div class='col-5 p-0'>
+            <div class='halved right-line top-line'></div>
+            <div class='halved'></div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-3 p-0">
-            <div class="halved right-line"></div>
-            <div class="halved top-line"></div>
+        <div class='row'>
+          <div class='col-5'>
+            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
+            <p class='fw-light'>PERHUBUNGAN AWAM DOMESTIK</p>
+            <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px'>
+            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
           </div>
-          <div class="col-3 p-0">
-            <div class="halved right-line top-line"></div>
-            <div class="halved top-line right-line"></div>
-          </div>
-          <div class="col-3 p-0">
-            <div class="halved right-line top-line"></div>
-            <div class="halved top-line"></div>
-          </div>
-          <div class="col-3 p-0">
-            <div class="halved right-line top-line"></div>
-            <div class="halved"></div>
+          <div class='col-1 right-long-line'></div>
+          <div class='col-1'></div>
+          <div class='col-5'>
+            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
+            <p class='fw-light'>PERHUBUNGAN AWAM ANTARABANGSA</p>
+            <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px'>
+            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-3">
-            <h5 class="text-decoration-underline">KETUA BAHAGIAN</h5>
-            <p class="fw-light">KEBAJIKAN</p>
-            <img class="img-fluid rounded-5" loading="lazy" src="./images/member/006.png" width="80px" height="80px">
-            <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">9W6MOZ<br>Mustafa Omar</p>
+        <div class='row'>
+          <div class='col-3 p-0'>
+            <div class='halved right-line'></div>
+            <div class='halved top-line'></div>
           </div>
-          <div class="col-3">
-            <h5 class="text-decoration-underline">KETUA BAHAGIAN</h5>
-            <p class="fw-light">SIARAYA &amp; AKTIVITI</p>
-            <img class="img-fluid rounded-5" loading="lazy" src="https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png" width="80px" height="80px">
-            <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">VACANT<br>Name</p>
+          <div class='col-3 p-0'>
+            <div class='halved right-line top-line'></div>
+            <div class='halved top-line right-line'></div>
           </div>
-          <div class="col-3">
-            <h5 class="text-decoration-underline">KETUA BAHAGIAN</h5>
-            <p class="fw-light">TEKNIKAL (PERKAKASAN)</p>
-            <img class="img-fluid rounded-5" loading="lazy" src="./images/member/016.png" width="80px" height="80px">
-            <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">9W8ZZK<br>Zaheer Zakaria</p>
+          <div class='col-3 p-0'>
+            <div class='halved right-line top-line'></div>
+            <div class='halved top-line'></div>
           </div>
-          <div class="col-3">
-            <h5 class="text-decoration-underline">KETUA BAHAGIAN</h5>
-            <p class="fw-light">EKONOMI</p>
-            <img class="img-fluid rounded-5" loading="lazy" src="./images/member/004.png" width="80px" height="80px">
-            <p style="font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large">9W2UBE<br>Faiznurnizam</p>
+          <div class='col-3 p-0'>
+            <div class='halved right-line top-line'></div>
+            <div class='halved'></div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 my-2">
-        <h4 class="h4 text-center">Direktori RoIPMARS
-        </h4>
-        <div class="ratio ratio-16x9">
-          <iframe src="list/membersmap"></iframe>
+        <div class='row'>
+          <div class='col-3'>
+            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
+            <p class='fw-light'>KEBAJIKAN</p>
+            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/006.png' width='80px' height='80px'>
+            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W6MOZ<br>Mustafa Omar</p>
+          </div>
+          <div class='col-3'>
+            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
+            <p class='fw-light'>SIARAYA &amp; AKTIVITI</p>
+            <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px'>
+            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
+          </div>
+          <div class='col-3'>
+            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
+            <p class='fw-light'>TEKNIKAL (PERKAKASAN)</p>
+            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/016.png' width='80px' height='80px'>
+            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W8ZZK<br>Zaheer Zakaria</p>
+          </div>
+          <div class='col-3'>
+            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
+            <p class='fw-light'>EKONOMI</p>
+            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/004.png' width='80px' height='80px'>
+            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W2UBE<br>Faiznurnizam</p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12 my-2">
-        <h4 class="h4 text-center">Ahli RoIPMARS
+    <div class='row'>
+      <div class='col-12 my-2'>
+        <h4 class='h4 text-center'>Direktori RoIPMARS
         </h4>
-        <div class="ratio ratio-4x3">
-          <iframe src="list/members"></iframe>
+        <div class='ratio ratio-16x9'>
+          <iframe src='list/membersmap'></iframe>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-12 my-2'>
+        <h4 class='h4 text-center'>Ahli RoIPMARS
+        </h4>
+        <div class='ratio ratio-4x3'>
+          <iframe src='list/members'></iframe>
         </div>
       </div>
     </div>
@@ -391,7 +391,7 @@
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
             <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
           </table>
-          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;"><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;"><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;"><i class='fa-regular fa-credit-card'></i></i></a></p>
+          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='fa-regular fa-credit-card'></i></i></a></p>
           <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;<br>&mdash; KEHADIRAN ANDA KEBANGGAAN KAMI &mdash;</p>
         </div>
         <hr class='w-100 clearfix d-md-none'>
@@ -414,7 +414,7 @@
             <a href='https://www.facebook.com/roipmars.org.my'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-facebook-f fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://t.me/marsts3servercyberjaya'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-telegram fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://wa.me/c/60333960874'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-whatsapp fa-stack-1x fa-inverse'></i></span></a>
-            <a href='#' onClick="TSLoginWindow=window.open('https://www.roipmars.org.my/ts3login', 'LogIn TS RoIPMARS', 'width=800,height=600'); return false;"><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
+            <a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
           </div>
         </div>
       </div>

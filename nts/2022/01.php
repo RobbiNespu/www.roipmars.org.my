@@ -98,17 +98,17 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <h1 class="tk-gilbert-color text-center">MARS Group</h1>
-    <h4 class="tk-gilbert text-center font-weight-light">&mdash; roipmars.org.my &mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
-    <h2 class="tk-nueva-std text-center">Perubahan domain RoIPMARS dari [.com] ke [.org.my]</h2>
-    <h3 class="tk-nueva-std-condensed text-end">Ruj: NtsMARS2022/01<br>Tarikh Notis: 20 Julai 2022 | 0100 MYT</h3>
-    <h2 class="tk-tekton-pro">Per: Perubahan berjadual domain dari (roipmars.com) ke (roipmars.org.my)</h2>
+  <div class='container'>
+    <h1 class='tk-gilbert-color text-center'>MARS Group</h1>
+    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.org.my &mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
+    <h2 class='tk-nueva-std text-center'>Perubahan domain RoIPMARS dari [.com] ke [.org.my]</h2>
+    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2022/01<br>Tarikh Notis: 20 Julai 2022 | 0100 MYT</h3>
+    <h2 class='tk-tekton-pro'>Per: Perubahan berjadual domain dari (roipmars.com) ke (roipmars.org.my)</h2>
     <p>Tuan / Puan / En. / Cik,</p>
-    <p class="mb-2">Adalah dengan ini dimaklumkan bahawa domain roipmars.com akan berpindah ke roipmars.org.my yang akan dijadualkan pada awal bulan September 2022.</p>
+    <p class='mb-2'>Adalah dengan ini dimaklumkan bahawa domain roipmars.com akan berpindah ke roipmars.org.my yang akan dijadualkan pada awal bulan September 2022.</p>
     <p>Sehubungan dengan itu, semua aplikasi yang terhubung dengan pelayan semasa akan dipindahkan perkhidmatannya ke pelayan baru pada ketetapan berikut;</p>
     <div>
-      <table class="table table-responsive table-sm table-striped">
+      <table class='table table-responsive table-sm table-striped'>
         <tbody>
           <tr>
             <td>Tarikh</td>
@@ -119,7 +119,7 @@
             <td>12AM - 6AM</td>
           </tr>
           <tr>
-            <td class="align-middle">Perkhidmatan Terjejas</td>
+            <td class='align-middle'>Perkhidmatan Terjejas</td>
             <td>
               <ul>
                 <li>Laman sesawang</li>
@@ -133,9 +133,9 @@
       </table>
     </div>
     <p>Juga dimaklumkan bahawa pelayan &amp; domain roipmars.com akan dihenti tugas pada waktu akhir pindahan dan semua akses akan dipautkan ke roipmars.org.my</p>
-    <p class="text-center">Sekiranya anda memerlukan bantuan, sila email kepada: <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a></p>
-    <h6 class="tk-adobe-handwriting-ernie text-end">Server Administrator</h6>
-    <p class="text-end" style="font-size:small">Management of MARS Group</p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
+    <p class='text-end' style='font-size:small'>Management of MARS Group</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>

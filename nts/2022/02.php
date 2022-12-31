@@ -98,20 +98,20 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <h1 class="tk-gilbert-color text-center">MARS Group</h1>
-    <h4 class="tk-gilbert text-center font-weight-light">&mdash; roipmars.org.my &mdash; roipdarulaman.com &mdash;</h4>
-    <h2 class="tk-nueva-std text-center">Perubahan Platform Kedai RoIPMARS</h2>
-    <h3 class="tk-nueva-std-condensed text-end">Ruj: NtsMARS2022/02<br>Tarikh Notis: 26 September 2022 | 0000 MYT</h3>
-    <h2 class="tk-tekton-pro">Per: Perubahan Platform <a href="https://kedai.roipmars.org.my/" target="_blank">Kedai.RoIPMARS.org.MY</a> berkuatkuasa serta merta</h2>
+  <div class='container'>
+    <h1 class='tk-gilbert-color text-center'>MARS Group</h1>
+    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.org.my &mdash; roipdarulaman.com &mdash;</h4>
+    <h2 class='tk-nueva-std text-center'>Perubahan Platform Kedai RoIPMARS</h2>
+    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2022/02<br>Tarikh Notis: 26 September 2022 | 0000 MYT</h3>
+    <h2 class='tk-tekton-pro'>Per: Perubahan Platform <a href='https://kedai.roipmars.org.my/' target='_blank'>Kedai.RoIPMARS.org.MY</a> berkuatkuasa serta merta</h2>
     <p>Tuan / Puan / En. / Cik,</p>
-    <p class="mb-2">Adalah dengan ini dimaklumkan bahawa platform kedai kami sebelum ini mempunyai ralat kritikal yang menjadikan platform tersebut tidak dapat berfungsi dengan sempurna.</p>
+    <p class='mb-2'>Adalah dengan ini dimaklumkan bahawa platform kedai kami sebelum ini mempunyai ralat kritikal yang menjadikan platform tersebut tidak dapat berfungsi dengan sempurna.</p>
     <p>Namun begitu, pihak pengurusan teknikal kami telahpun mengambil insiatif dengan serta merta menukar ke platform lain. Segala maklumat dari platform lama telahpun dibuang dan tidak lagi dapat diperoleh kembali.</p>
     <p>Diharap mana-mana pihak yang telahpun mendaftar di platform lama untuk mendaftar kembali di platform yang baru bagi membolehkan pembelian barangan kami.</p>
     <p>Segala sokongan anda atas pembelian barangan kami adalah sangat dihargai.</p>
-    <p class="text-center">Sekiranya anda memerlukan bantuan, sila email kepada: <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a></p>
-    <h6 class="tk-adobe-handwriting-ernie text-end">Software Technical Manager</h6>
-    <p class="text-end" style="font-size:small">Management of MARS Group</p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <h6 class='tk-adobe-handwriting-ernie text-end'>Software Technical Manager</h6>
+    <p class='text-end' style='font-size:small'>Management of MARS Group</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>

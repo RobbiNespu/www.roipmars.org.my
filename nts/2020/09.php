@@ -98,16 +98,16 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <h1 class="tk-gilbert-color text-center">MARS Group</h1>
-    <h4 class="tk-gilbert text-center font-weight-light">&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
-    <h2 class="tk-nueva-std text-center">Server Downtime 30 Aug 2020</h2>
-    <h3 class="tk-nueva-std-condensed text-end">Ruj: NtsMARS2020/09<br>Tarikh Notis: 25 Ogos 2020 | 0500 MYT</h3>
-    <h2 class="tk-tekton-pro">Per: Notis Server Maintenance Downtime</h2>
+  <div class='container'>
+    <h1 class='tk-gilbert-color text-center'>MARS Group</h1>
+    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
+    <h2 class='tk-nueva-std text-center'>Server Downtime 30 Aug 2020</h2>
+    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2020/09<br>Tarikh Notis: 25 Ogos 2020 | 0500 MYT</h3>
+    <h2 class='tk-tekton-pro'>Per: Notis Server Maintenance Downtime</h2>
     <p>Tuan / Puan / En. / Cik,</p>
     <p>Berhubung perkara diatas, pihak pengurusan Persatuan Peminat Radio Komunikasi (ROIP) / MARS ingin memaklumkan berkenaan ketidakboleh akses kepada server TeamSpeak3, FRN, eQSO, dan Laman Sesawang yang dijalankan di 'domain' &amp; server 'roipmars.com' yang berpusat di Cyberjaya, Malaysia bagi membolehkan pihak pusat maklumat (datacenter) membuat penyelenggaraan bagi kelancaran dimasa akan datang.</p>
     <p>Maklumat penyeleggaraan adalah seperti berikut:
-    <table class="table table-bordered">
+    <table class='table table-bordered'>
       <tr>
         <td>Tarikh</td>
         <td>30 Ogos 2020 (Ahad)</td>
@@ -123,11 +123,11 @@
     </table>
     </p>
     <p></p>
-    <p class="text-center">Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak PPRK/MARS kepada anda semua.</p>
-    <p class="text-center">Sekiranya anda memerlukan bantuan, sila email kepada: <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a></p>
-    <h6 class="tk-adobe-handwriting-ernie text-end">Server Administrator</h6>
-    <p class="text-end" style="font-size:small">Management of MARS Group</p>
-    <p class="text-end" style="font-size:small">PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP(RADIO OVER INTERNET PROTOCOL)) PPM-006-10-01062020</p>
+    <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak PPRK/MARS kepada anda semua.</p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
+    <p class='text-end' style='font-size:small'>Management of MARS Group</p>
+    <p class='text-end' style='font-size:small'>PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP(RADIO OVER INTERNET PROTOCOL)) PPM-006-10-01062020</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>

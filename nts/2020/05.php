@@ -50,7 +50,7 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-  <script src="https://kit.fontawesome.com/221737b641.js" crossorigin="anonymous"></script>
+  <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
@@ -99,20 +99,20 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <h1 class="tk-gilbert-color text-center">MARS Group</h1>
-    <h4 class="tk-gilbert text-center font-weight-light">&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
-    <h2 class="tk-nueva-std text-center">Notice Change of Info in CB_DB</h2>
-    <h3 class="tk-nueva-std-condensed text-end">Ruj: NtsMARS2020/05<br>Tarikh Notis: 06 Mac 2020 | 0130 MYT</h3>
-    <h2 class="tk-tekton-pro">Per: Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group</h2>
+  <div class='container'>
+    <h1 class='tk-gilbert-color text-center'>MARS Group</h1>
+    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
+    <h2 class='tk-nueva-std text-center'>Notice Change of Info in CB_DB</h2>
+    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2020/05<br>Tarikh Notis: 06 Mac 2020 | 0130 MYT</h3>
+    <h2 class='tk-tekton-pro'>Per: Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group</h2>
     <p>Tuan / Puan / En. / Cik,</p>
-    <p class="mb-2">Berhubung perkara diatas, pihak pengurusan MARS Group melarang keras untuk anda menghantar borang berkali-kali untuk penukaran maklumat seperti Isyarat Panggilan, Rangkaian ataupun maklumat lain yang berkaitan.</p>
+    <p class='mb-2'>Berhubung perkara diatas, pihak pengurusan MARS Group melarang keras untuk anda menghantar borang berkali-kali untuk penukaran maklumat seperti Isyarat Panggilan, Rangkaian ataupun maklumat lain yang berkaitan.</p>
     <p>Bagi penukaran maklumat, boleh berbuat demikian melalui salah satu cara dibawah:
-    <ol type="a">
-      <li>email maklumat yang telah anda hantar (submit) dan juga maklumat baru yang ingin ditukar <strong>kepada <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a> BERSERTA DENGAN RESIT DONASI</strong> (minimum RM 10.00) melalui CDM/Bank Transfer kepada no akaun yang tertera di bawah</li>
+    <ol type='a'>
+      <li>email maklumat yang telah anda hantar (submit) dan juga maklumat baru yang ingin ditukar <strong>kepada <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a> BERSERTA DENGAN RESIT DONASI</strong> (minimum RM 10.00) melalui CDM/Bank Transfer kepada no akaun yang tertera di bawah</li>
       <li>mengisi borang sekali lagi BESERTA DENGAN RESIT DONASI (minimum RM 10.00) melalui CDM/Bank Transfer kepada no akaun yang tertera di bawah dan <strong>dihantar bersama borang tersebut (upload diruangan resit sebelum submit)</strong> <sub>Borang kedua yang diisi tanpa sumbangan tidak akan diterima</sub></li>
     </ol>
-    <table class="table table-sm table-bordered border-dark text-center my-0">
+    <table class='table table-sm table-bordered border-dark text-center my-0'>
       <tr>
         <td>Nama</td>
         <td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td>
@@ -126,14 +126,14 @@
         <td>1214 0000 4377 12</td>
       </tr>
     </table>
-    <p class="my-0 text-center">Kami juga menerima <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;"><img src="../../images/tngew_ht.png" class="img-fluid" width="50px"></a> dan <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;"><img src="../../images/fpx.png" class="img-fluid" width="50px"></a> dan <a class="text-decoration-none" href="#" onClick="DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;"><i class="fa-regular fa-credit-card"></i></i></a></p>
+    <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;'><img src='../../images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;'><img src='../../images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;'><i class='fa-regular fa-credit-card'></i></i></a></p>
     </p>
     <p>Tujuan larangan adalah bagi memudahkan tugas penjaga maklumat untuk menyimpan rekod maklumat anda.</p>
     <p>Mulai Mac 2020, segala maklumat baru yang diberikan bakal mengambil masa maksimum 48 jam waktu bekerja untuk proses permohonan &amp; pendaftaran bagi tujuan semakan terlebih dahulu dengan maklumat sedia ada bagi mengelakkan pertindihan.</p>
-    <p class="text-center">Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
-    <p class="text-center">Sekiranya anda memerlukan bantuan, sila email kepada: <a href="mailto:member@roipmars.org.my">member@roipmars.org.my</a></p>
-    <h6 class="tk-adobe-handwriting-ernie text-end">Server Administrator</h6>
-    <p class="text-end" style="font-size:small">Management of MARS Group</p>
+    <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
+    <p class='text-end' style='font-size:small'>Management of MARS Group</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>

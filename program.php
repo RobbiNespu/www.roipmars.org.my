@@ -208,7 +208,7 @@
               <tr><td>1</td><td>Ahad</td><td>08 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYKB</td><td></td></tr>
               <tr><td>2</td><td>Rabu</td><td>11 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RHM</td><td></td></tr>
               <tr><td>2</td><td>Jumaat</td><td>13 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9M2VVH</td><td></td></tr>
-              <tr bgcolor='#336699'><td>2</td><td>Sabtu</td><td>14 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W6PKJ</td><td></td></tr>
+              <tr bgcolor='#336699'><td>2</td><td>Sabtu</td><td>14 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td></td></tr>
               <tr><td>2</td><td>Ahad</td><td>15 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>
               <tr><td>3</td><td>Rabu</td><td>18 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RDY</td><td></td></tr>
               <tr><td>3</td><td>Jumaat</td><td>20 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2OGK</td><td></td></tr>
@@ -231,7 +231,7 @@
               <tr bgcolor='#336699'><td>5</td><td>Sabtu</td><td>04 Feb 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Kanser Sedunia&#41;</td><td>9W2SNN</td><td></td></tr>
               <tr bgcolor='#D71110'><td>5</td><td>Ahad</td><td>05 Feb 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Thaipusam&#41;</td><td>113DAISS</td><td></td></tr>
               <tr><td>6</td><td>Rabu</td><td>08 Feb 2023</td><td>9:00PM</td><td>English Net</td><td>9W8VWW</td><td></td></tr>
-              <tr><td>6</td><td>Jumaat</td><td>10 Feb 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2GSV</td><td></td></tr>
+              <tr><td>6</td><td>Jumaat</td><td>10 Feb 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6PKJ</td><td></td></tr>
               <tr><td>6</td><td>Sabtu</td><td>11 Feb 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2SFT</td><td></td></tr>
               <tr><td>6</td><td>Ahad</td><td>12 Feb 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAJCP</td><td></td></tr>
               <tr><td>7</td><td>Rabu</td><td>15 Feb 2023</td><td>9:00PM</td><td>English Net</td><td>9W2EZK</td><td></td></tr>

@@ -105,13 +105,13 @@
         </thead>
         <tbody>
           <tr><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>DIS 2023</td><td>AKTIF</td></tr>
-          <tr><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>DIS 2022</td><td>AKTIF</td></tr>
+          <tr><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>DIS 2025</td><td>AKTIF</td></tr>
           <tr><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>DIS 2024</td><td>AKTIF</td></tr>
           <tr><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>DIS 2024</td><td>AKTIF</td></tr>
           <tr><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>DIS 2024</td><td>AKTIF</td></tr>
           <tr><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>DIS 2022</td><td>AKTIF</td></tr>
-          <tr><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>DIS 2025</td><td>AKTIF</td></tr>
+          <tr><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>DIS 2024</td><td>AKTIF</td></tr>
           <tr><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>DIS 2025</td><td>AKTIF</td></tr>
           <tr><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>DIS 2022</td><td>AKTIF</td></tr>
@@ -130,7 +130,7 @@
 <!--          <tr class='text-secondary text-opacity-25'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>JUL 2021</td><td>LUPUT</td></tr>-->
           <tr><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>DIS 2022</td><td>AKTIF</td></tr>
-          <tr><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>DIS 2022</td><td>AKTIF</td></tr>
+          <tr><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>DIS 2023</td><td>AKTIF</td></tr>
 
         </tbody>
       </table>

@@ -627,7 +627,7 @@
     <hr>
     <div class='row'>
       <div class='col-6'>
-        <h6 class='text-center'>Pemenang Cabutan Bertuah<br>Bahasa Net Ambang Tahun Baru 2023</h6>
+        <h6 class='text-center'>Pemenang Bertuah<br>Bahasa Net Ambang Tahun Baru 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -640,7 +640,7 @@
         </table>
       </div>
       <div class='col-6'>
-        <h6 class='text-center'>Pemenang Cabutan Bertuah<br>CB Net Sambutan Tahun Baru 2023</h6>
+        <h6 class='text-center'>Pemenang Bertuah<br>CB Net Sambutan Tahun Baru 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>

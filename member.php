@@ -231,7 +231,7 @@
           <div class='col-12'>
             <h5 class='text-decoration-underline'>PRESIDEN</h5>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/002.png' width='100px' height='100px'>
-            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W2UZL<br>Zulkifli Abu</p>
+            <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W2UZL<br>Zulkifli Abu</p>
           </div>
         </div>
         <div class='row'>
@@ -249,7 +249,7 @@
           <div class='col-2'>
             <h5 class='text-decoration-underline'>SETIAUSAHA AGUNG</h5>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/001.png' width='100px' height='100px'>
-            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W2LGX<br>Hafizi Ruslan</p>
+            <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W2LGX<br>Hafizi Ruslan</p>
           </div>
           <div class='col-2'></div>
           <div class='col-1 right-long-line'></div>
@@ -257,7 +257,7 @@
           <div class='col-2'>
             <h5 class='text-decoration-underline'>BENDAHARI AGUNG</h5>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/007.png' width='100px' height='100px'>
-            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W2ELM<br>Sulaiman Mazlan</p>
+            <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W2ELM<br>Sulaiman Mazlan</p>
           </div>
           <div class='col-1'></div>
         </div>
@@ -271,13 +271,13 @@
           <div class='col-2'>
             <h5 class='text-decoration-underline'>PEN. SETIAUSAHA</h5>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/020.png' width='100px' height='100px'>
-            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9M2SFF<br>Rozaiman Suffian</p>
+            <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9M2SFF<br>Rozaiman Suffian</p>
           </div>
           <div class='col-2'></div>
           <div class='col-2'>
             <h5 class='text-decoration-underline'>TIMB. PRESIDEN</h5>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/008.png' width='100px' height='100px'>
-            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W2OGK<br>Kamarudzaman</p>
+            <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W2OGK<br>Kamarudzaman</p>
           </div>
           <div class='col-5'></div>
         </div>
@@ -304,7 +304,7 @@
             <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
             <p class='fw-light'>PERHUBUNGAN AWAM DOMESTIK</p>
             <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px'>
-            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
+            <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
           </div>
           <div class='col-1 right-long-line'></div>
           <div class='col-1'></div>
@@ -312,7 +312,7 @@
             <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
             <p class='fw-light'>PERHUBUNGAN AWAM ANTARABANGSA</p>
             <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px'>
-            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
+            <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
           </div>
         </div>
         <div class='row'>
@@ -338,25 +338,25 @@
             <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
             <p class='fw-light'>KEBAJIKAN</p>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/006.png' width='80px' height='80px'>
-            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W6MOZ<br>Mustafa Omar</p>
+            <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W6MOZ<br>Mustafa Omar</p>
           </div>
           <div class='col-3'>
             <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
             <p class='fw-light'>SIARAYA &amp; AKTIVITI</p>
             <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px'>
-            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
+            <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
           </div>
           <div class='col-3'>
             <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
             <p class='fw-light'>TEKNIKAL (PERKAKASAN)</p>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/016.png' width='80px' height='80px'>
-            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W8ZZK<br>Zaheer Zakaria</p>
+            <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W8ZZK<br>Zaheer Zakaria</p>
           </div>
           <div class='col-3'>
             <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
             <p class='fw-light'>EKONOMI</p>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/004.png' width='80px' height='80px'>
-            <p style='font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: large'>9W2UBE<br>Faiznurnizam</p>
+            <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W2UBE<br>Faiznurnizam</p>
           </div>
         </div>
       </div>

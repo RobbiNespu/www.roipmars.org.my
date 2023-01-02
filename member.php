@@ -167,7 +167,7 @@
       <table class='table table-sm text-center'>
         <tbody>
           <tr>
-            <td class='font-weight-bold h3'>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; <sup>PPM-006-10-01062020</sup></td>
+            <td class='font-weight-bold h3'>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;<br><sup>PPM-006-10-01062020</sup></td>
           </tr>
           <tr>
             <td>

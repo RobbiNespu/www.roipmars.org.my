@@ -131,6 +131,8 @@
           <tr><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>DIS 2022</td><td>AKTIF</td></tr>
           <tr><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>DIS 2023</td><td>AKTIF</td></tr>
+          <tr><td>A028</td><td>9W2NEW</td><td>NORHISHAM BIN BAHAROM</td><td>DIS 2023</td><td>AKTIF</td></tr>
+          <tr><td>A029</td><td>9W2JCP</td><td>MOHAMAD ROSLI BIN AWANG</td><td>DIS 2023</td><td>AKTIF</td></tr>
 
         </tbody>
       </table>

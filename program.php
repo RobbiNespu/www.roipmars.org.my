@@ -171,7 +171,7 @@
             <tr bgcolor='#D71110'><td>Ahad</td><td>09:00PM</td><td>CB Net</td><td>ROIPDARULAMAN</td></tr>
           </tbody>
         </table>
-        <p class='text-center'>Bagi individu / kelab yang berminat untuk menjalankan Aktiviti 'Special Net' bersempena dengan apa-apa acara / hari diluar jadual kami, anda boleh berhubung terus dengan Pegawai  Aktiviti kami <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/601112308482'><i class='fab fa-whatsapp'></i> Zikry</a>.</p>
+        <p class='text-center'>Bagi individu / kelab yang berminat untuk menjalankan Aktiviti 'Special Net' bersempena dengan apa-apa acara / hari diluar jadual kami, anda boleh berhubung terus dengan Pegawai Pengelola Aktiviti / Siaraya kami <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/601112308482'><i class='fab fa-whatsapp'></i> Zikry</a> atau <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/60196293718'><i class='fab fa-whatsapp'></i> Rozaiman</a>.</p>
       </div>
       <div class='col-lg-7 my-2'>
         <div class='row'>

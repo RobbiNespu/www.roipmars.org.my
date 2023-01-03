@@ -251,8 +251,7 @@
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/001.png' width='100px' height='100px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W2LGX<br>Hafizi Ruslan</p>
           </div>
-          <div class='col-2'></div>
-          <div class='col-1 right-long-line'></div>
+          <div class='col-3 right-long-line'></div>
           <div class='col-3'></div>
           <div class='col-2'>
             <h5 class='text-decoration-underline'>BENDAHARI AGUNG</h5>
@@ -322,7 +321,7 @@
           </div>
           <div class='col-3 p-0'>
             <div class='halved right-line top-line'></div>
-            <div class='halved top-line right-line'></div>
+            <div class='halved top-line'></div>
           </div>
           <div class='col-3 p-0'>
             <div class='halved right-line top-line'></div>
@@ -342,7 +341,7 @@
           </div>
           <div class='col-3'>
             <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
-            <p class='fw-light'>SIARAYA &amp; AKTIVITI</p>
+            <p class='fw-light'>AKTIVITI &amp; SIARAYA</p>
             <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
           </div>

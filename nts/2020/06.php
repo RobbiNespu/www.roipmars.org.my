@@ -99,7 +99,7 @@
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div class='container'>
-    <h1 class='tk-gilbert-color text-center'>MARS Group</h1>
+    <h1 class='tk-gilbert-color text-center'>RoIPMARS Group</h1>
     <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
     <h2 class='tk-nueva-std text-center'>Notice Website interruption for service upgrade</h2>
     <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2020/06<br>Tarikh Notis: 23 Mac 2020 | 0100 MYT</h3>
@@ -111,7 +111,7 @@
     <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
     <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
     <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
-    <p class='text-end' style='font-size:small'>Management of MARS Group</p>
+    <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>

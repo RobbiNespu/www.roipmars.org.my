@@ -166,6 +166,12 @@
         <tbody class='align-middle'>
 
           <tr>
+            <td>05 Jan 2023</td>
+            <td>Makluman Sijil NCS &amp; Kad QSL 2023</td>
+            <td class='text-end'>NtsMARS2023/01</td>
+            <td class='text-start'><a href='nts/2023/01' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
+          </tr>
+          <tr>
             <td>26 Sep 2022</td>
             <td>Perubahan Platform <a href='https://kedai.roipmars.org.my/' target='_blank'>Kedai.RoIPMARS.org.MY</a></td>
             <td class='text-end'>NtsMARS2022/02</td>
@@ -185,55 +191,55 @@
           </tr>
           <tr>
             <td>25 Ogo 2020</td>
-            <td>Server Downtime 30 Aug 2020</td>
+            <td>Masa Henti Pelayan 30 Aug 2020</td>
             <td class='text-end'>NtsMARS2020/09</td>
             <td class='text-start'><a href='nts/2020/09' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>19 Apr 2020</td>
-            <td>CB CS Inactive Status and Methods</td>
+            <td>Jalur Rakyat RoIPMARS Status dan Kaedah Tidak Aktif</td>
             <td class='text-end'>NtsMARS2020/08</td>
             <td class='text-start'><a href='nts/2020/08' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>02 Apr 2020</td>
-            <td>Teamspeak DomainName:PortNo Issue</td>
+            <td>Isu Sambungan Aplikasi</td>
             <td class='text-end'>NtsMARS2020/07</td>
             <td class='text-start'><a href='nts/2020/07' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>23 Mac 2020</td>
-            <td>Website interruption for service upgrade</td>
+            <td>Gangguan laman web untuk naik taraf perkhidmatan</td>
             <td class='text-end'>NtsMARS2020/06</td>
             <td class='text-start'><a href='nts/2020/06' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>06 Mac 2020</td>
-            <td>Change of Info in CB_DB</td>
+            <td>Penukaran Maklumat Jalur Rakyat RoIPMARS</td>
             <td class='text-end'>NtsMARS2020/05</td>
             <td class='text-start'><a href='nts/2020/05' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>01 Mac 2020</td>
-            <td>CB DB Maintenance</td>
+            <td>Penyelengaraan Pangkalan Data Jalur Rakyat RoIPMARS</td>
             <td class='text-end'>NtsMARS2020/04</td>
             <td class='text-start'><a href='nts/2020/04' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>16 Feb 2020</td>
-            <td>Webpage Notification</td>
+            <td>Notifikasi Laman Tutorial</td>
             <td class='text-end'>NtsMARS2020/03</td>
             <td class='text-start'><a href='nts/2020/03' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>08 Feb 2020</td>
-            <td>Discontinued Weekly NCS Certificate</td>
+            <td>Pemberhentian Sijil Mingguan NCS</td>
             <td class='text-end'>NtsMARS2020/02</td>
             <td class='text-start'><a href='nts/2020/02' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>
           <tr>
             <td>07 Feb 2020</td>
-            <td>Server Maintainence</td>
+            <td>Penyelenggaraan MyIX</td>
             <td class='text-end'>NtsMARS2020/01</td>
             <td class='text-start'><a href='nts/2020/01' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
           </tr>

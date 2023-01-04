@@ -2,27 +2,27 @@
 <html lang='ms-MY' data-bs-color-scheme='dark'>
 
 <head>
-  <title>RoIPMARS | Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group</title>
+  <title>RoIPMARS | Sambungan Sijil NCS &amp; Kad QSL</title>
   <meta charset='utf-8'>
   <meta http-equiv='Content-Type' content='text/html'>
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-  <meta name='title' content='RoIPMARS | Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group'>
-  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group'>
+  <meta name='title' content='RoIPMARS | Sambungan Sijil NCS & Kad QSL'>
+  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Sambungan Sijil NCS & Kad QSL'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
-  <meta property='og:title' content='RoIPMARS | Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group'>
-  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group'>
-  <meta property='og:url' content='https://www.roipmars.org.my/nts/2020/05'>
+  <meta property='og:title' content='RoIPMARS | Sambungan Sijil NCS & Kad QSL'>
+  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Sambungan Sijil NCS & Kad QSL'>
+  <meta property='og:url' content='https://www.roipmars.org.my/nts/2023/01'>
   <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
-  <meta name='twitter:title' content='RoIPMARS | Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group'>
-  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group'>
-  <meta name='twitter:url' content='https://www.roipmars.org.my/nts/2020/05'>
+  <meta name='twitter:title' content='RoIPMARS | Sambungan Sijil NCS & Kad QSL'>
+  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Sambungan Sijil NCS & Kad QSL'>
+  <meta name='twitter:url' content='https://www.roipmars.org.my/nts/2023/01'>
   <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#336699'>
@@ -49,7 +49,6 @@
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
-  <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <!-- Google Tag Manager -->
   <script>
@@ -101,36 +100,15 @@
   <!-- End Google Tag Manager (noscript) -->
   <div class='container'>
     <h1 class='tk-gilbert-color text-center'>RoIPMARS Group</h1>
-    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</h4>
-    <h2 class='tk-nueva-std text-center'>Notice Change of Info in CB_DB</h2>
-    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2020/05<br>Tarikh Notis: 06 Mac 2020 | 0130 MYT</h3>
-    <h2 class='tk-tekton-pro'>Per: Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group</h2>
+    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.org.my &mdash; roipdarulaman.com &mdash;</h4>
+    <h2 class='tk-nueva-std text-center'>Makluman Sijil NCS &amp; Kad QSL 2023</h2>
+    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2023/01<br>Tarikh Notis: 05 Januari 2023 | 0700 MYT</h3>
+    <h2 class='tk-tekton-pro'>Per: Sambungan Pengeluaran Sijil NCS &amp; Kad QSL</h2>
     <p>Tuan / Puan / En. / Cik,</p>
-    <p class='mb-2'>Berhubung perkara diatas, pihak pengurusan MARS Group melarang keras untuk anda menghantar borang berkali-kali untuk penukaran maklumat seperti Isyarat Panggilan, Rangkaian ataupun maklumat lain yang berkaitan.</p>
-    <p>Bagi penukaran maklumat, boleh berbuat demikian melalui salah satu cara dibawah:
-    <ol type='a'>
-      <li>email maklumat yang telah anda hantar (submit) dan juga maklumat baru yang ingin ditukar <strong>kepada <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a> BERSERTA DENGAN RESIT DONASI</strong> (minimum RM 10.00) melalui CDM/Bank Transfer kepada no akaun yang tertera di bawah</li>
-      <li>mengisi borang sekali lagi BESERTA DENGAN RESIT DONASI (minimum RM 10.00) melalui CDM/Bank Transfer kepada no akaun yang tertera di bawah dan <strong>dihantar bersama borang tersebut (upload diruangan resit sebelum submit)</strong> <sub>Borang kedua yang diisi tanpa sumbangan tidak akan diterima</sub></li>
-    </ol>
-    <table class='table table-sm table-bordered border-dark text-center my-0'>
-      <tr>
-        <td>Nama</td>
-        <td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td>
-      </tr>
-      <tr>
-        <td>Bank</td>
-        <td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td>
-      </tr>
-      <tr>
-        <td>Akaun</td>
-        <td>1214 0000 4377 12</td>
-      </tr>
-    </table>
-    <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;'><img src='../../images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;'><img src='../../images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;'><i class='fa-regular fa-credit-card'></i></i></a></p>
-    </p>
-    <p>Tujuan larangan adalah bagi memudahkan tugas penjaga maklumat untuk menyimpan rekod maklumat anda.</p>
-    <p>Mulai Mac 2020, segala maklumat baru yang diberikan bakal mengambil masa maksimum 48 jam waktu bekerja untuk proses permohonan &amp; pendaftaran bagi tujuan semakan terlebih dahulu dengan maklumat sedia ada bagi mengelakkan pertindihan.</p>
-    <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
+    <p class='mb-2'>Merujuk kepada notis &#40;<a href='../2020/02'>NtsMARS2020/02</a>&#41;, ingin dimaklumkan bahawa kami akan menyambung semula pengeluaran sijil dan kad QSL pada setiap acara yang telah dirancang sepanjang tahun 2023.</p>
+    <p>Segala sijil dan kad QSL anda akan dikemaskini dari masa ke semasa dan boleh didapati di laman sesawang <a href='http://ftp.roipmars.org.my'>ftp.roipmars.org.my</a>.</p>
+    <p>Diharap pihak tuan dapat memaklumkan perkara ini kepada rakan-rakan dan sahabat handai. Sokongan dan bantuan anda semua dapat membantu usaha kami untuk kekal aktif dan relevan sepanjang masa.</p>
+    <p>Jutaan terima kasih kami ucapkan atas segala sokongan anda.</p>
     <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
     <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
     <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>

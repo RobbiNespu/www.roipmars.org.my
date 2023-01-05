@@ -207,7 +207,7 @@
               <tr><td>1</td><td>Sabtu</td><td>07 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6AZE</td><td></td></tr>
               <tr><td>1</td><td>Ahad</td><td>08 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYKB</td><td></td></tr>
               <tr><td>2</td><td>Rabu</td><td>11 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RHM</td><td></td></tr>
-              <tr><td>2</td><td>Jumaat</td><td>13 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9M2VVH</td><td></td></tr>
+              <tr><td>2</td><td>Jumaat</td><td>13 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>VACANT</td><td></td></tr>
               <tr bgcolor='#336699'><td>2</td><td>Sabtu</td><td>14 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td></td></tr>
               <tr><td>2</td><td>Ahad</td><td>15 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>
               <tr><td>3</td><td>Rabu</td><td>18 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RDY</td><td></td></tr>
@@ -257,7 +257,7 @@
             <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
             <tbody>
               <tr><td>9</td><td>Rabu</td><td>01 Mac 2023</td><td>9:00PM</td><td>English Net</td><td>9W6RHN</td><td></td></tr>
-              <tr><td>9</td><td>Jumaat</td><td>03 Mac 2023</td><td>9:00PM</td><td>MARS Net</td><td>9M2VVH</td><td></td></tr>
+              <tr><td>9</td><td>Jumaat</td><td>03 Mac 2023</td><td>9:00PM</td><td>MARS Net</td><td>VACANT</td><td></td></tr>
               <tr bgcolor='#336699'><td>9</td><td>Sabtu</td><td>04 Mac 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Ulang Tahun Pertabalan Sultan Terengganu&#41;</td><td>9W6PKJ</td><td></td></tr>
               <tr><td>9</td><td>Ahad</td><td>05 Mac 2023</td><td>9:00PM</td><td>CB Net<br></td><td>113DAPLY</td><td></td></tr>
               <tr bgcolor='#56C3E7'><td>10</td><td>Rabu</td><td>08 Mac 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;International Women&#39;s Day&#41;</td><td>9W8VWW</td><td></td></tr>

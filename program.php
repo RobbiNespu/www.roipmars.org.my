@@ -236,9 +236,9 @@
               <tr><td>Ahad</td><td>12 Feb 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAJCP</td><td></td></tr>
               <tr><td>Rabu</td><td>15 Feb 2023</td><td>9:00PM</td><td>English Net</td><td>9W2EZK</td><td></td></tr>
               <tr><td>Jumaat</td><td>17 Feb 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2YJT</td><td></td></tr>
-              <tr class='table-dark'><td>&mdash;</td><td>Sabtu</td><td>18 Feb 2023</td><td>8:00PM - 12:00AM</td><td>Hangout &amp; BBQ TeamSpeak3 Malaysia</a><td>Kalumpang Resort</td><td><a href='https://forms.gle/KM8MaH4ivfLN3v7N8' target='_blank'>RSVP</a></td></tr>
+              <tr class='table-dark'><td>Sabtu</td><td>18 Feb 2023</td><td>8:00PM - 12:00AM</td><td>Hangout &amp; BBQ TeamSpeak3 Malaysia</a><td>Kalumpang Resort</td><td><a href='https://forms.gle/KM8MaH4ivfLN3v7N8' target='_blank'>RSVP</a></td></tr>
               <tr bgcolor='#336699'><td>Sabtu</td><td>18 Feb 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Israk Mikraj&#41;</td><td>9M2KZI</td><td></td></tr>
-              <tr class='table-dark'><td>&mdash;</td><td>Ahad</td><td>19 Feb 2023</td><td>9:00AM - 12:00PM</td><td>Mesyuarat Agung 2022</td><td>Kalumpang Resort</td><td><a href='https://forms.gle/KM8MaH4ivfLN3v7N8' target='_blank'>RSVP</a></td></tr>
+              <tr class='table-dark'><td>Ahad</td><td>19 Feb 2023</td><td>9:00AM - 12:00PM</td><td>Mesyuarat Agung 2022</td><td>Kalumpang Resort</td><td><a href='https://forms.gle/KM8MaH4ivfLN3v7N8' target='_blank'>RSVP</a></td></tr>
               <tr><td>Ahad</td><td>19 Feb 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYKB</td><td></td></tr>
               <tr bgcolor='#56C3E7'><td>Rabu</td><td>22 Feb 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Thinking Day&#41;</td><td>9M6JAY</td><td></td></tr>
               <tr><td>Jumaat</td><td>24 Feb 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W8VYY</td><td></td></tr>

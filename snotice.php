@@ -155,6 +155,12 @@
         <tbody class='align-middle'>
 
           <tr>
+            <td>07 Jan 2023</td>
+            <td>Gangguan Sambungan Berjadual RoIPDarulAman</td>
+            <td class='text-end'>NtsMARS2023/02</td>
+            <td class='text-start'><a href='nts/2023/02' target='_blank'><button type='button' class='btn btn-outline-secondary btn-sm rounded-pill'>Baca Lanjut...</button></a></td>
+          </tr>
+          <tr>
             <td>05 Jan 2023</td>
             <td>Makluman Sijil NCS &amp; Kad QSL 2023</td>
             <td class='text-end'>NtsMARS2023/01</td>

@@ -199,15 +199,15 @@
         <p class='fs-3 bg-light text-center'>Januari 2023</p>
         <div class='table-responsive'>
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr bgcolor='#D71110'><td>52</td><td>Ahad</td><td>01 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru 2023&#41;</td><td>113DAJCP</td><td>23</td></tr>
-              <tr bgcolor='#56C3E7'><td>1</td><td>Rabu</td><td>04 Jan 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td>9M6JAY</td><td></td></tr>
+              <tr bgcolor='#56C3E7'><td>1</td><td>Rabu</td><td>04 Jan 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td>9M6JAY</td><td><i class='fa-solid fa-triangle-exclamation' style='color:Tomato'></i></td></tr>
               <tr><td>1</td><td>Jumaat</td><td>06 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W8VYY</td><td></td></tr>
               <tr><td>1</td><td>Sabtu</td><td>07 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6AZE</td><td></td></tr>
               <tr><td>1</td><td>Ahad</td><td>08 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYKB</td><td></td></tr>
               <tr><td>2</td><td>Rabu</td><td>11 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RHM</td><td></td></tr>
-              <tr><td>2</td><td>Jumaat</td><td>13 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>VACANT</td><td></td></tr>
+              <tr><td>2</td><td>Jumaat</td><td>13 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
               <tr bgcolor='#336699'><td>2</td><td>Sabtu</td><td>14 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td></td></tr>
               <tr><td>2</td><td>Ahad</td><td>15 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>
               <tr><td>3</td><td>Rabu</td><td>18 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RDY</td><td></td></tr>
@@ -224,7 +224,7 @@
         <p class='fs-3 bg-light text-center'>Februari 2023</p>
         <div class='table-responsive'>
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr bgcolor='#56C3E7'><td>5</td><td>Rabu</td><td>01 Feb 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Federal Territory Day&#41;</td><td>9W2SFT</td><td></td></tr>
               <tr><td>5</td><td>Jumaat</td><td>03 Feb 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6AFF</td><td></td></tr>
@@ -254,10 +254,10 @@
               <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
               <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
             </ul></capton>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr><td>9</td><td>Rabu</td><td>01 Mac 2023</td><td>9:00PM</td><td>English Net</td><td>9W6RHN</td><td></td></tr>
-              <tr><td>9</td><td>Jumaat</td><td>03 Mac 2023</td><td>9:00PM</td><td>MARS Net</td><td>VACANT</td><td></td></tr>
+              <tr><td>9</td><td>Jumaat</td><td>03 Mac 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
               <tr bgcolor='#336699'><td>9</td><td>Sabtu</td><td>04 Mac 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Ulang Tahun Pertabalan Sultan Terengganu&#41;</td><td>9W6PKJ</td><td></td></tr>
               <tr><td>9</td><td>Ahad</td><td>05 Mac 2023</td><td>9:00PM</td><td>CB Net<br></td><td>113DAPLY</td><td></td></tr>
               <tr bgcolor='#56C3E7'><td>10</td><td>Rabu</td><td>08 Mac 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;International Women&#39;s Day&#41;</td><td>9W8VWW</td><td></td></tr>
@@ -291,7 +291,7 @@
               <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
               <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
             </ul></capton>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr><td>13</td><td>Sabtu</td><td>01 Apr 2023</td><td>4:00AM</td><td>Sahur Net #10</td><td></td><td></td></tr>
               <tr bgcolor='#336699'><td>13</td><td>Ahad</td><td>02 Apr 2023</td><td>4:00AM</td><td>&#91;KHAS&#93; Sahur Net #11<br>&#40;Hari Kesedaran Autisme Sedunia&#41;</td><td></td><td></td></tr>
@@ -328,7 +328,7 @@
         <p class='fs-3 bg-light text-center'>Mei 2023</p>
         <div class='table-responsive'>
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr bgcolor='#336699'><td>18</td><td>Isnin</td><td>01 Mei 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Pekerja&#41;</td><td></td><td></td></tr>
               <tr><td>18</td><td>Rabu</td><td>03 Mei 2023</td><td>9:00PM</td><td>English Net</td><td></td><td></td></tr>
@@ -358,7 +358,7 @@
               <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
               <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
             </ul></capton>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr bgcolor='#336699'><td>22</td><td>Khamis</td><td>01 Jun 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Ulang Tahun Persatuan Ke-3&#41;</td><td></td><td></td></tr>
               <tr bgcolor='#336699'><td>22</td><td>Jumaat</td><td>02 Jun 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Gawai&#41;</td><td></td><td></td></tr>
@@ -384,7 +384,7 @@
         <p class='fs-3 bg-light text-center'>Julai 2023</p>
         <div class='table-responsive'>
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr><td>26</td><td>Sabtu</td><td>01 Jul 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
               <tr><td>26</td><td>Ahad</td><td>02 Jul 2023</td><td>9:00PM</td><td>CB Net</td><td></td><td></td></tr>
@@ -410,7 +410,7 @@
         <p class='fs-3 bg-light text-center'>Ogos 2023</p>
         <div class='table-responsive'>
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr><td>31</td><td>Rabu</td><td>02 Ogo 2023</td><td>9:00PM</td><td>English Net</td><td></td><td></td></tr>
               <tr><td>31</td><td>Jumaat</td><td>04 Ogo 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
@@ -440,7 +440,7 @@
         <p class='fs-3 bg-light text-center'>September 2023</p>
         <div class='table-responsive'>
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr bgcolor='#6f42c1'><td>35</td><td>Jumaat</td><td>01 Sep 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66Mx&#41;</td><td></td><td></td></tr>
               <tr><td>35</td><td>Sabtu</td><td>02 Sep 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
@@ -466,7 +466,7 @@
         <p class='fs-3 bg-light text-center'>Oktober 2023</p>
         <div class='table-responsive'>
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr bgcolor='#D71110'><td>39</td><td>Ahad</td><td>01 Okt 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Kopi Antarabangsa&#41;</td><td></td><td></td></tr>
               <tr bgcolor='#56C3E7'><td>40</td><td>Rabu</td><td>04 Okt 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Animal Day&#41;</td><td></td><td></td></tr>
@@ -497,7 +497,7 @@
         <p class='fs-3 bg-light text-center'>November 2023</p>
         <div class='table-responsive'>
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr><td>44</td><td>Rabu</td><td>01 Nov 2023</td><td>9:00PM</td><td>English Net</td><td></td><td></td></tr>
               <tr><td>44</td><td>Jumaat</td><td>03 Nov 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
@@ -522,7 +522,7 @@
         <p class='fs-3 bg-light text-center'>Disember 2023</p>
         <div class='table-responsive'>
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
-            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Keputusan</th></thead>
+            <thead><th>Minggu</th><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr bgcolor='#336699'><td>48</td><td>Jumaat</td><td>01 Dis 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari AIDS Sedunia&#41;</td><td></td><td></td></tr>
               <tr><td>48</td><td>Sabtu</td><td>02 Dis 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>

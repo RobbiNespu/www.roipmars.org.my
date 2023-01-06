@@ -162,14 +162,14 @@
             <td>
               <div class='hstack gap-1'>
                 <a type='button' class='btn btn-sm btn-primary rounded-pill' data-bs-toggle='modal' data-bs-target='#roscertModalLong'>Sijil Kelulusan Pertubuhan</a>
-                <a type='button' class='btn btn-sm btn-info rounded-pill mx-auto' href='https://ftp.roipmars.org.my/members/mars-perlembagaan.pdf'>Perlembagaan Pertubuhan</a>
+                <a type='button' class='btn btn-sm btn-info rounded-pill mx-auto' href='https://ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf'>Perlembagaan Pertubuhan</a>
                 <a type='button' class='btn btn-sm btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
               </div>
               <br>
               <div class='vstack gap-1'>
                 <a type='button' class='btn btn-primary btn-block rounded-pill' href='https://bit.ly/daftarmars' target='_blank'>Borang Permohonan Keahlian &#91;<i class='fa-brands fa-google'></i>&#93;</a>
                 <a type='button' class='btn btn-secondary btn-block rounded-pill' href='https://bit.ly/borangdaftarroipmars*' target='_blank'>Borang Permohonan Keahlian &#91;<i class='fa-solid fa-signature'></i>&#93;</a>
-                <a type='button' class='btn btn-success btn-block rounded-pill' href='https://ftp.roipmars.org.my/members/pprk_manualregform.pdf' download>Borang Permohonan Keahlian &#91;<i class='fa-solid fa-file-pdf'></i>&#93;</a>
+                <a type='button' class='btn btn-success btn-block rounded-pill' href='https://ftp.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Borang Permohonan Keahlian &#91;<i class='fa-solid fa-file-pdf'></i>&#93;</a>
               </div>
             </td>
           </tr>

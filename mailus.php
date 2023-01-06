@@ -239,7 +239,7 @@
 	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
 	<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
-  <script> document.querySelector('#darkmode-button').onclick = function(e){ darkmode.toggleDarkMode(); } </script>
+  <script>document.querySelector('#darkmode-button').onclick = function(e){ darkmode.toggleDarkMode(); }</script>
 	<script src='./vendor/mail/contact.js'></script>
   <script src='./vendor/mail/jqBootstrapValidation.js'></script>
   <script src='https://challenges.cloudflare.com/turnstile/v0/api.js' async defer></script>

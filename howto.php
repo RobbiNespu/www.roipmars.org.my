@@ -49,7 +49,6 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-  <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
       w[l] = w[l] || [];
@@ -66,8 +65,6 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PHLPNS8');
   </script>
-  <!-- End Google Tag Manager -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -78,11 +75,7 @@
     gtag('js', new Date());
     gtag('config', 'G-DJYTZHZXFN');
   </script>
-  <!-- End Global site tag (gtag.js) - Google Analytics -->
-  <!-- Google AdSense -->
   <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-  <!-- End Google AdSense -->
-  <!-- Clarity tracking code for https://www.roipmars.org.my/ -->
   <script>
     (function(c, l, a, r, i, t, y) {
       c[a] = c[a] || function() {
@@ -98,7 +91,6 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
   <noscript><iframe class='rounded-5' src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <nav class='navbar sticky-top navbar-expand-lg navbar-light bg-light'>
@@ -721,8 +713,7 @@
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
-  <script> document.querySelector('#darkmode-button').onclick = function(e){ darkmode.toggleDarkMode(); } </script>
-  <!--Start of Tawk.to Script-->
+  <script>document.querySelector('#darkmode-button').onclick = function(e){ darkmode.toggleDarkMode(); }</script>
   <script type='text/javascript'>
     var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     (function(){
@@ -734,7 +725,6 @@
       s0.parentNode.insertBefore(s1,s0);
     })();
   </script>
-  <!--End of Tawk.to Script-->
 </body>
 
 </html>

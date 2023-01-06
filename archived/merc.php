@@ -44,7 +44,6 @@
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-  <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
       w[l] = w[l] || [];
@@ -60,8 +59,6 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PHLPNS8');
   </script>
-  <!-- End Google Tag Manager -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -69,11 +66,7 @@
     gtag('js', new Date());
     gtag('config', 'G-DJYTZHZXFN');
   </script>
-  <!-- End Global site tag (gtag.js) - Google Analytics -->
-  <!-- Google AdSense -->
   <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-  <!-- End Google AdSense -->
-  <!-- Clarity tracking code for https://www.roipmars.org.my/ -->
   <script>
     (function(c, l, a, r, i, t, y) {
       c[a] = c[a] || function() {
@@ -89,10 +82,7 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- Messenger Chat plugin -->
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script>
@@ -116,7 +106,6 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
-  <!-- End Messenger Chat plugin -->
   <!-- Messenger Chat plugin Code -->
   <div id="fb-root"></div>
   <!-- Your Chat plugin code -->

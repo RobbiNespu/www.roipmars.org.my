@@ -202,10 +202,10 @@
             <thead><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
               <tr bgcolor='#D71110'><td>Ahad</td><td>01 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru 2023&#41;</td><td>113DAJCP</td><td>22</td></tr>
-              <tr bgcolor='#56C3E7'><><td>Rabu</td><td>04 Jan 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td>9M6JAY</td><td><i class='fa-solid fa-circle-exclamation fa-2x' style='color:yellow'></i></td></tr>
-              <tr><><td>Jumaat</td><td>06 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W8VYY</td><td><i class='fa-solid fa-triangle-exclamation fa-2x' style='color:darkred'></i></td></tr>
-              <tr><><td>Sabtu</td><td>07 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6AZE</td><td></td></tr>
-              <tr><><td>Ahad</td><td>08 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYKB</td><td></td></tr>
+              <tr bgcolor='#56C3E7'><td>Rabu</td><td>04 Jan 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td>9M6JAY</td><td><i class='fa-solid fa-circle-exclamation fa-2x' style='color:yellow'></i></td></tr>
+              <tr><td>Jumaat</td><td>06 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W8VYY</td><td><i class='fa-solid fa-triangle-exclamation fa-2x' style='color:darkred'></i></td></tr>
+              <tr><td>Sabtu</td><td>07 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6AZE</td><td></td></tr>
+              <tr><td>Ahad</td><td>08 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYKB</td><td></td></tr>
               <tr><td>Rabu</td><td>11 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RHM</td><td></td></tr>
               <tr><td>Jumaat</td><td>13 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td></td><td></td></tr>
               <tr bgcolor='#336699'><td>Sabtu</td><td>14 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td></td></tr>

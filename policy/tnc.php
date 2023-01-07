@@ -10,18 +10,18 @@
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
   <meta name='title' content='RoIPMARS | Terma & Syarat'>
-  <meta name='description' content='Malaysian Amateur RoIP Society (MARS) Terma & Syarat'>
+  <meta name='description' content='Persatuan Peminat Radio Komunikasi (RoIP) Terma & Syarat'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
   <meta property='og:title' content='RoIPMARS | Terma & Syarat'>
-  <meta property='og:description' content='Malaysian Amateur RoIP Society (MARS) Terma & Syarat'>
+  <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Terma & Syarat'>
   <meta property='og:url' content='https://www.roipmars.org.my/policy/tnc'>
   <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='RoIPMARS | Terma & Syarat'>
-  <meta name='twitter:description' content='Malaysian Amateur RoIP Society (MARS) Terma & Syarat'>
+  <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Terma & Syarat'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/policy/tnc'>
   <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>

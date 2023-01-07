@@ -93,7 +93,7 @@
     <div class='col-sm-12 pb-2 text-center text-uppercase'>
       <table class='table table-lg' id='memberlist'>
         <thead class='table-dark sticky-top'>
-          <th>ID</th><th>Callsign</th><th><input class='form-control form-control-sm text-center rounded-5' type='text' id='nameInput' onkeyup='nameSrch()' placeholder='Nama Ahli' title='Carian menggunakan Nama Ahli'></th><th>Tarikh <i class='fa-solid fa-triangle-exclamation' style='color: red'></i></th><th>Status</th>
+          <th>ID</th><th>Callsign</th><th><input class='form-control form-control-sm text-center rounded-5' type='text' id='nameInput' onkeyup='nameSrch()' placeholder='Nama Ahli' title='Carian menggunakan Nama Ahli'></th><th>Tarikh Luput</i></th><th>Status</th>
         </thead>
         <tbody>
           <tr><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>DIS 2023</td><td><i class='fa-solid fa-circle-check' style='color: green'></i></td></tr>

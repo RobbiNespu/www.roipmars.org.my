@@ -71,7 +71,6 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   <div class='container-fluid' id='map'></div>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.2/leaflet.min.js' crossorigin='anonymous'></script>

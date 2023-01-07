@@ -89,7 +89,6 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   <div class='container'>
     <h1 class='tk-gilbert-color text-center'>RoIPMARS Group</h1>
     <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash; kopdarmobile.net &mdash; plnroip.net &mdash;</h4>

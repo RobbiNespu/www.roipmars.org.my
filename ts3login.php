@@ -88,7 +88,6 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   <h1 class='text-center bg-light py-3'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='300'><br>Comm Apps Login</h1>
   <div class='container'>
     <div class='row'>

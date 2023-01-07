@@ -88,7 +88,6 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   <div class='container'>
     <div class='row'>
       <h1 class='text-center'>Dasar Privasi<br>PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)]</h1>

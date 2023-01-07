@@ -88,7 +88,6 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   <div class='container'>
     <div class='row'>
       <h2 class='text-center'><strong>Terma dan Syarat</strong></h2>

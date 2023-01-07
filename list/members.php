@@ -88,7 +88,6 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   <div class='container-fluid'>
     <div class='col-sm-12 pb-2 text-center text-uppercase'>
       <table class='table table-lg' id='memberlist'>

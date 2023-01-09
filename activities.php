@@ -147,20 +147,18 @@
   </div>
   <div class='container'>
     <div class='row'>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/042.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/041.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/040.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/039.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/038.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/037.jpg'></div>
-    </div>
-    <div class='row'>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/036.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/035.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/034.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/033.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/032.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/031.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/042.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/041.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/040.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/039.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/038.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/037.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/036.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/035.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/034.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/033.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/032.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/031.jpg'></div>
     </div>
     <div class='row'>
       <div class='col-12 m-0 p-1'>
@@ -186,44 +184,36 @@
       </div>
     </div>
     <div class='row'>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/030.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/029.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/028.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/027.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/026.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/025.jpg'></div>
-    </div>
-    <div class='row'>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/024.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/023.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/022.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/021.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/020.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/019.jpg'></div>
-    </div>
-    <div class='row'>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/018.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/017.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/016.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/015.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/014.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/013.jpg'></div>
-    </div>
-    <div class='row'>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/012.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/011.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/010.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/009.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/008.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/007.jpg'></div>
-    </div>
-    <div class='row'>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/006.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/005.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/004.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/003.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/002.jpg'></div>
-      <div class='col-xxl-6 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/001.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/030.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/029.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/028.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/027.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/026.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/025.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/024.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/023.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/022.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/021.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/020.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/019.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/018.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/017.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/016.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/015.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/014.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/013.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/012.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/011.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/010.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/009.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/008.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/007.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/006.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/005.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/004.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/003.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/002.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/001.jpg'></div>
     </div>
   </div>
   <footer class='footer mt-auto py-1 page-footer font-small bg-light'>

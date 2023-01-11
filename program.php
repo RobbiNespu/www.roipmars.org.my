@@ -196,7 +196,7 @@
               <tr><td>Jumaat</td><td>06 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W8VYY</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
               <tr><td>Sabtu</td><td>07 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6AZE</td><td>37</td></tr>
               <tr><td>Ahad</td><td>08 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYJT</td><td>31</td></tr>
-              <tr><td>Rabu</td><td>11 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RHM</td><td></td></tr>
+              <tr><td>Rabu</td><td>11 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M2RAN</td><td>34</td></tr>
               <tr><td>Jumaat</td><td>13 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2EZK</td><td></td></tr>
               <tr bgcolor='#336699'><td>Sabtu</td><td>14 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td></td></tr>
               <tr><td>Ahad</td><td>15 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>

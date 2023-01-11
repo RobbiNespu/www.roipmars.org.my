@@ -131,9 +131,9 @@
           <li class='nav-item'><a class='nav-link' href='member'>Keahlian</a></li>
           <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
           <!--<li class='nav-item'><a class='nav-link' href='mailus'>Hubungi Kami</a></li>-->
-          <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='fa-solid fa-store'></i> Kedai</a></li>
-          <!--<li class='nav-item'><a class='nav-link' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='fa-solid fa-user-shield'></i> Portal Ahli</a></li>-->
-          <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='fa-solid fa-download'></i> Muat Turun</a></li>
+          <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi bi-cart4'></i> Kedai</a></li>
+          <!--<li class='nav-item'><a class='nav-link' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi bi-person-vcard'></i> Portal Ahli</a></li>-->
+          <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi bi-download'></i> Muat Turun</a></li>
         </ul>
       </div>
   </nav>
@@ -161,7 +161,7 @@
             <tr bgcolor='#D71110'><td>Ahad</td><td>09:00PM</td><td>CB Net</td><td>ROIPDARULAMAN</td></tr>
           </tbody>
         </table>
-        <p class='text-center'>Bagi individu / kelab yang berminat untuk menjalankan Aktiviti 'Special Net' bersempena dengan apa-apa acara / hari diluar jadual kami, anda boleh berhubung terus dengan Pegawai Pengelola Aktiviti / Siaraya kami <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/601112308482'><i class='fab fa-whatsapp'></i> Zikry</a> atau <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/60196293718'><i class='fab fa-whatsapp'></i> Rozaiman</a>.</p>
+        <p class='text-center'>Bagi individu / kelab yang berminat untuk menjalankan Aktiviti 'Special Net' bersempena dengan apa-apa acara / hari diluar jadual kami, anda boleh berhubung terus dengan Pegawai Pengelola Aktiviti / Siaraya kami <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/601112308482'><i class='bi bi-whatsapp'></i> Zikry</a> atau <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/60196293718'><i class='bi bi-whatsapp'></i> Rozaiman</a>.</p>
       </div>
       <div class='col-lg-7 my-2'>
         <div class='row'>

@@ -112,9 +112,9 @@
           <li class='nav-item'><a class='nav-link' href='member'>Keahlian</a></li>
           <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
           <!--<li class='nav-item'><a class='nav-link' href='mailus'>Hubungi Kami</a></li>-->
-          <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='fa-solid fa-store'></i> Kedai</a></li>
-          <!--<li class='nav-item'><a class='nav-link' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='fa-solid fa-user-shield'></i> Portal Ahli</a></li>-->
-          <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='fa-solid fa-download'></i> Muat Turun</a></li>
+          <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi bi-cart4'></i> Kedai</a></li>
+          <!--<li class='nav-item'><a class='nav-link' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi bi-person-vcard'></i> Portal Ahli</a></li>-->
+          <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi bi-download'></i> Muat Turun</a></li>
         </ul>
       </div>
     </div>
@@ -136,20 +136,20 @@
           <tbody>
             <tr>
               <th scope='row' class='align-middle'>Sistem Operasi</th>
-              <td>Windows <i class='fa-brands fa-windows'></i><br>Windows 7 SP1 dan keatas<br>32-bit dan 64-bit</td>
-              <td>Linux <i class='fa-brands fa-linux'></i><br>Sebarang pengedaran Linux terkini dengan libstdc++6<br>32-bit dan 64-bit</td>
-              <td>Mac <i class='fa-brands fa-apple'></i><br>macOS 11.0 atau lebih baharu dan Mac dengan cip Apple M1 atau lebih baharu.</td>
+              <td>Windows <i class='bi bi-windows'></i><br>Windows 7 SP1 dan keatas<br>32-bit dan 64-bit</td>
+              <td>Linux <i class='bi bi-ubuntu'></i><br>Sebarang pengedaran Linux terkini dengan libstdc++6<br>32-bit dan 64-bit</td>
+              <td>Mac <i class='bi bi-apple'></i><br>macOS 11.0 atau lebih baharu dan Mac dengan cip Apple M1 atau lebih baharu.</td>
             </tr>
             <tr>
-              <th scope='row'>Unit Pemprosesan Pusat <i class='fa-solid fa-microchip'></i></th>
+              <th scope='row'>Unit Pemprosesan Pusat <i class='bi bi-cpu'></i></th>
               <td colspan='3'>CPU berkebolehan SSE2</td>
             </tr>
             <tr>
-              <th scope='row' class='align-middle'>Memori Capaian Rawak &#40;RAM&#41; <i class='fa-solid fa-memory'></i></th>
+              <th scope='row' class='align-middle'>Memori Capaian Rawak &#40;RAM&#41; <i class='bi bi-memory'></i></th>
               <td colspan='3'>Minima 1GB RAM &#40;DISYORKAN&#41;<br>Sesetengah OS mungkin memerlukan lebih banyak memori untuk berjalan dengan lancar.</td>
             </tr>
             <tr>
-              <th scope='row'>Pemacu Storan <i class='fa-solid fa-hard-drive'></i></th>
+              <th scope='row'>Pemacu Storan <i class='bi bi-device-hdd'></i></th>
               <td colspan='3'>60-512MB ruang kosong (bergantung pada OS)</td>
             </tr>
             <tr>

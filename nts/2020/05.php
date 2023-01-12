@@ -101,29 +101,18 @@
     <p class='mb-2'>Berhubung perkara diatas, pihak pengurusan MARS Group melarang keras untuk anda menghantar borang berkali-kali untuk penukaran maklumat seperti Isyarat Panggilan, Rangkaian ataupun maklumat lain yang berkaitan.</p>
     <p>Bagi penukaran maklumat, boleh berbuat demikian melalui salah satu cara dibawah:
     <ol type='a'>
-      <li>email maklumat yang telah anda hantar (submit) dan juga maklumat baru yang ingin ditukar <strong>kepada <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a> BERSERTA DENGAN RESIT DONASI</strong> (minimum RM 10.00) melalui CDM/Bank Transfer kepada no akaun yang tertera di bawah</li>
-      <li>mengisi borang sekali lagi BESERTA DENGAN RESIT DONASI (minimum RM 10.00) melalui CDM/Bank Transfer kepada no akaun yang tertera di bawah dan <strong>dihantar bersama borang tersebut (upload diruangan resit sebelum submit)</strong> <sub>Borang kedua yang diisi tanpa sumbangan tidak akan diterima</sub></li>
+      <li>email maklumat yang telah anda hantar (submit) dan juga maklumat baru yang ingin ditukar <strong>kepada <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member@roipmars.org.my</a> BERSERTA DENGAN RESIT SUMBANGAN</strong> (minimum RM 10.00) ke akaun yang tertera di bawah</li>
+      <li>mengisi borang sekali lagi BERSERTA DENGAN RESIT SUMBANGAN (minimum RM 10.00) ke akaun yang tertera di bawah dan <strong>dihantar bersama borang tersebut (upload diruangan resit sebelum submit)</strong> <sub>Borang kedua yang diisi tanpa resit sumbangan akan ditolak</sub></li>
     </ol>
     <table class='table table-sm table-bordered border-dark text-center my-0'>
-      <tr>
-        <td>Nama</td>
-        <td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td>
-      </tr>
-      <tr>
-        <td>Bank</td>
-        <td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td>
-      </tr>
-      <tr>
-        <td>Akaun</td>
-        <td>1214 0000 4377 12</td>
-      </tr>
+      <tr><td>Nama</td><td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
+      <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
+      <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
     </table>
-    <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600'); return false;'><img src='../../images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open('https://toyyibpay.com/sumbanganroipmars', 'FPX Donation', 'width=800,height=600'); return false;'><img src='../../images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600'); return false;'><i class='fa-regular fa-credit-card'></i></i></a></p>
-    </p>
-    <p>Tujuan larangan adalah bagi memudahkan tugas penjaga maklumat untuk menyimpan rekod maklumat anda.</p>
+    <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi bi-credit-card fs-4 align-middle'></i></a></p>
     <p>Mulai Mac 2020, segala maklumat baru yang diberikan bakal mengambil masa maksimum 48 jam waktu bekerja untuk proses permohonan &amp; pendaftaran bagi tujuan semakan terlebih dahulu dengan maklumat sedia ada bagi mengelakkan pertindihan.</p>
     <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
-    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member@roipmars.org.my</a></p>
     <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
     <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>
   </div>

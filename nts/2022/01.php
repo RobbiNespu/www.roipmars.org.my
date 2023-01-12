@@ -125,7 +125,7 @@
       </table>
     </div>
     <p>Juga dimaklumkan bahawa pelayan &amp; domain roipmars.com akan dihenti tugas pada waktu akhir pindahan dan semua akses akan dipautkan ke roipmars.org.my</p>
-    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2201'>member@roipmars.org.my</a></p>
     <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
     <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>
   </div>

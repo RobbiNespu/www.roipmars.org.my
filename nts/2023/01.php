@@ -101,7 +101,7 @@
     <p>Segala sijil dan kad QSL anda akan dikemaskini dari masa ke semasa dan boleh didapati di laman sesawang <a href='http://ftp.roipmars.org.my'>ftp.roipmars.org.my</a>.</p>
     <p>Diharap pihak tuan dapat memaklumkan perkara ini kepada rakan-rakan dan sahabat handai. Sokongan dan bantuan anda semua dapat membantu usaha kami untuk kekal aktif dan relevan sepanjang masa.</p>
     <p>Jutaan terima kasih kami ucapkan atas segala sokongan anda.</p>
-    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2301'>member@roipmars.org.my</a></p>
     <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
     <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>
   </div>

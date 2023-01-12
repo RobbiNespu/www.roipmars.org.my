@@ -16,7 +16,7 @@
   <meta property='og:site_name' content='RoIPMARS'>
   <meta property='og:title' content='RoIPMARS | Gangguan Sambungan Berjadual RoIPDarulAman'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Gangguan Sambungan Berjadual RoIPDarulAman'>
-  <meta property='og:url' content='https://www.roipmars.org.my/nts/2023/01'>
+  <meta property='og:url' content='https://www.roipmars.org.my/nts/2023/02'>
   <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
@@ -119,7 +119,7 @@
       </table>
     </p>
     <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami pohon dari Pihak Pengurusan Kumpulan RoIPMARS kepada anda semua.</p>
-    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a></p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2302'>member@roipmars.org.my</a></p>
     <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
     <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>
   </div>

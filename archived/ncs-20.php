@@ -1766,7 +1766,7 @@
         <hr class='w-100 clearfix d-md-none'>
         <div class='col-md-5 col-lg-5 col-xl-5 mx-auto my-1 text-end'>
           <h5 class='text-uppercase mb-2 font-weight-bold'>Hubungi Kami</h5>
-          <p><i class='fa-solid fa-envelope'></i> <a href='mailto:member@roipmars.org.my' class='text-dark text-decoration-none'>member<i class='fas fa-at'></i>roipmars.org.my</a></p>
+          <p><i class='bi bi-envelope-at'></i> <a href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website' class='text-dark text-decoration-none'>member@roipmars.org.my</a></p>
           <div class='d-flex justify-content-end'>
             <img class='img-fluid rounded-5' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
           </div>
@@ -1776,7 +1776,7 @@
     <div class='container-fluid'>
       <div class='row mt-5 mb-0 d-flex align-middle'>
         <div class='col-md-8 col-lg-8 col-xl-8'>
-          <p class='text-start font-monospace'><a href='policies' class='text-dark text-decoration-none font-monospace'>Polisi Perkhidmatan</a><br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
+          <p class='text-start font-monospace'><a href='policies' class='text-dark text-decoration-none font-monospace'>Polisi Perkhidmatan</a><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
         </div>
         <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
           <div class='text-end text-decoration-none'>

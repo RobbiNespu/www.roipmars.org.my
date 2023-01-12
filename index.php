@@ -222,7 +222,7 @@
           </div>
             <p>Kepada INDIVIDU atau KELAB, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS.</p>
             <p>Kami juga menyediakan perkhidmatan komunikasi buat SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan.</p>
-            <p>Pasukan teknikal kami sedia membantu anda. Hubungi kami di <a class='text-primary text-decoration-none' href='mailto:member@roipmars.org.my'>member@roipmars.org.my</a> untuk sebarang pertanyaan dan permohonan.</p>
+            <p>Pasukan teknikal kami sedia membantu anda. Hubungi kami di <a class='text-primary text-decoration-none' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member@roipmars.org.my</a> untuk sebarang pertanyaan dan permohonan.</p>
           <h6 class='text-end'>'JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI'</h6>
           <p class='text-end'>Tulus Ikhlas, Pengurusan RoIPMARS</p>
         </div>
@@ -285,13 +285,13 @@
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
             <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
           </table>
-          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid' width='50px'></a> dan <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='fa-regular fa-credit-card'></i></i></a></p>
-          <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;<br>&mdash; KEHADIRAN ANDA KEBANGGAAN KAMI &mdash;</p>
+          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;</p>
         </div>
         <hr class='w-100 clearfix d-md-none'>
         <div class='col-md-5 col-lg-5 col-xl-5 mx-auto my-1 text-end'>
           <h5 class='text-uppercase mb-2 font-weight-bold'>Hubungi Kami</h5>
-          <p><i class='fa-solid fa-envelope'></i> <a href='mailto:member@roipmars.org.my' class='text-dark text-decoration-none'>member<i class='fas fa-at'></i>roipmars.org.my</a></p>
+          <p><i class='bi bi-envelope-at'></i> <a href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website' class='text-dark text-decoration-none'>member@roipmars.org.my</a></p>
           <div class='d-flex justify-content-end'>
             <img class='img-fluid rounded-5' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
           </div>
@@ -301,7 +301,7 @@
     <div class='container-fluid'>
       <div class='row mt-5 mb-0 d-flex align-middle'>
         <div class='col-md-8 col-lg-8 col-xl-8'>
-          <p class='text-start font-monospace'><a href='policies' class='text-dark text-decoration-none font-monospace'>Polisi Perkhidmatan</a><br>&copy;2014-<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
+          <p class='text-start font-monospace'><a href='policies' class='text-dark text-decoration-none font-monospace'>Polisi Perkhidmatan</a><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
         </div>
         <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
           <div class='text-end text-decoration-none'>

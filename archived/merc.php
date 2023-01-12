@@ -457,7 +457,7 @@
     <div class="container-fluid">
       <div class="row mt-5 mb-0 d-flex align-middle">
         <div class="col-md-8 col-lg-8 col-xl-8 text-muted">
-          <p class="text-start"><a href="../policies" class="text-muted text-decoration-none">Polisi Perkhidmatan</a><br>&copy;2014-<script>
+          <p class="text-start"><a href="../policies" class="text-muted text-decoration-none">Polisi Perkhidmatan</a><br>&copy;2014&mdash;<script>
               document.write(new Date().getFullYear())
             </script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;</p>
         </div>

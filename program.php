@@ -193,7 +193,7 @@
             <tbody>
               <tr bgcolor='#D71110'><td>Ahad</td><td>01 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru 2023&#41;</td><td>113DAJCP</td><td>22</td></tr>
               <tr bgcolor='#56C3E7'><td>Rabu</td><td>04 Jan 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td>9M6JAY</td><td>17</td></tr>
-              <tr><td>Jumaat</td><td>06 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W8VYY</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
+              <tr class='text-danger text-decoration-line-through'><td>Jumaat</td><td>06 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W8VYY</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
               <tr><td>Sabtu</td><td>07 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6AZE</td><td>37</td></tr>
               <tr><td>Ahad</td><td>08 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYJT</td><td>31</td></tr>
               <tr><td>Rabu</td><td>11 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M2RAN</td><td>34</td></tr>
@@ -544,9 +544,10 @@
       <div class='col-12 my-2 d-block mx-auto'>
         <h6 class='h6 text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan &amp; Penghormatan Kami <i class='fas fa-quote-right fa-xs'></i></h6>
       </div>
-        <img class='col-lg-4 img-fluid rounded mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&amp;format=image' alt='NetGraphDaily23'>
-        <img class='col-lg-4 img-fluid rounded mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' alt='NetGraphWeekly23'>
-        <img class='col-lg-4 img-fluid rounded mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' alt='NetGraphMonthly23'>
+      <img class='col-lg-6 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&amp;format=image' alt='NetGraphDaily23'>
+      <img class='col-lg-6 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' alt='NetGraphWeekly23'>
+      <img class='col-lg-6 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' alt='NetGraphMonthly23'>
+      <img class='col-lg-6 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' alt='NetGraphMMode23'>
       <div class='col-12 my-2 d-block mx-auto'>
         <h6 class='h6 text-center'><i class='fas fa-quote-left fa-xs'></i> Your Participation &amp; Support is Our Pride &amp; Honour <i class='fas fa-quote-right fa-xs'></i></h6>
       </div>

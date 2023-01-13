@@ -798,10 +798,10 @@
         </div>
         <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
           <div class='text-end text-decoration-none'>
-            <a href='https://www.facebook.com/roipmars.org.my'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-facebook-f fa-stack-1x fa-inverse'></i></span></a>
+            <a href='https://fb.com/roipmars.org.my'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-facebook-f fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://t.me/marsts3servercyberjaya'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-telegram fa-stack-1x fa-inverse'></i></span></a>
             <a href='https://wa.me/c/60333960874'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-whatsapp fa-stack-1x fa-inverse'></i></span></a>
-            <a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
+            <a href='#' onClick='TSLoginWindow=window.open("https://roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
           </div>
         </div>
       </div>

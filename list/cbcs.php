@@ -95,7 +95,7 @@
           $file_last_modified = filemtime(__FILE__);
           echo 'Kemaskini pada ' . date('D, jS M Y h:iA T', $file_last_modified); ?> : <span class='badge rounded-pill text-bg-success'>496</span></p>
       <p class='fw-bold'>Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
-      <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila email maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
+      <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila email maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member&#64;roipmars.org.my</a></p>
     </div>
     <div class='col-sm-12 pb-2'>
       <table class='table table-striped text-center text-uppercase' id='cbcslist'>

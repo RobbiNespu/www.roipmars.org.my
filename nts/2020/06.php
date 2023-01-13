@@ -101,7 +101,7 @@
     <p>Ingin kami tekankan disini, <strong>hanya interaksi di laman sesawang sahaja</strong> akan terganggu seperti pendaftaran CS CB, informasi terkini, dsb. Semua aplikasi seperti Teamspeak, eQso, FRN yang terhubung sama sekali tidak akan terjejas dengan ganguan ini.</p>
     <p>Gangguan naik taraf ini akan bermula pada <strong>jam 2 pagi (0200) 23 Mac 2020</strong> sehingga <strong>6 pagi (0600) 25 Mac 2020</strong></p>
     <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
-    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2006'>member@roipmars.org.my</a></p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2006'>member&#64;roipmars.org.my</a></p>
     <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
     <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>
   </div>

@@ -115,7 +115,7 @@
     </table>
     </p>
     <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak PPRK/MARS kepada anda semua.</p>
-    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2009'>member@roipmars.org.my</a></p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2009'>member&#64;roipmars.org.my</a></p>
     <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
     <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>
   </div>

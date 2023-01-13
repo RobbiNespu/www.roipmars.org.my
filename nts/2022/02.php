@@ -101,7 +101,7 @@
     <p>Namun begitu, pihak pengurusan teknikal kami telahpun mengambil insiatif dengan serta merta menukar ke platform lain. Segala maklumat dari platform lama telahpun dibuang dan tidak lagi dapat diperoleh kembali.</p>
     <p>Diharap mana-mana pihak yang telahpun mendaftar di platform lama untuk mendaftar kembali di platform yang baru bagi membolehkan pembelian barangan kami.</p>
     <p>Segala sokongan anda atas pembelian barangan kami adalah sangat dihargai.</p>
-    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2202'>member@roipmars.org.my</a></p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2202'>member&#64;roipmars.org.my</a></p>
     <h6 class='tk-adobe-handwriting-ernie text-end'>Software Technical Manager</h6>
     <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>
   </div>

@@ -216,7 +216,7 @@
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
-              <tr bgcolor='#56C3E7'><td>Rabu</td><td>01 Feb 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Federal Territory Day&#41;</td><td>9W2SFT</td><td></td></tr>
+              <tr bgcolor='#56C3E7'><td>Rabu</td><td>01 Feb 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Federal Territory Day&#41;</td><td></td><td></td></tr>
               <tr><td>Jumaat</td><td>03 Feb 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6AFF</td><td></td></tr>
               <tr bgcolor='#336699'><td>Sabtu</td><td>04 Feb 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Kanser Sedunia&#41;</td><td>9W2SNN</td><td></td></tr>
               <tr bgcolor='#D71110'><td>Ahad</td><td>05 Feb 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Thaipusam&#41;</td><td>113DAISS</td><td></td></tr>

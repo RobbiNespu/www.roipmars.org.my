@@ -549,7 +549,8 @@
       <img class='col-lg-4 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' alt='NetGraphMonthly23'>
       <img class='col-lg-4 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=4802909&format=image' alt='NetGraphBand23'>
       <img class='col-lg-4 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1205231339&format=image' alt='NetGraphLang23'>
-      <img class='col-lg-4 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' alt='NetGraphMMode23'>
+      <img class='col-lg-4 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' alt='NetGraphMode23'>
+      <img class='col-lg-12 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' alt='NetGraphMap23'>
       <div class='col-12 my-2 d-block mx-auto'>
         <h6 class='h6 text-center'><i class='fas fa-quote-left fa-xs'></i> Your Participation &amp; Support is Our Pride &amp; Honour <i class='fas fa-quote-right fa-xs'></i></h6>
       </div>

@@ -169,6 +169,18 @@
       </div>
     </div>
     <div class='row'>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/043.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/044.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-5 mx-auto d-block' loading='lazy' src='./images/045.jpg'></div>
+    </div>
+    <div class='row'>
+      <div class='col-12 m-0 p-1'>
+        <div class='ratio ratio-21x9'>
+          <img class='figure-img img-fluid rounded-5 mx-auto d-block' src='./images/bota22.jpg'>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
       <div class='col-lg'>
         <div class='card text-bg-light text-center rounded-5 rounded-top'>
           <div class='card-header'>

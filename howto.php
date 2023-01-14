@@ -258,15 +258,10 @@
         <table class='table table-sm text-center align-middle'>
           <tbody>
             <tr>
-              <th scope='row'>Versi</th>
-              <td>CC v0.11</td>
-              <td>CC v0.13</td>
-              <td>CC v0.14</td>
-            <tr>
               <th scope='row'>Windows</th>
-              <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.11/Conference_Client-0.11_Setup.exe' download>CC API20</a></td>
-              <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.13/Conference_Client-0.13_Setup.exe' download>CC API22</a></td>
-              <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.14/Conference_Client-0.14_Setup.exe' download>CC API23</a></td>
+              <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.11/Conference_Client-0.11_Setup.exe' download>CCv20</a></td>
+              <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.13/Conference_Client-0.13_Setup.exe' download>CCv22</a></td>
+              <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.14/Conference_Client-0.14_Setup.exe' download>CCv23</a></td>
             </tr>
             <tr>
               <th scope='row'>Fail Sokongan</th>
@@ -291,19 +286,21 @@
           <tbody>
             <tr>
               <th scope='row'>TS</th>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak3-client-win32-3.0.19.4.exe' download>TS3.0.19.4</a></td>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak3-client-win32-3.1.10.exe' download>TS3.1.10</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak3-client-win32-3.0.19.4.exe' download>TSv3.0.19.4</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak3-client-win32-3.1.10.exe' download>TSv3.1.10</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' download>TSv3.5.6</a></td>
             </tr>
             <tr>
               <th scope='row'>Gateway</th>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/ts-gateway-commander-3.0.14.exe' download>TSGC3.0.14</a></td>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/ts-gateway-commander-4.0.2.exe' download>TSGC4.0.2</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/ts-gateway-commander-3.0.14.exe' download>GCv3.0.14</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/ts-gateway-commander-4.0.2.exe' download>GCv4.0.2</a></td>
+              <td class='text-nowrap'></td>
             </tr>
             <tr>
               <th scope='row'>Plugin</th>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/tsgateway_link_32bit_api20.dll' download>TSGCP_API20</a></td>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/tsgateway_link_32bit_api21.dll' download>TSGCP_API21</a></td>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/tsgateway_link_32bit_api23.dll' download>TSGCP_API23</a></td>
+              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/tsgateway_link_32bit_api20.dll' download>GCPv20</a></td>
+              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/tsgateway_link_32bit_api21.dll' download>GCPv21</a></td>
+              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/tsgateway_link_32bit_api23.dll' download>GCPv23</a></td>
             </tr>
           </tbody>
         </table>

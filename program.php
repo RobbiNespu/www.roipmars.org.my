@@ -199,7 +199,7 @@
               <tr><td>Rabu</td><td>11 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M2RAN</td><td>34</td></tr>
               <tr><td>Jumaat</td><td>13 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2EZK</td><td>23</td></tr>
               <tr class='text-danger text-decoration-line-through' bgcolor='#336699'><td>Sabtu</td><td>14 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
-              <tr><td>Ahad</td><td>15 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>
+              <tr><td>Ahad</td><td>15 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAZIK</td><td>28</td></tr>
               <tr><td>Rabu</td><td>18 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RDY</td><td></td></tr>
               <tr><td>Jumaat</td><td>20 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2OGK</td><td></td></tr>
               <tr bgcolor='#336699'><td>Sabtu</td><td>21 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Ambang Tahun Baru Cina&#41;</td><td>9W6MOZ</td><td></td></tr>
@@ -614,8 +614,8 @@
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
             <tr><td>1<sup>st</sup></td><td>113DAYJT</td></tr>
-            <tr><td>2<sup>nd</sup></td><td>113DAJCP</td></tr>
-            <tr><td>3<sup>rd</sup></td><td></td></tr>
+            <tr><td>2<sup>nd</sup></td><td>113AZIK</td></tr>
+            <tr><td>3<sup>rd</sup></td><td>113DAJCP</td></tr>
             <tr><td>4<sup>th</sup></td><td></td></tr>
             <tr><td>5<sup>th</sup></td><td></td></tr>
           </tbody>
@@ -627,10 +627,10 @@
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
             <tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
-            <tr><td>2<sup>nd</sup></td><td>113MS111</td></tr>
-            <tr><td>3<sup>rd</sup></td><td>113DAISS</td></tr>
-            <tr><td>4<sup>th</sup></td><td>113DABEE</td></tr>
-            <tr><td>5<sup>th</sup></td><td>225BSLIM</td></tr>
+            <tr><td>2<sup>nd</sup></td><td>113DAISS</td></tr>
+            <tr><td>3<sup>rd</sup></td><td>113DABEE</td></tr>
+            <tr><td>4<sup>th</sup></td><td>225BSLIM</td></tr>
+            <tr><td>5<sup>th</sup></td><td>91KMEGG</td></tr>
           </tbody>
         </table>
       </div>

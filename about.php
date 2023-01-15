@@ -340,6 +340,7 @@
               <div class='desc'>Bermula daripada 27 Julai 2022 pihak Jawatankuasa dibawah kelolaan Biro Pengurusan Pelayan berjaya memperoleh pelayan berasaskan &#39;Windows Server&#39; yang disewa atas nama pertubuhan di Pusat Data Cyberjaya dan mula membuat peralihan maklumat dari pelayan sebelum ini &#91;<i>roipmars.com</i>&#93; &#40;milik peribadi&#41; ke pelayan semasa &#91;<i>roipmars.org.my</i>&#93; &#40;milik persatuan&#41;. Setelah kerja-kerja peralihan dan percubaan serta ujian penggunaan &amp; beban tinggi yang dijalankan, tepat pada jam 6 pagi 01 September 2022 &#91;<b><i>roipmars.org.my</i></b>&#93; bersedia memberikan perkhidmatannya kepada semua Penggiat &amp; Peminat Radio Komunikasi dari seluruh dunia pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./nts/2022/01' target='_blank'>Baca lanjut...</a></div>
             </div>
           </li>
+<!--
           <li>
             <div class='direction-r'>
               <div class='flag-wrapper'>
@@ -350,6 +351,7 @@
               <div class='desc'>Buat pertama kali secara rasmi, <i>Persatuan Peminat Radio Komunikasi</i> menganjurkan <b>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</b> yang berlansung di Kalumpang Resort &amp; Training Centre, Hulu Selangor.<br>Antara pengisian acara adalah Pameran <i>&#39;Radio Over Internet Protocol&#39;</i> (RoIP), BBQ, Karaoke, dan Cabutan Bertuah disamping dapat mengenal dengan lebih dekat dan mengeratkan lagi silaturrahim antara Penggiat dan Peminat Radio Komunikasi.</div>
             </div>
           </li>
+-->
         </ul>
         <p class='text-center'>Sekiranya anda ada kisah atau kenangan bersama kami, ceritakan ke <a href='mailto:member@roipmars.org.my?subject=Kisah%20bersama%20RoIPMARS'>member&#64;roipmars.org.my</a>.</p>
       </div>

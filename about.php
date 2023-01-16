@@ -165,7 +165,31 @@
           <li>Radio Amatur juga diiktiraf sebagai salah satu peralatan komunikasi radio yang mana ITU &#40;International Telecommunication Union&#41; memantau dan menyediakan jalur khas untuk perkhidmatan Radio Amatur yang mana jalur tersebut dapat digunakan diseluruh dunia.</li>
           <li>Pengendali Radio Amatur mesti memberikan perkhidmatan bagi membantu kerajaan sesebuah negara ketika berlakunya bencana sekiranya sistem komunikasi yang lain tidak boleh berfungsi atau tiada kemudahan komunikasi yang lain.</li>
           <li>Salah satu kehebatan yang ada pada Radio Amatur ialah: <span class='badge rounded-pill text-bg-success'>&lsquo;perasaan muhibah antarabangsa&rsquo;</span> diantara rakan HAM seluruh dunia dengan ikatan persaudaraan antara manusia tanpa mengira darjat atau kasta.</li>
-        </ol>
+        </ol>        
+        <hr>
+        <div class='hstack'>
+          <h3 class='text-secondary'>Saluran Amatur VHF</h3>
+          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-vsimplex-modal-xl'>V Channel</button>
+        </div>
+        <div class='modal fade bd-vsimplex-modal-xl' tabindex='-1' role='dialog' aria-labelledby='vsimplexModalLabel' aria-hidden='true'>
+          <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='vsimplexModalLabel'>Saluran Amatur VHF</h5>
+              </div>
+              <div class='modal-body'>
+                <div class='ratio ratio-4x3'>
+                  <iframe src='./freq/vsimplex'></iframe>
+                </div>
+              </div>
+              <div class='modal-footer'>
+                <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='col-lg-5'>
         <h4 class='text-center font-weight-bold'>ETIKA RADIO AMATUR</h4>
         <table class='table table-borderless text-center'>
           <tbody class='table-success'>
@@ -173,8 +197,6 @@
             <tr><td>Berjiwa Perwira</td><td>Berjiwa Seimbang</td><td>Berjiwa Patriotik</td></tr>
           </tbody>
         </table>
-      </div>
-      <div class='col-lg-5'>
         <h4 class='text-center font-weight-bold'>PERKARA-PERKARA YANG DILARANG SEMASA MENGENDALIKAN STESEN RADIO AMATUR</h4>
         <ol class='text-bg-danger'>
           <li>Stesen Radio Amatur dilarang menggunakan Radio Amatur untuk tujuan komersil.</li>

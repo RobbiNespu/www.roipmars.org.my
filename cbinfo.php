@@ -160,9 +160,9 @@
       <div class='col-lg-4 text-center'>
         <h2>Jalur</h2>
         <p class='mb-0'>Berdasarkan Akta Komunikasi &amp; Multimedia 1998 (Akta 588), berikut merupakan senarai jalur yang dibenarkan untuk penggunaan Jalur Rakyat di Malaysia</p>
-        <p class='alert alert-success'><a href='member' class='text-decoration-none'>Pihak Pengurusan Kumpulan RoIPMARS</a> telah bersetuju untuk menyelaraskan komunikasi radio dua hala <a href='cbmars' class='text-decoration-none'>Jalur Rakyat RoIPMARS</a><br><strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>HF: 27.305MHz USB</strong>;<strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>UHF: 477.625MHz FM</strong></p>
+        <p class='alert alert-success'><a href='member' class='text-decoration-none'>Pihak Pengurusan Kumpulan RoIPMARS</a> telah bersetuju untuk menyelaraskan komunikasi radio dua hala <a href='cbmars' class='text-decoration-none'>Jalur Rakyat RoIPMARS</a><br><strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>HF: 27.305MHz USB</strong>;<strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>UHF: 446.05625MHz FM</strong></p>
         <div class='hstack gap-1'>
-          <h3 class='text-secondary mb-0'>HF - 27MHz Citizen Band</h3>
+          <h3 class='text-secondary mb-0'>HF &#40;CB&#41; - 27MHz</h3>
           <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-27cb-modal-xl'>27 CB</button>
           <button type='button' class='btn btn-sm btn-secondary' data-bs-toggle='modal' data-bs-target='.bd-27cbmy-modal-xl'>27 CB MY</button>
         </div>
@@ -204,7 +204,7 @@
         </div>
         <table class='table table-bordered table-responsive table-sm text-wrap' style='font-size:xx-small'>
           <thead class='align-middle'>
-            <tr><th>Channel</th><th>Frequency (MHz)</th><th>Modulation Type</th><th>Peak power (Watts)</th><th>Bandwidth (kHz)</th><th>Reserved Channel</th></tr>
+            <tr><th>Channel No.</th><th>Frequency (MHz)</th><th>Modulation Type</th><th>Peak power (Watts)</th><th>Bandwidth (kHz)</th><th>Reserved Channel</th></tr>
           </thead>
           <tbody>
             <tr><td>9</td><td>27.065</td><td>AM</td><td>4</td><td>6</td><td>Emergency</td></tr>
@@ -214,11 +214,49 @@
           </tbody>
         </table>
         <hr>
+        <div class='hstack'>
+          <h3 class='text-secondary'>UHF &#40;PMR&#41; - 446MHz</h3>
+          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-446pmr-modal-xl'>446 PMR</button>
+        </div>
+        <div class='modal fade bd-446pmr-modal-xl' tabindex='-1' role='dialog' aria-labelledby='446pmrModalLabel' aria-hidden='true'>
+          <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='446pmrModalLabel'>446MHz Personal Mobile Radio</h5>
+              </div>
+              <div class='modal-body'>
+                <div class='ratio ratio-4x3'>
+                  <iframe src='./freq/446pmr'></iframe>
+                </div>
+              </div>
+              <div class='modal-footer'>
+                <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf' download><button type='button' class='btn btn-outline-primary'>Muat Turun Peruntukan Kelas No. 2 2022</button></a>
+                <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <table class='table table-bordered table-responsive table-sm text-wrap' style='font-size:xx-small'>
+          <thead class='align-middle'>
+            <tr><th>Channel No.</th><th>Frequency (MHz)</th><th>Modulation type</th><th>Peak power (Watts)</th><th>Bandwidth (kHz)</th><th>Channel Mode</th></tr>
+          </thead>
+          <tbody>
+            <tr style='background-color: #336699;color: white;font-family: tekton-pro, sans-serif;font-weight: 400;font-style: normal;'>
+              <td>5</td><td>446.05625</td><td>FM</td><td>0.5</td><td>12.5</td><td>Analog</td></tr>
+            <tr style='background-color: #336699;color: white;font-family: tekton-pro, sans-serif;font-weight: 400;font-style: normal;'>
+              <td>10</td><td>446.159375</td><td>4FSK</td><td>0.5</td><td>6.25</td><td>Digital</td></tr>
+          </tbody>
+        </table>
+        <hr>
         <div class='hstack gap-1'>
-          <h3 class='text-secondary mb-0'>UHF - 477MHz Citizen Band</h3>
+          <h3 class='text-secondary mb-0 text-decoration-line-through'>UHF &#40;CB&#41; - 477MHz</h3>
+          <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN<br>dari 01 Jan 2023</a>
+<!--
           <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477cb-modal-xl'>477 CB</button>
           <button type='button' class='btn btn-sm btn-secondary' data-bs-toggle='modal' data-bs-target='.bd-477cbmy-modal-xl'>477 CB MY</button>
+-->
         </div>
+<!--
         <div class='modal fade bd-477cb-modal-xl' tabindex='-1' role='dialog' aria-labelledby='477cbModalLabel' aria-hidden='true'>
           <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
             <div class='modal-content'>
@@ -255,6 +293,8 @@
             </div>
           </div>
         </div>
+-->
+<!--
         <table class='table table-bordered table-responsive table-sm text-wrap' style='font-size:xx-small'>
           <thead class='align-middle'>
             <tr><th>Channel</th><th>Frequency (MHz)</th><th>Modulation type</th><th>Peak power (Watts)</th><th>Bandwidth (kHz)</th><th>Reserved Channel</th></tr>
@@ -264,11 +304,14 @@
               <td>10</td><td>477.625</td><td>FM/PM</td><td>0.5</td><td>12.5</td><td></td></tr>
           </tbody>
         </table>
+-->
         <hr>
         <div class='hstack'>
-          <h3 class='text-secondary'>UHF - 477MHz Family Band</h3>
-          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477fb-modal-xl'>477 FB</button>
+          <h3 class='text-secondary text-decoration-line-through'>UHF &#40;FB&#41; - 477MHz</h3>
+          <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN<br>dari 01 Jan 2023</a>
+<!--          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477fb-modal-xl'>477 FB</button>-->
         </div>
+<!--
         <div class='modal fade bd-477fb-modal-xl' tabindex='-1' role='dialog' aria-labelledby='477fbModalLabel' aria-hidden='true'>
           <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
             <div class='modal-content'>
@@ -287,51 +330,7 @@
             </div>
           </div>
         </div>
-        <hr>
-        <div class='hstack'>
-          <h3 class='text-secondary'>UHF - 446MHz PMR</h3>
-          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-446pmr-modal-xl'>446 PMR</button>
-        </div>
-        <div class='modal fade bd-446pmr-modal-xl' tabindex='-1' role='dialog' aria-labelledby='446pmrModalLabel' aria-hidden='true'>
-          <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
-            <div class='modal-content'>
-              <div class='modal-header'>
-                <h5 class='modal-title' id='446pmrModalLabel'>446MHz Personal Mobile Radio</h5>
-              </div>
-              <div class='modal-body'>
-                <div class='ratio ratio-4x3'>
-                  <iframe src='./freq/446pmr'></iframe>
-                </div>
-              </div>
-              <div class='modal-footer'>
-                <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf' download><button type='button' class='btn btn-outline-primary'>Muat Turun Peruntukan Kelas 2015</button></a>
-                <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class='hstack'>
-          <h3 class='text-secondary'>VHF Amateur Channel</h3>
-          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-vsimplex-modal-xl'>V Channel</button>
-        </div>
-        <div class='modal fade bd-vsimplex-modal-xl' tabindex='-1' role='dialog' aria-labelledby='vsimplexModalLabel' aria-hidden='true'>
-          <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
-            <div class='modal-content'>
-              <div class='modal-header'>
-                <h5 class='modal-title' id='vsimplexModalLabel'>VHF Amateur Channel</h5>
-              </div>
-              <div class='modal-body'>
-                <div class='ratio ratio-4x3'>
-                  <iframe src='./freq/vsimplex'></iframe>
-                </div>
-              </div>
-              <div class='modal-footer'>
-                <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+-->
       </div>
     </div>
     <hr>

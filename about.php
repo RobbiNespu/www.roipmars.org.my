@@ -217,7 +217,7 @@
         </ol>
       </div>
     </div>
-    <div class='row'>
+    <div class='row' id='kisahroipmars'>
       <div class='col-12 my-3'>
         <h2 class='text-center'>Kisah Kami</h2>
         <p class='text-center'>Sekiranya anda ada kisah atau kenangan bersama kami, ceritakan ke <a href='mailto:member@roipmars.org.my?subject=Kisah%20bersama%20RoIPMARS'>member&#64;roipmars.org.my</a>.</p>

@@ -164,7 +164,7 @@
             </ol>
           <li>Radio Amatur juga diiktiraf sebagai salah satu peralatan komunikasi radio yang mana ITU &#40;International Telecommunication Union&#41; memantau dan menyediakan jalur khas untuk perkhidmatan Radio Amatur yang mana jalur tersebut dapat digunakan diseluruh dunia.</li>
           <li>Pengendali Radio Amatur mesti memberikan perkhidmatan bagi membantu kerajaan sesebuah negara ketika berlakunya bencana sekiranya sistem komunikasi yang lain tidak boleh berfungsi atau tiada kemudahan komunikasi yang lain.</li>
-          <li>Salah satu kehebatan yang ada pada Radio Amatur ialah: <span class='badge rounded-pill text-bg-success'>&lsquo;perasaan muhibah antarabangsa&rsquo;</span> diantara rakan HAM seluruh dunia dengan ikatan persaudaraan antara manusia tanpa mengira darjat atau kasta.</li>
+          <li>Salah satu kehebatan yang ada pada Radio Amatur ialah: <span class='badge rounded-pill text-bg-success'>&lsquo;perasaan muhibah antarabangsa&rsquo;</span> diantara rakan HAM seluruh dunia dengan ikatan persaudaraan antara manusia sejagat tanpa mengira golongan, bangsa, jantina, pangkat &amp; kedudukan.</li>
         </ol>        
         <hr>
         <div class='hstack'>

@@ -202,7 +202,16 @@
         <hr class='w-100 clearfix d-md-none'>
         <div class='col-md-5 col-lg-5 col-xl-5 mx-auto my-1 text-end'>
           <h5 class='text-uppercase mb-2 font-weight-bold'>Hubungi Kami</h5>
-          <p><i class='bi bi-envelope-at'></i> <a href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website' class='text-dark text-decoration-none'>member&#64;roipmars.org.my</a></p>
+          <button type='button' class='btn btn-sm rounded-5 btn-primary mb-2' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'>Langgan surat berita kami</button> <i class='bi bi-envelope-at'></i> <a href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website' class='text-dark text-decoration-none fs-6'>member&#64;roipmars.org.my</a>
+            <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>
+              <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+                <div class='modal-content'>
+                  <div class='modal-header'><h5 class='modal-title' id='subnewsletterModalLabel'>Langgan surat berita kami</h5></div>
+                  <div class='modal-body'><div class='ratio ratio-16x9'><iframe src='https://1306b3f7.sibforms.com/serve/MUIEAIR2UxOW8JezeVtN05wHT8tqVrcROKOSDLHHB5BNy1LHST-CbEPqTvRhQe5_CrrvOOmbedVNkoHAJxlEwQ8tbScw_7eHtjByIUNLUHOsQBo7rmMribZ9ZpPLC89V-9lSyMybFpSBE8ClRHD6itpcxnb_bpZk-06g7sjz4NaQn2gIAlL_0HNtA_BA7UvZT5jIptMIZetcXcSB'></iframe></div></div>
+                  <div class='modal-footer'><button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Tutup</button></div>
+                </div>
+              </div>
+            </div>
           <div class='d-flex justify-content-end'>
             <img class='img-fluid rounded-5' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
           </div>

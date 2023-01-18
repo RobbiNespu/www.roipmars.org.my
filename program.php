@@ -132,7 +132,6 @@
           <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
           <!--<li class='nav-item'><a class='nav-link' href='mailus'>Hubungi Kami</a></li>-->
           <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi bi-cart4'></i> Kedai</a></li>
-          <!--<li class='nav-item'><a class='nav-link' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi bi-person-vcard'></i> Portal Ahli</a></li>-->
           <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi bi-download'></i> Muat Turun</a></li>
         </ul>
       </div>
@@ -663,6 +662,34 @@
           </tbody>
         </table>
       </div>
+<!--
+      <div class='col-6'>
+        <h6 class='text-center'>Pemenang Bertuah<br>RoIPMARS Net Khas Ambang Tahun Baru Cina 2023</h6>
+        <table class='table table-bordered table-sm table-responsive-sm text-center'>
+          <thead><th>No</th><th>Station</th></thead>
+          <tbody>
+            <tr><td>1<sup>st</sup></td><td></td></tr>
+            <tr><td>2<sup>nd</sup></td><td></td></tr>
+            <tr><td>3<sup>rd</sup></td><td></td></tr>
+            <tr><td>4<sup>th</sup></td><td></td></tr>
+            <tr><td>5<sup>th</sup></td><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class='col-6'>
+        <h6 class='text-center'>Pemenang Bertuah<br>CB Net Khas Sambutan Tahun Baru Cina 2023</h6>
+        <table class='table table-bordered table-sm table-responsive-sm text-center'>
+          <thead><th>No</th><th>Station</th></thead>
+          <tbody>
+            <tr><td>1<sup>st</sup></td><td></td></tr>
+            <tr><td>2<sup>nd</sup></td><td></td></tr>
+            <tr><td>3<sup>rd</sup></td><td></td></tr>
+            <tr><td>4<sup>th</sup></td><td></td></tr>
+            <tr><td>5<sup>th</sup></td><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+-->
     </div>
   </div>
   <footer class='footer mt-auto py-1 page-footer font-small bg-light'>
@@ -682,13 +709,14 @@
         <hr class='w-100 clearfix d-md-none'>
         <div class='col-lg-4 mx-auto my-1 text-end'>
           <h5 class='text-uppercase mb-2 font-weight-bold'>Hubungi Kami</h5>
-          <button type='button' class='btn btn-sm rounded-5 btn-primary mb-2' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'>Langgan surat berita kami</button> <i class='bi bi-envelope-at'></i> <a href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website' class='text-dark text-decoration-none fs-6'>member&#64;roipmars.org.my</a>
+          <div class='d-grid gap-2 d-md-flex justify-content-md-end mb-2'>
+            <a type='button' class='btn btn-primary rounded-5 fs-6 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at fs-6'></i> member&#64;roipmars.org.my</a>
+            <button type='button' class='btn btn-primary rounded-5 fs-6' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi bi-envelope-paper fs-6'></i> Langgan surat berita kami</button>
+          </div>
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>
-              <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+              <div class='modal-dialog modal-dialog-centered' role='document'>
                 <div class='modal-content'>
-                  <div class='modal-header'><h5 class='modal-title' id='subnewsletterModalLabel'>Langgan surat berita kami</h5></div>
-                  <div class='modal-body'><div class='ratio ratio-16x9'><iframe src='https://1306b3f7.sibforms.com/serve/MUIEAIR2UxOW8JezeVtN05wHT8tqVrcROKOSDLHHB5BNy1LHST-CbEPqTvRhQe5_CrrvOOmbedVNkoHAJxlEwQ8tbScw_7eHtjByIUNLUHOsQBo7rmMribZ9ZpPLC89V-9lSyMybFpSBE8ClRHD6itpcxnb_bpZk-06g7sjz4NaQn2gIAlL_0HNtA_BA7UvZT5jIptMIZetcXcSB'></iframe></div></div>
-                  <div class='modal-footer'><button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Tutup</button></div>
+                  <div class='modal-body'><div class='ratio ratio-1x1'><iframe src='https://1306b3f7.sibforms.com/serve/MUIEAIR2UxOW8JezeVtN05wHT8tqVrcROKOSDLHHB5BNy1LHST-CbEPqTvRhQe5_CrrvOOmbedVNkoHAJxlEwQ8tbScw_7eHtjByIUNLUHOsQBo7rmMribZ9ZpPLC89V-9lSyMybFpSBE8ClRHD6itpcxnb_bpZk-06g7sjz4NaQn2gIAlL_0HNtA_BA7UvZT5jIptMIZetcXcSB'></iframe></div></div>
                 </div>
               </div>
             </div>

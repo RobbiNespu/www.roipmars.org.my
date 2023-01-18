@@ -138,8 +138,8 @@
           <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
           <!--<li class='nav-item'><a class='nav-link' href='mailus'>Hubungi Kami</a></li>-->
           <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi bi-cart4'></i> Kedai</a></li>
-          <!--<li class='nav-item'><a class='nav-link' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi bi-person-vcard'></i> Portal Ahli</a></li>-->
           <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi bi-download'></i> Muat Turun</a></li>
+          <li class='nav-item'><a class='nav-link' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi bi-person-vcard'></i> Portal Ahli</a></li>
         </ul>
       </div>
     </div>
@@ -154,52 +154,33 @@
   </div>
   <div class='container'>
     <div class='row'>
-      <table class='table table-sm text-center'>
-        <tbody>
-          <tr>
-            <td class='font-weight-bold h3'>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;<br><sup>PPM-006-10-01062020</sup></td>
-          </tr>
-          <tr>
-            <td>
-              <div class='hstack gap-1'>
-                <a type='button' class='btn btn-sm btn-primary rounded-pill' data-bs-toggle='modal' data-bs-target='#roscertModalLong'>Sijil Kelulusan Pertubuhan</a>
-                <a type='button' class='btn btn-sm btn-info rounded-pill mx-auto' href='https://ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf'>Perlembagaan Pertubuhan</a>
-                <a type='button' class='btn btn-sm btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
-              </div>
-              <br>
-              <div class='vstack gap-1'>
-                <a type='button' class='btn btn-primary btn-block rounded-pill' href='https://bit.ly/daftarmars' target='_blank'>Borang Permohonan Keahlian &#91;<i class='fa-brands fa-google'></i>&#93;</a>
-                <a type='button' class='btn btn-secondary btn-block rounded-pill' href='https://bit.ly/borangdaftarroipmars*' target='_blank'>Borang Permohonan Keahlian &#91;<i class='fa-solid fa-signature'></i>&#93;</a>
-                <a type='button' class='btn btn-success btn-block rounded-pill' href='https://ftp.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Borang Permohonan Keahlian &#91;<i class='fa-solid fa-file-pdf'></i>&#93;</a>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>
-      <div class='modal-dialog modal-dialog-centered' role='document'>
-        <div class='modal-content'>
-          <div class='modal-header'>
-            <h5 class='modal-title' id='roscertModalTitle'>Sijil Pendaftaran Pertubuhan</h5>
-          </div>
-          <div class='modal-body'>
-            <img class='img-fluid' loading='lazy' src='./images/ros-sijil.png'>
+      <p class='text-center font-weight-bold h3'>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#91;RADIO OVER INTERNET PROTOCOL&#93;&#41;<br><sup>PPM-006-10-01062020</sup></p>
+      <div class='hstack gap-1 mb-3 justify-content-center'>
+        <a type='button' class='btn btn-primary rounded-pill' data-bs-toggle='modal' data-bs-target='#roscertModalLong'>Sijil Kelulusan Pertubuhan</a>
+        <a type='button' class='btn btn-info rounded-pill' href='https://ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf'>Perlembagaan Pertubuhan</a>
+        <a type='button' class='btn btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
+      </div>
+      <div class='d-grid gap-2 d-lg-flex justify-content-center'>
+        <a type='button' class='btn btn-lg btn-primary rounded-4 fs-4 me-lg-2' href='https://bit.ly/daftarmars' target='_blank'><i class='bi bi-google'></i> Permohonan Keahlian &#40;Google Form&#41; <i class='bi bi-google'></i></a>
+        <a type='button' class='btn btn-lg btn-secondary rounded-4 fs-4 me-lg-2' href='https://bit.ly/borangdaftarroipmars' target='_blank'><i class='bo bi-file-earmark-pdf-fill'></i> Permohonan Keahlian &#40;Adobe Sign&#41; <i class='bo bi-file-earmark-pdf-fill'></i></a>
+        <a type='button' class='btn btn-lg btn-success rounded-4 fs-4' href='https://ftp.roipmars.org.my/files/members/pprk_manualregform.pdf' download><i class='bi bi-file-pdf-fill'></i> Permohonan Keahlian &#40;Fail PDF&#41; <i class='bi bi-file-pdf-fill'></i></a>
+      </div>
+      <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>
+        <div class='modal-dialog modal-dialog-centered' role='document'>
+          <div class='modal-content'>
+            <div class='modal-header'><h5 class='modal-title' id='roscertModalTitle'>Sijil Pendaftaran Pertubuhan</h5></div>
+            <div class='modal-body'><img class='img-fluid' loading='lazy' src='./images/ros-sijil.png'></div>
           </div>
         </div>
       </div>
-    </div>
-    <div class='modal fade' id='rosappletModalLong' tabindex='-1' role='dialog' aria-labelledby='rosappletModalTitle' aria-hidden='true'>
-      <div class='modal-dialog modal-dialog-centered' role='document'>
-        <div class='modal-content'>
-          <div class='modal-header'>
-            <h5 class='modal-title' id='rosappletModalTitle'>Surat Kelulusan Pendaftaran Pertubuhan</h5>
-          </div>
-          <div class='modal-body'>
-            <img class='img-fluid' loading='lazy' src='./images/ros-surat.png'>
+      <div class='modal fade' id='rosappletModalLong' tabindex='-1' role='dialog' aria-labelledby='rosappletModalTitle' aria-hidden='true'>
+        <div class='modal-dialog modal-dialog-centered' role='document'>
+          <div class='modal-content'>
+            <div class='modal-header'><h5 class='modal-title' id='rosappletModalTitle'>Surat Kelulusan Pendaftaran Pertubuhan</h5></div>
+            <div class='modal-body'><img class='img-fluid' loading='lazy' src='./images/ros-surat.png'></div>
           </div>
         </div>
-      </div>
-    </div>  	
+      </div>  	
     </div>
     <!--<div class='row'>
       <div class='col-12 my-2'>
@@ -237,14 +218,14 @@
         <div class='row'>
           <div class='col-1'></div>
           <div class='col-2'>
-            <h5 class='text-decoration-underline'>SETIAUSAHA AGUNG</h5>
+            <h5 class='text-decoration-underline'>SETIAUSAHA<br>AGUNG</h5>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/001.png' width='100px' height='100px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W2LGX<br>Hafizi Ruslan</p>
           </div>
           <div class='col-3 right-long-line'></div>
           <div class='col-3'></div>
           <div class='col-2'>
-            <h5 class='text-decoration-underline'>BENDAHARI AGUNG</h5>
+            <h5 class='text-decoration-underline'>BENDAHARI<br>AGUNG</h5>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/007.png' width='100px' height='100px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W2ELM<br>Sulaiman Mazlan</p>
           </div>
@@ -258,13 +239,13 @@
         <div class='row'>
           <div class='col-1'></div>
           <div class='col-2'>
-            <h5 class='text-decoration-underline'>PEN. SETIAUSAHA</h5>
+            <h5 class='text-decoration-underline'>PENOLONG<br>SETIAUSAHA</h5>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/020.png' width='100px' height='100px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9M2SFF<br>Rozaiman Suffian</p>
           </div>
           <div class='col-2'></div>
           <div class='col-2'>
-            <h5 class='text-decoration-underline'>TIMB. PRESIDEN</h5>
+            <h5 class='text-decoration-underline'>TIMBALAN<br>PRESIDEN</h5>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/008.png' width='100px' height='100px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W2OGK<br>Kamarudzaman</p>
           </div>
@@ -290,16 +271,16 @@
         </div>
         <div class='row'>
           <div class='col-5'>
-            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
-            <p class='fw-light'>PERHUBUNGAN AWAM DOMESTIK</p>
+            <h5 class='text-decoration-underline'>BAHAGIAN</h5>
+            <p class='fw-light'>PERHUBUNGAN AWAM<br>DOMESTIK</p>
             <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
           </div>
           <div class='col-1 right-long-line'></div>
           <div class='col-1'></div>
           <div class='col-5'>
-            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
-            <p class='fw-light'>PERHUBUNGAN AWAM ANTARABANGSA</p>
+            <h5 class='text-decoration-underline'>BAHAGIAN</h5>
+            <p class='fw-light'>PERHUBUNGAN AWAM<br>ANTARABANGSA</p>
             <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
           </div>
@@ -324,25 +305,25 @@
         </div>
         <div class='row'>
           <div class='col-3'>
-            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
+            <h5 class='text-decoration-underline'>BAHAGIAN</h5>
             <p class='fw-light'>KEBAJIKAN</p>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/006.png' width='80px' height='80px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W6MOZ<br>Mustafa Omar</p>
           </div>
           <div class='col-3'>
-            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
+            <h5 class='text-decoration-underline'>BAHAGIAN</h5>
             <p class='fw-light'>AKTIVITI &amp; SIARAYA</p>
             <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>VACANT<br>Name</p>
           </div>
           <div class='col-3'>
-            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
+            <h5 class='text-decoration-underline'>BAHAGIAN</h5>
             <p class='fw-light'>TEKNIKAL (PERKAKASAN)</p>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/016.png' width='80px' height='80px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W8ZZK<br>Zaheer Zakaria</p>
           </div>
           <div class='col-3'>
-            <h5 class='text-decoration-underline'>KETUA BAHAGIAN</h5>
+            <h5 class='text-decoration-underline'>BAHAGIAN</h5>
             <p class='fw-light'>EKONOMI</p>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/004.png' width='80px' height='80px'>
             <p style='font-family: "Source Sans Pro", sans-serif; font-weight: 900; font-size: large'>9W2UBE<br>Faiznurnizam</p>
@@ -386,13 +367,14 @@
         <hr class='w-100 clearfix d-md-none'>
         <div class='col-lg-4 mx-auto my-1 text-end'>
           <h5 class='text-uppercase mb-2 font-weight-bold'>Hubungi Kami</h5>
-          <button type='button' class='btn btn-sm rounded-5 btn-primary mb-2' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'>Langgan surat berita kami</button> <i class='bi bi-envelope-at'></i> <a href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website' class='text-dark text-decoration-none fs-6'>member&#64;roipmars.org.my</a>
+          <div class='d-grid gap-2 d-md-flex justify-content-md-end mb-2'>
+            <a type='button' class='btn btn-primary rounded-5 fs-6 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at fs-6'></i> member&#64;roipmars.org.my</a>
+            <button type='button' class='btn btn-primary rounded-5 fs-6' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi bi-envelope-paper fs-6'></i> Langgan surat berita kami</button>
+          </div>
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>
-              <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
+              <div class='modal-dialog modal-dialog-centered' role='document'>
                 <div class='modal-content'>
-                  <div class='modal-header'><h5 class='modal-title' id='subnewsletterModalLabel'>Langgan surat berita kami</h5></div>
-                  <div class='modal-body'><div class='ratio ratio-16x9'><iframe src='https://1306b3f7.sibforms.com/serve/MUIEAIR2UxOW8JezeVtN05wHT8tqVrcROKOSDLHHB5BNy1LHST-CbEPqTvRhQe5_CrrvOOmbedVNkoHAJxlEwQ8tbScw_7eHtjByIUNLUHOsQBo7rmMribZ9ZpPLC89V-9lSyMybFpSBE8ClRHD6itpcxnb_bpZk-06g7sjz4NaQn2gIAlL_0HNtA_BA7UvZT5jIptMIZetcXcSB'></iframe></div></div>
-                  <div class='modal-footer'><button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Tutup</button></div>
+                  <div class='modal-body'><div class='ratio ratio-1x1'><iframe src='https://1306b3f7.sibforms.com/serve/MUIEAIR2UxOW8JezeVtN05wHT8tqVrcROKOSDLHHB5BNy1LHST-CbEPqTvRhQe5_CrrvOOmbedVNkoHAJxlEwQ8tbScw_7eHtjByIUNLUHOsQBo7rmMribZ9ZpPLC89V-9lSyMybFpSBE8ClRHD6itpcxnb_bpZk-06g7sjz4NaQn2gIAlL_0HNtA_BA7UvZT5jIptMIZetcXcSB'></iframe></div></div>
                 </div>
               </div>
             </div>

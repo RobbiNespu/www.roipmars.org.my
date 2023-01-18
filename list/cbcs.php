@@ -186,6 +186,7 @@
           <tr><td>I421</td><td>113MSAAA</td><td>MOHD HAFIZHU BIN CHE BAHARUDIN</td><td>PUDU</td><td>06 Apr 2021</td></tr>
           <tr><td>I420</td><td>91MSSDH</td><td>ARGO SETIYAWAN</td><td>MERAUKE</td><td>06 Apr 2021</td></tr>
           <tr><td>I419</td><td>113MSUBQ</td><td>RAMLAN BIN RAMLI</td><td>SEMENYIH</td><td>06 Apr 2021</td></tr>
+<!--
           <tr><td>I418</td><td>91KMWIR</td><td>WIRA</td><td>JAKARTA PUSAT</td><td>06 Apr 2021</td></tr>
           <tr><td>I417</td><td>91KMWAK</td><td>IYAN</td><td>LANGKAT</td><td>06 Apr 2021</td></tr>
           <tr><td>I416</td><td>91KMTYO</td><td>ADITYO</td><td>SURAKARTA</td><td>06 Apr 2021</td></tr>
@@ -226,6 +227,7 @@
           <tr><td>I381</td><td>91KMAHU</td><td>JOHAN</td><td>PEKANBARU</td><td>06 Apr 2021</td></tr>
           <tr><td>I380</td><td>91KMADE</td><td>IDA NYOMAN</td><td>JAKARTA SELATAN, DKI JAKARTA</td><td>06 Apr 2021</td></tr>
           <tr><td>I379</td><td>91KMAAL</td><td>BARTO</td><td>AMBON, MALUKU</td><td>06 Apr 2021</td></tr>
+-->
           <tr><td>I378</td><td>113DAKHI</td><td>MOHD KHAIRUL BIN ABU BAKAR</td><td>KALUMPANG</td><td>03 Nov 2020</td></tr>
           <tr><td>I377</td><td>113MSAZT</td><td>ZAMRI BIN IBRAHIM</td><td>SABAK BERNAM, SELANGOR</td><td>03 Nov 2020</td></tr>
           <tr><td>I376</td><td>113MSRNJ</td><td>MOHAMAD FIRDAUS BIN ABDULLAH</td><td>SABAK BERNAM, SELANGOR</td><td>03 Nov 2020</td></tr>

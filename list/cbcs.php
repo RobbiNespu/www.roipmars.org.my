@@ -93,7 +93,7 @@
     <div class='col-12 my-3 text-center lh-1'>
       <p><?php date_default_timezone_get();
           $file_last_modified = filemtime(__FILE__);
-          echo 'Kemaskini pada ' . date('D, jS M Y h:iA T', $file_last_modified); ?> : <span class='badge rounded-pill text-bg-success'>496</span></p>
+          echo 'Kemaskini pada ' . date('D, jS M Y h:iA T', $file_last_modified); ?> : <span class='badge rounded-pill text-bg-success'>497</span></p>
       <p class='fw-bold'>Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
       <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila email maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member&#64;roipmars.org.my</a></p>
     </div>
@@ -138,7 +138,7 @@
           <tr><td>I469</td><td>113DAASH</td><td>MOHD ASHRAF BIN ARSHAD</td><td>SITIAWAN,PERAK</td><td>20 Oct 2022</td></tr>
           <tr><td>I468</td><td>113DAYVN</td><td>AMRAN BIN MD JULIS</td><td>SG. BULOH</td><td>20 Oct 2022</td></tr>
           <tr><td>I467</td><td>113DAASF</td><td>MUHAMMAD ASRAF BIN YAHYA</td><td>BALING</td><td>20 Oct 2022</td></tr>
-          <tr><td>I466</td><td>113DAJMI</td><td>MUHAMAD JAMIL BIN MUHAMAD SAHA ROZI</td><td>GURUN</td><td>20 Oct 2022</td></tr>
+<!--          <tr><td>I466</td><td>113DAJMI</td><td>MUHAMAD JAMIL BIN MUHAMAD SAHA ROZI</td><td>GURUN</td><td>20 Oct 2022</td></tr>-->
           <tr><td>I465</td><td>113DAAKS</td><td>MOHD SHUKRI BIN ABD RAZAK</td><td>K. KETIL, KEDAH</td><td>20 Oct 2022</td></tr>
           <tr><td>I464</td><td>113DAYYD</td><td>NORYAZID BIN ARPAN</td><td>SEGAMAT</td><td>20 Oct 2022</td></tr>
           <tr><td>I463</td><td>113DABWA</td><td>MOHD RASHID BIN MOHD NAZIR</td><td>SEGAMAT</td><td>20 Oct 2022</td></tr>
@@ -298,12 +298,13 @@
           <tr><td>I311</td><td>113DAEMY</td><td>ZULHELMI BIN ABDUL HALIM</td><td>GUAR CHEMPEDAK, GURUN, KEDAH</td><td>05 May 2020</td></tr>
           <tr><td>I310</td><td>113DAHDQ</td><td>HASNAN BIN ABD HADIS</td><td>KG. PERMATANG BT. LINTANG, SUNGAI PETANI, KEDAH</td><td>05 May 2020</td></tr>
           <tr><td>I309</td><td>113DAJPX</td><td>MOHD HAZREE BIN MOHAMED NOOR</td><td>SEGAMAT, JOHOR</td><td>05 May 2020</td></tr>
+          <tr><td>I308</td><td>113MSNDD</td><td>AZLI BIN MOHAMAD</td><td>AMPANGAN, SEREMBAN, NEGERI SEMBILAN</td><td>04 May 2020</td></tr>
           <tr><td>I307</td><td>58MSHNE</td><td>HARRY BIN PHILIP</td><td>KAMPUNG TAMUI, PAPAR, SABAH</td><td>02 May 2020</td></tr>
           <tr><td>I306</td><td>113KLLSM</td><td>LIM SOON MUN @ ALBERT</td><td>PETALING JAYA, SELANGOR</td><td>02 May 2020</td></tr>
           <tr><td>I305</td><td>113MSDTD</td><td>ZAMZURI BIN SARIDAN</td><td>BAYAN LEPAS, PULAU PINANG</td><td>02 May 2020</td></tr>
           <tr><td>I304</td><td>113MSDDY</td><td>MUHAMMAD AIZAT FARIQ BIN ANUAR</td><td>PUTRA PERDANA, PUCHONG, SELANGOR</td><td>02 May 2020</td></tr>
           <tr><td>I303</td><td>113DAMNH</td><td>MOHD NAZRI BIN ABDUL HALIM</td><td>KUPANG, BALING, KEDAH</td><td>27 Apr 2020</td></tr>
-          <tr><td>I302</td><td>113MSASA</td><td>ANTONEO SCRAMENTO APOI</td><td>BELAGA, SARAWAK</td><td>24 Apr 2020</td></tr>
+          <tr><td>I302</td><td>58MSASA</td><td>ANTONEO SCRAMENTO APOI</td><td>BELAGA, SARAWAK</td><td>24 Apr 2020</td></tr>
           <tr><td>I301</td><td>58MSNGV</td><td>NICHOLES GAN</td><td>PAPAR, SABAH</td><td>24 Apr 2020</td></tr>
           <tr><td>I300</td><td>113MSHFT</td><td>HAFIZUL FAIZ BIN MOHD TARMIJI</td><td>JENJARUM, SELANGOR</td><td>23 Apr 2020</td></tr>
           <tr><td>I299</td><td>113MSOFP</td><td>NORSHAMLIZAN BIN SULAIMAN</td><td>GEMAS, NEGERI SEMBILAN</td><td>22 Apr 2020</td></tr>
@@ -476,6 +477,7 @@
           <tr><td>I132</td><td>91MSAAD</td><td>HUSNI HAMZAH</td><td>LHOKSUKON ACEH UTARA, INDONESIA</td><td>16 Feb 2020</td></tr>
           <tr><td>I131</td><td>113KL420</td><td>ALIF</td><td>SG. BESI, WP KUALA LUMPUR</td><td>16 Feb 2020</td></tr>
           <tr><td>I130</td><td>113MS101</td><td>MOHD HILMI</td><td>BANDAR TENGGARA, KULAI, JOHOR</td><td>15 Feb 2020</td></tr>
+          <tr><td>I497</td><td>113MSZNL</td><td>ZAINAL BIN YAACOB</td><td>FELDA KEMELAH, SEGAMAT, JOHOR</td><td>15 Feb 2020</td></tr>
           <tr><td>I129</td><td>113MSARJ</td><td>MOHAMAD HAFIZ BIN MOHAMAD NAJIB</td><td>JOHOR BAHRU, JOHOR</td><td>14 Feb 2020</td></tr>
           <tr><td>I128</td><td>113MSYEH</td><td>AZMI ABD WAHAB</td><td>KUANTAN, PAHANG</td><td>14 Feb 2020</td></tr>
           <tr><td>I127</td><td>113KLYE</td><td>AZMAN BIN ISMAIL</td><td>SG LEMAN, SEKINCHAN</td><td>14 Feb 2020</td></tr>

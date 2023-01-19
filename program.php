@@ -147,7 +147,7 @@
   <div class='container'>
     <div class='row'>
       <div class='col-lg-5 my-auto d-block'>
-        <h5 class='h5 text-center'>Jadual Net Mingguan</h5>
+        <h5 class='text-center'>Net Mingguan</h5>
         <table class='table table-sm table-bordered text-center'>
           <thead class='thead-dark'><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
           <tbody>
@@ -160,15 +160,15 @@
             <tr bgcolor='#D71110'><td>Ahad</td><td>09:00PM</td><td>CB Net</td><td>ROIPDARULAMAN</td></tr>
           </tbody>
         </table>
-        <p class='text-center'>Bagi individu / kelab yang berminat untuk menjalankan Aktiviti 'Special Net' bersempena dengan apa-apa acara / hari diluar jadual kami, anda boleh berhubung terus dengan Pegawai Pengelola Aktiviti / Siaraya kami <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/601112308482'><i class='bi bi-whatsapp'></i> Zikry</a> atau <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/60196293718'><i class='bi bi-whatsapp'></i> Rozaiman</a>.</p>
+        <p class='text-center'>Bagi individu / kelab yang berminat untuk menjalankan Aktiviti <i>'Special Net'</i> bersempena dengan apa-apa acara / hari diluar jadual kami, anda boleh berhubung terus dengan Pegawai Pengelola Aktiviti / Siaraya kami <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/601112308482'><i class='bi bi-whatsapp'></i> Zikry</a> atau <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/60196293718'><i class='bi bi-whatsapp'></i> Rozaiman</a> atau <a class='btn btn-sm rounded-pill bg-success' href='https://wa.me/60145768581'><i class='bi bi-whatsapp'></i> Veronica</a>.</p>
       </div>
       <div class='col-lg-7 my-2'>
         <div class='row'>
           <div class='col-sm'>
-            <iframe src='https://free.timeanddate.com/clock/i79fcx2u/n5088/tlmy40/fn11/fs15/ahl/pd2/tt0/th1/ta1' frameborder='0' width='100%' height='20'></iframe>
+            <iframe src='https://free.timeanddate.com/clock/i79fcx2u/n5088/tlmy40/fn11/fs15/ahl/pd2/tt0/th1/ta1' frameborder='0' width='100%' height='20' allowtransparency='true' style='background: grey'></iframe>
           </div>
           <div class='col-sm d-block align-self-end'>
-            <iframe src='https://free.timeanddate.com/clock/i79fcx2u/tlmy/fn8/fs12/ahr/pd2/tt0/th1/ta1' frameborder='0' width='100%' height='16'></iframe>
+            <iframe src='https://free.timeanddate.com/clock/i79fcx2u/tlmy/fn8/fs12/ahr/pd2/tt0/th1/ta1' frameborder='0' width='100%' height='16' allowtransparency='true'></iframe>
           </div>
         </div>
         <div class='ratio ratio-21x9'>
@@ -179,7 +179,7 @@
     <hr>
     <div class='row'>
       <div class='col-12 my-1 text-center'>
-        <h2 class='h2 font-weight-bold'>Jadual Program</h2>
+        <h2 class='font-weight-bold'>Jadual Program</h2>
         <p class='fs-5'><?php date_default_timezone_get(); $current_file_name = basename($_SERVER['PHP_SELF']); $file_last_modified = filemtime($current_file_name); echo 'Dijadualkan setakat: ' . date('D, dS M Y, h:iA T', $file_last_modified); ?></p>
       </div>
     </div>
@@ -199,7 +199,7 @@
               <tr><td>Jumaat</td><td>13 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2EZK</td><td>23</td></tr>
               <tr class='text-danger text-decoration-line-through' bgcolor='#336699'><td>Sabtu</td><td>14 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
               <tr><td>Ahad</td><td>15 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAZIK</td><td>28</td></tr>
-              <tr><td>Rabu</td><td>18 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RDY</td><td></td></tr>
+              <tr><td>Rabu</td><td>18 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RDY</td><td>30</td></tr>
               <tr><td>Jumaat</td><td>20 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2OGK</td><td></td></tr>
               <tr bgcolor='#336699'><td>Sabtu</td><td>21 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Ambang Tahun Baru Cina&#41;</td><td>9W6MOZ</td><td></td></tr>
               <tr bgcolor='#D71110'><td>Ahad</td><td>22 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru Cina&#41;</td><td>113DAPLY</td><td></td></tr>
@@ -215,7 +215,7 @@
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
             <thead><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Hasil</th></thead>
             <tbody>
-              <tr bgcolor='#56C3E7'><td>Rabu</td><td>01 Feb 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Federal Territory Day&#41;</td><td></td><td></td></tr>
+              <tr bgcolor='#56C3E7'><td>Rabu</td><td>01 Feb 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Federal Territory Day&#41;</td><td>9W2SFT</td><td></td></tr>
               <tr><td>Jumaat</td><td>03 Feb 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6AFF</td><td></td></tr>
               <tr bgcolor='#336699'><td>Sabtu</td><td>04 Feb 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Kanser Sedunia&#41;</td><td>9W2SNN</td><td></td></tr>
               <tr bgcolor='#D71110'><td>Ahad</td><td>05 Feb 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Thaipusam&#41;</td><td>113DAISS</td><td></td></tr>
@@ -236,7 +236,6 @@
             </tbody>
           </table>
         </div>
-<!--
         <p class='fs-3 bg-light text-center'>Mac 2023</p>
         <div class='table-responsive'>
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
@@ -273,6 +272,7 @@
             </tbody>
           </table>
         </div>
+<!--
         <p class='fs-3 bg-light text-center'>April 2023</p>
         <div class='table-responsive'>
           <table class='table table-sm table-bordered table-striped text-center align-middle'>
@@ -541,19 +541,50 @@
     <hr>
     <div class='row'>
       <div class='col-12 my-2 d-block mx-auto'>
-        <h6 class='h6 text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan &amp; Penghormatan Kami <i class='fas fa-quote-right fa-xs'></i></h6>
+        <h2 class='text-center'>Statistik Program</h2>
+        <h6 class='text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan &amp; Penghormatan Kami <i class='fas fa-quote-right fa-xs'></i></h6>
       </div>
-      <img class='col-lg-4 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&amp;format=image' alt='NetGraphDaily23'>
-      <img class='col-lg-4 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' alt='NetGraphWeekly23'>
-      <img class='col-lg-4 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' alt='NetGraphMonthly23'>
-      <img class='col-lg-4 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=4802909&format=image' alt='NetGraphBand23'>
-      <img class='col-lg-4 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1205231339&format=image' alt='NetGraphLang23'>
-      <img class='col-lg-4 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' alt='NetGraphMode23'>
-      <img class='col-lg-12 img-fluid rounded-5 mx-auto d-block my-1' width='100%' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' alt='NetGraphMap23'>
-      <div class='col-12 my-2 d-block mx-auto'>
-        <h6 class='h6 text-center'><i class='fas fa-quote-left fa-xs'></i> Your Participation &amp; Support is Our Pride &amp; Honour <i class='fas fa-quote-right fa-xs'></i></h6>
+      <div class='col-lg-6 figure img-thumbnail rounded-5'>
+        <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1851683566&format=image' loading='lazy' alt='NetGraphDaily23'>
+        <figcaption class='figure-caption text-center'>Masa &#40;UTC&#41;</figcaption>
       </div>
-      <div class='col-12'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
+      <div class='col-lg-6 figure img-thumbnail rounded-5'>
+        <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&amp;format=image' loading='lazy' alt='NetGraphDaily23'>
+        <figcaption class='figure-caption text-center'>Harian</figcaption>
+      </div>
+      <div class='col-lg-4 figure img-thumbnail rounded-5'>
+        <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=861710611&format=image' loading='lazy' alt='NetGraphDay23'>
+        <figcaption class='figure-caption text-center'>Hari</figcaption>
+      </div>
+      <div class='col-lg-4 figure img-thumbnail rounded-5'>
+        <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' loading='lazy' alt='NetGraphWeekly23'>
+        <figcaption class='figure-caption text-center'>Mingguan</figcaption>
+      </div>
+      <div class='col-lg-4 figure img-thumbnail rounded-5'>
+        <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' loading='lazy' alt='NetGraphMonthly23'>
+        <figcaption class='figure-caption text-center'>Bulanan</figcaption>
+      </div>
+      <div class='col-lg-4 figure img-thumbnail rounded-5'>
+        <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=4802909&format=image' loading='lazy' alt='NetGraphBand23'>
+        <figcaption class='figure-caption text-center'>Purata Jalur</figcaption>
+      </div>
+      <div class='col-lg-4 figure img-thumbnail rounded-5'>
+        <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1205231339&format=image' loading='lazy' alt='NetGraphLang23'>
+        <figcaption class='figure-caption text-center'>Purata Bahasa</figcaption>
+      </div>
+      <div class='col-lg-4 figure img-thumbnail rounded-5'>
+        <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' loading='lazy' alt='NetGraphMode23'>
+        <figcaption class='figure-caption text-center'>Kaedah Sambungan</figcaption>
+      </div>
+      <div class='col-lg-12 figure rounded-5 mx-auto d-block'>
+        <img class='figure-img img-fluid rounded-5 mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'>
+        <figcaption class='figure-caption text-center'>Peta</figcaption>
+      </div>
+    </div>
+<!--
+    <hr>
+    <div class='row'>
+      <div class='col-12 mt-3'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
       <div class='col-6'>
         <h6 class='text-center'>5 Pengawal Bahasa Melayu Tertinggi</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
@@ -634,6 +665,7 @@
         </table>
       </div>
     </div>
+-->
     <hr>
     <div class='row'>
       <div class='col-6'>

@@ -200,7 +200,7 @@
               <tr class='text-danger text-decoration-line-through' bgcolor='#336699'><td>Sabtu</td><td>14 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
               <tr><td>Ahad</td><td>15 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAZIK</td><td>28</td></tr>
               <tr><td>Rabu</td><td>18 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RDY</td><td>30</td></tr>
-              <tr><td>Jumaat</td><td>20 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2OGK</td><td></td></tr>
+              <tr><td>Jumaat</td><td>20 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2OGK</td><td>37</td></tr>
               <tr bgcolor='#336699'><td>Sabtu</td><td>21 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Ambang Tahun Baru Cina&#41;</td><td>9W6MOZ</td><td></td></tr>
               <tr bgcolor='#D71110'><td>Ahad</td><td>22 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru Cina&#41;</td><td>113DAPLY</td><td></td></tr>
               <tr><td>Rabu</td><td>25 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9W6WOT</td><td></td></tr>
@@ -581,91 +581,104 @@
         <figcaption class='figure-caption text-center'>Peta</figcaption>
       </div>
     </div>
-<!--
     <hr>
     <div class='row'>
       <div class='col-12 mt-3'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
-      <div class='col-6'>
-        <h6 class='text-center'>5 Pengawal Bahasa Melayu Tertinggi</h6>
-        <table class='table table-bordered table-sm table-responsive-sm text-center'>
-          <thead><th>No</th><th>Station</th></thead>
-          <tbody>
-            <tr><td>1<sup>st</sup></td><td>9W6AZE</td></tr>
-            <tr><td>2<sup>nd</sup></td><td>9W2EZK</td></tr>
-            <tr><td>3<sup>rd</sup></td><td></td></tr>
-            <tr><td>4<sup>th</sup></td><td></td></tr>
-            <tr><td>5<sup>th</sup></td><td></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class='col-6'>
-        <h6 class='text-center'>5 Stesen Bahasa Melayu Paling Aktif</h6>
-        <table class='table table-bordered table-sm table-responsive-sm text-center'>
-          <thead><th>No</th><th>Station</th></thead>
-          <tbody>
-            <tr><td>1<sup>st</sup></td><td>9W2SNN</td></tr>
-            <tr><td>2<sup>nd</sup></td><td>9W2OGK</td></tr>
-            <tr><td>3<sup>rd</sup></td><td>9W6RHN</td></tr>
-            <tr><td>4<sup>th</sup></td><td>9W2NEW</td></tr>
-            <tr><td>5<sup>th</sup></td><td>YD5NCU</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class='col-6'>
-        <h6 class='text-center'>5 Pengawal Bahasa Inggeris Tertinggi</h6>
-        <table class='table table-bordered table-sm table-responsive-sm text-center'>
-          <thead><th>No</th><th>Station</th></thead>
-          <tbody>
-            <tr><td>1<sup>st</sup></td><td>9M2RAN</td></tr>
-            <tr><td>2<sup>nd</sup></td><td>9M6JAY</td></tr>
-            <tr><td>3<sup>rd</sup></td><td></td></tr>
-            <tr><td>4<sup>th</sup></td><td></td></tr>
-            <tr><td>5<sup>th</sup></td><td></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class='col-6'>
-        <h6 class='text-center'>5 Stesen Bahasa Inggeris Paling Aktif</h6>
-        <table class='table table-bordered table-sm table-responsive-sm text-center'>
-          <thead><th>No</th><th>Station</th></thead>
-          <tbody>
-            <tr><td>1<sup>st</sup></td><td>9W2UZL</td></tr>
-            <tr><td>2<sup>nd</sup></td><td>9W2AYP</td></tr>
-            <tr><td>3<sup>rd</sup></td><td>9W8VWW</td></tr>
-            <tr><td>4<sup>th</sup></td><td>9W2LGX</td></tr>
-            <tr><td>5<sup>th</sup></td><td>9W6RHN</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class='col-12'><h3 class='text-center'>Kategori Jalur Rakyat</h3></div>
-      <div class='col-6'>
-        <h6 class='text-center'>5 Pengawal Jalur Rakyat Tertinggi</h6>
-        <table class='table table-bordered table-sm table-responsive-sm text-center'>
-          <thead><th>No</th><th>Station</th></thead>
-          <tbody>
-            <tr><td>1<sup>st</sup></td><td>113DAYJT</td></tr>
-            <tr><td>2<sup>nd</sup></td><td>113AZIK</td></tr>
-            <tr><td>3<sup>rd</sup></td><td>113DAJCP</td></tr>
-            <tr><td>4<sup>th</sup></td><td></td></tr>
-            <tr><td>5<sup>th</sup></td><td></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class='col-6'>
-        <h6 class='text-center'>5 Stesen Jalur Rakyat Paling Aktif</h6>
-        <table class='table table-bordered table-sm table-responsive-sm text-center'>
-          <thead><th>No</th><th>Station</th></thead>
-          <tbody>
-            <tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
-            <tr><td>2<sup>nd</sup></td><td>113DAISS</td></tr>
-            <tr><td>3<sup>rd</sup></td><td>113DABEE</td></tr>
-            <tr><td>4<sup>th</sup></td><td>225BSLIM</td></tr>
-            <tr><td>5<sup>th</sup></td><td>91KMEGG</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+      <div class='col-12 mt-2'><p class='text-center'>HAM Net Bahasa Melayu</p></div>
+        <div class='col-6'>
+          <h6 class='text-center'>5 Pengawal Bahasa Melayu Tertinggi</h6>
+          <table class='table table-bordered table-sm table-responsive-sm text-center'>
+            <thead><th>No</th><th>Station</th></thead>
+            <tbody>
+              <tr><td>1<sup>st</sup></td><td>9W6AZE</td></tr>
+              <tr><td>2<sup>nd</sup></td><td>9W2OGK</td></tr>
+              <tr><td>3<sup>rd</sup></td><td>9W2EZK</td></tr>
+<!--
+              <tr><td>4<sup>th</sup></td><td></td></tr>
+              <tr><td>5<sup>th</sup></td><td></td></tr>
 -->
+            </tbody>
+          </table>
+        </div>
+        <div class='col-6'>
+          <h6 class='text-center'>5 Stesen Bahasa Melayu Paling Aktif</h6>
+          <table class='table table-bordered table-sm table-responsive-sm text-center'>
+            <thead><th>No</th><th>Station</th></thead>
+            <tbody>
+              <tr><td>1<sup>st</sup></td><td>9W2SNN</td></tr>
+              <tr><td>2<sup>nd</sup></td><td>9W6RHN</td></tr>
+              <tr><td>3<sup>rd</sup></td><td>9W2NEW</td></tr>
+<!--
+              <tr><td>4<sup>th</sup></td><td>YD5NCU</td></tr>
+              <tr><td>5<sup>th</sup></td><td>9W2AYP</td></tr>
+-->
+            </tbody>
+          </table>
+        </div>
+      <div class='col-12 mt-2'><p class='text-center'>HAM Net Bahasa Inggeris</p></div>
+        <div class='col-6'>
+          <h6 class='text-center'>5 Pengawal Bahasa Inggeris Tertinggi</h6>
+          <table class='table table-bordered table-sm table-responsive-sm text-center'>
+            <thead><th>No</th><th>Station</th></thead>
+            <tbody>
+              <tr><td>1<sup>st</sup></td><td>9M2RAN</td></tr>
+              <tr><td>2<sup>nd</sup></td><td>9M6RDY</td></tr>
+              <tr><td>3<sup>rd</sup></td><td>9M6JAY</td></tr>
+<!--
+              <tr><td>4<sup>th</sup></td><td></td></tr>
+              <tr><td>5<sup>th</sup></td><td></td></tr>
+-->
+            </tbody>
+          </table>
+        </div>
+        <div class='col-6'>
+          <h6 class='text-center'>5 Stesen Bahasa Inggeris Paling Aktif</h6>
+          <table class='table table-bordered table-sm table-responsive-sm text-center'>
+            <thead><th>No</th><th>Station</th></thead>
+            <tbody>
+              <tr><td>1<sup>st</sup></td><td>9W2UZL</td></tr>
+              <tr><td>2<sup>nd</sup></td><td>9W2AYP</td></tr>
+              <tr><td>3<sup>rd</sup></td><td>9W8VWW</td></tr>
+<!--
+              <tr><td>4<sup>th</sup></td><td>9W2LGX</td></tr>
+              <tr><td>5<sup>th</sup></td><td>9W6RHN</td></tr>
+-->
+            </tbody>
+          </table>
+        </div>
+      <div class='col-12'><h3 class='text-center'>Kategori Jalur Rakyat</h3></div>
+      <div class='col-12 mt-2'><p class='text-center'>CB Net Bahasa Melayu</p></div>
+        <div class='col-6'>
+          <h6 class='text-center'>5 Pengawal Jalur Rakyat Tertinggi</h6>
+          <table class='table table-bordered table-sm table-responsive-sm text-center'>
+            <thead><th>No</th><th>Station</th></thead>
+            <tbody>
+              <tr><td>1<sup>st</sup></td><td>113DAYJT</td></tr>
+              <tr><td>2<sup>nd</sup></td><td>113AZIK</td></tr>
+              <tr><td>3<sup>rd</sup></td><td>113DAJCP</td></tr>
+<!--
+              <tr><td>4<sup>th</sup></td><td></td></tr>
+              <tr><td>5<sup>th</sup></td><td></td></tr>
+-->
+            </tbody>
+          </table>
+        </div>
+        <div class='col-6'>
+          <h6 class='text-center'>5 Stesen Jalur Rakyat Paling Aktif</h6>
+          <table class='table table-bordered table-sm table-responsive-sm text-center'>
+            <thead><th>No</th><th>Station</th></thead>
+            <tbody>
+              <tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
+              <tr><td>2<sup>nd</sup></td><td>113DAISS</td></tr>
+              <tr><td>3<sup>rd</sup></td><td>113DABEE</td></tr>
+<!--
+              <tr><td>4<sup>th</sup></td><td>225BSLIM</td></tr>
+              <tr><td>5<sup>th</sup></td><td>91KMEGG</td></tr>
+-->
+            </tbody>
+          </table>
+        </div>
+    </div>
     <hr>
     <div class='row'>
       <div class='col-6'>

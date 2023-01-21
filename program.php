@@ -586,7 +586,7 @@
       <div class='col-12 mt-3'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
       <div class='col-12 mt-2'><p class='text-center'>HAM Net Bahasa Melayu</p></div>
         <div class='col-6'>
-          <h6 class='text-center'>5 Pengawal Bahasa Melayu Tertinggi</h6>
+          <h6 class='text-center'>3 Pengawal Tertinggi</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
@@ -601,7 +601,7 @@
           </table>
         </div>
         <div class='col-6'>
-          <h6 class='text-center'>5 Stesen Bahasa Melayu Paling Aktif</h6>
+          <h6 class='text-center'>3 Stesen Paling Aktif</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
@@ -617,7 +617,7 @@
         </div>
       <div class='col-12 mt-2'><p class='text-center'>HAM Net Bahasa Inggeris</p></div>
         <div class='col-6'>
-          <h6 class='text-center'>5 Pengawal Bahasa Inggeris Tertinggi</h6>
+          <h6 class='text-center'>3 Pengawal Tertinggi</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
@@ -632,7 +632,7 @@
           </table>
         </div>
         <div class='col-6'>
-          <h6 class='text-center'>5 Stesen Bahasa Inggeris Paling Aktif</h6>
+          <h6 class='text-center'>3 Stesen Paling Aktif</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
@@ -649,7 +649,7 @@
       <div class='col-12'><h3 class='text-center'>Kategori Jalur Rakyat</h3></div>
       <div class='col-12 mt-2'><p class='text-center'>CB Net Bahasa Melayu</p></div>
         <div class='col-6'>
-          <h6 class='text-center'>5 Pengawal Jalur Rakyat Tertinggi</h6>
+          <h6 class='text-center'>3 Pengawal Tertinggi</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
@@ -664,7 +664,7 @@
           </table>
         </div>
         <div class='col-6'>
-          <h6 class='text-center'>5 Stesen Jalur Rakyat Paling Aktif</h6>
+          <h6 class='text-center'>3 Stesen Paling Aktif</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>

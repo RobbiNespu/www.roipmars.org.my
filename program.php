@@ -202,7 +202,7 @@
               <tr><td>Rabu</td><td>18 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RDY</td><td>30</td></tr>
               <tr><td>Jumaat</td><td>20 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2OGK</td><td>37</td></tr>
               <tr bgcolor='#336699'><td>Sabtu</td><td>21 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Ambang Tahun Baru Cina&#41;</td><td>9W6MOZ</td><td>58</td></tr>
-              <tr bgcolor='#D71110'><td>Ahad</td><td>22 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru Cina&#41;</td><td>113DAPLY</td><td><i class='bi bi-exclamation-diamond text-warning fs-3'></i></td></tr>
+              <tr bgcolor='#D71110'><td>Ahad</td><td>22 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru Cina&#41;</td><td>113DAPLY</td><td>26</td></tr>
               <tr><td>Rabu</td><td>25 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9W6WOT</td><td></td></tr>
               <tr><td>Jumaat</td><td>27 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6RMD</td><td></td></tr>
               <tr><td>Sabtu</td><td>28 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9M2KZI</td><td></td></tr>

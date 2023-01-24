@@ -165,7 +165,7 @@
       <div class='col-lg-7 my-2'>
         <div class='row'>
           <div class='col-sm'>
-            <iframe src='https://free.timeanddate.com/clock/i79fcx2u/n5088/tlmy40/fn11/fs15/ahl/pd2/tt0/th1/ta1' frameborder='0' width='100%' height='20' allowtransparency='true' style='background: grey'></iframe>
+            <iframe src='https://free.timeanddate.com/clock/i79fcx2u/n5088/tlmy40/fn11/fs15/ahl/pd2/tt0/th1/ta1' frameborder='0' width='100%' height='20' allowtransparency='true'></iframe>
           </div>
           <div class='col-sm d-block align-self-end'>
             <iframe src='https://free.timeanddate.com/clock/i79fcx2u/tlmy/fn8/fs12/ahr/pd2/tt0/th1/ta1' frameborder='0' width='100%' height='16' allowtransparency='true'></iframe>
@@ -192,17 +192,17 @@
             <tbody>
               <tr bgcolor='#D71110'><td>Ahad</td><td>01 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru 2023&#41;</td><td>113DAJCP</td><td>22</td></tr>
               <tr bgcolor='#56C3E7'><td>Rabu</td><td>04 Jan 2023</td><td>9:00PM</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td>9M6JAY</td><td>17</td></tr>
-              <tr class='text-danger text-decoration-line-through'><td>Jumaat</td><td>06 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W8VYY</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
+              <tr class='text-decoration-line-through'><td>Jumaat</td><td>06 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W8VYY</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
               <tr><td>Sabtu</td><td>07 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6AZE</td><td>37</td></tr>
               <tr><td>Ahad</td><td>08 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYJT</td><td>31</td></tr>
               <tr><td>Rabu</td><td>11 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M2RAN</td><td>34</td></tr>
               <tr><td>Jumaat</td><td>13 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2EZK</td><td>23</td></tr>
-              <tr class='text-danger text-decoration-line-through' bgcolor='#336699'><td>Sabtu</td><td>14 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
+              <tr class='text-decoration-line-through' bgcolor='#336699'><td>Sabtu</td><td>14 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
               <tr><td>Ahad</td><td>15 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAZIK</td><td>28</td></tr>
               <tr><td>Rabu</td><td>18 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6RDY</td><td>30</td></tr>
               <tr><td>Jumaat</td><td>20 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2OGK</td><td>37</td></tr>
-              <tr bgcolor='#336699'><td>Sabtu</td><td>21 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Ambang Tahun Baru Cina&#41;</td><td>9W6MOZ</td><td></td></tr>
-              <tr bgcolor='#D71110'><td>Ahad</td><td>22 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru Cina&#41;</td><td>113DAPLY</td><td></td></tr>
+              <tr bgcolor='#336699'><td>Sabtu</td><td>21 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Ambang Tahun Baru Cina&#41;</td><td>9W6MOZ</td><td>58</td></tr>
+              <tr bgcolor='#D71110'><td>Ahad</td><td>22 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru Cina&#41;</td><td>113DAPLY</td><td><i class='bi bi-exclamation-diamond text-warning fs-3'></i></td></tr>
               <tr><td>Rabu</td><td>25 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9W6WOT</td><td></td></tr>
               <tr><td>Jumaat</td><td>27 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W6RMD</td><td></td></tr>
               <tr><td>Sabtu</td><td>28 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9M2KZI</td><td></td></tr>
@@ -586,38 +586,36 @@
       <div class='col-12 mt-3'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
       <div class='col-12 mt-2'><p class='text-center'>HAM Net Bahasa Melayu</p></div>
         <div class='col-6'>
-          <h6 class='text-center'>3 Pengawal Tertinggi</h6>
+          <h6 class='text-center'>Pengawal Tertinggi</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
-              <tr><td>1<sup>st</sup></td><td>9W6AZE</td></tr>
-              <tr><td>2<sup>nd</sup></td><td>9W2OGK</td></tr>
-              <tr><td>3<sup>rd</sup></td><td>9W2EZK</td></tr>
+              <tr><td>1<sup>st</sup></td><td>9W6MOZ</td></tr>
+              <tr><td>2<sup>nd</sup></td><td>9W6AZE</td></tr>
+              <tr><td>3<sup>rd</sup></td><td>9W2OGK</td></tr>
+              <tr><td>4<sup>th</sup></td><td>9W2EZK</td></tr>
 <!--
-              <tr><td>4<sup>th</sup></td><td></td></tr>
               <tr><td>5<sup>th</sup></td><td></td></tr>
 -->
             </tbody>
           </table>
         </div>
         <div class='col-6'>
-          <h6 class='text-center'>3 Stesen Paling Aktif</h6>
+          <h6 class='text-center'>Stesen Paling Aktif</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
               <tr><td>1<sup>st</sup></td><td>9W2SNN</td></tr>
               <tr><td>2<sup>nd</sup></td><td>9W6RHN</td></tr>
               <tr><td>3<sup>rd</sup></td><td>9W2NEW</td></tr>
-<!--
               <tr><td>4<sup>th</sup></td><td>YD5NCU</td></tr>
               <tr><td>5<sup>th</sup></td><td>9W2AYP</td></tr>
--->
             </tbody>
           </table>
         </div>
       <div class='col-12 mt-2'><p class='text-center'>HAM Net Bahasa Inggeris</p></div>
         <div class='col-6'>
-          <h6 class='text-center'>3 Pengawal Tertinggi</h6>
+          <h6 class='text-center'>Pengawal Tertinggi</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
@@ -632,57 +630,54 @@
           </table>
         </div>
         <div class='col-6'>
-          <h6 class='text-center'>3 Stesen Paling Aktif</h6>
+          <h6 class='text-center'>Stesen Paling Aktif</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
               <tr><td>1<sup>st</sup></td><td>9W2UZL</td></tr>
               <tr><td>2<sup>nd</sup></td><td>9W2AYP</td></tr>
               <tr><td>3<sup>rd</sup></td><td>9W8VWW</td></tr>
-<!--
               <tr><td>4<sup>th</sup></td><td>9W2LGX</td></tr>
               <tr><td>5<sup>th</sup></td><td>9W6RHN</td></tr>
--->
             </tbody>
           </table>
         </div>
       <div class='col-12'><h3 class='text-center'>Kategori Jalur Rakyat</h3></div>
       <div class='col-12 mt-2'><p class='text-center'>CB Net Bahasa Melayu</p></div>
         <div class='col-6'>
-          <h6 class='text-center'>3 Pengawal Tertinggi</h6>
+          <h6 class='text-center'>Pengawal Tertinggi</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
               <tr><td>1<sup>st</sup></td><td>113DAYJT</td></tr>
               <tr><td>2<sup>nd</sup></td><td>113AZIK</td></tr>
               <tr><td>3<sup>rd</sup></td><td>113DAJCP</td></tr>
-<!--
               <tr><td>4<sup>th</sup></td><td></td></tr>
+<!--
               <tr><td>5<sup>th</sup></td><td></td></tr>
 -->
             </tbody>
           </table>
         </div>
         <div class='col-6'>
-          <h6 class='text-center'>3 Stesen Paling Aktif</h6>
+          <h6 class='text-center'>Stesen Paling Aktif</h6>
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
               <tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
               <tr><td>2<sup>nd</sup></td><td>113DAISS</td></tr>
               <tr><td>3<sup>rd</sup></td><td>113DABEE</td></tr>
-<!--
               <tr><td>4<sup>th</sup></td><td>225BSLIM</td></tr>
               <tr><td>5<sup>th</sup></td><td>91KMEGG</td></tr>
--->
             </tbody>
           </table>
         </div>
     </div>
     <hr>
     <div class='row'>
+      <div class='col-12 mt-3'><h3 class='text-center'>Pemenang Bertuah Rangkaian RoIPMARS</h3></div>
       <div class='col-6'>
-        <h6 class='text-center'>Pemenang Bertuah<br>RoIPMARS Net Khas Ambang Tahun Baru 2023</h6>
+        <h6 class='text-center'>HAM Net Khas Ambang Tahun Baru 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -695,7 +690,7 @@
         </table>
       </div>
       <div class='col-6'>
-        <h6 class='text-center'>Pemenang Bertuah<br>CB Net Khas Sambutan Tahun Baru 2023</h6>
+        <h6 class='text-center'>CB Net Khas Sambutan Tahun Baru 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
@@ -707,34 +702,32 @@
           </tbody>
         </table>
       </div>
-<!--
       <div class='col-6'>
-        <h6 class='text-center'>Pemenang Bertuah<br>RoIPMARS Net Khas Ambang Tahun Baru Cina 2023</h6>
+        <h6 class='text-center'>HAM Net Khas Ambang Tahun Baru Cina 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
-            <tr><td>1<sup>st</sup></td><td></td></tr>
-            <tr><td>2<sup>nd</sup></td><td></td></tr>
-            <tr><td>3<sup>rd</sup></td><td></td></tr>
-            <tr><td>4<sup>th</sup></td><td></td></tr>
-            <tr><td>5<sup>th</sup></td><td></td></tr>
+            <tr><td>1<sup>st</sup></td><td>9W2EVQ</td></tr>
+            <tr><td>2<sup>nd</sup></td><td>9M2RAN</td></tr>
+            <tr><td>3<sup>rd</sup></td><td>9W2JCP</td></tr>
+            <tr><td>4<sup>th</sup></td><td>9W2ESR</td></tr>
+            <tr><td>5<sup>th</sup></td><td>V85AFF</td></tr>
           </tbody>
         </table>
       </div>
       <div class='col-6'>
-        <h6 class='text-center'>Pemenang Bertuah<br>CB Net Khas Sambutan Tahun Baru Cina 2023</h6>
+        <h6 class='text-center'>CB Net Khas Sambutan Tahun Baru Cina 2023</h6>
         <table class='table table-bordered table-sm table-responsive-sm text-center'>
           <thead><th>No</th><th>Station</th></thead>
           <tbody>
-            <tr><td>1<sup>st</sup></td><td></td></tr>
-            <tr><td>2<sup>nd</sup></td><td></td></tr>
-            <tr><td>3<sup>rd</sup></td><td></td></tr>
-            <tr><td>4<sup>th</sup></td><td></td></tr>
-            <tr><td>5<sup>th</sup></td><td></td></tr>
+            <tr><td>1<sup>st</sup></td><td>91DATHP</td></tr>
+            <tr><td>2<sup>nd</sup></td><td>113MSSAM</td></tr>
+            <tr><td>3<sup>rd</sup></td><td>113DANDI</td></tr>
+            <tr><td>4<sup>th</sup></td><td>91DAGBW</td></tr>
+            <tr><td>5<sup>th</sup></td><td>91KMAGP</td></tr>
           </tbody>
         </table>
       </div>
--->
     </div>
   </div>
   <footer class='footer mt-auto py-1 page-footer font-small bg-light'>
@@ -774,7 +767,7 @@
     <div class='container-fluid'>
       <div class='row mt-5 mb-0 d-flex align-middle'>
         <div class='col-md-8 col-lg-8 col-xl-8'>
-          <p class='text-start font-monospace'><a href='policies' class='text-dark text-decoration-none font-monospace'>Polisi Perkhidmatan</a><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
+          <p class='text-start font-monospace'><a href='policies' class='text-reset text-decoration-none'>Polisi Perkhidmatan</a><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
         </div> 
         <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
           <div class='text-end text-decoration-none'>

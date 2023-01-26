@@ -187,19 +187,19 @@
       </div>
       <div class='col-lg-5'>
         <h4 class='text-center font-weight-bold'>ETIKA RADIO AMATUR</h4>
-        <table class='table table-borderless text-center'>
-          <tbody class='table-success'>
+        <table class='table table-bordered text-center bg-success-subtle'>
+          <tbody>
             <tr><td>Setia</td><td>Progresif</td><td>Ramah Tamah</td></tr>
             <tr><td>Berjiwa Perwira</td><td>Berjiwa Seimbang</td><td>Berjiwa Patriotik</td></tr>
           </tbody>
         </table>
         <h4 class='text-center font-weight-bold'>PERKARA-PERKARA YANG DILARANG SEMASA MENGENDALIKAN STESEN RADIO AMATUR</h4>
-        <ol class='text-bg-danger'>
+        <ol class='bg-danger-subtle'>
           <li>Stesen Radio Amatur dilarang menggunakan Radio Amatur untuk tujuan komersil.</li>
           <li>Menyiarkan sebarang bahan yang telah sedia ada berupa lagu, percakapan, berita atau apa sahaja yang berkaitan (ulang siar).</li>
         </ol>
         <h4 class='text-center font-weight-bold'>PERKARA-PERKARA YANG DIBENARKAN SEMASA PENGENDALIAN STESEN RADIO AMATUR</h4>
-        <ol class='text-bg-success'>
+        <ol class='bg-success-subtle'>
           <li>Komunikasi dengan stesen radio amatur diseluruh dunia dengan menggunakan Radio HF dan satelit.</li>
           <li>Komunikasi di antara bandar-bandar tempatan dengan menggunakan radio pemancar VHF dan UHF.</li>
           <li>Memberi khidmat komunikasi ketika berlakunya bencana sekiranya tidak terdapat alat komunikasi yang lain atau alat komunikasi yang lain tidak berfungsi.</li>

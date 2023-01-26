@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang='ms-MY' data-bs-color-scheme>
+<html lang='ms-MY' data-bs-theme='dark'>
 
 <head>
   <title>RoIPMARS | Home</title>
@@ -17,18 +17,17 @@
   <meta property='og:title' content='RoIPMARS | Home'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP)'>
   <meta property='og:url' content='https://www.roipmars.org.my'>
-  <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
+  <meta property='og:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='RoIPMARS | Home'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP)'>
   <meta name='twitter:url' content='https://www.roipmars.org.my'>
-  <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
+  <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
   <meta name='theme-color' content='#336699'>
-  <meta name='color-scheme' content='light dark'>
   <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon-16x16.png'>
@@ -48,7 +47,6 @@
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script>
     (function(w, d, s, l, i) {
@@ -112,13 +110,12 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
-  <nav class='navbar sticky-top navbar-expand-lg navbar-light bg-light'>
+  <nav class='navbar sticky-top navbar-expand-lg bg-dark-subtle'>
     <div class='container-fluid'>
       <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
-      <button type='button' class='btn btn-sm btn-outline-dark' id='darkmode-button'>Switch View</button>
       <button class='navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#navbarOffcanvasLg' aria-controls='navbarOffcanvasLg'><span class='navbar-toggler-icon'></span></button>
       <div class='offcanvas offcanvas-end' tabindex='-1' id='navbarOffcanvasLg' aria-labelledby='navbarOffcanvasLgLabel'>
-        <div class='offcanvas-header text-bg-light'>
+        <div class='offcanvas-header'>
           <h5 class='offcanvas-title' id='navbarOffcanvasLgLabel'>MENU</h5>
         </div>
         <ul class='navbar-nav nav-pills text-center justify-content-end'>
@@ -139,10 +136,10 @@
   </nav>
   <div class='container-fluid'>
     <div class='row text-center'>
-      <div class='col my-3 jumbotron-fluid'>
-        <img src='./images/web-banner.png' loading='lazy' class='img-fluid border border-light rounded-5 mb-3 bg-light' alt='banner-index'>
+      <div class='col my-3 container-fluid'>
+        <img src='./images/banner/roipmarsv.png' loading='lazy' class='img-fluid rounded-5 mb-3' width='90%' alt='banner-index'>
         <h1 class='h1-responsive'>Selamat Datang ke RoIPMARS</h1>
-        <p class='fs-5'>Malaysian Amateur Radio over Internet Protocol Society</p>
+        <p class='fs-5'>Malaysian Amateur Radio over Internet Protocol Society &#40;MARS&#41;</p>
         <p class='fs-3'>&#8212; MUDAH &#8212; MURAH &#8212; MERIAH &#8212; MERAPATKAN HUBUNGAN &#8212; MENJAGA SILATURRAHIM &#8212;</p>
       </div>
     </div>
@@ -273,7 +270,7 @@
       </div>
     </div>
   </div>
-  <footer class='footer mt-auto py-1 page-footer font-small bg-light'>
+  <footer class='footer mt-auto py-1 page-footer font-small bg-dark-subtle'>
     <div class='container'>
       <div class='row my-0'>
         <div class='col-lg-8 mx-auto my-1'>
@@ -302,7 +299,7 @@
               </div>
             </div>
           <div class='d-flex justify-content-end'>
-            <img class='img-fluid rounded-5' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
+            <img class='img-fluid rounded-5 bg-secondary' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
           </div>
         </div>
       </div>
@@ -325,8 +322,6 @@
   </footer>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
-  <script>document.querySelector('#darkmode-button').onclick = function(e){ darkmode.toggleDarkMode(); }</script>
   <script type='text/javascript'>
     var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     (function(){

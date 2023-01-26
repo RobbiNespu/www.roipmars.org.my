@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang='ms-MY' data-bs-color-scheme='dark'>
+<html lang='ms-MY' data-bs-theme='dark'>
 
 <head>
   <title>RoIPMARS | Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group</title>
@@ -17,13 +17,13 @@
   <meta property='og:title' content='RoIPMARS | Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
   <meta property='og:url' content='https://www.roipmars.org.my/nts/2020/04'>
-  <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
+  <meta property='og:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='RoIPMARS | Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/nts/2020/04'>
-  <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
+  <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='../../images/ms-icon-144x144.png'>
@@ -49,7 +49,6 @@
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script>
     (function(w, d, s, l, i) {
@@ -107,7 +106,6 @@
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
 </body>
 
 </html>

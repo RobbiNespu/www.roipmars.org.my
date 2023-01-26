@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang='ms-MY' data-bs-color-scheme='dark'>
+<html lang='ms-MY' data-bs-theme='dark'>
 
 <head>
 	<title>RoIPMARS | Contact Us</title>
@@ -17,13 +17,13 @@
   <meta property='og:title' content='RoIPMARS | Contact Us'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Contact Us'>
   <meta property='og:url' content='https://www.roipmars.org.my/mailusn'>
-  <meta property='og:image' content='https://www.roipmars.org.my/images/brand.png'>
+  <meta property='og:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='RoIPMARS | Contact Us'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Contact Us'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/amailus'>
-  <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand.png'>
+  <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
@@ -48,7 +48,6 @@
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-blackbox.min.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
 	<!-- Google Tag Manager -->
 	<script>
@@ -123,13 +122,12 @@
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
 	<!-- End Messenger Chat plugin -->
-	<nav class='navbar sticky-top navbar-expand-lg navbar-light bg-light'>
+	<nav class='navbar sticky-top navbar-expand-lg bg-dark-subtle'>
     <div class='container-fluid'>
       <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
-      <button type='button' class='btn btn-sm btn-outline-dark' id='darkmode-button'>Switch View</button>
       <button class='navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#navbarOffcanvasLg' aria-controls='navbarOffcanvasLg'><span class='navbar-toggler-icon'></span></button>
       <div class='offcanvas offcanvas-end' tabindex='-1' id='navbarOffcanvasLg' aria-labelledby='navbarOffcanvasLgLabel'>
-        <div class='offcanvas-header text-bg-light'>
+        <div class='offcanvas-header'>
           <h5 class='offcanvas-title' id='navbarOffcanvasLgLabel'>MENU</h5>
         </div>
         <ul class='navbar-nav nav-pills text-center justify-content-end'>
@@ -196,7 +194,7 @@
 			</div>
 		</div>
 	</div>
-	<footer class='footer mt-auto py-1 page-footer font-small bg-light'>
+	<footer class='footer mt-auto py-1 page-footer font-small bg-dark-subtle'>
 		<div class='container'>
 			<div class='row my-0'>
 				<div class='col-md-7 col-lg-7 col-xl-7 mx-auto my-1'>
@@ -215,7 +213,7 @@
 					<h5 class='text-uppercase mb-2 font-weight-bold'>Hubungi Kami</h5>
 					<p><i class='bi bi-envelope-at'></i> <a href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website' class='text-dark text-decoration-none'>member&#64;roipmars.org.my</a></p>
 					<div class='d-flex justify-content-end'>
-						<img class='img-fluid rounded-5' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
+						<img class='img-fluid rounded-5 bg-secondary' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
 					</div>
 				</div>
 			</div>
@@ -238,8 +236,6 @@
 	</footer>
 	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
 	<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/js/darkmode.min.js' crossorigin='anonymous'></script>
-  <script>document.querySelector('#darkmode-button').onclick = function(e){ darkmode.toggleDarkMode(); }</script>
 	<script src='./vendor/mail/contact.js'></script>
   <script src='./vendor/mail/jqBootstrapValidation.js'></script>
   <script src='https://challenges.cloudflare.com/turnstile/v0/api.js' async defer></script>

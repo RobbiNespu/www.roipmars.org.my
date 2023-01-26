@@ -1,5 +1,5 @@
 <!doctype html>
-<html data-bs-theme='dark'>
+<html>
 
 <head>
   <title>RoIPMARS | Members Directory</title>
@@ -9,7 +9,6 @@
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='../images/ms-icon-144x144.png'>
   <meta name='theme-color' content='#336699'>
-  <meta name='color-scheme' content='dark'>
   <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='../images/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='../images/favicon-16x16.png'>

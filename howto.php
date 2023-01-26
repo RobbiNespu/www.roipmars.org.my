@@ -157,7 +157,7 @@
         <p class='text-center'>Perisian tambahan untuk bantuan desktop: <a class='btn btn-sm btn-primary' role='button' href='https://dl.teamviewer.com/download/TeamViewer_Setup.exe' download>Muat Turun TeamViewer (Windows)</a></p>
       </div>
     </div>
-    <div id='pcwin' class='row no-gutters bg-light position-relative mb-3 rounded-5'>
+    <div id='pcwin' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-md-8 mb-md-0 p-md-3'>
         <div class='ratio ratio-21x9'>
           <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/ds73Lvt696E' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
@@ -187,7 +187,7 @@
         </table>
       </div>
     </div>
-    <div id='pclinux' class='row no-gutters bg-light position-relative mb-3 rounded-5'>
+    <div id='pclinux' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-md-8 mb-md-0 p-md-3'>
         <div class='ratio ratio-21x9'>
           <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/fqR1OPaK_cc' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
@@ -217,7 +217,7 @@
         </table>
       </div>
     </div>
-    <div id='pcmac' class='row no-gutters bg-light position-relative mb-3 rounded-5'>
+    <div id='pcmac' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-md-8 mb-md-0 p-md-3'>
         <div class='ratio ratio-21x9'>
           <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/DGJDt5RsDg4' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
@@ -242,7 +242,7 @@
         </table>
       </div>
     </div>
-    <div id='pcwincc' class='row no-gutters bg-light position-relative mb-3 rounded-5'>
+    <div id='pcwincc' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-md-8 mb-md-0 p-md-3'>
         <div class='ratio ratio-21x9'>
           <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/2XeQNtOpTIs' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
@@ -269,7 +269,7 @@
         </table>
       </div>
     </div>
-    <div id='pcwintsgc' class='row no-gutters bg-light position-relative mb-3 rounded-5'>
+    <div id='pcwintsgc' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-md-8 mb-md-0 p-md-3'>
         <div class='ratio ratio-21x9'>
           <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/11KnBz72j5Y' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
@@ -335,7 +335,7 @@
         </table>
       </div>
     </div>
-    <div id='androidps' class='row no-gutters bg-light position-relative mb-3 rounded-5'>
+    <div id='androidps' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-12 mt-3'>
         <h5 class='text-center'>Pasang &amp; Konfigurasikan Teamspeak dalam Android</h5>
       </div>
@@ -458,7 +458,7 @@
       </div>
     </div>
     <!--
-<div id='androidcr' class='row no-gutters bg-light position-relative mb-3 rounded-5'>
+<div id='androidcr' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
   <div class='col-12 mt-3'>
     <h5 class='text-center'>Pasang &amp; Konfigurasikan Teamspeak dalam Android <em>(OUT OF SUPPORT-END DEC 2020)</em></h5>
   </div>
@@ -552,7 +552,7 @@
         </table>
       </div>
     </div>
-    <div id='ios' class='row no-gutters bg-light position-relative mb-3 rounded-5'>
+    <div id='ios' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-12 mt-3'>
         <h5 class='text-center'>Pasang &amp; Konfigurasikan Teamspeak dalam iOS</h5>
       </div>

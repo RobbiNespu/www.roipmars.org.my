@@ -192,7 +192,7 @@ header h1{
   position: relative;
   margin: 1em 0 0 0;
   padding: 1em;
-  background: transparent;
+  background: #212529;
   border: solid thin;
   border-radius: 20px;
   -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);

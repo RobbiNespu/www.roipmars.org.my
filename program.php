@@ -606,10 +606,8 @@
               <tr><td>1<sup>st</sup></td><td>9W6MOZ</td></tr>
               <tr><td>2<sup>nd</sup></td><td>9W6AZE</td></tr>
               <tr><td>3<sup>rd</sup></td><td>9W2OGK</td></tr>
-              <tr><td>4<sup>th</sup></td><td>9W2EZK</td></tr>
-<!--
-              <tr><td>5<sup>th</sup></td><td></td></tr>
--->
+              <tr><td>4<sup>th</sup></td><td>9W6RHN</td></tr>
+              <tr><td>5<sup>th</sup></td><td>9W2EZK</td></tr>
             </tbody>
           </table>
         </div>
@@ -619,10 +617,10 @@
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
               <tr><td>1<sup>st</sup></td><td>9W2SNN</td></tr>
-              <tr><td>2<sup>nd</sup></td><td>9W6RHN</td></tr>
-              <tr><td>3<sup>rd</sup></td><td>9W2NEW</td></tr>
-              <tr><td>4<sup>th</sup></td><td>YD5NCU</td></tr>
-              <tr><td>5<sup>th</sup></td><td>9W2AYP</td></tr>
+              <tr><td>2<sup>nd</sup></td><td>9W2NEW</td></tr>
+              <tr><td>3<sup>rd</sup></td><td>YD5NCU</td></tr>
+              <tr><td>4<sup>th</sup></td><td>9W2AYP</td></tr>
+              <tr><td>5<sup>th</sup></td><td>9W2ORL</td></tr>
             </tbody>
           </table>
         </div>
@@ -665,8 +663,8 @@
               <tr><td>1<sup>st</sup></td><td>113DAYJT</td></tr>
               <tr><td>2<sup>nd</sup></td><td>113AZIK</td></tr>
               <tr><td>3<sup>rd</sup></td><td>113DAPLY</td></tr>
-              <tr><td>4<sup>th</sup></td><td>113DAJCP</td></tr>
 <!--
+              <tr><td>4<sup>th</sup></td><td>113DAJCP</td></tr>
               <tr><td>5<sup>th</sup></td><td></td></tr>
 -->
             </tbody>

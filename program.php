@@ -621,6 +621,11 @@
               <tr><td>3<sup>rd</sup></td><td>YD5NCU</td></tr>
               <tr><td>4<sup>th</sup></td><td>9W2AYP</td></tr>
               <tr><td>5<sup>th</sup></td><td>9W2ORL</td></tr>
+              <tr><td>6<sup>th</sup></td><td>9W2UZL</td></tr>
+              <tr><td>7<sup>th</sup></td><td>9W2JCP</td></tr>
+              <tr><td>8<sup>th</sup></td><td>9W2YTW</td></tr>
+              <tr><td>9<sup>th</sup></td><td>9W2OGK</td></tr>
+              <tr><td>10<sup>th</sup></td><td>9W6RHN</td></tr>
             </tbody>
           </table>
         </div>
@@ -650,6 +655,11 @@
               <tr><td>3<sup>rd</sup></td><td>9W8VWW</td></tr>
               <tr><td>4<sup>th</sup></td><td>9W2LGX</td></tr>
               <tr><td>5<sup>th</sup></td><td>9W6RHN</td></tr>
+              <tr><td>6<sup>th</sup></td><td>9W2BIC</td></tr>
+              <tr><td>7<sup>th</sup></td><td>YD9BEJ</td></tr>
+              <tr><td>8<sup>th</sup></td><td>9W2NDI</td></tr>
+              <tr><td>9<sup>th</sup></td><td>9W2YJT</td></tr>
+              <tr><td>10<sup>th</sup></td><td>9W2JCP</td></tr>
             </tbody>
           </table>
         </div>
@@ -680,6 +690,11 @@
               <tr><td>3<sup>rd</sup></td><td>91KMEGG</td></tr>
               <tr><td>4<sup>th</sup></td><td>113MSUZL</td></tr>
               <tr><td>5<sup>th</sup></td><td>113DAOGK</td></tr>
+              <tr><td>6<sup>th</sup></td><td>113DAPLY</td></tr>
+              <tr><td>7<sup>th</sup></td><td>113MS111</td></tr>
+              <tr><td>8<sup>th</sup></td><td>225BSLIM</td></tr>
+              <tr><td>9<sup>th</sup></td><td>91DABPL</td></tr>
+              <tr><td>10<sup>th</sup></td><td>91DAAVM</td></tr>
             </tbody>
           </table>
         </div>

@@ -218,7 +218,7 @@
               <tr class='bg-danger-subtle'><td>Ahad</td><td>22 Jan 2023</td><td>9:00PM</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru Cina&#41;</td><td>113DAPLY</td><td>26</td></tr>
               <tr><td>Rabu</td><td>25 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6JAY</td><td>28</td></tr>
               <tr><td>Jumaat</td><td>27 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2RHN</td><td>33</td></tr>
-              <tr><td>Sabtu</td><td>28 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9M2KZI</td><td></td></tr>
+              <tr><td>Sabtu</td><td>28 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9M6AUA</td><td>34</td></tr>
               <tr><td>Ahad</td><td>29 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYJT</td><td></td></tr>
             </tbody>
           </table>

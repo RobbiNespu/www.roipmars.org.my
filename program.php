@@ -219,7 +219,7 @@
               <tr><td>Rabu</td><td>25 Jan 2023</td><td>9:00PM</td><td>English Net</td><td>9M6JAY</td><td>28</td></tr>
               <tr><td>Jumaat</td><td>27 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9W2RHN</td><td>33</td></tr>
               <tr><td>Sabtu</td><td>28 Jan 2023</td><td>9:00PM</td><td>MARS Net</td><td>9M6AUA</td><td>34</td></tr>
-              <tr><td>Ahad</td><td>29 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYJT</td><td></td></tr>
+              <tr><td>Ahad</td><td>29 Jan 2023</td><td>9:00PM</td><td>CB Net</td><td>113DAYJT</td><td>10</td></tr>
             </tbody>
           </table>
         </div>
@@ -670,13 +670,9 @@
           <table class='table table-bordered table-sm table-responsive-sm text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
-              <tr><td>1<sup>st</sup></td><td>113DAYJT</td></tr>
-              <tr><td>2<sup>nd</sup></td><td>113AZIK</td></tr>
-              <tr><td>3<sup>rd</sup></td><td>113DAPLY</td></tr>
-<!--
-              <tr><td>4<sup>th</sup></td><td>113DAJCP</td></tr>
-              <tr><td>5<sup>th</sup></td><td></td></tr>
--->
+              <tr><td>1<sup>st</sup></td><td>113AZIK</td></tr>
+              <tr><td>2<sup>nd</sup></td><td>113DAPLY</td></tr>
+              <tr><td>3<sup>rd</sup></td><td>113DAJCP</td></tr>
             </tbody>
           </table>
         </div>
@@ -687,13 +683,13 @@
             <tbody>
               <tr><td>1<sup>st</sup></td><td>113DAISS</td></tr>
               <tr><td>2<sup>nd</sup></td><td>113DAPLY</td></tr>
-              <tr><td>3<sup>rd</sup></td><td>225BSLIM</td></tr>
-              <tr><td>4<sup>th</sup></td><td>91DABPL</td></tr>
-              <tr><td>5<sup>th</sup></td><td>91DAAVM</td></tr>
-              <tr><td>6<sup>th</sup></td><td>91DAJA</td></tr>
-              <tr><td>7<sup>th</sup></td><td>113DAHRY</td></tr>
-              <tr><td>8<sup>th</sup></td><td>113DAJCP</td></tr>
-              <tr><td>9<sup>th</sup></td><td>91KMAGP</td></tr>
+              <tr><td>3<sup>rd</sup></td><td>91DAJA</td></tr>
+              <tr><td>4<sup>th</sup></td><td>91KMAGP</td></tr>
+              <tr><td>5<sup>th</sup></td><td>225BSLIM</td></tr>
+              <tr><td>6<sup>th</sup></td><td>91DABPL</td></tr>
+              <tr><td>7<sup>th</sup></td><td>91DAAVM</td></tr>
+              <tr><td>8<sup>th</sup></td><td>113DAHRY</td></tr>
+              <tr><td>9<sup>th</sup></td><td>113DAJCP</td></tr>
               <tr><td>10<sup>th</sup></td><td>113MSSAM</td></tr>
             </tbody>
           </table>

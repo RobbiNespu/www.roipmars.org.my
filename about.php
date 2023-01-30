@@ -255,7 +255,7 @@
                 <span class='flag'>MARDS</span>
                 <span class='time-wrapper'><span class='time'>2017</span></span>
               </div>
-              <div class='desc'>Hasrat beberapa ahli komuniti untuk mendaftarkan MeDiC sebagai satu organisasi yang sah di Malaysia terjadi apabila berlaku lantikan Jawatankuasa Penaja <b>Malaysian Amateur Radio Digital Society &#40;MARDS&#41;</b> seramai 15 orang yang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle'><tbody><tr><td>9W2UZL</td><td>Presiden</td></tr><tr><td>9W2ZEC</td><td>Timbalan Presiden</td></tr><tr><td>9W8ZZK</td><td>Setiausaha</td></tr><tr><td>9W2PIO</td><td>Penolong Setiausaha</td></tr><tr><td>9W2DJM</td><td>Bendahari</td></tr><tr><td>9W2OGK</td><td>Biro Siaraya</td></tr><tr><td>9M2MBT<br>9W2JE<br>9W2NDI<br>9W2TVE<br>9W2OOL<br>9W2ZDP<br>9W2BUN</td><td>AJK Domestik</td></tr><tr><td>V85ABK<br>HS9QMG</td><td>AJK Antarabangsa</td></tr><tr><td>9W2OTB<br>9W2WOV</td><td>Pemeriksa Kira-kira</td></tr></tbody></table>Motto yang dibawakan oleh MARD&#39;S adalah &#39;<b>Jika Bukan Anda Siapa Lagi, Jika Bukan Sekarang Bila Lagi</b>&#39;.<br>Pada waktu yang sama, pelayan yang berasaskan Linux yang berada di Singapura mengalami masalah waktu operasi lalu dipindahkan ke Pusat Data di Perancis bagi mengatasi masalah tersebut.</div>
+              <div class='desc'>Hasrat beberapa ahli komuniti untuk mendaftarkan MeDiC sebagai satu organisasi yang sah di Malaysia terjadi apabila berlaku lantikan Jawatankuasa Penaja <b>Malaysian Amateur Radio Digital Society &#40;MARDS&#41;</b> seramai 15 orang yang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle'><tbody><tr><td>9W2UZL</td><td>Presiden</td></tr><tr><td>9W2ZEC</td><td>Timbalan Presiden</td></tr><tr><td>9W8ZZK</td><td>Setiausaha</td></tr><tr><td>9W2PIO</td><td>Penolong Setiausaha</td></tr><tr><td>9W2DJM</td><td>Bendahari</td></tr><tr><td>9W2OGK</td><td>Biro Siaraya</td></tr><tr><td>9M2MBT<br>9W2JE<br>9W2NDI<br>9W2TVE<br>9W2OOL<br>9W2ZDP<br>9W2BUN</td><td>AJK Domestik</td></tr><tr><td>V85ABK<br>HS9QMG</td><td>AJK Antarabangsa</td></tr><tr><td>9W2OTB<br>9W2WOV</td><td>Pemeriksa Kira-kira</td></tr></tbody></table>Motto yang dibawakan oleh MARD&#39;S adalah &#39;<b>Jika Bukan Kita Siapa Lagi, Jika Bukan Sekarang Bila Lagi</b>&#39;.<br>Pada waktu yang sama, pelayan yang berasaskan Linux yang berada di Singapura mengalami masalah waktu operasi lalu dipindahkan ke Pusat Data di Perancis bagi mengatasi masalah tersebut.</div>
             </div>
           </li>
           <li>
@@ -263,9 +263,29 @@
               <div class='flag-wrapper'>
                 <span class='hexa'></span>
                 <span class='flag'>ROIPMARS</span>
-                <span class='time-wrapper'><span class='time'>2018</span></span>
+                <span class='time-wrapper'><span class='time'>Awal 2018</span></span>
               </div>
               <div class='desc'>MARDS gagal didaftarkan berpunca daripada beberapa masalah yang berlaku pada ketika itu. Tidak lama kemudian, sekali lagi penjenamaan dilakukan dengan lantikan Jawatankuasa Penaja <b>Malaysian Amateur ROIP Society &#40;MARS&#41;</b> seramai 19 orang yang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle'><tbody><tr><td>9W2UZL</td><td>Presiden</td></tr><tr><td>9W2ZEC</td><td>Timbalan Presiden</td></tr><tr><td>9W8ZZK</td><td>Setiausaha</td></tr><tr><td>9W2PIO</td><td>Penolong Setiausaha</td></tr><tr><td>9W2NUZ</td><td>Bendahari</td></tr><tr><td>9W2OGK<br>9W2BUN<br>9W2XQO</td><td>Biro Siaraya</td></tr><tr><td>9W2TVE</td><td>Biro Ekonomi</td></tr><tr><td>9M2MBT<br>9W2JE<br>9W2OTB<br>9W2OOL<br>9W2ZDP<br>9W2DJM</td><td>AJK Domestik</td></tr><tr><td>V85ABK<br>HS9QMG</td><td>AJK Antarabangsa</td></tr><tr><td>9W2WOV</td><td>Pemeriksa Kira-Kira</td></tr><tr><td>9M2RAN<br>9W2SMF</td><td>Penasihat</td></tr><tr><td>9M2RMT</td><td>Station Master</td></tr></tbody></table>Visi dan Misi ROIPMARS adalah untuk <b>membawa nama Malaysia ke persada Antarabangsa dalam Teknologi Komunikasi Radio Dua Hala</b>.<br>Dalam waktu yang sama, pelayan berasaskan Linux yang berada di Perancis mengalami masalah sambungan kependaman tinggi terhadap pengguna lalu dipindahkan kembali ke Pusat Data di Malaysia bagi mengatasi risiko kualiti sambungan dan didaftarkan dengan nama roipmars.com.</div>
+            </div>
+          </li>
+          <li>
+            <div class='direction-l'>
+              <div class='flag-wrapper'>
+                <span class='hexa'></span>
+                <span class='flag'>JASRA</span>
+                <span class='time-wrapper'><span class='time'>30 Okt 2018</span></span>
+              </div>
+              <div class='desc'>Permohonan pihak <b>Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</b> untuk menghubungkan jaringan dua hala antara ROIPMARS dan pengulang mereka bagi menyemarakkan lagi aktiviti yang dijalankan di kedua-dua platform.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='./images/jasra18.jpg'></div>
+            </div>
+          </li>
+          <li>
+            <div class='direction-l'>
+              <div class='flag-wrapper'>
+                <span class='hexa'></span>
+                <span class='flag'>KRTC</span>
+                <span class='time-wrapper'><span class='time'>05 Dis 2018</span></span>
+              </div>
+              <div class='desc'>Syarikat <b>Kalumpang Resort &amp; Training Centre &#40;KRTC&#41;</b> juga pernah membuat permohonan pelayan TeamSpeak3 untuk penggunaan pekerjanya berhubung antara satu sama lain.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='./images/krtc18.jpg'></div>
             </div>
           </li>
           <li>
@@ -275,7 +295,7 @@
                 <span class='flag'>Lawatan dari Selatan Thailand</span>
                 <span class='time-wrapper'><span class='time'>23 Feb 2019</span></span>
               </div>
-              <div class='desc'>Jemputan dari komuniti RoIPDarulAman bagi meraikan rakan radio amatur Selatan Thailand dalam Kembara Berbasikal Thailand ke Malaysia yang berlansung di Kalumpang Resort, Hulu Selangor.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='./images/018.jpg'></div>
+              <div class='desc'>Jemputan dari komuniti RoIPDarulAman bagi meraikan sahabat radio amatur dari Selatan Thailand dalam Kembara Berbasikal Thailand ke Malaysia yang berlansung di Kalumpang Resort &amp; Training Centre, Hulu Selangor.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='./images/018.jpg'></div>
             </div>
           </li>
           <li>
@@ -305,7 +325,7 @@
                 <span class='flag'>Pendaftaran Organisasi</span>
                 <span class='time-wrapper'><span class='time'>01 Jun 2020</span></span>
               </div>
-              <div class='desc'>Cubaan untuk mendaftarkan organisasi tidak semudah yang disangka. Ianya memakan hampir setengah dekad dengan pelbagai cabaran dan rintangan dalaman mahupun luaran yang perlu ditempuh. Bagaimanapun, Pengerusi &#40;Ustaz Zulkifli Abu&#41; dengan bantuan Setiausahanya &#40;Hafizi Ruslan&#41; dan semua jawatankuasa berpendirian teguh ingin meneruskan proses pendaftaran organisasi sehingga diperakui sah oleh Jabatan Pendaftar Pertubuhan Malaysia.<br>Akhirnya, dengan segala usaha dan bantuan yang diberikan, tepat pada <i><b>jam 10 pagi 1 Jun 2020</b></i>, organisasi berjaya didaftarkan secara sah dengan<table class='table table-sm table-borderless table-responsive text-center align-middle my-0'><tbody><tr><td>Nama Pertubuhan</td></tr><tr><td><b>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</b></td></tr><tr><td>No. Pendaftaran</td></tr><tr><td><b>PPM-006-10-01062020</b></td></tr></tbody></table>dan mengekalkan <b>RoIPMARS</b> sebagai jenamanya. Jawatankuasa yang sah berdaftar seramai 9 orang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle my-0'><tbody><tr><td>9W2UZL</td><td>Pengerusi</td></tr><tr><td>9W2OGK</td><td>Timbalan Pengerusi</td></tr><tr><td>9W2LGX</td><td>Setiausaha</td></tr><tr><td>9W2SFF</td><td>Penolong Setiausaha</td></tr><tr><td>9W2ELM</td><td>Bendahari</td></tr><tr><td>9W2UBE<br>9W6MOZ<br>9W8ZZK<br>9W8VWW</td><td>AJK</td></tr><tr><td>9W2NDI<br>9W2WZZ</td><td>Juruaudit</td></tr></tbody></table><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./member' target='_blank'>Baca lanjut...</a></div>
+              <div class='desc'>Cubaan untuk mendaftarkan organisasi tidak semudah yang disangka. Ianya memakan masa hampir setengah dekad dengan pelbagai cabaran dan rintangan dalaman mahupun luaran yang perlu ditempuh. Bagaimanapun, Pengerusi &#40;Ustaz Zulkifli Abu&#41; dengan bantuan Setiausahanya &#40;Hafizi Ruslan&#41; dan semua jawatankuasa berpendirian teguh ingin meneruskan proses pendaftaran organisasi sehingga diperakui sah oleh Jabatan Pendaftar Pertubuhan Malaysia.<br>Akhirnya, dengan segala usaha dan bantuan yang diberikan, tepat pada <i><b>jam 10 pagi 1 Jun 2020</b></i>, organisasi berjaya didaftarkan secara sah dengan<table class='table table-sm table-borderless table-responsive text-center align-middle my-0'><tbody><tr><td>Nama Pertubuhan</td></tr><tr><td><b>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</b></td></tr><tr><td>No. Pendaftaran</td></tr><tr><td><b>PPM-006-10-01062020</b></td></tr></tbody></table>dan mengekalkan <b>RoIPMARS</b> sebagai jenamanya. Jawatankuasa yang sah berdaftar seramai 9 orang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle my-0'><tbody><tr><td>9W2UZL</td><td>Pengerusi</td></tr><tr><td>9W2OGK</td><td>Timbalan Pengerusi</td></tr><tr><td>9W2LGX</td><td>Setiausaha</td></tr><tr><td>9W2SFF</td><td>Penolong Setiausaha</td></tr><tr><td>9W2ELM</td><td>Bendahari</td></tr><tr><td>9W2UBE<br>9W6MOZ<br>9W8ZZK<br>9W8VWW</td><td>AJK</td></tr><tr><td>9W2NDI<br>9W2WZZ</td><td>Juruaudit</td></tr></tbody></table><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./member' target='_blank'>Baca lanjut...</a></div>
             </div>
           </li>
           <li>

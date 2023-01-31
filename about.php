@@ -215,7 +215,7 @@
     </div>
     <div class='row' id='kisahroipmars'>
       <div class='col-12 my-3'>
-        <h2 class='text-center'>Kisah Kami</h2>
+        <h2 class='text-center'>Coretan Kisah Kami</h2>
         <p class='text-center'>Sekiranya anda ada kisah atau kenangan bersama kami, ceritakan ke <a href='mailto:member@roipmars.org.my?subject=Kisah%20bersama%20RoIPMARS'>member&#64;roipmars.org.my</a>.</p>
         <ul class='timeline'>
           <li>
@@ -282,6 +282,16 @@
             <div class='direction-l'>
               <div class='flag-wrapper'>
                 <span class='hexa'></span>
+                <span class='flag'>Akademi 9M</span>
+                <span class='time-wrapper'><span class='time'>Akhir 2018</span></span>
+              </div>
+              <div class='desc'><b>Idea Asal Akademi 9M &#40;Akademi NineMike&#41;</b> bermula dari kelas pembuatan antaramuka ROIP oleh 9W2UZL. Lalu dijenamakan ke &#39;<i>Discussion Class A</i>&#39;, &#39;<i>Pembelajaran Kelas A</i>&#39;, dan akhirnya beralih ke <b>&#39;<i>AKADEMI 9M</i>&#39;</b> sejak akhir 2018 yang diterajui oleh 9M2RAN &amp; 9M2VBC.<img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='./images/akademi9m.jpg'>Konsep asal yang dibawakan akademi ini adalah bagi membantu dan memberi khidmat latihan kepada pengendali radio amatur supaya lulus peperiksaan naik taraf kelas &#40;OCW&#41;.</div>
+            </div>
+          </li>
+          <li>
+            <div class='direction-l'>
+              <div class='flag-wrapper'>
+                <span class='hexa'></span>
                 <span class='flag'>KRTC</span>
                 <span class='time-wrapper'><span class='time'>05 Dis 2018</span></span>
               </div>
@@ -305,7 +315,7 @@
                 <span class='flag'>Naik Taraf Pelayan</span>
                 <span class='time-wrapper'><span class='time'>September 2019</span></span>
               </div>
-              <div class='desc'>Berlaku pertukaran dan naik taraf sistem pelayan <i>&#39;Linux&#39;</i> ke <i>&#39;Windows Server&#39;</i> dengan spesifikasi yang lebih tinggi bagi menampung segala servis yang ditawarkan untuk pengguna komuniti. Antara aplikasi yang dihoskan adalah <i>&#39;TeamSpeak3&#39;</i>, <i>&#39;eQSO&#39;</i>, <i>&#39;Free Radio Network&#39;</i>, dan <i>&#39;Mumble&#39;</i>. Pada masa sama, penggunaan laman sesawang bagi mendapatkan maklumat terkini mula diterapkan.</div>
+              <div class='desc'>Berlaku pertukaran dan naik taraf sistem pelayan &#39;<i>Linux</i>&#39; ke &#39;<i>Windows Server</i>&#39; dengan spesifikasi yang lebih tinggi bagi menampung segala servis yang ditawarkan untuk pengguna komuniti. Antara aplikasi yang dihoskan adalah &#39;<i>TeamSpeak3</i>&#39;, &#39;<i>eQSO</i>&#39;, &#39;<i>Free Radio Network</i>&#39;, dan &#39;<i>Mumble</i>&#39;. Pada masa sama, penggunaan laman sesawang bagi mendapatkan maklumat terkini mula diterapkan.</div>
             </div>
           </li>
           <li>
@@ -376,6 +386,16 @@
                 <span class='time-wrapper'><span class='time'>01 September 2022</span></span>
               </div>
               <div class='desc'>Bermula daripada 27 Julai 2022 pihak Jawatankuasa dibawah kelolaan Biro Pengurusan Pelayan berjaya memperoleh pelayan berasaskan &#39;Windows Server&#39; yang disewa atas nama pertubuhan di Pusat Data Cyberjaya dan mula membuat peralihan maklumat dari pelayan sebelum ini &#91;<i>roipmars.com</i>&#93; &#40;milik peribadi&#41; ke pelayan semasa &#91;<i>roipmars.org.my</i>&#93; &#40;milik persatuan&#41;. Setelah kerja-kerja peralihan dan percubaan serta ujian penggunaan &amp; beban tinggi yang dijalankan, tepat pada jam 6 pagi 01 September 2022 &#91;<b><i>roipmars.org.my</i></b>&#93; bersedia memberikan perkhidmatannya kepada semua Penggiat &amp; Peminat Radio Komunikasi dari seluruh dunia pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./nts/2022/01' target='_blank'>Baca lanjut...</a></div>
+            </div>
+          </li>
+          <li>
+            <div class='direction-r'>
+              <div class='flag-wrapper'>
+                <span class='hexa'></span>
+                <span class='flag'>Peraturan KMM &#40;Spektrum&#41; Pindaan 2022</span>
+                <span class='time-wrapper'><span class='time'>01 Januari 2023</span></span>
+              </div>
+              <div class='desc'>Selaras dengan pindaan kepada Peraturan-Peraturan Komunikasi dan Multimedia &#40;Standard Teknik&#41; 2000 yang diluluskan pada 25 April 2022 &#91;<a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/communications-and-multimedia-spectrum-regulatio#content44480' target='_blank'>KKMM.600-1/4/8; PN(PU2)601/J1d. 12</a>&#93; dan berkuat kuasa pada 1 Januari 2023 &#40;iaitu bagi <b>peruntukan yang berkaitan dengan radio amatur</b>&#41;, Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;MCMC&#41; memaklumkan bahawa terdapat perubahan kepada struktur perakuan pengendali radio amatur di Malaysia iaitu:<table class='table table-responsive table-borderless table-sm text-start align-middle mb-0'><tbody><tr><td>i.</td><td>Format peperiksaan</td></tr><tr><td>ii.</td><td>Silibus peperiksaan</td></tr><tr><td>iii.</td><td>Syarat kelayakan untuk menduduki peperiksaan</td></tr><tr><td>iv.</td><td>Pengenalan kepada Kelas C</td></tr><tr><td>v.</td><td>Ujian Kod Morse untuk menaik taraf ke Kelas A digantikan dengan peperiksaan pilihan jawapan berkomputer</td></tr><tr><td>vi.</td><td>Penggunaan frekuensi dan had kuasa pancaran bagi setiap kelas</td></tr></tbody></table>Perubahan kepada struktur ini adalah untuk memastikan perakuan pengendali radio amatur yang diadakan di Malaysia sejajar dengan latihan yang diamalkan di negara-negara lain. Perubahan ini juga bertujuan untuk menggalakkan minat dari kalangan pelajar dalam bidang Sains, Teknologi, Kejuruteraan dan Matematik &#40;STEM&#41; melalui radio amatur dan menjurus kepada peningkatan pengendali radio amatur yang dapat membantu ketika bencana.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/press-releases/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank'>Siaran Akhbar MCMC</a> <a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/announcements/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank'>Pengumuman MCMC</a><hr><img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='./images/akademi9mbw.jpg'>Dukacita dimaklumkan, selaras dengan perubahan format &amp; silibus peperiksaan, Akademi 9M dihentikan khidmatnya bagi membantu pengendali radio amatur menaiktaraf kelas mereka. Sejak memulakan Akademi 9M, seramai lebih 70 pengendali telahpun dilahirkan antaranya: 9M2MWZ, 9M2NUZ, 9M2SFF, 9M2VJP, 9M2VVH, 9M2BUN, 9M6RDY, 9M6AUA, 9M6JAY, 9M6RMD, 9M2KZI, dan ramai lagi.</div>
             </div>
           </li>
 <!--

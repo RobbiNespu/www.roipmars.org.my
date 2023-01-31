@@ -134,7 +134,7 @@ header h1{
   z-index: 15;
   padding: 6px 10px;
   text-align: left;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .direction-l .flag:after,

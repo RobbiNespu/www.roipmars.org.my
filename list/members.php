@@ -28,7 +28,6 @@
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='../images/ms-icon-144x144.png'>
   <meta name='theme-color' content='#336699'>
-  <meta name='color-scheme' content='dark'>
   <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='../images/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='../images/favicon-16x16.png'>
@@ -97,7 +96,7 @@
         <tbody>
           <tr><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>OJ03RF</td><td>DIS 2023</td><td><i class='bi bi-check2-circle' style='color: green'></i></td></tr>
           <tr><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>OJ03SK</td><td>DIS 2025</td><td><i class='bi bi-check2-circle' style='color: green'></i></td></tr>
-          <tr><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>OJ06EF</td><td>DIS 2022</td><td><i class='bi bi-exclamation-circle' style='color: yellowgreen'></i></td></tr>
+          <tr><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>OJ06EF</td><td>DIS 2023</td><td><i class='bi bi-check2-circle' style='color: green'></i></td></tr>
           <tr><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>OJ03TP</td><td>DIS 2024</td><td><i class='bi bi-check2-circle' style='color: green'></i></td></tr>
           <tr><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>OJ74LX</td><td>DIS 2024</td><td><i class='bi bi-check2-circle' style='color: green'></i></td></tr>
           <tr><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>OJ75XR</td><td>DIS 2024</td><td><i class='bi bi-check2-circle' style='color: green'></i></td></tr>

@@ -47,7 +47,7 @@
   <link rel='manifest' href='../../vendor/manifest.json'>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap' >
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script>
@@ -125,8 +125,8 @@
     <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
     <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>
   </div>
-  <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
 </body>
 
 </html>

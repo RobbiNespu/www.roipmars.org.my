@@ -110,15 +110,14 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
-  <nav class='navbar sticky-top navbar-expand-lg bg-dark-subtle'>
+  <nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
     <div class='container-fluid'>
       <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
-      <button class='navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#navbarOffcanvasLg' aria-controls='navbarOffcanvasLg'><span class='navbar-toggler-icon'></span></button>
-      <div class='offcanvas offcanvas-end' tabindex='-1' id='navbarOffcanvasLg' aria-labelledby='navbarOffcanvasLgLabel'>
-        <div class='offcanvas-header'>
-          <h5 class='offcanvas-title' id='navbarOffcanvasLgLabel'>MENU</h5>
-        </div>
-        <ul class='navbar-nav nav-pills text-center justify-content-end'>
+      <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
+        <span class='navbar-toggler-icon'></span>
+      </button>
+      <div class='collapse navbar-collapse' id='navbarNav'>
+        <ul class='navbar-nav nav-pills fs-4 text-center d-flex mx-auto'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link' href='program'>Program</a></li>
@@ -762,7 +761,7 @@
       </div>
     </div>
   </div>
-  <footer class='footer mt-auto py-1 page-footer font-small bg-dark-subtle'>
+  <footer class='footer mt-auto py-1 page-footer font-small bg-body-tertiary'>
     <div class='container'>
       <div class='row my-0'>
         <div class='col-lg-8 mx-auto my-1'>
@@ -773,8 +772,8 @@
             <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
             <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
           </table>
-          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi bi-credit-card fs-4 align-middle'></i></a></p>
-          <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI PADA ANDA &mdash;</p>
+          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <hr class='w-100 clearfix d-md-none'>
         <div class='col-lg-4 mx-auto my-1 text-end'>

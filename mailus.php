@@ -122,15 +122,14 @@
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
 	<!-- End Messenger Chat plugin -->
-	<nav class='navbar sticky-top navbar-expand-lg bg-dark-subtle'>
+	<nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
     <div class='container-fluid'>
       <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
-      <button class='navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#navbarOffcanvasLg' aria-controls='navbarOffcanvasLg'><span class='navbar-toggler-icon'></span></button>
-      <div class='offcanvas offcanvas-end' tabindex='-1' id='navbarOffcanvasLg' aria-labelledby='navbarOffcanvasLgLabel'>
-        <div class='offcanvas-header'>
-          <h5 class='offcanvas-title' id='navbarOffcanvasLgLabel'>MENU</h5>
-        </div>
-        <ul class='navbar-nav nav-pills text-center justify-content-end'>
+      <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
+        <span class='navbar-toggler-icon'></span>
+      </button>
+      <div class='collapse navbar-collapse' id='navbarNav'>
+        <ul class='navbar-nav nav-pills fs-4 text-center d-flex mx-auto'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link' href='howto'>Tutorial</a></li>
@@ -194,7 +193,7 @@
 			</div>
 		</div>
 	</div>
-	<footer class='footer mt-auto py-1 page-footer font-small bg-dark-subtle'>
+	<footer class='footer mt-auto py-1 page-footer font-small bg-body-tertiary'>
 		<div class='container'>
 			<div class='row my-0'>
 				<div class='col-md-7 col-lg-7 col-xl-7 mx-auto my-1'>

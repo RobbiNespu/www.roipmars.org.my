@@ -303,6 +303,7 @@
         </div>
       </div>
     </div>
+<!--
     <div class='row'>
       <div class='col-lg-4'>
         <div class='d-grid gap-2 my-3'>
@@ -346,7 +347,7 @@
               </tbody>
               <caption><ul class='list-group fs-6'>
                 <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-<!--                <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>-->
+                <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
               </ul></capton>
             </table>
           </div>
@@ -423,7 +424,7 @@
               </tbody>
               <caption><ul class='list-group fs-6'>
                 <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-<!--                <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>-->
+                <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
               </ul></capton>
             </table>
           </div>
@@ -778,13 +779,14 @@
               </tbody>
               <caption><ul class='list-group fs-6'>
                 <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-<!--                <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>-->
+                <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
               </ul></capton>
             </table>
           </div>
         </div>
       </div>
     </div>
+-->
     <hr>
     <div class='row'>
       <div class='col-12 my-2 d-block mx-auto'>

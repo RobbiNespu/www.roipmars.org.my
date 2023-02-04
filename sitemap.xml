@@ -605,12 +605,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/nts/2020/04</loc>
-    <lastmod>2023-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.roipmars.org.my/list/membersmap</loc>
     <lastmod>2023-02-04</lastmod>
     <changefreq>daily</changefreq>
@@ -623,7 +617,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.roipmars.org.my/nts/2020/04</loc>
+    <lastmod>2023-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.roipmars.org.my/nts/2020/02</loc>
+    <lastmod>2023-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2020/01</loc>
     <lastmod>2023-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -640,12 +646,6 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/07</loc>
-    <lastmod>2023-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2020/01</loc>
     <lastmod>2023-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

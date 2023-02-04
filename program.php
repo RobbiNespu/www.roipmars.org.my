@@ -1008,7 +1008,7 @@
       <div class='col-12 mt-3'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
     </div>
     <div class='row'>
-      <div class='col-6 mt-2'>
+      <div class='col-lg-6 mt-2'>
         <p class='text-center'>HAM Net Bahasa Inggeris</p>
         <div class='row'>
           <div class='col-6'>
@@ -1046,7 +1046,7 @@
           </div>
         </div>
       </div>
-      <div class='col-6 mt-2'>
+      <div class='col-lg-6 mt-2'>
         <p class='text-center'>HAM Net Bahasa Melayu</p>
         <div class='row'>
           <div class='col-6'>

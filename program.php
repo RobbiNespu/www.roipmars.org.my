@@ -159,15 +159,15 @@
           <tbody>
             <tr>
               <th><b>Pegawai Bahagian Siaraya &amp; Aktiviti</b></th>
-              <td><a class='btn rounded-pill bg-success' href='https://wa.me/60145768581'><i class='bi bi-whatsapp'></i> Veronica &#91;9W8VWW / 58MSVWW&#93;</a></td>
+              <td><a class='btn rounded-pill bg-success' href='https://wa.me/60145768581'><i class='bi bi-whatsapp'></i> Veronica</a></td>
             </tr>
             <tr>
               <th><b>Pengurus Siaraya &amp; Aktiviti</b></th>
-              <td><a class='btn rounded-pill bg-success' href='https://wa.me/601112308482'><i class='bi bi-whatsapp'></i> Zikry &#91;9W2EZK / 113DAZIK&#93;</a></td>
+              <td><a class='btn rounded-pill bg-success' href='https://wa.me/601112308482'><i class='bi bi-whatsapp'></i> Zikry</a></td>
             </tr>
             <tr>
               <th><b>Penolong Pengurus Aktiviti</b></th>
-              <td><a class='btn rounded-pill bg-success' href='https://wa.me/60196293718'><i class='bi bi-whatsapp'></i> Rozaiman &#91;9M2SFF / 113MSSFF&#93;</a></td>
+              <td><a class='btn rounded-pill bg-success' href='https://wa.me/60196293718'><i class='bi bi-whatsapp'></i> Rozaiman</a></td>
             </tr>
           </tbody>
         </table>

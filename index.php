@@ -153,15 +153,15 @@
     <div class='row text-center'>
       <div class='col-sm'>
         <i class='fa-solid fa-id-card fa-5x fa-fade'></i>
-        <p>Bagi mengendalikan stesen Radio Amatur, anda memerlukan lesen (peruntukan radas) dari Suruhanjaya Komunikasi dan Multimedia Malaysia (SKMM). Umur minimum yang telah ditetapkan adalah 14 tahun dan anda perlu lulus Peperiksaan Amatur Radio (RAE).</p>
+        <p>Bagi mengendalikan stesen Radio Amatur, anda memerlukan lesen &#40;peruntukan radas&#41; dari Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;SKMM&#41;. Umur minima adalah 12 tahun dan anda perlu lulus Peperiksaan Amatur Radio &#40;RAE&#41;.</p>
       </div>
       <div class='col-sm'>
         <i class='fa-solid fa-person-walking fa-5x fa-beat'></i>
-        <p>Perjalanan untuk menjadi Stesen Radio Amatur adalah pengalaman yang berharga dan kami akan membantu anda untuk mendapatkan lesen anda dalam masa terdekat. Kelas-kelas akan diadakan dan anda akan mengamalkan komunikasi radio mudah alih. Paling penting ialah anda tidak akan bersendirian dalam perjalanan anda untuk menjadi pengendali amatur radio.</p>
+        <p>Perjalanan untuk menjadi Stesen Radio Amatur adalah pengalaman yang berharga dan kami akan membantu anda untuk mendapatkan lesen anda dalam masa terdekat. Kelas-kelas akan diadakan dan anda akan mengamalkan komunikasi radio mudah alih. Paling penting ialah anda tidak akan bersendirian dalam perjalanan anda untuk menjadi pengendali radio amatur.</p>
       </div>
       <div class='col-sm'>
         <i class='fa-solid fa-people-carry-box fa-5x fa-flip'></i>
-        <p>Pada penghujung hari kami berharap anda akan menawarkan perkhidmatan anda pada masa yang diperlukan untuk membantu komunikasi kecemasan, untuk menghulurkan bantuan anda dalam masa bencana dan membantu mereka yang memerlukan. Pengendali radio amatur telah diketahui sebagai yang paling cepat untuk bertindak balas semasa kecemasan.</p>
+        <p>Pada penghujung hari kami berharap anda dapat menawarkan khidmat anda pada masa yang diperlukan untuk membantu komunikasi kecemasan, menghulurkan bantuan, dan membantu mereka yang memerlukan. Pengendali radio amatur telah diketahui umum sebagai yang paling pantas bertindak balas sewaktu kecemasan.</p>
       </div>
     </div>
     <hr>
@@ -169,6 +169,20 @@
       <div class='col-md'>
         <h2>RADIO AMATUR &amp; ROIP</h2>
         <p>Sekilas aktiviti kami untuk mempromosikan Radio Amatur dan ROIP</p>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-12 my-2'>
+        <div class='alert alert-info'>
+          <div class='alert-heading text-center'>
+            <h4>SEBARAN AWAM</h4>
+          </div>
+          <p>Kepada INDIVIDU atau KELAB, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS.</p>
+          <p>Kami juga menyediakan perkhidmatan komunikasi buat SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan.</p>
+          <p>Pasukan teknikal kami sedia membantu anda. Hubungi kami di <a class='text-primary text-decoration-none' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member&#64;roipmars.org.my</a> untuk sebarang pertanyaan atau permohonan.</p>
+          <h6 class='text-end'>'JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI'</h6>
+          <p class='text-end'>Tulus Ikhlas, Pengurusan RoIPMARS</p>
+        </div>
       </div>
     </div>
     <div class='row text-center'>
@@ -210,20 +224,6 @@
       </div>
     </div>
     <div class='row'>
-      <div class='col-12 my-2'>
-        <div class='alert alert-info'>
-          <div class='alert-heading text-center'>
-            <h4>SEBARAN AWAM</h4>
-          </div>
-            <p>Kepada INDIVIDU atau KELAB, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS.</p>
-            <p>Kami juga menyediakan perkhidmatan komunikasi buat SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan.</p>
-            <p>Pasukan teknikal kami sedia membantu anda. Hubungi kami di <a class='text-primary text-decoration-none' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member&#64;roipmars.org.my</a> untuk sebarang pertanyaan dan permohonan.</p>
-          <h6 class='text-end'>'JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI'</h6>
-          <p class='text-end'>Tulus Ikhlas, Pengurusan RoIPMARS</p>
-        </div>
-      </div>
-    </div>
-    <div class='row'>
       <div class='col-lg-4 my-2'>
         <div class='card'>
           <div class='card-header text-center'>Bacaan Lanjut</div>
@@ -235,7 +235,7 @@
             <li class='list-group-item'><a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-C.pdf' download><i class='fa-solid fa-file-pdf'></i> QUESTION BANK CLASS C AMATEUR RADIO - MCMC</a></li>
             <li class='list-group-item'><a href='https://www.arrl.org/files/file/VoIP.pdf' download><i class='fa-solid fa-file-pdf'></i> VoIP dan Radio Amatur - ARRL</a></li>
             <li class='list-group-item'><a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Form-AMATEUR-SERVICE_v2018_ISO.pdf' download><i class='fa-solid fa-file-pdf'></i> Borang Permohonan Tugasan Radas Amatur - SKMM</a></li>
-            <li class='list-group-item'><a href='https://sems.mcmc.gov.my/sems/exams/examinfo' target='_blank'>SKMM Exam Management System (SEMS)</a></li>
+            <li class='list-group-item'><a href='https://sems.mcmc.gov.my/sems/exams/examinfo' target='_blank'>SKMM Exam Management System &#40;SEMS&#41;</a></li>
           </ul>
         </div>
       </div>

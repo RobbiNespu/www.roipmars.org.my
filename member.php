@@ -317,14 +317,14 @@
           <div class='col-5'>
             <p class='text-decoration-underline mb-0'>KETUA BAHAGIAN</p>
             <p class='fw-light'>PERHUBUNGAN AWAM<br>&#40;DOMESTIK&#41;</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px' style='filter: invert(100)'>
+            <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px' style='filter: invert(1)'>
             <p>VACANT<br>Name</p>
           </div>
           <div class='col-2'></div>
           <div class='col-5'>
             <p class='text-decoration-underline mb-0'>KETUA BAHAGIAN</p>
             <p class='fw-light'>PERHUBUNGAN AWAM<br>&#40;ANTARABANGSA&#41;</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px' style='filter: invert(100)'>
+            <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px' style='filter: invert(1)'>
             <p>VACANT<br>Name</p>
           </div>
         </div>

@@ -154,23 +154,12 @@
         <div class='ratio ratio-21x9'>
           <iframe class='rounded-4' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0' style='filter: invert(.9) saturate(0.85) hue-rotate(145deg)'></iframe>
         </div>
-        <p class='text-center'>Bagi individu atau kelab yang berminat untuk menjalankan sebarang aktiviti bersama atau hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan:</p>
-        <table class='table table-borderless table-sm align-middle text-center'>
-          <tbody>
-            <tr>
-              <th><b>Pegawai Bahagian Siaraya &amp; Aktiviti</b></th>
-              <td><a class='btn rounded-pill bg-success' href='https://wa.me/60145768581'><i class='bi bi-whatsapp'></i> Veronica</a></td>
-            </tr>
-            <tr>
-              <th><b>Pengurus Siaraya &amp; Aktiviti</b></th>
-              <td><a class='btn rounded-pill bg-success' href='https://wa.me/601112308482'><i class='bi bi-whatsapp'></i> Zikry</a></td>
-            </tr>
-            <tr>
-              <th><b>Penolong Pengurus Aktiviti</b></th>
-              <td><a class='btn rounded-pill bg-success' href='https://wa.me/60196293718'><i class='bi bi-whatsapp'></i> Rozaiman</a></td>
-            </tr>
-          </tbody>
-        </table>
+        <p class='text-center mt-3 mb-0'>Bagi individu atau kelab yang berminat untuk menjalankan sebarang aktiviti bersama atau hebahan semasa aktiviti kami berlansung,<br>anda boleh berhubung terus dengan:</p>
+        <div class='btn-group btn-group-lg d-grid gap-2 d-lg-block mt-0 mb-2'>
+          <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/60145768581'><i class='bi bi-whatsapp'></i> <b>Pegawai Bahagian Siaraya &amp; Aktiviti</b></button>
+          <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/601112308482'><i class='bi bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></button>
+          <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/60196293718'><i class='bi bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></button>
+        </div>
       </div>
       <div class='col-lg-5 my-auto d-block text-center'>
         <h5 class='text-center'>Net Mingguan</h5>

@@ -136,14 +136,43 @@
   <div class='container-fluid'>
     <div class='row text-center'>
       <div class='col my-2 jumbotron-fluid'>
-        <h1 class='h1-responsive'>Jadual Program RoIPMARS</h1>
-        <p class='fs-2'>Sesi 2023</p>
+        <h1 class='h1-responsive'>Jadual Aktiviti &amp; Program RoIPMARS</h1>
       </div>
     </div>
   </div>
   <div class='container'>
     <div class='row'>
-      <div class='col-lg-5 my-auto d-block'>
+      <div class='col-lg-7 my-1 align-self-center'>
+        <div class='row text-center'>
+          <div class='col-sm'>
+            <iframe class='bg-dark-subtle rounded-4' src='https://free.timeanddate.com/clock/i8p043xx/n122/tlmy40/fn17/fcccc/tct/pct/ftb/tt0/th1/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
+          </div>
+          <div class='col-sm'>
+            <iframe class='bg-dark-subtle rounded-4' src='https://free.timeanddate.com/clock/i8p043xx/n1440/tlmy/fn17/fcaaa/tct/pct/pd2/tt0/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
+          </div>
+        </div>
+        <div class='ratio ratio-21x9'>
+          <iframe class='rounded-4' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0' style='filter: invert(.9) saturate(0.85) hue-rotate(145deg)'></iframe>
+        </div>
+        <p class='text-center fs-4'>Bagi individu atau kelab yang berminat untuk menjalankan sebarang aktiviti bersama atau hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan:</p>
+        <table class='table table-borderless table-sm align-middle text-center'>
+          <tbody>
+            <tr>
+              <th class='fs-3'><b>Pegawai Bahagian Siaraya &amp; Aktiviti</b></th>
+              <td><a class='btn rounded-pill bg-success' href='https://wa.me/60145768581'><i class='bi bi-whatsapp'></i> Veronica &#91;9W8VWW / 58MSVWW&#93;</a></td>
+            </tr>
+            <tr>
+              <th class='fs-3'><b>Pengurus Siaraya &amp; Aktiviti</b></th>
+              <td><a class='btn rounded-pill bg-success' href='https://wa.me/601112308482'><i class='bi bi-whatsapp'></i> Zikry &#91;9W2EZK / 113DAZIK&#93;</a></td>
+            </tr>
+            <tr>
+              <th class='fs-3'><b>Penolong Pengurus Aktiviti</b></th>
+              <td><a class='btn rounded-pill bg-success' href='https://wa.me/60196293718'><i class='bi bi-whatsapp'></i> Rozaiman &#91;9M2SFF / 113MSSFF&#93;</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class='col-lg-5 my-auto d-block text-center'>
         <h5 class='text-center'>Net Mingguan</h5>
         <table class='table table-sm text-center align-middle'>
           <thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
@@ -157,35 +186,172 @@
             <tr class='bg-danger-subtle'><td>Ahad</td><td>1300Z</td><td>CB Net Hujung Minggu</td><td>ROIPDARULAMAN</td></tr>
           </tbody>
         </table>
-        <p class='text-center fs-4'>Bagi individu atau kelab yang berminat untuk menjalankan sebarang aktiviti bersama kami, anda boleh berhubung terus dengan:</p>
-        <table class='table table-borderless table-sm align-middle text-center'>
-          <tbody>
-            <tr>
-              <th class='fs-3'><b>Pegawai Bahagian<br>Aktiviti &amp; Siaraya</b></th>
-              <td><a class='btn rounded-pill bg-success' href='https://wa.me/60145768581'><i class='bi bi-whatsapp'></i> Veronica &#91;9W8VWW / 58MSVWW&#93;</a></td>
-            </tr>
-            <tr>
-              <th class='fs-3'><b>Pengurus Aktiviti &amp; Siaraya</b></th>
-              <td><a class='btn rounded-pill bg-success' href='https://wa.me/601112308482'><i class='bi bi-whatsapp'></i> Zikry &#91;9W2EZK / 113DAZIK&#93;</a></td>
-            </tr>
-            <tr>
-              <th class='fs-3'><b>Penolong Pengurus Aktiviti</b></th>
-              <td><a class='btn rounded-pill bg-success' href='https://wa.me/60196293718'><i class='bi bi-whatsapp'></i> Rozaiman &#91;9M2SFF / 113MSSFF&#93;</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class='col-lg-7 my-2'>
-        <div class='row text-center'>
-          <div class='col-sm'>
-            <iframe class='bg-dark-subtle rounded-3' src='https://free.timeanddate.com/clock/i8p043xx/n122/tlmy40/fn17/fcccc/tct/pct/ftb/tt0/th1/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
+        <h5>Barisan Jawatankuasa &amp; Petugas<br>Bahagian Siaraya &amp; Aktiviti</h5>
+        <div id='ncs23' class='carousel carousel-fade' data-bs-ride='carousel' data-bs-interval='5000'>
+          <div class='carousel-inner'>
+            <div class='carousel-item active'>
+              <img src='./images/member/013.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W8VWW'>
+                <p class='fs-3 my-0'>9W8VWW / 58MSVWW</p>
+                <p class='fs-5 my-0'>VERONICA CATHERINE</p>
+                <p>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/NCS/9w2ezk.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2EZK'>
+                <p class='fs-3 my-0'>9W2EZK / 113DAZIK</p>
+                <p class='fs-5 my-0'>IFFIQ ZIKRY</p>
+                <p>PENGURUS SIARAYA &amp; AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/member/020.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6SFF'>
+                <p class='fs-3 my-0'>9M2SFF / 113MSSFF</p>
+                <p class='fs-5 my-0'>ROZAIMAN SUFFIAN</p>
+                <p>PENOLONG PENGURUS AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/member/010.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M6AUA'>
+                <p class='fs-3 my-0'>9M6AUA / 58MSAUA</p>
+                <p class='fs-5 my-0'>JEOFREY</p>
+                <p>PENYELIA SIARAYA 1</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/member/017.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M6RDY'>
+                <p class='fs-3 my-0'>9M6RDY</p>
+                <p class='fs-5 my-0'>MATTHEUS &#64; RUDY</p>
+                <p>PENYELIA SIARAYA 2</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/member/025.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2AYP'>
+                <p class='fs-3 my-0'>9W2AYP / 113DAPLY</p>
+                <p class='fs-5 my-0'>SABRI</p>
+                <p>PENYELIA SIARAYA 3</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9m6jay.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M6JAY'>
+                <p class='fs-3 my-0'>9M6JAY</p>
+                <p class='fs-5 my-0'>JOHN JR.</p>
+                <p>PENYELIA AKTIVITI 1</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/member/029.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2JCP'>
+                <p class='fs-3 my-0'>9W2JCP / 113DAJCP</p>
+                <p class='fs-5 my-0'>ROSLI</p>
+                <p>PENYELIA AKTIVITI 2</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9w2sft.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2SFT'>
+                <p class='fs-3 my-0'>9W2SFT</p>
+                <p class='fs-5 my-0'>SYAWAL</p>
+                <p>PENYELIA AKTIVITI 3</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/NCS/9m2kzi.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M2KZI'>
+                <p class='fs-3 my-0'>9M2KZI</p>
+                <p class='fs-5 my-0'>ZULKARNAIN</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9m6rhm.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M6RHM'>
+                <p class='fs-3 my-0'>9M6RHM</p>
+                <p class='fs-5 my-0'>RAHIM</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9m6rmd.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M6RMD'>
+                <p class='fs-3 my-0'>9M6RMD</p>
+                <p class='fs-5 my-0'>ROSNI</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9w2gsv.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2GSV'>
+                <p class='fs-3 my-0'>9W2GSV</p>
+                <p class='fs-5 my-0'>SHAHRUZIE</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9w6aze.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6AZE'>
+                <p class='fs-3 my-0'>9W6AZE</p>
+                <p class='fs-5 my-0'>HAZARI</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9w6pkj.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6PKJ'>
+                <p class='fs-3 my-0'>9W6PKJ</p>
+                <p class='fs-5 my-0'>JANSON</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9w6rhn.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6RHN'>
+                <p class='fs-3 my-0'>9W6RHN</p>
+                <p class='fs-5 my-0'>ROSLAN</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9w8vyy.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W8VYY'>
+                <p class='fs-3 my-0'>9W8VYY</p>
+                <p class='fs-5 my-0'>ALEX</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/member/008.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2OGK'>
+                <p class='fs-3 my-0'>9W2OGK / 113DAOGK</p>
+                <p class='fs-5 my-0'>KAMARUDZAMAN</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9w2snn.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2SNN'>
+                <p class='fs-3 my-0'>9W2SNN / 113MSSAM</p>
+                <p class='fs-5 my-0'>SAMSUL</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9w2yjt.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2YJT'>
+                <p class='fs-3 my-0'>9W2YJT / 113DAYJT</p>
+                <p class='fs-5 my-0'>YUSOF</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9w6aff.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6AFF'>
+                <p class='fs-3 my-0'>9W6AFF / 58MSAFF</p>
+                <p class='fs-5 my-0'>SAFRI</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/member/006.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6MOZ'>
+                <p class='fs-3 my-0'>9W6MOZ / 58MSMOZ</p>
+                <p class='fs-5 my-0'>MUSTAFA</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/9w6wot.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6WOT'>
+                <p class='fs-3 my-0'>9W6WOT / 58MSWOT</p>
+                <p class='fs-5 my-0'>STEWARD</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/member/028.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2NEW'>
+                <p class='fs-3 my-0'>9W2NEW / 113DAISS</p>
+                <p class='fs-5 my-0'>HISHAM</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/ncs/113daykb.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='113DAYKB'>
+                <p class='fs-3 my-0'>113DAYKB</p>
+                <p class='fs-5 my-0'>YAAKOB</p>
+                <p>PETUGAS TETAP AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='./images/member/003.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M2RAN'>
+                <p class='fs-3 my-0'>9M2RAN / 113MSRAN</p>
+                <p class='fs-5 my-0'>NOR IMRAN</p>
+                <p>PETUGAS SANDARAN AKTIVITI</p>
+            </div>
+            <div class='carousel-item'>
+              <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' style='filter: invert(1)' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2NDI'>
+                <p class='fs-3 my-0'>9W2NDI / 113DANDI</p>
+                <p class='fs-5 my-0'>NASARUDDIN</p>
+                <p>PETUGAS SANDARAN AKTIVITI</p>
+            </div>
           </div>
-          <div class='col-sm'>
-            <iframe class='bg-dark-subtle rounded-3' src='https://free.timeanddate.com/clock/i8p043xx/n1440/tlmy/fn17/fcaaa/tct/pct/pd2/tt0/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
-          </div>
-        </div>
-        <div class='ratio ratio-21x9'>
-          <iframe src='https://calendar.google.com/calendar/embed?wkst=2&amp;bgcolor=%23007bff&amp;ctz=Asia%2FKuala_Lumpur&amp;src=Mmo3ZGJsdjhyaDdncGRzZnY0Y2QzcnJ0ZjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=1&amp;showDate=1&amp;mode=AGENDA'></iframe>
         </div>
       </div>
     </div>
@@ -198,7 +364,7 @@
     </div>
     <div class='row'>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#012013' aria-expanded='false' aria-controls='012013'>Januari 2023</button>
         </div>
         <div class='collapse' id='012013'>
@@ -229,7 +395,7 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#022013' aria-expanded='true' aria-controls='022013'>Februari 2023</button>
         </div>
         <div class='collapse' id='022013'>
@@ -261,7 +427,7 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#032013' aria-expanded='false' aria-controls='032013'>Mac 2023</button>
         </div>
         <div class='collapse' id='032013'>
@@ -297,7 +463,7 @@
                 <tr><td rowspan='2'>Jumaat</td><td rowspan='2'>31 Mac</td><td class='bg-success-subtle'>0400MY</td><td class='bg-success-subtle'>VoIP Sahur Net #9</td><td></td><td></td></tr>
                 <tr><td>2100MY</td><td>MARS Net</td><td></td><td></td></tr>
               </tbody>
-              <caption><ul class='list-group fs-6'>
+              <caption><ul class='list-group list-group-flush fs-6'>
                 <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
                 <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
               </ul></capton>
@@ -308,7 +474,7 @@
     </div>
     <div class='row'>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#042013' aria-expanded='false' aria-controls='042013'>April 2023</button>
         </div>
         <div class='collapse' id='042013'>
@@ -353,16 +519,15 @@
                 <tr class='bg-primary-subtle'><td>Sabtu</td><td>29 Apr</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tarian Sedunia&#41;</td><td></td><td></td></tr>
                 <tr class='bg-danger-subtle'><td>Ahad</td><td>30 Apr</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td></td><td></td></tr>
               </tbody>
-              <caption><ul class='list-group fs-6'>
+              <caption><ul class='list-group list-group-flush fs-6'>
                 <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-                <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
               </ul></capton>
             </table>
           </div>
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#052013' aria-expanded='false' aria-controls='052013'>Mei 2023</button>
         </div>
         <div class='collapse' id='052013'>
@@ -399,7 +564,7 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#062013' aria-expanded='false' aria-controls='062013'>Jun 2023</button>
         </div>
         <div class='collapse' id='062013'>
@@ -431,9 +596,8 @@
                 <tr class='bg-info-subtle'><td>Rabu</td><td>28 Jun<sup>1</sup></td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;Aidiladha Eve<sup>1</sup>&#41;</td><td></td><td></td></tr>
                 <tr class='bg-primary-subtle'><td>Jumaat</td><td>30 Jun<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Raya Aidiladha<sup>1</sup>&#41;</td><td></td><td></td></tr>
               </tbody>
-              <caption><ul class='list-group fs-6'>
+              <caption><ul class='list-group list-group-flush fs-6'>
                 <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-                <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
               </ul></capton>
             </table>
           </div>
@@ -442,7 +606,7 @@
     </div>
     <div class='row'>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#072013' aria-expanded='false' aria-controls='072013'>Julai 2023</button>
         </div>
         <div class='collapse' id='072013'>
@@ -479,7 +643,7 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#082013' aria-expanded='false' aria-controls='082013'>Ogos 2023</button>
         </div>
         <div class='collapse' id='082013'>
@@ -521,7 +685,7 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#092013' aria-expanded='false' aria-controls='092013'>September 2023</button>
         </div>
         <div class='collapse' id='092013'>
@@ -559,7 +723,7 @@
     </div>
     <div class='row'>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#102013' aria-expanded='false' aria-controls='102013'>Oktober 2023</button>
         </div>
         <div class='collapse' id='102013'>
@@ -601,7 +765,7 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#112013' aria-expanded='false' aria-controls='112013'>November 2023</button>
         </div>
         <div class='collapse' id='112013'>
@@ -636,7 +800,7 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#122013' aria-expanded='false' aria-controls='122013'>Disember 2023</button>
         </div>
         <div class='collapse' id='122013'>
@@ -676,7 +840,7 @@
     </div>
     <div class='row'>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#012014' aria-expanded='false' aria-controls='012014'>Januari 2024</button>
         </div>
         <div class='collapse' id='012014'>
@@ -712,7 +876,7 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#022014' aria-expanded='false' aria-controls='022014'>Februari 2024</button>
         </div>
         <div class='collapse' id='022014'>
@@ -746,7 +910,7 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-2 my-3'>
+        <div class='d-grid gap-1 my-1'>
           <button class='btn btn-lg btn-secondary d-grid fs-3' type='button' data-bs-toggle='collapse' data-bs-target='#032014' aria-expanded='false' aria-controls='032014'>Mac 2024</button>
         </div>
         <div class='collapse' id='032014'>
@@ -784,9 +948,8 @@
                 <tr><td>Sabtu</td><td>30 Mac</td><td class='bg-success-subtle'>0400MY</td><td class='bg-success-subtle'>VoIP Sahur Net #20</td><td></td><td></td></tr>
                 <tr><td>Ahad</td><td>31 Mac</td><td class='bg-success-subtle'>0400MY</td><td class='bg-success-subtle'>VoIP Sahur Net #21</td><td></td><td></td></tr>
               </tbody>
-              <caption><ul class='list-group fs-6'>
+              <caption><ul class='list-group list-group-flush fs-6'>
                 <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-                <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
               </ul></capton>
             </table>
           </div>

@@ -238,7 +238,7 @@
               <thead><th>Hari</th><th>Tarikh</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
               <tbody>
                 <tr class='bg-info-subtle'><td>Rabu</td><td>01 Feb</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Federal Territory Day&#41;</td><td>9W6RHN</td><td>31</td></tr>
-                <tr><td>Jumaat</td><td>03 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6AFF</td><td></td></tr>
+                <tr><td>Jumaat</td><td>03 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W2EZK</td><td>22</td></tr>
                 <tr class='bg-primary-subtle'><td>Sabtu</td><td>04 Feb</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Kanser Sedunia&#41;</td><td>9W2SNN</td><td></td></tr>
                 <tr class='bg-danger-subtle'><td>Ahad</td><td>05 Feb</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Thaipusam&#41;</td><td>113DAISS</td><td></td></tr>
                 <tr><td>Rabu</td><td>08 Feb</td><td>2100MY</td><td>English Net</td><td>9W8VWW</td><td></td></tr>

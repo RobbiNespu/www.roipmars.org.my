@@ -221,7 +221,7 @@
                 <p>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/NCS/9w2ezk.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2EZK'>
+              <img src='./images/ncs/9w2ezk.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2EZK'>
                 <p class='fs-3 my-0'>9W2EZK / 113DAZIK</p>
                 <p class='fs-5 my-0'>IFFIQ ZIKRY</p>
                 <p>PENGURUS SIARAYA &amp; AKTIVITI</p>
@@ -269,7 +269,7 @@
                 <p>PENYELIA AKTIVITI 3</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/NCS/9m2kzi.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M2KZI'>
+              <img src='./images/ncs/9m2kzi.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M2KZI'>
                 <p class='fs-3 my-0'>9M2KZI</p>
                 <p class='fs-5 my-0'>ZULKARNAIN</p>
                 <p>PETUGAS TETAP AKTIVITI</p>

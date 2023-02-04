@@ -25,6 +25,8 @@
   <link rel='apple-touch-icon' sizes='152x152' href='../images/apple-icon-152x152.png'>
   <link rel='apple-touch-icon' sizes='180x180' href='../images/apple-icon-180x180.png'>
   <link rel='manifest' href='../vendor/manifest.json'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.2/leaflet.min.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.77.0/dist/L.Control.Locate.min.css' crossorigin='anonymous'>
@@ -70,6 +72,8 @@
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <div class='container-fluid' id='map'></div>
+  <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.2/leaflet.min.js' crossorigin='anonymous'></script>
   <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.77.0/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>

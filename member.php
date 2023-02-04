@@ -282,7 +282,7 @@
           </div>
           <div class='col-3 right-long-line'>
             <p class='text-decoration-underline mb-0'>KETUA BAHAGIAN</p>
-            <p class='fw-light'>AKTIVITI &amp; SIARAYA</p>
+            <p class='fw-light'> SIARAYA &amp;AKTIVITI</p>
             <img class='img-fluid rounded-5' loading='lazy' src='./images/member/013.png' width='80px' height='80px'>
             <p>9W8VWW<br>Veronica</p>
           </div>

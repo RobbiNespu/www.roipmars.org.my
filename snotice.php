@@ -247,10 +247,10 @@
       </div>
       <div class='col-lg-6 my-2 rounded-5'>
         <div class='row g-0 text-start'>
-          <div class='col-2 align-self-center'>
+          <div class='col-3 align-self-center'>
             <img src='./images/member/002.png' class='img-fluid rounded-circle object-fit-fill' alt='9W2UZL'>
           </div>
-          <div class='col-10'>
+          <div class='col-9'>
             <div class='card-body'>
               <p class='card-title fs-2 fw-bold'>9W2UZL &mdash; ZULKIFLI ABU</p>
               <p class='card-subtitle fw-bolder'>FOUNDER, ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
@@ -261,14 +261,14 @@
       </div>
       <div class='col-lg-6 my-2 rounded-5'>
         <div class='row g-0 text-end'>
-          <div class='col-10'>
+          <div class='col-9'>
             <div class='card-body'>
               <p class='card-title fs-2 fw-bold'>9W2LGX &mdash; HAFIZI RUSLAN</p>
               <p class='card-subtitle fw-bolder'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
               <p class='card-subtitle fw-lighter'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
             </div>
           </div>
-          <div class='col-2 align-self-center'>
+          <div class='col-3 align-self-center'>
             <img src='./images/member/001.png' class='img-fluid rounded-circle object-fit-fill' alt='9W2LGX'>
           </div>
         </div>

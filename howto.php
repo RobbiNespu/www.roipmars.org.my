@@ -318,11 +318,15 @@
           </tbody>
         </table>
       </div>
-      <div class='col-md-12 mb-md-0 p-md-3'>
-        <h4 class='text-center'>Apa itu Gateway?</p>
-          <div class='ratio ratio-21x9'>
+      <div class='col-md-9 mb-md-0 p-md-3'>
+        <p class='text-center'>Apa itu Gateway?</p>
+          <div class='ratio ratio-16x9'>
             <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/CihK_ebySF0' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
           </div>
+      </div>
+      <div class='col-md-3 mb-md-0 p-md-3' id='rlandroid'>
+        <p class='text-center'>Sistem Pengulang pada Pemancar Mudah Alih dan Telefon Pintar Android &#40;Repeater Linking ROIP&#41;</p>
+        <video class='rounded-5 w-100' loading='lazy' controls preload='auto' src='./videos/repeater-linking-roip.mp4'></video>
       </div>
       <div class='col-md-6 mb-md-0 p-md-3' id='gwpc'>
         <p class='text-center'>Gateway pada Pemancar Mudah Alih dan PC</p>
@@ -362,13 +366,13 @@
         </div>
       </div>
       <div class='col-md-3 position-static p-4 pl-md-0'>
-        <p class='text-center'>Video tutorial ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di Android Phone anda.</p>
+        <p class='text-center'>Tutorial video ini menunjukkan cara memasang dan mengkonfigurasi Teamspeak pada telefon pintar Android anda.</p>
         <h6 class='text-center text-uppercase'>Sila buat pembelian aplikasi &#39;<em>TeamSpeak3</em>&#39; di Google Play berharga <strong>RM4.50</strong> terlebih dahulu</h6>
         <table class='table table-sm text-center align-middle'>
           <tbody>
             <tr>
               <th scope='col'>Versi</th>
-              <th scope='col'>Android</th>
+              <th scope='col'><i class='bi bi-android2'></i></th>
             </tr>
             <tr>
               <td>Non-Google</td>
@@ -381,8 +385,8 @@
             </tr>
 -->
             <tr>
-              <td>Terkini<br>(DISYORKAN)</td>
-              <td><a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank'><img src='https://play.google.com/intl/en_us/badges/static/images/badges/ms_badge_web_generic.png' class='img-fluid'></a></td>
+              <td><i class='bi bi-google-play fs-2'></i><br>(DISYORKAN)</td>
+              <td><a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank'><img src='https://play.google.com/intl/en_us/badges/static/images/badges/ms_badge_web_generic.png' class='img-fluid w-75'></a></td>
             </tr>
           </tbody>
         </table>
@@ -579,16 +583,16 @@
         </div>
       </div>
       <div class='col-md-3 position-static p-4 pl-md-0'>
-        <p class='text-center'>Video ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di Apple iPhone/iPad/iPod Touch anda.</p>
+        <p class='text-center'>Tutorial video ini menunjukkan cara memasang dan mengkonfigurasi Teamspeak pada telefon pintar iPhone/iPad/iPod Touch anda.</p>
         <h6 class='text-center text-uppercase'>Sila buat pembelian aplikasi &#39;<em>TeamSpeak3</em>&#39; di App Store berharga <strong>RM4.50</strong> terlebih dahulu</h6>
         <table class='table table-sm text-center align-middle'>
           <tbody>
             <tr>
               <th scope='col'>Versi</th>
-              <th scope='col'>App Store</th>
+              <th scope='col'><i class='bi bi-apple'></i></th>
             </tr>
             <tr>
-              <td>Terkini</td>
+              <td><i class='fa-brands fa-app-store'></i></td>
               <td><a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank'><img src='https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg' class='img-fluid'></a></td>
             </tr>
           </tbody>

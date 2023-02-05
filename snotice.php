@@ -171,72 +171,72 @@
           <tr>
             <td>07 Jan 2023</td>
             <td>Gangguan Sambungan Berjadual RoIPDarulAman</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/02' target='_blank'>Baca NtsMARS2023/02</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/02' target='_blank'>NtsMARS 2023/02</a></td>
           </tr>
           <tr>
             <td>05 Jan 2023</td>
             <td>Makluman Sijil NCS &amp; Kad QSL 2023</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2023/01' target='_blank'>Baca NtsMARS2023/01</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2023/01' target='_blank'>NtsMARS 2023/01</a></td>
           </tr>
           <tr>
             <td>26 Sep 2022</td>
             <td>Perubahan Platform <a href='https://kedai.roipmars.org.my/' target='_blank'>Kedai.RoIPMARS.org.MY</a></td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2022/02' target='_blank'>Baca NtsMARS2022/02</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2022/02' target='_blank'>NtsMARS 2022/02</a></td>
           </tr>
           <tr>
             <td>20 Jul 2022</td>
             <td>Perubahan domain</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2022/01' target='_blank'>Baca NtsMARS2022/01</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2022/01' target='_blank'>NtsMARS 2022/01</a></td>
           </tr>
           <tr>
             <td>20 Apr 2021</td>
             <td>Rombakan Isyarat Panggilan Jalur Rakyat</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2021/01' target='_blank'>Baca NtsMARS2021/01</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2021/01' target='_blank'>NtsMARS 2021/01</a></td>
           </tr>
           <tr>
             <td>25 Ogo 2020</td>
             <td>Masa Henti Pelayan 30 Aug 2020</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/09' target='_blank'>Baca NtsMARS2020/09</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/09' target='_blank'>NtsMARS 2020/09</a></td>
           </tr>
           <tr>
             <td>19 Apr 2020</td>
             <td>Jalur Rakyat RoIPMARS Status dan Kaedah Tidak Aktif</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/08' target='_blank'>Baca NtsMARS2020/08</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/08' target='_blank'>NtsMARS 2020/08</a></td>
           </tr>
           <tr>
             <td>02 Apr 2020</td>
             <td>Isu Sambungan Aplikasi</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/07' target='_blank'>Baca NtsMARS2020/07</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/07' target='_blank'>NtsMARS 2020/07</a></td>
           </tr>
           <tr>
             <td>23 Mac 2020</td>
             <td>Gangguan laman web untuk naik taraf perkhidmatan</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/06' target='_blank'>Baca NtsMARS2020/06</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/06' target='_blank'>NtsMARS 2020/06</a></td>
           </tr>
           <tr>
             <td>06 Mac 2020</td>
             <td>Penukaran Maklumat Jalur Rakyat RoIPMARS</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/05' target='_blank'>Baca NtsMARS2020/05</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/05' target='_blank'>NtsMARS 2020/05</a></td>
           </tr>
           <tr>
             <td>01 Mac 2020</td>
             <td>Penyelengaraan Pangkalan Data Jalur Rakyat RoIPMARS</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/04' target='_blank'>Baca NtsMARS2020/04</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/04' target='_blank'>NtsMARS 2020/04</a></td>
           </tr>
           <tr>
             <td>16 Feb 2020</td>
             <td>Notifikasi Laman Tutorial</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/03' target='_blank'>Baca NtsMARS2020/03</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/03' target='_blank'>NtsMARS 2020/03</a></td>
           </tr>
           <tr>
             <td>08 Feb 2020</td>
             <td>Pemberhentian Sijil Mingguan NCS</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/02' target='_blank'>Baca NtsMARS2020/02</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/02' target='_blank'>NtsMARS 2020/02</a></td>
           </tr>
           <tr>
             <td>07 Feb 2020</td>
             <td>Penyelenggaraan MyIX</td>
-            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/01' target='_blank'>Baca NtsMARS2020/01</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid'  href='nts/2020/01' target='_blank'>NtsMARS 2020/01</a></td>
           </tr>
         </tbody>
       </table>
@@ -252,9 +252,9 @@
           </div>
           <div class='col-9'>
             <div class='card-body'>
-              <p class='card-title fs-2 fw-bold'>9W2UZL &mdash; ZULKIFLI ABU</p>
-              <p class='card-subtitle fw-bolder'>FOUNDER, ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
-              <p class='card-subtitle fw-lighter'>PENGASAS, PENTADBIR &amp; KETUA PENYELIDIK</p>
+              <p class='card-title fs-3 fw-bold'>9W2UZL &mdash; ZULKIFLI ABU</p>
+              <p class='card-subtitle fw-semibold'>FOUNDER, ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
+              <p class='card-subtitle fw-bolder'>PENGASAS, PENTADBIR &amp; KETUA PENYELIDIK</p>
             </div>
           </div>
         </div>
@@ -263,9 +263,9 @@
         <div class='row g-0 text-end'>
           <div class='col-9'>
             <div class='card-body'>
-              <p class='card-title fs-2 fw-bold'>9W2LGX &mdash; HAFIZI RUSLAN</p>
-              <p class='card-subtitle fw-bolder'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
-              <p class='card-subtitle fw-lighter'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
+              <p class='card-title fs-3 fw-bold'>9W2LGX &mdash; HAFIZI RUSLAN</p>
+              <p class='card-subtitle fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
+              <p class='card-subtitle fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
             </div>
           </div>
           <div class='col-3 align-self-center'>

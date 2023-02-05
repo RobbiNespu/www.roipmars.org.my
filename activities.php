@@ -194,14 +194,13 @@
       </div>
     </div>
     <div class='row'>
-      <div class='col-lg'>
-        <div class='card text-bg-light text-center rounded-5 rounded-top'>
+      <div class='col-12 m-0 p-1'>
+        <div class='card text-center rounded-5'>
           <div class='card-header'>
-            <h4 class='card-header-pills'>Persidangan bersama MARTS (Malaysian Amateur Radio Transmitters' Society)</h4>
+            <h4 class='card-header-pills'>Persidangan bersama MARTS &#40;Malaysian Amateur Radio Transmitters' Society&#41;</h4>
           </div>
           <div class='card-body'>
-            <p class='card-text'>Persidangan bersama dengan 9M2PRO (Wakil MARTS) melalui pelayan kami membincangkan mengenai kepentingan persidangan video semasa Perintah Kawalan Pergerakan (PKP).</p>
-            <!--<img src='./images/conf_9m2pro.png' class='card-img shadow-lg rounded-5'>-->
+            <p class='card-text'>Persidangan bersama dengan 9M2PRO &#40;Wakil MARTS&#41; melalui pelayan kami membincangkan mengenai kepentingan persidangan video semasa Perintah Kawalan Pergerakan &#40;PKP&#41;.</p>
             <div class='ratio ratio-21x9'>
               <iframe class='rounded-5 rounded-top' loading='lazy' src='https://www.youtube.com/embed/iWNZUnVvm-o' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
             </div>

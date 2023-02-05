@@ -345,7 +345,7 @@
         <table class='table table-sm text-center table-bordered'>
           <tbody>
             <tr>
-              <th scope='row'>Sistem Poerasi</th>
+              <th scope='row'>Sistem Operasi</th>
               <td>Android 4.2 dan keatas, CPU ARM v7, sokongan Google Play</td>
             </tr>
           </tbody>
@@ -363,7 +363,7 @@
       </div>
       <div class='col-md-3 position-static p-4 pl-md-0'>
         <p class='text-center'>Video tutorial ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di Android Phone anda.</p>
-        <h6 class='text-center text-uppercase'>Sila buat pembelian aplikasi '<em>TeamSpeak3</em>' di Google Play berharga <strong>RM4.50</strong> terlebih dahulu</h6>
+        <h6 class='text-center text-uppercase'>Sila buat pembelian aplikasi &#39;<em>TeamSpeak3</em>&#39; di Google Play berharga <strong>RM4.50</strong> terlebih dahulu</h6>
         <table class='table table-sm text-center align-middle'>
           <tbody>
             <tr>
@@ -580,7 +580,7 @@
       </div>
       <div class='col-md-3 position-static p-4 pl-md-0'>
         <p class='text-center'>Video ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di Apple iPhone/iPad/iPod Touch anda.</p>
-        <h6 class='text-center text-uppercase'>Sila buat pembelian aplikasi '<em>TeamSpeak3</em>' di App Store berharga <strong>RM4.50</strong> terlebih dahulu</h6>
+        <h6 class='text-center text-uppercase'>Sila buat pembelian aplikasi &#39;<em>TeamSpeak3</em>&#39; di App Store berharga <strong>RM4.50</strong> terlebih dahulu</h6>
         <table class='table table-sm text-center align-middle'>
           <tbody>
             <tr>

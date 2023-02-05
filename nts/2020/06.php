@@ -109,7 +109,7 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <div class='container mt-5'>
+  <div class='container my-2'>
     <h1 class='text-center' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Kumpulan RoIPMARS</h1>
     <p class='fs-4 fw-light text-center' style='font-family: "Electrolize", sans-serif'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash;</p>
     <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Notice Website interruption for service upgrade</p>

@@ -153,8 +153,8 @@
   </nav>
   <div class='container-fluid'>
     <div class='row text-center'>
-      <div class='col my-3 container-fluid'>
-        <img src='./images/banner/roipmarsv.png' loading='lazy' class='img-fluid rounded-5 mb-3' width='90%' alt='banner-index'>
+      <div class='col my-3'>
+        <img src='./images/banner/roipmarsv.png' loading='lazy' class='img-fluid rounded-5 shadow mb-3' width='85%' alt='banner-index'>
         <h1 class='h1-responsive'>Selamat Datang ke RoIPMARS</h1>
         <p class='fs-5'>Malaysian Amateur Radio over Internet Protocol Society &#40;MARS&#41;</p>
         <p class='fs-3'>&#8212; MUDAH &#8212; MURAH &#8212; MERIAH &#8212; MERAPATKAN HUBUNGAN &#8212; MENJAGA SILATURRAHIM &#8212;</p>
@@ -171,36 +171,30 @@
     <div class='row text-center'>
       <div class='col-sm'>
         <i class='fa-solid fa-id-card fa-5x fa-fade'></i>
-        <p>Bagi mengendalikan stesen Radio Amatur, anda memerlukan lesen &#40;peruntukan radas&#41; dari Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;SKMM&#41;. Umur minima adalah 12 tahun dan anda perlu lulus Peperiksaan Amatur Radio &#40;RAE&#41;.</p>
+        <p>Bagi mengendalikan sebuah stesen Radio Amatur, anda memerlukan lesen kelayakan &#40;peruntukan radas&#41; dari Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;SKMM&#41;. Umur minima yang telah ditetapkan adalah 12 tahun dan anda perlu lulus Peperiksaan Radio Amatur &#40;RAE&#41; untuk melayakkan diri anda mengendalikan sebuah stesen Radio Amatur.</p>
       </div>
       <div class='col-sm'>
         <i class='fa-solid fa-person-walking fa-5x fa-beat'></i>
-        <p>Perjalanan untuk menjadi Stesen Radio Amatur adalah pengalaman yang berharga dan kami akan membantu anda untuk mendapatkan lesen anda dalam masa terdekat. Kelas-kelas akan diadakan dan anda akan mengamalkan komunikasi radio mudah alih. Paling penting ialah anda tidak akan bersendirian dalam perjalanan anda untuk menjadi pengendali radio amatur.</p>
+        <p>Perjalanan untuk menjadi Stesen Radio Amatur adalah pengalaman yang berharga dan kami akan membantu anda untuk mendapatkan lesen anda dalam masa terdekat. Kelas-kelas akan diadakan dan anda akan dapat mengamalkan komunikasi radio mudah alih. Paling penting ialah anda tidak akan bersendirian dalam perjalanan anda untuk menjadi seorang pengendali radio amatur.</p>
       </div>
       <div class='col-sm'>
         <i class='fa-solid fa-people-carry-box fa-5x fa-flip'></i>
-        <p>Pada penghujung hari kami berharap anda dapat menawarkan khidmat anda pada masa yang diperlukan untuk membantu komunikasi kecemasan, menghulurkan bantuan, dan membantu mereka yang memerlukan. Pengendali radio amatur telah diketahui umum sebagai yang paling pantas bertindak balas sewaktu kecemasan.</p>
-      </div>
-    </div>
-    <hr>
-    <div class='row text-center'>
-      <div class='col-md'>
-        <h2>RADIO AMATUR &amp; ROIP</h2>
-        <p>Sekilas aktiviti kami untuk mempromosikan Radio Amatur dan ROIP</p>
+        <p>Kami berharap anda dapat menawarkan khidmat anda pada masa yang diperlukan untuk membantu komunikasi kecemasan, menghulurkan bantuan, dan membantu mereka yang memerlukan. Pengendali radio amatur telah diketahui umum sebagai antara yang paling pantas bertindak balas sewaktu kecemasan.</p>
       </div>
     </div>
     <div class='row'>
       <div class='col-12 my-2'>
-        <div class='alert alert-info'>
-          <div class='alert-heading text-center'>
-            <h4>SEBARAN AWAM</h4>
-          </div>
-          <p>Kepada INDIVIDU atau KELAB, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS.</p>
-          <p>Kami juga menyediakan perkhidmatan komunikasi buat SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan.</p>
-          <p>Pasukan teknikal kami sedia membantu anda. Hubungi kami di <a class='text-primary text-decoration-none' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member&#64;roipmars.org.my</a> untuk sebarang pertanyaan atau permohonan.</p>
-          <h6 class='text-end'>'JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI'</h6>
-          <p class='text-end'>Tulus Ikhlas, Pengurusan RoIPMARS</p>
+        <div class='alert alert-info shadow p-3 bg-body-tertiary rounded-5'>
+          <h4 class='fs-1 text-info-emphasis alert-heading text-center fw-bolder'>SEBARAN AWAM</h4>
+          <p class='fs-3 mx-2 text-break'>Kepada Inividu, Komuniti, Kelab, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS. Kami juga menyediakan perkhidmatan komunikasi untuk SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan ataupun pekerja. Pasukan teknikal kami sedia membantu anda. Hubungi kami melalui emel ke <a class='text-info' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member&#64;roipmars.org.my</a> untuk mendapatkan maklumat lanjut.</p>
+          <p class='fs-6 lh-1 font-monospace text-sm-end'>&#39;JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI&#39;<br>Tulus Ikhlas,<br>Bahagian Pengurusan Rangkaian Kumpulan RoIPMARS</p>
         </div>
+      </div>
+    </div>
+    <div class='row text-center'>
+      <div class='col-md'>
+        <h2>RADIO AMATUR &amp; ROIP</h2>
+        <p>Sekilas aktiviti kami untuk mempromosikan Radio Amatur dan ROIP</p>
       </div>
     </div>
     <div class='row text-center'>
@@ -218,7 +212,7 @@
           <img src='./images/pic02.jpg' class='card-img-top'>
           <div class='card-body'>
             <h4 class='card-title'>Kerjasama</h4>
-            <p class='card-text'>Apabila peluang muncul, kami berusaha untuk bekerjasama dengan kelab / persatuan lain untuk mempromosikan radio amatur. Beberapa kelab tempatan kini telah bersatu padu dengan ROIP dan menjadi penyokong setia kami. Semua bersetuju bahawa ROIP adalah alternatif terutama apabila pengulang tidak berfungsi.</p>
+            <p class='card-text'>Apabila peluang muncul, kami berusaha untuk bekerjasama dengan kelab / persatuan lain untuk mempromosikan radio amatur. Beberapa kelab tempatan telah bersama berganding bahu mendalami teknologi ROIP. Semua bersepakat bahawa ROIP adalah alternatif apabila pengulang tidak berfungsi.</p>
           </div>
         </div>
       </div>
@@ -241,48 +235,52 @@
         </div>
       </div>
     </div>
-    <div class='row'>
-      <div class='col-lg-4 my-2'>
-        <div class='card'>
-          <div class='card-header text-center'>Bacaan Lanjut</div>
-          <ul class='list-group list-group-flush'>
-            <li class='list-group-item'><a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Guidelines-for-Amateur-Radio-Service-in-Malaysia-3rd-Edition.pdf' download><i class='fa-solid fa-file-pdf'></i> GUIDELINES FOR AMATEUR RADIO SERVICE IN MALAYSIA - MCMC</a></li>
-            <li class='list-group-item'><a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Amateur-Radio-Handbook-1st-Edition.pdf' download><i class='fa-solid fa-file-pdf'></i> AMATEUR RADIO HANDBOOK - MCMC</a></li>
-            <li class='list-group-item'><a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-A.pdf' download><i class='fa-solid fa-file-pdf'></i> QUESTION BANK CLASS A AMATEUR RADIO - MCMC</a></li>
-            <li class='list-group-item'><a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-B.pdf' download><i class='fa-solid fa-file-pdf'></i> QUESTION BANK CLASS B AMATEUR RADIO - MCMC</a></li>
-            <li class='list-group-item'><a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-C.pdf' download><i class='fa-solid fa-file-pdf'></i> QUESTION BANK CLASS C AMATEUR RADIO - MCMC</a></li>
-            <li class='list-group-item'><a href='https://www.arrl.org/files/file/VoIP.pdf' download><i class='fa-solid fa-file-pdf'></i> VoIP dan Radio Amatur - ARRL</a></li>
-            <li class='list-group-item'><a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Form-AMATEUR-SERVICE_v2018_ISO.pdf' download><i class='fa-solid fa-file-pdf'></i> Borang Permohonan Tugasan Radas Amatur - SKMM</a></li>
-            <li class='list-group-item'><a href='https://sems.mcmc.gov.my/sems/exams/examinfo' target='_blank'>SKMM Exam Management System &#40;SEMS&#41;</a></li>
-          </ul>
+    <div class='row mb-3'>
+      <div class='col-lg-4 my-1'>
+        <div class='list-group'>
+          <div class='btn-group-vertical dropend rounded-3'>
+            <div class='list-group-item list-group-item-action disabled text-center bg-dark-subtle'>Bacaan Lanjut</div>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.arrl.org/files/file/VoIP.pdf' download><i class='bi bi-file-pdf'></i> VoIP dan Radio Amatur &mdash; ARRL</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Guidelines-for-Amateur-Radio-Service-in-Malaysia-3rd-Edition.pdf' download><i class='bi bi-file-pdf'></i> GARIS PANDUAN PERKHIDMATAN RADIO AMATUR DI MALAYSIA &mdash; MCMC</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Amateur-Radio-Handbook-1st-Edition.pdf' download><i class='bi bi-file-pdf'></i> BUKU PANDUAN RADIO AMATUR &mdash; MCMC</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://sems.mcmc.gov.my/sems/exams/examinfo' target='_blank'>Sistem Pengurusan Peperiksaan SKMM &#40;SEMS&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Form-AMATEUR-SERVICE_v2018_ISO.pdf' download><i class='bi bi-file-pdf'></i> Borang Permohonan Tugasan Radas Amatur &mdash; MCMC</a>
+            <button type='button' class='list-group-item list-group-item-action dropdown-toggle' data-bs-toggle='dropdown' data-bs-auto-close='outside' aria-expanded='false'><i class='bi bi-file-pdf'></i> Bank Soalan Radio Amatur &mdash; MCMC</button>
+              <ul class='dropdown-menu'>
+                <li><p class='dropdown-header'>Dwi-Bahasa</p></li>
+                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-A.pdf' download>Kelas A &#40;9M&#93;</a></li>
+                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-B.pdf' download>Kelas B &#40;9W&#93;</a></li>
+                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-C.pdf' download>Kelas C &#40;9W3&#93;</a></li>
+              </ul>
+          </div>
         </div>
       </div>
-      <div class='col-lg-4 my-2'>
-        <div class='card'>
-          <div class='card-header text-center'>Kerjasama Kelab &amp; Persatuan Luar</div>
-          <ul class='list-group list-group-flush'>
-            <li class='list-group-item'><a href='https://marts.org.my/' target='_blank'>Malaysia Amateur Radio Transmitters' Society &#40;MARTS&#41;</a></li>
-            <li class='list-group-item'><a href='https://mares.org.my/' target='_blank'>Malaysian Amateur Radio Emergency Service Society &#40;MARES&#41;</a></li>
-            <li class='list-group-item'><a href='https://www.jasra.org.my/' target='_blank'>Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</a></li>
-            <li class='list-group-item'><a href='https://www.astra.name.my/' target='_blank'>Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41;</a></li>
-            <li class='list-group-item'><a href='https://www.facebook.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063' target='_blank'><i class='fa-brands fa-facebook-f'></i> Radio Emergency Drone Sarawak &#40;REDS&#41;</a></li>
-            <li class='list-group-item'><a href='https://www.qrz.com/db/9M4CRP' target='_blank'>Kelab Radio Amatur Papar &#40;PARC&#41;</a></li>
-            <li class='list-group-item'><a href='https://www.facebook.com/krasb.selangor' target='_blank'><i class='fa-brands fa-facebook-f'></i> Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41;</a></li>
-          </ul>
+      <div class='col-lg-4 my-1'>
+        <div class='list-group'>
+          <div class='btn-group-vertical rounded-3'>
+            <div class='list-group-item list-group-item-action disabled text-center bg-dark-subtle'>Kerjasama Kelab &amp; Persatuan Luar</div>
+            <a type='button' class='list-group-item list-group-item-action' href='https://marts.org.my/' target='_blank'>Malaysia Amateur Radio Transmitters' Society &#40;MARTS&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://mares.org.my/' target='_blank'>Malaysian Amateur Radio Emergency Service Society &#40;MARES&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.jasra.org.my/' target='_blank'>Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.astra.name.my/' target='_blank'>Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.facebook.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063' target='_blank'><i class='fa-brands fa-facebook-f'></i> Radio Emergency Drone Sarawak &#40;REDS&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.qrz.com/db/9M4CRP' target='_blank'>Kelab Radio Amatur Papar &#40;PARC&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.facebook.com/krasb.selangor' target='_blank'><i class='fa-brands fa-facebook-f'></i> Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41;</a>
+          </div>
         </div>
       </div>
-      <div class='col-lg-4 my-2'>
-        <div class='card'>
-          <div class='card-header text-center'>Pautan Luar</div>
-          <ul class='list-group list-group-flush'>
-            <li class='list-group-item'><a href='https://www.iaru-r3.org/' target='_blank'>Kesatuan Radio Amatur Antarabangsa - Wilayah 3</a></li>
-            <li class='list-group-item'><a href='https://www.mcmc.gov.my/' target='_blank'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia &#40;SKMM&#41;</a></li>
-            <li class='list-group-item'><a href='https://www.ros.gov.my/' target='_blank'>Jabatan Pendaftaran Pertubuhan Malaysia &#40;JPPM&#41;</a></li>
-            <li class='list-group-item'><a href='https://ms.wikipedia.org/wiki/Senarai_persatuan_radio_amatur_di_Malaysia' target='_blank'><i class='fa-brands fa-wikipedia-w'></i> Senarai Persatuan Radio Amatur Malaysia</a></li>
-            <li class='list-group-item'><a href='https://bruneiamatureradio.blogspot.com/' target='_blank'>Brunei Darussalam Amateur Radio Association &#40;BDARA&#41;</a></li>
-            <li class='list-group-item'><a href='https://orari.or.id/' target='_blank'>Organisasi Amatir Radio Indonesia &#40;ORARI&#41;</a></li>
-            <li class='list-group-item'><a href='https://www.rast.or.th/' target='_blank'>Radio Amateur Society of Thailand &#40;RAST&#41;</a></li>
-          </ul>
+      <div class='col-lg-4 my-1'>
+        <div class='list-group'>
+          <div class='btn-group-vertical rounded-3'>
+            <div class='list-group-item list-group-item-action disabled text-center bg-dark-subtle'>Pautan Luar</div>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.iaru-r3.org/' target='_blank'>Kesatuan Radio Amatur Antarabangsa &mdash; Wilayah 3</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.mcmc.gov.my/' target='_blank'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia &#40;SKMM&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.ros.gov.my/' target='_blank'>Jabatan Pendaftaran Pertubuhan Malaysia &#40;JPPM&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://ms.wikipedia.org/wiki/Senarai_persatuan_radio_amatur_di_Malaysia' target='_blank'><i class='fa-brands fa-wikipedia-w'></i> Senarai Persatuan Radio Amatur Malaysia</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://bruneiamatureradio.blogspot.com/' target='_blank'>Brunei Darussalam Amateur Radio Association &#40;BDARA&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://orari.or.id/' target='_blank'>Organisasi Amatir Radio Indonesia &#40;ORARI&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.rast.or.th/' target='_blank'>Radio Amateur Society of Thailand &#40;RAST&#41;</a>
+          </div>
         </div>
       </div>
     </div>

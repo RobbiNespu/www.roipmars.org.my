@@ -45,7 +45,9 @@
   <link rel='apple-touch-icon' sizes='152x152' href='../../images/apple-icon-152x152.png'>
   <link rel='apple-touch-icon' sizes='180x180' href='../../images/apple-icon-180x180.png'>
   <link rel='manifest' href='../../vendor/manifest.json'>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap' >
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Oxanium&family=Nanum+Gothic+Coding&family=Saira+Extra+Condensed&family=Orbitron&family=Electrolize&family=Coda&display=swap'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
@@ -107,20 +109,20 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <div class='container'>
-    <h1 class='tk-gilbert-color text-center'>RoIPMARS Group</h1>
-    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.org.my &mdash; roipdarulaman.com &mdash;</h4>
-    <h2 class='tk-nueva-std text-center'>Makluman Sijil NCS &amp; Kad QSL 2023</h2>
-    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2023/01<br>Tarikh Notis: 05 Januari 2023 | 0700 MYT</h3>
-    <h2 class='tk-tekton-pro'>Per: Sambungan Pengeluaran Sijil NCS &amp; Kad QSL</h2>
-    <p>Tuan / Puan / En. / Cik,</p>
+  <div class='container mt-5'>
+    <h1 class='text-center' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Kumpulan RoIPMARS</h1>
+    <p class='fs-4 fw-light text-center' style='font-family: "Electrolize", sans-serif'>&mdash; roipmars.org.my &mdash; roipdarulaman.com &mdash;</p>
+    <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Makluman Sijil NCS &amp; Kad QSL 2023</p>
+    <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2023/01<br>Tarikh Notis: 05 Januari 2023 | 0700 MYT</p>
+    <p class='lh-sm'>Pengguna yang dihormati,</p>
+    <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Sambungan Pengeluaran Sijil NCS &amp; Kad QSL</p>
     <p class='mb-2'>Merujuk kepada notis &#40;<a href='../2020/02'>NtsMARS2020/02</a>&#41;, ingin dimaklumkan bahawa kami akan menyambung semula pengeluaran sijil dan kad QSL pada setiap acara yang telah dirancang sepanjang tahun 2023.</p>
     <p>Segala sijil dan kad QSL anda akan dikemaskini dari masa ke semasa dan boleh didapati di laman sesawang <a href='http://ftp.roipmars.org.my'>ftp.roipmars.org.my</a>.</p>
     <p>Diharap pihak tuan dapat memaklumkan perkara ini kepada rakan-rakan dan sahabat handai. Sokongan dan bantuan anda semua dapat membantu usaha kami untuk kekal aktif dan relevan sepanjang masa.</p>
     <p>Jutaan terima kasih kami ucapkan atas segala sokongan anda.</p>
     <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2301'>member&#64;roipmars.org.my</a></p>
-    <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
-    <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>
+    <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "Herr Von Muellerhoff", cursive'>Pentadbir Rangkaian</p>
+    <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>

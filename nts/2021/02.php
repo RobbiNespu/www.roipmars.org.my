@@ -45,7 +45,9 @@
   <link rel='apple-touch-icon' sizes='152x152' href='../../images/apple-icon-152x152.png'>
   <link rel='apple-touch-icon' sizes='180x180' href='../../images/apple-icon-180x180.png'>
   <link rel='manifest' href='../../vendor/manifest.json'>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap' >
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Oxanium&family=Nanum+Gothic+Coding&family=Saira+Extra+Condensed&family=Orbitron&family=Electrolize&family=Coda&display=swap'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
@@ -107,13 +109,13 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <div class='container'>
-    <h1 class='tk-gilbert-color text-center'>RoIPMARS Group</h1>
-    <h4 class='tk-gilbert text-center font-weight-light'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash; kopdarmobile.net &mdash; plnroip.net &mdash;</h4>
-    <h2 class='tk-nueva-std text-center'>Penyeleggaraan Aplikasi</h2>
-    <h3 class='tk-nueva-std-condensed text-end'>Ruj: NtsMARS2021/02<br>Tarikh Notis: 10 Ogos 2021 | 1630 MYT</h3>
-    <h2 class='tk-tekton-pro'>Per: Penyeleggaraan migrasi tidak berjadual</h2>
-    <p>Tuan / Puan / En. / Cik,</p>
+  <div class='container mt-5'>
+    <h1 class='text-center' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Kumpulan RoIPMARS</h1>
+    <p class='fs-4 fw-light text-center' style='font-family: "Electrolize", sans-serif'>&mdash; roipmars.com &mdash; roipdarulaman.com &mdash; kopdarmobile.net &mdash; plnroip.net &mdash;</p>
+    <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Penyeleggaraan Aplikasi</p>
+    <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2021/02<br>Tarikh Notis: 10 Ogos 2021 | 1630 MYT</p>
+    <p class='lh-sm'>Pengguna yang dihormati,</p>
+    <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Penyeleggaraan migrasi tidak berjadual</p>
     <p class='mb-2'>Harap Maaf buat semua pengguna MARS Group kerana tidak dapat menggunakan perkhidmatan kami sejak Isnin, 9 Ogos 2021. Pihak kami sedang membuat penyelenggaraan migrasi tidak berjadual terhadap semua 'server' dan 'domain' di bawah kelolaan kami.</p>
     <p>Penyelengaraan tersebut meliputi aplikasi
     <ul type='circle'>
@@ -125,7 +127,7 @@
     </ul>
     </p>
     <p>Semua penyelengaraan ini dijangka selesai pada
-    <table class='table table-sm table-responsive border-dark text-center'>
+    <table class='table table-sm table-responsive table-bordered text-center'>
       <thead>
         <th>Tarikh</th>
         <th>Waktu</th>
@@ -140,8 +142,8 @@
     </p>
     <p>Pihak pengguna tidak perlu membuat apa-apa perubahan ke atas 'software' selepas penyelenggaraan ini selesai.</p>
     <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2102'>member&#64;roipmars.org.my</a></p>
-    <h6 class='tk-adobe-handwriting-ernie text-end'>Server Administrator</h6>
-    <p class='text-end' style='font-size:small'>Management of RoIPMARS Group</p>
+    <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "Herr Von Muellerhoff", cursive'>Pentadbir Rangkaian</p>
+    <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
   </div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>

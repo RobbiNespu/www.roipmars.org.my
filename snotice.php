@@ -161,7 +161,7 @@
   <div class='container'>
     <div class='row'>
       <table class='table table-striped text-center'>
-        <thead class='th-sm thead-light align-middle'>
+        <thead class='align-middle'>
           <th>Tarikh Notis</th>
           <th>Tentang</th>
           <th colspan='2'>Rujukan</th>
@@ -255,13 +255,44 @@
         </tbody>
       </table>
     </div>
+    <div class='row my-3'>
+      <div class='col-12'>
+        <h2 class='h2 text-center'>Pegawai Bahagian Pengurusan Rangkaian Kumpulan RoIPMARS</h2>
+      </div>
+      <div class='col-lg-6 card my-2 rounded-5'>
+        <div class='row g-0 text-start'>
+          <div class='col-2 align-self-center'>
+            <img src='./images/member/002.png' class='img-fluid rounded-circle object-fit-contain' alt='9W2UZL'>
+          </div>
+          <div class='col-10'>
+            <div class='card-body'>
+              <p class='card-title h5 fw-bold'>9W2UZL &mdash; ZULKIFLI ABU<br>PENGASAS, PENTADBIR &amp; KETUA PENYELIDIKAN DAN PEMBANGUNAN</p>
+              <p class='card-text lh-sm'>Pegawai yang menguruskan kesediaan keseluruhan sambungan rangkaian. Beliau juga bertanggungjawab memastikan kualiti keseluruhan rangkaian berada di tahap maksima.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='col-lg-6 card my-2 rounded-5'>
+        <div class='row g-0 text-end'>
+          <div class='col-10'>
+            <div class='card-body'>
+              <p class='card-title h5 fw-bold'>9W2LGX &mdash; HAFIZI RUSLAN<br>PEMBANGUN TINDAKAN PENUH &amp; PENYELENGGARA</p>
+              <p class='card-text lh-sm'>Pegawai yang mengurus dan mengawal pengkodan dan penyediaan keseluruhan sistem &amp; rangkaian. Beliau juga bertanggungjawab menguruskan kestabilan sambungan rangkaian.</p>
+            </div>
+          </div>
+          <div class='col-2 align-self-center'>
+            <img src='./images/member/001.png' class='img-fluid rounded-circle object-fit-contain' alt='9W2LGX'>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <footer class='footer mt-auto py-1 page-footer font-small bg-body-tertiary text-center'>
     <div class='container'>
       <div class='row my-0'>
         <div class='col-lg-8 mx-auto my-1'>
-          <h5 class='text-uppercase mb-2 fw-bold text-lg-start'>Sumbangan</h5>
-          <p class='mb-2 text-lg-start'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan kami serta semua Perkhidmatan kami tersedia untuk anda pada bila-bila masa di mana sahaja</p>
+          <h5 class='text-uppercase mb-2 fw-bold text-md-start'>Sumbangan</h5>
+          <p class='mb-2 text-md-start'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan kami serta semua Perkhidmatan kami tersedia untuk anda pada bila-bila masa di mana sahaja</p>
           <table class='table table-sm table-bordered table-striped text-center align-middle my-0'>
             <tbody>
               <tr><th>Nama</th><td>PERSATUAN PEMINAT RADIO KOMUNIKASI<br>&#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
@@ -273,7 +304,7 @@
           <p class='my-0'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>
-          <h5 class='text-uppercase mb-2 fw-bold text-lg-end'>Hubungi Kami</h5>
+          <h5 class='text-uppercase mb-2 fw-bold text-md-end'>Hubungi Kami</h5>
           <div class='d-grid gap-2 d-md-flex justify-content-md-end mb-2'>
             <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at'></i> member&#64;roipmars.org.my</a>
             <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi bi-envelope-paper'></i> Langgan surat berita kami</button>
@@ -285,8 +316,8 @@
                 </div>
               </div>
             </div>
-          <div class='d-flex justify-content-end'>
-            <img class='img-fluid rounded-5 bg-secondary' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
+          <div class='d-md-flex justify-content-md-end'>
+            <img class='img-fluid rounded-5 bg-secondary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
           </div>
         </div>
       </div>

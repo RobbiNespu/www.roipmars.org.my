@@ -783,8 +783,8 @@
     <div class='container'>
       <div class='row my-0'>
         <div class='col-lg-8 mx-auto my-1'>
-          <h5 class='text-uppercase mb-2 fw-bold text-lg-start'>Sumbangan</h5>
-          <p class='mb-2 text-lg-start'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan kami serta semua Perkhidmatan kami tersedia untuk anda pada bila-bila masa di mana sahaja</p>
+          <h5 class='text-uppercase mb-2 fw-bold text-md-start'>Sumbangan</h5>
+          <p class='mb-2 text-md-start'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan kami serta semua Perkhidmatan kami tersedia untuk anda pada bila-bila masa di mana sahaja</p>
           <table class='table table-sm table-bordered table-striped text-center align-middle my-0'>
             <tbody>
               <tr><th>Nama</th><td>PERSATUAN PEMINAT RADIO KOMUNIKASI<br>&#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
@@ -796,7 +796,7 @@
           <p class='my-0'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>
-          <h5 class='text-uppercase mb-2 fw-bold text-lg-end'>Hubungi Kami</h5>
+          <h5 class='text-uppercase mb-2 fw-bold text-md-end'>Hubungi Kami</h5>
           <div class='d-grid gap-2 d-md-flex justify-content-md-end mb-2'>
             <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at'></i> member&#64;roipmars.org.my</a>
             <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi bi-envelope-paper'></i> Langgan surat berita kami</button>
@@ -808,8 +808,8 @@
                 </div>
               </div>
             </div>
-          <div class='d-flex justify-content-end'>
-            <img class='img-fluid rounded-5 bg-secondary' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
+          <div class='d-md-flex justify-content-md-end'>
+            <img class='img-fluid rounded-5 bg-secondary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
           </div>
         </div>
       </div>

@@ -382,7 +382,7 @@
                 <span class='flag'>BOTA Lumut</span>
                 <span class='time-wrapper'><span class='time'>16 Mac 2022</span></span>
               </div>
-              <div class='desc'>Jemputan dari komuniti RoIPDarulAman bagi menjayakan <i>Beach On The Air</i> &#40;BOTA&#41; yang berlansung di Pantai Kg. Acheh, Lumut, Perak.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='./images/bota22.jpg'></div>
+              <div class='desc'>Jemputan dari komuniti RoIPDarulAman bagi menjayakan <i>Beach On The Air</i> &#40;BOTA&#41; yang berlansung di Pantai Kg. Acheh, Lumut, Perak.<img class='img-thumbnail rounded-circle mx-auto d-block mt-2' loading='lazy' src='./images/bota22.png'></div>
             </div>
           </li>
           <li>

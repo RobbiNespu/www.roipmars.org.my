@@ -133,11 +133,18 @@
       <div class='col-lg-2'></div>
     </div>
   </div>
-  <footer class='footer page-footer font-small bg-body-tertiary fixed-bottom'>
+  <footer class='footer mt-auto py-1 page-footer fixed-bottom font-small bg-body-tertiary text-center'>
     <div class='container'>
-      <div class='row my-3 d-flex align-middle pt-2'>
-        <div class='col-12'>
-          <p class='text-start font-monospace'><a href='policies' class='text-reset text-decoration-none'>Polisi Perkhidmatan</a><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
+      <div class='row d-flex align-middle my-3'>
+        <div class='col-md-8 col-lg-8 col-xl-8'>
+          <p class='text-lg-start font-monospace'><a href='policies' class='text-reset text-decoration-none'>Polisi Perkhidmatan</a><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
+        </div> 
+        <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
+          <div class='text-lg-end'>
+            <a href='https://fb.com/roipmars.org.my'><i class='bi bi-facebook h1 mx-1'></i></a>
+            <a href='https://t.me/marsts3servercyberjaya'><i class='bi bi-telegram h1 mx-1'></i></a>
+            <a href='https://wa.me/c/60333960874'><i class='bi bi-whatsapp h1 mx-1'></i></a>
+          </div>
         </div>
       </div>
     </div>

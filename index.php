@@ -238,7 +238,7 @@
     <div class='row mb-3'>
       <div class='col-lg-4 my-1'>
         <div class='list-group'>
-          <div class='btn-group-vertical dropend rounded-3'>
+          <div class='btn-group-vertical rounded-3 dropdown-center'>
             <div class='list-group-item list-group-item-action disabled text-center bg-dark-subtle'>Bacaan Lanjut</div>
             <a type='button' class='list-group-item list-group-item-action' href='https://www.arrl.org/files/file/VoIP.pdf' download><i class='bi bi-file-pdf'></i> VoIP dan Radio Amatur &mdash; ARRL</a>
             <a type='button' class='list-group-item list-group-item-action' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Guidelines-for-Amateur-Radio-Service-in-Malaysia-3rd-Edition.pdf' download><i class='bi bi-file-pdf'></i> GARIS PANDUAN PERKHIDMATAN RADIO AMATUR DI MALAYSIA &mdash; MCMC</a>
@@ -248,9 +248,9 @@
             <button type='button' class='list-group-item list-group-item-action dropdown-toggle' data-bs-toggle='dropdown' data-bs-auto-close='outside' aria-expanded='false'><i class='bi bi-file-pdf'></i> Bank Soalan Radio Amatur &mdash; MCMC</button>
               <ul class='dropdown-menu'>
                 <li><p class='dropdown-header'>Dwi-Bahasa</p></li>
-                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-A.pdf' download>Kelas A &#40;9M&#93;</a></li>
-                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-B.pdf' download>Kelas B &#40;9W&#93;</a></li>
-                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-C.pdf' download>Kelas C &#40;9W3&#93;</a></li>
+                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-A.pdf' download>Kelas A &#40;9M&#41;</a></li>
+                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-B.pdf' download>Kelas B &#40;9W&#41;</a></li>
+                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-C.pdf' download>Kelas C &#40;9W3&#41;</a></li>
               </ul>
           </div>
         </div>
@@ -285,26 +285,27 @@
       </div>
     </div>
   </div>
-  <footer class='footer mt-auto py-1 page-footer font-small bg-body-tertiary'>
+  <footer class='footer mt-auto py-1 page-footer font-small bg-body-tertiary text-center'>
     <div class='container'>
       <div class='row my-0'>
         <div class='col-lg-8 mx-auto my-1'>
-          <h5 class='text-uppercase mb-2 font-weight-bold'>Sumbangan</h5>
-          <p class='mb-3'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan kami serta semua Perkhidmatan kami tersedia untuk anda pada bila-bila masa di mana sahaja</p>
-          <table class='table table-sm table-bordered border-dark text-center my-0'>
-            <tr><td>Nama</td><td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
-            <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
-            <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
+          <h5 class='text-uppercase mb-2 fw-bold text-lg-start'>Sumbangan</h5>
+          <p class='mb-2 text-lg-start'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan kami serta semua Perkhidmatan kami tersedia untuk anda pada bila-bila masa di mana sahaja</p>
+          <table class='table table-sm table-bordered table-striped text-center align-middle my-0'>
+            <tbody>
+              <tr><th>Nama</th><td>PERSATUAN PEMINAT RADIO KOMUNIKASI<br>&#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
+              <tr><th>Bank</th><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
+              <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
+            </tbody>
           </table>
-          <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi bi-credit-card fs-4 align-middle'></i></a></p>
-          <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
+          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
-        <hr class='w-100 clearfix d-md-none'>
-        <div class='col-lg-4 mx-auto my-1 text-end'>
-          <h5 class='text-uppercase mb-2 font-weight-bold'>Hubungi Kami</h5>
+        <div class='col-lg-4 mx-auto my-1'>
+          <h5 class='text-uppercase mb-2 fw-bold text-lg-end'>Hubungi Kami</h5>
           <div class='d-grid gap-2 d-md-flex justify-content-md-end mb-2'>
-            <a type='button' class='btn btn-primary rounded-5 fs-6 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at fs-6'></i> member&#64;roipmars.org.my</a>
-            <button type='button' class='btn btn-primary rounded-5 fs-6' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi bi-envelope-paper fs-6'></i> Langgan surat berita kami</button>
+            <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at'></i> member&#64;roipmars.org.my</a>
+            <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi bi-envelope-paper'></i> Langgan surat berita kami</button>
           </div>
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
@@ -319,17 +320,17 @@
         </div>
       </div>
     </div>
-    <div class='container-fluid'>
-      <div class='row mt-5 mb-0 d-flex align-middle'>
+    <div class='container'>
+      <div class='row my-2 d-flex align-middle'>
         <div class='col-md-8 col-lg-8 col-xl-8'>
-          <p class='text-start font-monospace'><a href='policies' class='text-reset text-decoration-none'>Polisi Perkhidmatan</a><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
+          <p class='text-lg-start font-monospace'><a href='policies' class='text-reset text-decoration-none'>Polisi Perkhidmatan</a><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
         </div> 
         <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
-          <div class='text-end text-decoration-none'>
-            <a href='https://fb.com/roipmars.org.my'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-facebook-f fa-stack-1x fa-inverse'></i></span></a>
-            <a href='https://t.me/marsts3servercyberjaya'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-telegram fa-stack-1x fa-inverse'></i></span></a>
-            <a href='https://wa.me/c/60333960874'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-whatsapp fa-stack-1x fa-inverse'></i></span></a>
-            <a href='#' onClick='TSLoginWindow=window.open("https://roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><span class='fa-stack fa-xl'><i class='fa-solid fa-circle fa-stack-2x'></i><i class='fa-brands fa-teamspeak fa-stack-1x fa-inverse'></i></span></a>
+          <div class='text-lg-end'>
+            <a href='https://fb.com/roipmars.org.my'><i class='bi bi-facebook h1 mx-1'></i></a>
+            <a href='https://t.me/marsts3servercyberjaya'><i class='bi bi-telegram h1 mx-1'></i></a>
+            <a href='https://wa.me/c/60333960874'><i class='bi bi-whatsapp h1 mx-1'></i></a>
+            <a href='#' onClick='TSLoginWindow=window.open("https://roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><i class='bi bi-headset h1 mx-1'></i></a>
           </div>
         </div>
       </div>

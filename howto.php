@@ -159,7 +159,7 @@
             </tr>
             <tr>
               <th scope='row' class='align-middle'>Memori Capaian Rawak &#40;RAM&#41; <i class='bi bi-memory'></i></th>
-              <td colspan='3'>Minima 1GB RAM &#40;DISYORKAN&#41;<br>Sesetengah OS mungkin memerlukan lebih banyak memori untuk berjalan dengan lancar.</td>
+              <td colspan='3'>Minima 1GB RAM &#40;Sesetengah OS mungkin memerlukan lebih banyak memori untuk berjalan dengan lancar&#41;</td>
             </tr>
             <tr>
               <th scope='row'>Pemacu Storan <i class='bi bi-device-hdd'></i></th>
@@ -167,7 +167,7 @@
             </tr>
             <tr>
               <th scope='row' class='align-middle'>Aksesori</th>
-              <td colspan='3'>Mikrofon, Fon Kepala atau Pembesar Suara<br>Kamera Web (pilihan)</td>
+              <td colspan='3'><i class='bi bi-mic-fill'></i> Mikrofon, <i class='bi bi-headphones'></i> Fon Kepala atau <i class='bi bi-speaker-fill'></i> Pembesar Suara, <i class='bi bi-webcam-fill'></i> Kamera Web (pilihan)</td>
             </tr>
           </tbody>
         </table>
@@ -251,7 +251,7 @@
               <td>v3.5.6</td>
             </tr>
             <tr>
-              <th scope='row'>MAC OS</th>
+              <th scope='row'>MacOS</th>
               <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/mac/teamspeak3-client-macosx-3.1.10.dmg' download>Muat Turun</a></td>
               <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-macosx-3.5.6.dmg' download>Muat Turun</a></td>
             </tr>

@@ -263,9 +263,9 @@
             <a type='button' class='list-group-item list-group-item-action' href='https://mares.org.my/' target='_blank'>Malaysian Amateur Radio Emergency Service Society &#40;MARES&#41;</a>
             <a type='button' class='list-group-item list-group-item-action' href='https://www.jasra.org.my/' target='_blank'>Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</a>
             <a type='button' class='list-group-item list-group-item-action' href='https://www.astra.name.my/' target='_blank'>Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41;</a>
-            <a type='button' class='list-group-item list-group-item-action' href='https://www.facebook.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063' target='_blank'><i class='fa-brands fa-facebook-f'></i> Radio Emergency Drone Sarawak &#40;REDS&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.facebook.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063' target='_blank'><i class='bi bi-facebook'></i> Radio Emergency Drone Sarawak &#40;REDS&#41;</a>
             <a type='button' class='list-group-item list-group-item-action' href='https://www.qrz.com/db/9M4CRP' target='_blank'>Kelab Radio Amatur Papar &#40;PARC&#41;</a>
-            <a type='button' class='list-group-item list-group-item-action' href='https://www.facebook.com/krasb.selangor' target='_blank'><i class='fa-brands fa-facebook-f'></i> Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41;</a>
+            <a type='button' class='list-group-item list-group-item-action' href='https://www.facebook.com/krasb.selangor' target='_blank'><i class='bi bi-facebook'></i> Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41;</a>
           </div>
         </div>
       </div>

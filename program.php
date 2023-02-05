@@ -1116,7 +1116,7 @@
           <table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
             <thead><th>No</th><th>Station</th></thead>
             <tbody>
-              <tr><td>1<sup>st</sup></td><td>113AZIK</td></tr>
+              <tr><td>1<sup>st</sup></td><td>113DAZIK</td></tr>
               <tr><td>2<sup>nd</sup></td><td>113DAPLY</td></tr>
               <tr><td>3<sup>rd</sup></td><td>113DAJCP</td></tr>
             </tbody>

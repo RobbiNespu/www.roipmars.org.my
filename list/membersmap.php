@@ -27,9 +27,10 @@
   <link rel='manifest' href='../vendor/manifest.json'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.2/leaflet.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://unpkg.com/leaflet@1.9.3/dist/leaflet.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.77.0/dist/L.Control.Locate.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://raw.githubusercontent.com/ebrelsford/Leaflet.loading/master/src/Control.Loading.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.css' crossorigin='anonymous'>
   <style type='text/css'>html, body { height: 100% } #map { height: 100% }</style>
   <script>
@@ -92,25 +93,31 @@
   <div class='container-fluid' id='map'></div>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.2/leaflet.min.js' crossorigin='anonymous'></script>
+  <script src='https://unpkg.com/leaflet@1.9.3/dist/leaflet.js' crossorigin='anonymous'></script>
+  <script src='https://github.com/leaflet-extras/leaflet-providers/raw/master/leaflet-providers.js' crossorigin='anonymous'></script>
   <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.77.0/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
+  <script src='https://raw.githubusercontent.com/ebrelsford/Leaflet.loading/master/src/Control.Loading.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap@1.0.0/dist/Control.WorldMiniMap.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.js' crossorigin='anonymous'></script>
   <script type='text/javascript'>
     var mapOptions = {
       center: [4.174977, 109.467492],
       zoom: 5,
-      fullscreenControl: true
+      fullscreenControl: true,
+      loadingControl: true,
+      worldMiniMapControl: true
     };
     var map = L.map('map', mapOptions);
-    var osmtile = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy;2022 <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>'
+    var JawgDarkTile = L.tileLayer('https://{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token={accessToken}', {
+      attribution: '&copy; <a href="http://jawg.io">JM</a> &amp; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
+      accessToken: 'Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ'
     }).addTo(map);
     var scale = L.control.scale({
-      maxWidth: 100,
+      position: 'bottomleft',
       metric: true,
       imperial: false,
-      updateWhenIdle: false
+      updateWhenIdle: true
     }).addTo(map);
     var locate = L.control.locate({
       position: 'topright',
@@ -127,19 +134,14 @@
       prevButtonText: '<',
       positionSliderLabelText: 'Waktu:',
       opacitySliderLabelText: 'Kegelapan:',
-      animationInterval: 500, 
+      animationInterval: 1000, 
       opacity: 0.25
     }).addTo(map);
     var myIcon = L.icon({
       iconUrl: '../images/favicon-96x96.png',
-      iconSize: [24, 24],
-      //      iconAnchor: [22, 94],
-      //      popupAnchor: [-3, -76],
-      //      shadowUrl: 'my-icon-shadow.png',
-      //      shadowSize: [68, 95],
-      //      shadowAnchor: [22, 94] 
+      iconSize: [24, 24]
     });
-    var A001 = L.marker([3.231110, 101.423487], { title: 'A001', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/0010.png" loading="lazy" height="50%" width="50%"><br>A001<br>9W2LGX<br>MOHAMAD HAFIZI BIN RUSLAN<br>OJ03RF</p>');
+    var A001 = L.marker([3.231110, 101.423487], { title: 'A001', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/001.png" loading="lazy" height="50%" width="50%"><br>A001<br>9W2LGX<br>MOHAMAD HAFIZI BIN RUSLAN<br>OJ03RF</p>');
     var A001C = L.circle([3.231110, 101.423487], { radius: 25000, opacity: 0.3 });
     var A002 = L.marker([3.444039, 101.5528566], { title: 'A002', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/002.png" loading="lazy" height="50%" width="50%"><br>A002<br>9W2UZL<br>ZULKIFLI BIN ABU<br>OJ03SK</p>');
     var A002C = L.circle([3.444039, 101.552856], { radius: 25000, opacity: 0.3 });

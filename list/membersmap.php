@@ -123,10 +123,10 @@
     var rainviewer = L.control.rainviewer({ 
       position: 'topright',
       nextButtonText: '>',
-      playStopButtonText: 'Play/Stop',
+      playStopButtonText: 'Main/Henti',
       prevButtonText: '<',
-      positionSliderLabelText: 'Hour:',
-      opacitySliderLabelText: 'Opacity:',
+      positionSliderLabelText: 'Waktu:',
+      opacitySliderLabelText: 'Kegelapan:',
       animationInterval: 500, 
       opacity: 0.25
     }).addTo(map);
@@ -139,7 +139,7 @@
       //      shadowSize: [68, 95],
       //      shadowAnchor: [22, 94] 
     });
-    var A001 = L.marker([3.231110, 101.423487], { title: 'A001', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/0010.png" loading="lazy" height="50%" width="50%"><br>A001<br>9W2LGX<br>MOHAMAD HAFIZI BIN RUSLAN<br>OJ03RF </p>');
+    var A001 = L.marker([3.231110, 101.423487], { title: 'A001', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/0010.png" loading="lazy" height="50%" width="50%"><br>A001<br>9W2LGX<br>MOHAMAD HAFIZI BIN RUSLAN<br>OJ03RF</p>');
     var A001C = L.circle([3.231110, 101.423487], { radius: 25000, opacity: 0.3 });
     var A002 = L.marker([3.444039, 101.5528566], { title: 'A002', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/002.png" loading="lazy" height="50%" width="50%"><br>A002<br>9W2UZL<br>ZULKIFLI BIN ABU<br>OJ03SK</p>');
     var A002C = L.circle([3.444039, 101.552856], { radius: 25000, opacity: 0.3 });

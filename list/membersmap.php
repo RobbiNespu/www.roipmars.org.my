@@ -139,7 +139,7 @@
       //      shadowSize: [68, 95],
       //      shadowAnchor: [22, 94] 
     });
-    var A001 = L.marker([3.231110, 101.423487], { title: 'A001', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/001.png" loading="lazy" height="50%" width="50%"><br>A001<br>9W2LGX<br>MOHAMAD HAFIZI BIN RUSLAN<br>OJ03RF </p>');
+    var A001 = L.marker([3.231110, 101.423487], { title: 'A001', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/0010.png" loading="lazy" height="50%" width="50%"><br>A001<br>9W2LGX<br>MOHAMAD HAFIZI BIN RUSLAN<br>OJ03RF </p>');
     var A001C = L.circle([3.231110, 101.423487], { radius: 25000, opacity: 0.3 });
     var A002 = L.marker([3.444039, 101.5528566], { title: 'A002', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/002.png" loading="lazy" height="50%" width="50%"><br>A002<br>9W2UZL<br>ZULKIFLI BIN ABU<br>OJ03SK</p>');
     var A002C = L.circle([3.444039, 101.552856], { radius: 25000, opacity: 0.3 });
@@ -197,7 +197,9 @@
     var A028C = L.circle([1.541240, 103.734632], { radius: 25000, opacity: 0.3 });
     var A029 = L.marker([1.561548, 103.620784], { title: 'A029', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/029.png" loading="lazy" height="50%" width="50%"><br>A029<br>9W2JCP<br>MOHAMAD ROSLI BIN AWANG<br>OJ11TN</p>');
     var A029C = L.circle([1.561548, 103.620784], { radius: 25000, opacity: 0.3 });
-    var MarkersList = L.layerGroup([A001, A001C, A002, A002C, A003, A003C, A004, A004C, B005, B005C, A006, A006C, A007, A007C, A008, A008C, A009, A009C, A010, A010C, A011, A011C, A012, A012C, /*A013, A013C, A014, A014C, A015, A015C,*/ A016, A016C, A017, A017C, /*A018, A018C, B019, B019C,*/ A020, A020C, /*A021, A021C,*/ A022, A022C, A023, A023C, /*A024, A024C*/ A025, A025C, A026, A026C, A027, A027C, A028, A028C, A029, A029C]).addTo(map);
+    var A030 = L.marker([5.176567, 100.474308], { title: 'A030', icon: myIcon }).bindPopup('<p style="text-align: center"><img src="../images/member/030.png" loading="lazy" height="50%" width="50%"><br>A030<br>9W2HLM<br>ABDUL HALIM BIN HJ HASHIM<br>OJ05FE</p>');
+    var A030C = L.circle([5.176567, 100.474308], { radius: 25000, opacity: 0.3 });
+    var MarkersList = L.layerGroup([A001, A001C, A002, A002C, A003, A003C, A004, A004C, B005, B005C, A006, A006C, A007, A007C, A008, A008C, A009, A009C, A010, A010C, A011, A011C, A012, A012C, /*A013, A013C, A014, A014C, A015, A015C,*/ A016, A016C, A017, A017C, /*A018, A018C, B019, B019C,*/ A020, A020C, /*A021, A021C,*/ A022, A022C, A023, A023C, /*A024, A024C*/ A025, A025C, A026, A026C, A027, A027C, A028, A028C, A029, A029C, A030, A030C]).addTo(map);
   </script>
 </body>
 

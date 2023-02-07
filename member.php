@@ -204,147 +204,147 @@
     </div>
     <div class='row'>
       <div class='col-12 my-2 text-center'>
-        <h4 class='h4 text-center'>Jawatankuasa</h4>
+        <h3 class='h3 text-center'>Jawatankuasa</h3>
         <div class='row'>
           <div class='col-12'>
             <p class='fw-bold'>Organisasi Pusat Sesi 2020-2023</p>
           </div>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
-              <div class='card-title fw-bold fs-2 m-0'>
+              <div class='card-title fw-bold m-0'>
                 <p>PRESIDEN</p>
               </div>
               <div class='card-img'>  
                 <img src='./images/member/002.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder fs-2 m-0'>ZULKIFLI ABU</p>
+                <p class='fw-bolder m-0'>ZULKIFLI ABU</p>
                 <p class='fw-semibold m-0'>9W2UZL</p>
               </div>
             </div>
           </div>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
-              <div class='card-title fw-bold fs-2 m-0'>
+              <div class='card-title fw-bold m-0'>
                 <p>TIMBALAN PRESIDEN</p>
               </div>
               <div class='card-img'>  
                 <img src='./images/member/008.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder fs-2 m-0'>KAMARUDZAMAN ABD RAHIM</p>
+                <p class='fw-bolder m-0'>KAMARUDZAMAN ABD RAHIM</p>
                 <p class='fw-semibold m-0'>9W2OGK</p>
               </div>
             </div>
           </div>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
-              <div class='card-title fw-bold fs-2 m-0'>
+              <div class='card-title fw-bold m-0'>
                 <p>SETIAUSAHA AGUNG</p>
               </div>
               <div class='card-img'>  
                 <img src='./images/member/001.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder fs-2 m-0'>HAFIZI RUSLAN</p>
+                <p class='fw-bolder m-0'>HAFIZI RUSLAN</p>
                 <p class='fw-semibold m-0'>9W2LGX</p>
               </div>
             </div>
           </div>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
-              <div class='card-title fw-bold fs-2 m-0'>
+              <div class='card-title fw-bold m-0'>
                 <p>PENOLONG SETIAUSAHA</p>
               </div>
               <div class='card-img'>  
                 <img src='./images/member/020.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder fs-2 m-0'>ROZAIMAN SUFFIAN</p>
+                <p class='fw-bolder m-0'>ROZAIMAN SUFFIAN</p>
                 <p class='fw-semibold m-0'>9M2SFF</p>
               </div>
             </div>
           </div>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
-              <div class='card-title fw-bold fs-2 m-0'>
+              <div class='card-title fw-bold m-0'>
                 <p>BENDAHARI AGUNG</p>
               </div>
               <div class='card-img'>  
                 <img src='./images/member/007.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder fs-2 m-0'>SULAIMAN MAZLAN</p>
+                <p class='fw-bolder m-0'>SULAIMAN MAZLAN</p>
                 <p class='fw-semibold m-0'>9W2ELM</p>
               </div>
             </div>
           </div>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
-              <div class='card-title fw-bold fs-2 m-0'>
+              <div class='card-title fw-bold m-0'>
                 <p>BAHAGIAN SIARAYA &amp; AKTIVITI</p>
               </div>
               <div class='card-img'>  
                 <img src='./images/member/013.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder fs-2 m-0'>VERONICA CATHERINE</p>
+                <p class='fw-bolder m-0'>VERONICA CATHERINE</p>
                 <p class='fw-semibold m-0'>9W8VWW</p>
               </div>
             </div>
           </div>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
-              <div class='card-title fw-bold fs-2 m-0'>
+              <div class='card-title fw-bold m-0'>
                 <p>BAHAGIAN TEKNIKAL</p>
               </div>
               <div class='card-img'>  
                 <img src='./images/member/016.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder fs-2 m-0'>ZAHEER ZAKARIA</p>
+                <p class='fw-bolder m-0'>ZAHEER ZAKARIA</p>
                 <p class='fw-semibold m-0'>9W8ZZK</p>
               </div>
             </div>
           </div>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
-              <div class='card-title fw-bold fs-2 m-0'>
+              <div class='card-title fw-bold m-0'>
                 <p>BAHAGIAN KEBAJIKAN</p>
               </div>
               <div class='card-img'>  
                 <img src='./images/member/006.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder fs-2 m-0'>MUSTAFA OMAR</p>
+                <p class='fw-bolder m-0'>MUSTAFA OMAR</p>
                 <p class='fw-semibold m-0'>9W6MOZ</p>
               </div>
             </div>
           </div>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
-              <div class='card-title fw-bold fs-2 m-0'>
+              <div class='card-title fw-bold m-0'>
                 <p>BAHAGIAN EKONOMI</p>
               </div>
               <div class='card-img'>  
                 <img src='./images/member/004.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder fs-2 m-0'>FAIZNURNIZAM MAT RASOL</p>
+                <p class='fw-bolder m-0'>FAIZNURNIZAM MAT RASOL</p>
                 <p class='fw-semibold m-0'>9W2UBE</p>
               </div>
             </div>
           </div>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
-              <div class='card-title fw-bold fs-2 m-0'>
+              <div class='card-title fw-bold m-0'>
                 <p>BAHAGIAN PERHUBUNGAN AWAM</p>
               </div>
               <div class='card-img'>  
                 <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder fs-2 m-0'>&mdash;</p>
+                <p class='fw-bolder m-0'>&mdash;</p>
                 <p class='fw-semibold m-0'>&mdash;</p>
               </div>
             </div>

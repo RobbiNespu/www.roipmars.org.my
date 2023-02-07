@@ -109,7 +109,6 @@
       zoom: 5,
       fullscreenControl: true,
       loadingControl: true,
-      worldMiniMapControl: true,
     };
     var map = L.map('map', mapOptions);
     L.tileLayer('https://{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token=' + JMAT, {
@@ -138,6 +137,17 @@
       opacitySliderLabelText: 'Kegelapan:',
       animationInterval: 1000, 
       opacity: 0.25,
+    }).addTo(map);
+    L.control.worldMiniMap({
+      position: 'bottomright',
+      width: 210,
+      height: 90,
+      view: 'square',
+      style: {
+        opacity: 0.5,
+        border: '0px transparent',
+        borderRadius: '30px',
+      }
     }).addTo(map);
     map.addControl(new JawgPlaces.Leaflet({
       searchOnTyping: true,

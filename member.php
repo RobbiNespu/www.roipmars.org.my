@@ -44,12 +44,6 @@
   <link rel='apple-touch-icon' sizes='152x152' href='./images/apple-icon-152x152.png'>
   <link rel='apple-touch-icon' sizes='180x180' href='./images/apple-icon-180x180.png'>
   <link rel='manifest' href='./vendor/manifest.json'>
-  <style>
-    .right-line { border-right: 3px #999 solid; height: 1em; }
-    .right-long-line { border-right: 3px #999 solid; height: auto; }
-    .top-line { border-top: 3px #999 solid; }
-    .halved { width: 50%; float: left; }
-  </style>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
@@ -213,155 +207,161 @@
         <h4 class='h4 text-center'>Jawatankuasa</h4>
         <div class='row'>
           <div class='col-12'>
-            <p class='fw-bold'>Organisasi Pusat<br>Sesi 2022/2023</p>
+            <p class='fw-bold'>Organisasi Pusat Sesi 2020-2023</p>
           </div>
-        </div>
-        <div class='row'>
-          <div class='col-12'>
-            <p class='text-decoration-underline fs-bold fs-2'>PRESIDEN</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/002.png' width='160px' height='160px'>
-            <p class='fs-2'>9W2UZL<br>Zulkifli</p>
+          <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='card-group justify-content-center'>
+              <div class='card-title fw-bold fs-2 m-0'>
+                <p>PRESIDEN</p>
+              </div>
+              <div class='card-img'>  
+                <img src='./images/member/002.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+              </div>
+              <div class='card-subtitle'>
+                <p class='fw-bolder fs-2 m-0'>ZULKIFLI ABU</p>
+                <p class='fw-semibold m-0'>9W2UZL</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class='row'>
-          <div class='col-6 right-line'></div>
-          <div class='col-6'></div>
-        </div>
-        <div class='row'>
-          <div class='col-2 right-line'></div>
-          <div class='col-4 right-line top-line'></div>
-          <div class='col-4 right-line top-line'></div>
-          <div class='col-2'></div>
-        </div>
-        <div class='row'>
-          <div class='col-1'></div>
-          <div class='col-2'>
-            <p class='text-decoration-underline fs-bold fs-3'>SETIAUSAHA<br>AGUNG</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/001.png' width='120px' height='120px'>
-            <p class='fs-3'>9W2LGX<br>Hafizi</p>
+          <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='card-group justify-content-center'>
+              <div class='card-title fw-bold fs-2 m-0'>
+                <p>TIMBALAN PRESIDEN</p>
+              </div>
+              <div class='card-img'>  
+                <img src='./images/member/008.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+              </div>
+              <div class='card-subtitle'>
+                <p class='fw-bolder fs-2 m-0'>KAMARUDZAMAN ABD RAHIM</p>
+                <p class='fw-semibold m-0'>9W2OGK</p>
+              </div>
+            </div>
           </div>
-          <div class='col-3 right-long-line'></div>
-          <div class='col-3'></div>
-          <div class='col-2'>
-            <p class='text-decoration-underline fs-bold fs-3'>BENDAHARI<br>AGUNG</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/007.png' width='120px' height='120px'>
-            <p class='fs-3'>9W2ELM<br>Sulaiman</p>
+          <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='card-group justify-content-center'>
+              <div class='card-title fw-bold fs-2 m-0'>
+                <p>SETIAUSAHA AGUNG</p>
+              </div>
+              <div class='card-img'>  
+                <img src='./images/member/001.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+              </div>
+              <div class='card-subtitle'>
+                <p class='fw-bolder fs-2 m-0'>HAFIZI RUSLAN</p>
+                <p class='fw-semibold m-0'>9W2LGX</p>
+              </div>
+            </div>
           </div>
-          <div class='col-1'></div>
-        </div>
-        <div class='row'>
-          <div class='col-2 right-line'></div>
-          <div class='col-4 right-line'></div>
-          <div class='col-6'></div>
-        </div>
-        <div class='row'>
-          <div class='col-1'></div>
-          <div class='col-2'>
-            <p class='text-decoration-underline fs-5'>PENOLONG<br>SETIAUSAHA</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/020.png' width='100px' height='100px'>
-            <p class='fs-5'>9M2SFF<br>Rozaiman</p>
+          <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='card-group justify-content-center'>
+              <div class='card-title fw-bold fs-2 m-0'>
+                <p>PENOLONG SETIAUSAHA</p>
+              </div>
+              <div class='card-img'>  
+                <img src='./images/member/020.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+              </div>
+              <div class='card-subtitle'>
+                <p class='fw-bolder fs-2 m-0'>ROZAIMAN SUFFIAN</p>
+                <p class='fw-semibold m-0'>9M2SFF</p>
+              </div>
+            </div>
           </div>
-          <div class='col-2'></div>
-          <div class='col-2'>
-            <p class='text-decoration-underline fs-5'>TIMBALAN<br>PRESIDEN</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/008.png' width='100px' height='100px'>
-            <p class='fs-5'>9W2OGK<br>Kamarudzaman</p>
+          <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='card-group justify-content-center'>
+              <div class='card-title fw-bold fs-2 m-0'>
+                <p>BENDAHARI AGUNG</p>
+              </div>
+              <div class='card-img'>  
+                <img src='./images/member/007.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+              </div>
+              <div class='card-subtitle'>
+                <p class='fw-bolder fs-2 m-0'>SULAIMAN MAZLAN</p>
+                <p class='fw-semibold m-0'>9W2ELM</p>
+              </div>
+            </div>
           </div>
-          <div class='col-5'></div>
-        </div>
-        <div class='row'>
-          <div class='col-6 right-line'></div>
-          <div class='col-6'></div>
-        </div>
-        <div class='row'>
-          <div class='col-3 p-0'>
-            <div class='halved right-line'></div>
-            <div class='halved top-line'></div>
+          <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='card-group justify-content-center'>
+              <div class='card-title fw-bold fs-2 m-0'>
+                <p>BAHAGIAN SIARAYA &amp; AKTIVITI</p>
+              </div>
+              <div class='card-img'>  
+                <img src='./images/member/013.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+              </div>
+              <div class='card-subtitle'>
+                <p class='fw-bolder fs-2 m-0'>VERONICA CATHERINE</p>
+                <p class='fw-semibold m-0'>9W8VWW</p>
+              </div>
+            </div>
           </div>
-          <div class='col-3 p-0'>
-            <div class='halved right-line top-line'></div>
-            <div class='halved right-line top-line'></div>
+          <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='card-group justify-content-center'>
+              <div class='card-title fw-bold fs-2 m-0'>
+                <p>BAHAGIAN TEKNIKAL</p>
+              </div>
+              <div class='card-img'>  
+                <img src='./images/member/016.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+              </div>
+              <div class='card-subtitle'>
+                <p class='fw-bolder fs-2 m-0'>ZAHEER ZAKARIA</p>
+                <p class='fw-semibold m-0'>9W8ZZK</p>
+              </div>
+            </div>
           </div>
-          <div class='col-3 p-0'>
-            <div class='halved right-line top-line'></div>
-            <div class='halved top-line'></div>
+          <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='card-group justify-content-center'>
+              <div class='card-title fw-bold fs-2 m-0'>
+                <p>BAHAGIAN KEBAJIKAN</p>
+              </div>
+              <div class='card-img'>  
+                <img src='./images/member/006.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+              </div>
+              <div class='card-subtitle'>
+                <p class='fw-bolder fs-2 m-0'>MUSTAFA OMAR</p>
+                <p class='fw-semibold m-0'>9W6MOZ</p>
+              </div>
+            </div>
           </div>
-          <div class='col-3 p-0'>
-            <div class='halved right-line top-line'></div>
-            <div class='halved'></div>
+          <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='card-group justify-content-center'>
+              <div class='card-title fw-bold fs-2 m-0'>
+                <p>BAHAGIAN EKONOMI</p>
+              </div>
+              <div class='card-img'>  
+                <img src='./images/member/004.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+              </div>
+              <div class='card-subtitle'>
+                <p class='fw-bolder fs-2 m-0'>FAIZNURNIZAM MAT RASOL</p>
+                <p class='fw-semibold m-0'>9W2UBE</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class='row'>
-          <div class='col-3'>
-            <p class='text-decoration-underline mb-0'>KETUA BAHAGIAN</p>
-            <p class='fw-light'>KEBAJIKAN</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/006.png' width='80px' height='80px'>
-            <p>9W6MOZ<br>Mustafa</p>
-          </div>
-          <div class='col-3 right-long-line'>
-            <p class='text-decoration-underline mb-0'>KETUA BAHAGIAN</p>
-            <p class='fw-light'> SIARAYA &amp;AKTIVITI</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/013.png' width='80px' height='80px'>
-            <p>9W8VWW<br>Veronica</p>
-          </div>
-          <div class='col-3'>
-            <p class='text-decoration-underline mb-0'>KETUA BAHAGIAN</p>
-            <p class='fw-light'>TEKNIKAL &#40;PERKAKASAN&#41;</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/016.png' width='80px' height='80px'>
-            <p>9W8ZZK<br>Zaheer</p>
-          </div>
-          <div class='col-3'>
-            <p class='text-decoration-underline mb-0'>KETUA BAHAGIAN</p>
-            <p class='fw-light'>EKONOMI</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='./images/member/004.png' width='80px' height='80px'>
-            <p>9W2UBE<br>Faiznurnizam</p>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='col-5 p-0'>
-            <div class='halved right-line'></div>
-            <div class='halved top-line'></div>
-          </div>
-          <div class='col-2 p-0'>
-            <div class='halved top-line'></div>
-            <div class='halved top-line'></div>
-          </div>
-          <div class='col-5 p-0'>
-            <div class='halved right-line top-line'></div>
-            <div class='halved'></div>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='col-5'>
-            <p class='text-decoration-underline mb-0'>KETUA BAHAGIAN</p>
-            <p class='fw-light'>PERHUBUNGAN AWAM<br>&#40;DOMESTIK&#41;</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px' style='filter: invert(1)'>
-            <p>VACANT<br>Name</p>
-          </div>
-          <div class='col-2'></div>
-          <div class='col-5'>
-            <p class='text-decoration-underline mb-0'>KETUA BAHAGIAN</p>
-            <p class='fw-light'>PERHUBUNGAN AWAM<br>&#40;ANTARABANGSA&#41;</p>
-            <img class='img-fluid rounded-5' loading='lazy' src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' width='80px' height='80px' style='filter: invert(1)'>
-            <p>VACANT<br>Name</p>
+          <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='card-group justify-content-center'>
+              <div class='card-title fw-bold fs-2 m-0'>
+                <p>BAHAGIAN PERHUBUNGAN AWAM</p>
+              </div>
+              <div class='card-img'>  
+                <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+              </div>
+              <div class='card-subtitle'>
+                <p class='fw-bolder fs-2 m-0'>&mdash;</p>
+                <p class='fw-semibold m-0'>&mdash;</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class='row'>
-      <div class='col-12 my-2'>
-        <h4 class='h4 text-center'>Direktori RoIPMARS
-        </h4>
-        <div class='ratio ratio-16x9'>
+      <div class='col-lg-6 my-2'>
+        <h4 class='h4 text-center'>Direktori RoIPMARS</h4>
+        <div class='ratio ratio-1x1'>
           <iframe src='list/membersmap'></iframe>
         </div>
       </div>
-    </div>
-    <div class='row'>
-      <div class='col-12 my-2'>
-        <h4 class='h4 text-center'>Ahli RoIPMARS
-        </h4>
-        <div class='ratio ratio-4x3'>
+      <div class='col-lg-6 my-2'>
+        <h4 class='h4 text-center'>Ahli RoIPMARS</h4>
+        <div class='ratio ratio-1x1'>
           <iframe src='list/members'></iframe>
         </div>
       </div>

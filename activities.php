@@ -166,10 +166,15 @@
       <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/046.jpg'></div>
     </div>
     <div class='row'>
-      <div class='col-12 m-0 p-1'>
+      <div class='col-xl-6 m-0 p-1'>
+        <div class='ratio ratio-21x9'>
+          <video class='rounded-3 w-100 object-fit-cover' loading='lazy' controls preload='auto' src='./videos/reds080223.mp4'></video>
+        </div>
+      </div>
+      <div class='col-xl-6 m-0 p-1'>
         <div class='ratio ratio-21x9'>
           <img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/reds0802.jpg'>
-          <audio controls preload src='./audio/reds0802.mp3'></audio>
+          <audio controls preload src='./audios/bombareds080223.mp3'></audio>
         </div>
       </div>
     </div>

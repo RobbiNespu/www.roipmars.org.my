@@ -40,6 +40,8 @@
   <script src='https://rawgithub.com/ebrelsford/Leaflet.loading/master/src/Control.Loading.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap@1.0.0/dist/Control.WorldMiniMap.js' crossorigin='anonymous'></script>
+  <script src='https://unpkg.com/@joergdietrich/leaflet.terminator@1.1.0/L.Terminator.js' crossorigin='anonymous'></script>
+  <script src='https://ha8tks.github.io/Leaflet.Maidenhead/src/L.Maidenhead.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.js' crossorigin='anonymous'></script>
   <script src='https://api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
   <style>html, body { position: absolute; width: 100%; height: 100% } #map { width: inherit; height: inherit }</style>
@@ -107,6 +109,8 @@
     var mapOptions = {
       center: [4.174977, 109.467492],
       zoom: 5,
+      minZoom: 3,
+      maxZoom: 17,
       loadingControl: true,
       fullscreenControl: true,
     };
@@ -114,6 +118,16 @@
     L.tileLayer('https://{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token=' + JMAT, {
       attribution: '&copy; ' + YrNow + ' <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="https://www.jawg.io">JawgMaps</a>'
     }).addTo(map);
+    var terminator = L.terminator({
+      opacity: 0.25,
+      fillOpacity: 0.25,
+      interactive: false,
+    }).addTo(map);
+    L.maidenhead({
+      color : 'rgba(225, 225, 225, 0.075)',
+      interactive: false,
+    }).addTo(map);
+    setInterval(function() { terminator.setTime() }, 60000);
     L.control.scale({
       position: 'bottomleft',
       metric: true,
@@ -222,7 +236,7 @@
     var A029C = L.circle([1.561548, 103.620784], { radius: 25000, stroke: false, fillOpacity: 0.175, interactive: false });
     var A030 = L.marker([5.176567, 100.474308], { title: 'A030', icon: myIcon }).bindPopup('<img class="img-thumbnail object-fit-fill rounded-circle mx-auto d-block my-1" src="../images/member/030.png" loading="lazy"><p class="text-center fw-bold fs-3 m-0">A030</p><p class="text-center fw-light fs-5 m-0">9W2HLM @ OJ05FE</p><p class="text-center m-0">ABDUL HALIM BIN HJ HASHIM</p>',{closeButton: false, attribution: marsattr});
     var A030C = L.circle([5.176567, 100.474308], { radius: 25000, stroke: false, fillOpacity: 0.175, interactive: false });
-    var activemember = L.layerGroup([A001, A001C, A002, A002C, A003, A003C, A004, A004C, B005, B005C, A006, A006C, A007, A007C, A008, A008C, A009, A009C, A010, A010C, A011, A011C, A012, A012C, /*A013, A013C, A014, A014C, A015, A015C,*/ A016, A016C, A017, A017C, /*A018, A018C, B019, B019C,*/ A020, A020C, /*A021, A021C,*/ A022, A022C, A023, A023C, /*A024, A024C*/ A025, A025C, A026, A026C, A027, A027C, A028, A028C, A029, A029C, A030, A030C]).addTo(map);
+    L.layerGroup([A001, A001C, A002, A002C, A003, A003C, A004, A004C, B005, B005C, A006, A006C, A007, A007C, A008, A008C, A009, A009C, A010, A010C, A011, A011C, A012, A012C, /*A013, A013C, A014, A014C, A015, A015C,*/ A016, A016C, A017, A017C, /*A018, A018C, B019, B019C,*/ A020, A020C, /*A021, A021C,*/ A022, A022C, A023, A023C, /*A024, A024C*/ A025, A025C, A026, A026C, A027, A027C, A028, A028C, A029, A029C, A030, A030C]).addTo(map);
   </script>
 </body>
 

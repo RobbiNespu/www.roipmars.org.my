@@ -354,9 +354,9 @@
     </div>
     <div class='row'>
       <div class='col-lg-6 my-2'>
-        <h4 class='h4 text-center'>Direktori RoIPMARS</h4>
+        <h4 class='h4 text-center'>Peta RoIPMARS</h4>
         <div class='ratio ratio-1x1'>
-          <iframe src='list/membersmap'></iframe>
+          <iframe class='rounded-3' src='list/membersmap'></iframe>
         </div>
       </div>
       <div class='col-lg-6 my-2'>

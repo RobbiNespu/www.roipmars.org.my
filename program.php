@@ -215,163 +215,163 @@
         <div id='ncs23' class='carousel carousel-fade' data-bs-ride='carousel' data-bs-interval='5000'>
           <div class='carousel-inner'>
             <div class='carousel-item active'>
-              <img src='./images/member/013.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W8VWW'>
+              <img src='./images/member/013.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W8VWW'>
                 <p class='fs-3 my-0'>9W8VWW / 58MSVWW</p>
                 <p class='fs-5 my-0'>VERONICA CATHERINE</p>
                 <p>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w2ezk.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2EZK'>
+              <img src='./images/ncs/9w2ezk.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2EZK'>
                 <p class='fs-3 my-0'>9W2EZK / 113DAZIK</p>
                 <p class='fs-5 my-0'>IFFIQ ZIKRY</p>
                 <p>PENGURUS SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/020.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6SFF'>
+              <img src='./images/member/020.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6SFF'>
                 <p class='fs-3 my-0'>9M2SFF / 113MSSFF</p>
                 <p class='fs-5 my-0'>ROZAIMAN SUFFIAN</p>
                 <p>PENOLONG PENGURUS AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/010.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M6AUA'>
+              <img src='./images/member/010.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6AUA'>
                 <p class='fs-3 my-0'>9M6AUA / 58MSAUA</p>
                 <p class='fs-5 my-0'>JEOFREY</p>
                 <p>PENYELIA SIARAYA 1</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/017.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M6RDY'>
+              <img src='./images/member/017.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RDY'>
                 <p class='fs-3 my-0'>9M6RDY</p>
                 <p class='fs-5 my-0'>MATTHEUS &#64; RUDY</p>
                 <p>PENYELIA SIARAYA 2</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/025.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2AYP'>
+              <img src='./images/member/025.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2AYP'>
                 <p class='fs-3 my-0'>9W2AYP / 113DAPLY</p>
                 <p class='fs-5 my-0'>SABRI</p>
                 <p>PENYELIA SIARAYA 3</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9m6jay.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M6JAY'>
+              <img src='./images/ncs/9m6jay.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6JAY'>
                 <p class='fs-3 my-0'>9M6JAY</p>
                 <p class='fs-5 my-0'>JOHN JR.</p>
                 <p>PENYELIA AKTIVITI 1</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/029.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2JCP'>
+              <img src='./images/member/029.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2JCP'>
                 <p class='fs-3 my-0'>9W2JCP / 113DAJCP</p>
                 <p class='fs-5 my-0'>ROSLI</p>
                 <p>PENYELIA AKTIVITI 2</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w2sft.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2SFT'>
+              <img src='./images/ncs/9w2sft.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2SFT'>
                 <p class='fs-3 my-0'>9W2SFT</p>
                 <p class='fs-5 my-0'>SYAWAL</p>
                 <p>PENYELIA AKTIVITI 3</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9m2kzi.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M2KZI'>
+              <img src='./images/ncs/9m2kzi.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M2KZI'>
                 <p class='fs-3 my-0'>9M2KZI</p>
                 <p class='fs-5 my-0'>ZULKARNAIN</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9m6rhm.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M6RHM'>
+              <img src='./images/ncs/9m6rhm.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RHM'>
                 <p class='fs-3 my-0'>9M6RHM</p>
                 <p class='fs-5 my-0'>RAHIM</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9m6rmd.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M6RMD'>
+              <img src='./images/ncs/9m6rmd.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RMD'>
                 <p class='fs-3 my-0'>9M6RMD</p>
                 <p class='fs-5 my-0'>ROSNI</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w2gsv.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2GSV'>
+              <img src='./images/ncs/9w2gsv.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2GSV'>
                 <p class='fs-3 my-0'>9W2GSV</p>
                 <p class='fs-5 my-0'>SHAHRUZIE</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w6aze.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6AZE'>
+              <img src='./images/ncs/9w6aze.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6AZE'>
                 <p class='fs-3 my-0'>9W6AZE</p>
                 <p class='fs-5 my-0'>HAZARI</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w6pkj.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6PKJ'>
+              <img src='./images/ncs/9w6pkj.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6PKJ'>
                 <p class='fs-3 my-0'>9W6PKJ</p>
                 <p class='fs-5 my-0'>JANSON</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w6rhn.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6RHN'>
+              <img src='./images/ncs/9w6rhn.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6RHN'>
                 <p class='fs-3 my-0'>9W6RHN</p>
                 <p class='fs-5 my-0'>ROSLAN</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w8vyy.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W8VYY'>
+              <img src='./images/ncs/9w8vyy.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W8VYY'>
                 <p class='fs-3 my-0'>9W8VYY</p>
                 <p class='fs-5 my-0'>ALEX</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/008.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2OGK'>
+              <img src='./images/member/008.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2OGK'>
                 <p class='fs-3 my-0'>9W2OGK / 113DAOGK</p>
                 <p class='fs-5 my-0'>KAMARUDZAMAN</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w2snn.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2SNN'>
+              <img src='./images/ncs/9w2snn.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2SNN'>
                 <p class='fs-3 my-0'>9W2SNN / 113MSSAM</p>
                 <p class='fs-5 my-0'>SAMSUL</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w2yjt.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2YJT'>
+              <img src='./images/ncs/9w2yjt.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2YJT'>
                 <p class='fs-3 my-0'>9W2YJT / 113DAYJT</p>
                 <p class='fs-5 my-0'>YUSOF</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w6aff.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6AFF'>
+              <img src='./images/ncs/9w6aff.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6AFF'>
                 <p class='fs-3 my-0'>9W6AFF / 58MSAFF</p>
                 <p class='fs-5 my-0'>SAFRI</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/006.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6MOZ'>
+              <img src='./images/member/006.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6MOZ'>
                 <p class='fs-3 my-0'>9W6MOZ / 58MSMOZ</p>
                 <p class='fs-5 my-0'>MUSTAFA</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w6wot.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W6WOT'>
+              <img src='./images/ncs/9w6wot.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6WOT'>
                 <p class='fs-3 my-0'>9W6WOT / 58MSWOT</p>
                 <p class='fs-5 my-0'>STEWARD</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/028.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2NEW'>
+              <img src='./images/member/028.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2NEW'>
                 <p class='fs-3 my-0'>9W2NEW / 113DAISS</p>
                 <p class='fs-5 my-0'>HISHAM</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/113daykb.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='113DAYKB'>
+              <img src='./images/ncs/113daykb.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='113DAYKB'>
                 <p class='fs-3 my-0'>113DAYKB</p>
                 <p class='fs-5 my-0'>YAAKOB</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/003.png' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9M2RAN'>
+              <img src='./images/member/003.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M2RAN'>
                 <p class='fs-3 my-0'>9M2RAN / 113MSRAN</p>
                 <p class='fs-5 my-0'>NOR IMRAN</p>
                 <p>PETUGAS SANDARAN AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' style='filter: invert(1)' class='img-fluid rounded-circle' loading='lazy' width='35%' alt='9W2NDI'>
+              <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' style='filter: invert(1); background: transparent' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2NDI'>
                 <p class='fs-3 my-0'>9W2NDI / 113DANDI</p>
                 <p class='fs-5 my-0'>NASARUDDIN</p>
                 <p>PETUGAS SANDARAN AKTIVITI</p>

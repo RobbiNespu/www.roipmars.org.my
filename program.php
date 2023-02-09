@@ -399,12 +399,12 @@
               <tbody>
                 <tr class='bg-danger-subtle'><td>Ahad</td><td>01 Jan</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru 2023&#41;</td><td>113DAJCP</td><td>22</td></tr>
                 <tr class='bg-info-subtle'><td>Rabu</td><td>04 Jan</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td>9M6JAY</td><td>17</td></tr>
-                <tr class='text-decoration-line-through'><td>Jumaat</td><td>06 Jan</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
+                <tr class='text-decoration-line-through'><td>Jumaat</td><td>06 Jan</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td><i class='bi bi-person-exclamation text-danger fs-3'></i></td></tr>
                 <tr><td>Sabtu</td><td>07 Jan</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td>37</td></tr>
                 <tr><td>Ahad</td><td>08 Jan</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>31</td></tr>
                 <tr><td>Rabu</td><td>11 Jan</td><td>2100MY</td><td>English Net</td><td>9M2RAN</td><td>34</td></tr>
                 <tr><td>Jumaat</td><td>13 Jan</td><td>2100MY</td><td>MARS Net</td><td>9W2EZK</td><td>23</td></tr>
-                <tr class='bg-info-subtle text-decoration-line-through'><td>Sabtu</td><td>14 Jan</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td><i class='bi bi-person-fill-exclamation text-danger fs-3'></i></td></tr>
+                <tr class='bg-info-subtle text-decoration-line-through'><td>Sabtu</td><td>14 Jan</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td><i class='bi bi-person-exclamation text-danger fs-3'></i></td></tr>
                 <tr><td>Ahad</td><td>15 Jan</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td>28</td></tr>
                 <tr><td>Rabu</td><td>18 Jan</td><td>2100MY</td><td>English Net</td><td>9M6RDY</td><td>30</td></tr>
                 <tr><td>Jumaat</td><td>20 Jan</td><td>2100MY</td><td>MARS Net</td><td>9W2OGK</td><td>37</td></tr>
@@ -432,7 +432,7 @@
                 <tr><td>Jumaat</td><td>03 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W2EZK</td><td>22</td></tr>
                 <tr class='bg-primary-subtle'><td>Sabtu</td><td>04 Feb</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Kanser Sedunia&#41;</td><td>9W2SNN</td><td>34</td></tr>
                 <tr class='bg-danger-subtle'><td>Ahad</td><td>05 Feb</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Thaipusam&#41;</td><td>113DAISS</td><td>23</td></tr>
-                <tr><td>Rabu</td><td>08 Feb</td><td>2100MY</td><td>English Net</td><td>9W8VWW</td><td></td></tr>
+                <tr><td>Rabu</td><td>08 Feb</td><td>2100MY</td><td>English Net</td><td>9M6AUA</td><td><i class='bi bi-send-exclamation text-warning fs-3'></i></td></tr>
                 <tr><td>Jumaat</td><td>10 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6PKJ</td><td></td></tr>
                 <tr><td>Sabtu</td><td>11 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6RHN</td><td></td></tr>
                 <tr><td>Ahad</td><td>12 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAJCP</td><td></td></tr>
@@ -987,44 +987,44 @@
         <h2 class='text-center'>Statistik Program</h2>
         <h6 class='text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan &amp; Penghormatan Kami <i class='fas fa-quote-right fa-xs'></i></h6>
       </div>
-      <div class='col-lg-6 figure img-thumbnail rounded-5'>
+      <div class='col-lg-4 figure my-1'>
         <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1851683566&format=image' loading='lazy' alt='NetGraphDaily23'>
         <figcaption class='figure-caption text-center'>Masa &#40;UTC&#41;</figcaption>
       </div>
-      <div class='col-lg-6 figure img-thumbnail rounded-5'>
+      <div class='col-lg-4 figure my-1'>
         <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&amp;format=image' loading='lazy' alt='NetGraphDaily23'>
         <figcaption class='figure-caption text-center'>Harian</figcaption>
       </div>
-      <div class='col-lg-6 figure img-thumbnail rounded-5'>
+      <div class='col-lg-4 figure my-1'>
         <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=861710611&format=image' loading='lazy' alt='NetGraphDay23'>
         <figcaption class='figure-caption text-center'>Hari</figcaption>
       </div>
-      <div class='col-lg-6 figure img-thumbnail rounded-5'>
+      <div class='col-lg-4 figure my-1'>
         <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' loading='lazy' alt='NetGraphWeekly23'>
         <figcaption class='figure-caption text-center'>Mingguan</figcaption>
       </div>
-      <div class='col-lg-6 figure img-thumbnail rounded-5'>
+      <div class='col-lg-4 figure my-1'>
         <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' loading='lazy' alt='NetGraphMonthly23'>
         <figcaption class='figure-caption text-center'>Bulanan</figcaption>
       </div>
-      <div class='col-lg-6 figure img-thumbnail rounded-5'>
+      <div class='col-lg-4 figure my-1'>
         <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=455644558&format=image' loading='lazy' alt='NetGraphQuarterly23'>
         <figcaption class='figure-caption text-center'>Suku Tahunan</figcaption>
       </div>
-      <div class='col-lg-4 figure img-thumbnail rounded-5'>
+      <div class='col-lg-4 figure my-1'>
         <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=4802909&format=image' loading='lazy' alt='NetGraphBand23'>
         <figcaption class='figure-caption text-center'>Purata Jalur</figcaption>
       </div>
-      <div class='col-lg-4 figure img-thumbnail rounded-5'>
+      <div class='col-lg-4 figure my-1'>
         <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1205231339&format=image' loading='lazy' alt='NetGraphLang23'>
         <figcaption class='figure-caption text-center'>Purata Bahasa</figcaption>
       </div>
-      <div class='col-lg-4 figure img-thumbnail rounded-5'>
+      <div class='col-lg-4 figure my-1'>
         <img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' loading='lazy' alt='NetGraphMode23'>
         <figcaption class='figure-caption text-center'>Kaedah Sambungan</figcaption>
       </div>
-      <div class='col-lg-12 figure rounded-5 mx-auto d-block'>
-        <img class='figure-img img-fluid rounded-5 mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'>
+      <div class='col-lg-12 figure my-1'>
+        <img class='figure-img img-fluid mx-auto d-block rounded-5 w-lg-100' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'>
         <figcaption class='figure-caption text-center'>Peta</figcaption>
       </div>
     </div>

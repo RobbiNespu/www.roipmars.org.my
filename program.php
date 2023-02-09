@@ -384,7 +384,7 @@
     <div class='row'>
       <div class='col-12 my-1 text-center'>
         <h2 class='font-weight-bold'>Jadual Program</h2>
-        <p class='fs-5'><?php date_default_timezone_get(); $current_file_name = basename($_SERVER['PHP_SELF']); $file_last_modified = filemtime($current_file_name); echo 'kemaskini pada: ' . date('D, dS M Y, h:iA T', $file_last_modified); ?></p>
+        <p><?php date_default_timezone_get(); $current_file_name = basename($_SERVER['PHP_SELF']); $file_last_modified = filemtime($current_file_name); echo 'kemaskini pada: ' . date('D, dS M Y, h:iA T', $file_last_modified); ?></p>
       </div>
     </div>
     <div class='row'>

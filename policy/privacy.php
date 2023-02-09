@@ -147,6 +147,7 @@
       <p>RoIPMARS tidak secara sengaja mengumpul sebarang Maklumat Pengenalan Peribadi daripada kanak-kanak di bawah umur 18 tahun. Jika anda berpendapat bahawa anak anda memberikan maklumat seperti ini di laman web kami, kami amat menggalakkan anda menghubungi kami dengan segera dan kami akan melakukan usaha yang terbaik untuk mengalih keluar maklumat sedemikian dengan segera daripada rekod kami.</p>
     </div>
   </div>
+  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
 </body>

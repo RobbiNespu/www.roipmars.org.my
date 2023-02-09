@@ -142,6 +142,7 @@
     <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "Herr Von Muellerhoff", cursive'>Pentadbir Rangkaian</p>
     <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
   </div>
+  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
 </body>

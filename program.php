@@ -202,13 +202,13 @@
         <table class='table table-sm text-center align-middle'>
           <thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
           <tbody>
-            <tr class='bg-primary-subtle'><td>Isnin<br>1300Z</td><td>RoIPMARS Net Awal Minggu<br>&#40;mulai 24 Apr 2023&#41;</td><td>ROIPMARS</td></tr>
-            <tr><td>Selasa<br>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
-            <tr class='bg-info-subtle'><td>Rabu<br>1300Z</td><td>Learning English Net</td><td>ROIPMARS</td></tr>
-            <tr><td>Khamis<br>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
-            <tr class='bg-primary-subtle'><td>Jumaat<br>1300Z</td><td>RoIPMARS Net Santai</td><td>ROIPMARS</td></tr>
-            <tr class='bg-primary-subtle'><td>Sabtu<br>1300Z</td><td>RoIPMARS Net Malam Minggu</td><td>ROIPMARS</td></tr>
-            <tr class='bg-danger-subtle'><td>Ahad<br>1300Z</td><td>CB Net Hujung Minggu</td><td>ROIPDARULAMAN</td></tr>
+            <tr class='bg-primary-subtle'><td>Isnin</td><td>1300Z</td><td>RoIPMARS Net Awal Minggu<br>&#40;mulai 24 Apr 2023&#41;</td><td>ROIPMARS</td></tr>
+            <tr><td>Selasa</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+            <tr class='bg-info-subtle'><td>Rabu</td><td>1300Z</td><td>Learning English Net</td><td>ROIPMARS</td></tr>
+            <tr><td>Khamis</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+            <tr class='bg-primary-subtle'><td>Jumaat</td><td>1300Z</td><td>RoIPMARS Net Santai</td><td>ROIPMARS</td></tr>
+            <tr class='bg-primary-subtle'><td>Sabtu</td><td>1300Z</td><td>RoIPMARS Net Malam Minggu</td><td>ROIPMARS</td></tr>
+            <tr class='bg-danger-subtle'><td>Ahad</td><td>1300Z</td><td>CB Net Hujung Minggu</td><td>ROIPDARULAMAN</td></tr>
           </tbody>
         </table>
         <h5>Barisan Jawatankuasa &amp; Petugas<br>Bahagian Siaraya &amp; Aktiviti</h5>
@@ -1267,6 +1267,7 @@
       </div>
     </div>
   </footer>
+  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
   <script type='text/javascript'>

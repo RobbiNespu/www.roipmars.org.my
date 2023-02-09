@@ -415,6 +415,11 @@
                 <tr><td>Sabtu<br>28 Jan</td><td>2100MY</td><td>MARS Net</td><td>9M6AUA</td><td>34</td></tr>
                 <tr><td>Ahad<br>29 Jan</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>10</td></tr>
               </tbody>
+              <caption>
+                <ul class='list-group list-group-flush fs-6'>
+                  <li class='list-group-item'><i class='bi bi-person-exclamation text-danger'></i> Pengawal tidak hadir</li>
+                </ul>
+              </capton>
             </table>
           </div>
         </div>
@@ -447,6 +452,11 @@
                 <tr><td>Sabtu<br>25 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td></td></tr>
                 <tr><td>Ahad<br>26 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>
               </tbody>
+              <caption>
+                <ul class='list-group list-group-flush fs-6'>
+                  <li class='list-group-item'><i class='bi bi-send-exclamation text-warning'></i> Bahagian Rekod tidak menerima Laporan Aktiviti</li>
+                </ul>
+              </capton>
             </table>
           </div>
         </div>
@@ -488,10 +498,12 @@
                 <tr class='bg-success-subtle'><td rowspan='2'>Jumaat<br>31 Mac</td><td>0400MY</td><td>VoIP Sahur Net #9</td><td></td><td></td></tr>
                 <tr class='bg-primary-subtle'><td>2100MY</td><td>MARS Net</td><td></td><td></td></tr>
               </tbody>
-              <caption><ul class='list-group list-group-flush fs-6'>
-                <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-                <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
-              </ul></capton>
+              <caption>
+                <ul class='list-group list-group-flush fs-6'>
+                  <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
+                  <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
+                </ul>
+              </capton>
             </table>
           </div>
         </div>
@@ -544,9 +556,11 @@
                 <tr class='bg-primary-subtle'><td>Sabtu<br>29 Apr</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tarian Sedunia&#41;</td><td></td><td></td></tr>
                 <tr class='bg-danger-subtle'><td>Ahad<br>30 Apr</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td></td><td></td></tr>
               </tbody>
-              <caption><ul class='list-group list-group-flush fs-6'>
-                <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-              </ul></capton>
+              <caption>
+                <ul class='list-group list-group-flush fs-6'>
+                  <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
+                </ul>
+              </capton>
             </table>
           </div>
         </div>
@@ -621,9 +635,11 @@
                 <tr class='bg-info-subtle'><td>Rabu<br>28 Jun<sup>1</sup></td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;Aidiladha Eve<sup>1</sup>&#41;</td><td></td><td></td></tr>
                 <tr class='bg-primary-subtle'><td>Jumaat<br>30 Jun<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Raya Aidiladha<sup>1</sup>&#41;</td><td></td><td></td></tr>
               </tbody>
-              <caption><ul class='list-group list-group-flush fs-6'>
-                <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-              </ul></capton>
+              <caption>
+                <ul class='list-group list-group-flush fs-6'>
+                  <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
+                </ul>
+              </capton>
             </table>
           </div>
         </div>
@@ -973,9 +989,11 @@
                 <tr><td>Sabtu<br>30 Mac</td><td>0400MY</td><td>VoIP Sahur Net #20</td><td></td><td></td></tr>
                 <tr><td>Ahad<br>31 Mac</td><td>0400MY</td><td>VoIP Sahur Net #21</td><td></td><td></td></tr>
               </tbody>
-              <caption><ul class='list-group list-group-flush fs-6'>
-                <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-              </ul></capton>
+              <caption>
+                <ul class='list-group list-group-flush fs-6'>
+                  <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharan Penyimpan Mohor Besar Raja-Raja Melayu</li>
+                </ul>
+              </capton>
             </table>
           </div>
         </div>

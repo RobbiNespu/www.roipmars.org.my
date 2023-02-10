@@ -339,7 +339,7 @@
     <div class='container'>
       <div class='row my-2 d-flex align-middle'>
         <div class='col-md-8 col-lg-8 col-xl-8'>
-          <p class='text-lg-start font-monospace'><a href='policies' class='text-reset text-decoration-none'>Polisi Perkhidmatan</a><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
+          <p class='text-lg-start font-monospace'><a href='policies' class='text-reset text-decoration-none'>Polisi Perkhidmatan</a><span class='text-muted'> &#124; <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-font-awesome'></i> <i class='fa-brands fa-java'></i> <i class='fa-brands fa-cloudflare'></i> <i class='fa-brands fa-google-drive'></i> <i class='fa-brands fa-teamspeak'></i> <i class='fa-brands fa-telegram'></i></span><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
         </div> 
         <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
           <div class='text-lg-end'>

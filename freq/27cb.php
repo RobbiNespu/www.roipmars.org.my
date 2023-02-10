@@ -49,13 +49,13 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-  <script src='./vendor/js/gtm.js'></script>
+  <script src='../vendor/js/gtm.js'></script>
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-  <script src='./vendor/js/gtag.js'></script>
+  <script src='../vendor/js/gtag.js'></script>
   <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
   <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
-  <script nonce='nLBiTr-Hd6zWbl5ZT9wqvA' src='./vendor/js/gfc.js'></script>
-  <script src='./vendor/js/clarity.js'></script>
+  <script nonce='nLBiTr-Hd6zWbl5ZT9wqvA' src='../vendor/js/gfc.js'></script>
+  <script src='../vendor/js/clarity.js'></script>
 </head>
 
 <body>
@@ -82,86 +82,46 @@
             </tr>
           </thead>
           <tbody>
-            <tr><td>1</td><td>26.9650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>2</td><td>26.9750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>3</td><td>26.9850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>4</td><td>27.0050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>5</td><td>27.0150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>6</td><td>27.0250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>7</td><td>27.0350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>8</td><td>27.0550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>9</td><td>27.0650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td>Emergency</td>
-              </td></tr>
-            <tr><td>10</td><td>27.0750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>11</td><td>27.0850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td>Calling</td>
-              </td></tr>
-            <tr><td>12</td><td>27.1050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>13</td><td>27.1150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>14</td><td>27.1250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>15</td><td>27.1350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>16</td><td>27.1550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>17</td><td>27.1650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>18</td><td>27.1750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>19</td><td>27.1850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>20</td><td>27.2050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>21</td><td>27.2150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>22</td><td>27.2250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>23</td><td>27.2350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>24</td><td>27.2450</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>25</td><td>27.2550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>26</td><td>27.2650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>27</td><td>27.2750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>28</td><td>27.2850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>29</td><td>27.2950</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>30</td><td>27.3050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>31</td><td>27.3150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>32</td><td>27.3250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>33</td><td>27.3350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>34</td><td>27.3450</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>35</td><td>27.3550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>36</td><td>27.3650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>37</td><td>27.3750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>38</td><td>27.3850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>39</td><td>27.3950</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
-            <tr><td>40</td><td>27.4050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td>
-              </td></tr>
+            <tr><td>1</td><td>26.9650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>2</td><td>26.9750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>3</td><td>26.9850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>4</td><td>27.0050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>5</td><td>27.0150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>6</td><td>27.0250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>7</td><td>27.0350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>8</td><td>27.0550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>9</td><td>27.0650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td>Emergency</td></tr>
+            <tr><td>10</td><td>27.0750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>11</td><td>27.0850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td>Calling</td></tr>
+            <tr><td>12</td><td>27.1050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>13</td><td>27.1150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>14</td><td>27.1250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>15</td><td>27.1350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>16</td><td>27.1550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>17</td><td>27.1650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>18</td><td>27.1750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>19</td><td>27.1850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>20</td><td>27.2050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>21</td><td>27.2150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>22</td><td>27.2250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>23</td><td>27.2350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>24</td><td>27.2450</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>25</td><td>27.2550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>26</td><td>27.2650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>27</td><td>27.2750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>28</td><td>27.2850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>29</td><td>27.2950</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>30</td><td>27.3050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>31</td><td>27.3150</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>32</td><td>27.3250</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>33</td><td>27.3350</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>34</td><td>27.3450</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>35</td><td>27.3550</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>36</td><td>27.3650</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>37</td><td>27.3750</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>38</td><td>27.3850</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>39</td><td>27.3950</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
+            <tr><td>40</td><td>27.4050</td><td>AM / FM</td><td>4</td><td>12</td><td>6</td><td>3</td><td></td></tr>
           </tbody>
         </table>
       </div>

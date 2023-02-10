@@ -95,9 +95,9 @@
         </div> 
         <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
           <div class='text-lg-end'>
-            <a href='https://fb.com/roipmars.org.my'><i class='bi bi-facebook h1 mx-1'></i></a>
-            <a href='https://t.me/marsts3servercyberjaya'><i class='bi bi-telegram h1 mx-1'></i></a>
-            <a href='https://wa.me/c/60333960874'><i class='bi bi-whatsapp h1 mx-1'></i></a>
+            <a href='https://fb.com/roipmars.org.my'><i class='bi-facebook h1 mx-1'></i></a>
+            <a href='https://t.me/marsts3servercyberjaya'><i class='bi-telegram h1 mx-1'></i></a>
+            <a href='https://wa.me/c/60333960874'><i class='bi-whatsapp h1 mx-1'></i></a>
           </div>
         </div>
       </div>

@@ -81,8 +81,8 @@
           <li class='nav-item'><a class='nav-link' href='member'>Keahlian</a></li>
           <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
           <!--<li class='nav-item'><a class='nav-link' href='mailus'>Hubungi Kami</a></li>-->
-          <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi bi-cart4'></i> Kedai</a></li>
-          <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi bi-download'></i> Muat Turun</a></li>
+          <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
+          <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
         </ul>
       </div>
     </div>
@@ -110,9 +110,9 @@
         </div>
         <p class='text-center mt-3 mb-0'>Bagi individu atau kelab yang berminat untuk menjalankan sebarang aktiviti bersama atau hebahan semasa aktiviti kami berlansung,<br>anda boleh berhubung terus dengan:</p>
         <div class='btn-group btn-group-lg d-grid gap-2 d-lg-block mt-0 mb-2'>
-          <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/60145768581'><i class='bi bi-whatsapp'></i> <b>Pegawai Bahagian Siaraya &amp; Aktiviti</b></button>
-          <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/601112308482'><i class='bi bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></button>
-          <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/60196293718'><i class='bi bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></button>
+          <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/60145768581'><i class='bi-whatsapp'></i> <b>Pegawai Bahagian Siaraya &amp; Aktiviti</b></button>
+          <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/601112308482'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></button>
+          <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/60196293718'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></button>
         </div>
       </div>
       <div class='col-lg-5 my-auto d-block text-center'>
@@ -317,12 +317,12 @@
               <tbody>
                 <tr class='bg-danger-subtle'><td>Ahad<br>01 Jan</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru 2023&#41;</td><td>113DAJCP</td><td>22</td></tr>
                 <tr class='bg-info-subtle'><td>Rabu<br>04 Jan</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td>9M6JAY</td><td>17</td></tr>
-                <tr class='text-decoration-line-through'><td>Jumaat<br>06 Jan</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td><i class='bi bi-person-exclamation text-danger fs-3'></i></td></tr>
+                <tr class='text-decoration-line-through'><td>Jumaat<br>06 Jan</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td><i class='bi-person-exclamation text-danger fs-3'></i></td></tr>
                 <tr><td>Sabtu<br>07 Jan</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td>37</td></tr>
                 <tr><td>Ahad<br>08 Jan</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>31</td></tr>
                 <tr><td>Rabu<br>11 Jan</td><td>2100MY</td><td>English Net</td><td>9M2RAN</td><td>34</td></tr>
                 <tr><td>Jumaat<br>13 Jan</td><td>2100MY</td><td>MARS Net</td><td>9W2EZK</td><td>23</td></tr>
-                <tr class='bg-info-subtle text-decoration-line-through'><td>Sabtu<br>14 Jan</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td><i class='bi bi-person-exclamation text-danger fs-3'></i></td></tr>
+                <tr class='bg-info-subtle text-decoration-line-through'><td>Sabtu<br>14 Jan</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td><i class='bi-person-exclamation text-danger fs-3'></i></td></tr>
                 <tr><td>Ahad<br>15 Jan</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td>28</td></tr>
                 <tr><td>Rabu<br>18 Jan</td><td>2100MY</td><td>English Net</td><td>9M6RDY</td><td>30</td></tr>
                 <tr><td>Jumaat<br>20 Jan</td><td>2100MY</td><td>MARS Net</td><td>9W2OGK</td><td>37</td></tr>
@@ -335,7 +335,7 @@
               </tbody>
               <caption>
                 <ul class='list-group list-group-flush fs-6'>
-                  <li class='list-group-item'><i class='bi bi-person-exclamation text-danger'></i> Pengawal tidak hadir</li>
+                  <li class='list-group-item'><i class='bi-person-exclamation text-danger'></i> Pengawal tidak hadir</li>
                 </ul>
               </capton>
             </table>
@@ -355,7 +355,7 @@
                 <tr><td>Jumaat<br>03 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W2EZK</td><td>22</td></tr>
                 <tr class='bg-primary-subtle'><td>Sabtu<br>04 Feb</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Kanser Sedunia&#41;</td><td>9W2SNN</td><td>34</td></tr>
                 <tr class='bg-danger-subtle'><td>Ahad<br>05 Feb</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Thaipusam&#41;</td><td>113DAISS</td><td>23</td></tr>
-                <tr><td>Rabu<br>08 Feb</td><td>2100MY</td><td>English Net</td><td>9M6AUA</td><td><i class='bi bi-send-exclamation text-warning fs-3'></i></td></tr>
+                <tr><td>Rabu<br>08 Feb</td><td>2100MY</td><td>English Net</td><td>9M6AUA</td><td><i class='bi-send-exclamation text-warning fs-3'></i></td></tr>
                 <tr><td>Jumaat<br>10 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6PKJ</td><td></td></tr>
                 <tr><td>Sabtu<br>11 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6RHN</td><td></td></tr>
                 <tr><td>Ahad<br>12 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAJCP</td><td></td></tr>
@@ -372,7 +372,7 @@
               </tbody>
               <caption>
                 <ul class='list-group list-group-flush fs-6'>
-                  <li class='list-group-item'><i class='bi bi-send-exclamation text-warning'></i> Bahagian Rekod tidak menerima Laporan Aktiviti</li>
+                  <li class='list-group-item'><i class='bi-send-exclamation text-warning'></i> Bahagian Rekod tidak menerima Laporan Aktiviti</li>
                 </ul>
               </capton>
             </table>
@@ -1147,14 +1147,14 @@
               <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
             </tbody>
           </table>
-          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
           <p class='my-0'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>
           <h5 class='text-uppercase mb-2 fw-bold text-md-end'>Hubungi Kami</h5>
           <div class='d-grid gap-2 d-md-flex justify-content-md-end mb-2'>
-            <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at'></i> member@roipmars.org.my</a>
-            <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi bi-envelope-paper'></i> Langgan surat berita kami</button>
+            <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi-envelope-at'></i> member@roipmars.org.my</a>
+            <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi-envelope-paper'></i> Langgan surat berita kami</button>
           </div>
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
@@ -1176,10 +1176,10 @@
         </div> 
         <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
           <div class='text-lg-end'>
-            <a href='https://fb.com/roipmars.org.my'><i class='bi bi-facebook h1 mx-1'></i></a>
-            <a href='https://t.me/marsts3servercyberjaya'><i class='bi bi-telegram h1 mx-1'></i></a>
-            <a href='https://wa.me/c/60333960874'><i class='bi bi-whatsapp h1 mx-1'></i></a>
-            <a href='#' onClick='TSLoginWindow=window.open("https://roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><i class='bi bi-headset h1 mx-1'></i></a>
+            <a href='https://fb.com/roipmars.org.my'><i class='bi-facebook h1 mx-1'></i></a>
+            <a href='https://t.me/marsts3servercyberjaya'><i class='bi-telegram h1 mx-1'></i></a>
+            <a href='https://wa.me/c/60333960874'><i class='bi-whatsapp h1 mx-1'></i></a>
+            <a href='#' onClick='TSLoginWindow=window.open("https://roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><i class='bi-headset h1 mx-1'></i></a>
           </div>
         </div>
       </div>

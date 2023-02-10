@@ -356,7 +356,7 @@
                 <tr class='bg-primary-subtle'><td>Sabtu<br>04 Feb</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Kanser Sedunia&#41;</td><td>9W2SNN</td><td>34</td></tr>
                 <tr class='bg-danger-subtle'><td>Ahad<br>05 Feb</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Thaipusam&#41;</td><td>113DAISS</td><td>23</td></tr>
                 <tr><td>Rabu<br>08 Feb</td><td>2100MY</td><td>English Net</td><td>9M6AUA</td><td><i class='bi-person-exclamation text-warning fs-4'></i></td></tr>
-                <tr><td>Jumaat<br>10 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6PKJ</td><td></td></tr>
+                <tr><td>Jumaat<br>10 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6PKJ</td><td><i class='bi-person-exclamation text-warning fs-4'></i></td></tr>
                 <tr><td>Sabtu<br>11 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6RHN</td><td></td></tr>
                 <tr><td>Ahad<br>12 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td></td></tr>
                 <tr><td>Rabu<br>15 Feb</td><td>2100MY</td><td>English Net</td><td>9W2EZK</td><td></td></tr>

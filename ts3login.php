@@ -152,6 +152,7 @@
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
+  <script src='./vendor/js/tawkto.js'></script>
   <script>
     function ts3login() {
       var cs = document.getElementById('callsign').value;
@@ -163,8 +164,6 @@
         window.location.href = 'ts3server://roipmars.org.my?nickname=' + cs + '%20' + name + '%20' + location + '&cid=7&addbookmark=RoIPMARS.org.MY';
       }
     }
-  </script>
-  <script>
     function mumblelogin() {
       var cs = document.getElementById('callsign').value;
       var name = document.getElementById('name').value;
@@ -175,17 +174,6 @@
         window.location.href = 'mumble://' + cs + '%20' + name + '%20' + location + '@roipmars.org.my/root?title=RoIPMARS.org.MY&url=roipmars.org.my';
       }
     }
-  </script>
-  <script type='text/javascript'>
-    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-    (function(){
-      var s1 = document.createElement('script'), s0 = document.getElementsByTagName('script')[0];
-      s1.async = true;
-      s1.src = 'https://embed.tawk.to/639da9ffb0d6371309d4e1b5/1gkfu04hu';
-      s1.charset = 'UTF-8';
-      s1.setAttribute('crossorigin','*');
-      s0.parentNode.insertBefore(s1,s0);
-    })();
   </script>
 </body>
 

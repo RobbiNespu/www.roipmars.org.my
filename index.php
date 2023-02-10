@@ -120,7 +120,7 @@
       <div class='col-12 my-2'>
         <div class='alert alert-info shadow p-3 bg-body-tertiary rounded-5'>
           <h4 class='fs-1 text-info-emphasis alert-heading text-center fw-bolder'>SEBARAN AWAM</h4>
-          <p class='fs-3 mx-2 text-break'>Kepada Inividu, Komuniti, Kelab, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS. Kami juga menyediakan perkhidmatan komunikasi untuk SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan ataupun pekerja. Pasukan teknikal kami sedia membantu anda. Hubungi kami melalui emel ke <a class='text-info' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member&#64;roipmars.org.my</a> untuk mendapatkan maklumat lanjut.</p>
+          <p class='fs-3 mx-2 text-break'>Kepada Inividu, Komuniti, Kelab, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS. Kami juga menyediakan perkhidmatan komunikasi untuk SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan ataupun pekerja. Pasukan teknikal kami sedia membantu anda. Hubungi kami melalui emel ke <a class='text-info' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member@roipmars.org.my</a> untuk mendapatkan maklumat lanjut.</p>
           <p class='fs-6 lh-1 font-monospace text-sm-end'>&#39;JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI&#39;<br>Tulus Ikhlas,<br>Bahagian Pengurusan Rangkaian Kumpulan RoIPMARS</p>
         </div>
       </div>
@@ -238,7 +238,7 @@
         <div class='col-lg-4 mx-auto my-1'>
           <h5 class='text-uppercase mb-2 fw-bold text-md-end'>Hubungi Kami</h5>
           <div class='d-grid gap-2 d-md-flex justify-content-md-end mb-2'>
-            <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at'></i> member&#64;roipmars.org.my</a>
+            <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at'></i> member@roipmars.org.my</a>
             <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi bi-envelope-paper'></i> Langgan surat berita kami</button>
           </div>
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>

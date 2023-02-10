@@ -159,7 +159,7 @@
             <div class='carousel-item'>
               <img src='./images/member/017.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RDY'>
                 <p class='fs-3 my-0'>9M6RDY</p>
-                <p class='fs-5 my-0'>MATTHEUS &#64; RUDY</p>
+                <p class='fs-5 my-0'>MATTHEUS @ RUDY</p>
                 <p>PENYELIA SIARAYA 2</p>
             </div>
             <div class='carousel-item'>
@@ -1153,7 +1153,7 @@
         <div class='col-lg-4 mx-auto my-1'>
           <h5 class='text-uppercase mb-2 fw-bold text-md-end'>Hubungi Kami</h5>
           <div class='d-grid gap-2 d-md-flex justify-content-md-end mb-2'>
-            <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at'></i> member&#64;roipmars.org.my</a>
+            <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at'></i> member@roipmars.org.my</a>
             <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi bi-envelope-paper'></i> Langgan surat berita kami</button>
           </div>
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>

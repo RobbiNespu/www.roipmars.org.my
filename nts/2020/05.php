@@ -74,7 +74,7 @@
     <p class='mb-2'>Berhubung perkara diatas, pihak pengurusan MARS Group melarang keras untuk anda menghantar borang berkali-kali untuk penukaran maklumat seperti Isyarat Panggilan, Rangkaian ataupun maklumat lain yang berkaitan.</p>
     <p>Bagi penukaran maklumat, boleh berbuat demikian melalui salah satu cara dibawah:
     <ol type='a'>
-      <li>email maklumat yang telah anda hantar (submit) dan juga maklumat baru yang ingin ditukar <strong>kepada <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member&#64;roipmars.org.my</a> BERSERTA DENGAN RESIT SUMBANGAN</strong> (minimum RM 10.00) ke akaun yang tertera di bawah</li>
+      <li>email maklumat yang telah anda hantar (submit) dan juga maklumat baru yang ingin ditukar <strong>kepada <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member@roipmars.org.my</a> BERSERTA DENGAN RESIT SUMBANGAN</strong> (minimum RM 10.00) ke akaun yang tertera di bawah</li>
       <li>mengisi borang sekali lagi BERSERTA DENGAN RESIT SUMBANGAN (minimum RM 10.00) ke akaun yang tertera di bawah dan <strong>dihantar bersama borang tersebut (upload diruangan resit sebelum submit)</strong> <sub>Borang kedua yang diisi tanpa resit sumbangan akan ditolak</sub></li>
     </ol>
     <table class='table table-sm table-bordered border-dark text-center my-0'>
@@ -85,7 +85,7 @@
     <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='../../images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='../../images/fpx.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi bi-credit-card fs-4 align-middle'></i></a></p>
     <p>Mulai Mac 2020, segala maklumat baru yang diberikan bakal mengambil masa maksimum 48 jam waktu bekerja untuk proses permohonan &amp; pendaftaran bagi tujuan semakan terlebih dahulu dengan maklumat sedia ada bagi mengelakkan pertindihan.</p>
     <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
-    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member&#64;roipmars.org.my</a></p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member@roipmars.org.my</a></p>
     <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "Herr Von Muellerhoff", cursive'>Pentadbir Rangkaian</p>
     <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
   </div>

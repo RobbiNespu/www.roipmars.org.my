@@ -95,7 +95,7 @@
     </table>
     </p>
     <p>Pihak pengguna tidak perlu membuat apa-apa perubahan ke atas 'software' selepas penyelenggaraan ini selesai.</p>
-    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2102'>member&#64;roipmars.org.my</a></p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2102'>member@roipmars.org.my</a></p>
     <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "Herr Von Muellerhoff", cursive'>Pentadbir Rangkaian</p>
     <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
   </div>

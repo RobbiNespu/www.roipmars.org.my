@@ -150,7 +150,7 @@
         <div class='col-md-5 col-lg-5 col-xl-5 mx-auto my-1 text-end'>
           <h5 class='text-uppercase mb-2 font-weight-bold'>Hubungi Kami</h5>
           <div class='d-grid gap-2 d-md-flex justify-content-md-end mb-2'>
-            <a type='button' class='btn btn-primary rounded-5 fs-6 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at fs-6'></i> member&#64;roipmars.org.my</a>
+            <a type='button' class='btn btn-primary rounded-5 fs-6 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi bi-envelope-at fs-6'></i> member@roipmars.org.my</a>
             <button type='button' class='btn btn-primary rounded-5 fs-6' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi bi-envelope-paper fs-6'></i> Langgan surat berita kami</button>
           </div>
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>

@@ -98,7 +98,7 @@
     <p>Penyelenggaraan tersebut akan memberi impak kepada sambungan yang lambat ke server, dan juga 'ping' yang tinggi.</p>
     <p>Diharap buat semua pengguna MARS Group dapat bersabar dan memberikan kerjasama semasa penyelenggaran berlaku.</p>
     <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
-    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2001'>member&#64;roipmars.org.my</a></p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2001'>member@roipmars.org.my</a></p>
     <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "Herr Von Muellerhoff", cursive'>Pentadbir Rangkaian</p>
     <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
   </div>

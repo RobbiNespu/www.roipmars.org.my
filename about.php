@@ -130,6 +130,8 @@
                 </div>
               </div>
               <div class='modal-footer'>
+                <a type='button' class='btn btn-primary' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Malaysian-Spectrum-Chart-2022.pdf'>Malaysian Spectrum Chart 2022</a>
+                <a type='button' class='btn btn-primary' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/SRSP-ARS-144_Nov-2022_1.pdf'>SRSP ARS 144</a>
                 <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
               </div>
             </div>

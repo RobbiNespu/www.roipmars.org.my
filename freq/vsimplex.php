@@ -63,7 +63,8 @@
   <div class='container-fluid'>
     <div class='row'>
       <div class='col-lg-12 m-0 text-center'>
-        <p>A short-range simplex radiocommunications service for amateur use</p>
+        <h5>A short-range simplex radiocommunications service for amateur use</h5>
+        <p class='fs-6'>as per Standard Radio System Plan Amateur Radio Service 144</p>
         <table class='table table-striped table-bordered border-dark table-sm'>
           <thead class='thead-light align-middle'>
             <tr>
@@ -144,7 +145,8 @@
     </div>
     <div class='row'>
       <div class='col-lg-12 m-0 text-center'>
-        <p>A short-range repeater radiocommunications service for amateur use</p>
+        <h5>A short-range repeater radiocommunications service for amateur use</h5>
+        <p class='fs-6'>as per Standard Radio System Plan Amateur Radio Service 144</p>
         <table class='table table-striped table-bordered border-dark table-sm'>
           <thead class='thead-light align-middle'>
             <tr>

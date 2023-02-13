@@ -122,7 +122,7 @@
           <div class='modal-dialog modal-dialog-centered' role='document'>
             <div class='modal-content'>
               <div class='modal-header'><h5 class='modal-title' id='roscertModalTitle'>Sijil Pendaftaran Pertubuhan</h5></div>
-              <div class='modal-body'><img class='img-fluid' loading='lazy' src='./images/ros-sijil.png'></div>
+              <div class='modal-body'><img class='img-fluid' loading='lazy' src='images/ros-sijil.png'></div>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@
           <div class='modal-dialog modal-dialog-centered' role='document'>
             <div class='modal-content'>
               <div class='modal-header'><h5 class='modal-title' id='rosappletModalTitle'>Surat Kelulusan Pendaftaran Pertubuhan</h5></div>
-              <div class='modal-body'><img class='img-fluid' loading='lazy' src='./images/ros-surat.png'></div>
+              <div class='modal-body'><img class='img-fluid' loading='lazy' src='images/ros-surat.png'></div>
             </div>
           </div>
         </div>

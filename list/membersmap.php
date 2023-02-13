@@ -25,15 +25,16 @@
   <link rel='apple-touch-icon' sizes='152x152' href='../images/apple-icon-152x152.png'>
   <link rel='apple-touch-icon' sizes='180x180' href='../images/apple-icon-180x180.png'>
   <link rel='manifest' href='../vendor/manifest.json'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css,npm/bootstrap-icons@1/font/bootstrap-icons.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://unpkg.com/leaflet@1.9.3/dist/leaflet.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin='anonymous'>
   <link rel='stylesheet' href='https://rawgithub.com/ebrelsford/Leaflet.loading/master/src/Control.Loading.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.css' crossorigin='anonymous'>
-  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script></script>
   <script src='https://unpkg.com/leaflet@1.9.3/dist/leaflet.js' crossorigin='anonymous'></script>
   <script src='https://raw.githubusercontent.com/leaflet-extras/leaflet-providers/master/leaflet-providers.js' crossorigin='anonymous'></script>
   <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>

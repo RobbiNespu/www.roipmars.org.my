@@ -49,7 +49,8 @@
   <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Oxanium&family=Nanum+Gothic+Coding&family=Saira+Extra+Condensed&family=Orbitron&family=Electrolize&family=Coda&display=swap'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css,npm/bootstrap-icons@1/font/bootstrap-icons.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script src='../../vendor/js/gtm.js'></script>
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
@@ -101,7 +102,9 @@
     <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "Herr Von Muellerhoff", cursive'>Pentadbir Rangkaian</p>
     <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
   </div>
-  <script src='https://cdn.jsdelivr.net/combine/npm/jquery@3.6.3/dist/jquery.js,npm/@popperjs/core@2.11.6/dist/umd/popper.js,npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script></script>
 </body>
 
 </html>

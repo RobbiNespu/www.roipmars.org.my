@@ -96,6 +96,7 @@
           <tr><td>A028</td><td>9W2NEW</td><td>NORHISHAM BIN BAHAROM</td><td>OJ11UM</td><td>DIS 2023</td><td><i class='bi-check2-circle' style='color: green'></i></td></tr>
           <tr><td>A029</td><td>9W2JCP</td><td>MOHAMAD ROSLI BIN AWANG</td><td>OJ11TN</td><td>DIS 2023</td><td><i class='bi-check2-circle' style='color: green'></i></td></tr>
           <tr><td>A030</td><td>9W2HLM</td><td>ABDUL HALIM BIN HJ HASHIM</td><td>OJ05FE</td><td>DIS 2023</td><td><i class='bi-check2-circle' style='color: green'></i></td></tr>
+          <tr><td>A031</td><td>9W2EZK</td><td>MOHD IFFIQ ZIKRY BIN JAMAL</td><td>OJ03SF</td><td>DIS 2025</td><td><i class='bi-check2-circle' style='color: green'></i></td></tr>
 
         </tbody>
       </table>

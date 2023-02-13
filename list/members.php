@@ -27,7 +27,8 @@
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#336699'>
   <meta name='msapplication-TileImage' content='../images/ms-icon-144x144.png'>
-  <meta name='theme-color' content='#336699'>
+  <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
+  <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
   <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='../images/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='../images/favicon-16x16.png'>

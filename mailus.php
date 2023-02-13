@@ -95,7 +95,7 @@
 	<div class='container'>
 		<div class='row'>
 			<div class='col-md'>
-				<form id='contactForm' method='post' action='./vendor/mail/contact_me.php'>
+				<form id='contactForm' method='post' action='./vendor/mail/contact_me'>
 					<div class='form-row'>
 						<div class='col-auto'>
 							<div class='form-floating'>
@@ -122,12 +122,11 @@
 					</div>
 					<div class='row my-2'>
 						<div class='col-9'>
-							<!-- For success/fail messages -->
 							<div class='text-start' id='success'></div>
 						</div>
 						<div class='col-3 text-end'>
-							<button type='reset' class='btn btn-outline-secondary btn-sm'>Reset</button>
-							<button type='submit' class='btn btn-primary btn-sm' id='sendMessage' class='cf-turnstile' data-sitekey='0x4AAAAAAABo4nJ8nQ9QZgbE' data-callback='onSubmit' data-action='submit'>Submit</button>
+							<button type='reset' class='btn btn-outline-secondary btn-lg'>Reset</button>
+							<button type='submit' class='btn btn-primary btn-lg' id='sendMessage' class='cf-turnstile' data-sitekey='0x4AAAAAAABo4nJ8nQ9QZgbE' data-callback='onSubmit' data-action='submit'>Submit</button>
 						</div>
 					</div>
 				</form>

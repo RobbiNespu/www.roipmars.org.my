@@ -118,9 +118,9 @@
     </div>
     <div class='row'>
       <div class='col-12 my-2'>
-        <div class='alert alert-info shadow p-3 bg-body-tertiary rounded-5'>
-          <h4 class='fs-1 text-info-emphasis alert-heading text-center fw-bolder'>SEBARAN AWAM</h4>
-          <p class='fs-3 mx-2 text-break'>Kepada Inividu, Komuniti, Kelab, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS. Kami juga menyediakan perkhidmatan komunikasi untuk SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan ataupun pekerja. Pasukan teknikal kami sedia membantu anda. Hubungi kami melalui emel ke <a class='text-info' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member@roipmars.org.my</a> untuk mendapatkan maklumat lanjut.</p>
+        <div class='alert alert-light shadow p-3 bg-body-tertiary rounded-5'>
+          <h4 class='fs-1 text-light-emphasis alert-heading text-center fw-bolder'>SEBARAN AWAM</h4>
+          <p class='fs-3 mx-2 text-break text-center'>Kepada Inividu, Komuniti, Kelab, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS.<br>Kami juga menyediakan perkhidmatan komunikasi untuk SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan ataupun pekerja. <br>Pasukan teknikal kami sedia membantu. Hubungi kami melalui emel ke <a class='text-light text-decoration-none' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member@roipmars.org.my</a> untuk mendapatkan maklumat lanjut.</p>
           <p class='fs-6 lh-1 font-monospace text-sm-end'>&#39;JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI&#39;<br>Tulus Ikhlas,<br>Bahagian Pengurusan Rangkaian Kumpulan RoIPMARS</p>
         </div>
       </div>

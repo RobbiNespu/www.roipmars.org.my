@@ -139,7 +139,7 @@
                 <p>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w2ezk.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2EZK'>
+              <img src='./images/member/031.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2EZK'>
                 <p class='fs-3 my-0'>9W2EZK / 113DAZIK</p>
                 <p class='fs-5 my-0'>IFFIQ ZIKRY</p>
                 <p>PENGURUS SIARAYA &amp; AKTIVITI</p>

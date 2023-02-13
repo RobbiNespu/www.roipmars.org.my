@@ -77,10 +77,12 @@
       <li>email maklumat yang telah anda hantar (submit) dan juga maklumat baru yang ingin ditukar <strong>kepada <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member@roipmars.org.my</a> BERSERTA DENGAN RESIT SUMBANGAN</strong> (minimum RM 10.00) ke akaun yang tertera di bawah</li>
       <li>mengisi borang sekali lagi BERSERTA DENGAN RESIT SUMBANGAN (minimum RM 10.00) ke akaun yang tertera di bawah dan <strong>dihantar bersama borang tersebut (upload diruangan resit sebelum submit)</strong> <sub>Borang kedua yang diisi tanpa resit sumbangan akan ditolak</sub></li>
     </ol>
-    <table class='table table-sm table-bordered border-dark text-center my-0'>
-      <tr><td>Nama</td><td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
-      <tr><td>Bank</td><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
-      <tr><td>Akaun</td><td>1214 0000 4377 12</td></tr>
+    <table class='table table-sm table-bordered table-striped text-center align-middle my-0 mx-auto w-auto' style='white-space: nowrap'>
+      <tbody>
+        <tr><th>Nama</th><td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
+        <tr><th>Bank</th><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>
+        <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
+      </tbody>
     </table>
     <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='../../images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='../../images/fpx.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
     <p>Mulai Mac 2020, segala maklumat baru yang diberikan bakal mengambil masa maksimum 48 jam waktu bekerja untuk proses permohonan &amp; pendaftaran bagi tujuan semakan terlebih dahulu dengan maklumat sedia ada bagi mengelakkan pertindihan.</p>

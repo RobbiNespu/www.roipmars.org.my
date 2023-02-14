@@ -80,8 +80,9 @@
             <input type='text' class='form-control form-control-lg text-center rounded-pill' pattern='[\w]{3-19}' minlength='3' maxlength='19' aria-label='location' id='location' name='location' placeholder='KUALA LUMPUR' required>
           </div>
           <div class='hstack gap-3 mt-3 text-center'>
-            <button class='btn btn-outline-primary btn-lg rounded-pill' type='submit' onClick='ts3login()'>Log Masuk ke <img class='img-fluid d-inline-block align-middle' src='https://cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='100'> <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
-            <button class='btn btn-outline-secondary btn-lg rounded-pill ms-auto' type='submit' onClick='mumblelogin()'>Log Masuk ke <img class='img-fluid d-inline-block align-middle' src='https://www.mumble.info/css/mumble.svg' width='20'> Mumble <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
+            <button class='btn btn-outline-primary btn-lg rounded-3' type='submit' onClick='ts3marslogin()'>Log Masuk<br><img class='img-fluid d-inline-block align-middle' src='https://cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='100'> <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
+            <button class='btn btn-outline-primary btn-lg rounded-3 ms-auto' type='submit' onClick='ts3dalogin()'>Log Masuk<br><img class='img-fluid d-inline-block align-middle' src='https://cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='100'> <img class='img-fluid d-inline-block align-middle' src='https://www.roipdarulaman.com/images/roipda_icon.png' width='25'></button>
+            <button class='btn btn-outline-secondary btn-lg rounded-3 ms-auto' type='submit' onClick='mumblelogin()'>Log Masuk<br><img class='img-fluid d-inline-block align-middle' src='https://www.mumble.info/css/mumble.svg' width='20'> Mumble <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
           </div>
         </form>
       </div>
@@ -107,29 +108,8 @@
   <script src='https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script></script>
+  <script src='./vendor/js/applogin.js'></script>
   <script src='./vendor/js/tawkto.js'></script>
-  <script>
-    function ts3login() {
-      var cs = document.getElementById('callsign').value;
-      var name = document.getElementById('name').value;
-      var location = document.getElementById('location').value;
-      if ((cs == '') || (name == '') || (location == '')) {
-        return blank;
-      } else {
-        window.location.href = 'ts3server://roipmars.org.my?nickname=' + cs + '%20' + name + '%20' + location + '&cid=7&addbookmark=RoIPMARS.org.MY';
-      }
-    }
-    function mumblelogin() {
-      var cs = document.getElementById('callsign').value;
-      var name = document.getElementById('name').value;
-      var location = document.getElementById('location').value;
-      if ((cs == '') || (name == '') || (location == '')) {
-        return blank;
-      } else {
-        window.location.href = 'mumble://' + cs + '%20' + name + '%20' + location + '@roipmars.org.my/root?title=RoIPMARS.org.MY&url=roipmars.org.my';
-      }
-    }
-  </script>
 </body>
 
 </html>

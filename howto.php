@@ -374,7 +374,7 @@
             </tr>
             <tr>
               <th scope='row'>Server Address</th>
-              <td><a href='#' onClick='TSLoginWindow=window.open("https://roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
+              <td><a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
             </tr>
             <tr>
               <th scope='row'>Nickname</th>
@@ -475,7 +475,7 @@
     <table class='table table-sm text-center align-middle'>
       <tbody>
         <tr><th scope='row'>Label</th><td>ROIPMARS</td></tr>
-        <tr><th scope='row'>Address</th><td><a href='#' onClick='TSLoginWindow=window.open("https://roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'>roipmars.org.my</a></td></tr>
+        <tr><th scope='row'>Address</th><td><a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td></tr>
         <tr><th scope='row'>Nickname</th><td>[CALLSIGN] [NAME] [QTH/LOCATION]</td></tr>
       </tbody>
     </table>
@@ -577,7 +577,7 @@
           <tbody>
             <tr>
               <th scope='row'>Address</th>
-              <td><a href='#' onClick='TSLoginWindow=window.open("https://roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
+              <td><a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
             </tr>
             <tr>
               <th scope='row'>Label</th>
@@ -703,7 +703,7 @@
             <a href='https://fb.com/roipmars.org.my'><i class='bi-facebook h1 mx-1'></i></a>
             <a href='https://t.me/marsts3servercyberjaya'><i class='bi-telegram h1 mx-1'></i></a>
             <a href='https://wa.me/c/60333960874'><i class='bi-whatsapp h1 mx-1'></i></a>
-            <a href='#' onClick='TSLoginWindow=window.open("https://roipmars.org.my/ts3login", "LogIn TS RoIPMARS", "width=800,height=600"); return false;'><i class='bi-headset h1 mx-1'></i></a>
+            <a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'><i class='bi-headset h1 mx-1'></i></a>
           </div>
         </div>
       </div>

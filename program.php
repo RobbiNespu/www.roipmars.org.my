@@ -357,9 +357,9 @@
                 <tr class='bg-primary-subtle'><td>Sabtu<br>04 Feb</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Kanser Sedunia&#41;</td><td>9W2SNN</td><td>34</td></tr>
                 <tr class='bg-danger-subtle'><td>Ahad<br>05 Feb</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Thaipusam&#41;</td><td>113DAISS</td><td>23</td></tr>
                 <tr><td>Rabu<br>08 Feb</td><td>2100MY</td><td>English Net</td><td>9M6AUA</td><td>37</td></tr>
-                <tr><td>Jumaat<br>10 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6PKJ</td><td><i class='bi-shield-exclamation text-warning fs-4'></i></td></tr>
+                <tr><td>Jumaat<br>10 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6PKJ</td><td><i class='bi-exclamation-triangle text-danger fs-4'></i></td></tr>
                 <tr><td>Sabtu<br>11 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6RHN</td><td>29</td></tr>
-                <tr><td>Ahad<br>12 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td><i class='bi-shield-exclamation text-warning fs-4'></i></td></tr>
+                <tr><td>Ahad<br>12 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>22</td></tr>
                 <tr><td>Rabu<br>15 Feb</td><td>2100MY</td><td>English Net</td><td>9W2EZK</td><td></td></tr>
                 <tr><td>Jumaat<br>17 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W2YJT</td><td></td></tr>
                 <tr class='bg-dark-subtle'><td rowspan='2'>Sabtu<br>18 Feb</td><td>2000MY<br>-<br>0000MY</td><td>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</a><td>Kalumpang Resort, Hulu Selangor</td><td><a href='https://forms.gle/KM8MaH4ivfLN3v7N8' target='_blank'>RSVP</a></td></tr>
@@ -373,7 +373,7 @@
               </tbody>
               <caption>
                 <ul class='list-group list-group-flush fs-6'>
-                  <li class='list-group-item'><i class='bi-shield-exclamation text-warning'></i> Laporan Aktiviti tidak lengkap</li>
+                  <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan Aktiviti tidak lengkap</li>
                 </ul>
               </capton>
             </table>
@@ -965,11 +965,10 @@
         <figcaption class='figure-caption text-center'>Peta</figcaption>
       </div>
     </div>
+<!--
     <hr>
     <div class='row'>
-      <div class='col-12 mt-3'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
-    </div>
-    <div class='row'>
+      <div class='col-12 mt-3'><h3 class='text-center'>Carta Kategori Jalur Amatur</h3></div>
       <div class='col-lg-6 mt-2'>
         <p class='text-center'>HAM Net Bahasa Inggeris</p>
         <div class='row'>
@@ -982,9 +981,9 @@
                 <tr><td>2<sup>nd</sup></td><td>9W6RHN</td></tr>
                 <tr><td>3<sup>rd</sup></td><td>9M6RDY</td></tr>
                 <tr><td>4<sup>th</sup></td><td>9M6JAY</td></tr>
-  <!--
+  
                 <tr><td>5<sup>th</sup></td><td></td></tr>
-  -->
+  
               </tbody>
             </table>
           </div>
@@ -1046,7 +1045,7 @@
       </div>
     </div>
     <div class='row'>
-      <div class='col-12'><h3 class='text-center'>Kategori Jalur Rakyat</h3></div>
+      <div class='col-12'><h3 class='text-center'>Carta Kategori Jalur Rakyat</h3></div>
       <div class='col-12 mt-2'><p class='text-center'>CB Net Bahasa Melayu</p></div>
         <div class='col-6'>
           <h6 class='text-center'>Pengawal Tertinggi</h6>
@@ -1078,6 +1077,7 @@
           </table>
         </div>
     </div>
+-->
     <hr>
     <div class='row'>
       <div class='col-12 mt-3'><h3 class='text-center'>Pemenang Bertuah Rangkaian RoIPMARS</h3></div>

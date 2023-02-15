@@ -98,11 +98,11 @@
   <div class='container'>
     <div class='row'>
       <div class='col-lg-7'>
-        <h4 class='text-center font-weight-bold'>PENGENALAN</h4>
+        <h4 class='text-center fw-bold'>PENGENALAN</h4>
         <p class='text-center'>Kami adalah Penyedia Perkhidmatan Pelayan TeamSpeak3 untuk sarana komunikasi alternatif kepada pengendali Stesen Amatur dan juga Komersial untuk komunikasi antara satu sama lain walau dimana sahaja berada samada menggunakan kaedah RoIP atau VoIP.</p>
-        <h4 class='text-center font-weight-bold'>TUJUAN</h4>
+        <h4 class='text-center fw-bold'>TUJUAN</h4>
         <p class='text-center'>Merapatkan hubungan siraturahim antara stesen seluruh dunia disamping menguji peralatan masing-masing serta komunikasi antara satu sama lain.</p>
-        <h4 class='text-center font-weight-bold'>PENGENALAN RADIO AMATUR</h4>
+        <h4 class='text-center fw-bold'>PENGENALAN RADIO AMATUR</h4>
         <ol type='1'>
           <li>Radio Amatur ditakrifkan di dalam <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998' target='_blank'>Akta Komunikasi dan Multimedia 1998 [Akta 588]</a> dan <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio' target='_blank'>PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA (SPEKTRUM) 2000 [P.U.(A) 128/2000]</a>.</li>
             <ol type='i'>
@@ -113,7 +113,41 @@
           <li>Radio Amatur juga diiktiraf sebagai salah satu peralatan komunikasi radio yang mana ITU &#40;International Telecommunication Union&#41; memantau dan menyediakan jalur khas untuk perkhidmatan Radio Amatur yang mana jalur tersebut dapat digunakan diseluruh dunia.</li>
           <li>Pengendali Radio Amatur mesti memberikan perkhidmatan bagi membantu kerajaan sesebuah negara ketika berlakunya bencana sekiranya sistem komunikasi yang lain tidak boleh berfungsi atau tiada kemudahan komunikasi yang lain.</li>
           <li>Salah satu kehebatan yang ada pada Radio Amatur ialah: <span class='badge rounded-pill text-bg-success'>&lsquo;perasaan muhibah antarabangsa&rsquo;</span> diantara rakan HAM seluruh dunia dengan ikatan persaudaraan antara manusia sejagat tanpa mengira golongan, bangsa, jantina, pangkat &amp; kedudukan.</li>
-        </ol>        
+        </ol> 
+        <h4 class='text-center fw-bold'>ETIKA RADIO AMATUR</h4>
+        <table class='table table-bordered table-sm text-center align-middle bg-success-subtle'>
+          <tbody>
+            <tr><th>BERTIMBANG RASA</th><td>Tidak pernah secara sedar beroperasi untuk mengurangkan keseronokan orang lain.</td></tr>
+            <tr><th>SETIA</th><td>Menawarkan kesetiaan, galakan dan sokongan kepada amatur lain, kelab tempatan, Persatuan Radio IARU di negaranya, yang melaluinya Radio Amatur di negaranya diwakili di peringkat nasional dan antarabangsa.</td></tr>
+            <tr><th>PROGRESIF</th><td>Memastikan stesennya dikemas kini. Ia dibina dengan baik dan efisien. Amalan pengendaliannya tidak boleh dicela.</td></tr>
+            <tr><th>MESRA</th><td>Beroperasi dengan perlahan dan sabar apabila diminta; menawarkan nasihat mesra kepada pemula; bantuan, kerjasama dan pertimbangan yang baik untuk kepentingan bersama.</td></tr>
+            <tr><th>SEIMBANG</th><td>Radio adalah hobi, tidak pernah mengganggu tugas yang terhutang kepada keluarga, pekerjaan, sekolah atau masyarakat.</td></tr>
+            <tr><th>PATRIOTIK</th><td>Stesen dan kemahirannya sentiasa bersedia untuk berkhidmat kepada negara dan masyarakat.</td></tr>
+          </tbody>
+          <caption>
+            <p class='blockquote text-end fs-6 fw-light'>&ndash; diadaptasi daripada Etika Amatur asal, yang ditulis oleh Paul M. Segal, W9EEA, pada 1928</p>
+          </caption>
+        </table> 
+      </div>
+      <div class='col-lg-5'>
+        <h4 class='text-center fw-bold'>PERKARA-PERKARA YANG DILARANG SEMASA MENGENDALIKAN STESEN RADIO AMATUR</h4>
+        <ol class='list-group list-group-numbered'>
+          <li class='list-group-item bg-danger-subtle text-danger-emphasis'>Stesen Radio Amatur dilarang menggunakan Radio Amatur untuk tujuan komersil.</li>
+          <li class='list-group-item bg-danger-subtle text-danger-emphasis'>Menyiarkan sebarang bahan yang telah sedia ada berupa lagu, percakapan, berita atau apa sahaja yang berkaitan (ulang siar).</li>
+        </ol>
+        <h4 class='text-center fw-bold mt-2'>PERKARA-PERKARA YANG DIBENARKAN SEMASA PENGENDALIAN STESEN RADIO AMATUR</h4>
+        <ol class='list-group list-group-flush list-group-numbered'>
+          <li class='list-group-item bg-success-subtle text-success-emphasis'>Komunikasi dengan stesen radio amatur diseluruh dunia dengan menggunakan Radio HF dan satelit.</li>
+          <li class='list-group-item bg-success-subtle text-success-emphasis'>Komunikasi di antara bandar-bandar tempatan dengan menggunakan radio pemancar VHF dan UHF.</li>
+          <li class='list-group-item bg-success-subtle text-success-emphasis'>Memberi khidmat komunikasi ketika berlakunya bencana sekiranya tidak terdapat alat komunikasi yang lain atau alat komunikasi yang lain tidak berfungsi.</li>
+          <li class='list-group-item bg-success-subtle text-success-emphasis'>Pembuatan sendiri Radio, Pancaran, Penerimaan dan Antena.</li>
+          <li class='list-group-item bg-success-subtle text-success-emphasis'>Komunikasi di dalam orbit satelit tanpa sebarang kos.</li>
+          <li class='list-group-item bg-success-subtle text-success-emphasis'>Komunikasi dengan angkasawan ketika mengelilinggi dunia.</li>
+          <li class='list-group-item bg-success-subtle text-success-emphasis'>Kajian mengenai TV Amatur, Slow Scan TV atau menghantar gambar potret dengan mengunakan faksimili.</li>
+          <li class='list-group-item bg-success-subtle text-success-emphasis'>Mengambil bahagian di dalam sebarang pertandingan Radio Ham atau mengadakan peralatan tunjuk arah.</li>
+          <li class='list-group-item bg-success-subtle text-success-emphasis'>Mengambil bahagian di dalam aktiviti mencari dan menyelamat.</li>
+          <li class='list-group-item bg-success-subtle text-success-emphasis'>Memancarkan dan menyebarkan berita-berita semasa berkaitan persekitaran mereka sendiri umpamanya berita kematian, bencana, aktiviti masyarakat dan apa sahaja informasi yang memberi faedah umum.</li>
+        </ol>      
         <hr>
         <div class='hstack'>
           <h3 class='text-secondary'>Saluran Amatur VHF</h3>
@@ -138,33 +172,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class='col-lg-5'>
-        <h4 class='text-center font-weight-bold'>ETIKA RADIO AMATUR</h4>
-        <table class='table table-bordered text-center bg-success-subtle'>
-          <tbody>
-            <tr><td>Setia</td><td>Progresif</td><td>Ramah Tamah</td></tr>
-            <tr><td>Berjiwa Perwira</td><td>Berjiwa Seimbang</td><td>Berjiwa Patriotik</td></tr>
-          </tbody>
-        </table>
-        <h4 class='text-center font-weight-bold'>PERKARA-PERKARA YANG DILARANG SEMASA MENGENDALIKAN STESEN RADIO AMATUR</h4>
-        <ol class='bg-danger-subtle'>
-          <li>Stesen Radio Amatur dilarang menggunakan Radio Amatur untuk tujuan komersil.</li>
-          <li>Menyiarkan sebarang bahan yang telah sedia ada berupa lagu, percakapan, berita atau apa sahaja yang berkaitan (ulang siar).</li>
-        </ol>
-        <h4 class='text-center font-weight-bold'>PERKARA-PERKARA YANG DIBENARKAN SEMASA PENGENDALIAN STESEN RADIO AMATUR</h4>
-        <ol class='bg-success-subtle'>
-          <li>Komunikasi dengan stesen radio amatur diseluruh dunia dengan menggunakan Radio HF dan satelit.</li>
-          <li>Komunikasi di antara bandar-bandar tempatan dengan menggunakan radio pemancar VHF dan UHF.</li>
-          <li>Memberi khidmat komunikasi ketika berlakunya bencana sekiranya tidak terdapat alat komunikasi yang lain atau alat komunikasi yang lain tidak berfungsi.</li>
-          <li>Pembuatan sendiri Radio, Pancaran, Penerimaan dan Antena.</li>
-          <li>Komunikasi di dalam orbit satelit tanpa sebarang kos.</li>
-          <li>Komunikasi dengan angkasawan ketika mengelilinggi dunia.</li>
-          <li>Kajian mengenai TV Amatur, Slow Scan TV atau menghantar gambar potret dengan mengunakan faksimili.</li>
-          <li>Mengambil bahagian di dalam sebarang pertandingan Radio Ham atau mengadakan peralatan tunjuk arah.</li>
-          <li>Mengambil bahagian di dalam aktiviti mencari dan menyelamat.</li>
-          <li>Memancarkan dan menyebarkan berita-berita semasa berkaitan persekitaran mereka sendiri umpamanya berita kematian, bencana, aktiviti masyarakat dan apa sahaja informasi yang memberi faedah umum.</li>
-        </ol>
       </div>
     </div>
     <div class='row' id='kisahroipmars'>

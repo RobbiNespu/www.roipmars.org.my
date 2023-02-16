@@ -360,7 +360,7 @@
                 <tr><td>Jumaat<br>10 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6PKJ</td><td>24</td></tr>
                 <tr><td>Sabtu<br>11 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6RHN</td><td>29</td></tr>
                 <tr><td>Ahad<br>12 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>22</td></tr>
-                <tr><td>Rabu<br>15 Feb</td><td>2100MY</td><td>English Net</td><td>9W2EZK</td><td></td></tr>
+                <tr><td>Rabu<br>15 Feb</td><td>2100MY</td><td>English Net</td><td>9W2EZK</td><td>18</td></tr>
                 <tr><td>Jumaat<br>17 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W2YJT</td><td></td></tr>
                 <tr class='bg-dark-subtle'><td rowspan='2'>Sabtu<br>18 Feb</td><td>2000MY<br>-<br>0000MY</td><td>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</a><td>Kalumpang Resort, Hulu Selangor</td><td><a href='https://forms.gle/KM8MaH4ivfLN3v7N8' target='_blank'>RSVP</a></td></tr>
                 <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Israk Mikraj&#41;</td><td>9M2KZI</td><td></td></tr>

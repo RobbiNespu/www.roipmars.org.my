@@ -64,21 +64,20 @@
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='./vendor/js/fbchat.js'></script>
   <nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
-    <div class='container-fluid'>
-      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
-      <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
-        <span class='navbar-toggler-icon'></span>
-      </button>
+    <div class='container'>
+      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button>
       <div class='collapse navbar-collapse' id='navbarNav'>
-        <ul class='navbar-nav nav-pills fs-4 text-center d-flex mx-auto'>
+        <ul class='navbar-nav nav-pills fs-5 text-center d-flex mx-auto'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link' href='program'>Program</a></li>
+          <li class='nav-item'><a class='nav-link' href='rnd'>Penyelidikan</a></li>
           <li class='nav-item'><a class='nav-link' href='howto'>Tutorial</a></li>
           <li class='nav-item'><a class='nav-link' href='cbinfo'>Informasi Jalur Rakyat</a></li>
           <li class='nav-item'><a class='nav-link' href='cbmars'>CB RoIPMARS</a></li>
           <li class='nav-item'><a class='nav-link' href='member'>Keahlian</a></li>
-          <li class='nav-item'><a class='nav-link active rounded-pill' aria-current='page' href='snotice'>Notis Perkhidmatan</a></li>
+          <li class='nav-item'><a class='nav-link active rounded-3' aria-current='page' href='snotice'>Notis Perkhidmatan</a></li>
           <!--<li class='nav-item'><a class='nav-link' href='mailus'>Hubungi Kami</a></li>-->
           <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
           <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
@@ -176,39 +175,6 @@
         </tbody>
       </table>
     </div>
-    <div class='row my-3'>
-      <div class='col-12'>
-        <h2 class='h2 text-center'>Pegawai Pengurusan Rangkaian Kumpulan RoIPMARS</h2>
-      </div>
-      <div class='col-lg-6 my-2 rounded-5'>
-        <div class='row g-0 text-start'>
-          <div class='col-3 align-self-center'>
-            <img src='./images/member/002.png' class='img-fluid rounded-circle object-fit-fill' alt='9W2UZL'>
-          </div>
-          <div class='col-9'>
-            <div class='card-body'>
-              <p class='card-title fs-3 fw-bold'>9W2UZL &mdash; ZULKIFLI ABU</p>
-              <p class='card-subtitle fw-semibold'>FOUNDER, ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
-              <p class='card-subtitle fw-bolder'>PENGASAS, PENTADBIR &amp; KETUA PENYELIDIK</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class='col-lg-6 my-2 rounded-5'>
-        <div class='row g-0 text-end'>
-          <div class='col-9'>
-            <div class='card-body'>
-              <p class='card-title fs-3 fw-bold'>9W2LGX &mdash; HAFIZI RUSLAN</p>
-              <p class='card-subtitle fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
-              <p class='card-subtitle fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
-            </div>
-          </div>
-          <div class='col-3 align-self-center'>
-            <img src='./images/member/001.png' class='img-fluid rounded-circle object-fit-fill' alt='9W2LGX'>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
   <footer class='footer mt-auto py-1 page-footer font-small bg-body-tertiary text-center'>
     <div class='container'>
@@ -230,12 +196,16 @@
           <h5 class='text-uppercase mb-2 fw-bold text-md-end'>Hubungi Kami</h5>
           <div class='d-grid gap-2 d-md-flex justify-content-md-end mb-2'>
             <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi-envelope-at'></i> member@roipmars.org.my</a>
-            <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi-envelope-paper'></i> Langgan surat berita kami
+            <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi-envelope-paper'></i> Langgan surat berita kami</button>
           </div>
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
                 <div class='modal-content'>
-                  <div class='modal-body'><div class='ratio ratio-1x1'><iframe src='https://1306b3f7.sibforms.com/serve/MUIEAIR2UxOW8JezeVtN05wHT8tqVrcROKOSDLHHB5BNy1LHST-CbEPqTvRhQe5_CrrvOOmbedVNkoHAJxlEwQ8tbScw_7eHtjByIUNLUHOsQBo7rmMribZ9ZpPLC89V-9lSyMybFpSBE8ClRHD6itpcxnb_bpZk-06g7sjz4NaQn2gIAlL_0HNtA_BA7UvZT5jIptMIZetcXcSB'></iframe></div></div>
+                  <div class='modal-body'>
+                    <div class='ratio ratio-1x1'>
+                      <iframe src='https://1306b3f7.sibforms.com/serve/MUIEAIR2UxOW8JezeVtN05wHT8tqVrcROKOSDLHHB5BNy1LHST-CbEPqTvRhQe5_CrrvOOmbedVNkoHAJxlEwQ8tbScw_7eHtjByIUNLUHOsQBo7rmMribZ9ZpPLC89V-9lSyMybFpSBE8ClRHD6itpcxnb_bpZk-06g7sjz4NaQn2gIAlL_0HNtA_BA7UvZT5jIptMIZetcXcSB'></iframe>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -64,16 +64,15 @@
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='./vendor/js/fbchat.js'></script>
   <nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
-    <div class='container-fluid'>
-      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
-      <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
-        <span class='navbar-toggler-icon'></span>
-      </button>
+    <div class='container'>
+      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button>
       <div class='collapse navbar-collapse' id='navbarNav'>
-        <ul class='navbar-nav nav-pills fs-4 text-center d-flex mx-auto'>
+        <ul class='navbar-nav nav-pills fs-5 text-center d-flex mx-auto'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
-          <li class='nav-item'><a class='nav-link active rounded-pill' aria-current='page' href='activities'>Aktiviti</a></li>
+          <li class='nav-item'><a class='nav-link active rounded-3' aria-current='page' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link' href='program'>Program</a></li>
+          <li class='nav-item'><a class='nav-link' href='rnd'>Penyelidikan</a></li>
           <li class='nav-item'><a class='nav-link' href='howto'>Tutorial</a></li>
           <li class='nav-item'><a class='nav-link' href='cbinfo'>Informasi Jalur Rakyat</a></li>
           <li class='nav-item'><a class='nav-link' href='cbmars'>CB RoIPMARS</a></li>
@@ -219,7 +218,11 @@
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
                 <div class='modal-content'>
-                  <div class='modal-body'><div class='ratio ratio-1x1'><iframe src='https://1306b3f7.sibforms.com/serve/MUIEAIR2UxOW8JezeVtN05wHT8tqVrcROKOSDLHHB5BNy1LHST-CbEPqTvRhQe5_CrrvOOmbedVNkoHAJxlEwQ8tbScw_7eHtjByIUNLUHOsQBo7rmMribZ9ZpPLC89V-9lSyMybFpSBE8ClRHD6itpcxnb_bpZk-06g7sjz4NaQn2gIAlL_0HNtA_BA7UvZT5jIptMIZetcXcSB'></iframe></div></div>
+                  <div class='modal-body'>
+                    <div class='ratio ratio-1x1'>
+                      <iframe src='https://1306b3f7.sibforms.com/serve/MUIEAIR2UxOW8JezeVtN05wHT8tqVrcROKOSDLHHB5BNy1LHST-CbEPqTvRhQe5_CrrvOOmbedVNkoHAJxlEwQ8tbScw_7eHtjByIUNLUHOsQBo7rmMribZ9ZpPLC89V-9lSyMybFpSBE8ClRHD6itpcxnb_bpZk-06g7sjz4NaQn2gIAlL_0HNtA_BA7UvZT5jIptMIZetcXcSB'></iframe>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

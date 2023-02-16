@@ -61,7 +61,12 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <h1 class='text-center bg-body-tertiary py-3'><img class='img-fluid d-inline-block align-text-top' src='./images/brand.png' width='300'><br>Comm Apps Login</h1>
+  <nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
+    <div class='container'>
+      <a class='navbar-brand d-flex mx-auto' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='./images/brand.png' width='300' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <p class='text-end fs-1 my-0 d-flex mx-auto'>Comm Apps Login</p>
+    </div>
+  </nav>
   <div class='container'>
     <div class='row'>
       <div class='col-lg-2'></div>

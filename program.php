@@ -16,13 +16,13 @@
   <meta property='og:site_name' content='RoIPMARS'>
   <meta property='og:title' content='RoIPMARS | Jadual Program 2023'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Jadual Program 2023'>
-  <meta property='og:url' content='https://www.roipmars.org.my/policies'>
+  <meta property='og:url' content='https://www.roipmars.org.my/program'>
   <meta property='og:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='RoIPMARS | Jadual Program 2023'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Jadual Program 2023'>
-  <meta name='twitter:url' content='https://www.roipmars.org.my/policies'>
+  <meta name='twitter:url' content='https://www.roipmars.org.my/program'>
   <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
@@ -1145,7 +1145,7 @@
         <div class='col-lg-8 mx-auto my-1'>
           <h5 class='text-uppercase mb-2 fw-bold text-md-start'>Sumbangan</h5>
           <p class='mb-2 text-md-start'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan kami serta semua Perkhidmatan kami tersedia untuk anda pada bila-bila masa di mana sahaja</p>
-          <table class='table table-sm table-bordered table-striped text-center align-middle my-0 mx-auto w-auto' style='white-space: nowrap'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle text-wrap my-0 mx-auto w-auto' style='white-space: nowrap'>
             <tbody>
               <tr><th>Nama</th><td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#41;</td></tr>
               <tr><th>Bank</th><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKL</td></tr>

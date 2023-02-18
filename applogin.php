@@ -30,21 +30,21 @@
   <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
   <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
   <meta name='color-scheme' content='dark'>
-  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon-16x16.png'>
-  <link rel='icon' type='image/png' sizes='32x32' href='./images/favicon-32x32.png'>
-  <link rel='icon' type='image/png' sizes='96x96' href='./images/favicon-96x96.png'>
-  <link rel='icon' type='image/png' sizes='192x192' href='./images/android-icon-192x192.png'>
-  <link rel='apple-touch-icon' sizes='57x57' href='./images/apple-icon-57x57.png'>
-  <link rel='apple-touch-icon' sizes='60x60' href='./images/apple-icon-60x60.png'>
-  <link rel='apple-touch-icon' sizes='72x72' href='./images/apple-icon-72x72.png'>
-  <link rel='apple-touch-icon' sizes='76x76' href='./images/apple-icon-76x76.png'>
-  <link rel='apple-touch-icon' sizes='114x114' href='./images/apple-icon-114x114.png'>
-  <link rel='apple-touch-icon' sizes='120x120' href='./images/apple-icon-120x120.png'>
-  <link rel='apple-touch-icon' sizes='144x144' href='./images/apple-icon-144x144.png'>
-  <link rel='apple-touch-icon' sizes='152x152' href='./images/apple-icon-152x152.png'>
-  <link rel='apple-touch-icon' sizes='180x180' href='./images/apple-icon-180x180.png'>
+  <link rel='shortcut icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='16x16' href='media/image/favicon-16x16.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='media/image/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='media/image/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='media/image/android-icon-192x192.png'>
+  <link rel='apple-touch-icon' sizes='57x57' href='media/image/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='media/image/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='media/image/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='media/image/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='media/image/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='media/image/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='media/image/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
   <link rel='manifest' href='./vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
@@ -63,7 +63,7 @@
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
     <div class='container'>
-      <a class='navbar-brand d-flex mx-auto' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='./images/brand.png' width='300' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <a class='navbar-brand d-flex mx-auto' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='300' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <p class='text-end fs-1 my-0 d-flex mx-auto'>Comm Apps Login</p>
     </div>
   </nav>
@@ -85,9 +85,9 @@
             <input type='text' class='form-control form-control-lg text-center rounded-pill' pattern='[\w]{3-19}' minlength='3' maxlength='19' aria-label='location' id='location' name='location' placeholder='KUALA LUMPUR' required>
           </div>
           <div class='hstack gap-3 mt-3 text-center'>
-            <button class='btn btn-outline-primary btn-lg rounded-3' type='submit' onClick='ts3marslogin()'>Log Masuk<br><img class='img-fluid d-inline-block align-middle' src='https://cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='100'> <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
+            <button class='btn btn-outline-primary btn-lg rounded-3' type='submit' onClick='ts3marslogin()'>Log Masuk<br><img class='img-fluid d-inline-block align-middle' src='https://cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='100'> <img class='img-fluid d-inline-block align-middle' src='media/image/brand.png' width='150'></button>
             <button class='btn btn-outline-primary btn-lg rounded-3 ms-auto' type='submit' onClick='ts3dalogin()'>Log Masuk<br><img class='img-fluid d-inline-block align-middle' src='https://cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='100'> <img class='img-fluid d-inline-block align-middle' src='https://www.roipdarulaman.com/images/roipda_icon.png' width='25'></button>
-            <button class='btn btn-outline-secondary btn-lg rounded-3 ms-auto' type='submit' onClick='mumblelogin()'>Log Masuk<br><img class='img-fluid d-inline-block align-middle' src='https://www.mumble.info/css/mumble.svg' width='20'> Mumble <img class='img-fluid d-inline-block align-middle' src='./images/brand.png' width='150'></button>
+            <button class='btn btn-outline-secondary btn-lg rounded-3 ms-auto' type='submit' onClick='mumblelogin()'>Log Masuk<br><img class='img-fluid d-inline-block align-middle' src='https://www.mumble.info/css/mumble.svg' width='20'> Mumble <img class='img-fluid d-inline-block align-middle' src='media/image/brand.png' width='150'></button>
           </div>
         </form>
       </div>

@@ -29,21 +29,21 @@
   <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
   <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
   <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
-  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon-16x16.png'>
-  <link rel='icon' type='image/png' sizes='32x32' href='./images/favicon-32x32.png'>
-  <link rel='icon' type='image/png' sizes='96x96' href='./images/favicon-96x96.png'>
-  <link rel='icon' type='image/png' sizes='192x192' href='./images/android-icon-192x192.png'>
-  <link rel='apple-touch-icon' sizes='57x57' href='./images/apple-icon-57x57.png'>
-  <link rel='apple-touch-icon' sizes='60x60' href='./images/apple-icon-60x60.png'>
-  <link rel='apple-touch-icon' sizes='72x72' href='./images/apple-icon-72x72.png'>
-  <link rel='apple-touch-icon' sizes='76x76' href='./images/apple-icon-76x76.png'>
-  <link rel='apple-touch-icon' sizes='114x114' href='./images/apple-icon-114x114.png'>
-  <link rel='apple-touch-icon' sizes='120x120' href='./images/apple-icon-120x120.png'>
-  <link rel='apple-touch-icon' sizes='144x144' href='./images/apple-icon-144x144.png'>
-  <link rel='apple-touch-icon' sizes='152x152' href='./images/apple-icon-152x152.png'>
-  <link rel='apple-touch-icon' sizes='180x180' href='./images/apple-icon-180x180.png'>
+  <link rel='shortcut icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='16x16' href='media/image/favicon-16x16.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='media/image/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='media/image/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='media/image/android-icon-192x192.png'>
+  <link rel='apple-touch-icon' sizes='57x57' href='media/image/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='media/image/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='media/image/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='media/image/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='media/image/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='media/image/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='media/image/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
   <link rel='manifest' href='./vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
@@ -83,12 +83,12 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
+  <nav class='navbar sticky-top navbar-expand-xl bg-body-tertiary'>
     <div class='container'>
-      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button>
       <div class='collapse navbar-collapse' id='navbarNav'>
-        <ul class='navbar-nav nav-pills fs-5 text-center d-flex mx-auto'>
+        <ul class='nav navbar-nav nav-pills fs-5 text-xl-center text-end d-flex mx-auto'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link' href='program'>Program</a></li>
@@ -108,7 +108,7 @@
   <div class='container-fluid'>
     <div class='row text-center'>
       <div class='col mt-2 mb-2 jumbotron-fluid'>
-        <img src='./images/banner-howto.jpg' class='img-fluid rounded-pill' alt='banner-howto'>
+        <img src='media/image/banner-howto.jpg' class='img-fluid rounded-pill' alt='banner-howto'>
         <h1 class='h1-responsive'>Cara-cara untuk berhubung bersama kami</h1>
       </div>
     </div>
@@ -299,7 +299,7 @@
       </div>
       <div class='col-md-3 mb-md-0 p-md-3' id='rlandroid'>
         <p class='text-center'>Sistem Pengulang pada Pemancar Mudah Alih dan Telefon Pintar Android &#40;Repeater Linking ROIP&#41;</p>
-        <video class='rounded-5 w-100' loading='lazy' controls preload='auto' src='./videos/repeater-linking-roip.mp4'></video>
+        <video class='rounded-5 w-100' loading='lazy' controls preload='auto' src='media/video/repeater-linking-roip.mp4'></video>
       </div>
       <div class='col-md-6 mb-md-0 p-md-3' id='gwpc'>
         <p class='text-center'>Gateway pada Pemancar Mudah Alih dan PC</p>
@@ -401,7 +401,7 @@
       </div>
 -->
           <div class='col'>
-            <img src='./images/tsan_bookmark.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_bookmark'>
+            <img src='media/image/tsan_bookmark.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_bookmark'>
             <div class='modal fade' id='tsan_bookmark' tabindex='-1' role='dialog' aria-labelledby='tsan_bookmarkTitle' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
                 <div class='modal-content'>
@@ -410,14 +410,14 @@
                     <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                   </div>
                   <div class='modal-body bg-dark'>
-                    <img src='./images/tsan_bookmark.png' class='img-fluid border border-white' loading='lazy'>
+                    <img src='media/image/tsan_bookmark.png' class='img-fluid border border-white' loading='lazy'>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class='col'>
-            <img src='./images/tsan_audio.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_audio'>
+            <img src='media/image/tsan_audio.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_audio'>
             <div class='modal fade' id='tsan_audio' tabindex='-1' role='dialog' aria-labelledby='tsan_audioTitle' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
                 <div class='modal-content'>
@@ -426,14 +426,14 @@
                     <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                   </div>
                   <div class='modal-body bg-dark'>
-                    <img src='./images/tsan_audio.png' class='img-fluid border border-white' loading='lazy'>
+                    <img src='media/image/tsan_audio.png' class='img-fluid border border-white' loading='lazy'>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class='col'>
-            <img src='./images/tsan_interface.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_interface'>
+            <img src='media/image/tsan_interface.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_interface'>
             <div class='modal fade' id='tsan_interface' tabindex='-1' role='dialog' aria-labelledby='tsan_interfaceTitle' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
                 <div class='modal-content'>
@@ -442,7 +442,7 @@
                     <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                   </div>
                   <div class='modal-body bg-dark'>
-                    <img src='./images/tsan_interface.png' class='img-fluid border border-white' loading='lazy'>
+                    <img src='media/image/tsan_interface.png' class='img-fluid border border-white' loading='lazy'>
                   </div>
                 </div>
               </div>
@@ -590,7 +590,7 @@
         </table>
         <div class='row'>
           <div class='col'>
-            <img src='./images/tsip_bookmark.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_bookmark'>
+            <img src='media/image/tsip_bookmark.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_bookmark'>
             <div class='modal fade' id='tsip_bookmark' tabindex='-1' role='dialog' aria-labelledby='tsip_bookmarkTitle' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
                 <div class='modal-content'>
@@ -599,14 +599,14 @@
                     <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                   </div>
                   <div class='modal-body bg-dark'>
-                    <img src='./images/tsip_bookmark.png' class='img-fluid border border-white' loading='lazy'>
+                    <img src='media/image/tsip_bookmark.png' class='img-fluid border border-white' loading='lazy'>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class='col'>
-            <img src='./images/tsip_menu.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_menu'>
+            <img src='media/image/tsip_menu.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_menu'>
             <div class='modal fade' id='tsip_menu' tabindex='-1' role='dialog' aria-labelledby='tsip_menuTitle' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
                 <div class='modal-content'>
@@ -615,14 +615,14 @@
                     <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                   </div>
                   <div class='modal-body bg-dark'>
-                    <img src='./images/tsip_menu.png' class='img-fluid border border-white' loading='lazy'>
+                    <img src='media/image/tsip_menu.png' class='img-fluid border border-white' loading='lazy'>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class='col'>
-            <img src='./images/tsip_setting1.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_setting1'>
+            <img src='media/image/tsip_setting1.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_setting1'>
             <div class='modal fade' id='tsip_setting1' tabindex='-1' role='dialog' aria-labelledby='tsip_setting1Title' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
                 <div class='modal-content'>
@@ -631,14 +631,14 @@
                     <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                   </div>
                   <div class='modal-body bg-dark'>
-                    <img src='./images/tsip_setting1.png' class='img-fluid border border-white' loading='lazy'>
+                    <img src='media/image/tsip_setting1.png' class='img-fluid border border-white' loading='lazy'>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class='col'>
-            <img src='./images/tsip_setting2.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_setting2'>
+            <img src='media/image/tsip_setting2.png' class='img-fluid rounded-5' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_setting2'>
             <div class='modal fade' id='tsip_setting2' tabindex='-1' role='dialog' aria-labelledby='tsip_setting2Title' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
                 <div class='modal-content'>
@@ -647,7 +647,7 @@
                     <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                   </div>
                   <div class='modal-body bg-dark'>
-                    <img src='./images/tsip_setting2.png' class='img-fluid border border-white' loading='lazy'>
+                    <img src='media/image/tsip_setting2.png' class='img-fluid border border-white' loading='lazy'>
                   </div>
                 </div>
               </div>
@@ -670,7 +670,7 @@
               <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
             </tbody>
           </table>
-          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='media/image/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
           <p class='my-0'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>

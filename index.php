@@ -29,21 +29,21 @@
   <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
   <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
   <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
-  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon-16x16.png'>
-  <link rel='icon' type='image/png' sizes='32x32' href='./images/favicon-32x32.png'>
-  <link rel='icon' type='image/png' sizes='96x96' href='./images/favicon-96x96.png'>
-  <link rel='icon' type='image/png' sizes='192x192' href='./images/android-icon-192x192.png'>
-  <link rel='apple-touch-icon' sizes='57x57' href='./images/apple-icon-57x57.png'>
-  <link rel='apple-touch-icon' sizes='60x60' href='./images/apple-icon-60x60.png'>
-  <link rel='apple-touch-icon' sizes='72x72' href='./images/apple-icon-72x72.png'>
-  <link rel='apple-touch-icon' sizes='76x76' href='./images/apple-icon-76x76.png'>
-  <link rel='apple-touch-icon' sizes='114x114' href='./images/apple-icon-114x114.png'>
-  <link rel='apple-touch-icon' sizes='120x120' href='./images/apple-icon-120x120.png'>
-  <link rel='apple-touch-icon' sizes='144x144' href='./images/apple-icon-144x144.png'>
-  <link rel='apple-touch-icon' sizes='152x152' href='./images/apple-icon-152x152.png'>
-  <link rel='apple-touch-icon' sizes='180x180' href='./images/apple-icon-180x180.png'>
+  <link rel='shortcut icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='16x16' href='media/image/favicon-16x16.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='media/image/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='media/image/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='media/image/android-icon-192x192.png'>
+  <link rel='apple-touch-icon' sizes='57x57' href='media/image/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='media/image/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='media/image/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='media/image/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='media/image/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='media/image/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='media/image/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
   <link rel='manifest' href='./vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
@@ -63,12 +63,12 @@
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='./vendor/js/fbchat.js'></script>
-  <nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
+  <nav class='navbar sticky-top navbar-expand-xl bg-body-tertiary'>
     <div class='container'>
-      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button>
       <div class='collapse navbar-collapse' id='navbarNav'>
-        <ul class='navbar-nav nav-pills fs-5 text-center d-flex mx-auto'>
+        <ul class='nav navbar-nav nav-pills fs-5 text-xl-center text-end d-flex mx-auto'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link' href='program'>Program</a></li>
@@ -88,7 +88,7 @@
   <div class='container-fluid'>
     <div class='row text-center'>
       <div class='col my-3'>
-        <img src='./images/banner/roipmarsv.png' loading='lazy' class='img-fluid rounded-5 shadow mb-3' width='85%' alt='banner-index'>
+        <img src='media/image/banner/roipmarsv.png' loading='lazy' class='img-fluid rounded-5 shadow mb-3' width='85%' alt='banner-index'>
         <h1 class='h1-responsive'>Selamat Datang ke RoIPMARS</h1>
         <p class='fs-5'>Malaysian Amateur Radio over Internet Protocol Society &#40;MARS&#41;</p>
         <p class='fs-3'>&#8212; MUDAH &#8212; MURAH &#8212; MERIAH &#8212; MERAPATKAN HUBUNGAN &#8212; MENJAGA SILATURRAHIM &#8212;</p>
@@ -134,7 +134,7 @@
     <div class='row text-center'>
       <div class='col-xxl-3 col-md-6 my-2'>
         <div class='card'>
-          <img src='./images/pic01.jpg' class='card-img-top'>
+          <img src='media/image/pic01.jpg' class='card-img-top'>
           <div class='card-body'>
             <h4 class='card-title'>Promosi</h4>
             <p class='card-text'>Ianya bukanlah satu tugas yang mudah untuk mempromosikan ROIP. Pada masa itu, kami telah dikejutkan kerana memperkenalkan teknologi internet sebagai alternatif ke radio ham. Kami berharap agar lama-kelamaan warga ham secara amnya akan terus menerajui teknologi baru.</p>
@@ -143,7 +143,7 @@
       </div>
       <div class='col-xxl-3 col-md-6 my-2'>
         <div class='card'>
-          <img src='./images/pic02.jpg' class='card-img-top'>
+          <img src='media/image/pic02.jpg' class='card-img-top'>
           <div class='card-body'>
             <h4 class='card-title'>Kerjasama</h4>
             <p class='card-text'>Apabila peluang muncul, kami berusaha untuk bekerjasama dengan kelab / persatuan lain untuk mempromosikan radio amatur. Beberapa kelab tempatan telah bersama berganding bahu mendalami teknologi ROIP. Semua bersepakat bahawa ROIP adalah alternatif apabila pengulang tidak berfungsi.</p>
@@ -152,7 +152,7 @@
       </div>
       <div class='col-xxl-3 col-md-6 my-2'>
         <div class='card'>
-          <img src='./images/pic03.jpg' class='card-img-top'>
+          <img src='media/image/pic03.jpg' class='card-img-top'>
           <div class='card-body'>
             <h4 class='card-title'>Jamboree</h4>
             <p class='card-text'>Kami mengambil bahagian secara aktif dalam acara tahunan JOTA JOTI. Pengakap diperkenalkan kepada komunikasi tanpa wayar dan diberi peluang untuk mengalami QSO buat kali pertama. Ramai yang teruja dan berminat untuk mengejar hobi radio amatur dalam masa terdekat.</p>
@@ -161,7 +161,7 @@
       </div>
       <div class='col-xxl-3 col-md-6 my-2'>
         <div class='card'>
-          <img src='./images/pic04.jpg' class='card-img-top'>
+          <img src='media/image/pic04.jpg' class='card-img-top'>
           <div class='card-body'>
             <h4 class='card-title'>Generasi Baru</h4>
             <p class='card-text'>Sambutan daripada kanak-kanak adalah di luar jangkaan kami. Mereka bersemangat apabila diberi peluang untuk mengendalikan sebuah stesen. Orang yang ramai lebih sukar untuk dikendalikan tetapi bernilai masa dan usaha kami. Kami menyukai semangat tinggi yang dipaparkan.</p>
@@ -230,7 +230,7 @@
               <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
             </tbody>
           </table>
-          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='media/image/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
           <p class='my-0'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>

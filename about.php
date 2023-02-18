@@ -29,21 +29,21 @@
   <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
   <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
   <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
-  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon-16x16.png'>
-  <link rel='icon' type='image/png' sizes='32x32' href='./images/favicon-32x32.png'>
-  <link rel='icon' type='image/png' sizes='96x96' href='./images/favicon-96x96.png'>
-  <link rel='icon' type='image/png' sizes='192x192' href='./images/android-icon-192x192.png'>
-  <link rel='apple-touch-icon' sizes='57x57' href='./images/apple-icon-57x57.png'>
-  <link rel='apple-touch-icon' sizes='60x60' href='./images/apple-icon-60x60.png'>
-  <link rel='apple-touch-icon' sizes='72x72' href='./images/apple-icon-72x72.png'>
-  <link rel='apple-touch-icon' sizes='76x76' href='./images/apple-icon-76x76.png'>
-  <link rel='apple-touch-icon' sizes='114x114' href='./images/apple-icon-114x114.png'>
-  <link rel='apple-touch-icon' sizes='120x120' href='./images/apple-icon-120x120.png'>
-  <link rel='apple-touch-icon' sizes='144x144' href='./images/apple-icon-144x144.png'>
-  <link rel='apple-touch-icon' sizes='152x152' href='./images/apple-icon-152x152.png'>
-  <link rel='apple-touch-icon' sizes='180x180' href='./images/apple-icon-180x180.png'>
+  <link rel='shortcut icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='16x16' href='media/image/favicon-16x16.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='media/image/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='media/image/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='media/image/android-icon-192x192.png'>
+  <link rel='apple-touch-icon' sizes='57x57' href='media/image/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='media/image/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='media/image/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='media/image/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='media/image/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='media/image/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='media/image/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
   <link rel='manifest' href='./vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
@@ -64,12 +64,12 @@
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='./vendor/js/fbchat.js'></script>
-  <nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
+  <nav class='navbar sticky-top navbar-expand-xl bg-body-tertiary'>
     <div class='container'>
-      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button>
       <div class='collapse navbar-collapse' id='navbarNav'>
-        <ul class='navbar-nav nav-pills fs-5 text-center d-flex mx-auto'>
+        <ul class='nav navbar-nav nav-pills fs-5 text-xl-center text-end d-flex mx-auto'>
           <li class='nav-item'><a class='nav-link active rounded-3' aria-current='page' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link' href='program'>Program</a></li>
@@ -195,7 +195,7 @@
                 <span class='flag'>Komuniti MeDiC</span>
                 <span class='time-wrapper'><span class='time'>Awal 2015</span></span>
               </div>
-              <div class='desc'><b>Malaysian eQSO Digital Community &#40;MeDiC&#41;</b> adalah antara komuniti yang memperkenalkan teknologi komunikasi digital kepada radio amatur di Malaysia. Antara ahli komuniti yang terawal adalah 9W2UZL, 9W2ZEC, 9W8ZZK, 9W2OGK, 9W2NDI, dan V85ABK.<img class='img-thumbnail rounded-5 mx-auto d-block my-2' loading='lazy' src='./images/002.jpg'>Banyak cabaran dan rintangan yang dihadapi ahli komuniti untuk memperoleh kepercayaan rakan radio amatur terhadap teknologi baru yang semakin pesat membangun. Walau bagaimanapun, mereka tidak patah semangat untuk terus mencuba bagi memperoleh kepercayaan penggiat radio amatur untuk menggunakan teknologi baru.</div>
+              <div class='desc'><b>Malaysian eQSO Digital Community &#40;MeDiC&#41;</b> adalah antara komuniti yang memperkenalkan teknologi komunikasi digital kepada radio amatur di Malaysia. Antara ahli komuniti yang terawal adalah 9W2UZL, 9W2ZEC, 9W8ZZK, 9W2OGK, 9W2NDI, dan V85ABK.<img class='img-thumbnail rounded-5 mx-auto d-block my-2' loading='lazy' src='media/image/002.jpg'>Banyak cabaran dan rintangan yang dihadapi ahli komuniti untuk memperoleh kepercayaan rakan radio amatur terhadap teknologi baru yang semakin pesat membangun. Walau bagaimanapun, mereka tidak patah semangat untuk terus mencuba bagi memperoleh kepercayaan penggiat radio amatur untuk menggunakan teknologi baru.</div>
             </div>
           </li>
           <li>
@@ -205,7 +205,7 @@
                 <span class='flag'>Mula Diterima Ramai</span>
                 <span class='time-wrapper'><span class='time'>2016</span></span>
               </div>
-              <div class='desc'><b>MeDiC</b> sempat menjadi salah satu komuniti yang dikenali ramai oleh penggiat teknologi komunikasi radio di Malaysia, Indonesia, Brunei, dan Selatan Thailand satu ketika dahulu. Konsep 5M yang dibawakan oleh MeDiC adalah:<table class='table table-sm table-responsive table-bordered table-striped text-center align-middle mt-2'><tbody><tr><td><b>MUDAH</b></td></tr><tr><td><b>MURAH</b></td></tr><tr><td><b>MERIAH</b></td></tr><tr><td><b>MENJAGA HUBUNGAN</b></td></tr><tr><td><b>MENGUASAI ILMU</b></td></tr></tbody></table><img class='img-thumbnail rounded-5 mx-auto d-block mb-2' loading='lazy' src='./images/001.jpg'>Pada waktu sama, pelayan TeamSpeak yang berada di kediaman 9W2UZL mengalami masalah beban &amp; muatan tinggi menjejaskan sambungan &amp; kualiti terhadap pengguna di Asia Tenggara khasnya Malaysia dipindahkan ke Pusat Data di Singapura bagi mengatasi masalah tersebut.</div>
+              <div class='desc'><b>MeDiC</b> sempat menjadi salah satu komuniti yang dikenali ramai oleh penggiat teknologi komunikasi radio di Malaysia, Indonesia, Brunei, dan Selatan Thailand satu ketika dahulu. Konsep 5M yang dibawakan oleh MeDiC adalah:<table class='table table-sm table-responsive table-bordered table-striped text-center align-middle mt-2'><tbody><tr><td><b>MUDAH</b></td></tr><tr><td><b>MURAH</b></td></tr><tr><td><b>MERIAH</b></td></tr><tr><td><b>MENJAGA HUBUNGAN</b></td></tr><tr><td><b>MENGUASAI ILMU</b></td></tr></tbody></table><img class='img-thumbnail rounded-5 mx-auto d-block mb-2' loading='lazy' src='media/image/001.jpg'>Pada waktu sama, pelayan TeamSpeak yang berada di kediaman 9W2UZL mengalami masalah beban &amp; muatan tinggi menjejaskan sambungan &amp; kualiti terhadap pengguna di Asia Tenggara khasnya Malaysia dipindahkan ke Pusat Data di Singapura bagi mengatasi masalah tersebut.</div>
             </div>
           </li>
           <li>
@@ -235,7 +235,7 @@
                 <span class='flag'>JASRA</span>
                 <span class='time-wrapper'><span class='time'>30 Okt 2018</span></span>
               </div>
-              <div class='desc'>Permohonan pihak <b>Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</b> untuk menghubungkan jaringan dua hala antara ROIPMARS dan pengulang mereka bagi menyemarakkan lagi aktiviti yang dijalankan di kedua-dua platform.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='./images/jasra18.jpg'></div>
+              <div class='desc'>Permohonan pihak <b>Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</b> untuk menghubungkan jaringan dua hala antara ROIPMARS dan pengulang mereka bagi menyemarakkan lagi aktiviti yang dijalankan di kedua-dua platform.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='media/image/jasra18.jpg'></div>
             </div>
           </li>
           <li>
@@ -245,7 +245,7 @@
                 <span class='flag'>Akademi 9M</span>
                 <span class='time-wrapper'><span class='time'>Akhir 2018</span></span>
               </div>
-              <div class='desc'><b>Idea Asal Akademi 9M &#40;Akademi NineMike&#41;</b> bermula dari kelas pembuatan antaramuka ROIP oleh 9W2UZL. Lalu dijenamakan ke &#39;<i>Discussion Class A</i>&#39;, &#39;<i>Pembelajaran Kelas A</i>&#39;, dan akhirnya beralih ke <b>&#39;<i>AKADEMI 9M</i>&#39;</b> sejak akhir 2018 yang diterajui oleh 9M2RAN &amp; 9M2VBC.<img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='./images/akademi9m.jpg'>Konsep asal yang dibawakan akademi ini adalah bagi membantu dan memberi khidmat latihan kepada pengendali radio amatur supaya lulus peperiksaan naik taraf kelas &#40;OCW&#41;.</div>
+              <div class='desc'><b>Idea Asal Akademi 9M &#40;Akademi NineMike&#41;</b> bermula dari kelas pembuatan antaramuka ROIP oleh 9W2UZL. Lalu dijenamakan ke &#39;<i>Discussion Class A</i>&#39;, &#39;<i>Pembelajaran Kelas A</i>&#39;, dan akhirnya beralih ke <b>&#39;<i>AKADEMI 9M</i>&#39;</b> sejak akhir 2018 yang diterajui oleh 9M2RAN &amp; 9M2VBC.<img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='media/image/akademi9m.jpg'>Konsep asal yang dibawakan akademi ini adalah bagi membantu dan memberi khidmat latihan kepada pengendali radio amatur supaya lulus peperiksaan naik taraf kelas &#40;OCW&#41;.</div>
             </div>
           </li>
           <li>
@@ -255,7 +255,7 @@
                 <span class='flag'>KRTC</span>
                 <span class='time-wrapper'><span class='time'>05 Dis 2018</span></span>
               </div>
-              <div class='desc'>Syarikat <b>Kalumpang Resort &amp; Training Centre &#40;KRTC&#41;</b> juga pernah membuat permohonan pelayan TeamSpeak3 untuk penggunaan pekerjanya berhubung antara satu sama lain.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='./images/krtc18.jpg'></div>
+              <div class='desc'>Syarikat <b>Kalumpang Resort &amp; Training Centre &#40;KRTC&#41;</b> juga pernah membuat permohonan pelayan TeamSpeak3 untuk penggunaan pekerjanya berhubung antara satu sama lain.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='media/image/krtc18.jpg'></div>
             </div>
           </li>
           <li>
@@ -265,7 +265,7 @@
                 <span class='flag'>Lawatan dari Selatan Thailand</span>
                 <span class='time-wrapper'><span class='time'>23 Feb 2019</span></span>
               </div>
-              <div class='desc'>Jemputan dari komuniti RoIPDarulAman bagi meraikan sahabat radio amatur dari Selatan Thailand dalam Kembara Berbasikal Thailand ke Malaysia yang berlansung di Kalumpang Resort &amp; Training Centre, Hulu Selangor.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='./images/018.jpg'></div>
+              <div class='desc'>Jemputan dari komuniti RoIPDarulAman bagi meraikan sahabat radio amatur dari Selatan Thailand dalam Kembara Berbasikal Thailand ke Malaysia yang berlansung di Kalumpang Resort &amp; Training Centre, Hulu Selangor.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='media/image/018.jpg'></div>
             </div>
           </li>
           <li>
@@ -325,7 +325,7 @@
                 <span class='flag'>BOTA Lumut</span>
                 <span class='time-wrapper'><span class='time'>16 Mac 2022</span></span>
               </div>
-              <div class='desc'>Jemputan dari komuniti RoIPDarulAman bagi menjayakan <i>Beach On The Air</i> &#40;BOTA&#41; yang berlansung di Pantai Kg. Acheh, Lumut, Perak.<img class='img-thumbnail rounded-circle mx-auto d-block mt-2' loading='lazy' src='./images/bota22.png'></div>
+              <div class='desc'>Jemputan dari komuniti RoIPDarulAman bagi menjayakan <i>Beach On The Air</i> &#40;BOTA&#41; yang berlansung di Pantai Kg. Acheh, Lumut, Perak.<img class='img-thumbnail rounded-circle mx-auto d-block mt-2' loading='lazy' src='media/image/bota22.png'></div>
             </div>
           </li>
           <li>
@@ -335,7 +335,7 @@
                 <span class='flag'>CQ 9M65MB</span>
                 <span class='time-wrapper'><span class='time'>30 Ogos 2022</span></span>
               </div>
-              <div class='desc'>Jemputan dari Komuniti Radio Amatur Sungai Buloh dengan kerjasama Jabatan Penerangan Malaysia yang diwakilkan oleh komuniti RoIPDarulAman untuk mengadakan pameran <i>&#39;Radio over Internet Protocol&#39;</i> &#40;RoIP&#41; semasa Sambutan Malam Hari Kebangsaan kali ke-65 yang berlansung di Paya Jaras, Sungai Buloh.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='./images/krasb22.jpg'></div>
+              <div class='desc'>Jemputan dari Komuniti Radio Amatur Sungai Buloh dengan kerjasama Jabatan Penerangan Malaysia yang diwakilkan oleh komuniti RoIPDarulAman untuk mengadakan pameran <i>&#39;Radio over Internet Protocol&#39;</i> &#40;RoIP&#41; semasa Sambutan Malam Hari Kebangsaan kali ke-65 yang berlansung di Paya Jaras, Sungai Buloh.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='media/image/krasb22.jpg'></div>
             </div>
           </li>
           <li>
@@ -355,7 +355,7 @@
                 <span class='flag'>Peraturan KMM &#40;Spektrum&#41; Pindaan 2022</span>
                 <span class='time-wrapper'><span class='time'>01 Januari 2023</span></span>
               </div>
-              <div class='desc'>Selaras dengan pindaan kepada Peraturan-Peraturan Komunikasi dan Multimedia &#40;Standard Teknik&#41; 2000 yang diluluskan pada 25 April 2022 &#91;<a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/communications-and-multimedia-spectrum-regulatio#content44480' target='_blank'>KKMM.600-1/4/8; PN(PU2)601/J1d. 12</a>&#93; dan berkuat kuasa pada 1 Januari 2023 &#40;iaitu bagi <b>peruntukan yang berkaitan dengan radio amatur</b>&#41;, Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;MCMC&#41; memaklumkan bahawa terdapat perubahan kepada struktur perakuan pengendali radio amatur di Malaysia iaitu:<table class='table table-responsive table-borderless table-sm text-start align-middle mb-0'><tbody><tr><td>i.</td><td>Format peperiksaan</td></tr><tr><td>ii.</td><td>Silibus peperiksaan</td></tr><tr><td>iii.</td><td>Syarat kelayakan untuk menduduki peperiksaan</td></tr><tr><td>iv.</td><td>Pengenalan kepada Kelas C</td></tr><tr><td>v.</td><td>Ujian Kod Morse untuk menaik taraf ke Kelas A digantikan dengan peperiksaan pilihan jawapan berkomputer</td></tr><tr><td>vi.</td><td>Penggunaan frekuensi dan had kuasa pancaran bagi setiap kelas</td></tr></tbody></table>Perubahan kepada struktur ini adalah untuk memastikan perakuan pengendali radio amatur yang diadakan di Malaysia sejajar dengan latihan yang diamalkan di negara-negara lain. Perubahan ini juga bertujuan untuk menggalakkan minat dari kalangan pelajar dalam bidang Sains, Teknologi, Kejuruteraan dan Matematik &#40;STEM&#41; melalui radio amatur dan menjurus kepada peningkatan pengendali radio amatur yang dapat membantu ketika bencana.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/press-releases/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank'>Siaran Akhbar MCMC</a> <a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/announcements/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank'>Pengumuman MCMC</a><hr><img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='./images/akademi9mbw.jpg'>Dukacita dimaklumkan, selaras dengan perubahan format &amp; silibus peperiksaan, Akademi 9M dihentikan khidmatnya bagi membantu pengendali radio amatur menaiktaraf kelas mereka. Sejak memulakan Akademi 9M, seramai lebih 70 pengendali telahpun dilahirkan antaranya: 9M2MWZ, 9M2NUZ, 9M2SFF, 9M2VJP, 9M2VVH, 9M2BUN, 9M6RDY, 9M6AUA, 9M6JAY, 9M6RMD, 9M2KZI, dan ramai lagi.</div>
+              <div class='desc'>Selaras dengan pindaan kepada Peraturan-Peraturan Komunikasi dan Multimedia &#40;Standard Teknik&#41; 2000 yang diluluskan pada 25 April 2022 &#91;<a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/communications-and-multimedia-spectrum-regulatio#content44480' target='_blank'>KKMM.600-1/4/8; PN(PU2)601/J1d. 12</a>&#93; dan berkuat kuasa pada 1 Januari 2023 &#40;iaitu bagi <b>peruntukan yang berkaitan dengan radio amatur</b>&#41;, Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;MCMC&#41; memaklumkan bahawa terdapat perubahan kepada struktur perakuan pengendali radio amatur di Malaysia iaitu:<table class='table table-responsive table-borderless table-sm text-start align-middle mb-0'><tbody><tr><td>i.</td><td>Format peperiksaan</td></tr><tr><td>ii.</td><td>Silibus peperiksaan</td></tr><tr><td>iii.</td><td>Syarat kelayakan untuk menduduki peperiksaan</td></tr><tr><td>iv.</td><td>Pengenalan kepada Kelas C</td></tr><tr><td>v.</td><td>Ujian Kod Morse untuk menaik taraf ke Kelas A digantikan dengan peperiksaan pilihan jawapan berkomputer</td></tr><tr><td>vi.</td><td>Penggunaan frekuensi dan had kuasa pancaran bagi setiap kelas</td></tr></tbody></table>Perubahan kepada struktur ini adalah untuk memastikan perakuan pengendali radio amatur yang diadakan di Malaysia sejajar dengan latihan yang diamalkan di negara-negara lain. Perubahan ini juga bertujuan untuk menggalakkan minat dari kalangan pelajar dalam bidang Sains, Teknologi, Kejuruteraan dan Matematik &#40;STEM&#41; melalui radio amatur dan menjurus kepada peningkatan pengendali radio amatur yang dapat membantu ketika bencana.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/press-releases/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank'>Siaran Akhbar MCMC</a> <a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/announcements/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank'>Pengumuman MCMC</a><hr><img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='media/image/akademi9mbw.jpg'>Dukacita dimaklumkan, selaras dengan perubahan format &amp; silibus peperiksaan, Akademi 9M dihentikan khidmatnya bagi membantu pengendali radio amatur menaiktaraf kelas mereka. Sejak memulakan Akademi 9M, seramai lebih 70 pengendali telahpun dilahirkan antaranya: 9M2MWZ, 9M2NUZ, 9M2SFF, 9M2VJP, 9M2VVH, 9M2BUN, 9M6RDY, 9M6AUA, 9M6JAY, 9M6RMD, 9M2KZI, dan ramai lagi.</div>
             </div>
           </li>
 <!--
@@ -388,7 +388,7 @@
               <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
             </tbody>
           </table>
-          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='media/image/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
           <p class='my-0'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>

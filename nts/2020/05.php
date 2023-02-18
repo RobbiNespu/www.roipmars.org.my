@@ -30,21 +30,21 @@
   <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
   <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
   <meta name='color-scheme' content='dark'>
-  <link rel='shortcut icon' type='image/x-icon' href='../../images/favicon.ico'>
-  <link rel='icon' type='image/x-icon' href='../../images/favicon.ico'>
-  <link rel='icon' type='image/png' sizes='16x16' href='../../images/favicon-16x16.png'>
-  <link rel='icon' type='image/png' sizes='32x32' href='../../images/favicon-32x32.png'>
-  <link rel='icon' type='image/png' sizes='96x96' href='../../images/favicon-96x96.png'>
-  <link rel='icon' type='image/png' sizes='192x192' href='../../images/android-icon-192x192.png'>
-  <link rel='apple-touch-icon' sizes='57x57' href='../../images/apple-icon-57x57.png'>
-  <link rel='apple-touch-icon' sizes='60x60' href='../../images/apple-icon-60x60.png'>
-  <link rel='apple-touch-icon' sizes='72x72' href='../../images/apple-icon-72x72.png'>
-  <link rel='apple-touch-icon' sizes='76x76' href='../../images/apple-icon-76x76.png'>
-  <link rel='apple-touch-icon' sizes='114x114' href='../../images/apple-icon-114x114.png'>
-  <link rel='apple-touch-icon' sizes='120x120' href='../../images/apple-icon-120x120.png'>
-  <link rel='apple-touch-icon' sizes='144x144' href='../../images/apple-icon-144x144.png'>
-  <link rel='apple-touch-icon' sizes='152x152' href='../../images/apple-icon-152x152.png'>
-  <link rel='apple-touch-icon' sizes='180x180' href='../../images/apple-icon-180x180.png'>
+  <link rel='shortcut icon' type='image/x-icon' href='../../media/image/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='../../media/image/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='16x16' href='../../media/image/favicon-16x16.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='../../media/image/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='../../media/image/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='../../media/image/android-icon-192x192.png'>
+  <link rel='apple-touch-icon' sizes='57x57' href='../../media/image/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='../../media/image/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='../../media/image/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='../../media/image/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='../../media/image/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='../../media/image/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='../../media/image/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='../../media/image/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='../../media/image/apple-icon-180x180.png'>
   <link rel='manifest' href='../../vendor/manifest.json'>
   <link rel='preconnect' href='https://fonts.googleapis.com'>
   <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
@@ -85,7 +85,7 @@
         <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
       </tbody>
     </table>
-    <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='../../images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='../../images/fpx.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
+    <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='../../media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='../../media/image/fpx.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
     <p>Mulai Mac 2020, segala maklumat baru yang diberikan bakal mengambil masa maksimum 48 jam waktu bekerja untuk proses permohonan &amp; pendaftaran bagi tujuan semakan terlebih dahulu dengan maklumat sedia ada bagi mengelakkan pertindihan.</p>
     <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
     <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member@roipmars.org.my</a></p>

@@ -29,21 +29,21 @@
   <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
   <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
   <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
-  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon-16x16.png'>
-  <link rel='icon' type='image/png' sizes='32x32' href='./images/favicon-32x32.png'>
-  <link rel='icon' type='image/png' sizes='96x96' href='./images/favicon-96x96.png'>
-  <link rel='icon' type='image/png' sizes='192x192' href='./images/android-icon-192x192.png'>
-  <link rel='apple-touch-icon' sizes='57x57' href='./images/apple-icon-57x57.png'>
-  <link rel='apple-touch-icon' sizes='60x60' href='./images/apple-icon-60x60.png'>
-  <link rel='apple-touch-icon' sizes='72x72' href='./images/apple-icon-72x72.png'>
-  <link rel='apple-touch-icon' sizes='76x76' href='./images/apple-icon-76x76.png'>
-  <link rel='apple-touch-icon' sizes='114x114' href='./images/apple-icon-114x114.png'>
-  <link rel='apple-touch-icon' sizes='120x120' href='./images/apple-icon-120x120.png'>
-  <link rel='apple-touch-icon' sizes='144x144' href='./images/apple-icon-144x144.png'>
-  <link rel='apple-touch-icon' sizes='152x152' href='./images/apple-icon-152x152.png'>
-  <link rel='apple-touch-icon' sizes='180x180' href='./images/apple-icon-180x180.png'>
+  <link rel='shortcut icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='16x16' href='media/image/favicon-16x16.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='media/image/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='media/image/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='media/image/android-icon-192x192.png'>
+  <link rel='apple-touch-icon' sizes='57x57' href='media/image/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='media/image/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='media/image/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='media/image/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='media/image/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='media/image/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='media/image/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
   <link rel='manifest' href='./vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
@@ -65,12 +65,12 @@
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='./vendor/js/fbchat.js'></script>
-  <nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
+  <nav class='navbar sticky-top navbar-expand-xl bg-body-tertiary'>
     <div class='container'>
-      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button>
       <div class='collapse navbar-collapse' id='navbarNav'>
-        <ul class='navbar-nav nav-pills fs-5 text-center d-flex mx-auto'>
+        <ul class='nav navbar-nav nav-pills fs-5 text-xl-center text-end d-flex mx-auto'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link active pill' aria-current='page' href='program'>Program</a></li>
@@ -133,157 +133,157 @@
         <div id='ncs23' class='carousel carousel-fade' data-bs-ride='carousel' data-bs-interval='5000'>
           <div class='carousel-inner'>
             <div class='carousel-item active'>
-              <img src='./images/member/013.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W8VWW'>
+              <img src='media/image/member/013.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W8VWW'>
                 <p class='fs-3 my-0'>9W8VWW / 58MSVWW</p>
                 <p class='fs-5 my-0'>VERONICA CATHERINE</p>
                 <p>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/031.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2EZK'>
+              <img src='media/image/member/031.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2EZK'>
                 <p class='fs-3 my-0'>9W2EZK / 113DAZIK</p>
                 <p class='fs-5 my-0'>IFFIQ ZIKRY</p>
                 <p>PENGURUS SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/020.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6SFF'>
+              <img src='media/image/member/020.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6SFF'>
                 <p class='fs-3 my-0'>9M2SFF / 113MSSFF</p>
                 <p class='fs-5 my-0'>ROZAIMAN SUFFIAN</p>
                 <p>PENOLONG PENGURUS AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/010.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6AUA'>
+              <img src='media/image/member/010.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6AUA'>
                 <p class='fs-3 my-0'>9M6AUA / 58MSAUA</p>
                 <p class='fs-5 my-0'>JEOFREY</p>
                 <p>PENYELIA SIARAYA 1</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/017.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RDY'>
+              <img src='media/image/member/017.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RDY'>
                 <p class='fs-3 my-0'>9M6RDY</p>
                 <p class='fs-5 my-0'>MATTHEUS @ RUDY</p>
                 <p>PENYELIA SIARAYA 2</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/025.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2AYP'>
+              <img src='media/image/member/025.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2AYP'>
                 <p class='fs-3 my-0'>9W2AYP / 113DAPLY</p>
                 <p class='fs-5 my-0'>SABRI</p>
                 <p>PENYELIA SIARAYA 3</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9m6jay.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6JAY'>
+              <img src='media/image/ncs/9m6jay.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6JAY'>
                 <p class='fs-3 my-0'>9M6JAY</p>
                 <p class='fs-5 my-0'>JOHN JR.</p>
                 <p>PENYELIA AKTIVITI 1</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/029.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2JCP'>
+              <img src='media/image/member/029.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2JCP'>
                 <p class='fs-3 my-0'>9W2JCP / 113DAJCP</p>
                 <p class='fs-5 my-0'>ROSLI</p>
                 <p>PENYELIA AKTIVITI 2</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w2sft.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2SFT'>
+              <img src='media/image/ncs/9w2sft.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2SFT'>
                 <p class='fs-3 my-0'>9W2SFT</p>
                 <p class='fs-5 my-0'>SYAWAL</p>
                 <p>PENYELIA AKTIVITI 3</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9m2kzi.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M2KZI'>
+              <img src='media/image/ncs/9m2kzi.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M2KZI'>
                 <p class='fs-3 my-0'>9M2KZI</p>
                 <p class='fs-5 my-0'>ZULKARNAIN</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9m6rhm.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RHM'>
+              <img src='media/image/ncs/9m6rhm.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RHM'>
                 <p class='fs-3 my-0'>9M6RHM</p>
                 <p class='fs-5 my-0'>RAHIM</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9m6rmd.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RMD'>
+              <img src='media/image/ncs/9m6rmd.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RMD'>
                 <p class='fs-3 my-0'>9M6RMD</p>
                 <p class='fs-5 my-0'>ROSNI</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w2gsv.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2GSV'>
+              <img src='media/image/ncs/9w2gsv.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2GSV'>
                 <p class='fs-3 my-0'>9W2GSV</p>
                 <p class='fs-5 my-0'>SHAHRUZIE</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w6aze.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6AZE'>
+              <img src='media/image/ncs/9w6aze.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6AZE'>
                 <p class='fs-3 my-0'>9W6AZE</p>
                 <p class='fs-5 my-0'>HAZARI</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w6pkj.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6PKJ'>
+              <img src='media/image/ncs/9w6pkj.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6PKJ'>
                 <p class='fs-3 my-0'>9W6PKJ</p>
                 <p class='fs-5 my-0'>JANSON</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w6rhn.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6RHN'>
+              <img src='media/image/ncs/9w6rhn.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6RHN'>
                 <p class='fs-3 my-0'>9W6RHN</p>
                 <p class='fs-5 my-0'>ROSLAN</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w8vyy.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W8VYY'>
+              <img src='media/image/ncs/9w8vyy.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W8VYY'>
                 <p class='fs-3 my-0'>9W8VYY</p>
                 <p class='fs-5 my-0'>ALEX</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/008.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2OGK'>
+              <img src='media/image/member/008.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2OGK'>
                 <p class='fs-3 my-0'>9W2OGK / 113DAOGK</p>
                 <p class='fs-5 my-0'>KAMARUDZAMAN</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w2snn.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2SNN'>
+              <img src='media/image/ncs/9w2snn.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2SNN'>
                 <p class='fs-3 my-0'>9W2SNN / 113MSSAM</p>
                 <p class='fs-5 my-0'>SAMSUL</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w2yjt.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2YJT'>
+              <img src='media/image/ncs/9w2yjt.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2YJT'>
                 <p class='fs-3 my-0'>9W2YJT / 113DAYJT</p>
                 <p class='fs-5 my-0'>YUSOF</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w6aff.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6AFF'>
+              <img src='media/image/ncs/9w6aff.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6AFF'>
                 <p class='fs-3 my-0'>9W6AFF / 58MSAFF</p>
                 <p class='fs-5 my-0'>SAFRI</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/006.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6MOZ'>
+              <img src='media/image/member/006.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6MOZ'>
                 <p class='fs-3 my-0'>9W6MOZ / 58MSMOZ</p>
                 <p class='fs-5 my-0'>MUSTAFA</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/9w6wot.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6WOT'>
+              <img src='media/image/ncs/9w6wot.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6WOT'>
                 <p class='fs-3 my-0'>9W6WOT / 58MSWOT</p>
                 <p class='fs-5 my-0'>STEWARD</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/028.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2NEW'>
+              <img src='media/image/member/028.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2NEW'>
                 <p class='fs-3 my-0'>9W2NEW / 113DAISS</p>
                 <p class='fs-5 my-0'>HISHAM</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/ncs/113daykb.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='113DAYKB'>
+              <img src='media/image/ncs/113daykb.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='113DAYKB'>
                 <p class='fs-3 my-0'>113DAYKB</p>
                 <p class='fs-5 my-0'>YAAKOB</p>
                 <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='./images/member/003.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M2RAN'>
+              <img src='media/image/member/003.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M2RAN'>
                 <p class='fs-3 my-0'>9M2RAN / 113MSRAN</p>
                 <p class='fs-5 my-0'>NOR IMRAN</p>
                 <p>PETUGAS SANDARAN AKTIVITI</p>
@@ -360,23 +360,23 @@
                 <tr><td>Sabtu<br>11 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6RHN</td><td>29</td></tr>
                 <tr><td>Ahad<br>12 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>22</td></tr>
                 <tr><td>Rabu<br>15 Feb</td><td>2100MY</td><td>English Net</td><td>9W2EZK</td><td>18</td></tr>
-                <tr><td>Jumaat<br>17 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W2YJT</td><td></td></tr>
-                <tr class='bg-dark-subtle'><td rowspan='2'>Sabtu<br>18 Feb</td><td>2000MY<br>-<br>0000MY</td><td>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</a><td>Kalumpang Resort, Hulu Selangor</td><td><a href='https://forms.gle/KM8MaH4ivfLN3v7N8' target='_blank'>RSVP</a></td></tr>
+                <tr><td>Jumaat<br>17 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W2YJT</td><td><i class='bi-send-exclamation text-danger'></i></td></tr>
+                <tr class='bg-dark-subtle'><td rowspan='2'>Sabtu<br>18 Feb</td><td>2000MY<br>-<br>0000MY</td><td>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</a><td>Kalumpang Resort, Hulu Selangor</td>&mdash;</td></tr>
                 <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Israk Mikraj&#41;</td><td>9M2KZI</td><td></td></tr>
-                <tr class='bg-dark-subtle'><td rowspan='2'>Ahad<br>19 Feb</td><td>0900MY<br>-<br>1200MY</td><td>Mesyuarat Agung Tahunan<br>Annual General Meeting<br>AGM 2022</td><td>Kalumpang Resort, Hulu Selangor</td><td><a href='https://forms.gle/KM8MaH4ivfLN3v7N8' target='_blank'>RSVP</a></td></tr>
+                <tr class='bg-dark-subtle'><td rowspan='2'>Ahad<br>19 Feb</td><td>0900MY<br>-<br>1200MY</td><td>Mesyuarat Agung Tahunan<br>Annual General Meeting<br>AGM 2022</td><td>Kalumpang Resort, Hulu Selangor</td>&mdash;</td></tr>
                 <tr><td>2100MY</td><td>CB Net</td><td>113DAYKB</td><td></td></tr>
                 <tr class='bg-info-subtle'><td>Rabu<br>22 Feb</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Thinking Day&#41;</td><td>9M6JAY</td><td></td></tr>
                 <tr><td>Jumaat<br>24 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td></td></tr>
                 <tr><td>Sabtu<br>25 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td></td></tr>
                 <tr><td>Ahad<br>26 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>
               </tbody>
-<!--
               <caption>
                 <ul class='list-group list-group-flush fs-6'>
-                  <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan Aktiviti tidak lengkap</li>
+<!--                  <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>-->
+                  <li class='list-group-item'><i class='bi-send-exclamation text-danger'></i> Laporan Aktiviti tidak diterima</li>
+<!--                  <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan Aktiviti tidak lengkap</li>-->
                 </ul>
               </capton>
--->
             </table>
           </div>
         </div>
@@ -778,7 +778,7 @@
                 <tr><td>Jumaat<br>08 Dis</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td></td><td></td></tr>
                 <tr class='bg-primary-subtle'><td>Sabtu<br>09 Dis</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Anti Rasuah Antarabangsa&#41;</td><td></td><td></td></tr>
                 <tr class='bg-danger-subtle'><td>Ahad<br>10 Dis</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Hak Asasi Manusia&#41;</td><td></td><td></td></tr>
-                <tr class='bg-primary-subtle'><td>Isnin<br>11 Dis</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Guung Antarabangsa&#41;</td><td></td><td></td></tr>
+                <tr class='bg-primary-subtle'><td>Isnin<br>11 Dis</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Gunung Antarabangsa&#41;</td><td></td><td></td></tr>
                 <tr><td>Rabu<br>13 Dis</td><td>2100MY</td><td>Learning English Net</td><td></td><td></td></tr>
                 <tr><td>Jumaat<br>15 Dis</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td></td><td></td></tr>
                 <tr><td>Sabtu<br>16 Dis</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td></td><td></td></tr>
@@ -1151,7 +1151,7 @@
               <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
             </tbody>
           </table>
-          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='media/image/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
           <p class='my-0'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>

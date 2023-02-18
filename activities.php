@@ -29,21 +29,21 @@
   <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
   <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
   <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
-  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
-  <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon-16x16.png'>
-  <link rel='icon' type='image/png' sizes='32x32' href='./images/favicon-32x32.png'>
-  <link rel='icon' type='image/png' sizes='96x96' href='./images/favicon-96x96.png'>
-  <link rel='icon' type='image/png' sizes='192x192' href='./images/android-icon-192x192.png'>
-  <link rel='apple-touch-icon' sizes='57x57' href='./images/apple-icon-57x57.png'>
-  <link rel='apple-touch-icon' sizes='60x60' href='./images/apple-icon-60x60.png'>
-  <link rel='apple-touch-icon' sizes='72x72' href='./images/apple-icon-72x72.png'>
-  <link rel='apple-touch-icon' sizes='76x76' href='./images/apple-icon-76x76.png'>
-  <link rel='apple-touch-icon' sizes='114x114' href='./images/apple-icon-114x114.png'>
-  <link rel='apple-touch-icon' sizes='120x120' href='./images/apple-icon-120x120.png'>
-  <link rel='apple-touch-icon' sizes='144x144' href='./images/apple-icon-144x144.png'>
-  <link rel='apple-touch-icon' sizes='152x152' href='./images/apple-icon-152x152.png'>
-  <link rel='apple-touch-icon' sizes='180x180' href='./images/apple-icon-180x180.png'>
+  <link rel='shortcut icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='media/image/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='16x16' href='media/image/favicon-16x16.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='media/image/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='media/image/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='media/image/android-icon-192x192.png'>
+  <link rel='apple-touch-icon' sizes='57x57' href='media/image/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='media/image/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='media/image/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='media/image/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='media/image/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='media/image/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='media/image/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
   <link rel='manifest' href='./vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
@@ -63,12 +63,12 @@
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='./vendor/js/fbchat.js'></script>
-  <nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
+  <nav class='navbar sticky-top navbar-expand-xl bg-body-tertiary'>
     <div class='container'>
-      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='./images/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button>
       <div class='collapse navbar-collapse' id='navbarNav'>
-        <ul class='navbar-nav nav-pills fs-5 text-center d-flex mx-auto'>
+        <ul class='nav navbar-nav nav-pills fs-5 text-xl-center text-end d-flex mx-auto'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link active rounded-3' aria-current='page' href='activities'>Aktiviti</a></li>
           <li class='nav-item'><a class='nav-link' href='program'>Program</a></li>
@@ -95,53 +95,53 @@
   </div>
   <div class='container'>
     <div class='row'>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/048.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/047.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/046.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/048.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/047.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/046.jpg'></div>
     </div>
     <div class='row'>
       <div class='col-xl-6 m-0 p-1'>
         <div class='ratio ratio-21x9'>
-          <video class='rounded-3 w-100 object-fit-cover' loading='lazy' controls preload='auto' src='./videos/reds080223.mp4'></video>
+          <video class='rounded-3 w-100 object-fit-cover' loading='lazy' controls preload='auto' src='media/video/reds080223.mp4'></video>
         </div>
       </div>
       <div class='col-xl-6 m-0 p-1'>
         <div class='ratio ratio-21x9'>
-          <img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/reds0802.jpg'>
-          <audio controls preload src='./audios/bombareds080223.mp3'></audio>
+          <img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/reds0802.jpg'>
+          <audio controls preload src='media/audio/bombareds080223.mp3'></audio>
         </div>
       </div>
     </div>
     <div class='row'>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/042.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/041.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/040.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/039.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/038.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/037.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/036.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/035.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/034.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/033.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/032.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/031.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/042.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/041.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/040.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/039.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/038.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/037.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/036.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/035.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/034.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/033.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/032.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/031.jpg'></div>
     </div>
     <div class='row'>
       <div class='col-12 m-0 p-1'>
         <div class='ratio ratio-21x9'>
-          <img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/krasb22.jpg'>
+          <img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/krasb22.jpg'>
         </div>
       </div>
     </div>
     <div class='row'>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/043.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/044.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/045.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/043.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/044.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/045.jpg'></div>
     </div>
     <div class='row'>
       <div class='col-12 m-0 p-1'>
         <div class='ratio ratio-21x9'>
-          <img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/bota22sq.jpg'>
+          <img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/bota22sq.jpg'>
         </div>
       </div>
     </div>
@@ -161,36 +161,36 @@
       </div>
     </div>
     <div class='row'>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/030.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/029.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/028.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/027.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/026.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/025.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/024.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/023.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/022.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/021.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/020.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/019.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/018.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/017.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/016.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/015.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/014.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/013.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/012.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/011.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/010.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/009.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/008.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/007.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/006.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/005.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/004.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/003.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/002.jpg'></div>
-      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='./images/001.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/030.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/029.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/028.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/027.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/026.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/025.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/024.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/023.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/022.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/021.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/020.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/019.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/018.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/017.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/016.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/015.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/014.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/013.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/012.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/011.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/010.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/009.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/008.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/007.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/006.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/005.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/004.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/003.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/002.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/001.jpg'></div>
     </div>
   </div>
   <footer class='footer mt-auto py-1 page-footer font-small bg-body-tertiary text-center'>
@@ -206,7 +206,7 @@
               <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
             </tbody>
           </table>
-          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='./images/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='./images/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='media/image/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
           <p class='my-0'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>

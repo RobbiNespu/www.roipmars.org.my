@@ -126,6 +126,33 @@
         </div>
       </div>
     </div>
+    <div class='row my-3'>
+      <div class='col-12 text-center'>
+        <h3 class='h3'>Penyelidikan Berterusan</h3>
+      </div>
+      <div class='col-md-9 mb-md-0 p-md-3'>
+        <p class='text-center'>Apa itu Gateway?</p>
+          <div class='ratio ratio-16x9'>
+            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/CihK_ebySF0' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+          </div>
+      </div>
+      <div class='col-md-3 mb-md-0 p-md-3' id='rlandroid'>
+        <p class='text-center'>Sistem Pengulang pada Pemancar Mudah Alih dan Telefon Pintar Android &#40;Repeater Linking ROIP&#41;</p>
+        <video class='rounded-5 w-100' loading='lazy' controls preload='auto' src='media/video/repeater-linking-roip.mp4'></video>
+      </div>
+      <div class='col-md-6 mb-md-0 p-md-3' id='gwpc'>
+        <p class='text-center'>Sistem Perantara pada Pemancar Mudah Alih dan PC</p>
+        <div class='ratio ratio-21x9'>
+          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/-JGQpxAyEQo' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class='col-md-6 mb-md-0 p-md-3' id='gwandroid'>
+        <p class='text-center'>Sistem Perantara pada Pemancar Mudah Alih dan Telefon Pintar Android</p>
+        <div class='ratio ratio-21x9'>
+          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/dDiEqN2xC3M' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
   </div>
   <footer class='footer mt-auto py-1 page-footer font-small bg-body-tertiary text-center'>
     <div class='container'>

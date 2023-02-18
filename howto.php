@@ -49,32 +49,9 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-  <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PHLPNS8');
-  </script>
+  <script src='./vendor/js/gtm.js'></script>
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-DJYTZHZXFN');
-  </script>
+  <script src='./vendor/js/gtag.js'></script>
   <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
   <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
   <script nonce='nLBiTr-Hd6zWbl5ZT9wqvA' src='./vendor/js/gfc.js'></script>
@@ -290,28 +267,6 @@
             </tr>
           </tbody>
         </table>
-      </div>
-      <div class='col-md-9 mb-md-0 p-md-3'>
-        <p class='text-center'>Apa itu Gateway?</p>
-          <div class='ratio ratio-16x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/CihK_ebySF0' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-          </div>
-      </div>
-      <div class='col-md-3 mb-md-0 p-md-3' id='rlandroid'>
-        <p class='text-center'>Sistem Pengulang pada Pemancar Mudah Alih dan Telefon Pintar Android &#40;Repeater Linking ROIP&#41;</p>
-        <video class='rounded-5 w-100' loading='lazy' controls preload='auto' src='media/video/repeater-linking-roip.mp4'></video>
-      </div>
-      <div class='col-md-6 mb-md-0 p-md-3' id='gwpc'>
-        <p class='text-center'>Gateway pada Pemancar Mudah Alih dan PC</p>
-        <div class='ratio ratio-21x9'>
-          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/-JGQpxAyEQo' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class='col-md-6 mb-md-0 p-md-3' id='gwandroid'>
-        <p class='text-center'>Gateway pada Pemancar Mudah Alih dan Telefon Pintar Android</p>
-        <div class='ratio ratio-21x9'>
-          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/dDiEqN2xC3M' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-        </div>
       </div>
     </div>
     <hr>

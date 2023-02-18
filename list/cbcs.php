@@ -62,9 +62,7 @@
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <div class='container-fluid'>
     <div class='col-12 my-3 text-center lh-1'>
-      <p><?php date_default_timezone_get();
-          $file_last_modified = filemtime(__FILE__);
-          echo 'Kemaskini pada ' . date('D, jS M Y h:iA T', $file_last_modified); ?> : <span class='badge rounded-pill text-bg-success'>497</span></p>
+      <p><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo 'Kemaskini pada ' . date('D, jS M Y h:iA T', $file_last_modified); ?> : <span class='badge rounded-pill text-bg-success'>497</span></p>
       <p class='fw-bold'>Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
       <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila email maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
     </div>
@@ -448,7 +446,7 @@
           <tr><td>I132</td><td>91MSAAD</td><td>HUSNI HAMZAH</td><td>LHOKSUKON ACEH UTARA, INDONESIA</td><td>16 Feb 2020</td></tr>
           <tr><td>I131</td><td>113KL420</td><td>ALIF</td><td>SG. BESI, WP KUALA LUMPUR</td><td>16 Feb 2020</td></tr>
           <tr><td>I130</td><td>113MS101</td><td>MOHD HILMI</td><td>BANDAR TENGGARA, KULAI, JOHOR</td><td>15 Feb 2020</td></tr>
-          <tr><td>I497</td><td>113MSZNL</td><td>ZAINAL BIN YAACOB</td><td>FELDA KEMELAH, SEGAMAT, JOHOR</td><td>15 Feb 2020</td></tr>
+<!--          <tr><td>I497</td><td>113MSZNL</td><td>ZAINAL BIN YAACOB</td><td>FELDA KEMELAH, SEGAMAT, JOHOR</td><td>15 Feb 2020</td></tr>-->
           <tr><td>I129</td><td>113MSARJ</td><td>MOHAMAD HAFIZ BIN MOHAMAD NAJIB</td><td>JOHOR BAHRU, JOHOR</td><td>14 Feb 2020</td></tr>
           <tr><td>I128</td><td>113MSYEH</td><td>AZMI ABD WAHAB</td><td>KUANTAN, PAHANG</td><td>14 Feb 2020</td></tr>
           <tr><td>I127</td><td>113KLYE</td><td>AZMAN BIN ISMAIL</td><td>SG LEMAN, SEKINCHAN</td><td>14 Feb 2020</td></tr>

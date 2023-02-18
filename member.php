@@ -149,7 +149,7 @@
                 <p>PRESIDEN</p>
               </div>
               <div class='card-img'>  
-                <img src='media/image/member/002.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+                <img src='media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
                 <p class='fw-bolder m-0'>ZULKIFLI ABU</p>
@@ -163,7 +163,7 @@
                 <p>TIMBALAN PRESIDEN</p>
               </div>
               <div class='card-img'>  
-                <img src='media/image/member/008.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+                <img src='media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
                 <p class='fw-bolder m-0'>KAMARUDZAMAN ABD RAHIM</p>
@@ -177,7 +177,7 @@
                 <p>SETIAUSAHA AGUNG</p>
               </div>
               <div class='card-img'>  
-                <img src='media/image/member/001.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+                <img src='media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
                 <p class='fw-bolder m-0'>HAFIZI RUSLAN</p>
@@ -191,7 +191,7 @@
                 <p>PENOLONG SETIAUSAHA</p>
               </div>
               <div class='card-img'>  
-                <img src='media/image/member/020.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+                <img src='media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
                 <p class='fw-bolder m-0'>ROZAIMAN SUFFIAN</p>
@@ -205,7 +205,7 @@
                 <p>BENDAHARI AGUNG</p>
               </div>
               <div class='card-img'>  
-                <img src='media/image/member/007.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+                <img src='media/image/member/007.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
                 <p class='fw-bolder m-0'>SULAIMAN MAZLAN</p>
@@ -219,7 +219,7 @@
                 <p>BAHAGIAN SIARAYA &amp; AKTIVITI</p>
               </div>
               <div class='card-img'>  
-                <img src='media/image/member/013.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+                <img src='media/image/member/013.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
                 <p class='fw-bolder m-0'>VERONICA CATHERINE</p>
@@ -233,7 +233,7 @@
                 <p>BAHAGIAN TEKNIKAL</p>
               </div>
               <div class='card-img'>  
-                <img src='media/image/member/016.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+                <img src='media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
                 <p class='fw-bolder m-0'>ZAHEER ZAKARIA</p>
@@ -247,7 +247,7 @@
                 <p>BAHAGIAN KEBAJIKAN</p>
               </div>
               <div class='card-img'>  
-                <img src='media/image/member/006.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+                <img src='media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
                 <p class='fw-bolder m-0'>MUSTAFA OMAR</p>
@@ -261,7 +261,7 @@
                 <p>BAHAGIAN EKONOMI</p>
               </div>
               <div class='card-img'>  
-                <img src='media/image/member/004.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+                <img src='media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
                 <p class='fw-bolder m-0'>FAIZNURNIZAM MAT RASOL</p>
@@ -275,10 +275,10 @@
                 <p>BAHAGIAN PERHUBUNGAN AWAM</p>
               </div>
               <div class='card-img'>  
-                <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-thumbnail rounded-circle vw-100 my-1'>
+                <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder m-0'>&mdash;</p>
+                <p class='fw-bolder m-0'>LANTIKAN 2024</p>
                 <p class='fw-semibold m-0'>&mdash;</p>
               </div>
             </div>

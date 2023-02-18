@@ -17,13 +17,13 @@
   <meta property='og:title' content='RoIPMARS | Jadual Program 2023'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Jadual Program 2023'>
   <meta property='og:url' content='https://www.roipmars.org.my/program'>
-  <meta property='og:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
+  <meta property='og:image' content='https://www.roipmars.org.my/media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='RoIPMARS | Jadual Program 2023'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Jadual Program 2023'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/program'>
-  <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
+  <meta name='twitter:image' content='https://www.roipmars.org.my/media/image/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
   <meta name='msapplication-TileImage' content='./images/ms-icon-144x144.png'>
@@ -365,7 +365,7 @@
                 <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Israk Mikraj&#41;</td><td>9W2UZL</td><td>63</td></tr>
                 <tr class='bg-dark-subtle'><td rowspan='2'>Ahad<br>19 Feb</td><td>0900MY<br>-<br>1200MY</td><td>Mesyuarat Agung Tahunan<br>Annual General Meeting<br>AGM 2022</td><td>Kalumpang Resort, Hulu Selangor</td>&mdash;</td></tr>
                 <tr><td>2100MY</td><td>CB Net</td><td>113DAYKB</td><td></td></tr>
-                <tr class='bg-info-subtle'><td>Rabu<br>22 Feb</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Thinking Day&#41;</td><td>9M6JAY</td><td></td></tr>
+                <tr class='bg-info-subtle'><td>Rabu<br>22 Feb</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Thinking Day&#41;</td><td>9W6WOT</td><td></td></tr>
                 <tr><td>Jumaat<br>24 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td></td></tr>
                 <tr><td>Sabtu<br>25 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td></td></tr>
                 <tr><td>Ahad<br>26 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>

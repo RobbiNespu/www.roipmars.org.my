@@ -17,13 +17,13 @@
   <meta property='og:title' content='RoIPMARS | Website Interruption for Upgrade'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Website Interruption for Upgrade'>
   <meta property='og:url' content='https://www.roipmars.org.my/nts/2020/06'>
-  <meta property='og:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
+  <meta property='og:image' content='https://www.roipmars.org.my/media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='RoIPMARS | Website Interruption for Upgrade'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Website Interruption for Upgrade'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/nts/2020/06'>
-  <meta name='twitter:image' content='https://www.roipmars.org.my/images/brand_sq.png'>
+  <meta name='twitter:image' content='https://www.roipmars.org.my/media/image/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
   <meta name='msapplication-TileImage' content='../../images/ms-icon-144x144.png'>

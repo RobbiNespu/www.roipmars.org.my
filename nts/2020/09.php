@@ -17,13 +17,13 @@
   <meta property='og:title' content='RoIPMARS | Server Downtime 30 Aug 2020'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Server Downtime 30 Aug 2020'>
   <meta property='og:url' content='https://www.roipmars.org.my/nts/2020/09'>
-  <meta property='og:image' content='media/image/brand_sq.png'>
+  <meta property='og:image' content='../../media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='RoIPMARS | Server Downtime 30 Aug 2020'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Server Downtime 30 Aug 2020'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/nts/2020/09'>
-  <meta name='twitter:image' content='media/image/brand_sq.png'>
+  <meta name='twitter:image' content='../../media/image/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
   <meta name='msapplication-TileImage' content='../.media/image/ms-icon-144x144.png'>

@@ -68,17 +68,29 @@
       <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button>
       <div class='collapse navbar-collapse' id='navbarNav'>
-        <ul class='nav navbar-nav nav-pills fs-5 text-xl-center text-end d-flex mx-auto'>
+        <ul class='nav navbar-nav nav-pills text-center d-flex ms-auto'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
-          <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
-          <li class='nav-item'><a class='nav-link' href='program'>Program</a></li>
-          <li class='nav-item'><a class='nav-link active rounded-3' aria-current='page' href='rnd'>Penyelidikan</a></li>
-          <li class='nav-item'><a class='nav-link' href='howto'>Tutorial</a></li>
-          <li class='nav-item'><a class='nav-link' href='cbinfo'>Informasi Jalur Rakyat</a></li>
-          <li class='nav-item'><a class='nav-link' href='cbmars'>CB RoIPMARS</a></li>
-          <li class='nav-item'><a class='nav-link' href='member'>Keahlian</a></li>
-          <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
-          <!--<li class='nav-item'><a class='nav-link' href='mailus'>Hubungi Kami</a></li>-->
+          <li class='nav-item'><a class='nav-link' href='activity'>Galeri</a></li>
+          <li class='nav-item'><a class='nav-link active rounded-3' aria-current='page' href='rnd'>Kajian</a></li>
+          <li class='nav-item dropdown'>
+            <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Jalur Rakyat</a>
+            <ul class='dropdown-menu text-center'>
+              <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
+              <li><a class='dropdown-item' href='cbmars'>CB RoIPMARS</a></li>
+              <li><hr class='dropdown-divider'></li>
+              <li><a class='dropdown-item' href='https://www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
+            </ul>
+          </li>
+          <li class='nav-item dropdown'>
+            <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Kumpulan RoIPMARS</a>
+            <ul class='dropdown-menu text-center'>
+              <li><a class='dropdown-item' href='howto'>Tutorial</a></li>
+              <li><a class='dropdown-item' href='program'>Program RoIPMARS</a></li>
+              <li><a class='dropdown-item' href='snotice'>Notis Perkhidmatan</a></li>
+              <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
+              <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
+            </ul>
+          </li>
           <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
           <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
         </ul>
@@ -102,18 +114,19 @@
           <div class='col-2 align-self-center'>
             <img src='media/image/member/002.png' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2UZL'>
           </div>
-          <div class='col-10'>
+          <div class='col-10 d-flex align-content-center flex-wrap'>
             <div class='card-body mx-3'>
               <p class='card-title fs-3 fw-bold'>9W2UZL &ndash; ZULKIFLI ABU</p>
               <p class='card-subtitle fw-semibold'>FOUNDER, LEAD ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
               <p class='card-subtitle fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; KETUA PENYELIDIK</p>
+              <p class='card-subtitle fw-light'>DILANTIK OLEH MART&acute;S <sup>&#40;TIDAK RASMI&#41;</sup> SEBAGAI KETUA PENYELIDIK KUMPULAN MINAT KHAS &#40;SiG&#41;</p>
             </div>
           </div>
         </div>
       </div>
       <div class='col-lg-6 my-2'>
         <div class='row g-1 text-end'>
-          <div class='col-10'>
+          <div class='col-10 d-flex align-content-center flex-wrap'>
             <div class='card-body mx-3'>
               <p class='card-title fs-3 fw-bold'>9W2LGX &ndash; HAFIZI RUSLAN</p>
               <p class='card-subtitle fw-semibold'>SOFTWARE DEVELOPER &amp; LEAD NETWORK ADMINISTRATOR</p>

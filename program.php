@@ -70,17 +70,29 @@
       <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button>
       <div class='collapse navbar-collapse' id='navbarNav'>
-        <ul class='nav navbar-nav nav-pills fs-5 text-xl-center text-end d-flex mx-auto'>
+        <ul class='nav navbar-nav nav-pills text-center d-flex ms-auto'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
-          <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
-          <li class='nav-item'><a class='nav-link active rounded-3' aria-current='page' href='program'>Program</a></li>
-          <li class='nav-item'><a class='nav-link' href='rnd'>Penyelidikan</a></li>
-          <li class='nav-item'><a class='nav-link' href='howto'>Tutorial</a></li>
-          <li class='nav-item'><a class='nav-link' href='cbinfo'>Informasi Jalur Rakyat</a></li>
-          <li class='nav-item'><a class='nav-link' href='cbmars'>CB RoIPMARS</a></li>
-          <li class='nav-item'><a class='nav-link' href='member'>Keahlian</a></li>
-          <li class='nav-item'><a class='nav-link' href='snotice'>Notis Perkhidmatan</a></li>
-          <!--<li class='nav-item'><a class='nav-link' href='mailus'>Hubungi Kami</a></li>-->
+          <li class='nav-item'><a class='nav-link' href='activity'>Galeri</a></li>
+          <li class='nav-item'><a class='nav-link' href='rnd'>Kajian</a></li>
+          <li class='nav-item dropdown'>
+            <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Jalur Rakyat</a>
+            <ul class='dropdown-menu text-center'>
+              <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
+              <li><a class='dropdown-item' href='cbmars'>CB RoIPMARS</a></li>
+              <li><hr class='dropdown-divider'></li>
+              <li><a class='dropdown-item' href='https://www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
+            </ul>
+          </li>
+          <li class='nav-item dropdown'>
+            <a class='nav-link dropdown-toggle active rounded-3' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Kumpulan RoIPMARS</a>
+            <ul class='dropdown-menu text-center'>
+              <li><a class='dropdown-item' href='howto'>Tutorial</a></li>
+              <li><a class='dropdown-item active rounded-3' aria-current='page' href='program'>Program RoIPMARS</a></li>
+              <li><a class='dropdown-item' href='snotice'>Notis Perkhidmatan</a></li>
+              <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
+              <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
+            </ul>
+          </li>
           <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
           <li class='nav-item'><a class='nav-link' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
         </ul>
@@ -133,166 +145,166 @@
         <div id='ncs23' class='carousel carousel-fade' data-bs-ride='carousel' data-bs-interval='5000'>
           <div class='carousel-inner'>
             <div class='carousel-item active'>
-              <img src='media/image/member/013.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W8VWW'>
-              <p class='fs-3 my-0'>9W8VWW / 58MSVWW</p>
-              <p class='fs-5 my-0'>VERONICA CATHERINE</p>
-              <p>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
+              <img src='media/image/member/013.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W8VWW'>
+              <p class='my-0'>9W8VWW / 58MSVWW</p>
+              <p class='my-0'>VERONICA CATHERINE</p>
+              <p class='my-0'>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/031.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2EZK'>
-              <p class='fs-3 my-0'>9W2EZK / 113DAZIK</p>
-              <p class='fs-5 my-0'>IFFIQ ZIKRY</p>
-              <p>PENGURUS SIARAYA &amp; AKTIVITI</p>
+              <img src='media/image/member/031.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2EZK'>
+              <p class='my-0'>9W2EZK / 113DAZIK</p>
+              <p class='my-0'>IFFIQ ZIKRY</p>
+              <p class='my-0'>PENGURUS SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/020.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6SFF'>
-              <p class='fs-3 my-0'>9M2SFF / 113MSSFF</p>
-              <p class='fs-5 my-0'>ROZAIMAN SUFFIAN</p>
-              <p>PENOLONG PENGURUS AKTIVITI</p>
+              <img src='media/image/member/020.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6SFF'>
+              <p class='my-0'>9M2SFF / 113MSSFF</p>
+              <p class='my-0'>ROZAIMAN SUFFIAN</p>
+              <p class='my-0'>PENOLONG PENGURUS AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/010.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6AUA'>
-                <p class='fs-3 my-0'>9M6AUA / 58MSAUA</p>
-                <p class='fs-5 my-0'>JEOFREY</p>
-                <p>PENYELIA SIARAYA 1</p>
+              <img src='media/image/member/010.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M6AUA'>
+                <p class='my-0'>9M6AUA / 58MSAUA</p>
+                <p class='my-0'>JEOFREY</p>
+                <p class='my-0'>PENYELIA SIARAYA 1</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/017.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RDY'>
-              <p class='fs-3 my-0'>9M6RDY</p>
-              <p class='fs-5 my-0'>MATTHEUS @ RUDY</p>
-              <p>PENYELIA SIARAYA 2</p>
+              <img src='media/image/member/017.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M6RDY'>
+              <p class='my-0'>9M6RDY</p>
+              <p class='my-0'>MATTHEUS @ RUDY</p>
+              <p class='my-0'>PENYELIA SIARAYA 2</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/025.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2AYP'>
-              <p class='fs-3 my-0'>9W2AYP / 113DAPLY</p>
-              <p class='fs-5 my-0'>SABRI</p>
-              <p>PENYELIA SIARAYA 3</p>
+              <img src='media/image/member/025.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2AYP'>
+              <p class='my-0'>9W2AYP / 113DAPLY</p>
+              <p class='my-0'>SABRI</p>
+              <p class='my-0'>PENYELIA SIARAYA 3</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9m6jay.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6JAY'>
-              <p class='fs-3 my-0'>9M6JAY</p>
-              <p class='fs-5 my-0'>JOHN JR.</p>
-              <p>PENYELIA AKTIVITI 1</p>
+              <img src='media/image/ncs/9m6jay.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M6JAY'>
+              <p class='my-0'>9M6JAY</p>
+              <p class='my-0'>JOHN JR.</p>
+              <p class='my-0'>PENYELIA AKTIVITI 1</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/029.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2JCP'>
-              <p class='fs-3 my-0'>9W2JCP / 113DAJCP</p>
-              <p class='fs-5 my-0'>ROSLI</p>
-              <p>PENYELIA AKTIVITI 2</p>
+              <img src='media/image/member/029.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2JCP'>
+              <p class='my-0'>9W2JCP / 113DAJCP</p>
+              <p class='my-0'>ROSLI</p>
+              <p class='my-0'>PENYELIA AKTIVITI 2</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9w2sft.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2SFT'>
-              <p class='fs-3 my-0'>9W2SFT</p>
-              <p class='fs-5 my-0'>SYAWAL</p>
-              <p>PENYELIA AKTIVITI 3</p>
+              <img src='media/image/ncs/9w2sft.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2SFT'>
+              <p class='my-0'>9W2SFT</p>
+              <p class='my-0'>SYAWAL</p>
+              <p class='my-0'>PENYELIA AKTIVITI 3</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9m2kzi.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M2KZI'>
-              <p class='fs-3 my-0'>9M2KZI</p>
-              <p class='fs-5 my-0'>ZULKARNAIN</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9m2kzi.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M2KZI'>
+              <p class='my-0'>9M2KZI</p>
+              <p class='my-0'>ZULKARNAIN</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9m6rhm.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RHM'>
-              <p class='fs-3 my-0'>9M6RHM</p>
-              <p class='fs-5 my-0'>RAHIM</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9m6rhm.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M6RHM'>
+              <p class='my-0'>9M6RHM</p>
+              <p class='my-0'>RAHIM</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9m6rmd.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RMD'>
-              <p class='fs-3 my-0'>9M6RMD</p>
-              <p class='fs-5 my-0'>ROSNI</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M6RMD'>
+              <p class='my-0'>9M6RMD</p>
+              <p class='my-0'>ROSNI</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9w2gsv.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2GSV'>
-              <p class='fs-3 my-0'>9W2GSV</p>
-              <p class='fs-5 my-0'>SHAHRUZIE</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9w2gsv.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2GSV'>
+              <p class='my-0'>9W2GSV</p>
+              <p class='my-0'>SHAHRUZIE</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9w6aze.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6AZE'>
-              <p class='fs-3 my-0'>9W6AZE</p>
-              <p class='fs-5 my-0'>HAZARI</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9w6aze.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6AZE'>
+              <p class='my-0'>9W6AZE</p>
+              <p class='my-0'>HAZARI</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9w6pkj.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6PKJ'>
-              <p class='fs-3 my-0'>9W6PKJ</p>
-              <p class='fs-5 my-0'>JANSON</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9w6pkj.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6PKJ'>
+              <p class='my-0'>9W6PKJ</p>
+              <p class='my-0'>JANSON</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9w6rhn.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6RHN'>
-              <p class='fs-3 my-0'>9W6RHN</p>
-              <p class='fs-5 my-0'>ROSLAN</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6RHN'>
+              <p class='my-0'>9W6RHN</p>
+              <p class='my-0'>ROSLAN</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9w8vyy.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W8VYY'>
-              <p class='fs-3 my-0'>9W8VYY</p>
-              <p class='fs-5 my-0'>ALEX</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9w8vyy.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W8VYY'>
+              <p class='my-0'>9W8VYY</p>
+              <p class='my-0'>ALEX</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/008.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2OGK'>
-              <p class='fs-3 my-0'>9W2OGK / 113DAOGK</p>
-              <p class='fs-5 my-0'>KAMARUDZAMAN</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/member/008.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2OGK'>
+              <p class='my-0'>9W2OGK / 113DAOGK</p>
+              <p class='my-0'>KAMARUDZAMAN</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9w2snn.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2SNN'>
-              <p class='fs-3 my-0'>9W2SNN / 113MSSAM</p>
-              <p class='fs-5 my-0'>SAMSUL</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9w2snn.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2SNN'>
+              <p class='my-0'>9W2SNN / 113MSSAM</p>
+              <p class='my-0'>SAMSUL</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9w2yjt.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2YJT'>
-              <p class='fs-3 my-0'>9W2YJT / 113DAYJT</p>
-              <p class='fs-5 my-0'>YUSOF</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2YJT'>
+              <p class='my-0'>9W2YJT / 113DAYJT</p>
+              <p class='my-0'>YUSOF</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9w6aff.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6AFF'>
-              <p class='fs-3 my-0'>9W6AFF / 58MSAFF</p>
-              <p class='fs-5 my-0'>SAFRI</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9w6aff.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6AFF'>
+              <p class='my-0'>9W6AFF / 58MSAFF</p>
+              <p class='my-0'>SAFRI</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/006.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6MOZ'>
-              <p class='fs-3 my-0'>9W6MOZ / 58MSMOZ</p>
-              <p class='fs-5 my-0'>MUSTAFA</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6MOZ'>
+              <p class='my-0'>9W6MOZ / 58MSMOZ</p>
+              <p class='my-0'>MUSTAFA</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9w6wot.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6WOT'>
-              <p class='fs-3 my-0'>9W6WOT / 58MSWOT</p>
-              <p class='fs-5 my-0'>STEWARD</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/9w6wot.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6WOT'>
+              <p class='my-0'>9W6WOT / 58MSWOT</p>
+              <p class='my-0'>STEWARD</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/028.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2NEW'>
-              <p class='fs-3 my-0'>9W2NEW / 113DAISS</p>
-              <p class='fs-5 my-0'>HISHAM</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/member/028.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2NEW'>
+              <p class='my-0'>9W2NEW / 113DAISS</p>
+              <p class='my-0'>HISHAM</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/113daykb.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='113DAYKB'>
-              <p class='fs-3 my-0'>113DAYKB</p>
-              <p class='fs-5 my-0'>YAAKOB</p>
-              <p>PETUGAS TETAP AKTIVITI</p>
+              <img src='media/image/ncs/113daykb.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='113DAYKB'>
+              <p class='my-0'>113DAYKB</p>
+              <p class='my-0'>YAAKOB</p>
+              <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/003.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M2RAN'>
-              <p class='fs-3 my-0'>9M2RAN / 113MSRAN</p>
-              <p class='fs-5 my-0'>NOR IMRAN</p>
-              <p>PETUGAS SANDARAN AKTIVITI</p>
+              <img src='media/image/member/003.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M2RAN'>
+              <p class='my-0'>9M2RAN / 113MSRAN</p>
+              <p class='my-0'>NOR IMRAN</p>
+              <p class='my-0'>PETUGAS SANDARAN AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/011.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2NDI'>
-              <p class='fs-3 my-0'>9W2NDI / 113DANDI</p>
-              <p class='fs-5 my-0'>NASARUDDIN</p>
-              <p>PETUGAS SANDARAN AKTIVITI</p>
+              <img src='media/image/member/011.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2NDI'>
+              <p class='my-0'>9W2NDI / 113DANDI</p>
+              <p class='my-0'>NASARUDDIN</p>
+              <p class='my-0'>PETUGAS SANDARAN AKTIVITI</p>
             </div>
           </div>
         </div>

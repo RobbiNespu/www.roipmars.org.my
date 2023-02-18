@@ -73,7 +73,7 @@
         <ul class='nav navbar-nav nav-pills fs-5 text-xl-center text-end d-flex mx-auto'>
           <li class='nav-item'><a class='nav-link' href='about'>Tentang Kami</a></li>
           <li class='nav-item'><a class='nav-link' href='activities'>Aktiviti</a></li>
-          <li class='nav-item'><a class='nav-link active pill' aria-current='page' href='program'>Program</a></li>
+          <li class='nav-item'><a class='nav-link active rounded-3' aria-current='page' href='program'>Program</a></li>
           <li class='nav-item'><a class='nav-link' href='rnd'>Penyelidikan</a></li>
           <li class='nav-item'><a class='nav-link' href='howto'>Tutorial</a></li>
           <li class='nav-item'><a class='nav-link' href='cbinfo'>Informasi Jalur Rakyat</a></li>
@@ -134,21 +134,21 @@
           <div class='carousel-inner'>
             <div class='carousel-item active'>
               <img src='media/image/member/013.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W8VWW'>
-                <p class='fs-3 my-0'>9W8VWW / 58MSVWW</p>
-                <p class='fs-5 my-0'>VERONICA CATHERINE</p>
-                <p>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
+              <p class='fs-3 my-0'>9W8VWW / 58MSVWW</p>
+              <p class='fs-5 my-0'>VERONICA CATHERINE</p>
+              <p>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/031.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2EZK'>
-                <p class='fs-3 my-0'>9W2EZK / 113DAZIK</p>
-                <p class='fs-5 my-0'>IFFIQ ZIKRY</p>
-                <p>PENGURUS SIARAYA &amp; AKTIVITI</p>
+              <p class='fs-3 my-0'>9W2EZK / 113DAZIK</p>
+              <p class='fs-5 my-0'>IFFIQ ZIKRY</p>
+              <p>PENGURUS SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/020.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6SFF'>
-                <p class='fs-3 my-0'>9M2SFF / 113MSSFF</p>
-                <p class='fs-5 my-0'>ROZAIMAN SUFFIAN</p>
-                <p>PENOLONG PENGURUS AKTIVITI</p>
+              <p class='fs-3 my-0'>9M2SFF / 113MSSFF</p>
+              <p class='fs-5 my-0'>ROZAIMAN SUFFIAN</p>
+              <p>PENOLONG PENGURUS AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/010.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6AUA'>
@@ -158,141 +158,141 @@
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/017.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RDY'>
-                <p class='fs-3 my-0'>9M6RDY</p>
-                <p class='fs-5 my-0'>MATTHEUS @ RUDY</p>
-                <p>PENYELIA SIARAYA 2</p>
+              <p class='fs-3 my-0'>9M6RDY</p>
+              <p class='fs-5 my-0'>MATTHEUS @ RUDY</p>
+              <p>PENYELIA SIARAYA 2</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/025.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2AYP'>
-                <p class='fs-3 my-0'>9W2AYP / 113DAPLY</p>
-                <p class='fs-5 my-0'>SABRI</p>
-                <p>PENYELIA SIARAYA 3</p>
+              <p class='fs-3 my-0'>9W2AYP / 113DAPLY</p>
+              <p class='fs-5 my-0'>SABRI</p>
+              <p>PENYELIA SIARAYA 3</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9m6jay.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6JAY'>
-                <p class='fs-3 my-0'>9M6JAY</p>
-                <p class='fs-5 my-0'>JOHN JR.</p>
-                <p>PENYELIA AKTIVITI 1</p>
+              <p class='fs-3 my-0'>9M6JAY</p>
+              <p class='fs-5 my-0'>JOHN JR.</p>
+              <p>PENYELIA AKTIVITI 1</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/029.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2JCP'>
-                <p class='fs-3 my-0'>9W2JCP / 113DAJCP</p>
-                <p class='fs-5 my-0'>ROSLI</p>
-                <p>PENYELIA AKTIVITI 2</p>
+              <p class='fs-3 my-0'>9W2JCP / 113DAJCP</p>
+              <p class='fs-5 my-0'>ROSLI</p>
+              <p>PENYELIA AKTIVITI 2</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w2sft.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2SFT'>
-                <p class='fs-3 my-0'>9W2SFT</p>
-                <p class='fs-5 my-0'>SYAWAL</p>
-                <p>PENYELIA AKTIVITI 3</p>
+              <p class='fs-3 my-0'>9W2SFT</p>
+              <p class='fs-5 my-0'>SYAWAL</p>
+              <p>PENYELIA AKTIVITI 3</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9m2kzi.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M2KZI'>
-                <p class='fs-3 my-0'>9M2KZI</p>
-                <p class='fs-5 my-0'>ZULKARNAIN</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9M2KZI</p>
+              <p class='fs-5 my-0'>ZULKARNAIN</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9m6rhm.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RHM'>
-                <p class='fs-3 my-0'>9M6RHM</p>
-                <p class='fs-5 my-0'>RAHIM</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9M6RHM</p>
+              <p class='fs-5 my-0'>RAHIM</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9m6rmd.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M6RMD'>
-                <p class='fs-3 my-0'>9M6RMD</p>
-                <p class='fs-5 my-0'>ROSNI</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9M6RMD</p>
+              <p class='fs-5 my-0'>ROSNI</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w2gsv.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2GSV'>
-                <p class='fs-3 my-0'>9W2GSV</p>
-                <p class='fs-5 my-0'>SHAHRUZIE</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W2GSV</p>
+              <p class='fs-5 my-0'>SHAHRUZIE</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w6aze.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6AZE'>
-                <p class='fs-3 my-0'>9W6AZE</p>
-                <p class='fs-5 my-0'>HAZARI</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W6AZE</p>
+              <p class='fs-5 my-0'>HAZARI</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w6pkj.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6PKJ'>
-                <p class='fs-3 my-0'>9W6PKJ</p>
-                <p class='fs-5 my-0'>JANSON</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W6PKJ</p>
+              <p class='fs-5 my-0'>JANSON</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w6rhn.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6RHN'>
-                <p class='fs-3 my-0'>9W6RHN</p>
-                <p class='fs-5 my-0'>ROSLAN</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W6RHN</p>
+              <p class='fs-5 my-0'>ROSLAN</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w8vyy.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W8VYY'>
-                <p class='fs-3 my-0'>9W8VYY</p>
-                <p class='fs-5 my-0'>ALEX</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W8VYY</p>
+              <p class='fs-5 my-0'>ALEX</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/008.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2OGK'>
-                <p class='fs-3 my-0'>9W2OGK / 113DAOGK</p>
-                <p class='fs-5 my-0'>KAMARUDZAMAN</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W2OGK / 113DAOGK</p>
+              <p class='fs-5 my-0'>KAMARUDZAMAN</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w2snn.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2SNN'>
-                <p class='fs-3 my-0'>9W2SNN / 113MSSAM</p>
-                <p class='fs-5 my-0'>SAMSUL</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W2SNN / 113MSSAM</p>
+              <p class='fs-5 my-0'>SAMSUL</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w2yjt.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2YJT'>
-                <p class='fs-3 my-0'>9W2YJT / 113DAYJT</p>
-                <p class='fs-5 my-0'>YUSOF</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W2YJT / 113DAYJT</p>
+              <p class='fs-5 my-0'>YUSOF</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w6aff.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6AFF'>
-                <p class='fs-3 my-0'>9W6AFF / 58MSAFF</p>
-                <p class='fs-5 my-0'>SAFRI</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W6AFF / 58MSAFF</p>
+              <p class='fs-5 my-0'>SAFRI</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/006.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6MOZ'>
-                <p class='fs-3 my-0'>9W6MOZ / 58MSMOZ</p>
-                <p class='fs-5 my-0'>MUSTAFA</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W6MOZ / 58MSMOZ</p>
+              <p class='fs-5 my-0'>MUSTAFA</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w6wot.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W6WOT'>
-                <p class='fs-3 my-0'>9W6WOT / 58MSWOT</p>
-                <p class='fs-5 my-0'>STEWARD</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W6WOT / 58MSWOT</p>
+              <p class='fs-5 my-0'>STEWARD</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/028.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2NEW'>
-                <p class='fs-3 my-0'>9W2NEW / 113DAISS</p>
-                <p class='fs-5 my-0'>HISHAM</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>9W2NEW / 113DAISS</p>
+              <p class='fs-5 my-0'>HISHAM</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/113daykb.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='113DAYKB'>
-                <p class='fs-3 my-0'>113DAYKB</p>
-                <p class='fs-5 my-0'>YAAKOB</p>
-                <p>PETUGAS TETAP AKTIVITI</p>
+              <p class='fs-3 my-0'>113DAYKB</p>
+              <p class='fs-5 my-0'>YAAKOB</p>
+              <p>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/003.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9M2RAN'>
-                <p class='fs-3 my-0'>9M2RAN / 113MSRAN</p>
-                <p class='fs-5 my-0'>NOR IMRAN</p>
-                <p>PETUGAS SANDARAN AKTIVITI</p>
+              <p class='fs-3 my-0'>9M2RAN / 113MSRAN</p>
+              <p class='fs-5 my-0'>NOR IMRAN</p>
+              <p>PETUGAS SANDARAN AKTIVITI</p>
             </div>
             <div class='carousel-item'>
-              <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' style='filter: invert(1); background: transparent' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2NDI'>
-                <p class='fs-3 my-0'>9W2NDI / 113DANDI</p>
-                <p class='fs-5 my-0'>NASARUDDIN</p>
-                <p>PETUGAS SANDARAN AKTIVITI</p>
+              <img src='media/image/member/011.png' class='img-thumbnail rounded-circle object-fit-cover w-25' alt='9W2NDI'>
+              <p class='fs-3 my-0'>9W2NDI / 113DANDI</p>
+              <p class='fs-5 my-0'>NASARUDDIN</p>
+              <p>PETUGAS SANDARAN AKTIVITI</p>
             </div>
           </div>
         </div>
@@ -360,9 +360,9 @@
                 <tr><td>Sabtu<br>11 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6RHN</td><td>29</td></tr>
                 <tr><td>Ahad<br>12 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>22</td></tr>
                 <tr><td>Rabu<br>15 Feb</td><td>2100MY</td><td>English Net</td><td>9W2EZK</td><td>18</td></tr>
-                <tr><td>Jumaat<br>17 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W2YJT</td><td><i class='bi-send-exclamation text-danger'></i></td></tr>
+                <tr><td>Jumaat<br>17 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W2YJT</td><td>32</td></tr>
                 <tr class='bg-dark-subtle'><td rowspan='2'>Sabtu<br>18 Feb</td><td>2000MY<br>-<br>0000MY</td><td>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</a><td>Kalumpang Resort, Hulu Selangor</td>&mdash;</td></tr>
-                <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Israk Mikraj&#41;</td><td>9M2KZI</td><td></td></tr>
+                <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Israk Mikraj&#41;</td><td>9W2UZL</td><td></td></tr>
                 <tr class='bg-dark-subtle'><td rowspan='2'>Ahad<br>19 Feb</td><td>0900MY<br>-<br>1200MY</td><td>Mesyuarat Agung Tahunan<br>Annual General Meeting<br>AGM 2022</td><td>Kalumpang Resort, Hulu Selangor</td>&mdash;</td></tr>
                 <tr><td>2100MY</td><td>CB Net</td><td>113DAYKB</td><td></td></tr>
                 <tr class='bg-info-subtle'><td>Rabu<br>22 Feb</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Thinking Day&#41;</td><td>9M6JAY</td><td></td></tr>
@@ -370,13 +370,15 @@
                 <tr><td>Sabtu<br>25 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td></td></tr>
                 <tr><td>Ahad<br>26 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>
               </tbody>
+<!--
               <caption>
                 <ul class='list-group list-group-flush fs-6'>
-<!--                  <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>-->
+                  <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
                   <li class='list-group-item'><i class='bi-send-exclamation text-danger'></i> Laporan Aktiviti tidak diterima</li>
-<!--                  <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan Aktiviti tidak lengkap</li>-->
+                  <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan Aktiviti tidak lengkap</li>
                 </ul>
               </capton>
+-->
             </table>
           </div>
         </div>

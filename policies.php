@@ -102,13 +102,12 @@
       <h1 class='h1-responsive text-center my-3'>Polisi Perkhidmatan RoIPMARS</h1>
       <p class='text-end'><?php date_default_timezone_get(); $current_file_name = basename($_SERVER['PHP_SELF']); $file_last_modified = filemtime($current_file_name); echo 'terakhir kemaskini: ' . date('d M Y, h:iA', $file_last_modified); ?></p>
     </div>
-    <div class='row my-2'>
+    <div class='row my-3'>
       <div class='col-4'>
-        <nav id='navbar-policy' class='h-100 flex-column align-items-stretch pe-4 border-end'>
-          <nav class='nav nav-pills flex-column'>
-            <a class='nav-link' href='#tos'>Terma &amp; Syarat</a>
+        <nav id='navbar-policy' class='h-100 flex-column align-items-stretch px-3 border-end' tabindex='0'>
+          <nav class='nav nav-pills flex-column pt-5 sticky-top overflow-y-auto fs-6 fw-light text-wrap'>
+            <a class='nav-link mt-5' href='#tos'>Terma &amp; Syarat</a>
             <nav class='nav nav-pills flex-column'>
-              <a class='nav-link ms-3 my-1' href='#cookies'>Kuki</a>
               <a class='nav-link ms-3 my-1' href='#license'>Lesen</a>
               <a class='nav-link ms-3 my-1' href='#link'>Pautan</a>
               <a class='nav-link ms-3 my-1' href='#iframe'>Bingkai</a>
@@ -119,8 +118,7 @@
             <a class='nav-link' href='#privacy'>Dasar Privasi</a>
             <nav class='nav nav-pills flex-column'>
               <a class='nav-link ms-3 my-1' href='#agreement'>Persetujuan</a>
-              <a class='nav-link ms-3 my-1' href='#collected-info'>Maklumat yang dikumpul</a>
-              <a class='nav-link ms-3 my-1' href='#manage-info'>Penggunaan maklumat</a>
+              <a class='nav-link ms-3 my-1' href='#collected-info'>Maklumat</a>
               <a class='nav-link ms-3 my-1' href='#logging'>Fail Log</a>
               <a class='nav-link ms-3 my-1' href='#cookies2'>Kuki</a>
               <a class='nav-link ms-3 my-1' href='#advertisement'>Pengiklanan</a>
@@ -130,7 +128,6 @@
             <a class='nav-link' href='#return'>Dasar Pemulangan dan Bayaran Balik</a>
             <nav class='nav nav-pills flex-column'>
               <a class='nav-link ms-3 my-1' href='#interpretation'>Tafsiran</a>
-              <a class='nav-link ms-3 my-1' href='#definition'>Takrif</a>
               <a class='nav-link ms-3 my-1' href='#cancellation'>Pembatalan Pesanan</a>
               <a class='nav-link ms-3 my-1' href='#retuning'>Syarat Pemulangan</a>
               <a class='nav-link ms-3 my-1' href='#gift'>Hadiah</a>
@@ -138,9 +135,8 @@
           </nav>
         </nav>
       </div>
-
-      <div class='col-8 vh-100 overflow-y-scroll' style='height: 960px'>
-        <div data-bs-spy='scroll' data-bs-target='#navbar-policy' data-bs-smooth-scroll='true' class='scrollspy-policy' tabindex='0'>
+      <div class='col-8'>
+        <div data-bs-spy='scroll' data-bs-target='#navbar-policy' data-bs-offset='0' data-bs-smooth-scroll='true' class='scrollspy-policy' tabindex='0'>
           <div id='tos'>
             <h4>Terma &amp; Syarat</h4>
             <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan Laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], terletak di https://www.roipmars.org.my.</p>
@@ -152,8 +148,6 @@
               <li>&quot;Parti&quot;, &quot;Pihak&quot;, atau &quot;Kami&quot;, merujuk kepada kedua-dua pengguna dan diri kita sendiri.</li>
             </ul>
             <p>Semua terma merujuk kepada tawaran, penerimaan dan pertimbangan pembayaran yang diperlukan untuk menjalankan proses bantuan kami kepada pengguna dengan cara yang paling sesuai untuk tujuan nyata memenuhi keperluan pengguna berkenaan dengan penyediaan perkhidmatan yang dinyatakan oleh Organisasi, selaras dengan dan tertakluk kepada, undang-undang semasa Malaysia. Sebarang penggunaan istilah di atas atau perkataan lain dalam bentuk tunggal, jamak, huruf besar dan/atau dia atau mereka, dianggap sebagai boleh ditukar ganti dan oleh itu merujuk kepada yang sama.</p>
-          </div>
-          <div id='cookies'>
             <h5>Kuki</h5>
             <p>Kami menggunakan penggunaan kuki. Dengan mengakses RoIPMARS, anda bersetuju untuk menggunakan kuki dalam persetujuan dengan Dasar Privasi Organisasi. </p>
             <p>Kebanyakan laman sesawang interaktif menggunakan kuki untuk membolehkan kami mendapatkan semula butiran pengguna untuk setiap lawatan. Kuki digunakan oleh laman sesawang kami untuk membolehkan kefungsian kawasan tertentu untuk memudahkan orang melawat laman sesawang kami. Beberapa ahli gabungan/rakan kongsi pengiklanan kami juga mungkin menggunakan kuki.</p>
@@ -222,7 +216,7 @@
             </ul>
             <p>Tiada penggunaan logo organisasi atau karya seni lain akan dibenarkan untuk dipautkan tanpa perjanjian lesen tanda dagangan.</p>
           </div>
-          <div id='iframes'>
+          <div id='iframe'>
             <h5>iFrames</h5>
             <p>Tanpa kelulusan dan kebenaran bertulis terlebih dahulu, anda tidak boleh membuat bingkai di sekeliling Halaman sesawang kami yang mengubah dalam apa jua cara persembahan visual atau penampilan Laman sesawang kami.</p>
           </div>
@@ -268,8 +262,6 @@
             <p>Maklumat peribadi yang diminta, dan sebab mengapa anda diminta memberikannya, akan dijelaskan kepada anda pada ketika kami meminta anda memberikan maklumat peribadi anda.</p>
             <p>Jika anda menghubungi kami secara terus, kami mungkin menerima maklumat tambahan tentang anda seperti nama, alamat e-mel, nombor telefon, kandungan mesej dan/atau lampiran yang mungkin anda hantar kepada kami dan sebarang maklumat lain yang anda boleh pilih untuk berikan.</p>
             <p>Apabila anda mendaftar akaun atau keahlian, kami mungkin meminta maklumat peribadi anda, termasuk seperti nama, alamat, alamat e-mel dan nombor telefon.</p>
-          </div>
-          <div id='manage-info'>
             <h5>Cara kami menggunakan maklumat anda</h5>
             <p>Kami menggunakan maklumat yang kami kumpulkan dalam pelbagai cara, termasuk untuk:</p>
             <ul>
@@ -315,8 +307,6 @@
           <div id='interpretation'>
             <h5>Tafsiran</h5>
             <p>Perkataan yang huruf awalnya ditulis dengan huruf besar mempunyai makna yang ditakrifkan di bawah syarat berikut. Takrifan berikut hendaklah mempunyai makna yang sama tanpa mengira sama ada ia muncul dalam bentuk tunggal atau jamak.</p>
-          </div>
-          <div id='definition'>
             <h5>Takrif</h5>
             <p>Untuk tujuan Polisi Pemulangan dan Bayaran Balik ini:</p>
             <ul>

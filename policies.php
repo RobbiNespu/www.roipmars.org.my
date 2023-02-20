@@ -105,7 +105,7 @@
     <div class='row my-3'>
       <div class='col-4'>
         <nav id='navbar-policy' class='h-100 flex-column align-items-stretch px-3 border-end' tabindex='0'>
-          <nav class='nav nav-pills flex-column pt-5 sticky-top overflow-y-auto fs-6 fw-light text-wrap'>
+          <nav class='nav nav-pills flex-column pt-5 sticky-top overflow-y-auto fs-6 fw-light text-wrap z-n1'>
             <a class='nav-link mt-5' href='#tos'>Terma &amp; Syarat</a>
             <nav class='nav nav-pills flex-column'>
               <a class='nav-link ms-3 my-1' href='#license'>Lesen</a>
@@ -130,7 +130,6 @@
               <a class='nav-link ms-3 my-1' href='#interpretation'>Tafsiran</a>
               <a class='nav-link ms-3 my-1' href='#cancellation'>Pembatalan Pesanan</a>
               <a class='nav-link ms-3 my-1' href='#retuning'>Syarat Pemulangan</a>
-              <a class='nav-link ms-3 my-1' href='#gift'>Hadiah</a>
             </nav>
           </nav>
         </nav>
@@ -348,8 +347,6 @@
             <p>Anda bertanggungjawab ke atas kos dan risiko memulangkan Barang kepada Kami. Anda hendaklah menghantar Barangan di alamat berikut:</p>
             <p>31, LORONG NALURI SUKMA 8/13, SEKSYEN 8, BANDAR PUNCAK ALAM,<br>42300 KUALA SELANGOR, SELANGOR DARUL EHSAN, MALAYSIA</p>
             <p>Kami tidak akan bertanggungjawab ke atas Barangan yang rosak atau hilang semasa penghantaran pulangan. Oleh itu, Kami mengesyorkan perkhidmatan mel yang diinsuranskan dan boleh dikesan. Kami tidak akan mengeluarkan bayaran balik tanpa penerimaan sebenar Barang atau bukti penghantaran pulangan yang diterima.</p>
-          </div>
-          <div id='gift'>
             <h5>Hadiah</h5>
             <p>Jika Barangan ditandakan sebagai hadiah apabila dibeli dan kemudian dihantar terus kepada anda, Anda akan menerima kredit hadiah untuk nilai pemulangan anda. Setelah produk yang dipulangkan diterima, sijil hadiah akan dihantar kepada Anda.</p>
             <p>Jika Barangan tidak ditandakan sebagai hadiah semasa dibeli, atau pemberi hadiah telah menghantar Pesanan kepada diri mereka sendiri untuk memberikannya kepada Anda kemudian, Kami akan menghantar bayaran balik kepada pemberi hadiah.</p>

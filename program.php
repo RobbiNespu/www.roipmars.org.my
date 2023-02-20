@@ -146,164 +146,137 @@
           <div class='carousel-inner'>
             <div class='carousel-item active'>
               <img src='media/image/member/013.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W8VWW'>
-              <p class='my-0'>9W8VWW / 58MSVWW</p>
-              <p class='my-0'>VERONICA CATHERINE</p>
+              <p class='my-0'>9W8VWW / 58MSVWW &#40;VERONICA CATHERINE&#41;</p>
               <p class='my-0'>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/031.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2EZK'>
-              <p class='my-0'>9W2EZK / 113DAZIK</p>
-              <p class='my-0'>IFFIQ ZIKRY</p>
+              <p class='my-0'>9W2EZK / 113DAZIK &#40;IFFIQ ZIKRY&#41;</p>
               <p class='my-0'>PENGURUS SIARAYA &amp; AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/020.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6SFF'>
-              <p class='my-0'>9M2SFF / 113MSSFF</p>
-              <p class='my-0'>ROZAIMAN SUFFIAN</p>
+              <p class='my-0'>9M2SFF / 113MSSFF &#40;ROZAIMAN SUFFIAN&#41;</p>
               <p class='my-0'>PENOLONG PENGURUS AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/010.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M6AUA'>
-                <p class='my-0'>9M6AUA / 58MSAUA</p>
-                <p class='my-0'>JEOFREY</p>
+                <p class='my-0'>9M6AUA / 58MSAUA &#40;JEOFREY&#41;</p>
                 <p class='my-0'>PENYELIA SIARAYA 1</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/017.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M6RDY'>
-              <p class='my-0'>9M6RDY</p>
-              <p class='my-0'>MATTHEUS @ RUDY</p>
+              <p class='my-0'>9M6RDY &#40;MATTHEUS @ RUDY&#41;</p>
               <p class='my-0'>PENYELIA SIARAYA 2</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/025.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2AYP'>
-              <p class='my-0'>9W2AYP / 113DAPLY</p>
-              <p class='my-0'>SABRI</p>
+              <p class='my-0'>9W2AYP / 113DAPLY &#40;SABRI&#41;</p>
               <p class='my-0'>PENYELIA SIARAYA 3</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9m6jay.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M6JAY'>
-              <p class='my-0'>9M6JAY</p>
-              <p class='my-0'>JOHN JR.</p>
+              <p class='my-0'>9M6JAY &#40;JOHN JR.&#41;</p>
               <p class='my-0'>PENYELIA AKTIVITI 1</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/029.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2JCP'>
-              <p class='my-0'>9W2JCP / 113DAJCP</p>
-              <p class='my-0'>ROSLI</p>
+              <p class='my-0'>9W2JCP / 113DAJCP &#40;ROSLI&#41;</p>
               <p class='my-0'>PENYELIA AKTIVITI 2</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w2sft.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2SFT'>
-              <p class='my-0'>9W2SFT</p>
-              <p class='my-0'>SYAWAL</p>
+              <p class='my-0'>9W2SFT &#40;SYAWAL&#41;</p>
               <p class='my-0'>PENYELIA AKTIVITI 3</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9m2kzi.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M2KZI'>
-              <p class='my-0'>9M2KZI</p>
-              <p class='my-0'>ZULKARNAIN</p>
+              <p class='my-0'>9M2KZI &#40;ZULKARNAIN&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9m6rhm.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M6RHM'>
-              <p class='my-0'>9M6RHM</p>
-              <p class='my-0'>RAHIM</p>
+              <p class='my-0'>9M6RHM &#40;RAHIM&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M6RMD'>
-              <p class='my-0'>9M6RMD</p>
-              <p class='my-0'>ROSNI</p>
+              <p class='my-0'>9M6RMD &#40;ROSNI&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w2gsv.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2GSV'>
-              <p class='my-0'>9W2GSV</p>
-              <p class='my-0'>SHAHRUZIE</p>
+              <p class='my-0'>9W2GSV &#40;SHAHRUZIE&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w6aze.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6AZE'>
-              <p class='my-0'>9W6AZE</p>
-              <p class='my-0'>HAZARI</p>
+              <p class='my-0'>9W6AZE &#40;HAZARI&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w6pkj.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6PKJ'>
-              <p class='my-0'>9W6PKJ</p>
-              <p class='my-0'>JANSON</p>
+              <p class='my-0'>9W6PKJ &#40;JANSON&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6RHN'>
-              <p class='my-0'>9W6RHN</p>
-              <p class='my-0'>ROSLAN</p>
+              <p class='my-0'>9W6RHN &#40;ROSLAN&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w8vyy.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W8VYY'>
-              <p class='my-0'>9W8VYY</p>
-              <p class='my-0'>ALEX</p>
+              <p class='my-0'>9W8VYY &#40;ALEX&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/008.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2OGK'>
-              <p class='my-0'>9W2OGK / 113DAOGK</p>
-              <p class='my-0'>KAMARUDZAMAN</p>
+              <p class='my-0'>9W2OGK / 113DAOGK &#40;KAMARUDZAMAN&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w2snn.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2SNN'>
-              <p class='my-0'>9W2SNN / 113MSSAM</p>
-              <p class='my-0'>SAMSUL</p>
+              <p class='my-0'>9W2SNN / 113MSSAM &#40;SAMSUL&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2YJT'>
-              <p class='my-0'>9W2YJT / 113DAYJT</p>
-              <p class='my-0'>YUSOF</p>
+              <p class='my-0'>9W2YJT / 113DAYJT &#40;YUSOF&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w6aff.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6AFF'>
-              <p class='my-0'>9W6AFF / 58MSAFF</p>
-              <p class='my-0'>SAFRI</p>
+              <p class='my-0'>9W6AFF / 58MSAFF &#40;SAFRI&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6MOZ'>
-              <p class='my-0'>9W6MOZ / 58MSMOZ</p>
-              <p class='my-0'>MUSTAFA</p>
+              <p class='my-0'>9W6MOZ / 58MSMOZ &#40;MUSTAFA&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/9w6wot.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W6WOT'>
-              <p class='my-0'>9W6WOT / 58MSWOT</p>
-              <p class='my-0'>STEWARD</p>
+              <p class='my-0'>9W6WOT / 58MSWOT &#40;STEWARD&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/028.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2NEW'>
-              <p class='my-0'>9W2NEW / 113DAISS</p>
-              <p class='my-0'>HISHAM</p>
+              <p class='my-0'>9W2NEW / 113DAISS &#40;HISHAM&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/ncs/113daykb.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='113DAYKB'>
-              <p class='my-0'>113DAYKB</p>
-              <p class='my-0'>YAAKOB</p>
+              <p class='my-0'>113DAYKB &#40;YAAKOB&#41;</p>
               <p class='my-0'>PETUGAS TETAP AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/003.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9M2RAN'>
-              <p class='my-0'>9M2RAN / 113MSRAN</p>
-              <p class='my-0'>NOR IMRAN</p>
+              <p class='my-0'>9M2RAN / 113MSRAN &#40;NOR IMRAN&#41;</p>
               <p class='my-0'>PETUGAS SANDARAN AKTIVITI</p>
             </div>
             <div class='carousel-item'>
               <img src='media/image/member/011.png' class='img-fluid rounded-circle object-fit-cover w-25 bg-dark-subtle bg-gradient' alt='9W2NDI'>
-              <p class='my-0'>9W2NDI / 113DANDI</p>
-              <p class='my-0'>NASARUDDIN</p>
+              <p class='my-0'>9W2NDI / 113DANDI &#40;NASARUDDIN&#41;</p>
               <p class='my-0'>PETUGAS SANDARAN AKTIVITI</p>
             </div>
           </div>

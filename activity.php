@@ -107,12 +107,12 @@
   </div>
   <div class='container'>
     <div class='row'>
-      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/078.jpg'></div>
-      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/077.jpg'></div>
-      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/076.jpg'></div>
-      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/075.jpg'></div>
-      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/074.jpg'></div>
-      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/073.jpg'></div>
+      <div class='col-2 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/078.jpg'></div>
+      <div class='col-2 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/077.jpg'></div>
+      <div class='col-2 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/076.jpg'></div>
+      <div class='col-2 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/075.jpg'></div>
+      <div class='col-2 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/074.jpg'></div>
+      <div class='col-2 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/073.jpg'></div>
       <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/072.jpg'></div>
       <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/071.jpg'></div>
       <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/070.jpg'></div>

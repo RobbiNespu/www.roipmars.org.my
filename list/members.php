@@ -54,7 +54,7 @@
   <script src='../vendor/js/gtag.js'></script>
   <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
   <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
-  <script nonce='nLBiTr-Hd6zWbl5ZT9wqvA' src='../vendor/js/gfc.js'></script>
+  <script src='../vendor/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
   <script src='../vendor/js/clarity.js'></script>
 </head>
 

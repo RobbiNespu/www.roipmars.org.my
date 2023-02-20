@@ -28,21 +28,21 @@
   <link rel='manifest' href='../vendor/manifest.json'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://unpkg.com/leaflet@1.9.3/dist/leaflet.css' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://rawgithub.com/ebrelsford/Leaflet.loading/master/src/Control.Loading.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/leaflet.fullscreen.css'  crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.css' crossorigin='anonymous'>
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script></script>
-  <script src='https://unpkg.com/leaflet@1.9.3/dist/leaflet.js' crossorigin='anonymous'></script>
-  <script src='https://raw.githubusercontent.com/leaflet-extras/leaflet-providers/master/leaflet-providers.js' crossorigin='anonymous'></script>
-  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
-  <script src='https://rawgithub.com/ebrelsford/Leaflet.loading/master/src/Control.Loading.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/leaflet-providers@1.13.0/leaflet-providers.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap@1.0.0/dist/Control.WorldMiniMap.js' crossorigin='anonymous'></script>
-  <script src='https://unpkg.com/@joergdietrich/leaflet.terminator@1.1.0/L.Terminator.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/@joergdietrich/leaflet.terminator@1.1.0/L.Terminator.js' crossorigin='anonymous'></script>
   <script src='https://ha8tks.github.io/Leaflet.Maidenhead/src/L.Maidenhead.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.js' crossorigin='anonymous'></script>
   <script src='https://api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
@@ -52,7 +52,7 @@
   <script src='../vendor/js/gtag.js'></script>
   <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
   <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
-  <script nonce='nLBiTr-Hd6zWbl5ZT9wqvA' src='../vendor/js/gfc.js'></script>
+  <script src='../vendor/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
   <script src='../vendor/js/clarity.js'></script>
 </head>
 
@@ -91,7 +91,7 @@
       updateWhenIdle: true,
     }).addTo(map);
     L.control.locate({
-      position: 'topright',
+      position: 'topleft',
       setView: 'once',
       flyTo: true,
       strings: {

@@ -16,13 +16,13 @@
   <meta property='og:site_name' content='RoIPMARS'>
   <meta property='og:title' content='RoIPMARS | Aktiviti & Program'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Aktiviti & Program'>
-  <meta property='og:url' content='https://www.roipmars.org.my/activities'>
+  <meta property='og:url' content='https://www.roipmars.org.my/activity'>
   <meta property='og:image' content='media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='RoIPMARS | Aktiviti & Program'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Aktiviti & Program'>
-  <meta name='twitter:url' content='https://www.roipmars.org.my/activities'>
+  <meta name='twitter:url' content='https://www.roipmars.org.my/activity'>
   <meta name='twitter:image' content='media/image/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
@@ -106,6 +106,34 @@
     </div>
   </div>
   <div class='container'>
+    <div class='row'>
+      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/078.jpg'></div>
+      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/077.jpg'></div>
+      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/076.jpg'></div>
+      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/075.jpg'></div>
+      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/074.jpg'></div>
+      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/073.jpg'></div>
+      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/072.jpg'></div>
+      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/071.jpg'></div>
+      <div class='col-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/070.jpg'></div>
+    </div>
+    <div class='row'>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/069.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/068.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/067.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/066.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/065.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/064.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/063.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/062.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/061.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/060.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/059.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/058.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/057.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/056.jpg'></div>
+      <div class='col-xl-4 m-0 p-1'><img class='figure-img img-fluid rounded-3 mx-auto d-block' loading='lazy' src='media/image/055.jpg'></div>
+    </div>
     <div class='row'>
       <div class='col-12 m-0 p-1'>
         <div class='ratio ratio-21x9'>

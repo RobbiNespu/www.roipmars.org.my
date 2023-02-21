@@ -62,9 +62,9 @@
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <div class='container-fluid'>
     <div class='col-sm-12 pb-2 text-center text-uppercase'>
-      <table class='table table-lg' id='memberlist'>
-        <thead class='table-dark sticky-top'>
-          <th>ID</th><th>Callsign</th><th><input class='form-control form-control-sm text-center rounded-5' type='text' id='nameInput' onkeyup='nameSrch()' placeholder='Nama Ahli' title='Carian menggunakan Nama Ahli'></th><th>Grid</th><th>Tarikh Luput</th><th>Status</th>
+      <table class='table table-lg align-middle' id='memberlist'>
+        <thead class='table-dark sticky-top align-middle'>
+          <th>ID</th><th>Callsign</th><th><input class='form-control form-control-sm text-center rounded-3' type='text' id='nameInput' onkeyup='nameSrch()' placeholder='Carian Nama Ahli' title='Carian menggunakan Nama Ahli'></th><th>Grid</th><th>Tarikh Luput</th><th>Status</th>
         </thead>
         <tbody>
           <tr><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>OJ03RF</td><td>DIS 2023</td><td><i class='bi-check2-circle' style='color: green'></i></td></tr>

@@ -123,7 +123,7 @@
       <div class='col-lg-6'>
         <div class='hstack gap-1 mb-2 justify-content-center'>
           <a type='button' class='btn btn-primary rounded-pill' data-bs-toggle='modal' data-bs-target='#roscertModalLong'>Sijil Kelulusan Pertubuhan</a>
-          <a type='button' class='btn btn-info rounded-pill' href='https://ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf'>Perlembagaan Pertubuhan</a>
+          <a type='button' class='btn btn-info rounded-pill' data-bs-toggle='modal' data-bs-target='#rosconstModalLong'>Perlembagaan Pertubuhan</a>
           <a type='button' class='btn btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
         </div>
         <div class='vstack gap-1 justify-content-center'>
@@ -136,6 +136,15 @@
             <div class='modal-content'>
               <div class='modal-header'><h5 class='modal-title' id='roscertModalTitle'>Sijil Pendaftaran Pertubuhan</h5></div>
               <div class='modal-body'><img class='img-fluid' loading='lazy' src='media/image/ros-sijil.png'></div>
+            </div>
+          </div>
+        </div>
+        <div class='modal fade' id='rosconstModalLong' tabindex='-1' role='dialog' aria-labelledby='rosconstModalTitle' aria-hidden='true'>
+          <div class='modal-dialog modal-dialog-centered modal-xl' role='document'>
+            <div class='modal-content'>
+              <div class='modal-header'><h5 class='modal-title' id='rosconstModalTitle'>Perlembagaan Pertubuhan</h5></div>
+              <div class='modal-body ratio ratio-4x3'><iframe src='https://ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf'></iframe></div>
+              <div class='modal-footer'><a type='button' class='btn btn-sm btn-success' href='https://ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf' download>Muat Turun</a></div>
             </div>
           </div>
         </div>

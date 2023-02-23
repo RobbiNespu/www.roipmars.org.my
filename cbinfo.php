@@ -121,7 +121,7 @@
         <p class='mb-0'>Berdasarkan Akta Komunikasi &amp; Multimedia 1998 (Akta 588), berikut merupakan senarai jalur yang dibenarkan untuk penggunaan Jalur Rakyat di Malaysia</p>
         <p class='alert alert-success'><a href='member' class='text-decoration-none'>Pihak Pengurusan Kumpulan RoIPMARS</a> telah bersetuju untuk menyelaraskan komunikasi radio dua hala <a href='cbmars' class='text-decoration-none'>Jalur Rakyat RoIPMARS</a><br><strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>HF: 27.305MHz USB</strong>;<strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>UHF: 446.05625MHz FM</strong></p>
         <div class='hstack gap-1'>
-          <h3 class='text-secondary mb-0'>HF &#40;CB&#41; - 27MHz</h3>
+          <h3 class='text-secondary'>HF &#40;CB&#41; - 27MHz</h3>
           <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-27cb-modal-xl'>27 CB</button>
           <button type='button' class='btn btn-sm btn-secondary' data-bs-toggle='modal' data-bs-target='.bd-27cbmy-modal-xl'>27 CB MY</button>
         </div>
@@ -208,8 +208,8 @@
         </table>
         <hr>
         <div class='hstack gap-1'>
-          <h3 class='text-secondary mb-0 text-decoration-line-through'>UHF &#40;CB&#41; - 477MHz</h3>
-          <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN<br>dari 01 Jan 2023</a>
+          <h3 class='text-secondary text-decoration-line-through'>UHF &#40;CB&#41; - 477MHz</h3>
+          <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN DI MALAYSIA</a>
 <!--
           <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477cb-modal-xl'>477 CB</button>
           <button type='button' class='btn btn-sm btn-secondary' data-bs-toggle='modal' data-bs-target='.bd-477cbmy-modal-xl'>477 CB MY</button>
@@ -267,7 +267,7 @@
         <hr>
         <div class='hstack'>
           <h3 class='text-secondary text-decoration-line-through'>UHF &#40;FB&#41; - 477MHz</h3>
-          <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN<br>dari 01 Jan 2023</a>
+          <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN DI MALAYSIA</a>
 <!--          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477fb-modal-xl'>477 FB</button>-->
         </div>
 <!--
@@ -296,7 +296,7 @@
     <div class='row'>
       <div class='col-12 text-center'>
         <h2>Identiti Isyarat Panggilan Jalur Rakyat</h2>
-        <img class='img-fluid rounded-5' src='media/image/ipjr.png'>
+        <img class='img-fluid rounded-5' loading='lazy' src='media/image/ipjr.png' width='75%'>
       </div>
     </div>
     <hr>
@@ -567,51 +567,43 @@
     <div class='row'>
       <div class='col'>
         <h3 class='text-capitalize text-center'>Soalan Lazim</h3>
-        <div class='accordion mb-3' id='accordionFAQ' role='tablist' aria-multiselectable='true'>
-          <div class='card'>
-            <div class='card-header' role='tab' id='headingOne'>
-              <h5 class='mb-0'>
-                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseOne' aria-expanded='false' aria-controls='collapseOne'>
-                  <span>1. </span>Adakah saya perlu dapatkan LESEN dari MCMC (SKMM) sekiranya saya ingin menggunakan CB RADIO?</a>
-              </h5>
+        <div class='accordion mb-3' id='accordionCBFAQ' aria-multiselectable='true'>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingOne'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseOne' aria-expanded='false' aria-controls='collapseOne'><i class='bi-1-square-fill'></i>. Adakah saya perlu mendapatkan LESEN dari MCMC (SKMM) sekiranya saya ingin menggunakan CB RADIO?</button>
             </div>
-            <div id='collapseOne' class='collapse' role='tabpanel' aria-labelledby='headingOne'>
-              <div class='card-body'>
-                <p>Anda tidak perlu memohon sebarang lesen AA seperti RADIO AMATUR atau Radio landmobile yang lain samada bentuk walkie-talkie atau handie atau bentuk mobil radio asalkan ianya mengunakan frequency CB atau PRS frequency maka anda tidak perlu mendapatkan apa-apa lesen AA kerana anda dibenarkan menggunakanya tanpa lesen.</p>
-                <h6>Frequency bands</h6>
-                <p>A personal radio service device shall only utilize any of the following frequency bands assigned for this class assignment, amongst other uses, on a shared non-exclusive basis:</p>
-                <ol type='a'>
+            <div id='collapseOne' class='accordion-collapse collapse' aria-labelledby='headingOne' data-bs-parent='#accordionCBFAQ'>
+              <div class='accordion-body'>
+                <p>Anda tidak perlu memohon sebarang lesen seperti RADIO AMATUR atau Komersial yang lain asalkan ianya mengunakan jalur CB atau jalur PRS kerana anda dibenarkan menggunakan jalur tersebut tanpa lesen.</p>
+                <h6>Jalur frekuensi</h6>
+                <p>Peranti perkhidmatan radio peribadi hanya boleh menggunakan mana-mana jalur frekuensi berikut yang ditetapkan untuk tugasan kelas ini, antara kegunaan lain, atas dasar bukan eksklusif yang dikongsi:</p>
+                <ol type='i'>
                   <li>26.965000 MHz to 27.405000 MHz</li>
                   <li>446.006250 MHz to 446.093750 MHz</li>
                   <li>446.103125 MHz to 446.196875 MHz</li>
-                  <li>477.012500 MHz to 477.487500 MHz</li>
-                  <li>477.525000 MHz to 477.987500 MHz</li>
+                  <li class='text-decoration-line-through'>477.012500 MHz to 477.487500 MHz</li>
+                  <li class='text-decoration-line-through'>477.525000 MHz to 477.987500 MHz</li>
                 </ol>
-                <h6>Class assignment</h6>
-                <p>This class assignment confers rights on any person to operate a personal radio service device subject to:</p>
+                <h6>Tugasan kelas</h6>
+                <p>Penugasan kelas ini memberikan hak kepada mana-mana orang untuk mengendalikan peranti perkhidmatan radio peribadi tertakluk kepada:</p>
                 <ol type='a'>
-                  <li>the conditions as specified in paragraph 4</li>
-                  <li>the device operating within the frequency bands as specified in the second column of Tables B, C, D, E and F.</li>
+                  <li>syarat seperti yang dinyatakan dalam perenggan 4</li>
+                  <li>peranti yang beroperasi dalam jalur frekuensi seperti yang dinyatakan dalam lajur kedua Jadual B, C, D, E dan F.</li>
                 </ol>
               </div>
             </div>
           </div>
-          <div class='card'>
-            <div class='card-header' role='tab' id='headingTwo'>
-              <h5 class='mb-0'>
-                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo'>
-                  <span>2. </span>Adakah saya perlu berdaftar dengan mana-mana kelab atau dengan SKMM untuk mendapatkan Isyarat Panggilan?</a>
-              </h5>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingTwo'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo'><i class='bi-2-square-fill'></i>. Adakah saya perlu berdaftar dengan mana-mana kelab atau dengan SKMM untuk mendapatkan Isyarat Panggilan?</button>
             </div>
-            <div id='collapseTwo' class='collapse' role='tabpanel' aria-labelledby='headingTwo'>
-              <div class='card-body'>
-                <p>Anda tidak perlu memohon, mendaftar atau membayar apa-apa bayaran untuk isyarat panggilan kerana pengguna CB RADIO tidak memerlukan sebarang isyarat panggilan yang khusus seperti Radio Amatur. Anda boleh cipta sendiri isyarat panggilan yang di perlukan sebagai pengenalan kepada rakan-rakan kumpulan anda atau ahli keluarga anda bagi memudahkan perhubungan melalui radio 2 hala atau CB RADIO.</p>
-                <p class='alert alert-danger'>Namun begitu, permohonan diperlukan sekiranya kelab tersebut memerlukannya bagi mengelakkan pertindihan.</p>
-                <p>Antara sebutan Phonetic yang sering di gunakan oleh operator AMATUR RADIO adalah seperti berikut</p>
-                <table class='table table-bordered table-sm text-center'>
-                  <thead class='thead-light'>
-                    <th>Symbol</th><th>ITU Phonetic</th><th>Malay Phonetic</th>
-                  </thead>
+            <div id='collapseTwo' class='accordion-collapse collapse' aria-labelledby='headingTwo' data-bs-parent='#accordionCBFAQ'>
+              <div class='accordion-body'>
+                <p>Anda tidak perlu memohon, mendaftar atau membayar apa-apa bayaran untuk isyarat panggilan kerana pengguna CB RADIO tidak memerlukan sebarang isyarat panggilan yang khusus seperti Radio Amatur. Anda boleh cipta sendiri isyarat panggilan yang di perlukan sebagai pengenalan kepada rakan-rakan kumpulan anda atau ahli keluarga anda bagi memudahkan perhubungan melalui radio dua hala atau CB RADIO.</p>
+                <p class='alert alert-danger'>Namun begitu, permohonan diperlukan sekiranya kelab atau organisasi tersebut memerlukannya bagi mengelakkan pertindihan sesama ahli.</p>
+                <p>Antara sebutan Phonetic yang digunakan oleh stesen seluruh dunia adalah seperti berikut</p>
+                <table class='table table-sm table-bordered table-striped text-center align-middle text-wrap my-0 mx-auto w-auto' style='white-space: nowrap'>
+                  <thead><th>Simbol</th><th>ITU Phonetic</th><th>Malay Phonetic</th></thead>
                   <tbody>
                     <tr><td>A</td><td>Alfa</td><td>Agas</td></tr>
                     <tr><td>B</td><td>Bravo</td><td>Bola</td></tr>
@@ -656,42 +648,33 @@
               </div>
             </div>
           </div>
-          <div class='card'>
-            <div class='card-header' role='tab' id='headingThree'>
-              <h5 class='mb-0'>
-                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseThree' aria-expanded='false' aria-controls='collapseThree'>
-                  <span>3. </span>Dimana saya boleh membeli peralatan CB RADIO?</a>
-              </h5>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingThree'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseThree' aria-expanded='false' aria-controls='collapseThree'><i class='bi-3-square-fill'></i>. Dimana saya boleh membeli peralatan CB RADIO?</button>
             </div>
-            <div id='collapseThree' class='collapse' role='tabpanel' aria-labelledby='headingThree'>
-              <div class='card-body'>
-                <p>Anda boleh membeli melalui e-dagang di Malaysia, melalui rakan-rakan CB atau kedai Radio Amateur samada di Jalan Pasar, Plaza Low Yatt atau Plaza Digital Mall. Yang penting ianya adalah CB RADIO yang jalurnya telah diaturkan seperti diatas. Kami mencadangkan anda tidak membeli melalui e-dagang luar negara kerana nanti anda akan kerugian masa, wang dan sebagainya di atas kerenah birokrasi yang bermacam-macam samada dari pihak kastam ataupun pihak SIRIM mengenai peralatan radio.</p>
+            <div id='collapseThree' class='accordion-collapse collapse' aria-labelledby='headingThree' data-bs-parent='#accordionCBFAQ'>
+              <div class='accordion-body'>
+                <p>Anda boleh membeli melalui e-dagang di Malaysia, melalui rakan-rakan CB atau kedai Radio Amatur samada di Jalan Pasar, Plaza Low Yatt, atau Plaza Digital Mall. Yang penting ianya adalah CB RADIO yang jalurnya telah diaturkan seperti diatas. Kami mencadangkan anda tidak membeli melalui e-dagang luar negara kerana nanti anda akan kerugian masa, wang dan sebagainya di atas kerenah birokrasi yang bermacam-macam samada dari pihak kastam ataupun pihak SIRIM mengenai peralatan radio.</p>
               </div>
             </div>
           </div>
-          <div class='card'>
-            <div class='card-header' role='tab' id='headingFour'>
-              <h5 class='mb-0'>
-                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseFour' aria-expanded='false' aria-controls='collapseFour'>
-                  <span>4. </span>Berapa harga sebuah CB RADIO jenis Handy atau jenis mobile?</a>
-              </h5>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingFour'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseFour' aria-expanded='false' aria-controls='collapseFour'><i class='bi-4-square-fill'></i>. Berapa harga sebuah CB RADIO jenis Handy atau jenis Rig?</a>
             </div>
-            <div id='collapseFour' class='collapse' role='tabpanel' aria-labelledby='headingFour'>
-              <div class='card-body'>
-                <p>Harga purata kebanyakan CB Radio adalah mengikut jenis samada Handy atau mobile dan multimode atau hanya mode AM dan FM sahaja. Untuk jenis Handy mode AM dan FM purata harganya adalah sekitar RM 50.00 ke RM 400.00 manakala untuk jenis mobile mode AM dan FM harganya sekitar RM 200.00 ke RM 900.00. Untuk CB RADIO jenis mobile multimode agak mahal sedikit kerana kebanyakan jenis multimode mempunyai berbagai kelebihan seperti frequency counter, echo, scanning dan sebagainya seperti peralatan HAM RADIO. Harganya boleh mencapai sehingga RM 2,500.00. Jadi pada pendapat saya tujuan radio 2 hala adalah untuk perhubungan maka basic CB Radio pun sudah memadai tidak perlu membeli peralatan yang canggih dengan berbagai fungsi sedangkan kita tidak menggunakan fungsi tersebut semasa berbual atau berhubung dengan rakan-rakan CB.</p>
+            <div id='collapseFour' class='accordion-collapse collapse' aria-labelledby='headingFour' data-bs-parent='#accordionCBFAQ'>
+              <div class='accordion-body'>
+                <p>Harga purata kebanyakan CB Radio adalah mengikut jenis samada Handy atau Rig dan multimode atau hanya mode AM dan FM sahaja. Untuk jenis Handy mode AM dan FM purata harganya adalah sekitar RM 50.00 ke RM 400.00 manakala untuk jenis Rig mode AM dan FM harganya sekitar RM 200.00 ke RM 1,000.00. Untuk CB RADIO jenis mobile multimode agak mahal sedikit kerana kebanyakan jenis multimode mempunyai berbagai kelebihan seperti frequency counter, echo, scanning dan sebagainya seperti peralatan HAM RADIO. Harganya boleh mencapai sehingga RM 3,000.00. Tujuan radio dua hala adalah untuk perhubungan maka asas CB Radio pun sudah memadai tidak perlu membeli peralatan yang canggih dengan berbagai fungsi sedangkan kita tidak menggunakan fungsi tersebut semasa berbual atau berhubung dengan rakan-rakan CB.</p>
               </div>
             </div>
           </div>
-          <div class='card'>
-            <div class='card-header' role='tab' id='headingFive'>
-              <h5 class='mb-0'>
-                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseFive' aria-expanded='false' aria-controls='collapseFive'>
-                  <span>5. </span>Ada ke pengguna CB RADIO di Malaysia kerana bila saya monitor macam tak ada orang guna sebagaimana RADIO AMATUR (VHF)?</a>
-              </h5>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingFive'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseFive' aria-expanded='false' aria-controls='collapseFive'><i class='bi-5-square-fill'></i>. Masih adakah pengguna CB RADIO di Malaysia kerana apabila mendengar seperti tiada pengguna sebagaimana RADIO AMATUR (VHF)?</button>
             </div>
-            <div id='collapseFive' class='collapse' role='tabpanel' aria-labelledby='headingFive'>
-              <div class='card-body'>
-                <p>CB RADIO masih baru di Malaysia , maka tidak ramai yang tahu mengenainya kerana tidak ada promosi di buat untuk penggemar CB Radio. Orang ramai lebih suka mempromosikan Radio Amatur kerana merasakan CB RADIO ni untuk golongan yang kurang kemampuan dan hanya menggunakan radio 2 hala sebagai hobi suka-suka sahaja tidak seperti Radio Amatur ada kelebihan seperti kena ambil peperiksaan, (maknanya kena belajar atau join kelas RAE), kena bayar lesen AA, ada Callsign yang diberikan oleh pihak SKMM dan sebagainya. Namun bagi saya kalau ada hobi menggunakan radio 2 hala secara murah untuk permulaan kenapa kita tidak gunakan yang penting boleh guna untuk berhubung di antara satu sama lain sama juga dengan fungsi Radio Amatur. Namun demikian saya yakin nanti ada kelab atau group yang akan mempromosi atau memperkenalkan CB RADIO kepada orang ramai sebagai alat perhubungan alternatif atau pilihan kedua selain Handfone atau Ham Radio. CB RADIO juga bagus untuk kegunaan pemandu lori kontenna yang berkonvoi semasa perjalanan malam, pemandu bas ekspres untuk mengelak dari mengantuk atau boleh di buat sebagai peralatan pemberi amaran awal sekiranya rakan pemandu melihat atau ternampak sesuatu yang mencurigakan di jalan raya. Semasa event sukan, camping, atau kenapa tidak anda memulakan penggunaan CB RADIO sebagai alat perhubungan anda dan keluarga anda semasa konvoi dan sebagainya selagi pengunaanya selari dengan 'rules' dan 'regulations' yang tertera di dalam 'peruntukan kelas' (Class Assignments)</p>
+            <div id='collapseFive' class='accordion-collapse collapse' aria-labelledby='headingFive' data-bs-parent='#accordionCBFAQ'>
+              <div class='accordion-body'>
+                <p>CB RADIO masih baru di Malaysia, maka tidak ramai yang tahu mengenainya kerana tidak ada promosi di buat untuk penggemar CB Radio. Orang ramai lebih suka mempromosikan Radio Amatur kerana merasakan CB RADIO ni untuk golongan yang kurang kemampuan dan hanya menggunakan radio 2 hala sebagai hobi suka-suka sahaja tidak seperti Radio Amatur ada kelebihan seperti kena ambil peperiksaan, (maknanya kena belajar atau join kelas RAE), kena bayar lesen AA, ada Callsign yang diberikan oleh pihak SKMM dan sebagainya. Namun bagi saya kalau ada hobi menggunakan radio 2 hala secara murah untuk permulaan kenapa kita tidak gunakan yang penting boleh guna untuk berhubung di antara satu sama lain sama juga dengan fungsi Radio Amatur. Namun demikian saya yakin nanti ada kelab atau group yang akan mempromosi atau memperkenalkan CB RADIO kepada orang ramai sebagai alat perhubungan alternatif atau pilihan kedua selain Handfone atau Ham Radio. CB RADIO juga bagus untuk kegunaan pemandu lori kontenna yang berkonvoi semasa perjalanan malam, pemandu bas ekspres untuk mengelak dari mengantuk atau boleh di buat sebagai peralatan pemberi amaran awal sekiranya rakan pemandu melihat atau ternampak sesuatu yang mencurigakan di jalan raya. Semasa event sukan, camping, atau kenapa tidak anda memulakan penggunaan CB RADIO sebagai alat perhubungan anda dan keluarga anda semasa konvoi dan sebagainya selagi pengunaanya selari dengan 'rules' dan 'regulations' yang tertera di dalam 'peruntukan kelas' (Class Assignments)</p>
                 <div class='alert alert-secondary' role='alert'>
                   <h4 class='alert-heading text-center'>COMMUNICATIONS AND MULTIMEDIA ACT 1998</h4>
                   <h5 class='text-center'>CLASS ASSIGNMENTS NO. 2 OF 2015</h5>
@@ -708,15 +691,12 @@
               </div>
             </div>
           </div>
-          <div class='card'>
-            <div class='card-header' role='tab' id='headingSix'>
-              <h5 class='mb-0'>
-                <a class='collapsed text-decoration-none' data-bs-toggle='collapse' data-bs-parent='#accordionFAQ' href='#collapseSix' aria-expanded='false' aria-controls='collapseSix'>
-                  <span>6. </span>Berapa jarak perhubungan yang boleh di capai menggunakan CB RADIO atau PRS RADIO?</a>
-              </h5>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingSix'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseSix' aria-expanded='false' aria-controls='collapseSix'><i class='bi-6-square-fill'></i>. Berapa jarak perhubungan yang boleh di capai menggunakan CB RADIO atau PRS RADIO?</button>
             </div>
-            <div id='collapseSix' class='collapse' role='tabpanel' aria-labelledby='headingSix'>
-              <div class='card-body'>
+            <div id='collapseSix' class='accordion-collapse collapse' aria-labelledby='headingSix' data-bs-parent='#accordionCBFAQ'>
+              <div class='accordion-body'>
                 <p>Jarak purata CB RADIO 27MHz adalah sekitar 5 ke 18 KM manakala untuk CB RADIO 477MHz adalah sekitar 5 ke 20 KM bergantung kepada bentuk permukaan bumi dan halangan seperti bangunan tinggi hutan yang tebal atau keadaan cuaca dan sebagainya. Namun demikian sekiranya keadaan propagasi membuka dengan menggunakan CB RADIO 27Mhz USB anda akan terkejut bila station dari Indonesia atau Australia menjawab panggilan anda, bayangkan perasaan anda semasa itu. Oleh itu CB Radio 27MHz SSB juga boleh mencapai ribuan kilometer sekiranya propagasi cuaca membuka atau sebagainya.</p>
               </div>
             </div>

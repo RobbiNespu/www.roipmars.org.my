@@ -88,8 +88,9 @@
               <li><a class='dropdown-item' href='howto'>Tutorial</a></li>
               <li><a class='dropdown-item' href='program'>Program RoIPMARS</a></li>
               <li><a class='dropdown-item' href='snotice'>Notis Perkhidmatan</a></li>
+              <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
               <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
-              <!--<li><a class='dropdown-item active rounded-3' aria-current='page' href='mailus'>Hubungi Kami</a></li>-->
+              <li><a class='dropdown-item active rounded-3' aria-current='page' href='mailus'>Hubungi Kami</a></li>
             </ul>
           </li>
           <li class='nav-item'><a class='nav-link' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
@@ -179,8 +180,8 @@
                 </div>
               </div>
             </div>
-          <div class='d-md-flex justify-content-md-end'>
-            <img class='img-fluid rounded-5 bg-secondary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
+          <div class='d-md-flex justify-content-md-end opacity-75'>
+            <img class='img-fluid rounded-5 bg-body-tertiary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=dark&back=transparent&heline=eve'>
           </div>
         </div>
       </div>

@@ -87,6 +87,7 @@
               <li><a class='dropdown-item' href='howto'>Tutorial</a></li>
               <li><a class='dropdown-item active rounded-3' aria-current='page' href='program'>Program RoIPMARS</a></li>
               <li><a class='dropdown-item' href='snotice'>Notis Perkhidmatan</a></li>
+              <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
               <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
               <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
             </ul>
@@ -118,9 +119,9 @@
         <div class='ratio ratio-21x9'>
           <iframe class='rounded-4' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0' style='filter: invert(.9) saturate(0.85) hue-rotate(145deg)'></iframe>
         </div>
-        <p class='text-center mt-3 mb-0'>Bagi individu atau kelab yang berminat untuk menjalankan sebarang aktiviti bersama atau hebahan semasa aktiviti kami berlansung,<br>anda boleh berhubung terus dengan:</p>
+        <p class='text-center my-2'>Bagi individu atau kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami atau membuat hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan:</p>
         <div class='btn-group btn-group-lg d-grid gap-2 d-lg-block mt-0 mb-2'>
-          <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/60145768581'><i class='bi-whatsapp'></i> <b>Pegawai Bahagian Siaraya &amp; Aktiviti</b></button>
+          <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/60145768581'><i class='bi-whatsapp'></i> <b>Pegawai Siaraya &amp; Aktiviti</b></button>
           <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/601112308482'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></button>
           <button class='btn rounded-3 btn-outline-success' type='button' href='https://wa.me/60196293718'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></button>
         </div>
@@ -348,7 +349,7 @@
                 <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Israk Mikraj&#41;</td><td>9W2UZL</td><td>63</td></tr>
                 <tr class='bg-dark-subtle'><td rowspan='2'>Ahad<br>19 Feb</td><td>0900MY<br>-<br>1200MY</td><td>Mesyuarat Agung Tahunan<br>Annual General Meeting<br>AGM 2022</td><td>Kalumpang Resort, Hulu Selangor</td><td>&mdash;</td></tr>
                 <tr><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>19</td></tr>
-                <tr class='bg-info-subtle'><td>Rabu<br>22 Feb</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Thinking Day&#41;</td><td>9W6WOT</td><td></td></tr>
+                <tr class='bg-info-subtle'><td>Rabu<br>22 Feb</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Thinking Day&#41;</td><td>9W6RHN</td><td>26</td></tr>
                 <tr><td>Jumaat<br>24 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td></td></tr>
                 <tr><td>Sabtu<br>25 Feb</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td></td></tr>
                 <tr><td>Ahad<br>26 Feb</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>
@@ -1155,8 +1156,8 @@
                 </div>
               </div>
             </div>
-          <div class='d-md-flex justify-content-md-end'>
-            <img class='img-fluid rounded-5 bg-secondary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=white&back=transparent&heline=eve'>
+          <div class='d-md-flex justify-content-md-end opacity-75'>
+            <img class='img-fluid rounded-5 bg-body-tertiary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=dark&back=transparent&heline=eve'>
           </div>
         </div>
       </div>

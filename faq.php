@@ -99,21 +99,178 @@
     </div>
   </nav>
   <div class='container'>
-    <div class='row text-center'>
-      <h1 class='h1'>Soalan Lazim</h1>
+    <div class='row'>
+      <div class='col text-center'>
+        <h1 class='h1'>Soalan Lazim</h1>
+        <table class='table table-sm table-bordered table-striped text-center align-middle mb-3 mx-auto w-auto text-wrap' style='white-space: nowrap'>
+          <thead class='align-middle'><th>Abjad</th><th>Fonetik</th><th>International Morse</th></thead>
+          <tbody class='fs-4'>
+            <tr><td>A</td><td>Alfa<br>Agas</td><td>&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f3/A_morse_code.ogg'></audio></td></tr>
+            <tr><td>B</td><td>Bravo<br>Bola</td><td>&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/b1/B_morse_code.ogg'></audio></td></tr>
+            <tr><td>C</td><td>Charlie<br>Ciku</td><td>&ndash;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/2/25/C_morse_code.ogg'></audio></td></tr>
+            <tr><td>D</td><td>Delta<br>Duku</td><td>&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/92/D_morse_code.ogg'></audio></td></tr>
+            <tr><td>E</td><td>Echo<br>Elok</td><td>&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/e7/E_morse_code.ogg'></audio></td></tr>
+            <tr><td>F</td><td>Foxtrot<br>Fajar</td><td>&bull;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/63/F_morse_code.ogg'></audio></td></tr>
+            <tr><td>G</td><td>Golf<br>Gagak</td><td>&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/72/G_morse_code.ogg'></audio></td></tr>
+            <tr><td>H</td><td>Hotel<br>Handal</td><td>&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/93/H_morse_code.ogg'></audio></td></tr>
+            <tr><td>I</td><td>India<br>Intan</td><td>&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d9/I_morse_code.ogg'></audio></td></tr>
+            <tr><td>J</td><td>Juliett<br>Jala</td><td>&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9e/J_morse_code.ogg'></audio></td></tr>
+            <tr><td>K</td><td>Kilo<br>Kota</td><td>&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/K_morse_code.ogg'></audio></td></tr>
+            <tr><td>L</td><td>Lima<br>Laju</td><td>&bull;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/a/a8/L_morse_code.ogg'></audio></td></tr>
+            <tr><td>M</td><td>Mike<br>Merah</td><td>&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/97/M_morse_code.ogg'></audio></td></tr>
+            <tr><td>N</td><td>November<br>Nuri</td><td>&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5a/N_morse_code.ogg'></audio></td></tr>
+            <tr><td>O</td><td>Oscar<br>Ombak</td><td>&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/41/O_morse_code.ogg'></audio></td></tr>
+            <tr><td>P</td><td>Papa<br>Palang</td><td>&bull;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/c/c6/P_morse_code.ogg'></audio></td></tr>
+            <tr><td>Q</td><td>Quebec<br>Quen</td><td>&ndash;&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f0/Q_morse_code.ogg'></audio></td></tr>
+            <tr><td>R</td><td>Romeo<br>Rakit</td><td>&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg'></audio></td></tr>
+            <tr><td>S</td><td>Sierra<br>Singa</td><td>&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d8/S_morse_code.ogg'></audio></td></tr>
+            <tr><td>T</td><td>Tango<br>Tari</td><td>&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/ba/T_morse_code.ogg'></audio></td></tr>
+            <tr><td>U</td><td>Uniform<br>Udang</td><td>&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/34/U_morse_code.ogg'></audio></td></tr>
+            <tr><td>V</td><td>Victor<br>Victor</td><td>&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/37/V_morse_code.ogg'></audio></td></tr>
+            <tr><td>W</td><td>Whiskey<br>Wayang</td><td>&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/68/W_morse_code.ogg'></audio></td></tr>
+            <tr><td>X</td><td>X-ray<br>X-ray</td><td>&ndash;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/be/X_morse_code.ogg'></audio></td></tr>
+            <tr><td>Y</td><td>Yankee<br>Yakin</td><td>&ndash;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/Y_morse_code.ogg'></audio></td></tr>
+            <tr><td>Z</td><td>Zulu<br>Zaman</td><td>&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Z_morse_code.ogg'></audio></td></tr>
+            <tr><td>0</td><td>Zero<br>Kosong</td><td>&ndash;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/0_number_morse_code.ogg'></audio></td></tr>
+            <tr><td>1</td><td>One<br>Satu</td><td>&bull;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9b/1_number_morse_code.ogg'></audio></td></tr>
+            <tr><td>2</td><td>Two<br>Dua</td><td>&bull;&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ee/2_number_morse_code.ogg'></audio></td></tr>
+            <tr><td>3</td><td>Three<br>Tiga</td><td>&bull;&bull;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/fd/3_number_morse_code.ogg'></audio></td></tr>
+            <tr><td>4</td><td>Four<br>Empat</td><td>&bull;&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5c/4_number_morse_code.ogg'></audio></td></tr>
+            <tr><td>5</td><td>Five<br>Lima</td><td>&bull;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/52/5_number_morse_code.ogg'></audio></td></tr>
+            <tr><td>6</td><td>Six<br>Enam</td><td>&ndash;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/4d/6_number_morse_code.ogg'></audio></td></tr>
+            <tr><td>7</td><td>Seven<br>Tujuh</td><td>&ndash;&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/1/14/7_number_morse_code.ogg'></audio></td></tr>
+            <tr><td>8</td><td>Eight<br>Lapan</td><td>&ndash;&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/3a/8_number_morse_code.ogg'></audio></td></tr>
+            <tr><td>9</td><td>Nine<br>Sembilan</td><td>&ndash;&ndash;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/44/9_number_morse_code.ogg'></audio></td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <div class='row'>
-      <div class='col'>
-        <h3 class='text-capitalize text-center'>Jalur Rakyat</h3>
-        <div class='accordion mb-3' id='accordionCBFAQ' aria-multiselectable='true'>
+      <div class='col-12 mb-3'>
+        <h3 class='text-capitalize text-center'>Kumpulan Rangkaian RoIPMARS</h3>
+        <div class='accordion' id='accordionROIPMARSFAQ' aria-multiselectable='true'>
           <div class='accordion-item'>
-            <div class='accordion-header' id='headingOne'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseOne' aria-expanded='false' aria-controls='collapseOne'><i class='bi-1-square-fill'></i>Adakah lesen dari MCMC (SKMM) diperlukan untuk penggunaan CB RADIO?</button>
+            <div class='accordion-header' id='headingROIPMARS1'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseROIPMARS1' aria-expanded='false' aria-controls='collapseROIPMARS1'><i class='bi-1-square-fill pe-2'></i>Bagaimana cara untuk menjadi ahli Kumpulan RoIPMARS?</button>
             </div>
-            <div id='collapseOne' class='accordion-collapse collapse' aria-labelledby='headingOne' data-bs-parent='#accordionCBFAQ'>
+            <div id='collapseROIPMARS1' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS1' data-bs-parent='#accordionROIPMARSFAQ'>
+              <div class='accordion-body'>
+                <p>Anda boleh layari laman <a href='member'>Ahli</a> dan dapatkan borang keahlian disana. Terdapat 3 kaedah pengisian borang iaitu melalui Google Form, Adobe Sign, dan fail PDF. Anda dikehendaki mengisi lengkap salah satu borang tersebut dan dikembalikan semula kepada Setiausaha bersama dengan bukti yuran pendaftaran serta dokumen tambahan yang dinyatakan pada borang tersebut.</p>
+              </div>
+            </div>
+          </div>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingROIPMARS2'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseROIPMARS2' aria-expanded='false' aria-controls='collapseROIPMARS2'><i class='bi-2-square-fill pe-2'></i>Saya telah berdaftar sebagai Ahli CB RoIPMARS, adakah saya secara automatik menjadi Ahli Persatuan?</button>
+            </div>
+            <div id='collapseROIPMARS2' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS2' data-bs-parent='#accordionROIPMARSFAQ'>
+              <div class='accordion-body'>
+                <p>Tidak. Anda mendaftar sebagai ahli CB kami hanya untuk rekod bagi mengelakkan pertindihan isyarat panggilan yang digunakan.</p>
+                <p>Antara awalan isyarat panggilan yang digunakan oleh CB Kumpulan RoIPMARS adalah:</p>
+                <table class='table table-sm table-bordered text-center align-middle'>
+                  <tbody>
+                    <tr class='fw-bold text-primary-emphasis'>
+                      <td>113MS</td>
+                      <td>58MS</td>
+                      <td>91MS</td>
+                      <td>153MS</td>
+                    </tr>
+                    <tr class='fw-light text-danger-emphasis'>
+                      <td>225BS</td>
+                      <td>113DA</td>
+                      <td>91DA</td>
+                      <td>153DA</td>
+                    </tr>
+                    <tr class='text-decoration-line-through text-body-tertiary'>
+                      <td>113KL</td>
+                      <td>113PT</td>
+                      <td>58SB</td>
+                      <td>58SW</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>Anda digalakkan untuk berdaftar sebagai Ahli Persatuan yang mempunyai pelbagai kelebihan berbanding Ahli CB kami.</p>
+              </div>
+            </div>
+          </div>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingROIPMARS3'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseROIPMARS3' aria-expanded='false' aria-controls='collapseROIPMARS3'><i class='bi-3-square-fill pe-2'></i>Mengapa sambungan ke pelayan TeamSpeak3 selain RoIPMARS gagal pada peranti saya?</button>
+            </div>
+            <div id='collapseROIPMARS3' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS3' data-bs-parent='#accordionROIPMARSFAQ'>
+              <div class='accordion-body'>
+                <p>Pelayan TeamSpeak3 milik <abbr title='roipmars.org.my'>Kumpulan RoIPMARS</abbr> merupakan sebuah pelayan berlesen sah yang dibiaya oleh ahli-ahli Persatuan Peminat Radio Komunikasi (ROIP). Tambahan lagi, pelayan milik Kumpulan RoIPMARS menyokong sambungan dari semua versi pengguna.</p>
+                <p>Terdapat beberapa faktor yang tidak membenarkan anda masuk ke pelayan selain Kumpulan RoIPMARS, antaranya:</p>
+                <table class='table table-sm table-bordered table-striped text-center align-middle'>
+                  <thead><tr><th>Ralat</th><th>Penerangan</th></tr></thead>
+                  <tbody>
+                    <tr><td>server outdated</td><td>pelayan tidak menyokong sambungan dari versi yang anda gunakan</td></tr>
+                    <tr><td>client outdated</td><td>versi yang anda gunakan tidak disokong oleh pelayan</td></tr>
+                    <tr><td>TSDNS error</td><td>i. kesilapan alamat pelayan<br>ii. ralat konfigurasi DNS dari pihak pembekal hos</td></tr>
+                    <tr><td>server blacklisted</td><td>pelayan telah disenarai hitam oleh pihak pembangun perisian</td></tr>
+                    <tr><td>connection error</td><td>i. kesilapan alamat/ip pelayan<br>ii. pelayan tidak beroperasi</td></tr>
+                  </tbody>
+                </table>
+                <p>Pihak Pentadbir Rangkaian Kumpulan RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
+              </div>
+            </div>
+          </div>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingROIPMARS4'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseROIPMARS4' aria-expanded='false' aria-controls='collapseROIPMARS4'><i class='bi-4-square-fill pe-2'></i>Mengapa saya gagal memasang 'apk' TeamSpeak3 yang diberikan rakan pada peranti iOS saya?</button>
+            </div>
+            <div id='collapseROIPMARS4' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS4' data-bs-parent='#accordionROIPMARSFAQ'>
+              <div class='accordion-body'>
+                <p>Sistem operasi dan perisian yang digunakan kedua dua peranti iOS dan Android adalah berbeza. iOS menggunakan sistem yang dibangunkan sendiri oleh Apple, manakala Android merupakan sebuah sistem sumber terbuka yang dimiliki oleh Google.</p>
+                <p>Tahap keselamatan perisian dari pihak Apple tidak membenarkan pemasangan mana-mana aplikasi selain daripada Apple App Store.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class='col-12 mb-3'>
+        <h3 class='text-capitalize text-center'>Jalur Amatur</h3>
+        <div class='accordion' id='accordionHAMFAQ' aria-multiselectable='true'>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingHAM1'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseHAM1' aria-expanded='false' aria-controls='collapseHAM1'><i class='bi-1-square-fill pe-2'></i>Bagaimana cara untuk menyertai aktiviti net yang dijalankan?</button>
+            </div>
+            <div id='collapseHAM1' class='accordion-collapse collapse' aria-labelledby='headingHAM1' data-bs-parent='#accordionHAMFAQ'>
+              <div class='accordion-body'>
+                <p>Anda boleh dapatkan maklumat pemasangan aplikasi di <a href='howto'>Tutorial</a> dan sertai aktiviti dalam talian kami disana.</p>
+              </div>
+            </div>
+          </div>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingHAM2'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseHAM2' aria-expanded='false' aria-controls='collapseHAM2'><i class='bi-2-square-fill pe-2'></i>Mengapa kualiti audio di aplikasi selain TeamSpeak3 yang disambungkan ke RoIPMARS mempunyai kelewatan dan tidak jernih?</button>
+            </div>
+            <div id='collapseHAM2' class='accordion-collapse collapse' aria-labelledby='headingHAM2' data-bs-parent='#accordionHAMFAQ'>
+              <div class='accordion-body'>
+                <p>Segala sambungan (pautan silang) yang disediakan adalah kepunyaan INDIVIDU sepenuhnya. Pelbagai faktor perlu diambil kira untuk menyediakan pautan silang tersebut, antaranya:</p>
+                <ol type='i'>
+                  <li>spesifikasi komputer yang digunakan</li>
+                  <li>kestabilan sambungan yang digunakan</li>
+                  <li>penyelenggaraan komputer yang digunakan</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class='col-12 mb-3'>
+        <h3 class='text-capitalize text-center'>Jalur Rakyat</h3>
+        <div class='accordion' id='accordionCBFAQ' aria-multiselectable='true'>
+          <div class='accordion-item'>
+            <div class='accordion-header' id='headingCB1'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB1' aria-expanded='false' aria-controls='collapseCB1'><i class='bi-1-square-fill pe-2'></i>Adakah lesen dari MCMC (SKMM) diperlukan untuk penggunaan CB RADIO?</button>
+            </div>
+            <div id='collapseCB1' class='accordion-collapse collapse' aria-labelledby='headingCB1' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>
                 <p>Anda tidak perlu memohon sebarang lesen seperti RADIO AMATUR atau Komersial yang lain asalkan ianya mengunakan jalur CB atau jalur PRS kerana anda dibenarkan menggunakan jalur tersebut tanpa lesen.</p>
-                <h6>Jalur frekuensi</h6>
+                <p class='h5'>Jalur frekuensi</p>
                 <p>Peranti perkhidmatan radio peribadi hanya boleh menggunakan mana-mana jalur frekuensi berikut yang ditetapkan untuk tugasan kelas ini, antara kegunaan lain, atas dasar bukan eksklusif yang dikongsi:</p>
                 <ol type='i'>
                   <li>26.965 MHz to 27.405 MHz</li>
@@ -121,7 +278,7 @@
                   <li class='text-decoration-line-through'>>477.0125 MHz to 477.4875 MHz</li>
                   <li class='text-decoration-line-through'>>477.5250 MHz to 477.9875 MHz</li>
                 </ol>
-                <h6>Tugasan kelas</h6>
+                <p class='h5'>Tugasan kelas</p>
                 <p>Tugasan kelas ini memberikan hak kepada mana-mana orang untuk mengendalikan peranti PRS tertakluk kepada:</p>
                 <ol type='a'>
                   <li>syarat-syarat seperti yang dinyatakan dalam perenggan 4 jadual ini; dan</li>
@@ -131,85 +288,44 @@
             </div>
           </div>
           <div class='accordion-item'>
-            <div class='accordion-header' id='headingTwo'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo'><i class='bi-2-square-fill'></i>Adakah perlu pendaftaran dengan mana-mana kelab atau SKMM untuk mendapatkan Isyarat Panggilan?</button>
+            <div class='accordion-header' id='headingCB2'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB2' aria-expanded='false' aria-controls='collapseCB2'><i class='bi-2-square-fill pe-2'></i>Adakah perlu pendaftaran dengan mana-mana kelab atau SKMM untuk mendapatkan Isyarat Panggilan?</button>
             </div>
-            <div id='collapseTwo' class='accordion-collapse collapse' aria-labelledby='headingTwo' data-bs-parent='#accordionCBFAQ'>
+            <div id='collapseCB2' class='accordion-collapse collapse' aria-labelledby='headingCB2' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>
                 <p>Anda tidak perlu memohon, mendaftar atau membayar apa-apa bayaran untuk isyarat panggilan kerana pengguna CB RADIO tidak memerlukan sebarang isyarat panggilan yang khusus seperti Radio Amatur. Anda boleh cipta sendiri isyarat panggilan yang diperlukan sebagai pengenalan kepada rakan-rakan kumpulan anda atau ahli keluarga anda bagi memudahkan perhubungan melalui radio dua hala atau CB RADIO.</p>
                 <p class='alert alert-danger'>Namun begitu, permohonan diwajibkan sekiranya kelab atau organisasi tersebut memerlukannya bagi mengelakkan pertindihan sesama ahli.</p>
                 <p>Antara sebutan Phonetic yang digunakan oleh stesen seluruh dunia adalah seperti berikut</p>
-                <table class='table table-sm table-bordered table-striped text-center align-middle text-wrap my-0 mx-auto w-auto' style='white-space: nowrap'>
-                  <thead><th>Simbol</th><th>ITU Phonetic</th><th>Malay Phonetic</th></thead>
-                  <tbody>
-                    <tr><td>A</td><td>Alfa</td><td>Agas</td></tr>
-                    <tr><td>B</td><td>Bravo</td><td>Bola</td></tr>
-                    <tr><td>C</td><td>Charlie</td><td>Ciku</td></tr>
-                    <tr><td>D</td><td>Delta</td><td>Duku</td></tr>
-                    <tr><td>E</td><td>Echo</td><td>Elok</td></tr>
-                    <tr><td>F</td><td>Foxtrot</td><td>Fajar</td></tr>
-                    <tr><td>G</td><td>Golf</td><td>Gagak</td></tr>
-                    <tr><td>H</td><td>Hotel</td><td>Handal</td></tr>
-                    <tr><td>I</td><td>India</td><td>Intan</td></tr>
-                    <tr><td>J</td><td>Juliett</td><td>Jala</td></tr>
-                    <tr><td>K</td><td>Kilo</td><td>Kota</td></tr>
-                    <tr><td>L</td><td>Lima</td><td>Laju</td></tr>
-                    <tr><td>M</td><td>Mike</td><td>Merah</td></tr>
-                    <tr><td>N</td><td>November</td><td>Nuri</td></tr>
-                    <tr><td>O</td><td>Oscar</td><td>Ombak</td></tr>
-                    <tr><td>P</td><td>Papa</td><td>Palang</td></tr>
-                    <tr><td>Q</td><td>Quebec</td><td>Quen</td></tr>
-                    <tr><td>R</td><td>Romeo</td><td>Rakit</td></tr>
-                    <tr><td>S</td><td>Sierra</td><td>Singa</td></tr>
-                    <tr><td>T</td><td>Tango</td><td>Tari</td></tr>
-                    <tr><td>U</td><td>Uniform</td><td>Udang</td></tr>
-                    <tr><td>V</td><td>Victor</td><td>Victor</td></tr>
-                    <tr><td>W</td><td>Whiskey</td><td>Wayang</td></tr>
-                    <tr><td>X</td><td>X-ray</td><td>X-ray</td></tr>
-                    <tr><td>Y</td><td>Yankee</td><td>Yakin</td></tr>
-                    <tr><td>Z</td><td>Zulu</td><td>Zaman</td></tr>
-                    <tr><td>0</td><td>Zero</td><td>Kosong</td></tr>
-                    <tr><td>1</td><td>One</td><td>Satu</td></tr>
-                    <tr><td>2</td><td>Two</td><td>Dua</td></tr>
-                    <tr><td>3</td><td>Three</td><td>Tiga</td></tr>
-                    <tr><td>4</td><td>Four</td><td>Empat</td></tr>
-                    <tr><td>5</td><td>Five</td><td>Lima</td></tr>
-                    <tr><td>6</td><td>Six</td><td>Enam</td></tr>
-                    <tr><td>7</td><td>Seven</td><td>Tujuh</td></tr>
-                    <tr><td>8</td><td>Eight</td><td>Lapan</td></tr>
-                    <tr><td>9</td><td>Nine</td><td>Sembilan</td></tr>
-                  </tbody>
-                </table>
-                <h6>Penggunaan Isyarat Panggilan</h6>
+                <p class='h5'>Penggunaan Isyarat Panggilan</p>
                 <p>Tiada isyarat panggilan digunakan selain dalam bidang operasi di mana isyarat panggilan tersebut diperlukan.</p>
               </div>
             </div>
           </div>
           <div class='accordion-item'>
-            <div class='accordion-header' id='headingThree'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseThree' aria-expanded='false' aria-controls='collapseThree'><i class='bi-3-square-fill'></i>Dimana saya boleh membeli peralatan CB RADIO?</button>
+            <div class='accordion-header' id='headingCB3'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB3' aria-expanded='false' aria-controls='collapseCB3'><i class='bi-3-square-fill pe-2'></i>Dimana saya boleh membeli peralatan CB RADIO?</button>
             </div>
-            <div id='collapseThree' class='accordion-collapse collapse' aria-labelledby='headingThree' data-bs-parent='#accordionCBFAQ'>
+            <div id='collapseCB3' class='accordion-collapse collapse' aria-labelledby='headingCB3' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>
                 <p>Anda boleh membeli melalui e-dagang di Malaysia, melalui rakan-rakan CB atau kedai Radio Amatur samada di Jalan Pasar, Plaza Low Yatt, atau Plaza Digital Mall. Yang penting ianya adalah CB RADIO yang jalurnya telah diaturkan seperti diatas. Kami mencadangkan anda tidak membeli melalui e-dagang luar negara kerana nanti anda akan kerugian masa, wang dan sebagainya di atas kerenah birokrasi yang bermacam-macam samada dari pihak kastam ataupun pihak SIRIM mengenai peralatan radio.</p>
               </div>
             </div>
           </div>
           <div class='accordion-item'>
-            <div class='accordion-header' id='headingFour'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseFour' aria-expanded='false' aria-controls='collapseFour'><i class='bi-4-square-fill'></i>Berapa harga sebuah CB RADIO jenis Handy atau jenis Rig?</a>
+            <div class='accordion-header' id='headingCB4'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB4' aria-expanded='false' aria-controls='collapseCB4'><i class='bi-4-square-fill pe-2'></i>Berapa harga sebuah CB RADIO jenis Handy atau jenis Rig?</a>
             </div>
-            <div id='collapseFour' class='accordion-collapse collapse' aria-labelledby='headingFour' data-bs-parent='#accordionCBFAQ'>
+            <div id='collapseCB4' class='accordion-collapse collapse' aria-labelledby='headingCB4' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>
                 <p>Harga purata kebanyakan CB Radio adalah mengikut jenis samada Handy atau Rig dan multimode atau hanya mode AM dan FM sahaja. Untuk jenis Handy mode AM dan FM purata harganya adalah sekitar RM 50.00 ke RM 400.00 manakala untuk jenis Rig mode AM dan FM harganya sekitar RM 200.00 ke RM 1,000.00. Untuk CB RADIO jenis mobile multimode agak mahal sedikit kerana kebanyakan jenis multimode mempunyai berbagai kelebihan seperti frequency counter, echo, scanning dan sebagainya seperti peralatan HAM RADIO. Harganya boleh mencapai sehingga RM 3,000.00. Tujuan radio dua hala adalah untuk perhubungan maka asas CB Radio pun sudah memadai tidak perlu membeli peralatan yang canggih dengan berbagai fungsi sedangkan kita tidak menggunakan fungsi tersebut semasa berbual atau berhubung dengan rakan-rakan CB.</p>
               </div>
             </div>
           </div>
           <div class='accordion-item'>
-            <div class='accordion-header' id='headingFive'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseFive' aria-expanded='false' aria-controls='collapseFive'><i class='bi-5-square-fill'></i>Masih adakah pengguna CB RADIO di Malaysia?</button>
+            <div class='accordion-header' id='headingCB5'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB5' aria-expanded='false' aria-controls='collapseCB5'><i class='bi-5-square-fill pe-2'></i>Masih adakah pengguna CB RADIO di Malaysia?</button>
             </div>
-            <div id='collapseFive' class='accordion-collapse collapse' aria-labelledby='headingFive' data-bs-parent='#accordionCBFAQ'>
+            <div id='collapseCB5' class='accordion-collapse collapse' aria-labelledby='headingCB5' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>
                 <p>Tidak ramai yang tahu mengenai CB RADIO kerana tidak ada usaha promosi dibuat untuk penggemar CB Radio. Orang ramai lebih suka mempromosikan Radio Amatur kerana merasakan CB RADIO ini untuk golongan yang kurang berkemampuan dan hanya menggunakan radio dua hala sebagai hobi sahaja tidak seperti Radio Amatur yang mempunyai kelebihan seperti perlu mengambil peperiksaan, membayar lesen, mempunyai isyarat panggilan khusus yang diberikan oleh pihak SKMM dan sebagainya. Jika ada hobi menggunakan radio dua hala secara murah untuk permulaan, kenapa kita tidak gunakan, yang penting boleh digunakan untuk berhubung di antara satu sama lain sama juga dengan fungsi Radio Amatur. Namun demikian, akan ada kelab atau komuniti yang mempromosi atau memperkenalkan CB RADIO kepada orang ramai sebagai alat perhubungan alternatif atau pilihan kedua selain telefon pintar atau radio amatur. CB RADIO juga bagus untuk kegunaan pemandu lori kontena yang berkonvoi semasa perjalanan malam, pemandu bas ekspres untuk mengelak dari mengantuk atau boleh dijadikan sebagai peralatan pemberi amaran awal sekiranya rakan pemandu melihat atau ternampak sesuatu yang mencurigakan di jalan raya. Semasa acara sukan, camping, atau kenapa tidak anda memulakan penggunaan CB RADIO sebagai alat perhubungan anda dan keluarga anda semasa konvoi dan sebagainya selagi pengunaanya selari dengan peraturan yang tertera di dalam peruntukan kelas (Class Assignment).</p>
                 <div class='alert alert-secondary' role='alert'>
@@ -230,15 +346,16 @@
             </div>
           </div>
           <div class='accordion-item'>
-            <div class='accordion-header' id='headingSix'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseSix' aria-expanded='false' aria-controls='collapseSix'><i class='bi-6-square-fill'></i>Berapa jarak perhubungan yang boleh di capai menggunakan CB RADIO atau PRS RADIO?</button>
+            <div class='accordion-header' id='headingCB6'>
+              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB6' aria-expanded='false' aria-controls='collapseCB6'><i class='bi-6-square-fill pe-2'></i>Berapa jarak perhubungan yang boleh di capai menggunakan CB RADIO atau PRS RADIO?</button>
             </div>
-            <div id='collapseSix' class='accordion-collapse collapse' aria-labelledby='headingSix' data-bs-parent='#accordionCBFAQ'>
+            <div id='collapseCB6' class='accordion-collapse collapse' aria-labelledby='headingCB6' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>
                 <p>Jarak purata komunikasi CB RADIO 27MHz adalah sekitar 5 ke 200 KM manakala untuk PMR RADIO 446MHz adalah sekitar 5 ke 20 KM bergantung kepada banyak faktor antaranya bentuk permukaan bumi, halangan seperti bangunan tinggi, hutan yang tebal, atau keadaan cuaca, dan sebagainya. Namun demikian sekiranya keadaan propagasi membuka dengan menggunakan CB RADIO 27Mhz USB anda akan terkejut apabila operator dari Indonesia atau Australia menjawab panggilan anda, bayangkan perasaan anda ketika itu. Oleh itu, CB Radio 27MHz LSB juga boleh mencapai ribuan kilometer sekiranya propagasi cuaca membuka atau sebagainya.</p>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>

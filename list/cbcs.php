@@ -62,18 +62,18 @@
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <div class='container-fluid'>
     <div class='col-12 my-3 text-center lh-1'>
-      <p><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo 'Kemaskini pada ' . date('D, jS M Y h:iA T', $file_last_modified); ?> : <span class='badge rounded-pill text-bg-success'>497</span></p>
+      <p><span class='cscount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
       <p class='fw-bold'>Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
-      <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila email maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
+      <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
     </div>
     <div class='col-sm-12 pb-2'>
-      <table class='table table-striped text-center text-uppercase' id='cbcslist'>
+      <table class='table table-striped text-center align-middle text-uppercase' id='cbcslist'>
         <thead class='text-bg-dark sticky-top'>
-          <th>Reg. ID</th>
-          <th><input class='form-control form-control-sm text-center rounded-5' type='text' id='csInput' onkeyup='csSrch()' placeholder='Callsign' title='search for a callsign'></th>
-          <th><input class='form-control form-control-sm text-center rounded-5' type='text' id='nameInput' onkeyup='nameSrch()' placeholder='Full Name' title='search for a name'></th>
-          <th><input class='form-control form-control-sm text-center rounded-5' type='text' id='locInput' onkeyup='locSrch()' placeholder='Base Location' title='search for a location'></th>
-          <th>Reg. Date</th>
+          <th>ID</th>
+          <th><input class='form-control form-control-sm text-center rounded-3' type='text' id='csInput' onkeyup='csSrch()' placeholder='CALLSIGN' title='cari callsign'></th>
+          <th><input class='form-control form-control-sm text-center rounded-3' type='text' id='nameInput' onkeyup='nameSrch()' placeholder='NAMA' title='cari nama'></th>
+          <th><input class='form-control form-control-sm text-center rounded-3' type='text' id='locInput' onkeyup='locSrch()' placeholder='LOKALAN' title='cari lokalan'></th>
+          <th>DAFTAR</th>
         </thead>
         <tbody>
 
@@ -107,7 +107,7 @@
           <tr><td>I469</td><td>113DAASH</td><td>MOHD ASHRAF BIN ARSHAD</td><td>SITIAWAN,PERAK</td><td>20 Oct 2022</td></tr>
           <tr><td>I468</td><td>113DAYVN</td><td>AMRAN BIN MD JULIS</td><td>SG. BULOH</td><td>20 Oct 2022</td></tr>
           <tr><td>I467</td><td>113DAASF</td><td>MUHAMMAD ASRAF BIN YAHYA</td><td>BALING</td><td>20 Oct 2022</td></tr>
-<!--          <tr><td>I466</td><td>113DAJMI</td><td>MUHAMAD JAMIL BIN MUHAMAD SAHA ROZI</td><td>GURUN</td><td>20 Oct 2022</td></tr>-->
+          <!--<tr><td>I466</td><td>113DAJMI</td><td>MUHAMAD JAMIL BIN MUHAMAD SAHA ROZI</td><td>GURUN</td><td>20 Oct 2022</td></tr>-->
           <tr><td>I465</td><td>113DAAKS</td><td>MOHD SHUKRI BIN ABD RAZAK</td><td>K. KETIL, KEDAH</td><td>20 Oct 2022</td></tr>
           <tr><td>I464</td><td>113DAYYD</td><td>NORYAZID BIN ARPAN</td><td>SEGAMAT</td><td>20 Oct 2022</td></tr>
           <tr><td>I463</td><td>113DABWA</td><td>MOHD RASHID BIN MOHD NAZIR</td><td>SEGAMAT</td><td>20 Oct 2022</td></tr>
@@ -155,7 +155,6 @@
           <tr><td>I421</td><td>113MSAAA</td><td>MOHD HAFIZHU BIN CHE BAHARUDIN</td><td>PUDU</td><td>06 Apr 2021</td></tr>
           <tr><td>I420</td><td>91MSSDH</td><td>ARGO SETIYAWAN</td><td>MERAUKE</td><td>06 Apr 2021</td></tr>
           <tr><td>I419</td><td>113MSUBQ</td><td>RAMLAN BIN RAMLI</td><td>SEMENYIH</td><td>06 Apr 2021</td></tr>
-<!--
           <tr><td>I418</td><td>91KMWIR</td><td>WIRA</td><td>JAKARTA PUSAT</td><td>06 Apr 2021</td></tr>
           <tr><td>I417</td><td>91KMWAK</td><td>IYAN</td><td>LANGKAT</td><td>06 Apr 2021</td></tr>
           <tr><td>I416</td><td>91KMTYO</td><td>ADITYO</td><td>SURAKARTA</td><td>06 Apr 2021</td></tr>
@@ -196,7 +195,6 @@
           <tr><td>I381</td><td>91KMAHU</td><td>JOHAN</td><td>PEKANBARU</td><td>06 Apr 2021</td></tr>
           <tr><td>I380</td><td>91KMADE</td><td>IDA NYOMAN</td><td>JAKARTA SELATAN, DKI JAKARTA</td><td>06 Apr 2021</td></tr>
           <tr><td>I379</td><td>91KMAAL</td><td>BARTO</td><td>AMBON, MALUKU</td><td>06 Apr 2021</td></tr>
--->
           <tr><td>I378</td><td>113DAKHI</td><td>MOHD KHAIRUL BIN ABU BAKAR</td><td>KALUMPANG</td><td>03 Nov 2020</td></tr>
           <tr><td>I377</td><td>113MSAZT</td><td>ZAMRI BIN IBRAHIM</td><td>SABAK BERNAM, SELANGOR</td><td>03 Nov 2020</td></tr>
           <tr><td>I376</td><td>113MSRNJ</td><td>MOHAMAD FIRDAUS BIN ABDULLAH</td><td>SABAK BERNAM, SELANGOR</td><td>03 Nov 2020</td></tr>
@@ -446,7 +444,7 @@
           <tr><td>I132</td><td>91MSAAD</td><td>HUSNI HAMZAH</td><td>LHOKSUKON ACEH UTARA, INDONESIA</td><td>16 Feb 2020</td></tr>
           <tr><td>I131</td><td>113KL420</td><td>ALIF</td><td>SG. BESI, WP KUALA LUMPUR</td><td>16 Feb 2020</td></tr>
           <tr><td>I130</td><td>113MS101</td><td>MOHD HILMI</td><td>BANDAR TENGGARA, KULAI, JOHOR</td><td>15 Feb 2020</td></tr>
-<!--          <tr><td>I497</td><td>113MSZNL</td><td>ZAINAL BIN YAACOB</td><td>FELDA KEMELAH, SEGAMAT, JOHOR</td><td>15 Feb 2020</td></tr>-->
+          <!--<tr><td>I497</td><td>113MSZNL</td><td>ZAINAL BIN YAACOB</td><td>FELDA KEMELAH, SEGAMAT, JOHOR</td><td>15 Feb 2020</td></tr>-->
           <tr><td>I129</td><td>113MSARJ</td><td>MOHAMAD HAFIZ BIN MOHAMAD NAJIB</td><td>JOHOR BAHRU, JOHOR</td><td>14 Feb 2020</td></tr>
           <tr><td>I128</td><td>113MSYEH</td><td>AZMI ABD WAHAB</td><td>KUANTAN, PAHANG</td><td>14 Feb 2020</td></tr>
           <tr><td>I127</td><td>113KLYE</td><td>AZMAN BIN ISMAIL</td><td>SG LEMAN, SEKINCHAN</td><td>14 Feb 2020</td></tr>
@@ -611,75 +609,10 @@
   </div>
 </div>
 -->
+  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
-  <script>
-    function rowcount() {
-      var table = document.getElementById('cbcslist');
-      var tbrc = table.tBodies[0].rows.length;
-      document.getElementById('trc').innerHTML = '<span class="badge rounded-pill text-bg-success">' + tbrc + '</span>';
-    }
-  </script>
-  <script>
-    function nameSrch() {
-      var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById('nameInput');
-      filter = input.value.toUpperCase();
-      table = document.getElementById('cbcslist');
-      tr = table.getElementsByTagName('tr');
-      for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName('td')[2];
-        if (td) {
-          txtValue = td.textContent || td.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = '';
-          } else {
-            tr[i].style.display = 'none';
-          }
-        }
-      }
-    }
-  </script>
-  <script>
-    function csSrch() {
-      var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById('csInput');
-      filter = input.value.toUpperCase();
-      table = document.getElementById('cbcslist');
-      tr = table.getElementsByTagName('tr');
-      for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName('td')[1];
-        if (td) {
-          txtValue = td.textContent || td.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = '';
-          } else {
-            tr[i].style.display = 'none';
-          }
-        }
-      }
-    }
-  </script>
-  <script>
-    function locSrch() {
-      var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById('locInput');
-      filter = input.value.toUpperCase();
-      table = document.getElementById('cbcslist');
-      tr = table.getElementsByTagName('tr');
-      for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName('td')[3];
-        if (td) {
-          txtValue = td.textContent || td.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = '';
-          } else {
-            tr[i].style.display = 'none';
-          }
-        }
-      }
-    }
-  </script>
+  <script src='../vendor/js/cbcs.js'></script>
 </body>
 
 </html>

@@ -638,7 +638,7 @@
               <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
             </tbody>
           </table>
-          <p class='my-0'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='media/image/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='media/image/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
           <p class='my-0'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>
@@ -671,10 +671,10 @@
         </div> 
         <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
           <div class='text-lg-end'>
-            <a href='https://fb.com/roipmars.org.my'><i class='bi-facebook h1 mx-1'></i></a>
-            <a href='https://t.me/marsts3servercyberjaya'><i class='bi-telegram h1 mx-1'></i></a>
-            <a href='https://wa.me/c/60333960874'><i class='bi-whatsapp h1 mx-1'></i></a>
-            <a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'><i class='bi-headset h1 mx-1'></i></a>
+            <a class='text-reset text-decoration-none' href='https://fb.com/roipmars.org.my'><i class='bi-facebook h1 mx-1'></i></a>
+            <a class='text-reset text-decoration-none' href='https://t.me/marsts3servercyberjaya'><i class='bi-telegram h1 mx-1'></i></a>
+            <a class='text-reset text-decoration-none' href='https://wa.me/c/60333960874'><i class='bi-whatsapp h1 mx-1'></i></a>
+            <a class='text-reset text-decoration-none' href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'><i class='bi-headset h1 mx-1'></i></a>
           </div>
         </div>
       </div>

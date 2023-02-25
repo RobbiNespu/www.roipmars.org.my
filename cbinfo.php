@@ -564,12 +564,12 @@
       </div>
     </div>
   </div>
-  <footer class='footer mt-auto py-1 page-footer font-small bg-body-tertiary text-center'>
+  <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
     <div class='container'>
-      <div class='row my-0'>
-        <div class='col-lg-8 mx-auto my-1'>
-          <h5 class='text-uppercase mb-2 fw-bold text-md-start'>Sumbangan</h5>
-          <p class='mb-2 text-md-start'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan kami serta semua Perkhidmatan kami tersedia untuk anda pada bila-bila masa di mana sahaja</p>
+      <div class='row my-2'>
+        <div class='col-lg-8 mx-auto my-1 text-md-start'>
+          <h5 class='text-uppercase mb-2 fw-bold'>Sumbangan</h5>
+          <p class='mb-2'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan kami serta semua Perkhidmatan kami tersedia untuk anda pada bila-bila masa di mana sahaja</p>
           <table class='table table-sm table-bordered table-striped text-center align-middle text-wrap my-0 mx-auto w-auto' style='white-space: nowrap'>
             <tbody>
               <tr><th>Nama</th><td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
@@ -577,14 +577,14 @@
               <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
             </tbody>
           </table>
-          <p class='my-0'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='media/image/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
-          <p class='my-0'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
+          <p class='my-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='media/image/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>
           <h5 class='text-uppercase mb-2 fw-bold text-md-end'>Hubungi Kami</h5>
-          <div class='d-grid gap-2 d-md-flex justify-content-md-end mb-2'>
-            <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi-envelope-at'></i> member@roipmars.org.my</a>
-            <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi-envelope-paper'></i> Langgan surat berita kami</button>
+          <div class='d-grid gap-1 d-md-flex justify-content-md-end mb-2'>
+            <a type='button' class='btn btn-outline-info rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi-envelope-at'></i> member@roipmars.org.my</a>
+            <button type='button' class='btn btn-outline-info rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi-envelope-paper'></i> Langgan surat berita kami</button>
           </div>
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>
               <div class='modal-dialog modal-dialog-centered' role='document'>
@@ -604,12 +604,12 @@
       </div>
     </div>
     <div class='container'>
-      <div class='row my-2 d-flex align-middle'>
-        <div class='col-md-8 col-lg-8 col-xl-8'>
-          <p class='text-lg-start font-monospace'><a href='policies' class='text-reset text-decoration-none'>Polisi Perkhidmatan</a><span class='text-muted'> &#124; <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-font-awesome'></i> <i class='fa-brands fa-java'></i> <i class='fa-brands fa-cloudflare'></i></span><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
+      <div class='row my-2 d-flex align-items-center'>
+        <div class='col-md-9'>
+          <p class='text-md-start font-monospace'><a href='policies' class='text-reset text-decoration-none'>Polisi Perkhidmatan</a><span class='text-muted'> &#124; <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-font-awesome'></i> <i class='fa-brands fa-java'></i> <i class='fa-brands fa-cloudflare'></i></span><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
         </div> 
-        <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
-          <div class='text-lg-end'>
+        <div class='col-md-3 ml-lg-0 mb-3'>
+          <div class='text-md-end'>
             <a class='text-reset text-decoration-none' href='https://fb.com/roipmars.org.my'><i class='bi-facebook h1 mx-1'></i></a>
             <a class='text-reset text-decoration-none' href='https://t.me/marsts3servercyberjaya'><i class='bi-telegram h1 mx-1'></i></a>
             <a class='text-reset text-decoration-none' href='https://wa.me/c/60333960874'><i class='bi-whatsapp h1 mx-1'></i></a>

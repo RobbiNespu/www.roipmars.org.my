@@ -74,37 +74,37 @@
     <div class='row'>
       <div class='col-lg-2'></div>
       <div class='col-lg-8'>
-        <form class='my-3 align-middle text-center'>
+        <form class='my-3 align-middle text-center' id='applogin'>
           <div class='col-lg my-1'>
             <label for='callsign' class='form-label'>Callsign | Isyarat Panggilan</label>
-            <input type='text' class='form-control form-control-lg text-center rounded-pill' pattern='[A-Z0-9]{6-8}' minlength='6' maxlength='8' aria-label='callsign' id='callsign' name='callsign' placeholder='9M2XXX' required>
+            <input type='text' class='form-control form-control-lg text-center rounded-3 w-75 mx-auto' pattern='[A-Z0-9]{6-8}' minlength='6' maxlength='8' aria-label='callsign' id='callsign' placeholder='9M2XXX' required>
           </div>
           <div class='col-lg my-1'>
             <label for='name' class='form-label'>Name | Nama</label>
-            <input type='text' class='form-control form-control-lg text-center rounded-pill' pattern='[A-Z]{3-15}' minlength='3' maxlength='15' aria-label='name' id='name' name='name' placeholder='ALBAB' required>
+            <input type='text' class='form-control form-control-lg text-center rounded-3 w-75 mx-auto' pattern='[A-Z]{3-15}' minlength='3' maxlength='15' aria-label='name' id='name' placeholder='ALBAB' required>
           </div>
           <div class='col-lg my-1'>
             <label for='location' class='form-label'>QTH | Lokasi</label>
-            <input type='text' class='form-control form-control-lg text-center rounded-pill' pattern='[\w]{3-19}' minlength='3' maxlength='19' aria-label='location' id='location' name='location' placeholder='KUALA LUMPUR' required>
+            <input type='text' class='form-control form-control-lg text-center rounded-3 w-75 mx-auto' pattern='[\w]{3-19}' minlength='3' maxlength='19' aria-label='location' id='location' placeholder='KUALA LUMPUR' required>
           </div>
-          <div class='hstack gap-3 mt-3 text-center'>
-            <button class='btn btn-outline-primary btn-lg rounded-3' type='submit' onClick='ts3marslogin()'>Log Masuk<br><img class='img-fluid d-inline-block align-middle' src='https://cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='100'> <img class='img-fluid d-inline-block align-middle' src='media/image/brand.png' width='150'></button>
-            <button class='btn btn-outline-primary btn-lg rounded-3 ms-auto' type='submit' onClick='ts3dalogin()'>Log Masuk<br><img class='img-fluid d-inline-block align-middle' src='https://cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='100'> <img class='img-fluid d-inline-block align-middle' src='https://www.roipdarulaman.com/images/roipda_icon.png' width='25'></button>
-            <button class='btn btn-outline-secondary btn-lg rounded-3 ms-auto' type='submit' onClick='mumblelogin()'>Log Masuk<br><img class='img-fluid d-inline-block align-middle' src='https://www.mumble.info/css/mumble.svg' width='20'> Mumble <img class='img-fluid d-inline-block align-middle' src='media/image/brand.png' width='150'></button>
+          <div class='vstack gap-1 mt-3 text-center'>
+            <button class='btn btn-outline-primary btn-lg rounded-pill w-50 mx-auto' type='submit' onClick='ts3marslogin()'>Log Masuk <img class='img-fluid d-inline-block align-middle' src='https://cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='80'> <img class='img-fluid d-inline-block align-middle' src='media/image/brand.png' width='150'></button>
+            <button class='btn btn-outline-secondary btn-lg rounded-pill w-50 mx-auto' type='submit' onClick='mumblelogin()'>Log Masuk <img class='img-fluid d-inline-block align-middle' src='https://www.mumble.info/css/mumble.svg' width='20'> Mumble <img class='img-fluid d-inline-block align-middle' src='media/image/brand.png' width='150'></button>
+            <button class='btn btn-outline-primary btn-lg rounded-pill w-50 mx-auto' type='submit' onClick='ts3dalogin()'>Log Masuk <img class='img-fluid d-inline-block align-middle' src='https://cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='80'> <img class='img-fluid d-inline-block align-middle' src='https://www.roipdarulaman.com/media/favicon/favicon-32x32.png' width='25'></button>
           </div>
         </form>
       </div>
       <div class='col-lg-2'></div>
     </div>
   </div>
-  <footer class='footer mt-auto py-1 page-footer font-small bg-body-tertiary text-center'>
+  <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
     <div class='container'>
-      <div class='row my-2 d-flex align-middle'>
-        <div class='col-md-8 col-lg-8 col-xl-8'>
-          <p class='text-lg-start font-monospace'><a href='policies' class='text-reset text-decoration-none'>Polisi Perkhidmatan</a><span class='text-muted'> &#124; <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-font-awesome'></i> <i class='fa-brands fa-java'></i> <i class='fa-brands fa-cloudflare'></i></span><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
+      <div class='row my-2 d-flex align-items-center'>
+        <div class='col-md-9'>
+          <p class='text-md-start font-monospace'><a href='policies' class='text-reset text-decoration-none'>Polisi Perkhidmatan</a><span class='text-muted'> &#124; <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-font-awesome'></i> <i class='fa-brands fa-java'></i> <i class='fa-brands fa-cloudflare'></i></span><br>&copy;2014&mdash;<script>document.write(new Date().getFullYear())</script> PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</p>
         </div> 
-        <div class='col-md-4 col-lg-4 col-xl-4 ml-lg-0'>
-          <div class='text-lg-end'>
+        <div class='col-md-3 ml-lg-0 mb-3'>
+          <div class='text-md-end'>
             <a class='text-reset text-decoration-none' href='https://fb.com/roipmars.org.my'><i class='bi-facebook h1 mx-1'></i></a>
             <a class='text-reset text-decoration-none' href='https://t.me/marsts3servercyberjaya'><i class='bi-telegram h1 mx-1'></i></a>
             <a class='text-reset text-decoration-none' href='https://wa.me/c/60333960874'><i class='bi-whatsapp h1 mx-1'></i></a>

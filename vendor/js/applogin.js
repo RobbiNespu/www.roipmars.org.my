@@ -3,7 +3,7 @@ function ts3marslogin() {
   var name = document.getElementById('name').value.toUpperCase;
   var location = document.getElementById('location').value.toUpperCase;
   if ((cs == '') || (name == '') || (location == '')) {
-    return blank
+    return blank;
   } else {
     window.location.href = 'ts3server://roipmars.org.my?nickname=' + cs + '%20' + name + '%20' + location + '&cid=7&addbookmark=RoIPMARS.org.MY';
   }
@@ -14,7 +14,7 @@ function ts3dalogin() {
   var name = document.getElementById('name').value.toUpperCase;
   var location = document.getElementById('location').value.toUpperCase;
   if ((cs == '') || (name == '') || (location == '')) {
-    return blank
+    return blank;
   } else {
     window.location.href = 'ts3server://roipdarulaman.com?nickname=' + cs + '%20' + name + '%20' + location + '&cid=11&addbookmark=RoIPDarulAman.com';
   }
@@ -25,7 +25,7 @@ function mumblelogin() {
   var name = document.getElementById('name').value.toUpperCase;
   var location = document.getElementById('location').value.toUpperCase;
   if ((cs == '') || (name == '') || (location == '')) {
-    return blank
+    return blank;
   } else {
     window.location.href = 'mumble://' + cs + '%20' + name + '%20' + location + '@roipmars.org.my/root?title=RoIPMARS.org.MY&url=roipmars.org.my';
   }

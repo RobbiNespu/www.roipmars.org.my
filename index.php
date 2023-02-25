@@ -191,15 +191,19 @@
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Amateur-Radio-Handbook-1st-Edition.pdf' download><i class='bi-file-earmark-pdf'></i> BUKU PANDUAN RADIO AMATUR &ndash; MCMC</a>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://sems.mcmc.gov.my/sems/exams/examinfo' target='_blank'>Sistem Pengurusan Peperiksaan SKMM &#40;SEMS&#41;</a>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Form-AMATEUR-SERVICE_v2018_ISO.pdf' download><i class='bi-file-earmark-pdf'></i> Borang Permohonan Tugasan Radas Amatur &ndash; MCMC</a>
-          <div class='btn-group dropup-center dropup' role='group'>
-            <button type='button' class='btn btn-outline-secondary text-secondary-emphasis dropdown-toggle' data-bs-toggle='dropdown' data-bs-auto-close='outside' aria-expanded='false'>Bank Soalan Radio Amatur &ndash; MCMC</button>
-              <ul class='dropdown-menu rounded-3 fs-5'>
-                <li class='dropdown-header fw-bolder'>Soalan Dwi-Bahasa</li>
-                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-A.pdf' download><span class='bi-file-earmark-pdf'></span> Soalan Kelas A &#40;9M&#41;</a></li>
-                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-B.pdf' download><span class='bi-file-earmark-pdf'></span> Soalan Kelas B &#40;9W&#41;</a></li>
-                <li><a class='dropdown-item' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-C.pdf' download><span class='bi-file-earmark-pdf'></span> Soalan Kelas C &#40;9W3&#41;</a></li>
+          <div class='btn-group dropup' role='group'>
+            <button type='button' class='btn btn-outline-secondary text-secondary-emphasis dropdown-toggle' data-bs-toggle='dropdown' data-bs-auto-close='outside' aria-expanded='false'>Bank Soalan &amp; Jawapan ORAE &ndash; MCMC</button>
+              <ul class='dropdown-menu dropdown-menu-end rounded-3'>
+                <li class='dropdown-header fw-bold text-center'>Soalan Dwi-Bahasa</li>
+                <li><a class='dropdown-item' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classa.pdf' download><span class='bi-file-earmark-pdf'></span> Soalan Kelas A &#40;9M&#41;</a></li>
+                <li><a class='dropdown-item' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classb.pdf' download><span class='bi-file-earmark-pdf'></span> Soalan Kelas B &#40;9W&#41;</a></li>
+                <li><a class='dropdown-item' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classc.pdf' download><span class='bi-file-earmark-pdf'></span> Soalan Kelas C &#40;9W3&#41;</a></li>
                 <li><hr class='dropdown-divider'></li>
+                <li class='dropdown-header fw-bold text-center'>Jawapan Dwi-Bahasa</li>
                 <li><a class='dropdown-item' href='https://docs.google.com/spreadsheets/u/8/d/1ds9UTqvW5HDPU-CWn7N58vkkJrxvpbchp5pMkP7eHV4/htmlview' target='_blank'><span class='bi-file-earmark-spreadsheet'></span> Jawapan Kelas A &#40;9M&#41;</a></li>
+                <li><a class='dropdown-item' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classa.pdf' download><span class='bi-file-pdf'></span> Jawapan Kelas A &#40;9M&#41;</a></li>
+                <li><a class='dropdown-item disabled text-muted' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classb.pdf' download><span class='bi-file-pdf'></span> Jawapan Kelas B &#40;9W&#41;</a></li>
+                <li><a class='dropdown-item' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classc.pdf' download><span class='bi-file-pdf'></span> Jawapan Kelas C &#40;9W3&#41;</a></li>
               </ul>
           </div>
         </div>

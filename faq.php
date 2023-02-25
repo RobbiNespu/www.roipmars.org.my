@@ -147,21 +147,21 @@
     </div>
     <div class='row'>
       <div class='col-12 mb-3'>
-        <h3 class='text-capitalize text-center'>Kumpulan Rangkaian RoIPMARS</h3>
+        <h3 class='text-capitalize text-center text-primary-emphasis'>Kumpulan Rangkaian RoIPMARS</h3>
         <div class='accordion' id='accordionROIPMARSFAQ' aria-multiselectable='true'>
-          <div class='accordion-item'>
+          <div class='accordion-item border-primary-subtle bg-primary-subtle'>
             <div class='accordion-header' id='headingROIPMARS1'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseROIPMARS1' aria-expanded='false' aria-controls='collapseROIPMARS1'><i class='bi-1-square-fill pe-2'></i>Bagaimana cara untuk menjadi ahli Kumpulan RoIPMARS?</button>
+              <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' href='#collapseROIPMARS1' aria-expanded='false' aria-controls='collapseROIPMARS1'><i class='bi-1-circle-fill text-primary-emphasis fs-4 pe-3'></i>Bagaimana cara untuk menjadi ahli Kumpulan RoIPMARS?</button>
             </div>
             <div id='collapseROIPMARS1' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS1' data-bs-parent='#accordionROIPMARSFAQ'>
               <div class='accordion-body'>
-                <p>Anda boleh layari laman <a href='member'>Ahli</a> dan dapatkan borang keahlian disana. Terdapat 3 kaedah pengisian borang iaitu melalui Google Form, Adobe Sign, dan fail PDF. Anda dikehendaki mengisi lengkap salah satu borang tersebut dan dikembalikan semula kepada Setiausaha bersama dengan bukti yuran pendaftaran serta dokumen tambahan yang dinyatakan pada borang tersebut.</p>
+                <p>Anda boleh layari laman <a class='text-muted' href='member'>Ahli</a> dan dapatkan borang keahlian disana. Terdapat 3 kaedah pengisian borang iaitu melalui Google Form, Adobe Sign, dan fail PDF. Anda dikehendaki mengisi lengkap salah satu borang tersebut dan dikembalikan semula kepada Setiausaha Agung Persatuan Peminat Radio Komunikasi (ROIP) bersama dengan bukti yuran pendaftaran, salinan pengenalan diri, dan sekeping gambar berukuran pasport.</p>
               </div>
             </div>
           </div>
-          <div class='accordion-item'>
+          <div class='accordion-item border-primary-subtle bg-primary-subtle'>
             <div class='accordion-header' id='headingROIPMARS2'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseROIPMARS2' aria-expanded='false' aria-controls='collapseROIPMARS2'><i class='bi-2-square-fill pe-2'></i>Saya telah berdaftar sebagai Ahli CB RoIPMARS, adakah saya secara automatik menjadi Ahli Persatuan?</button>
+              <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' href='#collapseROIPMARS2' aria-expanded='false' aria-controls='collapseROIPMARS2'><i class='bi-2-circle-fill text-primary-emphasis fs-4 pe-3'></i>Saya telah berdaftar sebagai Ahli CB Kumpulan RoIPMARS, adakah saya automatik secara sah menjadi Ahli Persatuan?</button>
             </div>
             <div id='collapseROIPMARS2' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS2' data-bs-parent='#accordionROIPMARSFAQ'>
               <div class='accordion-body'>
@@ -181,7 +181,7 @@
                       <td>91DA</td>
                       <td>153DA</td>
                     </tr>
-                    <tr class='text-decoration-line-through text-body-tertiary'>
+                    <tr class='text-decoration-line-through text-body-tertiary opacity-50'>
                       <td>113KL</td>
                       <td>113PT</td>
                       <td>58SB</td>
@@ -193,9 +193,9 @@
               </div>
             </div>
           </div>
-          <div class='accordion-item'>
+          <div class='accordion-item border-primary-subtle bg-primary-subtle'>
             <div class='accordion-header' id='headingROIPMARS3'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseROIPMARS3' aria-expanded='false' aria-controls='collapseROIPMARS3'><i class='bi-3-square-fill pe-2'></i>Mengapa sambungan ke pelayan TeamSpeak3 selain RoIPMARS gagal pada peranti saya?</button>
+              <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' href='#collapseROIPMARS3' aria-expanded='false' aria-controls='collapseROIPMARS3'><i class='bi-3-circle-fill text-primary-emphasis fs-4 pe-3'></i>Mengapa sambungan ke pelayan TeamSpeak3 selain RoIPMARS gagal pada peranti saya?</button>
             </div>
             <div id='collapseROIPMARS3' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS3' data-bs-parent='#accordionROIPMARSFAQ'>
               <div class='accordion-body'>
@@ -215,9 +215,9 @@
               </div>
             </div>
           </div>
-          <div class='accordion-item'>
+          <div class='accordion-item border-primary-subtle bg-primary-subtle'>
             <div class='accordion-header' id='headingROIPMARS4'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseROIPMARS4' aria-expanded='false' aria-controls='collapseROIPMARS4'><i class='bi-4-square-fill pe-2'></i>Mengapa saya gagal memasang 'apk' TeamSpeak3 yang diberikan rakan pada peranti iOS saya?</button>
+              <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' href='#collapseROIPMARS4' aria-expanded='false' aria-controls='collapseROIPMARS4'><i class='bi-4-circle-fill text-primary-emphasis fs-4 pe-3'></i>Mengapa saya gagal memasang 'apk' TeamSpeak3 yang diberikan rakan pada peranti iOS saya?</button>
             </div>
             <div id='collapseROIPMARS4' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS4' data-bs-parent='#accordionROIPMARSFAQ'>
               <div class='accordion-body'>
@@ -230,21 +230,21 @@
         </div>
       </div>
       <div class='col-12 mb-3'>
-        <h3 class='text-capitalize text-center'>Jalur Amatur</h3>
+        <h3 class='text-capitalize text-center text-success-emphasis'>Jalur Amatur</h3>
         <div class='accordion' id='accordionHAMFAQ' aria-multiselectable='true'>
-          <div class='accordion-item'>
+          <div class='accordion-item border-success-subtle bg-success-subtle'>
             <div class='accordion-header' id='headingHAM1'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseHAM1' aria-expanded='false' aria-controls='collapseHAM1'><i class='bi-1-square-fill pe-2'></i>Bagaimana cara untuk menyertai aktiviti net yang dijalankan?</button>
+              <button type='button' class='accordion-button collapsed text-success-emphasis' data-bs-toggle='collapse' href='#collapseHAM1' aria-expanded='false' aria-controls='collapseHAM1'><i class='bi-1-circle-fill text-success-emphasis fs-4 pe-3'></i>Bagaimana cara untuk menyertai aktiviti net yang dijalankan?</button>
             </div>
             <div id='collapseHAM1' class='accordion-collapse collapse' aria-labelledby='headingHAM1' data-bs-parent='#accordionHAMFAQ'>
               <div class='accordion-body'>
-                <p>Anda boleh dapatkan maklumat pemasangan aplikasi di <a href='howto'>Tutorial</a> dan sertai aktiviti dalam talian kami disana.</p>
+                <p>Anda boleh dapatkan maklumat pemasangan aplikasi di <a class='text-muted' href='howto'>Tutorial</a> dan sertai aktiviti dalam talian kami disana.</p>
               </div>
             </div>
           </div>
-          <div class='accordion-item'>
+          <div class='accordion-item border-success-subtle bg-success-subtle'>
             <div class='accordion-header' id='headingHAM2'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseHAM2' aria-expanded='false' aria-controls='collapseHAM2'><i class='bi-2-square-fill pe-2'></i>Mengapa kualiti audio di aplikasi selain TeamSpeak3 yang disambungkan ke RoIPMARS mempunyai kelewatan dan tidak jernih?</button>
+              <button type='button' class='accordion-button collapsed text-success-emphasis' data-bs-toggle='collapse' href='#collapseHAM2' aria-expanded='false' aria-controls='collapseHAM2'><i class='bi-2-circle-fill text-success-emphasis fs-4 pe-3'></i>Mengapa kualiti audio di aplikasi selain TeamSpeak3 yang disambungkan ke RoIPMARS mempunyai kelewatan dan tidak jernih?</button>
             </div>
             <div id='collapseHAM2' class='accordion-collapse collapse' aria-labelledby='headingHAM2' data-bs-parent='#accordionHAMFAQ'>
               <div class='accordion-body'>
@@ -261,11 +261,11 @@
         </div>
       </div>
       <div class='col-12 mb-3'>
-        <h3 class='text-capitalize text-center'>Jalur Rakyat</h3>
+        <h3 class='text-capitalize text-center text-danger-emphasis'>Jalur Rakyat</h3>
         <div class='accordion' id='accordionCBFAQ' aria-multiselectable='true'>
-          <div class='accordion-item'>
+          <div class='accordion-item border-danger-subtle bg-danger-subtle'>
             <div class='accordion-header' id='headingCB1'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB1' aria-expanded='false' aria-controls='collapseCB1'><i class='bi-1-square-fill pe-2'></i>Adakah lesen dari MCMC (SKMM) diperlukan untuk penggunaan CB RADIO?</button>
+              <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB1' aria-expanded='false' aria-controls='collapseCB1'><i class='bi-1-circle-fill text-danger-emphasis fs-4 pe-3'></i>Adakah lesen dari MCMC (SKMM) diperlukan untuk penggunaan CB RADIO?</button>
             </div>
             <div id='collapseCB1' class='accordion-collapse collapse' aria-labelledby='headingCB1' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>
@@ -275,8 +275,8 @@
                 <ol type='i'>
                   <li>26.965 MHz to 27.405 MHz</li>
                   <li>446.00625 MHz to 446.196875 MHz</li>
-                  <li class='text-decoration-line-through'>>477.0125 MHz to 477.4875 MHz</li>
-                  <li class='text-decoration-line-through'>>477.5250 MHz to 477.9875 MHz</li>
+                  <li class='text-decoration-line-through opacity-25'>>477.0125 MHz to 477.4875 MHz</li>
+                  <li class='text-decoration-line-through opacity-25'>>477.5250 MHz to 477.9875 MHz</li>
                 </ol>
                 <p class='h5'>Tugasan kelas</p>
                 <p>Tugasan kelas ini memberikan hak kepada mana-mana orang untuk mengendalikan peranti PRS tertakluk kepada:</p>
@@ -287,9 +287,9 @@
               </div>
             </div>
           </div>
-          <div class='accordion-item'>
+          <div class='accordion-item border-danger-subtle bg-danger-subtle'>
             <div class='accordion-header' id='headingCB2'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB2' aria-expanded='false' aria-controls='collapseCB2'><i class='bi-2-square-fill pe-2'></i>Adakah perlu pendaftaran dengan mana-mana kelab atau SKMM untuk mendapatkan Isyarat Panggilan?</button>
+              <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB2' aria-expanded='false' aria-controls='collapseCB2'><i class='bi-2-circle-fill text-danger-emphasis fs-4 pe-3'></i>Adakah perlu pendaftaran dengan mana-mana kelab atau SKMM untuk mendapatkan Isyarat Panggilan?</button>
             </div>
             <div id='collapseCB2' class='accordion-collapse collapse' aria-labelledby='headingCB2' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>
@@ -301,9 +301,9 @@
               </div>
             </div>
           </div>
-          <div class='accordion-item'>
+          <div class='accordion-item border-danger-subtle bg-danger-subtle'>
             <div class='accordion-header' id='headingCB3'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB3' aria-expanded='false' aria-controls='collapseCB3'><i class='bi-3-square-fill pe-2'></i>Dimana saya boleh membeli peralatan CB RADIO?</button>
+              <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB3' aria-expanded='false' aria-controls='collapseCB3'><i class='bi-3-circle-fill text-danger-emphasis fs-4 pe-3'></i>Dimana saya boleh membeli peralatan CB RADIO?</button>
             </div>
             <div id='collapseCB3' class='accordion-collapse collapse' aria-labelledby='headingCB3' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>
@@ -311,9 +311,9 @@
               </div>
             </div>
           </div>
-          <div class='accordion-item'>
+          <div class='accordion-item border-danger-subtle bg-danger-subtle'>
             <div class='accordion-header' id='headingCB4'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB4' aria-expanded='false' aria-controls='collapseCB4'><i class='bi-4-square-fill pe-2'></i>Berapa harga sebuah CB RADIO jenis Handy atau jenis Rig?</a>
+              <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB4' aria-expanded='false' aria-controls='collapseCB4'><i class='bi-4-circle-fill text-danger-emphasis fs-4 pe-3'></i>Berapa harga sebuah CB RADIO jenis Handy atau jenis Rig?</a>
             </div>
             <div id='collapseCB4' class='accordion-collapse collapse' aria-labelledby='headingCB4' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>
@@ -321,9 +321,9 @@
               </div>
             </div>
           </div>
-          <div class='accordion-item'>
+          <div class='accordion-item border-danger-subtle bg-danger-subtle'>
             <div class='accordion-header' id='headingCB5'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB5' aria-expanded='false' aria-controls='collapseCB5'><i class='bi-5-square-fill pe-2'></i>Masih adakah pengguna CB RADIO di Malaysia?</button>
+              <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB5' aria-expanded='false' aria-controls='collapseCB5'><i class='bi-5-circle-fill text-danger-emphasis fs-4 pe-3'></i>Masih adakah pengguna CB RADIO di Malaysia?</button>
             </div>
             <div id='collapseCB5' class='accordion-collapse collapse' aria-labelledby='headingCB5' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>
@@ -345,9 +345,9 @@
               </div>
             </div>
           </div>
-          <div class='accordion-item'>
+          <div class='accordion-item border-danger-subtle bg-danger-subtle'>
             <div class='accordion-header' id='headingCB6'>
-              <button type='button' class='accordion-button collapsed' data-bs-toggle='collapse' href='#collapseCB6' aria-expanded='false' aria-controls='collapseCB6'><i class='bi-6-square-fill pe-2'></i>Berapa jarak perhubungan yang boleh di capai menggunakan CB RADIO atau PRS RADIO?</button>
+              <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB6' aria-expanded='false' aria-controls='collapseCB6'><i class='bi-6-circle-fill text-danger-emphasis fs-4 pe-3'></i>Berapa jarak perhubungan yang boleh di capai menggunakan CB RADIO atau PRS RADIO?</button>
             </div>
             <div id='collapseCB6' class='accordion-collapse collapse' aria-labelledby='headingCB6' data-bs-parent='#accordionCBFAQ'>
               <div class='accordion-body'>

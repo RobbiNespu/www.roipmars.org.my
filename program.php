@@ -120,7 +120,7 @@
           <iframe class='rounded-4' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0' style='filter: invert(.9) saturate(0.85) hue-rotate(145deg)'></iframe>
         </div>
         <p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun membuat selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan:</p>
-        <div class='btn-group btn-group-lg d-grid gap-1 mx-auto' role='group'>
+        <div class='btn-group btn-group-lg d-grid gap-1 col-lg-6 mx-auto' role='group'>
           <button class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/60145768581'><i class='bi-whatsapp'></i> <b>Pegawai Siaraya &amp; Aktiviti</b></button>
           <button class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/601112308482'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></button>
           <button class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/60196293718'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></button>

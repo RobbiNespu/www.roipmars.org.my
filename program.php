@@ -298,8 +298,8 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#022013' aria-expanded='true' aria-controls='022013'>Februari 2023</button></div>
-        <div class='collapse show' id='022013'>
+        <div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#022013' aria-expanded='false' aria-controls='022013'>Februari 2023</button></div>
+        <div class='collapse' id='022013'>
           <div class='table-responsive'>
             <table class='table table-sm table-bordered table-striped text-center align-middle'>
               <thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
@@ -337,8 +337,8 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#032013' aria-expanded='false' aria-controls='032013'>Mac 2023</button></div>
-        <div class='collapse' id='032013'>
+        <div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#032013' aria-expanded='true' aria-controls='032013'>Mac 2023</button></div>
+        <div class='collapse show' id='032013'>
           <div class='table-responsive'>
             <table class='table table-sm table-bordered table-striped text-center align-middle'>
               <thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>

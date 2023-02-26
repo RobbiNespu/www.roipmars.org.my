@@ -319,8 +319,8 @@
                 <tr class='bg-dark-subtle'><td rowspan='2'>Ahad<br>19/02</td><td>0900MY<br>-<br>1200MY</td><td>Mesyuarat Agung Tahunan<br>Annual General Meeting<br>AGM 2022</td><td>Kalumpang Resort,<br>Hulu Selangor</td><td>&mdash;</td></tr>
                 <tr><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>19</td></tr>
                 <tr class='bg-info-subtle'><td>Rabu<br>22/02</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Thinking Day&#41;</td><td>9W6RHN</td><td>26</td></tr>
-                <tr><td>Jumaat<br>24/02</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td></td></tr>
-                <tr><td>Sabtu<br>25/02</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td></td></tr>
+                <tr><td>Jumaat<br>24/02</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td>24</td></tr>
+                <tr><td>Sabtu<br>25/02</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td>28</td></tr>
                 <tr><td>Ahad<br>26/02</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>
               </tbody>
 <!--

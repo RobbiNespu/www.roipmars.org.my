@@ -154,7 +154,7 @@
               <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' href='#collapseROIPMARS1' aria-expanded='false' aria-controls='collapseROIPMARS1'><i class='bi-1-circle-fill text-primary-emphasis fs-4 pe-3'></i>Bagaimana cara untuk menjadi ahli Kumpulan RoIPMARS?</button>
             </div>
             <div id='collapseROIPMARS1' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS1' data-bs-parent='#accordionROIPMARSFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Anda boleh layari laman <a class='text-muted' href='member'>Ahli</a> dan dapatkan borang keahlian disana. Terdapat 3 kaedah pengisian borang iaitu melalui Google Form, Adobe Sign, dan fail PDF. Anda dikehendaki mengisi lengkap salah satu borang tersebut dan dikembalikan semula kepada Setiausaha Agung Persatuan Peminat Radio Komunikasi (ROIP) bersama dengan bukti yuran pendaftaran, salinan pengenalan diri, dan sekeping gambar berukuran pasport.</p>
               </div>
             </div>
@@ -164,7 +164,7 @@
               <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' href='#collapseROIPMARS2' aria-expanded='false' aria-controls='collapseROIPMARS2'><i class='bi-2-circle-fill text-primary-emphasis fs-4 pe-3'></i>Saya telah berdaftar sebagai Ahli CB Kumpulan RoIPMARS, adakah saya automatik secara sah menjadi Ahli Persatuan?</button>
             </div>
             <div id='collapseROIPMARS2' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS2' data-bs-parent='#accordionROIPMARSFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Tidak. Anda mendaftar sebagai ahli CB kami hanya untuk rekod bagi mengelakkan pertindihan isyarat panggilan yang digunakan.</p>
                 <p>Antara awalan isyarat panggilan yang digunakan oleh CB Kumpulan RoIPMARS adalah:</p>
                 <table class='table table-sm table-bordered text-center align-middle'>
@@ -198,7 +198,7 @@
               <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' href='#collapseROIPMARS3' aria-expanded='false' aria-controls='collapseROIPMARS3'><i class='bi-3-circle-fill text-primary-emphasis fs-4 pe-3'></i>Mengapa sambungan ke pelayan TeamSpeak3 selain RoIPMARS gagal pada peranti saya?</button>
             </div>
             <div id='collapseROIPMARS3' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS3' data-bs-parent='#accordionROIPMARSFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Pelayan TeamSpeak3 milik <abbr title='roipmars.org.my'>Kumpulan RoIPMARS</abbr> merupakan sebuah pelayan berlesen sah yang dibiaya oleh ahli-ahli Persatuan Peminat Radio Komunikasi (ROIP). Tambahan lagi, pelayan milik Kumpulan RoIPMARS menyokong sambungan dari semua versi pengguna.</p>
                 <p>Terdapat beberapa faktor yang tidak membenarkan anda masuk ke pelayan selain Kumpulan RoIPMARS, antaranya:</p>
                 <table class='table table-sm table-bordered table-striped text-center align-middle'>
@@ -220,7 +220,7 @@
               <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' href='#collapseROIPMARS4' aria-expanded='false' aria-controls='collapseROIPMARS4'><i class='bi-4-circle-fill text-primary-emphasis fs-4 pe-3'></i>Mengapa saya gagal memasang 'apk' TeamSpeak3 yang diberikan rakan pada peranti iOS saya?</button>
             </div>
             <div id='collapseROIPMARS4' class='accordion-collapse collapse' aria-labelledby='headingROIPMARS4' data-bs-parent='#accordionROIPMARSFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Sistem operasi dan perisian yang digunakan kedua dua peranti iOS dan Android adalah berbeza. iOS menggunakan sistem yang dibangunkan sendiri oleh Apple, manakala Android merupakan sebuah sistem sumber terbuka yang dimiliki oleh Google.</p>
                 <p>Tahap keselamatan perisian dari pihak Apple tidak membenarkan pemasangan mana-mana aplikasi selain daripada Apple App Store.</p>
               </div>
@@ -237,7 +237,7 @@
               <button type='button' class='accordion-button collapsed text-success-emphasis' data-bs-toggle='collapse' href='#collapseHAM1' aria-expanded='false' aria-controls='collapseHAM1'><i class='bi-1-circle-fill text-success-emphasis fs-4 pe-3'></i>Bagaimana cara untuk menyertai aktiviti net yang dijalankan?</button>
             </div>
             <div id='collapseHAM1' class='accordion-collapse collapse' aria-labelledby='headingHAM1' data-bs-parent='#accordionHAMFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Anda boleh dapatkan maklumat pemasangan aplikasi di <a class='text-muted' href='howto'>Tutorial</a> dan sertai aktiviti dalam talian kami disana.</p>
               </div>
             </div>
@@ -247,7 +247,7 @@
               <button type='button' class='accordion-button collapsed text-success-emphasis' data-bs-toggle='collapse' href='#collapseHAM2' aria-expanded='false' aria-controls='collapseHAM2'><i class='bi-2-circle-fill text-success-emphasis fs-4 pe-3'></i>Mengapa kualiti audio di aplikasi selain TeamSpeak3 yang disambungkan ke RoIPMARS mempunyai kelewatan dan tidak jernih?</button>
             </div>
             <div id='collapseHAM2' class='accordion-collapse collapse' aria-labelledby='headingHAM2' data-bs-parent='#accordionHAMFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Segala sambungan (pautan silang) yang disediakan adalah kepunyaan INDIVIDU sepenuhnya. Pelbagai faktor perlu diambil kira untuk menyediakan pautan silang tersebut, antaranya:</p>
                 <ol type='i'>
                   <li>spesifikasi komputer yang digunakan</li>
@@ -268,7 +268,7 @@
               <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB1' aria-expanded='false' aria-controls='collapseCB1'><i class='bi-1-circle-fill text-danger-emphasis fs-4 pe-3'></i>Adakah lesen dari MCMC (SKMM) diperlukan untuk penggunaan CB RADIO?</button>
             </div>
             <div id='collapseCB1' class='accordion-collapse collapse' aria-labelledby='headingCB1' data-bs-parent='#accordionCBFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Anda tidak perlu memohon sebarang lesen seperti RADIO AMATUR atau Komersial yang lain asalkan ianya mengunakan jalur CB atau jalur PRS kerana anda dibenarkan menggunakan jalur tersebut tanpa lesen.</p>
                 <p class='h5'>Jalur frekuensi</p>
                 <p>Peranti perkhidmatan radio peribadi hanya boleh menggunakan mana-mana jalur frekuensi berikut yang ditetapkan untuk tugasan kelas ini, antara kegunaan lain, atas dasar bukan eksklusif yang dikongsi:</p>
@@ -292,7 +292,7 @@
               <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB2' aria-expanded='false' aria-controls='collapseCB2'><i class='bi-2-circle-fill text-danger-emphasis fs-4 pe-3'></i>Adakah perlu pendaftaran dengan mana-mana kelab atau SKMM untuk mendapatkan Isyarat Panggilan?</button>
             </div>
             <div id='collapseCB2' class='accordion-collapse collapse' aria-labelledby='headingCB2' data-bs-parent='#accordionCBFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Anda tidak perlu memohon, mendaftar atau membayar apa-apa bayaran untuk isyarat panggilan kerana pengguna CB RADIO tidak memerlukan sebarang isyarat panggilan yang khusus seperti Radio Amatur. Anda boleh cipta sendiri isyarat panggilan yang diperlukan sebagai pengenalan kepada rakan-rakan kumpulan anda atau ahli keluarga anda bagi memudahkan perhubungan melalui radio dua hala atau CB RADIO.</p>
                 <p class='alert alert-danger'>Namun begitu, permohonan diwajibkan sekiranya kelab atau organisasi tersebut memerlukannya bagi mengelakkan pertindihan sesama ahli.</p>
                 <p>Antara sebutan Phonetic yang digunakan oleh stesen seluruh dunia adalah seperti berikut</p>
@@ -306,7 +306,7 @@
               <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB3' aria-expanded='false' aria-controls='collapseCB3'><i class='bi-3-circle-fill text-danger-emphasis fs-4 pe-3'></i>Dimana saya boleh membeli peralatan CB RADIO?</button>
             </div>
             <div id='collapseCB3' class='accordion-collapse collapse' aria-labelledby='headingCB3' data-bs-parent='#accordionCBFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Anda boleh membeli melalui e-dagang di Malaysia, melalui rakan-rakan CB atau kedai Radio Amatur samada di Jalan Pasar, Plaza Low Yatt, atau Plaza Digital Mall. Yang penting ianya adalah CB RADIO yang jalurnya telah diaturkan seperti diatas. Kami mencadangkan anda tidak membeli melalui e-dagang luar negara kerana nanti anda akan kerugian masa, wang dan sebagainya di atas kerenah birokrasi yang bermacam-macam samada dari pihak kastam ataupun pihak SIRIM mengenai peralatan radio.</p>
               </div>
             </div>
@@ -316,7 +316,7 @@
               <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB4' aria-expanded='false' aria-controls='collapseCB4'><i class='bi-4-circle-fill text-danger-emphasis fs-4 pe-3'></i>Berapa harga sebuah CB RADIO jenis Handy atau jenis Rig?</a>
             </div>
             <div id='collapseCB4' class='accordion-collapse collapse' aria-labelledby='headingCB4' data-bs-parent='#accordionCBFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Harga purata kebanyakan CB Radio adalah mengikut jenis samada Handy atau Rig dan multimode atau hanya mode AM dan FM sahaja. Untuk jenis Handy mode AM dan FM purata harganya adalah sekitar RM 50.00 ke RM 400.00 manakala untuk jenis Rig mode AM dan FM harganya sekitar RM 200.00 ke RM 1,000.00. Untuk CB RADIO jenis mobile multimode agak mahal sedikit kerana kebanyakan jenis multimode mempunyai berbagai kelebihan seperti frequency counter, echo, scanning dan sebagainya seperti peralatan HAM RADIO. Harganya boleh mencapai sehingga RM 3,000.00. Tujuan radio dua hala adalah untuk perhubungan maka asas CB Radio pun sudah memadai tidak perlu membeli peralatan yang canggih dengan berbagai fungsi sedangkan kita tidak menggunakan fungsi tersebut semasa berbual atau berhubung dengan rakan-rakan CB.</p>
               </div>
             </div>
@@ -326,7 +326,7 @@
               <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB5' aria-expanded='false' aria-controls='collapseCB5'><i class='bi-5-circle-fill text-danger-emphasis fs-4 pe-3'></i>Masih adakah pengguna CB RADIO di Malaysia?</button>
             </div>
             <div id='collapseCB5' class='accordion-collapse collapse' aria-labelledby='headingCB5' data-bs-parent='#accordionCBFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Tidak ramai yang tahu mengenai CB RADIO kerana tidak ada usaha promosi dibuat untuk penggemar CB Radio. Orang ramai lebih suka mempromosikan Radio Amatur kerana merasakan CB RADIO ini untuk golongan yang kurang berkemampuan dan hanya menggunakan radio dua hala sebagai hobi sahaja tidak seperti Radio Amatur yang mempunyai kelebihan seperti perlu mengambil peperiksaan, membayar lesen, mempunyai isyarat panggilan khusus yang diberikan oleh pihak SKMM dan sebagainya. Jika ada hobi menggunakan radio dua hala secara murah untuk permulaan, kenapa kita tidak gunakan, yang penting boleh digunakan untuk berhubung di antara satu sama lain sama juga dengan fungsi Radio Amatur. Namun demikian, akan ada kelab atau komuniti yang mempromosi atau memperkenalkan CB RADIO kepada orang ramai sebagai alat perhubungan alternatif atau pilihan kedua selain telefon pintar atau radio amatur. CB RADIO juga bagus untuk kegunaan pemandu lori kontena yang berkonvoi semasa perjalanan malam, pemandu bas ekspres untuk mengelak dari mengantuk atau boleh dijadikan sebagai peralatan pemberi amaran awal sekiranya rakan pemandu melihat atau ternampak sesuatu yang mencurigakan di jalan raya. Semasa acara sukan, camping, atau kenapa tidak anda memulakan penggunaan CB RADIO sebagai alat perhubungan anda dan keluarga anda semasa konvoi dan sebagainya selagi pengunaanya selari dengan peraturan yang tertera di dalam peruntukan kelas (Class Assignment).</p>
                 <div class='alert alert-secondary' role='alert'>
                   <h4 class='alert-heading text-center'>COMMUNICATIONS AND MULTIMEDIA ACT 1998</h4>
@@ -350,7 +350,7 @@
               <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' href='#collapseCB6' aria-expanded='false' aria-controls='collapseCB6'><i class='bi-6-circle-fill text-danger-emphasis fs-4 pe-3'></i>Berapa jarak perhubungan yang boleh di capai menggunakan CB RADIO atau PRS RADIO?</button>
             </div>
             <div id='collapseCB6' class='accordion-collapse collapse' aria-labelledby='headingCB6' data-bs-parent='#accordionCBFAQ'>
-              <div class='accordion-body'>
+              <div class='accordion-body mx-3'>
                 <p>Jarak purata komunikasi CB RADIO 27MHz adalah sekitar 5 ke 200 KM manakala untuk PMR RADIO 446MHz adalah sekitar 5 ke 20 KM bergantung kepada banyak faktor antaranya bentuk permukaan bumi, halangan seperti bangunan tinggi, hutan yang tebal, atau keadaan cuaca, dan sebagainya. Namun demikian sekiranya keadaan propagasi membuka dengan menggunakan CB RADIO 27Mhz USB anda akan terkejut apabila operator dari Indonesia atau Australia menjawab panggilan anda, bayangkan perasaan anda ketika itu. Oleh itu, CB Radio 27MHz LSB juga boleh mencapai ribuan kilometer sekiranya propagasi cuaca membuka atau sebagainya.</p>
               </div>
             </div>

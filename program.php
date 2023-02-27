@@ -298,8 +298,8 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#022013' aria-expanded='false' aria-controls='022013'>Februari 2023</button></div>
-        <div class='collapse' id='022013'>
+        <div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#022013' aria-expanded='true' aria-controls='022013'>Februari 2023</button></div>
+        <div class='collapse show' id='022013'>
           <div class='table-responsive'>
             <table class='table table-sm table-bordered table-striped text-center align-middle'>
               <thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
@@ -321,17 +321,15 @@
                 <tr class='bg-info-subtle'><td>Rabu<br>22/02</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Thinking Day&#41;</td><td>9W6RHN</td><td>26</td></tr>
                 <tr><td>Jumaat<br>24/02</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td>24</td></tr>
                 <tr><td>Sabtu<br>25/02</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td>28</td></tr>
-                <tr><td>Ahad<br>26/02</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td></td></tr>
+                <tr><td>Ahad<br>26/02</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td><i class='bi-send-exclamation text-danger'></i></td></tr>
               </tbody>
-<!--
               <caption>
                 <ul class='list-group list-group-flush fs-6'>
-                  <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
+                  <!-- <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li> -->
                   <li class='list-group-item'><i class='bi-send-exclamation text-danger'></i> Laporan Aktiviti tidak diterima</li>
-                  <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan Aktiviti tidak lengkap</li>
+                  <!-- <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan Aktiviti tidak lengkap</li> -->
                 </ul>
               </capton>
--->
             </table>
           </div>
         </div>

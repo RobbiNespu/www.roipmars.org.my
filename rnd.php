@@ -152,7 +152,10 @@
       </div>
       <div class='col-md-3 mb-md-0 p-md-3' id='rlandroid'>
         <p class='text-center'>Sistem Pengulang pada Pemancar Mudah Alih dan Telefon Pintar Android &#40;Repeater Linking ROIP&#41;</p>
-        <video class='rounded-5 w-100' loading='lazy' controls preload='auto' src='media/video/repeater-linking-roip.mp4'></video>
+        <video class='rounded-5 w-100' loading='lazy' controls preload='metadata'>
+          <source src='media/video/repeater-linking-roip.webm' type='video/webm'>
+          <source src='media/video/repeater-linking-roip.mp4' type='video/mp4'>
+        </video>
       </div>
       <div class='col-md-6 mb-md-0 p-md-3' id='gwpc'>
         <p class='text-center'>Sistem Perantara pada Pemancar Mudah Alih dan PC</p>

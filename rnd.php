@@ -117,10 +117,10 @@
           </div>
           <div class='col-10 d-flex align-content-center flex-wrap'>
             <div class='card-body mx-3'>
-              <p class='card-title fs-3 fw-bold'>9W2UZL &ndash; ZULKIFLI ABU</p>
+              <p class='card-title fs-3 fw-bold'>ZULKIFLI ABU &#40;9W2UZL&#41; <a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-person-vcard'></i></a></p>
               <p class='card-subtitle fw-semibold'>FOUNDER, LEAD ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
               <p class='card-subtitle fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; KETUA PENYELIDIK</p>
-              <p class='card-subtitle fw-light'>DILANTIK OLEH MART&acute;S <sup>&#40;TIDAK RASMI&#41;</sup> SEBAGAI KETUA PENYELIDIK KUMPULAN MINAT KHAS &#40;SiG&#41;</p>
+              <p class='card-subtitle fw-light'>&#91;TIDAK RASMI &ndash; 2018&#93; DILANTIK OLEH MART&acute;S SEBAGAI KETUA PENYELIDIK KUMPULAN MINAT KHAS &#40;SIG&#41; PENGKHUSUSAN &#39;ROIP&#39; &#40;RADIO OVER INTERNET PROTOCOL&#41;</p>
             </div>
           </div>
         </div>
@@ -129,9 +129,9 @@
         <div class='row g-1 text-end'>
           <div class='col-10 d-flex align-content-center flex-wrap'>
             <div class='card-body mx-3'>
-              <p class='card-title fs-3 fw-bold'>9W2LGX &ndash; HAFIZI RUSLAN</p>
-              <p class='card-subtitle fw-semibold'>SOFTWARE DEVELOPER &amp; LEAD NETWORK ADMINISTRATOR</p>
-              <p class='card-subtitle fw-bolder'>PEMBANGUN PERISIAN &amp; KETUA PENTADBIR RANGKAIAN</p>
+              <p class='card-title fs-3 fw-bold'>HAFIZI RUSLAN &#40;9W2LGX&#41; <a href='https://bit.ly/m/hafiziruslan'><i class='bi-person-vcard'></i></a></p>
+              <p class='card-subtitle fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
+              <p class='card-subtitle fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
             </div>
           </div>
           <div class='col-2 align-self-center'>
@@ -144,28 +144,28 @@
       <div class='col-12 text-center'>
         <h3 class='h3'>Penyelidikan Berterusan</h3>
       </div>
-      <div class='col-md-9 mb-md-0 p-md-3'>
-        <p class='text-center'>Apa itu Gateway?</p>
+      <div class='col-md-9 mb-md-0 p-md-3 my-3'>
+        <p class='text-center my-0'>Apa itu Gateway?</p>
           <div class='ratio ratio-16x9'>
             <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/CihK_ebySF0' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
           </div>
       </div>
-      <div class='col-md-3 mb-md-0 p-md-3' id='rlandroid'>
-        <p class='text-center'>Sistem Pengulang pada Pemancar Mudah Alih dan Telefon Pintar Android &#40;Repeater Linking ROIP&#41;</p>
+      <div class='col-md-3 mb-md-0 p-md-3 my-3' id='rlandroid'>
+        <p class='text-center my-0'>Sistem Pengulang pada Pemancar Mudah Alih dan Telefon Pintar Android &#40;Repeater Linking ROIP&#41;</p>
         <video class='rounded-5 w-100' loading='lazy' controls preload='metadata'>
           <source src='media/video/repeater-linking-roip.webm' type='video/webm'>
           <source src='media/video/repeater-linking-roip.mp4' type='video/mp4'>
         </video>
       </div>
-      <div class='col-md-6 mb-md-0 p-md-3' id='gwpc'>
-        <p class='text-center'>Sistem Perantara pada Pemancar Mudah Alih dan PC</p>
-        <div class='ratio ratio-21x9'>
+      <div class='col-md-6 mb-md-0 p-md-3 my-3' id='gwpc'>
+        <p class='text-center my-0'>Sistem Perantara pada Pemancar Mudah Alih dan PC</p>
+        <div class='ratio ratio-16x9'>
           <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/-JGQpxAyEQo' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
         </div>
       </div>
-      <div class='col-md-6 mb-md-0 p-md-3' id='gwandroid'>
-        <p class='text-center'>Sistem Perantara pada Pemancar Mudah Alih dan Telefon Pintar Android</p>
-        <div class='ratio ratio-21x9'>
+      <div class='col-md-6 mb-md-0 p-md-3 my-3' id='gwandroid'>
+        <p class='text-center my-0'>Sistem Perantara pada Pemancar Mudah Alih dan Telefon Pintar Android</p>
+        <div class='ratio ratio-16x9'>
           <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/dDiEqN2xC3M' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
         </div>
       </div>

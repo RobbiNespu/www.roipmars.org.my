@@ -298,8 +298,8 @@
         </div>
       </div>
       <div class='col-lg-4'>
-        <div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#022013' aria-expanded='true' aria-controls='022013'>Februari 2023</button></div>
-        <div class='collapse show' id='022013'>
+        <div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#022013' aria-expanded='false' aria-controls='022013'>Februari 2023</button></div>
+        <div class='collapse' id='022013'>
           <div class='table-responsive'>
             <table class='table table-sm table-bordered table-striped text-center align-middle'>
               <thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
@@ -326,7 +326,7 @@
               <caption>
                 <ul class='list-group list-group-flush fs-6'>
                   <!-- <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li> -->
-                  <li class='list-group-item'><i class='bi-send-exclamation text-danger'></i> Laporan Aktiviti tidak diterima</li>
+                  <li class='list-group-item'><i class='bi-send-exclamation text-danger'></i> Laporan Aktiviti tidak dihantar</li>
                   <!-- <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan Aktiviti tidak lengkap</li> -->
                 </ul>
               </capton>
@@ -341,7 +341,7 @@
             <table class='table table-sm table-bordered table-striped text-center align-middle'>
               <thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
               <tbody>
-                <tr class='bg-info-subtle'><td>Rabu<br>01/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Malaysia&#39;s 90th Army Day&#41;</td><td>9W6RHN</td><td></td></tr>
+                <tr class='bg-info-subtle'><td>Rabu<br>01/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Malaysia&#39;s 90th Army Day&#41;</td><td>9W8VWW</td><td></td></tr>
                 <tr class='bg-primary-subtle'><td>Jumaat<br>03/03</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Hidupan Liar Sedunia&#41;</td><td>9W2GSV</td><td></td></tr>
                 <tr class='bg-primary-subtle'><td>Sabtu<br>04/03</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Ulang Tahun Pertabalan Sultan Terengganu&#41;</td><td>9W6PKJ</td><td></td></tr>
                 <tr><td>Ahad<br>05/03</td><td>2100MY</td><td>CB Net<br></td><td>113DAPLY</td><td></td></tr>

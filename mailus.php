@@ -109,38 +109,46 @@
 	<div class='container'>
 		<div class='row'>
 			<div class='col-md'>
-				<form id='contactForm' method='post' action='./vendor/mail/contact_me'>
+				<form id='contactForm'>
 					<div class='form-row'>
 						<div class='col-auto'>
 							<div class='form-floating'>
-								<input type='text' class='form-control' id='name' name='name' placeholder='Name' aria-required='true' required data-validation-required-message='Please enter your name'>
-								<label for='name'>Name</label>
+								<input type='text' class='form-control' name="from_name" id="from_name" placeholder='Name' aria-required='true' required data-validation-required-message='Please enter your name'>
+								<label for='from_name'>Name</label>
 							</div>
 						</div>
 						<div class='col-auto'>
 							<div class='form-floating'>
-								<input type='email' class='form-control' id='email' name='email' placeholder='yourname@yourdomain.tld' aria-required='true' required data-validation-required-message='Please enter your email'>
-								<label for='email'>E-Mail</label>
+								<input type='email' class='form-control' name="from_email" id="from_email" placeholder='yourname@yourdomain.tld' aria-required='true' required data-validation-required-message='Please enter your email'>
+								<label for='from_email'>E-Mail</label>
 							</div>
 						</div>
 						<div class='col-auto'>
 							<div class='form-floating'>
-								<input type='text' class='form-control' id='phone' name='phone' placeholder='+60123456789' aria-required='true' required data-validation-required-message='Please enter your phone'>
-								<label for='phone'>Phone</label>
+								<input type='text' class='form-control' name='from_phone' id='from_phone' placeholder='+60123456789' aria-required='true' required data-validation-required-message='Please enter your phone'>
+								<label for='from_phone'>Phone</label>
 							</div>
 						</div>
-					</div>
-					<div class='input-group'>
-						<span class='input-group-text'>Message</span>
-						<textarea class='form-control' aria-label='Message' id='message' name='message' placeholder='Message' rows='6' aria-required='true' required data-validation-required-message='Please enter your message'></textarea>
+            <div class='input-group'>
+              <span class='input-group-text'>Message</span>
+              <textarea class='form-control' aria-label='Message' name="message" id="message" placeholder='Message' rows='6' aria-required='true' required data-validation-required-message='Please enter your message'></textarea>
+            </div>
+            <div class='form-floating'>
+              <text class='form-control' name="from_timestamp" id="from_timestamp"><script>document.write(new Date().toISOString())</script></text>
+              <label for="from_timestamp">Timestamp</label>
+            </div>
+            <div class='form-floating'>
+              <text class='form-control' name="from_ip" id="from_ip"><script>document.write(JSON.parse(fetch('https://api64.ipify.org')))</script></text>
+              <label for="from_ip">Your IP</label>
+            </div>
 					</div>
 					<div class='row my-2'>
 						<div class='col-9'>
 							<div class='text-start' id='success'></div>
 						</div>
-						<div class='col-3 text-end'>
-							<button type='reset' class='btn btn-outline-secondary btn-lg'>Reset</button>
-							<button type='submit' class='btn btn-primary btn-lg' id='sendMessage' class='cf-turnstile' data-sitekey='0x4AAAAAAABo4nJ8nQ9QZgbE' data-callback='onSubmit' data-action='submit'>Submit</button>
+						<div class='col-3 text-end d-flex gap-1 mx-auto'>
+							<button type='reset' class='btn btn-outline-secondary btn-lg rounded-5'>Reset</button>
+							<button type='submit' class='btn btn-primary btn-lg rounded-5' id='sendMsg' data-action='submit'>Submit</button>
 						</div>
 					</div>
 				</form>
@@ -206,10 +214,11 @@
 	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
 	<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
 	<script src='https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js' crossorigin='anonymous'></script>
-	<script src='./vendor/mail/contact.js'></script>
-  <script src='https://challenges.cloudflare.com/turnstile/v0/api.js' async defer></script>
-<!--  <script src='https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha' async defer></script>-->
-  <script> function onSubmit(token) { document.getElementById('contactForm').submit(); } </script>
+	<script src='https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js' crossorigin='anonymous'></script>
+  <script src='./vendor/js/emailjs.js'></script>
+  <!-- <script async defer src='https://challenges.cloudflare.com/turnstile/v0/api.js'></script> -->
+  <!-- <script async defer src='https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha'></script> -->
+  <!-- <script> function onSubmit(token) { document.getElementById('contactForm').submit(); } </script> -->
 </body>
 
 </html>

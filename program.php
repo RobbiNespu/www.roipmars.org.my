@@ -326,8 +326,8 @@
               <caption>
                 <ul class='list-group list-group-flush fs-6'>
                   <!-- <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li> -->
-                  <li class='list-group-item'><i class='bi-send-exclamation text-danger'></i> Laporan Aktiviti tidak dihantar</li>
-                  <!-- <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan Aktiviti tidak lengkap</li> -->
+                  <li class='list-group-item'><i class='bi-send-exclamation text-danger'></i> Laporan tidak dihantar</li>
+                  <!-- <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan tidak lengkap</li> -->
                 </ul>
               </capton>
             </table>
@@ -373,7 +373,9 @@
                 <ul class='list-group list-group-flush fs-6'>
                   <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
                   <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
-                  <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan Aktiviti tidak lengkap</li>
+                  <!-- <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li> -->
+                  <!-- <li class='list-group-item'><i class='bi-send-exclamation text-danger'></i> Laporan tidak dihantar</li> -->
+                  <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan tidak lengkap</li>
                 </ul>
               </capton>
             </table>

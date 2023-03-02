@@ -321,15 +321,15 @@
                 <tr class='bg-info-subtle'><td>Rabu<br>22/02</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Thinking Day&#41;</td><td>9W6RHN</td><td>26</td></tr>
                 <tr><td>Jumaat<br>24/02</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td>24</td></tr>
                 <tr><td>Sabtu<br>25/02</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td>28</td></tr>
-                <tr><td>Ahad<br>26/02</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td><i class='bi-send-exclamation text-danger'></i></td></tr>
+                <tr><td>Ahad<br>26/02</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td>18</td></tr>
               </tbody>
-              <caption>
+              <!-- <caption>
                 <ul class='list-group list-group-flush fs-6'>
-                  <!-- <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li> -->
+                  <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
                   <li class='list-group-item'><i class='bi-send-exclamation text-danger'></i> Laporan tidak dihantar</li>
-                  <!-- <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan tidak lengkap</li> -->
+                  <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan tidak lengkap</li>
                 </ul>
-              </capton>
+              </capton> -->
             </table>
           </div>
         </div>
@@ -358,7 +358,7 @@
                 <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Meteorologi Sedunia&#41;</td><td></td><td></td></tr>
                 <tr class='bg-success-subtle'><td>Jumaat<br>24/03</td><td>0400MY</td><td>VoIP Sahur Net #2</td><td></td><td></td></tr>
                 <tr class='bg-success-subtle'><td rowspan='2'>Sabtu<br>25/03</td><td>0400MY</td><td>VoIP Sahur Net #3</td><td></td><td></td></tr>
-                <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Polis Diraja Malaysia&#41;</td><td>9W2OGK<sup>2</sup</td><td></td></tr>
+                <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Polis Diraja Malaysia&#41;</td><td>9W2OGK<sup>2</sup></td><td></td></tr>
                 <tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>26/03</td><td>0400MY</td><td>VoIP Sahur Net #4</td><td></td><td></td></tr>
                 <tr><td>2100MY</td><td>CB Net<br></td><td></td><td></td></tr>
                 <tr class='bg-success-subtle'><td>Isnin<br>27/03</td><td>0400MY</td><td>VoIP Sahur Net #5</td><td></td><td></td></tr>

@@ -387,178 +387,126 @@
       </div>
       <div class='col text-center'>
         <h2>Tanda Panggilan Jalur Rakyat Negara Asal</h2>
-        <table class='table table-bordered table-sm align-middle'>
-          <thead>
-            <tr><th>KOD</th><th>KAWASAN</th><th>KOD</th><th>KAWASAN</th></tr>
-          </thead>
+        <table class='table table-bordered table-striped table-sm align-middle'>
+          <thead><tr><th>PRE</th><th>KAWASAN</th><th>PRE</th><th>KAWASAN</th><th>PRE</th><th>KAWASAN</th></tr></thead>
           <tbody>
-            <tr><td>1</td><td>ITALY</td><td>168</td><td>MAURITIUS IS.</td></tr>
-            <tr><td>2</td><td>U.S.A.</td><td>169</td><td>GUERNSEY ISLAND</td></tr>
-            <tr><td>3</td><td>BRAZIL</td><td>170</td><td>BOURKINA FASO</td></tr>
-            <tr><td>4</td><td>ARGENTINA</td><td>171</td><td>SVALBARD</td></tr>
-            <tr><td>5</td><td>VENEZUELA</td><td>172</td><td>NEW CALEDONIA</td></tr>
-            <tr><td>6</td><td>COLUMBIA</td><td>173</td><td>REUNION ISLAND</td></tr>
-            <tr><td>7</td><td>N. ATILLES</td><td>174</td><td>UGANDA</td></tr>
-            <tr><td>8</td><td>PERU</td><td>175</td><td>CHAD</td></tr>
-            <tr><td>9</td><td>CANADA</td><td>176</td><td>CENTRAL AFRICAN REP</td></tr>
-            <tr><td>10</td><td>MEXICO</td><td>177</td><td>SRILANKA</td></tr>
-            <tr><td>11</td><td>PUERTORICO</td><td>178</td><td>BULGARY</td></tr>
-            <tr><td>12</td><td>URUGUAIY</td><td>179</td><td>CZECHOSLOVAKIA</td></tr>
-            <tr><td>13</td><td>W. GERMANY</td><td>180</td><td>OMAN</td></tr>
-            <tr><td>14</td><td>FRANCE</td><td>181</td><td>SYRIA</td></tr>
-            <tr><td>15</td><td>SWITZERLAND</td><td>182</td><td>GUINEA REPUBLIC</td></tr>
-            <tr><td>16</td><td>BELGIUM</td><td>183</td><td>BENIN (EX DAHOMEY)</td></tr>
-            <tr><td>17</td><td>HAWAII</td><td>184</td><td>BURUNDI</td></tr>
-            <tr><td>18</td><td>GREECE</td><td>185</td><td>COMORO ISLAND</td></tr>
-            <tr><td>19</td><td>HOLLAND</td><td>186</td><td>DIJBOUTI</td></tr>
-            <tr><td>20</td><td>NORWAY</td><td>187</td><td>KENYA</td></tr>
-            <tr><td>21</td><td>SWEDEN</td><td>188</td><td>MALAGASY REPUBLIC</td></tr>
-            <tr><td>22</td><td>GUAYANA</td><td>189</td><td>MAYOTTE ISLAND</td></tr>
-            <tr><td>23</td><td>JAMAICA</td><td>190</td><td>SEYCHELLES ISLAND</td></tr>
-            <tr><td>24</td><td>PANAMA</td><td>191</td><td>SWAZILAND</td></tr>
-            <tr><td>25</td><td>JAPAN</td><td>192</td><td>COCOS IS. (C USA)</td></tr>
-            <tr><td>26</td><td>ENGLAND</td><td>193</td><td>COCOS IS. (OCEANIA)</td></tr>
-            <tr><td>27</td><td>ICELAND</td><td>194</td><td>DOMINICA ISLAND</td></tr>
-            <tr><td>28</td><td>HONDURAS</td><td>195</td><td>GRENADA ISLAND</td></tr>
-            <tr><td>29</td><td>IRELAND</td><td>196</td><td>GUADELOUPE</td></tr>
-            <tr><td>30</td><td>SPAIN</td><td>197</td><td>VANAUTU</td></tr>
-            <tr><td>31</td><td>PORTUGAL</td><td>198</td><td>FALKLAND ISLAND</td></tr>
-            <tr><td>32</td><td>CHILLE</td><td>199</td><td>GUINEA EQUATOR</td></tr>
-            <tr><td>33</td><td>ALASKA</td><td>200</td><td>SHETLAND ISLAND</td></tr>
-            <tr><td>34</td><td>CANARY IS</td><td>201</td><td>FRENCH POLINESIA</td></tr>
-            <tr><td>35</td><td>AUSTRIA</td><td>202</td><td>BHUTAN</td></tr>
-            <tr><td>36</td><td>R. S. MARINO</td><td>203</td><td>CHINA REPUBLIC</td></tr>
-            <tr><td>37</td><td>R. DOMINICANA</td><td>204</td><td>MOZAMBIQUE</td></tr>
-            <tr><td>38</td><td>GREENLAND</td><td>205</td><td>CAPE VERDE REPUBLIC</td></tr>
-            <tr><td>39</td><td>ANGOLA</td><td>206</td><td>ETHIOPIA</td></tr>
-            <tr><td>40</td><td>LIECHTENSTEIN</td><td>207</td><td>SAINT MARTIN IS.</td></tr>
-            <tr><td>41</td><td>NEW ZEALAND</td><td>208</td><td>GLORIOSO ISLAND</td></tr>
-            <tr><td>42</td><td>LIBERIA</td><td>209</td><td>JUAN DE NOVA EUROPA</td></tr>
-            <tr><td>43</td><td>AUSTRALIA</td><td>210</td><td>WALLIS &amp; FUTUNA IS.</td></tr>
-            <tr><td>44</td><td>S. AFRICA</td><td>211</td><td>JAN MAYEN ISLAND</td></tr>
-            <tr><td>45</td><td>SERBIA</td><td>212</td><td>ALAN ISLAND</td></tr>
-            <tr><td></td><td></td><td>213</td><td>MARKET REEF</td></tr>
-            <tr><td>47</td><td>DENMARK</td><td>214</td><td>CONGO</td></tr>
-            <tr><td>48</td><td>SAUDI ARABIA</td><td>215</td><td>GABON</td></tr>
-            <tr><td>49</td><td>BALEARES IS</td><td>216</td><td>MALI</td></tr>
-            <tr><td>50</td><td>U. S. S. R.</td><td>217</td><td>CHRISTMAS ISLAND</td></tr>
-            <tr><td>51</td><td>ANDORRA</td><td>218</td><td>BELIZE</td></tr>
-            <tr><td>52</td><td>FAROE IS.</td><td>219</td><td>ANGUILLA ISLAND</td></tr>
-            <tr><td>53</td><td>EL SALVADOR</td><td>220</td><td>S. VINCENT &amp; DEPEND</td></tr>
-            <tr><td>54</td><td>LUXEMBOURG</td><td>221</td><td>SOUTH ORKNEY</td></tr>
-            <tr><td>55</td><td>GIBRALTAR</td><td>222</td><td>SANDWICH ISLAND</td></tr>
-            <tr><td>56</td><td>FINLAND</td><td>223</td><td>GLORIOSO ISLAND</td></tr>
-            <tr><td>57</td><td>INDIA</td><td>224</td><td>GILBERT &amp; OCEAN IS.</td></tr>
-            <tr><td>58</td><td>MALAYSIA EAST</td><td>225</td><td>BRUNEI</td></tr>
-            <tr><td>59</td><td>DODECANESE IS.</td><td>226</td><td>MALAWI</td></tr>
-            <tr><td>60</td><td>HONG KONG</td><td>227</td><td>RWUANDA</td></tr>
-            <tr><td>61</td><td>EQUADOR</td><td>228</td><td>CHAGOS</td></tr>
-            <tr><td>62</td><td>GUAM IS.</td><td>229</td><td>HEARD ISLAND</td></tr>
-            <tr><td>63</td><td>ST HELENA IS.</td><td>230</td><td>MICRONESIA</td></tr>
-            <tr><td>64</td><td>SENEGAL</td><td>231</td><td>ST PETER/PAUL ROCKS</td></tr>
-            <tr><td>65</td><td>SIERIA LEONE</td><td>232</td><td>ARUBA</td></tr>
-            <tr><td>66</td><td>MAURITANIA</td><td>233</td><td>ROMANIA</td></tr>
-            <tr><td>67</td><td>PARAGUAY</td><td>234</td><td>AFGANISTAN</td></tr>
-            <tr><td>68</td><td>ULSTER</td><td>235</td><td>ITU GENEVA</td></tr>
-            <tr><td>69</td><td>COSTA RICA</td><td>236</td><td>BANGLADESH</td></tr>
-            <tr><td>70</td><td>AMERICAN SAMOA</td><td>237</td><td>BIRMANIA</td></tr>
-            <tr><td>71</td><td>MIDWAY</td><td>238</td><td>CAMBOGIA</td></tr>
-            <tr><td>72</td><td>GUATEMALA</td><td>239</td><td>LAOS</td></tr>
-            <tr><td>73</td><td>SURINAM</td><td>240</td><td>MACAO</td></tr>
-            <tr><td>74</td><td>NAMBIA S. W. A.</td><td>241</td><td>SPRATLY</td></tr>
-            <tr><td>75</td><td>AZORES IS.</td><td>242</td><td>VIETNAM</td></tr>
-            <tr><td>76</td><td>MOROCCO</td><td>243</td><td>AGALEGA &amp; ST BRANDO</td></tr>
-            <tr><td>77</td><td>GHANA</td><td>244</td><td>ANNOBON</td></tr>
-            <tr><td>78</td><td>ZAMBIA</td><td>245</td><td>NIGER</td></tr>
-            <tr><td>79</td><td>PHILIPPINAS</td><td>246</td><td>SAO TOMBE/PRINCIPLE IS.</td></tr>
-            <tr><td>80</td><td>BOLIVIA</td><td>247</td><td>NAVASSA ISLAND</td></tr>
-            <tr><td>81</td><td>S. ANDRES IS.</td><td>248</td><td>TURKS &amp; CAOCOS IS.</td></tr>
-            <tr><td>82</td><td>GUANTANAMO BAY</td><td>249</td><td>AMSTERDAM &amp; S PAUL</td></tr>
-            <tr><td>83</td><td>TANZANIA</td><td>250</td><td>COOK ISLAND</td></tr>
-            <tr><td>84</td><td>IVORY COAST</td><td>251</td><td>ALBANIA</td></tr>
-            <tr><td>85</td><td>ZIMBABWE</td><td>252</td><td>REVILLA ET GIGEDO</td></tr>
-            <tr><td>86</td><td>NEPAL</td><td>253</td><td>ANDAMAN</td></tr>
-            <tr><td>87</td><td>YEMAN N. (DEL)</td><td>254</td><td>MOUNTH ATHOS</td></tr>
-            <tr><td>88</td><td>CUBA</td><td>255</td><td>KERGUELEEN</td></tr>
-            <tr><td>89</td><td>NIGERIA</td><td>256</td><td>MARION ISLAND</td></tr>
-            <tr><td>90</td><td>CRETE</td><td>257</td><td>RODRIGUES ISLAND</td></tr>
-            <tr><td>91</td><td>INDONESIA</td><td>258</td><td>TRISTAN DA CUNDHA</td></tr>
-            <tr><td>92</td><td>LIBYA</td><td>259</td><td>TOMELIN</td></tr>
-            <tr><td>93</td><td>MALTA</td><td>260</td><td>BAKER HOWLAND</td></tr>
-            <tr><td>94</td><td>U.A.E. EMIRAT ARABIA</td><td>261</td><td>CHATAM ISLAND</td></tr>
-            <tr><td>95</td><td>MONGOLIA</td><td>262</td><td>JOHNSTON ISLAND</td></tr>
-            <tr><td>96</td><td>TONGA</td><td>263</td><td>KERMADEC ISLAND</td></tr>
-            <tr><td>97</td><td>ISRAEL</td><td>264</td><td>KINGMAN REEF IS.</td></tr>
-            <tr><td>98</td><td>SINGAPORE</td><td>265</td><td>KIRIBATI CENTRE</td></tr>
-            <tr><td>99</td><td>FIJI ISLAND</td><td>266</td><td>KIRIBATI EAST</td></tr>
-            <tr><td>100</td><td>KOREA</td><td>267</td><td>KURE ISLAND</td></tr>
-            <tr><td>101</td><td>PAPUA NEW GUINEA</td><td>268</td><td>LORD HOWE ISLAND</td></tr>
-            <tr><td>102</td><td>KUWAIT</td><td>269</td><td>MELLISH REEF</td></tr>
-            <tr><td>103</td><td>HAITI</td><td>270</td><td>MINAMI TORISHIMA</td></tr>
-            <tr><td>104</td><td>CORSE</td><td>271</td><td>NAURU</td></tr>
-            <tr><td>105</td><td>BOTSWANA</td><td>272</td><td>NIVE ISLAND</td></tr>
-            <tr><td>106</td><td>CEUTA MELILLA</td><td>273</td><td>PALMYRA ISLAND</td></tr>
-            <tr><td>107</td><td>MONACO</td><td>274</td><td>PITCAIRN</td></tr>
-            <tr><td>108</td><td>SCOTLAND</td><td>275</td><td>TOKELAUS</td></tr>
-            <tr><td>109</td><td>HUNGARY</td><td>276</td><td>TUVALU</td></tr>
-            <tr><td>110</td><td>CYPRUS</td><td>277</td><td>SABLE ISLAND</td></tr>
-            <tr><td>111</td><td>JORDAN</td><td>278</td><td>WAKE ISLAND</td></tr>
-            <tr><td>112</td><td>LYBAN LEBANON</td><td>279</td><td>WILLIS ISLAND</td></tr>
-            <tr><td>113</td><td>MALAYSIA WEST</td><td>280</td><td>AVES ISLAND</td></tr>
-            <tr><td>114</td><td>PAKISTAN</td><td>281</td><td>OGASAWARA ISLAND</td></tr>
-            <tr><td>115</td><td>QATAR</td><td>282</td><td>AUKLAND CAMBELL</td></tr>
-            <tr><td>116</td><td>TURKYA</td><td>283</td><td>S KITTS E NEVIS</td></tr>
-            <tr><td>117</td><td>EGYPT</td><td>284</td><td>SAINT PAUL</td></tr>
-            <tr><td>118</td><td>THE GAMBIA</td><td>285</td><td>FERNANDO DE NOROHA</td></tr>
-            <tr><td>119</td><td>MADERIA</td><td>286</td><td>JUAN FERNANDEZ</td></tr>
-            <tr><td>120</td><td>ANTIGUA</td><td>287</td><td>MALPELO</td></tr>
-            <tr><td>121</td><td>BAHAMAS</td><td>288</td><td>S FELIX S AMBROSIO</td></tr>
-            <tr><td>122</td><td>BARBADOS</td><td>289</td><td>SOUTH GEORGIA ISLAND</td></tr>
-            <tr><td>123</td><td>BERMUDA</td><td>290</td><td>TRINIDADE MARTIN VAZ</td></tr>
-            <tr><td>124</td><td>AMSREDAM IS.</td><td>291</td><td>CYPRUS ZCA (S. BASE)</td></tr>
-            <tr><td>125</td><td>CAYMAN IS.</td><td>292</td><td>ABU AIL</td></tr>
-            <tr><td>126</td><td>NICARAGUA</td><td>293</td><td>GUINEA BISSAU</td></tr>
-            <tr><td>127</td><td>VIRGIN IS. (US)</td><td>294</td><td>PETER IST ISLAND</td></tr>
-            <tr><td>128</td><td>VIRGIN IS. (UK)</td><td>295</td><td>SOUTHERN SUDAN</td></tr>
-            <tr><td>129</td><td>MACQUAIRE IS. (US)</td><td>296</td><td>CLIPPERTON ISLAND</td></tr>
-            <tr><td>130</td><td>NORFOLK IS. (US)</td><td>297</td><td>BOUVET ISLAND</td></tr>
-            <tr><td>131</td><td>GUAYANA (BRITISH)</td><td>298</td><td>CROZET ISLAND</td></tr>
-            <tr><td>132</td><td>MARSHAL ISLAND</td><td>299</td><td>DESECHEO ISLAND</td></tr>
-            <tr><td>133</td><td>MARIANA ISLAND</td><td>300</td><td>W. SAHARA RIO DE ORO</td></tr>
-            <tr><td>134</td><td>CAROINE ISLAND</td><td>301</td><td>ARMENIA</td></tr>
-            <tr><td>135</td><td>SOLOMON ISLAND</td><td>302</td><td>ASIATIC RUSSIA</td></tr>
-            <tr><td>136</td><td>MARTINI QUE ISLAND</td><td>303</td><td>AZERBAIJAN</td></tr>
-            <tr><td>137</td><td>MAN (U.K.)</td><td>304</td><td>ESTONIA</td></tr>
-            <tr><td>138</td><td>VATICAN CITY</td><td>305</td><td>FRANZ JOSEPHLAND</td></tr>
-            <tr><td>139</td><td>SOUTH YEMAN (DEL)</td><td>306</td><td>GEORGIA</td></tr>
-            <tr><td>140</td><td>ANTARCTICA (CHILE)</td><td>307</td><td>KALINGRADSK</td></tr>
-            <tr><td>141</td><td>S. PIERRE &amp; MIQUELON</td><td>308</td><td>KAZAKH</td></tr>
-            <tr><td>142</td><td>LESOTHO</td><td>309</td><td>KIRGHIZ</td></tr>
-            <tr><td>143</td><td>S. LUCIA ISLAND</td><td>310</td><td>LATVIA</td></tr>
-            <tr><td>144</td><td>EASTER IS.(PASQUA)</td><td>311</td><td>LITHUANIA</td></tr>
-            <tr><td>145</td><td>GALAPAGOS ISLAND</td><td>312</td><td>MOLDAVIA</td></tr>
-            <tr><td>146</td><td>ALGERIA</td><td>313</td><td>TADZHIK</td></tr>
-            <tr><td>147</td><td>TUNISIA</td><td>314</td><td>TURKOMAN</td></tr>
-            <tr><td>148</td><td>ASCENSION ISLAND</td><td>315</td><td>UKRAINE</td></tr>
-            <tr><td>149</td><td>LACCADIVE ISLAND</td><td>316</td><td>UZBEK</td></tr>
-            <tr><td>150</td><td>BAHARAIN</td><td>317</td><td>WHITE RUSSIA</td></tr>
-            <tr><td>151</td><td>IRAQ</td><td>318</td><td>S.M.O.M.</td></tr>
-            <tr><td>152</td><td>MALDIVE</td><td>319</td><td>O.N.U. NEW YORK</td></tr>
-            <tr><td>153</td><td>THAILAND</td><td>320</td><td>BANABA ISLAND</td></tr>
-            <tr><td>154</td><td>IRAN</td><td>321</td><td>CONWAY REEF</td></tr>
-            <tr><td>155</td><td>TAIWAN</td><td>322</td><td>WALVIS BAY</td></tr>
-            <tr><td>156</td><td>CAMEROON</td><td>323</td><td>REP YEMEN</td></tr>
-            <tr><td>157</td><td>MONT SERRAT</td><td>324</td><td>PENGUIN ISLAND</td></tr>
-            <tr><td>158</td><td>TRINIDAD &amp; TOBAGO</td><td>325</td><td>ROTUMA ISLAND</td></tr>
-            <tr><td>159</td><td>SOMALIA</td><td>326</td><td>MALYJVYSOTSKJ IS.</td></tr>
-            <tr><td>160</td><td>SUDAN</td><td>327</td><td>SLOVENIA</td></tr>
-            <tr><td>161</td><td>POLAND</td><td>328</td><td>CROATIA</td></tr>
-            <tr><td>162</td><td>ZAIRE</td><td>329</td><td>CZECH REP</td></tr>
-            <tr><td>163</td><td>WALES</td><td>330</td><td>SLOVAKIA</td></tr>
-            <tr><td>164</td><td>TOGO</td><td>331</td><td>BOSNIA</td></tr>
-            <tr><td>165</td><td>SARDINIA</td><td>332</td><td>MACEDONIA</td></tr>
-            <tr><td>166</td><td>S. MAARTEN IS.</td><td>333</td><td>AFRICA (ERITREA)</td></tr>
-            <tr><td>167</td><td>JERSEY</td><td></td><td></td></tr>
+            <tr><td>1</td><td>ITALY</td><td>118</td><td>THE GAMBIA</td><td>235</td><td>ITU GENEVA</td></tr>
+            <tr><td>2</td><td>UNITED STATES OF AMERICA</td><td>119</td><td>MADERIA ISLAND</td><td>236</td><td>BANGLADESH</td></tr>
+            <tr><td>3</td><td>BRAZIL</td><td>120</td><td>ANTIGUA &amp; BARBUDA ISLANDS</td><td>237</td><td>UNION OF MYANMAR</td></tr>
+            <tr><td>4</td><td>ARGENTINA</td><td>121</td><td>THE BAHAMAS</td><td>238</td><td>KAMPUCHEA</td></tr>
+            <tr><td>5</td><td>VENEZUELA</td><td>122</td><td>BARBADOS ISLAND</td><td>239</td><td>LAOS</td></tr>
+            <tr><td>6</td><td>COLUMBIA</td><td>123</td><td>BERMUDA ISLAND</td><td>240</td><td>MACAO</td></tr>
+            <tr><td>7</td><td>NETHERLANDS ANTILLES</td><td>124</td><td>NEW AMSTERDAM &amp; ST. PAUL ISLANDS</td><td>241</td><td>SPRATLY ISLANDS</td></tr>
+            <tr><td>8</td><td>PERU</td><td>125</td><td>CAYMAN ISLANDS</td><td>242</td><td>VIETNAM</td></tr>
+            <tr><td>9</td><td>CANADA</td><td>126</td><td>NICARAGUA</td><td>243</td><td>AGALEGA &amp; ST. BRANDON IS.</td></tr>
+            <tr><td>10</td><td>MEXICO</td><td>127</td><td>VIRGIN ISLANDS</td><td>244</td><td>ANNOBAN ISLAND</td></tr>
+            <tr><td>11</td><td>PUERTO RICO</td><td>128</td><td>BRITISH VIRGIN ISLANDS</td><td>245</td><td>NIGER REPUBLIC</td></tr>
+            <tr><td>12</td><td>URUGUAY</td><td>129</td><td>MACQUARIE ISLANDS</td><td>246</td><td>SAO TOMES &amp; PRINCIPE ISLANDS</td></tr>
+            <tr><td>13</td><td>GERMANY</td><td>130</td><td>NORFOLK ISLAND</td><td>247</td><td>NAVASSA ISLAND</td></tr>
+            <tr><td>14</td><td>FRANCE</td><td>131</td><td>GUYANA</td><td>248</td><td>TURKS &amp; CAICOS ISLANDS</td></tr>
+            <tr><td>15</td><td>SWITZERLAND</td><td>132</td><td>MARSHALL ISLANDS</td><td>249</td><td>NORTHERN COOK ISLANDS</td></tr>
+            <tr><td>16</td><td>BELGIUM</td><td>133</td><td>NORTH MARIANAS ISLANDS</td><td>250</td><td>SOUTHERN COOK ISLANDS</td></tr>
+            <tr><td>17</td><td>HAWAIIAN ISLANDS</td><td>134</td><td>REPUBLIC OF BELAU</td><td>251</td><td>ALBANIA</td></tr>
+            <tr><td>18</td><td>GREECE</td><td>135</td><td>SOLOMON ISLANDS</td><td>252</td><td>REVILLAGIGEDO ISLANDS</td></tr>
+            <tr><td>19</td><td>NETHERLANDS</td><td>136</td><td>MARTINIQUE ISLAND</td><td>253</td><td>ANDAMAN &amp; NICOBAR ISLANDS</td></tr>
+            <tr><td>20</td><td>NORWAY</td><td>137</td><td>ISLE OF MAN</td><td>254</td><td>MOUNT ATHOS</td></tr>
+            <tr><td>21</td><td>SWEDEN</td><td>138</td><td>VATICAN CITY STATE</td><td>255</td><td>KERGUELAN ISLANDS</td></tr>
+            <tr><td>22</td><td>FRENCH GUYANA</td><td>139</td><td>SOUTHERN YEMEN</td><td>256</td><td>PRINCE EDWARD &amp; MARION ISLS.</td></tr>
+            <tr><td>23</td><td>JAMAICA</td><td>140</td><td>ANTARTICA</td><td>257</td><td>RODRIGUEZ ISLAND</td></tr>
+            <tr><td>24</td><td>PANAMA</td><td>141</td><td>ST. PIERRE &amp; MIQUELON IS.</td><td>258</td><td>TRISTAN DA CUNHA &amp; GOUGH IS.</td></tr>
+            <tr><td>25</td><td>JAPAN</td><td>142</td><td>LESOTHO</td><td>259</td><td>TROMELIN ISLAND</td></tr>
+            <tr><td>26</td><td>ENGLAND</td><td>143</td><td>ST. LUCIA ISLAND</td><td>260</td><td>BAKER &amp; HOWLAND ISLANDS</td></tr>
+            <tr><td>27</td><td>ICELAND</td><td>144</td><td>EASTER ISLAND</td><td>261</td><td>CHATHAM ISLANDS</td></tr>
+            <tr><td>28</td><td>HONDURAS</td><td>145</td><td>GALAPAGOS ISLAND</td><td>262</td><td>JOHNSTON ISLAND</td></tr>
+            <tr><td>29</td><td>IRELAND</td><td>146</td><td>ALGERIA</td><td>263</td><td>KERMADEE ISLANDS</td></tr>
+            <tr><td>30</td><td>SPAIN</td><td>147</td><td>TUNISIA</td><td>264</td><td>KINGMAN REEF</td></tr>
+            <tr><td>31</td><td>PORTUGAL</td><td>148</td><td>ASCENSION ISLAND</td><td>265</td><td>CENTRAL KIRIBATI</td></tr>
+            <tr><td>32</td><td>CHILE</td><td>149</td><td>LACCADIVE ISLANDS</td><td>266</td><td>EASTERN KIRIBATI</td></tr>
+            <tr><td>33</td><td>ALASKA</td><td>150</td><td>BARAIN</td><td>267</td><td>KURE ISLANDS</td></tr>
+            <tr><td>34</td><td>CANARY ISLANDS</td><td>151</td><td>IRAQ</td><td>268</td><td>LORD HOWE ISLAND</td></tr>
+            <tr><td>35</td><td>AUSTRIA</td><td>152</td><td>MALDIVE ISLANDS</td><td>269</td><td>MELLISH REEF</td></tr>
+            <tr><td>36</td><td>SAN MARINO</td><td>153</td><td>THAILAND</td><td>270</td><td>MINAMI TORISHIMA ISLAND</td></tr>
+            <tr><td>37</td><td>DOMINICAN REPUBLIC</td><td>154</td><td>IRAN</td><td>271</td><td>REPUBLIC OF NAURU</td></tr>
+            <tr><td>38</td><td>GREENLAND</td><td>155</td><td>TAIWAN</td><td>272</td><td>NIVE ISLAND</td></tr>
+            <tr><td>39</td><td>ANGOLA</td><td>156</td><td>CAMEROON</td><td>273</td><td>JARVIS &amp; PDS</td></tr>
+            <tr><td>40</td><td>LIECHTENSTIEN</td><td>157</td><td>MONTSERRAT ISLAND</td><td>274</td><td>PITCAIRN ISLAND</td></tr>
+            <tr><td>41</td><td>NEW ZEALAND</td><td>158</td><td>TRINIDAD &amp; TOBAGO ISLANDS</td><td>275</td><td>TOKELAU ISLANDS</td></tr>
+            <tr><td>42</td><td>LIBERIA</td><td>159</td><td>SOMALT REPUBLIC</td><td>276</td><td>TUVALU ISLANDS</td></tr>
+            <tr><td>43</td><td>AUSTRALIA</td><td>160</td><td>SUDAN</td><td>277</td><td>SABLE ISLAND</td></tr>
+            <tr><td>44</td><td>SOUTH AFRICA</td><td>161</td><td>POLAND</td><td>278</td><td>WAKE ISLAND</td></tr>
+            <tr><td>45</td><td>SERBIA</td><td>162</td><td>REPUBLIC OF ZAIRE</td><td>279</td><td>WILLIS ISLETS</td></tr>
+            <tr><td>46</td><td>EAST GERMANY</td><td>163</td><td>WALES</td><td>280</td><td>AVES ISLAND</td></tr>
+            <tr><td>47</td><td>DENMARK</td><td>164</td><td>TOGO REPUBLIC</td><td>281</td><td>OGASAWARA ISLANDS</td></tr>
+            <tr><td>48</td><td>SAUDIA ARABIA</td><td>165</td><td>SARDINIA ISLAND</td><td>282</td><td>AUCKLAND &amp; CAMPBELL ISL.</td></tr>
+            <tr><td>49</td><td>BALEARIC ISLANDS</td><td>166</td><td>SINT MAARTEN, SABA &amp; ST. EU-STATIUS</td><td>283</td><td>ST. KITTS &amp; NEVIS ISLAND</td></tr>
+            <tr><td>50</td><td>EUROPEAN RUSSIA</td><td>167</td><td>JERSEY ISLAND</td><td>284</td><td>ST. PAUL ISLAND</td></tr>
+            <tr><td>51</td><td>ANDORRA</td><td>168</td><td>MAURITIS ISLANDS</td><td>285</td><td>FERNANDO DE NORONHA ISLA</td></tr>
+            <tr><td>52</td><td>FAROER ISLANDS</td><td>169</td><td>GUERNSEY ISLAND &amp; DEPENDENCIES</td><td>286</td><td>JUAN FERNANDEZ ISLANDS</td></tr>
+            <tr><td>53</td><td>EL SALVADOR</td><td>170</td><td>BURKINA FASO</td><td>287</td><td>MALPELO ISLAND HK0</td></tr>
+            <tr><td>54</td><td>LUXEMBOURG</td><td>171</td><td>SVALBARD ISLANDS</td><td>288</td><td>SAN FELIX &amp; SAN AMBROSIO</td></tr>
+            <tr><td>55</td><td>GIBRALTAR</td><td>172</td><td>NEW CALEDONIA</td><td>289</td><td>SOUTH GEORGIA ISLANDS</td></tr>
+            <tr><td>56</td><td>FINLAND</td><td>173</td><td>REUNION ISLAND</td><td>290</td><td>TRINDADE &amp; MARTIM VAZ IS</td></tr>
+            <tr><td>57</td><td>INDIA</td><td>174</td><td>UGANDA</td><td>291</td><td>DHEKELIA &amp; AKROTIRI</td></tr>
+            <tr><td>58</td><td>EAST MALASYSIA</td><td>175</td><td>CHAD REPUBLIC</td><td>292</td><td>ABU-AIL &amp; JABAL-AT-TAIR</td></tr>
+            <tr><td>59</td><td>DODE CANESE</td><td>176</td><td>CENTRAL AFRICAN REPUBLIC</td><td>293</td><td>GUINEA BISSAU</td></tr>
+            <tr><td>60</td><td>HONG KONG</td><td>177</td><td>SRI LANKA</td><td>294</td><td>PETER 1<sup>st</sup> ISLAND</td></tr>
+            <tr><td>61</td><td>EQUADOR</td><td>178</td><td>BULGARIA</td><td>295</td><td>SOUTHERN SUDAN</td></tr>
+            <tr><td>62</td><td>GUAM ISLAND</td><td>179</td><td>CZECHOSLOVAKIA</td><td>296</td><td>CLIPPERTON ISLAND</td></tr>
+            <tr><td>63</td><td>ST. HELENA ISLAND</td><td>180</td><td>OMAN</td><td>297</td><td>BOUVET ISLAND</td></tr>
+            <tr><td>64</td><td>SENEGAL REPUBLIC</td><td>181</td><td>SYRIA</td><td>298</td><td>CROZET ISLANDS</td></tr>
+            <tr><td>65</td><td>SIERRA LEONE</td><td>182</td><td>REPUBLIC OF GUINEA</td><td>299</td><td>DESEECHEO ISLAND</td></tr>
+            <tr><td>66</td><td>MAURITANIA</td><td>183</td><td>BENIN</td><td>300</td><td>WESTERN SAHARA</td></tr>
+            <tr><td>67</td><td>PARAGUAY</td><td>184</td><td>BURUNDI</td><td>301</td><td>ARMENIA</td></tr>
+            <tr><td>68</td><td>NORTHERN IRELAND</td><td>185</td><td>COMOROS ISLANDS</td><td>302</td><td>ASIATIC RUSSIA</td></tr>
+            <tr><td>69</td><td>COSTA RICA</td><td>186</td><td>DIJIBOUTI</td><td>303</td><td>AZERBAIJAN</td></tr>
+            <tr><td>70</td><td>AMERICAN SAMOA ISLANDS</td><td>187</td><td>KENYA</td><td>304</td><td>ESTONIA</td></tr>
+            <tr><td>71</td><td>MIDWAY ISLANDS</td><td>188</td><td>MALAGASY REPUBLIC</td><td>305</td><td>FRANZ JOSEF LAND</td></tr>
+            <tr><td>72</td><td>GUATEMALA</td><td>189</td><td>MAYOTTE ISLAND</td><td>306</td><td>GEORGIA</td></tr>
+            <tr><td>73</td><td>SURINAME</td><td>190</td><td>SEYCHELLES ISLANDS</td><td>307</td><td>KALININGRADSK</td></tr>
+            <tr><td>74</td><td>NAMIBIA</td><td>191</td><td>SWAZILAND</td><td>308</td><td>KAZAKH</td></tr>
+            <tr><td>75</td><td>AZORES ISLANDS</td><td>192</td><td>COCOS ISLAND</td><td>309</td><td>KIRGHIZ</td></tr>
+            <tr><td>76</td><td>MOROCCO</td><td>193</td><td>COCOS-KEELING ISLANDS</td><td>310</td><td>LATVIA</td></tr>
+            <tr><td>77</td><td>GHANA</td><td>194</td><td>DOMINICA ISLAND</td><td>311</td><td>LITHUANIA</td></tr>
+            <tr><td>78</td><td>ZAMBIA</td><td>195</td><td>GRENADA ISLAND</td><td>312</td><td>MOLDAVIA</td></tr>
+            <tr><td>79</td><td>PHILIPPENE ISLANDS</td><td>196</td><td>GUADALUPE ISLAND</td><td>313</td><td>TADZHIK</td></tr>
+            <tr><td>80</td><td>BOLIVIA</td><td>197</td><td>VANUATA</td><td>314</td><td>TURKOMAN</td></tr>
+            <tr><td>81</td><td>SAN ANDRES &amp; PROVIDENCIA ISLANDS</td><td>198</td><td>FALKLAND ISLANDS</td><td>315</td><td>UKRAINE</td></tr>
+            <tr><td>82</td><td>GUANTANAMO BAY</td><td>199</td><td>EQUATORIAL GUINEA</td><td>316</td><td>UZBEK</td></tr>
+            <tr><td>83</td><td>TANZANIA</td><td>200</td><td>SOUTH SHETLAND ISLAND</td><td>317</td><td>BELARUS</td></tr>
+            <tr><td>84</td><td>IVORY COAST</td><td>201</td><td>FRENCH POLYNESIA</td><td>318</td><td>SOVEREIGN MILITARY ORDER OF MALTA</td></tr>
+            <tr><td>85</td><td>ZIMBABWE</td><td>202</td><td>BHUTAN</td><td>319</td><td>UNITED NATIONS NEW YORK</td></tr>
+            <tr><td>86</td><td>NEPAL</td><td>203</td><td>CHINA</td><td>320</td><td>BANABA ISLAND</td></tr>
+            <tr><td>87</td><td>YEMEN</td><td>204</td><td>MOZAMBIQUE</td><td>321</td><td>CONWAY REEF</td></tr>
+            <tr><td>88</td><td>CUBA</td><td>205</td><td>CAPE VERDE ISLANDS</td><td>322</td><td>WALVIS BAY</td></tr>
+            <tr><td>89</td><td>NIGERIA</td><td>206</td><td>ETHIOPIA</td><td>323</td><td>YEMEN REPUBLIC</td></tr>
+            <tr><td>90</td><td>CRETE ISLAND</td><td>207</td><td>ST. MARTIN ISLAND</td><td>324</td><td>PENGUIN ISLANDS</td></tr>
+            <tr><td>91</td><td>INDONESIA</td><td>208</td><td>GLORIEUSES ISLANDS</td><td>325</td><td>ROTUNA ISLAND</td></tr>
+            <tr><td>92</td><td>LIBYA</td><td>209</td><td>JUAN DE NOVA &amp; EUROPA ISLAND</td><td>326</td><td>(DELETED) MALYJ VYSOTSKJ ISLAND</td></tr>
+            <tr><td>93</td><td>MALTA</td><td>210</td><td>WALLIS &amp; FUTUNA ISLANDS</td><td>327</td><td>SLOVENIA</td></tr>
+            <tr><td>94</td><td>UNITED ARAB EMIRATES</td><td>211</td><td>JAN MAYEN ISLAND</td><td>328</td><td>CROATIA</td></tr>
+            <tr><td>95</td><td>MONGOLIA</td><td>212</td><td>ALAND ISLAND</td><td>329</td><td>CZECH REPUBLIC</td></tr>
+            <tr><td>96</td><td>TONGA ISLANDS</td><td>213</td><td>MARKET REEF</td><td>330</td><td>SLOVAK REPUBLIC</td></tr>
+            <tr><td>97</td><td>ISRAEL</td><td>214</td><td>CONGO REPUBLIC</td><td>331</td><td>BOSNIA HERCEGOVINIA</td></tr>
+            <tr><td>98</td><td>SINGAPORE</td><td>215</td><td>GABON REPUBLIC</td><td>332</td><td>MACEDONIA</td></tr>
+            <tr><td>99</td><td>FIJI ISLANDS</td><td>216</td><td>MALI REPUBLIC</td><td>333</td><td>ERITREA</td></tr>
+            <tr><td>100</td><td>KOREA</td><td>217</td><td>CHRISTMAS ISLAND</td><td>334</td><td>NORTH KOREA</td></tr>
+            <tr><td>101</td><td>PAPUA-NEW GUINEA</td><td>218</td><td>BELIZE</td><td>335</td><td>SCARBOROUGH REEF</td></tr>
+            <tr><td>102</td><td>KUWAIT</td><td>219</td><td>ANGUILLA ISLAND</td><td>336</td><td>PRATOS ISLAND</td></tr>
+            <tr><td>103</td><td>HAITI</td><td>220</td><td>ST. VINCENT ISLAND &amp; DEPENDECIES</td><td>337</td><td>AUSTRAL ISLANDS</td></tr>
+            <tr><td>104</td><td>CORSICA</td><td>221</td><td>SOUTH ORKNEY</td><td>338</td><td>MARQUESAS ISLANDS</td></tr>
+            <tr><td>105</td><td>BOTSWANA</td><td>222</td><td>SOUTH SANDWICH ISLANDS</td><td>339</td><td>TEMOTU</td></tr>
+            <tr><td>106</td><td>CEUTA &amp; MELILLA</td><td>223</td><td>WESTERN SAMOA ISLANDS</td><td>340</td><td>PALESTINA</td></tr>
+            <tr><td>107</td><td>MONACO</td><td>224</td><td>WESTERN KIRIBATI</td><td>341</td><td>EAST TIMOR</td></tr>
+            <tr><td>108</td><td>SCOTLAND</td><td>225</td><td>BRUNEI</td><td>342</td><td>CHESTERFIELDS ISLANDS</td></tr>
+            <tr><td>109</td><td>HUNGARY</td><td>226</td><td>MALAWI</td><td>343</td><td>DUCIE ISLAND</td></tr>
+            <tr><td>110</td><td>CYPRA</td><td>227</td><td>RWANDA</td><td>344</td><td>MONTENEGRO</td></tr>
+            <tr><td>111</td><td>JORDAN</td><td>228</td><td>CHAGOS</td><td>345</td><td>SWAIN’S ISLAND</td></tr>
+            <tr><td>112</td><td>LEBANON</td><td>229</td><td>HEARD ISLAND VK0H</td><td>346</td><td>SAINT BARTHELEMY</td></tr>
+            <tr><td>113</td><td>WEST MALAYSIA</td><td>230</td><td>MICRONESIA</td><td>347</td><td>CURACAO</td></tr>
+            <tr><td>114</td><td>PAKISTAN</td><td>231</td><td>ST. PETER &amp; ST. PAUL ROCKS</td><td>348</td><td>SINT MAARTEN</td></tr>
+            <tr><td>115</td><td>QATAR</td><td>232</td><td>ARUBA</td><td>349</td><td>SABA AND ST. EUSTATIUS</td></tr>
+            <tr><td>116</td><td>TURKEY</td><td>233</td><td>ROMANIA</td><td>350</td><td>BONAIRE</td></tr>
+            <tr><td>117</td><td>EYGPT</td><td>234</td><td>AFGHANISTAN</td><td>351</td><td>REPUBLIC OF SOUTH SUDAN</td></tr>
           </tbody>
         </table>
       </div>

@@ -49,11 +49,11 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-  <script src='./vendor/js/gtm.js'></script>
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-  <script src='./vendor/js/gtag.js'></script>
   <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
   <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+  <script src='./vendor/js/gtm.js'></script>
+  <script src='./vendor/js/gtag.js'></script>
   <script src='./vendor/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
   <script src='./vendor/js/clarity.js'></script>
 </head>
@@ -344,7 +344,7 @@
                 <tr class='bg-info-subtle'><td>Rabu<br>01/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Malaysia&#39;s 90th Army Day&#41;</td><td>9W8VWW</td><td><i class='bi-exclamation-triangle text-danger'></i></td></tr>
                 <tr class='bg-primary-subtle'><td>Jumaat<br>03/03</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Hidupan Liar Sedunia&#41;</td><td>9W2SNN</td><td><i class='bi-send-exclamation text-danger'></i></td></tr>
                 <tr class='bg-primary-subtle'><td>Sabtu<br>04/03</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Ulang Tahun Pertabalan Sultan Terengganu&#41;</td><td>9M6JAY</td><td><i class='bi-send-exclamation text-danger'></i></td></tr>
-                <tr><td>Ahad<br>05/03</td><td>2100MY</td><td>CB Net<br></td><td>113DAZIK</td><td><i class='bi-send-exclamation text-danger'></i></td></tr>
+                <tr><td>Ahad<br>05/03</td><td>2100MY</td><td>CB Net<br></td><td>113DAZIK</td><td>17</td></tr>
                 <tr class='bg-info-subtle'><td>Rabu<br>08/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;International Women&#39;s Day&#41;</td><td>9W8VWW</td><td></td></tr>
                 <tr><td>Jumaat<br>10/03</td><td>2100MY</td><td>MARS Net</td><td>9W2OGK</td><td></td></tr>
                 <tr><td>Sabtu<br>11/03</td><td>2100MY</td><td>MARS Net</td><td>9W6MOZ</td><td></td></tr>

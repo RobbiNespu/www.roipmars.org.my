@@ -234,6 +234,7 @@
       </div>
     </div>
   </div>
+  <button id='scrollToTop' class='btn sticky-bottom float-start mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
   <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
     <div class='container'>
       <div class='row my-2'>
@@ -293,6 +294,7 @@
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script></script>
   <script src='./vendor/js/tawkto.js'></script>
+  <script src='./vendor/js/stt.js'></script>
 </body>
 
 </html>

@@ -1,8 +1,9 @@
 let sttButton = document.getElementById('scrollToTop');
 window.onscroll = function () { scrollFunction() };
+sttButton.style.display = 'none';
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     sttButton.style.display = 'block';
   } else {
     sttButton.style.display = 'none';

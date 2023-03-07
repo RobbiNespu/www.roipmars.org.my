@@ -63,7 +63,7 @@
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='./vendor/js/fbchat.js'></script>
-  <nav class='navbar sticky-top navbar-expand-xl bg-body-tertiary'>
+  <nav class='navbar sticky-top navbar-expand-xl bg-body-tertiary z-3'>
     <div class='container'>
       <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'><span class='navbar-toggler-icon'></span></button>
@@ -101,12 +101,11 @@
   <div class='container'>
     <div class='row'>
       <h1 class='h1-responsive text-center my-3'>Polisi Perkhidmatan RoIPMARS</h1>
-      <p class='text-end'><?php date_default_timezone_get(); $current_file_name = basename($_SERVER['PHP_SELF']); $file_last_modified = filemtime($current_file_name); echo 'terakhir kemaskini: ' . date('d M Y, h:iA', $file_last_modified); ?></p>
     </div>
     <div class='row my-3'>
       <div class='col-4'>
         <nav id='navbar-policy' class='h-100 flex-column align-items-stretch px-3 border-end' tabindex='0'>
-          <nav class='nav nav-pills flex-column pt-5 sticky-top overflow-y-auto fs-6 fw-light text-wrap z-n1'>
+          <nav class='nav nav-pills flex-column pt-5 sticky-top overflow-y-auto fs-6 fw-light text-wrap z-0'>
             <a class='nav-link mt-5' href='#tos'>Terma &amp; Syarat</a>
             <nav class='nav nav-pills flex-column'>
               <a class='nav-link ms-3 my-1' href='#license'>Lesen</a>
@@ -249,7 +248,7 @@
           </div>
           <div id='privacy'>
             <h4>Dasar Privasi</h4>
-            <p>Di RoIPMARS, boleh diakses daripada https://www.roipmars.org.my, salah satu keutamaan utama kami ialah privasi pelawat kami. Dokumen Dasar Privasi ini mengandungi jenis maklumat yang dikumpul dan direkodkan oleh RoIPMARS dan cara kami menggunakannya.</p>
+            <p>Di RoIPMARS, boleh diakses daripada https://www.roipmars.org.my dan semua sub-domainnya, salah satu keutamaan utama kami ialah privasi pelawat kami. Dokumen Dasar Privasi ini mengandungi jenis maklumat yang dikumpul dan direkodkan oleh RoIPMARS dan cara kami menggunakannya.</p>
             <p>Jika anda mempunyai soalan tambahan atau memerlukan maklumat lanjut tentang Dasar Privasi kami, jangan teragak-agak untuk menghubungi kami.</p>
             <p>Dasar Privasi ini hanya terpakai untuk aktiviti dalam talian kami dan sah untuk pelawat ke laman web kami berkenaan dengan maklumat yang mereka kongsi dan/atau kumpulkan dalam RoIPMARS. Dasar ini tidak terpakai kepada sebarang maklumat yang dikumpul di luar talian atau melalui saluran selain laman web ini.</p>              
           </div>
@@ -314,7 +313,7 @@
               <li><strong>Barang</strong> merujuk kepada item yang ditawarkan untuk dijual pada Perkhidmatan.</li>
               <li><strong>Pesanan</strong> bermaksud permintaan oleh Anda untuk membeli Barang daripada Kami.</li>
               <li><strong>Perkhidmatan</strong> merujuk kepada laman Web.</li>
-              <li><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada <a href='https://www.roipmars.org.my' target='_blank'>https://www.roipmars.org.my</a></li>
+              <li><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada <a href='https://www.roipmars.org.my' target='_blank'>https://www.roipmars.org.my</a> dan semua sub-domainnya</li>
               <li><strong>Anda</strong> bermaksud individu yang mengakses atau menggunakan Perkhidmatan, atau organisasi, atau entiti undang-undang lain bagi pihak individu tersebut mengakses atau menggunakan Perkhidmatan, mengikut mana yang berkenaan.</li>
             </ul>
           </div>
@@ -346,7 +345,7 @@
             <p>Hanya Barang berharga biasa boleh dikembalikan. Malangnya, Barangan yang dijual tidak boleh dikembalikan. Pengecualian ini mungkin tidak terpakai kepada Anda jika ia tidak dibenarkan oleh undang-undang yang berkenaan.</p>
             <h5>Pemulangan Barang</h5>
             <p>Anda bertanggungjawab ke atas kos dan risiko memulangkan Barang kepada Kami. Anda hendaklah menghantar Barangan di alamat berikut:</p>
-            <p>31, LORONG NALURI SUKMA 8/13, SEKSYEN 8, BANDAR PUNCAK ALAM,<br>42300 KUALA SELANGOR, SELANGOR DARUL EHSAN, MALAYSIA</p>
+            <p>31, LORONG NALURI SUKMA 8/13, SEKSYEN 8, BANDAR PUNCAK ALAM, 42300 KUALA SELANGOR, SELANGOR DARUL EHSAN, MALAYSIA</p>
             <p>Kami tidak akan bertanggungjawab ke atas Barangan yang rosak atau hilang semasa penghantaran pulangan. Oleh itu, Kami mengesyorkan perkhidmatan mel yang diinsuranskan dan boleh dikesan. Kami tidak akan mengeluarkan bayaran balik tanpa penerimaan sebenar Barang atau bukti penghantaran pulangan yang diterima.</p>
             <h5>Hadiah</h5>
             <p>Jika Barangan ditandakan sebagai hadiah apabila dibeli dan kemudian dihantar terus kepada anda, Anda akan menerima kredit hadiah untuk nilai pemulangan anda. Setelah produk yang dipulangkan diterima, sijil hadiah akan dihantar kepada Anda.</p>

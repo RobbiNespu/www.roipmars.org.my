@@ -155,7 +155,7 @@
             </tr>
             <tr>
               <th scope='row'>Windows 32-bit</th>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak3-client-win32-3.1.10.exe' download>Muat Turun</a></td>
+              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/ts3.x_x86/teamspeak3-client-win32-3.1.10.exe' download>Muat Turun</a></td>
               <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' download>Muat Turun</a></td>
             </tr>
             <tr>
@@ -262,8 +262,8 @@
           <tbody>
             <tr>
               <th scope='row'>TS</th>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak3-client-win32-3.0.19.4.exe' download>TSv3.0.19.4</a></td>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak3-client-win32-3.1.10.exe' download>TSv3.1.10</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/ts3.x_x86/teamspeak3-client-win32-3.0.19.4.exe' download>TSv3.0.19.4</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/ts3.x_x86/teamspeak3-client-win32-3.1.10.exe' download>TSv3.1.10</a></td>
               <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' download>TSv3.5.6</a></td>
             </tr>
             <tr>

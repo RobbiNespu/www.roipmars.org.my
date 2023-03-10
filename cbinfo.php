@@ -44,7 +44,7 @@
   <link rel='apple-touch-icon' sizes='144x144' href='media/image/apple-icon-144x144.png'>
   <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
   <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
-  <link rel='manifest' href='./vendor/manifest.json'>
+  <link rel='manifest' href='vendor/manifest.json'>
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
@@ -52,17 +52,17 @@
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
   <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
   <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
-  <script src='./vendor/js/gtm.js'></script>
-  <script src='./vendor/js/gtag.js'></script>
-  <script src='./vendor/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
-  <script src='./vendor/js/clarity.js'></script>
+  <script src='vendor/js/gtm.js'></script>
+  <script src='vendor/js/gtag.js'></script>
+  <script src='vendor/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+  <script src='vendor/js/clarity.js'></script>
 </head>
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
-  <script src='./vendor/js/fbchat.js'></script>
+  <script src='vendor/js/fbchat.js'></script>
   <nav class='navbar sticky-top navbar-expand-xl bg-body-tertiary'>
     <div class='container'>
       <a class='navbar-brand' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
@@ -133,7 +133,7 @@
               </div>
               <div class='modal-body'>
                 <div class='ratio ratio-4x3'>
-                  <iframe src='./freq/27cb'></iframe>
+                  <iframe src='freq/27cb'></iframe>
                 </div>
               </div>
               <div class='modal-footer'>
@@ -151,7 +151,7 @@
               </div>
               <div class='modal-body'>
                 <div class='ratio ratio-4x3'>
-                  <iframe src='./freq/27cbmy'></iframe>
+                  <iframe src='freq/27cbmy'></iframe>
                 </div>
               </div>
               <div class='modal-footer'>
@@ -185,7 +185,7 @@
               </div>
               <div class='modal-body'>
                 <div class='ratio ratio-4x3'>
-                  <iframe src='./freq/446pmr'></iframe>
+                  <iframe src='freq/446pmr'></iframe>
                 </div>
               </div>
               <div class='modal-footer'>
@@ -224,7 +224,7 @@
               </div>
               <div class='modal-body'>
                 <div class='ratio ratio-4x3'>
-                  <iframe src='./freq/477cb'></iframe>
+                  <iframe src='freq/477cb'></iframe>
                 </div>
               </div>
               <div class='modal-footer'>
@@ -242,7 +242,7 @@
               </div>
               <div class='modal-body'>
                 <div class='ratio ratio-4x3'>
-                  <iframe src='./freq/477cbmy'></iframe>
+                  <iframe src='freq/477cbmy'></iframe>
                 </div>
               </div>
               <div class='modal-footer'>
@@ -279,7 +279,7 @@
               </div>
               <div class='modal-body'>
                 <div class='ratio ratio-4x3'>
-                  <iframe src='./freq/477fb'></iframe>
+                  <iframe src='freq/477fb'></iframe>
                 </div>
               </div>
               <div class='modal-footer'>
@@ -571,8 +571,8 @@
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script></script>
-  <script src='./vendor/js/tawkto.js'></script>
-  <script src='./vendor/js/stt.js'></script>
+  <script src='vendor/js/tawkto.js'></script>
+  <script src='vendor/js/stt.js'></script>
 </body>
 
 </html>

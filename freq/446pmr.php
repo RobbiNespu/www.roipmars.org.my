@@ -30,7 +30,7 @@
   <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
   <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
   <meta name='color-scheme' content='dark'>
-  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico'>
+  <link rel='shortcut icon' type='image/x-icon' href='../media/image/favicon.ico'>
   <link rel='icon' type='image/x-icon' href='../media/image/favicon.ico'>
   <link rel='icon' type='image/png' sizes='16x16' href='../media/image/favicon-16x16.png'>
   <link rel='icon' type='image/png' sizes='32x32' href='../media/image/favicon-32x32.png'>

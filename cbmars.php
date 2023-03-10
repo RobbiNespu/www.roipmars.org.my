@@ -154,13 +154,13 @@
           </tbody>
         </table>
       </div>
-      <div class='col-12 my-3 text-center lh-1'>
+      <div class='col-12 text-center lh-1'>
         <p><span class='cscount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
         <p class='fw-bold'>Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
         <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
       </div>
-      <div class='col-12 pb-2'>
-        <table class='table table-sm table-striped align-middle text-uppercase user-select-none' id='cbcslist'>
+      <div class='col-12 my-3'>
+        <table class='table align-middle text-uppercase text-wrap user-select-none' id='cbcslist'>
           <thead>
             <tr><th>ID</th><th>CALLSIGN</th><th>NAMA</th><th>LOKALAN</th><th>DAFTAR</th></tr>
           </thead>

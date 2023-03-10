@@ -3,7 +3,7 @@ $(document).ready(function () {
     'processing': true,
     'ordering': false,
     'pagingType': 'first_last_numbers',
-    'pageLength': 25,
+    'pageLength': 10,
     'search': {
       'smart': true
     },

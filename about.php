@@ -116,7 +116,7 @@
         <p class='text-center'>Merapatkan hubungan siraturahim antara stesen seluruh dunia disamping menguji peralatan masing-masing serta komunikasi antara satu sama lain.</p>
         <h4 class='text-center fw-bold'>PENGENALAN RADIO AMATUR</h4>
         <ol type='1'>
-          <li>Radio Amatur ditakrifkan di dalam <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998' target='_blank'>Akta Komunikasi dan Multimedia 1998 [Akta 588]</a> dan <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio' target='_blank'>PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA (SPEKTRUM) 2000 [P.U.(A) 128/2000]</a>.</li>
+          <li>Radio Amatur ditakrifkan di dalam <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998' target='_blank'>Akta Komunikasi dan Multimedia 1998 &#91;Akta 588&#93;</a> dan <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio' target='_blank'>PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA &#40;SPEKTRUM&#41; 2000 &#91;P.U.&#40;A&#41; 128/2000&#93;</a>.</li>
             <ol type='i'>
               <li>Perkhidmatan Radio Komunikasi &#40;termasuk Bumi &#40;Tanah&#41; &amp; Satelit&#41;.</li>
               <li>Di mana kegunaan stesen dengan tujuan latihan sendiri, komunikasi dan penyiasatan teknikal.</li>
@@ -206,7 +206,7 @@
             <div class='direction-r'>
               <div class='flag-wrapper'>
                 <span class='hexa'></span>
-                <span class='flag'>Perjumpaan Santai Penggiat &amp; Peminat Radio Komunikasi</span>
+                <span class='flag'>Perjumpaan Santai PPRK</span>
                 <span class='time-wrapper'><span class='time'>18 Februari 2023</span></span>
               </div>
               <div class='desc'>Buat pertama kali secara rasmi, <i>Persatuan Peminat Radio Komunikasi</i> menganjurkan <b>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</b> yang berlansung di Kalumpang Resort &amp; Training Centre, Hulu Selangor.<br>Antara pengisian acara adalah Pameran <i>&#39;Radio Over Internet Protocol&#39;</i> &#40;RoIP&#41;, BBQ, Karaoke, dan Cabutan Bertuah disamping dapat mengenal dengan lebih dekat dan mengeratkan lagi silaturrahim antara Penggiat dan Peminat Radio Komunikasi.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='media/image/050.jpg'></div>

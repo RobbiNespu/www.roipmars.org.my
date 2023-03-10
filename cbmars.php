@@ -154,9 +154,7 @@
         </table>
       </div>
       <div class='col-12 my-3' id='cblist'>
-        <div class='ratio ratio-4x3'>
-          <iframe src='list/cbcs'></iframe>
-        </div>
+        <iframe class='w-100 vh-100' src='list/cbcs'></iframe>
       </div>
     </div>
   </div>

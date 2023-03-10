@@ -97,7 +97,7 @@
       <div class='col-lg-2'></div>
     </div>
   </div>
-  <button id='scrollToTop' class='btn sticky-bottom float-start mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
+  <button id='scrollToTop' class='btn fixed-bottom float-start mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
   <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
     <div class='container'>
       <div class='row my-2 d-flex align-items-center'>

@@ -326,8 +326,8 @@
               <!-- <caption>
                 <ul class='list-group list-group-flush fs-6'>
                   <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
-                  <li class='list-group-item'><i class='bi-send-exclamation text-danger'></i> Laporan tidak dihantar</li>
-                  <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan tidak lengkap</li>
+                  <li class='list-group-item'><i class='bi-send-x-fill text-danger'></i> Laporan tidak dihantar</li>
+                  <li class='list-group-item'><i class='bi-envelope-x-fill text-danger'></i> Laporan tidak lengkap</li>
                 </ul>
               </capton> -->
             </table>
@@ -341,11 +341,11 @@
             <table class='table table-sm table-bordered table-striped text-center align-middle'>
               <thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
               <tbody>
-                <tr class='bg-info-subtle'><td>Rabu<br>01/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Malaysia&#39;s 90th Army Day&#41;</td><td>9W8VWW</td><td><i class='bi-exclamation-triangle text-danger fs-4'></i></td></tr>
-                <tr class='bg-primary-subtle'><td>Jumaat<br>03/03</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Hidupan Liar Sedunia&#41;</td><td>9W2SNN</td><td><i class='bi-send-exclamation text-danger fs-4'></i></td></tr>
-                <tr class='bg-primary-subtle'><td>Sabtu<br>04/03</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Ulang Tahun Pertabalan Sultan Terengganu&#41;</td><td>9M6JAY</td><td><i class='bi-send-exclamation text-danger fs-4'></i></td></tr>
+                <tr class='bg-info-subtle'><td>Rabu<br>01/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Malaysia&#39;s 90th Army Day&#41;</td><td>9W8VWW</td><td><i class='bi-envelope-x-fill text-danger fs-4'></i></td></tr>
+                <tr class='bg-primary-subtle'><td>Jumaat<br>03/03</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Hidupan Liar Sedunia&#41;</td><td>9W2SNN</td><td><i class='bi-send-x-fill text-danger fs-4'></i></td></tr>
+                <tr class='bg-primary-subtle'><td>Sabtu<br>04/03</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Ulang Tahun Pertabalan Sultan Terengganu&#41;</td><td>9M6JAY</td><td><i class='bi-send-x-fill text-danger fs-4'></i></td></tr>
                 <tr><td>Ahad<br>05/03</td><td>2100MY</td><td>CB Net<br></td><td>113DAZIK</td><td>17</td></tr>
-                <tr class='bg-info-subtle'><td>Rabu<br>08/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;International Women&#39;s Day&#41;</td><td>9W8VWW</td><td></td></tr>
+                <tr class='bg-info-subtle'><td>Rabu<br>08/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;International Women&#39;s Day&#41;</td><td>9W8VWW</td><td><i class='bi-send-x-fill text-danger fs-4'></i></td></tr>
                 <tr><td>Jumaat<br>10/03</td><td>2100MY</td><td>MARS Net</td><td>9W2OGK</td><td></td></tr>
                 <tr><td>Sabtu<br>11/03</td><td>2100MY</td><td>MARS Net</td><td>9W6MOZ</td><td></td></tr>
                 <tr><td>Ahad<br>12/03</td><td>2100MY</td><td>CB Net</td><td>113DAYKB</td><td></td></tr>
@@ -374,8 +374,8 @@
                   <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
                   <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
                   <!-- <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li> -->
-                  <li class='list-group-item'><i class='bi-send-exclamation text-danger'></i> Laporan tidak dihantar</li>
-                  <li class='list-group-item'><i class='bi-exclamation-triangle text-danger'></i> Laporan tidak lengkap</li>
+                  <li class='list-group-item'><i class='bi-send-x-fill text-danger'></i> Laporan tidak dihantar</li>
+                  <li class='list-group-item'><i class='bi-envelope-x-fill text-danger'></i> Laporan tidak lengkap</li>
                 </ul>
               </capton>
             </table>
@@ -392,7 +392,7 @@
               <thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
               <tbody>
                 <tr class='bg-success-subtle'><td>Sabtu<br>01/04</td><td>0400MY</td><td>VoIP Sahur Net #10</td><td>113DAYJT</td><td></td></tr>
-                <tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>02/04</td><td>0400MY</td><td>VoIP Sahur Net #11</td><td>9W2NEW</td><td></td></tr>
+                <tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>02/04</td><td>0400MY</td><td>VoIP Sahur Net #11</td><td></td><td></td></tr>
                 <tr class='bg-danger-subtle'><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Kesedaran Autisme Sedunia&#41;</td><td>58MSJAY</td><td></td></tr>
                 <tr class='bg-success-subtle'><td>Isnin<br>03/04</td><td>0400MY</td><td>VoIP Sahur Net #12</td><td>113DAOGK</td><td></td></tr>
                 <tr class='bg-success-subtle'><td>Selasa<br>04/04</td><td>0400MY</td><td>VoIP Sahur Net #13</td><td>9W2NDI</td><td></td></tr>
@@ -408,7 +408,7 @@
                 <tr class='bg-success-subtle'><td>Selasa<br>11/04</td><td>0400MY</td><td>VoIP Sahur Net #20</td><td>113MSSAM</td><td></td></tr>
                 <tr class='bg-success-subtle'><td rowspan='2'>Rabu<br>12/04</td><td>0400MY</td><td>VoIP Sahur Net #21</td><td>9W2YJT</td><td></td></tr>
                 <tr class='bg-info-subtle'><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;International Day of Human Space Flight&#41;</td><td>9W6RHN</td><td></td></tr>
-                <tr class='bg-success-subtle'><td>Khamis<br>13/04</td><td>0400MY</td><td>VoIP Sahur Net #22</td><td>113DAISS</td><td></td></tr>
+                <tr class='bg-success-subtle'><td>Khamis<br>13/04</td><td>0400MY</td><td>VoIP Sahur Net #22</td><td></td><td></td></tr>
                 <tr class='bg-success-subtle'><td rowspan='2'>Jumaat<br>14/04</td><td>0400MY</td><td>VoIP Sahur Net #23</td><td>9W2OGK</td><td></td></tr>
                 <tr><td>2100MY</td><td>RoIPMARS Net</td><td>9M6RHM</td><td></td></tr>
                 <tr class='bg-success-subtle'><td>Sabtu<br>15/04</td><td>0400MY</td><td>VoIP Sahur Net #24</td><td>9M2RAN</td><td></td></tr>

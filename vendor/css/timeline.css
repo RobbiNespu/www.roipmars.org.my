@@ -128,13 +128,14 @@ header h1{
 
 .flag {
   position: relative;
-  display: inline;
+  display: inline-flex;
   background: #336699;
   font-weight: 700;
   z-index: 15;
-  padding: 6px 10px;
+  padding: 5px 10px;
   text-align: left;
   border-radius: 10px;
+  color: #fff;
 }
 
 .direction-l .flag:after,
@@ -165,9 +166,9 @@ header h1{
 }
 
 .time-wrapper {
-  display: block;
+  display: flex;
   position: relative;
-  margin: 4px 0 0 0;
+  margin: 2px 0 0 0;
   z-index: 14;
   line-height: 1em;
   vertical-align: middle;
@@ -185,7 +186,8 @@ header h1{
 .time {
   background: #56C3E7;
   display: inline-block;
-  padding: 8px;
+  padding: 3px 5px;
+  border-radius: 5px;
 }
 
 .desc {

@@ -381,6 +381,17 @@
               <div class='desc'>Buat pertama kali secara rasmi, <i>Persatuan Peminat Radio Komunikasi</i> menganjurkan <b>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</b> yang berlansung di Kalumpang Resort &amp; Training Centre, Hulu Selangor.<br>Antara pengisian acara adalah Pameran <i>&#39;Radio Over Internet Protocol&#39;</i> (RoIP), BBQ, Karaoke, dan Cabutan Bertuah disamping dapat mengenal dengan lebih dekat dan mengeratkan lagi silaturrahim antara Penggiat dan Peminat Radio Komunikasi.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='media/image/050.jpg'></div>
             </div>
           </li>
+          <li>
+            <div class='direction-r'>
+              <div class='flag-wrapper'>
+                <span class='hexa'></span>
+                <span class='flag'>Malaysia Peak To Peak &#91;My-PTP&#93;</span>
+                <span class='time-wrapper'><span class='time'>18 Mac 2023</span></span>
+              </div>
+              <div class='desc'>ROIPMARS diwakilkan oleh ahli &#40;9W8ZZK&#41; dalam acara &#39;<i>Malaysia Peak To Peak</i>&#39; dengan kerjasama Malaysia Amateur Radio Transmitter&#39; Society &#40;MARTS&#41; yang dijalankan bersama Pasukan SOTA Sarawak di Bukit Selang, Telaga Air, Kuching, Sarawak.<img class='img-thumbnail rounded-4 mx-auto d-block mt-2' loading='lazy' src='media/image/myptp23-9m8sota.jpg'></div>
+            </div>
+          </li>
+
         </ul>
         <p class='text-center'>Sekiranya anda ada kisah atau kenangan bersama kami, ceritakan ke <a href='mailto:member@roipmars.org.my?subject=Kisah%20bersama%20RoIPMARS'>member@roipmars.org.my</a>.</p>
       </div>

@@ -49,6 +49,7 @@
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script src='../vendor/js/gtm.js'></script>
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
@@ -68,13 +69,9 @@
       <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
     </div>
     <div class='col-sm-12 pb-2'>
-      <table class='table table-striped text-center align-middle text-uppercase' id='cbcslist'>
-        <thead class='text-bg-dark sticky-top'>
-          <th>ID</th>
-          <th><input class='form-control form-control-sm text-center rounded-3' type='text' id='csInput' onkeyup='csSrch()' placeholder='CALLSIGN' title='cari callsign'></th>
-          <th><input class='form-control form-control-sm text-center rounded-3' type='text' id='nameInput' onkeyup='nameSrch()' placeholder='NAMA' title='cari nama'></th>
-          <th><input class='form-control form-control-sm text-center rounded-3' type='text' id='locInput' onkeyup='locSrch()' placeholder='LOKALAN' title='cari lokalan'></th>
-          <th>DAFTAR</th>
+      <table class='table table-sm table-striped align-middle text-uppercase user-select-none' id='cbcslist'>
+        <thead>
+          <tr><th>ID</th><th>CALLSIGN</th><th>NAMA</th><th>LOKALAN</th><th>DAFTAR</th></tr>
         </thead>
         <tbody>
 
@@ -575,8 +572,6 @@
           <!--<tr><td>I003</td><td>113DAKAC</td><td>ABDUL KARIM BIN SAAD</td><td>SIK, KEDAH</td><td>06 Feb 2020</td></tr>-->
           <tr><td>I002</td><td>113DART</td><td>ABD RAHIM BIN HJ AWANG</td><td>SIK, KEDAH</td><td>06 Feb 2020</td></tr>
           <!--<tr><td>I001</td><td>113DAYKV</td><td>ABD HAMID BIN JAAFAR</td><td>PENDANG, KEDAH</td><td>06 Feb 2020</td></tr>-->
-        </tbody>
-        <tbody>
 
           <tr><td>G21</td><td>113RGKZ</td><td>KHAIDIR BIN ZAINUDIN</td><td>KUALA TERENGGANU, TERENGGANU</td><td>12 May 2020</td></tr>
           <tr><td>G20</td><td>113RGPM</td><td>KAMARUDZAMAN BIN HJ ABD RAHIM</td><td>MANJUNG, PERAK</td><td>10 May 2020</td></tr>
@@ -613,6 +608,9 @@
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
   <script src='../vendor/js/cbcs.js'></script>
 </body>
 

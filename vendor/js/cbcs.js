@@ -1,64 +1,44 @@
+$(document).ready(function () {
+  $('#cbcslist').DataTable({
+    'processing': true,
+    'ordering': false,
+    'pagingType': 'first_last_numbers',
+    'pageLength': 25,
+    'search': {
+      'smart': true
+    },
+    'searchDelay': 350,
+    'order': [0, 'desc'],
+    'keys': {
+      'blurable': true,
+      'keys': ['\n'.charCodeAt(0)],
+      'columns': [2, 3, 4]
+    },
+    'stripeClasses': ['bg-light-subtle', 'bg-secondary-subtle'],
+    'language': {
+      'lengthMenu': 'Paparkan _MENU_ rekod',
+      'search': 'Cari:',
+      'processing': 'Jadual sedang disusun semula',
+      'emptyTable': 'Rekod Tidak Ditemui',
+      'infoEmpty': 'Rekod Tidak Ditemui',
+      'zeroRecords': 'Rekod Tidak Ditemui',
+      'paginate': {
+        'first': 'Mula',
+        'previous': 'Sebelum',
+        'next': 'Selepas',
+        'last': 'Akhir'
+      },
+      'info': 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      'infoFiltered': ' - tapisan dari _MAX_ rekod',
+      'infoPostFix': ' | Semua rekod yang ditunjukkan adalah diperoleh daripada maklumat sebenar.'
+    }
+  });
+});
+
 function getBody(element) {
   let cscount = document.querySelector('.cscount')
   var originalTable = element.clone();
   var tds = $(originalTable).children('tbody').children('tr').length;
-  cscount.textContent = tds + ' ahli';
+  cscount.textContent = tds + ' ahli berdaftar';
 }
 getBody($('table.table'));
-
-function nameSrch() {
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById('nameInput');
-  filter = input.value.toUpperCase();
-  table = document.getElementById('cbcslist');
-  tr = table.getElementsByTagName('tr');
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName('td')[2];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = '';
-      } else {
-        tr[i].style.display = 'none';
-      }
-    }
-  }
-}
-
-function csSrch() {
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById('csInput');
-  filter = input.value.toUpperCase();
-  table = document.getElementById('cbcslist');
-  tr = table.getElementsByTagName('tr');
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName('td')[1];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = '';
-      } else {
-        tr[i].style.display = 'none';
-      }
-    }
-  }
-}
-
-function locSrch() {
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById('locInput');
-  filter = input.value.toUpperCase();
-  table = document.getElementById('cbcslist');
-  tr = table.getElementsByTagName('tr');
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName('td')[3];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = '';
-      } else {
-        tr[i].style.display = 'none';
-      }
-    }
-  }
-}

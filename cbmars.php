@@ -108,48 +108,48 @@
   </div>
   <div class='container'>
     <div class='row'>
-      <div class='col-12 p-2 text-center' id='regind'>
+      <div class='col-lg-4 p-2 text-center align-self-center' id='regind'>
         <h3>Pendaftaran CS Individu CB RoIPMARS Group</h3>
         <a type='button' class='btn btn-lg btn-block btn-primary rounded-pill' style='font-size:larger' href='https://forms.gle/hxFgHW3S5S3hqGg49' target='_blank'>Permohonan Isyarat Panggilan Jalur Rakyat RoIPMARS Individu</a>
         <p style='font-size:small'>Sumbangan RM 10.00 (minimum) digalakkan untuk setiap pendaftaran isyarat panggilan individu.</p>
       </div>
       <!--
-  <hr class='h-100'>
-  <div class='col-6 p-2 text-end' id='regate'>
-    <h3>Permohonan CS Gateway CB MARS Group</h3>
-    <p style='font-size:small'>Yuran pendaftaran berupa sumbangan RM 10.00 (minimum) diperlukan untuk pendaftaran isyarat panggilan Radio Gateway.</p>
-    <a type='button' class='btn btn-sm btn-secondary disabled' aria-disabled='true' href='https://forms.gle/3oX7RdKMF79oSiBo7' target='_blank'>Permohonan Isyarat Panggilan Jalur Rakyat MARS Radio Gateway</a>
-  </div>
--->
-      <hr>
-      <div class='col-12 text-center mt-1'>
-        <table class='table table-sm table-responsive-sm table-bordered'>
-          <thead class='th-sm thead-light'>
-            <th colspan='2'>Network</th>
+      <hr class='h-100'>
+      <div class='col-6 p-2 text-end' id='regate'>
+        <h3>Permohonan CS Gateway CB MARS Group</h3>
+        <p style='font-size:small'>Yuran pendaftaran berupa sumbangan RM 10.00 (minimum) diperlukan untuk pendaftaran isyarat panggilan Radio Gateway.</p>
+        <a type='button' class='btn btn-sm btn-secondary disabled' aria-disabled='true' href='https://forms.gle/3oX7RdKMF79oSiBo7' target='_blank'>Permohonan Isyarat Panggilan Jalur Rakyat MARS Radio Gateway</a>
+      </div>
+    -->
+      <div class='col-lg-8 text-center mt-1'>
+        <table class='table table-bordered fs-5 align-middle'>
+          <thead>
+            <th colspan='3'>Rangkaian</th>
             <th>Pengurus</th>
           </thead>
           <tbody>
             <tr>
-              <td>RoIP MARS <span class='badge bg-info'>(113MS)</span> <span class='badge bg-info'>(113KL)</span> <span class='badge bg-info'>(58MS)</span> <span class='badge bg-info'>(91MS)</span></td>
-              <td>roipmars.org.my</td>
-              <td class='align-middle' rowspan='2'><a href='https://wa.me/601110795693'>113MSUZL</a></td>
+              <td>RoIP MARS</td>
+              <td><span class='badge bg-primary-subtle rounded-pill'>113MS</span> <span class='badge bg-primary-subtle rounded-pill'>113KL</span> <span class='badge bg-primary-subtle rounded-pill'>58MS</span> <span class='badge bg-primary-subtle rounded-pill'>91MS</span></td>
+              <td rowspan='2'>Rangkaian Kumpulan RoIPMARS</td>
+              <td rowspan='2'><a class='text-reset text-decoration-none' href='https://wa.me/601110795693'>113MSUZL</a></td>
             </tr>
             <tr class='text-decoration-line-through'>
-              <td>Gateway / Crosslink <span class='badge bg-info text-decoration-line-through'>(113RG)</span> <span class='badge bg-info text-decoration-line-through'>(58RG)</span> <span class='badge bg-info text-decoration-line-through'>(225RG)</span></td>
-              <td>MARS Group Network</td>
+              <td>Gateway / Crosslink</td>
+              <td><span class='badge bg-info-subtle rounded-pill text-decoration-line-through'>113RG</span> <span class='badge bg-info-subtle rounded-pill text-decoration-line-through'>58RG</span> <span class='badge bg-info-subtle rounded-pill text-decoration-line-through'>225RG</span></td>
             </tr>
             <tr>
-              <td>Darul Aman <span class='badge bg-info'>(113DA)</span></td>
-              <td>roipdarulaman.com</td>
-              <td><a href='https://wa.me/60134009222'>113DAOGK</a></td>
+              <td>Darul Aman</td>
+              <td><span class='badge bg-warning-subtle rounded-pill'>113DA</span></td>
+              <td>ROIP Darul Aman</td>
+              <td><a class='text-reset text-decoration-none' href='https://wa.me/60134009222'>113DAOGK</a></td>
             </tr>
-            <!--
-        <tr>
-          <td>Indonesia <span class='badge bg-info'>(91KM)</span></td>
-          <td>kopdarmobile.net</td>
-          <td><a href='https://wa.me/6281323111121'>91KMEGG</a></td>
-        </tr>
--->
+            <tr>
+              <td>Indonesia</td>
+              <td><span class='badge bg-danger-subtle rounded-pill'>91KM</span></td>
+              <td>KopdarMobile</td>
+              <td><a class='text-reset text-decoration-none' href='https://wa.me/6281323111121'>91KMEGG</a></td>
+            </tr>
           </tbody>
         </table>
       </div>

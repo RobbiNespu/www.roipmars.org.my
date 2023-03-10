@@ -15,6 +15,9 @@ $(document).ready(function () {
       'columns': [2, 3, 4]
     },
     'stripeClasses': ['bg-light-subtle', 'bg-secondary-subtle'],
+    'columnDefs': [
+      {'className': 'text-center', 'targets': '_all'}
+    ],
     'language': {
       'lengthMenu': 'Paparkan _MENU_ rekod',
       'search': 'Cari:',
@@ -39,6 +42,6 @@ function getBody(element) {
   let cscount = document.querySelector('.cscount')
   var originalTable = element.clone();
   var tds = $(originalTable).children('tbody').children('tr').length;
-  cscount.textContent = tds + ' ahli berdaftar';
+  cscount.textContent = tds - 4 + ' ahli berdaftar';
 }
 getBody($('table.table'));

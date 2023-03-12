@@ -39,9 +39,9 @@ $(document).ready(function () {
 });
 
 function getBody(element) {
-  let cscount = document.querySelector('.membercount')
+  let membercount = document.querySelector('.membercount')
   var originalTable = element.clone();
   var tds = $(originalTable).children('tbody').children('tr').length;
-  cscount.textContent = tds + ' ahli berdaftar';
+  membercount.textContent = tds - 2 + ' ahli berdaftar';
 }
 getBody($('table.table'));

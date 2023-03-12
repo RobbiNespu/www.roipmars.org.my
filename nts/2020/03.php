@@ -90,7 +90,7 @@
         </tr>
         <tr>
           <td>PC Download (x86) 32-bit</td>
-          <td><a href='https://ftp.roipmars.org.my/files/downloads/windows/ts3.x_x86/teamspeak3-client-win32-3.1.10.exe' target='_blank'>Download</a></td>
+          <td><a href='https://ftp.roipmars.org.my/files/downloads/windows/ts3.x_x86/ts3-win32-3.1.10.exe' target='_blank'>Download</a></td>
         </tr>
         <tr>
           <td>PC Download (x64) 64-bit</td>

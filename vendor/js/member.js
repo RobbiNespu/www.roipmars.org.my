@@ -45,6 +45,6 @@ function getBody(element) {
   let membercount = document.querySelector('.membercount')
   var originalTable = element.clone();
   var tds = $(originalTable).children('tbody').children('tr').length;
-  membercount.textContent = tds - 2 + ' ahli berdaftar';
+  membercount.textContent = tds - 3 + ' ahli berdaftar';
 }
 getBody($('table.table'));

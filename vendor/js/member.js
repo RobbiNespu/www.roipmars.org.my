@@ -17,9 +17,15 @@ $(document).ready(function () {
       'keys': ['\n'.charCodeAt(0)],
       'columns': [1, 2]
     },
-    'stripeClasses': ['bg-light-subtle', 'bg-secondary-subtle'],
+    'stripeClasses': [
+      'bg-light-subtle',
+      'bg-secondary-subtle'
+    ],
     'columnDefs': [
-      { 'className': 'text-center', 'targets': '_all' }
+      {
+        'className': 'text-center',
+        'targets': '_all'
+      }
     ],
     'language': {
       'lengthMenu': 'Paparkan _MENU_ rekod',

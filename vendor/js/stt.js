@@ -4,7 +4,7 @@ sttButton.style.display = 'none';
 
 function scrollFunction() {
   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-    sttButton.style.display = 'block';
+    sttButton.style.display = 'flex';
   } else {
     sttButton.style.display = 'none';
   }

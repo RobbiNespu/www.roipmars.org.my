@@ -48,6 +48,7 @@
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
   <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
@@ -104,7 +105,6 @@
     <div class='row text-center'>
       <div class='col my-2 jumbotron-fluid'>
         <h1 class='h1-responsive'>Ahli Kumpulan RoIPMARS</h1>
-        <p class='font-small'><span><?php date_default_timezone_get(); $file_last_modified = filemtime('list/members.php'); echo 'Kemaskini pada: ' . date('D, jS M Y h:iA T', $file_last_modified); ?></span></p>
       </div>
     </div>
   </div>
@@ -310,17 +310,54 @@
       </div>
     </div>
     <div class='row'>
-      <div class='col-lg-6 my-2'>
-        <h4 class='h4 text-center'>Peta RoIPMARS</h4>
-        <div class='ratio ratio-1x1'>
+      <div class='col-lg-5 my-1 text-center'>
+        <h4 class='h4'>Peta RoIPMARS</h4>
+        <div class='ratio ratio-16x9'>
           <iframe class='rounded-3' src='list/membersmap'></iframe>
         </div>
       </div>
-      <div class='col-lg-6 my-2'>
-        <h4 class='h4 text-center'>Ahli RoIPMARS</h4>
-        <div class='ratio ratio-1x1'>
-          <iframe src='list/members'></iframe>
-        </div>
+      <div class='col-lg-7 my-3 text-center'>
+        <h4 class='h4'>Ahli RoIPMARS</h4>
+        <p><span class='membercount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
+        <table class='table table-sm align-middle' id='memberlist'>
+          <thead>
+            <tr><th>ID</th><th>CALLSIGN</th><th>NAMA AHLI</th><th>GRID</th><th>SAH SEHINGGA</th><th>STATUS</th></tr>
+          </thead>
+          <tbody class='user-select-none'>
+            <tr class='text-success-emphasis'><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>OJ03RF</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>OJ03SK</td><td>DIS 2025</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>OJ06EF</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>OJ03TP</td><td>DIS 2024</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-success-emphasis'><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>OJ74LX</td><td>DIS 2024</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>OJ75XR</td><td>DIS 2024</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>OJ03TP</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>OJ04HE</td><td>DIS 2024</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>OJ13PS</td><td>DIS 2025</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>OJ85AW</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>OJ04IO</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A012</td><td>9W2RNH</td><td>ROSNAH BINTI ABD RAPAR</td><td>OJ06EC</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
+            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A013</td><td>9W8VWW</td><td>VERONICA CATHERINE ANAK NOHAN</td><td>OJ64XH</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
+            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A014</td><td>9W8DNX</td><td>STANLEY SUMPING ANAK ALBERT BEJIE</td><td>OJ64XH</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
+            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A015</td><td>9M2NUZ</td><td>SITI NUSILAH BINTI HASAN</td><td>OJ12CF</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A016</td><td>9W8ZZK</td><td>MOHAMAD ZAHEER BIN ZAKARIA</td><td>OJ51EM</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A017</td><td>9M6RDY</td><td>MATTHEUS @ RUDY BIN BENEDICT</td><td>OJ85BX</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
+            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A018</td><td>9W6GEO</td><td>GEOFFREY BIN COSMAS</td><td>OJ75XR</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
+            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>OJ74JV</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>OJ12EG</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
+            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>OJ02VW</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>OJ15DX</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>OJ13FG</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
+            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>OJ03TF</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>OJ13DL</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>OJ12BN</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>OJ03TF</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A028</td><td>9W2NEW</td><td>NORHISHAM BIN BAHAROM</td><td>OJ11UM</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A029</td><td>9W2JCP</td><td>MOHAMAD ROSLI BIN AWANG</td><td>OJ11TN</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A030</td><td>9W2HLM</td><td>ABDUL HALIM BIN HJ HASHIM</td><td>OJ05FE</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A031</td><td>9W2EZK</td><td>MOHD IFFIQ ZIKRY BIN JAMAL</td><td>OJ03SF</td><td>DIS 2025</td><td><i class='bi-person-fill-check'></i></td></tr>
+
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
@@ -382,7 +419,11 @@
   </footer>
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
+  <script src='vendor/js/member.js'></script>
   <script src='vendor/js/tawkto.js'></script>
   <script src='vendor/js/stt.js'></script>
 </body>

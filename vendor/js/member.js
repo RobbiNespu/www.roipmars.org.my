@@ -8,7 +8,10 @@ $(document).ready(function () {
       'smart': true
     },
     'searchDelay': 500,
-    // 'order': [4, 'desc'],
+    'order': [
+      [3, 'desc'],
+      [0, 'asc']
+    ],
     'keys': {
       'blurable': true,
       'keys': ['\n'.charCodeAt(0)],

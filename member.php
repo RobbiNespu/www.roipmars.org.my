@@ -330,40 +330,40 @@
         <p><span class='membercount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
         <table class='table table-sm align-middle' id='memberlist'>
           <thead>
-            <tr><th>ID</th><th>CALLSIGN</th><th>NAMA AHLI</th><th>GRID</th><th>SAH SEHINGGA</th><th>STATUS</th></tr>
+            <tr><th>ID</th><th>CALLSIGN</th><th>NAMA AHLI</th><th>SAH SEHINGGA</th></tr>
           </thead>
           <tbody class='user-select-none'>
-            <tr class='text-success-emphasis'><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>OJ03RF</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-success-emphasis'><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>OJ03SK</td><td>DIS 2025</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-success-emphasis'><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>OJ06EF</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-success-emphasis'><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>OJ03TP</td><td>DIS 2024</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-success-emphasis'><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>OJ74LX</td><td>DIS 2024</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-success-emphasis'><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>OJ75XR</td><td>DIS 2024</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>OJ03TP</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
-            <tr class='text-success-emphasis'><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>OJ04HE</td><td>DIS 2024</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-success-emphasis'><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>OJ13PS</td><td>DIS 2025</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>OJ85AW</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>OJ04IO</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A012</td><td>9W2RNH</td><td>ROSNAH BINTI ABD RAPAR</td><td>OJ06EC</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
-            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A013</td><td>9W8VWW</td><td>VERONICA CATHERINE ANAK NOHAN</td><td>OJ64XH</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
-            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A014</td><td>9W8DNX</td><td>STANLEY SUMPING ANAK ALBERT BEJIE</td><td>OJ64XH</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
-            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A015</td><td>9M2NUZ</td><td>SITI NUSILAH BINTI HASAN</td><td>OJ12CF</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A016</td><td>9W8ZZK</td><td>MOHAMAD ZAHEER BIN ZAKARIA</td><td>OJ51EM</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A017</td><td>9M6RDY</td><td>MATTHEUS @ RUDY BIN BENEDICT</td><td>OJ85BX</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
-            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A018</td><td>9W6GEO</td><td>GEOFFREY BIN COSMAS</td><td>OJ75XR</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
-            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>OJ74JV</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>OJ12EG</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
-            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>OJ02VW</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>OJ15DX</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>OJ13FG</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
-            <tr class='text-danger-emphasis opacity-25 text-decoration-line-through'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>OJ03TF</td><td>JUL 2021</td><td><i class='bi-person-fill-x'></i></td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>OJ13DL</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>OJ12BN</td><td>DIS 2022</td><td><i class='bi-person-fill-exclamation'></i></td></tr>
-            <tr class='text-success-emphasis'><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>OJ03TF</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-success-emphasis'><td>A028</td><td>9W2NEW</td><td>NORHISHAM BIN BAHAROM</td><td>OJ11UM</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-success-emphasis'><td>A029</td><td>9W2JCP</td><td>MOHAMAD ROSLI BIN AWANG</td><td>OJ11TN</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-success-emphasis'><td>A030</td><td>9W2HLM</td><td>ABDUL HALIM BIN HJ HASHIM</td><td>OJ05FE</td><td>DIS 2023</td><td><i class='bi-person-fill-check'></i></td></tr>
-            <tr class='text-success-emphasis'><td>A031</td><td>9W2EZK</td><td>MOHD IFFIQ ZIKRY BIN JAMAL</td><td>OJ03SF</td><td>DIS 2025</td><td><i class='bi-person-fill-check'></i></td></tr>
+            <tr class='text-success-emphasis'><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>2023-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>2025-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>2023-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>2024-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>2024-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>2024-12-31</td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>2022-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>2024-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>2025-12-31</td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>2022-12-31</td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>2022-12-31</td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A012</td><td>9W2RNH</td><td>ROSNAH BINTI ABD RAPAR</td><td>2022-12-31</td></tr>
+            <tr class='text-danger-emphasis opacity-25'><td>A013</td><td>9W8VWW</td><td>VERONICA CATHERINE ANAK NOHAN</td><td>2021-07-02</td></tr>
+            <tr class='text-danger-emphasis opacity-25'><td>A014</td><td>9W8DNX</td><td>STANLEY SUMPING ANAK ALBERT BEJIE</td><td>2021-07-02</td></tr>
+            <tr class='text-danger-emphasis opacity-25'><td>A015</td><td>9M2NUZ</td><td>SITI NUSILAH BINTI HASAN</td><td>2021-07-02</td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A016</td><td>9W8ZZK</td><td>MOHAMAD ZAHEER BIN ZAKARIA</td><td>2022-12-31</td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A017</td><td>9M6RDY</td><td>MATTHEUS @ RUDY BIN BENEDICT</td><td>2022-12-31</td></tr>
+            <tr class='text-danger-emphasis opacity-25'><td>A018</td><td>9W6GEO</td><td>GEOFFREY BIN COSMAS</td><td>2021-07-02</td></tr>
+            <tr class='text-danger-emphasis opacity-25'><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>2021-07-02</td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>2022-12-31</td></tr>
+            <tr class='text-danger-emphasis opacity-25'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>2021-07-02</td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2022-12-31</td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>2022-12-31</td></tr>
+            <tr class='text-danger-emphasis opacity-25'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>2021-07-02</td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>2022-12-31</td></tr>
+            <tr class='text-warning-emphasis opacity-50'><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>2022-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>2023-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>A028</td><td>9W2NEW</td><td>NORHISHAM BIN BAHAROM</td><td>2023-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>A029</td><td>9W2JCP</td><td>MOHAMAD ROSLI BIN AWANG</td><td>2023-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>A030</td><td>9W2HLM</td><td>ABDUL HALIM BIN HJ HASHIM</td><td>2023-12-31</td></tr>
+            <tr class='text-success-emphasis'><td>A031</td><td>9W2EZK</td><td>MOHD IFFIQ ZIKRY BIN JAMAL</td><td>2025-12-31</td></tr>
 
           </tbody>
         </table>

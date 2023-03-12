@@ -36,7 +36,7 @@ $(document).ready(function () {
       },
       'info': 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
       'infoFiltered': ' - tapisan dari _MAX_ rekod',
-      'infoPostFix': ' | Semua rekod yang ditunjukkan adalah diperoleh daripada maklumat sebenar.'
+      'infoPostFix': ' | Rekod diperoleh daripada maklumat sebenar.'
     }
   });
 });

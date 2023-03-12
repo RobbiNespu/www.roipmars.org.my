@@ -40,8 +40,8 @@ $(document).ready(function () {
 
 function getBody(element) {
   let cscount = document.querySelector('.cscount')
-  var originalTable = element.clone();
+  var originalTable = document.getElementById('cbcslist');
   var tds = $(originalTable).children('tbody').children('tr').length;
-  cscount.textContent = tds - 4 + ' ahli berdaftar';
+  cscount.textContent = tds + ' ahli berdaftar';
 }
 getBody($('table.table'));

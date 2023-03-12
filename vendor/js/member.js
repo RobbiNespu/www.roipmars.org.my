@@ -43,8 +43,8 @@ $(document).ready(function () {
 
 function getBody(element) {
   let membercount = document.querySelector('.membercount')
-  var originalTable = element.clone();
+  var originalTable = document.getElementById('memberlist');
   var tds = $(originalTable).children('tbody').children('tr').length;
-  membercount.textContent = tds - 3 + ' ahli berdaftar';
+  membercount.textContent = tds + ' ahli berdaftar';
 }
 getBody($('table.table'));

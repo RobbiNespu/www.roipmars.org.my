@@ -48,6 +48,12 @@
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
+  <!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/leaflet.fullscreen.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='vendor/css/map.css'> -->
   <link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
@@ -162,10 +168,8 @@
     <div class='row'>
       <div class='col-12 my-2 text-center'>
         <h3 class='h3 text-center'>Jawatankuasa</h3>
-        <div class='row'>
-          <div class='col-12'>
-            <p class='fw-bold'>Organisasi Pusat Sesi 2020-2023</p>
-          </div>
+        <p class='fw-bold'>Organisasi Pusat Sesi 2020-2023</p>
+        <div class='row justify-content-center'>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
               <div class='card-title fw-bold m-0'>
@@ -236,17 +240,22 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class='row justify-content-center'>
           <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
             <div class='card-group justify-content-center'>
               <div class='card-title fw-bold m-0'>
                 <p>BAHAGIAN SIARAYA &amp; AKTIVITI</p>
               </div>
               <div class='card-img'>  
-                <img src='media/image/member/013.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
+                <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
+                <!-- <img src='media/image/member/013.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'> -->
               </div>
               <div class='card-subtitle'>
-                <p class='fw-bolder m-0'>VERONICA CATHERINE</p>
-                <p class='fw-semibold m-0'>9W8VWW</p>
+                <p class='fw-bolder m-0'>AHLI LUPUT</p>
+                <p class='fw-semibold m-0'>&mdash;</p>
+                <!-- <p class='fw-bolder m-0'>VERONICA CATHERINE</p>
+                <p class='fw-semibold m-0'>9W8VWW</p> -->
               </div>
             </div>
           </div>
@@ -312,8 +321,8 @@
     <div class='row'>
       <div class='col-lg-5 my-1 text-center'>
         <h4 class='h4'>Peta RoIPMARS</h4>
-        <div class='ratio ratio-16x9'>
-          <iframe class='rounded-3' src='list/membersmap'></iframe>
+        <div class='ratio ratio-4x3'>
+          <iframe class='rounded-3 my-3' src='list/membersmap'></iframe>
         </div>
       </div>
       <div class='col-lg-7 my-3 text-center'>
@@ -420,6 +429,17 @@
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
+  <!-- <script src='https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/leaflet-providers@1.13.0/leaflet-providers.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap@1.0.0/dist/Control.WorldMiniMap.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/@joergdietrich/leaflet.terminator@1.1.0/L.Terminator.js' crossorigin='anonymous'></script>
+  <script src='https://ha8tks.github.io/Leaflet.Maidenhead/src/L.Maidenhead.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.js' crossorigin='anonymous'></script>
+  <script src='https://api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
+  <script src='vendor/js/map.js'></script> -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
   <script src='https://cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>

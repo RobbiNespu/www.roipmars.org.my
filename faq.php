@@ -197,7 +197,7 @@
                   </tbody>
                 </table>
                 <p>Sekiranya anda gagal untuk masuk ke pelayan Kumpulan RoIPMARS &#40;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a> / <a href='ts3server://roipdarulaman.com'>roipdarulaman.com</a>&#41;, berkemungkinan perisian yang anda gunakan mempunyai ralat yang tidak menyokong &#39;TSDNS&#39;. Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank'>App Store</a>.</p>
-                <p>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad kami dengan memuat turun disini: <a href='https://ftp.roipmars.org.my/files/downloads/android/roipmarsts3.apk' download>roipmarsts3.apk</a></p>
+                <p>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad kami dengan memuat turun disini: <a href='https://ftp.roipmars.org.my/files/downloads/android/roipmars-teamspeak-3.0.3.1.apk' download>roipmars-teamspeak-3.0.3.1.apk</a></p>
                 <p>Pihak Pentadbir Rangkaian Kumpulan RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
               </div>
             </div>

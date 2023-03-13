@@ -317,7 +317,7 @@
             </tr>
             <tr>
               <td>Non-Google</td>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/android/roipmarsts3.apk' download>Muat Turun</a></td>
+              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/android/roipmars-teamspeak-3.0.3.1.apk' download>Muat Turun</a></td>
             </tr>
 <!--
             <tr>
@@ -434,7 +434,7 @@
     <table class='table table-sm text-center align-middle'>
       <tbody>
         <tr><th scope='row'>Version</th><td>v3.0.13.1</td></tr>
-        <tr><th scope='row'>Android</th><td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/android/roipmarsts3.apk' download>Muat Turun</a></td></tr>
+        <tr><th scope='row'>Android</th><td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/android/roipmars-teamspeak-3.0.3.1.apk' download>Muat Turun</a></td></tr>
       </tbody>
     </table>
   </div>

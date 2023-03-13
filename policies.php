@@ -138,7 +138,7 @@
         <div data-bs-spy='scroll' data-bs-target='#navbar-policy' data-bs-offset='0' data-bs-smooth-scroll='true' class='scrollspy-policy' tabindex='0'>
           <div id='tos'>
             <h4>Terma &amp; Syarat</h4>
-            <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan Laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], terletak di https://www.roipmars.org.my.</p>
+            <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], terletak di https://www.roipmars.org.my.</p>
             <p>Dengan mengakses laman sesawang ini, kami menganggap anda menerima dan bersetuju dengan terma dan syarat ini. Jangan terus menggunakan RoIPMARS jika anda tidak bersetuju untuk menerima semua terma dan syarat yang dinyatakan di halaman ini.</p>
             <p>Istilah berikut digunakan untuk Terma dan Syarat ini, Pernyataan Privasi dan Notis Penafian dan semua Perjanjian:</p>
             <ul>
@@ -281,11 +281,14 @@
             <h5>Kuki dan Suar Web</h5>
             <p>Seperti mana-mana laman web lain, RoIPMARS menggunakan 'kuki'. Kuki ini digunakan untuk menyimpan maklumat termasuk keutamaan pelawat, dan halaman di laman web yang diakses atau dilawati oleh pelawat. Maklumat ini digunakan untuk mengoptimumkan pengalaman pengguna dengan menyesuaikan kandungan halaman web kami berdasarkan jenis pelayar pelawat dan/atau maklumat lain.</p>
             <h5>Kuki DART Google DoubleClick</h5>
-            <p>Google ialah salah satu vendor pihak ketiga di laman kami. Ia juga menggunakan kuki, dikenali sebagai kuki DART, untuk menyiarkan iklan kepada pelawat laman kami berdasarkan lawatan mereka ke RoIPMARS dan laman lain di internet. Walau bagaimanapun, pelawat boleh memilih untuk menolak penggunaan kuki DART dengan melawati iklan Google dan Dasar Privasi rangkaian kandungan di URL berikut – <a href='https://policies.google.com/technologies/ads'>https:/ /policies.google.com/technologies/ads</a></p>
+            <p>Google ialah salah satu vendor pihak ketiga di laman kami. Ia juga menggunakan kuki, dikenali sebagai kuki DART, untuk menyiarkan iklan kepada pelawat laman kami berdasarkan lawatan mereka ke RoIPMARS dan laman lain di internet. Walau bagaimanapun, pelawat boleh memilih untuk menolak penggunaan kuki DART dengan melawati iklan Google dan Dasar Privasi rangkaian kandungan di URL berikut <a href='https://policies.google.com/technologies/ads?hl=ms&gl=my' target='_blank' rel='noopener noreferrer'>Google</a></p>
           </div>
           <div id='advertisement'>
             <h5>Dasar Privasi Rakan Kongsi Pengiklanan</h5>
-<!--              <P>Anda boleh merujuk senarai ini untuk mencari Dasar Privasi bagi setiap rakan kongsi pengiklanan RoIPMARS.</p>-->
+            <P>Anda boleh merujuk senarai ini untuk mencari Dasar Privasi bagi setiap rakan kongsi pengiklanan RoIPMARS.</p>
+            <ul>
+              <li><a href='https://policies.google.com/technologies/ads?hl=ms&gl=my' target='_blank' rel='noopener noreferrer'>Google</a></li>
+            </ul>
             <p>Pelayan iklan pihak ketiga atau rangkaian iklan menggunakan teknologi seperti kuki, JavaScript atau Suar Web yang digunakan dalam iklan dan pautan masing-masing yang dipaparkan di RoIPMARS, yang dihantar terus ke pelayar pengguna. Mereka secara automatik menerima alamat IP anda apabila ini berlaku. Teknologi ini digunakan untuk mengukur keberkesanan kempen pengiklanan mereka dan/atau untuk memperibadikan kandungan pengiklanan yang anda lihat di laman web yang anda lawati.</p>
             <p>Ambil perhatian bahawa RoIPMARS tidak mempunyai akses kepada atau kawalan ke atas kuki ini yang digunakan oleh pengiklan pihak ketiga.</p>
           </div>
@@ -313,7 +316,7 @@
               <li><strong>Barang</strong> merujuk kepada item yang ditawarkan untuk dijual pada Perkhidmatan.</li>
               <li><strong>Pesanan</strong> bermaksud permintaan oleh Anda untuk membeli Barang daripada Kami.</li>
               <li><strong>Perkhidmatan</strong> merujuk kepada laman Web.</li>
-              <li><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada <a href='https://www.roipmars.org.my' target='_blank'>https://www.roipmars.org.my</a> dan semua sub-domainnya</li>
+              <li><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada https://www.roipmars.org.my dan semua sub-domainnya</li>
               <li><strong>Anda</strong> bermaksud individu yang mengakses atau menggunakan Perkhidmatan, atau organisasi, atau entiti undang-undang lain bagi pihak individu tersebut mengakses atau menggunakan Perkhidmatan, mengikut mana yang berkenaan.</li>
             </ul>
           </div>

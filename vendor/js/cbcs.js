@@ -2,13 +2,13 @@ $(document).ready(function () {
   $('#cbcslist').DataTable({
     'processing': true,
     'ordering': false,
-    'pagingType': 'first_last_numbers',
+    'pagingType': 'full_numbers',
     'pageLength': 10,
-    'search': {
-      'smart': true
-    },
     'searchDelay': 350,
-    'order': [0, 'desc'],
+    'order': [
+      [0, 'desc'],
+      [4, 'desc']
+    ],
     'keys': {
       'blurable': true,
       'keys': ['\n'.charCodeAt(0)],
@@ -19,23 +19,21 @@ $(document).ready(function () {
       'bg-secondary-subtle'
     ],
     'columnDefs': [
-      {
-        'className': 'text-center',
-        'targets': '_all'
-      }
+      { 'className': 'text-center', 'targets': '_all' },
+      { 'searchable': false, 'targets': [0, 4] }
     ],
     'language': {
       'lengthMenu': 'Paparkan _MENU_ rekod',
-      'search': 'Cari:',
+      'search': 'Cari Callsign/Nama/Lokal:',
       'processing': 'Rekod sedang disusun semula',
       'emptyTable': 'Rekod Tidak Ditemui',
       'infoEmpty': 'Rekod Tidak Ditemui',
       'zeroRecords': 'Rekod Tidak Ditemui',
       'paginate': {
-        'first': 'Mula',
-        'previous': 'Sebelum',
-        'next': 'Selepas',
-        'last': 'Akhir'
+        'first': '<<',
+        'previous': '<',
+        'next': '>',
+        'last': '>>'
       },
       'info': 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
       'infoFiltered': ' - tapisan dari _MAX_ rekod',

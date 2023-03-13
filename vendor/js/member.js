@@ -4,9 +4,6 @@ $(document).ready(function () {
     'ordering': true,
     'pagingType': 'first_last_numbers',
     'pageLength': 10,
-    'search': {
-      'smart': true
-    },
     'searchDelay': 500,
     'order': [
       [3, 'desc'],
@@ -22,23 +19,21 @@ $(document).ready(function () {
       'bg-secondary-subtle'
     ],
     'columnDefs': [
-      {
-        'className': 'text-center',
-        'targets': '_all'
-      }
+      { 'className': 'text-center', 'targets': '_all' },
+      { 'searchable': false, 'targets': [0, 3] }
     ],
     'language': {
       'lengthMenu': 'Paparkan _MENU_ rekod',
-      'search': 'Cari:',
+      'search': 'Cari Callsign/Nama:',
       'processing': 'Rekod sedang disusun semula',
       'emptyTable': 'Rekod Tidak Ditemui',
       'infoEmpty': 'Rekod Tidak Ditemui',
       'zeroRecords': 'Rekod Tidak Ditemui',
       'paginate': {
-        'first': 'Mula',
-        'previous': 'Sebelum',
-        'next': 'Selepas',
-        'last': 'Akhir'
+        'first': '<<',
+        'previous': '<',
+        'next': '>',
+        'last': '>>'
       },
       'info': 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
       'infoFiltered': ' - tapisan dari _MAX_ rekod',

@@ -682,7 +682,7 @@
             <tr><td>G06</td><td>113RGHJ</td><td>NOOR MAZRUL MIZAM BIN DERAMAN</td><td>ALAM IMPIAN, SHAH ALAM</td><td>08 Feb 2020</td></tr>
             <tr><td>G05</td><td>113RGYF</td><td>ARIF ZAKWAN BIN RAMAT</td><td>MITC MELAKA</td><td>07 Feb 2020</td></tr>
             <tr><td>G04</td><td>113RGSG</td><td>MUHAMMAD RIDZUAN BIN AHMAD SUSAH</td><td>SERI GADING, BATU PAHAT, JOHOR</td><td>07 Feb 2020</td></tr>
-            <!--<tr class='text-bg-danger'><td>G03</td><td>113RGBS</td><td>MOHAMAD KAMARUL HANAFI</td><td>TERONOH, PERAK</td><td>07 Feb 2020</td></tr>-->
+            <tr><td>G03</td><td>113RGBS</td><td>MOHAMAD KAMARUL HANAFI</td><td>TERONOH, PERAK</td><td>07 Feb 2020</td></tr>
             <tr><td>G02</td><td>225RGLM</td><td>PG ALIMSHAH BIN PG HJ OSMAN</td><td>KG TUNGKU GADONG, BRUNEI</td><td>07 Feb 2020</td></tr>
             <tr><td>G01</td><td>113RG11</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>PUNCAK ALAM, KUALA SELANGOR</td><td>07 Feb 2020</td></tr>
           </tbody>
@@ -698,7 +698,7 @@
   -->
     </div>
   </div>
-  <button id='scrollToTop' class='btn fixed-bottom float-start mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
+  <button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
   <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
     <div class='container'>
       <div class='row my-2'>

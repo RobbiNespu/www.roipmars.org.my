@@ -185,7 +185,7 @@
               <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
             </tbody>
           </table>
-          <p class='my-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='media/image/fpx.png' class='img-fluid bg-light-subtle' width='50px'></a> <a class='text-reset text-decoration-none' href='#' onClick='DonateWindow=window.open("https://donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='my-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='donateTngd()'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> | <a class='text-reset text-decoration-none' href='#' onClick='donateToyyib()'><img src='media/image/fpx.png' class='img-fluid bg-body-secondary' width='50px'></a> | <a class='text-reset text-decoration-none' href='#' onClick='donateStripe()'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
           <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>
@@ -210,8 +210,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class='container'>
       <div class='row my-2 d-flex align-items-center'>
         <div class='col-md-9'>
           <p class='text-md-start font-monospace user-select-none'><a href='policies' class='text-reset text-decoration-none pe-auto'>Polisi Perkhidmatan</a><span class='text-body-tertiary'> &#124; <i class='fa-solid fa-code'></i> <i class='fa-brands fa-github'></i> <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-font-awesome'></i> <i class='fa-brands fa-cloudflare'></i><br><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo 'Kemaskini: ' . date('d/m/Y, h:i A', $file_last_modified); ?> | <?php function getVisitorIp() { if (!empty($_SERVER['HTTP_CLIENT_IP'])) { $ipAdress = $_SERVER['HTTP_CLIENT_IP']; } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) { $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR']; } else { $ipAdress = $_SERVER['https://api64.ipify.org']; } return $ipAdress; }  echo 'IP Anda: ' . getVisitorIp(); ?><br><i class='bi-c-circle'></i> 2014&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. | PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</span></p>
@@ -230,6 +228,7 @@
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
+  <script src='vendor/js/donate.js'></script>
   <script src='vendor/js/tawkto.js'></script>
   <script src='vendor/js/stt.js'></script>
 </body>

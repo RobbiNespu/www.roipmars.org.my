@@ -321,8 +321,8 @@
     <div class='row'>
       <div class='col-lg-5 my-1 text-center'>
         <h4 class='h4'>Peta RoIPMARS</h4>
-        <div class='ratio ratio-4x3'>
-          <iframe class='rounded-3 my-3' src='list/membersmap'></iframe>
+        <div class='ratio ratio-4x3 my-3'>
+          <iframe class='rounded-3' src='list/membersmap'></iframe>
         </div>
       </div>
       <div class='col-lg-7 my-3 text-center'>

@@ -143,114 +143,162 @@
         <h5>Barisan Jawatankuasa &amp; Petugas<br>Bahagian Siaraya &amp; Aktiviti</h5>
         <div id='ncs23' class='carousel carousel-fade' data-bs-ride='carousel' data-bs-interval='5000'>
           <div class='carousel-inner'>
-            <div class='carousel-item active'>
-              <img src='media/image/member/013.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-info-subtle bg-gradient' alt='9W8VWW'>
-              <p class='lh-sm fs-5'>9W8VWW / 58MSVWW<br>VERONICA CATHERINE<br>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
+            <div class='carousel-item active' data-bs-interval='2000'>
+                <img src='media/image/member/013.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-info-subtle bg-gradient' alt='9W8VWW'>
+                <p class='lh-1'>9W8VWW / 58MSVWW<br>VERONICA CATHERINE<br>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
+            </div>
+            <div class='carousel-item' data-bs-interval='8000'>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/member/031.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2EZK'>
+                  <p class='lh-1'>9W2EZK / 113DAZIK<br>IFFIQ ZIKRY<br>PENGURUS SIARAYA &amp; AKTIVITI</p>
+                </div>
+                <div class='vstack gap-2'>
+                  <img src='media/image/member/020.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W6SFF'>
+                  <p class='lh-1'>9M2SFF / 113MSSFF<br>ROZAIMAN SUFFIAN<br>PENOLONG PENGURUS AKTIVITI</p>
+                </div>
+              </div>
+            </div>
+            <div class='carousel-item' data-bs-interval='12000'>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/member/010.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-primary-subtle bg-gradient mx-auto' alt='9M6AUA'>
+                  <p class='lh-1'>9M6AUA / 58MSAUA<br>JEOFREY<br>PENYELIA SIARAYA 1</p>
+                </div>
+                <div class='vstack gap-2'>
+                  <img src='media/image/member/017.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-primary-subtle bg-gradient mx-auto' alt='9M6RDY'>
+                  <p class='lh-1'>9M6RDY<br>MATTHEUS @ RUDY<br>PENYELIA SIARAYA 2</p>
+                </div>
+                <div class='vstack gap-2'>
+                  <img src='media/image/member/025.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-primary-subtle bg-gradient mx-auto' alt='9W2AYP'>
+                  <p class='lh-1'>9W2AYP / 113DAPLY<br>SABRI<br>PENYELIA SIARAYA 3</p>
+                </div>
+              </div>
+            </div>
+            <div class='carousel-item' data-bs-interval='12000'>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/ncs/9m6jay.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9M6JAY'>
+                  <p class='lh-1'>9M6JAY<br>JOHN JUNIOR<br>PENYELIA AKTIVITI 1</p>
+                </div>
+                <div class='vstack gap-2'>
+                  <img src='media/image/member/029.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-primary-subtle bg-gradient mx-auto' alt='9W2JCP'>
+                  <p class='lh-1'>9W2JCP / 113DAJCP<br>ROSLI<br>PENYELIA AKTIVITI 2</p>
+                </div>
+                <div class='vstack gap-2'>
+                  <img src='media/image/ncs/9w2sft.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-danger mx-auto' alt='9W2SFT'>
+                  <p class='lh-1'>9W2SFT<br>SYAWAL<br>PENYELIA AKTIVITI 3</p>
+                </div>
+              </div>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/031.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient' alt='9W2EZK'>
-              <p class='lh-sm fs-5'>9W2EZK / 113DAZIK<br>IFFIQ ZIKRY<br>PENGURUS SIARAYA &amp; AKTIVITI</p>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/ncs/9w2snn.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W2SNN'>
+                  <p class='lh-1'>9W2SNN / 113MSSAM<br>SAMSUL<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+                <div class='vstack gap-2 ms-auto'>
+                  <img src='media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W2YJT'>
+                  <p class='lh-1'>9W2YJT / 113DAYJT<br>YUSOF<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+              </div>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/020.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient' alt='9W6SFF'>
-              <p class='lh-sm fs-5'>9M2SFF / 113MSSFF<br>ROZAIMAN SUFFIAN<br>PENOLONG PENGURUS AKTIVITI</p>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6RHN'>
+                  <p class='lh-1'>9W6RHN<br>ROSLAN<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+                <div class='vstack gap-2 ms-auto'>
+                  <img src='media/image/ncs/9w6pkj.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6PKJ'>
+                  <p class='lh-1'>9W6PKJ<br>JANSON<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+              </div>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/010.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient' alt='9M6AUA'>
-              <p class='lh-sm fs-5'>9M6AUA / 58MSAUA<br>JEOFREY<br>PENYELIA SIARAYA 1</p>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/ncs/9w6aze.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6AZE'>
+                  <p class='lh-1'>9W6AZE<br>HAZARI<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+                <div class='vstack gap-2 ms-auto'>
+                  <img src='media/image/ncs/9m6rhm.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RHM'>
+                  <p class='lh-1'>9M6RHM<br>RAHIM<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+              </div>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/017.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient' alt='9M6RDY'>
-              <p class='lh-sm fs-5'>9M6RDY<br>MATTHEUS @ RUDY<br>PENYELIA SIARAYA 2</p>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/member/008.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2OGK'>
+                  <p class='lh-1'>9W2OGK / 113DAOGK<br>KAMARUDZAMAN<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+                <div class='vstack gap-2 ms-auto'>
+                  <img src='media/image/member/028.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2NEW'>
+                  <p class='lh-1'>9W2NEW / 113DAISS<br>HISHAM<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+              </div>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/025.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient' alt='9W2AYP'>
-              <p class='lh-sm fs-5'>9W2AYP / 113DAPLY<br>SABRI<br>PENYELIA SIARAYA 3</p>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RMD'>
+                  <p class='lh-1'>9M6RMD<br>ROSNI<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+                <div class='vstack gap-2 ms-auto'>
+                  <img src='media/image/ncs/9w6wot.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6WOT'>
+                  <p class='lh-1'>9W6WOT / 58MSWOT<br>STEWARD<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+              </div>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9m6jay.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9M6JAY'>
-              <p class='lh-sm fs-5'>9M6JAY<br>JOHN JUNIOR<br>PENYELIA AKTIVITI 1</p>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W6MOZ'>
+                  <p class='lh-1'>9W6MOZ / 58MSMOZ<br>MUSTAFA<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+                <div class='vstack gap-2 ms-auto'>
+                  <img src='media/image/ncs/9w6aff.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6AFF'>
+                  <p class='lh-1'>9W6AFF / 58MSAFF<br>SAFRI<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+              </div>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/member/029.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient' alt='9W2JCP'>
-              <p class='lh-sm fs-5'>9W2JCP / 113DAJCP<br>ROSLI<br>PENYELIA AKTIVITI 2</p>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/ncs/9m2kzi.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='9M2KZI'>
+                  <p class='lh-1'>9M2KZI<br>ZULKARNAIN<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+                <div class='vstack gap-2 ms-auto'>
+                  <img src='media/image/ncs/9w2gsv.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='9W2GSV'>
+                  <p class='lh-1'>9W2GSV<br>SHAHRUZIE<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+              </div>
             </div>
             <div class='carousel-item'>
-              <img src='media/image/ncs/9w2sft.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9W2SFT'>
-              <p class='lh-sm fs-5'>9W2SFT<br>SYAWAL<br>PENYELIA AKTIVITI 3</p>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/ncs/9w8vyy.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='9W8VYY'>
+                  <p class='lh-1'>9W8VYY<br>ALEX<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+                <div class='vstack gap-2 ms-auto'>
+                  <img src='media/image/ncs/113daykb.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='113DAYKB'>
+                  <p class='lh-1'>113DAYKB<br>YAAKOB<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+              </div>
             </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9m2kzi.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9M2KZI'>
-              <p class='lh-sm fs-5'>9M2KZI<br>ZULKARNAIN<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9m6rhm.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9M6RHM'>
-              <p class='lh-sm fs-5'>9M6RHM<br>RAHIM<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9M6RMD'>
-              <p class='lh-sm fs-5'>9M6RMD<br>ROSNI<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9w2gsv.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9W2GSV'>
-              <p class='lh-sm fs-5'>9W2GSV<br>SHAHRUZIE<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9w6aze.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9W6AZE'>
-              <p class='lh-sm fs-5'>9W6AZE<br>HAZARI<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9w6pkj.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9W6PKJ'>
-              <p class='lh-sm fs-5'>9W6PKJ<br>JANSON<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9W6RHN'>
-              <p class='lh-sm fs-5'>9W6RHN<br>ROSLAN<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9w8vyy.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9W8VYY'>
-              <p class='lh-sm fs-5'>9W8VYY<br>ALEX<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/member/008.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient' alt='9W2OGK'>
-              <p class='lh-sm fs-5'>9W2OGK / 113DAOGK<br>KAMARUDZAMAN<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9w2snn.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9W2SNN'>
-              <p class='lh-sm fs-5'>9W2SNN / 113MSSAM<br>SAMSUL<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-danger-subtle bg-gradient' alt='9W2YJT'>
-              <p class='lh-sm fs-5'>9W2YJT / 113DAYJT<br>YUSOF<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9w6aff.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9W6AFF'>
-              <p class='lh-sm fs-5'>9W6AFF / 58MSAFF<br>SAFRI<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient' alt='9W6MOZ'>
-              <p class='lh-sm fs-5'>9W6MOZ / 58MSMOZ<br>MUSTAFA<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/9w6wot.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient' alt='9W6WOT'>
-              <p class='lh-sm fs-5'>9W6WOT / 58MSWOT<br>STEWARD<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/member/028.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient' alt='9W2NEW'>
-              <p class='lh-sm fs-5'>9W2NEW / 113DAISS<br>HISHAM<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/ncs/113daykb.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-danger-subtle bg-gradient' alt='113DAYKB'>
-              <p class='lh-sm fs-5'>113DAYKB<br>YAAKOB<br>PETUGAS TETAP AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/member/003.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient' alt='9M2RAN'>
-              <p class='lh-sm fs-5'>9M2RAN / 113MSRAN<br>NOR IMRAN<br>PETUGAS SANDARAN AKTIVITI</p>
-            </div>
-            <div class='carousel-item'>
-              <img src='media/image/member/011.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient' alt='9W2NDI'>
-              <p class='lh-sm fs-5'>9W2NDI / 113DANDI<br>NASARUDDIN<br>PETUGAS SANDARAN AKTIVITI</p>
-            </div>
+            <!-- <div class='carousel-item'>
+              <div class='hstack gap-1'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/member/003.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9M2RAN'>
+                  <p class='lh-1'>9M2RAN / 113MSRAN<br>NOR IMRAN<br>PETUGAS SANDARAN AKTIVITI</p>
+                </div>
+                <div class='vstack gap-2 ms-auto'>
+                  <img src='media/image/member/011.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2NDI'>
+                  <p class='lh-1'>9W2NDI / 113DANDI<br>NASARUDDIN<br>PETUGAS SANDARAN AKTIVITI</p>
+                </div>
+              </div>
+            </div> -->
           </div>
         </div>
       </div>

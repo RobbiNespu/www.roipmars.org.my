@@ -192,7 +192,7 @@
         <p class='text-center'>Sekiranya anda ada kisah atau kenangan bersama kami, ceritakan ke <a href='mailto:member@roipmars.org.my?subject=Kisah%20bersama%20RoIPMARS'>member@roipmars.org.my</a>.</p>
         <ul class='timeline'>
 
-          <!-- <li>
+          <li>
             <div class='direction-r'>
               <div class='flag-wrapper'>
                 <span class='hexa'></span>
@@ -201,7 +201,7 @@
               </div>
               <div class='desc'>ROIPMARS diwakilkan oleh ahli &#40;9W8ZZK&#41; dalam acara &#39;<i>Malaysia Peak To Peak</i>&#39; dengan kerjasama Malaysia Amateur Radio Transmitter&#39; Society &#40;MARTS&#41; yang dijalankan bersama Pasukan SOTA Sarawak di Bukit Selang, Telaga Air, Kuching, Sarawak.<img class='img-thumbnail rounded-4 mx-auto d-block mt-2' loading='lazy' src='media/image/myptp23-9m8sota.jpg'></div>
             </div>
-          </li> -->
+          </li>
           <li>
             <div class='direction-r'>
               <div class='flag-wrapper'>

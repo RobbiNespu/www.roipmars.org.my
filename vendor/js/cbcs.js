@@ -25,7 +25,7 @@ $(document).ready(function () {
     'language': {
       'lengthMenu': 'Paparkan _MENU_ rekod',
       'search': 'Cari Callsign/Nama/Lokal:',
-      'processing': 'Rekod sedang disusun semula',
+      'processing': '<div class="spinner-border" role="status"><span class="visually-hidden">Sedang memuat...</span></div>',
       'emptyTable': 'Rekod Tidak Ditemui',
       'infoEmpty': 'Rekod Tidak Ditemui',
       'zeroRecords': 'Rekod Tidak Ditemui',

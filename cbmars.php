@@ -122,8 +122,8 @@
         <a type='button' class='btn btn-sm btn-secondary disabled' aria-disabled='true' href='https://forms.gle/3oX7RdKMF79oSiBo7' target='_blank'>Permohonan Isyarat Panggilan Jalur Rakyat MARS Radio Gateway</a>
       </div>
     -->
-      <div class='col-lg-8 text-center mt-1'>
-        <table class='table table-bordered fs-5 align-middle'>
+      <div class='col-lg-8 mt-1'>
+        <table class='table table-bordered fs-5 align-middle text-center'>
           <thead>
             <th colspan='3'>Rangkaian</th>
             <th>Pengurus</th>

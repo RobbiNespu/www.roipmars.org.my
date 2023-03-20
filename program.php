@@ -169,7 +169,7 @@
                 </div>
                 <div class='vstack gap-2'>
                   <img src='media/image/member/017.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9M6RDY'>
-                  <p class='lh-1'>9M6RDY<br>MATTHEUS @ RUDY<br>PENYELIA SIARAYA 2</p>
+                  <p class='lh-1'>9M6RDY<br>MATTHEUS &#64; RUDY<br>PENYELIA SIARAYA 2</p>
                 </div>
                 <div class='vstack gap-2'>
                   <img src='media/image/member/025.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2AYP'>
@@ -199,7 +199,7 @@
                   <img src='media/image/ncs/9w2snn.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W2SNN'>
                   <p class='lh-1'>9W2SNN / 113MSSAM<br>SAMSUL<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
-                <div class='vstack gap-2 ms-auto'>
+                <div class='vstack gap-2'>
                   <img src='media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W2YJT'>
                   <p class='lh-1'>9W2YJT / 113DAYJT<br>YUSOF<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
@@ -211,9 +211,9 @@
                   <img src='media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6RHN'>
                   <p class='lh-1'>9W6RHN<br>ROSLAN<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
-                <div class='vstack gap-2 ms-auto'>
+                <div class='vstack gap-2'>
                   <img src='media/image/ncs/9w6pkj.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6PKJ'>
-                  <p class='lh-1'>9W6PKJ<br>JANSON<br>PETUGAS TETAP AKTIVITI</p>
+                  <p class='lh-1'>9W6PKJ<br>ISKANDAR &#64; JANSON<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@
                   <img src='media/image/ncs/9w6aze.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6AZE'>
                   <p class='lh-1'>9W6AZE<br>HAZARI<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
-                <div class='vstack gap-2 ms-auto'>
+                <div class='vstack gap-2'>
                   <img src='media/image/ncs/9m6rhm.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RHM'>
                   <p class='lh-1'>9M6RHM<br>RAHIM<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
@@ -235,7 +235,7 @@
                   <img src='media/image/member/008.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2OGK'>
                   <p class='lh-1'>9W2OGK / 113DAOGK<br>KAMARUDZAMAN<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
-                <div class='vstack gap-2 ms-auto'>
+                <div class='vstack gap-2'>
                   <img src='media/image/member/028.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2NEW'>
                   <p class='lh-1'>9W2NEW / 113DAISS<br>HISHAM<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
@@ -247,7 +247,7 @@
                   <img src='media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RMD'>
                   <p class='lh-1'>9M6RMD<br>ROSNI<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
-                <div class='vstack gap-2 ms-auto'>
+                <div class='vstack gap-2'>
                   <img src='media/image/ncs/9w6wot.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6WOT'>
                   <p class='lh-1'>9W6WOT / 58MSWOT<br>STEWARD<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
@@ -259,48 +259,48 @@
                   <img src='media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W6MOZ'>
                   <p class='lh-1'>9W6MOZ / 58MSMOZ<br>MUSTAFA<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
-                <div class='vstack gap-2 ms-auto'>
-                  <img src='media/image/ncs/9w6aff.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6AFF'>
-                  <p class='lh-1'>9W6AFF / 58MSAFF<br>SAFRI<br>PETUGAS TETAP AKTIVITI</p>
+                <div class='vstack gap-2'>
+                  <img src='media/image/ncs/9m2sfl.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary mx-auto' alt='9M2SFL'>
+                  <p class='lh-1'>9M2SFL<br>SAIFUL<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
+              </div>
+            </div>
+            <div class='carousel-item'>
+              <div class='hstack gap-2'>
+                <div class='vstack gap-2'>
+                  <img src='media/image/ncs/9w8vyy.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-warning mx-auto' alt='9W8VYY'>
+                  <p class='lh-1'>9W8VYY<br>ALEX<br>PETUGAS TETAP AKTIVITI</p>
+                </div>
+                <!-- <div class='vstack gap-2'>
+                  <img src='media/image/ncs/9w2gsv.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='9W2GSV'>
+                  <p class='lh-1'>9W2GSV<br>SHAHRUZIE<br>PETUGAS TETAP AKTIVITI</p>
+                </div> -->
               </div>
             </div>
             <!-- <div class='carousel-item'>
               <div class='hstack gap-2'>
                 <div class='vstack gap-2'>
-                  <img src='media/image/ncs/9m2sfl.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='9M2SFL'>
-                  <p class='lh-1'>9M2SFL<br><br>PETUGAS TETAP AKTIVITI</p>
+                  <img src='media/image/ncs/9w6aff.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W6AFF'>
+                  <p class='lh-1'>9W6AFF / 58MSAFF<br>SAFRI<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
-                <div class='vstack gap-2 ms-auto'>
-                  <img src='media/image/ncs/9w2gsv.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='9W2GSV'>
-                  <p class='lh-1'>9W2GSV<br>SHAHRUZIE<br>PETUGAS TETAP AKTIVITI</p>
-                </div>
-              </div>
-            </div>
-            <div class='carousel-item'>
-              <div class='hstack gap-2'>
                 <div class='vstack gap-2'>
-                  <img src='media/image/ncs/9w8vyy.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='9W8VYY'>
-                  <p class='lh-1'>9W8VYY<br>ALEX<br>PETUGAS TETAP AKTIVITI</p>
-                </div>
-                <div class='vstack gap-2 ms-auto'>
                   <img src='media/image/ncs/113daykb.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='113DAYKB'>
                   <p class='lh-1'>113DAYKB<br>YAAKOB<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
               </div>
-            </div>
+            </div> -->
             <div class='carousel-item'>
               <div class='hstack gap-2'>
                 <div class='vstack gap-2'>
                   <img src='media/image/member/003.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9M2RAN'>
-                  <p class='lh-1'>9M2RAN / 113MSRAN<br>NOR IMRAN<br>PETUGAS SANDARAN AKTIVITI</p>
+                  <p class='lh-1'>9M2RAN / 113MSRAN<br>IMRAN<br>PETUGAS SANDARAN AKTIVITI</p>
                 </div>
-                <div class='vstack gap-2 ms-auto'>
+                <div class='vstack gap-2'>
                   <img src='media/image/member/011.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2NDI'>
                   <p class='lh-1'>9W2NDI / 113DANDI<br>NASARUDDIN<br>PETUGAS SANDARAN AKTIVITI</p>
                 </div>
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -443,7 +443,7 @@
               <thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
               <tbody>
                 <tr class='bg-success-subtle'><td>Sabtu<br>01/04</td><td>0400MY</td><td>VoIP Sahur Net #10</td><td>113DAYJT</td><td></td></tr>
-                <tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>02/04</td><td>0400MY</td><td>VoIP Sahur Net #11</td><td></td><td></td></tr>
+                <tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>02/04</td><td>0400MY</td><td>VoIP Sahur Net #11</td><td>9W2JCP</td><td></td></tr>
                 <tr class='bg-danger-subtle'><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Kesedaran Autisme Sedunia&#41;</td><td>58MSJAY</td><td></td></tr>
                 <tr class='bg-success-subtle'><td>Isnin<br>03/04</td><td>0400MY</td><td>VoIP Sahur Net #12</td><td>113DAOGK</td><td></td></tr>
                 <tr class='bg-success-subtle'><td>Selasa<br>04/04</td><td>0400MY</td><td>VoIP Sahur Net #13</td><td>9W2NDI</td><td></td></tr>
@@ -459,7 +459,7 @@
                 <tr class='bg-success-subtle'><td>Selasa<br>11/04</td><td>0400MY</td><td>VoIP Sahur Net #20</td><td>113MSSAM</td><td></td></tr>
                 <tr class='bg-success-subtle'><td rowspan='2'>Rabu<br>12/04</td><td>0400MY</td><td>VoIP Sahur Net #21</td><td>9W2YJT</td><td></td></tr>
                 <tr class='bg-info-subtle'><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;International Day of Human Space Flight&#41;</td><td>9W6RHN</td><td></td></tr>
-                <tr class='bg-success-subtle'><td>Khamis<br>13/04</td><td>0400MY</td><td>VoIP Sahur Net #22</td><td></td><td></td></tr>
+                <tr class='bg-success-subtle'><td>Khamis<br>13/04</td><td>0400MY</td><td>VoIP Sahur Net #22</td><td>113DABOB</td><td></td></tr>
                 <tr class='bg-success-subtle'><td rowspan='2'>Jumaat<br>14/04</td><td>0400MY</td><td>VoIP Sahur Net #23</td><td>9M6RMD</td><td></td></tr>
                 <tr><td>2100MY</td><td>RoIPMARS Net</td><td>9M6RHM</td><td></td></tr>
                 <tr class='bg-success-subtle'><td>Sabtu<br>15/04</td><td>0400MY</td><td>VoIP Sahur Net #24</td><td>9M2RAN</td><td></td></tr>
@@ -471,12 +471,12 @@
                 <tr class='bg-success-subtle'><td>Rabu<br>19/04</td><td>0400MY</td><td>VoIP Sahur Net #28</td><td>9W2SFT</td><td></td></tr>
                 <tr class='bg-success-subtle'><td rowspan='2'>Khamis<br>20/04</td><td>0400MY</td><td>VoIP Sahur Net #29</td><td>113DAYKB</td><td></td></tr>
                 <tr><td>2100MY</td><td>RoIPMARS Net</td><td>9W6MOZ</td><td></td></tr>
-                <tr class='bg-success-subtle'><td>Jumaat<br>21/04</td><td>0400MY</td><td>VoIP Sahur Net #30</td><td>9W2SNN</td><td></td></tr>
+                <tr class='bg-success-subtle'><td>Jumaat<br>21/04<sup>1</sup></td><td>0400MY</td><td>VoIP Sahur Net #30</td><td>9W2SNN</td><td></td></tr>
                 <tr class='bg-primary-subtle'><td>Sabtu<br>22/04<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Raya Aidilfitri<sup>1</sup> 1444H&#41;<br>&#40;Hari Bumi&#41;</td><td>9W6AFF</td><td></td></tr>
                 <tr class='bg-danger-subtle'><td>Ahad<br>23/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Buku dan Hak Cipta Sedunia&#41;</td><td>113DAJCP</td><td></td></tr>
                 <tr><td>Isnin<br>24/04</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td></td><td></td></tr>
                 <tr class='bg-info-subtle'><td>Rabu<br>26/04</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;World Intellectual Property Day&#41;</td><td>9W6WOT</td><td></td></tr>
-                <tr class='bg-primary-subtle'><td>Khamis<br>27/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net<br>&#40;Hari Tentera Laut Diraja Malaysia ke-89&#41;</td><td></td><td></td></tr>
+                <tr class='bg-primary-subtle'><td>Khamis<br>27/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net<br>&#40;Hari Tentera Laut Diraja Malaysia ke-89&#41;</td><td>9M2RAN</td><td></td></tr>
                 <tr class='bg-primary-subtle'><td>Jumaat<br>28/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net Santai<br>&#40;Hari Keselamatan dan Kesihatan di Tempat Kerja Sedunia&#41;</td><td>9W2SNN</td><td></td></tr>
                 <tr class='bg-primary-subtle'><td>Sabtu<br>29/04</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tarian Sedunia&#41;</td><td>9W2GSV</td><td></td></tr>
                 <tr class='bg-danger-subtle'><td>Ahad<br>30/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td>113DAYKB</td><td></td></tr>

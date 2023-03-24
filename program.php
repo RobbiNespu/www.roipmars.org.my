@@ -288,7 +288,7 @@
                   <p class='lh-1'>113DAYKB<br>YAAKOB<br>PETUGAS TETAP AKTIVITI</p>
                 </div>
               </div>
-            </div> -->
+            </div>
             <div class='carousel-item'>
               <div class='hstack gap-2'>
                 <div class='vstack gap-2'>
@@ -300,7 +300,7 @@
                   <p class='lh-1'>9W2NDI / 113DANDI<br>NASARUDDIN<br>PETUGAS SANDARAN AKTIVITI</p>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

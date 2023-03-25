@@ -113,13 +113,13 @@
 					<div class='form-row'>
 						<div class='col-auto'>
 							<div class='form-floating'>
-								<input type='text' class='form-control' name="from_name" id="from_name" placeholder='Name' aria-required='true' required data-validation-required-message='Please enter your name'>
+								<input type='text' class='form-control' name='from_name' id='from_name' placeholder='Name' aria-required='true' required data-validation-required-message='Please enter your name'>
 								<label for='from_name'>Name</label>
 							</div>
 						</div>
 						<div class='col-auto'>
 							<div class='form-floating'>
-								<input type='email' class='form-control' name="from_email" id="from_email" placeholder='yourname@yourdomain.tld' aria-required='true' required data-validation-required-message='Please enter your email'>
+								<input type='email' class='form-control' name='from_email' id='from_email' placeholder='yourname@yourdomain.tld' aria-required='true' required data-validation-required-message='Please enter your email'>
 								<label for='from_email'>E-Mail</label>
 							</div>
 						</div>
@@ -131,15 +131,15 @@
 						</div>
             <div class='input-group'>
               <span class='input-group-text'>Message</span>
-              <textarea class='form-control' aria-label='Message' name="message" id="message" placeholder='Message' rows='6' aria-required='true' required data-validation-required-message='Please enter your message'></textarea>
+              <textarea class='form-control' aria-label='Message' name='message' id='message' placeholder='Message' rows='6' aria-required='true' required data-validation-required-message='Please enter your message'></textarea>
             </div>
             <div class='form-floating'>
-              <text class='form-control' name="from_timestamp" id="from_timestamp"><script>document.write(new Date().toISOString())</script></text>
-              <label for="from_timestamp">Timestamp</label>
+              <text class='form-control' name='from_timestamp' id='from_timestamp'><script>document.write(new Date().toLocaleString())</script></text>
+              <label for='from_timestamp'>Timestamp</label>
             </div>
             <div class='form-floating'>
-              <text class='form-control' name="from_ip" id="from_ip"><script>document.write(request.getHeader('X-Forwarded-For'))</script></text>
-              <label for="from_ip">Your IP</label>
+              <text class='form-control' name='from_ip' id='from_ip'><script>function getIP(json) { document.write(json.ip) }</script><script src='https://api64.ipify.org?format=jsonp&callback=getIP' crossorigin='anonymous'></script></text>
+              <label for='from_ip'>Your IP</label>
             </div>
 					</div>
 					<div class='row my-2'>
@@ -209,7 +209,6 @@
     </div>
   </footer>
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
-	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' crossorigin='anonymous'></script>
 	<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
 	<script src='https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js' crossorigin='anonymous'></script>
 	<script src='https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js' crossorigin='anonymous'></script>

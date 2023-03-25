@@ -15,11 +15,11 @@ $(document).ready(function () {
       'columns': [1, 2]
     },
     'stripeClasses': [
-      'bg-light-subtle',
-      'bg-secondary-subtle'
+      'bg-body-secondary',
+      'bg-body-tertiary'
     ],
     'columnDefs': [
-      { 'className': 'text-center', 'targets': '_all' },
+      { 'className': 'text-center text-white', 'targets': '_all' },
       { 'searchable': false, 'targets': [0, 3] }
     ],
     'language': {

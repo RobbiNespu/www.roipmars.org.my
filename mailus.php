@@ -134,12 +134,16 @@
               <textarea class='form-control' aria-label='Message' name='message' id='message' placeholder='Message' rows='6' aria-required='true' required data-validation-required-message='Please enter your message'></textarea>
             </div>
             <div class='form-floating'>
-              <text class='form-control' name='from_timestamp' id='from_timestamp'><script>document.write(new Date().toLocaleString())</script></text>
+              <kbd class='form-control user-select-none' name='from_timestamp' id='from_timestamp'><script>document.write(new Date().toLocaleString())</script></kbd>
               <label for='from_timestamp'>Timestamp</label>
             </div>
             <div class='form-floating'>
-              <text class='form-control' name='from_ip' id='from_ip'><script>function getIP(json) { document.write(json.ip) }</script><script src='https://api64.ipify.org?format=jsonp&callback=getIP' crossorigin='anonymous'></script></text>
+              <kbd class='form-control user-select-none' name='from_ip' id='from_ip'></kbd>
               <label for='from_ip'>Your IP</label>
+            </div>
+            <div class='form-floating'>
+              <kbd class='form-control user-select-none' name='from_geo' id='from_geo'></kbd>
+              <label for='from_geo'>Your Location</label>
             </div>
 					</div>
 					<div class='row my-2'>

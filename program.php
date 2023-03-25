@@ -408,9 +408,9 @@
                 <tr class='bg-success-subtle'><td rowspan='2'>Khamis<br>23/03<sup>1</sup></td><td>0400MY</td><td>VoIP Sahur Net #1</td><td>9W6AZE</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
                 <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Meteorologi Sedunia&#41;</td><td>9W6PKJ</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
                 <tr class='bg-success-subtle'><td>Jumaat<br>24/03</td><td>0400MY</td><td>VoIP Sahur Net #2</td><td>9W2JCP</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-                <tr class='bg-success-subtle'><td rowspan='2'>Sabtu<br>25/03</td><td>0400MY</td><td>VoIP Sahur Net #3</td><td>9W2SNN</td><td></td></tr>
+                <tr class='bg-success-subtle'><td rowspan='2'>Sabtu<br>25/03</td><td>0400MY</td><td>VoIP Sahur Net #3</td><td>9W2SNN</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
                 <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Polis Diraja Malaysia ke-216&#41;</td><td>9W2OGK<sup>2</sup></td><td></td></tr>
-                <tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>26/03</td><td>0400MY</td><td>VoIP Sahur Net #4</td><td>113DAPLY</td><td></td></tr>
+                <tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>26/03</td><td>0400MY</td><td>VoIP Sahur Net #4</td><td></td><td></td></tr>
                 <tr><td>2100MY</td><td>CB Net<br></td><td>58MSWOT</td><td></td></tr>
                 <tr class='bg-success-subtle'><td>Isnin<br>27/03</td><td>0400MY</td><td>VoIP Sahur Net #5</td><td>9M2RAN</td><td></td></tr>
                 <tr class='bg-success-subtle'><td>Selasa<br>28/03</td><td>0400MY</td><td>VoIP Sahur Net #6</td><td>113DAYKB</td><td></td></tr>

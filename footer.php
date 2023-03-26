@@ -62,8 +62,8 @@
             <p class='text-md-start font-monospace user-select-none'><a href='policies' class='text-reset text-decoration-none pe-auto'>Polisi Perkhidmatan</a><span class='text-body-tertiary'>
                 &#124; <i class='fa-solid fa-code'></i> <i class='fa-brands fa-github'></i> <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-font-awesome'></i> <i class='fa-brands fa-cloudflare'></i><br>
                 <?php date_default_timezone_get();
-                $file_last_modified = filemtime(scandir(__DIR__)[0]);
-                echo 'Kemaskini: ' . date('d/m/Y, h:i A', $file_last_modified); ?>
+                $fileindir = filemtime(scandir(__DIR__)[0]);
+                echo 'Kemaskini: ' . date('d/m/Y, h:i A', $fileindir); ?>
                 |
                 <?php function getVisitorIp()
                 {

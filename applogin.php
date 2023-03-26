@@ -8,7 +8,7 @@
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
-  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
   <meta name='title' content='RoIPMARS | AppLogin'>
   <meta name='description' content='Persatuan Peminat Radio Komunikasi (RoIP) Log Masuk Aplikasi'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
@@ -64,13 +64,13 @@
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='vendor/js/fbchat.js'></script>
-  <nav class='navbar sticky-top navbar-expand-lg bg-body-tertiary'>
-    <div class='container'>
-      <a class='navbar-brand d-flex mx-auto' href='https://www.roipmars.org.my'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='300' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
-      <p class='text-end fs-1 my-0 d-flex mx-auto'>Comm Apps Login</p>
+  <header class='sticky-top bg-body-tertiary'>
+    <div class='container hstack mb-3'>
+      <a class='me-auto' href='https://www.roipmars.org.my'><img class='img-fluid object-fit-fill w-50' src='media/image/brand.png' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <p class='text-end my-3 text-nowrap fs-1'>Log Masuk Aplikasi</p>
     </div>
-  </nav>
-  <div class='container'>
+  </header>
+  <main class='container'>
     <div class='row'>
       <div class='col-lg-2'></div>
       <div class='col-lg-8'>
@@ -96,25 +96,9 @@
       </div>
       <div class='col-lg-2'></div>
     </div>
-  </div>
+  </main>
   <button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
-  <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
-    <div class='container'>
-      <div class='row my-2 d-flex align-items-center'>
-        <div class='col-md-9'>
-          <p class='text-md-start font-monospace user-select-none'><a href='policies' class='text-reset text-decoration-none pe-auto'>Polisi Perkhidmatan</a><span class='text-body-tertiary'> &#124; <i class='fa-solid fa-code'></i> <i class='fa-brands fa-github'></i> <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-font-awesome'></i> <i class='fa-brands fa-cloudflare'></i><br><?php date_default_timezone_get(); $file_last_modified = filemtime(scandir(__DIR__)[0]); echo 'Kemaskini: ' . date('d/m/Y, h:i A', $file_last_modified); ?> | <?php function getVisitorIp() { if (!empty($_SERVER['HTTP_CLIENT_IP'])) { $ipAdress = $_SERVER['HTTP_CLIENT_IP']; } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) { $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR']; } else { $ipAdress = $_SERVER['https://api64.ipify.org']; } return $ipAdress; }  echo 'IP Anda: ' . getVisitorIp(); ?><br><i class='bi-c-circle'></i> 2014&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. | PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</span></p>
-        </div> 
-        <div class='col-md-3 ml-lg-0 mb-3'>
-          <div class='text-md-end'>
-            <a class='text-reset text-decoration-none' href='https://fb.com/roipmars.org.my'><i class='bi-facebook h1 mx-1'></i></a>
-            <a class='text-reset text-decoration-none' href='https://t.me/marsts3servercyberjaya'><i class='bi-telegram h1 mx-1'></i></a>
-            <a class='text-reset text-decoration-none' href='https://wa.me/c/60333960874'><i class='bi-whatsapp h1 mx-1'></i></a>
-            <a class='text-reset text-decoration-none' href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'><i class='bi-headset h1 mx-1'></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include('footer.min.php') ?>
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
   <script src='vendor/js/applogin.js'></script>

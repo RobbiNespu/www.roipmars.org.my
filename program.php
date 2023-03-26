@@ -309,7 +309,7 @@
                   <tr><td>Ahad<br>29/01</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>10</td></tr>
                 </tbody>
                 <caption>
-                  <ul class='list-group list-group-flush fs-6'>
+                  <ul class='list-group list-group-flush'>
                     <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
                   </ul>
                 </capton>
@@ -344,7 +344,7 @@
                   <tr><td>Ahad<br>26/02</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td>18</td></tr>
                 </tbody>
                 <!-- <caption>
-                  <ul class='list-group list-group-flush fs-6'>
+                  <ul class='list-group list-group-flush'>
                     <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
                     <li class='list-group-item'><i class='bi-send-x-fill text-danger'></i> Laporan tidak dihantar</li>
                     <li class='list-group-item'><i class='bi-envelope-x-fill text-danger'></i> Laporan tidak lengkap</li>
@@ -376,13 +376,13 @@
                   <tr><td>Ahad<br>19/03</td><td>2100MY</td><td>CB Net</td><td>113DAISS</td><td>14</td></tr>
                   <tr class='bg-info-subtle'><td>Rabu<br>22/03<sup>1</sup></td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Ramadan Eve<sup>1</sup> 1444H&#41;<br>&#40;World Water Day&#41;</td><td>9M6RHM</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
                   <tr class='bg-success-subtle'><td rowspan='2'>Khamis<br>23/03<sup>1</sup></td><td>0400MY</td><td>VoIP Sahur Net #1</td><td>9W6AZE</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-                  <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Meteorologi Sedunia&#41;</td><td>9W6PKJ</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+                  <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Meteorologi Sedunia&#41;</td><td>9W6PKJ</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
                   <tr class='bg-success-subtle'><td>Jumaat<br>24/03</td><td>0400MY</td><td>VoIP Sahur Net #2</td><td>9W2JCP</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
                   <tr class='bg-success-subtle'><td rowspan='2'>Sabtu<br>25/03</td><td>0400MY</td><td>VoIP Sahur Net #3</td><td>9W2SNN</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-                  <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Polis Diraja Malaysia ke-216&#41;</td><td>9W2OGK<sup>2</sup></td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+                  <tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Polis Diraja Malaysia ke-216&#41;</td><td>9W2OGK<sup>2</sup></td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
                   <tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>26/03</td><td>0400MY</td><td>VoIP Sahur Net #4</td><td>9W2SNN</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-                  <tr><td>2200MY</td><td>CB Net<br></td><td>113DAYJT</td><td></td></tr>
-                  <tr class='bg-success-subtle'><td>Isnin<br>27/03</td><td>0400MY</td><td>VoIP Sahur Net #5</td><td>9W2YJT</td><td></td></tr>
+                  <tr><td>2200MY</td><td>CB Net<br></td><td>113DAYJT</td><td>17</td></tr>
+                  <tr class='bg-success-subtle'><td>Isnin<br>27/03</td><td>0400MY</td><td>VoIP Sahur Net #5</td><td>9W2YJT</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
                   <tr class='bg-success-subtle'><td>Selasa<br>28/03</td><td>0400MY</td><td>VoIP Sahur Net #6</td><td>113DAYKB</td><td></td></tr>
                   <tr class='bg-success-subtle'><td rowspan='2'>Rabu<br>29/03</td><td>0400MY</td><td>VoIP Sahur Net #7</td><td>9W2SFT</td><td></td></tr>
                   <tr><td>2200MY</td><td>English Net</td><td>9M6AUA</td><td></td></tr>
@@ -391,7 +391,7 @@
                   <tr><td>2200MY</td><td>MARS Net</td><td>9W8VYY</td><td></td></tr>
                 </tbody>
                 <caption>
-                  <ul class='list-group list-group-flush fs-6'>
+                  <ul class='list-group list-group-flush'>
                     <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
                     <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
                     <!-- <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li> -->
@@ -452,7 +452,7 @@
                   <tr class='bg-danger-subtle'><td>Ahad<br>30/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td>113DAYKB</td><td></td></tr>
                 </tbody>
                 <caption>
-                  <ul class='list-group list-group-flush fs-6'>
+                  <ul class='list-group list-group-flush'>
                     <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
                   </ul>
                 </capton>
@@ -528,7 +528,7 @@
                   <tr class='bg-primary-subtle'><td>Jumaat<br>30/06<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Raya Aidiladha<sup>1</sup>&#41;</td><td></td><td></td></tr>
                 </tbody>
                 <caption>
-                  <ul class='list-group list-group-flush fs-6'>
+                  <ul class='list-group list-group-flush'>
                     <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
                   </ul>
                 </capton>
@@ -866,7 +866,7 @@
                   <tr><td>Ahad<br>31/03</td><td>0400MY</td><td>VoIP Sahur Net #21</td><td></td><td></td></tr>
                 </tbody>
                 <caption>
-                  <ul class='list-group list-group-flush fs-6'>
+                  <ul class='list-group list-group-flush'>
                     <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
                   </ul>
                 </capton>

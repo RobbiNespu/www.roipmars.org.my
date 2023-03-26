@@ -109,15 +109,15 @@
             </tbody>
           </table>
           <h4>Barisan Jawatankuasa &amp; Petugas<br>Bahagian Siaraya &amp; Aktiviti</h4>
-          <div id='ncs23' class='carousel carousel-fade fs-5' data-bs-ride='carousel' data-bs-interval='5000'>
+          <div id='ncs23' class='carousel carousel-fade' data-bs-ride='carousel'>
             <div class='carousel-inner'>
-              <div class='carousel-item active' data-bs-interval='2000'>
+              <div class='carousel-item active'>
                 <div class='hstack gap-2'>
                   <img src='media/image/member/013.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-info-subtle bg-gradient mx-auto' alt='9W8VWW'>
                   <p class='lh-1'>9W8VWW / 58MSVWW<br>VERONICA CATHERINE<br>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
                 </div>
               </div>
-              <div class='carousel-item' data-bs-interval='8000'>
+              <div class='carousel-item'>
                 <div class='hstack gap-2'>
                   <div class='vstack gap-2'>
                     <img src='media/image/member/031.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2EZK'>
@@ -129,7 +129,7 @@
                   </div>
                 </div>
               </div>
-              <div class='carousel-item' data-bs-interval='12000'>
+              <div class='carousel-item'>
                 <div class='hstack gap-2'>
                   <div class='vstack gap-2'>
                     <img src='media/image/member/010.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9M6AUA'>
@@ -145,7 +145,7 @@
                   </div>
                 </div>
               </div>
-              <div class='carousel-item' data-bs-interval='12000'>
+              <div class='carousel-item'>
                 <div class='hstack gap-2'>
                   <div class='vstack gap-2'>
                     <img src='media/image/ncs/9m6jay.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6JAY'>
@@ -155,10 +155,10 @@
                     <img src='media/image/member/029.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2JCP'>
                     <p class='lh-1'>9W2JCP / 113DAJCP<br>ROSLI<br>PENYELIA AKTIVITI 2</p>
                   </div>
-                  <!-- <div class='vstack gap-2'>
+                  <div class='vstack gap-2'>
                     <img src='media/image/ncs/9w2sft.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='9W2SFT'>
                     <p class='lh-1'>9W2SFT<br>SYAWAL<br>PENYELIA AKTIVITI 3</p>
-                  </div> -->
+                  </div>
                 </div>
               </div>
               <div class='carousel-item'>
@@ -239,13 +239,13 @@
                     <img src='media/image/ncs/9w8vyy.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-warning mx-auto' alt='9W8VYY'>
                     <p class='lh-1'>9W8VYY<br>ALEX<br>PETUGAS TETAP AKTIVITI</p>
                   </div>
-                  <!-- <div class='vstack gap-2'>
+                  <div class='vstack gap-2'>
                     <img src='media/image/ncs/9w2gsv.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='9W2GSV'>
                     <p class='lh-1'>9W2GSV<br>SHAHRUZIE<br>PETUGAS TETAP AKTIVITI</p>
-                  </div> -->
+                  </div>
                 </div>
               </div>
-              <!-- <div class='carousel-item'>
+              <div class='carousel-item'>
                 <div class='hstack gap-2'>
                   <div class='vstack gap-2'>
                     <img src='media/image/ncs/9w6aff.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W6AFF'>
@@ -268,7 +268,7 @@
                     <p class='lh-1'>9W2NDI / 113DANDI<br>NASARUDDIN<br>PETUGAS SANDARAN AKTIVITI</p>
                   </div>
                 </div>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>

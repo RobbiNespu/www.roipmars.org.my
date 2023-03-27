@@ -64,9 +64,8 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+  <?php include('../../ntsheader.php') ?>
   <div class='container my-2'>
-    <h1 class='text-center' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Kumpulan RoIPMARS</h1>
-    <p class='fs-4 fw-light text-center' style='font-family: "Electrolize", sans-serif'>&mdash; roipmars.org.my &mdash; roipdarulaman.com &mdash;</p>
     <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Perubahan Platform Kedai RoIPMARS</p>
     <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2022/02<br>Tarikh Notis: 26 September 2022 | 0000 MYT</p>
     <p class='lh-sm'>Pengguna yang dihormati,</p>
@@ -79,6 +78,7 @@
     <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "Herr Von Muellerhoff", cursive'>Pentadbir Rangkaian</p>
     <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
   </div>
+  <?php include('../../footer.min.php') ?>
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
 </body>

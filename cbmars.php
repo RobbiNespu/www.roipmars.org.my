@@ -64,9 +64,7 @@
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='vendor/js/fbchat.js'></script>
-  <header>
-    <?php include('header.php') ?>
-  </header>
+  <?php include('header.php') ?>
   <div class='container-fluid'>
     <div class='row text-center'>
       <div class='col mt-2 mb-1 jumbotron-fluid'>
@@ -123,7 +121,9 @@
         </table>
       </div>
       <div class='col-12 text-center lh-1'>
-        <p><span class='cscount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
+        <p><span class='cscount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get();
+        $file_last_modified = filemtime(__FILE__);
+        echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
         <p class='fw-bold'>Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
         <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
       </div>

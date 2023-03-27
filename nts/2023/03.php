@@ -64,9 +64,8 @@
 
 <body>
   <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+  <?php include('../../ntsheader.php') ?>
   <div class='container my-2'>
-    <h1 class='text-center' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Kumpulan RoIPMARS</h1>
-    <p class='fs-4 fw-light text-center' style='font-family: "Electrolize", sans-serif'>&mdash; roipmars.org.my &mdash; roipdarulaman.com &mdash;</p>
     <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Penyelenggaraan Menaik Taraf <i>&#39;Firmware&#39;</i> Rangkaian - 25 Mac 2023</p>
     <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2023/03<br>Tarikh Notis: 07 Mac 2023 | 1230 MYT</p>
     <p class='lh-sm'>Pengguna yang dihormati,</p>
@@ -74,16 +73,34 @@
     <p class='mb-2'>Harap maklum bahawa Pasukan Penyelenggaraan Pusat Data akan menjalankan penyelenggaraan rangkaian untuk menaik taraf perisian tegar <i>&#40;firmware&#41;</i> peralatan rangkaian di Pusat Data MYI dan MYS.</p>
     <p>Penyelenggaraan ini adalah penting untuk mengelakkan sebarang kelemahan yang mungkin membahayakan dan menjejaskan keselamatan rangkaian.</p>
     <p>Butiran penyelenggaraan adalah seperti berikut:
-      <table class='table table-bordered table-sm text-start align-middle text-wrap my-0 me-auto w-auto' style='white-space: nowrap'>
-        <tbody>
-          <tr><th>Tarikh</th><td>25 Mac 2023 &#40;Sabtu&#41;</td></tr>
-          <tr><th>Masa Gangguan</th><td>11:30 PM &ndash; 3:30 AM &#40;MY&#41;</td></tr>
-          <tr><th>Tempoh Gangguan</th><td>4 jam</td></tr>
-          <tr><th>Masa Penyelenggaraan</th><td>12:00 AM &#40;MY&#41;</td></tr>
-          <tr><th>Tempoh Penyelenggaraan</th><td>30 minit</td></tr>
-          <tr><th>Punca</th><td>Operasi menaiktaraf perisian rangkaian</td></tr>
-        </tbody>
-      </table>
+    <table class='table table-bordered table-sm text-start align-middle'>
+      <tbody>
+        <tr>
+          <th>Tarikh</th>
+          <td>25 Mac 2023 &#40;Sabtu&#41;</td>
+        </tr>
+        <tr>
+          <th>Masa Gangguan</th>
+          <td>11:30 PM &ndash; 3:30 AM &#40;MY&#41;</td>
+        </tr>
+        <tr>
+          <th>Tempoh Gangguan</th>
+          <td>4 jam</td>
+        </tr>
+        <tr>
+          <th>Masa Penyelenggaraan</th>
+          <td>12:00 AM &#40;MY&#41;</td>
+        </tr>
+        <tr>
+          <th>Tempoh Penyelenggaraan</th>
+          <td>30 minit</td>
+        </tr>
+        <tr>
+          <th>Punca</th>
+          <td>Operasi naiktaraf perisian rangkaian</td>
+        </tr>
+      </tbody>
+    </table>
     </p>
     <p>Pelayan tidak akan ditutup semasa tempoh penyelenggaraan kerana ia hanya menjejaskan sambungan pelayan. Dinasihatkan supaya tidak lakukan apa-apa aktiviti semasa tempoh penyelenggaraan kerana ia akan mengakibatkan kerosakan data akibat daripada sambungan yang tidak konsisten.</p>
     <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Persefahaman dan kerjasama anda amat kami hargai. Jutaan kemaafan kami pohon dari Pihak Pengurusan Kumpulan RoIPMARS kepada anda semua.</p>
@@ -91,6 +108,7 @@
     <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "Herr Von Muellerhoff", cursive'>Pentadbir Rangkaian</p>
     <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
   </div>
+  <?php include('../../footer.min.php') ?>
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
 </body>

@@ -63,9 +63,7 @@
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='vendor/js/fbchat.js'></script>
-  <header>
-    <?php include('header.php') ?>
-  </header>
+  <?php include('header.php') ?>
   <div class='container-fluid'>
     <div class='row text-center'>
       <div class='col mt-2 mb-1 jumbotron-fluid'>

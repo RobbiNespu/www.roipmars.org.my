@@ -70,9 +70,7 @@
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='vendor/js/fbchat.js'></script>
-  <header>
-    <?php include('header.php') ?>
-  </header>
+  <?php include('header.php') ?>
   <div class='container-fluid'>
     <div class='row text-center'>
       <div class='col my-2 jumbotron-fluid'>
@@ -81,7 +79,7 @@
     </div>
   </div>
   <div class='container'>
-    <div class='row'>  	
+    <div class='row'>
       <p class='text-center font-weight-bold h3 fs-2'>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;<br><sup>PPM-006-10-01062020</sup></p>
       <div class='col-lg-6 mb-3'>
         <h4 class='h4 text-center'>Kelebihan Keahlian Kumpulan ROIPMARS</h4>
@@ -107,7 +105,9 @@
         <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>
           <div class='modal-dialog modal-dialog-centered' role='document'>
             <div class='modal-content'>
-              <div class='modal-header'><h5 class='modal-title' id='roscertModalTitle'>Sijil Pendaftaran Pertubuhan</h5></div>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='roscertModalTitle'>Sijil Pendaftaran Pertubuhan</h5>
+              </div>
               <div class='modal-body'><img class='img-fluid' loading='lazy' src='media/image/ros-sijil.png'></div>
             </div>
           </div>
@@ -115,7 +115,9 @@
         <div class='modal fade' id='rosconstModalLong' tabindex='-1' role='dialog' aria-labelledby='rosconstModalTitle' aria-hidden='true'>
           <div class='modal-dialog modal-dialog-centered modal-xl' role='document'>
             <div class='modal-content'>
-              <div class='modal-header'><h5 class='modal-title' id='rosconstModalTitle'>Perlembagaan Pertubuhan</h5></div>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='rosconstModalTitle'>Perlembagaan Pertubuhan</h5>
+              </div>
               <div class='modal-body ratio ratio-4x3'><iframe src='https://ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf'></iframe></div>
               <div class='modal-footer'><a type='button' class='btn btn-sm btn-success' href='https://ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf' download>Muat Turun</a></div>
             </div>
@@ -124,7 +126,9 @@
         <div class='modal fade' id='rosappletModalLong' tabindex='-1' role='dialog' aria-labelledby='rosappletModalTitle' aria-hidden='true'>
           <div class='modal-dialog modal-dialog-centered' role='document'>
             <div class='modal-content'>
-              <div class='modal-header'><h5 class='modal-title' id='rosappletModalTitle'>Surat Kelulusan Pendaftaran Pertubuhan</h5></div>
+              <div class='modal-header'>
+                <h5 class='modal-title' id='rosappletModalTitle'>Surat Kelulusan Pendaftaran Pertubuhan</h5>
+              </div>
               <div class='modal-body'><img class='img-fluid' loading='lazy' src='media/image/ros-surat.png'></div>
             </div>
           </div>
@@ -141,7 +145,7 @@
               <div class='card-title fw-bold m-0'>
                 <p>PRESIDEN</p>
               </div>
-              <div class='card-img'>  
+              <div class='card-img'>
                 <img src='media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
@@ -155,7 +159,7 @@
               <div class='card-title fw-bold m-0'>
                 <p>TIMBALAN PRESIDEN</p>
               </div>
-              <div class='card-img'>  
+              <div class='card-img'>
                 <img src='media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
@@ -169,7 +173,7 @@
               <div class='card-title fw-bold m-0'>
                 <p>SETIAUSAHA AGUNG</p>
               </div>
-              <div class='card-img'>  
+              <div class='card-img'>
                 <img src='media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
@@ -183,7 +187,7 @@
               <div class='card-title fw-bold m-0'>
                 <p>PENOLONG SETIAUSAHA</p>
               </div>
-              <div class='card-img'>  
+              <div class='card-img'>
                 <img src='media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
@@ -197,7 +201,7 @@
               <div class='card-title fw-bold m-0'>
                 <p>BENDAHARI AGUNG</p>
               </div>
-              <div class='card-img'>  
+              <div class='card-img'>
                 <img src='media/image/member/007.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
@@ -213,7 +217,7 @@
               <div class='card-title fw-bold m-0'>
                 <p>BAHAGIAN SIARAYA &amp; AKTIVITI</p>
               </div>
-              <div class='card-img'>  
+              <div class='card-img'>
                 <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
                 <!-- <img src='media/image/member/013.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'> -->
               </div>
@@ -230,7 +234,7 @@
               <div class='card-title fw-bold m-0'>
                 <p>BAHAGIAN TEKNIKAL</p>
               </div>
-              <div class='card-img'>  
+              <div class='card-img'>
                 <img src='media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
@@ -244,7 +248,7 @@
               <div class='card-title fw-bold m-0'>
                 <p>BAHAGIAN KEBAJIKAN</p>
               </div>
-              <div class='card-img'>  
+              <div class='card-img'>
                 <img src='media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
@@ -258,7 +262,7 @@
               <div class='card-title fw-bold m-0'>
                 <p>BAHAGIAN EKONOMI</p>
               </div>
-              <div class='card-img'>  
+              <div class='card-img'>
                 <img src='media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
@@ -272,7 +276,7 @@
               <div class='card-title fw-bold m-0'>
                 <p>BAHAGIAN PERHUBUNGAN AWAM</p>
               </div>
-              <div class='card-img'>  
+              <div class='card-img'>
                 <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
               </div>
               <div class='card-subtitle'>
@@ -293,45 +297,207 @@
       </div>
       <div class='col-lg-7 my-3 text-center'>
         <h4 class='h4'>Ahli RoIPMARS</h4>
-        <p><span class='membercount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get();
-        $file_last_modified = filemtime(__FILE__);
-        echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
+        <p><span class='membercount badge rounded-3 text-bg-success'></span>
+          <?php date_default_timezone_get();
+          $file_last_modified = filemtime(__FILE__);
+          echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?>
+        </p>
         <table class='table table-sm align-middle' id='memberlist'>
           <thead>
-            <tr><th>ID</th><th>CALLSIGN</th><th>NAMA AHLI</th><th>SAH SEHINGGA</th></tr>
+            <tr>
+              <th>ID</th>
+              <th>CALLSIGN</th>
+              <th>NAMA AHLI</th>
+              <th>SAH SEHINGGA</th>
+            </tr>
           </thead>
           <tbody class='user-select-none'>
-            <tr class='text-success-emphasis'><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>2023-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>2025-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>2023-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>2024-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>2024-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>2024-12-31</td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>2022-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>2024-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>2025-12-31</td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>2022-12-31</td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>2022-12-31</td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A012</td><td>9W2RNH</td><td>ROSNAH BINTI ABD RAPAR</td><td>2022-12-31</td></tr>
-            <tr class='text-danger-emphasis opacity-25'><td>A013</td><td>9W8VWW</td><td>VERONICA CATHERINE ANAK NOHAN</td><td>2021-07-02</td></tr>
-            <tr class='text-danger-emphasis opacity-25'><td>A014</td><td>9W8DNX</td><td>STANLEY SUMPING ANAK ALBERT BEJIE</td><td>2021-07-02</td></tr>
-            <tr class='text-danger-emphasis opacity-25'><td>A015</td><td>9M2NUZ</td><td>SITI NUSILAH BINTI HASAN</td><td>2021-07-02</td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A016</td><td>9W8ZZK</td><td>MOHAMAD ZAHEER BIN ZAKARIA</td><td>2022-12-31</td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A017</td><td>9M6RDY</td><td>MATTHEUS @ RUDY BIN BENEDICT</td><td>2022-12-31</td></tr>
-            <tr class='text-danger-emphasis opacity-25'><td>A018</td><td>9W6GEO</td><td>GEOFFREY BIN COSMAS</td><td>2021-07-02</td></tr>
-            <tr class='text-danger-emphasis opacity-25'><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>2021-07-02</td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>2022-12-31</td></tr>
-            <tr class='text-danger-emphasis opacity-25'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>2021-07-02</td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2022-12-31</td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>2022-12-31</td></tr>
-            <tr class='text-danger-emphasis opacity-25'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>2021-07-02</td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>2022-12-31</td></tr>
-            <tr class='text-warning-emphasis opacity-50'><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>2022-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>2023-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>A028</td><td>9W2NEW</td><td>NORHISHAM BIN BAHAROM</td><td>2023-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>A029</td><td>9W2JCP</td><td>MOHAMAD ROSLI BIN AWANG</td><td>2023-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>A030</td><td>9W2HLM</td><td>ABDUL HALIM BIN HJ HASHIM</td><td>2023-12-31</td></tr>
-            <tr class='text-success-emphasis'><td>A031</td><td>9W2EZK</td><td>MOHD IFFIQ ZIKRY BIN JAMAL</td><td>2025-12-31</td></tr>
+            <tr class='text-success-emphasis'>
+              <td>A001</td>
+              <td>9W2LGX</td>
+              <td>MOHAMAD HAFIZI BIN RUSLAN</td>
+              <td>2023-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>A002</td>
+              <td>9W2UZL</td>
+              <td>ZULKIFLI BIN ABU</td>
+              <td>2025-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>A003</td>
+              <td>9M2RAN</td>
+              <td>NOR IMRAN BIN AZIZ</td>
+              <td>2023-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>A004</td>
+              <td>9W2UBE</td>
+              <td>FAISNURNIZAM BIN MAT RASOL</td>
+              <td>2024-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>B005</td>
+              <td>V85ABK</td>
+              <td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td>
+              <td>2024-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>A006</td>
+              <td>9W6MOZ</td>
+              <td>MUSTAFA BIN OMAR</td>
+              <td>2024-12-31</td>
+            </tr>
+            <tr class='text-warning-emphasis opacity-50'>
+              <td>A007</td>
+              <td>9W2ELM</td>
+              <td>MOHD SULAIMAN BIN MAZLAN</td>
+              <td>2022-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>A008</td>
+              <td>9W2OGK</td>
+              <td>KAMARUDZAMAN BIN ABDUL RAHIM</td>
+              <td>2024-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>A009</td>
+              <td>9W2YQN</td>
+              <td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td>
+              <td>2025-12-31</td>
+            </tr>
+            <tr class='text-warning-emphasis opacity-50'>
+              <td>A010</td>
+              <td>9W6AUA</td>
+              <td>JEOFREY BIN AVITUS @ VITUS</td>
+              <td>2022-12-31</td>
+            </tr>
+            <tr class='text-warning-emphasis opacity-50'>
+              <td>A011</td>
+              <td>9W2NDI</td>
+              <td>NASARUDDIN BIN ARIF</td>
+              <td>2022-12-31</td>
+            </tr>
+            <tr class='text-warning-emphasis opacity-50'>
+              <td>A012</td>
+              <td>9W2RNH</td>
+              <td>ROSNAH BINTI ABD RAPAR</td>
+              <td>2022-12-31</td>
+            </tr>
+            <tr class='text-danger-emphasis opacity-25'>
+              <td>A013</td>
+              <td>9W8VWW</td>
+              <td>VERONICA CATHERINE ANAK NOHAN</td>
+              <td>2021-07-02</td>
+            </tr>
+            <tr class='text-danger-emphasis opacity-25'>
+              <td>A014</td>
+              <td>9W8DNX</td>
+              <td>STANLEY SUMPING ANAK ALBERT BEJIE</td>
+              <td>2021-07-02</td>
+            </tr>
+            <tr class='text-danger-emphasis opacity-25'>
+              <td>A015</td>
+              <td>9M2NUZ</td>
+              <td>SITI NUSILAH BINTI HASAN</td>
+              <td>2021-07-02</td>
+            </tr>
+            <tr class='text-warning-emphasis opacity-50'>
+              <td>A016</td>
+              <td>9W8ZZK</td>
+              <td>MOHAMAD ZAHEER BIN ZAKARIA</td>
+              <td>2022-12-31</td>
+            </tr>
+            <tr class='text-warning-emphasis opacity-50'>
+              <td>A017</td>
+              <td>9M6RDY</td>
+              <td>MATTHEUS @ RUDY BIN BENEDICT</td>
+              <td>2022-12-31</td>
+            </tr>
+            <tr class='text-danger-emphasis opacity-25'>
+              <td>A018</td>
+              <td>9W6GEO</td>
+              <td>GEOFFREY BIN COSMAS</td>
+              <td>2021-07-02</td>
+            </tr>
+            <tr class='text-danger-emphasis opacity-25'>
+              <td>B019</td>
+              <td>V85MUH</td>
+              <td>ROZAN BIN HAJI KADERI</td>
+              <td>2021-07-02</td>
+            </tr>
+            <tr class='text-warning-emphasis opacity-50'>
+              <td>A020</td>
+              <td>9M2SFF</td>
+              <td>ROZAIMAN SUFFIAN BIN OTHMAN</td>
+              <td>2022-12-31</td>
+            </tr>
+            <tr class='text-danger-emphasis opacity-25'>
+              <td>A021</td>
+              <td>9W2WZZ</td>
+              <td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td>
+              <td>2021-07-02</td>
+            </tr>
+            <tr class='text-warning-emphasis opacity-50'>
+              <td>A022</td>
+              <td>9W2DMJ</td>
+              <td>MOHD DAUD BIN JUSOH</td>
+              <td>2022-12-31</td>
+            </tr>
+            <tr class='text-warning-emphasis opacity-50'>
+              <td>A023</td>
+              <td>9W2DRQ</td>
+              <td>SYED IDRUS BIN SYED AGIL</td>
+              <td>2022-12-31</td>
+            </tr>
+            <tr class='text-danger-emphasis opacity-25'>
+              <td>A024</td>
+              <td>9W2SRF</td>
+              <td>CHE SHARIFF BIN OTHMAN</td>
+              <td>2021-07-02</td>
+            </tr>
+            <tr class='text-warning-emphasis opacity-50'>
+              <td>A025</td>
+              <td>9W2AYP</td>
+              <td>MOHD SABRI BIN IBRAHIM</td>
+              <td>2022-12-31</td>
+            </tr>
+            <tr class='text-warning-emphasis opacity-50'>
+              <td>A026</td>
+              <td>9W2VMB</td>
+              <td>ASRULHISYAM BIN ASURA</td>
+              <td>2022-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>A027</td>
+              <td>9M2EZU</td>
+              <td>MOHD IZZUDIN BIN ABD RAHIM</td>
+              <td>2023-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>A028</td>
+              <td>9W2NEW</td>
+              <td>NORHISHAM BIN BAHAROM</td>
+              <td>2023-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>A029</td>
+              <td>9W2JCP</td>
+              <td>MOHAMAD ROSLI BIN AWANG</td>
+              <td>2023-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>A030</td>
+              <td>9W2HLM</td>
+              <td>ABDUL HALIM BIN HJ HASHIM</td>
+              <td>2023-12-31</td>
+            </tr>
+            <tr class='text-success-emphasis'>
+              <td>A031</td>
+              <td>9W2EZK</td>
+              <td>MOHD IFFIQ ZIKRY BIN JAMAL</td>
+              <td>2025-12-31</td>
+            </tr>
 
           </tbody>
         </table>

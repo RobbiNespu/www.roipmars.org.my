@@ -63,52 +63,198 @@
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='vendor/js/fbchat.js'></script>
-  <header>
-    <?php include('header.php') ?>
-  </header>
+  <?php include('header.php') ?>
   <div class='container'>
     <div class='row'>
       <div class='col text-center'>
         <h1 class='h1'>Soalan Lazim</h1>
         <table class='table table-sm table-bordered table-striped text-center align-middle mb-3 mx-auto w-auto text-wrap' style='white-space: nowrap'>
-          <thead class='align-middle'><th>Abjad</th><th>Fonetik</th><th>International Morse</th></thead>
+          <thead class='align-middle'>
+            <th>Abjad</th>
+            <th>Fonetik</th>
+            <th>International Morse</th>
+          </thead>
           <tbody class='fs-4'>
-            <tr><td>A</td><td>Alfa<br>Agas</td><td>&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f3/A_morse_code.ogg'></audio></td></tr>
-            <tr><td>B</td><td>Bravo<br>Bola</td><td>&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/b1/B_morse_code.ogg'></audio></td></tr>
-            <tr><td>C</td><td>Charlie<br>Ciku</td><td>&ndash;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/2/25/C_morse_code.ogg'></audio></td></tr>
-            <tr><td>D</td><td>Delta<br>Duku</td><td>&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/92/D_morse_code.ogg'></audio></td></tr>
-            <tr><td>E</td><td>Echo<br>Elok</td><td>&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/e7/E_morse_code.ogg'></audio></td></tr>
-            <tr><td>F</td><td>Foxtrot<br>Fajar</td><td>&bull;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/63/F_morse_code.ogg'></audio></td></tr>
-            <tr><td>G</td><td>Golf<br>Gagak</td><td>&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/72/G_morse_code.ogg'></audio></td></tr>
-            <tr><td>H</td><td>Hotel<br>Handal</td><td>&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/93/H_morse_code.ogg'></audio></td></tr>
-            <tr><td>I</td><td>India<br>Intan</td><td>&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d9/I_morse_code.ogg'></audio></td></tr>
-            <tr><td>J</td><td>Juliett<br>Jala</td><td>&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9e/J_morse_code.ogg'></audio></td></tr>
-            <tr><td>K</td><td>Kilo<br>Kota</td><td>&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/K_morse_code.ogg'></audio></td></tr>
-            <tr><td>L</td><td>Lima<br>Laju</td><td>&bull;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/a/a8/L_morse_code.ogg'></audio></td></tr>
-            <tr><td>M</td><td>Mike<br>Merah</td><td>&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/97/M_morse_code.ogg'></audio></td></tr>
-            <tr><td>N</td><td>November<br>Nuri</td><td>&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5a/N_morse_code.ogg'></audio></td></tr>
-            <tr><td>O</td><td>Oscar<br>Ombak</td><td>&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/41/O_morse_code.ogg'></audio></td></tr>
-            <tr><td>P</td><td>Papa<br>Palang</td><td>&bull;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/c/c6/P_morse_code.ogg'></audio></td></tr>
-            <tr><td>Q</td><td>Quebec<br>Quen</td><td>&ndash;&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f0/Q_morse_code.ogg'></audio></td></tr>
-            <tr><td>R</td><td>Romeo<br>Rakit</td><td>&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg'></audio></td></tr>
-            <tr><td>S</td><td>Sierra<br>Singa</td><td>&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d8/S_morse_code.ogg'></audio></td></tr>
-            <tr><td>T</td><td>Tango<br>Tari</td><td>&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/ba/T_morse_code.ogg'></audio></td></tr>
-            <tr><td>U</td><td>Uniform<br>Udang</td><td>&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/34/U_morse_code.ogg'></audio></td></tr>
-            <tr><td>V</td><td>Victor<br>Victor</td><td>&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/37/V_morse_code.ogg'></audio></td></tr>
-            <tr><td>W</td><td>Whiskey<br>Wayang</td><td>&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/68/W_morse_code.ogg'></audio></td></tr>
-            <tr><td>X</td><td>X-ray<br>X-ray</td><td>&ndash;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/be/X_morse_code.ogg'></audio></td></tr>
-            <tr><td>Y</td><td>Yankee<br>Yakin</td><td>&ndash;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/Y_morse_code.ogg'></audio></td></tr>
-            <tr><td>Z</td><td>Zulu<br>Zaman</td><td>&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Z_morse_code.ogg'></audio></td></tr>
-            <tr><td>0</td><td>Zero<br>Kosong</td><td>&ndash;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/0_number_morse_code.ogg'></audio></td></tr>
-            <tr><td>1</td><td>One<br>Satu</td><td>&bull;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9b/1_number_morse_code.ogg'></audio></td></tr>
-            <tr><td>2</td><td>Two<br>Dua</td><td>&bull;&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ee/2_number_morse_code.ogg'></audio></td></tr>
-            <tr><td>3</td><td>Three<br>Tiga</td><td>&bull;&bull;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/fd/3_number_morse_code.ogg'></audio></td></tr>
-            <tr><td>4</td><td>Four<br>Empat</td><td>&bull;&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5c/4_number_morse_code.ogg'></audio></td></tr>
-            <tr><td>5</td><td>Five<br>Lima</td><td>&bull;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/52/5_number_morse_code.ogg'></audio></td></tr>
-            <tr><td>6</td><td>Six<br>Enam</td><td>&ndash;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/4d/6_number_morse_code.ogg'></audio></td></tr>
-            <tr><td>7</td><td>Seven<br>Tujuh</td><td>&ndash;&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/1/14/7_number_morse_code.ogg'></audio></td></tr>
-            <tr><td>8</td><td>Eight<br>Lapan</td><td>&ndash;&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/3a/8_number_morse_code.ogg'></audio></td></tr>
-            <tr><td>9</td><td>Nine<br>Sembilan</td><td>&ndash;&ndash;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/44/9_number_morse_code.ogg'></audio></td></tr>
+            <tr>
+              <td>A</td>
+              <td>Alfa<br>Agas</td>
+              <td>&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f3/A_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Bravo<br>Bola</td>
+              <td>&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/b1/B_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>C</td>
+              <td>Charlie<br>Ciku</td>
+              <td>&ndash;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/2/25/C_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>D</td>
+              <td>Delta<br>Duku</td>
+              <td>&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/92/D_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>E</td>
+              <td>Echo<br>Elok</td>
+              <td>&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/e7/E_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>F</td>
+              <td>Foxtrot<br>Fajar</td>
+              <td>&bull;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/63/F_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>G</td>
+              <td>Golf<br>Gagak</td>
+              <td>&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/72/G_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>H</td>
+              <td>Hotel<br>Handal</td>
+              <td>&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/93/H_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>I</td>
+              <td>India<br>Intan</td>
+              <td>&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d9/I_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>J</td>
+              <td>Juliett<br>Jala</td>
+              <td>&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9e/J_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>K</td>
+              <td>Kilo<br>Kota</td>
+              <td>&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/K_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>L</td>
+              <td>Lima<br>Laju</td>
+              <td>&bull;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/a/a8/L_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>M</td>
+              <td>Mike<br>Merah</td>
+              <td>&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/97/M_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>N</td>
+              <td>November<br>Nuri</td>
+              <td>&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5a/N_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>O</td>
+              <td>Oscar<br>Ombak</td>
+              <td>&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/41/O_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>P</td>
+              <td>Papa<br>Palang</td>
+              <td>&bull;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/c/c6/P_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>Q</td>
+              <td>Quebec<br>Quen</td>
+              <td>&ndash;&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f0/Q_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>R</td>
+              <td>Romeo<br>Rakit</td>
+              <td>&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>S</td>
+              <td>Sierra<br>Singa</td>
+              <td>&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d8/S_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>T</td>
+              <td>Tango<br>Tari</td>
+              <td>&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/ba/T_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>U</td>
+              <td>Uniform<br>Udang</td>
+              <td>&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/34/U_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>V</td>
+              <td>Victor<br>Victor</td>
+              <td>&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/37/V_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>W</td>
+              <td>Whiskey<br>Wayang</td>
+              <td>&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/68/W_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>X</td>
+              <td>X-ray<br>X-ray</td>
+              <td>&ndash;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/be/X_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>Y</td>
+              <td>Yankee<br>Yakin</td>
+              <td>&ndash;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/Y_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>Z</td>
+              <td>Zulu<br>Zaman</td>
+              <td>&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Z_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Zero<br>Kosong</td>
+              <td>&ndash;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/0_number_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>One<br>Satu</td>
+              <td>&bull;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9b/1_number_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Two<br>Dua</td>
+              <td>&bull;&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ee/2_number_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Three<br>Tiga</td>
+              <td>&bull;&bull;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/fd/3_number_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Four<br>Empat</td>
+              <td>&bull;&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5c/4_number_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Five<br>Lima</td>
+              <td>&bull;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/52/5_number_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Six<br>Enam</td>
+              <td>&ndash;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/4d/6_number_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Seven<br>Tujuh</td>
+              <td>&ndash;&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/1/14/7_number_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Eight<br>Lapan</td>
+              <td>&ndash;&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/3a/8_number_morse_code.ogg'></audio></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Nine<br>Sembilan</td>
+              <td>&ndash;&ndash;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/44/9_number_morse_code.ogg'></audio></td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -137,9 +283,24 @@
                 <p>Antara awalan isyarat panggilan yang digunakan oleh CB Kumpulan RoIPMARS adalah:</p>
                 <table class='table table-sm table-bordered text-center align-middle'>
                   <tbody>
-                    <tr class='fw-bold text-primary-emphasis'><td>113MS</td><td>58MS</td><td>91MS</td><td>153MS</td></tr>
-                    <tr class='fw-light text-danger-emphasis'><td>225BS</td><td>113DA</td><td>91DA</td><td>153DA</td></tr>
-                    <tr class='text-decoration-line-through text-body-tertiary opacity-50'><td>113KL</td><td>113PT</td><td>58SB</td><td>58SW</td></tr>
+                    <tr class='fw-bold text-primary-emphasis'>
+                      <td>113MS</td>
+                      <td>58MS</td>
+                      <td>91MS</td>
+                      <td>153MS</td>
+                    </tr>
+                    <tr class='fw-light text-danger-emphasis'>
+                      <td>225BS</td>
+                      <td>113DA</td>
+                      <td>91DA</td>
+                      <td>153DA</td>
+                    </tr>
+                    <tr class='text-decoration-line-through text-body-tertiary opacity-50'>
+                      <td>113KL</td>
+                      <td>113PT</td>
+                      <td>58SB</td>
+                      <td>58SW</td>
+                    </tr>
                   </tbody>
                 </table>
                 <p>Anda digalakkan untuk berdaftar sebagai Ahli Persatuan yang mempunyai pelbagai kelebihan berbanding Ahli CB kami.</p>
@@ -155,13 +316,33 @@
                 <p>Pelayan TeamSpeak3 milik <abbr title='roipmars.org.my'>Kumpulan RoIPMARS</abbr> merupakan sebuah pembekal pengehosan berlesen sah yang dibiaya oleh ahli-ahli Persatuan Peminat Radio Komunikasi (ROIP). Tambahan lagi, pelayan milik Kumpulan RoIPMARS menyokong sambungan dari semua versi pengguna.</p>
                 <p>Terdapat beberapa faktor yang tidak membenarkan anda masuk ke pelayan selain Kumpulan RoIPMARS, antaranya:</p>
                 <table class='table table-sm table-bordered table-striped text-center align-middle'>
-                  <thead><tr><th>Ralat</th><th>Penerangan</th></tr></thead>
+                  <thead>
+                    <tr>
+                      <th>Ralat</th>
+                      <th>Penerangan</th>
+                    </tr>
+                  </thead>
                   <tbody>
-                    <tr><td>server outdated</td><td>pelayan tidak menyokong sambungan dari versi yang anda gunakan</td></tr>
-                    <tr><td>client outdated</td><td>versi yang anda gunakan tidak disokong oleh pelayan</td></tr>
-                    <tr><td>TSDNS error</td><td>i. kesilapan alamat pelayan<br>ii. ralat konfigurasi DNS dari pihak pembekal hos</td></tr>
-                    <tr><td>server blacklisted</td><td>pelayan telah disenarai hitam oleh pihak pembangun perisian</td></tr>
-                    <tr><td>connection error</td><td>i. kesilapan alamat/ip pelayan<br>ii. pelayan tidak beroperasi</td></tr>
+                    <tr>
+                      <td>server outdated</td>
+                      <td>pelayan tidak menyokong sambungan dari versi yang anda gunakan</td>
+                    </tr>
+                    <tr>
+                      <td>client outdated</td>
+                      <td>versi yang anda gunakan tidak disokong oleh pelayan</td>
+                    </tr>
+                    <tr>
+                      <td>TSDNS error</td>
+                      <td>i. kesilapan alamat pelayan<br>ii. ralat konfigurasi DNS dari pihak pembekal hos</td>
+                    </tr>
+                    <tr>
+                      <td>server blacklisted</td>
+                      <td>pelayan telah disenarai hitam oleh pihak pembangun perisian</td>
+                    </tr>
+                    <tr>
+                      <td>connection error</td>
+                      <td>i. kesilapan alamat/ip pelayan<br>ii. pelayan tidak beroperasi</td>
+                    </tr>
                   </tbody>
                 </table>
                 <p>Sekiranya anda gagal untuk masuk ke pelayan Kumpulan RoIPMARS &#40;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a> / <a href='ts3server://roipdarulaman.com'>roipdarulaman.com</a>&#41;, berkemungkinan perisian yang anda gunakan mempunyai ralat yang tidak menyokong &#39;TSDNS&#39;. Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank'>App Store</a>.</p>

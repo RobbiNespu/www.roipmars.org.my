@@ -48,6 +48,7 @@
   <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.css' crossorigin='anonymous'>
   <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
   <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
@@ -264,214 +265,445 @@
         <img class='img-fluid rounded-5' loading='lazy' src='media/image/ipjr.png' width='75%'>
       </div>
     </div>
-    <hr>
-    <div class='row'>
-      <div class='col-lg-4 text-center'>
+    <div class='row my-3'>
+      <div class='col-lg-5 text-center'>
         <h2>Kod 10</h2>
-        <table class='table table-bordered table-sm'>
-          <thead>
-            <th>Kod 10</th>
-            <th>Maksud</th>
-          </thead>
+        <table class='table table-bordered table-sm' id='code10'>
+          <thead><th>Kod 10</th><th>Maksud</th></thead>
           <tbody>
-            <tr><td>10-1</td><td class='text-start'>Penerimaan Tidak Memuaskan</td></tr>
-            <tr><td>10-2</td><td class='text-start'>Penerimaan Yang Baik</td></tr>
-            <tr><td>10-3</td><td class='text-start'>Berhenti Keudara</td></tr>
-            <tr><td>10-4</td><td class='text-start'>Ok / Faham / Betul</td></tr>
-            <tr><td>10-5</td><td class='text-start'>Mesej Untuk Disampaikan</td></tr>
-            <tr><td>10-6</td><td class='text-start'>Sedang Sibuk Kecuali Ada Trafik</td></tr>
-            <tr><td>10-7</td><td class='text-start'>Ada Kerosakan / Tidak Keudara</td></tr>
-            <tr><td>10-8</td><td class='text-start'>Boleh Keudara</td></tr>
-            <tr><td>10-9</td><td class='text-start'>Sila Ulang Mesej</td></tr>
-            <tr><td>10-10</td><td class='text-start'>Penyampaian Mesej Tamat</td></tr>
-            <tr><td>10-11</td><td class='text-start'>Bercakap Terlalu Cepat</td></tr>
-            <tr><td>10-12</td><td class='text-start'>Mengundurkan Diri/ Ada Tetamu</td></tr>
-            <tr><td>10-13</td><td class='text-start'>Keadaan Cuaca / Jalan</td></tr>
-            <tr><td>10-16</td><td class='text-start'>Harap Dijemput / Diambil Pada...</td></tr>
-            <tr><td>10-17</td><td class='text-start'>Ada Urusan Penting</td></tr>
-            <tr><td>10-18</td><td class='text-start'>Ada Sesuatu Untuk Kita?</td></tr>
-            <tr><td>10-19</td><td class='text-start'>Bukan Untuk Kita, Dikembalikan Kepada Pengkalan</td></tr>
-            <tr><td>10-20</td><td class='text-start'>Lokasi Stesen (Tx)</td></tr>
-            <tr><td>10-21</td><td class='text-start'>Hubungi Melalui Telefon</td></tr>
-            <tr><td>10-22</td><td class='text-start'>Sila Lapor Terus Ke ...</td></tr>
-            <tr><td>10-23</td><td class='text-start'>Standby / Meminta Untuk Menunggu</td></tr>
-            <tr><td>10-24</td><td class='text-start'>Selesai Menjalankan Tugas</td></tr>
-            <tr><td>10-25</td><td class='text-start'>Dapat Menghubungi ...?</td></tr>
-            <tr><td>10-26</td><td class='text-start'>Abaikan Mesej Terakhir</td></tr>
-            <tr><td>10-27</td><td class='text-start'>Tukar Saluran ke ...</td></tr>
-            <tr><td>10-28</td><td class='text-start'>Identiti Stesen</td></tr>
-            <tr><td>10-29</td><td class='text-start'>Masa Berhubung Tamat</td></tr>
-            <tr><td>10-30</td><td class='text-start'>Tidak Patuh Peraturan</td></tr>
-            <tr><td>10-32</td><td class='text-start'>Laporan Radas</td></tr>
-            <tr><td>10-33</td><td class='text-start'>Keadaan Darurat/Bencana Dikawasan Stesen</td></tr>
-            <tr><td>10-34</td><td class='text-start'>Ada Kerosakan/Perlu Bantuan</td></tr>
-            <tr><td>10-35</td><td class='text-start'>Informasi Rahsia</td></tr>
-            <tr><td>10-36</td><td class='text-start'>Jam Berapa Sekarang?</td></tr>
-            <tr><td>10-39</td><td class='text-start'>Pesanan Telah Disampaikan</td></tr>
-            <tr><td>10-41</td><td class='text-start'>Sila Tukar Saluran Ke ...</td></tr>
-            <tr><td>10-42</td><td class='text-start'>Ada Kemalangan di ...</td></tr>
-            <tr><td>10-43</td><td class='text-start'>Kesesakan Jalan Raya di ...</td></tr>
-            <tr><td>10-44</td><td class='text-start'>Ada Pesanan Untuk Anda</td></tr>
-            <tr><td>10-45</td><td class='text-start'>Yang Berhampiran Sila Lapor</td></tr>
-            <tr><td>10-50</td><td class='text-start'>&#39;Break!&#39; Sila Kosongkan Saluran</td></tr>
-            <tr><td>10-51</td><td class='text-start'>Salam Hormat</td></tr>
-            <tr><td>10-55</td><td class='text-start'>Apa Khabar</td></tr>
-            <tr><td>10-60</td><td class='text-start'>Ada Informasi Lanjut</td></tr>
-            <tr><td>10-62</td><td class='text-start'>Tidak Faham / Sila Guna Telefon</td></tr>
-            <tr><td>10-65</td><td class='text-start'>Menunggu Mesej Selanjutnya</td></tr>
-            <tr><td>10-67</td><td class='text-start'>Semua Unit Sedia/Patuh</td></tr>
-            <tr><td>10-70</td><td class='text-start'>Ada Kebakaran di ...</td></tr>
-            <tr><td>10-71</td><td class='text-start'>Radas Yang Digunakan</td></tr>
-            <tr><td>10-73</td><td class='text-start'>Kamera Perangkap Kelajuan di ...</td></tr>
-            <tr><td>10-75</td><td class='text-start'>Penyebab Gangguan</td></tr>
-            <tr><td>10-76</td><td class='text-start'>Dalam Perjalanan Ke ...</td></tr>
-            <tr><td>10-77</td><td class='text-start'>Tidak Dapat Menghubungi</td></tr>
-            <tr><td>10-84</td><td class='text-start'>No. Telefon Saya ...</td></tr>
-            <tr><td>10-85</td><td class='text-start'>Alamat saya ...</td></tr>
-            <tr><td>10-91</td><td class='text-start'>Bercakap Dekat Dengan Mikrofon</td></tr>
-            <tr><td>10-92</td><td class='text-start'>Radas Anda Perlu Dilaras</td></tr>
-            <tr><td>10-93</td><td class='text-start'>Semak jalur Saya Di Saluran Ini</td></tr>
-            <tr><td>10-94</td><td class='text-start'>Cuba Bercakap Lama Sedikit</td></tr>
-            <tr><td>10-95</td><td class='text-start'>Memancar Selama 5 Saat</td></tr>
-            <tr><td>10-99</td><td class='text-start'>Tugas Selesai Dan Semua Selamat</td></tr>
-            <tr><td>10-37</td><td class='text-start'>Perlu Kenderaan Tunda di ...</td></tr>
-            <tr><td>10-46</td><td class='text-start'>Perlu Mekanik di ...</td></tr>
-            <tr><td>10-38</td><td class='text-start'>Perlu Ambulan di ...</td></tr>
-            <tr><td>10-40</td><td class='text-start'>Perlu Petugas Kesihatan di ...</td></tr>
-            <tr><td>10-100</td><td class='text-start'>Perlu Ke Tandas</td></tr>
-            <tr><td>10-200</td><td class='text-start'>Perlu Bantuan Polis di ...</td></tr>
-            <tr><td>10-300</td><td class='text-start'>Perlu Bantuan Bomba di ...</td></tr>
-            <tr><td>10-400</td><td class='text-start'>Perlu Bantuan Penguatkuasa di ...</td></tr>
-            <tr><td>10-500</td><td class='text-start'>Perlu Bantuan Polis Tatatertib di ...</td></tr>
-            <tr><td>10-600</td><td class='text-start'>Perlu Bantuan Polis Tentera di ...</td></tr>
-            <tr><td>10-700</td><td class='text-start'>Perlu Bantuan Pasukan Penyelamat di ...</td></tr>
-            <tr><td>10-800</td><td class='text-start'>Perlu Bantuan Petugas Elektrik di ...</td></tr>
-            <tr><td>10-900</td><td class='text-start'>Perlu Bantuan Umum di ...</td></tr>
+            <tr><td>10-1</td><td>Penerimaan Tidak Memuaskan</td></tr>
+            <tr><td>10-2</td><td>Penerimaan Yang Baik</td></tr>
+            <tr><td>10-3</td><td>Berhenti Keudara</td></tr>
+            <tr><td>10-4</td><td>Ok / Faham / Betul</td></tr>
+            <tr><td>10-5</td><td>Mesej Untuk Disampaikan</td></tr>
+            <tr><td>10-6</td><td>Sedang Sibuk Kecuali Ada Trafik</td></tr>
+            <tr><td>10-7</td><td>Ada Kerosakan / Tidak Keudara</td></tr>
+            <tr><td>10-8</td><td>Boleh Keudara</td></tr>
+            <tr><td>10-9</td><td>Sila Ulang Mesej</td></tr>
+            <tr><td>10-10</td><td>Penyampaian Mesej Tamat</td></tr>
+            <tr><td>10-11</td><td>Bercakap Terlalu Cepat</td></tr>
+            <tr><td>10-12</td><td>Mengundurkan Diri/ Ada Tetamu</td></tr>
+            <tr><td>10-13</td><td>Keadaan Cuaca / Jalan</td></tr>
+            <tr><td>10-16</td><td>Harap Dijemput / Diambil Pada...</td></tr>
+            <tr><td>10-17</td><td>Ada Urusan Penting</td></tr>
+            <tr><td>10-18</td><td>Ada Sesuatu Untuk Kita?</td></tr>
+            <tr><td>10-19</td><td>Bukan Untuk Kita, Dikembalikan Kepada Pengkalan</td></tr>
+            <tr><td>10-20</td><td>Lokasi Stesen (Tx)</td></tr>
+            <tr><td>10-21</td><td>Hubungi Melalui Telefon</td></tr>
+            <tr><td>10-22</td><td>Sila Lapor Terus Ke ...</td></tr>
+            <tr><td>10-23</td><td>Standby / Meminta Untuk Menunggu</td></tr>
+            <tr><td>10-24</td><td>Selesai Menjalankan Tugas</td></tr>
+            <tr><td>10-25</td><td>Dapat Menghubungi ...?</td></tr>
+            <tr><td>10-26</td><td>Abaikan Mesej Terakhir</td></tr>
+            <tr><td>10-27</td><td>Tukar Saluran ke ...</td></tr>
+            <tr><td>10-28</td><td>Identiti Stesen</td></tr>
+            <tr><td>10-29</td><td>Masa Berhubung Tamat</td></tr>
+            <tr><td>10-30</td><td>Tidak Patuh Peraturan</td></tr>
+            <tr><td>10-32</td><td>Laporan Radas</td></tr>
+            <tr><td>10-33</td><td>Keadaan Darurat/Bencana Dikawasan Stesen</td></tr>
+            <tr><td>10-34</td><td>Ada Kerosakan/Perlu Bantuan</td></tr>
+            <tr><td>10-35</td><td>Informasi Rahsia</td></tr>
+            <tr><td>10-36</td><td>Jam Berapa Sekarang?</td></tr>
+            <tr><td>10-39</td><td>Pesanan Telah Disampaikan</td></tr>
+            <tr><td>10-41</td><td>Sila Tukar Saluran Ke ...</td></tr>
+            <tr><td>10-42</td><td>Ada Kemalangan di ...</td></tr>
+            <tr><td>10-43</td><td>Kesesakan Jalan Raya di ...</td></tr>
+            <tr><td>10-44</td><td>Ada Pesanan Untuk Anda</td></tr>
+            <tr><td>10-45</td><td>Yang Berhampiran Sila Lapor</td></tr>
+            <tr><td>10-50</td><td>&#39;Break!&#39; Sila Kosongkan Saluran</td></tr>
+            <tr><td>10-51</td><td>Salam Hormat</td></tr>
+            <tr><td>10-55</td><td>Apa Khabar</td></tr>
+            <tr><td>10-60</td><td>Ada Informasi Lanjut</td></tr>
+            <tr><td>10-62</td><td>Tidak Faham / Sila Guna Telefon</td></tr>
+            <tr><td>10-65</td><td>Menunggu Mesej Selanjutnya</td></tr>
+            <tr><td>10-67</td><td>Semua Unit Sedia/Patuh</td></tr>
+            <tr><td>10-70</td><td>Ada Kebakaran di ...</td></tr>
+            <tr><td>10-71</td><td>Radas Yang Digunakan</td></tr>
+            <tr><td>10-73</td><td>Kamera Perangkap Kelajuan di ...</td></tr>
+            <tr><td>10-75</td><td>Penyebab Gangguan</td></tr>
+            <tr><td>10-76</td><td>Dalam Perjalanan Ke ...</td></tr>
+            <tr><td>10-77</td><td>Tidak Dapat Menghubungi</td></tr>
+            <tr><td>10-84</td><td>No. Telefon Saya ...</td></tr>
+            <tr><td>10-85</td><td>Alamat saya ...</td></tr>
+            <tr><td>10-91</td><td>Bercakap Dekat Dengan Mikrofon</td></tr>
+            <tr><td>10-92</td><td>Radas Anda Perlu Dilaras</td></tr>
+            <tr><td>10-93</td><td>Semak jalur Saya Di Saluran Ini</td></tr>
+            <tr><td>10-94</td><td>Cuba Bercakap Lama Sedikit</td></tr>
+            <tr><td>10-95</td><td>Memancar Selama 5 Saat</td></tr>
+            <tr><td>10-99</td><td>Tugas Selesai Dan Semua Selamat</td></tr>
+            <tr><td>10-37</td><td>Perlu Kenderaan Tunda di ...</td></tr>
+            <tr><td>10-46</td><td>Perlu Mekanik di ...</td></tr>
+            <tr><td>10-38</td><td>Perlu Ambulan di ...</td></tr>
+            <tr><td>10-40</td><td>Perlu Petugas Kesihatan di ...</td></tr>
+            <tr><td>10-100</td><td>Perlu Ke Tandas</td></tr>
+            <tr><td>10-200</td><td>Perlu Bantuan Polis di ...</td></tr>
+            <tr><td>10-300</td><td>Perlu Bantuan Bomba di ...</td></tr>
+            <tr><td>10-400</td><td>Perlu Bantuan Penguatkuasa di ...</td></tr>
+            <tr><td>10-500</td><td>Perlu Bantuan Polis Tatatertib di ...</td></tr>
+            <tr><td>10-600</td><td>Perlu Bantuan Polis Tentera di ...</td></tr>
+            <tr><td>10-700</td><td>Perlu Bantuan Pasukan Penyelamat di ...</td></tr>
+            <tr><td>10-800</td><td>Perlu Bantuan Petugas Elektrik di ...</td></tr>
+            <tr><td>10-900</td><td>Perlu Bantuan Umum di ...</td></tr>
           </tbody>
         </table>
       </div>
-      <div class='col text-center'>
+      <div class='col-lg-7 text-center'>
         <h2>Tanda Panggilan Jalur Rakyat Negara Asal</h2>
-        <table class='table table-bordered table-striped table-sm align-middle'>
-          <thead><tr><th>PRE</th><th>KAWASAN</th><th>PRE</th><th>KAWASAN</th><th>PRE</th><th>KAWASAN</th></tr></thead>
+        <table class='table table-bordered table-striped table-sm align-middle' id='cbpre'>
+          <thead><tr><th>Pre</th><th>Kawasan</th></tr>
+          </thead>
           <tbody>
-            <tr><td>1</td><td>ITALY</td><td>118</td><td>THE GAMBIA</td><td>235</td><td>ITU GENEVA</td></tr>
-            <tr><td>2</td><td>UNITED STATES OF AMERICA</td><td>119</td><td>MADERIA ISLAND</td><td>236</td><td>BANGLADESH</td></tr>
-            <tr><td>3</td><td>BRAZIL</td><td>120</td><td>ANTIGUA &amp; BARBUDA ISLANDS</td><td>237</td><td>UNION OF MYANMAR</td></tr>
-            <tr><td>4</td><td>ARGENTINA</td><td>121</td><td>THE BAHAMAS</td><td>238</td><td>KAMPUCHEA</td></tr>
-            <tr><td>5</td><td>VENEZUELA</td><td>122</td><td>BARBADOS ISLAND</td><td>239</td><td>LAOS</td></tr>
-            <tr><td>6</td><td>COLUMBIA</td><td>123</td><td>BERMUDA ISLAND</td><td>240</td><td>MACAO</td></tr>
-            <tr><td>7</td><td>NETHERLANDS ANTILLES</td><td>124</td><td>NEW AMSTERDAM &amp; ST. PAUL ISLANDS</td><td>241</td><td>SPRATLY ISLANDS</td></tr>
-            <tr><td>8</td><td>PERU</td><td>125</td><td>CAYMAN ISLANDS</td><td>242</td><td>VIETNAM</td></tr>
-            <tr><td>9</td><td>CANADA</td><td>126</td><td>NICARAGUA</td><td>243</td><td>AGALEGA &amp; ST. BRANDON IS.</td></tr>
-            <tr><td>10</td><td>MEXICO</td><td>127</td><td>VIRGIN ISLANDS</td><td>244</td><td>ANNOBAN ISLAND</td></tr>
-            <tr><td>11</td><td>PUERTO RICO</td><td>128</td><td>BRITISH VIRGIN ISLANDS</td><td>245</td><td>NIGER REPUBLIC</td></tr>
-            <tr><td>12</td><td>URUGUAY</td><td>129</td><td>MACQUARIE ISLANDS</td><td>246</td><td>SAO TOMES &amp; PRINCIPE ISLANDS</td></tr>
-            <tr><td>13</td><td>GERMANY</td><td>130</td><td>NORFOLK ISLAND</td><td>247</td><td>NAVASSA ISLAND</td></tr>
-            <tr><td>14</td><td>FRANCE</td><td>131</td><td>GUYANA</td><td>248</td><td>TURKS &amp; CAICOS ISLANDS</td></tr>
-            <tr><td>15</td><td>SWITZERLAND</td><td>132</td><td>MARSHALL ISLANDS</td><td>249</td><td>NORTHERN COOK ISLANDS</td></tr>
-            <tr><td>16</td><td>BELGIUM</td><td>133</td><td>NORTH MARIANAS ISLANDS</td><td>250</td><td>SOUTHERN COOK ISLANDS</td></tr>
-            <tr><td>17</td><td>HAWAIIAN ISLANDS</td><td>134</td><td>REPUBLIC OF BELAU</td><td>251</td><td>ALBANIA</td></tr>
-            <tr><td>18</td><td>GREECE</td><td>135</td><td>SOLOMON ISLANDS</td><td>252</td><td>REVILLAGIGEDO ISLANDS</td></tr>
-            <tr><td>19</td><td>NETHERLANDS</td><td>136</td><td>MARTINIQUE ISLAND</td><td>253</td><td>ANDAMAN &amp; NICOBAR ISLANDS</td></tr>
-            <tr><td>20</td><td>NORWAY</td><td>137</td><td>ISLE OF MAN</td><td>254</td><td>MOUNT ATHOS</td></tr>
-            <tr><td>21</td><td>SWEDEN</td><td>138</td><td>VATICAN CITY STATE</td><td>255</td><td>KERGUELAN ISLANDS</td></tr>
-            <tr><td>22</td><td>FRENCH GUYANA</td><td>139</td><td>SOUTHERN YEMEN</td><td>256</td><td>PRINCE EDWARD &amp; MARION ISLS.</td></tr>
-            <tr><td>23</td><td>JAMAICA</td><td>140</td><td>ANTARTICA</td><td>257</td><td>RODRIGUEZ ISLAND</td></tr>
-            <tr><td>24</td><td>PANAMA</td><td>141</td><td>ST. PIERRE &amp; MIQUELON IS.</td><td>258</td><td>TRISTAN DA CUNHA &amp; GOUGH IS.</td></tr>
-            <tr><td>25</td><td>JAPAN</td><td>142</td><td>LESOTHO</td><td>259</td><td>TROMELIN ISLAND</td></tr>
-            <tr><td>26</td><td>ENGLAND</td><td>143</td><td>ST. LUCIA ISLAND</td><td>260</td><td>BAKER &amp; HOWLAND ISLANDS</td></tr>
-            <tr><td>27</td><td>ICELAND</td><td>144</td><td>EASTER ISLAND</td><td>261</td><td>CHATHAM ISLANDS</td></tr>
-            <tr><td>28</td><td>HONDURAS</td><td>145</td><td>GALAPAGOS ISLAND</td><td>262</td><td>JOHNSTON ISLAND</td></tr>
-            <tr><td>29</td><td>IRELAND</td><td>146</td><td>ALGERIA</td><td>263</td><td>KERMADEE ISLANDS</td></tr>
-            <tr><td>30</td><td>SPAIN</td><td>147</td><td>TUNISIA</td><td>264</td><td>KINGMAN REEF</td></tr>
-            <tr><td>31</td><td>PORTUGAL</td><td>148</td><td>ASCENSION ISLAND</td><td>265</td><td>CENTRAL KIRIBATI</td></tr>
-            <tr><td>32</td><td>CHILE</td><td>149</td><td>LACCADIVE ISLANDS</td><td>266</td><td>EASTERN KIRIBATI</td></tr>
-            <tr><td>33</td><td>ALASKA</td><td>150</td><td>BARAIN</td><td>267</td><td>KURE ISLANDS</td></tr>
-            <tr><td>34</td><td>CANARY ISLANDS</td><td>151</td><td>IRAQ</td><td>268</td><td>LORD HOWE ISLAND</td></tr>
-            <tr><td>35</td><td>AUSTRIA</td><td>152</td><td>MALDIVE ISLANDS</td><td>269</td><td>MELLISH REEF</td></tr>
-            <tr><td>36</td><td>SAN MARINO</td><td>153</td><td>THAILAND</td><td>270</td><td>MINAMI TORISHIMA ISLAND</td></tr>
-            <tr><td>37</td><td>DOMINICAN REPUBLIC</td><td>154</td><td>IRAN</td><td>271</td><td>REPUBLIC OF NAURU</td></tr>
-            <tr><td>38</td><td>GREENLAND</td><td>155</td><td>TAIWAN</td><td>272</td><td>NIVE ISLAND</td></tr>
-            <tr><td>39</td><td>ANGOLA</td><td>156</td><td>CAMEROON</td><td>273</td><td>JARVIS &amp; PDS</td></tr>
-            <tr><td>40</td><td>LIECHTENSTIEN</td><td>157</td><td>MONTSERRAT ISLAND</td><td>274</td><td>PITCAIRN ISLAND</td></tr>
-            <tr><td>41</td><td>NEW ZEALAND</td><td>158</td><td>TRINIDAD &amp; TOBAGO ISLANDS</td><td>275</td><td>TOKELAU ISLANDS</td></tr>
-            <tr><td>42</td><td>LIBERIA</td><td>159</td><td>SOMALT REPUBLIC</td><td>276</td><td>TUVALU ISLANDS</td></tr>
-            <tr><td>43</td><td>AUSTRALIA</td><td>160</td><td>SUDAN</td><td>277</td><td>SABLE ISLAND</td></tr>
-            <tr><td>44</td><td>SOUTH AFRICA</td><td>161</td><td>POLAND</td><td>278</td><td>WAKE ISLAND</td></tr>
-            <tr><td>45</td><td>SERBIA</td><td>162</td><td>REPUBLIC OF ZAIRE</td><td>279</td><td>WILLIS ISLETS</td></tr>
-            <tr><td>46</td><td>EAST GERMANY</td><td>163</td><td>WALES</td><td>280</td><td>AVES ISLAND</td></tr>
-            <tr><td>47</td><td>DENMARK</td><td>164</td><td>TOGO REPUBLIC</td><td>281</td><td>OGASAWARA ISLANDS</td></tr>
-            <tr><td>48</td><td>SAUDIA ARABIA</td><td>165</td><td>SARDINIA ISLAND</td><td>282</td><td>AUCKLAND &amp; CAMPBELL ISL.</td></tr>
-            <tr><td>49</td><td>BALEARIC ISLANDS</td><td>166</td><td>SINT MAARTEN, SABA &amp; ST. EU-STATIUS</td><td>283</td><td>ST. KITTS &amp; NEVIS ISLAND</td></tr>
-            <tr><td>50</td><td>EUROPEAN RUSSIA</td><td>167</td><td>JERSEY ISLAND</td><td>284</td><td>ST. PAUL ISLAND</td></tr>
-            <tr><td>51</td><td>ANDORRA</td><td>168</td><td>MAURITIS ISLANDS</td><td>285</td><td>FERNANDO DE NORONHA ISLA</td></tr>
-            <tr><td>52</td><td>FAROER ISLANDS</td><td>169</td><td>GUERNSEY ISLAND &amp; DEPENDENCIES</td><td>286</td><td>JUAN FERNANDEZ ISLANDS</td></tr>
-            <tr><td>53</td><td>EL SALVADOR</td><td>170</td><td>BURKINA FASO</td><td>287</td><td>MALPELO ISLAND HK0</td></tr>
-            <tr><td>54</td><td>LUXEMBOURG</td><td>171</td><td>SVALBARD ISLANDS</td><td>288</td><td>SAN FELIX &amp; SAN AMBROSIO</td></tr>
-            <tr><td>55</td><td>GIBRALTAR</td><td>172</td><td>NEW CALEDONIA</td><td>289</td><td>SOUTH GEORGIA ISLANDS</td></tr>
-            <tr><td>56</td><td>FINLAND</td><td>173</td><td>REUNION ISLAND</td><td>290</td><td>TRINDADE &amp; MARTIM VAZ IS</td></tr>
-            <tr><td>57</td><td>INDIA</td><td>174</td><td>UGANDA</td><td>291</td><td>DHEKELIA &amp; AKROTIRI</td></tr>
-            <tr><td>58</td><td>EAST MALASYSIA</td><td>175</td><td>CHAD REPUBLIC</td><td>292</td><td>ABU-AIL &amp; JABAL-AT-TAIR</td></tr>
-            <tr><td>59</td><td>DODE CANESE</td><td>176</td><td>CENTRAL AFRICAN REPUBLIC</td><td>293</td><td>GUINEA BISSAU</td></tr>
-            <tr><td>60</td><td>HONG KONG</td><td>177</td><td>SRI LANKA</td><td>294</td><td>PETER 1<sup>st</sup> ISLAND</td></tr>
-            <tr><td>61</td><td>EQUADOR</td><td>178</td><td>BULGARIA</td><td>295</td><td>SOUTHERN SUDAN</td></tr>
-            <tr><td>62</td><td>GUAM ISLAND</td><td>179</td><td>CZECHOSLOVAKIA</td><td>296</td><td>CLIPPERTON ISLAND</td></tr>
-            <tr><td>63</td><td>ST. HELENA ISLAND</td><td>180</td><td>OMAN</td><td>297</td><td>BOUVET ISLAND</td></tr>
-            <tr><td>64</td><td>SENEGAL REPUBLIC</td><td>181</td><td>SYRIA</td><td>298</td><td>CROZET ISLANDS</td></tr>
-            <tr><td>65</td><td>SIERRA LEONE</td><td>182</td><td>REPUBLIC OF GUINEA</td><td>299</td><td>DESEECHEO ISLAND</td></tr>
-            <tr><td>66</td><td>MAURITANIA</td><td>183</td><td>BENIN</td><td>300</td><td>WESTERN SAHARA</td></tr>
-            <tr><td>67</td><td>PARAGUAY</td><td>184</td><td>BURUNDI</td><td>301</td><td>ARMENIA</td></tr>
-            <tr><td>68</td><td>NORTHERN IRELAND</td><td>185</td><td>COMOROS ISLANDS</td><td>302</td><td>ASIATIC RUSSIA</td></tr>
-            <tr><td>69</td><td>COSTA RICA</td><td>186</td><td>DIJIBOUTI</td><td>303</td><td>AZERBAIJAN</td></tr>
-            <tr><td>70</td><td>AMERICAN SAMOA ISLANDS</td><td>187</td><td>KENYA</td><td>304</td><td>ESTONIA</td></tr>
-            <tr><td>71</td><td>MIDWAY ISLANDS</td><td>188</td><td>MALAGASY REPUBLIC</td><td>305</td><td>FRANZ JOSEF LAND</td></tr>
-            <tr><td>72</td><td>GUATEMALA</td><td>189</td><td>MAYOTTE ISLAND</td><td>306</td><td>GEORGIA</td></tr>
-            <tr><td>73</td><td>SURINAME</td><td>190</td><td>SEYCHELLES ISLANDS</td><td>307</td><td>KALININGRADSK</td></tr>
-            <tr><td>74</td><td>NAMIBIA</td><td>191</td><td>SWAZILAND</td><td>308</td><td>KAZAKH</td></tr>
-            <tr><td>75</td><td>AZORES ISLANDS</td><td>192</td><td>COCOS ISLAND</td><td>309</td><td>KIRGHIZ</td></tr>
-            <tr><td>76</td><td>MOROCCO</td><td>193</td><td>COCOS-KEELING ISLANDS</td><td>310</td><td>LATVIA</td></tr>
-            <tr><td>77</td><td>GHANA</td><td>194</td><td>DOMINICA ISLAND</td><td>311</td><td>LITHUANIA</td></tr>
-            <tr><td>78</td><td>ZAMBIA</td><td>195</td><td>GRENADA ISLAND</td><td>312</td><td>MOLDAVIA</td></tr>
-            <tr><td>79</td><td>PHILIPPENE ISLANDS</td><td>196</td><td>GUADALUPE ISLAND</td><td>313</td><td>TADZHIK</td></tr>
-            <tr><td>80</td><td>BOLIVIA</td><td>197</td><td>VANUATA</td><td>314</td><td>TURKOMAN</td></tr>
-            <tr><td>81</td><td>SAN ANDRES &amp; PROVIDENCIA ISLANDS</td><td>198</td><td>FALKLAND ISLANDS</td><td>315</td><td>UKRAINE</td></tr>
-            <tr><td>82</td><td>GUANTANAMO BAY</td><td>199</td><td>EQUATORIAL GUINEA</td><td>316</td><td>UZBEK</td></tr>
-            <tr><td>83</td><td>TANZANIA</td><td>200</td><td>SOUTH SHETLAND ISLAND</td><td>317</td><td>BELARUS</td></tr>
-            <tr><td>84</td><td>IVORY COAST</td><td>201</td><td>FRENCH POLYNESIA</td><td>318</td><td>SOVEREIGN MILITARY ORDER OF MALTA</td></tr>
-            <tr><td>85</td><td>ZIMBABWE</td><td>202</td><td>BHUTAN</td><td>319</td><td>UNITED NATIONS NEW YORK</td></tr>
-            <tr><td>86</td><td>NEPAL</td><td>203</td><td>CHINA</td><td>320</td><td>BANABA ISLAND</td></tr>
-            <tr><td>87</td><td>YEMEN</td><td>204</td><td>MOZAMBIQUE</td><td>321</td><td>CONWAY REEF</td></tr>
-            <tr><td>88</td><td>CUBA</td><td>205</td><td>CAPE VERDE ISLANDS</td><td>322</td><td>WALVIS BAY</td></tr>
-            <tr><td>89</td><td>NIGERIA</td><td>206</td><td>ETHIOPIA</td><td>323</td><td>YEMEN REPUBLIC</td></tr>
-            <tr><td>90</td><td>CRETE ISLAND</td><td>207</td><td>ST. MARTIN ISLAND</td><td>324</td><td>PENGUIN ISLANDS</td></tr>
-            <tr><td>91</td><td>INDONESIA</td><td>208</td><td>GLORIEUSES ISLANDS</td><td>325</td><td>ROTUNA ISLAND</td></tr>
-            <tr><td>92</td><td>LIBYA</td><td>209</td><td>JUAN DE NOVA &amp; EUROPA ISLAND</td><td>326</td><td>(DELETED) MALYJ VYSOTSKJ ISLAND</td></tr>
-            <tr><td>93</td><td>MALTA</td><td>210</td><td>WALLIS &amp; FUTUNA ISLANDS</td><td>327</td><td>SLOVENIA</td></tr>
-            <tr><td>94</td><td>UNITED ARAB EMIRATES</td><td>211</td><td>JAN MAYEN ISLAND</td><td>328</td><td>CROATIA</td></tr>
-            <tr><td>95</td><td>MONGOLIA</td><td>212</td><td>ALAND ISLAND</td><td>329</td><td>CZECH REPUBLIC</td></tr>
-            <tr><td>96</td><td>TONGA ISLANDS</td><td>213</td><td>MARKET REEF</td><td>330</td><td>SLOVAK REPUBLIC</td></tr>
-            <tr><td>97</td><td>ISRAEL</td><td>214</td><td>CONGO REPUBLIC</td><td>331</td><td>BOSNIA HERCEGOVINIA</td></tr>
-            <tr><td>98</td><td>SINGAPORE</td><td>215</td><td>GABON REPUBLIC</td><td>332</td><td>MACEDONIA</td></tr>
-            <tr><td>99</td><td>FIJI ISLANDS</td><td>216</td><td>MALI REPUBLIC</td><td>333</td><td>ERITREA</td></tr>
-            <tr><td>100</td><td>KOREA</td><td>217</td><td>CHRISTMAS ISLAND</td><td>334</td><td>NORTH KOREA</td></tr>
-            <tr><td>101</td><td>PAPUA-NEW GUINEA</td><td>218</td><td>BELIZE</td><td>335</td><td>SCARBOROUGH REEF</td></tr>
-            <tr><td>102</td><td>KUWAIT</td><td>219</td><td>ANGUILLA ISLAND</td><td>336</td><td>PRATOS ISLAND</td></tr>
-            <tr><td>103</td><td>HAITI</td><td>220</td><td>ST. VINCENT ISLAND &amp; DEPENDECIES</td><td>337</td><td>AUSTRAL ISLANDS</td></tr>
-            <tr><td>104</td><td>CORSICA</td><td>221</td><td>SOUTH ORKNEY</td><td>338</td><td>MARQUESAS ISLANDS</td></tr>
-            <tr><td>105</td><td>BOTSWANA</td><td>222</td><td>SOUTH SANDWICH ISLANDS</td><td>339</td><td>TEMOTU</td></tr>
-            <tr><td>106</td><td>CEUTA &amp; MELILLA</td><td>223</td><td>WESTERN SAMOA ISLANDS</td><td>340</td><td>PALESTINA</td></tr>
-            <tr><td>107</td><td>MONACO</td><td>224</td><td>WESTERN KIRIBATI</td><td>341</td><td>EAST TIMOR</td></tr>
-            <tr><td>108</td><td>SCOTLAND</td><td>225</td><td>BRUNEI</td><td>342</td><td>CHESTERFIELDS ISLANDS</td></tr>
-            <tr><td>109</td><td>HUNGARY</td><td>226</td><td>MALAWI</td><td>343</td><td>DUCIE ISLAND</td></tr>
-            <tr><td>110</td><td>CYPRA</td><td>227</td><td>RWANDA</td><td>344</td><td>MONTENEGRO</td></tr>
-            <tr><td>111</td><td>JORDAN</td><td>228</td><td>CHAGOS</td><td>345</td><td>SWAIN’S ISLAND</td></tr>
-            <tr><td>112</td><td>LEBANON</td><td>229</td><td>HEARD ISLAND VK0H</td><td>346</td><td>SAINT BARTHELEMY</td></tr>
-            <tr><td>113</td><td>WEST MALAYSIA</td><td>230</td><td>MICRONESIA</td><td>347</td><td>CURACAO</td></tr>
-            <tr><td>114</td><td>PAKISTAN</td><td>231</td><td>ST. PETER &amp; ST. PAUL ROCKS</td><td>348</td><td>SINT MAARTEN</td></tr>
-            <tr><td>115</td><td>QATAR</td><td>232</td><td>ARUBA</td><td>349</td><td>SABA AND ST. EUSTATIUS</td></tr>
-            <tr><td>116</td><td>TURKEY</td><td>233</td><td>ROMANIA</td><td>350</td><td>BONAIRE</td></tr>
-            <tr><td>117</td><td>EYGPT</td><td>234</td><td>AFGHANISTAN</td><td>351</td><td>REPUBLIC OF SOUTH SUDAN</td></tr>
+            <tr><td>1</td><td>Italy</td></tr>
+            <tr><td>2</td><td>United States Of America</td></tr>
+            <tr><td>3</td><td>Brazil</td></tr>
+            <tr><td>4</td><td>Argentina</td></tr>
+            <tr><td>5</td><td>Venezuela</td></tr>
+            <tr><td>6</td><td>Columbia</td></tr>
+            <tr><td>7</td><td>Netherlands Antilles</td></tr>
+            <tr><td>8</td><td>Peru</td></tr>
+            <tr><td>9</td><td>Canada</td></tr>
+            <tr><td>10</td><td>Mexico</td></tr>
+            <tr><td>11</td><td>Puerto Rico</td></tr>
+            <tr><td>12</td><td>Uruguay</td></tr>
+            <tr><td>13</td><td>Germany</td></tr>
+            <tr><td>14</td><td>France</td></tr>
+            <tr><td>15</td><td>Switzerland</td></tr>
+            <tr><td>16</td><td>Belgium</td></tr>
+            <tr><td>17</td><td>Hawaiian Islands</td></tr>
+            <tr><td>18</td><td>Greece</td></tr>
+            <tr><td>19</td><td>Netherlands</td></tr>
+            <tr><td>20</td><td>Norway</td></tr>
+            <tr><td>21</td><td>Sweden</td></tr>
+            <tr><td>22</td><td>French Guyana</td></tr>
+            <tr><td>23</td><td>Jamaica</td></tr>
+            <tr><td>24</td><td>Panama</td></tr>
+            <tr><td>25</td><td>Japan</td></tr>
+            <tr><td>26</td><td>England</td></tr>
+            <tr><td>27</td><td>Iceland</td></tr>
+            <tr><td>28</td><td>Honduras</td></tr>
+            <tr><td>29</td><td>Ireland</td></tr>
+            <tr><td>30</td><td>Spain</td></tr>
+            <tr><td>31</td><td>Portugal</td></tr>
+            <tr><td>32</td><td>Chile</td></tr>
+            <tr><td>33</td><td>Alaska</td></tr>
+            <tr><td>34</td><td>Canary Islands</td></tr>
+            <tr><td>35</td><td>Austria</td></tr>
+            <tr><td>36</td><td>San Marino</td></tr>
+            <tr><td>37</td><td>Dominican Republic</td></tr>
+            <tr><td>38</td><td>Greenland</td></tr>
+            <tr><td>39</td><td>Angola</td></tr>
+            <tr><td>40</td><td>Liechtenstien</td></tr>
+            <tr><td>41</td><td>New Zealand</td></tr>
+            <tr><td>42</td><td>Liberia</td></tr>
+            <tr><td>43</td><td>Australia</td></tr>
+            <tr><td>44</td><td>South Africa</td></tr>
+            <tr><td>45</td><td>Serbia</td></tr>
+            <tr><td>46</td><td>East Germany</td></tr>
+            <tr><td>47</td><td>Denmark</td></tr>
+            <tr><td>48</td><td>Saudia Arabia</td></tr>
+            <tr><td>49</td><td>Balearic Islands</td></tr>
+            <tr><td>50</td><td>European Russia</td></tr>
+            <tr><td>51</td><td>Andorra</td></tr>
+            <tr><td>52</td><td>Faroer Islands</td></tr>
+            <tr><td>53</td><td>El Salvador</td></tr>
+            <tr><td>54</td><td>Luxembourg</td></tr>
+            <tr><td>55</td><td>Gibraltar</td></tr>
+            <tr><td>56</td><td>Finland</td></tr>
+            <tr><td>57</td><td>India</td></tr>
+            <tr><td>58</td><td>East Malaysia</td></tr>
+            <tr><td>59</td><td>Dode Canese</td></tr>
+            <tr><td>60</td><td>Hong Kong</td></tr>
+            <tr><td>61</td><td>Equador</td></tr>
+            <tr><td>62</td><td>Guam Island</td></tr>
+            <tr><td>63</td><td>St. Helena Island</td></tr>
+            <tr><td>64</td><td>Senegal Republic</td></tr>
+            <tr><td>65</td><td>Sierra Leone</td></tr>
+            <tr><td>66</td><td>Mauritania</td></tr>
+            <tr><td>67</td><td>Paraguay</td></tr>
+            <tr><td>68</td><td>Northern Ireland</td></tr>
+            <tr><td>69</td><td>Costa Rica</td></tr>
+            <tr><td>70</td><td>American Samoa Islands</td></tr>
+            <tr><td>71</td><td>Midway Islands</td></tr>
+            <tr><td>72</td><td>Guatemala</td></tr>
+            <tr><td>73</td><td>Suriname</td></tr>
+            <tr><td>74</td><td>Namibia</td></tr>
+            <tr><td>75</td><td>Azores Islands</td></tr>
+            <tr><td>76</td><td>Morocco</td></tr>
+            <tr><td>77</td><td>Ghana</td></tr>
+            <tr><td>78</td><td>Zambia</td></tr>
+            <tr><td>79</td><td>Philippene Islands</td></tr>
+            <tr><td>80</td><td>Bolivia</td></tr>
+            <tr><td>81</td><td>San Andres &amp; Providencia Islands</td></tr>
+            <tr><td>82</td><td>Guantanamo Bay</td></tr>
+            <tr><td>83</td><td>Tanzania</td></tr>
+            <tr><td>84</td><td>Ivory Coast</td></tr>
+            <tr><td>85</td><td>Zimbabwe</td></tr>
+            <tr><td>86</td><td>Nepal</td></tr>
+            <tr><td>87</td><td>Yemen</td></tr>
+            <tr><td>88</td><td>Cuba</td></tr>
+            <tr><td>89</td><td>Nigeria</td></tr>
+            <tr><td>90</td><td>Crete Island</td></tr>
+            <tr><td>91</td><td>Indonesia</td></tr>
+            <tr><td>92</td><td>Libya</td></tr>
+            <tr><td>93</td><td>Malta</td></tr>
+            <tr><td>94</td><td>United Arab Emirates</td></tr>
+            <tr><td>95</td><td>Mongolia</td></tr>
+            <tr><td>96</td><td>Tonga Islands</td></tr>
+            <tr><td>97</td><td>Israel</td></tr>
+            <tr><td>98</td><td>Singapore</td></tr>
+            <tr><td>99</td><td>Fiji Islands</td></tr>
+            <tr><td>100</td><td>Korea</td></tr>
+            <tr><td>101</td><td>Papua-New Guinea</td></tr>
+            <tr><td>102</td><td>Kuwait</td></tr>
+            <tr><td>103</td><td>Haiti</td></tr>
+            <tr><td>104</td><td>Corsica</td></tr>
+            <tr><td>105</td><td>Botswana</td></tr>
+            <tr><td>106</td><td>Ceuta &amp; Melilla</td></tr>
+            <tr><td>107</td><td>Monaco</td></tr>
+            <tr><td>108</td><td>Scotland</td></tr>
+            <tr><td>109</td><td>Hungary</td></tr>
+            <tr><td>110</td><td>Cypra</td></tr>
+            <tr><td>111</td><td>Jordan</td></tr>
+            <tr><td>112</td><td>Lebanon</td></tr>
+            <tr><td>113</td><td>West Malaysia</td></tr>
+            <tr><td>114</td><td>Pakistan</td></tr>
+            <tr><td>115</td><td>Qatar</td></tr>
+            <tr><td>116</td><td>Turkey</td></tr>
+            <tr><td>117</td><td>Eygpt</td></tr>
+            <tr><td>118</td><td>The Gambia</td></tr>
+            <tr><td>119</td><td>Maderia Island</td></tr>
+            <tr><td>120</td><td>Antigua &amp; Barbuda Islands</td></tr>
+            <tr><td>121</td><td>The Bahamas</td></tr>
+            <tr><td>122</td><td>Barbados Island</td></tr>
+            <tr><td>123</td><td>Bermuda Island</td></tr>
+            <tr><td>124</td><td>New Amsterdam &amp; St. Paul Islands</td></tr>
+            <tr><td>125</td><td>Cayman Islands</td></tr>
+            <tr><td>126</td><td>Nicaragua</td></tr>
+            <tr><td>127</td><td>Virgin Islands</td></tr>
+            <tr><td>128</td><td>British Virgin Islands</td></tr>
+            <tr><td>129</td><td>Macquarie Islands</td></tr>
+            <tr><td>130</td><td>Norfolk Island</td></tr>
+            <tr><td>131</td><td>Guyana</td></tr>
+            <tr><td>132</td><td>Marshall Islands</td></tr>
+            <tr><td>133</td><td>North Marianas Islands</td></tr>
+            <tr><td>134</td><td>Republic Of Belau</td></tr>
+            <tr><td>135</td><td>Solomon Islands</td></tr>
+            <tr><td>136</td><td>Martinique Island</td></tr>
+            <tr><td>137</td><td>Isle Of Man</td></tr>
+            <tr><td>138</td><td>Vatican City State</td></tr>
+            <tr><td>139</td><td>Southern Yemen</td></tr>
+            <tr><td>140</td><td>Antartica</td></tr>
+            <tr><td>141</td><td>St. Pierre &amp; Miquelon Is.</td></tr>
+            <tr><td>142</td><td>Lesotho</td></tr>
+            <tr><td>143</td><td>St. Lucia Island</td></tr>
+            <tr><td>144</td><td>Easter Island</td></tr>
+            <tr><td>145</td><td>Galapagos Island</td></tr>
+            <tr><td>146</td><td>Algeria</td></tr>
+            <tr><td>147</td><td>Tunisia</td></tr>
+            <tr><td>148</td><td>Ascension Island</td></tr>
+            <tr><td>149</td><td>Laccadive Islands</td></tr>
+            <tr><td>150</td><td>Barain</td></tr>
+            <tr><td>151</td><td>Iraq</td></tr>
+            <tr><td>152</td><td>Maldive Islands</td></tr>
+            <tr><td>153</td><td>Thailand</td></tr>
+            <tr><td>154</td><td>Iran</td></tr>
+            <tr><td>155</td><td>Taiwan</td></tr>
+            <tr><td>156</td><td>Cameroon</td></tr>
+            <tr><td>157</td><td>Montserrat Island</td></tr>
+            <tr><td>158</td><td>Trinidad &amp; Tobago Islands</td></tr>
+            <tr><td>159</td><td>Somalt Republic</td></tr>
+            <tr><td>160</td><td>Sudan</td></tr>
+            <tr><td>161</td><td>Poland</td></tr>
+            <tr><td>162</td><td>Republic Of Zaire</td></tr>
+            <tr><td>163</td><td>Wales</td></tr>
+            <tr><td>164</td><td>Togo Republic</td></tr>
+            <tr><td>165</td><td>Sardinia Island</td></tr>
+            <tr><td>166</td><td>Sint Maarten, Saba &amp; St. Eu-Statius</td></tr>
+            <tr><td>167</td><td>Jersey Island</td></tr>
+            <tr><td>168</td><td>Mauritis Islands</td></tr>
+            <tr><td>169</td><td>Guernsey Island &amp; Dependencies</td></tr>
+            <tr><td>170</td><td>Burkina Faso</td></tr>
+            <tr><td>171</td><td>Svalbard Islands</td></tr>
+            <tr><td>172</td><td>New Caledonia</td></tr>
+            <tr><td>173</td><td>Reunion Island</td></tr>
+            <tr><td>174</td><td>Uganda</td></tr>
+            <tr><td>175</td><td>Chad Republic</td></tr>
+            <tr><td>176</td><td>Central African Republic</td></tr>
+            <tr><td>177</td><td>Sri Lanka</td></tr>
+            <tr><td>178</td><td>Bulgaria</td></tr>
+            <tr><td>179</td><td>Czechoslovakia</td></tr>
+            <tr><td>180</td><td>Oman</td></tr>
+            <tr><td>181</td><td>Syria</td></tr>
+            <tr><td>182</td><td>Republic Of Guinea</td></tr>
+            <tr><td>183</td><td>Benin</td></tr>
+            <tr><td>184</td><td>Burundi</td></tr>
+            <tr><td>185</td><td>Comoros Islands</td></tr>
+            <tr><td>186</td><td>Dijibouti</td></tr>
+            <tr><td>187</td><td>Kenya</td></tr>
+            <tr><td>188</td><td>Malagasy Republic</td></tr>
+            <tr><td>189</td><td>Mayotte Island</td></tr>
+            <tr><td>190</td><td>Seychelles Islands</td></tr>
+            <tr><td>191</td><td>Swaziland</td></tr>
+            <tr><td>192</td><td>Cocos Island</td></tr>
+            <tr><td>193</td><td>Cocos-Keeling Islands</td></tr>
+            <tr><td>194</td><td>Dominica Island</td></tr>
+            <tr><td>195</td><td>Grenada Island</td></tr>
+            <tr><td>196</td><td>Guadalupe Island</td></tr>
+            <tr><td>197</td><td>Vanuata</td></tr>
+            <tr><td>198</td><td>Falkland Islands</td></tr>
+            <tr><td>199</td><td>Equatorial Guinea</td></tr>
+            <tr><td>200</td><td>South Shetland Island</td></tr>
+            <tr><td>201</td><td>French Polynesia</td></tr>
+            <tr><td>202</td><td>Bhutan</td></tr>
+            <tr><td>203</td><td>China</td></tr>
+            <tr><td>204</td><td>Mozambique</td></tr>
+            <tr><td>205</td><td>Cape Verde Islands</td></tr>
+            <tr><td>206</td><td>Ethiopia</td></tr>
+            <tr><td>207</td><td>St. Martin Island</td></tr>
+            <tr><td>208</td><td>Glorieuses Islands</td></tr>
+            <tr><td>209</td><td>Juan De Nova &amp; Europa Island</td></tr>
+            <tr><td>210</td><td>Wallis &amp; Futuna Islands</td></tr>
+            <tr><td>211</td><td>Jan Mayen Island</td></tr>
+            <tr><td>212</td><td>Aland Island</td></tr>
+            <tr><td>213</td><td>Market Reef</td></tr>
+            <tr><td>214</td><td>Congo Republic</td></tr>
+            <tr><td>215</td><td>Gabon Republic</td></tr>
+            <tr><td>216</td><td>Mali Republic</td></tr>
+            <tr><td>217</td><td>Christmas Island</td></tr>
+            <tr><td>218</td><td>Belize</td></tr>
+            <tr><td>219</td><td>Anguilla Island</td></tr>
+            <tr><td>220</td><td>St. Vincent Island &amp; Dependecies</td></tr>
+            <tr><td>221</td><td>South Orkney</td></tr>
+            <tr><td>222</td><td>South Sandwich Islands</td></tr>
+            <tr><td>223</td><td>Western Samoa Islands</td></tr>
+            <tr><td>224</td><td>Western Kiribati</td></tr>
+            <tr><td>225</td><td>Brunei</td></tr>
+            <tr><td>226</td><td>Malawi</td></tr>
+            <tr><td>227</td><td>Rwanda</td></tr>
+            <tr><td>228</td><td>Chagos</td></tr>
+            <tr><td>229</td><td>Heard Island Vk0h</td></tr>
+            <tr><td>230</td><td>Micronesia</td></tr>
+            <tr><td>231</td><td>St. Peter &amp; St. Paul Rocks</td></tr>
+            <tr><td>232</td><td>Aruba</td></tr>
+            <tr><td>233</td><td>Romania</td></tr>
+            <tr><td>234</td><td>Afghanistan</td></tr>
+            <tr><td>235</td><td>Itu Geneva</td></tr>
+            <tr><td>236</td><td>Bangladesh</td></tr>
+            <tr><td>237</td><td>Union Of Myanmar</td></tr>
+            <tr><td>238</td><td>Kampuchea</td></tr>
+            <tr><td>239</td><td>Laos</td></tr>
+            <tr><td>240</td><td>Macao</td></tr>
+            <tr><td>241</td><td>Spratly Islands</td></tr>
+            <tr><td>242</td><td>Vietnam</td></tr>
+            <tr><td>243</td><td>Agalega &amp; St. Brandon Is.</td></tr>
+            <tr><td>244</td><td>Annoban Island</td></tr>
+            <tr><td>245</td><td>Niger Republic</td></tr>
+            <tr><td>246</td><td>Sao Tomes &amp; Principe Islands</td></tr>
+            <tr><td>247</td><td>Navassa Island</td></tr>
+            <tr><td>248</td><td>Turks &amp; Caicos Islands</td></tr>
+            <tr><td>249</td><td>Northern Cook Islands</td></tr>
+            <tr><td>250</td><td>Southern Cook Islands</td></tr>
+            <tr><td>251</td><td>Albania</td></tr>
+            <tr><td>252</td><td>Revillagigedo Islands</td></tr>
+            <tr><td>253</td><td>Andaman &amp; Nicobar Islands</td></tr>
+            <tr><td>254</td><td>Mount Athos</td></tr>
+            <tr><td>255</td><td>Kerguelan Islands</td></tr>
+            <tr><td>256</td><td>Prince Edward &amp; Marion Isls.</td></tr>
+            <tr><td>257</td><td>Rodriguez Island</td></tr>
+            <tr><td>258</td><td>Tristan Da Cunha &amp; Gough Is.</td></tr>
+            <tr><td>259</td><td>Tromelin Island</td></tr>
+            <tr><td>260</td><td>Baker &amp; Howland Islands</td></tr>
+            <tr><td>261</td><td>Chatham Islands</td></tr>
+            <tr><td>262</td><td>Johnston Island</td></tr>
+            <tr><td>263</td><td>Kermadee Islands</td></tr>
+            <tr><td>264</td><td>Kingman Reef</td></tr>
+            <tr><td>265</td><td>Central Kiribati</td></tr>
+            <tr><td>266</td><td>Eastern Kiribati</td></tr>
+            <tr><td>267</td><td>Kure Islands</td></tr>
+            <tr><td>268</td><td>Lord Howe Island</td></tr>
+            <tr><td>269</td><td>Mellish Reef</td></tr>
+            <tr><td>270</td><td>Minami Torishima Island</td></tr>
+            <tr><td>271</td><td>Republic Of Nauru</td></tr>
+            <tr><td>272</td><td>Nive Island</td></tr>
+            <tr><td>273</td><td>Jarvis &amp; Pds</td></tr>
+            <tr><td>274</td><td>Pitcairn Island</td></tr>
+            <tr><td>275</td><td>Tokelau Islands</td></tr>
+            <tr><td>276</td><td>Tuvalu Islands</td></tr>
+            <tr><td>277</td><td>Sable Island</td></tr>
+            <tr><td>278</td><td>Wake Island</td></tr>
+            <tr><td>279</td><td>Willis Islets</td></tr>
+            <tr><td>280</td><td>Aves Island</td></tr>
+            <tr><td>281</td><td>Ogasawara Islands</td></tr>
+            <tr><td>282</td><td>Auckland &amp; Campbell Isl.</td></tr>
+            <tr><td>283</td><td>St. Kitts &amp; Nevis Island</td></tr>
+            <tr><td>284</td><td>St. Paul Island</td></tr>
+            <tr><td>285</td><td>Fernando De Noronha Island</td></tr>
+            <tr><td>286</td><td>Juan Fernandez Islands</td></tr>
+            <tr><td>287</td><td>Malpelo Island</td></tr>
+            <tr><td>288</td><td>San Felix &amp; San Ambrosio</td></tr>
+            <tr><td>289</td><td>South Georgia Islands</td></tr>
+            <tr><td>290</td><td>Trindade &amp; Martim Vaz Is</td></tr>
+            <tr><td>291</td><td>Dhekelia &amp; Akrotiri</td></tr>
+            <tr><td>292</td><td>Abu-Ail &amp; Jabal-At-Tair</td></tr>
+            <tr><td>293</td><td>Guinea Bissau</td></tr>
+            <tr><td>294</td><td>Peter 1st Island</td></tr>
+            <tr><td>295</td><td>Southern Sudan</td></tr>
+            <tr><td>296</td><td>Clipperton Island</td></tr>
+            <tr><td>297</td><td>Bouvet Island</td></tr>
+            <tr><td>298</td><td>Crozet Islands</td></tr>
+            <tr><td>299</td><td>Deseecheo Island</td></tr>
+            <tr><td>300</td><td>Western Sahara</td></tr>
+            <tr><td>301</td><td>Armenia</td></tr>
+            <tr><td>302</td><td>Asiatic Russia</td></tr>
+            <tr><td>303</td><td>Azerbaijan</td></tr>
+            <tr><td>304</td><td>Estonia</td></tr>
+            <tr><td>305</td><td>Franz Josef Land</td></tr>
+            <tr><td>306</td><td>Georgia</td></tr>
+            <tr><td>307</td><td>Kaliningradsk</td></tr>
+            <tr><td>308</td><td>Kazakh</td></tr>
+            <tr><td>309</td><td>Kirghiz</td></tr>
+            <tr><td>310</td><td>Latvia</td></tr>
+            <tr><td>311</td><td>Lithuania</td></tr>
+            <tr><td>312</td><td>Moldavia</td></tr>
+            <tr><td>313</td><td>Tadzhik</td></tr>
+            <tr><td>314</td><td>Turkoman</td></tr>
+            <tr><td>315</td><td>Ukraine</td></tr>
+            <tr><td>316</td><td>Uzbek</td></tr>
+            <tr><td>317</td><td>Belarus</td></tr>
+            <tr><td>318</td><td>Sovereign Military Order Of Malta</td></tr>
+            <tr><td>319</td><td>United Nations New York</td></tr>
+            <tr><td>320</td><td>Banaba Island</td></tr>
+            <tr><td>321</td><td>Conway Reef</td></tr>
+            <tr><td>322</td><td>Walvis Bay</td></tr>
+            <tr><td>323</td><td>Yemen Republic</td></tr>
+            <tr><td>324</td><td>Penguin Islands</td></tr>
+            <tr><td>325</td><td>Rotuna Island</td></tr>
+            <tr><td>326</td><td>(deleted) Malyj Vysotskj Island</td></tr>
+            <tr><td>327</td><td>Slovenia</td></tr>
+            <tr><td>328</td><td>Croatia</td></tr>
+            <tr><td>329</td><td>Czech Republic</td></tr>
+            <tr><td>330</td><td>Slovak Republic</td></tr>
+            <tr><td>331</td><td>Bosnia Hercegovinia</td></tr>
+            <tr><td>332</td><td>Macedonia</td></tr>
+            <tr><td>333</td><td>Eritrea</td></tr>
+            <tr><td>334</td><td>North Korea</td></tr>
+            <tr><td>335</td><td>Scarborough Reef</td></tr>
+            <tr><td>336</td><td>Pratos Island</td></tr>
+            <tr><td>337</td><td>Austral Islands</td></tr>
+            <tr><td>338</td><td>Marquesas Islands</td></tr>
+            <tr><td>339</td><td>Temotu</td></tr>
+            <tr><td>340</td><td>Palestina</td></tr>
+            <tr><td>341</td><td>East Timor</td></tr>
+            <tr><td>342</td><td>Chesterfields Islands</td></tr>
+            <tr><td>343</td><td>Ducie Island</td></tr>
+            <tr><td>344</td><td>Montenegro</td></tr>
+            <tr><td>345</td><td>Swain’s Island</td></tr>
+            <tr><td>346</td><td>Saint Barthelemy</td></tr>
+            <tr><td>347</td><td>Curacao</td></tr>
+            <tr><td>348</td><td>Sint Maarten</td></tr>
+            <tr><td>349</td><td>Saba And St. Eustatius</td></tr>
+            <tr><td>350</td><td>Bonaire</td></tr>
+            <tr><td>351</td><td>Republic Of South Sudan</td></tr>
           </tbody>
         </table>
       </div>
@@ -481,6 +713,10 @@
   <?php include('footer.php') ?>
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
+  <script src='vendor/js/cbpre.js'></script>
   <script src='vendor/js/tawkto.js'></script>
   <script src='vendor/js/stt.js'></script>
 </body>

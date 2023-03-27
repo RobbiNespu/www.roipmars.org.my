@@ -97,9 +97,9 @@
     </div>
     <div class='row'>
       <div class='col-12 my-2'>
-        <div class='alert alert-light shadow p-3 bg-body-tertiary rounded-5'>
-          <h4 class='fs-1 text-light-emphasis alert-heading text-center fw-bolder'>SEBARAN AWAM</h4>
-          <p class='fs-3 mx-2 text-break text-center'>Kepada Inividu, Komuniti, Kelab, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS.<br>Kami juga menyediakan perkhidmatan komunikasi untuk SYARIKAT yang berminat untuk menjalankan hubungan komunikasi antara cawangan ataupun pekerja. <br>Pasukan teknikal kami sedia membantu. Hubungi kami melalui emel ke <a class='text-light text-decoration-none' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member@roipmars.org.my</a> untuk mendapatkan maklumat lanjut.</p>
+        <div class='alert alert-info shadow p-3 bg-body-secondary rounded-5'>
+          <h4 class='fs-1 text-info-emphasis alert-heading text-center fw-bolder'>SEBARAN AWAM</h4>
+          <p class='fs-4 mx-2 text-break text-center'>Kepada Inividu / Komuniti / Kelab, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS.<br>Kami juga menyediakan khidmat nasihat untuk SYARIKAT yang berminat untuk mendirikan jaringan komunikasi.<br>Pasukan teknikal kami sedia membantu. Hubungi kami melalui emel ke <a class='text-info-emphasis text-decoration-none' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member@roipmars.org.my</a> untuk mendapatkan maklumat lanjut.</p>
           <p class='fs-6 lh-1 font-monospace text-sm-end'>&#39;JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI&#39;<br>Tulus Ikhlas,<br>Bahagian Pengurusan Rangkaian Kumpulan RoIPMARS</p>
         </div>
       </div>
@@ -113,7 +113,7 @@
     <div class='row text-center'>
       <div class='col-xxl-3 col-md-6 my-2'>
         <div class='card'>
-          <img src='media/image/pic01.jpg' class='card-img-top'>
+          <img class='card-img-top' src='media/image/pic01.jpg'>
           <div class='card-body'>
             <h4 class='card-title'>Promosi</h4>
             <p class='card-text'>Ianya bukanlah satu tugas yang mudah untuk mempromosikan ROIP. Pada masa itu, kami telah dikejutkan kerana memperkenalkan teknologi internet sebagai alternatif ke radio ham. Kami berharap agar lama-kelamaan warga ham secara amnya akan terus menerajui teknologi baru.</p>
@@ -122,7 +122,7 @@
       </div>
       <div class='col-xxl-3 col-md-6 my-2'>
         <div class='card'>
-          <img src='media/image/pic02.jpg' class='card-img-top'>
+          <img class='card-img-top' src='media/image/pic02.jpg'>
           <div class='card-body'>
             <h4 class='card-title'>Kerjasama</h4>
             <p class='card-text'>Apabila peluang muncul, kami berusaha untuk bekerjasama dengan kelab / persatuan lain untuk mempromosikan radio amatur. Beberapa kelab tempatan telah bersama berganding bahu mendalami teknologi ROIP. Semua bersepakat bahawa ROIP adalah alternatif apabila pengulang tidak berfungsi.</p>
@@ -131,7 +131,7 @@
       </div>
       <div class='col-xxl-3 col-md-6 my-2'>
         <div class='card'>
-          <img src='media/image/pic03.jpg' class='card-img-top'>
+          <img class='card-img-top' src='media/image/pic03.jpg'>
           <div class='card-body'>
             <h4 class='card-title'>Jamboree</h4>
             <p class='card-text'>Kami mengambil bahagian secara aktif dalam acara tahunan JOTA JOTI. Pengakap diperkenalkan kepada komunikasi tanpa wayar dan diberi peluang untuk mengalami QSO buat kali pertama. Ramai yang teruja dan berminat untuk mengejar hobi radio amatur dalam masa terdekat.</p>
@@ -140,7 +140,7 @@
       </div>
       <div class='col-xxl-3 col-md-6 my-2'>
         <div class='card'>
-          <img src='media/image/pic04.jpg' class='card-img-top'>
+          <img class='card-img-top' src='media/image/pic04.jpg'>
           <div class='card-body'>
             <h4 class='card-title'>Generasi Baru</h4>
             <p class='card-text'>Sambutan daripada kanak-kanak adalah di luar jangkaan kami. Mereka bersemangat apabila diberi peluang untuk mengendalikan sebuah stesen. Orang yang ramai lebih sukar untuk dikendalikan tetapi bernilai masa dan usaha kami. Kami menyukai semangat tinggi yang dipaparkan.</p>

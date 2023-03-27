@@ -13,9 +13,8 @@
       <div class='row my-2'>
         <div class='col-lg-8 mx-auto my-1 text-md-start'>
           <h5 class='text-uppercase mb-2 fw-bold'>Sumbangan</h5>
-          <p class='mb-2'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan kami serta semua
-            Perkhidmatan kami tersedia untuk anda pada bila-bila masa di mana sahaja</p>
-          <table class='table table-sm table-bordered table-striped text-center align-middle text-wrap my-0 mx-auto w-auto' style='white-space: nowrap'>
+          <p class='mb-2'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan serta Perkhidmatan kami tersedia untuk anda sepanjang masa di mana sahaja.</p>
+          <table class='table table-sm table-bordered text-center align-middle text-wrap my-0 mx-auto w-auto' style='white-space: nowrap'>
             <tbody>
               <tr>
                 <th>Nama</th>
@@ -31,7 +30,7 @@
               </tr>
             </tbody>
           </table>
-          <p class='my-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='donateTngd()'><img src='media/image/tngew_ht.png' class='img-fluid' width='50px'></a> | <a class='text-reset text-decoration-none' href='#' onClick='donateToyyib()'><img src='media/image/fpx.png' class='img-fluid bg-body-secondary' width='50px'></a> | <a class='text-reset text-decoration-none' href='#' onClick='donateStripe()'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
+          <p class='mt-2 mb-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='donateTngd()'><img src='media/image/tngew_ht.png' class='img-fluid bg-light rounded-2 px-1' width='45'></a> | <a class='text-reset text-decoration-none' href='#' onClick='donateToyyib()'><img src='media/image/fpx.png' class='img-fluid bg-light rounded-2 p-1' width='50'></a> | <a class='text-reset text-decoration-none' href='#' onClick='donateStripe()'><i class='bi-credit-card text-white fs-2 align-middle'></i></a></p>
           <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
         </div>
         <div class='col-lg-4 mx-auto my-1'>
@@ -59,26 +58,7 @@
       </div>
       <div class='row my-2 d-flex align-items-center'>
         <div class='col-md-9'>
-          <p class='text-md-start font-monospace user-select-none'><a href='policies' class='text-reset text-decoration-none pe-auto'>Polisi Perkhidmatan</a><span class='text-body-tertiary'>
-              &#124; <i class='fa-solid fa-code'></i> <i class='fa-brands fa-github'></i> <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-font-awesome'></i> <i class='fa-brands fa-cloudflare'></i><br>
-              <?php date_default_timezone_get();
-              $fileindir = filemtime(scandir(__DIR__)[0]);
-              echo 'Kemaskini: ' . date('d/m/Y, h:i A', $fileindir); ?>
-              |
-              <?php function getVisitorIp()
-              {
-                if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
-                  $ipAdress = $_SERVER['HTTP_CLIENT_IP'];
-                } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-                  $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'];
-                } else {
-                  $ipAdress = $_SERVER['https://api64.ipify.org'];
-                }
-                return $ipAdress;
-              }
-              echo 'IP Anda: ' . getVisitorIp(); ?><br><i class='bi-c-circle'></i> 2014&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. | PERSATUAN PEMINAT
-              RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020
-            </span></p>
+          <p class='text-md-start font-monospace user-select-none'><a href='policies' class='text-reset text-decoration-none pe-auto'>Polisi Perkhidmatan</a><span class='text-body-tertiary'>&#124; <i class='fa-solid fa-code'></i> <i class='fa-brands fa-github'></i> <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-font-awesome'></i> <i class='fa-brands fa-cloudflare'></i><br> <?php date_default_timezone_get(); $fileindir = filemtime(scandir(__DIR__)[0]); echo 'Kemaskini: ' . date('d/m/Y, h:i A', $fileindir); ?> | <?php function getVisitorIp() { if (!empty($_SERVER['HTTP_CLIENT_IP'])) { $ipAdress = $_SERVER['HTTP_CLIENT_IP']; } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) { $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR']; } else { $ipAdress = file_get_contents('https://api64.ipify.org'); } return $ipAdress; } echo 'IP Anda: ' . getVisitorIp(); ?><br><i class='bi-c-circle'></i> 2014&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. | PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#91;RADIO OVER INTERNET PROTOCOL&#93;&#41; PPM-006-10-01062020</span></p>
         </div>
         <div class='col-md-3 ml-lg-0 mb-3'>
           <div class='text-md-end'>

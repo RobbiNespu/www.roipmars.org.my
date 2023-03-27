@@ -5,7 +5,7 @@ function ts3marslogin() {
   if ((cs == '') || (name == '') || (location == '')) {
     return blank;
   } else {
-    window.location.href = 'ts3server://roipmars.org.my?nickname=' + cs + '%20' + name + '%20' + location + '&cid=7&addbookmark=RoIPMARS.org.MY';
+    window.location.href = 'ts3server://roipmars.org.my?nickname=' + cs + '%20' + name + '%20' + location + '&cid=23&addbookmark=RoIPMARS.org.MY';
   }
 }
 
@@ -16,7 +16,7 @@ function ts3dalogin() {
   if ((cs == '') || (name == '') || (location == '')) {
     return blank;
   } else {
-    window.location.href = 'ts3server://roipdarulaman.com?nickname=' + cs + '%20' + name + '%20' + location + '&cid=11&addbookmark=RoIPDarulAman.com';
+    window.location.href = 'ts3server://roipdarulaman.com?nickname=' + cs + '%20' + name + '%20' + location + '&cid=24&addbookmark=RoIPDarulAman.com';
   }
 }
 

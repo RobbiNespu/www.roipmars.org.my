@@ -95,55 +95,15 @@
 			<div class='col-lg-5 my-auto d-block text-center'>
 				<h4 class='text-center'>Aktiviti Net Mingguan</h4>
 				<table class='table table-sm text-center align-middle'>
-					<thead>
-						<th>Hari</th>
-						<th>Masa</th>
-						<th>Program</th>
-						<th>Penganjur</th>
-					</thead>
+					<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
 					<tbody>
-						<tr class='bg-primary-subtle'>
-							<td>Isnin</td>
-							<td>1300Z</td>
-							<td>RoIPMARS Net Awal Minggu<br>&#40;mulai 24 Apr 2023&#41;</td>
-							<td>ROIPMARS</td>
-						</tr>
-						<tr>
-							<td>Selasa</td>
-							<td>&mdash;</td>
-							<td>&mdash;</td>
-							<td>&mdash;</td>
-						</tr>
-						<tr class='bg-info-subtle'>
-							<td>Rabu</td>
-							<td>1300Z</td>
-							<td>Learning English Net</td>
-							<td>ROIPMARS</td>
-						</tr>
-						<tr>
-							<td>Khamis</td>
-							<td>&mdash;</td>
-							<td>&mdash;</td>
-							<td>&mdash;</td>
-						</tr>
-						<tr class='bg-primary-subtle'>
-							<td>Jumaat</td>
-							<td>1300Z</td>
-							<td>RoIPMARS Net Santai</td>
-							<td>ROIPMARS</td>
-						</tr>
-						<tr class='bg-primary-subtle'>
-							<td>Sabtu</td>
-							<td>1300Z</td>
-							<td>RoIPMARS Net Malam Minggu</td>
-							<td>ROIPMARS</td>
-						</tr>
-						<tr class='bg-danger-subtle'>
-							<td>Ahad</td>
-							<td>1300Z</td>
-							<td>CB Net Hujung Minggu</td>
-							<td>ROIPDARULAMAN</td>
-						</tr>
+						<tr class='bg-primary-subtle'><td>Isnin</td><td>1300Z</td><td>RoIPMARS Net Awal Minggu<br>&#40;mulai 24 Apr 2023&#41;</td><td>ROIPMARS</td></tr>
+						<tr><td>Selasa</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+						<tr class='bg-info-subtle'><td>Rabu</td><td>1300Z</td><td>Learning English Net</td><td>ROIPMARS</td></tr>
+						<tr><td>Khamis</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+						<tr class='bg-primary-subtle'><td>Jumaat</td><td>1300Z</td><td>RoIPMARS Net Santai</td><td>ROIPMARS</td></tr>
+						<tr class='bg-primary-subtle'><td>Sabtu</td><td>1300Z</td><td>RoIPMARS Net Malam Minggu</td><td>ROIPMARS</td></tr>
+						<tr class='bg-danger-subtle'><td>Ahad</td><td>1300Z</td><td>CB Net Hujung Minggu</td><td>ROIPDARULAMAN</td></tr>
 					</tbody>
 				</table>
 				<h4>Barisan Jawatankuasa &amp; Petugas<br>Bahagian Siaraya &amp; Aktiviti</h4>
@@ -152,7 +112,7 @@
 						<div class='carousel-item active'>
 							<div class='hstack gap-2'>
 								<img src='media/image/member/013.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-info-subtle bg-gradient mx-auto' alt='9W8VWW'>
-								<p class='lh-1'>9W8VWW / 58MSVWW<br>VERONICA CATHERINE<br>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
+								<p class='lh-1 me-5'>9W8VWW / 58MSVWW<br>VERONICA CATHERINE<br>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
 							</div>
 						</div>
 						<div class='carousel-item'>
@@ -274,7 +234,7 @@
 						<div class='carousel-item'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w8vyy.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-warning mx-auto' alt='9W8VYY'>
+									<img src='media/image/ncs/9w8vyy.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-warning mx-auto' alt='9W8VYY'>
 									<p class='lh-1'>9W8VYY<br>ALEX<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
@@ -292,18 +252,6 @@
 								<div class='vstack gap-2'>
 									<img src='media/image/ncs/113daykb.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='113DAYKB'>
 									<p class='lh-1'>113DAYKB<br>YAAKOB<br>PETUGAS TETAP AKTIVITI</p>
-								</div>
-							</div>
-						</div>
-						<div class='carousel-item'>
-							<div class='hstack gap-2'>
-								<div class='vstack gap-2'>
-									<img src='media/image/member/003.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9M2RAN'>
-									<p class='lh-1'>9M2RAN / 113MSRAN<br>IMRAN<br>PETUGAS SANDARAN AKTIVITI</p>
-								</div>
-								<div class='vstack gap-2'>
-									<img src='media/image/member/011.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2NDI'>
-									<p class='lh-1'>9W2NDI / 113DANDI<br>NASARUDDIN<br>PETUGAS SANDARAN AKTIVITI</p>
 								</div>
 							</div>
 						</div>
@@ -327,136 +275,24 @@
 				<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#012013' aria-expanded='false' aria-controls='012013'>Januari 2023</button></div>
 				<div class='collapse' id='012013'>
 					<div class='table-responsive'>
-						<table class='table table-sm table-bordered table-striped text-center align-middle'>
-							<thead>
-								<th>Hari</th>
-								<th>Masa</th>
-								<th>Acara</th>
-								<th>Pengawal</th>
-								<th>Stesen</th>
-							</thead>
-							<tbody>
-								<tr class='bg-danger-subtle'>
-									<td>Ahad<br>01/01</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru 2023&#41;</td>
-									<td>113DAJCP</td>
-									<td>22</td>
-								</tr>
-								<tr class='bg-info-subtle'>
-									<td>Rabu<br>04/01</td>
-									<td>2100MY</td>
-									<td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td>
-									<td>9M6JAY</td>
-									<td>17</td>
-								</tr>
-								<tr class='text-decoration-line-through'>
-									<td>Jumaat<br>06/01</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W8VYY</td>
-									<td><i class='bi-person-x text-danger fs-4'></i></td>
-								</tr>
-								<tr>
-									<td>Sabtu<br>07/01</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W6AZE</td>
-									<td>37</td>
-								</tr>
-								<tr>
-									<td>Ahad<br>08/01</td>
-									<td>2100MY</td>
-									<td>CB Net</td>
-									<td>113DAYJT</td>
-									<td>31</td>
-								</tr>
-								<tr>
-									<td>Rabu<br>11/01</td>
-									<td>2100MY</td>
-									<td>English Net</td>
-									<td>9M2RAN</td>
-									<td>34</td>
-								</tr>
-								<tr>
-									<td>Jumaat<br>13/01</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W2EZK</td>
-									<td>23</td>
-								</tr>
-								<tr class='bg-info-subtle text-decoration-line-through'>
-									<td>Sabtu<br>14/01</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td>
-									<td>9W2GSV</td>
-									<td><i class='bi-person-x text-danger fs-4'></i></td>
-								</tr>
-								<tr>
-									<td>Ahad<br>15/01</td>
-									<td>2100MY</td>
-									<td>CB Net</td>
-									<td>113DAZIK</td>
-									<td>28</td>
-								</tr>
-								<tr>
-									<td>Rabu<br>18/01</td>
-									<td>2100MY</td>
-									<td>English Net</td>
-									<td>9M6RDY</td>
-									<td>30</td>
-								</tr>
-								<tr>
-									<td>Jumaat<br>20/01</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W2OGK</td>
-									<td>37</td>
-								</tr>
-								<tr class='bg-primary-subtle'>
-									<td>Sabtu<br>21/01</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; MARS Net<br>&#40;Ambang Tahun Baru Cina&#41;</td>
-									<td>9W6MOZ</td>
-									<td>58</td>
-								</tr>
-								<tr class='bg-danger-subtle'>
-									<td>Ahad<br>22/01</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru Cina&#41;</td>
-									<td>113DAPLY</td>
-									<td>26</td>
-								</tr>
-								<tr>
-									<td>Rabu<br>25/01</td>
-									<td>2100MY</td>
-									<td>English Net</td>
-									<td>9M6JAY</td>
-									<td>28</td>
-								</tr>
-								<tr>
-									<td>Jumaat<br>27/01</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W2RHN</td>
-									<td>33</td>
-								</tr>
-								<tr>
-									<td>Sabtu<br>28/01</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9M6AUA</td>
-									<td>34</td>
-								</tr>
-								<tr>
-									<td>Ahad<br>29/01</td>
-									<td>2100MY</td>
-									<td>CB Net</td>
-									<td>113DAYJT</td>
-									<td>10</td>
-								</tr>
-							</tbody>
-							<caption>
+						<table class='table table-sm table-bordered table-striped text-center align-middle'><thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead><tbody>
+								<tr class='bg-danger-subtle'><td>Ahad<br>01/01</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru 2023&#41;</td><td>113DAJCP</td><td>22</td></tr>
+								<tr class='bg-info-subtle'><td>Rabu<br>04/01</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td>9M6JAY</td><td>17</td></tr>
+								<tr class='text-decoration-line-through'><td>Jumaat<br>06/01</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td><i class='bi-person-x text-danger fs-4'></i></td></tr>
+								<tr><td>Sabtu<br>07/01</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td>37</td></tr>
+								<tr><td>Ahad<br>08/01</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>31</td></tr>
+								<tr><td>Rabu<br>11/01</td><td>2100MY</td><td>English Net</td><td>9M2RAN</td><td>34</td></tr>
+								<tr><td>Jumaat<br>13/01</td><td>2100MY</td><td>MARS Net</td><td>9W2EZK</td><td>23</td></tr>
+								<tr class='bg-info-subtle text-decoration-line-through'><td>Sabtu<br>14/01</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Keputeraan YDP Besar Negeri Sembilan&#41;</td><td>9W2GSV</td><td><i class='bi-person-x text-danger fs-4'></i></td></tr>
+								<tr><td>Ahad<br>15/01</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td>28</td></tr>
+								<tr><td>Rabu<br>18/01</td><td>2100MY</td><td>English Net</td><td>9M6RDY</td><td>30</td></tr>
+								<tr><td>Jumaat<br>20/01</td><td>2100MY</td><td>MARS Net</td><td>9W2OGK</td><td>37</td></tr>
+								<tr class='bg-primary-subtle'><td>Sabtu<br>21/01</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Ambang Tahun Baru Cina&#41;</td><td>9W6MOZ</td><td>58</td></tr>
+								<tr class='bg-danger-subtle'><td>Ahad<br>22/01</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru Cina&#41;</td><td>113DAPLY</td><td>26</td></tr>
+								<tr><td>Rabu<br>25/01</td><td>2100MY</td><td>English Net</td><td>9M6JAY</td><td>28</td></tr>
+								<tr><td>Jumaat<br>27/01</td><td>2100MY</td><td>MARS Net</td><td>9W2RHN</td><td>33</td></tr>
+								<tr><td>Sabtu<br>28/01</td><td>2100MY</td><td>MARS Net</td><td>9M6AUA</td><td>34</td></tr>
+								<tr><td>Ahad<br>29/01</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>10</td></tr></tbody><caption>
 								<ul class='list-group list-group-flush'>
 									<li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
 								</ul>
@@ -469,141 +305,25 @@
 				<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#022013' aria-expanded='false' aria-controls='022013'>Februari 2023</button></div>
 				<div class='collapse' id='022013'>
 					<div class='table-responsive'>
-						<table class='table table-sm table-bordered table-striped text-center align-middle'>
-							<thead>
-								<th>Hari</th>
-								<th>Masa</th>
-								<th>Acara</th>
-								<th>Pengawal</th>
-								<th>Stesen</th>
-							</thead>
-							<tbody>
-								<tr class='bg-info-subtle'>
-									<td>Rabu<br>01/02</td>
-									<td>2100MY</td>
-									<td>&#91;SPECIAL&#93; English Net<br>&#40;Federal Territory Day&#41;</td>
-									<td>9W6RHN</td>
-									<td>31</td>
-								</tr>
-								<tr>
-									<td>Jumaat<br>03/02</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W2EZK</td>
-									<td>22</td>
-								</tr>
-								<tr class='bg-primary-subtle'>
-									<td>Sabtu<br>04/02</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Kanser Sedunia&#41;</td>
-									<td>9W2SNN</td>
-									<td>34</td>
-								</tr>
-								<tr class='bg-danger-subtle'>
-									<td>Ahad<br>05/02</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; CB Net<br>&#40;Hari Thaipusam&#41;</td>
-									<td>113DAISS</td>
-									<td>23</td>
-								</tr>
-								<tr>
-									<td>Rabu<br>08/02</td>
-									<td>2100MY</td>
-									<td>English Net</td>
-									<td>9M6AUA</td>
-									<td>37</td>
-								</tr>
-								<tr>
-									<td>Jumaat<br>10/02</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W6PKJ</td>
-									<td>24</td>
-								</tr>
-								<tr>
-									<td>Sabtu<br>11/02</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W6RHN</td>
-									<td>29</td>
-								</tr>
-								<tr>
-									<td>Ahad<br>12/02</td>
-									<td>2100MY</td>
-									<td>CB Net</td>
-									<td>113DAYJT</td>
-									<td>22</td>
-								</tr>
-								<tr>
-									<td>Rabu<br>15/02</td>
-									<td>2100MY</td>
-									<td>English Net</td>
-									<td>9W2EZK</td>
-									<td>18</td>
-								</tr>
-								<tr>
-									<td>Jumaat<br>17/02</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W2YJT</td>
-									<td>32</td>
-								</tr>
-								<tr class='bg-dark-subtle'>
-									<td rowspan='2'>Sabtu<br>18/02</td>
-									<td class='lh-1'>2000MY<br>-<br>0000MY</td>
-									<td>Perjumpaan Santai<br>Penggiat dan Peminat<br>Radio Komunikasi</a></td>
-									<td>Kalumpang Resort,<br>Hulu Selangor</td>
-									<td>&mdash;</td>
-								</tr>
-								<tr class='bg-primary-subtle'>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; MARS Net<br>&#40;Israk Mikraj&#41;</td>
-									<td>9W2UZL</td>
-									<td>63</td>
-								</tr>
-								<tr class='bg-dark-subtle'>
-									<td rowspan='2'>Ahad<br>19/02</td>
-									<td class='lh-1'>0900MY<br>-<br>1200MY</td>
-									<td>Mesyuarat Agung Tahunan<br>Annual General Meeting<br>AGM 2022</td>
-									<td>Kalumpang Resort,<br>Hulu Selangor</td>
-									<td>&mdash;</td>
-								</tr>
-								<tr>
-									<td>2100MY</td>
-									<td>CB Net</td>
-									<td>113DAYJT</td>
-									<td>19</td>
-								</tr>
-								<tr class='bg-info-subtle'>
-									<td>Rabu<br>22/02</td>
-									<td>2100MY</td>
-									<td>&#91;SPECIAL&#93; English Net<br>&#40;World Thinking Day&#41;</td>
-									<td>9W6RHN</td>
-									<td>26</td>
-								</tr>
-								<tr>
-									<td>Jumaat<br>24/02</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W8VYY</td>
-									<td>24</td>
-								</tr>
-								<tr>
-									<td>Sabtu<br>25/02</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W6AZE</td>
-									<td>28</td>
-								</tr>
-								<tr>
-									<td>Ahad<br>26/02</td>
-									<td>2100MY</td>
-									<td>CB Net</td>
-									<td>113DAZIK</td>
-									<td>18</td>
-								</tr>
-							</tbody>
-							<!-- <caption>
+						<table class='table table-sm table-bordered table-striped text-center align-middle'><thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead><tbody>
+								<tr class='bg-info-subtle'><td>Rabu<br>01/02</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Federal Territory Day&#41;</td><td>9W6RHN</td><td>31</td></tr>
+								<tr><td>Jumaat<br>03/02</td><td>2100MY</td><td>MARS Net</td><td>9W2EZK</td><td>22</td></tr>
+								<tr class='bg-primary-subtle'><td>Sabtu<br>04/02</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Kanser Sedunia&#41;</td><td>9W2SNN</td><td>34</td></tr>
+								<tr class='bg-danger-subtle'><td>Ahad<br>05/02</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Hari Thaipusam&#41;</td><td>113DAISS</td><td>23</td></tr>
+								<tr><td>Rabu<br>08/02</td><td>2100MY</td><td>English Net</td><td>9M6AUA</td><td>37</td></tr>
+								<tr><td>Jumaat<br>10/02</td><td>2100MY</td><td>MARS Net</td><td>9W6PKJ</td><td>24</td></tr>
+								<tr><td>Sabtu<br>11/02</td><td>2100MY</td><td>MARS Net</td><td>9W6RHN</td><td>29</td></tr>
+								<tr><td>Ahad<br>12/02</td><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>22</td></tr>
+								<tr><td>Rabu<br>15/02</td><td>2100MY</td><td>English Net</td><td>9W2EZK</td><td>18</td></tr>
+								<tr><td>Jumaat<br>17/02</td><td>2100MY</td><td>MARS Net</td><td>9W2YJT</td><td>32</td></tr>
+								<tr class='bg-dark-subtle'><td rowspan='2'>Sabtu<br>18/02</td><td class='lh-1'>2000MY<br>-<br>0000MY</td><td>Perjumpaan Santai<br>Penggiat dan Peminat<br>Radio Komunikasi</a></td><td>Kalumpang Resort,<br>Hulu Selangor</td><td>&mdash;</td></tr>
+								<tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Israk Mikraj&#41;</td><td>9W2UZL</td><td>63</td></tr>
+								<tr class='bg-dark-subtle'><td rowspan='2'>Ahad<br>19/02</td><td class='lh-1'>0900MY<br>-<br>1200MY</td><td>Mesyuarat Agung Tahunan<br>Annual General Meeting<br>AGM 2022</td><td>Kalumpang Resort,<br>Hulu Selangor</td><td>&mdash;</td></tr>
+								<tr><td>2100MY</td><td>CB Net</td><td>113DAYJT</td><td>19</td></tr>
+								<tr class='bg-info-subtle'><td>Rabu<br>22/02</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Thinking Day&#41;</td><td>9W6RHN</td><td>26</td></tr>
+								<tr><td>Jumaat<br>24/02</td><td>2100MY</td><td>MARS Net</td><td>9W8VYY</td><td>24</td></tr>
+								<tr><td>Sabtu<br>25/02</td><td>2100MY</td><td>MARS Net</td><td>9W6AZE</td><td>28</td></tr>
+								<tr><td>Ahad<br>26/02</td><td>2100MY</td><td>CB Net</td><td>113DAZIK</td><td>18</td></tr></tbody><!-- <caption>
 									<ul class='list-group list-group-flush'>
 										<li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
 										<li class='list-group-item'><i class='bi-send-x-fill text-danger'></i> Laporan tidak dihantar</li>
@@ -618,195 +338,33 @@
 				<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#032013' aria-expanded='true' aria-controls='032013'>Mac 2023</button></div>
 				<div class='collapse show' id='032013'>
 					<div class='table-responsive'>
-						<table class='table table-sm table-bordered table-striped text-center align-middle'>
-							<thead>
-								<th>Hari</th>
-								<th>Masa</th>
-								<th>Acara</th>
-								<th>Pengawal</th>
-								<th>Stesen</th>
-							</thead>
-							<tbody>
-								<tr class='bg-info-subtle'>
-									<td>Rabu<br>01/03</td>
-									<td>2100MY</td>
-									<td>&#91;SPECIAL&#93; English Net<br>&#40;Malaysia&#39;s 90th Army Day&#41;</td>
-									<td>9W8VWW</td>
-									<td>40</td>
-								</tr>
-								<tr class='bg-primary-subtle'>
-									<td>Jumaat<br>03/03</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Hidupan Liar Sedunia&#41;</td>
-									<td>9W2SNN</td>
-									<td>38</td>
-								</tr>
-								<tr class='bg-primary-subtle'>
-									<td>Sabtu<br>04/03</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Ulang Tahun Pertabalan Sultan Terengganu&#41;</td>
-									<td>9M6JAY</td>
-									<td>44</td>
-								</tr>
-								<tr>
-									<td>Ahad<br>05/03</td>
-									<td>2100MY</td>
-									<td>CB Net<br></td>
-									<td>113DAZIK</td>
-									<td>17</td>
-								</tr>
-								<tr class='bg-info-subtle'>
-									<td>Rabu<br>08/03</td>
-									<td>2100MY</td>
-									<td>&#91;SPECIAL&#93; English Net<br>&#40;International Women&#39;s Day&#41;</td>
-									<td>9W8VWW</td>
-									<td>48</td>
-								</tr>
-								<tr>
-									<td>Jumaat<br>10/03</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W2OGK</td>
-									<td>31</td>
-								</tr>
-								<tr>
-									<td>Sabtu<br>11/03</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W6MOZ</td>
-									<td>34</td>
-								</tr>
-								<tr>
-									<td>Ahad<br>12/03</td>
-									<td>2100MY</td>
-									<td>CB Net</td>
-									<td>113MSSAM</td>
-									<td>20</td>
-								</tr>
-								<tr class='bg-info-subtle'>
-									<td>Rabu<br>15/03</td>
-									<td>2100MY</td>
-									<td>&#91;SPECIAL&#93; English Net<br>&#40;World Consumer Rights Day&#41;</td>
-									<td>9M6RDY</td>
-									<td><i class='bi-envelope-x-fill text-danger'></i></td>
-								</tr>
-								<tr>
-									<td>Jumaat<br>17/03</td>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W2OGK</td>
-									<td>42</td>
-								</tr>
-								<tr class='bg-dark-subtle'>
-									<td rowspan='2'>Sabtu<br>18/03</td>
-									<td class='lh-1'>0800MY<br>-<br>0900MY</td>
-									<td>Malaysia Peak To Peak &#91;My-PTP&#93;<br>&#40;Bukit Selang, Telaga Air, Kuching&#41;</td>
-									<td>9M8SOTA</td>
-									<td><i class='bi-send-x-fill text-danger'></i></td>
-								</tr>
-								<tr>
-									<td>2100MY</td>
-									<td>MARS Net</td>
-									<td>9W2UZL</td>
-									<td>43</td>
-								</tr>
-								<tr>
-									<td>Ahad<br>19/03</td>
-									<td>2100MY</td>
-									<td>CB Net</td>
-									<td>113DAISS</td>
-									<td>14</td>
-								</tr>
-								<tr class='bg-info-subtle'>
-									<td>Rabu<br>22/03<sup>1</sup></td>
-									<td>2100MY</td>
-									<td>&#91;SPECIAL&#93; English Net<br>&#40;Ramadan Eve<sup>1</sup> 1444H&#41;<br>&#40;World Water Day&#41;</td>
-									<td>9M6RHM</td>
-									<td><i class='bi-envelope-x-fill text-danger'></i></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td rowspan='2'>Khamis<br>23/03<sup>1</sup></td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #1</td>
-									<td>9W6AZE</td>
-									<td><i class='bi-envelope-x-fill text-danger'></i></td>
-								</tr>
-								<tr class='bg-primary-subtle'>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Meteorologi Sedunia&#41;</td>
-									<td>9W6PKJ</td>
-									<td><i class='bi-envelope-x-fill text-danger'></i></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Jumaat<br>24/03</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #2</td>
-									<td>9W2JCP</td>
-									<td><i class='bi-envelope-x-fill text-danger'></i></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td rowspan='2'>Sabtu<br>25/03</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #3</td>
-									<td>9W2SNN</td>
-									<td><i class='bi-send-x-fill text-danger'></i></td>
-								</tr>
-								<tr class='bg-primary-subtle'>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Polis Diraja Malaysia ke-216&#41;</td>
-									<td>9W2OGK<sup>2</sup></td>
-									<td><i class='bi-envelope-x-fill text-danger'></i></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td rowspan='2'>Ahad<br>26/03</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #4</td>
-									<td>9W2SNN</td>
-									<td><i class='bi-envelope-x-fill text-danger'></i></td>
-								</tr>
-								<tr>
-									<td>2200MY</td>
-									<td>CB Net<br></td>
-									<td>113DAYJT</td>
-									<td>17</td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Isnin<br>27/03</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #5</td>
-									<td>9W2YJT</td>
-									<td><i class='bi-send-x-fill text-danger'></i></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Selasa<br>28/03</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #6</td>
-									<td>113DAYJT</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Rabu<br>29/03</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #7</td>
-									<td>9W2SFT</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Khamis<br>30/03</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #8</td>
-									<td>113DABOB</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Jumaat<br>31/03</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #9</td>
-									<td>9W2SNN</td>
-									<td></td>
-								</tr>
-							</tbody>
-							<caption>
+						<table class='table table-sm table-bordered table-striped text-center align-middle'><thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead><tbody>
+								<tr class='bg-info-subtle'><td>Rabu<br>01/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Malaysia&#39;s 90th Army Day&#41;</td><td>9W8VWW</td><td>40</td></tr>
+								<tr class='bg-primary-subtle'><td>Jumaat<br>03/03</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Hidupan Liar Sedunia&#41;</td><td>9W2SNN</td><td>38</td></tr>
+								<tr class='bg-primary-subtle'><td>Sabtu<br>04/03</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Ulang Tahun Pertabalan Sultan Terengganu&#41;</td><td>9M6JAY</td><td>44</td></tr>
+								<tr><td>Ahad<br>05/03</td><td>2100MY</td><td>CB Net<br></td><td>113DAZIK</td><td>17</td></tr>
+								<tr class='bg-info-subtle'><td>Rabu<br>08/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;International Women&#39;s Day&#41;</td><td>9W8VWW</td><td>48</td></tr>
+								<tr><td>Jumaat<br>10/03</td><td>2100MY</td><td>MARS Net</td><td>9W2OGK</td><td>31</td></tr>
+								<tr><td>Sabtu<br>11/03</td><td>2100MY</td><td>MARS Net</td><td>9W6MOZ</td><td>34</td></tr>
+								<tr><td>Ahad<br>12/03</td><td>2100MY</td><td>CB Net</td><td>113MSSAM</td><td>20</td></tr>
+								<tr class='bg-info-subtle'><td>Rabu<br>15/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Consumer Rights Day&#41;</td><td>9M6RDY</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
+								<tr><td>Jumaat<br>17/03</td><td>2100MY</td><td>MARS Net</td><td>9W2OGK</td><td>42</td></tr>
+								<tr class='bg-dark-subtle'><td rowspan='2'>Sabtu<br>18/03</td><td class='lh-1'>0800MY<br>-<br>0900MY</td><td>Malaysia Peak To Peak &#91;My-PTP&#93;<br>&#40;Bukit Selang, Telaga Air, Kuching&#41;</td><td>9M8SOTA</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr><td>2100MY</td><td>MARS Net</td><td>9W2UZL</td><td>43</td></tr>
+								<tr><td>Ahad<br>19/03</td><td>2100MY</td><td>CB Net</td><td>113DAISS</td><td>14</td></tr>
+								<tr class='bg-info-subtle'><td>Rabu<br>22/03<sup>1</sup></td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Ramadan Eve<sup>1</sup> 1444H&#41;<br>&#40;World Water Day&#41;</td><td>9M6RHM</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
+								<tr class='bg-success-subtle'><td rowspan='2'>Khamis<br>23/03<sup>1</sup></td><td>0400MY</td><td>VoIP Sahur Net #1</td><td>9W6AZE</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
+								<tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Meteorologi Sedunia&#41;</td><td>9W6PKJ</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
+								<tr class='bg-success-subtle'><td>Jumaat<br>24/03</td><td>0400MY</td><td>VoIP Sahur Net #2</td><td>9W2JCP</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
+								<tr class='bg-success-subtle'><td rowspan='2'>Sabtu<br>25/03</td><td>0400MY</td><td>VoIP Sahur Net #3</td><td>9W2SNN</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Polis Diraja Malaysia ke-216&#41;</td><td>9W2OGK<sup>2</sup></td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
+								<tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>26/03</td><td>0400MY</td><td>VoIP Sahur Net #4</td><td>9W2SNN</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
+								<tr><td>2200MY</td><td>CB Net<br></td><td>113DAYJT</td><td>17</td></tr>
+								<tr class='bg-success-subtle'><td>Isnin<br>27/03</td><td>0400MY</td><td>VoIP Sahur Net #5</td><td>9W2YJT</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr class='bg-success-subtle'><td>Selasa<br>28/03</td><td>0400MY</td><td>VoIP Sahur Net #6</td><td>113DAYJT</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Rabu<br>29/03</td><td>0400MY</td><td>VoIP Sahur Net #7</td><td>9W2SFT</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Khamis<br>30/03</td><td>0400MY</td><td>VoIP Sahur Net #8</td><td>113DABOB</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Jumaat<br>31/03</td><td>0400MY</td><td>VoIP Sahur Net #9</td><td>9W2SNN</td><td></td></tr></tbody><caption>
 								<ul class='list-group list-group-flush'>
 									<li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
 									<li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
@@ -825,226 +383,37 @@
 				<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#042013' aria-expanded='false' aria-controls='042013'>April 2023</button></div>
 				<div class='collapse' id='042013'>
 					<div class='table-responsive'>
-						<table class='table table-sm table-bordered table-striped text-center align-middle'>
-							<thead>
-								<th>Hari</th>
-								<th>Masa</th>
-								<th>Acara</th>
-								<th>Pengawal</th>
-								<th>Stesen</th>
-							</thead>
-							<tbody>
-								<tr class='bg-success-subtle'>
-									<td>Sabtu<br>01/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #10</td>
-									<td>113DAYJT</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Ahad<br>02/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #11</td>
-									<td>9W2JCP</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Isnin<br>03/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #12</td>
-									<td>113DAOGK</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Selasa<br>04/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #13</td>
-									<td>9W2NDI</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Rabu<br>05/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #14</td>
-									<td>113DAJCP</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Khamis<br>06/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #15</td>
-									<td>9W2AYP</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Jumaat<br>07/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #16</td>
-									<td>113DAZIK</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Sabtu<br>08/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #17</td>
-									<td>9W2SFT</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Ahad<br>09/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #18</td>
-									<td>113DAYKB</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Isnin<br>10/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #19</td>
-									<td>9W6AZE</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Selasa<br>11/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #20</td>
-									<td>113MSSAM</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Rabu<br>12/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #21</td>
-									<td>9W2YJT</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Khamis<br>13/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #22</td>
-									<td>113DABOB</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Jumaat<br>14/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #23</td>
-									<td>9M6RMD</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Sabtu<br>15/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #24</td>
-									<td>9M2RAN</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Ahad<br>16/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #25</td>
-									<td>113DANDI</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Isnin<br>17/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #26</td>
-									<td>9W2JCP</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td rowspan='2'>Selasa<br>18/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #27</td>
-									<td>113DAPLY</td>
-									<td></td>
-								</tr>
-								<tr class='bg-info-subtle'>
-									<td>2100MY</td>
-									<td>&#91;SPECIAL&#93; English Net<br>&#40;Amateur Radio Day&#41;</td>
-									<td>9W8VWW</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Rabu<br>19/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #28</td>
-									<td>9W2SFT</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Khamis<br>20/04</td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #29</td>
-									<td>113DAYKB</td>
-									<td></td>
-								</tr>
-								<tr class='bg-success-subtle'>
-									<td>Jumaat<br>21/04<sup>1</sup></td>
-									<td>0400MY</td>
-									<td>VoIP Sahur Net #30</td>
-									<td>9W2SNN</td>
-									<td></td>
-								</tr>
-								<tr class='bg-primary-subtle'>
-									<td>Sabtu<br>22/04<sup>1</sup></td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Raya Aidilfitri<sup>1</sup> 1444H&#41;<br>&#40;Hari Bumi&#41;</td>
-									<td>9W6AFF</td>
-									<td></td>
-								</tr>
-								<tr class='bg-danger-subtle'>
-									<td>Ahad<br>23/04</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Buku dan Hak Cipta Sedunia&#41;</td>
-									<td>113DAJCP</td>
-									<td></td>
-								</tr>
-								<tr>
-									<td>Isnin<br>24/04</td>
-									<td>2100MY</td>
-									<td>RoIPMARS Net Awal Minggu</td>
-									<td></td>
-									<td></td>
-								</tr>
-								<tr class='bg-info-subtle'>
-									<td>Rabu<br>26/04</td>
-									<td>2100MY</td>
-									<td>&#91;SPECIAL&#93; Learning English Net<br>&#40;World Intellectual Property Day&#41;</td>
-									<td>9W6WOT</td>
-									<td></td>
-								</tr>
-								<tr class='bg-primary-subtle'>
-									<td>Khamis<br>27/04</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; ROIPMARS Net<br>&#40;Hari Tentera Laut Diraja Malaysia ke-89&#41;</td>
-									<td>9M2RAN</td>
-									<td></td>
-								</tr>
-								<tr class='bg-primary-subtle'>
-									<td>Jumaat<br>28/04</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; ROIPMARS Net Santai<br>&#40;Hari Keselamatan dan Kesihatan di Tempat Kerja Sedunia&#41;</td>
-									<td>9W2SNN</td>
-									<td></td>
-								</tr>
-								<tr class='bg-primary-subtle'>
-									<td>Sabtu<br>29/04</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tarian Sedunia&#41;</td>
-									<td>9W2GSV</td>
-									<td></td>
-								</tr>
-								<tr class='bg-danger-subtle'>
-									<td>Ahad<br>30/04</td>
-									<td>2100MY</td>
-									<td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td>
-									<td>113DAYKB</td>
-									<td></td>
-								</tr>
-							</tbody>
-							<caption>
+						<table class='table table-sm table-bordered table-striped text-center align-middle'><thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead><tbody>
+								<tr class='bg-success-subtle'><td>Sabtu<br>01/04</td><td>0400MY</td><td>VoIP Sahur Net #10</td><td>113DAYJT</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Ahad<br>02/04</td><td>0400MY</td><td>VoIP Sahur Net #11</td><td>9W2JCP</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Isnin<br>03/04</td><td>0400MY</td><td>VoIP Sahur Net #12</td><td>113DAOGK</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Selasa<br>04/04</td><td>0400MY</td><td>VoIP Sahur Net #13</td><td>9W2NDI</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Rabu<br>05/04</td><td>0400MY</td><td>VoIP Sahur Net #14</td><td>113DAJCP</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Khamis<br>06/04</td><td>0400MY</td><td>VoIP Sahur Net #15</td><td>9W2AYP</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Jumaat<br>07/04</td><td>0400MY</td><td>VoIP Sahur Net #16</td><td>113DAZIK</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Sabtu<br>08/04</td><td>0400MY</td><td>VoIP Sahur Net #17</td><td>9W2SFT</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Ahad<br>09/04</td><td>0400MY</td><td>VoIP Sahur Net #18</td><td>113DAYKB</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Isnin<br>10/04</td><td>0400MY</td><td>VoIP Sahur Net #19</td><td>9W6AZE</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Selasa<br>11/04</td><td>0400MY</td><td>VoIP Sahur Net #20</td><td>113MSSAM</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Rabu<br>12/04</td><td>0400MY</td><td>VoIP Sahur Net #21</td><td>9W2YJT</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Khamis<br>13/04</td><td>0400MY</td><td>VoIP Sahur Net #22</td><td>113DABOB</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Jumaat<br>14/04</td><td>0400MY</td><td>VoIP Sahur Net #23</td><td>9M6RMD</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Sabtu<br>15/04</td><td>0400MY</td><td>VoIP Sahur Net #24</td><td>9M2RAN</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Ahad<br>16/04</td><td>0400MY</td><td>VoIP Sahur Net #25</td><td>113DANDI</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Isnin<br>17/04</td><td>0400MY</td><td>VoIP Sahur Net #26</td><td>9W2JCP</td><td></td></tr>
+								<tr class='bg-success-subtle'><td rowspan='2'>Selasa<br>18/04</td><td>0400MY</td><td>VoIP Sahur Net #27</td><td>113DAPLY</td><td></td></tr>
+								<tr class='bg-info-subtle'><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Amateur Radio Day&#41;</td><td>9W8VWW</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Rabu<br>19/04</td><td>0400MY</td><td>VoIP Sahur Net #28</td><td>9W2SFT</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Khamis<br>20/04</td><td>0400MY</td><td>VoIP Sahur Net #29</td><td>113DAYKB</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Jumaat<br>21/04<sup>1</sup></td><td>0400MY</td><td>VoIP Sahur Net #30</td><td>9W2SNN</td><td></td></tr>
+								<tr class='bg-primary-subtle'><td>Sabtu<br>22/04<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Raya Aidilfitri<sup>1</sup> 1444H&#41;<br>&#40;Hari Bumi&#41;</td><td>9W6AFF</td><td></td></tr>
+								<tr class='bg-danger-subtle'><td>Ahad<br>23/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Buku dan Hak Cipta Sedunia&#41;</td><td>113DAJCP</td><td></td></tr>
+								<tr><td>Isnin<br>24/04</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td></td><td></td></tr>
+								<tr class='bg-info-subtle'><td>Rabu<br>26/04</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;World Intellectual Property Day&#41;</td><td>9W6WOT</td><td></td></tr>
+								<tr class='bg-primary-subtle'><td>Khamis<br>27/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net<br>&#40;Hari Tentera Laut Diraja Malaysia ke-89&#41;</td><td>9M2RAN</td><td></td></tr>
+								<tr class='bg-primary-subtle'><td>Jumaat<br>28/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net Santai<br>&#40;Hari Keselamatan dan Kesihatan di Tempat Kerja Sedunia&#41;</td><td>9W2SNN</td><td></td></tr>
+								<tr class='bg-primary-subtle'><td>Sabtu<br>29/04</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tarian Sedunia&#41;</td><td>9W2GSV</td><td></td></tr>
+								<tr class='bg-danger-subtle'><td>Ahad<br>30/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td>113DAYKB</td><td></td></tr></tbody><caption>
 								<ul class='list-group list-group-flush'>
 									<li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
 								</ul>
@@ -1057,8 +426,7 @@
 				<div class='col-lg-4'>
 					<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#052013' aria-expanded='false' aria-controls='052013'>Mei 2023</button></div>
 					<div class='collapse' id='052013'>
-						<div class='table-responsive'>
-							<table class='table table-sm table-bordered table-striped text-center align-middle'>
+						<div class='table-responsive'><table class='table table-sm table-bordered table-striped text-center align-middle'>
 								<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 								<tbody>
 									<tr class='bg-primary-subtle'><td>Isnin<br>01/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pekerja&#41;</td><td></td><td></td></tr>
@@ -1084,16 +452,14 @@
 									<tr><td>Ahad<br>28/05</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td></td><td></td></tr>
 									<tr><td>Isnin<br>29/05</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td></td><td></td></tr>
 									<tr class='bg-info-subtle'><td>Rabu<br>31/05</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;Harvest Festival&#41;<br>&#40;World No Tobacco Day&#41;</td><td></td><td></td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-4'>
 					<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#062013' aria-expanded='false' aria-controls='062013'>Jun 2023</button></div>
 					<div class='collapse' id='062013'>
-						<div class='table-responsive'>
-							<table class='table table-sm table-bordered table-striped text-center align-middle'>
+						<div class='table-responsive'><table class='table table-sm table-bordered table-striped text-center align-middle'>
 								<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 								<tbody>
 									<tr class='bg-primary-subtle'><td>Khamis<br>01/06</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Ulang Tahun RoIPMARS ke-3&#41;</td><td></td><td></td></tr>
@@ -1124,8 +490,7 @@
 									<ul class='list-group list-group-flush'>
 										<li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
 									</ul>
-								</capton>
-							</table>
+								</capton></table>
 						</div>
 					</div>
 				</div>
@@ -1136,8 +501,7 @@
 				<div class='col-lg-4'>
 					<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#072013' aria-expanded='false' aria-controls='072013'>Julai 2023</button></div>
 					<div class='collapse' id='072013'>
-						<div class='table-responsive'>
-							<table class='table table-sm table-bordered table-striped text-center align-middle'>
+						<div class='table-responsive'><table class='table table-sm table-bordered table-striped text-center align-middle'>
 								<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 								<tbody>
 									<tr><td>Sabtu<br>01/07</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td></td><td></td></tr>
@@ -1163,16 +527,14 @@
 									<tr class='bg-primary-subtle'><td>Sabtu<br>29/07</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Harimau Antarabangsa&#41;</td><td></td><td></td></tr>
 									<tr class='bg-danger-subtle'><td>Ahad<br>30/07</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Keputeraan Sultan Pahang&#41;<br>&#40;Hari Persahabatan&#41;</td><td></td><td></td></tr>
 									<tr class='bg-primary-subtle'><td>Isnin<br>31/07</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pahlawan&#41;</td><td></td><td></td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-4'>
 					<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#082013' aria-expanded='false' aria-controls='082013'>Ogos 2023</button></div>
 					<div class='collapse' id='082013'>
-						<div class='table-responsive'>
-							<table class='table table-sm table-bordered table-striped text-center align-middle'>
+						<div class='table-responsive'><table class='table table-sm table-bordered table-striped text-center align-middle'>
 								<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 								<tbody>
 									<tr><td>Rabu<br>02/08</td><td>2100MY</td><td>Learning English Net</td><td></td><td></td></tr>
@@ -1203,16 +565,14 @@
 									<tr class='bg-light-subtle'><td>1200MY<br>-<br>1500MY</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66Mx&#41;</td><td></td><td></td></tr>
 									<tr class='bg-light-subtle'><td>1500MY<br>-<br>1800MY</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66Mx&#41;</td><td></td><td></td></tr>
 									<tr class='bg-light-subtle'><td>2100MY</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66MB&#41;</td><td></td><td></td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-4'>
 					<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#092013' aria-expanded='false' aria-controls='092013'>September 2023</button></div>
 					<div class='collapse' id='092013'>
-						<div class='table-responsive'>
-							<table class='table table-sm table-bordered table-striped text-center align-middle'>
+						<div class='table-responsive'><table class='table table-sm table-bordered table-striped text-center align-middle'>
 								<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 								<tbody>
 									<tr class='bg-light-subtle'><td>Jumaat<br>01/09</td><td>2100MY</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66MB&#41;</td><td></td><td></td></tr>
@@ -1237,8 +597,7 @@
 									<tr class='bg-info-subtle'><td>Rabu<br>27/09</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;World Tourism Day&#41;</td><td></td><td></td></tr>
 									<tr class='bg-primary-subtle'><td>Jumaat<br>29/09</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Jantung Sedunia&#41;</td><td></td><td></td></tr>
 									<tr><td>Sabtu<br>30/09</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td></td><td></td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
 					</div>
 				</div>
@@ -1247,8 +606,7 @@
 				<div class='col-lg-4'>
 					<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#102013' aria-expanded='false' aria-controls='102013'>Oktober 2023</button></div>
 					<div class='collapse' id='102013'>
-						<div class='table-responsive'>
-							<table class='table table-sm table-bordered table-striped text-center align-middle'>
+						<div class='table-responsive'><table class='table table-sm table-bordered table-striped text-center align-middle'>
 								<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 								<tbody>
 									<tr class='bg-danger-subtle'><td>Ahad<br>01/10</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Kopi Antarabangsa&#41;</td><td></td><td></td></tr>
@@ -1279,16 +637,14 @@
 									<tr><td>Sabtu<br>28/10</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td></td><td></td></tr>
 									<tr><td>Ahad<br>29/10</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td></td><td></td></tr>
 									<tr><td>Isnin<br>30/10</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td></td><td></td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-4'>
 					<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#112013' aria-expanded='false' aria-controls='112013'>November 2023</button></div>
 					<div class='collapse' id='112013'>
-						<div class='table-responsive'>
-							<table class='table table-sm table-bordered table-striped text-center align-middle'>
+						<div class='table-responsive'><table class='table table-sm table-bordered table-striped text-center align-middle'>
 								<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 								<tbody>
 									<tr><td>Rabu<br>01/11</td><td>2100MY</td><td>Learning English Net</td><td></td><td></td></tr>
@@ -1312,16 +668,14 @@
 									<tr><td>Ahad<br>26/11</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td></td><td></td></tr>
 									<tr><td>Isnin<br>27/11</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td></td><td></td></tr>
 									<tr><td>Rabu<br>29/11</td><td>2100MY</td><td>Learning English Net</td><td></td><td></td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-4'>
 					<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#122013' aria-expanded='false' aria-controls='122013'>Disember 2023</button></div>
 					<div class='collapse' id='122013'>
-						<div class='table-responsive'>
-							<table class='table table-sm table-bordered table-striped text-center align-middle'>
+						<div class='table-responsive'><table class='table table-sm table-bordered table-striped text-center align-middle'>
 								<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 								<tbody>
 									<tr class='bg-primary-subtle'><td>Jumaat<br>01/12</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari AIDS Sedunia&#41;</td><td></td><td></td></tr>
@@ -1348,8 +702,7 @@
 									<tr class='bg-dark-subtle'><td>Sabtu<br>30/12</td><td>TBC</td><td>Mesyuarat Agung DwiTahunan<br>Biennial General Meeting<br>BGM 2023</td><td>TBC</td><td>&mdash;</td></tr>
 									<tr><td>Sabtu<br>30/12</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td></td><td></td></tr>
 									<tr class='bg-danger-subtle'><td>Ahad<br>31/12</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Ambang Tahun Baru&#41;</td><td></td><td></td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
 					</div>
 				</div>
@@ -1358,8 +711,7 @@
 				<div class='col-lg-4'>
 					<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#012014' aria-expanded='false' aria-controls='012014'>Januari 2024</button></div>
 					<div class='collapse' id='012014'>
-						<div class='table-responsive'>
-							<table class='table table-sm table-bordered table-striped text-center align-middle'>
+						<div class='table-responsive'><table class='table table-sm table-bordered table-striped text-center align-middle'>
 								<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 								<tbody>
 									<tr><td>Isnin<br>01/01</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Tahun Baru 2024&#41;</td><td></td><td></td></tr>
@@ -1384,16 +736,14 @@
 									<tr><td>Ahad<br>28/01</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td></td><td></td></tr>
 									<tr><td>Isnin<br>29/01</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td></td><td></td></tr>
 									<tr><td>Rabu<br>31/01</td><td>2100MY</td><td>Learning English Net</td><td></td><td></td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-4'>
 					<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#022014' aria-expanded='false' aria-controls='022014'>Februari 2024</button></div>
 					<div class='collapse' id='022014'>
-						<div class='table-responsive'>
-							<table class='table table-sm table-bordered table-striped text-center align-middle'>
+						<div class='table-responsive'><table class='table table-sm table-bordered table-striped text-center align-middle'>
 								<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 								<tbody>
 									<tr><td>Jumaat<br>02/02</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td></td><td></td></tr>
@@ -1416,16 +766,14 @@
 									<tr><td>Ahad<br>25/02</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td></td><td></td></tr>
 									<tr><td>Isnin<br>26/02</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td></td><td></td></tr>
 									<tr><td>Rabu<br>28/02</td><td>2100MY</td><td>Learning English Net</td><td></td><td></td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-4'>
 					<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#032014' aria-expanded='false' aria-controls='032014'>Mac 2024</button></div>
 					<div class='collapse' id='032014'>
-						<div class='table-responsive'>
-							<table class='table table-sm table-bordered table-striped text-center align-middle'>
+						<div class='table-responsive'><table class='table table-sm table-bordered table-striped text-center align-middle'>
 								<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 								<tbody>
 									<tr><td>Jumaat<br>01/03</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td></td><td></td></tr>
@@ -1462,8 +810,7 @@
 									<ul class='list-group list-group-flush'>
 										<li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
 									</ul>
-								</capton>
-							</table>
+								</capton></table>
 						</div>
 					</div>
 				</div>
@@ -1523,9 +870,7 @@
 				<div class='col-lg-6 mt-2'>
 					<p class='text-center'>HAM Net Bahasa Inggeris</p>
 					<div class='row'>
-						<div class='col-6'>
-							<h6 class='text-center'>Pengawal Tertinggi</h6>
-							<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
+						<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6><table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
 								<thead><th>No</th><th>Station</th></thead>
 								<tbody>
 									<tr><td>1<sup>st</sup></td><td>9M6AUA</td></tr>
@@ -1534,12 +879,9 @@
 									<tr><td>4<sup>th</sup></td><td>9M6RDY</td></tr>
 									<tr><td>5<sup>th</sup></td><td>9M6JAY</td></tr>
 		
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
-						<div class='col-6'>
-							<h6 class='text-center'>Stesen Paling Aktif</h6>
-							<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
+						<div class='col-6'><h6 class='text-center'>Stesen Paling Aktif</h6><table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
 								<thead><th>No</th><th>Station</th></thead>
 								<tbody>
 									<tr><td>1<sup>st</sup></td><td>9W2AYP</td></tr>
@@ -1552,17 +894,14 @@
 									<tr><td>8<sup>th</sup></td><td>9M2RAN</td></tr>
 									<tr><td>9<sup>th</sup></td><td>9W2YJT</td></tr>
 									<tr><td>10<sup>th</sup></td><td>DV1ZUR</td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-6 mt-2'>
 					<p class='text-center'>HAM Net Bahasa Melayu</p>
 					<div class='row'>
-						<div class='col-6'>
-							<h6 class='text-center'>Pengawal Tertinggi</h6>
-							<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
+						<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6><table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
 								<thead><th>No</th><th>Station</th></thead>
 								<tbody>
 									<tr><td>1<sup>st</sup></td><td>9W2UZL</td></tr>
@@ -1570,12 +909,9 @@
 									<tr><td>3<sup>rd</sup></td><td>9W6AZE</td></tr>
 									<tr><td>4<sup>th</sup></td><td>9W2OGK</td></tr>
 									<tr><td>5<sup>th</sup></td><td>9M6AUA</td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
-						<div class='col-6'>
-							<h6 class='text-center'>Stesen Paling Aktif</h6>
-							<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
+						<div class='col-6'><h6 class='text-center'>Stesen Paling Aktif</h6><table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
 								<thead><th>No</th><th>Station</th></thead>
 								<tbody>
 									<tr><td>1<sup>st</sup></td><td>9W2SNN</td></tr>
@@ -1588,8 +924,7 @@
 									<tr><td>8<sup>th</sup></td><td>9W2WDR</td></tr>
 									<tr><td>9<sup>th</sup></td><td>9M6RDY</td></tr>
 									<tr><td>10<sup>th</sup></td><td>9W6RHN</td></tr>
-								</tbody>
-							</table>
+								</tbody></table>
 						</div>
 					</div>
 				</div>
@@ -1599,20 +934,15 @@
 				<div class='col-12 mt-2'><p class='text-center'>CB Net Bahasa Melayu</p></div>
 					<div class='col-6'>
 						<h6 class='text-center'>Pengawal Tertinggi</h6>
-						<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
-							<thead><th>No</th><th>Station</th></thead>
-							<tbody>
+						<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'><thead><th>No</th><th>Station</th></thead><tbody>
 								<tr><td>1<sup>st</sup></td><td>113DAZIK</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>113DAPLY</td></tr>
-								<tr><td>3<sup>rd</sup></td><td>113DAISS</td></tr>
-							</tbody>
+								<tr><td>3<sup>rd</sup></td><td>113DAISS</td></tr></tbody>
 						</table>
 					</div>
 					<div class='col-6'>
 						<h6 class='text-center'>Stesen Paling Aktif</h6>
-						<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
-							<thead><th>No</th><th>Station</th></thead>
-							<tbody>
+						<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'><thead><th>No</th><th>Station</th></thead><tbody>
 								<tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>113DAISS</td></tr>
 								<tr><td>3<sup>rd</sup></td><td>91DAJA</td></tr>
@@ -1622,8 +952,7 @@
 								<tr><td>7<sup>th</sup></td><td>91DAAVM</td></tr>
 								<tr><td>8<sup>th</sup></td><td>113DAJCP</td></tr>
 								<tr><td>9<sup>th</sup></td><td>113MSSAM</td></tr>
-								<tr><td>10<sup>th</sup></td><td>91DAGBW</td></tr>
-							</tbody>
+								<tr><td>10<sup>th</sup></td><td>91DAGBW</td></tr></tbody>
 						</table>
 					</div>
 			</div>
@@ -1641,25 +970,15 @@
 						<th>Station</th>
 					</thead>
 					<tbody>
-						<tr>
-							<td>1<sup>st</sup></td>
-							<td>9W6AFF</td>
+						<tr><td>1<sup>st</sup></td><td>9W6AFF</td>
 						</tr>
-						<tr>
-							<td>2<sup>nd</sup></td>
-							<td>YD5NCU</td>
+						<tr><td>2<sup>nd</sup></td><td>YD5NCU</td>
 						</tr>
-						<tr>
-							<td>3<sup>rd</sup></td>
-							<td>9W6MOZ</td>
+						<tr><td>3<sup>rd</sup></td><td>9W6MOZ</td>
 						</tr>
-						<tr>
-							<td>4<sup>th</sup></td>
-							<td>9W2YJT</td>
+						<tr><td>4<sup>th</sup></td><td>9W2YJT</td>
 						</tr>
-						<tr>
-							<td>5<sup>th</sup></td>
-							<td>YC3RDY</td>
+						<tr><td>5<sup>th</sup></td><td>YC3RDY</td>
 						</tr>
 					</tbody>
 				</table>
@@ -1672,25 +991,15 @@
 						<th>Station</th>
 					</thead>
 					<tbody>
-						<tr>
-							<td>1<sup>st</sup></td>
-							<td>113DAHRY</td>
+						<tr><td>1<sup>st</sup></td><td>113DAHRY</td>
 						</tr>
-						<tr>
-							<td>2<sup>nd</sup></td>
-							<td>113DAZIK</td>
+						<tr><td>2<sup>nd</sup></td><td>113DAZIK</td>
 						</tr>
-						<tr>
-							<td>3<sup>rd</sup></td>
-							<td>225BSLIM</td>
+						<tr><td>3<sup>rd</sup></td><td>225BSLIM</td>
 						</tr>
-						<tr>
-							<td>4<sup>th</sup></td>
-							<td>113DAISS</td>
+						<tr><td>4<sup>th</sup></td><td>113DAISS</td>
 						</tr>
-						<tr>
-							<td>5<sup>th</sup></td>
-							<td>113MSUZL</td>
+						<tr><td>5<sup>th</sup></td><td>113MSUZL</td>
 						</tr>
 					</tbody>
 				</table>
@@ -1703,25 +1012,15 @@
 						<th>Station</th>
 					</thead>
 					<tbody>
-						<tr>
-							<td>1<sup>st</sup></td>
-							<td>9W2EVQ</td>
+						<tr><td>1<sup>st</sup></td><td>9W2EVQ</td>
 						</tr>
-						<tr>
-							<td>2<sup>nd</sup></td>
-							<td>9M2RAN</td>
+						<tr><td>2<sup>nd</sup></td><td>9M2RAN</td>
 						</tr>
-						<tr>
-							<td>3<sup>rd</sup></td>
-							<td>9W2JCP</td>
+						<tr><td>3<sup>rd</sup></td><td>9W2JCP</td>
 						</tr>
-						<tr>
-							<td>4<sup>th</sup></td>
-							<td>9W2ESR</td>
+						<tr><td>4<sup>th</sup></td><td>9W2ESR</td>
 						</tr>
-						<tr>
-							<td>5<sup>th</sup></td>
-							<td>V85AFF</td>
+						<tr><td>5<sup>th</sup></td><td>V85AFF</td>
 						</tr>
 					</tbody>
 				</table>
@@ -1734,25 +1033,15 @@
 						<th>Station</th>
 					</thead>
 					<tbody>
-						<tr>
-							<td>1<sup>st</sup></td>
-							<td>91DATHP</td>
+						<tr><td>1<sup>st</sup></td><td>91DATHP</td>
 						</tr>
-						<tr>
-							<td>2<sup>nd</sup></td>
-							<td>113MSSAM</td>
+						<tr><td>2<sup>nd</sup></td><td>113MSSAM</td>
 						</tr>
-						<tr>
-							<td>3<sup>rd</sup></td>
-							<td>113DANDI</td>
+						<tr><td>3<sup>rd</sup></td><td>113DANDI</td>
 						</tr>
-						<tr>
-							<td>4<sup>th</sup></td>
-							<td>91DAGBW</td>
+						<tr><td>4<sup>th</sup></td><td>91DAGBW</td>
 						</tr>
-						<tr>
-							<td>5<sup>th</sup></td>
-							<td>91KMAGP</td>
+						<tr><td>5<sup>th</sup></td><td>91KMAGP</td>
 						</tr>
 					</tbody>
 				</table>

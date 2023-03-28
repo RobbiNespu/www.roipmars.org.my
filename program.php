@@ -249,10 +249,10 @@
 									<img src='media/image/ncs/9w6aff.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W6AFF'>
 									<p class='lh-1'>9W6AFF / 58MSAFF<br>SAFRI<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
-								<div class='vstack gap-2'>
+								<!-- <div class='vstack gap-2'>
 									<img src='media/image/ncs/113daykb.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='113DAYKB'>
 									<p class='lh-1'>113DAYKB<br>YAAKOB<br>PETUGAS TETAP AKTIVITI</p>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -361,8 +361,8 @@
 								<tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>26/03</td><td>0400MY</td><td>VoIP Sahur Net #4</td><td>9W2SNN</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr><td>2200MY</td><td>CB Net<br></td><td>113DAYJT</td><td>17</td></tr>
 								<tr class='bg-success-subtle'><td>Isnin<br>27/03</td><td>0400MY</td><td>VoIP Sahur Net #5</td><td>9W2YJT</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-success-subtle'><td>Selasa<br>28/03</td><td>0400MY</td><td>VoIP Sahur Net #6</td><td>113DAYJT</td><td></td></tr>
-								<tr class='bg-success-subtle'><td>Rabu<br>29/03</td><td>0400MY</td><td>VoIP Sahur Net #7</td><td>9W2SFT</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Selasa<br>28/03</td><td>0400MY</td><td>VoIP Sahur Net #6</td><td>113DAYJT</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr class='bg-success-subtle'><td>Rabu<br>29/03</td><td>0400MY</td><td>VoIP Sahur Net #7</td><td>9W2SNN</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Khamis<br>30/03</td><td>0400MY</td><td>VoIP Sahur Net #8</td><td>113DABOB</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Jumaat<br>31/03</td><td>0400MY</td><td>VoIP Sahur Net #9</td><td>9W2SNN</td><td></td></tr></tbody><caption>
 								<ul class='list-group list-group-flush'>
@@ -392,7 +392,7 @@
 								<tr class='bg-success-subtle'><td>Khamis<br>06/04</td><td>0400MY</td><td>VoIP Sahur Net #15</td><td>9W2AYP</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Jumaat<br>07/04</td><td>0400MY</td><td>VoIP Sahur Net #16</td><td>113DAZIK</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Sabtu<br>08/04</td><td>0400MY</td><td>VoIP Sahur Net #17</td><td>9W2SFT</td><td></td></tr>
-								<tr class='bg-success-subtle'><td>Ahad<br>09/04</td><td>0400MY</td><td>VoIP Sahur Net #18</td><td>113DAYKB</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Ahad<br>09/04</td><td>0400MY</td><td>VoIP Sahur Net #18</td><td></td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Isnin<br>10/04</td><td>0400MY</td><td>VoIP Sahur Net #19</td><td>9W6AZE</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Selasa<br>11/04</td><td>0400MY</td><td>VoIP Sahur Net #20</td><td>113MSSAM</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Rabu<br>12/04</td><td>0400MY</td><td>VoIP Sahur Net #21</td><td>9W2YJT</td><td></td></tr>
@@ -404,7 +404,7 @@
 								<tr class='bg-success-subtle'><td rowspan='2'>Selasa<br>18/04</td><td>0400MY</td><td>VoIP Sahur Net #27</td><td>113DAPLY</td><td></td></tr>
 								<tr class='bg-info-subtle'><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Amateur Radio Day&#41;</td><td>9W8VWW</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Rabu<br>19/04</td><td>0400MY</td><td>VoIP Sahur Net #28</td><td>9W2SFT</td><td></td></tr>
-								<tr class='bg-success-subtle'><td>Khamis<br>20/04</td><td>0400MY</td><td>VoIP Sahur Net #29</td><td>113DAYKB</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Khamis<br>20/04</td><td>0400MY</td><td>VoIP Sahur Net #29</td><td></td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Jumaat<br>21/04<sup>1</sup></td><td>0400MY</td><td>VoIP Sahur Net #30</td><td>9W2SNN</td><td></td></tr>
 								<tr class='bg-primary-subtle'><td>Sabtu<br>22/04<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Raya Aidilfitri<sup>1</sup> 1444H&#41;<br>&#40;Hari Bumi&#41;</td><td>9W6AFF</td><td></td></tr>
 								<tr class='bg-danger-subtle'><td>Ahad<br>23/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Buku dan Hak Cipta Sedunia&#41;</td><td>113DAJCP</td><td></td></tr>
@@ -413,7 +413,7 @@
 								<tr class='bg-primary-subtle'><td>Khamis<br>27/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net<br>&#40;Hari Tentera Laut Diraja Malaysia ke-89&#41;</td><td>9M2RAN</td><td></td></tr>
 								<tr class='bg-primary-subtle'><td>Jumaat<br>28/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net Santai<br>&#40;Hari Keselamatan dan Kesihatan di Tempat Kerja Sedunia&#41;</td><td>9W2SNN</td><td></td></tr>
 								<tr class='bg-primary-subtle'><td>Sabtu<br>29/04</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tarian Sedunia&#41;</td><td>9W2GSV</td><td></td></tr>
-								<tr class='bg-danger-subtle'><td>Ahad<br>30/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td>113DAYKB</td><td></td></tr></tbody><caption>
+								<tr class='bg-danger-subtle'><td>Ahad<br>30/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td></td><td></td></tr></tbody><caption>
 								<ul class='list-group list-group-flush'>
 									<li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
 								</ul>

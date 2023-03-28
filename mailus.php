@@ -107,35 +107,13 @@
             </div>
             <div class='form-floating'>
               <kbd class='form-control user-select-none' name='from_ip' id='from_ip'>
-                <?php function getIP()
-                {
-                  if (!empty($_SERVER['HTTP_CF_CONNECTING_IP'])) {
-                    $ipAdress = $_SERVER['HTTP_CF_CONNECTING_IP'];
-                  } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-                    $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'];
-                  } else {
-                    $ipAdress = $_SERVER['https://api64.ipify.org'];
-                  }
-                  return $ipAdress;
-                }
-                echo getIP(); ?>
+                <?php function getIP() { if (!empty($_SERVER['HTTP_CF_CONNECTING_IP'])) { $ipAdress = $_SERVER['HTTP_CF_CONNECTING_IP']; } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) { $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR']; } else { $ipAdress = $_SERVER['https://api64.ipify.org']; } return $ipAdress; } echo getIP(); ?>
               </kbd>
               <label for='from_ip'>Your IP</label>
             </div>
             <div class='form-floating'>
               <kbd class='form-control user-select-none' name='from_geo' id='from_geo'>
-                <?php function getGeoIP()
-                {
-                  if (!empty($_SERVER['HTTP_CF_IPCITY'])) {
-                    $geoLoc = $_SERVER['HTTP_CF_IPCITY'];
-                  } elseif (!empty($_SERVER['HTTP_CF_IPCOUNTRY'])) {
-                    $geoLoc = $_SERVER['HTTP_CF_IPCOUNTRY'];
-                  } else {
-                    $geoLoc = $_SERVER['http://ip-api.com/json?ip=' . $_SERVER['HTTP_CF_CONNECTING_IP'] . '&fields=country,regionName'];
-                  }
-                  return $geoLoc;
-                }
-                echo getGeoIP(); ?>
+                <?php function getGeoIP() { if (!empty($_SERVER['HTTP_CF_IPCITY'])) { $geoLoc = $_SERVER['HTTP_CF_IPCITY']; } elseif (!empty($_SERVER['HTTP_CF_IPCOUNTRY'])) { $geoLoc = $_SERVER['HTTP_CF_IPCOUNTRY']; } else { $geoLoc = $_SERVER['http://ip-api.com/json?ip=' . $_SERVER['HTTP_X_FORWARDED_FOR'] . '&fields=country,regionName']; } return $geoLoc; } echo getGeoIP(); ?>
               </kbd>
               <label for='from_geo'>Your Location</label>
             </div>

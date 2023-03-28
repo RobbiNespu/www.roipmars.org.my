@@ -359,7 +359,7 @@
 								<tr class='bg-success-subtle'><td rowspan='2'>Sabtu<br>25/03</td><td>0400MY</td><td>VoIP Sahur Net #3</td><td>9W2SNN</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Polis Diraja Malaysia ke-216&#41;</td><td>9W2OGK<sup>2</sup></td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>26/03</td><td>0400MY</td><td>VoIP Sahur Net #4</td><td>9W2SNN</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
-								<tr><td>2200MY</td><td>CB Net<br></td><td>113DAYJT</td><td>17</td></tr>
+								<tr><td>2200MY</td><td>CB Net<br></td><td>113DAYJT</td><td>16</td></tr>
 								<tr class='bg-success-subtle'><td>Isnin<br>27/03</td><td>0400MY</td><td>VoIP Sahur Net #5</td><td>9W2YJT</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Selasa<br>28/03</td><td>0400MY</td><td>VoIP Sahur Net #6</td><td>113DAYJT</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Rabu<br>29/03</td><td>0400MY</td><td>VoIP Sahur Net #7</td><td>9W2SNN</td><td></td></tr>
@@ -863,186 +863,207 @@
 				<figcaption class='figure-caption text-center'>Peta</figcaption>
 			</div>
 		</div>
-		<!--
-			<hr>
-			<div class='row'>
-				<div class='col-12 mt-3'><h3 class='text-center'>Carta Kategori Jalur Amatur</h3></div>
-				<div class='col-lg-6 mt-2'>
-					<p class='text-center'>HAM Net Bahasa Inggeris</p>
-					<div class='row'>
-						<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6><table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
-								<thead><th>No</th><th>Station</th></thead>
-								<tbody>
-									<tr><td>1<sup>st</sup></td><td>9M6AUA</td></tr>
-									<tr><td>2<sup>nd</sup></td><td>9M2RAN</td></tr>
-									<tr><td>3<sup>rd</sup></td><td>9W6RHN</td></tr>
-									<tr><td>4<sup>th</sup></td><td>9M6RDY</td></tr>
-									<tr><td>5<sup>th</sup></td><td>9M6JAY</td></tr>
-		
-								</tbody></table>
-						</div>
-						<div class='col-6'><h6 class='text-center'>Stesen Paling Aktif</h6><table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
-								<thead><th>No</th><th>Station</th></thead>
-								<tbody>
-									<tr><td>1<sup>st</sup></td><td>9W2AYP</td></tr>
-									<tr><td>2<sup>nd</sup></td><td>9W6RHN</td></tr>
-									<tr><td>3<sup>rd</sup></td><td>YD9BEJ</td></tr>
-									<tr><td>4<sup>th</sup></td><td>9W2NDI</td></tr>
-									<tr><td>5<sup>th</sup></td><td>9W2JCP</td></tr>
-									<tr><td>6<sup>th</sup></td><td>9W2NEW</td></tr>
-									<tr><td>7<sup>th</sup></td><td>9M6AUA</td></tr>
-									<tr><td>8<sup>th</sup></td><td>9M2RAN</td></tr>
-									<tr><td>9<sup>th</sup></td><td>9W2YJT</td></tr>
-									<tr><td>10<sup>th</sup></td><td>DV1ZUR</td></tr>
-								</tbody></table>
-						</div>
+		<hr>
+		<div class='row'>
+			<div class='col-12'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
+			<div class='col-lg-6'>
+				<p class='text-center'>HAM Net Bahasa Inggeris</p>
+				<div class='row'>
+					<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
+					<table class='table table-bordered table-sm table-responsive-sm text-center'>
+							<thead><th>No</th><th>Station</th></thead>
+							<tbody>
+								<tr><td>1<sup>st</sup></td><td>9W8VWW</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9M6AUA</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>9M2RAN</td></tr>
+								<tr><td>4<sup>th</sup></td><td>9M6RHM</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9M6RDY</td></tr>	
+							</tbody>
+						</table>
 					</div>
-				</div>
-				<div class='col-lg-6 mt-2'>
-					<p class='text-center'>HAM Net Bahasa Melayu</p>
-					<div class='row'>
-						<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6><table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
-								<thead><th>No</th><th>Station</th></thead>
-								<tbody>
-									<tr><td>1<sup>st</sup></td><td>9W2UZL</td></tr>
-									<tr><td>2<sup>nd</sup></td><td>9W6MOZ</td></tr>
-									<tr><td>3<sup>rd</sup></td><td>9W6AZE</td></tr>
-									<tr><td>4<sup>th</sup></td><td>9W2OGK</td></tr>
-									<tr><td>5<sup>th</sup></td><td>9M6AUA</td></tr>
-								</tbody></table>
-						</div>
-						<div class='col-6'><h6 class='text-center'>Stesen Paling Aktif</h6><table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
-								<thead><th>No</th><th>Station</th></thead>
-								<tbody>
-									<tr><td>1<sup>st</sup></td><td>9W2SNN</td></tr>
-									<tr><td>2<sup>nd</sup></td><td>9W2NEW</td></tr>
-									<tr><td>3<sup>rd</sup></td><td>9W2AYP</td></tr>
-									<tr><td>4<sup>th</sup></td><td>9W2JCP</td></tr>
-									<tr><td>5<sup>th</sup></td><td>V85AFF</td></tr>
-									<tr><td>6<sup>th</sup></td><td>9W2NDI</td></tr>
-									<tr><td>7<sup>th</sup></td><td>YD5NCU</td></tr>
-									<tr><td>8<sup>th</sup></td><td>9W2WDR</td></tr>
-									<tr><td>9<sup>th</sup></td><td>9M6RDY</td></tr>
-									<tr><td>10<sup>th</sup></td><td>9W6RHN</td></tr>
-								</tbody></table>
-						</div>
+					<div class='col-6'><h6 class='text-center'>Stesen Paling Aktif</h6>
+					<table class='table table-bordered table-sm table-responsive-sm text-center'>
+							<thead><th>No</th><th>Station</th></thead>
+							<tbody>
+								<tr><td>1<sup>st</sup></td><td>9W2AYP</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9M6AUA</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>9W6RHN</td></tr>
+								<tr><td>4<sup>th</sup></td><td>9W2JCP</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9M6RDY</td></tr>
+								<tr><td>6<sup>th</sup></td><td>9M2RAN</td></tr>
+								<tr><td>7<sup>th</sup></td><td>9W2NDI</td></tr>
+								<tr><td>8<sup>th</sup></td><td>9M6RMD</td></tr>
+								<tr><td>9<sup>th</sup></td><td>9W2WDR</td></tr>
+								<tr><td>10<sup>th</sup></td><td>9W2SNN</td></tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 			</div>
-			<div class='row'>
-				<div class='col-12'><h3 class='text-center'>Carta Kategori Jalur Rakyat</h3></div>
-				<div class='col-12 mt-2'><p class='text-center'>CB Net Bahasa Melayu</p></div>
+			<div class='col-lg-6'>
+				<p class='text-center'>HAM Net Bahasa Melayu</p>
+				<div class='row'>
+					<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
+					<table class='table table-bordered table-sm table-responsive-sm text-center'>
+							<thead><th>No</th><th>Station</th></thead>
+							<tbody>
+								<tr><td>1<sup>st</sup></td><td>9W2UZL</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9W6MOZ</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>9M6JAY</td></tr>
+								<tr><td>4<sup>th</sup></td><td>9W2OGK</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9W2SNN</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div class='col-6'><h6 class='text-center'>Stesen Paling Aktif</h6>
+					<table class='table table-bordered table-sm table-responsive-sm text-center'>
+							<thead><th>No</th><th>Station</th></thead>
+							<tbody>
+								<tr><td>1<sup>st</sup></td><td>9W2SNN</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9W2AYP</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>9W2JCP</td></tr>
+								<tr><td>4<sup>th</sup></td><td>9W6RHN</td></tr>
+								<tr><td>5<sup>th</sup></td><td>YD5NCU</td></tr>
+								<tr><td>6<sup>th</sup></td><td>9W2NEW</td></tr>
+								<tr><td>7<sup>th</sup></td><td>V85AFF</td></tr>
+								<tr><td>8<sup>th</sup></td><td>9W2NDI</td></tr>
+								<tr><td>9<sup>th</sup></td><td>9W2WDR</td></tr>
+								<tr><td>10<sup>th</sup></td><td>9W2YJT</td></tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-12'><h3 class='text-center'>Kategori Jalur Rakyat</h3></div>
+			<div class='col-lg-6'>
+				<p class='text-center'>CB Net Bahasa Melayu</p>
+				<div class='row'>
 					<div class='col-6'>
 						<h6 class='text-center'>Pengawal Tertinggi</h6>
-						<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'><thead><th>No</th><th>Station</th></thead><tbody>
-								<tr><td>1<sup>st</sup></td><td>113DAZIK</td></tr>
-								<tr><td>2<sup>nd</sup></td><td>113DAPLY</td></tr>
-								<tr><td>3<sup>rd</sup></td><td>113DAISS</td></tr></tbody>
+						<table class='table table-bordered table-sm table-responsive-sm text-center'>
+							<thead><th>No</th><th>Station</th></thead>
+							<tbody>
+								<tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>113DAJCP</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>113DAZIK</td></tr>
+								<tr><td>4<sup>th</sup></td><td>113MSSAM</td></tr>
+								<tr><td>5<sup>th</sup></td><td>113DAYJT</td></tr>
+							</tbody>
 						</table>
 					</div>
 					<div class='col-6'>
 						<h6 class='text-center'>Stesen Paling Aktif</h6>
-						<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'><thead><th>No</th><th>Station</th></thead><tbody>
+						<table class='table table-bordered table-sm table-responsive-sm text-center'>
+							<thead><th>No</th><th>Station</th></thead>
+							<tbody>
 								<tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>113DAISS</td></tr>
-								<tr><td>3<sup>rd</sup></td><td>91DAJA</td></tr>
-								<tr><td>4<sup>th</sup></td><td>91KMAGP</td></tr>
-								<tr><td>5<sup>th</sup></td><td>91DATHP</td></tr>
-								<tr><td>6<sup>th</sup></td><td>225BSLIM</td></tr>
-								<tr><td>7<sup>th</sup></td><td>91DAAVM</td></tr>
-								<tr><td>8<sup>th</sup></td><td>113DAJCP</td></tr>
-								<tr><td>9<sup>th</sup></td><td>113MSSAM</td></tr>
-								<tr><td>10<sup>th</sup></td><td>91DAGBW</td></tr></tbody>
+								<tr><td>3<sup>rd</sup></td><td>113DAJCP</td></tr>
+								<tr><td>4<sup>th</sup></td><td>225BSLIM</td></tr>
+								<tr><td>5<sup>th</sup></td><td>113DANDI</td></tr>
+								<tr><td>6<sup>th</sup></td><td>113MSSAM</td></tr>
+								<tr><td>7<sup>th</sup></td><td>91DAJA</td></tr>
+								<tr><td>8<sup>th</sup></td><td>91KMAGP</td></tr>
+								<tr><td>9<sup>th</sup></td><td>91DATHP</td></tr>
+								<tr><td>10<sup>th</sup></td><td>91DAAVM</td></tr>
+							</tbody>
 						</table>
 					</div>
+				</div>
 			</div>
-	-->
+			<div class='col-lg-6'>
+				<p class='text-center'>Open VOI Sahur Net 1444H</p>
+				<div class='row'>
+					<div class='col-6'>
+						<h6 class='text-center'>Pengawal Tertinggi</h6>
+						<table class='table table-bordered table-sm table-responsive-sm text-center'>
+							<thead><th>No</th><th>Station</th></thead>
+							<tbody>
+								<tr><td>1<sup>st</sup></td><td></td></tr>
+								<tr><td>2<sup>nd</sup></td><td></td></tr>
+								<tr><td>3<sup>rd</sup></td><td></td></tr>
+								<tr><td>4<sup>th</sup></td><td></td></tr>
+								<tr><td>5<sup>th</sup></td><td></td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div class='col-6'>
+						<h6 class='text-center'>Stesen Paling Aktif</h6>
+						<table class='table table-bordered table-sm table-responsive-sm text-center'>
+							<thead><th>No</th><th>Station</th></thead>
+							<tbody>
+								<tr><td>1<sup>st</sup></td><td></td></tr>
+								<tr><td>2<sup>nd</sup></td><td></td></tr>
+								<tr><td>3<sup>rd</sup></td><td></td></tr>
+								<tr><td>4<sup>th</sup></td><td></td></tr>
+								<tr><td>5<sup>th</sup></td><td></td></tr>
+								<tr><td>6<sup>th</sup></td><td></td></tr>
+								<tr><td>7<sup>th</sup></td><td></td></tr>
+								<tr><td>8<sup>th</sup></td><td></td></tr>
+								<tr><td>9<sup>th</sup></td><td></td></tr>
+								<tr><td>10<sup>th</sup></td><td></td></tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
 		<hr>
 		<div class='row'>
-			<div class='col-12 mt-3'>
+			<div class='col-12'>
 				<h3 class='text-center'>Pemenang Bertuah Rangkaian RoIPMARS</h3>
 			</div>
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>HAM Net Khas Ambang Tahun Baru 2023</h6>
-				<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
-					<thead>
-						<th>No</th>
-						<th>Station</th>
-					</thead>
+				<table class='table table-bordered table-sm table-responsive-sm text-center'>
+					<thead><th>No</th><th>Station</th></thead>
 					<tbody>
-						<tr><td>1<sup>st</sup></td><td>9W6AFF</td>
-						</tr>
-						<tr><td>2<sup>nd</sup></td><td>YD5NCU</td>
-						</tr>
-						<tr><td>3<sup>rd</sup></td><td>9W6MOZ</td>
-						</tr>
-						<tr><td>4<sup>th</sup></td><td>9W2YJT</td>
-						</tr>
-						<tr><td>5<sup>th</sup></td><td>YC3RDY</td>
-						</tr>
+						<tr><td>1<sup>st</sup></td><td>9W6AFF</td></tr>
+						<tr><td>2<sup>nd</sup></td><td>YD5NCU</td></tr>
+						<tr><td>3<sup>rd</sup></td><td>9W6MOZ</td></tr>
+						<tr><td>4<sup>th</sup></td><td>9W2YJT</td></tr>
+						<tr><td>5<sup>th</sup></td><td>YC3RDY</td></tr>
 					</tbody>
 				</table>
 			</div>
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>CB Net Khas Sambutan Tahun Baru 2023</h6>
-				<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
-					<thead>
-						<th>No</th>
-						<th>Station</th>
-					</thead>
+				<table class='table table-bordered table-sm table-responsive-sm text-center'>
+					<thead><th>No</th><th>Station</th></thead>
 					<tbody>
-						<tr><td>1<sup>st</sup></td><td>113DAHRY</td>
-						</tr>
-						<tr><td>2<sup>nd</sup></td><td>113DAZIK</td>
-						</tr>
-						<tr><td>3<sup>rd</sup></td><td>225BSLIM</td>
-						</tr>
-						<tr><td>4<sup>th</sup></td><td>113DAISS</td>
-						</tr>
-						<tr><td>5<sup>th</sup></td><td>113MSUZL</td>
-						</tr>
+						<tr><td>1<sup>st</sup></td><td>113DAHRY</td></tr>
+						<tr><td>2<sup>nd</sup></td><td>113DAZIK</td></tr>
+						<tr><td>3<sup>rd</sup></td><td>225BSLIM</td></tr>
+						<tr><td>4<sup>th</sup></td><td>113DAISS</td></tr>
+						<tr><td>5<sup>th</sup></td><td>113MSUZL</td></tr>
 					</tbody>
 				</table>
 			</div>
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>HAM Net Khas Ambang Tahun Baru Cina 2023</h6>
-				<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
-					<thead>
-						<th>No</th>
-						<th>Station</th>
-					</thead>
+				<table class='table table-bordered table-sm table-responsive-sm text-center'>
+					<thead><th>No</th><th>Station</th></thead>
 					<tbody>
-						<tr><td>1<sup>st</sup></td><td>9W2EVQ</td>
-						</tr>
-						<tr><td>2<sup>nd</sup></td><td>9M2RAN</td>
-						</tr>
-						<tr><td>3<sup>rd</sup></td><td>9W2JCP</td>
-						</tr>
-						<tr><td>4<sup>th</sup></td><td>9W2ESR</td>
-						</tr>
-						<tr><td>5<sup>th</sup></td><td>V85AFF</td>
-						</tr>
+						<tr><td>1<sup>st</sup></td><td>9W2EVQ</td></tr>
+						<tr><td>2<sup>nd</sup></td><td>9M2RAN</td></tr>
+						<tr><td>3<sup>rd</sup></td><td>9W2JCP</td></tr>
+						<tr><td>4<sup>th</sup></td><td>9W2ESR</td></tr>
+						<tr><td>5<sup>th</sup></td><td>V85AFF</td></tr>
 					</tbody>
 				</table>
 			</div>
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>CB Net Khas Sambutan Tahun Baru Cina 2023</h6>
-				<table class='table table-bordered table-sm table-responsive-sm table-striped text-center'>
-					<thead>
-						<th>No</th>
-						<th>Station</th>
-					</thead>
+				<table class='table table-bordered table-sm table-responsive-sm text-center'>
+					<thead><th>No</th><th>Station</th></thead>
 					<tbody>
-						<tr><td>1<sup>st</sup></td><td>91DATHP</td>
-						</tr>
-						<tr><td>2<sup>nd</sup></td><td>113MSSAM</td>
-						</tr>
-						<tr><td>3<sup>rd</sup></td><td>113DANDI</td>
-						</tr>
-						<tr><td>4<sup>th</sup></td><td>91DAGBW</td>
-						</tr>
-						<tr><td>5<sup>th</sup></td><td>91KMAGP</td>
-						</tr>
+						<tr><td>1<sup>st</sup></td><td>91DATHP</td></tr>
+						<tr><td>2<sup>nd</sup></td><td>113MSSAM</td></tr>
+						<tr><td>3<sup>rd</sup></td><td>113DANDI</td></tr>
+						<tr><td>4<sup>th</sup></td><td>91DAGBW</td></tr>
+						<tr><td>5<sup>th</sup></td><td>91KMAGP</td></tr>
 					</tbody>
 				</table>
 			</div>
@@ -1051,6 +1072,7 @@
 	<button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
 	<?php include('footer.php') ?>
 	<script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' crossorigin='anonymous'></script>
+	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' crossorigin='anonymous'></script>
 	<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
 	<script src='vendor/js/tawkto.js'></script>
 	<script src='vendor/js/stt.js'></script>

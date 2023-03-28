@@ -133,6 +133,7 @@
   </div>
   <?php include('footer.min.php') ?>
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' crossorigin='anonymous'></script>
+	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js' crossorigin='anonymous'></script>
   <script src='https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js' crossorigin='anonymous'></script>

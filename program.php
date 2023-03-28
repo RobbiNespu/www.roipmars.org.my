@@ -344,8 +344,8 @@
 								<tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Polis Diraja Malaysia ke-216&#41;</td><td>9W2OGK<sup>2</sup></td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>26/03</td><td>0400MY</td><td>VoIP Sahur Net #4</td><td>9W2SNN</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr><td>2200MY</td><td>CB Net<br></td><td>113DAYJT</td><td>16</td></tr>
-								<tr class='bg-success-subtle'><td>Isnin<br>27/03</td><td>0400MY</td><td>VoIP Sahur Net #5</td><td>9W2YJT</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-success-subtle'><td>Selasa<br>28/03</td><td>0400MY</td><td>VoIP Sahur Net #6</td><td>113DAYJT</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr class='bg-success-subtle'><td>Isnin<br>27/03</td><td>0400MY</td><td>VoIP Sahur Net #5</td><td>9W2YJT</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
+								<tr class='bg-success-subtle'><td>Selasa<br>28/03</td><td>0400MY</td><td>VoIP Sahur Net #6</td><td>113DAYJT</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Rabu<br>29/03</td><td>0400MY</td><td>VoIP Sahur Net #7</td><td>9W2SNN</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Khamis<br>30/03</td><td>0400MY</td><td>VoIP Sahur Net #8</td><td>113DABOB</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Jumaat<br>31/03</td><td>0400MY</td><td>VoIP Sahur Net #9</td><td>9W2SNN</td><td></td></tr>

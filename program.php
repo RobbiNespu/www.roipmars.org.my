@@ -107,16 +107,14 @@
 					</tbody>
 				</table>
 				<h4>Barisan Jawatankuasa &amp; Petugas<br>Bahagian Siaraya &amp; Aktiviti</h4>
-				<div id='ncs23' class='carousel carousel-fade' data-bs-ride='carousel'>
+				<div id='ncs23' class='carousel carousel-fade mt-4' data-bs-ride='carousel'>
 					<div class='carousel-inner'>
 						<div class='carousel-item active'>
 							<div class='hstack gap-2'>
-								<img src='media/image/member/013.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-info-subtle bg-gradient mx-auto' alt='9W8VWW'>
-								<p class='lh-1 me-5'>9W8VWW / 58MSVWW<br>VERONICA CATHERINE<br>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
-							</div>
-						</div>
-						<div class='carousel-item'>
-							<div class='hstack gap-2'>
+								<div class='vstack gap-2'>
+									<img src='media/image/member/013.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W8VWW'>
+									<p class='lh-1 me-5'>9W8VWW / 58MSVWW<br>VERONICA CATHERINE<br>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
+								</div>
 								<div class='vstack gap-2'>
 									<img src='media/image/member/031.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2EZK'>
 									<p class='lh-1'>9W2EZK / 113DAZIK<br>IFFIQ ZIKRY<br>PENGURUS SIARAYA &amp; AKTIVITI</p>
@@ -154,7 +152,7 @@
 									<p class='lh-1'>9W2JCP / 113DAJCP<br>ROSLI<br>PENYELIA AKTIVITI 2</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2sft.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='9W2SFT'>
+									<img src='media/image/ncs/9w2sft.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W2SFT'>
 									<p class='lh-1'>9W2SFT<br>SYAWAL<br>PENYELIA AKTIVITI 3</p>
 								</div>
 							</div>
@@ -169,10 +167,6 @@
 									<img src='media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W2YJT'>
 									<p class='lh-1'>9W2YJT / 113DAYJT<br>YUSOF<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
-							</div>
-						</div>
-						<div class='carousel-item'>
-							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
 									<img src='media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6RHN'>
 									<p class='lh-1'>9W6RHN<br>ROSLAN<br>PETUGAS TETAP AKTIVITI</p>
@@ -193,10 +187,6 @@
 									<img src='media/image/ncs/9m6rhm.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RHM'>
 									<p class='lh-1'>9M6RHM<br>RAHIM<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
-							</div>
-						</div>
-						<div class='carousel-item'>
-							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
 									<img src='media/image/member/008.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2OGK'>
 									<p class='lh-1'>9W2OGK / 113DAOGK<br>KAMARUDZAMAN<br>PETUGAS TETAP AKTIVITI</p>
@@ -217,16 +207,12 @@
 									<img src='media/image/ncs/9w6wot.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6WOT'>
 									<p class='lh-1'>9W6WOT / 58MSWOT<br>STEWARD<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
-							</div>
-						</div>
-						<div class='carousel-item'>
-							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
 									<img src='media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W6MOZ'>
 									<p class='lh-1'>9W6MOZ / 58MSMOZ<br>MUSTAFA<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9m2sfl.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary mx-auto' alt='9M2SFL'>
+									<img src='media/image/ncs/9m2sfl.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M2SFL'>
 									<p class='lh-1'>9M2SFL<br>SAIFUL<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
 							</div>
@@ -234,25 +220,17 @@
 						<div class='carousel-item'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w8vyy.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-warning mx-auto' alt='9W8VYY'>
+									<img src='media/image/ncs/9w8vyy.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-warning-subtle bg-gradient mx-auto' alt='9W8VYY'>
 									<p class='lh-1'>9W8VYY<br>ALEX<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2gsv.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='9W2GSV'>
+									<img src='media/image/ncs/9w2gsv.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W2GSV'>
 									<p class='lh-1'>9W2GSV<br>SHAHRUZIE<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
-							</div>
-						</div>
-						<div class='carousel-item'>
-							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
 									<img src='media/image/ncs/9w6aff.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W6AFF'>
 									<p class='lh-1'>9W6AFF / 58MSAFF<br>SAFRI<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
-								<!-- <div class='vstack gap-2'>
-									<img src='media/image/ncs/113daykb.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger mx-auto' alt='113DAYKB'>
-									<p class='lh-1'>113DAYKB<br>YAAKOB<br>PETUGAS TETAP AKTIVITI</p>
-								</div> -->
 							</div>
 						</div>
 					</div>
@@ -263,11 +241,7 @@
 		<div class='row'>
 			<div class='col-12 my-1 text-center'>
 				<h2 class='font-weight-bold'>Jadual Program</h2>
-				<span>
-					<?php date_default_timezone_get();
-					$file_last_modified = filemtime(__FILE__);
-					echo 'kemaskini pada: ' . date('D, dS M Y, h:i:sA T', $file_last_modified); ?>
-				</span>
+				<span><?php date_default_timezone_get();$file_last_modified = filemtime(__FILE__);echo 'kemaskini pada: ' . date('D, dS M Y, h:i:sA T', $file_last_modified); ?></span>
 			</div>
 		</div>
 		<div class='row'>
@@ -335,8 +309,8 @@
 				</div>
 			</div>
 			<div class='col-lg-4'>
-				<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#032013' aria-expanded='true' aria-controls='032013'>Mac 2023</button></div>
-				<div class='collapse show' id='032013'>
+				<div class='d-grid gap-1 my-1'><button class='btn btn-lg btn-secondary d-grid' type='button' data-bs-toggle='collapse' data-bs-target='#032013' aria-expanded='false' aria-controls='032013'>Mac 2023</button></div>
+				<div class='collapse' id='032013'>
 					<div class='table-responsive'>
 						<table class='table table-sm table-bordered table-striped text-center align-middle'><thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead><tbody>
 								<tr class='bg-info-subtle'><td>Rabu<br>01/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Malaysia&#39;s 90th Army Day&#41;</td><td>9W8VWW</td><td>40</td></tr>

@@ -870,27 +870,27 @@
 				<h2 class='text-center'>Statistik Program</h2>
 				<h6 class='text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan &amp; Penghormatan Kami <i class='fas fa-quote-right fa-xs'></i></h6>
 			</div>
-			<div class='col-lg-4 figure my-1'>
+			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1851683566&format=image' loading='lazy' alt='NetGraphDaily23'>
 				<figcaption class='figure-caption text-center'>Masa &#40;UTC&#41;</figcaption>
 			</div>
-			<div class='col-lg-4 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&amp;format=image' loading='lazy' alt='NetGraphDaily23'>
+			<div class='col-lg-6 figure my-1'>
+				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&format=image' loading='lazy' alt='NetGraphDaily23'>
 				<figcaption class='figure-caption text-center'>Harian</figcaption>
 			</div>
-			<div class='col-lg-4 figure my-1'>
+			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=861710611&format=image' loading='lazy' alt='NetGraphDay23'>
 				<figcaption class='figure-caption text-center'>Hari</figcaption>
 			</div>
-			<div class='col-lg-4 figure my-1'>
+			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' loading='lazy' alt='NetGraphWeekly23'>
 				<figcaption class='figure-caption text-center'>Mingguan</figcaption>
 			</div>
-			<div class='col-lg-4 figure my-1'>
+			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' loading='lazy' alt='NetGraphMonthly23'>
 				<figcaption class='figure-caption text-center'>Bulanan</figcaption>
 			</div>
-			<div class='col-lg-4 figure my-1'>
+			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=455644558&format=image' loading='lazy' alt='NetGraphQuarterly23'>
 				<figcaption class='figure-caption text-center'>Suku Tahunan</figcaption>
 			</div>

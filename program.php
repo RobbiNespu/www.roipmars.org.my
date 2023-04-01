@@ -376,7 +376,7 @@
 								<tr class='bg-success-subtle'><td rowspan='2'>Khamis<br>23/03<sup>1</sup></td><td>0400MY</td><td>VoIP Sahur Net #1</td><td>9W6AZE</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Meteorologi Sedunia&#41;</td><td>9W6PKJ</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Jumaat<br>24/03</td><td>0400MY</td><td>VoIP Sahur Net #2</td><td>9W2JCP</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
-								<tr class='bg-success-subtle'><td rowspan='2'>Sabtu<br>25/03</td><td>0400MY</td><td>VoIP Sahur Net #3</td><td>9W2SNN</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr class='bg-success-subtle'><td rowspan='2'>Sabtu<br>25/03</td><td>0400MY</td><td>VoIP Sahur Net #3</td><td>9W2SNN</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-primary-subtle'><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Polis Diraja Malaysia ke-216&#41;</td><td>9W2OGK<sup>2</sup></td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td rowspan='2'>Ahad<br>26/03</td><td>0400MY</td><td>VoIP Sahur Net #4</td><td>9W2SNN</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr><td>2200MY</td><td>CB Net<br></td><td>113DAYJT</td><td>16</td></tr>
@@ -384,7 +384,7 @@
 								<tr class='bg-success-subtle'><td>Selasa<br>28/03</td><td>0400MY</td><td>VoIP Sahur Net #6</td><td>113DAYJT</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Rabu<br>29/03</td><td>0400MY</td><td>VoIP Sahur Net #7</td><td>9W2SNN</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Khamis<br>30/03</td><td>0400MY</td><td>VoIP Sahur Net #8</td><td>113DANDI</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
-								<tr class='bg-success-subtle'><td>Jumaat<br>31/03</td><td>0400MY</td><td>VoIP Sahur Net #9</td><td>9W2SNN</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr class='bg-success-subtle'><td>Jumaat<br>31/03</td><td>0400MY</td><td>VoIP Sahur Net #9</td><td>9W2SNN</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 							</tbody>
 							<caption>
 								<ul class='list-group list-group-flush'>
@@ -408,7 +408,7 @@
 						<table class='table table-sm text-center align-middle'>
 							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
 							<tbody>
-								<tr class='bg-success-subtle'><td>Sabtu<br>01/04</td><td>0400MY</td><td>VoIP Sahur Net #10</td><td>113MSSAM</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Sabtu<br>01/04</td><td>0400MY</td><td>VoIP Sahur Net #10</td><td>113MSSAM</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Ahad<br>02/04</td><td>0400MY</td><td>VoIP Sahur Net #11</td><td>9W2JCP</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Isnin<br>03/04</td><td>0400MY</td><td>VoIP Sahur Net #12</td><td>113DAOGK</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Selasa<br>04/04</td><td>0400MY</td><td>VoIP Sahur Net #13</td><td>9W2NDI</td><td></td></tr>
@@ -442,6 +442,9 @@
 							<caption>
 								<ul class='list-group list-group-flush'>
 									<li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
+									<!-- <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li> -->
+									<li class='list-group-item'><i class='bi-send-x-fill text-danger'></i> Laporan tidak dihantar</li>
+									<li class='list-group-item'><i class='bi-envelope-x-fill text-danger'></i> Laporan tidak lengkap</li>
 								</ul>
 							</capton>
 						</table>

@@ -138,11 +138,11 @@
                 <textarea class='form-control' aria-label='Pesanan' name='message' id='message' placeholder='Pesanan' rows='6' aria-required='true' required data-validation-required-message='Nyatakan pesanan anda'></textarea>
               </div>
               <div class='d-flex gap-0'>
-                <div class='col-4 form-floating'>
+                <div class='col-3 form-floating'>
                   <input class='form-control user-select-none' name='from_timestamp' id='from_timestamp' readonly>
                   <label for='from_timestamp'>Waktu</label>
                 </div>
-                <div class='col-4 form-floating'>
+                <div class='col-5 form-floating'>
                   <input class='form-control user-select-none' name='from_ip' id='from_ip' readonly>
                   <label for='from_ip'>IP</label>
                 </div>

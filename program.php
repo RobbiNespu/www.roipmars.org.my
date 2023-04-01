@@ -286,7 +286,7 @@
 				<div class='collapse' id='012013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr class='bg-danger-subtle'><td>Ahad<br>01/01</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru 2023&#41;</td><td>113DAJCP</td><td>22</td></tr>
 								<tr class='bg-info-subtle'><td>Rabu<br>04/01</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td>9M6JAY</td><td>17</td></tr>
@@ -320,7 +320,7 @@
 				<div class='collapse' id='022013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr class='bg-info-subtle'><td>Rabu<br>01/02</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Federal Territory Day&#41;</td><td>9W6RHN</td><td>31</td></tr>
 								<tr><td>Jumaat<br>03/02</td><td>2100MY</td><td>MARS Net</td><td>9W2EZK</td><td>22</td></tr>
@@ -357,7 +357,7 @@
 				<div class='collapse show' id='032013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr class='bg-info-subtle'><td>Rabu<br>01/03</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Malaysia&#39;s 90th Army Day&#41;</td><td>9W8VWW</td><td>40</td></tr>
 								<tr class='bg-primary-subtle'><td>Jumaat<br>03/03</td><td>2100MY</td><td>&#91;KHAS&#93; MARS Net<br>&#40;Hari Hidupan Liar Sedunia&#41;</td><td>9W2SNN</td><td>38</td></tr>
@@ -406,7 +406,7 @@
 				<div class='collapse' id='042013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr class='bg-success-subtle'><td>Sabtu<br>01/04</td><td>0400MY</td><td>VoIP Sahur Net #10</td><td>113MSSAM</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Ahad<br>02/04</td><td>0400MY</td><td>VoIP Sahur Net #11</td><td>9W2JCP</td><td></td></tr>
@@ -456,7 +456,7 @@
 				<div class='collapse' id='052013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr class='bg-primary-subtle'><td>Isnin<br>01/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pekerja&#41;</td><td>9W2SFT</td><td></td></tr>
 								<tr><td>Rabu<br>03/05</td><td>2100MY</td><td>Learning English Net</td><td>9W8VWW</td><td></td></tr>
@@ -492,7 +492,7 @@
 				<div class='collapse' id='062013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr class='bg-primary-subtle'><td>Khamis<br>01/06</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Ulang Tahun RoIPMARS ke-3&#41;</td><td>&shy;</td><td></td></tr>
 								<tr class='bg-primary-subtle'><td>Jumaat<br>02/06</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Gawai&#41;<br>&#40;Hari Tentera Udara Diraja Malaysia&#41;</td><td>&shy;</td><td></td></tr>
@@ -536,7 +536,7 @@
 				<div class='collapse' id='072013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr><td>Sabtu<br>01/07</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>&shy;</td><td></td></tr>
 								<tr><td>Ahad<br>02/07</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>&shy;</td><td></td></tr>
@@ -571,7 +571,7 @@
 				<div class='collapse' id='082013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr><td>Rabu<br>02/08</td><td>2100MY</td><td>Learning English Net</td><td>&shy;</td><td></td></tr>
 								<tr><td>Jumaat<br>04/08</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>&shy;</td><td></td></tr>
@@ -611,7 +611,7 @@
 				<div class='collapse' id='092013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr class='bg-light-subtle'><td>Jumaat<br>01/09</td><td>2100MY</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan &#40;9M66MB&#41;</td><td>&shy;</td><td></td></tr>
 								<tr><td>Sabtu<br>02/09</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>&shy;</td><td></td></tr>
@@ -647,7 +647,7 @@
 				<div class='collapse' id='102013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr class='bg-danger-subtle'><td>Ahad<br>01/10</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Kopi Antarabangsa&#41;</td><td>&shy;</td><td></td></tr>
 								<tr class='bg-primary-subtle'><td>Isnin<br>02/10</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Tanpa Keganasan Antarabangsa&#41;</td><td>&shy;</td><td></td></tr>
@@ -687,7 +687,7 @@
 				<div class='collapse' id='112013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr><td>Rabu<br>01/11</td><td>2100MY</td><td>Learning English Net</td><td>&shy;</td><td></td></tr>
 								<tr><td>Jumaat<br>03/11</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>&shy;</td><td></td></tr>
@@ -720,7 +720,7 @@
 				<div class='collapse' id='122013'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr class='bg-primary-subtle'><td>Jumaat<br>01/12</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari AIDS Sedunia&#41;</td><td>&shy;</td><td></td></tr>
 								<tr><td>Sabtu<br>02/12</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>&shy;</td><td></td></tr>
@@ -758,7 +758,7 @@
 				<div class='collapse' id='012014'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr><td>Isnin<br>01/01</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Tahun Baru 2024&#41;</td><td>&shy;</td><td></td></tr>
 								<tr><td>Rabu<br>03/01</td><td>2100MY</td><td>Learning English Net</td><td>&shy;</td><td></td></tr>
@@ -792,7 +792,7 @@
 				<div class='collapse' id='022014'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr><td>Jumaat<br>02/02</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>&shy;</td><td></td></tr>
 								<tr><td>Sabtu<br>03/02</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>&shy;</td><td></td></tr>
@@ -824,7 +824,7 @@
 				<div class='collapse' id='032014'>
 					<div class='table-responsive'>
 						<table class='table table-sm text-center align-middle'>
-							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Stesen</th></thead>
+							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr><td>Jumaat<br>01/03</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>&shy;</td><td></td></tr>
 								<tr><td>Sabtu<br>02/03</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>&shy;</td><td></td></tr>

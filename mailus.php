@@ -144,32 +144,10 @@
                 </div>
                 <div class='col-4 form-floating'>
                   <input class='form-control user-select-none' name='from_ip' id='from_ip' readonly>
-                    <?php function getIP()
-                    {
-                      if (!empty($_SERVER['HTTP_CF_CONNECTING_IP'])) {
-                        $ipAdress = $_SERVER['HTTP_CF_CONNECTING_IP'];
-                      } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-                        $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'];
-                      } else {
-                        $ipAdress = $_SERVER['https://api64.ipify.org'];
-                      }
-                      return $ipAdress;
-                    }
-                    echo getIP(); ?>
                   <label for='from_ip'>IP</label>
                 </div>
                 <div class='col-4 form-floating'>
                   <input class='form-control user-select-none' name='from_geo' id='from_geo' readonly>
-                    <?php function getGeoIP()
-                    {
-                      if (!empty($_SERVER['HTTP_CF_IPCITY'])) {
-                        $geoLoc = $_SERVER['HTTP_CF_IPCITY'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
-                      } else {
-                        $geoLoc = $_SERVER['http://ip-api.com/json?ip=' . $_SERVER['HTTP_X_FORWARDED_FOR'] . '&fields=country,regionName'];
-                      }
-                      return $geoLoc;
-                    }
-                    echo getGeoIP(); ?>
                   <label for='from_geo'>Lokasi</label>
                 </div>
               </div>

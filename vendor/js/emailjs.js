@@ -18,19 +18,28 @@ document.getElementById('contactForm').addEventListener('submit', function (even
 });
 
 window.onload = function () {
-  var time = document.getElementById('from_timestamp');
   var vistime = new Date().toLocaleString();
-  time.addEventListener("click", function () {
-    this.setAttribute('value', vistime);
-  });
-  var ip = document.getElementById('from_ip');
-  var visip = '';
-  ip.addEventListener("click", function () {
-    this.setAttribute('value', visip);
-  });
-  var geoip = document.getElementById('from_geoip');
-  var visgeoip = '';
-  geoip.addEventListener("click", function () {
-    this.setAttribute('value', visgeoip);
-  });
+  document.getElementById('from_timestamp').setAttribute('value', vistime);
 }
+
+$(function () {
+  $.getJSON('//api64.ipify.org?format=jsonp&callback=?',
+    function (json) {
+      document.getElementById('from_ip').setAttribute('value', json.ip);
+    }
+  );
+});
+
+$(function () {
+  $.getJSON('https://api64.ipify.org?format=jsonp&callback=?',
+    function (jsonip) {
+      $(function () {
+        $.getJSON('http://ip-api.com/json?ip=' + jsonip.ip + '&fields=regionName,country&callback=?',
+          function (jsongeoip) {
+            document.getElementById('from_geoip').setAttribute('value', jsongeoip.regionName);
+          }
+        );
+      });
+    }
+  );
+});

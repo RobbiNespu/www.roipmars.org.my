@@ -90,11 +90,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -409,7 +409,7 @@
 							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
 								<tr class='bg-success-subtle'><td>Sabtu<br>01/04</td><td>0400MY</td><td>VoIP Sahur Net #10</td><td>113MSSAM</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-success-subtle'><td>Ahad<br>02/04</td><td>0400MY</td><td>VoIP Sahur Net #11</td><td>9W2JCP</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Ahad<br>02/04</td><td>0400MY</td><td>VoIP Sahur Net #11</td><td>9W2YJT</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Isnin<br>03/04</td><td>0400MY</td><td>VoIP Sahur Net #12</td><td>113DAOGK</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Selasa<br>04/04</td><td>0400MY</td><td>VoIP Sahur Net #13</td><td>9W2NDI</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Rabu<br>05/04</td><td>0400MY</td><td>VoIP Sahur Net #14</td><td>113DAJCP</td><td></td></tr>

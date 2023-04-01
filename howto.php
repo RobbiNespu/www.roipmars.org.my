@@ -90,11 +90,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -332,7 +332,7 @@
 -->
             <tr>
               <td><i class='bi-google-play fs-2'></i><br>(DISYORKAN)</td>
-              <td><a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank'><img src='https://play.google.com/intl/en_us/badges/static/images/badges/ms_badge_web_generic.png' class='img-fluid w-75'></a></td>
+              <td><a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'><img src='https://play.google.com/intl/en_us/badges/static/images/badges/ms_badge_web_generic.png' class='img-fluid w-75'></a></td>
             </tr>
           </tbody>
         </table>
@@ -539,7 +539,7 @@
             </tr>
             <tr>
               <td><i class='fa-brands fa-app-store'></i></td>
-              <td><a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank'><img src='https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg' class='img-fluid'></a></td>
+              <td><a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'><img src='https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg' class='img-fluid'></a></td>
             </tr>
           </tbody>
         </table>

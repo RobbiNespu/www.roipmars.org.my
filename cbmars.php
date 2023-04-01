@@ -91,11 +91,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -113,7 +113,7 @@
     <div class='row'>
       <div class='col-lg-4 p-2 text-center align-self-center' id='regind'>
         <h3>Permohonan CS Individu CB RoIPMARS Group</h3>
-        <a type='button' class='btn btn-lg btn-block btn-outline-primary rounded-3 fs-4 fw-bold' href='https://forms.gle/hxFgHW3S5S3hqGg49' target='_blank'>Borang permohonan Isyarat Panggilan Jalur Rakyat Individu Kumpulan ROIPMARS</a>
+        <a type='button' class='btn btn-lg btn-block btn-outline-primary rounded-3 fs-4 fw-bold' href='https://forms.gle/hxFgHW3S5S3hqGg49' target='_blank' rel='noopener'>Borang permohonan Isyarat Panggilan Jalur Rakyat Individu Kumpulan ROIPMARS</a>
         <p class='fs-6 fw-light'>Sumbangan bernilai RM 10.00 (minimum) digalakkan untuk setiap permohonan isyarat panggilan individu.</p>
       </div>
       <!--
@@ -121,7 +121,7 @@
       <div class='col-6 p-2 text-end' id='regate'>
         <h3>Permohonan CS Gateway CB MARS Group</h3>
         <p class='fs-6 fw-light'>Yuran permohonan berupa sumbangan RM 10.00 (minimum) diperlukan untuk permohonan isyarat panggilan Radio Gateway.</p>
-        <a type='button' class='btn btn-sm btn-secondary disabled' aria-disabled='true' href='https://forms.gle/3oX7RdKMF79oSiBo7' target='_blank'>Borang permohonan Isyarat Panggilan Jalur Rakyat Radio Gateway Kumpulan ROIPMARS</a>
+        <a type='button' class='btn btn-sm btn-secondary disabled' aria-disabled='true' href='https://forms.gle/3oX7RdKMF79oSiBo7' target='_blank' rel='noopener'>Borang permohonan Isyarat Panggilan Jalur Rakyat Radio Gateway Kumpulan ROIPMARS</a>
       </div>
     -->
       <div class='col-lg-8 mt-1'>
@@ -135,7 +135,7 @@
               <td>RoIP MARS</td>
               <td><span class='badge bg-primary-subtle rounded-3'>113MS???</span> <span class='badge bg-primary-subtle rounded-3'>113KL???</span> <span class='badge bg-primary-subtle rounded-3'>58MS???</span> <span class='badge bg-primary-subtle rounded-3'>91MS???</span></td>
               <td rowspan='2'>Rangkaian Kumpulan RoIPMARS</td>
-              <td rowspan='2'><a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='https://wa.me/601110795693' target='_blank'><i class='bi-whatsapp'></i> 113MSUZL</a></td>
+              <td rowspan='2'><a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='https://wa.me/601110795693' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 113MSUZL</a></td>
             </tr>
             <tr class='text-decoration-line-through'>
               <td>Gateway / Crosslink</td>
@@ -145,13 +145,13 @@
               <td>Darul Aman</td>
               <td><span class='badge bg-warning-subtle rounded-3'>113DA???</span></td>
               <td>ROIP Darul Aman</td>
-              <td><a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='https://wa.me/60134009222' target='_blank'><i class='bi-whatsapp'></i> 113DAOGK</a></td>
+              <td><a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='https://wa.me/60134009222' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 113DAOGK</a></td>
             </tr>
             <tr>
               <td>Indonesia</td>
               <td><span class='badge bg-danger-subtle rounded-3'>91KM???</span></td>
               <td>KOPDARMOBILE</td>
-              <td><a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='https://wa.me/6281323111121' target='_blank'><i class='bi-whatsapp'></i> 91KMEGG</a></td>
+              <td><a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='https://wa.me/6281323111121' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 91KMEGG</a></td>
             </tr>
           </tbody>
         </table>

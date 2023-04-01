@@ -90,11 +90,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -120,77 +120,77 @@
           <tr>
             <td>07 Mac 2023</td>
             <td>Penyelenggaraan Menaik Taraf Perisian Tegar Rangkaian - 25 Mac 2023</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/03' target='_blank'>NtsMARS 2023/03</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/03' target='_blank' rel='noopener'>NtsMARS 2023/03</a></td>
           </tr>
           <tr>
             <td>07 Jan 2023</td>
             <td>Gangguan Sambungan Berjadual RoIPDarulAman</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/02' target='_blank'>NtsMARS 2023/02</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/02' target='_blank' rel='noopener'>NtsMARS 2023/02</a></td>
           </tr>
           <tr>
             <td>05 Jan 2023</td>
             <td>Makluman Sijil NCS &amp; Kad QSL 2023</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/01' target='_blank'>NtsMARS 2023/01</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/01' target='_blank' rel='noopener'>NtsMARS 2023/01</a></td>
           </tr>
           <tr>
             <td>26 Sep 2022</td>
-            <td>Perubahan Platform <a href='https://kedai.roipmars.org.my/' target='_blank'>Kedai.RoIPMARS.org.MY</a></td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2022/02' target='_blank'>NtsMARS 2022/02</a></td>
+            <td>Perubahan Platform <a href='https://kedai.roipmars.org.my/' target='_blank' rel='noopener'>Kedai.RoIPMARS.org.MY</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2022/02' target='_blank' rel='noopener'>NtsMARS 2022/02</a></td>
           </tr>
           <tr>
             <td>20 Jul 2022</td>
             <td>Perubahan domain</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2022/01' target='_blank'>NtsMARS 2022/01</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2022/01' target='_blank' rel='noopener'>NtsMARS 2022/01</a></td>
           </tr>
           <tr>
             <td>20 Apr 2021</td>
             <td>Rombakan Isyarat Panggilan Jalur Rakyat</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2021/01' target='_blank'>NtsMARS 2021/01</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2021/01' target='_blank' rel='noopener'>NtsMARS 2021/01</a></td>
           </tr>
           <tr>
             <td>25 Ogo 2020</td>
             <td>Masa Henti Pelayan 30 Aug 2020</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/09' target='_blank'>NtsMARS 2020/09</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/09' target='_blank' rel='noopener'>NtsMARS 2020/09</a></td>
           </tr>
           <tr>
             <td>19 Apr 2020</td>
             <td>Jalur Rakyat RoIPMARS Status dan Kaedah Tidak Aktif</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/08' target='_blank'>NtsMARS 2020/08</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/08' target='_blank' rel='noopener'>NtsMARS 2020/08</a></td>
           </tr>
           <tr>
             <td>02 Apr 2020</td>
             <td>Isu Sambungan Aplikasi</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/07' target='_blank'>NtsMARS 2020/07</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/07' target='_blank' rel='noopener'>NtsMARS 2020/07</a></td>
           </tr>
           <tr>
             <td>23 Mac 2020</td>
             <td>Gangguan laman web untuk naik taraf perkhidmatan</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/06' target='_blank'>NtsMARS 2020/06</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/06' target='_blank' rel='noopener'>NtsMARS 2020/06</a></td>
           </tr>
           <tr>
             <td>06 Mac 2020</td>
             <td>Penukaran Maklumat Jalur Rakyat RoIPMARS</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/05' target='_blank'>NtsMARS 2020/05</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/05' target='_blank' rel='noopener'>NtsMARS 2020/05</a></td>
           </tr>
           <tr>
             <td>01 Mac 2020</td>
             <td>Penyelengaraan Pangkalan Data Jalur Rakyat RoIPMARS</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/04' target='_blank'>NtsMARS 2020/04</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/04' target='_blank' rel='noopener'>NtsMARS 2020/04</a></td>
           </tr>
           <tr>
             <td>16 Feb 2020</td>
             <td>Notifikasi Laman Tutorial</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/03' target='_blank'>NtsMARS 2020/03</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/03' target='_blank' rel='noopener'>NtsMARS 2020/03</a></td>
           </tr>
           <tr>
             <td>08 Feb 2020</td>
             <td>Pemberhentian Sijil Mingguan NCS</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/02' target='_blank'>NtsMARS 2020/02</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/02' target='_blank' rel='noopener'>NtsMARS 2020/02</a></td>
           </tr>
           <tr>
             <td>07 Feb 2020</td>
             <td>Penyelenggaraan MyIX</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/01' target='_blank'>NtsMARS 2020/01</a></td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2020/01' target='_blank' rel='noopener'>NtsMARS 2020/01</a></td>
           </tr>
         </tbody>
       </table>

@@ -91,11 +91,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -159,7 +159,7 @@
                 </div>
               </div>
               <div class='modal-footer'>
-                <a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/notification-of-issuance-of-class-assignments-(1)' target='_blank'><button type='button' class='btn btn-outline-primary'>Baca Lanjut</button></a>
+                <a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/notification-of-issuance-of-class-assignments-(1)' target='_blank' rel='noopener'><button type='button' class='btn btn-outline-primary'>Baca Lanjut</button></a>
                 <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
               </div>
             </div>
@@ -211,7 +211,7 @@
         <hr>
         <div class='hstack gap-1'>
           <h3 class='text-secondary text-decoration-line-through'>UHF &#40;CB&#41; - 477MHz</h3>
-          <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN DI MALAYSIA</a>
+          <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' rel='noopener' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN DI MALAYSIA</a>
 <!--
           <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477cb-modal-xl'>477 CB</button>
           <button type='button' class='btn btn-sm btn-secondary' data-bs-toggle='modal' data-bs-target='.bd-477cbmy-modal-xl'>477 CB MY</button>
@@ -248,7 +248,7 @@
                 </div>
               </div>
               <div class='modal-footer'>
-                <a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/notification-of-issuance-of-class-assignments-(1)' target='_blank'><button type='button' class='btn btn-outline-primary'>Baca Lanjut</button></a>
+                <a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/notification-of-issuance-of-class-assignments-(1)' target='_blank' rel='noopener'><button type='button' class='btn btn-outline-primary'>Baca Lanjut</button></a>
                 <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
               </div>
             </div>
@@ -269,7 +269,7 @@
         <hr>
         <div class='hstack'>
           <h3 class='text-secondary text-decoration-line-through'>UHF &#40;FB&#41; - 477MHz</h3>
-          <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN DI MALAYSIA</a>
+          <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' rel='noopener' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN DI MALAYSIA</a>
 <!--          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477fb-modal-xl'>477 FB</button>-->
         </div>
 <!--

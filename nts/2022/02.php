@@ -69,7 +69,7 @@
     <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Perubahan Platform Kedai RoIPMARS</p>
     <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2022/02<br>Tarikh Notis: 26 September 2022 | 0000 MYT</p>
     <p class='lh-sm'>Pengguna yang dihormati,</p>
-    <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Perubahan Platform <a href='https://kedai.roipmars.org.my/' target='_blank'>Kedai.RoIPMARS.org.MY</a> berkuatkuasa serta merta</p>
+    <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Perubahan Platform <a href='https://kedai.roipmars.org.my/' target='_blank' rel='noopener'>Kedai.RoIPMARS.org.MY</a> berkuatkuasa serta merta</p>
     <p class='mb-2'>Adalah dengan ini dimaklumkan bahawa platform kedai kami sebelum ini mempunyai ralat kritikal yang menjadikan platform tersebut tidak dapat berfungsi dengan sempurna.</p>
     <p>Namun begitu, pihak pengurusan teknikal kami telahpun mengambil insiatif dengan serta merta menukar ke platform lain. Segala maklumat dari platform lama telahpun dibuang dan tidak lagi dapat diperoleh kembali.</p>
     <p>Diharap mana-mana pihak yang telahpun mendaftar di platform lama untuk mendaftar kembali di platform yang baru bagi membolehkan pembelian barangan kami.</p>

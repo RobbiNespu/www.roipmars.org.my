@@ -90,11 +90,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -381,7 +381,7 @@
                     </tr>
                   </tbody>
                 </table>
-                <p>Sekiranya anda gagal untuk masuk ke pelayan Kumpulan RoIPMARS &#40;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a> / <a href='ts3server://roipdarulaman.com'>roipdarulaman.com</a>&#41;, berkemungkinan perisian yang anda gunakan mempunyai ralat yang tidak menyokong &#39;TSDNS&#39;. Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank'>App Store</a>.</p>
+                <p>Sekiranya anda gagal untuk masuk ke pelayan Kumpulan RoIPMARS &#40;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a> / <a href='ts3server://roipdarulaman.com'>roipdarulaman.com</a>&#41;, berkemungkinan perisian yang anda gunakan mempunyai ralat yang tidak menyokong &#39;TSDNS&#39;. Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'>App Store</a>.</p>
                 <p>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad kami dengan memuat turun disini: <a href='https://ftp.roipmars.org.my/files/downloads/android/roipmars-teamspeak-3.0.3.1.apk' download>roipmars-teamspeak-3.0.3.1.apk</a></p>
                 <p>Pihak Pentadbir Rangkaian Kumpulan RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
               </div>
@@ -505,14 +505,14 @@
                   <h5 class='text-center'>CLASS ASSIGNMENT NO. 2 OF 2022</h5>
                   <p>IN exercise of the powers conferred by section 169 of the Communications and Multimedia Act 1998 [Act 588] ("Act"), the Commission issues class assignments which confers rights on any person to use the frequency bands for the following devices:</p>
                   <p>(4) personal radio service ("PRS") device as specified in the Fourth Schedule;</p>
-                  <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=5' target='_blank'>Baca Lanjut...</a>
+                  <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=5' target='_blank' rel='noopener'>Baca Lanjut...</a>
                   <hr>
                   <h4 class='alert- text-center'>FOURTH SCHEDULE</h4>
                   <h5 class='text-center'>Class Assignment for Personal Radio Service Device</h5>
                   <p>1. Definition</p>
                   <p>(1) In this class assignment, "PRS device" means a two-way radiocommunications device operating in the designated frequency bands.</p>
                   <p>(2) Subject to subparagraph 1(1) of this schedule, all terminologies of an absolute technical nature shall have the same meaning as provided in the International Telecommunication Convention.</p>
-                  <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=23' target='_blank'>Baca Lanjut...</a>
+                  <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=23' target='_blank' rel='noopener'>Baca Lanjut...</a>
                 </div>
               </div>
             </div>

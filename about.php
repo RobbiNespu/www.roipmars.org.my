@@ -91,11 +91,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -118,7 +118,7 @@
         <p class='text-center'>Merapatkan hubungan siraturahim antara stesen seluruh dunia disamping menguji peralatan masing-masing serta komunikasi antara satu sama lain.</p>
         <h4 class='text-center fw-bold'>PENGENALAN RADIO AMATUR</h4>
         <ol type='1'>
-          <li>Radio Amatur ditakrifkan di dalam <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998' target='_blank'>Akta Komunikasi dan Multimedia 1998 &#91;Akta 588&#93;</a> dan <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio' target='_blank'>PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA &#40;SPEKTRUM&#41; 2000 &#91;P.U.&#40;A&#41; 128/2000&#93;</a>.</li>
+          <li>Radio Amatur ditakrifkan di dalam <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998' target='_blank' rel='noopener'>Akta Komunikasi dan Multimedia 1998 &#91;Akta 588&#93;</a> dan <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio' target='_blank' rel='noopener'>PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA &#40;SPEKTRUM&#41; 2000 &#91;P.U.&#40;A&#41; 128/2000&#93;</a>.</li>
           <ol type='i'>
             <li>Perkhidmatan Radio Komunikasi &#40;termasuk Bumi &#40;Tanah&#41; &amp; Satelit&#41;.</li>
             <li>Di mana kegunaan stesen dengan tujuan latihan sendiri, komunikasi dan penyiasatan teknikal.</li>
@@ -239,7 +239,7 @@
                 <span class='flag'>Peraturan KMM &#40;Spektrum&#41; Pindaan 2022</span>
                 <span class='time-wrapper'><span class='time'>01 Januari 2023</span></span>
               </div>
-              <div class='desc'>Selaras dengan pindaan kepada Peraturan-Peraturan Komunikasi dan Multimedia &#40;Standard Teknik&#41; 2000 yang diluluskan pada 25 April 2022 &#91;<a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/communications-and-multimedia-spectrum-regulatio#content44480' target='_blank'>KKMM.600-1/4/8; PN(PU2)601/J1d. 12</a>&#93; dan berkuat kuasa pada 1 Januari 2023 &#40;iaitu bagi <b>peruntukan yang berkaitan dengan radio amatur</b>&#41;, Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;MCMC&#41; memaklumkan bahawa terdapat perubahan kepada struktur perakuan pengendali radio amatur di Malaysia iaitu:<table class='table table-responsive table-borderless table-sm text-start align-middle mb-0'>
+              <div class='desc'>Selaras dengan pindaan kepada Peraturan-Peraturan Komunikasi dan Multimedia &#40;Standard Teknik&#41; 2000 yang diluluskan pada 25 April 2022 &#91;<a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/communications-and-multimedia-spectrum-regulatio#content44480' target='_blank' rel='noopener'>KKMM.600-1/4/8; PN(PU2)601/J1d. 12</a>&#93; dan berkuat kuasa pada 1 Januari 2023 &#40;iaitu bagi <b>peruntukan yang berkaitan dengan radio amatur</b>&#41;, Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;MCMC&#41; memaklumkan bahawa terdapat perubahan kepada struktur perakuan pengendali radio amatur di Malaysia iaitu:<table class='table table-responsive table-borderless table-sm text-start align-middle mb-0'>
                   <tbody>
                     <tr>
                       <td>i.</td>
@@ -266,7 +266,7 @@
                       <td>Penggunaan frekuensi dan had kuasa pancaran bagi setiap kelas</td>
                     </tr>
                   </tbody>
-                </table>Perubahan kepada struktur ini adalah untuk memastikan perakuan pengendali radio amatur yang diadakan di Malaysia sejajar dengan latihan yang diamalkan di negara-negara lain. Perubahan ini juga bertujuan untuk menggalakkan minat dari kalangan pelajar dalam bidang Sains, Teknologi, Kejuruteraan dan Matematik &#40;STEM&#41; melalui radio amatur dan menjurus kepada peningkatan pengendali radio amatur yang dapat membantu ketika bencana.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/press-releases/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank'>Siaran Akhbar MCMC</a> <a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/announcements/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank'>Pengumuman MCMC</a>
+                </table>Perubahan kepada struktur ini adalah untuk memastikan perakuan pengendali radio amatur yang diadakan di Malaysia sejajar dengan latihan yang diamalkan di negara-negara lain. Perubahan ini juga bertujuan untuk menggalakkan minat dari kalangan pelajar dalam bidang Sains, Teknologi, Kejuruteraan dan Matematik &#40;STEM&#41; melalui radio amatur dan menjurus kepada peningkatan pengendali radio amatur yang dapat membantu ketika bencana.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/press-releases/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='noopener'>Siaran Akhbar MCMC</a> <a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/announcements/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='noopener'>Pengumuman MCMC</a>
                 <hr><img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='media/image/akademi9mbw.jpg'>Dukacita dimaklumkan, selaras dengan perubahan format &amp; silibus peperiksaan, Akademi 9M dihentikan khidmatnya bagi membantu pengendali radio amatur menaiktaraf kelas mereka. Sejak memulakan Akademi 9M, seramai lebih 70 pengendali telahpun dilahirkan antaranya: 9M2MWZ, 9M2NUZ, 9M2SFF, 9M2VJP, 9M2VVH, 9M2BUN, 9M6RDY, 9M6AUA, 9M6JAY, 9M6RMD, 9M2KZI, dan ramai lagi.
               </div>
             </div>
@@ -278,7 +278,7 @@
                 <span class='flag'>Perolehan Aset Pelayan</span>
                 <span class='time-wrapper'><span class='time'>01 September 2022</span></span>
               </div>
-              <div class='desc'>Bermula daripada 27 Julai 2022 pihak Jawatankuasa dibawah kelolaan Biro Pengurusan Pelayan berjaya memperoleh pelayan berasaskan &#39;Windows Server&#39; yang disewa atas nama pertubuhan di Pusat Data Cyberjaya dan mula membuat peralihan maklumat dari pelayan sebelum ini &#91;<i>roipmars.com</i>&#93; &#40;milik peribadi&#41; ke pelayan semasa &#91;<i>roipmars.org.my</i>&#93; &#40;milik persatuan&#41;. Setelah kerja-kerja peralihan dan percubaan serta ujian penggunaan &amp; beban tinggi yang dijalankan, tepat pada jam 6 pagi 01 September 2022 &#91;<b><i>roipmars.org.my</i></b>&#93; bersedia memberikan perkhidmatannya kepada semua Penggiat &amp; Peminat Radio Komunikasi dari seluruh dunia pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./nts/2022/01' target='_blank'>Baca lanjut...</a></div>
+              <div class='desc'>Bermula daripada 27 Julai 2022 pihak Jawatankuasa dibawah kelolaan Biro Pengurusan Pelayan berjaya memperoleh pelayan berasaskan &#39;Windows Server&#39; yang disewa atas nama pertubuhan di Pusat Data Cyberjaya dan mula membuat peralihan maklumat dari pelayan sebelum ini &#91;<i>roipmars.com</i>&#93; &#40;milik peribadi&#41; ke pelayan semasa &#91;<i>roipmars.org.my</i>&#93; &#40;milik persatuan&#41;. Setelah kerja-kerja peralihan dan percubaan serta ujian penggunaan &amp; beban tinggi yang dijalankan, tepat pada jam 6 pagi 01 September 2022 &#91;<b><i>roipmars.org.my</i></b>&#93; bersedia memberikan perkhidmatannya kepada semua Penggiat &amp; Peminat Radio Komunikasi dari seluruh dunia pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./nts/2022/01' target='_blank' rel='noopener'>Baca lanjut...</a></div>
             </div>
           </li>
           <li>
@@ -308,7 +308,7 @@
                 <span class='flag'>CQ 9M64MB</span>
                 <span class='time-wrapper'><span class='time'>20 Ogos 2021</span></span>
               </div>
-              <div class='desc'><i>Persatuan Peminat Radio Komunikasi</i> diberi kepercayaan oleh <i>Malaysian Amateur Radio Transmitter&#39;s Society</i> &#40;MARTS&#41; untuk mengendalikan Isyarat Panggilan Khas Negeri Selangor bersempena dengan Hari Kebangsaan kali ke-64 <i>&#40;9M64MB&#41;</i> bagi menyemarakkan lagi semangat patriotik antara penggiat komunikasi radio seluruh Malaysia. Aktiviti dijalankan selama 6 hari berturut-turut dari 27 Ogos 2021 hingga 1 September 2021 di <i>&#39;All Band All Mode&#39;</i>.<img class='img-thumbnail rounded-circle mx-auto d-block my-2' loading='lazy' src='https://cdn-bio.qrz.com/b/9m64mb/9M64MB.jpg'><a class='btn btn-sm btn-outline-primary' role='button' href='https://www.qrz.com/db/9m64mb' target='_blank'>QRZ</a> <a class='btn btn-sm btn-outline-primary' role='button' href='https://dxnews.com/forum/forum/special-event-stations/37809-9m64mb-puncak-alam-selangor-malaysia' target='_blank'>DX News</a> <a class='btn btn-sm btn-outline-primary' role='button' href='http://www.9mdxc.com/2021/08/9m64mx-station' target='_blank'>9MDXC</a></div>
+              <div class='desc'><i>Persatuan Peminat Radio Komunikasi</i> diberi kepercayaan oleh <i>Malaysian Amateur Radio Transmitter&#39;s Society</i> &#40;MARTS&#41; untuk mengendalikan Isyarat Panggilan Khas Negeri Selangor bersempena dengan Hari Kebangsaan kali ke-64 <i>&#40;9M64MB&#41;</i> bagi menyemarakkan lagi semangat patriotik antara penggiat komunikasi radio seluruh Malaysia. Aktiviti dijalankan selama 6 hari berturut-turut dari 27 Ogos 2021 hingga 1 September 2021 di <i>&#39;All Band All Mode&#39;</i>.<img class='img-thumbnail rounded-circle mx-auto d-block my-2' loading='lazy' src='https://cdn-bio.qrz.com/b/9m64mb/9M64MB.jpg'><a class='btn btn-sm btn-outline-primary' role='button' href='https://www.qrz.com/db/9m64mb' target='_blank' rel='noopener'>QRZ</a> <a class='btn btn-sm btn-outline-primary' role='button' href='https://dxnews.com/forum/forum/special-event-stations/37809-9m64mb-puncak-alam-selangor-malaysia' target='_blank' rel='noopener'>DX News</a> <a class='btn btn-sm btn-outline-primary' role='button' href='http://www.9mdxc.com/2021/08/9m64mx-station' target='_blank' rel='noopener'>9MDXC</a></div>
             </div>
           </li>
           <li>
@@ -370,7 +370,7 @@
                       <td>AJK</td>
                     </tr>
                   </tbody>
-                </table><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./member' target='_blank'>Baca lanjut...</a></div>
+                </table><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./member' target='_blank' rel='noopener'>Baca lanjut...</a></div>
             </div>
           </li>
           <li>
@@ -380,7 +380,7 @@
                 <span class='flag'>Perintah Kawalan Pergerakan</span>
                 <span class='time-wrapper'><span class='time'>April 2020</span></span>
               </div>
-              <div class='desc'>Berkuat kuasa pada 18 Mac 2020, Malaysia secara rasmi melaksanakan langkah kawalan pergerakan. Kami juga turut terkesan dari PKP ini disebabkan ramai pengguna mula mencari kaedah komunikasi dengan pantas. Kami memperkenalkan perkhidmatan penstriman baharu bernama &#39;<i>TS-Video Conference</i>&#39; yang membolehkan persidangan video semasa komunikasi di pelayan kami.<div class='ratio ratio-16x9 my-2'><iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/iWNZUnVvm-o' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>Beban pada pelayan mulai meningkat apabila ramai mula berkerja dari rumah. Pentadbir pelayan kekal komited untuk memberikan servis dan perkhidmatan terbaik kepada semua pengguna pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./howto#pcwincc' target='_blank'>Baca lanjut...</a></div>
+              <div class='desc'>Berkuat kuasa pada 18 Mac 2020, Malaysia secara rasmi melaksanakan langkah kawalan pergerakan. Kami juga turut terkesan dari PKP ini disebabkan ramai pengguna mula mencari kaedah komunikasi dengan pantas. Kami memperkenalkan perkhidmatan penstriman baharu bernama &#39;<i>TS-Video Conference</i>&#39; yang membolehkan persidangan video semasa komunikasi di pelayan kami.<div class='ratio ratio-16x9 my-2'><iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/iWNZUnVvm-o' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>Beban pada pelayan mulai meningkat apabila ramai mula berkerja dari rumah. Pentadbir pelayan kekal komited untuk memberikan servis dan perkhidmatan terbaik kepada semua pengguna pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./howto#pcwincc' target='_blank' rel='noopener'>Baca lanjut...</a></div>
             </div>
           </li>
           <li>

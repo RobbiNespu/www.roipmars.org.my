@@ -97,11 +97,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -134,8 +134,8 @@
           <a type='button' class='btn btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
         </div>
         <div class='vstack gap-1 justify-content-center'>
-          <a type='button' class='btn btn-lg btn-primary rounded-5 fs-3' href='https://bit.ly/daftarmars' target='_blank'>Permohonan Keahlian <i class='bi-google'></i> &#40;Google Form&#41; <i class='bi-google'></i></a>
-          <a type='button' class='btn btn-lg btn-secondary rounded-5 fs-3' href='https://bit.ly/borangdaftarroipmars' target='_blank'>Permohonan Keahlian <i class='bo bi-file-earmark-pdf-fill'></i> &#40;Adobe Sign&#41; <i class='bo bi-file-earmark-pdf-fill'></i></a>
+          <a type='button' class='btn btn-lg btn-primary rounded-5 fs-3' href='https://bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian <i class='bi-google'></i> &#40;Google Form&#41; <i class='bi-google'></i></a>
+          <a type='button' class='btn btn-lg btn-secondary rounded-5 fs-3' href='https://bit.ly/borangdaftarroipmars' target='_blank' rel='noopener'>Permohonan Keahlian <i class='bo bi-file-earmark-pdf-fill'></i> &#40;Adobe Sign&#41; <i class='bo bi-file-earmark-pdf-fill'></i></a>
           <a type='button' class='btn btn-lg btn-success rounded-5 fs-3' href='https://ftp.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian <i class='bi-file-pdf-fill'></i> &#40;Fail PDF&#41; <i class='bi-file-pdf-fill'></i></a>
         </div>
         <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>

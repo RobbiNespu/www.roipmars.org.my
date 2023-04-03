@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /vendor/
+
+Sitemap: https://www.roipmars.org.my/sitemap.xml

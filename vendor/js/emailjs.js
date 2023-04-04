@@ -23,7 +23,7 @@ window.onload = function () {
 }
 
 $(function () {
-  $.getJSON('//api64.ipify.org?format=jsonp&callback=?',
+  $.getJSON('https://api64.ipify.org?format=jsonp&callback=?',
     function (json) {
       document.getElementById('from_ip').setAttribute('value', json.ip);
     }

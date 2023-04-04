@@ -123,9 +123,9 @@
 				</div>
 				<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun membuat selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan:</p>
 				<div class='btn-group btn-group-lg d-grid gap-1 col-lg-6 mx-auto' role='group'>
-					<button class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/60145768581'><i class='bi-whatsapp'></i> <b>Pegawai Siaraya &amp; Aktiviti</b></button>
-					<button class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/601112308482'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></button>
-					<button class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/60196293718'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></button>
+					<a type='button' class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/60145768581'><i class='bi-whatsapp'></i> <b>Pegawai Siaraya &amp; Aktiviti</b></a>
+					<a type='button' class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/601112308482'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></a>
+					<a type='button' class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/60196293718'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></a>
 				</div>
 			</div>
 			<div class='col-lg-5 my-auto d-block text-center'>

@@ -101,14 +101,12 @@
         </div>
       </nav>
     </header>
-    <div class='container-fluid'>
+    <main class='container'>
       <div class='row text-center'>
         <div class='col mt-2 mb-2 jumbotron-fluid'>
           <h1 class='h1-responsive'>Contact Form</h1>
         </div>
       </div>
-    </div>
-    <div class='container'>
       <div class='row'>
         <div class='col-md'>
           <form id='contactForm'>
@@ -160,23 +158,23 @@
                 <div class='text-start' id='success'></div>
               </div>
               <div class='col-3 text-end d-flex justify-content-end'>
-                <button type='reset' class='btn btn-outline-secondary rounded-3'>Reset</button>
-                <button type='submit' class='btn btn-primary rounded-3' id='sendMsg' data-action='submit'>Submit</button>
+                <button type='reset' class='btn btn-outline-secondary rounded-3 me-1'>Kosongkan</button>
+                <button type='submit' class='btn btn-success rounded-3' id='sendMsg' data-action='submit'>Hantar</button>
               </div>
             </div>
           </form>
         </div>
       </div>
-    </div>
+    </main>
     <?php include('footer.min.php') ?>
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js' crossorigin='anonymous'></script>
-    <script src='vendor/js/emailjs.js'></script>
     <script async defer src='https://challenges.cloudflare.com/turnstile/v0/api.js'></script>
-    <script> function onSubmit (token) { document.getElementById('contactForm').submit(); } </script>
+    <script src='vendor/js/emailjs.js'></script>
+    <!-- <script> function onSubmit (token) { document.getElementById('contactForm').submit(); } </script> -->
   </body>
 
 </html>

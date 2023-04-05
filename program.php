@@ -112,10 +112,10 @@
 			<div class='col-lg-7 my-1 align-self-center'>
 				<div class='row text-center'>
 					<div class='col-sm'>
-						<iframe class='bg-dark-subtle rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n122/tlmy40/fn17/fceee/tct/pct/ftb/tt0/th1/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
+						<iframe class='bg-transparent rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n122/tlmy40/fn17/ftb/tt0/td1/th1/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
 					</div>
 					<div class='col-sm'>
-						<iframe class='bg-dark-subtle rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n1440/tlmy/fn17/fcaaa/tct/pct/pd2/tt0/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
+						<iframe class='bg-transparent rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n1440/tlmy/fn17/pd2/tt0/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
 					</div>
 				</div>
 				<div class='ratio ratio-21x9'>

@@ -187,10 +187,6 @@
 									<img src='media/image/member/029.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2JCP'>
 									<p class='lh-1'>9W2JCP / 113DAJCP<br>ROSLI<br>PENYELIA AKTIVITI 2</p>
 								</div>
-								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2sft.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W2SFT'>
-									<p class='lh-1'>9W2SFT<br>SYAWAL<br>PENYELIA AKTIVITI 3</p>
-								</div>
 							</div>
 						</div>
 						<div class='carousel-item'>
@@ -415,7 +411,7 @@
 								<tr class='bg-success-subtle'><td>Rabu<br>05/04</td><td>0400MY</td><td>VoIP Sahur Net #14</td><td>113DAJCP</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Khamis<br>06/04</td><td>0400MY</td><td>VoIP Sahur Net #15</td><td>9W2AYP</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Jumaat<br>07/04</td><td>0400MY</td><td>VoIP Sahur Net #16</td><td>113DAZIK</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
-								<tr class='bg-success-subtle'><td>Sabtu<br>08/04</td><td>0400MY</td><td>VoIP Sahur Net #17</td><td>9W2SFT</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Sabtu<br>08/04</td><td>0400MY</td><td>VoIP Sahur Net #17</td><td>9W2SNN</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Ahad<br>09/04</td><td>0400MY</td><td>VoIP Sahur Net #18</td><td>&shy;</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Isnin<br>10/04</td><td>0400MY</td><td>VoIP Sahur Net #19</td><td>9W6AZE</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Selasa<br>11/04</td><td>0400MY</td><td>VoIP Sahur Net #20</td><td>113MSSAM</td><td></td></tr>
@@ -427,7 +423,7 @@
 								<tr class='bg-success-subtle'><td>Isnin<br>17/04</td><td>0400MY</td><td>VoIP Sahur Net #26</td><td>9W2JCP</td><td></td></tr>
 								<tr class='bg-success-subtle'><td rowspan='2'>Selasa<br>18/04</td><td>0400MY</td><td>VoIP Sahur Net #27</td><td>113DAPLY</td><td></td></tr>
 								<tr class='bg-info-subtle'><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Amateur Radio Day&#41;</td><td>9W8VWW</td><td></td></tr>
-								<tr class='bg-success-subtle'><td>Rabu<br>19/04</td><td>0400MY</td><td>VoIP Sahur Net #28</td><td>9W2SFT</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Rabu<br>19/04</td><td>0400MY</td><td>VoIP Sahur Net #28</td><td>&shy;</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Khamis<br>20/04</td><td>0400MY</td><td>VoIP Sahur Net #29</td><td>&shy;</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Jumaat<br>21/04<sup>1</sup></td><td>0400MY</td><td>VoIP Sahur Net #30</td><td>9W2SNN</td><td></td></tr>
 								<tr class='bg-primary-subtle'><td>Sabtu<br>22/04<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Raya Aidilfitri<sup>1</sup> 1444H&#41;<br>&#40;Hari Bumi&#41;</td><td>9W6AFF</td><td></td></tr>
@@ -458,7 +454,7 @@
 						<table class='table table-sm text-center align-middle'>
 							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
-								<tr class='bg-primary-subtle'><td>Isnin<br>01/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pekerja&#41;</td><td>9W2SFT</td><td></td></tr>
+								<tr class='bg-primary-subtle'><td>Isnin<br>01/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pekerja&#41;</td><td>&shy;</td><td></td></tr>
 								<tr><td>Rabu<br>03/05</td><td>2100MY</td><td>Learning English Net</td><td>9W8VWW</td><td></td></tr>
 								<tr class='bg-primary-subtle'><td>Khamis<br>04/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Wesak&#41;</td><td>&shy;</td><td></td></tr>
 								<tr><td>Jumaat<br>05/05</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9W2YJT</td><td></td></tr>
@@ -910,7 +906,7 @@
 				<figcaption class='figure-caption text-center'>Kaedah Sambungan</figcaption>
 			</div>
 			<div class='col-lg-12 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block rounded-5 w-lg-100' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'>
+				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'>
 				<figcaption class='figure-caption text-center'>Peta</figcaption>
 			</div>
 		</div>

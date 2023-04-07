@@ -46,8 +46,8 @@
 	<link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
 	<link rel='manifest' href='vendor/manifest.json'>
 	<link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.css' crossorigin='anonymous'>
-	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' crossorigin='anonymous'>
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' integrity='sha256-4RctOgogjPAdwGbwq+rxfwAmSpZhWaafcZR9btzUk18=' crossorigin='anonymous'>
 	<script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
 	<script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
 	<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
@@ -414,7 +414,7 @@
 								<tr class='bg-success-subtle'><td>Selasa<br>04/04</td><td>0400MY</td><td>VoIP Sahur Net #13</td><td>9W2NDI</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Rabu<br>05/04</td><td>0400MY</td><td>VoIP Sahur Net #14</td><td>113DAJCP</td><td>30</td></tr>
 								<tr class='bg-success-subtle'><td>Khamis<br>06/04</td><td>0400MY</td><td>VoIP Sahur Net #15</td><td>9W2AYP</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-success-subtle'><td>Jumaat<br>07/04</td><td>0400MY</td><td>VoIP Sahur Net #16</td><td>113DAZIK</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Jumaat<br>07/04</td><td>0400MY</td><td>VoIP Sahur Net #16</td><td>113DAZIK</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Sabtu<br>08/04</td><td>0400MY</td><td>VoIP Sahur Net #17</td><td>9W2SFT</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Ahad<br>09/04</td><td>0400MY</td><td>VoIP Sahur Net #18</td><td>&shy;</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Isnin<br>10/04</td><td>0400MY</td><td>VoIP Sahur Net #19</td><td>9W6AZE</td><td></td></tr>
@@ -422,7 +422,7 @@
 								<tr class='bg-success-subtle'><td>Rabu<br>12/04</td><td>0400MY</td><td>VoIP Sahur Net #21</td><td>9W2YJT</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Khamis<br>13/04</td><td>0400MY</td><td>VoIP Sahur Net #22</td><td>&shy;</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Jumaat<br>14/04</td><td>0400MY</td><td>VoIP Sahur Net #23</td><td>9M6RMD</td><td></td></tr>
-								<tr class='bg-success-subtle'><td>Sabtu<br>15/04</td><td>0400MY</td><td>VoIP Sahur Net #24</td><td>9M2RAN</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Sabtu<br>15/04</td><td>0400MY</td><td>VoIP Sahur Net #24</td><td>&shy;</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Ahad<br>16/04</td><td>0400MY</td><td>VoIP Sahur Net #25</td><td>113DANDI</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Isnin<br>17/04</td><td>0400MY</td><td>VoIP Sahur Net #26</td><td>9W2JCP</td><td></td></tr>
 								<tr class='bg-success-subtle'><td rowspan='2'>Selasa<br>18/04</td><td>0400MY</td><td>VoIP Sahur Net #27</td><td>113DAPLY</td><td></td></tr>
@@ -1122,9 +1122,9 @@
 	</div>
 	<button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
 	<?php include('footer.php') ?>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.js' crossorigin='anonymous'></script>
-	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
+	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
 	<script src='vendor/js/tawkto.js'></script>
 	<script src='vendor/js/stt.js'></script>
 </body>

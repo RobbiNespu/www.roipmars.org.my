@@ -119,16 +119,16 @@
     </div>
     <div class='row text-center'>
       <div class='col-sm'>
-        <i class='fa-solid fa-id-card fa-5x fa-fade'></i>
-        <p>Bagi mengendalikan sebuah stesen Radio Amatur, anda memerlukan lesen kelayakan &#40;peruntukan radas&#41; dari Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;SKMM&#41;. Umur minima yang telah ditetapkan adalah 12 tahun dan anda perlu lulus Peperiksaan Radio Amatur &#40;RAE&#41; untuk melayakkan diri anda mengendalikan sebuah stesen Radio Amatur.</p>
+        <i class='fa-solid fa-id-card fa-beat-fade fa-6x'></i>
+        <p>Bagi memperakui pengendalian Stesen Radio Amatur, anda memerlukan lesen kelayakan &#40;peruntukan radas&#41; dari Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;SKMM&#41; dibawah Kementerian Komunikasi dan Digital. Umur minima yang telah ditetapkan adalah 12 tahun dan anda perlu lulus Peperiksaan Radio Amatur &#40;RAE&#41; untuk melayakkan diri anda mengendalikan sebuah stesen Radio Amatur.</p>
       </div>
       <div class='col-sm'>
-        <i class='fa-solid fa-person-walking fa-5x fa-beat'></i>
-        <p>Perjalanan untuk menjadi Stesen Radio Amatur adalah pengalaman yang berharga dan kami akan membantu anda untuk mendapatkan lesen anda dalam masa terdekat. Kelas-kelas akan diadakan dan anda akan dapat mengamalkan komunikasi radio mudah alih. Paling penting ialah anda tidak akan bersendirian dalam perjalanan anda untuk menjadi seorang pengendali radio amatur.</p>
+        <i class='fa-solid fa-people-arrows fa-flip fa-6x'></i>
+        <p>Perjalanan untuk menjadi Stesen Radio Amatur adalah pengalaman yang berharga dan kami akan membantu anda untuk mendapatkan lesen anda dalam masa terdekat. Kelas berkaitan bakal dijalankan dan anda dapat mengamalkan jaringan komunikasi radio. Keutamaan kami adalah anda tidak akan bersendirian dalam perjalanan anda untuk menjadi seorang pengendali radio amatur.</p>
       </div>
       <div class='col-sm'>
-        <i class='fa-solid fa-people-carry-box fa-5x fa-flip'></i>
-        <p>Kami berharap anda dapat menawarkan khidmat anda pada masa yang diperlukan untuk membantu komunikasi kecemasan, menghulurkan bantuan, dan membantu mereka yang memerlukan. Pengendali radio amatur telah diketahui umum sebagai antara yang paling pantas bertindak balas sewaktu kecemasan.</p>
+        <i class='fa-solid fa-handshake-angle fa-shake fa-6x'></i>
+        <p>Kami berharap anda dapat menawarkan khidmat anda pada masa yang diperlukan untuk membantu komunikasi kecemasan, menghulurkan bantuan, dan membantu mereka yang memerlukan. Pengendali radio amatur telah diketahui umum sebagai antara yang terpantas bertindak semasa kecemasan.</p>
       </div>
     </div>
     <div class='row'>
@@ -229,6 +229,7 @@
           <div class='btn btn-secondary disabled text-center bg-dark-subtle'>Pautan Luar</div>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.iaru-r3.org' target='_blank' rel='noopener'>Kesatuan Radio Amatur Antarabangsa &ndash; Wilayah 3</a>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my' target='_blank' rel='noopener'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia &#40;SKMM&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.kkd.gov.my/' target='_blank' rel='noopener'>Kementerian Komunikasi &amp; Digiital &#40;KKD&#41;</a>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.ros.gov.my' target='_blank' rel='noopener'>Jabatan Pendaftaran Pertubuhan Malaysia &#40;JPPM&#41;</a>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://ms.wikipedia.org/wiki/Senarai_persatuan_radio_amatur_di_Malaysia' target='_blank' rel='noopener'><i class='bi-wikipedia'></i> Senarai Persatuan Radio Amatur Malaysia</a>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://bruneiamatureradio.blogspot.com' target='_blank' rel='noopener'><i class='fa-brands fa-blogger'></i> Brunei Darussalam Amateur Radio Association &#40;BDARA&#41;</a>

@@ -2,7 +2,7 @@
 <html data-bs-theme='dark'>
 
   <head>
-    <title>RoIPMARS | Members Directory</title>
+    <title>PPRK | Members Directory</title>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
     <meta name='author' content='HafiziRuslan'>

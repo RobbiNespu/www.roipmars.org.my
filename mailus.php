@@ -2,25 +2,25 @@
 <html lang='ms-MY' data-bs-theme='dark'>
 
   <head>
-    <title>RoIPMARS | Contact Us</title>
+    <title>PPRK | Contact Us</title>
     <meta charset='utf-8'>
     <meta http-equiv='Content-Type' content='text/html'>
     <meta http-equiv='content-language' content='ms-MY'>
     <meta name='language' content='Malay'>
     <meta name='author' content='HafiziRuslan'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
-    <meta name='title' content='RoIPMARS | Contact Us'>
+    <meta name='title' content='PPRK | Contact Us'>
     <meta name='description' content='Persatuan Peminat Radio Komunikasi (RoIP) Contact Us'>
     <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
     <meta name='robots' content='index, follow'>
     <meta property='og:site_name' content='RoIPMARS'>
-    <meta property='og:title' content='RoIPMARS | Contact Us'>
+    <meta property='og:title' content='PPRK | Contact Us'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Contact Us'>
     <meta property='og:url' content='https://www.roipmars.org.my/mailusn'>
     <meta property='og:image' content='media/image/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
-    <meta name='twitter:title' content='RoIPMARS | Contact Us'>
+    <meta name='twitter:title' content='PPRK | Contact Us'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Contact Us'>
     <meta name='twitter:url' content='https://www.roipmars.org.my/amailus'>
     <meta name='twitter:image' content='media/image/brand_sq.png'>

@@ -2,25 +2,25 @@
 <html lang='ms-MY' data-bs-theme='dark'>
 
 <head>
-  <title>RoIPMARS | Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group</title>
+  <title>PPRK | Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group</title>
   <meta charset='utf-8'>
   <meta http-equiv='Content-Type' content='text/html'>
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
-  <meta name='title' content='RoIPMARS | Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
+  <meta name='title' content='PPRK | Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
   <meta name='description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
-  <meta property='og:title' content='RoIPMARS | Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
+  <meta property='og:title' content='PPRK | Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
   <meta property='og:url' content='https://www.roipmars.org.my/nts/2020/04'>
   <meta property='og:image' content='../../media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
-  <meta name='twitter:title' content='RoIPMARS | Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
+  <meta name='twitter:title' content='PPRK | Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penyelenggaraan Pengkalan Data (Database) Permohonan Isyarat Panggilan Jalur Rakyat MARS Group'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/nts/2020/04'>
   <meta name='twitter:image' content='../../media/image/brand_sq.png'>

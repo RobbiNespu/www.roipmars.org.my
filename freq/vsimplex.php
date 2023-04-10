@@ -2,25 +2,25 @@
 <html lang='ms-MY' data-bs-theme='dark'>
 
 <head>
-  <title>RoIPMARS | VHF Amateur Channel</title>
+  <title>PPRK | VHF Amateur Channel</title>
   <meta charset='utf-8'>
   <meta http-equiv='Content-Type' content='text/html'>
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
-  <meta name='title' content='RoIPMARS | VHF Amateur Channel'>
+  <meta name='title' content='PPRK | VHF Amateur Channel'>
   <meta name='description' content='Persatuan Peminat Radio Komunikasi (RoIP) VHF Amateur Channel'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
-  <meta property='og:title' content='RoIPMARS | VHF Amateur Channel'>
+  <meta property='og:title' content='PPRK | VHF Amateur Channel'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) VHF Amateur Channel'>
   <meta property='og:url' content='https://www.roipmars.org.my/freq/vsimplex'>
   <meta property='og:image' content='../media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
-  <meta name='twitter:title' content='RoIPMARS | VHF Amateur Channel'>
+  <meta name='twitter:title' content='PPRK | VHF Amateur Channel'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) VHF Amateur Channel'>
   <meta name='twitter:url' content='https://www.roipmars.org.my/freq/vsimplex'>
   <meta name='twitter:image' content='../media/image/brand_sq.png'>

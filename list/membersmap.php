@@ -25,7 +25,7 @@
     <link rel='apple-touch-icon' sizes='144x144' href='../media/image/apple-icon-144x144.png'>
     <link rel='apple-touch-icon' sizes='152x152' href='../media/image/apple-icon-152x152.png'>
     <link rel='apple-touch-icon' sizes='180x180' href='../media/image/apple-icon-180x180.png'>
-    <link rel='manifest' href='../vendor/manifest.json'>
+    <link rel='manifest' href='../assets/manifest.json'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' integrity='sha256-4RctOgogjPAdwGbwq+rxfwAmSpZhWaafcZR9btzUk18=' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css' integrity='sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=' crossorigin='anonymous'>
@@ -33,14 +33,14 @@
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.css' integrity='sha256-oDy5SfMp/Ew1KH2J2avMIJezbcAYL/yzrIAoFL5TV0k=' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.css' integrity='sha256-bJbfQtCIfJ80fagO5M7t1Fbgs5vCU7dI8xyLSAgV54E=' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='../vendor/css/map.css'>
-    <script src='../vendor/js/gtm.js'></script>
+    <link rel='stylesheet' href='../assets/css/map.css'>
+    <script src='../assets/js/gtm.js'></script>
     <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-    <script src='../vendor/js/gtag.js'></script>
+    <script src='../assets/js/gtag.js'></script>
     <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
     <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
-    <script nonce='nLBiTr-Hd6zWbl5ZT9wqvA' src='../vendor/js/gfc.js'></script>
-    <script src='../vendor/js/clarity.js'></script>
+    <script nonce='nLBiTr-Hd6zWbl5ZT9wqvA' src='../assets/js/gfc.js'></script>
+    <script src='../assets/js/clarity.js'></script>
   </head>
 
   <body>
@@ -59,7 +59,7 @@
     <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.js' crossorigin='anonymous'></script>
     <script src='https://ha8tks.github.io/Leaflet.Maidenhead/src/L.Maidenhead.js' crossorigin='anonymous'></script>
     <script src='https://api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
-    <script src='../vendor/js/map.js'></script>
+    <script src='../assets/js/map.js'></script>
   </body>
 
 </html>

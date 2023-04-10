@@ -122,7 +122,7 @@
               <p class='card-title fs-3 fw-bold'>ZULKIFLI ABU &#40;9W2UZL&#41; <a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-person-vcard'></i></a></p>
               <p class='card-subtitle fw-semibold'>FOUNDER, LEAD ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
               <p class='card-subtitle fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; KETUA PENYELIDIK</p>
-              <p class='card-subtitle fw-light'>&#91;TIDAK RASMI &ndash; 2018&#93; DILANTIK OLEH MART&acute;S SEBAGAI KETUA PENYELIDIK KUMPULAN MINAT KHAS &#40;SIG&#41; PENGKHUSUSAN &#39;ROIP&#39; &#40;RADIO OVER INTERNET PROTOCOL&#41;</p>
+              <p class='card-subtitle fw-light'>&#91;Sejak 2018&#93; Dilantik oleh MART&acute;S sebagai penyelidik SIG pengkhususan &#39;ROIP&#39;</p>
             </div>
           </div>
         </div>

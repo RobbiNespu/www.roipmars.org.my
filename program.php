@@ -129,11 +129,11 @@
 				</div>
 			</div>
 			<div class='col-lg-5 my-auto d-block text-center'>
-				<h4 class='text-center'>Aktiviti Net Mingguan</h4>
+				<h4 class='text-center'>Aktiviti Net Mingguan <sup class='badges rounded-pill text-bg-info px-3'> berkuatkuasa 22 Apr 2023 </sup></h4>
 				<table class='table table-sm text-center align-middle'>
 					<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
 					<tbody>
-						<tr class='bg-primary-subtle'><td>Isnin</td><td>1300Z</td><td>RoIPMARS Net Awal Minggu<br>&#40;mulai 24 Apr 2023&#41;</td><td>ROIPMARS</td></tr>
+						<tr class='bg-primary-subtle'><td>Isnin</td><td>1300Z</td><td>RoIPMARS Net Awal Minggu</td><td>ROIPMARS</td></tr>
 						<tr><td>Selasa</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
 						<tr class='bg-info-subtle'><td>Rabu</td><td>1300Z</td><td>Learning English Net</td><td>ROIPMARS</td></tr>
 						<tr><td>Khamis</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>

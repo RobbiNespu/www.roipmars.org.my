@@ -870,7 +870,7 @@
 				<h6 class='text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan &amp; Penghormatan Kami <i class='fas fa-quote-right fa-xs'></i></h6>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1851683566&format=image' loading='lazy' alt='NetGraphDaily23'>
+				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1851683566&format=image' loading='lazy' alt='NetGraphTime23'>
 				<figcaption class='figure-caption text-center'>Masa &#40;UTC&#41;</figcaption>
 			</div>
 			<div class='col-lg-6 figure my-1'>

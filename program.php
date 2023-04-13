@@ -128,8 +128,8 @@
 					<a type='button' class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/60196293718'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></a>
 				</div>
 			</div>
-			<div class='col-lg-5 my-auto d-block text-center'>
-				<h4 class='text-center'>Aktiviti Net Mingguan <sup class='badges rounded-pill text-bg-info px-3'> berkuatkuasa 22 Apr 2023 </sup></h4>
+			<div class='col-lg-5 my-3 d-block text-center'>
+				<h4 class='text-center'>Aktiviti Net Mingguan <sup class='badges rounded-pill text-bg-info px-1'>mulai 22 Apr 2023</sup></h4>
 				<table class='table table-sm text-center align-middle'>
 					<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
 					<tbody>
@@ -143,7 +143,7 @@
 					</tbody>
 				</table>
 				<h4>Barisan Jawatankuasa &amp; Petugas<br>Bahagian Siaraya &amp; Aktiviti</h4>
-				<div id='ncs23' class='carousel carousel-fade mt-4' data-bs-ride='carousel'>
+				<div id='ncs23' class='carousel carousel-fade' data-bs-ride='carousel'>
 					<div class='carousel-inner'>
 						<div class='carousel-item active'>
 							<div class='hstack gap-2'>
@@ -1123,6 +1123,9 @@
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
 	<script src='assets/js/tawkto.js'></script>
 	<script src='assets/js/stt.js'></script>
+</body>
+
+</html>html>html></html>/js/stt.js'></script>
 </body>
 
 </html>

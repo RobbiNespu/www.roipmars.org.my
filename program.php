@@ -129,7 +129,7 @@
 				</div>
 			</div>
 			<div class='col-lg-5 my-3 d-block text-center'>
-				<h4 class='text-center'>Aktiviti Net Mingguan <sup class='badges rounded-pill text-bg-info px-1'>mulai 22 Apr 2023</sup></h4>
+				<h4 class='text-center'>Aktiviti Net Mingguan</h4>
 				<table class='table table-sm text-center align-middle'>
 					<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
 					<tbody>
@@ -143,8 +143,8 @@
 					</tbody>
 				</table>
 				<h4>Barisan Jawatankuasa &amp; Petugas<br>Bahagian Siaraya &amp; Aktiviti</h4>
-				<div id='ncs23' class='carousel carousel-fade' data-bs-ride='carousel'>
-					<div class='carousel-inner'>
+				<div id='ncs23' class='carousel slide' data-bs-ride='carousel'>
+					<div class='carousel-inner my-0'>
 						<div class='carousel-item active'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
@@ -180,32 +180,12 @@
 						<div class='carousel-item'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9m6jay.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6JAY'>
+									<img src='media/image/ncs/9m6jay.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient mx-auto' alt='9M6JAY'>
 									<p class='lh-1'>9M6JAY<br>JOHN JUNIOR<br>PENYELIA AKTIVITI 1</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/029.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2JCP'>
+									<img src='media/image/member/029.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient mx-auto' alt='9W2JCP'>
 									<p class='lh-1'>9W2JCP / 113DAJCP<br>ROSLI<br>PENYELIA AKTIVITI 2</p>
-								</div>
-							</div>
-						</div>
-						<div class='carousel-item'>
-							<div class='hstack gap-2'>
-								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2snn.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W2SNN'>
-									<p class='lh-1'>9W2SNN / 113MSSAM<br>SAMSUL<br>PETUGAS TETAP AKTIVITI</p>
-								</div>
-								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W2YJT'>
-									<p class='lh-1'>9W2YJT / 113DAYJT<br>YUSOF<br>PETUGAS TETAP AKTIVITI</p>
-								</div>
-								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6RHN'>
-									<p class='lh-1'>9W6RHN<br>ROSLAN<br>PETUGAS TETAP AKTIVITI</p>
-								</div>
-								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w6pkj.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6PKJ'>
-									<p class='lh-1'>9W6PKJ<br>ISKANDAR &#64; JANSON<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
 							</div>
 						</div>
@@ -220,10 +200,6 @@
 									<p class='lh-1'>9M6RHM<br>RAHIM<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/008.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2OGK'>
-									<p class='lh-1'>9W2OGK / 113DAOGK<br>KAMARUDZAMAN<br>PETUGAS TETAP AKTIVITI</p>
-								</div>
-								<div class='vstack gap-2'>
 									<img src='media/image/member/028.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2NEW'>
 									<p class='lh-1'>9W2NEW / 113DAISS<br>HISHAM<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
@@ -232,19 +208,39 @@
 						<div class='carousel-item'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RMD'>
+									<img src='media/image/ncs/9w2snn.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W2SNN'>
+									<p class='lh-1'>9W2SNN / 113MSSAM<br>SAMSUL<br>PETUGAS TETAP AKTIVITI</p>
+								</div>
+								<div class='vstack gap-2'>
+									<img src='media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-danger-subtle bg-gradient mx-auto' alt='9W2YJT'>
+									<p class='lh-1'>9W2YJT / 113DAYJT<br>YUSOF<br>PETUGAS TETAP AKTIVITI</p>
+								</div>
+								<div class='vstack gap-2'>
+									<img src='media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W6RHN'>
+									<p class='lh-1'>9W6RHN<br>ROSLAN<br>PETUGAS TETAP AKTIVITI</p>
+								</div>
+								<div class='vstack gap-2'>
+									<img src='media/image/ncs/9w6pkj.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W6PKJ'>
+									<p class='lh-1'>9W6PKJ<br>ISKANDAR &#64; JANSON<br>PETUGAS TETAP AKTIVITI</p>
+								</div>
+							</div>
+						</div>
+						<div class='carousel-item'>
+							<div class='hstack gap-2'>
+								<div class='vstack gap-2'>
+									<img src='media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RMD'>
 									<p class='lh-1'>9M6RMD<br>ROSNI<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w6wot.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6WOT'>
+									<img src='media/image/ncs/9w6wot.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W6WOT'>
 									<p class='lh-1'>9W6WOT / 58MSWOT<br>STEWARD<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W6MOZ'>
+									<img src='media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-primary-subtle bg-gradient mx-auto' alt='9W6MOZ'>
 									<p class='lh-1'>9W6MOZ / 58MSMOZ<br>MUSTAFA<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9m2sfl.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M2SFL'>
+									<img src='media/image/ncs/9m2sfl.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9M2SFL'>
 									<p class='lh-1'>9M2SFL<br>SAIFUL<br>PETUGAS TETAP AKTIVITI</p>
 								</div>
 							</div>
@@ -265,6 +261,15 @@
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class='carousel-indicators position-relative my-0 mx-auto pe-none'>
+						<button type='button' data-bs-target='#ncs23' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
+						<button type='button' data-bs-target='#ncs23' data-bs-slide-to='1' aria-label='Slide 2'></button>
+						<button type='button' data-bs-target='#ncs23' data-bs-slide-to='2' aria-label='Slide 3'></button>
+						<button type='button' data-bs-target='#ncs23' data-bs-slide-to='3' aria-label='Slide 4'></button>
+						<button type='button' data-bs-target='#ncs23' data-bs-slide-to='4' aria-label='Slide 5'></button>
+						<button type='button' data-bs-target='#ncs23' data-bs-slide-to='5' aria-label='Slide 6'></button>
+						<button type='button' data-bs-target='#ncs23' data-bs-slide-to='6' aria-label='Slide 7'></button>
 					</div>
 				</div>
 			</div>
@@ -420,7 +425,7 @@
 								<tr class='bg-success-subtle'><td>Jumaat<br>14/04</td><td>0400MY</td><td>VoIP Sahur Net #23</td><td>9W2UZL</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Sabtu<br>15/04</td><td>0400MY</td><td>VoIP Sahur Net #24</td><td>113DANDI</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Ahad<br>16/04</td><td>0400MY</td><td>VoIP Sahur Net #25</td><td>9W2JCP</td><td>49</td></tr>
-								<tr class='bg-success-subtle'><td>Isnin<br>17/04</td><td>0400MY</td><td>VoIP Sahur Net #26</td><td>113DAPLY</td><td></td></tr>
+								<tr class='bg-success-subtle'><td>Isnin<br>17/04</td><td>0400MY</td><td>VoIP Sahur Net #26</td><td>113DAPLY</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td rowspan='2'>Selasa<br>18/04</td><td>0400MY</td><td>VoIP Sahur Net #27</td><td>9W6AZE</td><td></td></tr>
 								<tr class='bg-info-subtle'><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Amateur Radio Day&#41;</td><td>9W8VWW</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Rabu<br>19/04</td><td>0400MY</td><td>VoIP Sahur Net #28</td><td>113DAYJT</td><td></td></tr>
@@ -871,43 +876,33 @@
 			</div>
 			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1851683566&format=image' loading='lazy' alt='NetGraphTime23'>
-				<figcaption class='figure-caption text-center'>Masa &#40;UTC&#41;</figcaption>
 			</div>
 			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&format=image' loading='lazy' alt='NetGraphDaily23'>
-				<figcaption class='figure-caption text-center'>Harian</figcaption>
 			</div>
 			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=861710611&format=image' loading='lazy' alt='NetGraphDay23'>
-				<figcaption class='figure-caption text-center'>Hari</figcaption>
 			</div>
 			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' loading='lazy' alt='NetGraphWeekly23'>
-				<figcaption class='figure-caption text-center'>Mingguan</figcaption>
 			</div>
 			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' loading='lazy' alt='NetGraphMonthly23'>
-				<figcaption class='figure-caption text-center'>Bulanan</figcaption>
 			</div>
 			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=455644558&format=image' loading='lazy' alt='NetGraphQuarterly23'>
-				<figcaption class='figure-caption text-center'>Suku Tahunan</figcaption>
 			</div>
 			<div class='col-lg-4 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=4802909&format=image' loading='lazy' alt='NetGraphBand23'>
-				<figcaption class='figure-caption text-center'>Purata Jalur</figcaption>
 			</div>
 			<div class='col-lg-4 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1205231339&format=image' loading='lazy' alt='NetGraphLang23'>
-				<figcaption class='figure-caption text-center'>Purata Bahasa</figcaption>
 			</div>
 			<div class='col-lg-4 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' loading='lazy' alt='NetGraphMode23'>
-				<figcaption class='figure-caption text-center'>Kaedah Sambungan</figcaption>
 			</div>
 			<div class='col-lg-12 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'>
-				<figcaption class='figure-caption text-center'>Peta</figcaption>
 			</div>
 		</div>
 		<hr>
@@ -918,7 +913,7 @@
 				<div class='row'>
 					<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
 					<table class='table table-bordered table-sm table-responsive-sm text-center'>
-							<thead><th>No</th><th>Station</th></thead>
+							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>9W8VWW</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>9M6AUA</td></tr>
@@ -930,7 +925,7 @@
 					</div>
 					<div class='col-6'><h6 class='text-center'>Stesen Paling Aktif</h6>
 					<table class='table table-bordered table-sm table-responsive-sm text-center'>
-							<thead><th>No</th><th>Station</th></thead>
+							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>9W2AYP</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>9M6AUA</td></tr>
@@ -952,7 +947,7 @@
 				<div class='row'>
 					<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
 					<table class='table table-bordered table-sm table-responsive-sm text-center'>
-							<thead><th>No</th><th>Station</th></thead>
+							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>9W2UZL</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>9W6MOZ</td></tr>
@@ -964,7 +959,7 @@
 					</div>
 					<div class='col-6'><h6 class='text-center'>Stesen Paling Aktif</h6>
 					<table class='table table-bordered table-sm table-responsive-sm text-center'>
-							<thead><th>No</th><th>Station</th></thead>
+							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>9W2SNN</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>9W2AYP</td></tr>
@@ -990,7 +985,7 @@
 					<div class='col-6'>
 						<h6 class='text-center'>Pengawal Tertinggi</h6>
 						<table class='table table-bordered table-sm table-responsive-sm text-center'>
-							<thead><th>No</th><th>Station</th></thead>
+							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>113DAJCP</td></tr>
@@ -1003,7 +998,7 @@
 					<div class='col-6'>
 						<h6 class='text-center'>Stesen Paling Aktif</h6>
 						<table class='table table-bordered table-sm table-responsive-sm text-center'>
-							<thead><th>No</th><th>Station</th></thead>
+							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>113DAISS</td></tr>
@@ -1021,36 +1016,36 @@
 				</div>
 			</div>
 			<div class='col-lg-6'>
-				<p class='text-center'>Open VOI Sahur Net 1444H</p>
+				<p class='text-center'>OpenVoIP Sahur Net 1444H &#40;TIDAK RASMI SETAKAT 17/04/23&#41;</p>
 				<div class='row'>
 					<div class='col-6'>
 						<h6 class='text-center'>Pengawal Tertinggi</h6>
 						<table class='table table-bordered table-sm table-responsive-sm text-center'>
-							<thead><th>No</th><th>Station</th></thead>
+							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
-								<tr><td>1<sup>st</sup></td><td></td></tr>
-								<tr><td>2<sup>nd</sup></td><td></td></tr>
-								<tr><td>3<sup>rd</sup></td><td></td></tr>
-								<tr><td>4<sup>th</sup></td><td></td></tr>
-								<tr><td>5<sup>th</sup></td><td></td></tr>
+								<tr><td>1<sup>st</sup></td><td>9W2AYP / 113DAAYP</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9WJCP / 113DAJCP</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>9W2NDI / 113DANDI</td></tr>
+								<tr><td>4<sup>th</sup></td><td>9W2JYT /113DAYJT</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9W2SNN / 113MSSAM</td></tr>
 							</tbody>
 						</table>
 					</div>
 					<div class='col-6'>
 						<h6 class='text-center'>Stesen Paling Aktif</h6>
 						<table class='table table-bordered table-sm table-responsive-sm text-center'>
-							<thead><th>No</th><th>Station</th></thead>
+							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
-								<tr><td>1<sup>st</sup></td><td></td></tr>
-								<tr><td>2<sup>nd</sup></td><td></td></tr>
-								<tr><td>3<sup>rd</sup></td><td></td></tr>
-								<tr><td>4<sup>th</sup></td><td></td></tr>
-								<tr><td>5<sup>th</sup></td><td></td></tr>
-								<tr><td>6<sup>th</sup></td><td></td></tr>
-								<tr><td>7<sup>th</sup></td><td></td></tr>
-								<tr><td>8<sup>th</sup></td><td></td></tr>
-								<tr><td>9<sup>th</sup></td><td></td></tr>
-								<tr><td>10<sup>th</sup></td><td></td></tr>
+								<tr><td>1<sup>st</sup></td><td>91KMDON</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>91MSERW</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>9W6AZE</td></tr>
+								<tr><td>4<sup>th</sup></td><td>9W2AYP</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9W2SNN / 113MSSAM</td></tr>
+								<tr><td>6<sup>th</sup></td><td>9W6RHN</td></tr>
+								<tr><td>7<sup>th</sup></td><td>9W2OJB</td></tr>
+								<tr><td>8<sup>th</sup></td><td>91DAGBW</td></tr>
+								<tr><td>9<sup>th</sup></td><td>9W2JCP</td></tr>
+								<tr><td>10<sup>th</sup></td><td>9W2RNH</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -1065,7 +1060,7 @@
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>HAM Net Khas Ambang Tahun Baru 2023</h6>
 				<table class='table table-bordered table-sm table-responsive-sm text-center'>
-					<thead><th>No</th><th>Station</th></thead>
+					<thead><th>No</th><th>Stesen</th></thead>
 					<tbody>
 						<tr><td>1<sup>st</sup></td><td>9W6AFF</td></tr>
 						<tr><td>2<sup>nd</sup></td><td>YD5NCU</td></tr>
@@ -1078,7 +1073,7 @@
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>CB Net Khas Sambutan Tahun Baru 2023</h6>
 				<table class='table table-bordered table-sm table-responsive-sm text-center'>
-					<thead><th>No</th><th>Station</th></thead>
+					<thead><th>No</th><th>Stesen</th></thead>
 					<tbody>
 						<tr><td>1<sup>st</sup></td><td>113DAHRY</td></tr>
 						<tr><td>2<sup>nd</sup></td><td>113DAZIK</td></tr>
@@ -1091,7 +1086,7 @@
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>HAM Net Khas Ambang Tahun Baru Cina 2023</h6>
 				<table class='table table-bordered table-sm table-responsive-sm text-center'>
-					<thead><th>No</th><th>Station</th></thead>
+					<thead><th>No</th><th>Stesen</th></thead>
 					<tbody>
 						<tr><td>1<sup>st</sup></td><td>9W2EVQ</td></tr>
 						<tr><td>2<sup>nd</sup></td><td>9M2RAN</td></tr>
@@ -1104,7 +1099,7 @@
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>CB Net Khas Sambutan Tahun Baru Cina 2023</h6>
 				<table class='table table-bordered table-sm table-responsive-sm text-center'>
-					<thead><th>No</th><th>Station</th></thead>
+					<thead><th>No</th><th>Stesen</th></thead>
 					<tbody>
 						<tr><td>1<sup>st</sup></td><td>91DATHP</td></tr>
 						<tr><td>2<sup>nd</sup></td><td>113MSSAM</td></tr>
@@ -1123,9 +1118,6 @@
   <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
 	<script src='assets/js/tawkto.js'></script>
 	<script src='assets/js/stt.js'></script>
-</body>
-
-</html>html>html></html>/js/stt.js'></script>
 </body>
 
 </html>

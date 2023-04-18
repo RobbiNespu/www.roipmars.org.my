@@ -119,9 +119,9 @@
           </div>
           <div class='col-10 d-flex align-content-center flex-wrap'>
             <div class='card-body mx-3'>
-              <p class='card-title fs-3 fw-bold'>ZULKIFLI ABU &#40;9W2UZL&#41; <a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-person-vcard'></i></a></p>
-              <p class='card-subtitle fw-semibold'>FOUNDER, LEAD ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
-              <p class='card-subtitle fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; KETUA PENYELIDIK</p>
+              <p class='card-title fs-2 fw-bold'>ZULKIFLI ABU &#40;9W2UZL&#41; <a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-person-vcard'></i></a></p>
+              <p class='card-subtitle fs-5 fw-semibold'>FOUNDER, LEAD ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
+              <p class='card-subtitle fs-5 fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; KETUA PENYELIDIK</p>
               <p class='card-subtitle fw-light'>&#91;Sejak 2018&#93; Dilantik oleh MART&acute;S sebagai penyelidik SIG pengkhususan &#39;ROIP&#39;</p>
             </div>
           </div>
@@ -131,9 +131,10 @@
         <div class='row g-1 text-end'>
           <div class='col-10 d-flex align-content-center flex-wrap'>
             <div class='card-body mx-3'>
-              <p class='card-title fs-3 fw-bold'>HAFIZI RUSLAN &#40;9W2LGX&#41; <a href='https://bit.ly/m/hafiziruslan'><i class='bi-person-vcard'></i></a></p>
-              <p class='card-subtitle fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
-              <p class='card-subtitle fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
+              <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN &#40;9W2LGX&#41; <a href='https://bit.ly/m/hafiziruslan'><i class='bi-person-vcard'></i></a></p>
+              <p class='card-subtitle fs-5 fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
+              <p class='card-subtitle fs-5 fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
+              <p class='card-subtitle fw-light'>&#91;Sejak 2019&#93; Dilantik oleh ROIPMARS&trade; sebagai pembangun perisian rasmi</p>
             </div>
           </div>
           <div class='col-2 align-self-center'>

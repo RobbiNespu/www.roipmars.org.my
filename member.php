@@ -176,13 +176,13 @@
           <h3 class='h3 text-center'>Jawatankuasa</h3>
           <p class='fw-bold'>Organisasi Pusat Sesi 2020-2023</p>
           <div class='row justify-content-center'>
-            <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-title fw-bold m-0'>
                   <p>PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
+                  <img src='media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-subtitle'>
                   <p class='fw-bolder m-0'>ZULKIFLI ABU</p>
@@ -190,13 +190,13 @@
                 </div>
               </div>
             </div>
-            <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-title fw-bold m-0'>
                   <p>TIMBALAN PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
+                  <img src='media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-subtitle'>
                   <p class='fw-bolder m-0'>KAMARUDZAMAN ABD RAHIM</p>
@@ -204,13 +204,13 @@
                 </div>
               </div>
             </div>
-            <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-title fw-bold m-0'>
                   <p>SETIAUSAHA AGUNG</p>
                 </div>
                 <div class='card-img'>
-                  <img src='media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
+                  <img src='media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-subtitle'>
                   <p class='fw-bolder m-0'>HAFIZI RUSLAN</p>
@@ -218,13 +218,13 @@
                 </div>
               </div>
             </div>
-            <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-title fw-bold m-0'>
                   <p>PENOLONG SETIAUSAHA</p>
                 </div>
                 <div class='card-img'>
-                  <img src='media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
+                  <img src='media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-subtitle'>
                   <p class='fw-bolder m-0'>ROZAIMAN SUFFIAN</p>
@@ -232,13 +232,13 @@
                 </div>
               </div>
             </div>
-            <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-title fw-bold m-0'>
                   <p>BENDAHARI AGUNG</p>
                 </div>
                 <div class='card-img'>
-                  <img src='media/image/member/007.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
+                  <img src='media/image/member/007.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-subtitle'>
                   <p class='fw-bolder m-0'>SULAIMAN MAZLAN</p>
@@ -248,14 +248,14 @@
             </div>
           </div>
           <div class='row justify-content-center'>
-            <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-title fw-bold m-0'>
-                  <p>BAHAGIAN SIARAYA &amp; AKTIVITI</p>
+                  <p>BAH. SIARAYA &amp; AKTIVITI</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
-                  <!-- <img src='media/image/member/013.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'> -->
+                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <!-- <img src='media/image/member/013.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'> -->
                 </div>
                 <div class='card-subtitle'>
                   <p class='fw-bolder m-0'>AHLI LUPUT</p>
@@ -265,13 +265,13 @@
                 </div>
               </div>
             </div>
-            <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-title fw-bold m-0'>
-                  <p>BAHAGIAN TEKNIKAL</p>
+                  <p>BAH. TEKNIKAL</p>
                 </div>
                 <div class='card-img'>
-                  <img src='media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
+                  <img src='media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-subtitle'>
                   <p class='fw-bolder m-0'>ZAHEER ZAKARIA</p>
@@ -279,13 +279,13 @@
                 </div>
               </div>
             </div>
-            <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-title fw-bold m-0'>
-                  <p>BAHAGIAN KEBAJIKAN</p>
+                  <p>BAH. KEBAJIKAN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
+                  <img src='media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-subtitle'>
                   <p class='fw-bolder m-0'>MUSTAFA OMAR</p>
@@ -293,13 +293,13 @@
                 </div>
               </div>
             </div>
-            <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-title fw-bold m-0'>
-                  <p>BAHAGIAN EKONOMI</p>
+                  <p>BAH. EKONOMI</p>
                 </div>
                 <div class='card-img'>
-                  <img src='media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
+                  <img src='media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-subtitle'>
                   <p class='fw-bolder m-0'>FAIZNURNIZAM MAT RASOL</p>
@@ -307,13 +307,13 @@
                 </div>
               </div>
             </div>
-            <div class='col-6 col-md-4 col-lg-3 col-xl-2 my-2 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-title fw-bold m-0'>
-                  <p>BAHAGIAN PERHUBUNGAN AWAM</p>
+                  <p>BAH. PERHUBUNGAN AWAM</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient'>
+                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-subtitle'>
                   <p class='fw-bolder m-0'>LANTIKAN 2024</p>
@@ -388,7 +388,7 @@
                 <td>A007</td>
                 <td>9W2ELM</td>
                 <td>MOHD SULAIMAN BIN MAZLAN</td>
-                <td>2022-12-31</td>
+                <td>2023-12-31</td>
               </tr>
               <tr class='text-success-emphasis'>
                 <td>A008</td>

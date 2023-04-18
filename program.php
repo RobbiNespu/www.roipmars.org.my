@@ -122,21 +122,21 @@
 					<iframe class='rounded-4' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0' style='filter: invert(.9) saturate(0.85) hue-rotate(145deg)'></iframe>
 				</div>
 				<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun membuat selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan:</p>
-				<div class='btn-group btn-group-lg d-grid gap-1 col-lg-6 mx-auto' role='group'>
-					<a type='button' class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/60145768581'><i class='bi-whatsapp'></i> <b>Pegawai Siaraya &amp; Aktiviti</b></a>
-					<a type='button' class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/601112308482'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></a>
-					<a type='button' class='btn btn-outline-success rounded-pill' type='button' href='https://wa.me/60196293718'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></a>
+				<div class='btn-group d-flex justify-content-center' role='group'>
+					<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/601112308482'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></a>
+					<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/60196293718'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></a>
+					<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/60145768581'><i class='bi-whatsapp'></i> <b>Pegawai Siaraya &amp; Aktiviti</b></a>
 				</div>
 			</div>
 			<div class='col-lg-5 my-3 d-block text-center'>
-				<h4 class='text-center'>Aktiviti Net Mingguan</h4>
-				<table class='table table-sm text-center align-middle'>
+				<h4>Aktiviti Net Mingguan</h4>
+				<table class='table table-sm table-bordered text-center align-middle'>
 					<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
 					<tbody>
 						<tr class='bg-primary-subtle'><td>Isnin</td><td>1300Z</td><td>RoIPMARS Net Awal Minggu</td><td>ROIPMARS</td></tr>
-						<tr><td>Selasa</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+						<tr class='opacity-25'><td>Selasa</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
 						<tr class='bg-info-subtle'><td>Rabu</td><td>1300Z</td><td>Learning English Net</td><td>ROIPMARS</td></tr>
-						<tr><td>Khamis</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+						<tr class='opacity-25'><td>Khamis</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
 						<tr class='bg-primary-subtle'><td>Jumaat</td><td>1300Z</td><td>RoIPMARS Net Santai</td><td>ROIPMARS</td></tr>
 						<tr class='bg-primary-subtle'><td>Sabtu</td><td>1300Z</td><td>RoIPMARS Net Malam Minggu</td><td>ROIPMARS</td></tr>
 						<tr class='bg-danger-subtle'><td>Ahad</td><td>1300Z</td><td>CB Net Hujung Minggu</td><td>ROIPDARULAMAN</td></tr>

@@ -149,7 +149,7 @@
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
 									<img src='media/image/member/013.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W8VWW'>
-									<p class='lh-1 me-5'>9W8VWW / 58MSVWW<br>VERONICA CATHERINE<br>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
+									<p class='lh-1'>9W8VWW / 58MSVWW<br>VERONICA CATHERINE<br>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
 									<img src='media/image/member/031.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2EZK'>

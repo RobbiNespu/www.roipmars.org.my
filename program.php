@@ -427,8 +427,8 @@
 								<tr class='bg-success-subtle'><td>Ahad<br>16/04</td><td>0400MY</td><td>VoIP Sahur Net #25</td><td>9W2JCP</td><td>49</td></tr>
 								<tr class='bg-success-subtle'><td>Isnin<br>17/04</td><td>0400MY</td><td>VoIP Sahur Net #26</td><td>113DAPLY</td><td>44</td></tr>
 								<tr class='bg-success-subtle'><td rowspan='2'>Selasa<br>18/04</td><td>0400MY</td><td>VoIP Sahur Net #27</td><td>9W6AZE</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-info-subtle'><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Amateur Radio Day&#41;</td><td>9W8VWW</td><td></td></tr>
-								<tr class='bg-success-subtle'><td>Rabu<br>19/04</td><td>0400MY</td><td>VoIP Sahur Net #28</td><td>113DAYJT</td><td></td></tr>
+								<tr class='bg-info-subtle'><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Amateur Radio Day&#41;</td><td>9W8VWW</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr class='bg-success-subtle'><td>Rabu<br>19/04</td><td>0400MY</td><td>VoIP Sahur Net #28</td><td>113DANDI</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr class='bg-success-subtle'><td>Khamis<br>20/04</td><td>0400MY</td><td>VoIP Sahur Net #29</td><td>9W2EZK</td><td></td></tr>
 								<tr class='bg-success-subtle'><td>Jumaat<br>21/04<sup>1</sup></td><td>0400MY</td><td>VoIP Sahur Net #30</td><td>113MSSAM</td><td></td></tr>
 								<tr class='bg-primary-subtle'><td>Sabtu<br>22/04<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Raya Aidilfitri<sup>1</sup> 1444H&#41;<br>&#40;Hari Bumi&#41;</td><td>9W6AFF</td><td></td></tr>
@@ -912,7 +912,7 @@
 				<p class='text-center'>HAM Net Bahasa Inggeris</p>
 				<div class='row'>
 					<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
-					<table class='table table-bordered table-sm table-responsive-sm text-center'>
+					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>9W8VWW</td></tr>
@@ -924,7 +924,7 @@
 						</table>
 					</div>
 					<div class='col-6'><h6 class='text-center'>Stesen Paling Aktif</h6>
-					<table class='table table-bordered table-sm table-responsive-sm text-center'>
+					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>9W2AYP</td></tr>
@@ -946,7 +946,7 @@
 				<p class='text-center'>HAM Net Bahasa Melayu</p>
 				<div class='row'>
 					<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
-					<table class='table table-bordered table-sm table-responsive-sm text-center'>
+					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>9W2UZL</td></tr>
@@ -958,7 +958,7 @@
 						</table>
 					</div>
 					<div class='col-6'><h6 class='text-center'>Stesen Paling Aktif</h6>
-					<table class='table table-bordered table-sm table-responsive-sm text-center'>
+					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>9W2SNN</td></tr>
@@ -984,7 +984,7 @@
 				<div class='row'>
 					<div class='col-6'>
 						<h6 class='text-center'>Pengawal Tertinggi</h6>
-						<table class='table table-bordered table-sm table-responsive-sm text-center'>
+						<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
@@ -997,7 +997,7 @@
 					</div>
 					<div class='col-6'>
 						<h6 class='text-center'>Stesen Paling Aktif</h6>
-						<table class='table table-bordered table-sm table-responsive-sm text-center'>
+						<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
@@ -1016,14 +1016,14 @@
 				</div>
 			</div>
 			<div class='col-lg-6'>
-				<p class='text-center'>OpenVoIP Sahur Net 1444H &#40;TIDAK RASMI SETAKAT 17/04/23&#41;</p>
+				<p class='text-center'>OpenVoIP Sahur Net 1444H &#40;TIDAK RASMI SETAKAT 19/04/23&#41;</p>
 				<div class='row'>
 					<div class='col-6'>
 						<h6 class='text-center'>Pengawal Tertinggi</h6>
-						<table class='table table-bordered table-sm table-responsive-sm text-center'>
+						<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
-								<tr><td>1<sup>st</sup></td><td>9W2AYP / 113DAAYP</td></tr>
+								<tr><td>1<sup>st</sup></td><td>9W2AYP / 113DAPLY</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>9WJCP / 113DAJCP</td></tr>
 								<tr><td>3<sup>rd</sup></td><td>9W2NDI / 113DANDI</td></tr>
 								<tr><td>4<sup>th</sup></td><td>9W2JYT /113DAYJT</td></tr>
@@ -1033,14 +1033,14 @@
 					</div>
 					<div class='col-6'>
 						<h6 class='text-center'>Stesen Paling Aktif</h6>
-						<table class='table table-bordered table-sm table-responsive-sm text-center'>
+						<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>91KMDON</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>91MSERW</td></tr>
 								<tr><td>3<sup>rd</sup></td><td>9W6AZE</td></tr>
 								<tr><td>4<sup>th</sup></td><td>9W2AYP</td></tr>
-								<tr><td>5<sup>th</sup></td><td>9W2SNN / 113MSSAM</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9W2SNN / 113MSSAM / 113JS49</td></tr>
 								<tr><td>6<sup>th</sup></td><td>9W6RHN</td></tr>
 								<tr><td>7<sup>th</sup></td><td>9W2OJB</td></tr>
 								<tr><td>8<sup>th</sup></td><td>91DAGBW</td></tr>
@@ -1059,7 +1059,7 @@
 			</div>
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>HAM Net Khas Ambang Tahun Baru 2023</h6>
-				<table class='table table-bordered table-sm table-responsive-sm text-center'>
+				<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 					<thead><th>No</th><th>Stesen</th></thead>
 					<tbody>
 						<tr><td>1<sup>st</sup></td><td>9W6AFF</td></tr>
@@ -1072,7 +1072,7 @@
 			</div>
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>CB Net Khas Sambutan Tahun Baru 2023</h6>
-				<table class='table table-bordered table-sm table-responsive-sm text-center'>
+				<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 					<thead><th>No</th><th>Stesen</th></thead>
 					<tbody>
 						<tr><td>1<sup>st</sup></td><td>113DAHRY</td></tr>
@@ -1085,7 +1085,7 @@
 			</div>
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>HAM Net Khas Ambang Tahun Baru Cina 2023</h6>
-				<table class='table table-bordered table-sm table-responsive-sm text-center'>
+				<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 					<thead><th>No</th><th>Stesen</th></thead>
 					<tbody>
 						<tr><td>1<sup>st</sup></td><td>9W2EVQ</td></tr>
@@ -1098,7 +1098,7 @@
 			</div>
 			<div class='col-md-3 col-sm-6'>
 				<h6 class='text-center'>CB Net Khas Sambutan Tahun Baru Cina 2023</h6>
-				<table class='table table-bordered table-sm table-responsive-sm text-center'>
+				<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 					<thead><th>No</th><th>Stesen</th></thead>
 					<tbody>
 						<tr><td>1<sup>st</sup></td><td>91DATHP</td></tr>

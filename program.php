@@ -469,7 +469,7 @@
 								<tr class='bg-danger-subtle'><td>Ahad<br>07/05</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Ketawa Sedunia&#41;</td><td>113DAPLY</td><td>&shy;</td></tr>
 								<tr><td>Isnin<br>08/05</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9M2SFL</td><td>&shy;</td></tr>
 								<tr><td>Rabu<br>10/05</td><td>2100MY</td><td>Learning English Net</td><td>9W8VWW</td><td>&shy;</td></tr>
-								<tr class='bg-primary-subtle'><td>Jumaat<br>12/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Jururawat Sedunia&#41;</td><td>9W8VYY</td><td>&shy;</td></tr>
+								<tr class='bg-primary-subtle text-decoration-line-through'><td>Jumaat<br>12/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Jururawat Sedunia&#41;</td><td>9W8VYY</td><td>&shy;</td></tr>
 								<tr><td>Sabtu<br>13/05</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W6AZE</td><td>&shy;</td></tr>
 								<tr class='bg-danger-subtle'><td>Ahad<br>14/05</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Ibu&#41;</td><td>113DAYJT</td><td>&shy;</td></tr>
 								<tr class='bg-primary-subtle'><td>Isnin<br>15/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Keluarga Sedunia&#41;</td><td>9W2SNN</td><td>&shy;</td></tr>

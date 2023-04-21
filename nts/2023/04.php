@@ -70,35 +70,17 @@
     <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2023/04<br>Tarikh Notis: 20 Apr 2023 | 2200 MYT</p>
     <p class='lh-sm'>Pengguna yang dihormati,</p>
     <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Penyelenggaraan Menaik Taraf Perisian Tegar <i>&#40;Firmware&#41;</i> Pelayan - 25 Mac 2023</p>
-    <p class='mb-2'>Harap maklum bahawa Pasukan Penyelenggaraan Pusat Data akan menjalankan penyelenggaraan pelayan untuk mengmas kini perisian tegar <i>&#40;firmware&#41;</i> peralatan di Pusat Data. Oleh itu, akan ada masa henti untuk semua pelayan yang berada di Pusat Data, kerana pelayan akan dibut semula beberapa kali semasa proses selenggara.</p>
+    <p class='mb-2'>Harap maklum bahawa Pasukan Penyelenggaraan Pusat Data akan menjalankan penyelenggaraan pelayan untuk mengemas kini perisian tegar <i>&#40;firmware&#41;</i> peralatan di Pusat Data. Oleh yang demikian, akan ada masa henti untuk semua pelayan yang berada di Pusat Data, kerana pelayan akan dibut semula beberapa kali semasa proses selenggara.</p>
     <p>Penyelenggaraan ini adalah penting untuk mengelakkan sebarang kelemahan yang mungkin membahayakan dan menjejaskan keselamatan pelayan.</p>
     <p>Butiran penyelenggaraan adalah seperti berikut:
     <table class='table table-bordered table-sm text-start align-middle'>
       <tbody>
-        <tr>
-          <th>Tarikh</th>
-          <td>12 Mei 2023 &#40;Jumaat&#41;</td>
-        </tr>
-        <tr>
-          <th>Anggaran Masa Gangguan</th>
-          <td>10:00 PM &#40;MY&#41;</td>
-        </tr>
-        <tr>
-          <th>Tempoh Gangguan</th>
-          <td>1 jam</td>
-        </tr>
-        <tr>
-          <th>Masa Penyelenggaraan</th>
-          <td>10:00 PM &ndash; 4:00 AM &#40;MY&#41;</td>
-        </tr>
-        <tr>
-          <th>Tempoh Penyelenggaraan</th>
-          <td>6 jam</td>
-        </tr>
-        <tr>
-          <th>Punca</th>
-          <td>Operasi kemas kini perisian tegar</td>
-        </tr>
+        <tr><th>Tarikh</th><td>12 Mei 2023 &#40;Jumaat&#41;</td></tr>
+        <tr><th>Anggaran Masa Gangguan</th><td>10:00 PM &#40;MY&#41;</td></tr>
+        <tr><th>Tempoh Gangguan</th><td>1 jam</td></tr>
+        <tr><th>Masa Penyelenggaraan</th><td>10:00 PM &ndash; 4:00 AM &#40;MY&#41;</td></tr>
+        <tr><th>Tempoh Penyelenggaraan</th><td>6 jam</td></tr>
+        <tr><th>Punca</th><td>Operasi kemas kini perisian tegar</td></tr>
       </tbody>
     </table>
     </p>

@@ -16,13 +16,13 @@
 	<meta property='og:site_name' content='RoIPMARS'>
 	<meta property='og:title' content='PPRK | Jadual Program 2023'>
 	<meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Jadual Program 2023'>
-	<meta property='og:url' content='https://www.roipmars.org.my/program'>
+	<meta property='og:url' content='//www.roipmars.org.my/program'>
 	<meta property='og:image' content='media/image/brand_sq.png'>
 	<meta property='og:type' content='website'>
 	<meta property='og:locale' content='ms-MY'>
 	<meta name='twitter:title' content='PPRK | Jadual Program 2023'>
 	<meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Jadual Program 2023'>
-	<meta name='twitter:url' content='https://www.roipmars.org.my/program'>
+	<meta name='twitter:url' content='//www.roipmars.org.my/program'>
 	<meta name='twitter:image' content='media/image/brand_sq.png'>
 	<meta name='twitter:creator' content='@HafiziRuslan'>
 	<meta name='msapplication-TileColor' content='#56C3E7'>
@@ -45,13 +45,13 @@
 	<link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
 	<link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
 	<link rel='manifest' href='assets/manifest.json'>
-	<link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
-	<script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-	<script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-	<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-	<script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+	<link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
+	<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
+	<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
+	<script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+	<script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
+	<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
+	<script async src='//fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
 	<script src='assets/js/gtm.js'></script>
 	<script src='assets/js/gtag.js'></script>
 	<script src='assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
@@ -59,7 +59,7 @@
 </head>
 
 <body>
-	<noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+	<noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
 	<div id='fb-root'></div>
 	<div id='fb-customer-chat' class='fb-customerchat'></div>
 	<script src='assets/js/fbchat.js'></script>
@@ -78,7 +78,7 @@
               <ul class='dropdown-menu text-lg-center text-end bg-body-tertiary border-0'>
                 <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
                 <li><a class='dropdown-item text-primary-emphasis' href='cbmars'>CB RoIPMARS</a></li>
-                <li><a class='dropdown-item text-danger-emphasis' href='https://www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
+                <li><a class='dropdown-item text-danger-emphasis' href='//www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
               </ul>
             </li>
             <li class='nav-item dropdown'>
@@ -90,11 +90,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='//books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -112,20 +112,20 @@
 			<div class='col-lg-7 my-1 align-self-center'>
 				<div class='row text-center'>
 					<div class='col-sm'>
-						<iframe class='bg-transparent rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n122/tlmy40/fn17/ftb/tt0/td1/th1/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
+						<iframe class='bg-transparent rounded-4 pe-none' src='//free.timeanddate.com/clock/i8p043xx/n122/tlmy40/fn17/ftb/tt0/td1/th1/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
 					</div>
 					<div class='col-sm'>
-						<iframe class='bg-transparent rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n1440/tlmy/fn17/pd2/tt0/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
+						<iframe class='bg-transparent rounded-4 pe-none' src='//free.timeanddate.com/clock/i8p043xx/n1440/tlmy/fn17/pd2/tt0/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
 					</div>
 				</div>
 				<div class='ratio ratio-21x9'>
-					<iframe class='rounded-4' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0' style='filter: invert(.9) saturate(0.85) hue-rotate(145deg)'></iframe>
+					<iframe class='rounded-4' src='//calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0' style='filter: invert(.9) saturate(0.85) hue-rotate(145deg)'></iframe>
 				</div>
 				<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun membuat selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan:</p>
 				<div class='btn-group d-flex justify-content-center' role='group'>
-					<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/601112308482'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></a>
-					<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/60196293718'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></a>
-					<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/60145768581'><i class='bi-whatsapp'></i> <b>Pegawai Siaraya &amp; Aktiviti</b></a>
+					<a class='btn border-success bg-success-subtle text-success-emphasis' href='//wa.me/601112308482'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></a>
+					<a class='btn border-success bg-success-subtle text-success-emphasis' href='//wa.me/60196293718'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></a>
+					<a class='btn border-success bg-success-subtle text-success-emphasis' href='//wa.me/60145768581'><i class='bi-whatsapp'></i> <b>Pegawai Siaraya &amp; Aktiviti</b></a>
 				</div>
 			</div>
 			<div class='col-lg-5 my-3 d-block text-center'>
@@ -433,7 +433,7 @@
 								<tr class='bg-success-subtle'><td rowspan='2'>Jumaat<br>21/04<sup>1</sup></td><td>0400MY</td><td>VoIP Sahur Net #30</td><td>113MSSAM</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr class='bg-primary-subtle'><td>2130MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Malam Raya Aidilfitri 1444H<sup>1</sup>&#41;</td><td>9W2SNN<sup>2</sup></td><td>21</td></tr>
 								<tr class='bg-primary-subtle'><td>Sabtu<br>22/04<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Raya Aidilfitri<sup>1</sup> 1444H&#41;<br>&#40;Hari Bumi&#41;</td><td>9W6AFF</td><td><i class='bi-person-x text-danger'></i></td></tr>
-								<tr class='bg-danger-subtle'><td>Ahad<br>23/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Buku dan Hak Cipta Sedunia&#41;</td><td>113DAISS</td><td>&shy;</td></tr>
+								<tr class='bg-danger-subtle'><td>Ahad<br>23/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Buku dan Hak Cipta Sedunia&#41;</td><td>113DAISS</td><td><i class='bi-person-x text-danger'></i></td></tr>
 								<tr><td>Isnin<br>24/04</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9M2SFL</td><td>&shy;</td></tr>
 								<tr class='bg-info-subtle'><td>Rabu<br>26/04</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;World Intellectual Property Day&#41;</td><td>9W6WOT</td><td>&shy;</td></tr>
 								<tr class='bg-primary-subtle'><td>Khamis<br>27/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net<br>&#40;Hari Tentera Laut Diraja Malaysia ke-89&#41;</td><td>9M2RAN</td><td>&shy;</td></tr>
@@ -875,34 +875,34 @@
 				<h6 class='text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan Kita Semua <i class='fas fa-quote-right fa-xs'></i></h6>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1851683566&format=image' loading='lazy' alt='NetGraphTime23'>
+				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1851683566&format=image' loading='lazy' alt='NetGraphTime23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&format=image' loading='lazy' alt='NetGraphDaily23'>
+				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&format=image' loading='lazy' alt='NetGraphDaily23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=861710611&format=image' loading='lazy' alt='NetGraphDay23'>
+				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=861710611&format=image' loading='lazy' alt='NetGraphDay23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' loading='lazy' alt='NetGraphWeekly23'>
+				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' loading='lazy' alt='NetGraphWeekly23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' loading='lazy' alt='NetGraphMonthly23'>
+				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' loading='lazy' alt='NetGraphMonthly23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=455644558&format=image' loading='lazy' alt='NetGraphQuarterly23'>
+				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=455644558&format=image' loading='lazy' alt='NetGraphQuarterly23'>
 			</div>
 			<div class='col-lg-4 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=4802909&format=image' loading='lazy' alt='NetGraphBand23'>
+				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=4802909&format=image' loading='lazy' alt='NetGraphBand23'>
 			</div>
 			<div class='col-lg-4 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1205231339&format=image' loading='lazy' alt='NetGraphLang23'>
+				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1205231339&format=image' loading='lazy' alt='NetGraphLang23'>
 			</div>
 			<div class='col-lg-4 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' loading='lazy' alt='NetGraphMode23'>
+				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' loading='lazy' alt='NetGraphMode23'>
 			</div>
 			<div class='col-lg-12 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'>
+				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'>
 			</div>
 		</div>
 		<hr>
@@ -1113,9 +1113,9 @@
 	</div>
 	<button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
 	<?php include('footer.php') ?>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
-	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
+	<script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
 	<script src='assets/js/tawkto.js'></script>
 	<script src='assets/js/stt.js'></script>
 </body>

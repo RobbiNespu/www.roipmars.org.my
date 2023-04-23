@@ -2,9 +2,9 @@
 <html data-bs-theme='dark'>
 
   <head>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
-    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
+    <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   </head>
 
   <body>
@@ -35,23 +35,23 @@
                 <div class='modal-content'>
                   <div class='modal-body'>
                     <div class='ratio ratio-1x1'>
-                      <iframe src='https://1306b3f7.sibforms.com/serve/MUIEAIR2UxOW8JezeVtN05wHT8tqVrcROKOSDLHHB5BNy1LHST-CbEPqTvRhQe5_CrrvOOmbedVNkoHAJxlEwQ8tbScw_7eHtjByIUNLUHOsQBo7rmMribZ9ZpPLC89V-9lSyMybFpSBE8ClRHD6itpcxnb_bpZk-06g7sjz4NaQn2gIAlL_0HNtA_BA7UvZT5jIptMIZetcXcSB'></iframe>
+                      <iframe src='//1306b3f7.sibforms.com/serve/MUIEAIR2UxOW8JezeVtN05wHT8tqVrcROKOSDLHHB5BNy1LHST-CbEPqTvRhQe5_CrrvOOmbedVNkoHAJxlEwQ8tbScw_7eHtjByIUNLUHOsQBo7rmMribZ9ZpPLC89V-9lSyMybFpSBE8ClRHD6itpcxnb_bpZk-06g7sjz4NaQn2gIAlL_0HNtA_BA7UvZT5jIptMIZetcXcSB'></iframe>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class='d-md-flex justify-content-md-end opacity-75'>
-              <img class='img-fluid rounded-5 bg-body-tertiary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?bgcolor=dark&back=transparent&heline=eve'>
+              <img class='img-fluid rounded-5 bg-body-tertiary me-md-2' loading='lazy' src='//www.hamqsl.com/solar101sc.php?bgcolor=dark&back=transparent&heline=eve'>
             </div>
           </div>
         </div>
         <?php include('footer.min.php') ?>
       </div>
     </footer>
-    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
     <script src='assets/js/donate.js'></script>
   </body>
 

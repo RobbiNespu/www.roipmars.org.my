@@ -16,13 +16,13 @@
   <meta property='og:site_name' content='RoIPMARS'>
   <meta property='og:title' content='PPRK | Home'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP)'>
-  <meta property='og:url' content='https://www.roipmars.org.my'>
+  <meta property='og:url' content='//www.roipmars.org.my'>
   <meta property='og:image' content='media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='PPRK | Home'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP)'>
-  <meta name='twitter:url' content='https://www.roipmars.org.my'>
+  <meta name='twitter:url' content='//www.roipmars.org.my'>
   <meta name='twitter:image' content='media/image/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
@@ -45,13 +45,13 @@
   <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
   <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
   <link rel='manifest' href='assets/manifest.json'>
-  <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
-  <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-  <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-  <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-  <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+  <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
+  <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+  <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
+  <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
+  <script async src='//fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
   <script src='assets/js/gtm.js'></script>
   <script src='assets/js/gtag.js'></script>
   <script src='assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
@@ -59,7 +59,7 @@
 </head>
 
 <body>
-  <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+  <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='assets/js/fbchat.js'></script>
@@ -78,7 +78,7 @@
               <ul class='dropdown-menu text-lg-center text-end bg-body-tertiary border-0'>
                 <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
                 <li><a class='dropdown-item text-primary-emphasis' href='cbmars'>CB RoIPMARS</a></li>
-                <li><a class='dropdown-item text-danger-emphasis' href='https://www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
+                <li><a class='dropdown-item text-danger-emphasis' href='//www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
               </ul>
             </li>
             <li class='nav-item dropdown'>
@@ -90,11 +90,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='//books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -114,7 +114,7 @@
     <div class='row text-center'>
       <div class='col-sm'>
         <i class='fa-solid fa-tower-broadcast fa-7x'></i>
-        <p>Yang Terhebat dari semua Hobi Saintifik<br><a class='text-decoration-none' href='https://www.iaru-r3.org/' target='_blank' rel='noopener'>Kesatuan Radio Amatur Antarabangsa Wilayah 3</a> | <a class='text-decoration-none' href='https://www.mcmc.gov.my/ms/home' target='_blank' rel='noopener'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia</a> | <a class='text-decoration-none' href='https://marts.org.my/' target='_blank' rel='noopener'>Persatuan Pemancar Radio Amatur Malaysia</a></p>
+        <p>Yang Terhebat dari semua Hobi Saintifik<br><a class='text-decoration-none' href='//www.iaru-r3.org/' target='_blank' rel='noopener'>Kesatuan Radio Amatur Antarabangsa Wilayah 3</a> | <a class='text-decoration-none' href='//www.mcmc.gov.my/ms/home' target='_blank' rel='noopener'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia</a> | <a class='text-decoration-none' href='//marts.org.my/' target='_blank' rel='noopener'>Persatuan Pemancar Radio Amatur Malaysia</a></p>
       </div>
     </div>
     <div class='row text-center'>
@@ -188,26 +188,26 @@
       <div class='col-lg-4 my-1'>
         <div class='btn-group-vertical d-flex rounded-3' role='group'>
           <div class='btn btn-secondary disabled text-center bg-dark-subtle'>Bacaan Lanjut</div>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.arrl.org/files/file/VoIP.pdf' download><i class='bi-file-earmark-pdf'></i> VoIP dan Radio Amatur &ndash; ARRL</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Guidelines-for-Amateur-Radio-Service-in-Malaysia-3rd-Edition.pdf' download><i class='bi-file-earmark-pdf'></i> GARIS PANDUAN PERKHIDMATAN RADIO AMATUR DI MALAYSIA &ndash; MCMC</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Amateur-Radio-Handbook-1st-Edition.pdf' download><i class='bi-file-earmark-pdf'></i> BUKU PANDUAN RADIO AMATUR &ndash; MCMC</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://sems.mcmc.gov.my/sems/exams/examinfo' target='_blank' rel='noopener'>Sistem Pengurusan Peperiksaan SKMM &#40;SEMS&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Form-AMATEUR-SERVICE_v2018_ISO.pdf' download><i class='bi-file-earmark-pdf'></i> Borang Permohonan Tugasan Radas Amatur &ndash; MCMC</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.arrl.org/files/file/VoIP.pdf' download><i class='bi-file-earmark-pdf'></i> VoIP dan Radio Amatur &ndash; ARRL</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Guidelines-for-Amateur-Radio-Service-in-Malaysia-3rd-Edition.pdf' download><i class='bi-file-earmark-pdf'></i> GARIS PANDUAN PERKHIDMATAN RADIO AMATUR DI MALAYSIA &ndash; MCMC</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Amateur-Radio-Handbook-1st-Edition.pdf' download><i class='bi-file-earmark-pdf'></i> BUKU PANDUAN RADIO AMATUR &ndash; MCMC</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//sems.mcmc.gov.my/sems/exams/examinfo' target='_blank' rel='noopener'>Sistem Pengurusan Peperiksaan SKMM &#40;SEMS&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.mcmc.gov.my/skmmgovmy/media/General/pdf/Form-AMATEUR-SERVICE_v2018_ISO.pdf' download><i class='bi-file-earmark-pdf'></i> Borang Permohonan Tugasan Radas Amatur &ndash; MCMC</a>
           <div class='btn-group dropup-center dropup' role='group'>
             <button type='button' class='btn btn-outline-secondary text-secondary-emphasis dropdown-toggle text-wrap' data-bs-toggle='dropdown' data-bs-auto-close='outside' aria-expanded='false'>Bank Soalan &amp; Jawapan ORAE Malaysia 2023 &ndash; MCMC</button>
             <ul class='dropdown-menu rounded-3 fs-4 bg-body-secondary text-center'>
               <li class='dropdown-header text-white fs-4'>Soalan Dwi-Bahasa &mdash; MCMC</li>
-              <li><a class='dropdown-item icon-link' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classa.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
-              <li><a class='dropdown-item icon-link' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classb.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas B <span class='badge bg-success-subtle'>9W</span></a></li>
-              <li><a class='dropdown-item icon-link' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classc.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas C <span class='badge bg-success-subtle'>9W3</span></a></li>
+              <li><a class='dropdown-item icon-link' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classa.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
+              <li><a class='dropdown-item icon-link' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classb.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas B <span class='badge bg-success-subtle'>9W</span></a></li>
+              <li><a class='dropdown-item icon-link' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classc.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas C <span class='badge bg-success-subtle'>9W3</span></a></li>
               <li>
                 <hr class='dropdown-divider'>
               </li>
               <li class='dropdown-header text-white fs-4'>Jawapan Dwi-Bahasa</li>
-              <li><a class='dropdown-item icon-link' href='https://docs.google.com/spreadsheets/u/8/d/1ds9UTqvW5HDPU-CWn7N58vkkJrxvpbchp5pMkP7eHV4/htmlview' target='_blank' rel='noopener'><i class='bi-file-earmark-spreadsheet' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
-              <li><a class='dropdown-item icon-link' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classa.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success'>9M</span></a></li>
-              <li><a class='dropdown-item icon-link disabled text-muted' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classb.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas B <span class='badge bg-success'>9W</span></a></li>
-              <li><a class='dropdown-item icon-link' href='https://ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classc.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas C <span class='badge bg-success'>9W3</span></a></li>
+              <li><a class='dropdown-item icon-link' href='//docs.google.com/spreadsheets/u/8/d/1ds9UTqvW5HDPU-CWn7N58vkkJrxvpbchp5pMkP7eHV4/htmlview' target='_blank' rel='noopener'><i class='bi-file-earmark-spreadsheet' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
+              <li><a class='dropdown-item icon-link' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classa.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success'>9M</span></a></li>
+              <li><a class='dropdown-item icon-link disabled text-muted' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classb.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas B <span class='badge bg-success'>9W</span></a></li>
+              <li><a class='dropdown-item icon-link' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classc.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas C <span class='badge bg-success'>9W3</span></a></li>
             </ul>
           </div>
         </div>
@@ -215,35 +215,35 @@
       <div class='col-lg-4 my-1'>
         <div class='btn-group-vertical d-flex rounded-3' role='group'>
           <div class='btn btn-secondary disabled text-center bg-dark-subtle'>Kerjasama Kelab &amp; Persatuan Luar</div>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://marts.org.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Malaysia Amateur Radio Transmitters&#39; Society &#40;MARTS&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://mares.org.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Malaysian Amateur Radio Emergency Service Society &#40;MARES&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.jasra.org.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.astra.name.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.facebook.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063' target='_blank' rel='noopener'><i class='bi-facebook'></i> Radio Emergency &amp; Drone Squad &#40;REDS&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.facebook.com/krasb.selangor' target='_blank' rel='noopener'><i class='bi-facebook'></i> Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.qrz.com/db/9M4CRP' target='_blank' rel='noopener'>Papar Amateur Radio Club &#40;PARC&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//marts.org.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Malaysia Amateur Radio Transmitters&#39; Society &#40;MARTS&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//mares.org.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Malaysian Amateur Radio Emergency Service Society &#40;MARES&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.jasra.org.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.astra.name.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.facebook.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063' target='_blank' rel='noopener'><i class='bi-facebook'></i> Radio Emergency &amp; Drone Squad &#40;REDS&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.facebook.com/krasb.selangor' target='_blank' rel='noopener'><i class='bi-facebook'></i> Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.qrz.com/db/9M4CRP' target='_blank' rel='noopener'>Papar Amateur Radio Club &#40;PARC&#41;</a>
         </div>
       </div>
       <div class='col-lg-4 my-1'>
         <div class='btn-group-vertical d-flex rounded-3' role='group'>
           <div class='btn btn-secondary disabled text-center bg-dark-subtle'>Pautan Luar</div>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.iaru-r3.org' target='_blank' rel='noopener'>Kesatuan Radio Amatur Antarabangsa &ndash; Wilayah 3</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my' target='_blank' rel='noopener'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia &#40;SKMM&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.kkd.gov.my/' target='_blank' rel='noopener'>Kementerian Komunikasi &amp; Digiital &#40;KKD&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.ros.gov.my' target='_blank' rel='noopener'>Jabatan Pendaftaran Pertubuhan Malaysia &#40;JPPM&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://ms.wikipedia.org/wiki/Senarai_persatuan_radio_amatur_di_Malaysia' target='_blank' rel='noopener'><i class='bi-wikipedia'></i> Senarai Persatuan Radio Amatur Malaysia</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://bruneiamatureradio.blogspot.com' target='_blank' rel='noopener'><i class='fa-brands fa-blogger'></i> Brunei Darussalam Amateur Radio Association &#40;BDARA&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://orari.or.id' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Organisasi Amatir Radio Indonesia &#40;ORARI&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.rast.or.th' target='_blank' rel='noopener'>Radio Amateur Society of Thailand &#40;RAST&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.iaru-r3.org' target='_blank' rel='noopener'>Kesatuan Radio Amatur Antarabangsa &ndash; Wilayah 3</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.mcmc.gov.my' target='_blank' rel='noopener'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia &#40;SKMM&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.kkd.gov.my/' target='_blank' rel='noopener'>Kementerian Komunikasi &amp; Digiital &#40;KKD&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.ros.gov.my' target='_blank' rel='noopener'>Jabatan Pendaftaran Pertubuhan Malaysia &#40;JPPM&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//ms.wikipedia.org/wiki/Senarai_persatuan_radio_amatur_di_Malaysia' target='_blank' rel='noopener'><i class='bi-wikipedia'></i> Senarai Persatuan Radio Amatur Malaysia</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//bruneiamatureradio.blogspot.com' target='_blank' rel='noopener'><i class='fa-brands fa-blogger'></i> Brunei Darussalam Amateur Radio Association &#40;BDARA&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//orari.or.id' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Organisasi Amatir Radio Indonesia &#40;ORARI&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.rast.or.th' target='_blank' rel='noopener'>Radio Amateur Society of Thailand &#40;RAST&#41;</a>
         </div>
       </div>
     </div>
   </div>
   <button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
   <?php include('footer.php') ?>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
-	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
+	<script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
   <script src='assets/js/tawkto.js'></script>
   <script src='assets/js/stt.js'></script>
 </body>

@@ -16,13 +16,13 @@
     <meta property='og:site_name' content='RoIPMARS'>
     <meta property='og:title' content='PPRK | Contact Us'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Contact Us'>
-    <meta property='og:url' content='https://www.roipmars.org.my/mailusn'>
+    <meta property='og:url' content='//www.roipmars.org.my/mailusn'>
     <meta property='og:image' content='media/image/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='PPRK | Contact Us'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Contact Us'>
-    <meta name='twitter:url' content='https://www.roipmars.org.my/amailus'>
+    <meta name='twitter:url' content='//www.roipmars.org.my/amailus'>
     <meta name='twitter:image' content='media/image/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
     <meta name='msapplication-TileColor' content='#56C3E7'>
@@ -46,21 +46,21 @@
     <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
     <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
     <link rel='manifest' href='assets/manifest.json'>
-    <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
-    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
+    <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
     <script src='assets/js/gtm.js'></script>
-    <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
+    <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
     <script src='assets/js/gtag.js'></script>
-    <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-    <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+    <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
+    <script async src='//fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
     <script src='assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
     <script src='assets/js/clarity.js'></script>
   </head>
 
   <body>
-    <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+    <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
     <div id='fb-root'></div>
     <div id='fb-customer-chat' class='fb-customerchat'></div>
     <script src='assets/js/fbchat.js'></script>
@@ -79,7 +79,7 @@
                 <ul class='dropdown-menu text-lg-center text-end bg-body-tertiary border-0'>
                   <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
                   <li><a class='dropdown-item text-primary-emphasis' href='cbmars'>CB RoIPMARS</a></li>
-                  <li><a class='dropdown-item text-danger-emphasis' href='https://www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
+                  <li><a class='dropdown-item text-danger-emphasis' href='//www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
                 </ul>
               </li>
               <li class='nav-item dropdown'>
@@ -91,11 +91,11 @@
                   <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                   <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                   <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                  <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                  <li><a class='dropdown-item text-success-emphasis' href='//books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
                 </ul>
               </li>
-              <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-              <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+              <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+              <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
             </ul>
           </div>
         </div>
@@ -167,12 +167,12 @@
       </div>
     </main>
     <?php include('footer.min.php') ?>
-    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js' crossorigin='anonymous'></script>
-    <script async defer src='https://challenges.cloudflare.com/turnstile/v0/api.js'></script>
+    <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js' crossorigin='anonymous'></script>
+    <script async defer src='//challenges.cloudflare.com/turnstile/v0/api.js'></script>
     <script src='assets/js/emailjs.js'></script>
     <!-- <script> function onSubmit (token) { document.getElementById('contactForm').submit(); } </script> -->
   </body>

@@ -27,7 +27,7 @@ window.onload = function () {
 };
 
 $(function () {
-  $.getJSON("https://api64.ipify.org?format=json", function (jsonip) {
+  $.getJSON("//api64.ipify.org?format=json", function (jsonip) {
     document.getElementById("from_ip").setAttribute("value", jsonip.ip);
     $.getJSON(
       "http://ip-api.com/json?ip=" +

@@ -16,13 +16,13 @@
   <meta property='og:site_name' content='RoIPMARS'>
   <meta property='og:title' content='PPRK | Tutorial'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Tutorial Sambungan'>
-  <meta property='og:url' content='https://www.roipmars.org.my/tutorial'>
+  <meta property='og:url' content='//www.roipmars.org.my/tutorial'>
   <meta property='og:image' content='media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='PPRK | Tutorial'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Tutorial Sambungan'>
-  <meta name='twitter:url' content='https://www.roipmars.org.my/tutorial'>
+  <meta name='twitter:url' content='//www.roipmars.org.my/tutorial'>
   <meta name='twitter:image' content='media/image/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
@@ -45,13 +45,13 @@
   <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
   <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
   <link rel='manifest' href='assets/manifest.json'>
-  <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
-  <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-  <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-  <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-  <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+  <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
+  <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+  <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
+  <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
+  <script async src='//fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
   <script src='assets/js/gtm.js'></script>
   <script src='assets/js/gtag.js'></script>
   <script src='assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
@@ -59,7 +59,7 @@
 </head>
 
 <body>
-  <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+  <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='assets/js/fbchat.js'></script>
@@ -78,7 +78,7 @@
               <ul class='dropdown-menu text-lg-center text-end bg-body-tertiary border-0'>
                 <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
                 <li><a class='dropdown-item text-primary-emphasis' href='cbmars'>CB RoIPMARS</a></li>
-                <li><a class='dropdown-item text-danger-emphasis' href='https://www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
+                <li><a class='dropdown-item text-danger-emphasis' href='//www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
               </ul>
             </li>
             <li class='nav-item dropdown'>
@@ -90,11 +90,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='//books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -139,13 +139,13 @@
             </tr>
           </tbody>
         </table>
-        <p class='text-center'>Perisian tambahan untuk bantuan desktop: <a class='btn btn-sm btn-primary' role='button' href='https://dl.teamviewer.com/download/TeamViewer_Setup.exe' download>TeamViewer (Windows)</a></p>
+        <p class='text-center'>Perisian tambahan untuk bantuan desktop: <a class='btn btn-sm btn-primary' role='button' href='//dl.teamviewer.com/download/TeamViewer_Setup.exe' download>TeamViewer (Windows)</a></p>
       </div>
     </div>
     <div id='pcwin' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
         <div class='ratio ratio-21x9'>
-          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/ds73Lvt696E' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+          <iframe class='rounded-5' loading='lazy' src='//www.youtube.com/embed/ds73Lvt696E' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
         </div>
       </div>
       <div class='col-lg-5 position-static p-3'>
@@ -160,13 +160,13 @@
             </tr>
             <tr>
               <th scope='row'>Windows 32-bit</th>
-              <td><a class='btn btn-sm btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' download>win32</a></td>
-              <td><a class='btn btn-sm btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' download>win32</a></td>
+              <td><a class='btn btn-sm btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' download>win32</a></td>
+              <td><a class='btn btn-sm btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' download>win32</a></td>
             </tr>
             <tr>
               <th scope='row'>Windows 64-bit</th>
-              <td><a class='btn btn-sm btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak/teamspeak3-client-win64-3.1.10.exe' download>win64</a></td>
-              <td><a class='btn btn-sm btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win64-3.5.6.exe' download>win64</a></td>
+              <td><a class='btn btn-sm btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/teamspeak3-client-win64-3.1.10.exe' download>win64</a></td>
+              <td><a class='btn btn-sm btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win64-3.5.6.exe' download>win64</a></td>
             </tr>
           </tbody>
         </table>
@@ -175,7 +175,7 @@
     <div id='pclinux' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
         <div class='ratio ratio-21x9'>
-          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/fqR1OPaK_cc' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+          <iframe class='rounded-5' loading='lazy' src='//www.youtube.com/embed/fqR1OPaK_cc' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
         </div>
       </div>
       <div class='col-lg-5 position-static p-3'>
@@ -190,13 +190,13 @@
             </tr>
             <tr>
               <th scope='row'>Linux x86</th>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_x86-3.1.10.run' download>linux32</a></td>
-              <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_x86-3.5.6.run' download>linux32</a></td>
+              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_x86-3.1.10.run' download>linux32</a></td>
+              <td><a class='btn btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_x86-3.5.6.run' download>linux32</a></td>
             </tr>
             <tr>
               <th scope='row'>Linux AMD64</th>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_amd64-3.1.10.run' download>linux64</a></td>
-              <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_amd64-3.5.6.run' download>linux64</a></td>
+              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_amd64-3.1.10.run' download>linux64</a></td>
+              <td><a class='btn btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_amd64-3.5.6.run' download>linux64</a></td>
             </tr>
           </tbody>
         </table>
@@ -205,7 +205,7 @@
     <div id='pcmac' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
         <div class='ratio ratio-21x9'>
-          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/DGJDt5RsDg4' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+          <iframe class='rounded-5' loading='lazy' src='//www.youtube.com/embed/DGJDt5RsDg4' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
         </div>
       </div>
       <div class='col-lg-5 position-static p-3'>
@@ -220,8 +220,8 @@
             </tr>
             <tr>
               <th scope='row'>MacOS</th>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/mac/teamspeak3-client-macosx-3.1.10.dmg' download>macosx</a></td>
-              <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-macosx-3.5.6.dmg' download>macosx</a></td>
+              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/mac/teamspeak3-client-macosx-3.1.10.dmg' download>macosx</a></td>
+              <td><a class='btn btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-macosx-3.5.6.dmg' download>macosx</a></td>
             </tr>
           </tbody>
         </table>
@@ -230,7 +230,7 @@
     <div id='pcwincc' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
         <div class='ratio ratio-21x9'>
-          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/2XeQNtOpTIs' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+          <iframe class='rounded-5' loading='lazy' src='//www.youtube.com/embed/2XeQNtOpTIs' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
         </div>
       </div>
       <div class='col-lg-5 position-static p-3'>
@@ -240,14 +240,14 @@
           <tbody>
             <tr>
               <th scope='row'>Windows</th>
-              <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.11/Conference_Client-0.11_Setup.exe' download>CCv20</a></td>
-              <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.13/Conference_Client-0.13_Setup.exe' download>CCv22</a></td>
-              <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.14/Conference_Client-0.14_Setup.exe' download>CCv23</a></td>
+              <td><a class='btn btn-primary' role='button' href='//github.com/mfreiholz/ts3video/releases/download/v0.11/Conference_Client-0.11_Setup.exe' download>CCv20</a></td>
+              <td><a class='btn btn-primary' role='button' href='//github.com/mfreiholz/ts3video/releases/download/v0.13/Conference_Client-0.13_Setup.exe' download>CCv22</a></td>
+              <td><a class='btn btn-primary' role='button' href='//github.com/mfreiholz/ts3video/releases/download/v0.14/Conference_Client-0.14_Setup.exe' download>CCv23</a></td>
             </tr>
             <tr>
               <th scope='row'>Fail Sokongan</th>
               <td colspan='3'>
-                <div class='hstack gap-1'><a class='btn btn-sm btn-primary' role='button' href='https://aka.ms/vs/17/release/vc_redist.x86.exe' download>VCRedistAIO (x86)</a><a class='btn btn-sm btn-primary ms-auto' role='button' href='https://aka.ms/vs/17/release/vc_redist.x64.exe' download>VCRedistAIO (x64)</a></div>
+                <div class='hstack gap-1'><a class='btn btn-sm btn-primary' role='button' href='//aka.ms/vs/17/release/vc_redist.x86.exe' download>VCRedistAIO (x86)</a><a class='btn btn-sm btn-primary ms-auto' role='button' href='//aka.ms/vs/17/release/vc_redist.x64.exe' download>VCRedistAIO (x64)</a></div>
               </td>
             </tr>
           </tbody>
@@ -257,7 +257,7 @@
     <div id='pcwintsgc' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
         <div class='ratio ratio-21x9'>
-          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/11KnBz72j5Y' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+          <iframe class='rounded-5' loading='lazy' src='//www.youtube.com/embed/11KnBz72j5Y' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
         </div>
       </div>
       <div class='col-lg-5 position-static p-3'>
@@ -267,21 +267,21 @@
           <tbody>
             <tr>
               <th scope='row'>TS</th>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.0.19.4.exe' download>TSv3.0.19.4</a></td>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' download>TSv3.1.10</a></td>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' download>TSv3.5.6</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.0.19.4.exe' download>TSv3.0.19.4</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' download>TSv3.1.10</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' download>TSv3.5.6</a></td>
             </tr>
             <tr>
               <th scope='row'>Gateway</th>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-3.0.14.exe' download>GCv3.0.14</a></td>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-4.0.2.exe' download>GCv4.0.2</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-3.0.14.exe' download>GCv3.0.14</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-4.0.2.exe' download>GCv4.0.2</a></td>
               <td class='text-nowrap'></td>
             </tr>
             <tr>
               <th scope='row'>Plugin</th>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api20.dll' download>GCPv20</a></td>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api21.dll' download>GCPv21</a></td>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api23.dll' download>GCPv23</a></td>
+              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api20.dll' download>GCPv20</a></td>
+              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api21.dll' download>GCPv21</a></td>
+              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api23.dll' download>GCPv23</a></td>
             </tr>
           </tbody>
         </table>
@@ -305,7 +305,7 @@
     <div id='androidps' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
         <div class='ratio ratio-21x9'>
-          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/l8IClMdolHE' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+          <iframe class='rounded-5' loading='lazy' src='//www.youtube.com/embed/l8IClMdolHE' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
         </div>
       </div>
       <div class='col-lg-5 position-static p-3'>
@@ -320,17 +320,17 @@
             </tr>
             <tr>
               <td>Tiada Sokongan Google</td>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>Versi Tiada Sokongan Google<br>&#40;kurang ciri khas&#41;</a></td>
+              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>Versi Tiada Sokongan Google<br>&#40;kurang ciri khas&#41;</a></td>
             </tr>
             <!--
             <tr>
               <td>v3.1.9-beta.194</td>
-              <td><a class='btn btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/android/teamspeak/teamspeak_3.1.9_b194.apk' download>Muat Turun</a></td>
+              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/android/teamspeak/teamspeak_3.1.9_b194.apk' download>Muat Turun</a></td>
             </tr>
             -->
             <tr>
               <td><i class='bi-google-play fs-2'></i><br>&#40;DISYORKAN&#41;</td>
-              <td><a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'><img src='https://play.google.com/intl/en_us/badges/static/images/badges/ms_badge_web_generic.png' class='img-fluid w-50'></a></td>
+              <td><a href='//play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'><img src='//play.google.com/intl/en_us/badges/static/images/badges/ms_badge_web_generic.png' class='img-fluid w-50'></a></td>
             </tr>
           </tbody>
         </table>
@@ -344,7 +344,7 @@
             </tr>
             <tr>
               <th scope='row'>Server Address</th>
-              <td><a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
+              <td><a href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
             </tr>
             <tr>
               <th scope='row'>Nickname</th>
@@ -423,7 +423,7 @@
     <div id='androidcr' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
         <div class='ratio ratio-21x9'>
-          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/LpjCtsJBd88' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+          <iframe class='rounded-5' loading='lazy' src='//www.youtube.com/embed/LpjCtsJBd88' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
         </div>
       </div>
       <div class='col-lg-5 position-static p-3'>
@@ -432,7 +432,7 @@
         <table class='table table-sm text-center align-middle'>
           <tbody>
             <tr><th scope='row'>Version</th><td>v3.0.13.1</td></tr>
-            <tr><th scope='row'>Android</th><td><a class='btn btn-sm btn-primary' role='button' href='https://ftp.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>Muat Turun</a></td></tr>
+            <tr><th scope='row'>Android</th><td><a class='btn btn-sm btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>Muat Turun</a></td></tr>
           </tbody>
         </table>
       </div>
@@ -440,7 +440,7 @@
         <table class='table table-sm text-center align-middle'>
           <tbody>
             <tr><th scope='row'>Label</th><td>ROIPMARS</td></tr>
-            <tr><th scope='row'>Address</th><td><a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td></tr>
+            <tr><th scope='row'>Address</th><td><a href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td></tr>
             <tr><th scope='row'>Nickname</th><td>[CALLSIGN] [NAME] [QTH/LOCATION]</td></tr>
           </tbody>
         </table>
@@ -514,7 +514,7 @@
     <div id='ios' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
       <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
         <div class='ratio ratio-21x9'>
-          <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/_ewHhv-IGvs' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+          <iframe class='rounded-5' loading='lazy' src='//www.youtube.com/embed/_ewHhv-IGvs' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
         </div>
       </div>
       <div class='col-lg-5 position-static p-3'>
@@ -529,7 +529,7 @@
             </tr>
             <tr>
               <td><i class='fa-brands fa-app-store fs-2'></i></td>
-              <td><a href='https://itunes.apple.com/my/app/teamspeak-3/id577628510' target='_blank' rel='noopener'><img src='https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg' class='img-fluid'></a></td>
+              <td><a href='//itunes.apple.com/my/app/teamspeak-3/id577628510' target='_blank' rel='noopener'><img src='//developer.apple.com/assets/elements/badges/download-on-the-app-store.svg' class='img-fluid'></a></td>
             </tr>
           </tbody>
         </table>
@@ -539,7 +539,7 @@
           <tbody>
             <tr>
               <th scope='row'>Address</th>
-              <td><a href='#' onClick='TSLoginWindow=window.open("https://www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
+              <td><a href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
             </tr>
             <tr>
               <th scope='row'>Label</th>
@@ -622,9 +622,9 @@
   </div>
   <button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
   <?php include('footer.php') ?>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
-	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
+	<script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
   <script src='assets/js/tawkto.js'></script>
   <script src='assets/js/stt.js'></script>
 </body>

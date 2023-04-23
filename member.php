@@ -16,13 +16,13 @@
     <meta property='og:site_name' content='RoIPMARS'>
     <meta property='og:title' content='PPRK | Keahlian'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
-    <meta property='og:url' content='https://www.roipmars.org.my/member'>
+    <meta property='og:url' content='//www.roipmars.org.my/member'>
     <meta property='og:image' content='media/image/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='PPRK | Keahlian'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
-    <meta name='twitter:url' content='https://www.roipmars.org.my/member'>
+    <meta name='twitter:url' content='//www.roipmars.org.my/member'>
     <meta name='twitter:image' content='media/image/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
     <meta name='msapplication-TileColor' content='#56C3E7'>
@@ -45,20 +45,20 @@
     <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
     <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
     <link rel='manifest' href='assets/manifest.json'>
-    <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
-    <!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/leaflet.fullscreen.css' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.css' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.css' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
+    <!-- <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/leaflet.fullscreen.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='assets/css/map.css'> -->
-    <link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.css' crossorigin='anonymous'>
-    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-    <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-    <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-    <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+    <link rel='stylesheet' href='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.css' crossorigin='anonymous'>
+    <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+    <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
+    <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
+    <script async src='//fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
     <script src='assets/js/gtm.js'></script>
     <script src='assets/js/gtag.js'></script>
     <script src='assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
@@ -66,7 +66,7 @@
   </head>
 
   <body>
-    <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+    <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
     <div id='fb-root'></div>
     <div id='fb-customer-chat' class='fb-customerchat'></div>
     <script src='assets/js/fbchat.js'></script>
@@ -85,7 +85,7 @@
                 <ul class='dropdown-menu text-lg-center text-end bg-body-tertiary border-0'>
                   <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
                   <li><a class='dropdown-item text-primary-emphasis' href='cbmars'>CB RoIPMARS</a></li>
-                  <li><a class='dropdown-item text-danger-emphasis' href='https://www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
+                  <li><a class='dropdown-item text-danger-emphasis' href='//www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
                 </ul>
               </li>
               <li class='nav-item dropdown'>
@@ -97,11 +97,11 @@
                   <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                   <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                   <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                  <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                  <li><a class='dropdown-item text-success-emphasis' href='//books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
                 </ul>
               </li>
-              <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-              <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+              <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+              <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
             </ul>
           </div>
         </div>
@@ -134,9 +134,9 @@
             <a type='button' class='btn btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
           </div>
           <div class='vstack gap-1 justify-content-center'>
-            <a type='button' class='btn btn-lg btn-primary rounded-5 fs-3' href='https://bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian <i class='bi-google'></i> &#40;Google Form&#41; <i class='bi-google'></i></a>
-            <a type='button' class='btn btn-lg btn-secondary rounded-5 fs-3' href='https://bit.ly/borangdaftarroipmars' target='_blank' rel='noopener'>Permohonan Keahlian <i class='bo bi-file-earmark-pdf-fill'></i> &#40;Adobe Sign&#41; <i class='bo bi-file-earmark-pdf-fill'></i></a>
-            <a type='button' class='btn btn-lg btn-success rounded-5 fs-3' href='https://ftp.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian <i class='bi-file-pdf-fill'></i> &#40;Fail PDF&#41; <i class='bi-file-pdf-fill'></i></a>
+            <a type='button' class='btn btn-lg btn-primary rounded-5 fs-3' href='//bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian <i class='bi-google'></i> &#40;Google Form&#41; <i class='bi-google'></i></a>
+            <a type='button' class='btn btn-lg btn-secondary rounded-5 fs-3' href='//bit.ly/borangdaftarroipmars' target='_blank' rel='noopener'>Permohonan Keahlian <i class='bo bi-file-earmark-pdf-fill'></i> &#40;Adobe Sign&#41; <i class='bo bi-file-earmark-pdf-fill'></i></a>
+            <a type='button' class='btn btn-lg btn-success rounded-5 fs-3' href='//ftp.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian <i class='bi-file-pdf-fill'></i> &#40;Fail PDF&#41; <i class='bi-file-pdf-fill'></i></a>
           </div>
           <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>
             <div class='modal-dialog modal-dialog-centered' role='document'>
@@ -154,8 +154,8 @@
                 <div class='modal-header'>
                   <h5 class='modal-title' id='rosconstModalTitle'>Perlembagaan Pertubuhan</h5>
                 </div>
-                <div class='modal-body ratio ratio-4x3'><iframe src='https://ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf'></iframe></div>
-                <div class='modal-footer'><a type='button' class='btn btn-sm btn-success' href='https://ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf' download>Muat Turun</a></div>
+                <div class='modal-body ratio ratio-4x3'><iframe src='//ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf'></iframe></div>
+                <div class='modal-footer'><a type='button' class='btn btn-sm btn-success' href='//ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf' download>Muat Turun</a></div>
               </div>
             </div>
           </div>
@@ -254,7 +254,7 @@
                   <p>BAH. SIARAYA &amp; AKTIVITI</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='//icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                   <!-- <img src='media/image/member/013.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'> -->
                 </div>
                 <div class='card-subtitle'>
@@ -313,7 +313,7 @@
                   <p>BAH. PERHUBUNGAN AWAM</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='//icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-subtitle'>
                   <p class='fw-bolder m-0'>LANTIKAN 2024</p>
@@ -387,23 +387,23 @@
     </div>
     <button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
     <?php include('footer.php') ?>
-    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
-    <!-- <script src='https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/leaflet-providers@1.13.0/leaflet-providers.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap@1.0.0/dist/Control.WorldMiniMap.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/@joergdietrich/leaflet.terminator@1.1.0/L.Terminator.js' crossorigin='anonymous'></script>
-  <script src='https://ha8tks.github.io/Leaflet.Maidenhead/src/L.Maidenhead.js' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.js' crossorigin='anonymous'></script>
-  <script src='https://api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
+    <!-- <script src='//cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/leaflet-providers@1.13.0/leaflet-providers.js' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.js' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap@1.0.0/dist/Control.WorldMiniMap.js' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/@joergdietrich/leaflet.terminator@1.1.0/L.Terminator.js' crossorigin='anonymous'></script>
+  <script src='//ha8tks.github.io/Leaflet.Maidenhead/src/L.Maidenhead.js' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.js' crossorigin='anonymous'></script>
+  <script src='//api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
   <script src='assets/js/map.js'></script> -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
+    <script src='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
     <script src='assets/js/member.js'></script>
     <script src='assets/js/tawkto.js'></script>
     <script src='assets/js/stt.js'></script>

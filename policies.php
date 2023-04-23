@@ -16,13 +16,13 @@
   <meta property='og:site_name' content='RoIPMARS'>
   <meta property='og:title' content='PPRK | Polisi Perkhidmatan'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Polisi Perkhidmatan'>
-  <meta property='og:url' content='https://www.roipmars.org.my/policies'>
+  <meta property='og:url' content='//www.roipmars.org.my/policies'>
   <meta property='og:image' content='media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='PPRK | Polisi Perkhidmatan'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Polisi Perkhidmatan'>
-  <meta name='twitter:url' content='https://www.roipmars.org.my/policies'>
+  <meta name='twitter:url' content='//www.roipmars.org.my/policies'>
   <meta name='twitter:image' content='media/image/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
@@ -45,13 +45,13 @@
   <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
   <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
   <link rel='manifest' href='assets/manifest.json'>
-  <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
-  <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-  <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-  <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-  <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+  <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
+  <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+  <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
+  <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
+  <script async src='//fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
   <script src='assets/js/gtm.js'></script>
   <script src='assets/js/gtag.js'></script>
   <script src='assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
@@ -59,7 +59,7 @@
 </head>
 
 <body>
-  <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+  <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='assets/js/fbchat.js'></script>
@@ -78,7 +78,7 @@
               <ul class='dropdown-menu text-lg-center text-end bg-body-tertiary border-0'>
                 <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
                 <li><a class='dropdown-item text-primary-emphasis' href='cbmars'>CB RoIPMARS</a></li>
-                <li><a class='dropdown-item text-danger-emphasis' href='https://www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
+                <li><a class='dropdown-item text-danger-emphasis' href='//www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
               </ul>
             </li>
             <li class='nav-item dropdown'>
@@ -90,11 +90,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='//books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -140,7 +140,7 @@
         <div data-bs-spy='scroll' data-bs-target='#navbar-policy' data-bs-offset='0' data-bs-smooth-scroll='true' class='scrollspy-policy' tabindex='0'>
           <div id='tos'>
             <h4>Terma &amp; Syarat</h4>
-            <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], terletak di https://www.roipmars.org.my.</p>
+            <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], terletak di //www.roipmars.org.my.</p>
             <p>Dengan mengakses laman sesawang ini, kami menganggap anda menerima dan bersetuju dengan terma dan syarat ini. Jangan terus menggunakan RoIPMARS jika anda tidak bersetuju untuk menerima semua terma dan syarat yang dinyatakan di halaman ini.</p>
             <p>Istilah berikut digunakan untuk Terma dan Syarat ini, Pernyataan Privasi dan Notis Penafian dan semua Perjanjian:</p>
             <ul>
@@ -250,7 +250,7 @@
           </div>
           <div id='privacy'>
             <h4>Dasar Privasi</h4>
-            <p>Di RoIPMARS, boleh diakses daripada https://www.roipmars.org.my dan semua sub-domainnya, salah satu keutamaan utama kami ialah privasi pelawat kami. Dokumen Dasar Privasi ini mengandungi jenis maklumat yang dikumpul dan direkodkan oleh RoIPMARS dan cara kami menggunakannya.</p>
+            <p>Di RoIPMARS, boleh diakses daripada //www.roipmars.org.my dan semua sub-domainnya, salah satu keutamaan utama kami ialah privasi pelawat kami. Dokumen Dasar Privasi ini mengandungi jenis maklumat yang dikumpul dan direkodkan oleh RoIPMARS dan cara kami menggunakannya.</p>
             <p>Jika anda mempunyai soalan tambahan atau memerlukan maklumat lanjut tentang Dasar Privasi kami, jangan teragak-agak untuk menghubungi kami.</p>
             <p>Dasar Privasi ini hanya terpakai untuk aktiviti dalam talian kami dan sah untuk pelawat ke laman web kami berkenaan dengan maklumat yang mereka kongsi dan/atau kumpulkan dalam RoIPMARS. Dasar ini tidak terpakai kepada sebarang maklumat yang dikumpul di luar talian atau melalui saluran selain laman web ini.</p>
           </div>
@@ -283,13 +283,13 @@
             <h5>Kuki dan Suar Web</h5>
             <p>Seperti mana-mana laman web lain, RoIPMARS menggunakan 'kuki'. Kuki ini digunakan untuk menyimpan maklumat termasuk keutamaan pelawat, dan halaman di laman web yang diakses atau dilawati oleh pelawat. Maklumat ini digunakan untuk mengoptimumkan pengalaman pengguna dengan menyesuaikan kandungan halaman web kami berdasarkan jenis pelayar pelawat dan/atau maklumat lain.</p>
             <h5>Kuki DART Google DoubleClick</h5>
-            <p>Google ialah salah satu vendor pihak ketiga di laman kami. Ia juga menggunakan kuki, dikenali sebagai kuki DART, untuk menyiarkan iklan kepada pelawat laman kami berdasarkan lawatan mereka ke RoIPMARS dan laman lain di internet. Walau bagaimanapun, pelawat boleh memilih untuk menolak penggunaan kuki DART dengan melawati iklan Google dan Dasar Privasi rangkaian kandungan di URL berikut <a href='https://policies.google.com/technologies/ads?hl=ms&gl=my' target='_blank' rel='noopener' rel='noopener noreferrer'>Google</a></p>
+            <p>Google ialah salah satu vendor pihak ketiga di laman kami. Ia juga menggunakan kuki, dikenali sebagai kuki DART, untuk menyiarkan iklan kepada pelawat laman kami berdasarkan lawatan mereka ke RoIPMARS dan laman lain di internet. Walau bagaimanapun, pelawat boleh memilih untuk menolak penggunaan kuki DART dengan melawati iklan Google dan Dasar Privasi rangkaian kandungan di URL berikut <a href='//policies.google.com/technologies/ads?hl=ms&gl=my' target='_blank' rel='noopener' rel='noopener noreferrer'>Google</a></p>
           </div>
           <div id='advertisement'>
             <h5>Dasar Privasi Rakan Kongsi Pengiklanan</h5>
             <P>Anda boleh merujuk senarai ini untuk mencari Dasar Privasi bagi setiap rakan kongsi pengiklanan RoIPMARS.</p>
             <ul>
-              <li><a href='https://policies.google.com/technologies/ads?hl=ms&gl=my' target='_blank' rel='noopener' rel='noopener noreferrer'>Google</a></li>
+              <li><a href='//policies.google.com/technologies/ads?hl=ms&gl=my' target='_blank' rel='noopener' rel='noopener noreferrer'>Google</a></li>
             </ul>
             <p>Pelayan iklan pihak ketiga atau rangkaian iklan menggunakan teknologi seperti kuki, JavaScript atau Suar Web yang digunakan dalam iklan dan pautan masing-masing yang dipaparkan di RoIPMARS, yang dihantar terus ke pelayar pengguna. Mereka secara automatik menerima alamat IP anda apabila ini berlaku. Teknologi ini digunakan untuk mengukur keberkesanan kempen pengiklanan mereka dan/atau untuk memperibadikan kandungan pengiklanan yang anda lihat di laman web yang anda lawati.</p>
             <p>Ambil perhatian bahawa RoIPMARS tidak mempunyai akses kepada atau kawalan ke atas kuki ini yang digunakan oleh pengiklan pihak ketiga.</p>
@@ -318,7 +318,7 @@
               <li><strong>Barang</strong> merujuk kepada item yang ditawarkan untuk dijual pada Perkhidmatan.</li>
               <li><strong>Pesanan</strong> bermaksud permintaan oleh Anda untuk membeli Barang daripada Kami.</li>
               <li><strong>Perkhidmatan</strong> merujuk kepada laman Web.</li>
-              <li><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada https://www.roipmars.org.my dan semua sub-domainnya</li>
+              <li><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada //www.roipmars.org.my dan semua sub-domainnya</li>
               <li><strong>Anda</strong> bermaksud individu yang mengakses atau menggunakan Perkhidmatan, atau organisasi, atau entiti undang-undang lain bagi pihak individu tersebut mengakses atau menggunakan Perkhidmatan, mengikut mana yang berkenaan.</li>
             </ul>
           </div>
@@ -367,9 +367,9 @@
   </div>
   <button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
   <?php include('footer.php') ?>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
-	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
+	<script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
   <script src='assets/js/tawkto.js'></script>
   <script src='assets/js/stt.js'></script>
 </body>

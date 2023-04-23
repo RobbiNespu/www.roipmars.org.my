@@ -16,13 +16,13 @@
   <meta property='og:site_name' content='RoIPMARS'>
   <meta property='og:title' content='PPRK | Tentang Kami'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Tentang Kami'>
-  <meta property='og:url' content='https://www.roipmars.org.my/about'>
+  <meta property='og:url' content='//www.roipmars.org.my/about'>
   <meta property='og:image' content='media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='PPRK | Tentang Kami'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Tentang Kami'>
-  <meta name='twitter:url' content='https://www.roipmars.org.my/about'>
+  <meta name='twitter:url' content='//www.roipmars.org.my/about'>
   <meta name='twitter:image' content='media/image/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
@@ -45,14 +45,14 @@
   <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
   <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
   <link rel='manifest' href='assets/manifest.json'>
-  <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
+  <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
   <link rel='stylesheet' href='assets/css/timeline.css'>
-  <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-  <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-  <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-  <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+  <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+  <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
+  <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
+  <script async src='//fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
   <script src='assets/js/gtm.js'></script>
   <script src='assets/js/gtag.js'></script>
   <script src='assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
@@ -60,7 +60,7 @@
 </head>
 
 <body>
-  <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+  <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <div id='fb-root'></div>
   <div id='fb-customer-chat' class='fb-customerchat'></div>
   <script src='assets/js/fbchat.js'></script>
@@ -79,7 +79,7 @@
               <ul class='dropdown-menu text-lg-center text-end bg-body-tertiary border-0'>
                 <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
                 <li><a class='dropdown-item text-primary-emphasis' href='cbmars'>CB RoIPMARS</a></li>
-                <li><a class='dropdown-item text-danger-emphasis' href='https://www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
+                <li><a class='dropdown-item text-danger-emphasis' href='//www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
               </ul>
             </li>
             <li class='nav-item dropdown'>
@@ -91,11 +91,11 @@
                 <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                 <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                 <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                <li><a class='dropdown-item text-success-emphasis' href='//books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
               </ul>
             </li>
-            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -118,7 +118,7 @@
         <p class='text-center'>Merapatkan hubungan siraturahim antara stesen seluruh dunia disamping menguji peralatan masing-masing serta komunikasi antara satu sama lain.</p>
         <h4 class='text-center fw-bold'>PENGENALAN RADIO AMATUR</h4>
         <ol type='1'>
-          <li>Radio Amatur ditakrifkan di dalam <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998' target='_blank' rel='noopener'>Akta Komunikasi dan Multimedia 1998 &#91;Akta 588&#93;</a> dan <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio' target='_blank' rel='noopener'>PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA &#40;SPEKTRUM&#41; 2000 &#91;P.U.&#40;A&#41; 128/2000&#93;</a>.</li>
+          <li>Radio Amatur ditakrifkan di dalam <a class='text-decoration-none' href='//www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998' target='_blank' rel='noopener'>Akta Komunikasi dan Multimedia 1998 &#91;Akta 588&#93;</a> dan <a class='text-decoration-none' href='//www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio' target='_blank' rel='noopener'>PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA &#40;SPEKTRUM&#41; 2000 &#91;P.U.&#40;A&#41; 128/2000&#93;</a>.</li>
           <ol type='i'>
             <li>Perkhidmatan Radio Komunikasi &#40;termasuk Bumi &#40;Tanah&#41; &amp; Satelit&#41;.</li>
             <li>Di mana kegunaan stesen dengan tujuan latihan sendiri, komunikasi dan penyiasatan teknikal.</li>
@@ -197,8 +197,8 @@
                 </div>
               </div>
               <div class='modal-footer'>
-                <a type='button' class='btn btn-primary' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Malaysian-Spectrum-Chart-2022.pdf'>Malaysian Spectrum Chart 2022</a>
-                <a type='button' class='btn btn-primary' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/SRSP-ARS-144_Nov-2022_1.pdf'>SRSP ARS 144</a>
+                <a type='button' class='btn btn-primary' href='//www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Malaysian-Spectrum-Chart-2022.pdf'>Malaysian Spectrum Chart 2022</a>
+                <a type='button' class='btn btn-primary' href='//www.mcmc.gov.my/skmmgovmy/media/General/pdf2/SRSP-ARS-144_Nov-2022_1.pdf'>SRSP ARS 144</a>
                 <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
               </div>
             </div>
@@ -239,7 +239,7 @@
                 <span class='flag'>Peraturan KMM &#40;Spektrum&#41; Pindaan 2022</span>
                 <span class='time-wrapper'><span class='time'>01 Januari 2023</span></span>
               </div>
-              <div class='desc'>Selaras dengan pindaan kepada Peraturan-Peraturan Komunikasi dan Multimedia &#40;Standard Teknik&#41; 2000 yang diluluskan pada 25 April 2022 &#91;<a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/communications-and-multimedia-spectrum-regulatio#content44480' target='_blank' rel='noopener'>KKMM.600-1/4/8; PN(PU2)601/J1d. 12</a>&#93; dan berkuat kuasa pada 1 Januari 2023 &#40;iaitu bagi <b>peruntukan yang berkaitan dengan radio amatur</b>&#41;, Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;MCMC&#41; memaklumkan bahawa terdapat perubahan kepada struktur perakuan pengendali radio amatur di Malaysia iaitu:<table class='table table-responsive table-borderless table-sm text-start align-middle mb-0'>
+              <div class='desc'>Selaras dengan pindaan kepada Peraturan-Peraturan Komunikasi dan Multimedia &#40;Standard Teknik&#41; 2000 yang diluluskan pada 25 April 2022 &#91;<a href='//www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/communications-and-multimedia-spectrum-regulatio#content44480' target='_blank' rel='noopener'>KKMM.600-1/4/8; PN(PU2)601/J1d. 12</a>&#93; dan berkuat kuasa pada 1 Januari 2023 &#40;iaitu bagi <b>peruntukan yang berkaitan dengan radio amatur</b>&#41;, Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;MCMC&#41; memaklumkan bahawa terdapat perubahan kepada struktur perakuan pengendali radio amatur di Malaysia iaitu:<table class='table table-responsive table-borderless table-sm text-start align-middle mb-0'>
                   <tbody>
                     <tr>
                       <td>i.</td>
@@ -266,7 +266,7 @@
                       <td>Penggunaan frekuensi dan had kuasa pancaran bagi setiap kelas</td>
                     </tr>
                   </tbody>
-                </table>Perubahan kepada struktur ini adalah untuk memastikan perakuan pengendali radio amatur yang diadakan di Malaysia sejajar dengan latihan yang diamalkan di negara-negara lain. Perubahan ini juga bertujuan untuk menggalakkan minat dari kalangan pelajar dalam bidang Sains, Teknologi, Kejuruteraan dan Matematik &#40;STEM&#41; melalui radio amatur dan menjurus kepada peningkatan pengendali radio amatur yang dapat membantu ketika bencana.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/press-releases/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='noopener'>Siaran Akhbar MCMC</a> <a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/announcements/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='noopener'>Pengumuman MCMC</a>
+                </table>Perubahan kepada struktur ini adalah untuk memastikan perakuan pengendali radio amatur yang diadakan di Malaysia sejajar dengan latihan yang diamalkan di negara-negara lain. Perubahan ini juga bertujuan untuk menggalakkan minat dari kalangan pelajar dalam bidang Sains, Teknologi, Kejuruteraan dan Matematik &#40;STEM&#41; melalui radio amatur dan menjurus kepada peningkatan pengendali radio amatur yang dapat membantu ketika bencana.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='//www.mcmc.gov.my/en/media/press-releases/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='noopener'>Siaran Akhbar MCMC</a> <a class='btn btn-sm btn-outline-primary mt-2' role='button' href='//www.mcmc.gov.my/en/media/announcements/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='noopener'>Pengumuman MCMC</a>
                 <hr><img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='media/image/akademi9mbw.jpg'>Dukacita dimaklumkan, selaras dengan perubahan format &amp; silibus peperiksaan, Akademi 9M dihentikan khidmatnya bagi membantu pengendali radio amatur menaiktaraf kelas mereka. Sejak memulakan Akademi 9M, seramai lebih 70 pengendali telahpun dilahirkan antaranya: 9M2MWZ, 9M2NUZ, 9M2SFF, 9M2VJP, 9M2VVH, 9M2BUN, 9M6RDY, 9M6AUA, 9M6JAY, 9M6RMD, 9M2KZI, dan ramai lagi.
               </div>
             </div>
@@ -308,7 +308,7 @@
                 <span class='flag'>CQ 9M64MB</span>
                 <span class='time-wrapper'><span class='time'>20 Ogos 2021</span></span>
               </div>
-              <div class='desc'><i>Persatuan Peminat Radio Komunikasi</i> diberi kepercayaan oleh <i>Malaysian Amateur Radio Transmitter&#39;s Society</i> &#40;MARTS&#41; untuk mengendalikan Isyarat Panggilan Khas Negeri Selangor bersempena dengan Hari Kebangsaan kali ke-64 <i>&#40;9M64MB&#41;</i> bagi menyemarakkan lagi semangat patriotik antara penggiat komunikasi radio seluruh Malaysia. Aktiviti dijalankan selama 6 hari berturut-turut dari 27 Ogos 2021 hingga 1 September 2021 di <i>&#39;All Band All Mode&#39;</i>.<img class='img-thumbnail rounded-circle mx-auto d-block my-2' loading='lazy' src='https://cdn-bio.qrz.com/b/9m64mb/9M64MB.jpg'><a class='btn btn-sm btn-outline-primary' role='button' href='https://www.qrz.com/db/9m64mb' target='_blank' rel='noopener'>QRZ</a> <a class='btn btn-sm btn-outline-primary' role='button' href='https://dxnews.com/forum/forum/special-event-stations/37809-9m64mb-puncak-alam-selangor-malaysia' target='_blank' rel='noopener'>DX News</a> <a class='btn btn-sm btn-outline-primary' role='button' href='http://www.9mdxc.com/2021/08/9m64mx-station' target='_blank' rel='noopener'>9MDXC</a></div>
+              <div class='desc'><i>Persatuan Peminat Radio Komunikasi</i> diberi kepercayaan oleh <i>Malaysian Amateur Radio Transmitter&#39;s Society</i> &#40;MARTS&#41; untuk mengendalikan Isyarat Panggilan Khas Negeri Selangor bersempena dengan Hari Kebangsaan kali ke-64 <i>&#40;9M64MB&#41;</i> bagi menyemarakkan lagi semangat patriotik antara penggiat komunikasi radio seluruh Malaysia. Aktiviti dijalankan selama 6 hari berturut-turut dari 27 Ogos 2021 hingga 1 September 2021 di <i>&#39;All Band All Mode&#39;</i>.<img class='img-thumbnail rounded-circle mx-auto d-block my-2' loading='lazy' src='//cdn-bio.qrz.com/b/9m64mb/9M64MB.jpg'><a class='btn btn-sm btn-outline-primary' role='button' href='//www.qrz.com/db/9m64mb' target='_blank' rel='noopener'>QRZ</a> <a class='btn btn-sm btn-outline-primary' role='button' href='//dxnews.com/forum/forum/special-event-stations/37809-9m64mb-puncak-alam-selangor-malaysia' target='_blank' rel='noopener'>DX News</a> <a class='btn btn-sm btn-outline-primary' role='button' href='http://www.9mdxc.com/2021/08/9m64mx-station' target='_blank' rel='noopener'>9MDXC</a></div>
             </div>
           </li>
           <li>
@@ -380,7 +380,7 @@
                 <span class='flag'>Perintah Kawalan Pergerakan</span>
                 <span class='time-wrapper'><span class='time'>April 2020</span></span>
               </div>
-              <div class='desc'>Berkuat kuasa pada 18 Mac 2020, Malaysia secara rasmi melaksanakan langkah kawalan pergerakan. Kami juga turut terkesan dari PKP ini disebabkan ramai pengguna mula mencari kaedah komunikasi dengan pantas. Kami memperkenalkan perkhidmatan penstriman baharu bernama &#39;<i>TS-Video Conference</i>&#39; yang membolehkan persidangan video semasa komunikasi di pelayan kami.<div class='ratio ratio-16x9 my-2'><iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/iWNZUnVvm-o' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>Beban pada pelayan mulai meningkat apabila ramai mula berkerja dari rumah. Pentadbir pelayan kekal komited untuk memberikan servis dan perkhidmatan terbaik kepada semua pengguna pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./howto#pcwincc' target='_blank' rel='noopener'>Baca lanjut...</a></div>
+              <div class='desc'>Berkuat kuasa pada 18 Mac 2020, Malaysia secara rasmi melaksanakan langkah kawalan pergerakan. Kami juga turut terkesan dari PKP ini disebabkan ramai pengguna mula mencari kaedah komunikasi dengan pantas. Kami memperkenalkan perkhidmatan penstriman baharu bernama &#39;<i>TS-Video Conference</i>&#39; yang membolehkan persidangan video semasa komunikasi di pelayan kami.<div class='ratio ratio-16x9 my-2'><iframe class='rounded-5' loading='lazy' src='//www.youtube.com/embed/iWNZUnVvm-o' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>Beban pada pelayan mulai meningkat apabila ramai mula berkerja dari rumah. Pentadbir pelayan kekal komited untuk memberikan servis dan perkhidmatan terbaik kepada semua pengguna pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./howto#pcwincc' target='_blank' rel='noopener'>Baca lanjut...</a></div>
             </div>
           </li>
           <li>
@@ -590,9 +590,9 @@
   </div>
   <button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
   <?php include('footer.php') ?>
-  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
-	<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
-  <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
+	<script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
   <script src='assets/js/tawkto.js'></script>
   <script src='assets/js/stt.js'></script>
 </body>

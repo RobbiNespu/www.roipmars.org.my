@@ -16,13 +16,13 @@
     <meta property='og:site_name' content='RoIPMARS'>
     <meta property='og:title' content='PPRK | Soalan Lazim'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Soalan Lazim'>
-    <meta property='og:url' content='https://www.roipmars.org.my/faq'>
+    <meta property='og:url' content='//www.roipmars.org.my/faq'>
     <meta property='og:image' content='media/image/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='PPRK | Soalan Lazim'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Soalan Lazim'>
-    <meta name='twitter:url' content='https://www.roipmars.org.my/faq'>
+    <meta name='twitter:url' content='//www.roipmars.org.my/faq'>
     <meta name='twitter:image' content='media/image/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
     <meta name='msapplication-TileColor' content='#56C3E7'>
@@ -45,13 +45,13 @@
     <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
     <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
     <link rel='manifest' href='assets/manifest.json'>
-    <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
-    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-    <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-    <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-    <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+    <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
+    <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+    <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
+    <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
+    <script async src='//fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
     <script src='assets/js/gtm.js'></script>
     <script src='assets/js/gtag.js'></script>
     <script src='assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
@@ -59,7 +59,7 @@
   </head>
 
   <body>
-    <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+    <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
     <div id='fb-root'></div>
     <div id='fb-customer-chat' class='fb-customerchat'></div>
     <script src='assets/js/fbchat.js'></script>
@@ -78,7 +78,7 @@
                 <ul class='dropdown-menu text-lg-center text-end bg-body-tertiary border-0'>
                   <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
                   <li><a class='dropdown-item text-primary-emphasis' href='cbmars'>CB RoIPMARS</a></li>
-                  <li><a class='dropdown-item text-danger-emphasis' href='https://www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
+                  <li><a class='dropdown-item text-danger-emphasis' href='//www.roipdarulaman.com'>CB RoIPDarulAman</a></li>
                 </ul>
               </li>
               <li class='nav-item dropdown'>
@@ -90,11 +90,11 @@
                   <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                   <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                   <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                  <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                  <li><a class='dropdown-item text-success-emphasis' href='//books.zoho.com/portal/roipmarsorgmy/' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
                 </ul>
               </li>
-              <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-              <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+              <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+              <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
             </ul>
           </div>
         </div>
@@ -114,182 +114,182 @@
               <tr>
                 <td>A</td>
                 <td>Alfa<br>Agas</td>
-                <td>&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f3/A_morse_code.ogg'></audio></td>
+                <td>&bull;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/f/f3/A_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>B</td>
                 <td>Bravo<br>Bola</td>
-                <td>&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/b1/B_morse_code.ogg'></audio></td>
+                <td>&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/b/b1/B_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>C</td>
                 <td>Charlie<br>Ciku</td>
-                <td>&ndash;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/2/25/C_morse_code.ogg'></audio></td>
+                <td>&ndash;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/2/25/C_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>D</td>
                 <td>Delta<br>Duku</td>
-                <td>&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/92/D_morse_code.ogg'></audio></td>
+                <td>&ndash;&bull;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/9/92/D_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>E</td>
                 <td>Echo<br>Elok</td>
-                <td>&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/e7/E_morse_code.ogg'></audio></td>
+                <td>&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/e/e7/E_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>F</td>
                 <td>Foxtrot<br>Fajar</td>
-                <td>&bull;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/63/F_morse_code.ogg'></audio></td>
+                <td>&bull;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/6/63/F_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>G</td>
                 <td>Golf<br>Gagak</td>
-                <td>&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/72/G_morse_code.ogg'></audio></td>
+                <td>&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/7/72/G_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>H</td>
                 <td>Hotel<br>Handal</td>
-                <td>&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/93/H_morse_code.ogg'></audio></td>
+                <td>&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/9/93/H_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>I</td>
                 <td>India<br>Intan</td>
-                <td>&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d9/I_morse_code.ogg'></audio></td>
+                <td>&bull;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/d/d9/I_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>J</td>
                 <td>Juliett<br>Jala</td>
-                <td>&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9e/J_morse_code.ogg'></audio></td>
+                <td>&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/9/9e/J_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>K</td>
                 <td>Kilo<br>Kota</td>
-                <td>&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/K_morse_code.ogg'></audio></td>
+                <td>&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/6/6a/K_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>L</td>
                 <td>Lima<br>Laju</td>
-                <td>&bull;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/a/a8/L_morse_code.ogg'></audio></td>
+                <td>&bull;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/a/a8/L_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>M</td>
                 <td>Mike<br>Merah</td>
-                <td>&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/97/M_morse_code.ogg'></audio></td>
+                <td>&ndash;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/9/97/M_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>N</td>
                 <td>November<br>Nuri</td>
-                <td>&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5a/N_morse_code.ogg'></audio></td>
+                <td>&ndash;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/5/5a/N_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>O</td>
                 <td>Oscar<br>Ombak</td>
-                <td>&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/41/O_morse_code.ogg'></audio></td>
+                <td>&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/4/41/O_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>P</td>
                 <td>Papa<br>Palang</td>
-                <td>&bull;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/c/c6/P_morse_code.ogg'></audio></td>
+                <td>&bull;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/c/c6/P_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>Q</td>
                 <td>Quebec<br>Quen</td>
-                <td>&ndash;&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f0/Q_morse_code.ogg'></audio></td>
+                <td>&ndash;&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/f/f0/Q_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>R</td>
                 <td>Romeo<br>Rakit</td>
-                <td>&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg'></audio></td>
+                <td>&bull;&ndash;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>S</td>
                 <td>Sierra<br>Singa</td>
-                <td>&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d8/S_morse_code.ogg'></audio></td>
+                <td>&bull;&bull;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/d/d8/S_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>T</td>
                 <td>Tango<br>Tari</td>
-                <td>&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/ba/T_morse_code.ogg'></audio></td>
+                <td>&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/b/ba/T_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>U</td>
                 <td>Uniform<br>Udang</td>
-                <td>&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/34/U_morse_code.ogg'></audio></td>
+                <td>&bull;&bull;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/3/34/U_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>V</td>
                 <td>Victor<br>Victor</td>
-                <td>&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/37/V_morse_code.ogg'></audio></td>
+                <td>&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/3/37/V_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>W</td>
                 <td>Whiskey<br>Wayang</td>
-                <td>&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/68/W_morse_code.ogg'></audio></td>
+                <td>&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/6/68/W_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>X</td>
                 <td>X-ray<br>X-ray</td>
-                <td>&ndash;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/be/X_morse_code.ogg'></audio></td>
+                <td>&ndash;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/b/be/X_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>Y</td>
                 <td>Yankee<br>Yakin</td>
-                <td>&ndash;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/Y_morse_code.ogg'></audio></td>
+                <td>&ndash;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/5/5d/Y_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>Z</td>
                 <td>Zulu<br>Zaman</td>
-                <td>&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Z_morse_code.ogg'></audio></td>
+                <td>&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/7/7a/Z_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>0</td>
                 <td>Zero<br>Kosong</td>
-                <td>&ndash;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/0_number_morse_code.ogg'></audio></td>
+                <td>&ndash;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/5/5d/0_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>1</td>
                 <td>One<br>Satu</td>
-                <td>&bull;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9b/1_number_morse_code.ogg'></audio></td>
+                <td>&bull;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/9/9b/1_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>2</td>
                 <td>Two<br>Dua</td>
-                <td>&bull;&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ee/2_number_morse_code.ogg'></audio></td>
+                <td>&bull;&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/e/ee/2_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>3</td>
                 <td>Three<br>Tiga</td>
-                <td>&bull;&bull;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/fd/3_number_morse_code.ogg'></audio></td>
+                <td>&bull;&bull;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/f/fd/3_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>4</td>
                 <td>Four<br>Empat</td>
-                <td>&bull;&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5c/4_number_morse_code.ogg'></audio></td>
+                <td>&bull;&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/5/5c/4_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>5</td>
                 <td>Five<br>Lima</td>
-                <td>&bull;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/52/5_number_morse_code.ogg'></audio></td>
+                <td>&bull;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/5/52/5_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>6</td>
                 <td>Six<br>Enam</td>
-                <td>&ndash;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/4d/6_number_morse_code.ogg'></audio></td>
+                <td>&ndash;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/4/4d/6_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>7</td>
                 <td>Seven<br>Tujuh</td>
-                <td>&ndash;&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/1/14/7_number_morse_code.ogg'></audio></td>
+                <td>&ndash;&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/1/14/7_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>8</td>
                 <td>Eight<br>Lapan</td>
-                <td>&ndash;&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/3a/8_number_morse_code.ogg'></audio></td>
+                <td>&ndash;&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/3/3a/8_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>9</td>
                 <td>Nine<br>Sembilan</td>
-                <td>&ndash;&ndash;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/44/9_number_morse_code.ogg'></audio></td>
+                <td>&ndash;&ndash;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='//upload.wikimedia.org/wikipedia/commons/4/44/9_number_morse_code.ogg'></audio></td>
               </tr>
             </tbody>
           </table>
@@ -381,8 +381,8 @@
                       </tr>
                     </tbody>
                   </table>
-                  <p>Sekiranya anda tidak berjaya log masuk ke pelayan Kumpulan RoIPMARS &#91;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&#93;, berkemungkinan perisian yang anda gunakan tidak menyokong fungsi &#39;DNS&#39;. Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'>App Store</a>.</p>
-                  <p>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='https://ftp.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>roipmars-teamspeak-3.0.3.1.apk</a></p>
+                  <p>Sekiranya anda tidak berjaya log masuk ke pelayan Kumpulan RoIPMARS &#91;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&#93;, berkemungkinan perisian yang anda gunakan tidak menyokong fungsi &#39;DNS&#39;. Disarankan untuk memasang aplikasi dari <a href='//play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'>Play Store</a> / <a href='//itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'>App Store</a>.</p>
+                  <p>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='//ftp.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>roipmars-teamspeak-3.0.3.1.apk</a></p>
                   <p>Pihak Pentadbir Rangkaian Kumpulan RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
                 </div>
               </div>
@@ -505,14 +505,14 @@
                     <h5 class='text-center'>CLASS ASSIGNMENT NO. 2 OF 2022</h5>
                     <p>IN exercise of the powers conferred by section 169 of the Communications and Multimedia Act 1998 [Act 588] ("Act"), the Commission issues class assignments which confers rights on any person to use the frequency bands for the following devices:</p>
                     <p>(4) personal radio service ("PRS") device as specified in the Fourth Schedule;</p>
-                    <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=5' target='_blank' rel='noopener'>Baca Lanjut...</a>
+                    <a href='//www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=5' target='_blank' rel='noopener'>Baca Lanjut...</a>
                     <hr>
                     <h4 class='alert- text-center'>FOURTH SCHEDULE</h4>
                     <h5 class='text-center'>Class Assignment for Personal Radio Service Device</h5>
                     <p>1. Definition</p>
                     <p>(1) In this class assignment, "PRS device" means a two-way radiocommunications device operating in the designated frequency bands.</p>
                     <p>(2) Subject to subparagraph 1(1) of this schedule, all terminologies of an absolute technical nature shall have the same meaning as provided in the International Telecommunication Convention.</p>
-                    <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=23' target='_blank' rel='noopener'>Baca Lanjut...</a>
+                    <a href='//www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=23' target='_blank' rel='noopener'>Baca Lanjut...</a>
                   </div>
                 </div>
               </div>
@@ -534,9 +534,9 @@
     </div>
     <button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
     <?php include('footer.php') ?>
-    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
     <script src='assets/js/tawkto.js'></script>
     <script src='assets/js/stt.js'></script>
   </body>

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /assets/
 
-Sitemap: https://www.roipmars.org.my/sitemap.xml
+Sitemap: //www.roipmars.org.my/sitemap.xml

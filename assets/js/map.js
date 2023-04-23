@@ -10,12 +10,12 @@ var mapOptions = {
 };
 var map = L.map("map", mapOptions);
 L.tileLayer(
-  "https://{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token=" + JMAT,
+  "//{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token=" + JMAT,
   {
     attribution:
       "&copy; " +
       YrNow +
-      ' <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="https://www.jawg.io">JawgMaps</a>',
+      ' <a href="//www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="//www.jawg.io">JawgMaps</a>',
   }
 ).addTo(map);
 var terminator = L.terminator({
@@ -84,7 +84,7 @@ map.addControl(
     },
     marker: {
       icon: L.icon({
-        iconUrl: "https://img.icons8.com/plasticine/100/000000/map-pin.png",
+        iconUrl: "//img.icons8.com/plasticine/100/000000/map-pin.png",
         iconSize: [48, 48],
       }),
       show: true,
@@ -96,13 +96,13 @@ map.addControl(
     L: L,
   })
 );
-var marsattr = '<a href="https://www.roipmars.org.my">RoIPMARS</a>';
+var marsattr = '<a href="//www.roipmars.org.my">RoIPMARS</a>';
 var marsMemIcon = L.icon({
   iconUrl: "../media/image/favicon-96x96.png",
   iconSize: [24, 24],
 });
 var marsGateIcon = L.icon({
-  iconUrl: "https://img.icons8.com/plasticine/100/null/radio-tower.png",
+  iconUrl: "//img.icons8.com/plasticine/100/null/radio-tower.png",
   iconSize: [32, 32],
 });
 var GMS = L.marker([3.444039, 101.5528566], {

@@ -16,12 +16,12 @@
             <p class='mb-2'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan serta Perkhidmatan kami tersedia untuk anda sepanjang masa di mana sahaja.</p>
             <table class='table table-sm table-bordered text-center align-middle text-wrap my-0 mx-auto w-auto' style='white-space: nowrap'>
               <tbody>
-                <tr><th>Nama</th><td>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP &#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</td></tr>
-                <tr><th>Bank</th><td>BANK MUAMALAT MALAYSIA BERHAD / BMMBMYKLXXX</td></tr>
-                <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
+                <tr><th>Nama</th><td>PERSATUAN PEMINAT RADIO KOMUNIKASI</td></tr>
+                <tr><th>Bank</th><td>BANK MUAMALAT</td></tr>
+                <tr><th>Akaun</th><td>1-2140-0004-3771-2</td></tr>
               </tbody>
             </table>
-            <p class='mt-2 mb-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='donateTngd()'><img src='media/image/tngew_ht.png' class='img-fluid bg-light rounded-2 px-1' width='45'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateToyyib()'><img src='media/image/fpx.png' class='img-fluid bg-light rounded-2 p-1' width='50'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateStripe()'><i class='bi-credit-card text-white fs-2 align-middle'></i></a></p>
+            <p class='mt-2 mb-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='donateTngd()'><img src='media/image/tngew_ht.png' class='img-fluid bg-light rounded-2 px-1' width='45'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateToyyib()'><img src='media/image/fpx.png' class='img-fluid bg-light rounded-2 p-1' width='50'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateStripe()'><i class='bi-stripe text-white fs-3 align-middle'></i></a></p>
             <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
           </div>
           <div class='col-lg-4 mx-auto my-1'>

@@ -16,13 +16,13 @@
     <meta property='og:site_name' content='RoIPMARS'>
     <meta property='og:title' content='PPRK | Contact Us'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Contact Us'>
-    <meta property='og:url' content='//www.roipmars.org.my/mailusn'>
+    <meta property='og:url' content='www.roipmars.org.my/mailusn'>
     <meta property='og:image' content='media/image/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='PPRK | Contact Us'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Contact Us'>
-    <meta name='twitter:url' content='//www.roipmars.org.my/amailus'>
+    <meta name='twitter:url' content='www.roipmars.org.my/amailus'>
     <meta name='twitter:image' content='media/image/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
     <meta name='msapplication-TileColor' content='#56C3E7'>

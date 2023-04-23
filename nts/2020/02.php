@@ -16,13 +16,13 @@
   <meta property='og:site_name' content='RoIPMARS'>
   <meta property='og:title' content='PPRK | Sijil NCS Mingguan RoIP MARS'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Sijil NCS Mingguan RoIP MARS'>
-  <meta property='og:url' content='//www.roipmars.org.my/nts/2020/02'>
+  <meta property='og:url' content='www.roipmars.org.my/nts/2020/02'>
   <meta property='og:image' content='../../media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='PPRK | Sijil NCS Mingguan RoIP MARS'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Sijil NCS Mingguan RoIP MARS'>
-  <meta name='twitter:url' content='//www.roipmars.org.my/nts/2020/02'>
+  <meta name='twitter:url' content='www.roipmars.org.my/nts/2020/02'>
   <meta name='twitter:image' content='../../media/image/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>

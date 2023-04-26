@@ -27,8 +27,7 @@
     <link rel='apple-touch-icon' sizes='180x180' href='../media/image/apple-icon-180x180.png'>
     <link rel='manifest' href='../assets/manifest.json'>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
-    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css' integrity='sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=' crossorigin='anonymous'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' integrity='sha256-2IJPcGfN/qOK/sfp/68HISUmaCQgbWnvHxEtchU6UF4=' crossorigin='anonymous'>    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css' integrity='sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=' crossorigin='anonymous'>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/leaflet.fullscreen.css' integrity='sha256-YTbhDGEH5amI/JfotPMN7IByFpsN9e4tCBnv5oNdvHU=' crossorigin='anonymous'>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.css' integrity='sha256-oDy5SfMp/Ew1KH2J2avMIJezbcAYL/yzrIAoFL5TV0k=' crossorigin='anonymous'>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.css' integrity='sha256-bJbfQtCIfJ80fagO5M7t1Fbgs5vCU7dI8xyLSAgV54E=' crossorigin='anonymous'>

@@ -47,8 +47,7 @@
     <link rel='manifest' href='assets/manifest.json'>
     <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' integrity='sha256-dZRvUx65x4IL8xmd7cFttdizYwtNjkXq/sWUxeypWmc=' crossorigin='anonymous'>
-    <!-- <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' integrity='sha256-2IJPcGfN/qOK/sfp/68HISUmaCQgbWnvHxEtchU6UF4=' crossorigin='anonymous'>    <!-- <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/leaflet.fullscreen.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.css' crossorigin='anonymous'>
   <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.css' crossorigin='anonymous'>

@@ -9,14 +9,9 @@ var mapOptions = {
   fullscreenControl: true,
 };
 var map = L.map("map", mapOptions);
-L.tileLayer(
-  "//{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token=" + JMAT,
-  {
-    attribution:
-      "&copy; " +
-      YrNow +
-      ' <a href="//www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="//www.jawg.io">JawgMaps</a>',
-  }
+L.tileLayer("//{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token=" + JMAT, {
+  attribution: "&copy; " + YrNow + ' <a href="//www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="//www.jawg.io">JawgMaps</a>',
+}
 ).addTo(map);
 var terminator = L.terminator({
   opacity: 0.25,
@@ -96,7 +91,7 @@ map.addControl(
     L: L,
   })
 );
-var marsattr = '<a href="//www.roipmars.org.my">RoIPMARS</a>';
+var marsattr = '<a href="//www.roipmars.org.my">RoIPMARS&trade;</a>';
 var marsMemIcon = L.icon({
   iconUrl: "../media/image/favicon-96x96.png",
   iconSize: [24, 24],
@@ -109,7 +104,7 @@ var GMS = L.marker([3.444039, 101.5528566], {
   title: "9W4GMS",
   icon: marsGateIcon,
 }).bindPopup(
-  '<p class="text-center m-0">9W4GMS 147.4000MHz -3.2MHz<br>VHF, TeamSpeak, EchoLink</p>',
+  '<p class="text-center m-0">9W4GMS 147.400MHz -3.2MHz<br>VHF, TeamSpeak, EchoLink</p>',
   {
     closeButton: false,
     attribution: marsattr,
@@ -119,7 +114,7 @@ var GYQ = L.marker([3.77112, 103.27712], {
   title: "9W4GYQ",
   icon: marsGateIcon,
 }).bindPopup(
-  '<p class="text-center m-0">9W4GYQ 144.8000MHz<br>VHF, TeamSpeak</p>',
+  '<p class="text-center m-0">9W4GYQ 144.800MHz<br>VHF, TeamSpeak</p>',
   {
     closeButton: false,
     attribution: marsattr,
@@ -129,7 +124,7 @@ var GOZ = L.marker([5.741363, 115.934101], {
   title: "9W4GOZ",
   icon: marsGateIcon,
 }).bindPopup(
-  '<p class="text-center m-0">9W4GOZ 144.8000MHz -0.6MHz C203<br>VHF, TeamSpeak, EchoLink</p>',
+  '<p class="text-center m-0">9W4GOZ 144.800MHz -0.6MHz C203<br>VHF, TeamSpeak, EchoLink</p>',
   {
     closeButton: false,
     attribution: marsattr,
@@ -139,7 +134,7 @@ var GPA = L.marker([3.23111, 101.423487], {
   title: "9W4GPA",
   icon: marsGateIcon,
 }).bindPopup(
-  '<p class="text-center m-0">9W4GPA 144.8250MHz D646<br>VHF, TeamSpeak, EchoLink, Free Radio Network, Mumble, Peanut</p>',
+  '<p class="text-center m-0">9W4GPA<br>TeamSpeak, EchoLink, Free Radio Network, Mumble, Peanut, Zello</p>',
   {
     closeButton: false,
     attribution: marsattr,
@@ -642,7 +637,7 @@ var A031C = L.circle([3.222652, 101.533664], {
   fillOpacity: 0.175,
   interactive: false,
 });
-var A032 = L.marker([5.015883, 115.009728], {
+var B032 = L.marker([5.015883, 115.009728], {
   title: "B032",
   icon: marsMemIcon,
 }).bindPopup(
@@ -652,79 +647,26 @@ var A032 = L.marker([5.015883, 115.009728], {
     attribution: marsattr,
   }
 );
-var A032C = L.circle([5.015883, 115.009728], {
+var B032C = L.circle([5.015883, 115.009728], {
   radius: 10000,
   stroke: false,
   fillOpacity: 0.175,
   interactive: false,
 });
-L.layerGroup([
-  GMS,
-  GYQ,
-  GOZ,
-  GPA,
-  A001,
-  A001C,
-  A002,
-  A002C,
-  A003,
-  A003C,
-  A004,
-  A004C,
-  B005,
-  B005C,
-  A006,
-  A006C,
-  A007,
-  A007C,
-  A008,
-  A008C,
-  A009,
-  A009C,
-  A010,
-  A010C,
-  A011,
-  A011C,
-  A012,
-  A012C,
-  /*A013,
-  A013C,
-  A014,
-  A014C,
-  A015,
-  A015C,*/
-  A016,
-  A016C,
-  A017,
-  A017C,
-  /*A018,
-  A018C,
-  B019,
-  B019C,*/
-  A020,
-  A020C,
-  /*A021,
-  A021C,*/
-  A022,
-  A022C,
-  A023,
-  A023C,
-  /*A024,
-  A024C,*/
-  A025,
-  A025C,
-  A026,
-  A026C,
-  A027,
-  A027C,
-  A028,
-  A028C,
-  A029,
-  A029C,
-  A030,
-  A030C,
-  A031,
-  A031C,
-  A032,
-  A032C,
-]).addTo(map);
+var A033 = L.marker([6.1127269, 102.277425], {
+  title: "A033",
+  icon: marsMemIcon,
+}).bindPopup(
+  '<img class="img-fluid object-fit-fill rounded-circle mx-auto my-1 bg-dark-subtle bg-gradient" src="../media/image/member/033.png" loading="lazy"><p class="text-center fw-bold fs-3 m-0">A033</p><p class="text-center fw-light fs-5 m-0">9W2AKK @ OJ75MA</p><p class="text-center m-0">MUHAMMAD KHAIRUL AMILIN BIN ISMAIL</p>',
+  {
+    closeButton: false,
+    attribution: marsattr,
+  }
+);
+var A033C = L.circle([6.1127269, 102.277425], {
+  radius: 10000,
+  stroke: false,
+  fillOpacity: 0.175,
+  interactive: false,
+});
+L.layerGroup([GMS, GYQ, GOZ, GPA, A001, A001C, A002, A002C, A003, A003C, A004, A004C, B005, B005C, A006, A006C, A007, A007C, A008, A008C, A009, A009C, A010, A010C, A011, A011C, A012, A012C, /*A013, A013C, A014, A014C, A015, A015C,*/ A016, A016C, A017, A017C, /*A018, A018C, B019, B019C,*/ A020, A020C, /*A021, A021C,*/ A022, A022C, A023, A023C, /*A024, A024C,*/ A025, A025C, A026, A026C, A027, A027C, A028, A028C, A029, A029C, A030, A030C, A031, A031C, B032, B032C, A033, A033C,]).addTo(map);

@@ -261,7 +261,7 @@
                   <p class='fw-bolder m-0'>AHLI LUPUT</p>
                   <p class='fw-semibold m-0'>&mdash;</p>
                   <!-- <p class='fw-bolder m-0'>VERONICA CATHERINE</p>
-                <p class='fw-semibold m-0'>9W8VWW</p> -->
+                  <p class='fw-semibold m-0'>9W8VWW</p> -->
                 </div>
               </div>
             </div>
@@ -333,19 +333,10 @@
         </div>
         <div class='col-lg-7 my-3 text-center'>
           <h4 class='h4'>Ahli RoIPMARS</h4>
-          <p><span class='membercount badge rounded-3 text-bg-success'></span>
-            <?php date_default_timezone_get();
-            $file_last_modified = filemtime(__FILE__);
-            echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?>
-          </p>
+          <p><span class='membercount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
           <table class='table table-sm align-middle' id='memberlist'>
             <thead>
-              <tr>
-                <th>ID</th>
-                <th>CALLSIGN</th>
-                <th>NAMA AHLI</th>
-                <th>SAH SEHINGGA</th>
-              </tr>
+              <tr><th>ID</th><th>CALLSIGN</th><th>NAMA AHLI</th><th>SAH SEHINGGA</th></tr>
             </thead>
             <tbody class='user-select-none'>
               <tr class='text-success-emphasis'><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>2023-12-31</td></tr>
@@ -380,6 +371,7 @@
               <tr class='text-success-emphasis'><td>A030</td><td>9W2HLM</td><td>ABDUL HALIM BIN HJ HASHIM</td><td>2023-12-31</td></tr>
               <tr class='text-success-emphasis'><td>A031</td><td>9W2EZK</td><td>MOHD IFFIQ ZIKRY BIN JAMAL</td><td>2025-12-31</td></tr>
               <tr class='text-success-emphasis'><td>B032</td><td>V85AFF</td><td>MAHATHIR BIN ARIFFIN</td><td>2023-12-31</td></tr>
+              <tr class='text-success-emphasis'><td>A033</td><td>9W2AKK</td><td>MUHAMMAD KHAIRUL AMILIN BIN ISMAIL</td><td>2023-12-31</td></tr>
             </tbody>
           </table>
         </div>
@@ -391,16 +383,16 @@
     <script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
     <script src='//cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
     <!-- <script src='//cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js' crossorigin='anonymous'></script>
-  <script src='//cdn.jsdelivr.net/npm/leaflet-providers@1.13.0/leaflet-providers.js' crossorigin='anonymous'></script>
-  <script src='//cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
-  <script src='//cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.js' crossorigin='anonymous'></script>
-  <script src='//cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
-  <script src='//cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap@1.0.0/dist/Control.WorldMiniMap.js' crossorigin='anonymous'></script>
-  <script src='//cdn.jsdelivr.net/npm/@joergdietrich/leaflet.terminator@1.1.0/L.Terminator.js' crossorigin='anonymous'></script>
-  <script src='//ha8tks.github.io/Leaflet.Maidenhead/src/L.Maidenhead.js' crossorigin='anonymous'></script>
-  <script src='//cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.js' crossorigin='anonymous'></script>
-  <script src='//api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
-  <script src='assets/js/map.js'></script> -->
+    <script src='//cdn.jsdelivr.net/npm/leaflet-providers@1.13.0/leaflet-providers.js' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.js' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap@1.0.0/dist/Control.WorldMiniMap.js' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/npm/@joergdietrich/leaflet.terminator@1.1.0/L.Terminator.js' crossorigin='anonymous'></script>
+    <script src='//ha8tks.github.io/Leaflet.Maidenhead/src/L.Maidenhead.js' crossorigin='anonymous'></script>
+    <script src='//cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.js' crossorigin='anonymous'></script>
+    <script src='//api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
+    <script src='assets/js/map.js'></script> -->
     <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
     <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
     <script src='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>

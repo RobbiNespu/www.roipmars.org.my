@@ -93,7 +93,7 @@
               </ul>
             </li>
             <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='//dl.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -196,17 +196,17 @@
             <button type='button' class='btn btn-outline-secondary text-secondary-emphasis dropdown-toggle text-wrap' data-bs-toggle='dropdown' data-bs-auto-close='outside' aria-expanded='false'>Bank Soalan &amp; Jawapan ORAE Malaysia 2023 &ndash; MCMC</button>
             <ul class='dropdown-menu rounded-3 fs-4 bg-body-secondary text-center'>
               <li class='dropdown-header text-white fs-4'>Soalan Dwi-Bahasa &mdash; MCMC</li>
-              <li><a class='dropdown-item icon-link' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classa.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
-              <li><a class='dropdown-item icon-link' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classb.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas B <span class='badge bg-success-subtle'>9W</span></a></li>
-              <li><a class='dropdown-item icon-link' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classc.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas C <span class='badge bg-success-subtle'>9W3</span></a></li>
+              <li><a class='dropdown-item icon-link' href='//dl.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classa.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
+              <li><a class='dropdown-item icon-link' href='//dl.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classb.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas B <span class='badge bg-success-subtle'>9W</span></a></li>
+              <li><a class='dropdown-item icon-link' href='//dl.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classc.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas C <span class='badge bg-success-subtle'>9W3</span></a></li>
               <li>
                 <hr class='dropdown-divider'>
               </li>
               <li class='dropdown-header text-white fs-4'>Jawapan Dwi-Bahasa</li>
               <li><a class='dropdown-item icon-link' href='//docs.google.com/spreadsheets/u/8/d/1ds9UTqvW5HDPU-CWn7N58vkkJrxvpbchp5pMkP7eHV4/htmlview' target='_blank' rel='noopener'><i class='bi-file-earmark-spreadsheet' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
-              <li><a class='dropdown-item icon-link' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classa.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success'>9M</span></a></li>
-              <li><a class='dropdown-item icon-link disabled text-muted' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classb.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas B <span class='badge bg-success'>9W</span></a></li>
-              <li><a class='dropdown-item icon-link' href='//ftp.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classc.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas C <span class='badge bg-success'>9W3</span></a></li>
+              <li><a class='dropdown-item icon-link' href='//dl.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classa.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success'>9M</span></a></li>
+              <li><a class='dropdown-item icon-link disabled text-muted' href='//dl.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classb.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas B <span class='badge bg-success'>9W</span></a></li>
+              <li><a class='dropdown-item icon-link' href='//dl.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classc.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas C <span class='badge bg-success'>9W3</span></a></li>
             </ul>
           </div>
         </div>

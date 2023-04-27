@@ -93,7 +93,7 @@
                 </ul>
               </li>
               <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-              <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+              <li class='nav-item'><a class='nav-link text-info-emphasis' href='//dl.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
             </ul>
           </div>
         </div>
@@ -381,7 +381,7 @@
                     </tbody>
                   </table>
                   <p>Sekiranya anda tidak berjaya log masuk ke pelayan Kumpulan RoIPMARS &#91;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&#93;, berkemungkinan perisian yang anda gunakan tidak menyokong fungsi &#39;DNS&#39;. Disarankan untuk memasang aplikasi dari <a href='//play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'>Play Store</a> / <a href='//itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'>App Store</a>.</p>
-                  <p>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='//ftp.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>roipmars-teamspeak-3.0.3.1.apk</a></p>
+                  <p>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='//dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>roipmars-teamspeak-3.0.3.1.apk</a></p>
                   <p>Pihak Pentadbir Rangkaian Kumpulan RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
                 </div>
               </div>

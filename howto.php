@@ -93,7 +93,7 @@
               </ul>
             </li>
             <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-            <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+            <li class='nav-item'><a class='nav-link text-info-emphasis' href='//dl.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
           </ul>
         </div>
       </div>
@@ -159,12 +159,12 @@
             </tr>
             <tr>
               <th scope='row'>Windows 32-bit</th>
-              <td><a class='btn btn-sm btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' download>win32</a></td>
+              <td><a class='btn btn-sm btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' download>win32</a></td>
               <td><a class='btn btn-sm btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' download>win32</a></td>
             </tr>
             <tr>
               <th scope='row'>Windows 64-bit</th>
-              <td><a class='btn btn-sm btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/teamspeak3-client-win64-3.1.10.exe' download>win64</a></td>
+              <td><a class='btn btn-sm btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/teamspeak3-client-win64-3.1.10.exe' download>win64</a></td>
               <td><a class='btn btn-sm btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win64-3.5.6.exe' download>win64</a></td>
             </tr>
           </tbody>
@@ -189,12 +189,12 @@
             </tr>
             <tr>
               <th scope='row'>Linux x86</th>
-              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_x86-3.1.10.run' download>linux32</a></td>
+              <td><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_x86-3.1.10.run' download>linux32</a></td>
               <td><a class='btn btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_x86-3.5.6.run' download>linux32</a></td>
             </tr>
             <tr>
               <th scope='row'>Linux AMD64</th>
-              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_amd64-3.1.10.run' download>linux64</a></td>
+              <td><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_amd64-3.1.10.run' download>linux64</a></td>
               <td><a class='btn btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_amd64-3.5.6.run' download>linux64</a></td>
             </tr>
           </tbody>
@@ -219,7 +219,7 @@
             </tr>
             <tr>
               <th scope='row'>MacOS</th>
-              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/mac/teamspeak3-client-macosx-3.1.10.dmg' download>macosx</a></td>
+              <td><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/mac/teamspeak3-client-macosx-3.1.10.dmg' download>macosx</a></td>
               <td><a class='btn btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-macosx-3.5.6.dmg' download>macosx</a></td>
             </tr>
           </tbody>
@@ -266,21 +266,21 @@
           <tbody>
             <tr>
               <th scope='row'>TS</th>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.0.19.4.exe' download>TSv3.0.19.4</a></td>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' download>TSv3.1.10</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.0.19.4.exe' download>TSv3.0.19.4</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' download>TSv3.1.10</a></td>
               <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' download>TSv3.5.6</a></td>
             </tr>
             <tr>
               <th scope='row'>Gateway</th>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-3.0.14.exe' download>GCv3.0.14</a></td>
-              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-4.0.2.exe' download>GCv4.0.2</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-3.0.14.exe' download>GCv3.0.14</a></td>
+              <td class='text-nowrap'><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-4.0.2.exe' download>GCv4.0.2</a></td>
               <td class='text-nowrap'></td>
             </tr>
             <tr>
               <th scope='row'>Plugin</th>
-              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api20.dll' download>GCPv20</a></td>
-              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api21.dll' download>GCPv21</a></td>
-              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api23.dll' download>GCPv23</a></td>
+              <td><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api20.dll' download>GCPv20</a></td>
+              <td><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api21.dll' download>GCPv21</a></td>
+              <td><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api23.dll' download>GCPv23</a></td>
             </tr>
           </tbody>
         </table>
@@ -319,12 +319,12 @@
             </tr>
             <tr>
               <td>Tiada Sokongan Google</td>
-              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>Versi Tiada Sokongan Google<br>&#40;kurang ciri khas&#41;</a></td>
+              <td><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>Versi Tiada Sokongan Google<br>&#40;kurang ciri khas&#41;</a></td>
             </tr>
             <!--
             <tr>
               <td>v3.1.9-beta.194</td>
-              <td><a class='btn btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/android/teamspeak/teamspeak_3.1.9_b194.apk' download>Muat Turun</a></td>
+              <td><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/android/teamspeak/teamspeak_3.1.9_b194.apk' download>Muat Turun</a></td>
             </tr>
             -->
             <tr>
@@ -431,7 +431,7 @@
         <table class='table table-sm text-center align-middle'>
           <tbody>
             <tr><th scope='row'>Version</th><td>v3.0.13.1</td></tr>
-            <tr><th scope='row'>Android</th><td><a class='btn btn-sm btn-primary' role='button' href='//ftp.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>Muat Turun</a></td></tr>
+            <tr><th scope='row'>Android</th><td><a class='btn btn-sm btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>Muat Turun</a></td></tr>
           </tbody>
         </table>
       </div>

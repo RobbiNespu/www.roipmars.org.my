@@ -80,7 +80,7 @@
       <tbody>
         <tr>
           <td>Download page</td>
-          <td><a href='//ftp.roipmars.org.my/' target='_blank' rel='noopener'>View</a></td>
+          <td><a href='//dl.roipmars.org.my/' target='_blank' rel='noopener'>View</a></td>
         </tr>
         <tr>
           <td>Tutorial</td>
@@ -88,27 +88,27 @@
         </tr>
         <tr>
           <td>PC Download (x86) 32-bit</td>
-          <td><a href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' target='_blank' rel='noopener'>Download</a></td>
+          <td><a href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' target='_blank' rel='noopener'>Download</a></td>
         </tr>
         <tr>
           <td>PC Download (x64) 64-bit</td>
-          <td><a href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/teamspeak3-client-win64-3.1.10.exe' target='_blank' rel='noopener'>Download</a></td>
+          <td><a href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/teamspeak3-client-win64-3.1.10.exe' target='_blank' rel='noopener'>Download</a></td>
         </tr>
         <tr>
           <td>PC Video Conference</td>
-          <td><a href='//ftp.roipmars.org.my/files/downloads/windows/teamspeak/conference_client-0.14.exe' target='_blank' rel='noopener'>Download</a></td>
+          <td><a href='//dl.roipmars.org.my/files/downloads/windows/teamspeak/conference_client-0.14.exe' target='_blank' rel='noopener'>Download</a></td>
         </tr>
         <tr>
           <td>Android free</td>
-          <td><a href='//ftp.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' target='_blank' rel='noopener'>Download</a></td>
+          <td><a href='//dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' target='_blank' rel='noopener'>Download</a></td>
         </tr>
         <tr>
           <td>Android downgrade</td>
-          <td><a href='//ftp.roipmars.org.my/files/downloads/android/teamspeak/teamspeak-3.1.9_b194.apk' target='_blank' rel='noopener'>Download</a></td>
+          <td><a href='//dl.roipmars.org.my/files/downloads/android/teamspeak/teamspeak-3.1.9_b194.apk' target='_blank' rel='noopener'>Download</a></td>
         </tr>
         <tr>
           <td>Zello for F22/F40/etc (network radio)</td>
-          <td><a href='//ftp.roipmars.org.my/files/downloads/android/zello-3.109.apk' target='_blank' rel='noopener'>Download</a></td>
+          <td><a href='//dl.roipmars.org.my/files/downloads/android/zello-3.109.apk' target='_blank' rel='noopener'>Download</a></td>
         </tr>
       </tbody>
     </table>

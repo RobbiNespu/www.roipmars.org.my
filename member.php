@@ -100,7 +100,7 @@
                 </ul>
               </li>
               <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-              <li class='nav-item'><a class='nav-link text-info-emphasis' href='//ftp.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+              <li class='nav-item'><a class='nav-link text-info-emphasis' href='//dl.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
             </ul>
           </div>
         </div>
@@ -135,7 +135,7 @@
           <div class='vstack gap-1 justify-content-center'>
             <a type='button' class='btn btn-lg btn-primary rounded-5 fs-3' href='//bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian <i class='bi-google'></i> &#40;Google Form&#41; <i class='bi-google'></i></a>
             <a type='button' class='btn btn-lg btn-secondary rounded-5 fs-3' href='//bit.ly/borangdaftarroipmars' target='_blank' rel='noopener'>Permohonan Keahlian <i class='bo bi-file-earmark-pdf-fill'></i> &#40;Adobe Sign&#41; <i class='bo bi-file-earmark-pdf-fill'></i></a>
-            <a type='button' class='btn btn-lg btn-success rounded-5 fs-3' href='//ftp.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian <i class='bi-file-pdf-fill'></i> &#40;Fail PDF&#41; <i class='bi-file-pdf-fill'></i></a>
+            <a type='button' class='btn btn-lg btn-success rounded-5 fs-3' href='//dl.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian <i class='bi-file-pdf-fill'></i> &#40;Fail PDF&#41; <i class='bi-file-pdf-fill'></i></a>
           </div>
           <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>
             <div class='modal-dialog modal-dialog-centered' role='document'>
@@ -153,8 +153,8 @@
                 <div class='modal-header'>
                   <h5 class='modal-title' id='rosconstModalTitle'>Perlembagaan Pertubuhan</h5>
                 </div>
-                <div class='modal-body ratio ratio-4x3'><iframe src='//ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf'></iframe></div>
-                <div class='modal-footer'><a type='button' class='btn btn-sm btn-success' href='//ftp.roipmars.org.my/files/members/mars-perlembagaan.pdf' download>Muat Turun</a></div>
+                <div class='modal-body ratio ratio-4x3'><iframe src='//dl.roipmars.org.my/files/members/mars-perlembagaan.pdf'></iframe></div>
+                <div class='modal-footer'><a type='button' class='btn btn-sm btn-success' href='//dl.roipmars.org.my/files/members/mars-perlembagaan.pdf' download>Muat Turun</a></div>
               </div>
             </div>
           </div>

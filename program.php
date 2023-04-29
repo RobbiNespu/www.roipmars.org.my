@@ -132,13 +132,13 @@
 				<table class='table table-sm table-bordered text-center align-middle'>
 					<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
 					<tbody>
-						<tr class='bg-primary-subtle'><td>Isnin</td><td>1300Z</td><td>RoIPMARS Net Awal Minggu</td><td>ROIPMARS</td></tr>
+						<tr class='bg-primary-subtle'><td>Isnin</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>ROIPMARS</td></tr>
 						<tr class='opacity-25'><td>Selasa</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
-						<tr class='bg-info-subtle'><td>Rabu</td><td>1300Z</td><td>Learning English Net</td><td>ROIPMARS</td></tr>
+						<tr class='bg-info-subtle'><td>Rabu</td><td>1300Z<br>2100MY</td><td>Learning English Net</td><td>ROIPMARS</td></tr>
 						<tr class='opacity-25'><td>Khamis</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
-						<tr class='bg-primary-subtle'><td>Jumaat</td><td>1300Z</td><td>RoIPMARS Net Santai</td><td>ROIPMARS</td></tr>
-						<tr class='bg-primary-subtle'><td>Sabtu</td><td>1300Z</td><td>RoIPMARS Net Malam Minggu</td><td>ROIPMARS</td></tr>
-						<tr class='bg-danger-subtle'><td>Ahad</td><td>1300Z</td><td>CB Net Hujung Minggu</td><td>ROIPDARULAMAN</td></tr>
+						<tr class='bg-primary-subtle'><td>Jumaat</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Santai</td><td>ROIPMARS</td></tr>
+						<tr class='bg-primary-subtle'><td>Sabtu</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>ROIPMARS</td></tr>
+						<tr class='bg-danger-subtle'><td>Ahad</td><td>1300Z<br>2100MY</td><td>CB Net Hujung Minggu</td><td>ROIPDARULAMAN</td></tr>
 					</tbody>
 				</table>
 				<h4>Barisan Jawatankuasa &amp; Petugas<br>Bahagian Siaraya &amp; Aktiviti</h4>

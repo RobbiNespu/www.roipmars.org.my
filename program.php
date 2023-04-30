@@ -434,7 +434,7 @@
 								<tr class='bg-primary-subtle'><td>Khamis<br>27/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net<br>&#40;Hari Tentera Laut Diraja Malaysia ke-89&#41;</td><td>9M2RAN</td><td>61</td></tr>
 								<tr class='bg-primary-subtle'><td>Jumaat<br>28/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net Santai<br>&#40;Hari Keselamatan dan Kesihatan di Tempat Kerja Sedunia&#41;</td><td>9W2SNN</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr class='bg-primary-subtle'><td>Sabtu<br>29/04</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tarian Sedunia&#41;</td><td>9W2GSV</td><td><i class='bi-person-x text-danger'></i></td></tr>
-								<tr class='bg-danger-subtle'><td>Ahad<br>30/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td>113DAJCP</td><td>&shy;</td></tr>
+								<tr class='bg-danger-subtle'><td>Ahad<br>30/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td>113DAJCP</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 							</tbody>
 							<caption>
 								<ul class='list-group list-group-flush'>
@@ -886,13 +886,10 @@
 			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=455644558&format=image' loading='lazy' alt='NetGraphQuarterly23'>
 			</div>
-			<div class='col-lg-4 figure my-1'>
+			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=4802909&format=image' loading='lazy' alt='NetGraphBand23'>
 			</div>
-			<div class='col-lg-4 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1205231339&format=image' loading='lazy' alt='NetGraphLang23'>
-			</div>
-			<div class='col-lg-4 figure my-1'>
+			<div class='col-lg-6 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' loading='lazy' alt='NetGraphMode23'>
 			</div>
 			<div class='col-lg-12 figure my-1'>
@@ -1010,7 +1007,7 @@
 				</div>
 			</div>
 			<div class='col-lg-6'>
-				<p class='text-center'>OpenVoIP Sahur Net 1444H &#40;TIDAK RASMI SETAKAT 19/04/23&#41;</p>
+				<p class='text-center'>OpenVoIP Sahur Net 1444H</p>
 				<div class='row'>
 					<div class='col-6'>
 						<h6 class='text-center'>Pengawal Tertinggi</h6>
@@ -1018,9 +1015,9 @@
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>9W2AYP / 113DAPLY</td></tr>
-								<tr><td>2<sup>nd</sup></td><td>9WJCP / 113DAJCP</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9W2JCP / 113DAJCP</td></tr>
 								<tr><td>3<sup>rd</sup></td><td>9W2NDI / 113DANDI</td></tr>
-								<tr><td>4<sup>th</sup></td><td>9W2JYT /113DAYJT</td></tr>
+								<tr><td>4<sup>th</sup></td><td>9W2JYT / 113DAYJT</td></tr>
 								<tr><td>5<sup>th</sup></td><td>9W2SNN / 113MSSAM</td></tr>
 							</tbody>
 						</table>
@@ -1033,13 +1030,13 @@
 								<tr><td>1<sup>st</sup></td><td>91KMDON</td></tr>
 								<tr><td>2<sup>nd</sup></td><td>91MSERW</td></tr>
 								<tr><td>3<sup>rd</sup></td><td>9W6AZE</td></tr>
-								<tr><td>4<sup>th</sup></td><td>9W2AYP</td></tr>
-								<tr><td>5<sup>th</sup></td><td>9W2SNN / 113MSSAM / 113JS49</td></tr>
-								<tr><td>6<sup>th</sup></td><td>9W6RHN</td></tr>
+								<tr><td>4<sup>th</sup></td><td>9W2SNN / 113MSSAM / 113JS49</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9W6RHN</td></tr>
+								<tr><td>6<sup>th</sup></td><td>9W2AYP / 113DAPLY</td></tr>
 								<tr><td>7<sup>th</sup></td><td>9W2OJB</td></tr>
-								<tr><td>8<sup>th</sup></td><td>91DAGBW</td></tr>
-								<tr><td>9<sup>th</sup></td><td>9W2JCP</td></tr>
-								<tr><td>10<sup>th</sup></td><td>9W2RNH</td></tr>
+								<tr><td>8<sup>th</sup></td><td>9W2JCP / 113DAJCP</td></tr>
+								<tr><td>9<sup>th</sup></td><td>113DAGBW</td></tr>
+								<tr><td>10<sup>th</sup></td><td>9W2RNH / 113DARNH</td></tr>
 							</tbody>
 						</table>
 					</div>

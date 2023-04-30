@@ -107,7 +107,18 @@
     </div>
   </div>
   <div class='container'>
-    <div class='row my-3'>
+    <div class='row'>
+			<div class='col-12 my-2 d-block mx-auto'>
+				<h2 class='text-center'>Peta Rangkaian RoIPMARS</h2>
+			</div>
+			<div class='col-lg-6 figure my-1'>
+				<img class='figure-img img-fluid mx-auto d-block border rounded-5' src='media/image/roipmars-ham-net-map.png' loading='lazy' alt='ham-link-map'>
+			</div>
+			<div class='col-lg-6 figure my-1'>
+				<img class='figure-img img-fluid mx-auto d-block border rounded-5' src='media/image/roipmars-cb-net-map.png' loading='lazy' alt='cb-link-map'>
+			</div>
+		</div>
+    <div class='row'>
       <div class='col-12'>
         <h2 class='h2 text-center'>Pengurusan Rangkaian Kumpulan RoIPMARS</h2>
       </div>
@@ -118,7 +129,7 @@
           </div>
           <div class='col-10 d-flex align-content-center flex-wrap'>
             <div class='card-body mx-3'>
-              <p class='card-title fs-2 fw-bold'>ZULKIFLI ABU &#40;9W2UZL&#41; <a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-person-vcard'></i></a></p>
+              <p class='card-title fs-2 fw-bold'>ZULKIFLI ABU &#40;9W2UZL / 113MSUZL&#41; <a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-person-vcard'></i></a></p>
               <p class='card-subtitle fs-5 fw-semibold'>FOUNDER, LEAD ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
               <p class='card-subtitle fs-5 fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; KETUA PENYELIDIK</p>
               <p class='card-subtitle fw-light'>&#91;Sejak 2018&#93; Dilantik oleh MART&acute;S sebagai penyelidik SIG pengkhususan &#39;ROIP&#39;</p>
@@ -130,7 +141,7 @@
         <div class='row g-1 text-end'>
           <div class='col-10 d-flex align-content-center flex-wrap'>
             <div class='card-body mx-3'>
-              <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN &#40;9W2LGX&#41; <a href='//bit.ly/m/hafiziruslan'><i class='bi-person-vcard'></i></a></p>
+              <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN &#40;9W2LGX / 113MS111&#41; <a href='//bit.ly/m/hafiziruslan'><i class='bi-person-vcard'></i></a></p>
               <p class='card-subtitle fs-5 fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
               <p class='card-subtitle fs-5 fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
               <p class='card-subtitle fw-light'>&#91;Sejak 2019&#93; Dilantik oleh ROIPMARS&trade; sebagai pembangun perisian rasmi</p>
@@ -142,7 +153,7 @@
         </div>
       </div>
     </div>
-    <div class='row my-3'>
+    <div class='row'>
       <div class='col-12 text-center'>
         <h3 class='h3'>Penyelidikan Berterusan</h3>
       </div>

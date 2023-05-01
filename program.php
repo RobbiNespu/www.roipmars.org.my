@@ -433,8 +433,8 @@
 								<tr class='bg-info-subtle'><td>Rabu<br>26/04</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;World Intellectual Property Day&#41;</td><td>9W6WOT</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-primary-subtle'><td>Khamis<br>27/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net<br>&#40;Hari Tentera Laut Diraja Malaysia ke-89&#41;</td><td>9M2RAN</td><td>61</td></tr>
 								<tr class='bg-primary-subtle'><td>Jumaat<br>28/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net Santai<br>&#40;Hari Keselamatan dan Kesihatan di Tempat Kerja Sedunia&#41;</td><td>9W2SNN</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-primary-subtle'><td>Sabtu<br>29/04</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tarian Sedunia&#41;</td><td>9W2GSV</td><td><i class='bi-person-x text-danger'></i></td></tr>
-								<tr class='bg-danger-subtle'><td>Ahad<br>30/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td>113DAJCP</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr class='bg-primary-subtle'><td>Sabtu<br>29/04</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tarian Sedunia&#41;</td><td>9W2GSV</td><td><i class='bi-person-x text-danger fs-4'></i></td></tr>
+								<tr class='bg-danger-subtle'><td>Ahad<br>30/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td>113DAJCP</td><td>18</td></tr>
 							</tbody>
 							<caption>
 								<ul class='list-group list-group-flush'>
@@ -456,7 +456,7 @@
 						<table class='table table-sm text-center align-middle'>
 							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
-								<tr class='bg-primary-subtle'><td>Isnin<br>01/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pekerja&#41;</td><td>9W6AFF</td><td>&shy;</td></tr>
+								<tr class='bg-primary-subtle'><td>Isnin<br>01/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pekerja&#41;</td><td>9W6AFF</td><td><i class='bi-person-x text-danger fs-4'></i></td></tr>
 								<tr><td>Rabu<br>03/05</td><td>2100MY</td><td>Learning English Net</td><td>9M6RHM</td><td>&shy;</td></tr>
 								<tr><td>Jumaat<br>05/05</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9M6RMD</td><td>&shy;</td></tr>
 								<tr class='bg-primary-subtle'><td>Sabtu<br>06/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tanpa Diet Sedunia&#41;</td><td>9W2AYP</td><td>&shy;</td></tr>
@@ -479,6 +479,15 @@
 								<tr><td>Isnin<br>29/05</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W8VYY</td><td>&shy;</td></tr>
 								<tr class='bg-info-subtle'><td>Rabu<br>31/05</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;Harvest Festival&#41;<br>&#40;World No Tobacco Day&#41;</td><td>9W8VWW</td><td>&shy;</td></tr>
 							</tbody>
+							<caption>
+								<ul class='list-group list-group-flush'>
+									<!-- <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li> -->
+									<!-- <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li> -->
+									<li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
+									<!-- <li class='list-group-item'><i class='bi-send-x-fill text-danger'></i> Laporan tidak dihantar</li> -->
+									<!-- <li class='list-group-item'><i class='bi-envelope-x-fill text-danger'></i> Laporan tidak lengkap</li> -->
+								</ul>
+							</capton>
 						</table>
 					</div>
 				</div>

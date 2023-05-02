@@ -433,7 +433,7 @@
 								<tr class='bg-info-subtle'><td>Rabu<br>26/04</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;World Intellectual Property Day&#41;</td><td>9W6WOT</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-primary-subtle'><td>Khamis<br>27/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net<br>&#40;Hari Tentera Laut Diraja Malaysia ke-89&#41;</td><td>9M2RAN</td><td>61</td></tr>
 								<tr class='bg-primary-subtle'><td>Jumaat<br>28/04</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net Santai<br>&#40;Hari Keselamatan dan Kesihatan di Tempat Kerja Sedunia&#41;</td><td>9W2SNN</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-primary-subtle'><td>Sabtu<br>29/04</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tarian Sedunia&#41;</td><td>9W2GSV</td><td><i class='bi-person-x text-danger fs-4'></i></td></tr>
+								<tr class='bg-primary-subtle text-decoration-line-through'><td>Sabtu<br>29/04</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tarian Sedunia&#41;</td><td>9W2GSV</td><td><i class='bi-person-x text-danger fs-4'></i></td></tr>
 								<tr class='bg-danger-subtle'><td>Ahad<br>30/04</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Jazz Sedunia&#41;</td><td>113DAJCP</td><td>18</td></tr>
 							</tbody>
 							<caption>
@@ -456,14 +456,14 @@
 						<table class='table table-sm text-center align-middle'>
 							<thead><th>Hari</th><th>Masa</th><th>Acara</th><th>Pengawal</th><th>Laporan</th></thead>
 							<tbody>
-								<tr class='bg-primary-subtle'><td>Isnin<br>01/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pekerja&#41;</td><td>9W6AFF</td><td><i class='bi-person-x text-danger fs-4'></i></td></tr>
+								<tr class='bg-primary-subtle text-decoration-line-through'><td>Isnin<br>01/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pekerja&#41;</td><td>9W6AFF</td><td><i class='bi-person-x text-danger fs-4'></i></td></tr>
 								<tr><td>Rabu<br>03/05</td><td>2100MY</td><td>Learning English Net</td><td>9M6RHM</td><td>&shy;</td></tr>
 								<tr><td>Jumaat<br>05/05</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9M6RMD</td><td>&shy;</td></tr>
 								<tr class='bg-primary-subtle'><td>Sabtu<br>06/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tanpa Diet Sedunia&#41;</td><td>9W2AYP</td><td>&shy;</td></tr>
 								<tr class='bg-danger-subtle'><td>Ahad<br>07/05</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Ketawa Sedunia&#41;</td><td>113DAPLY</td><td>&shy;</td></tr>
 								<tr><td>Isnin<br>08/05</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9M2SFL</td><td>&shy;</td></tr>
 								<tr><td>Rabu<br>10/05</td><td>2100MY</td><td>Learning English Net</td><td>9M6EZK</td><td>&shy;</td></tr>
-								<tr class='bg-warning-subtle text-warning-emphasis'><td colspan='5'>Aktiviti yang telah dijadualkan pada <strong>12 Mei 2023</strong> dibatalkan bagi memberi laluan kepada penyelenggaraan perkakasan pelayan.<br>Rujuk <a class='alert-link' href='nts/2023/04'>NtsMARS2023/04</a> untuk maklumat lanjut.</td></tr>
+								<tr class='bg-warning-subtle text-warning-emphasis fs-3'><td colspan='5'>Aktiviti yang telah dijadualkan pada <strong>12 Mei 2023</strong> dibatalkan bagi memberi laluan kepada penyelenggaraan pelayan.<br>Rujuk <a class='alert-link' href='nts/2023/04'>NtsMARS2023/04</a> untuk maklumat lanjut.</td></tr>
 								<tr><td>Sabtu<br>13/05</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W6AZE</td><td>&shy;</td></tr>
 								<tr class='bg-danger-subtle'><td>Ahad<br>14/05</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Ibu&#41;</td><td>113DAYJT</td><td>&shy;</td></tr>
 								<tr class='bg-primary-subtle'><td>Isnin<br>15/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Keluarga Sedunia&#41;</td><td>9W2SNN</td><td>&shy;</td></tr>

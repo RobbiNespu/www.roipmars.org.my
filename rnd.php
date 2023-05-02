@@ -109,13 +109,13 @@
   <div class='container'>
     <div class='row'>
 			<div class='col-12 my-2 d-block mx-auto'>
-				<h2 class='text-center'>Peta Rangkaian RoIPMARS</h2>
+				<h2 class='text-center'>Peta Rangkaian Kumpulan RoIPMARS</h2>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block border rounded-5' src='media/image/roipmars-ham-net-map.png' loading='lazy' alt='ham-link-map'>
+				<img class='img-fluid mx-auto d-block' src='media/image/roipmars-ham-net-map.png' loading='lazy' alt='ham-link-map'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block border rounded-5' src='media/image/roipmars-cb-net-map.png' loading='lazy' alt='cb-link-map'>
+				<img class='img-fluid mx-auto d-block' src='media/image/roipmars-cb-net-map.png' loading='lazy' alt='cb-link-map'>
 			</div>
 		</div>
     <div class='row'>
@@ -123,7 +123,7 @@
         <h2 class='h2 text-center'>Pengurusan Rangkaian Kumpulan RoIPMARS</h2>
       </div>
       <div class='col-lg-6 my-2'>
-        <div class='row g-1 text-start'>
+        <div class='row g-1 text-lg-start text-center'>
           <div class='col-2 align-self-center'>
             <img src='media/image/member/002.png' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2UZL'>
           </div>

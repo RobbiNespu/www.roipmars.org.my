@@ -108,14 +108,12 @@
   </div>
   <div class='container'>
     <div class='row'>
-			<div class='col-12 my-2 d-block mx-auto'>
-				<h2 class='text-center'>Peta Rangkaian Kumpulan RoIPMARS</h2>
+      <h2 class='text-center'>Peta Rangkaian Kumpulan RoIPMARS</h2>
+			<div class='col-lg-6 my-1'>
+				<img class='img-fluid mx-auto d-block bg-light-subtle rounded-5' src='media/image/roipmars-ham-net-map.png' loading='lazy' alt='ham-link-map'>
 			</div>
-			<div class='col-lg-6 figure my-1'>
-				<img class='img-fluid mx-auto d-block' src='media/image/roipmars-ham-net-map.png' loading='lazy' alt='ham-link-map'>
-			</div>
-			<div class='col-lg-6 figure my-1'>
-				<img class='img-fluid mx-auto d-block' src='media/image/roipmars-cb-net-map.png' loading='lazy' alt='cb-link-map'>
+			<div class='col-lg-6 my-1'>
+				<img class='img-fluid mx-auto d-block bg-light-subtle rounded-5' src='media/image/roipmars-cb-net-map.png' loading='lazy' alt='cb-link-map'>
 			</div>
 		</div>
     <div class='row'>

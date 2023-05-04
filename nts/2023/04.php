@@ -68,7 +68,7 @@
     <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Penyelenggaraan Kemas Kini <i>&#39;Firmware&#39;</i> Pelayan - 12 Mei 2023</p>
     <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2023/04<br>Tarikh Notis: 20 Apr 2023 | 2200 MYT</p>
     <p class='lh-sm'>Pengguna yang dihormati,</p>
-    <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Penyelenggaraan Menaik Taraf Perisian Tegar <i>&#40;Firmware&#41;</i> Pelayan - 25 Mac 2023</p>
+    <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Penyelenggaraan Pelayan - 12 Mei 2023</p>
     <p class='mb-2'>Harap maklum bahawa Pasukan Penyelenggaraan Pusat Data akan menjalankan penyelenggaraan pelayan untuk mengemas kini perisian tegar <i>&#40;firmware&#41;</i> peralatan di Pusat Data. Oleh yang demikian, akan ada masa henti untuk semua pelayan yang berada di Pusat Data, kerana pelayan akan dibut semula beberapa kali semasa proses selenggara.</p>
     <p>Penyelenggaraan ini adalah penting untuk mengelakkan sebarang kelemahan yang mungkin membahayakan dan menjejaskan keselamatan pelayan.</p>
     <p>Butiran penyelenggaraan adalah seperti berikut:

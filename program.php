@@ -132,13 +132,13 @@
 				<table class='table table-sm table-bordered text-center align-middle'>
 					<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
 					<tbody>
-						<tr class='bg-primary-subtle'><td>Isnin</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>ROIPMARS</td></tr>
+						<tr class='bg-primary-subtle'><td>Isnin</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>ROIPMARS HAM</td></tr>
 						<tr class='opacity-25'><td>Selasa</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
-						<tr class='bg-info-subtle'><td>Rabu</td><td>1300Z<br>2100MY</td><td>Learning English Net</td><td>ROIPMARS</td></tr>
+						<tr class='bg-info-subtle'><td>Rabu</td><td>1300Z<br>2100MY</td><td>Learning English Net</td><td>ROIPMARS HAM</td></tr>
 						<tr class='opacity-25'><td>Khamis</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
-						<tr class='bg-primary-subtle'><td>Jumaat</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Santai</td><td>ROIPMARS</td></tr>
-						<tr class='bg-primary-subtle'><td>Sabtu</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>ROIPMARS</td></tr>
-						<tr class='bg-danger-subtle'><td>Ahad</td><td>1300Z<br>2100MY</td><td>CB Net Hujung Minggu</td><td>ROIPDARULAMAN</td></tr>
+						<tr class='bg-primary-subtle'><td>Jumaat</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Santai</td><td>ROIPMARS HAM</td></tr>
+						<tr class='bg-primary-subtle'><td>Sabtu</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>ROIPMARS HAM</td></tr>
+						<tr class='bg-danger-subtle'><td>Ahad</td><td>1300Z<br>2100MY</td><td>CB Net Hujung Minggu</td><td>ROIPMARS CB</td></tr>
 					</tbody>
 				</table>
 				<h4>Barisan Jawatankuasa &amp; Petugas<br>Bahagian Siaraya &amp; Aktiviti</h4>
@@ -449,9 +449,9 @@
 							<tbody>
 								<tr class='bg-primary-subtle text-decoration-line-through'><td>Isnin<br>01/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pekerja&#41;</td><td>9W6AFF</td><td><i class='bi-person-x text-danger fs-4'></i></td></tr>
 								<tr><td>Rabu<br>03/05</td><td>2100MY</td><td>Learning English Net</td><td>9W6RHN</td><td>41</td></tr>
-								<tr><td>Jumaat<br>05/05</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9M6RMD</td><td>&shy;</td></tr>
-								<tr class='bg-primary-subtle'><td>Sabtu<br>06/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tanpa Diet Sedunia&#41;</td><td>9W2AYP</td><td>&shy;</td></tr>
-								<tr class='bg-danger-subtle'><td>Ahad<br>07/05</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Ketawa Sedunia&#41;</td><td>113DAPLY</td><td>&shy;</td></tr>
+								<tr><td>Jumaat<br>05/05</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9M6RMD</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr class='bg-primary-subtle'><td>Sabtu<br>06/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tanpa Diet Sedunia&#41;</td><td>9W2AYP</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr class='bg-danger-subtle'><td>Ahad<br>07/05</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Ketawa Sedunia&#41;</td><td>113DAPLY</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr><td>Isnin<br>08/05</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9M2SFL</td><td>&shy;</td></tr>
 								<tr><td>Rabu<br>10/05</td><td>2100MY</td><td>Learning English Net</td><td>9M6EZK</td><td>&shy;</td></tr>
 								<tr class='bg-warning-subtle text-warning-emphasis fs-3'><td colspan='5'>Aktiviti yang telah dijadualkan pada <strong>12 Mei 2023</strong> dibatalkan bagi memberi laluan kepada penyelenggaraan pelayan.<br>Rujuk <a class='alert-link' href='nts/2023/04'>NtsMARS2023/04</a> untuk maklumat lanjut.</td></tr>
@@ -475,7 +475,7 @@
 									<!-- <li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li> -->
 									<!-- <li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li> -->
 									<li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
-									<!-- <li class='list-group-item'><i class='bi-send-x-fill text-danger'></i> Laporan tidak dihantar</li> -->
+									<li class='list-group-item'><i class='bi-send-x-fill text-danger'></i> Laporan tidak dihantar</li>
 									<!-- <li class='list-group-item'><i class='bi-envelope-x-fill text-danger'></i> Laporan tidak lengkap</li> -->
 								</ul>
 							</capton>

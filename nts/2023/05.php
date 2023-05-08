@@ -51,7 +51,8 @@
   <link rel='stylesheet' href='//fonts.googleapis.com/css2?&family=Oxanium&family=Nanum+Gothic+Coding&family=Saira+Extra+Condensed&family=Orbitron&family=Electrolize&family=Coda&display=swap'>
   <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
-  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' integrity='sha256-2IJPcGfN/qOK/sfp/68HISUmaCQgbWnvHxEtchU6UF4=' crossorigin='anonymous'>  <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' integrity='sha256-2IJPcGfN/qOK/sfp/68HISUmaCQgbWnvHxEtchU6UF4=' crossorigin='anonymous'>
+  <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script src='../../assets/js/gtm.js'></script>
   <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
   <script src='../../assets/js/gtag.js'></script>
@@ -69,7 +70,7 @@
     <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2023/05<br>Tarikh Notis: 08 Mei 2023 | 2200 MYT</p>
     <p class='lh-sm'>Pengguna yang dihormati,</p>
     <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Penutupan Pelayan RoIPDARULAMAN</p>
-    <p class='mb-2'>Untuk makluman semua, setelah dipertimbangkan pelayan roipdarulaman.com memaklumkan kepada semua sahabat disini bahawa dengan rasminya pelayan roipdarulaman.com ditutup berkuatkuasa serta merta.</p>
+    <p class='mb-2'>Untuk makluman semua, setelah dipertimbangkan pelayan roipdarulaman.com memaklumkan kepada semua sahabat disini bahawa dengan rasminya pelayan roipdarulaman.com ditutup berkuatkuasa serta merta. Semua pendaftaran baru untuk isyarat panggilan xxDAxx juga akan ditolak.</p>
     <p>Oleh yang demikian untuk meneruskan kesinabungan silaturrahim sesama rakan-rakan CB Band, boleh beralih ke pelayan roipmars.org.my untuk meneruskan komunikasi (10/25) bersama rakan-rakan. Semua perantara juga diarahkan untuk beralih kesana.</p>
     <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Persefahaman dan kerjasama anda amat kami hargai. Jutaan kemaafan kami pohon dari Pihak Pengurusan Kumpulan RoIPMARS kepada anda semua.</p>
     <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2303'>member@roipmars.org.my</a></p>

@@ -72,12 +72,11 @@
   </header>
   <main class='container'>
     <div class='row'>
-      <div class='col-lg-2'></div>
-      <div class='col-lg-8'>
+      <div class='col-12'>
         <form class='my-3 align-middle text-center' id='applogin'>
           <div class='col-lg my-1'>
             <label for='callsign' class='form-label'>Callsign | Isyarat Panggilan</label>
-            <input type='text' class='form-control form-control-lg text-center rounded-3 w-75 mx-auto' pattern='[A-Z0-9]{6-8}' minlength='6' maxlength='8' aria-label='callsign' id='callsign' placeholder='9M2XXX' required>
+            <input type='text' class='form-control form-control-lg text-center rounded-3 w-75 mx-auto' pattern='[A-Z0-9]{5-8}' minlength='6' maxlength='8' aria-label='callsign' id='callsign' placeholder='9M2XXX' required>
           </div>
           <div class='col-lg my-1'>
             <label for='name' class='form-label'>Name | Nama</label>
@@ -88,13 +87,12 @@
             <input type='text' class='form-control form-control-lg text-center rounded-3 w-75 mx-auto' pattern='[\w]{3-19}' minlength='3' maxlength='19' aria-label='location' id='location' placeholder='KUALA LUMPUR' required>
           </div>
           <div class='vstack gap-1 mt-3 text-center'>
-            <button class='btn btn-outline-primary btn-lg rounded-pill w-50 mx-auto' type='submit' onClick='ts3marslogin()'>Log Masuk <img class='img-fluid d-inline-block align-middle' src='//cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='80'> <img class='img-fluid d-inline-block align-middle' src='media/image/brand.png' width='150'></button>
-            <button class='btn btn-outline-secondary btn-lg rounded-pill w-50 mx-auto' type='submit' onClick='mumblelogin()'>Log Masuk <img class='img-fluid d-inline-block align-middle' src='//www.mumble.info/css/mumble.svg' width='20'> Mumble <img class='img-fluid d-inline-block align-middle' src='media/image/brand.png' width='150'></button>
-            <button class='btn btn-outline-primary btn-lg rounded-pill w-50 mx-auto' type='submit' onClick='ts3dalogin()'>Log Masuk <img class='img-fluid d-inline-block align-middle' src='//cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='80'> <img class='img-fluid d-inline-block align-middle' src='//www.roipdarulaman.com/media/favicon/favicon-32x32.png' width='25'></button>
+            <button class='btn btn-outline-primary btn-lg rounded-pill w-75 mx-auto' type='submit' onClick='ts3hamlogin()'>Log Masuk HAM <img class='img-fluid d-inline-block align-middle' src='//cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='80'> <img class='img-fluid d-inline-block align-middle' src='media/image/brand.png' width='150'></button>
+            <button class='btn btn-outline-secondary btn-lg rounded-pill w-75 mx-auto' type='submit' onClick='mumblelogin()'>Log Masuk <img class='img-fluid d-inline-block align-middle' src='//www.mumble.info/css/mumble.svg' width='20'> Mumble <img class='img-fluid d-inline-block align-middle' src='media/image/brand.png' width='150'></button>
+            <button class='btn btn-outline-primary btn-lg rounded-pill w-75 mx-auto' type='submit' onClick='ts3cblogin()'>Log Masuk CB <img class='img-fluid d-inline-block align-middle' src='//cdn.cdnlogo.com/logos/t/29/teamspeak.svg' width='80'> <img class='img-fluid d-inline-block align-middle' src='media/image/brand.png' width='150'></button>
           </div>
         </form>
       </div>
-      <div class='col-lg-2'></div>
     </div>
   </main>
   <button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>

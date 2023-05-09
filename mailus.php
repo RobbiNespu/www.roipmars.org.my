@@ -79,7 +79,6 @@
                 <ul class='dropdown-menu text-lg-center text-end bg-body-tertiary border-0'>
                   <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
                   <li><a class='dropdown-item text-primary-emphasis' href='cbmars'>CB RoIPMARS</a></li>
-                  <!--<li><a class='dropdown-item text-danger-emphasis' href='//www.roipdarulaman.com'>CB RoIPDarulAman</a></li>-->
                 </ul>
               </li>
               <li class='nav-item dropdown'>

@@ -451,9 +451,9 @@
 								<tr class='bg-primary-subtle text-decoration-line-through'><td>Isnin<br>01/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pekerja&#41;</td><td>9W6AFF</td><td><i class='bi-person-x text-danger fs-4'></i></td></tr>
 								<tr><td>Rabu<br>03/05</td><td>2100MY</td><td>Learning English Net</td><td>9W6RHN</td><td>41</td></tr>
 								<tr><td>Jumaat<br>05/05</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9M6RMD</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-primary-subtle'><td>Sabtu<br>06/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tanpa Diet Sedunia&#41;</td><td>9W2AYP</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-danger-subtle'><td>Ahad<br>07/05</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Ketawa Sedunia&#41;</td><td>113DAPLY</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr><td>Isnin<br>08/05</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9M2SFL</td><td>&shy;</td></tr>
+								<tr class='bg-primary-subtle'><td>Sabtu<br>06/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Tanpa Diet Sedunia&#41;</td><td>9W2AYP</td><td>35</td></tr>
+								<tr class='bg-danger-subtle'><td>Ahad<br>07/05</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Ketawa Sedunia&#41;</td><td>113DAPLY</td><td>20</td></tr>
+								<tr><td>Isnin<br>08/05</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9M2SFL</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 								<tr><td>Rabu<br>10/05</td><td>2100MY</td><td>Learning English Net</td><td>9M6EZK</td><td>&shy;</td></tr>
 								<tr class='bg-warning-subtle text-warning-emphasis fs-3'><td colspan='5'>Aktiviti yang telah dijadualkan pada <strong>12 Mei 2023</strong> dibatalkan bagi memberi laluan kepada penyelenggaraan pelayan.<br>Rujuk <a class='alert-link' href='nts/2023/04'>NtsMARS2023/04</a> untuk maklumat lanjut.</td></tr>
 								<tr><td>Sabtu<br>13/05</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W6AZE</td><td>&shy;</td></tr>

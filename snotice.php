@@ -78,7 +78,6 @@
               <ul class='dropdown-menu text-lg-center text-end bg-body-tertiary border-0'>
                 <li><a class='dropdown-item' href='cbinfo'>Informasi Jalur Rakyat</a></li>
                 <li><a class='dropdown-item text-primary-emphasis' href='cbmars'>CB RoIPMARS</a></li>
-                <!--<li><a class='dropdown-item text-danger-emphasis' href='//www.roipdarulaman.com'>CB RoIPDarulAman</a></li>-->
               </ul>
             </li>
             <li class='nav-item dropdown'>
@@ -109,18 +108,28 @@
   </div>
   <div class='container'>
     <div class='row table-responsive'>
-      <table class='table table-striped text-center'>
+      <table class='table table-striped text-center align-middle fs-3'>
         <thead class='align-middle'>
           <th>Tarikh Notis</th>
           <th>Tajuk</th>
           <th>Rujukan Kami</th>
         </thead>
-        <tbody class='align-middle'>
+        <tbody'>
 
+          <tr>
+            <td>10 Mei 2023</td>
+            <td>Peralihan Pelayan roipmars.com</td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/06' target='_blank' rel='noopener'>NtsMARS 2023/06</a></td>
+          </tr>
           <tr>
             <td>08 Mei 2023</td>
             <td>Penutupan Pelayan RoIPDARULAMAN</td>
             <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/05' target='_blank' rel='noopener'>NtsMARS 2023/05</a></td>
+          </tr>
+          <tr>
+            <td>20 Apr 2023</td>
+            <td>Penyelenggaraan Kemas Kini <i>&#39;Firmware&#39;</i> Pelayan - 12 Mei 2023</td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/04' target='_blank' rel='noopener'>NtsMARS 2023/04</a></td>
           </tr>
           <tr>
             <td>07 Mac 2023</td>

@@ -495,7 +495,7 @@
 								<tr class='bg-primary-subtle'><td>Jumaat<br>02/06</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Gawai&#41;<br>&#40;Hari Tentera Udara Diraja Malaysia&#41;</td><td>&shy;</td><td>&shy;</td></tr>
 								<tr class='bg-dark-subtle'><td rowspan='2'>Sabtu<br>03/06</td><td>TBC</td><td>Sambutan Ulang Tahun RoIPMARS ke-3<td>TBC</td><td>&mdash;</td></tr>
 								<tr><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>&shy;</td><td>&shy;</td></tr>
-								<tr class='bg-danger-subtle'><td>Ahad<br>04/06</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Keputeraan YDP Agong&#41;</td><td>&shy;</td><td>&shy;</td></tr>
+								<tr><td>Ahad<br>04/06</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>&shy;</td><td>&shy;</td></tr>
 								<tr class='bg-primary-subtle'><td>Isnin<br>05/06</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Alam Sekitar Sedunia&#41;</td><td>&shy;</td><td>&shy;</td></tr>
 								<tr><td>Rabu<br>07/06</td><td>2100MY</td><td>Learning English Net</td><td>&shy;</td><td>&shy;</td></tr>
 								<tr><td>Jumaat<br>09/06</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>&shy;</td><td>&shy;</td></tr>

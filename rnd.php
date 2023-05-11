@@ -118,7 +118,7 @@
 		</div>
     <div class='row'>
       <div class='col-12'>
-        <h2 class='h2 text-center'>Pengurusan Rangkaian Kumpulan RoIPMARS</h2>
+        <h2 class='h2 text-center'>Pengurusan Kumpulan Rangkaian RoIPMARS</h2>
       </div>
       <div class='col-lg-6 my-2'>
         <div class='row g-1 text-lg-start text-center'>

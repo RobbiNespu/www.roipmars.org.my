@@ -100,7 +100,7 @@
     <p>Juga dimaklumkan bahawa pelayan &amp; domain roipmars.com akan dihenti tugas pada waktu akhir pindahan dan semua akses akan dipautkan ke roipmars.org.my</p>
     <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2201'>member@roipmars.org.my</a></p>
     <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "caliban-std", sans-serif'>Pentadbir Rangkaian</p>
-    <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
+    <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
   </div>
   <?php include('../../footer.min.php') ?>
   <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>

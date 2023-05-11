@@ -135,7 +135,7 @@
         <div class='alert alert-info shadow p-3 bg-body-secondary rounded-5'>
           <h4 class='fs-1 text-info-emphasis alert-heading text-center fw-bolder'>SEBARAN AWAM</h4>
           <p class='fs-4 mx-2 text-break text-center'>Kepada Inividu / Komuniti / Kelab, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS.<br>Kami juga menyediakan khidmat nasihat untuk SYARIKAT yang berminat untuk mendirikan jaringan komunikasi.<br>Pasukan teknikal kami sedia membantu. Hubungi kami melalui emel ke <a class='text-info-emphasis text-decoration-none' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member@roipmars.org.my</a> untuk mendapatkan maklumat lanjut.</p>
-          <p class='fs-6 lh-1 font-monospace text-sm-end'>&#39;JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI&#39;<br>Tulus Ikhlas,<br>Bahagian Pengurusan Rangkaian Kumpulan RoIPMARS</p>
+          <p class='fs-6 lh-1 font-monospace text-sm-end'>&#39;JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI&#39;<br>Tulus Ikhlas,<br>Bahagian Pengurusan Kumpulan Rangkaian RoIPMARS</p>
         </div>
       </div>
     </div>

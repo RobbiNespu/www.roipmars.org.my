@@ -509,7 +509,7 @@
 							<tbody>
 								<tr class='bg-primary-subtle'><td>Khamis<br>01/06</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Ulang Tahun RoIPMARS ke-3&#41;</td><td>9W2UZL</td><td>&shy;</td></tr>
 								<tr class='bg-primary-subtle'><td>Jumaat<br>02/06</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Gawai&#41;<br>&#40;Hari Tentera Udara Diraja Malaysia&#41;</td><td>&shy;</td><td>&shy;</td></tr>
-								<!-- <tr class='bg-dark-subtle'><td rowspan='2'>Sabtu<br>03/06</td><td>TBC</td><td>Sambutan Ulang Tahun RoIPMARS ke-3<td colspan='2'>TBC</td></tr> -->
+								<tr class='bg-dark-subtle'><td rowspan='2'>Sabtu<br>03/06</td><td>TBC</td><td>Sambutan Ulang Tahun RoIPMARS ke-3<td colspan='2'>TBC</td></tr>
 								<tr><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>&shy;</td><td>&shy;</td></tr>
 								<tr><td>Ahad<br>04/06</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>&shy;</td><td>&shy;</td></tr>
 								<tr class='bg-primary-subtle'><td>Isnin<br>05/06</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Alam Sekitar Sedunia&#41;</td><td>&shy;</td><td>&shy;</td></tr>

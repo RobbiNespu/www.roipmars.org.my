@@ -473,9 +473,9 @@
 								<tr><td>Rabu<br>10/05</td><td>2100MY</td><td>Learning English Net</td><td>9M6JAY</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-warning-subtle text-warning-emphasis fs-5'><td colspan='5'>Aktiviti yang berjadual pada <strong>12 Mei 2023</strong> dibatalkan bagi memberi laluan kepada penyelenggaraan pelayan.<br>Rujuk <a class='alert-link' href='nts/2023/04'>NtsMARS2023/04</a> untuk maklumat lanjut.</td></tr>
 								<tr><td>Sabtu<br>13/05</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W6AZE</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-danger-subtle'><td>Ahad<br>14/05</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Ibu&#41;</td><td>113DAYJT</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-primary-subtle'><td>Isnin<br>15/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Keluarga Sedunia&#41;</td><td>9M6RMD</td><td>&shy;</td></tr>
-								<tr class='bg-info-subtle'><td>Rabu<br>17/05</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;The Birthday of the King of Perlis&#41;<br>&#40;World Telecommunication &amp; Information Society Day&#41;</td><td>9M6RHN</td><td>&shy;</td></tr>
+								<tr class='bg-danger-subtle'><td>Ahad<br>14/05</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Ibu&#41;</td><td>113DAYJT</td><td>19</td></tr>
+								<tr class='bg-primary-subtle'><td>Isnin<br>15/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Keluarga Sedunia&#41;</td><td>9M6RMD</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr class='bg-info-subtle'><td>Rabu<br>17/05</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;The Birthday of the King of Perlis&#41;<br>&#40;World Telecommunication &amp; Information Society Day&#41;</td><td>9W6RHN</td><td>&shy;</td></tr>
 								<tr><td>Jumaat<br>19/05</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>9W6PKJ</td><td>&shy;</td></tr>
 								<tr class='bg-primary-subtle'><td>Sabtu<br>20/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Lebah Sedunia&#41;</td><td>V85AFF</td><td>&shy;</td></tr>
 								<tr><td>Ahad<br>21/05</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAZIK</td><td>&shy;</td></tr>

@@ -281,7 +281,7 @@
 		<div class='row'>
 			<div class='col-12 my-1 text-center'>
 				<h2 class='font-weight-bold'>Jadual Program</h2>
-				<span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo 'kemaskini pada: ' . date('D, dS M Y, h:i:sA T', $file_last_modified); ?></span>
+				<span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo 'kemaskini pada: ' . date('D jS M Y, h:i:s.Ba e', $file_last_modified); ?></span>
 			</div>
 		</div>
 		<div class='row'>

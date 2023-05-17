@@ -113,13 +113,13 @@
       <div class='col-lg-4 p-2 text-center align-self-center' id='regind'>
         <h3>Permohonan CS Individu CB RoIPMARS Group</h3>
         <a type='button' class='btn btn-lg btn-block btn-outline-primary rounded-3 fs-4 fw-bold' href='//forms.gle/hxFgHW3S5S3hqGg49' target='_blank' rel='noopener'>Borang permohonan Isyarat Panggilan Jalur Rakyat Individu Kumpulan ROIPMARS</a>
-        <p class='fs-6 fw-light'>Sumbangan bernilai RM 10.00 (minimum) digalakkan untuk setiap permohonan isyarat panggilan individu.</p>
+        <p class='fs-6 fw-light'>Sumbangan bernilai RM 10.00 &#40;minimum&#41; digalakkan untuk setiap permohonan isyarat panggilan individu.</p>
       </div>
       <!--
       <hr class='h-100'>
       <div class='col-6 p-2 text-end' id='regate'>
         <h3>Permohonan CS Gateway CB MARS Group</h3>
-        <p class='fs-6 fw-light'>Yuran permohonan berupa sumbangan RM 10.00 (minimum) diperlukan untuk permohonan isyarat panggilan Radio Gateway.</p>
+        <p class='fs-6 fw-light'>Yuran permohonan berupa sumbangan RM 10.00 &#40;minimum&#41; diperlukan untuk permohonan isyarat panggilan Radio Gateway.</p>
         <a type='button' class='btn btn-sm btn-secondary disabled' aria-disabled='true' href='//forms.gle/3oX7RdKMF79oSiBo7' target='_blank' rel='noopener'>Borang permohonan Isyarat Panggilan Jalur Rakyat Radio Gateway Kumpulan ROIPMARS</a>
       </div>
     -->
@@ -138,13 +138,13 @@
             </tr>
             <tr class='text-decoration-line-through'>
               <td>Gateway / Crosslink</td>
-              <td><span class='badge bg-info-subtle rounded-3'>113RG???</span> <span class='badge bg-info-subtle rounded-3'>58RG???</span> <span class='badge bg-info-subtle rounded-3'>225RG???</span></td>
+              <td><span class='badge bg-info-subtle rounded-3 text-decoration-line-through'>113RG???</span> <span class='badge bg-info-subtle rounded-3 text-decoration-line-through'>58RG???</span> <span class='badge bg-info-subtle rounded-3 text-decoration-line-through'>225RG???</span></td>
             </tr>
-            <tr>
+            <tr class='text-decoration-line-through'>
               <td>Darul Aman</td>
-              <td><span class='badge bg-warning-subtle rounded-3'>113DA???</span></td>
+              <td><span class='badge bg-warning-subtle rounded-3 text-decoration-line-through'>113DA???</span></td>
               <td>ROIP Darul Aman</td>
-              <td><a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='//wa.me/60134009222' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 113DAOGK</a></td>
+              <td><!--<a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='//wa.me/60134009222' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 113DAOGK</a>--></td>
             </tr>
             <tr>
               <td>Indonesia</td>
@@ -156,9 +156,7 @@
         </table>
       </div>
       <div class='col-12 text-center lh-1'>
-        <p><span class='cscount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get();
-        $file_last_modified = filemtime(__FILE__);
-        echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
+        <p><span class='cscount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo ' setakat ' . date('D jS M Y, h:i:s.Ba e', $file_last_modified); ?></p>
         <p class='fw-bold'>Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
         <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
       </div>
@@ -169,6 +167,7 @@
           </thead>
           <tbody>
 
+            <tr><td>I499</td><td>113MSSFL</td><td>SAIFUL AZHAR BIN ABDULLAH</td><td>SIMPANG RENGGAM, JOHOR</td><td>14 May 2023</td></tr>
             <tr><td>I498</td><td>91MSAGS</td><td>HARIEFERDINAL</td><td>PALANGKARAYA</td><td>01 May 2023</td></tr>
             <tr><td>I497</td><td>91MSRDY</td><td>RUDY</td><td>PASURUAN</td><td>25 Mar 2023</td></tr>
             <tr><td>I496</td><td>113DADMN</td><td>MUHAMMAD NASRUL HAQ BIN NORDIN</td><td>SG. BULOH</td><td>20 Oct 2022</td></tr>

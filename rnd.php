@@ -110,15 +110,21 @@
     <div class='row'>
       <h2 class='text-center'>Peta Rangkaian Kumpulan RoIPMARS</h2>
 			<div class='col-lg-6 my-1'>
-				<img class='img-fluid mx-auto d-block bg-light-subtle rounded-5' src='media/image/roipmars-ham-net-map.png' loading='lazy' alt='ham-link-map'>
+        <figure class='figure'>
+          <figcaption class='figure-caption text-center text-lg-end fs-4'>Rangkaian Utama &#40;kegunaan Radio Amatur&#41;</figcaption>
+          <img class='img-fluid mx-auto d-block bg-light-subtle rounded-5' src='media/image/roipmars-ham-net-map.png' loading='lazy' alt='ham-link-map'>
+        </figure>
 			</div>
 			<div class='col-lg-6 my-1'>
-				<img class='img-fluid mx-auto d-block bg-light-subtle rounded-5' src='media/image/roipmars-cb-net-map.png' loading='lazy' alt='cb-link-map'>
+        <figure class='figure'>
+          <figcaption class='figure-caption text-center text-lg-start fs-4'>Rangkaian Sekunder &#40;kegunaan Jalur Rakyat&#41;</figcaption>
+          <img class='img-fluid mx-auto d-block bg-light-subtle rounded-5' src='media/image/roipmars-cb-net-map.png' loading='lazy' alt='cb-link-map'>
+        </figure>
 			</div>
 		</div>
     <div class='row'>
       <div class='col-12'>
-        <h2 class='h2 text-center'>Pengurusan Kumpulan Rangkaian RoIPMARS</h2>
+        <h2 class='h2 text-center'>Pengurusan Kumpulan Rangkaian RoIPMARS</h2>
       </div>
       <div class='col-lg-6 my-2'>
         <div class='row g-1 text-lg-start text-center'>

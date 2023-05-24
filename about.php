@@ -215,6 +215,16 @@
             <div class='direction-r'>
               <div class='flag-wrapper'>
                 <span class='hexa'></span>
+                <span class='flag'>Ahli Gabungan MARTS</span>
+                <span class='time-wrapper'><span class='time'>23 Mei 2023</span></span>
+              </div>
+              <div class='desc'>ROIPMARS&trade; dengan nama Persatuan Peminat Radio Komunikasi &#40;ROIP&#41; secara sah menjadi Ahli Gabungan Malaysia Amateur Radio Transmitter&#39; Society &#40;MARTS&#41;.</div>
+            </div>
+          </li>
+          <li>
+            <div class='direction-r'>
+              <div class='flag-wrapper'>
+                <span class='hexa'></span>
                 <span class='flag'>Malaysia Peak To Peak &#91;My-PTP&#93;</span>
                 <span class='time-wrapper'><span class='time'>18 Mac 2023</span></span>
               </div>

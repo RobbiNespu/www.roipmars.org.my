@@ -74,13 +74,13 @@
     <p>Adalah dimaklumkan bahawa semua maklumat dan <i>data</i> yang kini berada di pelayan roipmars.com &#40;IPv4: 101.xx.xx.75&#41; akan beralih ke pelayan lain dengan IP yang baru pada ketetapan berikut;</p>
     <table class='table table-sm table-bordered'>
       <tbody>
-        <tr><th>Tarikh</th><td>28 Mei 2023 &#40;Ahad&#41;</td></tr>
-        <tr><th>Masa Gangguan</th><td>10 Malam waktu Malaysia</td></tr>
-        <tr><th>Tempoh Gangguan</th><td>8 Jam</td></tr>
-        <tr><th>Perkhidmatan Terjejas</th><td><ol type='i'><li>Laman sesawang roipmars.com</li><li>TeamSpeak<ul><li><a href='ts3server://brunei.roipmars.com'>brunei.roipmars.com</a> &#91;akan dialihkan ke <a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&#93;</li><li><a href='ts3server://smp.roipmars.com'>smp.roipmars.com</a></li></ul></li></ol></td></tr>
+        <tr><th>Tarikh</th><td>02 Jun 2023 - 05 Jun 2023</td></tr>
+        <tr><th>Masa Gangguan</th><td>12 tengah malam waktu Malaysia</td></tr>
+        <tr><th>Tempoh Gangguan</th><td>5 Jam</td></tr>
+        <tr><th>Perkhidmatan Terjejas</th><td><ol type='i'><li>Laman sesawang roipmars.com</li><li>TeamSpeak<ul><li><a href='ts3server://smp.roipmars.com'>smp.roipmars.com</a> &#40;semua maklumat akan diset semula&#41;</li></ul></li></ol></td></tr>
       </tbody>
     </table>
-    <p>Dinasihatkan supaya semua pengguna <i>domain</i> dan <i>subdomain</i> roipmars.com untuk menggunakan <i>domain</i> sebagai sambungan utama bagi mengelakkan sebarang masalah dimasa akan datang. <strong class='text-danger-emphasis'>Penggunaan <i>IP</i> untuk sambungan utama tidak disarankan.</strong></p>
+    <p>Dinasihatkan supaya semua pengguna <i>domain</i> dan <i>subdomain</i> roipmars.com untuk menggunakan <i>domain</i> sebagai sambungan utama bagi mengelakkan sebarang masalah dimasa akan datang. <strong class='text-danger-emphasis'>Penggunaan <i>IP</i> untuk sambungan utama tidak digalakkan.</strong></p>
     <p>Pelayan dan sambungan akan mengalami gangguan semasa tempoh peralihan. Dinasihatkan supaya tidak melakukan sebarang aktiviti semasa tempoh peralihan.</p>
     <p>p/s: <i>domain</i> dan pelayan roipmars.com adalah milik sepenuhya syarikat swasta &#40;bukan pemilikan pertubuhan&#41;.</p>
     <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Persefahaman dan kerjasama anda amat kami hargai. Jutaan kemaafan kami pohon dari Pihak Pengurusan Kumpulan RoIPMARS kepada anda semua.</p>

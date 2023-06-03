@@ -481,11 +481,11 @@
 								<tr><td>Ahad<br>21/05</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAJCP</td><td>8</td></tr>
 								<tr class='bg-primary-subtle'><td>Isnin<br>22/05</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Kepelbagaian Biologi Antarabangsa&#41;</td><td>9M6RDY</td><td>46</td></tr>
 								<tr><td>Rabu<br>24/05</td><td>2100MY</td><td>Learning English Net</td><td>9M6RDY</td><td>27</td></tr>
-								<tr><td>Jumaat<br>26/05</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>9W2NDI</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr class='bg-primary-subtle'><td rowspan='2'>Sabtu<br>27/05</td><td>2100MY</td><td>&#91;KHAS&#93; BARC Net &#40;Perasmian Kelab Radio Kolej MAHSA &#40;MCRC&#41; Kampus Sabah&#41;</td><td>9M6JAY<sup>2</sup></td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9M6RDY</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr><td>Ahad<br>28/05</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAISS</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
-								<tr><td>Isnin<br>29/05</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2NDI</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
+								<tr><td>Jumaat<br>26/05</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>9W2NDI</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
+								<tr class='bg-primary-subtle'><td rowspan='2'>Sabtu<br>27/05</td><td>2100MY</td><td>&#91;KHAS&#93; BARC Net &#40;Perasmian Kelab Radio Kolej MAHSA &#40;MCRC&#41; Kampus Sabah&#41;</td><td>9M6JAY<sup>2</sup></td><td>46</td></tr>
+								<tr><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9M6RDY</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
+								<tr><td>Ahad<br>28/05</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAISS</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
+								<tr><td>Isnin<br>29/05</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2NDI</td><td><i class='bi-envelope-x-fill text-danger'></i></td></tr>
 								<tr class='bg-info-subtle'><td>Rabu<br>31/05</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;Harvest Festival&#41;<br>&#40;World No Tobacco Day&#41;</td><td>9W8VWW</td><td><i class='bi-send-x-fill text-danger'></i></td></tr>
 							</tbody>
 							<caption>
@@ -536,7 +536,7 @@
 									<li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
 									<!-- <li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li> -->
 									<li class='list-group-item'><i class='bi-send-x-fill text-danger'></i> Laporan tidak dihantar</li>
-									<li class='list-group-item'><i class='bi-envelope-x-fill text-danger'></i> Laporan tidak lengkap</li>
+									<!-- <li class='list-group-item'><i class='bi-envelope-x-fill text-danger'></i> Laporan tidak lengkap</li> -->
 								</ul>
 							</capton>
 						</table>

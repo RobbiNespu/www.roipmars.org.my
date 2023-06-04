@@ -46,7 +46,7 @@
 	<link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
 	<link rel='manifest' href='assets/manifest.json'>
 	<link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
-	<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.css' integrity='sha256-MqxHKXoPHhIxNW13oU/DJXy7YisI6dDxk4Mzbu4YIGc=' crossorigin='anonymous'>
+	<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.css' integrity='sha256-dytF8SOIB6pQuIPDkrS/inNZwKBGYuqjPX+ev2iCA04=' crossorigin='anonymous'>
 	<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' integrity='sha256-2IJPcGfN/qOK/sfp/68HISUmaCQgbWnvHxEtchU6UF4=' crossorigin='anonymous'>
   <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
 	<script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
@@ -1124,9 +1124,9 @@
 	</div>
 	<button id='scrollToTop' class='btn fixed-bottom mx-1' onClick='scrollToTop()'><i class='bi-arrow-up-square fs-1 text-white'></i></button>
 	<?php include('footer.php') ?>
-  <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js' integrity='sha256-7beepUSyCg95tu27CxW8PfyK7VV3X4XUVksYGBcSLaw=' crossorigin='anonymous'></script>
-	<script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.js' integrity='sha256-8bk2Bq9Apy6HOcSWX4unJYw/3qZ5HWynocWHelfksQA=' crossorigin='anonymous'></script>
-  <script src='//cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.js' integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.js' integrity='sha256-cylxV1UruqmvQwOaplblZ7N+bxLCJYH+vHSBhlz5kF4=' crossorigin='anonymous'></script>
+	<script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.js' integrity='sha256-Y0NM43IuAu2ZN2YOPO+CdO11DkA77QeWgH38PRw/q/s=' crossorigin='anonymous'></script>
+  <script src='//cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.js' integrity='sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=' crossorigin='anonymous'></script>
 	<script src='assets/js/tawkto.js'></script>
 	<script src='assets/js/stt.js'></script>
 </body>

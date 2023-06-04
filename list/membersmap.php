@@ -28,7 +28,7 @@
     <link rel='manifest' href='../assets/manifest.json'>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.css' integrity='sha256-dytF8SOIB6pQuIPDkrS/inNZwKBGYuqjPX+ev2iCA04=' crossorigin='anonymous'>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' integrity='sha256-2IJPcGfN/qOK/sfp/68HISUmaCQgbWnvHxEtchU6UF4=' crossorigin='anonymous'>
-    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css' integrity='sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=' crossorigin='anonymous'>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous">
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/leaflet.fullscreen.css' integrity='sha256-YTbhDGEH5amI/JfotPMN7IByFpsN9e4tCBnv5oNdvHU=' crossorigin='anonymous'>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.css' integrity='sha256-oDy5SfMp/Ew1KH2J2avMIJezbcAYL/yzrIAoFL5TV0k=' crossorigin='anonymous'>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.css' integrity='sha256-bJbfQtCIfJ80fagO5M7t1Fbgs5vCU7dI8xyLSAgV54E=' crossorigin='anonymous'>
@@ -49,7 +49,7 @@
     <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.js' integrity='sha256-cylxV1UruqmvQwOaplblZ7N+bxLCJYH+vHSBhlz5kF4=' crossorigin='anonymous'></script>
     <script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.js' integrity='sha256-Y0NM43IuAu2ZN2YOPO+CdO11DkA77QeWgH38PRw/q/s=' crossorigin='anonymous'></script>
     <script src='//cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.js' integrity='sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=' crossorigin='anonymous'></script>
-    <script src='//cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js' integrity='sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=' crossorigin='anonymous'></script>
+    <script src="//cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
     <script src='//cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/Leaflet.fullscreen.js' integrity='sha256-/VGiFGzaidNadoKY4/8zFXP/OqGdajjpB+0vNHRz33o=' crossorigin='anonymous'></script>
     <script src='//cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.js' integrity='sha256-FquvQIblVRto7kZlJ5hTS0rpr9fzTyNmCCmQzsy5EnU=' crossorigin='anonymous'></script>
     <script src='//cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js' integrity='sha256-jVdNHjjOOJMoykxLOdGxOUzGJDlmr8MM6sFF++b1/sI=' crossorigin='anonymous'></script>

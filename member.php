@@ -363,7 +363,7 @@
               <tr class='text-warning-emphasis opacity-50'><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>2022-12-31</td></tr>
               <tr class='text-danger-emphasis opacity-25'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>2021-07-02</td></tr>
               <tr class='text-warning-emphasis opacity-50'><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>2022-12-31</td></tr>
-              <tr class='text-warning-emphasis opacity-50'><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>2022-12-31</td></tr>
+              <tr class='text-success-emphasis'><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>2023-12-31</td></tr>
               <tr class='text-success-emphasis'><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>2023-12-31</td></tr>
               <tr class='text-success-emphasis'><td>A028</td><td>9W2NEW</td><td>NORHISHAM BIN BAHAROM</td><td>2023-12-31</td></tr>
               <tr class='text-success-emphasis'><td>A029</td><td>9W2JCP</td><td>MOHAMAD ROSLI BIN AWANG</td><td>2023-12-31</td></tr>

@@ -707,9 +707,9 @@
   <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.js' integrity='sha256-cylxV1UruqmvQwOaplblZ7N+bxLCJYH+vHSBhlz5kF4=' crossorigin='anonymous'></script>
 	<script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.js' integrity='sha256-Y0NM43IuAu2ZN2YOPO+CdO11DkA77QeWgH38PRw/q/s=' crossorigin='anonymous'></script>
   <script src='//cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.js' integrity='sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=' crossorigin='anonymous'></script>
+  <script src='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
   <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
   <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
-  <script src='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
   <script src='assets/js/cbcs.js'></script>
   <script src='assets/js/tawkto.js'></script>
   <script src='assets/js/stt.js'></script>

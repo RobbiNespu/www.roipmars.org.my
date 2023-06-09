@@ -250,30 +250,12 @@
               </div>
               <div class='desc'>Selaras dengan pindaan kepada Peraturan-Peraturan Komunikasi dan Multimedia &#40;Standard Teknik&#41; 2000 yang diluluskan pada 25 April 2022 &#91;<a href='//www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/communications-and-multimedia-spectrum-regulatio#content44480' target='_blank' rel='noopener'>KKMM.600-1/4/8; PN(PU2)601/J1d. 12</a>&#93; dan berkuat kuasa pada 1 Januari 2023 &#40;iaitu bagi <b>peruntukan yang berkaitan dengan radio amatur</b>&#41;, Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;MCMC&#41; memaklumkan bahawa terdapat perubahan kepada struktur perakuan pengendali radio amatur di Malaysia iaitu:<table class='table table-responsive table-borderless table-sm text-start align-middle mb-0'>
                   <tbody>
-                    <tr>
-                      <td>i.</td>
-                      <td>Format peperiksaan</td>
-                    </tr>
-                    <tr>
-                      <td>ii.</td>
-                      <td>Silibus peperiksaan</td>
-                    </tr>
-                    <tr>
-                      <td>iii.</td>
-                      <td>Syarat kelayakan untuk menduduki peperiksaan</td>
-                    </tr>
-                    <tr>
-                      <td>iv.</td>
-                      <td>Pengenalan kepada Kelas C</td>
-                    </tr>
-                    <tr>
-                      <td>v.</td>
-                      <td>Ujian Kod Morse untuk menaik taraf ke Kelas A digantikan dengan peperiksaan pilihan jawapan berkomputer</td>
-                    </tr>
-                    <tr>
-                      <td>vi.</td>
-                      <td>Penggunaan frekuensi dan had kuasa pancaran bagi setiap kelas</td>
-                    </tr>
+                    <tr><td>i.</td><td>Format peperiksaan</td></tr>
+                    <tr><td>ii.</td><td>Silibus peperiksaan</td></tr>
+                    <tr><td>iii.</td><td>Syarat kelayakan untuk menduduki peperiksaan</td></tr>
+                    <tr><td>iv.</td><td>Pengenalan kepada Kelas C</td></tr>
+                    <tr><td>v.</td><td>Ujian Kod Morse untuk menaik taraf ke Kelas A digantikan dengan peperiksaan pilihan jawapan berkomputer</td></tr>
+                    <tr><td>vi.</td><td>Penggunaan frekuensi dan had kuasa pancaran bagi setiap kelas</td></tr>
                   </tbody>
                 </table>Perubahan kepada struktur ini adalah untuk memastikan perakuan pengendali radio amatur yang diadakan di Malaysia sejajar dengan latihan yang diamalkan di negara-negara lain. Perubahan ini juga bertujuan untuk menggalakkan minat dari kalangan pelajar dalam bidang Sains, Teknologi, Kejuruteraan dan Matematik &#40;STEM&#41; melalui radio amatur dan menjurus kepada peningkatan pengendali radio amatur yang dapat membantu ketika bencana.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='//www.mcmc.gov.my/en/media/press-releases/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='noopener'>Siaran Akhbar MCMC</a> <a class='btn btn-sm btn-outline-primary mt-2' role='button' href='//www.mcmc.gov.my/en/media/announcements/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='noopener'>Pengumuman MCMC</a>
                 <hr><img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='media/image/akademi9mbw.jpg'>Dukacita dimaklumkan, selaras dengan perubahan format &amp; silibus peperiksaan, Akademi 9M dihentikan khidmatnya bagi membantu pengendali radio amatur menaiktaraf kelas mereka. Sejak memulakan Akademi 9M, seramai lebih 70 pengendali telahpun dilahirkan antaranya: 9M2MWZ, 9M2NUZ, 9M2SFF, 9M2VJP, 9M2VVH, 9M2BUN, 9M6RDY, 9M6AUA, 9M6JAY, 9M6RMD, 9M2KZI, dan ramai lagi.
@@ -339,45 +321,19 @@
               </div>
               <div class='desc'>Cubaan untuk mendaftarkan organisasi tidak semudah yang disangka. Ianya memakan masa hampir setengah dekad dengan pelbagai cabaran dan rintangan dalaman mahupun luaran yang perlu ditempuh. Bagaimanapun, Pengerusi &#40;Ustaz Zulkifli Abu&#41; dengan bantuan Setiausahanya &#40;Hafizi Ruslan&#41; dan semua jawatankuasa berpendirian teguh ingin meneruskan proses pendaftaran organisasi sehingga diperakui sah oleh Jabatan Pendaftar Pertubuhan Malaysia.<br>Akhirnya, dengan segala usaha dan bantuan yang diberikan, tepat pada <i><b>jam 10 pagi 1 Jun 2020</b></i>, organisasi berjaya didaftarkan secara sah dengan<table class='table table-sm table-borderless table-responsive text-center align-middle my-0'>
                   <tbody>
-                    <tr>
-                      <td>Nama Pertubuhan</td>
-                    </tr>
-                    <tr>
-                      <td><b>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</b></td>
-                    </tr>
-                    <tr>
-                      <td>No. Pendaftaran</td>
-                    </tr>
-                    <tr>
-                      <td><b>PPM-006-10-01062020</b></td>
-                    </tr>
+                    <tr><td>Nama Pertubuhan</td></tr>
+                    <tr><td><b>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</b></td></tr>
+                    <tr><td>No. Pendaftaran</td></tr>
+                    <tr><td><b>PPM-006-10-01062020</b></td></tr>
                   </tbody>
                 </table>dan mengekalkan <b>RoIPMARS</b> sebagai jenamanya. Jawatankuasa yang sah berdaftar seramai 9 orang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle my-0'>
                   <tbody>
-                    <tr>
-                      <td>9W2UZL</td>
-                      <td>Pengerusi</td>
-                    </tr>
-                    <tr>
-                      <td>9W2OGK</td>
-                      <td>Timbalan Pengerusi</td>
-                    </tr>
-                    <tr>
-                      <td>9W2LGX</td>
-                      <td>Setiausaha</td>
-                    </tr>
-                    <tr>
-                      <td>9W2SFF</td>
-                      <td>Penolong Setiausaha</td>
-                    </tr>
-                    <tr>
-                      <td>9W2ELM</td>
-                      <td>Bendahari</td>
-                    </tr>
-                    <tr>
-                      <td>9W2UBE<br>9W6MOZ<br>9W8ZZK<br>9W8VWW</td>
-                      <td>AJK</td>
-                    </tr>
+                    <tr><td>9W2UZL</td><td>Pengerusi</td></tr>
+                    <tr><td>9W2OGK</td><td>Timbalan Pengerusi</td></tr>
+                    <tr><td>9W2LGX</td><td>Setiausaha</td></tr>
+                    <tr><td>9W2SFF</td><td>Penolong Setiausaha</td></tr>
+                    <tr><td>9W2ELM</td><td>Bendahari</td></tr>
+                    <tr><td>9W2UBE<br>9W6MOZ<br>9W8ZZK<br>9W8VWW</td><td>AJK</td></tr>
                   </tbody>
                 </table><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='./member' target='_blank' rel='noopener'>Baca lanjut...</a></div>
             </div>
@@ -446,55 +402,36 @@
             <div class='direction-l'>
               <div class='flag-wrapper'>
                 <span class='hexa'></span>
+                <span class='flag'>Promosi ROIP bersama ASTRA</span>
+                <span class='time-wrapper'><span class='time'>21 Okt 2018</span></span>
+              </div>
+              <div class='desc'>Usaha terus dijalankan untuk mempromosikan ROIPMARS dimana kami dijemput untuk memberikan penerangan berkenaan ROIP &amp; VOIP di acara Mesyuarat Agung Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41; kali ke-20 &amp; Jamboree-On-The-Air&reg; &#40;JOTA&#41; ke-61 dan Jamboree-On-The-Internet&reg; &#40;JOTI&#41; ke-22 pada 19-21 Oktober 2018 yang bertempat di Guar Cempedak, Yan, Kedah.
+                <div class='ratio ratio-16x9'>
+                  <iframe class='rounded-5' loading='lazy' src='//www.youtube.com/embed/hWG5OXBC0nY' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class='direction-l'>
+              <div class='flag-wrapper'>
+                <span class='hexa'></span>
                 <span class='flag'>ROIPMARS</span>
                 <span class='time-wrapper'><span class='time'>Awal 2018</span></span>
               </div>
               <div class='desc'>MARDS gagal didaftarkan berpunca daripada beberapa masalah yang berlaku pada ketika itu. Tidak lama kemudian, sekali lagi penjenamaan dilakukan dengan lantikan Jawatankuasa Penaja <b>Malaysian Amateur ROIP Society &#40;MARS&#41;</b> seramai 19 orang yang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle'>
                   <tbody>
-                    <tr>
-                      <td>9W2UZL</td>
-                      <td>Presiden</td>
-                    </tr>
-                    <tr>
-                      <td>9W2ZEC</td>
-                      <td>Timbalan Presiden</td>
-                    </tr>
-                    <tr>
-                      <td>9W8ZZK</td>
-                      <td>Setiausaha</td>
-                    </tr>
-                    <tr>
-                      <td>9W2PIO</td>
-                      <td>Penolong Setiausaha</td>
-                    </tr>
-                    <tr>
-                      <td>9W2NUZ</td>
-                      <td>Bendahari</td>
-                    </tr>
-                    <tr>
-                      <td>9W2OGK<br>9W2BUN<br>9W2XQO</td>
-                      <td>Biro Siaraya</td>
-                    </tr>
-                    <tr>
-                      <td>9W2TVE</td>
-                      <td>Biro Ekonomi</td>
-                    </tr>
-                    <tr>
-                      <td>9M2MBT<br>9W2JE<br>9W2OTB<br>9W2OOL<br>9W2ZDP<br>9W2DJM</td>
-                      <td>AJK Domestik</td>
-                    </tr>
-                    <tr>
-                      <td>V85ABK<br>HS9QMG</td>
-                      <td>AJK Antarabangsa</td>
-                    </tr>
-                    <tr>
-                      <td>9M2RAN<br>9W2SMF</td>
-                      <td>Penasihat</td>
-                    </tr>
-                    <tr>
-                      <td>9M2RMT</td>
-                      <td>Station Master</td>
-                    </tr>
+                    <tr><td>9W2UZL</td><td>Presiden</td></tr>
+                    <tr><td>9W2ZEC</td><td>Timbalan Presiden</td></tr>
+                    <tr><td>9W8ZZK</td><td>Setiausaha</td></tr>
+                    <tr><td>9W2PIO</td><td>Penolong Setiausaha</td></tr>
+                    <tr><td>9W2NUZ</td><td>Bendahari</td></tr>
+                    <tr><td>9W2OGK<br>9W2BUN<br>9W2XQO</td><td>Biro Siaraya</td></tr>
+                    <tr><td>9W2TVE</td><td>Biro Ekonomi</td></tr>
+                    <tr><td>9M2MBT<br>9W2JE<br>9W2OTB<br>9W2OOL<br>9W2ZDP<br>9W2DJM</td><td>AJK Domestik</td></tr>
+                    <tr><td>V85ABK<br>HS9QMG</td><td>AJK Antarabangsa</td></tr>
+                    <tr><td>9M2RAN<br>9W2SMF</td><td>Penasihat</td></tr>
+                    <tr><td>9M2RMT</td><td>Station Master</td></tr>
                   </tbody>
                 </table>Visi dan Misi ROIPMARS adalah untuk <b>membawa nama Malaysia ke persada Antarabangsa dalam Teknologi Komunikasi Radio Dua Hala</b>.<br>Dalam waktu yang sama, pelayan berasaskan Linux yang berada di Perancis mengalami masalah sambungan kependaman tinggi terhadap pengguna lalu dipindahkan kembali ke Pusat Data di Malaysia bagi mengatasi risiko kualiti sambungan dan didaftarkan dengan nama roipmars.com.</div>
             </div>
@@ -508,38 +445,14 @@
               </div>
               <div class='desc'>Hasrat beberapa ahli komuniti untuk mendaftarkan MeDiC sebagai satu organisasi yang sah di Malaysia terjadi apabila berlaku lantikan Jawatankuasa Penaja <b>Malaysian Amateur Radio Digital Society &#40;MARDS&#41;</b> seramai 15 orang yang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle'>
                   <tbody>
-                    <tr>
-                      <td>9W2UZL</td>
-                      <td>Presiden</td>
-                    </tr>
-                    <tr>
-                      <td>9W2ZEC</td>
-                      <td>Timbalan Presiden</td>
-                    </tr>
-                    <tr>
-                      <td>9W8ZZK</td>
-                      <td>Setiausaha</td>
-                    </tr>
-                    <tr>
-                      <td>9W2PIO</td>
-                      <td>Penolong Setiausaha</td>
-                    </tr>
-                    <tr>
-                      <td>9W2DJM</td>
-                      <td>Bendahari</td>
-                    </tr>
-                    <tr>
-                      <td>9W2OGK</td>
-                      <td>Biro Siaraya</td>
-                    </tr>
-                    <tr>
-                      <td>9M2MBT<br>9W2JE<br>9W2NDI<br>9W2TVE<br>9W2OOL<br>9W2ZDP<br>9W2BUN</td>
-                      <td>AJK Domestik</td>
-                    </tr>
-                    <tr>
-                      <td>V85ABK<br>HS9QMG</td>
-                      <td>AJK Antarabangsa</td>
-                    </tr>
+                    <tr><td>9W2UZL</td><td>Presiden</td></tr>
+                    <tr><td>9W2ZEC</td><td>Timbalan Presiden</td></tr>
+                    <tr><td>9W8ZZK</td><td>Setiausaha</td></tr>
+                    <tr><td>9W2PIO</td><td>Penolong Setiausaha</td></tr>
+                    <tr><td>9W2DJM</td><td>Bendahari</td></tr>
+                    <tr><td>9W2OGK</td><td>Biro Siaraya</td></tr>
+                    <tr><td>9M2MBT<br>9W2JE<br>9W2NDI<br>9W2TVE<br>9W2OOL<br>9W2ZDP<br>9W2BUN</td><td>AJK Domestik</td></tr>
+                    <tr><td>V85ABK<br>HS9QMG</td><td>AJK Antarabangsa</td></tr>
                   </tbody>
                 </table>Motto yang dibawakan oleh MARD&#39;S adalah &#39;<b>Jika Bukan Kita Siapa Lagi, Jika Bukan Sekarang Bila Lagi</b>&#39;.<br>Pada waktu yang sama, pelayan yang berasaskan Linux yang berada di Singapura mengalami masalah waktu operasi lalu dipindahkan ke Pusat Data di Perancis bagi mengatasi masalah tersebut.</div>
             </div>
@@ -553,21 +466,11 @@
               </div>
               <div class='desc'><b>MeDiC</b> sempat menjadi salah satu komuniti yang dikenali ramai oleh penggiat teknologi komunikasi radio di Malaysia, Indonesia, Brunei, dan Selatan Thailand satu ketika dahulu. Konsep 5M yang dibawakan oleh MeDiC adalah:<table class='table table-sm table-responsive table-bordered table-striped text-center align-middle mt-2'>
                   <tbody>
-                    <tr>
-                      <td><b>MUDAH</b></td>
-                    </tr>
-                    <tr>
-                      <td><b>MURAH</b></td>
-                    </tr>
-                    <tr>
-                      <td><b>MERIAH</b></td>
-                    </tr>
-                    <tr>
-                      <td><b>MENJAGA HUBUNGAN</b></td>
-                    </tr>
-                    <tr>
-                      <td><b>MENGUASAI ILMU</b></td>
-                    </tr>
+                    <tr><td><b>MUDAH</b></td></tr>
+                    <tr><td><b>MURAH</b></td></tr>
+                    <tr><td><b>MERIAH</b></td></tr>
+                    <tr><td><b>MENJAGA HUBUNGAN</b></td></tr>
+                    <tr><td><b>MENGUASAI ILMU</b></td></tr>
                   </tbody>
                 </table><img class='img-thumbnail rounded-5 mx-auto d-block mb-2' loading='lazy' src='media/image/001.jpg'>Pada waktu sama, pelayan TeamSpeak yang berada di kediaman 9W2UZL mengalami masalah beban &amp; muatan tinggi menjejaskan sambungan &amp; kualiti terhadap pengguna di Asia Tenggara khasnya Malaysia dipindahkan ke Pusat Data di Singapura bagi mengatasi masalah tersebut.</div>
             </div>
@@ -589,7 +492,7 @@
                 <span class='flag'>Pengenalan</span>
                 <span class='time-wrapper'><span class='time'>Akhir 2014</span></span>
               </div>
-              <div class='desc'>TeamSpeak3 mula diperkenalkan di Malaysia untuk khidmat komunikasi Amatur dan Komersial oleh 9W2UZL &#40;Ustaz Zulkifli Abu&#41; yang pelayannya dihoskan sendiri oleh beliau di kediamannya di Bukit Beruntung, Rawang, Selangor. Bermula terbentuk beberapa rakan radio amatur yang berminat dengan teknologi komunikasi radio alaf baru dengan konsep Murah &amp; Meriah apabila diperkenalkan dari rakan ke rakan yang lain.</div>
+              <div class='desc'>TeamSpeak3 mula diperkenalkan di Malaysia untuk khidmat komunikasi Amatur dan Komersial oleh 9W2UZL &#40;Zulkifli Abu&#41; yang pelayannya dihoskan sendiri oleh beliau di kediamannya di Bukit Beruntung, Rawang, Selangor. Bermula terbentuk beberapa rakan radio amatur yang berminat dengan teknologi komunikasi radio alaf baru dengan konsep Murah &amp; Meriah apabila diperkenalkan dari rakan ke rakan yang lain.</div>
             </div>
           </li>
         </ul>

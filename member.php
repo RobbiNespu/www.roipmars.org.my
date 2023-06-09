@@ -250,17 +250,14 @@
             <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-title fw-bold m-0'>
-                  <p>BAH. SIARAYA &amp; AKTIVITI</p>
+                  <p>BAH. SIARAYA &amp; AKTIVITI</p> &#40;Pegawai Lantikan Sementara&#41;</p>
                 </div>
                 <div class='card-img'>
-                  <img src='//icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
-                  <!-- <img src='media/image/member/013.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'> -->
+                  <img src='media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-subtitle'>
-                  <p class='fw-bolder m-0'>AHLI LUPUT</p>
-                  <p class='fw-semibold m-0'>&mdash;</p>
-                  <!-- <p class='fw-bolder m-0'>VERONICA CATHERINE</p>
-                  <p class='fw-semibold m-0'>9W8VWW</p> -->
+                  <p class='fw-bolder m-0'>MOHD SABRI BIN IBRAHIM</p>
+                  <p class='fw-semibold m-0'>9W2AYP</p>
                 </div>
               </div>
             </div>

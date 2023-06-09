@@ -662,11 +662,13 @@
 					</tbody>
 					<caption class='text-center'>
 						<ul class='list-group'>
-							<li class='list-group-item'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-							<li class='list-group-item'><sup>2</sup> Pilihan Acara oleh NCS</li>
-							<li class='list-group-item'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
-							<li class='list-group-item'><i class='bi-send-x-fill text-danger'></i> Laporan tidak dihantar</li>
-							<li class='list-group-item'><i class='bi-envelope-x-fill text-danger'></i> Laporan tidak lengkap</li>
+							<li class='list-group-item list-group-item-secondary'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
+							<li class='list-group-item list-group-item-secondary'><sup>2</sup> Pilihan Acara oleh NCS</li>
+						</ul>
+						<ul class='list-group list-group-horizontal'>
+							<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
+							<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-send-x-fill text-danger'></i> Laporan tidak dihantar</li>
+							<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-envelope-x-fill text-danger'></i> Laporan tidak lengkap</li>
 						</ul>
 					</capton>
 				</table>

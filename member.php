@@ -360,7 +360,7 @@
               <tr class='text-warning-emphasis opacity-50'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>2022-12-31</td></tr>
               <tr class='text-danger-emphasis opacity-25'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>2021-07-02</td></tr>
               <tr class='text-warning-emphasis opacity-50'><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2022-12-31</td></tr>
-              <tr class='text-warning-emphasis opacity-50'><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>2022-12-31</td></tr>
+              <tr class='text-success-emphasis'><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>2023-12-31</td></tr>
               <tr class='text-danger-emphasis opacity-25'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>2021-07-02</td></tr>
               <tr class='text-warning-emphasis opacity-50'><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>2022-12-31</td></tr>
               <tr class='text-success-emphasis'><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>2023-12-31</td></tr>

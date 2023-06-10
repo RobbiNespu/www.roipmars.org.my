@@ -252,10 +252,6 @@
 						<div class='carousel-item'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2hnf.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W2HNF'>
-									<p class='lh-1'>9W2HNF<br>HANAFI<br>PETUGAS AKTIVITI</p>
-								</div>
-								<div class='vstack gap-2'>
 									<img src='media/image/ncs/9w2yhm.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W2YHM'>
 									<p class='lh-1'>9W2YHM<br>HELMI<br>PETUGAS AKTIVITI</p>
 								</div>
@@ -417,8 +413,8 @@
 						<tr><td>Ahad<br>04/06</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAJCP</td><td>14</td></tr>
 						<tr class='bg-primary-subtle'><td>Isnin<br>05/06</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Alam Sekitar Sedunia&#41;</td><td>9M6RMD</td><td>57</td></tr>
 						<tr><td>Rabu<br>07/06</td><td>2100MY</td><td>Learning English Net</td><td>9M6AUA</td><td>35</td></tr>
-						<tr><td>Jumaat<br>09/06</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>9W2ESR</td><td>&shy;</td></tr>
-						<tr><td>Sabtu<br>10/06</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W2HNF</td><td>&shy;</td></tr>
+						<tr><td>Jumaat<br>09/06</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>9W2ESR</td><td>46</td></tr>
+						<tr><td>Sabtu<br>10/06</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9M2SFL</td><td>&shy;</td></tr>
 						<tr><td>Ahad<br>11/06</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAPLY</td><td>&shy;</td></tr>
 						<tr><td>Isnin<br>12/06</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9M2SFL</td><td>&shy;</td></tr>
 						<tr class='bg-info-subtle'><td>Rabu<br>14/06</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;World Blood Donor Day&#41;</td><td>9M6JAY</td><td>&shy;</td></tr>
@@ -427,12 +423,12 @@
 						<tr class='bg-danger-subtle'><td>Ahad<br>18/06</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Keputeraan Sultan Kedah&#41;<br>&#40;Hari Bapa&#41;</td><td>113DAYJT</td><td>&shy;</td></tr>
 						<tr><td>Isnin<br>19/06</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2ESR</td><td>&shy;</td></tr>
 						<tr class='bg-info-subtle'><td>Rabu<br>21/06</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;International Yoga Day&#41;</td><td>9M6RDY</td><td>&shy;</td></tr>
-						<tr class='bg-primary-subtle'><td>Jumaat<br>23/06</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net Santai<br>&#40;Hari Janda Antarabangsa&#41;</td><td>9W2HNF</td><td>&shy;</td></tr>
-						<tr><td>Sabtu<br>24/06</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W2SNN</td><td>&shy;</td></tr>
+						<tr class='bg-primary-subtle'><td>Jumaat<br>23/06</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net Santai<br>&#40;Hari Janda Antarabangsa&#41;</td><td>9W2SNN</td><td>&shy;</td></tr>
+						<tr><td>Sabtu<br>24/06</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W2YHM</td><td>&shy;</td></tr>
 						<tr><td>Ahad<br>25/06</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAISS</td><td>&shy;</td></tr>
-						<tr><td>Isnin<br>26/06</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2YHM</td><td>&shy;</td></tr>
+						<tr><td>Isnin<br>26/06</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2YJT</td><td>&shy;</td></tr>
 						<tr class='bg-info-subtle'><td>Rabu<br>28/06<sup>1</sup></td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;Aidiladha Eve<sup>1</sup>&#41;</td><td>9M6RHM</td><td>&shy;</td></tr>
-						<tr class='bg-primary-subtle'><td>Jumaat<br>30/06<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Raya Aidiladha<sup>1</sup>&#41;</td><td>9W2YJT</td><td>&shy;</td></tr>
+						<tr class='bg-primary-subtle'><td>Jumaat<br>30/06<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Raya Aidiladha<sup>1</sup>&#41;</td><td>9W6AZE</td><td>&shy;</td></tr>
 						
 						<tr><td>Sabtu<br>01/07</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>&shy;</td><td>&shy;</td></tr>
 						<tr><td>Ahad<br>02/07</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>&shy;</td><td>&shy;</td></tr>

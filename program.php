@@ -252,15 +252,15 @@
 						<div class='carousel-item'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2yhm.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W2YHM'>
+									<img src='media/image/ncs/9w2yhm.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W2YHM'>
 									<p class='lh-1'>9W2YHM<br>HELMI<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/011.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-primary-subtle bg-gradient mx-auto' alt='9W2NDI'>
+									<img src='media/image/member/011.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2NDI'>
 									<p class='lh-1'>9W2NDI<br>NASA<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/003.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-primary-subtle bg-gradient mx-auto' alt='9M2RAN'>
+									<img src='media/image/member/003.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9M2RAN'>
 									<p class='lh-1'>9M2RAN<br>IMRAN<br>PETUGAS AKTIVITI</p>
 								</div>
 							</div>
@@ -453,7 +453,7 @@
 						<tr class='bg-primary-subtle'><td>Sabtu<br>29/07</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Hari Harimau Antarabangsa&#41;</td><td>&shy;</td><td>&shy;</td></tr>
 						<tr class='bg-danger-subtle'><td>Ahad<br>30/07</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Keputeraan Sultan Pahang &#40;YDPA&#41;&#41;<br>&#40;Hari Persahabatan&#41;</td><td>&shy;</td><td>&shy;</td></tr>
 						<tr class='bg-primary-subtle'><td>Isnin<br>31/07</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Hari Pahlawan&#41;</td><td>&shy;</td><td>&shy;</td></tr>
-						<!-- 
+						
 						<tr><td>Rabu<br>02/08</td><td>2100MY</td><td>Learning English Net</td><td>&shy;</td><td>&shy;</td></tr>
 						<tr><td>Jumaat<br>04/08</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>&shy;</td><td>&shy;</td></tr>
 						<tr><td>Sabtu<br>05/08</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>&shy;</td><td>&shy;</td></tr>
@@ -581,7 +581,7 @@
 						<tr class='bg-dark-subtle'><td>Sabtu<br>30/12</td><td>TBC</td><td>Mesyuarat Agung DwiTahunan<br>Biennial General Meeting<br>BGM 2023</td><td>TBC</td><td>&mdash;</td></tr>
 						<tr><td>Sabtu<br>30/12</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>&shy;</td><td>&shy;</td></tr>
 						<tr class='bg-danger-subtle'><td>Ahad<br>31/12</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Ambang Tahun Baru&#41;</td><td>&shy;</td><td>&shy;</td></tr>
-						
+						<!-- 
 						<tr><td>Isnin<br>01/01</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Awal Minggu<br>&#40;Tahun Baru 2024&#41;</td><td>&shy;</td><td>&shy;</td></tr>
 						<tr><td>Rabu<br>03/01</td><td>2100MY</td><td>Learning English Net</td><td>&shy;</td><td>&shy;</td></tr>
 						<tr><td>Jumaat<br>05/01</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>&shy;</td><td>&shy;</td></tr>

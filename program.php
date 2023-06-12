@@ -415,7 +415,7 @@
 						<tr><td>Rabu<br>07/06</td><td>2100MY</td><td>Learning English Net</td><td>9M6AUA</td><td>35</td></tr>
 						<tr><td>Jumaat<br>09/06</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>9W2ESR</td><td>46</td></tr>
 						<tr><td>Sabtu<br>10/06</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W2LGX</td><td>47</td></tr>
-						<tr><td>Ahad<br>11/06</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAPLY</td><td>&shy;</td></tr>
+						<tr><td>Ahad<br>11/06</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAPLY</td><td>17</td></tr>
 						<tr><td>Isnin<br>12/06</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9M2SFL</td><td>&shy;</td></tr>
 						<tr class='bg-info-subtle'><td>Rabu<br>14/06</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;World Blood Donor Day&#41;</td><td>9M6JAY</td><td>&shy;</td></tr>
 						<tr><td>Jumaat<br>16/06</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>9M6RMD</td><td>&shy;</td></tr>

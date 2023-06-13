@@ -17,8 +17,9 @@
           <div class='col-md-3 ml-lg-0 mt-0 mb-3'>
             <div class='text-md-end'>
               <a class='text-reset text-decoration-none' href='//fb.com/roipmars.org.my'><i class='bi-facebook h1 mx-1' style='color: #4267B2'></i></a>
-              <a class='text-reset text-decoration-none' href='//m.me/100870702762488'><i class='bi-messenger h1 mx-1' style='color: #006AFF'></i></a>
+              <a class='text-reset text-decoration-none' href='//discord.gg/BySA7zUtyF'><i class='bi-discord h1 mx-1' style='color: #5865F2'></i></a>
               <a class='text-reset text-decoration-none' href='//t.me/marsts3servercyberjaya'><i class='bi-telegram h1 mx-1' style='color: #0088cc'></i></a>
+              <a class='text-reset text-decoration-none' href='//m.me/100870702762488'><i class='bi-messenger h1 mx-1' style='color: #006AFF'></i></a>
               <a class='text-reset text-decoration-none' href='//wa.me/c/60333960874'><i class='bi-whatsapp h1 mx-1' style='color: #25D366'></i></a>
               <a class='text-reset text-decoration-none' href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'><i class='bi-headset h1 mx-1'></i></a>
             </div>

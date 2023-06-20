@@ -13,9 +13,9 @@
         <div class='row d-flex align-items-center pb-3'>
           <div class='col-md-3'>
             <div class='text-md-start'>
-              <a class='text-reset text-decoration-none' href='//fb.com/roipmars.org.my'><i class='bi-facebook h1 mx-1' style='color: #4267B2'></i></a>
+              <a class='text-reset text-decoration-none' href='//fb.me/roipmars.org.my'><i class='bi-facebook h1 mx-1' style='color: #4267B2'></i></a>
               <a class='text-reset text-decoration-none' href='//discord.gg/6ddssy5jGB'><i class='bi-discord h1 mx-1' style='color: #5865F2'></i></a>
-              <a class='text-reset text-decoration-none' href='//www.youtube.com/channel/UCcndTISc4k2qXwQpIe3hzdA'><i class='bi-youtube h1 mx-1' style='color: #c4302b'></i></a>
+              <a class='text-reset text-decoration-none' href='//bit.ly/448EkGn'><i class='bi-youtube h1 mx-1' style='color: #c4302b'></i></a>
               <a class='text-reset text-decoration-none' href='//t.me/roipmars_network'><i class='bi-telegram h1 mx-1' style='color: #0088cc'></i></a>
               <a class='text-reset text-decoration-none' href='//m.me/100870702762488'><i class='bi-messenger h1 mx-1' style='color: #006AFF'></i></a>
               <a class='text-reset text-decoration-none' href='//wa.me/c/60333960874'><i class='bi-whatsapp h1 mx-1' style='color: #25D366'></i></a>

@@ -104,7 +104,7 @@
       <div class='col my-3'>
         <img src='media/image/banner/roipmarsv.png' loading='lazy' class='img-fluid rounded-5 shadow mb-3' width='85%' alt='banner-index'>
         <h1 class='h1-responsive'>Selamat Datang ke RoIPMARS</h1>
-        <p class='fs-5'>Malaysian Amateur Radio over Internet Protocol Society &#40;MARS&#41;</p>
+        <p class='fs-5'>Malaysian Amateur Radio over Internet Protocol Society &#40;RoIPMARS&#41;</p>
         <p class='fs-3'>&#8212; MUDAH &#8212; MURAH &#8212; MERIAH &#8212; MERAPATKAN HUBUNGAN &#8212; MENJAGA SILATURRAHIM &#8212;</p>
       </div>
     </div>

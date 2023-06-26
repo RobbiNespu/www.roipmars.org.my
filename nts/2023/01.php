@@ -2,25 +2,25 @@
 <html lang='ms-MY' data-bs-theme='dark'>
 
 <head>
-  <title>PPRK | Sambungan Sijil NCS &amp; Kad QSL</title>
+  <title>RoIPMARS Network | Sambungan Sijil NCS &amp; Kad QSL</title>
   <meta charset='utf-8'>
   <meta http-equiv='Content-Type' content='text/html'>
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
-  <meta name='title' content='PPRK | Sambungan Sijil NCS & Kad QSL'>
+  <meta name='title' content='RoIPMARS Network | Sambungan Sijil NCS & Kad QSL'>
   <meta name='description' content='Persatuan Peminat Radio Komunikasi (RoIP) Sambungan Sijil NCS & Kad QSL'>
   <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
-  <meta property='og:title' content='PPRK | Sambungan Sijil NCS & Kad QSL'>
+  <meta property='og:title' content='RoIPMARS Network | Sambungan Sijil NCS & Kad QSL'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Sambungan Sijil NCS & Kad QSL'>
   <meta property='og:url' content='www.roipmars.org.my/nts/2023/01'>
   <meta property='og:image' content='../../media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
-  <meta name='twitter:title' content='PPRK | Sambungan Sijil NCS & Kad QSL'>
+  <meta name='twitter:title' content='RoIPMARS Network | Sambungan Sijil NCS & Kad QSL'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Sambungan Sijil NCS & Kad QSL'>
   <meta name='twitter:url' content='www.roipmars.org.my/nts/2023/01'>
   <meta name='twitter:image' content='../../media/image/brand_sq.png'>

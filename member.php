@@ -2,25 +2,25 @@
 <html lang='ms-MY' data-bs-theme='dark'>
 
   <head>
-    <title>PPRK | Keahlian</title>
+    <title>RoIPMARS Network | Keahlian</title>
     <meta charset='utf-8'>
     <meta http-equiv='Content-Type' content='text/html'>
     <meta http-equiv='content-language' content='ms-MY'>
     <meta name='language' content='Malay'>
     <meta name='author' content='HafiziRuslan'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
-    <meta name='title' content='PPRK | Keahlian'>
+    <meta name='title' content='RoIPMARS Network | Keahlian'>
     <meta name='description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
     <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
     <meta name='robots' content='index, follow'>
     <meta property='og:site_name' content='RoIPMARS'>
-    <meta property='og:title' content='PPRK | Keahlian'>
+    <meta property='og:title' content='RoIPMARS Network | Keahlian'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
     <meta property='og:url' content='www.roipmars.org.my/member'>
     <meta property='og:image' content='media/image/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
-    <meta name='twitter:title' content='PPRK | Keahlian'>
+    <meta name='twitter:title' content='RoIPMARS Network | Keahlian'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
     <meta name='twitter:url' content='www.roipmars.org.my/member'>
     <meta name='twitter:image' content='media/image/brand_sq.png'>

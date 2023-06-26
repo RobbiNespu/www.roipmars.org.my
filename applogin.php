@@ -66,7 +66,7 @@
   <script src='assets/js/fbchat.js'></script>
   <header class='sticky-top bg-body-tertiary'>
     <div class='container hstack mb-3'>
-      <a class='me-auto' href='//www.roipmars.org.my'><img class='img-fluid object-fit-fill w-50' src='media/image/brand.png' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+      <a class='me-auto' href='/'><img class='img-fluid object-fit-fill w-50' src='media/image/brand.png' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
       <p class='text-end my-3 text-nowrap fs-1'>Log Masuk Aplikasi</p>
     </div>
   </header>

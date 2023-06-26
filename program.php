@@ -422,7 +422,7 @@
 						<tr><td>Sabtu<br>17/06</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W2AYP</td><td>61</td></tr>
 						<tr class='bg-danger-subtle'><td>Ahad<br>18/06</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net Hujung Minggu<br>&#40;Hari Keputeraan Sultan Kedah&#41;<br>&#40;Hari Bapa&#41;</td><td>113DAYJT</td><td>19</td></tr>
 						<tr><td>Isnin<br>19/06</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2OGK</td><td>41</td></tr>
-						<tr class='bg-info-subtle'><td>Rabu<br>21/06</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;International Yoga Day&#41;</td><td>9M6JAY</td><td><i class='bi-send-x-fill text-danger fs-3'></i></td></tr>
+						<tr class='bg-info-subtle'><td>Rabu<br>21/06</td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;International Yoga Day&#41;</td><td>9M6JAY</td><td>30</td></tr>
 						<tr class='bg-primary-subtle'><td>Jumaat<br>23/06</td><td>2100MY</td><td>&#91;KHAS&#93; ROIPMARS Net Santai<br>&#40;Hari Janda Antarabangsa&#41;</td><td>9W2YHM</td><td>43</td></tr>
 						<tr><td>Sabtu<br>24/06</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W2YHM</td><td>26</td></tr>
 						<tr><td>Ahad<br>25/06</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAJCP</td><td>16</td></tr>

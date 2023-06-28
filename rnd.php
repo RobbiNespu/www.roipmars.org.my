@@ -135,7 +135,7 @@
             <div class='card-body mx-3'>
               <p class='card-title fs-2 fw-bold'>ZULKIFLI ABU &#40;9W2UZL / 113MSUZL&#41; <a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-person-vcard'></i></a></p>
               <p class='card-subtitle fs-5 fw-semibold'>FOUNDER, LEAD ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
-              <p class='card-subtitle fs-5 fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; KETUA PENYELIDIK</p>
+              <p class='card-subtitle fs-5 fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; PENYELIDIK</p>
               <p class='card-subtitle fw-light'>&#91;Sejak 2018&#93; Dilantik oleh MART&acute;S sebagai penyelidik SIG pengkhususan &#39;ROIP&#39;</p>
             </div>
           </div>

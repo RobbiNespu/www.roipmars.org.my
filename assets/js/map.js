@@ -669,4 +669,20 @@ var A033C = L.circle([6.1127269, 102.277425], {
   fillOpacity: 0.175,
   interactive: false,
 });
+var A034 = L.marker([2.465392, 101.856669], {
+  title: "A034",
+  icon: marsMemIcon,
+}).bindPopup(
+  '<img class="img-fluid object-fit-fill rounded-circle mx-auto my-1 bg-dark-subtle bg-gradient" src="../media/image/member/034.png" loading="lazy"><p class="text-center fw-bold fs-3 m-0">A034</p><p class="text-center fw-light fs-5 m-0">9W2IKA @ OJ02WL</p><p class="text-center m-0">IDHAM KHALIL BIN ABDULL WAHAB</p>',
+  {
+    closeButton: false,
+    attribution: marsattr,
+  }
+);
+var A034C = L.circle([2.465392, 101.856669], {
+  radius: 10000,
+  stroke: false,
+  fillOpacity: 0.175,
+  interactive: false,
+});
 L.layerGroup([GMS, GYQ, GOZ, GPA, A001, A001C, A002, A002C, A003, A003C, A004, A004C, B005, B005C, A006, A006C, A007, A007C, A008, A008C, A009, A009C, A010, A010C, A011, A011C, A012, A012C, /*A013, A013C, A014, A014C, A015, A015C,*/ A016, A016C, A017, A017C, /*A018, A018C, B019, B019C,*/ A020, A020C, /*A021, A021C,*/ A022, A022C, A023, A023C, /*A024, A024C,*/ A025, A025C, A026, A026C, A027, A027C, A028, A028C, A029, A029C, A030, A030C, A031, A031C, B032, B032C, A033, A033C,]).addTo(map);

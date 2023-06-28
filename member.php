@@ -368,6 +368,7 @@
               <tr class='text-success-emphasis'><td>A031</td><td>9W2EZK</td><td>MOHD IFFIQ ZIKRY BIN JAMAL</td><td>2025-12-31</td></tr>
               <tr class='text-success-emphasis'><td>B032</td><td>V85AFF</td><td>MAHATHIR BIN ARIFFIN</td><td>2023-12-31</td></tr>
               <tr class='text-success-emphasis'><td>A033</td><td>9W2AKK</td><td>MUHAMMAD KHAIRUL AMILIN BIN ISMAIL</td><td>2023-12-31</td></tr>
+              <tr class='text-success-emphasis'><td>A034</td><td>9W2IKA</td><td>IDHAM KHALIL BIN ABDULL WAHAB</td><td>2023-12-31</td></tr>
             </tbody>
           </table>
         </div>

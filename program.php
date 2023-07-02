@@ -428,9 +428,9 @@
 						<tr><td>Ahad<br>25/06</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAJCP</td><td>16</td></tr>
 						<tr><td>Isnin<br>26/06</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2LGX</td><td>35</td></tr>
 						<tr class='bg-info-subtle'><td>Wednesday<br>28/06<sup>1</sup></td><td>2100MY</td><td>&#91;SPECIAL&#93; Learning English Net<br>&#40;Aidiladha Eve<sup>1</sup>&#41;</td><td>9W2LGX</td><td>32</td></tr>
-						<tr class='bg-primary-subtle'><td>Jumaat<br>30/06<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Raya Aidiladha<sup>1</sup>&#41;</td><td>9W6AZE</td><td>&shy;</td></tr>
+						<tr class='bg-primary-subtle'><td>Jumaat<br>30/06<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Raya Aidiladha<sup>1</sup>&#41;<br>&#40;Hari Asteroid Antarabangsa&#41;</td><td>9W6AZE</td><td><i class='bi-send-x-fill text-danger fs-3'></i></td></tr>
 						
-						<tr><td>Sabtu<br>01/07</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W6MOZ</td><td>&shy;</td></tr>
+						<tr><td>Sabtu<br>01/07</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9M2SFL</td><td>47</td></tr>
 						<tr><td>Ahad<br>02/07</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAJCP</td><td>&shy;</td></tr>
 						<tr><td>Isnin<br>03/07</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>V85AFF</td><td>&shy;</td></tr>
 						<tr><td>Wednesday<br>05/07</td><td>2100MY</td><td>Learning English Net</td><td>9W6RHN</td><td>&shy;</td></tr>

@@ -435,7 +435,7 @@
 						<tr><td>Isnin<br>03/07</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>V85AFF</td><td><i class='bi-send-x-fill text-danger fs-3'></i></td></tr>
 						<tr><td>Wednesday<br>05/07</td><td>2100MY</td><td>Learning English Net</td><td>9W6RHN</td><td>&shy;</td></tr>
 						<tr class='bg-primary-subtle'><td>Jumaat<br>07/07</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Bandar Warisan Dunia Georgetown&#41;</td><td>9M2SFL</td><td>&shy;</td></tr>
-						<tr class='bg-primary-subtle'><td>Sabtu<br>08/07</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Malam Minggu<br>&#40;Harijadi YDP Negeri Pulau Pinang&#41;</td><td>9M6RMD</td><td>&shy;</td></tr>
+						<tr><td>Sabtu<br>08/07</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9M6RMD</td><td>&shy;</td></tr>
 						<tr><td>Ahad<br>09/07</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAPLY</td><td>&shy;</td></tr>
 						<tr><td>Isnin<br>10/07</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2AYP</td><td>&shy;</td></tr>
 						<tr><td>Wednesday<br>12/07</td><td>2100MY</td><td>Learning English Net</td><td>9W6WOT</td><td>&shy;</td></tr>

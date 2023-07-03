@@ -131,7 +131,7 @@
         <table class='table table-bordered table-sm text-center align-middle bg-success-subtle'>
           <tbody>
             <tr><th>BERTIMBANG RASA</th><td>Tidak pernah secara sedar beroperasi untuk mengurangkan keseronokan orang lain.</td></tr>
-            <tr><th>SETIA</th><td>Menawarkan kesetiaan, galakan dan sokongan kepada amatur lain, kelab tempatan, Persatuan Radio IARU, yang melaluinya Radio Amatur di negaranya diwakili di peringkat nasional dan antarabangsa.</td></tr>
+            <tr><th>SETIA</th><td>Menawarkan kesetiaan, galakan dan sokongan kepada amatur lain, kelab tempatan, Persatuan Radio IARU, yang melalui Persatuan Radio Amatur di negaranya diwakili di peringkat nasional dan antarabangsa.</td></tr>
             <tr><th>PROGRESIF</th><td>Memastikan stesennya dikemas kini. Ia dibina dengan baik dan efisien. Amalan pengendaliannya tidak boleh dicela.</td></tr>
             <tr><th>MESRA</th><td>Beroperasi dengan perlahan dan sabar apabila diminta; menawarkan nasihat mesra kepada pemula; bantuan, kerjasama dan pertimbangan yang baik untuk kepentingan bersama.</td></tr>
             <tr><th>SEIMBANG</th><td>Radio adalah hobi, tidak pernah mengganggu tugas yang terhutang kepada keluarga, pekerjaan, sekolah atau masyarakat.</td></tr>

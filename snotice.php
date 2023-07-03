@@ -114,12 +114,12 @@
           <th>Tajuk</th>
           <th>Rujukan Kami</th>
         </thead>
-        <tbody'>
+        <tbody>
 
           <tr>
-            <td>10 Mei 2023</td>
-            <td>Peralihan Pelayan roipmars.com</td>
-            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/06' target='_blank' rel='noopener'>NtsMARS 2023/06</a></td>
+            <td>04 Jul 2023</td>
+            <td>Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/7' target='_blank' rel='noopener'>NtsMARS 2023/07</a></td>
           </tr>
           <tr>
             <td>08 Mei 2023</td>

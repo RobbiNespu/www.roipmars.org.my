@@ -14,8 +14,8 @@
   <body>
     <header>
       <div class='container-fluid bg-body-tertiary text-center py-1'>
-        <a href='/'><img class='img-fluid object-fit-fill' width='250' src='../../media/image/brand.png'></a>
-        <h1 class='mt-2' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Jaringan Kumpulan RoIPMARS</h1>
+        <a href='/'><img class='img-fluid object-fit-fill' width='300' src='../../media/image/brand.png'></a>
+        <h1 class='mt-2' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Jaringan RoIPMARS</h1>
         <p class='fs-4 fw-light mb-2' style='font-family: "Electrolize", sans-serif'>&mdash; roipmars.com &mdash; roipmars.org.my &mdash;</p>
       </div>
     </header>

@@ -431,7 +431,7 @@
 						<tr class='bg-primary-subtle'><td>Jumaat<br>30/06<sup>1</sup></td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Raya Aidiladha<sup>1</sup>&#41;<br>&#40;Hari Asteroid Antarabangsa&#41;</td><td>9W6AZE</td><td><i class='bi-send-x-fill text-danger fs-3'></i></td></tr>
 						
 						<tr><td>Sabtu<br>01/07</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9M2SFL</td><td>47</td></tr>
-						<tr><td>Ahad<br>02/07</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAJCP</td><td>&shy;</td></tr>
+						<tr><td>Ahad<br>02/07</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAJCP</td><td><i class='bi-send-x-fill text-danger fs-3'></i></td></tr>
 						<tr><td>Isnin<br>03/07</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>V85AFF</td><td>&shy;</td></tr>
 						<tr><td>Wednesday<br>05/07</td><td>2100MY</td><td>Learning English Net</td><td>9W6RHN</td><td>&shy;</td></tr>
 						<tr class='bg-primary-subtle'><td>Jumaat<br>07/07</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net Santai<br>&#40;Hari Bandar Warisan Dunia Georgetown&#41;</td><td>9M2SFL</td><td>&shy;</td></tr>

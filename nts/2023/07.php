@@ -71,10 +71,10 @@
     <p class='lh-sm'>Pengguna yang dihormati,</p>
     <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</p>
     <p class='mt-2'>Perkara diatas adalah dirujuk.</p>
-    <p>Adalah dimaklumkan bahawa rangkaian RoIPMARS <strong>tidak pernah atau akan</strong> dengan <strong>niat atau tidak</strong> menyambungkan rangkaian kami ke mana-mana jaringan pengulang yang bukan milik kami.</p>
-    <p>Sehubungan dengan kejadian baru-baru ini, pihak kami juga terkejut dengan apa yang berlaku dan kami tidak akan bertanggungjawab atas apa yang telah berlaku.</p>
-    <p>Kami memohon agar semua penggiat radio perantara &#39;gateway&#40; untuk tidak melakukan sambungan dari mana-mana rangkaian kami ke mana-mana pengulang tanpa keizinan bertulis dari pihak pemilik pengulang tersebut.</p>
-    <p>Segala kecuaian atau kesilapan yang telah/sedang/akan berlaku adalah tanggungjawab sepenuhnya pemilik perantara tersebut. Pihak kami tidak akan bertanggungjawab atas segala kecuaian atau kesilapan yang berlaku berpunca dari pihak ketiga. </p>
+    <p>Adalah dimaklumkan bahawa rangkaian RoIPMARS <strong>tidak pernah dan tidak akan</strong> dengan <strong>niat atau tidak</strong> menyambungkan rangkaian kami ke mana-mana jaringan pengulang yang bukan milik kami tanpa kebenaran bertulis dari kedua-dua belah pihak.</p>
+    <p>Sehubungan dengan kejadian baru-baru ini, pihak kami juga terkejut dengan apa yang telah berlaku, namun kejadian tersebut dapat diselesaikan oleh Pegawai Rangkaian kami dengan pantas dan kami tidak akan bertanggungjawab atas apa yang telah berlaku.</p>
+    <p>Kami memohon agar semua penggiat radio perantara &#40;gateway&#41; untuk tidak melakukan sambungan dari mana-mana rangkaian kami ke mana-mana pengulang tanpa keizinan bertulis dari kedua-dua pihak.</p>
+    <p>Segala kecuaian yang telah/sedang/akan berlaku adalah tanggungjawab sepenuhnya pemilik perantara tersebut. Pihak kami sama sekali tidak akan bertanggungjawab atas segala kecuaian atau kesilapan yang berpunca dari pihak ketiga. </p>
     <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2303'>member@roipmars.org.my</a></p>
     <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "caliban-std", sans-serif'>Pentadbir Rangkaian</p>
     <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian RoIPMARS</p>

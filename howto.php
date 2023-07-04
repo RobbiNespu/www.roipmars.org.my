@@ -321,12 +321,10 @@
               <td>Tiada Sokongan Google</td>
               <td><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-teamspeak-3.0.3.1.apk' download>Versi Tiada Sokongan Google<br>&#40;kurang ciri khas&#41;</a></td>
             </tr>
-            <!--
-            <tr>
+            <!-- <tr>
               <td>v3.1.9-beta.194</td>
               <td><a class='btn btn-primary' role='button' href='//dl.roipmars.org.my/files/downloads/android/teamspeak/teamspeak_3.1.9_b194.apk' download>Muat Turun</a></td>
-            </tr>
-            -->
+            </tr> -->
             <tr>
               <td><i class='bi-google-play fs-2'></i><br>&#40;DISYORKAN&#41;</td>
               <td><a href='//play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'><img src='//play.google.com/intl/en_us/badges/static/images/badges/ms_badge_web_generic.png' class='img-fluid w-50'></a></td>

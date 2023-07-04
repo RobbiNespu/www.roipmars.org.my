@@ -337,7 +337,7 @@
           <tbody>
             <tr>
               <th scope='row'>Label</th>
-              <td>RoIPMARS</td>
+              <td>RoIPMARS Network</td>
             </tr>
             <tr>
               <th scope='row'>Server Address</th>
@@ -436,7 +436,7 @@
       <div class='col-12 position-static p-3'>
         <table class='table table-sm text-center align-middle'>
           <tbody>
-            <tr><th scope='row'>Label</th><td>ROIPMARS</td></tr>
+            <tr><th scope='row'>Label</th><td>RoIPMARS Network</td></tr>
             <tr><th scope='row'>Address</th><td><a href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td></tr>
             <tr><th scope='row'>Nickname</th><td>[CALLSIGN] [NAME] [QTH/LOCATION]</td></tr>
           </tbody>
@@ -540,7 +540,7 @@
             </tr>
             <tr>
               <th scope='row'>Label</th>
-              <td>RoIPMARS</td>
+              <td>RoIPMARS Network</td>
             </tr>
             <tr>
               <th scope='row'>Nickname</th>

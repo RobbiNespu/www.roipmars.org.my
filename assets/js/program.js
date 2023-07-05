@@ -18,7 +18,7 @@ $(document).ready(function () {
       { 'className': 'text-center text-white', 'targets': '_all' },
       { 'searchable': false, 'targets': [0, 1, 4] }
     ],
-    'displayStart': 130,
+    'displayStart': 140,
     'language': {
       'lengthMenu': 'Paparan _MENU_ rekod',
       'search': 'Cari Acara/Pengawal:',

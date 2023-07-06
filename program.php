@@ -159,7 +159,7 @@
 									<p class='lh-1'>9W2EZK<br>IFFIQ ZIKRY<br>PENGURUS SIARAYA &amp; AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/020.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W6SFF'>
+									<img src='media/image/member/020.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9M2SFF'>
 									<p class='lh-1'>9M2SFF<br>ROZAIMAN SUFFIAN<br>PENOLONG PENGURUS AKTIVITI</p>
 								</div>
 							</div>

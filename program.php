@@ -134,17 +134,18 @@
 					<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
 					<tbody>
 						<tr class='table-primary'><td>Isnin</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
-						<tr class='opacity-25'><td>Selasa</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
-						<!-- <tr class='table-success'><td>Selasa</td><td>1300Z<br>2100MY</td><td>BARC 2m Net Mingguan</td><td>BARC</td></tr> -->
+						<tr class='table-success'><td>Selasa</td><td>1300Z<br>2100MY</td><td>BARC 2m Net Mingguan*</td><td>Kelab Radio Amatur Borneo</td></tr>
 						<tr class='table-info'><td>Wednesday</td><td>1300Z<br>2100MY</td><td>Learning English Net</td><td>Rangkaian HAM RoIPMARS</td></tr>
-						<tr class='opacity-25'><td>Khamis</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
-						<!-- <tr class='table-success'><td>Khamis</td><td>1300Z<br>2100MY</td><td>BARC 2m Net Mingguan</td><td>BARC</td></tr> -->
+						<tr class='table-success'><td>Khamis</td><td>1300Z<br>2100MY</td><td>BARC 2m Net Mingguan*</td><td>Kelab Radio Amatur Borneo</td></tr>
 						<tr class='table-primary'><td>Jumaat</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Santai</td><td>Rangkaian HAM RoIPMARS</td></tr>
 						<tr class='table-primary'><td>Sabtu</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
-						<!-- <tr class='table-success'><td>Ahad</td><td>0200Z<br>1000MY</td><td>BARC 2m Sunday Morning Net</td><td>BARC</td></tr> -->
-						<tr class='table-danger'><td>Ahad</td><td>1300Z<br>2100MY</td><td>CB Net Hujung Minggu</td><td>Rangkaian CB RoIPMARS</td></tr>
+						<tr class='table-success'><td rowspan='2'>Ahad</td><td>0200Z<br>1000MY</td><td>BARC 2m Sunday Morning Net*</td><td>Kelab Radio Amatur Borneo</td></tr>
+						<tr class='table-danger'><td>1300Z<br>2100MY</td><td>CB Net Hujung Minggu</td><td>Rangkaian CB RoIPMARS</td></tr>
+						<caption class='text-center'>* BARC Net hanya akan disambungkan sekiranya ada permintaan</caption>
 					</tbody>
 				</table>
+			</div>
+			<div class='col-lg-12 my-3 d-block text-center'>
 				<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>
 				<div id='ncs23' class='carousel slide' data-bs-ride='carousel'>
 					<div class='carousel-inner my-0'>
@@ -167,15 +168,15 @@
 						<div class='carousel-item active'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/010.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9M6AUA'>
+									<img src='media/image/member/010.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient mx-auto' alt='9M6AUA'>
 									<p class='lh-1'>9M6AUA<br>JEOFREY<br>PENYELIA SIARAYA 1</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/017.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9M6RDY'>
+									<img src='media/image/member/017.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient mx-auto' alt='9M6RDY'>
 									<p class='lh-1'>9M6RDY<br>MATTHEUS &#64; RUDY<br>PENYELIA SIARAYA 2</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/025.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2AYP'>
+									<img src='media/image/member/025.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient mx-auto' alt='9W2AYP'>
 									<p class='lh-1'>9W2AYP<br>SABRI<br>PENYELIA SIARAYA 3</p>
 								</div>
 							</div>
@@ -195,19 +196,19 @@
 						<div class='carousel-item'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w6aze.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W6AZE'>
+									<img src='media/image/ncs/9w6aze.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6AZE'>
 									<p class='lh-1'>9W6AZE<br>HAZARI<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9m6rhm.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RHM'>
+									<img src='media/image/ncs/9m6rhm.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RHM'>
 									<p class='lh-1'>9M6RHM<br>RAHIM<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/028.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-primary-subtle bg-gradient mx-auto' alt='9W2NEW'>
+									<img src='media/image/member/028.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2NEW'>
 									<p class='lh-1'>9W2NEW<br>HISHAM<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W6RHN'>
+									<img src='media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6RHN'>
 									<p class='lh-1'>9W6RHN<br>ROSLAN<br>PETUGAS AKTIVITI</p>
 								</div>
 							</div>
@@ -215,19 +216,19 @@
 						<div class='carousel-item'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2snn.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W2SNN'>
+									<img src='media/image/ncs/9w2snn.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W2SNN'>
 									<p class='lh-1'>9W2SNN<br>SAMSUL<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-danger-subtle bg-gradient mx-auto' alt='9W2YJT'>
+									<img src='media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W2YJT'>
 									<p class='lh-1'>9W2YJT<br>YUSOF<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-primary-subtle bg-gradient mx-auto' alt='9W6MOZ'>
+									<img src='media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W6MOZ'>
 									<p class='lh-1'>9W6MOZ<br>MUSTAFA<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w6wot.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W6WOT'>
+									<img src='media/image/ncs/9w6wot.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6WOT'>
 									<p class='lh-1'>9W6WOT<br>STEWARD<br>PETUGAS AKTIVITI</p>
 								</div>
 							</div>
@@ -235,19 +236,19 @@
 						<div class='carousel-item'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9m2sfl.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9M2SFL'>
+									<img src='media/image/ncs/9m2sfl.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M2SFL'>
 									<p class='lh-1'>9M2SFL<br>SAIFUL<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RMD'>
+									<img src='media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RMD'>
 									<p class='lh-1'>9M6RMD<br>ROSNI<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2esr.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-secondary-subtle bg-gradient mx-auto' alt='9W2ESR'>
+									<img src='media/image/ncs/9w2esr.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W2ESR'>
 									<p class='lh-1'>9W2ESR<br>SULAIMAN<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/032.png' class='img-fluid rounded-circle object-fit-cover w-100 bg-primary-subtle bg-gradient mx-auto' alt='V85AFF'>
+									<img src='media/image/member/032.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='V85AFF'>
 									<p class='lh-1'>V85AFF<br>MAHATHIR<br>PETUGAS AKTIVITI</p>
 								</div>
 							</div>

@@ -145,7 +145,7 @@
 						<tr class='table-danger'><td>Ahad</td><td>1300Z<br>2100MY</td><td>CB Net Hujung Minggu</td><td>Rangkaian CB RoIPMARS</td></tr>
 					</tbody>
 				</table>
-				<h4>Barisan Jawatankuasa &amp; Petugas<br>Bahagian Siaraya &amp; Aktiviti</h4>
+				<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>
 				<div id='ncs23' class='carousel slide' data-bs-ride='carousel'>
 					<div class='carousel-inner my-0'>
 						<!-- <div class='carousel-item active'>
@@ -708,20 +708,20 @@
 			</div>
 		</div>
 		<hr>
-		<!-- <div class='row'>
+		<div class='row'>
 			<div class='col-12'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
-			<div class='col-lg-6'>
-				<p class='text-center'>HAM Net Bahasa Inggeris</p>
+			<div class='col-12'>
+				<p class='text-center'>RoIPMARS HAM Net &#40;digabungkan&#41;</p>
 				<div class='row'>
 					<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
 					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
-								<tr><td>1<sup>st</sup></td><td>9W8VWW</td></tr>
-								<tr><td>2<sup>nd</sup></td><td>9M6AUA</td></tr>
+								<tr><td>1<sup>st</sup></td><td>9W2OGK</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9W2UZL</td></tr>
 								<tr><td>3<sup>rd</sup></td><td>9M2RAN</td></tr>
-								<tr><td>4<sup>th</sup></td><td>9M6RHM</td></tr>
-								<tr><td>5<sup>th</sup></td><td>9M6RDY</td></tr>	
+								<tr><td>4<sup>th</sup></td><td>9M2SFL</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9W6MOZ</td></tr>	
 							</tbody>
 						</table>
 					</div>
@@ -730,32 +730,27 @@
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>9W2AYP</td></tr>
-								<tr><td>2<sup>nd</sup></td><td>9M6AUA</td></tr>
-								<tr><td>3<sup>rd</sup></td><td>9W6RHN</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9W6RHN</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>V85AFF</td></tr>
 								<tr><td>4<sup>th</sup></td><td>9W2JCP</td></tr>
-								<tr><td>5<sup>th</sup></td><td>9M6RDY</td></tr>
-								<tr><td>6<sup>th</sup></td><td>9M2RAN</td></tr>
-								<tr><td>7<sup>th</sup></td><td>9W2NDI</td></tr>
-								<tr><td>8<sup>th</sup></td><td>9M6RMD</td></tr>
-								<tr><td>9<sup>th</sup></td><td>9W2WDR</td></tr>
-								<tr><td>10<sup>th</sup></td><td>9W2SNN</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9W2NDI</td></tr>
 							</tbody>
 						</table>
 					</div>
 				</div>
 			</div>
 			<div class='col-lg-6'>
-				<p class='text-center'>HAM Net Bahasa Melayu</p>
+				<p class='text-center'>RoIPMARS HAM Net Bahasa Inggeris</p>
 				<div class='row'>
 					<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
 					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
-								<tr><td>1<sup>st</sup></td><td>9W2UZL</td></tr>
-								<tr><td>2<sup>nd</sup></td><td>9W6MOZ</td></tr>
-								<tr><td>3<sup>rd</sup></td><td>9M6JAY</td></tr>
-								<tr><td>4<sup>th</sup></td><td>9W2OGK</td></tr>
-								<tr><td>5<sup>th</sup></td><td>9W2SNN</td></tr>
+								<tr><td>1<sup>st</sup></td><td>9W6RHN</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9M6RDY</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>9M6AUA</td></tr>
+								<tr><td>4<sup>th</sup></td><td>9M2RAN</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9M6RHM</td></tr>	
 							</tbody>
 						</table>
 					</div>
@@ -763,16 +758,55 @@
 					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
-								<tr><td>1<sup>st</sup></td><td>9W2SNN</td></tr>
-								<tr><td>2<sup>nd</sup></td><td>9W2AYP</td></tr>
+								<tr><td>1<sup>st</sup></td><td>9W2AYP</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9W6RHN</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>9M2RAN</td></tr>
+								<tr><td>4<sup>th</sup></td><td>9M6RDY</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9W2NDI</td></tr>
+								<tr><td>6<sup>th</sup></td><td>V85AFF</td></tr>
+								<tr><td>7<sup>th</sup></td><td>9W2JCP</td></tr>
+								<tr><td>8<sup>th</sup></td><td>9W2SNN</td></tr>
+								<tr><td>9<sup>th</sup></td><td>9M6AUA</td></tr>
+								<tr><td>10<sup>th</sup></td><td>YG4FCW</td></tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class='col-lg-6'>
+				<p class='text-center'>RoIPMARS HAM Net Bahasa Melayu</p>
+				<div class='row'>
+					<div class='col-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
+					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
+							<thead><th>No</th><th>Stesen</th></thead>
+							<tbody>
+								<tr><td>1<sup>st</sup></td><td>9W2OGK</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9W2UZL</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>9M2RAN</td></tr>
+								<tr><td>4<sup>th</sup></td><td>9M2SFL</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9W6MOZ</td></tr>
+								<tr><td>6<sup>th</sup></td><td>9M6RMD</td></tr>
+								<tr><td>7<sup>th</sup></td><td>9W2LGX</td></tr>
+								<tr><td>8<sup>th</sup></td><td>9W2ESR</td></tr>
+								<tr><td>9<sup>th</sup></td><td>9M6RDY</td></tr>
+								<tr><td>10<sup>th</sup></td><td>9M6JAY</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div class='col-6'><h6 class='text-center'>Stesen Paling Aktif</h6>
+					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
+							<thead><th>No</th><th>Stesen</th></thead>
+							<tbody>
+								<tr><td>1<sup>st</sup></td><td>9W2AYP</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>9W6RHN</td></tr>
 								<tr><td>3<sup>rd</sup></td><td>9W2JCP</td></tr>
-								<tr><td>4<sup>th</sup></td><td>9W6RHN</td></tr>
-								<tr><td>5<sup>th</sup></td><td>YD5NCU</td></tr>
-								<tr><td>6<sup>th</sup></td><td>9W2NEW</td></tr>
-								<tr><td>7<sup>th</sup></td><td>V85AFF</td></tr>
-								<tr><td>8<sup>th</sup></td><td>9W2NDI</td></tr>
-								<tr><td>9<sup>th</sup></td><td>9W2WDR</td></tr>
-								<tr><td>10<sup>th</sup></td><td>9W2YJT</td></tr>
+								<tr><td>4<sup>th</sup></td><td>V85AFF</td></tr>
+								<tr><td>5<sup>th</sup></td><td>9W2NDI</td></tr>
+								<tr><td>6<sup>th</sup></td><td>9W2SNN</td></tr>
+								<tr><td>7<sup>th</sup></td><td>9M2RAN</td></tr>
+								<tr><td>8<sup>th</sup></td><td>9M2SFL</td></tr>
+								<tr><td>9<sup>th</sup></td><td>9W2YJT</td></tr>
+								<tr><td>10<sup>th</sup></td><td>9W2VFP</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -782,18 +816,16 @@
 		<div class='row'>
 			<div class='col-12'><h3 class='text-center'>Kategori Jalur Rakyat</h3></div>
 			<div class='col-lg-6'>
-				<p class='text-center'>CB Net Bahasa Melayu</p>
+				<p class='text-center'>RoIPMARS CB Net Bahasa Melayu</p>
 				<div class='row'>
 					<div class='col-6'>
 						<h6 class='text-center'>Pengawal Tertinggi</h6>
 						<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
-								<tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
-								<tr><td>2<sup>nd</sup></td><td>113DAJCP</td></tr>
-								<tr><td>3<sup>rd</sup></td><td>113DAZIK</td></tr>
-								<tr><td>4<sup>th</sup></td><td>113MSSAM</td></tr>
-								<tr><td>5<sup>th</sup></td><td>113DAYJT</td></tr>
+								<tr><td>1<sup>st</sup></td><td>113DAYJT</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>113DAPLY</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>113DAISS</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -803,22 +835,22 @@
 							<thead><th>No</th><th>Stesen</th></thead>
 							<tbody>
 								<tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
-								<tr><td>2<sup>nd</sup></td><td>113DAISS</td></tr>
-								<tr><td>3<sup>rd</sup></td><td>113DAJCP</td></tr>
-								<tr><td>4<sup>th</sup></td><td>225BSLIM</td></tr>
-								<tr><td>5<sup>th</sup></td><td>113DANDI</td></tr>
-								<tr><td>6<sup>th</sup></td><td>113MSSAM</td></tr>
-								<tr><td>7<sup>th</sup></td><td>91DAJA</td></tr>
-								<tr><td>8<sup>th</sup></td><td>91KMAGP</td></tr>
-								<tr><td>9<sup>th</sup></td><td>91DATHP</td></tr>
-								<tr><td>10<sup>th</sup></td><td>91DAAVM</td></tr>
+								<tr><td>2<sup>nd</sup></td><td>113DAJCP</td></tr>
+								<tr><td>3<sup>rd</sup></td><td>113DAYJT</td></tr>
+								<tr><td>4<sup>th</sup></td><td>113DAISS</td></tr>
+								<tr><td>5<sup>th</sup></td><td>225BSLIM</td></tr>
+								<tr><td>6<sup>th</sup></td><td>91KMEGG</td></tr>
+								<tr><td>7<sup>th</sup></td><td>113DARNH</td></tr>
+								<tr><td>8<sup>th</sup></td><td>113DANDI</td></tr>
+								<tr><td>9<sup>th</sup></td><td>91KMAGP</td></tr>
+								<tr><td>10<sup>th</sup></td><td>113DABEE</td></tr>
 							</tbody>
 						</table>
 					</div>
 				</div>
 			</div>
 			<div class='col-lg-6'>
-				<p class='text-center'>OpenVoIP Sahur Net 1444H</p>
+				<p class='text-center'>RoIPMARS OpenVoIP Sahur Net 1444H</p>
 				<div class='row'>
 					<div class='col-6'>
 						<h6 class='text-center'>Pengawal Tertinggi</h6>
@@ -854,7 +886,7 @@
 				</div>
 			</div>
 		</div>
-		<hr> -->
+		<hr>
 		<div class='row'>
 			<div class='col-12'>
 				<h3 class='text-center'>Pemenang Bertuah Rangkaian RoIPMARS</h3>

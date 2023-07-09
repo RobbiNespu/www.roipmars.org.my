@@ -482,7 +482,7 @@
 						<tr class='bg-primary-subtle'><td>Khamis<br>31/08/23</td><td>0900MY<br>-<br>1200MY</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan Malaysia &#40;9M66Mx&#41;</td><td>&shy;</td><td>&shy;</td></tr>
 						<tr class='bg-info-subtle'><td>Thursday<br>31/08/23</td><td>1200MY<br>-<br>1500MY</td><td>&#91;SPECIAL&#93; CQ Malaysia&#39;s National Day &#40;9M66Mx&#41;</td><td>&shy;</td><td>&shy;</td></tr>
 						<tr class='bg-primary-subtle'><td>Khamis<br>31/08/23</td><td>1500MY<br>-<br>1800MY</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan Malaysia &#40;9M66Mx&#41;</td><td>&shy;</td><td>&shy;</td></tr>
-						<tr class='bg-info-subtle'><td>Thursday<br>31/08/23</td><td>2100MY<br>-<br>0000MY</td>&#91;SPECIAL&#93; CQ Malaysia&#39;s National Day &#40;9M66Mx&#41;</td><td>&shy;</td><td>&shy;</td></tr>
+						<tr class='bg-info-subtle'><td>Thursday<br>31/08/23</td><td>2100MY<br>-<br>0000MY</td><td>&#91;SPECIAL&#93; CQ Malaysia&#39;s National Day &#40;9M66Mx&#41;</td><td>&shy;</td><td>&shy;</td></tr>
 						
 						<tr class='bg-primary-subtle'><td>Jumaat<br>01/09/23</td><td>2100MY<br>-<br>0000MY</td><td>&#91;KHAS&#93; CQ Hari Kebangsaan Malaysia &#40;9M66MB&#41;</td><td>&shy;</td><td>&shy;</td></tr>
 						<tr><td>Sabtu<br>02/09/23</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>&shy;</td><td>&shy;</td></tr>

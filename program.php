@@ -438,8 +438,8 @@
 						<tr><td>Ahad<br>02/07/23</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAJCP</td><td>20</td></tr>
 						<tr><td>Isnin<br>03/07/23</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>V85AFF</td><td>43</td></tr>
 						<tr><td>Wednesday<br>05/07/23</td><td>2100MY</td><td>Learning English Net</td><td>9W6RHN</td><td>40</td></tr>
-						<tr class='bg-primary-subtle'><td>Jumaat<br>07/07/23</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Bandar Warisan Dunia Georgetown&#41;</td><td>9M2SFL</td><td>&shy;</td></tr>
-						<tr><td>Sabtu<br>08/07/23</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9M6RMD</td><td>&shy;</td></tr>
+						<tr class='bg-primary-subtle'><td>Jumaat<br>07/07/23</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Bandar Warisan Dunia Georgetown&#41;</td><td>9M2SFL</td><td>61</td></tr>
+						<tr><td>Sabtu<br>08/07/23</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9M6RMD</td><td>48</td></tr>
 						<tr><td>Ahad<br>09/07/23</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAPLY</td><td>&shy;</td></tr>
 						<tr><td>Isnin<br>10/07/23</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2AYP</td><td>&shy;</td></tr>
 						<tr><td>Wednesday<br>12/07/23</td><td>2100MY</td><td>Learning English Net</td><td>9W6WOT</td><td>&shy;</td></tr>

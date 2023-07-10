@@ -437,7 +437,7 @@
 						<tr class='bg-primary-subtle'><td>Jumaat<br>07/07/23</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Bandar Warisan Dunia Georgetown&#41;</td><td>9M2SFL</td><td>61</td></tr>
 						<tr><td>Sabtu<br>08/07/23</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9M6RMD</td><td>48</td></tr>
 						<tr><td>Ahad<br>09/07/23</td><td>2100MY</td><td>CB Net Hujung Minggu</td><td>113DAPLY</td><td>18</td></tr>
-						<tr><td>Isnin<br>10/07/23</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2AYP</td><td>&shy;</td></tr>
+						<tr><td>Isnin<br>10/07/23</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2AYP</td><td>46</td></tr>
 						<tr><td>Wednesday<br>12/07/23</td><td>2100MY</td><td>Learning English Net</td><td>9W6WOT</td><td>&shy;</td></tr>
 						<tr><td>Jumaat<br>14/07/23</td><td>2100MY</td><td>ROIPMARS Net Santai</td><td>9W2ESR</td><td>&shy;</td></tr>
 						<tr><td>Sabtu<br>15/07/23</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W2SNN</td><td>&shy;</td></tr>

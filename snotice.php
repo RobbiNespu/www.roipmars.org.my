@@ -116,6 +116,11 @@
         </thead>
         <tbody>
           <tr>
+            <td>10 Jul 2023</td>
+            <td>Pemberhentian Sementara Net CB RoIPMARS</td>
+            <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/08' target='_blank' rel='noopener'>NtsMARS 2023/08</a></td>
+          </tr>
+          <tr>
             <td>04 Jul 2023</td>
             <td>Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</td>
             <td><a type='button' class='btn btn-outline-light d-grid' href='nts/2023/07' target='_blank' rel='noopener'>NtsMARS 2023/07</a></td>

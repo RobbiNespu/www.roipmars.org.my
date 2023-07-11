@@ -200,7 +200,7 @@
                 <span class='flag'>Ahli Gabungan MARTS</span>
                 <span class='time-wrapper'><span class='time'>24 Mei 2023</span></span>
               </div>
-              <div class='desc'>ROIPMARS&trade; dengan nama Persatuan Peminat Radio Komunikasi &#40;ROIP&#41; secara sah menjadi Ahli Gabungan Malaysia Amateur Radio Transmitter&#39; Society &#40;MARTS&#41;.</div>
+              <div class='desc'>RoIPMARS&trade;&trade; dengan nama Persatuan Peminat Radio Komunikasi &#40;ROIP&#41; secara sah menjadi Ahli Gabungan Malaysia Amateur Radio Transmitter&#39; Society &#40;MARTS&#41;.</div>
             </div>
           </li>
           <li>
@@ -210,7 +210,7 @@
                 <span class='flag'>Malaysia Peak To Peak &#91;My-PTP&#93;</span>
                 <span class='time-wrapper'><span class='time'>18 Mac 2023</span></span>
               </div>
-              <div class='desc'>ROIPMARS diwakilkan oleh ahli &#40;9W8ZZK&#41; dalam acara &#39;<i>Malaysia Peak To Peak</i>&#39; dengan kerjasama Malaysia Amateur Radio Transmitter&#39; Society &#40;MARTS&#41; yang dijalankan bersama Pasukan SOTA Sarawak di Bukit Selang, Telaga Air, Kuching, Sarawak.<img class='img-thumbnail rounded-4 mx-auto d-block mt-2' loading='lazy' src='media/image/myptp23-9m8sota.jpg'></div>
+              <div class='desc'>RoIPMARS&trade; diwakilkan oleh ahli &#40;9W8ZZK&#41; dalam acara &#39;<i>Malaysia Peak To Peak</i>&#39; dengan kerjasama Malaysia Amateur Radio Transmitter&#39; Society &#40;MARTS&#41; yang dijalankan bersama Pasukan SOTA Sarawak di Bukit Selang, Telaga Air, Kuching, Sarawak.<img class='img-thumbnail rounded-4 mx-auto d-block mt-2' loading='lazy' src='media/image/myptp23-9m8sota.jpg'></div>
             </div>
           </li>
           <li>
@@ -377,7 +377,7 @@
                 <span class='flag'>JASRA</span>
                 <span class='time-wrapper'><span class='time'>30 Okt 2018</span></span>
               </div>
-              <div class='desc'>Permohonan pihak <b>Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</b> untuk menghubungkan jaringan dua hala antara ROIPMARS dan pengulang mereka bagi menyemarakkan lagi aktiviti yang dijalankan di kedua-dua platform.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='media/image/jasra18.jpg'></div>
+              <div class='desc'>Permohonan pihak <b>Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</b> untuk menghubungkan jaringan dua hala antara RoIPMARS&trade; dan pengulang mereka bagi menyemarakkan lagi aktiviti yang dijalankan di kedua-dua platform.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='media/image/jasra18.jpg'></div>
             </div>
           </li>
           <li>
@@ -387,7 +387,7 @@
                 <span class='flag'>Promosi ROIP bersama ASTRA</span>
                 <span class='time-wrapper'><span class='time'>21 Okt 2018</span></span>
               </div>
-              <div class='desc'>Usaha terus dijalankan untuk mempromosikan ROIPMARS dimana kami dijemput untuk memberikan penerangan berkenaan ROIP &amp; VOIP di acara Mesyuarat Agung Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41; kali ke-20 &amp; Jamboree-On-The-Air&reg; &#40;JOTA&#41; ke-61 dan Jamboree-On-The-Internet&reg; &#40;JOTI&#41; ke-22 pada 19-21 Oktober 2018 yang bertempat di Guar Cempedak, Yan, Kedah.
+              <div class='desc'>Usaha terus dijalankan untuk mempromosikan RoIPMARS&trade; dimana kami dijemput untuk memberikan penerangan berkenaan ROIP &amp; VOIP di acara Mesyuarat Agung Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41; kali ke-20 &amp; Jamboree-On-The-Air&reg; &#40;JOTA&#41; ke-61 dan Jamboree-On-The-Internet&reg; &#40;JOTI&#41; ke-22 pada 19-21 Oktober 2018 yang bertempat di Guar Cempedak, Yan, Kedah.
                 <div class='ratio ratio-16x9'>
                   <iframe class='rounded-5' loading='lazy' src='//www.youtube.com/embed/hWG5OXBC0nY' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
                 </div>
@@ -398,7 +398,7 @@
             <div class='direction-l'>
               <div class='flag-wrapper'>
                 <span class='hexa'></span>
-                <span class='flag'>ROIPMARS</span>
+                <span class='flag'>RoIPMARS&trade;</span>
                 <span class='time-wrapper'><span class='time'>Awal 2018</span></span>
               </div>
               <div class='desc'>MARDS gagal didaftarkan berpunca daripada beberapa masalah yang berlaku pada ketika itu. Tidak lama kemudian, sekali lagi penjenamaan dilakukan dengan lantikan Jawatankuasa Penaja <b>Malaysian Amateur ROIP Society &#40;MARS&#41;</b> seramai 19 orang yang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle'>
@@ -415,7 +415,7 @@
                     <tr><td>9M2RAN<br>9W2SMF</td><td>Penasihat</td></tr>
                     <tr><td>9M2RMT</td><td>Station Master</td></tr>
                   </tbody>
-                </table>Visi dan Misi ROIPMARS adalah untuk <b>membawa nama Malaysia ke persada Antarabangsa dalam Teknologi Komunikasi Radio Dua Hala</b>.<br>Dalam waktu yang sama, pelayan berasaskan Linux yang berada di Perancis mengalami masalah sambungan kependaman tinggi terhadap pengguna lalu dipindahkan kembali ke Pusat Data di Malaysia bagi mengatasi risiko kualiti sambungan dan didaftarkan dengan nama roipmars.com.</div>
+                </table>Visi dan Misi RoIPMARS&trade; adalah untuk <b>membawa nama Malaysia ke persada Antarabangsa dalam Teknologi Komunikasi Radio Dua Hala</b>.<br>Dalam waktu yang sama, pelayan berasaskan Linux yang berada di Perancis mengalami masalah sambungan kependaman tinggi terhadap pengguna lalu dipindahkan kembali ke Pusat Data di Malaysia bagi mengatasi risiko kualiti sambungan dan didaftarkan dengan nama roipmars.com.</div>
             </div>
           </li>
           <li>

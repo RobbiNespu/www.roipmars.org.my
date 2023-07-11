@@ -148,7 +148,7 @@
               <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN &#40;9W2LGX / 113MS111&#41; <a href='//bit.ly/m/hafiziruslan'><i class='bi-person-vcard'></i></a></p>
               <p class='card-subtitle fs-5 fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
               <p class='card-subtitle fs-5 fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
-              <p class='card-subtitle fw-light'>&#91;Sejak 2019&#93; Dilantik oleh ROIPMARS&trade; sebagai pembangun perisian rasmi</p>
+              <p class='card-subtitle fw-light'>&#91;Sejak 2019&#93; Dilantik oleh RoIPMARS&trade;&trade; sebagai pembangun perisian rasmi</p>
             </div>
           </div>
           <div class='col-2 align-self-center'>

@@ -144,7 +144,7 @@
               <p class='card-title fs-2 fw-bold'>ZULKIFLI ABU &#40;9W2UZL / 113MSUZL&#41; <a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-person-vcard'></i></a></p>
               <p class='card-subtitle fs-5 fw-semibold'>FOUNDER, LEAD ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
               <p class='card-subtitle fs-5 fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; PENYELIDIK</p>
-              <p class='card-subtitle fw-light'>&#91;Sejak 2018&#93; Dilantik oleh MART&acute;S sebagai penyelidik SIG pengkhususan &#39;ROIP&#39;</p>
+              <p class='card-subtitle fw-light'>&#91;2018&#93; Dilantik oleh MART&acute;S sebagai penyelidik &#39;SIG&#39; &#40;Special Interest Group&#41;pengkhususan &#39;ROIP&#39; &#40;Radio over Internet Protocol&#41; &amp; &#39;VoIP&#39; &#40;Voice over Internet Protocol&#41;</p>
             </div>
           </div>
         </div>
@@ -156,7 +156,8 @@
               <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN &#40;9W2LGX / 113MS111&#41; <a href='//bit.ly/m/hafiziruslan'><i class='bi-person-vcard'></i></a></p>
               <p class='card-subtitle fs-5 fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
               <p class='card-subtitle fs-5 fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
-              <p class='card-subtitle fw-light'>&#91;Sejak 2019&#93; Dilantik oleh RoIPMARS&trade;&trade; sebagai pembangun perisian rasmi</p>
+              <p class='card-subtitle fw-light'>&#91;2019&#93; Dilantik oleh RoIPMARS&trade; sebagai pembangun perisian</p>
+              <p class='card-subtitle fw-light'>&#91;2021&#93; Memulakan sambungan Rangkaian RoIPMARS&trade; ke seluruh dunia</p>
             </div>
           </div>
           <div class='col-2 align-self-center'>

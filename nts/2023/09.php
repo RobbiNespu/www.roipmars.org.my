@@ -2,27 +2,27 @@
 <html lang='ms-MY' data-bs-theme='dark'>
 
 <head>
-  <title>RoIPMARS Network | Penyeleggaraan Aplikasi</title>
+  <title>RoIPMARS Network | Notis Rombakan Isyarat Panggilan Jalur Rakyat</title>
   <meta charset='utf-8'>
   <meta http-equiv='Content-Type' content='text/html'>
   <meta http-equiv='content-language' content='ms-MY'>
   <meta name='language' content='Malay'>
   <meta name='author' content='HafiziRuslan'>
   <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
-  <meta name='title' content='RoIPMARS Network | Penyeleggaraan Aplikasi'>
-  <meta name='description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penyeleggaraan Aplikasi'>
-  <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
+  <meta name='title' content='RoIPMARS Network | Notis Rombakan Isyarat Panggilan Jalur Rakyat'>
+  <meta name='description' content='Persatuan Peminat Radio Komunikasi (RoIP) Rombakan Semua Isyarat Panggilan Jalur Rakyat Kumpulan RoIPMARS'>
+  <meta name='keywords' content='roipmarsnetwork, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
   <meta name='robots' content='index, follow'>
   <meta property='og:site_name' content='RoIPMARS'>
-  <meta property='og:title' content='RoIPMARS Network | Penyeleggaraan Aplikasi'>
-  <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penyeleggaraan Aplikasi'>
-  <meta property='og:url' content='www.roipmars.org.my/nts/2021/02'>
+  <meta property='og:title' content='RoIPMARS Network | Notis Rombakan Isyarat Panggilan Jalur Rakyat'>
+  <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Rombakan Semua Isyarat Panggilan Jalur Rakyat Kumpulan RoIPMARS'>
+  <meta property='og:url' content='www.roipmars.org.my/nts/2023/09'>
   <meta property='og:image' content='../../media/image/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
-  <meta name='twitter:title' content='RoIPMARS Network | Penyeleggaraan Aplikasi'>
-  <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penyeleggaraan Aplikasi'>
-  <meta name='twitter:url' content='www.roipmars.org.my/nts/2021/02'>
+  <meta name='twitter:title' content='RoIPMARS Network | Notis Rombakan Isyarat Panggilan Jalur Rakyat'>
+  <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Rombakan Semua Isyarat Panggilan Jalur Rakyat Kumpulan RoIPMARS'>
+  <meta name='twitter:url' content='www.roipmars.org.my/nts/2023/09'>
   <meta name='twitter:image' content='../../media/image/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
@@ -66,38 +66,32 @@
   <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
   <?php include('../../ntsheader.php') ?>
   <div class='container my-2'>
-    <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Penyeleggaraan Aplikasi</p>
-    <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2021/02<br>Tarikh Notis: 10 Ogos 2021 | 1630 MYT</p>
+    <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Notis Rombakan Isyarat Panggilan Jalur Rakyat</p>
+    <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2023/09<br>Tarikh Notis: 12 Jul 2023 | 0800 MYT</p>
     <p class='lh-sm'>Pengguna yang dihormati,</p>
-    <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Penyeleggaraan migrasi tidak berjadual</p>
-    <p class='mb-2'>Harap Maaf buat semua pengguna MARS Group kerana tidak dapat menggunakan perkhidmatan kami sejak Isnin, 9 Ogos 2021. Pihak kami sedang membuat penyelenggaraan migrasi tidak berjadual terhadap semua 'server' dan 'domain' di bawah kelolaan kami.</p>
-    <p>Penyelengaraan tersebut meliputi aplikasi
-    <ul type='circle'>
-      <li>TeamSpeak</li>
-      <li>Conference Server (TS Add-On)</li>
-      <li><s>FRN</s></li>
-      <li><s>Mumble</s></li>
-      <li><s>eQSO</s></li>
-    </ul>
-    </p>
-    <p>Semua penyelengaraan ini dijangka selesai pada
-    <table class='table table-sm table-responsive table-bordered text-center'>
-      <thead>
-        <th>Tarikh</th>
-        <th>Waktu</th>
-      </thead>
+    <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Rombakan Semua Isyarat Panggilan Jalur Rakyat Kumpulan RoIPMARS</p>
+    <p class='mt-2'>Perkara diatas adalah dirujuk.</p>
+    <p>Merujuk semula kepada notis <a href='../2021/01'>NtsMARS2021/01</a> &amp; <a href='05'>NtsMARS2023/05</a>, pihak pengurusan tertinggi Rangkaian RoIPMARS membuat keputusan untuk merombak semua isyarat panggilan jalur rakyat dibawah naungannya kepada hanya satu prefix yang sah digunakan iaitu xxMSxx dimana kod negara tidak berubah.</p>
+    <p>Keputusan ini diputuskan atas sebab tiada lagi jawatankuasa bertindak untuk mengawal semua jaringan dan pendaftaran jalur rakyat sebelum ini. Selepas ini, segala pendaftaran dan kawalan adalah dibawah Rangkaian RoIPMARS dimana isyarat panggilan yang sah hanya xxMSxx.</p>
+    <p>Berikut senarai semua Prefix sebelum ini yang dirombak;</p>
+    <table class='table table-bordered table-sm table-striped'>
+      <thead><th>Prefix Sebelum</th><th>Prefix Selepas</th></thead>
       <tbody>
-        <tr>
-          <td>Rabu, 11 Ogos 2021</td>
-          <td>3:00 PM</td>
-        </tr>
+        <tr><td>113KL</td><td>113MS</td></tr>
+        <tr><td>113PT</td><td>113MS</td></tr>
+        <tr><td>58SB</td><td>58MS</td></tr>
+        <tr><td>58SW</td><td>58MS</td></tr>
+        <tr><td>113DA</td><td>113MS</td></tr>
+        <tr><td>91DA</td><td>91MS</td></tr>
+        <tr><td>153DA</td><td>153MS</td></tr>
+        <tr><td>225BS</td><td>225MS</td></tr>
       </tbody>
     </table>
-    </p>
-    <p>Pihak pengguna tidak perlu membuat apa-apa perubahan ke atas 'software' selepas penyelenggaraan ini selesai.</p>
-    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2102'>member@roipmars.org.my</a></p>
+    <p>Kami tidak akan bertanggungjawab atas segala perkara yang ditinggalkan oleh jawatankuasa bertindak sebelum ini.</p>
+    <p>Diminta semua pemilik isyarat panggilan RoIPMARS Network supaya menukarkan isyarat panggilan sebelum ini kepada isyarat panggilan semasa yang dapat disemak di: <a href='../../cbmars'>SINI</a>.</p>
+    <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2309'>member@roipmars.org.my</a></p>
     <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "caliban-std", sans-serif'>Pentadbir Rangkaian</p>
-    <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
+    <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian RoIPMARS</p>
   </div>
   <?php include('../../footer.min.php') ?>
   <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.js' integrity='sha256-cylxV1UruqmvQwOaplblZ7N+bxLCJYH+vHSBhlz5kF4=' crossorigin='anonymous'></script>

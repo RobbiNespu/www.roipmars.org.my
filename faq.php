@@ -323,18 +323,7 @@
                         <td>58MS</td>
                         <td>91MS</td>
                         <td>153MS</td>
-                      </tr>
-                      <tr class='fw-light text-danger-emphasis'>
-                        <td>225BS</td>
-                        <td>113DA</td>
-                        <td>91DA</td>
-                        <td>153DA</td>
-                      </tr>
-                      <tr class='text-decoration-line-through text-body-tertiary opacity-50'>
-                        <td>113KL</td>
-                        <td>113PT</td>
-                        <td>58SB</td>
-                        <td>58SW</td>
+                        <td>225MS</td>
                       </tr>
                     </tbody>
                   </table>

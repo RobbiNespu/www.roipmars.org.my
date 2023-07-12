@@ -26,7 +26,7 @@
   <meta name='twitter:image' content='../../media/image/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
-  <meta name='msapplication-TileImage' content='../.media/image/ms-icon-144x144.png'>
+  <meta name='msapplication-TileImage' content='../../media/image/ms-icon-144x144.png'>
   <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
   <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
   <meta name='color-scheme' content='dark'>

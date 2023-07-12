@@ -68,8 +68,8 @@
       <div class='container'>
         <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
 				<div class='dropdown'>
-					<button class='btn nav-link d-flex align-items-center dropdown-toggle' id='bd-theme' type='button' aria-expanded='false' data-bs-toggle='dropdown' data-bs-display='static' aria-label='Toggle theme (auto)'>theme<span class='d-lg-none ms-2' id='bd-theme-text'>Toggle theme</span></button>
-					<ul class='dropdown-menu bg-body-tertiary border-0' aria-labelledby='bd-theme-text'>
+					<button class='btn nav-link d-flex align-items-center dropdown-toggle' id='theme' type='button' aria-expanded='false' data-bs-toggle='dropdown' data-bs-display='static' aria-label='Toggle theme (auto)'><span class='ms-2' id='theme-text'>theme</span></button>
+					<ul class='dropdown-menu bg-body-tertiary border-0' aria-labelledby='theme-text'>
 						<li><button type='button' class='dropdown-item d-flex align-items-center' data-bs-theme-value='auto'><i class='bi-circle-half me-2 opacity-50'></i>auto</button></li>
 						<li><button type='button' class='dropdown-item d-flex align-items-center' data-bs-theme-value='dark'><i class='bi-moon-stars-fill me-2 opacity-50'></i>dark</button></li>
 						<li><button type='button' class='dropdown-item d-flex align-items-center' data-bs-theme-value='light'><i class='bi-sun-fill me-2 opacity-50'></i>light</button></li>

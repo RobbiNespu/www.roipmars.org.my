@@ -21,9 +21,9 @@
   }
   setTheme(getPreferredTheme())
   const showActiveTheme = (theme, focus = false) => {
-    const themeSwitcher = document.querySelector('#bd-theme')
+    const themeSwitcher = document.querySelector('#theme')
     if (!themeSwitcher) { return }
-    const themeSwitcherText = document.querySelector('#bd-theme-text')
+    const themeSwitcherText = document.querySelector('#theme-text')
     const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
     document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
       element.classList.remove('active')

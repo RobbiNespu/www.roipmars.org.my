@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-bs-theme='dark'>
+<html data-bs-theme='auto'>
 
   <head>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.css' integrity='sha256-dytF8SOIB6pQuIPDkrS/inNZwKBGYuqjPX+ev2iCA04=' crossorigin='anonymous'>
@@ -32,6 +32,7 @@
     <script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.js' integrity='sha256-Y0NM43IuAu2ZN2YOPO+CdO11DkA77QeWgH38PRw/q/s=' crossorigin='anonymous'></script>
     <script src='//cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.js' integrity='sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=' crossorigin='anonymous'></script>
     <script src='//roipmarsnetwork.statuspage.io/embed/script.js' crossorigin='anonymous'></script>
+    <script src='assets/js/theme.js'></script>
   </body>
 
 </html>

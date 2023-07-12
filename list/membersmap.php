@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-bs-theme='dark'>
+<html data-bs-theme='auto'>
 
   <head>
     <title>RoIPMARS Network | Members Directory</title>
@@ -60,6 +60,7 @@
     <script src='//ha8tks.github.io/Leaflet.Maidenhead/src/L.Maidenhead.js' crossorigin='anonymous'></script>
     <script src='//api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
     <script src='../assets/js/map.js'></script>
+    <script src='../assets/js/theme.js'></script>
   </body>
 
 </html>

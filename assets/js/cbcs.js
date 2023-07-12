@@ -14,12 +14,8 @@ $(document).ready(function () {
       'keys': ['\n'.charCodeAt(0)],
       'columns': [2, 3, 4]
     },
-    'stripeClasses': [
-      'bg-body-secondary',
-      'bg-body-tertiary'
-    ],
     'columnDefs': [
-      { 'className': 'text-center text-white', 'targets': '_all' },
+      { 'className': 'text-center', 'targets': '_all' },
       { 'searchable': false, 'targets': [0, 4] }
     ],
     'language': {

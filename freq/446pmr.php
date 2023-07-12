@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='ms-MY' data-bs-theme='dark'>
+<html lang='ms-MY' data-bs-theme='auto'>
 
 <head>
   <title>RoIPMARS Network | 446MHz PMR</title>
@@ -128,6 +128,7 @@
   <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.js' integrity='sha256-cylxV1UruqmvQwOaplblZ7N+bxLCJYH+vHSBhlz5kF4=' crossorigin='anonymous'></script>
 	<script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.js' integrity='sha256-Y0NM43IuAu2ZN2YOPO+CdO11DkA77QeWgH38PRw/q/s=' crossorigin='anonymous'></script>
   <script src='//cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.js' integrity='sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=' crossorigin='anonymous'></script>
+  <script src='assets/js/theme.js'></script>
 </body>
 
 </html>

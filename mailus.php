@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='ms-MY' data-bs-theme='dark'>
+<html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
     <title>RoIPMARS Network | Contact Us</title>
@@ -172,6 +172,7 @@
     <script src='//cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js' crossorigin='anonymous'></script>
     <script src='//cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js' crossorigin='anonymous'></script>
     <script async defer src='//challenges.cloudflare.com/turnstile/v0/api.js'></script>
+    <script src='assets/js/theme.js'></script>
     <script src='assets/js/emailjs.js'></script>
     <!-- <script> function onSubmit (token) { document.getElementById('contactForm').submit(); } </script> -->
   </body>

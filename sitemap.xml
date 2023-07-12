@@ -188,6 +188,62 @@
         <image:title></image:title>
       </image:image>
       <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p01.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p02.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p03.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p04.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p05.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p06.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p07.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p08.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p09.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p10.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p11.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p12.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p13.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p14.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
         <image:loc>https://www.roipmars.org.my/media/image/ros-surat.png</image:loc>
         <image:title></image:title>
       </image:image>
@@ -801,7 +857,7 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/nts/2022/01</loc>
+    <loc>https://www.roipmars.org.my/nts/2022/02</loc>
     <lastmod>2023-07-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -811,7 +867,7 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/nts/2022/02</loc>
+    <loc>https://www.roipmars.org.my/nts/2022/01</loc>
     <lastmod>2023-07-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -945,13 +1001,7 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/list/membersmap</loc>
-    <lastmod>2023-07-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2020/04</loc>
+    <loc>https://www.roipmars.org.my/nts/2020/03</loc>
     <lastmod>2023-07-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -961,7 +1011,13 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/nts/2020/03</loc>
+    <loc>https://www.roipmars.org.my/list/membersmap</loc>
+    <lastmod>2023-07-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2020/04</loc>
     <lastmod>2023-07-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

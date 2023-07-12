@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='ms-MY' data-bs-theme='dark'>
+<html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
     <title>RoIPMARS Network | Keahlian</title>
@@ -74,6 +74,14 @@
       <nav class='navbar navbar-expand-lg bg-body-tertiary'>
         <div class='container'>
           <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+          <div class='dropdown'>
+            <button class='btn nav-link d-flex align-items-center dropdown-toggle' id='bd-theme' type='button' aria-expanded='false' data-bs-toggle='dropdown' data-bs-display='static' aria-label='Toggle theme (auto)'>theme<span class='d-lg-none ms-2' id='bd-theme-text'>Toggle theme</span></button>
+            <ul class='dropdown-menu bg-body-tertiary border-0' aria-labelledby='bd-theme-text'>
+              <li><button type='button' class='dropdown-item d-flex align-items-center' data-bs-theme-value='auto'><i class='bi-circle-half me-2 opacity-50'></i>auto</button></li>
+              <li><button type='button' class='dropdown-item d-flex align-items-center' data-bs-theme-value='dark'><i class='bi-moon-stars-fill me-2 opacity-50'></i>dark</button></li>
+              <li><button type='button' class='dropdown-item d-flex align-items-center' data-bs-theme-value='light'><i class='bi-sun-fill me-2 opacity-50'></i>light</button></li>
+            </ul>
+          </div>
           <button class='navbar-toggler border-0' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>menu</button>
           <div class='collapse navbar-collapse text-end' id='navbarNav'>
             <ul class='nav navbar-nav nav-pills text-lg-center d-flex ms-auto'>
@@ -148,12 +156,27 @@
             </div>
           </div>
           <div class='modal fade' id='rosconstModalLong' tabindex='-1' role='dialog' aria-labelledby='rosconstModalTitle' aria-hidden='true'>
-            <div class='modal-dialog modal-dialog-centered modal-xl' role='document'>
+            <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
               <div class='modal-content'>
                 <div class='modal-header'>
                   <h5 class='modal-title' id='rosconstModalTitle'>Perlembagaan Pertubuhan</h5>
                 </div>
-                <div class='modal-body ratio ratio-4x3'><iframe src='//dl.roipmars.org.my/files/members/mars-perlembagaan.pdf'></iframe></div>
+                <div class='modal-body'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p01.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p02.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p03.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p04.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p05.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p06.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p07.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p08.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p09.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p10.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p11.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p12.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p13.png'>
+                  <img class='img-fluid' loading='lazy' src='media/image/perlembagaan/p14.png'>
+                </div>
                 <div class='modal-footer'><a type='button' class='btn btn-sm btn-success' href='//dl.roipmars.org.my/files/members/mars-perlembagaan.pdf' download>Muat Turun</a></div>
               </div>
             </div>
@@ -330,7 +353,7 @@
         <div class='col-lg-7 my-3 text-center'>
           <h4 class='h4'>Ahli RoIPMARS</h4>
           <p><span class='membercount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
-          <table class='table table-sm align-middle' id='memberlist'>
+          <table class='table table-sm table-striped align-middle' id='memberlist'>
             <thead>
               <tr><th>ID</th><th>CALLSIGN</th><th>NAMA AHLI</th><th>SAH SEHINGGA</th></tr>
             </thead>
@@ -393,6 +416,7 @@
     <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
     <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
     <script src='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
+    <script src='assets/js/theme.js'></script>
     <script src='assets/js/member.js'></script>
     <script src='assets/js/tawkto.js'></script>
     <script src='assets/js/stt.js'></script>

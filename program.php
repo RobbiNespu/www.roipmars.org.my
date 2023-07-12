@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='ms-MY' data-bs-theme='dark'>
+<html lang='ms-MY' data-bs-theme='auto'>
 
 <head>
 	<title>RoIPMARS Network | Jadual Program 2023</title>
@@ -68,6 +68,14 @@
     <nav class='navbar navbar-expand-lg bg-body-tertiary'>
       <div class='container'>
         <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+				<div class='dropdown'>
+					<button class='btn nav-link d-flex align-items-center dropdown-toggle' id='bd-theme' type='button' aria-expanded='false' data-bs-toggle='dropdown' data-bs-display='static' aria-label='Toggle theme (auto)'>theme<span class='d-lg-none ms-2' id='bd-theme-text'>Toggle theme</span></button>
+					<ul class='dropdown-menu bg-body-tertiary border-0' aria-labelledby='bd-theme-text'>
+						<li><button type='button' class='dropdown-item d-flex align-items-center' data-bs-theme-value='auto'><i class='bi-circle-half me-2 opacity-50'></i>auto</button></li>
+						<li><button type='button' class='dropdown-item d-flex align-items-center' data-bs-theme-value='dark'><i class='bi-moon-stars-fill me-2 opacity-50'></i>dark</button></li>
+						<li><button type='button' class='dropdown-item d-flex align-items-center' data-bs-theme-value='light'><i class='bi-sun-fill me-2 opacity-50'></i>light</button></li>
+					</ul>
+				</div>
         <button class='navbar-toggler border-0' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>menu</button>
         <div class='collapse navbar-collapse text-end' id='navbarNav'>
           <ul class='nav navbar-nav nav-pills text-lg-center d-flex ms-auto'>
@@ -678,28 +686,28 @@
 				<h6 class='text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan Kita Semua <i class='fas fa-quote-right fa-xs'></i></h6>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1851683566&format=image' loading='lazy' alt='NetGraphTime23'>
+				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1851683566&format=image' loading='lazy' alt='NetGraphTime23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&format=image' loading='lazy' alt='NetGraphDaily23'>
+				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&format=image' loading='lazy' alt='NetGraphDaily23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=861710611&format=image' loading='lazy' alt='NetGraphDay23'>
+				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=861710611&format=image' loading='lazy' alt='NetGraphDay23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' loading='lazy' alt='NetGraphWeekly23'>
+				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' loading='lazy' alt='NetGraphWeekly23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' loading='lazy' alt='NetGraphMonthly23'>
+				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' loading='lazy' alt='NetGraphMonthly23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=455644558&format=image' loading='lazy' alt='NetGraphQuarterly23'>
+				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=455644558&format=image' loading='lazy' alt='NetGraphQuarterly23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=4802909&format=image' loading='lazy' alt='NetGraphBand23'>
+				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=4802909&format=image' loading='lazy' alt='NetGraphBand23'>
 			</div>
 			<div class='col-lg-6 figure my-1'>
-				<img class='figure-img img-fluid mx-auto d-block' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' loading='lazy' alt='NetGraphMode23'>
+				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' loading='lazy' alt='NetGraphMode23'>
 			</div>
 			<div class='col-lg-12 figure my-1'>
 				<img class='figure-img img-fluid mx-auto d-block rounded-5' src='//docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'>
@@ -951,6 +959,7 @@
   <script src='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
   <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
   <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
+	<script src='assets/js/theme.js'></script>
   <script src='assets/js/program.js'></script>
 	<script src='assets/js/tawkto.js'></script>
 	<script src='assets/js/stt.js'></script>

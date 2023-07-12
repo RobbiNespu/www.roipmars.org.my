@@ -141,7 +141,7 @@
           </div>
           <div class='col-10 d-flex align-content-center flex-wrap'>
             <div class='card-body mx-3'>
-              <p class='card-title fs-2 fw-bold'>ZULKIFLI ABU &#40;9W2UZL / 113MSUZL&#41; <a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-person-vcard'></i></a></p>
+              <p class='card-title fs-2 fw-bold'><a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-info-circle-fill'></i></a> ZULKIFLI ABU &#40;9W2UZL / 113MSUZL&#41;</p>
               <p class='card-subtitle fs-5 fw-semibold'>FOUNDER, LEAD ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
               <p class='card-subtitle fs-5 fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; PENYELIDIK</p>
               <p class='card-subtitle fw-light'>&#91;2018&#93; Dilantik oleh MART&acute;S sebagai penyelidik &#39;SIG&#39; &#40;Special Interest Group&#41;pengkhususan &#39;ROIP&#39; &#40;Radio over Internet Protocol&#41; &amp; &#39;VoIP&#39; &#40;Voice over Internet Protocol&#41;</p>
@@ -153,7 +153,7 @@
         <div class='row g-1 text-end'>
           <div class='col-10 d-flex align-content-center flex-wrap'>
             <div class='card-body mx-3'>
-              <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN &#40;9W2LGX / 113MS111&#41; <a href='//bit.ly/m/hafiziruslan'><i class='bi-person-vcard'></i></a></p>
+              <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN &#40;9W2LGX / 113MS111&#41; <a href='//bit.ly/m/hafiziruslan'><i class='bi-info-circle-fill'></i></a></p>
               <p class='card-subtitle fs-5 fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
               <p class='card-subtitle fs-5 fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
               <p class='card-subtitle fw-light'>&#91;2019&#93; Dilantik oleh RoIPMARS&trade; sebagai pembangun perisian</p>

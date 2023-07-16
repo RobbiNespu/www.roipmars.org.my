@@ -147,7 +147,7 @@
 						<tr class='opacity-25'><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
 						<tr class='table-primary'><td>Jumaat</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Santai</td><td>Rangkaian HAM RoIPMARS</td></tr>
 						<tr class='table-primary'><td>Sabtu</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
-						<tr class='table-primary'><td>Ahad</td><td>0200Z<br>0900MY</td><td>RoIPMARS Net Hujung Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
+						<tr class='table-primary'><td>Ahad</td><td>0100Z<br>0900MY</td><td>RoIPMARS Net Hujung Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
 					</tbody>
 				</table>
 				<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>
@@ -208,8 +208,8 @@
 									<p class='lh-1'>9M6RHM<br>RAHIM<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/member/028.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2NEW'>
-									<p class='lh-1'>9W2NEW<br>HISHAM<br>PETUGAS AKTIVITI</p>
+									<img src='media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RMD'>
+									<p class='lh-1'>9M6RMD<br>ROSNI<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
 									<img src='media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W6RHN'>
@@ -220,12 +220,12 @@
 						<div class='carousel-item'>
 							<div class='hstack gap-2'>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2snn.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W2SNN'>
-									<p class='lh-1'>9W2SNN<br>SAMSUL<br>PETUGAS AKTIVITI</p>
-								</div>
-								<div class='vstack gap-2'>
 									<img src='media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-danger-subtle bg-gradient mx-auto' alt='9W2YJT'>
 									<p class='lh-1'>9W2YJT<br>YUSOF<br>PETUGAS AKTIVITI</p>
+								</div>
+								<div class='vstack gap-2'>
+									<img src='media/image/member/028.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W2NEW'>
+									<p class='lh-1'>9W2NEW<br>HISHAM<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
 									<img src='media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-primary-subtle bg-gradient mx-auto' alt='9W6MOZ'>
@@ -244,8 +244,8 @@
 									<p class='lh-1'>9M2SFL<br>SAIFUL<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9M6RMD'>
-									<p class='lh-1'>9M6RMD<br>ROSNI<br>PETUGAS AKTIVITI</p>
+									<img src='media/image/ncs/9w2yhm.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient mx-auto' alt='9W2YHM'>
+									<p class='lh-1'>9W2YHM<br>HELMI<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
 									<img src='media/image/ncs/9w2esr.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W2ESR'>
@@ -259,10 +259,6 @@
 						</div>
 						<div class='carousel-item'>
 							<div class='hstack gap-2'>
-								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2yhm.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient mx-auto' alt='9W2YHM'>
-									<p class='lh-1'>9W2YHM<br>HELMI<br>PETUGAS AKTIVITI</p>
-								</div>
 								<div class='vstack gap-2'>
 									<img src='media/image/member/011.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-primary-subtle bg-gradient mx-auto' alt='9W2NDI'>
 									<p class='lh-1'>9W2NDI<br>NASA<br>PETUGAS AKTIVITI</p>
@@ -449,7 +445,7 @@
 						<tr><td>Wednesday<br>12/07/23</td><td>2100MY</td><td>Learning English Net</td><td>9W6WOT</td><td><i class='bi-envelpe-x-fill text-danger fs-3'></i></td></tr>
 						<tr><td>Jumaat<br>14/07/23</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9W2ESR</td><td><i class='bi-send-x-fill text-danger fs-3'></i></td></tr>
 						<tr><td>Sabtu<br>15/07/23</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W6RHN</td><td>47</td></tr>
-						<tr><td>Ahad<br>16/07/23</td><td>0900MY</td><td>RoIPMARS Net Hujung Minggu</td><td>9W2YHM</td><td>&shy;</td></tr>
+						<tr><td>Ahad<br>16/07/23</td><td>0900MY</td><td>RoIPMARS Net Hujung Minggu</td><td>9W2YHM</td><td>40</td></tr>
 						<tr><td>Isnin<br>17/07/23</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2YJT</td><td>&shy;</td></tr>
 						<tr class='bg-info-subtle'><td>Wednesday<br>19/07/23</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Awal Muharram 1445H&#41;</td><td>9M6AUA</td><td>&shy;</td></tr>
 						<tr><td>Jumaat<br>21/07/23</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9W6AZE</td><td>&shy;</td></tr>

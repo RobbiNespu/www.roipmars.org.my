@@ -17,33 +17,34 @@
     <meta property='og:title' content='RoIPMARS Network | Keahlian'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
     <meta property='og:url' content='www.roipmars.org.my/member'>
-    <meta property='og:image' content='media/image/brand_sq.png'>
+    <meta property='og:image' content='media/image/brands/roipmars/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='RoIPMARS Network | Keahlian'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
     <meta name='twitter:url' content='www.roipmars.org.my/member'>
-    <meta name='twitter:image' content='media/image/brand_sq.png'>
+    <meta name='twitter:image' content='media/image/brands/roipmars/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
     <meta name='msapplication-TileColor' content='#56C3E7'>
     <meta name='msapplication-TileImage' content='media/image/ms-icon-144x144.png'>
     <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
     <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
-    <link rel='shortcut icon' type='image/x-icon' href='media/image/favicon.ico'>
-    <link rel='icon' type='image/x-icon' href='media/image/favicon.ico'>
-    <link rel='icon' type='image/png' sizes='16x16' href='media/image/favicon-16x16.png'>
-    <link rel='icon' type='image/png' sizes='32x32' href='media/image/favicon-32x32.png'>
-    <link rel='icon' type='image/png' sizes='96x96' href='media/image/favicon-96x96.png'>
-    <link rel='icon' type='image/png' sizes='192x192' href='media/image/android-icon-192x192.png'>
-    <link rel='apple-touch-icon' sizes='57x57' href='media/image/apple-icon-57x57.png'>
-    <link rel='apple-touch-icon' sizes='60x60' href='media/image/apple-icon-60x60.png'>
-    <link rel='apple-touch-icon' sizes='72x72' href='media/image/apple-icon-72x72.png'>
-    <link rel='apple-touch-icon' sizes='76x76' href='media/image/apple-icon-76x76.png'>
-    <link rel='apple-touch-icon' sizes='114x114' href='media/image/apple-icon-114x114.png'>
-    <link rel='apple-touch-icon' sizes='120x120' href='media/image/apple-icon-120x120.png'>
-    <link rel='apple-touch-icon' sizes='144x144' href='media/image/apple-icon-144x144.png'>
-    <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
-    <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
+    <meta name='color-scheme' content='auto'>
+    <link rel='shortcut icon' type='image/x-icon' href='media/image/brands/favicon/favicon.ico'>
+    <link rel='icon' type='image/x-icon' href='media/image/brands/favicon/favicon.ico'>
+    <link rel='icon' type='image/png' sizes='16x16' href='media/image/brands/favicon/favicon-16x16.png'>
+    <link rel='icon' type='image/png' sizes='32x32' href='media/image/brands/favicon/favicon-32x32.png'>
+    <link rel='icon' type='image/png' sizes='96x96' href='media/image/brands/favicon/favicon-96x96.png'>
+    <link rel='icon' type='image/png' sizes='192x192' href='media/image/brands/favicon/android-icon-192x192.png'>
+    <link rel='apple-touch-icon' sizes='57x57' href='media/image/brands/favicon/apple-icon-57x57.png'>
+    <link rel='apple-touch-icon' sizes='60x60' href='media/image/brands/favicon/apple-icon-60x60.png'>
+    <link rel='apple-touch-icon' sizes='72x72' href='media/image/brands/favicon/apple-icon-72x72.png'>
+    <link rel='apple-touch-icon' sizes='76x76' href='media/image/brands/favicon/apple-icon-76x76.png'>
+    <link rel='apple-touch-icon' sizes='114x114' href='media/image/brands/favicon/apple-icon-114x114.png'>
+    <link rel='apple-touch-icon' sizes='120x120' href='media/image/brands/favicon/apple-icon-120x120.png'>
+    <link rel='apple-touch-icon' sizes='144x144' href='media/image/brands/favicon/apple-icon-144x144.png'>
+    <link rel='apple-touch-icon' sizes='152x152' href='media/image/brands/favicon/apple-icon-152x152.png'>
+    <link rel='apple-touch-icon' sizes='180x180' href='media/image/brands/favicon/apple-icon-180x180.png'>
     <link rel='manifest' href='assets/manifest.json'>
     <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.css' integrity='sha256-dytF8SOIB6pQuIPDkrS/inNZwKBGYuqjPX+ev2iCA04=' crossorigin='anonymous'>
@@ -63,6 +64,7 @@
     <script src='assets/js/gtag.js'></script>
     <script src='assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
     <script src='assets/js/clarity.js'></script>
+    
   </head>
 
   <body>
@@ -73,7 +75,7 @@
     <header>
       <nav class='navbar navbar-expand-lg bg-body-tertiary'>
         <div class='container'>
-          <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+          <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='media/image/brands/roipmars/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
           <div class='dropdown'>
             <button class='btn nav-link d-flex align-items-center dropdown-toggle' id='theme' type='button' aria-expanded='false' data-bs-toggle='dropdown' data-bs-display='static' aria-label='Toggle theme (auto)'><span class='ms-2' id='theme-text'>theme</span></button>
             <ul class='dropdown-menu bg-body-tertiary border-0' aria-labelledby='theme-text'>
@@ -352,46 +354,47 @@
         </div>
         <div class='col-lg-7 my-3 text-center'>
           <h4 class='h4'>Ahli RoIPMARS</h4>
-          <p><span class='membercount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo ' setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
+          <p><span class='membercount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo ' yang disahkan setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
           <table class='table table-sm table-striped align-middle' id='memberlist'>
             <thead>
-              <tr><th>ID</th><th>CALLSIGN</th><th>NAMA AHLI</th><th>SAH SEHINGGA</th></tr>
+              <tr><th>NO. AHLI</th><th>CALLSIGN</th><th>NAMA AHLI</th><th>SAH SEHINGGA</th></tr>
             </thead>
             <tbody class='user-select-none'>
-              <tr class='text-success-emphasis'><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>2023-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>2025-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>2023-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>2024-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>2024-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>2024-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>2023-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>2024-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>2025-12-31</td></tr>
-              <tr class='text-warning-emphasis opacity-50'><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>2022-12-31</td></tr>
-              <tr class='text-warning-emphasis opacity-50'><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>2022-12-31</td></tr>
-              <tr class='text-warning-emphasis opacity-50'><td>A012</td><td>9W2RNH</td><td>ROSNAH BINTI ABD RAPAR</td><td>2022-12-31</td></tr>
-              <!-- <tr class='text-danger-emphasis opacity-25'><td>A013</td><td>9W8VWW</td><td>VERONICA CATHERINE ANAK NOHAN</td><td>2021-07-02</td></tr> -->
-              <!-- <tr class='text-danger-emphasis opacity-25'><td>A014</td><td>9W8DNX</td><td>STANLEY SUMPING ANAK ALBERT BEJIE</td><td>2021-07-02</td></tr> -->
-              <!-- <tr class='text-danger-emphasis opacity-25'><td>A015</td><td>9M2NUZ</td><td>SITI NUSILAH BINTI HASAN</td><td>2021-07-02</td></tr> -->
-              <tr class='text-warning-emphasis opacity-50'><td>A016</td><td>9W8ZZK</td><td>MOHAMAD ZAHEER BIN ZAKARIA</td><td>2022-12-31</td></tr>
-              <tr class='text-warning-emphasis opacity-50'><td>A017</td><td>9M6RDY</td><td>MATTHEUS @ RUDY BIN BENEDICT</td><td>2022-12-31</td></tr>
-              <!-- <tr class='text-danger-emphasis opacity-25'><td>A018</td><td>9W6GEO</td><td>GEOFFREY BIN COSMAS</td><td>2021-07-02</td></tr> -->
-              <!-- <tr class='text-danger-emphasis opacity-25'><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>2021-07-02</td></tr> -->
-              <tr class='text-warning-emphasis opacity-50'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>2022-12-31</td></tr>
-              <!-- <tr class='text-danger-emphasis opacity-25'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>2021-07-02</td></tr> -->
-              <tr class='text-warning-emphasis opacity-50'><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2022-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>2023-12-31</td></tr>
-              <!-- <tr class='text-danger-emphasis opacity-25'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>2021-07-02</td></tr> -->
-              <tr class='text-warning-emphasis opacity-50'><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>2022-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>2023-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>2023-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A028</td><td>9W2NEW</td><td>NORHISHAM BIN BAHAROM</td><td>2023-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A029</td><td>9W2JCP</td><td>MOHAMAD ROSLI BIN AWANG</td><td>2023-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A030</td><td>9W2HLM</td><td>ABDUL HALIM BIN HJ HASHIM</td><td>2023-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A031</td><td>9W2EZK</td><td>MOHD IFFIQ ZIKRY BIN JAMAL</td><td>2025-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>B032</td><td>V85AFF</td><td>MAHATHIR BIN ARIFFIN</td><td>2023-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A033</td><td>9W2AKK</td><td>MUHAMMAD KHAIRUL AMILIN BIN ISMAIL</td><td>2023-12-31</td></tr>
-              <tr class='text-success-emphasis'><td>A034</td><td>9W2IKA</td><td>IDHAM KHALIL BIN ABDULL WAHAB</td><td>2023-12-31</td></tr>
+              <tr><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>2023-12-31</td></tr>
+              <tr><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>2025-12-31</td></tr>
+              <tr><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>2023-12-31</td></tr>
+              <tr><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>2024-12-31</td></tr>
+              <tr><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>2024-12-31</td></tr>
+              <tr><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>2024-12-31</td></tr>
+              <tr><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>2023-12-31</td></tr>
+              <tr><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>2024-12-31</td></tr>
+              <tr><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>2025-12-31</td></tr>
+              <tr class='opacity-75'><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>2022-12-31</td></tr>
+              <tr class='opacity-75'><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>2022-12-31</td></tr>
+              <tr class='opacity-75'><td>A012</td><td>9W2RNH</td><td>ROSNAH BINTI ABD RAPAR</td><td>2022-12-31</td></tr>
+              <!-- <tr class='opacity-25'><td>A013</td><td>9W8VWW</td><td>VERONICA CATHERINE ANAK NOHAN</td><td>2021-07-02</td></tr> -->
+              <!-- <tr class='opacity-25'><td>A014</td><td>9W8DNX</td><td>STANLEY SUMPING ANAK ALBERT BEJIE</td><td>2021-07-02</td></tr> -->
+              <!-- <tr class='opacity-25'><td>A015</td><td>9M2NUZ</td><td>SITI NUSILAH BINTI HASAN</td><td>2021-07-02</td></tr> -->
+              <tr class='opacity-75'><td>A016</td><td>9W8ZZK</td><td>MOHAMAD ZAHEER BIN ZAKARIA</td><td>2022-12-31</td></tr>
+              <tr class='opacity-75'><td>A017</td><td>9M6RDY</td><td>MATTHEUS @ RUDY BIN BENEDICT</td><td>2022-12-31</td></tr>
+              <!-- <tr class='opacity-25'><td>A018</td><td>9W6GEO</td><td>GEOFFREY BIN COSMAS</td><td>2021-07-02</td></tr> -->
+              <!-- <tr class='opacity-25'><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>2021-07-02</td></tr> -->
+              <tr class='opacity-75'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>2022-12-31</td></tr>
+              <!-- <tr class='opacity-25'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>2021-07-02</td></tr> -->
+              <tr class='opacity-75'><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2022-12-31</td></tr>
+              <tr><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>2023-12-31</td></tr>
+              <!-- <tr class='opacity-25'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>2021-07-02</td></tr> -->
+              <tr class='opacity-75'><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>2022-12-31</td></tr>
+              <tr><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>2023-12-31</td></tr>
+              <tr><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>2023-12-31</td></tr>
+              <tr><td>A028</td><td>9W2NEW</td><td>NORHISHAM BIN BAHAROM</td><td>2023-12-31</td></tr>
+              <tr><td>A029</td><td>9W2JCP</td><td>MOHAMAD ROSLI BIN AWANG</td><td>2023-12-31</td></tr>
+              <tr><td>A030</td><td>9W2HLM</td><td>ABDUL HALIM BIN HJ HASHIM</td><td>2023-12-31</td></tr>
+              <tr><td>A031</td><td>9W2EZK</td><td>MOHD IFFIQ ZIKRY BIN JAMAL</td><td>2025-12-31</td></tr>
+              <tr><td>B032</td><td>V85AFF</td><td>MAHATHIR BIN ARIFFIN</td><td>2023-12-31</td></tr>
+              <tr><td>A033</td><td>9W2AKK</td><td>MUHAMMAD KHAIRUL AMILIN BIN ISMAIL</td><td>2023-12-31</td></tr>
+              <tr><td>A034</td><td>9W2IKA</td><td>IDHAM KHALIL BIN ABDULL WAHAB</td><td>2023-12-31</td></tr>
+              <tr><td>A035</td><td>113MSRAO</td><td>GOWTAMROA A/L MANICKAROW</td><td>2023-12-31</td></tr>
             </tbody>
           </table>
         </div>
@@ -418,7 +421,6 @@
     <script src='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
     <script src='assets/js/theme.js'></script>
     <script src='assets/js/member.js'></script>
-    <script src='assets/js/tawkto.js'></script>
     <script src='assets/js/stt.js'></script>
   </body>
 

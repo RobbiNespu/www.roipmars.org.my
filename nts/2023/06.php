@@ -17,34 +17,34 @@
   <meta property='og:title' content='RoIPMARS Network | Peralihan Pelayan roipmars.com'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Peralihan Pelayan roipmars.com'>
   <meta property='og:url' content='www.roipmars.org.my/nts/2023/06'>
-  <meta property='og:image' content='../../media/image/brand_sq.png'>
+  <meta property='og:image' content='../../media/image/brands/roipmars/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='RoIPMARS Network | Peralihan Pelayan roipmars.com'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Peralihan Pelayan roipmars.com'>
   <meta name='twitter:url' content='www.roipmars.org.my/nts/2023/06'>
-  <meta name='twitter:image' content='../../media/image/brand_sq.png'>
+  <meta name='twitter:image' content='../../media/image/brands/roipmars/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
   <meta name='msapplication-TileImage' content='../../media/image/ms-icon-144x144.png'>
   <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
   <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
-  <meta name='color-scheme' content='dark'>
-  <link rel='shortcut icon' type='image/x-icon' href='../../media/image/favicon.ico'>
-  <link rel='icon' type='image/x-icon' href='../../media/image/favicon.ico'>
-  <link rel='icon' type='image/png' sizes='16x16' href='../../media/image/favicon-16x16.png'>
-  <link rel='icon' type='image/png' sizes='32x32' href='../../media/image/favicon-32x32.png'>
-  <link rel='icon' type='image/png' sizes='96x96' href='../../media/image/favicon-96x96.png'>
-  <link rel='icon' type='image/png' sizes='192x192' href='../../media/image/android-icon-192x192.png'>
-  <link rel='apple-touch-icon' sizes='57x57' href='../../media/image/apple-icon-57x57.png'>
-  <link rel='apple-touch-icon' sizes='60x60' href='../../media/image/apple-icon-60x60.png'>
-  <link rel='apple-touch-icon' sizes='72x72' href='../../media/image/apple-icon-72x72.png'>
-  <link rel='apple-touch-icon' sizes='76x76' href='../../media/image/apple-icon-76x76.png'>
-  <link rel='apple-touch-icon' sizes='114x114' href='../../media/image/apple-icon-114x114.png'>
-  <link rel='apple-touch-icon' sizes='120x120' href='../../media/image/apple-icon-120x120.png'>
-  <link rel='apple-touch-icon' sizes='144x144' href='../../media/image/apple-icon-144x144.png'>
-  <link rel='apple-touch-icon' sizes='152x152' href='../../media/image/apple-icon-152x152.png'>
-  <link rel='apple-touch-icon' sizes='180x180' href='../../media/image/apple-icon-180x180.png'>
+  <meta name='color-scheme' content='auto'>
+  <link rel='shortcut icon' type='image/x-icon' href='../../media/image/brands/favicon/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='../../media/image/brands/favicon/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='16x16' href='../../media/image/brands/favicon/favicon-16x16.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='../../media/image/brands/favicon/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='../../media/image/brands/favicon/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='../../media/image/brands/favicon/android-icon-192x192.png'>
+  <link rel='apple-touch-icon' sizes='57x57' href='../../media/image/brands/favicon/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='../../media/image/brands/favicon/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='../../media/image/brands/favicon/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='../../media/image/brands/favicon/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='../../media/image/brands/favicon/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='../../media/image/brands/favicon/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='../../media/image/brands/favicon/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='../../media/image/brands/favicon/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='../../media/image/brands/favicon/apple-icon-180x180.png'>
   <link rel='manifest' href='../../assets/manifest.json'>
   <link rel='preconnect' href='//fonts.googleapis.com'>
   <link rel='preconnect' href='//fonts.gstatic.com' crossorigin>
@@ -53,11 +53,11 @@
   <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.css' integrity='sha256-dytF8SOIB6pQuIPDkrS/inNZwKBGYuqjPX+ev2iCA04=' crossorigin='anonymous'>
   <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' integrity='sha256-2IJPcGfN/qOK/sfp/68HISUmaCQgbWnvHxEtchU6UF4=' crossorigin='anonymous'>
   <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-  <script src='../../assets/js/gtm.js'></script>
   <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-  <script src='../../assets/js/gtag.js'></script>
   <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
   <script async src='//fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+  <script src='../../assets/js/gtm.js'></script>
+  <script src='../../assets/js/gtag.js'></script>
   <script src='../../assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
   <script src='../../assets/js/clarity.js'></script>
 </head>

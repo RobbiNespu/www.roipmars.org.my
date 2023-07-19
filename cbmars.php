@@ -17,33 +17,34 @@
   <meta property='og:title' content='RoIPMARS Network | Citizen Band CallSign'>
   <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Isyarat Panggilan Jalur Rakyat'>
   <meta property='og:url' content='www.roipmars.org.my/cbmars'>
-  <meta property='og:image' content='media/image/brand_sq.png'>
+  <meta property='og:image' content='media/image/brands/roipmars/brand_sq.png'>
   <meta property='og:type' content='website'>
   <meta property='og:locale' content='ms-MY'>
   <meta name='twitter:title' content='RoIPMARS Network | Citizen Band CallSign'>
   <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Isyarat Panggilan Jalur Rakyat'>
   <meta name='twitter:url' content='www.roipmars.org.my/cbmars'>
-  <meta name='twitter:image' content='media/image/brand_sq.png'>
+  <meta name='twitter:image' content='media/image/brands/roipmars/brand_sq.png'>
   <meta name='twitter:creator' content='@HafiziRuslan'>
   <meta name='msapplication-TileColor' content='#56C3E7'>
   <meta name='msapplication-TileImage' content='media/image/ms-icon-144x144.png'>
   <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
   <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
-  <link rel='shortcut icon' type='image/x-icon' href='media/image/favicon.ico'>
-  <link rel='icon' type='image/x-icon' href='media/image/favicon.ico'>
-  <link rel='icon' type='image/png' sizes='16x16' href='media/image/favicon-16x16.png'>
-  <link rel='icon' type='image/png' sizes='32x32' href='media/image/favicon-32x32.png'>
-  <link rel='icon' type='image/png' sizes='96x96' href='media/image/favicon-96x96.png'>
-  <link rel='icon' type='image/png' sizes='192x192' href='media/image/android-icon-192x192.png'>
-  <link rel='apple-touch-icon' sizes='57x57' href='media/image/apple-icon-57x57.png'>
-  <link rel='apple-touch-icon' sizes='60x60' href='media/image/apple-icon-60x60.png'>
-  <link rel='apple-touch-icon' sizes='72x72' href='media/image/apple-icon-72x72.png'>
-  <link rel='apple-touch-icon' sizes='76x76' href='media/image/apple-icon-76x76.png'>
-  <link rel='apple-touch-icon' sizes='114x114' href='media/image/apple-icon-114x114.png'>
-  <link rel='apple-touch-icon' sizes='120x120' href='media/image/apple-icon-120x120.png'>
-  <link rel='apple-touch-icon' sizes='144x144' href='media/image/apple-icon-144x144.png'>
-  <link rel='apple-touch-icon' sizes='152x152' href='media/image/apple-icon-152x152.png'>
-  <link rel='apple-touch-icon' sizes='180x180' href='media/image/apple-icon-180x180.png'>
+  <meta name='color-scheme' content='auto'>
+  <link rel='shortcut icon' type='image/x-icon' href='media/image/brands/favicon/favicon.ico'>
+  <link rel='icon' type='image/x-icon' href='media/image/brands/favicon/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='16x16' href='media/image/brands/favicon/favicon-16x16.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='media/image/brands/favicon/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='media/image/brands/favicon/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='media/image/brands/favicon/android-icon-192x192.png'>
+  <link rel='apple-touch-icon' sizes='57x57' href='media/image/brands/favicon/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='media/image/brands/favicon/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='media/image/brands/favicon/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='media/image/brands/favicon/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='media/image/brands/favicon/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='media/image/brands/favicon/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='media/image/brands/favicon/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='media/image/brands/favicon/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='media/image/brands/favicon/apple-icon-180x180.png'>
   <link rel='manifest' href='assets/manifest.json'>
   <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.css' integrity='sha256-dytF8SOIB6pQuIPDkrS/inNZwKBGYuqjPX+ev2iCA04=' crossorigin='anonymous'>
@@ -52,11 +53,11 @@
   <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
   <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-  <script async src='//fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
+  <script async src='//fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>	
   <script src='assets/js/gtm.js'></script>
   <script src='assets/js/gtag.js'></script>
-  <script src='assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
-  <script src='assets/js/clarity.js'></script>
+  <script src='assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>  
+	<script src='assets/js/clarity.js'></script>
 </head>
 
 <body>
@@ -67,7 +68,7 @@
   <header>
     <nav class='navbar navbar-expand-lg bg-body-tertiary'>
       <div class='container'>
-        <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='media/image/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+        <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='media/image/brands/roipmars/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
 				<div class='dropdown'>
 					<button class='btn nav-link d-flex align-items-center dropdown-toggle' id='theme' type='button' aria-expanded='false' data-bs-toggle='dropdown' data-bs-display='static' aria-label='Toggle theme (auto)'><span class='ms-2' id='theme-text'>theme</span></button>
 					<ul class='dropdown-menu bg-body-tertiary border-0' aria-labelledby='theme-text'>
@@ -169,6 +170,7 @@
           </thead>
           <tbody>
 
+            <tr><td>I502</td><td>113MSRAO</td><td>GOWTAMROA A/L MANICKAROW</td><td>SG. PETANI, KEDAH</td><td>19 Jul 2023</td></tr>
             <tr><td>I501</td><td>113MSNAD</td><td>MUHAMMAD NUR AMIR BIN MOHD DALILA</td><td>SERI KEMBANGAN</td><td>09 Jul 2023</td></tr>
             <tr><td>I500</td><td>113MSAWI</td><td>MOHD SYAZWI ASYRAF BIN AZMAN</td><td>PONTIAN, JOHOR</td><td>13 Jun 2023</td></tr>
             <tr><td>I499</td><td>113MSSFL</td><td>SAIFUL AZHAR BIN ABDULLAH</td><td>SIMPANG RENGGAM, JOHOR</td><td>14 May 2023</td></tr>
@@ -716,7 +718,6 @@
   <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
   <script src='assets/js/cbcs.js'></script>
   <script src='assets/js/theme.js'></script>
-  <script src='assets/js/tawkto.js'></script>
   <script src='assets/js/stt.js'></script>
 </body>
 

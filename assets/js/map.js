@@ -1,6 +1,7 @@
-var YrNow = new Date().getFullYear()
-var JMAT = 'Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ'
-var mapOptions = {
+let getStoredTheme = localStorage.getItem('theme')
+let YrNow = new Date().getFullYear()
+let JMAT = 'Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ'
+let mapOptions = {
   center: [4.174977, 109.467492],
   zoom: 5,
   minZoom: 3,
@@ -8,8 +9,22 @@ var mapOptions = {
   loadingControl: true,
   fullscreenControl: true,
 }
-var map = L.map('map', mapOptions)
-L.tileLayer('//{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token=' + JMAT, { attribution: '&copy ' + YrNow + ' <a href="//www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="//www.jawg.io">JawgMaps</a>' }).addTo(map)
+var map = L.map('map',mapOptions)
+const styles = ['jawg-dark', 'jawg-streets']
+const baselayers = {}
+styles.forEach((style) =>
+  baselayers[style] = L.tileLayer(
+    `//{s}.tile.jawg.io/${style}/{z}/{x}/{y}.png?access-token=${JMAT}`, {
+      attribution: '&copy ' + YrNow + ' <a href="//www.openstreetmap.org/copyright">OSM</a>, <a href="//www.jawg.io/en/terms">Jawg</a>',
+    }
+  )
+)
+if (getStoredTheme == 'light') {
+  baselayers['jawg-streets'].addTo(map)
+} else {  
+  baselayers['jawg-dark'].addTo(map)
+}
+L.control.layers(baselayers).addTo(map)
 var terminator = L.terminator({ opacity: 0.25, fillOpacity: 0.25, interactive: false }).addTo(map)
 L.maidenhead({ color: 'rgba(225, 225, 225, 0.075)', interactive: false }).addTo(map)
 setInterval(function () { terminator.setTime() }, 60000)
@@ -64,7 +79,7 @@ map.addControl(
   })
 )
 var marsattr = '<a href="//www.roipmars.org.my">RoIPMARS&trade</a>'
-var marsMemIcon = L.icon({ iconUrl: '../media/image/favicon-96x96.png', iconSize: [24, 24] })
+var marsMemIcon = L.icon({ iconUrl: '../media/image/brands/favicon/favicon-96x96.png', iconSize: [24, 24] })
 var marsGateIcon = L.icon({ iconUrl: '//img.icons8.com/plasticine/100/null/radio-tower.png', iconSize: [32, 32] })
 var GMS = L.marker([3.444039, 101.5528566], { title: '9W4GMS', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GMS 147.400MHz -3.2MHz<br>VHF, TeamSpeak, EchoLink</p>', { closeButton: false, attribution: marsattr })
 var GYQ = L.marker([3.77112, 103.27712], { title: '9W4GYQ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GYQ 144.800MHz<br>VHF, TeamSpeak</p>', { closeButton: false, attribution: marsattr })
@@ -139,5 +154,7 @@ var A033 = L.marker([6.1127269, 102.277425], { title: 'A033', icon: marsMemIcon 
 var A033C = L.circle([6.1127269, 102.277425], { radius: 10000, stroke: false, fillOpacity: 0.175, interactive: false })
 var A034 = L.marker([2.465392, 101.856669], { title: 'A034', icon: marsMemIcon }).bindPopup('<img class="img-fluid object-fit-fill rounded-circle mx-auto my-1 bg-dark-subtle bg-gradient" src="../media/image/member/034.png" loading="lazy"><p class="text-center fw-bold fs-3 m-0">A034</p><p class="text-center fw-light fs-5 m-0">9W2IKA @ OJ02WL</p><p class="text-center m-0">IDHAM KHALIL BIN ABDULL WAHAB</p>', { closeButton: false, attribution: marsattr })
 var A034C = L.circle([2.465392,101.856669],{radius: 10000,stroke: false,fillOpacity: 0.175,interactive: false})
+var A035 = L.marker([5.663925, 100.507457], { title: 'A035', icon: marsMemIcon }).bindPopup('<img class="img-fluid object-fit-fill rounded-circle mx-auto my-1 bg-dark-subtle bg-gradient" src="../media/image/member/035.png" loading="lazy"><p class="text-center fw-bold fs-3 m-0">A035</p><p class="text-center fw-light fs-5 m-0">113MSRAO @ OJ05GP</p><p class="text-center m-0">GOWTAMROA A/L MANICKAROW</p>', { closeButton: false, attribution: marsattr })
+var A035C = L.circle([5.663925, 100.507457],{radius: 10000,stroke: false,fillOpacity: 0.175,interactive: false})
 
-L.layerGroup([GMS, GYQ, GOZ, GPA, A001, A001C, A002, A002C, A003, A003C, A004, A004C, B005, B005C, A006, A006C, A007, A007C, A008, A008C, A009, A009C, A010, A010C, A011, A011C, A012, A012C, /*A013, A013C, A014, A014C, A015, A015C,*/ A016, A016C, A017, A017C, /*A018, A018C, B019, B019C,*/ A020, A020C, /*A021, A021C,*/ A022, A022C, A023, A023C, /*A024, A024C,*/ A025, A025C, A026, A026C, A027, A027C, A028, A028C, A029, A029C, A030, A030C, A031, A031C, B032, B032C, A033, A033C,]).addTo(map)
+L.layerGroup([GMS, GYQ, GOZ, GPA, A001, A001C, A002, A002C, A003, A003C, A004, A004C, B005, B005C, A006, A006C, A007, A007C, A008, A008C, A009, A009C, A010, A010C, A011, A011C, A012, A012C, /*A013, A013C, A014, A014C, A015, A015C,*/ A016, A016C, A017, A017C, /*A018, A018C, B019, B019C,*/ A020, A020C, /*A021, A021C,*/ A022, A022C, A023, A023C, /*A024, A024C,*/ A025, A025C, A026, A026C, A027, A027C, A028, A028C, A029, A029C, A030, A030C, A031, A031C, B032, B032C, A033, A033C, A034, A034C, A035, A035C]).addTo(map)

@@ -42,6 +42,6 @@ function getBody(element) {
   let membercount = document.querySelector('.membercount')
   var originalTable = document.getElementById('memberlist');
   var tds = $(originalTable).children('tbody').children('tr').length;
-  membercount.textContent = tds + ' ahli berdaftar';
+  membercount.textContent = tds + ' ahli';
 }
 getBody($('table.table'));

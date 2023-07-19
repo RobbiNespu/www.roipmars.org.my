@@ -159,7 +159,7 @@
         </table>
       </div>
       <div class='col-12 text-center lh-1'>
-        <p><span class='cscount badge rounded-3 text-bg-success'></span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo ' setakat ' . date('D jS M Y, h:i:s.Ba e', $file_last_modified); ?></p>
+        <p><span class='cscount badge rounded-3 text-bg-success'></span><?php date_default_timezone_set($_SERVER['HTTP_CF_TIMEZONE']); $file_last_modified = filemtime(__FILE__); echo ' setakat ' . date('D, j/n/Y, H:i T', $file_last_modified); ?></p>
         <p class='fw-bold'>Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
         <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
       </div>

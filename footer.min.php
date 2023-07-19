@@ -37,8 +37,8 @@
             }
             $src_folder = __DIR__;
             $files = scan_dir($src_folder);
-            date_default_timezone_get();
             $fileindir = filemtime($src_folder.'/'.$files[0]);
+            date_default_timezone_set($_SERVER['HTTP_CF_TIMEZONE']);
             function getVisitorIp() {
               if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
                 $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_IPCITY'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];

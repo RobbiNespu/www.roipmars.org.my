@@ -287,7 +287,7 @@
 		<div class='row'>
 			<div class='col-12 my-1 text-center'>
 				<h2 class='font-weight-bold'>Takwim Program</h2>
-				<span><?php date_default_timezone_get(); $file_last_modified = filemtime(__FILE__); echo 'kemaskini pada: ' . date('D jS M Y, h:i:s.Ba e', $file_last_modified); ?></span>
+				<span><?php date_default_timezone_set($_SERVER['HTTP_CF_TIMEZONE']); $file_last_modified = filemtime(__FILE__); echo 'kemaskini pada: ' . date('D, j/n/Y, H:i T', $file_last_modified); ?></span>
 			</div>
 			<div class='table-responsive'>
 				<table class='table table-sm text-center table-striped align-middle' id='takwim'>

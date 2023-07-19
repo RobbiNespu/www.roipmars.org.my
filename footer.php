@@ -21,7 +21,7 @@
                 <tr><th>Akaun</th><td>1-2140-0004-3771-2</td></tr>
               </tbody>
             </table>
-            <p class='mt-2 mb-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='donateTngd()'><img src='media/image/brands/tngew/tngew_ht.png' class='img-fluid bg-light rounded-2 px-1' width='45'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateToyyib()'><img src='media/image/brands/fpx/fpx.png' class='img-fluid bg-light rounded-2 p-1' width='50'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateStripe()'><i class='bi-stripe fs-3 align-middle'></i></a></p>
+            <p class='mt-2 mb-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='donateTngd()'><img src='media/image/brands/tngew/tngew_ht.png' class='img-fluid bg-light-subtle rounded-2 px-1' width='45'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateToyyib()'><img src='media/image/brands/fpx/fpx.png' class='img-fluid bg-light-subtle rounded-2 p-1' width='50'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateStripe()'><i class='bi-stripe fs-3 align-middle'></i></a></p>
             <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
           </div>
           <div class='col-lg-4 mx-auto my-1'>

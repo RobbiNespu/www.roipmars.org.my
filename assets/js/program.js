@@ -13,7 +13,7 @@ $(document).ready(function () {
     'columnDefs': [
       { 'searchable': false, 'targets': [0, 1, 4] }
     ],
-    'displayStart': 140,
+    'displayStart': 150,
     'language': {
       'lengthMenu': 'Paparan _MENU_ rekod',
       'search': 'Cari Acara/Pengawal:',

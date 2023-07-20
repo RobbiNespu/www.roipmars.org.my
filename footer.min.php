@@ -19,7 +19,7 @@
               <a class='text-reset text-decoration-none' href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'><i class='bi-headset h1 mx-1' style='color: #336699'></i></a>
               <a class='text-reset text-decoration-none' href='//discord.gg/ExEEGhgaWx'><i class='bi-discord h1 mx-1' style='color: #5865F2'></i></a>
               <a class='text-reset text-decoration-none' href='//t.me/roipmarsnetwork'><i class='bi-telegram h1 mx-1' style='color: #0088cc'></i></a>
-              <a class='text-reset text-decoration-none' href='//zello.com/roipmarshamnetwork'><img class='bi h1 mx-1 pt-1' src='media/image/brands/zello/orange.png' width='28' style='color: #e95d2f'></a>
+              <a class='text-reset text-decoration-none' href='//zello.me/k/eqiml'><img class='bi h1 mx-1 pt-1' src='media/image/brands/zello/orange.png' width='28' style='color: #e95d2f'></a>
             </div>
           </div>
           <div class='col-md-9'>

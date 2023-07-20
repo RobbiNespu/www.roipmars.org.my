@@ -448,7 +448,7 @@
 						<tr><td>Sabtu<br>15/07/23</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W6RHN</td><td>47</td></tr>
 						<tr><td>Ahad<br>16/07/23</td><td>0900MY</td><td>RoIPMARS Net Hujung Minggu</td><td>9W2YHM</td><td>40</td></tr>
 						<tr><td>Isnin<br>17/07/23</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2OGK</td><td>41</td></td></tr>
-						<tr class='bg-info-subtle'><td>Wednesday<br>19/07/23</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Awal Muharram 1445H&#41;</td><td>9M6AUA</td><td>&shy;</td></tr>
+						<tr class='bg-info-subtle'><td>Wednesday<br>19/07/23</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Awal Muharram 1445H&#41;</td><td>9M6AUA</td><td>46</td></tr>
 						<tr><td>Jumaat<br>21/07/23</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9W6AZE</td><td>&shy;</td></tr>
 						<tr class='bg-primary-subtle'><td>Sabtu<br>22/07/23</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net <br>&#40;Hari Kemerdekaan Sarawak&#41;</td><td>9W6MOZ</td><td>&shy;</td></tr>
 						<tr><td>Ahad<br>23/07/23</td><td>0900MY</td><td>RoIPMARS Net Hujung Minggu</td><td>V85AFF</td><td>&shy;</td></tr>

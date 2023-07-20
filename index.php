@@ -223,25 +223,26 @@
       <div class='col-lg-4 my-1'>
         <div class='btn-group-vertical d-flex rounded-3' role='group'>
           <div class='btn btn-secondary disabled text-center bg-dark-subtle'>Kerjasama Kelab &amp; Persatuan Luar</div>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//marts.org.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Malaysia Amateur Radio Transmitters&#39; Society &#40;MARTS&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//mares.org.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Malaysian Amateur Radio Emergency Service Society &#40;MARES&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.jasra.org.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.astra.name.my' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.facebook.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063' target='_blank' rel='noopener'><i class='bi-facebook'></i> Radio Emergency &amp; Drone Squad &#40;REDS&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.facebook.com/krasb.selangor' target='_blank' rel='noopener'><i class='bi-facebook'></i> Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//marts.org.my' target='_blank' rel='noopener'>Malaysia Amateur Radio Transmitters&#39; Society &#40;MARTS&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//mares.org.my' target='_blank' rel='noopener'>Malaysian Amateur Radio Emergency Service Society &#40;MARES&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.jasra.org.my' target='_blank' rel='noopener'>Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.astra.name.my' target='_blank' rel='noopener'>Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.facebook.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063' target='_blank' rel='noopener'>Radio Emergency &amp; Drone Squad &#40;REDS&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.facebook.com/krasb.selangor' target='_blank' rel='noopener'>Komuniti Radio Amatur Sungai Buloh &#40;KRASB&#41;</a>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.qrz.com/db/9M4CRP' target='_blank' rel='noopener'>Papar Amateur Radio Club &#40;PARC&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.borneoamateurradio.org' target='_blank' rel='noopener'>Borneo Amateur Radio Club &#40;BARC&#41;</a>
         </div>
       </div>
       <div class='col-lg-4 my-1'>
         <div class='btn-group-vertical d-flex rounded-3' role='group'>
           <div class='btn btn-secondary disabled text-center bg-dark-subtle'>Pautan Luar</div>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.iaru-r3.org' target='_blank' rel='noopener'>Kesatuan Radio Amatur Antarabangsa &ndash; Wilayah 3</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.kkd.gov.my' target='_blank' rel='noopener'>Kementerian Komunikasi &amp; Digiital &#40;KKD&#41;</a>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.mcmc.gov.my' target='_blank' rel='noopener'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia &#40;SKMM&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.kkd.gov.my/' target='_blank' rel='noopener'>Kementerian Komunikasi &amp; Digiital &#40;KKD&#41;</a>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.ros.gov.my' target='_blank' rel='noopener'>Jabatan Pendaftaran Pertubuhan Malaysia &#40;JPPM&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//ms.wikipedia.org/wiki/Senarai_persatuan_radio_amatur_di_Malaysia' target='_blank' rel='noopener'><i class='bi-wikipedia'></i> Senarai Persatuan Radio Amatur Malaysia</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//bruneiamatureradio.blogspot.com' target='_blank' rel='noopener'><i class='fa-brands fa-blogger'></i> Brunei Darussalam Amateur Radio Association &#40;BDARA&#41;</a>
-          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//orari.or.id' target='_blank' rel='noopener'><i class='bi-wordpress'></i> Organisasi Amatir Radio Indonesia &#40;ORARI&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//ms.wikipedia.org/wiki/Senarai_persatuan_radio_amatur_di_Malaysia' target='_blank' rel='noopener'>Senarai Persatuan Radio Amatur Malaysia</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//bruneiamatureradio.blogspot.com' target='_blank' rel='noopener'>Brunei Darussalam Amateur Radio Association &#40;BDARA&#41;</a>
+          <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//orari.or.id' target='_blank' rel='noopener'>Organisasi Amatir Radio Indonesia &#40;ORARI&#41;</a>
           <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='//www.rast.or.th' target='_blank' rel='noopener'>Radio Amateur Society of Thailand &#40;RAST&#41;</a>
         </div>
       </div>

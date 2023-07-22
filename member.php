@@ -55,7 +55,7 @@
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.css' crossorigin='anonymous'>
     <link rel='stylesheet' href='//cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.css' crossorigin='anonymous'>
     <link rel='stylesheet' href='assets/css/map.css'> -->
-    <link rel='stylesheet' href='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='//cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.5/af-2.6.0/b-2.4.1/b-colvis-2.4.1/b-html5-2.4.1/b-print-2.4.1/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.css' crossorigin='anonymous'>
     <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
     <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
     <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
@@ -357,7 +357,7 @@
           <p><span class='membercount badge rounded-3 text-bg-success'></span><?php date_default_timezone_set($_SERVER['HTTP_CF_TIMEZONE']); $file_last_modified = filemtime(__FILE__); echo ' yang disahkan setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
           <table class='table table-sm table-striped align-middle' id='memberlist'>
             <thead>
-              <tr><th>NO. AHLI</th><th>CALLSIGN</th><th>NAMA AHLI</th><th>SAH SEHINGGA</th></tr>
+              <tr><th class='dt-head-center'>NO. AHLI</th><th class='dt-head-center'>CALLSIGN</th><th class='dt-head-center'>NAMA AHLI</th><th class='dt-head-center'>SAH SEHINGGA</th></tr>
             </thead>
             <tbody class='user-select-none'>
               <tr><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>2023-12-31</td></tr>
@@ -416,9 +416,9 @@
     <script src='//cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.js' crossorigin='anonymous'></script>
     <script src='//api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
     <script src='assets/js/map.js'></script> -->
-    <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
-    <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
-    <script src='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.js' crossorigin='anonymous'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js' crossorigin='anonymous'></script>
+    <script src='//cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.5/af-2.6.0/b-2.4.1/b-colvis-2.4.1/b-html5-2.4.1/b-print-2.4.1/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.js' crossorigin='anonymous'></script>
     <script src='assets/js/theme.js'></script>
     <script src='assets/js/member.js'></script>
     <script src='assets/js/stt.js'></script>

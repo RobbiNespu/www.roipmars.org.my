@@ -49,7 +49,7 @@
   <link rel='stylesheet' href='//use.typekit.net/kew7gwq.css'>
   <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.css' integrity='sha256-dytF8SOIB6pQuIPDkrS/inNZwKBGYuqjPX+ev2iCA04=' crossorigin='anonymous'>
   <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' integrity='sha256-2IJPcGfN/qOK/sfp/68HISUmaCQgbWnvHxEtchU6UF4=' crossorigin='anonymous'>
-  <link rel='stylesheet' href='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.css' crossorigin='anonymous'>
+  <link rel='stylesheet' href='//cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.5/af-2.6.0/b-2.4.1/b-colvis-2.4.1/b-html5-2.4.1/b-print-2.4.1/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.css' crossorigin='anonymous'>
   <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   <script async src='//www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
   <script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
@@ -313,7 +313,7 @@
       <div class='col-lg-5 text-center'>
         <h2>Kod 10</h2>
         <table class='table table-bordered table-striped table-sm' id='code10'>
-          <thead><th>Kod 10</th><th>Maksud</th></thead>
+          <thead><th class='dt-head-center'>Kod 10</th><th class='dt-head-center'>Maksud</th></thead>
           <tbody>
             <tr><td>10-1</td><td>Penerimaan Tidak Memuaskan</td></tr>
             <tr><td>10-2</td><td>Penerimaan Yang Baik</td></tr>
@@ -394,7 +394,7 @@
       <div class='col-lg-7 text-center'>
         <h2>Tanda Panggilan Jalur Rakyat Negara Asal</h2>
         <table class='table table-bordered table-striped table-sm align-middle' id='cbpre'>
-          <thead><tr><th>Pre</th><th>Kawasan</th></tr>
+          <thead><tr><th class='dt-head-center'>Pre</th><th class='dt-head-center'>Kawasan</th></tr>
           </thead>
           <tbody>
             <tr><td>1</td><td>Italy</td></tr>
@@ -758,9 +758,9 @@
   <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.js' integrity='sha256-cylxV1UruqmvQwOaplblZ7N+bxLCJYH+vHSBhlz5kF4=' crossorigin='anonymous'></script>
 	<script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.js' integrity='sha256-Y0NM43IuAu2ZN2YOPO+CdO11DkA77QeWgH38PRw/q/s=' crossorigin='anonymous'></script>
   <script src='//cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.js' integrity='sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=' crossorigin='anonymous'></script>
-  <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.js' crossorigin='anonymous'></script>
-  <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js' crossorigin='anonymous'></script>
-  <script src='//cdn.datatables.net/v/bs5/dt-1.13.3/af-2.5.2/b-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.js' crossorigin='anonymous'></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.js' crossorigin='anonymous'></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js' crossorigin='anonymous'></script>
+  <script src='//cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.5/af-2.6.0/b-2.4.1/b-colvis-2.4.1/b-html5-2.4.1/b-print-2.4.1/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.js' crossorigin='anonymous'></script>
   <script src='assets/js/theme.js'></script>
   <script src='assets/js/cbpre.js'></script>
   <script src='assets/js/stt.js'></script>

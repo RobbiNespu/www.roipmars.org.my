@@ -8,10 +8,10 @@ $(document).ready(function () {
     'keys': {
       'blurable': true,
       'keys': ['\n'.charCodeAt(0)],
-      'columns': [2, 3]
+      'columns': [2, 3],
     },
     'columnDefs': [
-      { 'searchable': false, 'targets': [0, 1, 4] }
+      {'searchable': false,'targets': [0,1,4]},
     ],
     'displayStart': 150,
     'language': {
@@ -25,11 +25,11 @@ $(document).ready(function () {
         'first': '<<',
         'previous': '<',
         'next': '>',
-        'last': '>>'
+        'last': '>>',
       },
       'info': 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
-      'infoFiltered': ' - tapisan dari _MAX_ rekod'
-    }
+      'infoFiltered': ' - tapisan dari _MAX_ rekod',
+    },
   });
 });
 

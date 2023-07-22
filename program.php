@@ -668,9 +668,9 @@
 							<li class='list-group-item list-group-item-secondary'><sup>2</sup> Pilihan Acara oleh NCS</li>
 						</ul>
 						<ul class='list-group list-group-horizontal'>
-							<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-person-x text-danger fs-3'></i> Pengawal tidak hadir</li>
-							<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-send-x-fill text-danger fs-3'></i> Laporan belum diterima</li>
-							<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-envelope-x-fill text-danger fs-3'></i> Laporan tidak lengkap</li>
+							<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-person-x text-danger'></i> Pengawal tidak hadir</li>
+							<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-send-x-fill text-danger'></i> Laporan belum diterima</li>
+							<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-envelope-x-fill text-danger'></i> Laporan tidak lengkap</li>
 						</ul>
 					</capton>
 				</table>

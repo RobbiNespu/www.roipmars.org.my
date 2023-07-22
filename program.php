@@ -291,7 +291,7 @@
 			</div>
 			<div class='table-responsive'>
 				<table class='table table-sm text-center table-striped align-middle' id='takwim'>
-					<thead><th class='dt-head-center'>Hari</th><th class='dt-head-center'>Masa</th><th class='dt-head-center'>Acara</th><th class='dt-head-center'>Pengawal &#124; Sandaran</th><th class='dt-head-center'>Laporan</th></thead>
+					<thead><th class='dt-head-center'>Hari</th><th class='dt-head-center'>Masa</th><th class='dt-head-center'>Acara</th><th class='dt-head-center'>NCS &#124; ECR</th><th class='dt-head-center'>Laporan</th></thead>
 					<tbody>
 						<tr class='bg-danger-subtle'><td>Ahad<br>01/01/23</td><td>2100MY</td><td>&#91;KHAS&#93; CB Net<br>&#40;Sambutan Tahun Baru 2023&#41;</td><td>113DAJCP</td><td>22</td></tr>
 						<tr class='bg-info-subtle'><td>Wednesday<br>04/01/23</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;World Braille Day&#41;</td><td>9M6JAY</td><td>17</td></tr>

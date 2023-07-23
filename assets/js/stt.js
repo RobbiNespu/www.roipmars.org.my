@@ -1,6 +1,6 @@
 let sttButton = document.getElementById('scrollToTop');
 window.onscroll = function () { scrollFunction() };
-window.onclick = function () { scrollToTop() };
+sttButton.onclick = function () { scrollToTop() };
 sttButton.style.display = 'none';
 
 function scrollFunction() {

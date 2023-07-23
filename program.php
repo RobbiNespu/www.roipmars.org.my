@@ -138,7 +138,7 @@
 				</div>
 			</div>
 			<div class='col-lg-6 my-3 d-block text-center'>
-				<h4>Aktiviti Net Mingguan</h4>
+				<h4>Aktiviti Net Mingguan RoIPMARS</h4>
 				<table class='table table-sm table-bordered text-center align-middle'>
 					<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
 					<tbody>
@@ -245,7 +245,7 @@
 									<p class='lh-1'>9M2SFL<br>SAIFUL<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
-									<img src='media/image/ncs/9w2yhm.png' class='img-fluid rounded-circle object-fit-cover w-50 bg-secondary-subtle bg-gradient mx-auto' alt='9W2YHM'>
+									<img src='media/image/ncs/9w2yhm.png' class='img-fluid rounded-circle object-fit-cover w-75 bg-secondary-subtle bg-gradient mx-auto' alt='9W2YHM'>
 									<p class='lh-1'>9W2YHM<br>HELMI<br>PETUGAS AKTIVITI</p>
 								</div>
 								<div class='vstack gap-2'>
@@ -451,7 +451,7 @@
 						<tr class='bg-info-subtle'><td>Wednesday<br>19/07/23</td><td>2100MY</td><td>&#91;SPECIAL&#93; English Net<br>&#40;Awal Muharram 1445H&#41;</td><td>9M6AUA</td><td>46</td></tr>
 						<tr><td>Jumaat<br>21/07/23</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9W2YJT &#124; 9M2SFL</td><td>61</td></tr>
 						<tr class='bg-primary-subtle'><td>Sabtu<br>22/07/23</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net <br>&#40;Hari Kemerdekaan Sarawak&#41;</td><td>9W6MOZ &#124; 9W6RHN</td><td><i class='bi-send-x-fill text-danger fs-3'></i></td></tr>
-						<tr><td>Ahad<br>23/07/23</td><td>0900MY</td><td>RoIPMARS Net Hujung Minggu</td><td>V85AFF &#124; 9M6RMD</td><td>&shy;</td></tr>
+						<tr><td>Ahad<br>23/07/23</td><td>0900MY</td><td>RoIPMARS Net Hujung Minggu</td><td>V85AFF &#124; 9M6RMD</td><td><i class='bi-envelope-x-fill text-danger fs-3'></i></td></tr>
 						<tr><td>Isnin<br>24/07/23</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9M2SFL &#124; 9W2AYP</td><td>&shy;</td></tr>
 						<tr><td>Wednesday<br>26/07/23</td><td>2100MY</td><td>Learning English Net</td><td>9M6JAY &#124; 9M6AUA</td><td>&shy;</td></tr>
 						<tr class='bg-primary-subtle'><td>Jumaat<br>28/07/23</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Penghargaan Sistem Pentadbir&#41;</td><td>9M6RMD &#124; 9W2ESR</td><td>&shy;</td></tr>

@@ -61,9 +61,6 @@
 
 <body>
   <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <div id='fb-root'></div>
-  <div id='fb-customer-chat' class='fb-customerchat'></div>
-  <script src='assets/js/fbchat.js'></script>
   <header class='sticky-top bg-body-tertiary'>
     <div class='container hstack mb-3'>
       <a class='me-auto' href='/'><img class='img-fluid object-fit-fill w-50' src='media/image/brands/roipmars/brand.png' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>

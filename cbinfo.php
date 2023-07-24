@@ -62,9 +62,6 @@
 
 <body>
   <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-  <div id='fb-root'></div>
-  <div id='fb-customer-chat' class='fb-customerchat'></div>
-  <script src='assets/js/fbchat.js'></script>
   <header class='sticky-top'>
     <nav class='navbar navbar-expand-lg bg-body-tertiary'>
       <div class='container'>

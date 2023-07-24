@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <header>
+    <header class='sticky-top'>
       <nav class='navbar navbar-expand-lg bg-body-tertiary'>
         <div class='container'>
           <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='media/image/brands/roipmars/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>

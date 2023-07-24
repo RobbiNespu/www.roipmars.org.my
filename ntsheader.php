@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <header>
+    <header class='sticky-top'>
       <div class='container-fluid bg-body-tertiary text-center py-1'>
         <a href='/'><img class='img-fluid d-inline-block' width='300' src='../../media/image/brands/roipmars/brand.png'></a>
         <div class='d-inline-block justify-content-center dropdown-center'>

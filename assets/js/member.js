@@ -35,13 +35,13 @@ $(document).ready(function () {
       'infoFiltered': ' - tapisan dari _MAX_ rekod',
       'infoPostFix': ' | Rekod diperoleh daripada maklumat sebenar.'
     }
-  });
-});
+  })
+})
 
 function getBody(element) {
   let membercount = document.querySelector('.membercount')
-  var originalTable = document.getElementById('memberlist');
-  var tds = $(originalTable).children('tbody').children('tr').length;
-  membercount.textContent = tds + ' ahli';
+  var originalTable = document.getElementById('memberlist')
+  var tds = $(originalTable).children('tbody').children('tr').length
+  membercount.textContent = tds + ' ahli aktif'
 }
-getBody($('table.table'));
+getBody($('table.table'))

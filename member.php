@@ -72,7 +72,7 @@
     <div id='fb-root'></div>
     <div id='fb-customer-chat' class='fb-customerchat'></div>
     <script src='assets/js/fbchat.js'></script>
-    <header>
+    <header class='sticky-top'>
       <nav class='navbar navbar-expand-lg bg-body-tertiary'>
         <div class='container'>
           <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='media/image/brands/roipmars/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
@@ -143,9 +143,9 @@
             <a type='button' class='btn btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
           </div>
           <div class='vstack gap-1 justify-content-center'>
-            <a type='button' class='btn btn-lg btn-primary rounded-5 fs-3' href='//bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian <i class='bi-google'></i> &#40;Google Form&#41; <i class='bi-google'></i></a>
-            <!-- <a type='button' class='btn btn-lg btn-secondary rounded-5 fs-3' href='//bit.ly/borangdaftarroipmars' target='_blank' rel='noopener'>Permohonan Keahlian <i class='bo bi-file-earmark-pdf-fill'></i> &#40;Adobe Sign&#41; <i class='bo bi-file-earmark-pdf-fill'></i></a> -->
-            <a type='button' class='btn btn-lg btn-success rounded-5 fs-3' href='//dl.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian <i class='bi-file-pdf-fill'></i> &#40;Fail PDF&#41; <i class='bi-file-pdf-fill'></i></a>
+            <a type='button' class='btn btn-lg btn-primary rounded-5 fs-3' href='//bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian &#40;Google Form&#41; <i class='bi-google'></i></a>
+            <!-- <a type='button' class='btn btn-lg btn-secondary rounded-5 fs-3' href='//bit.ly/borangdaftarroipmars' target='_blank' rel='noopener'>Permohonan Keahlian &#40;Adobe Sign&#41; <i class='bi-file-earmark-pdf-fill'></i></a> -->
+            <a type='button' class='btn btn-lg btn-success rounded-5 fs-3' href='//dl.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian &#40;Fail PDF&#41; <i class='bi-file-pdf-fill'></i></a>
           </div>
           <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>
             <div class='modal-dialog modal-dialog-centered' role='document'>
@@ -199,144 +199,144 @@
         <div class='col-12 my-2 text-center'>
           <h3 class='h3 text-center'>Jawatankuasa</h3>
           <p class='fw-bold'>Organisasi Pusat Sesi 2020-2023</p>
-          <div class='row justify-content-center'>
-            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
+          <div class='row justify-content-between'>
+            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-title fw-bold m-0'>
+                <div class='card-header fw-bold m-0'>
                   <p>PRESIDEN</p>
                 </div>
                 <div class='card-img'>
                   <img src='media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
-                <div class='card-subtitle'>
+                <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZULKIFLI ABU</p>
                   <p class='fw-semibold m-0'>9W2UZL</p>
                 </div>
               </div>
             </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-title fw-bold m-0'>
+                <div class='card-header fw-bold m-0'>
                   <p>TIMBALAN PRESIDEN</p>
                 </div>
                 <div class='card-img'>
                   <img src='media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
-                <div class='card-subtitle'>
+                <div class='card-footer'>
                   <p class='fw-bolder m-0'>KAMARUDZAMAN ABD RAHIM</p>
                   <p class='fw-semibold m-0'>9W2OGK</p>
                 </div>
               </div>
             </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-title fw-bold m-0'>
+                <div class='card-header fw-bold m-0'>
                   <p>SETIAUSAHA AGUNG</p>
                 </div>
                 <div class='card-img'>
                   <img src='media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
-                <div class='card-subtitle'>
+                <div class='card-footer'>
                   <p class='fw-bolder m-0'>HAFIZI RUSLAN</p>
                   <p class='fw-semibold m-0'>9W2LGX</p>
                 </div>
               </div>
             </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-title fw-bold m-0'>
+                <div class='card-header fw-bold m-0'>
                   <p>PENOLONG SETIAUSAHA</p>
                 </div>
                 <div class='card-img'>
                   <img src='media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
-                <div class='card-subtitle'>
+                <div class='card-footer'>
                   <p class='fw-bolder m-0'>ROZAIMAN SUFFIAN</p>
                   <p class='fw-semibold m-0'>9M2SFF</p>
                 </div>
               </div>
             </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-title fw-bold m-0'>
+                <div class='card-header fw-bold m-0'>
                   <p>BENDAHARI AGUNG</p>
                 </div>
                 <div class='card-img'>
                   <img src='media/image/member/007.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
-                <div class='card-subtitle'>
+                <div class='card-footer'>
                   <p class='fw-bolder m-0'>SULAIMAN MAZLAN</p>
                   <p class='fw-semibold m-0'>9W2ELM</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class='row justify-content-center'>
-            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
+          <div class='row border-top justify-content-between'>
+            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-title fw-bold m-0'>
-                  <p>BAH. SIARAYA &amp; AKTIVITI</p> &#40;Pegawai Lantikan Sementara&#41;</p>
+                <div class='card-header fw-bold m-0'>
+                  <p class='lh-1'>BAHAGIAN SIARAYA &amp; AKTIVITI<br>&#40;Pegawai Lantikan Sementara&#41;</p>
                 </div>
                 <div class='card-img'>
                   <img src='media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
-                <div class='card-subtitle'>
-                  <p class='fw-bolder m-0'>MOHD SABRI BIN IBRAHIM</p>
+                <div class='card-footer'>
+                  <p class='fw-bolder m-0'>SABRI IBRAHIM</p>
                   <p class='fw-semibold m-0'>9W2AYP</p>
                 </div>
               </div>
             </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-title fw-bold m-0'>
-                  <p>BAH. TEKNIKAL</p>
+                <div class='card-header fw-bold m-0'>
+                  <p>BAHAGIAN TEKNIKAL</p>
                 </div>
                 <div class='card-img'>
                   <img src='media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
-                <div class='card-subtitle'>
+                <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZAHEER ZAKARIA</p>
                   <p class='fw-semibold m-0'>9W8ZZK</p>
                 </div>
               </div>
             </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-title fw-bold m-0'>
-                  <p>BAH. KEBAJIKAN</p>
+                <div class='card-header fw-bold m-0'>
+                  <p>BAHAGIAN KEBAJIKAN</p>
                 </div>
                 <div class='card-img'>
                   <img src='media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
-                <div class='card-subtitle'>
+                <div class='card-footer'>
                   <p class='fw-bolder m-0'>MUSTAFA OMAR</p>
                   <p class='fw-semibold m-0'>9W6MOZ</p>
                 </div>
               </div>
             </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-title fw-bold m-0'>
-                  <p>BAH. EKONOMI</p>
+                <div class='card-header fw-bold m-0'>
+                  <p>BAHAGIAN EKONOMI</p>
                 </div>
                 <div class='card-img'>
                   <img src='media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
-                <div class='card-subtitle'>
+                <div class='card-footer'>
                   <p class='fw-bolder m-0'>FAIZNURNIZAM MAT RASOL</p>
                   <p class='fw-semibold m-0'>9W2UBE</p>
                 </div>
               </div>
             </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 rounded-5 text-center'>
+            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-title fw-bold m-0'>
-                  <p>BAH. PERHUBUNGAN AWAM</p>
+                <div class='card-header fw-bold m-0'>
+                  <p>BAHAGIAN PERHUBUNGAN AWAM</p>
                 </div>
                 <div class='card-img'>
                   <img src='//icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
-                <div class='card-subtitle'>
+                <div class='card-footer'>
                   <p class='fw-bolder m-0'>LANTIKAN 2024</p>
                   <p class='fw-semibold m-0'>&mdash;</p>
                 </div>

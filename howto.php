@@ -116,9 +116,9 @@
   <div class='container'>
     <h2 class='text-center'>TeamSpeak3 PC</h2>
     <div class='row'>
-      <div class='col-md mb-2'>
-        Spesifikasi PC Minima:
-        <table class='table table-sm table-bordered text-center align-middle'>
+      <div class='col-md mb-2 text-center'>
+        <p class='my-0'>Spesifikasi PC Minima:</p>
+        <table class='table table-sm table-bordered align-middle'>
           <tbody>
             <tr>
               <th scope='row' class='align-middle'>Sistem Operasi</th>
@@ -144,7 +144,17 @@
             </tr>
           </tbody>
         </table>
-        <p class='text-center'>Perisian tambahan untuk bantuan desktop: <a class='btn btn-sm btn-primary' role='button' href='//dl.teamviewer.com/download/TeamViewer_Setup.exe' download>TeamViewer (Windows)</a></p>
+        <p class='mb-1'>Perisian tambahan untuk bantuan desktop:</p>
+        <div class='btn-group d-flex mx-auto mb-1' role='group'>
+          <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='//download.teamviewer.com/download/TeamViewer_Setup_x64.exe' download>TeamViewer <i class='bi-windows'></i></a>
+          <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='//download.teamviewer.com/download/linux/teamviewer_amd64.deb' download>TeamViewer <i class='bi-ubuntu'></i></a>
+          <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='//download.teamviewer.com/download/TeamViewer.dmg' download>TeamViewer <i class='bi-apple'></i></a>
+        </div>
+        <div class='btn-group d-flex mx-auto' role='group'>
+          <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='//download.anydesk.com/AnyDesk.exe' download>AnyDesk <i class='bi-windows'></i></a>
+          <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='//download.anydesk.com/linux/anydesk_6.2.1-1_amd64.deb' download>AnyDesk <i class='bi-ubuntu'></i></a>
+          <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='//download.anydesk.com/anydesk.dmg' download>AnyDesk <i class='bi-apple'></i></a>
+        </div>
       </div>
     </div>
     <div id='pcwin' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>

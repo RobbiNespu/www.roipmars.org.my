@@ -65,7 +65,7 @@ L.control.rainviewer({
 map.addControl(new JawgPlaces.Leaflet({
   searchOnTyping: true,
   transition: { type: 'hybrid' },
-  marker: { icon: L.icon({ iconUrl: '//img.icons8.com/plasticine/100/000000/map-pin.png', iconSize: [32, 32] }), show: true },
+  marker: { icon: L.icon({ iconUrl: 'https://img.icons8.com/plasticine/100/000000/map-pin.png', iconSize: [32, 32] }), show: true },
   position: 'topright',
   language: 'ms',
   placeholder: 'Cari Lokasi',
@@ -81,7 +81,7 @@ L.control.worldMiniMap({
 }).addTo(map)
 var marsattr = '<a href="//www.roipmars.org.my">RoIPMARS&trade;</a>'
 var marsMemIcon = L.icon({ iconUrl: '../media/image/brands/favicon/favicon-96x96.png', iconSize: [24, 24] })
-var marsGateIcon = L.icon({ iconUrl: '//img.icons8.com/plasticine/100/null/radio-tower.png', iconSize: [32, 32] })
+var marsGateIcon = L.icon({ iconUrl: 'https://img.icons8.com/plasticine/100/null/radio-tower.png', iconSize: [32, 32] })
 var GMS = L.marker([3.444039, 101.5528566], { title: '9W4GMS', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GMS 147.400MHz -3.2MHz<br>VHF, TeamSpeak, EchoLink</p>', { closeButton: false, attribution: marsattr })
 var GYQ = L.marker([3.77112, 103.27712], { title: '9W4GYQ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GYQ 144.800MHz<br>VHF, TeamSpeak</p>', { closeButton: false, attribution: marsattr })
 var GOZ = L.marker([5.741363, 115.934101], { title: '9W4GOZ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GOZ 144.800MHz C203 -0.6MHz<br>VHF, TeamSpeak, EchoLink</p>', { closeButton: false, attribution: marsattr })

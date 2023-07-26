@@ -2,16 +2,16 @@
 <html data-bs-theme='auto'>
 
   <head>
-    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.css' integrity='sha256-dytF8SOIB6pQuIPDkrS/inNZwKBGYuqjPX+ev2iCA04=' crossorigin='anonymous'>
-    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' integrity='sha256-2IJPcGfN/qOK/sfp/68HISUmaCQgbWnvHxEtchU6UF4=' crossorigin='anonymous'>
-    <script src='//kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+		<!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css' integrity='sha256-fx038NkLY4U1TCrBDiu5FWPEa9eiZu01EiLryshJbCo=' crossorigin='anonymous' referrerpolicy='no-referrer'>
+		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css' integrity='sha256-BicZsQAhkGHIoR//IB2amPN5SrRb3fHB8tFsnqRAwnk=' crossorigin='anonymous' referrerpolicy='no-referrer'>
+    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous' referrerpolicy='no-referrer'></script> -->
   </head>
 
   <body>
     <header class='sticky-top'>
       <nav class='navbar navbar-expand-lg bg-body-tertiary'>
         <div class='container'>
-          <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='media/image/brands/roipmars/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+          <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='/media/image/brands/roipmars/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
           <div class='dropdown'>
             <button class='btn nav-link d-flex align-items-center dropdown-toggle' id='theme' type='button' aria-expanded='false' data-bs-toggle='dropdown' data-bs-display='static' aria-label='Toggle theme (auto)'><span class='ms-2' id='theme-text'>theme</span></button>
             <ul class='dropdown-menu bg-body-tertiary border-0' aria-labelledby='theme-text'>
@@ -42,20 +42,19 @@
                   <li><a class='dropdown-item' href='faq'>Soalan Lazim</a></li>
                   <li><a class='dropdown-item' href='member'>Keahlian RoIPMARS</a></li>
                   <!--<li><a class='dropdown-item' href='mailus'>Hubungi Kami</a></li>-->
-                  <li><a class='dropdown-item text-success-emphasis' href='//books.zoho.com/portal/roipmarsnetwork' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
+                  <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsnetwork' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
                 </ul>
               </li>
-              <li class='nav-item'><a class='nav-link text-primary-emphasis' href='//kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-              <li class='nav-item'><a class='nav-link text-info-emphasis' href='//dl.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+              <li class='nav-item'><a class='nav-link text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
+              <li class='nav-item'><a class='nav-link text-info-emphasis' href='https://dl.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <script src='//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.js' integrity='sha256-cylxV1UruqmvQwOaplblZ7N+bxLCJYH+vHSBhlz5kF4=' crossorigin='anonymous'></script>
-    <script src='//cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.js' integrity='sha256-Y0NM43IuAu2ZN2YOPO+CdO11DkA77QeWgH38PRw/q/s=' crossorigin='anonymous'></script>
-    <script src='//cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.js' integrity='sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=' crossorigin='anonymous'></script>
-    <script src='assets/js/theme.js'></script>
+    <!-- <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js' integrity='sha256-qlPVgvl+tZTCpcxYJFdHB/m6mDe84wRr+l81VoYPTgQ=' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js' integrity='sha256-whL0tQWoY1Ku1iskqPFvmZ+CHsvmRWx/PIoEvIeWh4I=' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
+    <script src='https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js' integrity='sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=' crossorigin='anonymous' referrerpolicy='no-referrer'></script> -->
   </body>
 
 </html>

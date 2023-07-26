@@ -93,7 +93,7 @@
           </tr>
           <tr>
             <td>Android free</td>
-            <td><a href='https:////dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' target='_blank' rel='noopener'>Download</a></td>
+            <td><a href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' target='_blank' rel='noopener'>Download</a></td>
           </tr>
           <tr>
             <td>Android downgrade</td>

@@ -284,7 +284,7 @@
               </tr>
               <tr>
                 <td>Tiada Sokongan Google</td>
-                <td><a class='btn btn-primary' role='button' href='https:////dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' download>Versi Tiada Sokongan Google<br>&#40;kurang ciri khas&#41;</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' download>Versi Tiada Sokongan Google<br>&#40;kurang ciri khas&#41;</a></td>
               </tr>
               <!-- <tr>
                 <td>v3.1.9-beta.194</td>
@@ -394,7 +394,7 @@
           <table class='table table-sm text-center align-middle'>
             <tbody>
               <tr><th scope='row'>Version</th><td>v3.0.13.1</td></tr>
-              <tr><th scope='row'>Android</th><td><a class='btn btn-sm btn-primary' role='button' href='https:////dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' download>Muat Turun</a></td></tr>
+              <tr><th scope='row'>Android</th><td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' download>Muat Turun</a></td></tr>
             </tbody>
           </table>
         </div>

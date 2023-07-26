@@ -2,4 +2,4 @@ User-agent: *
 Disallow: 
 Crawl-delay: 15
 Disallow: /assets/
-Sitemap: //www.roipmars.org.my/sitemap.xml
+Sitemap: https://www.roipmars.org.my/sitemap.xml

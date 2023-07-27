@@ -91,7 +91,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe src='/freq/27cb'></iframe>
+                    <iframe loading='lazy' src='/freq/27cb'></iframe>
                   </div>
                 </div>
                 <div class='modal-footer'>
@@ -109,7 +109,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe src='/freq/27cbmy'></iframe>
+                    <iframe loading='lazy' src='/freq/27cbmy'></iframe>
                   </div>
                 </div>
                 <div class='modal-footer'>
@@ -143,7 +143,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe src='/freq/446pmr'></iframe>
+                    <iframe loading='lazy' src='/freq/446pmr'></iframe>
                   </div>
                 </div>
                 <div class='modal-footer'>
@@ -180,7 +180,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe src='/freq/477cb'></iframe>
+                    <iframe loading='lazy' src='/freq/477cb'></iframe>
                   </div>
                 </div>
                 <div class='modal-footer'>
@@ -198,7 +198,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe src='/freq/477cbmy'></iframe>
+                    <iframe loading='lazy' src='/freq/477cbmy'></iframe>
                   </div>
                 </div>
                 <div class='modal-footer'>
@@ -235,7 +235,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe src='/freq/477fb'></iframe>
+                    <iframe loading='lazy' src='/freq/477fb'></iframe>
                   </div>
                 </div>
                 <div class='modal-footer'>

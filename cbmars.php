@@ -54,7 +54,6 @@
   </head>
 
   <body>
-    <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
     <?php require_once 'header.php' ?>
     <div class='container-fluid'>
       <div class='row text-center'>

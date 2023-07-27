@@ -54,7 +54,6 @@
 	</head>
 
 	<body>
-		<noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
 		<?php require_once 'header.php' ?>
 		<div class='container-fluid'>
 			<div class='row text-center'>
@@ -68,14 +67,14 @@
 				<div class='col-lg-6 my-1 align-self-center'>
 					<div class='row text-center'>
 						<div class='col-sm'>
-							<iframe class='bg-transparent rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n122/tlmy40/fn17/ftb/tt0/td1/th1/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
+							<iframe loading='lazy' class='bg-transparent rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n122/tlmy40/fn17/ftb/tt0/td1/th1/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
 						</div>
 						<div class='col-sm'>
-							<iframe class='bg-transparent rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n1440/tlmy/fn17/pd2/tt0/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
+							<iframe loading='lazy' class='bg-transparent rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n1440/tlmy/fn17/pd2/tt0/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></iframe>
 						</div>
 					</div>
 					<div class='ratio ratio-21x9'>
-						<iframe class='rounded-4' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0'></iframe>
+						<iframe loading='lazy' class='rounded-4' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0'></iframe>
 					</div>
 					<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun membuat selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan:</p>
 					<div class='btn-group d-flex justify-content-center' role='group'>
@@ -104,15 +103,15 @@
 							<!-- <div class='carousel-item active'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/013.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W8VWW'>
+										<img src='/media/image/member/013.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W8VWW'>
 										<p class='lh-1'>9W8VWW<br>VERONICA CATHERINE<br>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/031.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2EZK'>
+										<img src='/media/image/member/031.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2EZK'>
 										<p class='lh-1'>9W2EZK<br>IFFIQ ZIKRY<br>PENGURUS SIARAYA &amp; AKTIVITI</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/020.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M2SFF'>
+										<img src='/media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M2SFF'>
 										<p class='lh-1'>9M2SFF<br>ROZAIMAN SUFFIAN<br>PENOLONG PENGURUS AKTIVITI</p>
 									</div>
 								</div>
@@ -120,19 +119,19 @@
 							<div class='carousel-item active'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9m2sfl.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M2SFL'>
+										<img src='/media/image/ncs/9m2sfl.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M2SFL'>
 										<p class='lh-1'>9M2SFL<br>SAIFUL</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/010.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6AUA'>
+										<img src='/media/image/member/010.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6AUA'>
 										<p class='lh-1'>9M6AUA<br>JEOFREY</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9m6jay.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6JAY'>
+										<img src='/media/image/ncs/9m6jay.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6JAY'>
 										<p class='lh-1'>9M6JAY<br>JOHN JUNIOR</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/017.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6RDY'>
+										<img src='/media/image/member/017.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6RDY'>
 										<p class='lh-1'>9M6RDY<br>MATTHEUS &#64; RUDY</p>
 									</div>
 								</div>
@@ -140,19 +139,19 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9m6rhm.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6RHM'>
+										<img src='/media/image/ncs/9m6rhm.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6RHM'>
 										<p class='lh-1'>9M6RHM<br>RAHIM</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9m6rmd.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6RMD'>
+										<img src='/media/image/ncs/9m6rmd.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6RMD'>
 										<p class='lh-1'>9M6RMD<br>ROSNI</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/025.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2AYP'>
+										<img src='/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2AYP'>
 										<p class='lh-1'>9W2AYP<br>SABRI</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w2esr.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2ESR'>
+										<img src='/media/image/ncs/9w2esr.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2ESR'>
 										<p class='lh-1'>9W2ESR<br>SULAIMAN</p>
 									</div>
 								</div>
@@ -160,19 +159,19 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/029.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2JCP'>
+										<img src='/media/image/member/029.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2JCP'>
 										<p class='lh-1'>9W2JCP<br>ROSLI</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/028.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2NEW'>
+										<img src='/media/image/member/028.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2NEW'>
 										<p class='lh-1'>9W2NEW<br>HISHAM</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w2vfp.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2VFP'>
+										<img src='/media/image/ncs/9w2vfp.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2VFP'>
 										<p class='lh-1'>9W2VFP<br>FAHMI</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w2yhm.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YHM'>
+										<img src='/media/image/ncs/9w2yhm.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YHM'>
 										<p class='lh-1'>9W2YHM<br>HELMI</p>
 									</div>
 								</div>
@@ -180,19 +179,19 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w2yjt.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YJT'>
+										<img src='/media/image/ncs/9w2yjt.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YJT'>
 										<p class='lh-1'>9W2YJT<br>YUSOF</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w6aze.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6AZE'>
+										<img src='/media/image/ncs/9w6aze.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6AZE'>
 										<p class='lh-1'>9W6AZE<br>HAZARI</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/006.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6MOZ'>
+										<img src='/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6MOZ'>
 										<p class='lh-1'>9W6MOZ<br>MUSTAFA</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w6rhn.png' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6RHN'>
+										<img src='/media/image/ncs/9w6rhn.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6RHN'>
 										<p class='lh-1'>9W6RHN<br>ROSLAN</p>
 									</div>
 								</div>
@@ -200,11 +199,11 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w6wot.png' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='9W6WOT'>
+										<img src='/media/image/ncs/9w6wot.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='9W6WOT'>
 										<p class='lh-1'>9W6WOT<br>STEWARD</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/032.png' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='V85AFF'>
+										<img src='/media/image/member/032.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='V85AFF'>
 										<p class='lh-1'>V85AFF<br>MAHATHIR</p>
 									</div>
 								</div>

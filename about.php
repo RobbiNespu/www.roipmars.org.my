@@ -129,7 +129,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe src='/freq/vsimplex'></iframe>
+                    <iframe loading='lazy' src='/freq/vsimplex'></iframe>
                   </div>
                 </div>
                 <div class='modal-footer'>

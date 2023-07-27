@@ -46,9 +46,9 @@
 		<link rel='apple-touch-icon' sizes='152x152' href='/media/image/brands/favicon/apple-icon-152x152.png'>
 		<link rel='apple-touch-icon' sizes='180x180' href='/media/image/brands/favicon/apple-icon-180x180.png'>
 		<link rel='manifest' href='/assets/manifest.json'>
-		<link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
 		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.css' integrity='sha256-dytF8SOIB6pQuIPDkrS/inNZwKBGYuqjPX+ev2iCA04=' crossorigin='anonymous' referrerpolicy='no-referrer'>
 		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' integrity='sha256-2IJPcGfN/qOK/sfp/68HISUmaCQgbWnvHxEtchU6UF4=' crossorigin='anonymous' referrerpolicy='no-referrer'>
+		<link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
 		<link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.5/af-2.6.0/b-2.4.1/b-colvis-2.4.1/b-html5-2.4.1/b-print-2.4.1/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.css' crossorigin='anonymous' referrerpolicy='no-referrer'>
 		<script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
 	</head>

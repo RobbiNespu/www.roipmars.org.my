@@ -2,11 +2,11 @@
 <html data-bs-theme='auto'>
 
   <head>
-		<!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css' integrity='sha256-fx038NkLY4U1TCrBDiu5FWPEa9eiZu01EiLryshJbCo=' crossorigin='anonymous' referrerpolicy='no-referrer'>
-		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css' integrity='sha256-BicZsQAhkGHIoR//IB2amPN5SrRb3fHB8tFsnqRAwnk=' crossorigin='anonymous' referrerpolicy='no-referrer'>
-    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous' referrerpolicy='no-referrer'></script> -->
+		<!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css'  integrity='sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9' crossorigin='anonymous'>
+		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css' integrity='sha256-BicZsQAhkGHIoR//IB2amPN5SrRb3fHB8tFsnqRAwnk=' crossorigin='anonymous'>
+    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script> -->
     <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-    <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
+    <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
     <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
     <script src='/assets/js/gtm.js'></script>
     <script src='/assets/js/gtag.js'></script>
@@ -64,9 +64,9 @@
         </div>
       </div>
     </footer>
-    <!-- <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js' integrity='sha256-qlPVgvl+tZTCpcxYJFdHB/m6mDe84wRr+l81VoYPTgQ=' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
-    <script src='https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js' integrity='sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=' crossorigin='anonymous' referrerpolicy='no-referrer'></script> -->
-    <script src='https://roipmarsnetwork.statuspage.io/embed/script.js' crossorigin='anonymous' referrerpolicy='no-referrer'></script>    
+    <!-- <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js' integrity='sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=' crossorigin='anonymous'></script> -->
+    <script src='https://roipmarsnetwork.statuspage.io/embed/script.js' crossorigin='anonymous'></script>    
     <script src='/assets/js/theme.js'></script>
   </body>
 

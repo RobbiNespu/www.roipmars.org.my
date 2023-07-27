@@ -24,12 +24,12 @@
         <div class='row pb-3 d-flex align-items-center'>
           <div class='col-md-3 py-2'>
             <div class='d-flex justify-content-evenly'>
-              <a class='text-reset text-decoration-none' href='https://fb.me/roipmarsnetwork'><i class='bi-facebook h1 mx-1' style='color: #4267B2'></i></a>
-              <a class='text-reset text-decoration-none' href='https://bit.ly/448EkGn'><i class='bi-youtube h1 mx-1' style='color: #c4302b'></i></a>
-              <a class='text-reset text-decoration-none' href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'><i class='bi-headset h1 mx-1' style='color: #336699'></i></a>
-              <a class='text-reset text-decoration-none' href='https://discord.gg/ExEEGhgaWx'><i class='bi-discord h1 mx-1' style='color: #5865F2'></i></a>
-              <a class='text-reset text-decoration-none' href='https://t.me/roipmarsnetwork'><i class='bi-telegram h1 mx-1' style='color: #0088cc'></i></a>
-              <a class='text-reset text-decoration-none' href='https://zello.me/k/eqiml'><img class='bi h1 mx-1 pt-1' src='/media/image/brands/zello/orange.png' width='28' style='color: #e95d2f'></a>
+              <a class='text-reset text-decoration-none' href='https://fb.me/roipmarsnetwork' aria-label='Facebook RoIPMARS'><i class='bi-facebook h1 mx-1' style='color: #4267B2'></i></a>
+              <a class='text-reset text-decoration-none' href='https://bit.ly/448EkGn' aria-label='YouTube RoIPMARS'><i class='bi-youtube h1 mx-1' style='color: #c4302b'></i></a>
+              <a class='text-reset text-decoration-none' href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;' aria-label='Log Masuk RoIPMARS'><i class='bi-headset h1 mx-1' style='color: #336699'></i></a>
+              <a class='text-reset text-decoration-none' href='https://discord.gg/ExEEGhgaWx' aria-label='Discord RoIPMARS'><i class='bi-discord h1 mx-1' style='color: #5865F2'></i></a>
+              <a class='text-reset text-decoration-none' href='https://t.me/roipmarsnetwork' aria-label='Telegram RoIPMARS'><i class='bi-telegram h1 mx-1' style='color: #0088cc'></i></a>
+              <a class='text-reset text-decoration-none' href='https://zello.me/k/eqiml' aria-label='Zello RoIPMARS'><img class='bi h1 mx-1 pt-1' src='/media/image/brands/zello/orange.png' width='28' style='color: #e95d2f'></a>
             </div>
           </div>
           <div class='col-md-9'>

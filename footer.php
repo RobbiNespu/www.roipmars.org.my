@@ -2,9 +2,6 @@
 <html data-bs-theme='auto'>
 
   <head>
-		<!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css'  integrity='sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9' crossorigin='anonymous'>
-		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css' integrity='sha256-BicZsQAhkGHIoR//IB2amPN5SrRb3fHB8tFsnqRAwnk=' crossorigin='anonymous'>
-    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script> -->
   </head>
 
   <body>
@@ -18,11 +15,11 @@
             <table class='table table-sm table-bordered text-center align-middle text-wrap my-0 mx-auto w-auto' style='white-space: nowrap'>
               <tbody>
                 <tr><th>Nama</th><td>PERSATUAN PEMINAT RADIO KOMUNIKASI</td></tr>
-                <tr><th>Bank</th><td>BANK MUAMALAT</td></tr>
-                <tr><th>Akaun</th><td>1-2140-0004-3771-2</td></tr>
+                <tr><th>Bank</th><td>BANK MUAMALAT MALAYSIA BERHAD</td></tr>
+                <tr><th>Akaun</th><td>1 2140 0004 3771 2</td></tr>
               </tbody>
             </table>
-            <p class='mt-2 mb-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='donateTngd()' aria-label='Sumbang melalui TNG E-Wallet'><img loading='lazy' src='/media/image/brands/tngew/tngew_ht.png' class='img-fluid bg-light-subtle rounded-2 px-1' width='45'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateToyyib()' aria-label='Sumbang melalui FPX'><img loading='lazy' src='/media/image/brands/fpx/fpx.png' class='img-fluid bg-light-subtle rounded-2 p-1' width='50'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateStripe()' aria-label='Sumbang melalui Kad Debit atau Kredit'><i class='bi-stripe fs-3 align-middle'></i></a></p>
+            <p class='mt-2 mb-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='donateTngd()' aria-label='Sumbang melalui TNG E-Wallet'><img loading='lazy' src='/media/image/brands/tngew/tngew_ht.png' class='img-fluid bg-light-subtle rounded-2 px-1' width='45' alt='donate via tng ewallet'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateToyyib()' aria-label='Sumbang melalui FPX'><img loading='lazy' src='/media/image/brands/fpx/fpx.png' class='img-fluid bg-light-subtle rounded-2 p-1' width='50' alt='donate via fpx'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateStripe()' aria-label='Sumbang melalui Kad Debit atau Kredit'><i class='bi-stripe fs-3 align-middle'></i></a></p>
             <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
           </div>
           <div class='col-lg-4 mx-auto my-1'>
@@ -43,15 +40,13 @@
               </div>
             </div>
             <div class='d-md-flex justify-content-md-end opacity-75'>
-              <img class='img-fluid rounded-5 bg-body-tertiary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?muf=drwn&nwra=global&heline=eve&bgcolor=black&back=black&heline=eve'>
+              <img class='img-fluid rounded-5 bg-body-tertiary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?muf=drwn&nwra=global&heline=eve&bgcolor=black&back=black&heline=eve' alt='solar data'>
             </div>
           </div>
         </div>
         <?php require_once 'footer.min.php' ?>
       </div>
     </footer>
-    <!-- <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js' integrity='sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=' crossorigin='anonymous'></script> -->
     <script src='/assets/js/donate.js'></script>
     <script src='/assets/js/stt.js'></script>
   </body>

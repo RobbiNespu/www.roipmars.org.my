@@ -2,13 +2,9 @@
 <html data-bs-theme='auto'>
 
   <head>
-    <!-- <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
     <link rel='preconnect' href='https://fonts.gstatic.com'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css2?&family=Oxanium&family=Nanum+Gothic+Coding&family=Saira+Extra+Condensed&family=Orbitron&family=Electrolize&family=Coda&display=swap'>
-		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css'  integrity='sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9' crossorigin='anonymous'>
-		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css' integrity='sha256-BicZsQAhkGHIoR//IB2amPN5SrRb3fHB8tFsnqRAwnk=' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script> -->
   </head>
 
   <body>
@@ -26,13 +22,11 @@
           </div>
         </div>
         <div class='vstack text-end me-5'>
-          <h2 class='h2' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Jaringan RoIPMARS</h2>
-          <p class='fs-6 fw-light' style='font-family: "Electrolize", sans-serif'>&mdash; roipmars.com &mdash; roipmars.org.my &mdash;</p>
+          <h2 class='h2' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Jaringan RoIPMARS&trade;</h2>
+          <p class='fs-6 fw-light' style='font-family: "Electrolize", sans-serif'>roipmars.com &mdash; roipmars.org.my</p>
         </div>
       </div>
     </header>
-    <!-- <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js' integrity='sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=' crossorigin='anonymous'></script> -->
   </body>
 
 </html>

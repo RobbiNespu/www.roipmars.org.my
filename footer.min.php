@@ -29,7 +29,7 @@
               <a class='text-reset text-decoration-none' href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;' aria-label='Log Masuk RoIPMARS'><i class='bi-headset h1 mx-1' style='color: #336699'></i></a>
               <a class='text-reset text-decoration-none' href='https://discord.gg/ExEEGhgaWx' aria-label='Discord RoIPMARS'><i class='bi-discord h1 mx-1' style='color: #5865F2'></i></a>
               <a class='text-reset text-decoration-none' href='https://t.me/roipmarsnetwork' aria-label='Telegram RoIPMARS'><i class='bi-telegram h1 mx-1' style='color: #0088cc'></i></a>
-              <a class='text-reset text-decoration-none' href='https://zello.me/k/eqiml' aria-label='Zello RoIPMARS'><img class='bi h1 mx-1 pt-1' src='/media/image/brands/zello/orange.png' width='28' style='color: #e95d2f'></a>
+              <a class='text-reset text-decoration-none' href='https://zello.me/k/eqiml' aria-label='Zello RoIPMARS'><img class='bi h1 mx-1 pt-1' loading='lazy' src='/media/image/brands/zello/orange.png' width='28' style='color: #e95d2f'></a>
             </div>
           </div>
           <div class='col-md-9'>

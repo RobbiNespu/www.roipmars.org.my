@@ -103,7 +103,7 @@
       <div class='row text-center'>
         <div class='col-xxl-3 col-md-6 my-2'>
           <div class='card'>
-            <img class='card-img-top' src='/media/image/pic01.jpg'>
+            <img class='card-img-top' loading='lazy' src='/media/image/pic01.jpg'>
             <div class='card-body'>
               <h4 class='card-title'>Promosi</h4>
               <p class='card-text'>Ianya bukanlah satu tugas yang mudah untuk mempromosikan ROIP. Pada masa itu, kami telah dikejutkan kerana memperkenalkan teknologi internet sebagai alternatif ke radio ham. Kami berharap agar lama-kelamaan warga ham secara amnya akan terus menerajui teknologi baru.</p>
@@ -112,7 +112,7 @@
         </div>
         <div class='col-xxl-3 col-md-6 my-2'>
           <div class='card'>
-            <img class='card-img-top' src='/media/image/pic02.jpg'>
+            <img class='card-img-top' loading='lazy' src='/media/image/pic02.jpg'>
             <div class='card-body'>
               <h4 class='card-title'>Kerjasama</h4>
               <p class='card-text'>Apabila peluang muncul, kami berusaha untuk bekerjasama dengan kelab / persatuan lain untuk mempromosikan radio amatur. Beberapa kelab tempatan telah bersama berganding bahu mendalami teknologi ROIP. Semua bersepakat bahawa ROIP adalah alternatif apabila pengulang tidak berfungsi.</p>
@@ -121,7 +121,7 @@
         </div>
         <div class='col-xxl-3 col-md-6 my-2'>
           <div class='card'>
-            <img class='card-img-top' src='/media/image/pic03.jpg'>
+            <img class='card-img-top' loading='lazy' src='/media/image/pic03.jpg'>
             <div class='card-body'>
               <h4 class='card-title'>Jamboree</h4>
               <p class='card-text'>Kami mengambil bahagian secara aktif dalam acara tahunan JOTA JOTI. Pengakap diperkenalkan kepada komunikasi tanpa wayar dan diberi peluang untuk mengalami QSO buat kali pertama. Ramai yang teruja dan berminat untuk mengejar hobi radio amatur dalam masa terdekat.</p>
@@ -130,7 +130,7 @@
         </div>
         <div class='col-xxl-3 col-md-6 my-2'>
           <div class='card'>
-            <img class='card-img-top' src='/media/image/pic04.jpg'>
+            <img class='card-img-top' loading='lazy' src='/media/image/pic04.jpg'>
             <div class='card-body'>
               <h4 class='card-title'>Generasi Baru</h4>
               <p class='card-text'>Sambutan daripada kanak-kanak adalah di luar jangkaan kami. Mereka bersemangat apabila diberi peluang untuk mengendalikan sebuah stesen. Orang yang ramai lebih sukar untuk dikendalikan tetapi bernilai masa dan usaha kami. Kami menyukai semangat tinggi yang dipaparkan.</p>
@@ -152,16 +152,14 @@
               <button type='button' class='btn btn-outline-secondary text-secondary-emphasis dropdown-toggle text-wrap' data-bs-toggle='dropdown' data-bs-auto-close='outside' aria-expanded='false'>Bank Soalan &amp; Jawapan ORAE Malaysia 2023 &ndash; MCMC</button>
               <ul class='dropdown-menu rounded-3 fs-4 bg-body-secondary text-center'>
                 <li class='dropdown-header text-white fs-4'>Soalan Dwi-Bahasa &mdash; MCMC</li>
-                <li><a class='dropdown-item icon-link' href='https://dl.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classa.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
-                <li><a class='dropdown-item icon-link' href='https://dl.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classb.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas B <span class='badge bg-success-subtle'>9W</span></a></li>
-                <li><a class='dropdown-item icon-link' href='https://dl.roipmars.org.my/files/question-bank-skmm/mcmcquestion-classc.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas C <span class='badge bg-success-subtle'>9W3</span></a></li>
-                <li>
-                  <hr class='dropdown-divider'>
-                </li>
+                <li><a class='dropdown-item icon-link' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-A_v301222.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
+                <li><a class='dropdown-item icon-link' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-B_v301222.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas B <span class='badge bg-success-subtle'>9W</span></a></li>
+                <li><a class='dropdown-item icon-link' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-C_v301222.pdf' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas C <span class='badge bg-success-subtle'>9W3</span></a></li>
+                <li><hr class='dropdown-divider'></li>
                 <li class='dropdown-header text-white fs-4'>Jawapan Dwi-Bahasa</li>
                 <li><a class='dropdown-item icon-link' href='https://docs.google.com/spreadsheets/u/8/d/1ds9UTqvW5HDPU-CWn7N58vkkJrxvpbchp5pMkP7eHV4/htmlview' target='_blank' rel='noopener'><i class='bi-file-earmark-spreadsheet' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
                 <li><a class='dropdown-item icon-link' href='https://dl.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classa.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success'>9M</span></a></li>
-                <li><a class='dropdown-item icon-link disabled text-muted' href='https://dl.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classb.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas B <span class='badge bg-success'>9W</span></a></li>
+                <!-- <li><a class='dropdown-item icon-link disabled text-muted' href='https://dl.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classb.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas B <span class='badge bg-success'>9W</span></a></li> -->
                 <li><a class='dropdown-item icon-link' href='https://dl.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classc.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas C <span class='badge bg-success'>9W3</span></a></li>
               </ul>
             </div>

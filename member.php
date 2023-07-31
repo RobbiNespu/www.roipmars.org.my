@@ -182,11 +182,11 @@
                   <p>PENOLONG SETIAUSAHA</p>
                 </div>
                 <div class='card-img'>
-                  <img src='/media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='/media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill opacity-25 w-50' style='filter:grayscale(100%)'>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0'>ROZAIMAN SUFFIAN</p>
-                  <p class='fw-semibold m-0'>9M2SFF</p>
+                  <p class='fw-bolder m-0 opacity-25'>ROZAIMAN SUFFIAN</p>
+                  <p class='fw-semibold m-0 opacity-25'>9M2SFF</p>
                 </div>
               </div>
             </div>
@@ -313,7 +313,7 @@
               <tr class='opacity-75'><td>A017</td><td>9M6RDY</td><td>MATTHEUS @ RUDY BIN BENEDICT</td><td>2022-12-31</td></tr>
               <!-- <tr class='opacity-25'><td>A018</td><td>9W6GEO</td><td>GEOFFREY BIN COSMAS</td><td>2021-07-02</td></tr> -->
               <!-- <tr class='opacity-25'><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>2021-07-02</td></tr> -->
-              <tr class='opacity-75'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>2022-12-31</td></tr>
+              <!-- <tr class='opacity-75'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>2022-12-31</td></tr> -->
               <!-- <tr class='opacity-25'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>2021-07-02</td></tr> -->
               <tr class='opacity-75'><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2022-12-31</td></tr>
               <tr><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>2023-12-31</td></tr>

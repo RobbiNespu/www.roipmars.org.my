@@ -4,7 +4,7 @@ $(document).ready(function () {
       'searchable': false,
       'targets': [0, 1, 4]
     },
-    'displayStart': 150,
+    'displayStart': 160,
     'keys': {
       'blurable': true,
       'columns': [2, 3],

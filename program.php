@@ -392,9 +392,9 @@
 							<tr class='bg-primary-subtle'><td>Ahad<br>30/07/23</td><td>0900MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Keputeraan Sultan Pahang &#40;YDPA&#41;&#41;<br>&#40;Hari Persahabatan&#41;</td><td>9W2YHM</td><td>18</td></tr>
 							<tr class='bg-primary-subtle'><td>Isnin<br>31/07/23</td><td>2100MY</td><td>&#91;KHAS&#93; RoIPMARS Net<br>&#40;Hari Pahlawan&#41;</td><td>9W2YBT &#124; 9W2YHM</td><td>57</td></tr>
 							
-							<tr><td>Wednesday<br>02/08/23</td><td>2100MY</td><td>Learning English Net</td><td>9M6RDY &#124; 9M6JAY</td><td><i class='bi-send-x-fill text-danger fs-3'></i></td></tr>
-							<tr><td>Jumaat<br>04/08/23</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9M2SFL &#124; 9W2YJT</td><td><i class='bi-send-x-fill text-danger fs-3'></i></td></tr>
-							<tr><td>Sabtu<br>05/08/23</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W2VFP &#124; 9W2NEW</td><td>&shy;</td></tr>
+							<tr><td>Wednesday<br>02/08/23</td><td>2100MY</td><td>Learning English Net</td><td>9M6RDY &#124; 9M6JAY</td><td>22</i></td></tr>
+							<tr><td>Jumaat<br>04/08/23</td><td>2100MY</td><td>RoIPMARS Net Santai</td><td>9M2SFL &#124; 9W2YJT</td><td>59</td></tr>
+							<tr><td>Sabtu<br>05/08/23</td><td>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>9W2VFP &#124; 9W2NEW</td><td><i class='bi-send-x-fill text-danger fs-3'></i></td></tr>
 							<tr><td>Ahad<br>06/08/23</td><td>0900MY</td><td>RoIPMARS Net Hujung Minggu</td><td>9W2YHM &#124; 9W2VFP</td><td>&shy;</td></tr>
 							<tr><td>Isnin<br>07/08/23</td><td>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>9W2YJT &#124; 9W2YHM</td><td>&shy;</td></tr>
 							<tr><td>Wednesday<br>09/08/23</td><td>2100MY</td><td>Learning English Net</td><td>9M6RHM &#124; 9M6RDY</td><td>&shy;</td></tr>

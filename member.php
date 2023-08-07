@@ -182,11 +182,11 @@
                   <p>PENOLONG SETIAUSAHA</p>
                 </div>
                 <div class='card-img'>
-                  <img src='/media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill opacity-25 w-50' style='filter:grayscale(100%)'>
+                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0 opacity-25'>ROZAIMAN SUFFIAN</p>
-                  <p class='fw-semibold m-0 opacity-25'>9M2SFF</p>
+                  <p class='fw-bolder m-0 opacity-25'>LANTIKAN 2024</p>
+                  <p class='fw-semibold m-0 opacity-25'>&mdash;</p>
                 </div>
               </div>
             </div>

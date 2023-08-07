@@ -224,7 +224,7 @@
 				</div>
 				<div class='table-responsive'>
 					<table class='table table-sm text-center table-striped align-middle' id='takwim'>
-						<thead><th class='dt-head-center'>Hari</th><th class='dt-head-center'>Masa</th><th class='dt-head-center'>Acara</th><th class='dt-head-center'>NCS &#124; ECR</th><th class='dt-head-center'>Laporan</th></thead>
+						<thead><th class='dt-head-center'>Hari</th><th class='dt-head-center'>Acara</th><th class='dt-head-center'>NCS &#124; ECR</th><th class='dt-head-center'>Laporan</th></thead>
 						<caption class='text-center'>
 							<ul class='list-group'>
 								<li class='list-group-item list-group-item-secondary'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>

@@ -1,5 +1,6 @@
 $(document).ready(function () {
   $('#takwim').DataTable({
+    'ajax': 'assets/json/schedule.json',
     'columnDefs': {
       'searchable': false,
       'targets': [0, 1, 4]
@@ -32,5 +33,71 @@ $(document).ready(function () {
     'pagingType': 'full_numbers',
     'processing': true,
     'searchDelay': 350
+  })
+  
+  $('#all-ncs-rank').DataTable({
+    'ajax': {
+      'url': '/assets/json/rank.json',
+      'dataSrc': 'ncs-all'
+    },
+    'info': false,
+    'ordering': false,
+    'paging': false,
+    'searching': false
+  })
+  
+  $('#en-ncs-rank').DataTable({
+    'ajax': {
+      'url': '/assets/json/rank.json',
+      'dataSrc': 'ncs-en'
+    },
+    'info': false,
+    'ordering': false,
+    'paging': false,
+    'searching': false
+  })
+  
+  $('#ms-ncs-rank').DataTable({
+    'ajax': {
+      'url': '/assets/json/rank.json',
+      'dataSrc': 'ncs-ms'
+    },
+    'info': false,
+    'ordering': false,
+    'paging': false,
+    'searching': false
+  })
+  
+  $('#all-stn-rank').DataTable({
+    'ajax': {
+      'url': '/assets/json/rank.json',
+      'dataSrc': 'stn-all'
+    },
+    'info': false,
+    'ordering': false,
+    'paging': false,
+    'searching': false
+  })
+  
+  $('#en-stn-rank').DataTable({
+    'ajax': {
+      'url': '/assets/json/rank.json',
+      'dataSrc': 'stn-en'
+    },
+    'info': false,
+    'ordering': false,
+    'paging': false,
+    'searching': false
+  })
+  
+  $('#ms-stn-rank').DataTable({
+    'ajax': {
+      'url': '/assets/json/rank.json',
+      'dataSrc': 'stn-ms'
+    },
+    'info': false,
+    'ordering': false,
+    'paging': false,
+    'searching': false
   })
 })

@@ -1,0 +1,79 @@
+{
+  "ncs-all": [
+    [ "9W6MOZ", "Mus", "79.6%" ],
+    [ "9M2SFL", "Saiful", "79.5%" ],
+    [ "9W2UZL", "Ust. Zul", "74.9%" ],
+    [ "9W2ESR", "Maman", "70.0%" ],
+    [ "9M6AUA", "Jeofrey", "74.5%" ],
+    [ "9W6WOT", "Steward", "73.0%" ],
+    [ "9W2YJT", "Yusof", "68.7%" ],
+    [ "9W2AYP", "Sabri", "66.9%" ],
+    [ "9W2OGK", "Man Pangkor", "65.9%" ],
+    [ "9W2LGX", "Fizi", "64.3%" ],
+    [ "9M6RDY", "Rudy", "62.1%" ],
+    [ "9W6RHN", "Roslan", "61.6%" ],
+    [ "9M6JAY", "John Jr.", "57.3%" ],
+    [ "V85AFF", "Mahathir", "56.9%" ],
+    [ "9M6RMD", "Rosni", "54.9%" ]
+  ],
+  "ncs-en": [
+		[ "9W6WOT", "Steward", "80.2%" ],
+		[ "9M6AUA", "Jeofrey", "81.9%" ],
+		[ "9W6RHN", "Roslan", "65.0%" ],
+		[ "9M6RDY", "Rudy", "60.4%" ],
+		[ "9M6RHM", "Rahim", "34.4%" ]
+	],
+  "ncs-ms": [
+		[ "9W2OGK", "Man Pangkor", "65.9%" ],
+		[ "9W2UZL", "Ust. Zul", "74.9%" ],
+		[ "9M2SFL", "Saiful", "79.5%" ],
+		[ "9W2YJT", "Yusof", "68.7%" ],
+		[ "9W6MOZ", "Mus", "79.6%" ],
+		[ "9M6RMD", "Rosni", "54.9%" ],
+		[ "9W2YBT", "Faisal", "43.8%" ],
+		[ "9W2AYP", "Sabri", "66.9%" ],
+		[ "9W2LGX", "Fizi", "63.1%" ],
+		[ "9W6RHN", "Roslan", "55.9%" ]
+	],
+  "stn-all": [
+    ["9W2AYP", "Sabri"],
+    ["9W6RHN", "Roslan"],
+    ["V85AFF", "Mahathir"],
+    ["9W2JCP", "Rosli"],
+    ["9W2NDI", "Nasa"],
+    ["9M2RAN", "Imran"],
+    ["9W2SNN", "Samsul"],
+    ["9M6RDY", "Mattheus @ Rudy"],
+    ["9M2SFL", "Saiful"],
+    ["9W2YBT", "Faisal"],
+    ["9M6AUA", "Jeofrey"],
+    ["YG4FCW", "Julia Arryani"],
+    ["YC5OE", "Erman"],
+    ["YC3RDY", "Rudy Jaya Karyanto"],
+    ["YD9BEJ", "I Nyoman Darta"]
+  ],
+  "stn-en": [
+    ["9W2AYP", "Sabri"],
+    ["9W6RHN", "Roslan"],
+    ["9M6RDY", "Mattheus @ Rudy"],
+    ["9M2RAN", "Imran"],
+    ["9W2NDI", "Nasa"],
+    ["V85AFF", "Mahathir"],
+    ["9W2JCP", "Rosli"],
+    ["9M6AUA", "Jeofrey"],
+    ["9M6JAY", "John Jr."],
+    ["9W2SNN", "Samsul"]
+  ],
+  "stn-ms": [
+    ["9W2AYP", "Sabri"],
+    ["V85AFF", "Mahathir"],
+    ["9W6RHN", "Roslan"],
+    ["9W2JCP", "Rosli"],
+    ["9W2NDI", "Nasa"],
+    ["9M2RAN", "Imran"],
+    ["9W2SNN", "Samsul"],
+    ["9M2SFL", "Saiful"],
+    ["9W2YBT", "Faisal"],
+    ["9W2YJT", "Yusof"]
+  ]
+}

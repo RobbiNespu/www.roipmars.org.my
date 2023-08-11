@@ -96,23 +96,23 @@
 					<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>
 					<div id='ncs23' class='carousel slide' data-bs-ride='carousel'>
 						<div class='carousel-inner my-0'>
-							<!-- <div class='carousel-item active'>
+							<div class='carousel-item active'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/013.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W8VWW'>
-										<p class='lh-1'>9W8VWW<br>VERONICA CATHERINE<br>KETUA BAHAGIAN SIARAYA &amp; AKTIVITI</p>
+										<img src='/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2AYP'>
+										<p class='lh-1'>9W2AYP<br>SABRI</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/031.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2EZK'>
-										<p class='lh-1'>9W2EZK<br>IFFIQ ZIKRY<br>PENGURUS SIARAYA &amp; AKTIVITI</p>
+										<img src='/media/image/ncs/9m6jay.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6JAY'>
+										<p class='lh-1'>9M6JAY<br>JOHN JUNIOR</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M2SFF'>
-										<p class='lh-1'>9M2SFF<br>ROZAIMAN SUFFIAN<br>PENOLONG PENGURUS AKTIVITI</p>
+										<img src='/media/image/member/029.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2JCP'>
+										<p class='lh-1'>9W2JCP<br>ROSLI</p>
 									</div>
 								</div>
-							</div> -->
-							<div class='carousel-item active'>
+							</div>
+							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
 										<img src='/media/image/ncs/9m2sfl.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M2SFL'>
@@ -121,10 +121,6 @@
 									<div class='vstack gap-2'>
 										<img src='/media/image/member/010.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6AUA'>
 										<p class='lh-1'>9M6AUA<br>JEOFREY</p>
-									</div>
-									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9m6jay.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6JAY'>
-										<p class='lh-1'>9M6JAY<br>JOHN JUNIOR</p>
 									</div>
 									<div class='vstack gap-2'>
 										<img src='/media/image/member/017.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6RDY'>
@@ -143,10 +139,6 @@
 										<p class='lh-1'>9M6RMD<br>ROSNI</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2AYP'>
-										<p class='lh-1'>9W2AYP<br>SABRI</p>
-									</div>
-									<div class='vstack gap-2'>
 										<img src='/media/image/ncs/9w2esr.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2ESR'>
 										<p class='lh-1'>9W2ESR<br>SULAIMAN</p>
 									</div>
@@ -154,10 +146,6 @@
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
-									<div class='vstack gap-2'>
-										<img src='/media/image/member/029.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2JCP'>
-										<p class='lh-1'>9W2JCP<br>ROSLI</p>
-									</div>
 									<div class='vstack gap-2'>
 										<img src='/media/image/member/028.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2NEW'>
 										<p class='lh-1'>9W2NEW<br>HISHAM</p>
@@ -174,10 +162,6 @@
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
-									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w2yjt.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YJT'>
-										<p class='lh-1'>9W2YJT<br>YUSOF</p>
-									</div>
 									<div class='vstack gap-2'>
 										<img src='/media/image/ncs/9w6aze.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6AZE'>
 										<p class='lh-1'>9W6AZE<br>HAZARI</p>
@@ -206,12 +190,12 @@
 							</div>
 						</div>
 						<div class='carousel-indicators position-relative my-0 mx-auto pe-none'>
-							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
+							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='0' aria-label='Slide 1' class='active' aria-current='true'></button>
 							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='1' aria-label='Slide 2'></button>
 							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='2' aria-label='Slide 3'></button>
 							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='3' aria-label='Slide 4'></button>
 							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='4' aria-label='Slide 5'></button>
-							<!-- <button type='button' data-bs-target='#ncs23' data-bs-slide-to='5' aria-label='Slide 6'></button> -->
+							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='5' aria-label='Slide 6'></button>
 						</div>
 					</div>
 				</div>
@@ -315,86 +299,51 @@
 							</table>
 						</div>
 						<div class='col-6'><h6 class='text-center'>Stesen Aktif</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'id='ms-stn-rank'>
+							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='ms-stn-rank'>
 								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th></thead>
 							</table>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- <div class='row'>
-				<div class='col-12'><h3 class='text-center'>Kategori Jalur Rakyat</h3></div>
+			<div class='row'>
 				<div class='col-lg-6'>
+					<h3 class='text-center'>Kategori Jalur Rakyat</h3>
 					<p class='text-center'>RoIPMARS CB Net Bahasa Melayu</p>
 					<div class='row'>
 						<div class='col-6'>
 							<h6 class='text-center'>Pengawal Tertinggi</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
-								<thead><th>No</th><th>Stesen</th></thead>
-								<tbody>
-									<tr><td>1<sup>st</sup></td><td>113DAYJT</td></tr>
-									<tr><td>2<sup>nd</sup></td><td>113DAPLY</td></tr>
-									<tr><td>3<sup>rd</sup></td><td>113DAISS</td></tr>
-								</tbody>
+							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='cb-ncs-rank'>
+								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th><th class='dt-head-center'>KPI</th></thead>
 							</table>
 						</div>
 						<div class='col-6'>
 							<h6 class='text-center'>Stesen Paling Aktif</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
-								<thead><th>No</th><th>Stesen</th></thead>
-								<tbody>
-									<tr><td>1<sup>st</sup></td><td>113DAPLY</td></tr>
-									<tr><td>2<sup>nd</sup></td><td>113DAJCP</td></tr>
-									<tr><td>3<sup>rd</sup></td><td>113DAYJT</td></tr>
-									<tr><td>4<sup>th</sup></td><td>113DAISS</td></tr>
-									<tr><td>5<sup>th</sup></td><td>225BSLIM</td></tr>
-									<tr><td>6<sup>th</sup></td><td>91KMEGG</td></tr>
-									<tr><td>7<sup>th</sup></td><td>113DARNH</td></tr>
-									<tr><td>8<sup>th</sup></td><td>113DANDI</td></tr>
-									<tr><td>9<sup>th</sup></td><td>91KMAGP</td></tr>
-									<tr><td>10<sup>th</sup></td><td>113DABEE</td></tr>
-								</tbody>
+							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='cb-stn-rank'>
+								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th></thead>
 							</table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-6'>
+					<h3 class='text-center'>Kategori Terbuka &#40;VoIP&#41;</h3>
 					<p class='text-center'>RoIPMARS OpenVoIP Sahur Net 1444H</p>
 					<div class='row'>
 						<div class='col-6'>
 							<h6 class='text-center'>Pengawal Tertinggi</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
-								<thead><th>No</th><th>Stesen</th></thead>
-								<tbody>
-									<tr><td>1<sup>st</sup></td><td>9W2AYP / 113DAPLY</td></tr>
-									<tr><td>2<sup>nd</sup></td><td>9W2JCP / 113DAJCP</td></tr>
-									<tr><td>3<sup>rd</sup></td><td>9W2NDI / 113DANDI</td></tr>
-									<tr><td>4<sup>th</sup></td><td>9W2JYT / 113DAYJT</td></tr>
-									<tr><td>5<sup>th</sup></td><td>9W2SNN / 113MSSAM</td></tr>
-								</tbody>
+							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='voi-ncs-rank'>
+								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th><th class='dt-head-center'>KPI</th></thead>
 							</table>
 						</div>
 						<div class='col-6'>
 							<h6 class='text-center'>Stesen Paling Aktif</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
-								<thead><th>No</th><th>Stesen</th></thead>
-								<tbody>
-									<tr><td>1<sup>st</sup></td><td>91KMDON</td></tr>
-									<tr><td>2<sup>nd</sup></td><td>91MSERW</td></tr>
-									<tr><td>3<sup>rd</sup></td><td>9W6AZE</td></tr>
-									<tr><td>4<sup>th</sup></td><td>9W2SNN / 113MSSAM / 113JS49</td></tr>
-									<tr><td>5<sup>th</sup></td><td>9W6RHN</td></tr>
-									<tr><td>6<sup>th</sup></td><td>9W2AYP / 113DAPLY</td></tr>
-									<tr><td>7<sup>th</sup></td><td>9W2OJB</td></tr>
-									<tr><td>8<sup>th</sup></td><td>9W2JCP / 113DAJCP</td></tr>
-									<tr><td>9<sup>th</sup></td><td>113DAGBW</td></tr>
-									<tr><td>10<sup>th</sup></td><td>9W2RNH / 113DARNH</td></tr>
-								</tbody>
+							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='voi-stn-rank'>
+								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th></thead>
 							</table>
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<!-- <hr> -->
 			<!-- <div class='row'>
 				<div class='col-12'>

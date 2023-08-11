@@ -32,7 +32,8 @@ $(document).ready(function () {
     'pagingTag': 'button',
     'pagingType': 'full_numbers',
     'processing': true,
-    'searchDelay': 350
+    'searchDelay': 350,
+    'responsive': true
   })
   
   $('#all-ncs-rank').DataTable({
@@ -43,7 +44,8 @@ $(document).ready(function () {
     'info': false,
     'ordering': false,
     'paging': false,
-    'searching': false
+    'searching': false,
+    'responsive': true
   })
   
   $('#en-ncs-rank').DataTable({
@@ -54,7 +56,8 @@ $(document).ready(function () {
     'info': false,
     'ordering': false,
     'paging': false,
-    'searching': false
+    'searching': false,
+    'responsive': true
   })
   
   $('#ms-ncs-rank').DataTable({
@@ -65,7 +68,32 @@ $(document).ready(function () {
     'info': false,
     'ordering': false,
     'paging': false,
-    'searching': false
+    'searching': false,
+    'responsive': true
+  })
+  
+  $('#cb-ncs-rank').DataTable({
+    'ajax': {
+      'url': '/assets/json/rank.json',
+      'dataSrc': 'ncs-cb'
+    },
+    'info': false,
+    'ordering': false,
+    'paging': false,
+    'searching': false,
+    'responsive': true
+  })
+  
+  $('#voi-ncs-rank').DataTable({
+    'ajax': {
+      'url': '/assets/json/rank.json',
+      'dataSrc': 'ncs-voi'
+    },
+    'info': false,
+    'ordering': false,
+    'paging': false,
+    'searching': false,
+    'responsive': true
   })
   
   $('#all-stn-rank').DataTable({
@@ -76,7 +104,8 @@ $(document).ready(function () {
     'info': false,
     'ordering': false,
     'paging': false,
-    'searching': false
+    'searching': false,
+    'responsive': true
   })
   
   $('#en-stn-rank').DataTable({
@@ -87,7 +116,8 @@ $(document).ready(function () {
     'info': false,
     'ordering': false,
     'paging': false,
-    'searching': false
+    'searching': false,
+    'responsive': true
   })
   
   $('#ms-stn-rank').DataTable({
@@ -98,6 +128,31 @@ $(document).ready(function () {
     'info': false,
     'ordering': false,
     'paging': false,
-    'searching': false
+    'searching': false,
+    'responsive': true
+  })
+  
+  $('#cb-stn-rank').DataTable({
+    'ajax': {
+      'url': '/assets/json/rank.json',
+      'dataSrc': 'stn-cb'
+    },
+    'info': false,
+    'ordering': false,
+    'paging': false,
+    'searching': false,
+    'responsive': true
+  })
+  
+  $('#voi-stn-rank').DataTable({
+    'ajax': {
+      'url': '/assets/json/rank.json',
+      'dataSrc': 'stn-voi'
+    },
+    'info': false,
+    'ordering': false,
+    'paging': false,
+    'searching': false,
+    'responsive': true
   })
 })

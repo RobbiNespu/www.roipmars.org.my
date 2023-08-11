@@ -2,11 +2,11 @@
   "ncs-all": [
     [ "9W6MOZ", "Mus", "79.6%" ],
     [ "9M2SFL", "Saiful", "79.5%" ],
+    [ "9W2YBT", "Faisal", "76.9%" ],
     [ "9W2UZL", "Ust. Zul", "74.9%" ],
     [ "9W2ESR", "Maman", "70.0%" ],
     [ "9M6AUA", "Jeofrey", "74.5%" ],
     [ "9W6WOT", "Steward", "73.0%" ],
-    [ "9W2YJT", "Yusof", "68.7%" ],
     [ "9W2AYP", "Sabri", "66.9%" ],
     [ "9W2OGK", "Man Pangkor", "65.9%" ],
     [ "9W2LGX", "Fizi", "64.3%" ],
@@ -21,19 +21,36 @@
 		[ "9M6AUA", "Jeofrey", "81.9%" ],
 		[ "9W6RHN", "Roslan", "65.0%" ],
 		[ "9M6RDY", "Rudy", "60.4%" ],
-		[ "9M6RHM", "Rahim", "34.4%" ]
+		[ "9M6RHM", "Rahim", "22.2%" ]
 	],
   "ncs-ms": [
 		[ "9W2OGK", "Man Pangkor", "65.9%" ],
 		[ "9W2UZL", "Ust. Zul", "74.9%" ],
 		[ "9M2SFL", "Saiful", "79.5%" ],
-		[ "9W2YJT", "Yusof", "68.7%" ],
 		[ "9W6MOZ", "Mus", "79.6%" ],
+		[ "9W2YBT", "Faisal", "76.9%" ],
 		[ "9M6RMD", "Rosni", "54.9%" ],
-		[ "9W2YBT", "Faisal", "43.8%" ],
 		[ "9W2AYP", "Sabri", "66.9%" ],
 		[ "9W2LGX", "Fizi", "63.1%" ],
-		[ "9W6RHN", "Roslan", "55.9%" ]
+		[ "9W6RHN", "Roslan", "55.9%" ],
+		[ "9M6RDY", "Rudy", "70.8%" ]
+	],
+  "ncs-cb": [
+		[ "113DAYJT", "Yusof", "62.7%" ],
+		[ "113DAPLY", "Sabri", "65.3%" ],
+		[ "113DAISS", "Hisham", "33.1%" ],
+		[ "113DAJCP", "Rosli", "52.7%" ],
+		[ "113MSSAM", "Samsul", "64.5%" ]
+	],
+  "ncs-voi": [
+		[ "9W2SNN / 113MSSAM", "Samsul", "59.8%" ],
+		[ "9W2AYP / 113DAPLY", "Sabri", "86.9%" ],
+		[ "9W2JCP / 113DAJCP", "Rosli", "74.7%" ],
+		[ "9W2NDI / 113DANDI", "Nasaruddin", "68.0%" ],
+		[ "9W2YJT / 113DAYJT", "Yusof", "67.0%" ],
+		[ "9W6AZE / 113MSAZE", "Hazari", "64.3%" ],
+		[ "9W2EZK / 113DAZIK", "Zikry", "64.3%" ],
+		[ "9W2UZL / 113MSUZL", "Ust. Zul", "57.1%" ]
 	],
   "stn-all": [
     ["9W2AYP", "Sabri"],
@@ -45,12 +62,12 @@
     ["9W2SNN", "Samsul"],
     ["9M6RDY", "Mattheus @ Rudy"],
     ["9M2SFL", "Saiful"],
-    ["9W2YBT", "Faisal"],
     ["9M6AUA", "Jeofrey"],
+    ["9W2YBT", "Faisal"],
     ["YG4FCW", "Julia Arryani"],
     ["YC5OE", "Erman"],
-    ["YC3RDY", "Rudy Jaya Karyanto"],
-    ["YD9BEJ", "I Nyoman Darta"]
+    ["YC3RDY", "Rudy JK"],
+    ["YB4CCF", "Febriant"]
   ],
   "stn-en": [
     ["9W2AYP", "Sabri"],
@@ -75,5 +92,29 @@
     ["9M2SFL", "Saiful"],
     ["9W2YBT", "Faisal"],
     ["9W2YJT", "Yusof"]
+  ],
+  "stn-cb": [
+    ["113DAPLY","Sabri"],
+    ["113DAJCP","Rosli"],
+    ["113DAYJT","Yusof"],
+    ["225BSLIM","Pg. Alim"],
+    ["91KMEGG","Gilang"],
+    ["113DANDI","Nasa"],
+    ["91KMAGP","&shy;"],
+    ["113DAISS","Hisham"],
+    ["113DABEE","&shy;"],
+    ["113DARNH","Rosnah"]
+  ],
+  "stn-voi": [
+    ["91KMDON","Sarjono"],
+    ["91MSERW","Erwin"],
+    ["9W6RHN","Roslan"],
+    ["9W6AZE","Hazari"],
+    ["9W2SNN","Samsul"],
+    ["9W2AYP","Sabri"],
+    ["9W2OJB","Saipudin"],
+    ["9W2JCP","Rosli"],
+    ["91KMEGG","Gilang"],
+    ["113DAZAN","&shy;"]
   ]
 }

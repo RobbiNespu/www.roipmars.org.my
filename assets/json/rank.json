@@ -56,18 +56,18 @@
     ["9W2AYP", "Sabri"],
     ["9W6RHN", "Roslan"],
     ["V85AFF", "Mahathir"],
-    ["9W2JCP", "Rosli"],
     ["9W2NDI", "Nasa"],
+    ["9W2JCP", "Rosli"],
     ["9M2RAN", "Imran"],
     ["9W2SNN", "Samsul"],
-    ["9M6RDY", "Mattheus @ Rudy"],
     ["9M2SFL", "Saiful"],
+    ["9M6RDY", "Mattheus @ Rudy"],
     ["9M6AUA", "Jeofrey"],
     ["9W2YBT", "Faisal"],
-    ["YG4FCW", "Julia Arryani"],
     ["YC5OE", "Erman"],
-    ["YC3RDY", "Rudy JK"],
-    ["YB4CCF", "Febriant"]
+    ["YG4FCW", "Julia Arryani"],
+    ["YB4CCF", "Febriant"],
+    ["DW8CNQ", "Ronald"]
   ],
   "stn-en": [
     ["9W2AYP", "Sabri"],
@@ -76,10 +76,10 @@
     ["9M2RAN", "Imran"],
     ["9W2NDI", "Nasa"],
     ["V85AFF", "Mahathir"],
-    ["9W2JCP", "Rosli"],
     ["9M6AUA", "Jeofrey"],
-    ["9M6JAY", "John Jr."],
-    ["9W2SNN", "Samsul"]
+    ["9W2JCP", "Rosli"],
+    ["9W2SNN", "Samsul"],
+    ["9M6JAY", "John Jr."]
   ],
   "stn-ms": [
     ["9W2AYP", "Sabri"],
@@ -88,8 +88,8 @@
     ["9W2JCP", "Rosli"],
     ["9W2NDI", "Nasa"],
     ["9M2RAN", "Imran"],
-    ["9W2SNN", "Samsul"],
     ["9M2SFL", "Saiful"],
+    ["9W2SNN", "Samsul"],
     ["9W2YBT", "Faisal"],
     ["9W2YJT", "Yusof"]
   ],

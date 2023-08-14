@@ -1,10 +1,12 @@
 $(document).ready(function () {
   $('#cbcslist').DataTable({
+    'ajax': 'assets/json/cbmars.json',
     'processing': true,
     'ordering': false,
     'pagingType': 'full_numbers',
-    'pageLength': 10,
+    'pageLength': 25,
     'searchDelay': 350,
+    'responsive': true,
     'order': [
       [0, 'desc'],
       [4, 'desc']
@@ -34,14 +36,10 @@ $(document).ready(function () {
       'info': 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
       'infoFiltered': ' - tapisan dari _MAX_ rekod',
       'infoPostFix': ' | Rekod diperoleh daripada maklumat sebenar.'
+    },
+    'initComplete': function (settings, json) {
+      let tds = $('#cbcslist').DataTable().page.info().recordsTotal;
+      $('.cscount').html(tds + ' isyarat panggilan berdaftar')
     }
   });
 });
-
-function getBody(element) {
-  let cscount = document.querySelector('.cscount')
-  var originalTable = document.getElementById('cbcslist');
-  var tds = $(originalTable).children('tbody').children('tr').length;
-  cscount.textContent = tds + ' ahli berdaftar';
-}
-getBody($('table.table'));

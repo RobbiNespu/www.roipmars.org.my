@@ -207,8 +207,8 @@
 					<span><?php date_default_timezone_set($_SERVER['HTTP_CF_TIMEZONE']); $file_last_modified = filemtime(__DIR__.'/assets/json/schedule.json'); echo 'kemaskini pada: ' . date('D, j/n/Y, H:i T', $file_last_modified); ?></span>
 				</div>
 				<div class='table-responsive'>
-					<table class='table table-sm text-center table-striped align-middle' id='takwim'>
-						<thead><th class='dt-head-center'>Hari</th><th class='dt-head-center'>Acara</th><th class='dt-head-center'>NCS &#124; ECR</th><th class='dt-head-center'>Laporan</th></thead>
+					<table class='table table-sm table-striped text-center align-middle' id='takwim'>
+						<thead><tr><th class='dt-head-center' scope='col'>Hari</th><th class='dt-head-center' scope='col'>Acara</th><th class='dt-head-center' scope='col'>NCS &#124; ECR</th><th class='dt-head-center' scope='col'>Laporan</th></tr></thead>
 						<caption class='text-center'>
 							<ul class='list-group'>
 								<li class='list-group-item list-group-item-secondary'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
@@ -221,6 +221,41 @@
 							</ul>
 						</capton>
 					</table>
+					<div class='modal fade' id='netrep' tabindex='-1' aria-labelledby='netreport' aria-hidden='true'>
+						<div class='modal-dialog modal-dialog-centered modal-dialog-scrollable'>
+							<div class='modal-content'>
+								<div class='modal-header'>
+									<h3 class='modal-title fs-5' id='netreport'>Net Report</h3>
+									<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
+								</div>
+								<div class='modal-body'>
+									<div class='row'>
+										<div class='col-7 table-responsive d-flex justify-content-center'>
+											<table class='table table-sm table-striped table-bordered text-center align-middle fs-4' id='netrep'>
+												<thead><tr><th class='dt-head-center' scope='col'>CQ</th><th class='dt-head-center' scope='col'>STATION</th><th class='dt-head-center' scope='col'>MODE</th><th class='dt-head-center' scope='col'>UTC</th></tr></thead>
+											</table>
+										</div>
+										<div class='col-5'>
+											<ul class='list-group list-group-flush fs-6 overflow-y-auto sticky-top'>
+												<li class="list-group-item active" aria-current="true">Mod Penghantaran</li>
+												<li class='list-group-item'>DC &gt; Discord</li>
+												<li class='list-group-item'>EL &gt; EchoLink</li>
+												<li class='list-group-item'>FRN &gt; Free Radio Network</li>
+												<li class='list-group-item'>MBL &gt; Mumble</li>
+												<li class='list-group-item'>PNT &gt; Peanut</li>
+												<li class='list-group-item'>RF &gt; Radio Transceiver</li>
+												<li class='list-group-item'>TG &gt; Telegram</li>
+												<li class='list-group-item'>TS &gt; TeamSpeak</li>
+												<li class='list-group-item'>TT &gt; TeamTalk</li>
+												<!-- <li class='list-group-item'>WA &gt; WhatsApp</li> -->
+												<li class='list-group-item'>ZL &gt; Zello</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<hr>

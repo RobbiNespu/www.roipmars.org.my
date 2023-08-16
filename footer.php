@@ -40,7 +40,7 @@
               </div>
             </div>
             <div class='d-md-flex justify-content-md-end opacity-75'>
-              <img class='img-fluid rounded-5 bg-body-tertiary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?muf=drwn&nwra=global&heline=eve&bgcolor=black&back=black&heline=eve' alt='solar data'>
+              <img class='img-fluid rounded-3 bg-body-tertiary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?muf=drwn&nwra=global&heline=eve&bgcolor=black&back=black&heline=eve' alt='solar data'>
             </div>
           </div>
         </div>

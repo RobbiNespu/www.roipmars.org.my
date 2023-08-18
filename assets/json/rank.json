@@ -1,4 +1,29 @@
 {
+  "origin-all": [
+    ["Malaysia", "227"],
+    ["Indonesia (Republic of)", "158"],
+    ["Philippines (Republic of the)", "89"],
+    ["Brunei Darussalam", "10"],
+    ["India (Republic of)", "9"],
+    ["United States of America", "9"],
+    ["Argentine Republic", "6"],
+    ["Chile", "6"],
+    ["Spain", "5"],
+    ["Thailand", "4"],
+    ["Trinidad and Tobago", "4"],
+    ["Italy", "3"],
+    ["Brazil (Federative Republic of)", "1"],
+    ["Bulgaria (Republic of)", "1"],
+    ["Canada", "1"],
+    ["China (People's Republic of)", "1"],
+    ["China (People's Republic of) - Macao", "1"],
+    ["Colombia (Republic of)", "1"],
+    ["Korea (Republic of)", "1"],
+    ["Mexico", "1"],
+    ["South Africa (Republic of)", "1"],
+    ["Ukraine", "1"],
+    ["Venezuela (Bolivarian Republic of)", "1"]
+  ],
   "ncs-all": [
     [ "9W6MOZ", "Mus", "79.6%" ],
     [ "9M2SFL", "Saiful", "79.5%" ],
@@ -94,27 +119,27 @@
     ["9W2YJT", "Yusof"]
   ],
   "stn-cb": [
-    ["113DAPLY","Sabri"],
-    ["113DAJCP","Rosli"],
-    ["113DAYJT","Yusof"],
-    ["225BSLIM","Pg. Alim"],
-    ["91KMEGG","Gilang"],
-    ["113DANDI","Nasa"],
-    ["91KMAGP","&shy;"],
-    ["113DAISS","Hisham"],
-    ["113DABEE","&shy;"],
-    ["113DARNH","Rosnah"]
+    ["113DAPLY", "Sabri"],
+    ["113DAJCP", "Rosli"],
+    ["113DAYJT", "Yusof"],
+    ["225BSLIM", "Pg. Alim"],
+    ["91KMEGG", "Gilang"],
+    ["113DANDI", "Nasa"],
+    ["91KMAGP", "&shy;"],
+    ["113DAISS", "Hisham"],
+    ["113DABEE", "&shy;"],
+    ["113DARNH", "Rosnah"]
   ],
   "stn-voi": [
-    ["91KMDON","Sarjono"],
-    ["91MSERW","Erwin"],
-    ["9W6RHN","Roslan"],
-    ["9W6AZE","Hazari"],
-    ["9W2SNN","Samsul"],
-    ["9W2AYP","Sabri"],
-    ["9W2OJB","Saipudin"],
-    ["9W2JCP","Rosli"],
-    ["91KMEGG","Gilang"],
-    ["113DAZAN","&shy;"]
+    ["91KMDON", "Sarjono"],
+    ["91MSERW", "Erwin"],
+    ["9W6RHN", "Roslan"],
+    ["9W6AZE", "Hazari"],
+    ["9W2SNN", "Samsul"],
+    ["9W2AYP", "Sabri"],
+    ["9W2OJB", "Saipudin"],
+    ["9W2JCP", "Rosli"],
+    ["91KMEGG", "Gilang"],
+    ["113DAZAN", "&shy;"]
   ]
 }

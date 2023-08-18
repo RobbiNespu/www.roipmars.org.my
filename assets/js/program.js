@@ -1,10 +1,12 @@
 $(document).ready(function () {
   $('#takwim').DataTable({
     ajax: 'assets/json/schedule.json',
-    columnDefs: {
-      searchable: false,
-      targets: [0, 1, 4]
-    },
+    columns: [
+      { title: 'Hari', className: 'text-center align-middle', searchable: true, name: 'hari' },
+      { title: 'Acara', className: 'text-center align-middle', searchable: true, name: 'acara' },
+      { title: 'NCS | ECR', className: 'text-center align-middle', searchable: true, name: 'ncs' },
+      { title: 'Laporan', className: 'text-center align-middle', searchable: true, name: 'lapor' }
+    ],
     displayStart: 170,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
@@ -18,7 +20,7 @@ $(document).ready(function () {
         next: '>',
         previous: '<'
       },
-      processing: '<span class="visually-hidden">Sedang memuat...</span>',
+      processing: 'Sedang memuat...',
       search: 'Cari Acara/Pengawal:',
       zeroRecords: 'Rekod Tidak Ditemui'
     },
@@ -31,11 +33,36 @@ $(document).ready(function () {
     searchDelay: 350
   })
   
+  $('#uniq-ham-origin').DataTable({
+    ajax: {
+      url: '/assets/json/rank.json',
+      dataSrc: 'origin-all'
+    },
+    columns: [
+      { title: 'Panggilan Asal', className: 'text-center align-middle' },
+      { title: 'Unik', className: 'text-center align-middle' }
+    ],
+    info: false,
+    lengthChange: false,
+    ordering: false,
+    pageLength: 15,
+    paging: true,
+    pagingTag: 'button',
+    pagingType: 'numbers',
+    responsive: true,
+    searching: false
+  })
+  
   $('#all-ncs-rank').DataTable({
     ajax: {
       url: '/assets/json/rank.json',
       dataSrc: 'ncs-all'
     },
+    columns: [
+      { title: 'Stesen', className: 'text-center align-middle' },
+      { title: 'Operator', className: 'text-center align-middle' },
+      { title: 'KPI', className: 'text-center align-middle' }
+    ],
     info: false,
     ordering: false,
     paging: false,
@@ -48,6 +75,11 @@ $(document).ready(function () {
       url: '/assets/json/rank.json',
       dataSrc: 'ncs-en'
     },
+    columns: [
+      { title: 'Stesen', className: 'text-center align-middle' },
+      { title: 'Operator', className: 'text-center align-middle' },
+      { title: 'KPI', className: 'text-center align-middle' }
+    ],
     info: false,
     ordering: false,
     paging: false,
@@ -60,6 +92,11 @@ $(document).ready(function () {
       url: '/assets/json/rank.json',
       dataSrc: 'ncs-ms'
     },
+    columns: [
+      { title: 'Stesen', className: 'text-center align-middle' },
+      { title: 'Operator', className: 'text-center align-middle' },
+      { title: 'KPI', className: 'text-center align-middle' }
+    ],
     info: false,
     ordering: false,
     paging: false,
@@ -72,6 +109,11 @@ $(document).ready(function () {
       url: '/assets/json/rank.json',
       dataSrc: 'ncs-cb'
     },
+    columns: [
+      { title: 'Stesen', className: 'text-center align-middle' },
+      { title: 'Operator', className: 'text-center align-middle' },
+      { title: 'KPI', className: 'text-center align-middle' }
+    ],
     info: false,
     ordering: false,
     paging: false,
@@ -84,6 +126,11 @@ $(document).ready(function () {
       url: '/assets/json/rank.json',
       dataSrc: 'ncs-voi'
     },
+    columns: [
+      { title: 'Stesen', className: 'text-center align-middle' },
+      { title: 'Operator', className: 'text-center align-middle' },
+      { title: 'KPI', className: 'text-center align-middle' }
+    ],
     info: false,
     ordering: false,
     paging: false,
@@ -96,6 +143,10 @@ $(document).ready(function () {
       url: '/assets/json/rank.json',
       dataSrc: 'stn-all'
     },
+    columns: [
+      { title: 'Stesen', className: 'text-center align-middle' },
+      { title: 'Operator', className: 'text-center align-middle' }
+    ],
     info: false,
     ordering: false,
     paging: false,
@@ -108,6 +159,10 @@ $(document).ready(function () {
       url: '/assets/json/rank.json',
       dataSrc: 'stn-en'
     },
+    columns: [
+      { title: 'Stesen', className: 'text-center align-middle' },
+      { title: 'Operator', className: 'text-center align-middle' }
+    ],
     info: false,
     ordering: false,
     paging: false,
@@ -120,6 +175,10 @@ $(document).ready(function () {
       url: '/assets/json/rank.json',
       dataSrc: 'stn-ms'
     },
+    columns: [
+      { title: 'Stesen', className: 'text-center align-middle' },
+      { title: 'Operator', className: 'text-center align-middle' }
+    ],
     info: false,
     ordering: false,
     paging: false,
@@ -132,6 +191,10 @@ $(document).ready(function () {
       url: '/assets/json/rank.json',
       dataSrc: 'stn-cb'
     },
+    columns: [
+      { title: 'Stesen', className: 'text-center align-middle' },
+      { title: 'Operator', className: 'text-center align-middle' }
+    ],
     info: false,
     ordering: false,
     paging: false,
@@ -144,6 +207,10 @@ $(document).ready(function () {
       url: '/assets/json/rank.json',
       dataSrc: 'stn-voi'
     },
+    columns: [
+      { title: 'Stesen', className: 'text-center align-middle' },
+      { title: 'Operator', className: 'text-center align-middle' }
+    ],
     info: false,
     ordering: false,
     paging: false,
@@ -177,6 +244,12 @@ if (netrep) {
         text: 'PDF',
         title: `RoIPMARS Net Report ${sourcedate}`
       }],
+      columns: [
+        { title: 'CQ#', className: 'text-center align-middle', name: 'cq' },
+        { title: 'Callsign', className: 'text-center align-middle', name: 'cs' },
+        { title: 'TX/RX Mode', className: 'text-center align-middle', name: 'mod' },
+        { title: 'UTC', className: 'text-center align-middle', name: 'time' }
+      ],
       destroy: true,
       fixedHeader: true,
       info: false,

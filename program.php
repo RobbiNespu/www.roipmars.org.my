@@ -208,7 +208,6 @@
 				</div>
 				<div class='table-responsive'>
 					<table class='table table-sm table-striped text-center align-middle' id='takwim'>
-						<thead><tr><th class='dt-head-center' scope='col'>Hari</th><th class='dt-head-center' scope='col'>Acara</th><th class='dt-head-center' scope='col'>NCS &#124; ECR</th><th class='dt-head-center' scope='col'>Laporan</th></tr></thead>
 						<caption class='text-center'>
 							<ul class='list-group'>
 								<li class='list-group-item list-group-item-secondary'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
@@ -231,9 +230,7 @@
 								<div class='modal-body'>
 									<div class='row'>
 										<div class='col-8 table-responsive d-flex justify-content-center'>
-											<table class='table table-sm table-striped table-bordered text-center align-middle fs-5' id='netrep'>
-												<thead><tr><th class='dt-head-center' scope='col'>CQ</th><th class='dt-head-center' scope='col'>STATION</th><th class='dt-head-center' scope='col'>MODE</th><th class='dt-head-center' scope='col'>UTC</th></tr></thead>
-											</table>
+											<table class='table table-sm table-striped table-bordered text-center align-middle fs-5' id='netrep'></table>
 										</div>
 										<div class='col-4'>
 											<ul class='list-group rounded-3 overflow-y-auto sticky-top'>
@@ -288,8 +285,11 @@
 				<div class='col-lg-6 figure my-1'>
 					<img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' loading='lazy' alt='NetGraphMode23'>
 				</div>
-				<div class='col-lg-12 figure my-1'>
+				<div class='col-lg-8 figure my-1 d-flex align-items-center'>
 					<img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'>
+				</div>
+				<div class='col-lg-4 table-responsive d-flex justify-content-center'>
+					<table class='table table-sm table-striped text-center align-middle' id='uniq-ham-origin'></table>
 				</div>
 			</div>
 			<hr>
@@ -299,14 +299,10 @@
 					<p class='text-center'>RoIPMARS HAM Net &#40;digabungkan&#41;</p>
 					<div class='row'>
 						<div class='col-sm-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='all-ncs-rank'>
-								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th><th class='dt-head-center'>KPI</th></thead>
-							</table>
+							<table class='table table-sm table-striped text-center align-middle' id='all-ncs-rank'></table>
 						</div>
 						<div class='col-sm-6'><h6 class='text-center'>Stesen Aktif</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='all-stn-rank'>
-								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th></thead>
-							</table>
+							<table class='table table-sm table-striped text-center align-middle' id='all-stn-rank'></table>
 						</div>
 					</div>
 				</div>
@@ -314,14 +310,10 @@
 					<p class='text-center'>RoIPMARS HAM Net Bahasa Inggeris</p>
 					<div class='row'>
 						<div class='col-sm-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='en-ncs-rank'>
-								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th><th class='dt-head-center'>KPI</th></thead>
-							</table>
+							<table class='table table-sm table-striped text-center align-middle' id='en-ncs-rank'></table>
 						</div>
 						<div class='col-sm-6'><h6 class='text-center'>Stesen Aktif</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'id='en-stn-rank'>
-								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th></thead>
-							</table>
+							<table class='table table-sm table-striped text-center align-middle'id='en-stn-rank'></table>
 						</div>
 					</div>
 				</div>
@@ -329,14 +321,10 @@
 					<p class='text-center'>RoIPMARS HAM Net Bahasa Melayu</p>
 					<div class='row'>
 						<div class='col-sm-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='ms-ncs-rank'>
-								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th><th class='dt-head-center'>KPI</th></thead>
-							</table>
+							<table class='table table-sm table-striped text-center align-middle' id='ms-ncs-rank'></table>
 						</div>
 						<div class='col-sm-6'><h6 class='text-center'>Stesen Aktif</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='ms-stn-rank'>
-								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th></thead>
-							</table>
+							<table class='table table-sm table-striped text-center align-middle' id='ms-stn-rank'></table>
 						</div>
 					</div>
 				</div>
@@ -348,15 +336,11 @@
 					<div class='row'>
 						<div class='col-sm-6'>
 							<h6 class='text-center'>Pengawal Tertinggi</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='cb-ncs-rank'>
-								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th><th class='dt-head-center'>KPI</th></thead>
-							</table>
+							<table class='table table-sm table-striped text-center align-middle' id='cb-ncs-rank'></table>
 						</div>
 						<div class='col-sm-6'>
 							<h6 class='text-center'>Stesen Paling Aktif</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='cb-stn-rank'>
-								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th></thead>
-							</table>
+							<table class='table table-sm table-striped text-center align-middle' id='cb-stn-rank'></table>
 						</div>
 					</div>
 				</div>
@@ -366,15 +350,11 @@
 					<div class='row'>
 						<div class='col-sm-6'>
 							<h6 class='text-center'>Pengawal Tertinggi</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='voi-ncs-rank'>
-								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th><th class='dt-head-center'>KPI</th></thead>
-							</table>
+							<table class='table table-sm table-striped text-center align-middle' id='voi-ncs-rank'></table>
 						</div>
 						<div class='col-sm-6'>
 							<h6 class='text-center'>Stesen Paling Aktif</h6>
-							<table class='table table-bordered table-sm table-responsive-sm text-center align-middle' id='voi-stn-rank'>
-								<thead><th class='dt-head-center'>Stesen</th><th class='dt-head-center'>Operator</th></thead>
-							</table>
+							<table class='table table-sm table-striped text-center align-middle' id='voi-stn-rank'></table>
 						</div>
 					</div>
 				</div>

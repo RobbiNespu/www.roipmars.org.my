@@ -56,7 +56,7 @@
           <form class='my-3 align-middle text-center' id='applogin'>
             <div class='col-lg my-1'>
               <label for='callsign' class='form-label'>Callsign | Isyarat Panggilan</label>
-              <input type='text' class='form-control form-control-lg text-center rounded-3 w-75 mx-auto' pattern='[A-Z0-9]{5-8}' minlength='6' maxlength='8' aria-label='callsign' id='callsign' placeholder='9W3HHH' required>
+              <input type='text' class='form-control form-control-lg text-center rounded-3 w-75 mx-auto' pattern='[A-Z0-9]{5-8}' minlength='5' maxlength='8' aria-label='callsign' id='callsign' placeholder='9W3HHH' required>
             </div>
             <div class='col-lg my-1'>
               <label for='name' class='form-label'>Name | Nama</label>
@@ -69,6 +69,7 @@
             <div class='vstack gap-1 mt-3 text-center'>
               <button class='btn btn-lg rounded-pill w-50 mx-auto' type='submit' id='ts3hamlogin' style='background-color: #0165E1'>Log Masuk TeamSpeak</button>
               <button class='btn btn-lg rounded-pill w-50 mx-auto' type='submit' id='mumblelogin' style='background-color: grey'>Log Masuk Mumble</button>
+              <button class='btn btn-lg rounded-pill w-50 mx-auto' type='submit' id='teamtalklogin' style='background-color: #abb8c3'>Log Masuk Team Talk</button>
             </div>
           </form>
         </div>

@@ -229,8 +229,8 @@
 								</div>
 								<div class='modal-body'>
 									<div class='row'>
-										<div class='col-8 table-responsive d-flex justify-content-center'>
-											<table class='table table-sm table-striped table-bordered text-center align-middle fs-5' id='netrep'></table>
+										<div class='col-8 table-responsive d-grid justify-content-center'>
+											<table class='table table-sm table-striped table-hover text-center align-middle fs-5' id='netrep'></table>
 										</div>
 										<div class='col-4'>
 											<ul class='list-group rounded-3 overflow-y-auto sticky-top'>
@@ -422,8 +422,6 @@
 		<script src='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.6/af-2.6.0/b-2.4.1/b-colvis-2.4.1/b-html5-2.4.1/b-print-2.4.1/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.3.0-beta.5/pdfmake.min.js' integrity='sha512-iywRigyJDlxJDXIMVDkZIpss8dO1Y44RkOjS1aVTOq1HHiaU/WLUn7PR3UdzGuo2LgNSlgxkaNPnuFm6JOOmUg==' crossorigin='anonymous'></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.3.0-beta.5/vfs_fonts.min.js' integrity='sha512-psDieoFvhXZRgIX3zIChZrfgYjFmYa1cG25t7F0vpVIlgDa/2PYyb0F5FUHC8AtfKaJRgj4GesbFhck4il+Fkw==' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/pdfkit@0.13.0/js/pdfkit.standalone.js' integrity='sha256-41qk5dewLKulpzhP3H6G7mY+5q+vzxMaxolsOGmZD/8=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/blob-stream@0.1.3/index.js' integrity='sha256-Dpvzq1ZLpIsw8llbYvMoUK7ogA+MmANk/nQwU+rasIU=' crossorigin='anonymous'></script>
 		<script src='/assets/js/program.js'></script>
 	</body>
 

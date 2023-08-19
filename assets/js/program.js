@@ -236,19 +236,19 @@ if (netrep) {
       },
       dom: 'Bfrtip',
       buttons: [{
-        className: 'btn btn-sm btn-success rounded-5',
+        className: 'btn btn-sm btn-info rounded-3 d-grid mb-1 col-8 mx-auto',
         download: 'download',
         extend: 'pdfHtml5',
         filename: `${sourcedate}`,
         messageBottom: 'this data has been exported via https://www.roipmars.org.my/program.\n© 2023 RoIPMARS Network | coded by mdpizi (9W2LGX)\nID#'+new Date().getTime(),
-        text: 'PDF',
+        text: 'Muat Turun Laporan Penuh',
         title: `RoIPMARS Net Report ${sourcedate}`
       }],
       columns: [
-        { title: 'CQ#', className: 'text-center align-middle', name: 'cq' },
-        { title: 'Callsign', className: 'text-center align-middle', name: 'cs' },
-        { title: 'TX/RX Mode', className: 'text-center align-middle', name: 'mod' },
-        { title: 'UTC', className: 'text-center align-middle', name: 'time' }
+        { title: 'CQ#', className: 'text-center align-middle', name: 'cq', searchable: false },
+        { title: 'Callsign', className: 'text-center align-middle', name: 'cs', searchable: true },
+        { title: 'TX/RX Mode', className: 'text-center align-middle', name: 'mod', searchable: false },
+        { title: 'UTC', className: 'text-center align-middle', name: 'time', searchable: false }
       ],
       destroy: true,
       fixedHeader: true,
@@ -266,7 +266,7 @@ if (netrep) {
           previous: '<'
         },
         processing: '<span class="visually-hidden">Sedang memuat...</span>',
-        search: 'Cari:',
+        search: 'Cari Callsign:',
         zeroRecords: 'Laporan Tidak Ditemui'
       },
       lengthChange: false,
@@ -276,8 +276,16 @@ if (netrep) {
       pagingTag: 'button',
       pagingType: 'simple',
       responsive: true,
-      searching: false
+      searching: true
     })
+    // $('#' + tableid + ' tbody').on('click', 'td', function() {
+    //   var rowno = netreptable.row(this).index()
+    //   var rowdata = netreptable.row(rowno).data()
+    //   var clickcall = rowdata[1]
+    //   var clickmode = rowdata[2]
+    //   var clicktime = rowdata[3]
+    //   console.log(clickcall + '\t' + clickmode + '\t' + clicktime)
+    // })
     modalTitle.onchange(function() { netreptable.reload() })
   })
 }

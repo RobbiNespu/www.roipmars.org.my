@@ -224,29 +224,31 @@
 						<div class='modal-dialog modal-dialog-centered modal-dialog-scrollable'>
 							<div class='modal-content'>
 								<div class='modal-header'>
-									<h3 class='modal-title fs-5' id='netreport'>Net Report</h3>
+									<h3 class='modal-title fs-5' id='netreport'>Laporan Aktiviti</h3>
 									<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
 								</div>
 								<div class='modal-body'>
 									<div class='row'>
 										<div class='col-8 table-responsive d-grid justify-content-center'>
-											<table class='table table-sm table-striped table-hover text-center align-middle fs-5' id='netrep'></table>
+											<table class='table table-sm table-striped table-hover text-center align-middle' id='netrep'></table>
 										</div>
 										<div class='col-4'>
-											<ul class='list-group rounded-3 overflow-y-auto sticky-top'>
-												<li class='list-group-item active text-center' aria-current='true'>Mod Penghantaran</li>
-												<li class='list-group-item'>DC &gt; Discord</li>
-												<li class='list-group-item'>EL &gt; EchoLink</li>
-												<li class='list-group-item'>FRN &gt; Free Radio Network</li>
-												<li class='list-group-item'>MBL &gt; Mumble</li>
-												<li class='list-group-item'>PNT &gt; Peanut</li>
-												<li class='list-group-item'>RF &gt; Radio Transceiver</li>
-												<li class='list-group-item'>TG &gt; Telegram</li>
-												<li class='list-group-item'>TS &gt; TeamSpeak</li>
-												<li class='list-group-item'>TT &gt; TeamTalk</li>
-												<!-- <li class='list-group-item'>WA &gt; WhatsApp</li> -->
-												<li class='list-group-item'>ZL &gt; Zello</li>
-											</ul>
+											<table class='table table-sm text-center align-middle' style='font-size: xx-small'>
+												<thead class='table-primary'><tr><td colspan='2'>Mod Penghantaran</td></tr></thead>
+												<tbody>
+													<tr><td>DC</td><td>Discord</td></tr>
+													<tr><td>EL</td><td>EchoLink</td></tr>
+													<tr><td>FRN</td><td>Free Radio Network</td></tr>
+													<tr><td>MBL</td><td>Mumble</td></tr>
+													<tr><td>PNT</td><td>Peanut for HAM</td></tr>
+													<tr><td>RF</td><td>Radio Transceiver</td></tr>
+													<tr><td>TG</td><td>Telegram</td></tr>
+													<tr><td>TS</td><td>TeamSpeak</td></tr>
+													<tr><td>TT</td><td>Team Talk</td></tr>
+													<!-- <tr><td>WA</td><td>WhatsApp</td></tr> -->
+													<tr><td>ZL</td><td>Zello</td></tr>
+												</tbody>
+											</table>
 										</div>
 									</div>
 								</div>

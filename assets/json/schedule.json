@@ -171,7 +171,7 @@
   ["Wednesday<br>16/08/23<br>2100MY", "Learning English Net", "9W6RHN | 9M6RHM", "<button type='button' class='btn' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='160823'>25</button>"],
   ["Jumaat<br>18/08/23<br>2100MY", "RoIPMARS Net Santai", "9W2AYP | 9M6AUA", "<button type='button' class='btn' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='180823'>56</button>"],
   ["Sabtu<br>19/08/23<br>2100MY", "RoIPMARS Net Malam Minggu<br>(Hari Kemanusiaan Sedunia)", "9W2ESR | 9M6JAY", "<button type='button' class='btn' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='190823'><i class='bi-send-x-fill text-danger fs-3'></i></button>"],
-  ["Ahad<br>20/08/23<br>0900MY", "[KHAS] RoIPMARS Net<br>(Hari Nyamuk Sedunia)", "9W2JCP | 9M6RDY", "&shy;"],
+  ["Ahad<br>20/08/23<br>0900MY", "[KHAS] RoIPMARS Net<br>(Hari Nyamuk Sedunia)", "9W2JCP | 9M6RDY", "<button type='button' class='btn' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='190823'><i class='bi-send-x-fill text-danger fs-3'></i></button>"],
   ["Isnin<br>21/08/23<br>2100MY", "RoIPMARS Net Awal Minggu", "9W2NEW | 9W6RHN", "&shy;"],
   ["Wednesday<br>23/08/23<br>2100MY", "[SPECIAL] English Net<br>(Almarhum Sultan Iskandar Hol Day)", "9W6WOT | 9W6RHN", "&shy;"],
   ["Jumaat<br>25/08/23<br>2100MY", "RoIPMARS Net Santai", "9W2VFP | 9W6WOT", "&shy;"],

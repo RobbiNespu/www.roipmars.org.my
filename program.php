@@ -204,7 +204,7 @@
 			<div class='row'>
 				<div class='col-12 my-1 text-center'>
 					<h2 class='font-weight-bold'>Takwim Program</h2>
-					<span><?php date_default_timezone_set($_SERVER['HTTP_CF_TIMEZONE']); $file_last_modified = filemtime(__DIR__.'/assets/json/schedule.json'); echo 'kemaskini pada: ' . date('D, j/n/Y, H:i T', $file_last_modified); ?></span>
+					<span><?php $scheduleLastMod = filemtime(__DIR__.'/assets/json/schedule.json'); echo 'kemaskini pada: ' . date('D, j/n/Y, H:i T', $scheduleLastMod); ?></span>
 				</div>
 				<div class='table-responsive'>
 					<table class='table table-sm table-striped text-center align-middle' id='takwim'>
@@ -229,6 +229,9 @@
 								</div>
 								<div class='modal-body'>
 									<div class='row'>
+										<div class='col-12 text-center mb-2'>
+											<span><?php $reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini: ' . date('j/n/Y, H:i T', $reportLastMod); ?></span>
+										</div>
 										<div class='col-8 table-responsive d-grid justify-content-center'>
 											<table class='table table-sm table-striped table-hover text-center align-middle' id='netrep'></table>
 										</div>

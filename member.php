@@ -288,7 +288,7 @@
         </div>
         <div class='col-lg-7 my-3 text-center'>
           <h4 class='h4'>Ahli RoIPMARS</h4>
-          <p><span class='membercount badge rounded-3 text-bg-success'></span><?php date_default_timezone_set($_SERVER['HTTP_CF_TIMEZONE']); $file_last_modified = filemtime(__FILE__); echo ' yang disahkan setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
+          <p><span class='membercount badge rounded-3 text-bg-success'></span><?php $file_last_modified = filemtime(__FILE__); echo ' yang disahkan setakat ' . date('D, jS M Y h:iA T', $file_last_modified); ?></p>
           <table class='table table-sm table-striped align-middle' id='memberlist'>
             <thead>
               <tr><th class='dt-head-center'>NO. AHLI</th><th class='dt-head-center'>CALLSIGN</th><th class='dt-head-center'>NAMA AHLI</th><th class='dt-head-center'>SAH SEHINGGA</th></tr>

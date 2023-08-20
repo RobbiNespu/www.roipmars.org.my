@@ -226,15 +226,16 @@ $(document).ready(function () {
       const tableid = `net-${sourcedate}`
       
       const modalTitle = netrep.querySelector('.modal-title')
-      $('#takwim tbody').on('click', 'td', function() {
+      $('#takwim').delegate('tbody tr td:last-child','click',function() {
+        'use strict'
         const takwimrowno = takwimtable.row(this).index()
         const takwimrowdata = takwimtable.row(takwimrowno).data()
         const takwimdate = takwimrowdata[0].split('<br>')[1]
         const takwimact = takwimrowdata[1].replaceAll('<br>',' ')
         const takwimncs = takwimrowdata[2].split('|')[0].trim()
-        const modalHeadTitle = `Laporan ${takwimact} pada ${takwimdate} bersama ${takwimncs}`
-        modalTitle.textContent = modalHeadTitle
+        modalTitle.textContent = `Laporan ${takwimact} pada ${takwimdate} bersama ${takwimncs}`
       })
+      const reportTitle = document.querySelector('.modal-title').textContent
       
       const modalBodyTable = netrep.querySelector('.modal-body table')
       modalBodyTable.id = tableid
@@ -250,7 +251,7 @@ $(document).ready(function () {
           className: 'btn btn-sm btn-info rounded-3 d-grid mb-1 col-8 mx-auto',
           text: 'Muat Turun Laporan',
           filename: `RoIPMARS-Net_${sourcedate}`,
-          title: modalTitle.textContent,
+          title: `${reportTitle}`,
           messageTop: {text: 'Report generated via roipmars.org.my on ' + new Date().toLocaleString(), alignment: 'center', fontSize: 10},
           messageBottom: [
             {text: '\nRF > Radio Transceiver | EL > EchoLink | PNT > Peanut for HAM\nTS > TeamSpeak | ZL > Zello | MBL > Mumble\nFRN > Free Radio Network | DC > Discord | TG > Telegram | TT > Team Talk\n', alignment: 'center', fontSize: 8},
@@ -298,19 +299,23 @@ $(document).ready(function () {
         responsive: true,
         searching: true
       })      
-      netReportTable.ajax.reload(null, false)
+      // netReportTable.ajax.reload(null, false)
       
-      /* $('#' + tableid + ' tbody').on('click','td',function() {
+      $('#' + tableid).delegate('tbody tr td:nth-child(2)','click',function() {
+        let d = `${sourcedate}`.slice(0,2)
+        let m = `${sourcedate}`.slice(2,4)
+        let y = `${sourcedate}`.slice(4,6)
         let rowno = netReportTable.row(this).index()
         let rowdata = netReportTable.row(rowno).data()
         let clickcall = rowdata[1]
         let clickmode = rowdata[2]
+        let clickdate = d+'/'+m+'/'+y
         let clicktime = rowdata[3]
         // console.clear()
-        console.log(clickcall + '\t' + clickmode + '\t' + clicktime)
-        netReportTable.ajax.reload(null, false)
+        console.log(clickcall + '\t' + clickmode + '\t' + clickdate + ' @ ' + clicktime)
+        netReportTable.ajax.reload(null,false)
         // downeQSL(clickcall, clickmode, clicktime)
-      }) */
+      })
     })
   }
 })

@@ -227,7 +227,7 @@ $(document).ready(function () {
       
       const modalTitle = netrep.querySelector('.modal-title')
       $('#takwim').delegate('tbody tr td:last-child','click',function() {
-        'use strict'
+        'use strict';
         const takwimrowno = takwimtable.row(this).index()
         const takwimrowdata = takwimtable.row(takwimrowno).data()
         const takwimdate = takwimrowdata[0].split('<br>')[1]
@@ -287,7 +287,7 @@ $(document).ready(function () {
             previous: '<'
           },
           processing: '<span class="visually-hidden">Sedang memuat...</span>',
-          search: 'Cari Callsign:',
+          search: 'Cari:',
           zeroRecords: 'Laporan Tidak Ditemui'
         },
         lengthChange: false,
@@ -302,6 +302,7 @@ $(document).ready(function () {
       // netReportTable.ajax.reload(null, false)
       
       $('#' + tableid).delegate('tbody tr td:nth-child(2)','click',function() {
+        'use strict';
         let d = `${sourcedate}`.slice(0,2)
         let m = `${sourcedate}`.slice(2,4)
         let y = `${sourcedate}`.slice(4,6)
@@ -309,11 +310,11 @@ $(document).ready(function () {
         let rowdata = netReportTable.row(rowno).data()
         let clickcall = rowdata[1]
         let clickmode = rowdata[2]
-        let clickdate = d+'/'+m+'/'+y
+        let clickdate = d + '/' + m + '/'+y
         let clicktime = rowdata[3]
         // console.clear()
-        console.log(clickcall + '\t' + clickmode + '\t' + clickdate + ' @ ' + clicktime)
-        netReportTable.ajax.reload(null,false)
+        console.log(rowno + '\t' + clickcall + '\t' + clickmode + '\t' + clickdate + ' @ ' + clicktime)
+        // netReportTable.ajax.reload(null,false)
         // downeQSL(clickcall, clickmode, clicktime)
       })
     })

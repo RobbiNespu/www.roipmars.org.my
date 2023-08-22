@@ -5,8 +5,7 @@
 		}
 	],
 	"settings": {
-		"fiveServer.port": 5555,
-		"php.version": "8.2.8",
+		"php.version": "8.2.9",
 		"search.useGlobalIgnoreFiles": false
 	}
 }

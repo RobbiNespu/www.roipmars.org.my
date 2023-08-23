@@ -115,7 +115,7 @@
           <hr>
           <div class='hstack'>
             <h3 class='text-secondary'>Saluran Amatur VHF</h3>
-            <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-vsimplex-modal-xl'>V Channel</button>
+            <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-vsimplex-modal-xl'>Saluran V</button>
           </div>
           <div class='modal fade bd-vsimplex-modal-xl' tabindex='-1' role='dialog' aria-labelledby='vsimplexModalLabel' aria-hidden='true'>
             <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
@@ -124,14 +124,255 @@
                   <h5 class='modal-title' id='vsimplexModalLabel'>Saluran Amatur VHF</h5>
                 </div>
                 <div class='modal-body'>
-                  <div class='ratio ratio-4x3'>
-                    <iframe loading='lazy' src='/freq/vsimplex'></iframe>
+                  <div class='row'>
+                    <div class='col-lg-12 m-0 text-center'>
+                      <h5>A short-range simplex radiocommunications service for amateur use</h5>
+                      <p class='fs-6'>as per Standard Radio System Plan Amateur Radio Service 144</p>
+                      <table class='table table-sm'>
+                        <thead>
+                          <tr><th>Channel</th><th>Frequency (MHz)</th></tr>
+                        </thead>
+                        <tbody>
+                          <tr><td>V1</td><td>144.7250</td></tr>
+                          <tr><td>V2</td><td>144.7500</td></tr>
+                          <tr><td>V3</td><td>144.7750</td></tr>
+                          <tr><td>V4</td><td>144.8000</td></tr>
+                          <tr><td>V5</td><td>144.8250</td></tr>
+                          <tr><td>V6</td><td>144.8500</td></tr>
+                          <tr><td>V7</td><td>144.8750</td></tr>
+                          <tr><td>V8</td><td>144.9000</td></tr>
+                          <tr><td>V9</td><td>144.9250</td></tr>
+                          <tr><td>V10</td><td>144.9500</td></tr>
+                          <tr><td>V11</td><td>144.9750</td></tr>
+                          <tr><td>V12</td><td>145.0000</td></tr>
+                          <tr><td>V16</td><td>145.2000</td></tr>
+                          <tr><td>V17</td><td>145.2125</td></tr>
+                          <tr><td>V18</td><td>145.2250</td></tr>
+                          <tr><td>V19</td><td>145.2375</td></tr>
+                          <tr><td>V20</td><td>145.2500</td></tr>
+                          <tr><td>V21</td><td>145.2625</td></tr>
+                          <tr><td>V22</td><td>145.2750</td></tr>
+                          <tr><td>V23</td><td>145.2875</td></tr>
+                          <tr><td>V24</td><td>145.3000</td></tr>
+                          <tr><td>V25</td><td>145.3125</td></tr>
+                          <tr><td>V26</td><td>145.3250</td></tr>
+                          <tr><td>V27</td><td>145.3375</td></tr>
+                          <tr><td>V28</td><td>145.3500</td></tr>
+                          <tr><td>V29</td><td>145.3625</td></tr>
+                          <tr><td>V30</td><td>145.3750</td></tr>
+                          <tr><td>V31</td><td>145.3875</td></tr>
+                          <tr><td>V32</td><td>145.4000</td></tr>
+                          <tr><td>V33</td><td>145.4125</td></tr>
+                          <tr><td>V34</td><td>145.4250</td></tr>
+                          <tr><td>V35</td><td>145.4375</td></tr>
+                          <tr><td>V36</td><td>145.4500</td></tr>
+                          <tr><td>V37</td><td>145.4625</td></tr>
+                          <tr><td>V38</td><td>145.4750</td></tr>
+                          <tr><td>V39</td><td>145.4875</td></tr>
+                          <tr><td>V40 (Call)</td><td>145.5000</td></tr>
+                          <tr><td>V41</td><td>145.5125</td></tr>
+                          <tr><td>V42</td><td>145.5250</td></tr>
+                          <tr><td>V43</td><td>145.5375</td></tr>
+                          <tr><td>V44</td><td>145.5500</td></tr>
+                          <tr><td>V45</td><td>145.5625</td></tr>
+                          <tr><td>V46</td><td>145.5750</td></tr>
+                          <tr><td>V47</td><td>145.5875</td></tr>
+                          <tr><td>V48</td><td>146.4000</td></tr>
+                          <tr><td>V49</td><td>146.4125</td></tr>
+                          <tr><td>V50</td><td>146.4250</td></tr>
+                          <tr><td>V51</td><td>146.4375</td></tr>
+                          <tr><td>V52</td><td>146.4500</td></tr>
+                          <tr><td>V53</td><td>146.4625</td></tr>
+                          <tr><td>V54</td><td>146.4750</td></tr>
+                          <tr><td>V55</td><td>146.4875</td></tr>
+                          <tr><td>V56</td><td>146.5000</td></tr>
+                          <tr><td>V57</td><td>146.5125</td></tr>
+                          <tr><td>V58</td><td>146.5250</td></tr>
+                          <tr><td>V59</td><td>146.5375</td></tr>
+                          <tr><td>V60</td><td>146.5500</td></tr>
+                          <tr><td>V61</td><td>146.5625</td></tr>
+                          <tr><td>V62</td><td>146.5750</td></tr>
+                          <tr><td>V63</td><td>146.5875</td></tr>
+                          <tr><td>V64</td><td>147.4350</td></tr>
+                          <tr><td>V65</td><td>147.4650</td></tr>
+                          <tr><td>V66</td><td>147.4950</td></tr>
+                          <tr><td>V67</td><td>147.5250</td></tr>
+                          <tr><td>V68</td><td>147.5550</td></tr>
+                          <tr><td>V69</td><td>147.5850</td></tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class='row'>
+                    <div class='col-lg-12 m-0 text-center'>
+                      <h5>A short-range repeater radiocommunications service for amateur use</h5>
+                      <p class='fs-6'>as per Standard Radio System Plan Amateur Radio Service 144</p>
+                      <table class='table table-sm'>
+                        <thead>
+                          <tr><th>Channel</th><th>Transmit Frequency (MHz)</th><th>Receive Frequency (MHz)</th></tr>
+                        </thead>
+                        <tbody>
+                          <tr><td>RV48</td><td>145.0000</td><td>145.6000</td></tr>
+                          <tr><td>RV49</td><td>145.0125</td><td>145.6125</td></tr>
+                          <tr><td>RV50</td><td>145.0250</td><td>145.6250</td></tr>
+                          <tr><td>RV51</td><td>145.0375</td><td>145.6375</td></tr>
+                          <tr><td>RV52</td><td>145.0500</td><td>145.6500</td></tr>
+                          <tr><td>RV53</td><td>145.0625</td><td>145.6625</td></tr>
+                          <tr><td>RV54</td><td>145.0750</td><td>145.6750</td></tr>
+                          <tr><td>RV55</td><td>145.0875</td><td>145.6875</td></tr>
+                          <tr><td>RV56</td><td>145.1000</td><td>145.7000</td></tr>
+                          <tr><td>RV57</td><td>145.1125</td><td>145.7125</td></tr>
+                          <tr><td>RV58</td><td>145.1250</td><td>145.7250</td></tr>
+                          <tr><td>RV59</td><td>145.1375</td><td>145.7375</td></tr>
+                          <tr><td>RV60</td><td>145.1500</td><td>145.7500</td></tr>
+                          <tr><td>RV61</td><td>145.1625</td><td>145.7625</td></tr>
+                          <tr><td>RV62</td><td>145.1750</td><td>145.7750</td></tr>
+                          <tr><td>RV63</td><td>145.1875</td><td>145.7875</td></tr>
+                          <tr><td>RV64</td><td>146.0125</td><td>146.6125</td></tr>
+                          <tr><td>RV65</td><td>146.0250</td><td>146.6250</td></tr>
+                          <tr><td>RV66</td><td>146.0375</td><td>146.6375</td></tr>
+                          <tr><td>RV67</td><td>146.0500</td><td>146.6500</td></tr>
+                          <tr><td>RV68</td><td>146.0625</td><td>146.6625</td></tr>
+                          <tr><td>RV69</td><td>146.0750</td><td>146.6750</td></tr>
+                          <tr><td>RV70</td><td>146.0875</td><td>146.6875</td></tr>
+                          <tr><td>RV71</td><td>146.1000</td><td>146.7000</td></tr>
+                          <tr><td>RV72</td><td>146.1125</td><td>146.7125</td></tr>
+                          <tr><td>RV73</td><td>146.1250</td><td>146.7250</td></tr>
+                          <tr><td>RV74</td><td>146.1375</td><td>146.7375</td></tr>
+                          <tr><td>RV75</td><td>146.1500</td><td>146.7500</td></tr>
+                          <tr><td>RV76</td><td>146.1625</td><td>146.7625</td></tr>
+                          <tr><td>RV77</td><td>146.1750</td><td>146.7750</td></tr>
+                          <tr><td>RV78</td><td>146.1875</td><td>146.7875</td></tr>
+                          <tr><td>RV79</td><td>146.2000</td><td>146.8000</td></tr>
+                          <tr><td>RV80</td><td>146.2125</td><td>146.8125</td></tr>
+                          <tr><td>RV81</td><td>146.2250</td><td>146.8250</td></tr>
+                          <tr><td>RV82</td><td>146.2375</td><td>146.8375</td></tr>
+                          <tr><td>RV83</td><td>146.2500</td><td>146.8500</td></tr>
+                          <tr><td>RV84</td><td>146.2625</td><td>146.8625</td></tr>
+                          <tr><td>RV85</td><td>146.2750</td><td>146.8750</td></tr>
+                          <tr><td>RV86</td><td>146.2875</td><td>146.8875</td></tr>
+                          <tr><td>RV87</td><td>146.3000</td><td>146.9000</td></tr>
+                          <tr><td>RV88</td><td>146.3125</td><td>146.9125</td></tr>
+                          <tr><td>RV89</td><td>146.3250</td><td>146.9250</td></tr>
+                          <tr><td>RV90</td><td>146.3375</td><td>146.9375</td></tr>
+                          <tr><td>RV91</td><td>146.3500</td><td>146.9500</td></tr>
+                          <tr><td>RV92</td><td>146.3625</td><td>146.9625</td></tr>
+                          <tr><td>RV93</td><td>146.3750</td><td>146.9750</td></tr>
+                          <tr><td>RV94</td><td>146.3875</td><td>146.9875</td></tr>
+                          <tr><td>RV95</td><td>147.0000</td><td>147.6000</td></tr>
+                          <tr><td>RV96</td><td>147.0125</td><td>147.6125</td></tr>
+                          <tr><td>RV97</td><td>147.0250</td><td>147.6250</td></tr>
+                          <tr><td>RV98</td><td>147.0375</td><td>147.6375</td></tr>
+                          <tr><td>RV99</td><td>147.0500</td><td>147.6500</td></tr>
+                          <tr><td>RV100</td><td>147.0625</td><td>147.6625</td></tr>
+                          <tr><td>RV101</td><td>147.0750</td><td>147.6750</td></tr>
+                          <tr><td>RV102</td><td>147.0875</td><td>147.6875</td></tr>
+                          <tr><td>RV103</td><td>147.1000</td><td>147.7000</td></tr>
+                          <tr><td>RV104</td><td>147.1125</td><td>147.7125</td></tr>
+                          <tr><td>RV105</td><td>147.1250</td><td>147.7250</td></tr>
+                          <tr><td>RV106</td><td>147.1375</td><td>147.7375</td></tr>
+                          <tr><td>RV107</td><td>147.1500</td><td>147.7500</td></tr>
+                          <tr><td>RV108</td><td>147.1625</td><td>147.7625</td></tr>
+                          <tr><td>RV109</td><td>147.1750</td><td>147.7750</td></tr>
+                          <tr><td>RV110</td><td>147.1875</td><td>147.7875</td></tr>
+                          <tr><td>RV111</td><td>147.2000</td><td>147.8000</td></tr>
+                          <tr><td>RV112</td><td>147.2125</td><td>147.8125</td></tr>
+                          <tr><td>RV113</td><td>147.2250</td><td>147.8250</td></tr>
+                          <tr><td>RV114</td><td>147.2375</td><td>147.8375</td></tr>
+                          <tr><td>RV115</td><td>147.2500</td><td>147.8500</td></tr>
+                          <tr><td>RV116</td><td>147.2625</td><td>147.8625</td></tr>
+                          <tr><td>RV117</td><td>147.2750</td><td>147.8750</td></tr>
+                          <tr><td>RV118</td><td>147.2875</td><td>147.8875</td></tr>
+                          <tr><td>RV119</td><td>147.3000</td><td>147.9000</td></tr>
+                          <tr><td>RV120</td><td>147.3125</td><td>147.9125</td></tr>
+                          <tr><td>RV121</td><td>147.3250</td><td>147.9250</td></tr>
+                          <tr><td>RV122</td><td>147.3375</td><td>147.9375</td></tr>
+                          <tr><td>RV123</td><td>147.3500</td><td>147.9500</td></tr>
+                          <tr><td>RV124</td><td>147.3625</td><td>147.9625</td></tr>
+                          <tr><td>RV125</td><td>147.3750</td><td>147.9750</td></tr>
+                          <tr><td>RV126</td><td>147.3875</td><td>147.9875</td></tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
                 <div class='modal-footer'>
                   <a type='button' class='btn btn-primary' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Malaysian-Spectrum-Chart-2022.pdf'>Malaysian Spectrum Chart 2022</a>
                   <a type='button' class='btn btn-primary' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/SRSP-ARS-144_Nov-2022_1.pdf'>SRSP ARS 144</a>
-                  <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
+                  <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Tutup</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='hstack'>
+            <h3 class='text-secondary'>Kod Q yang selalu digunakan</h3>
+            <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-qcode-modal-xl'>Kod Q</button>
+          </div>
+          <div class='modal fade bd-qcode-modal-xl' tabindex='-1' role='dialog' aria-labelledby='qcodeModalLabel' aria-hidden='true'>
+            <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl'>
+              <div class='modal-content'>
+                <div class='modal-header'>
+                  <h5 class='modal-title' id='qcodeModalLabel'>Kod Q</h5>
+                </div>
+                <div class='modal-body'>
+                  <table class='table table-sm text-center align-middle'>
+                    <thead>
+                      <tr><th>Kod</th><th>Soalan</th><th>Jawapan atau pernyataan</th></tr>
+                    </thead>
+                    <tbody>
+                      <tr><th>QRA</th><td>Apakah nama (atau tanda panggilan) stesen anda?</td><td>Nama (atau tanda panggilan) stesen saya ialah ____</td></tr>
+                      <tr><th>QRG</th><td>Adakah anda akan memberitahu saya kekerapan tepat saya (atau frekuensi ____)?</td><td>Kekerapan tepat anda (atau ____ ) ialah ____ kHz / MHz.</td></tr>
+                      <tr><th>QRH</th><td>Adakah kekerapan saya berbeza-beza?</td><td>Kekerapan anda berbeza-beza.</td></tr>
+                      <tr><th>QRI</th><td>Bagaimanakah nada penghantaran saya?</td><td>Nada penghantaran anda ialah (1. Baik; 2. Pembolehubah; 3. Buruk)</td></tr>
+                      <tr><th>QRJ</th><td>Berapa banyak kenalan suara yang anda mahu buat?</td><td>Saya mahu membuat ____ kenalan suara.</td></tr>
+                      <tr><th>QRK</th><td>Apakah kebolehbacaan isyarat saya (atau isyarat ____)?</td><td>Kebolehbacaan isyarat anda (atau isyarat ____) ialah ____ (1 hingga 5).</td></tr>
+                      <tr><th>QRL</th><td>Adakah anda sibuk?</td><td>Saya sibuk (berhubungan dengan ____ ). Tolong jangan masuk campur.</td></tr>
+                      <tr><th>QRM</th><td>Adakah anda mempunyai gangguan?</td><td>Saya ada gangguan.</td></tr>
+                      <tr><th>QRN</th><td>Adakah anda terganggu dengan statik?</td><td>Saya terganggu oleh statik.</td></tr>
+                      <tr><th>QRO</th><td>Adakah saya perlu meningkatkan kuasa?</td><td>Tingkatkan kuasa.</td></tr>
+                      <tr><th>QRP</th><td>Adakah saya akan mengurangkan kuasa?</td><td>Kurangkan kuasa.</td></tr>
+                      <tr><th>QRQ</th><td>Adakah saya akan menghantar lebih cepat?</td><td>Hantar lebih cepat (____ WPM).</td></tr>
+                      <tr><th>QRS</th><td>Adakah saya akan menghantar lebih perlahan?</td><td>Hantar lebih perlahan (____ WPM).</td></tr>
+                      <tr><th>QRT</th><td>Adakah saya akan menghentikan atau menggantung operasi? / matikan radio?</td><td>Saya menangguhkan operasi / mematikan radio.</td></tr>
+                      <tr><th>QRU</th><td>Adakah anda ada apa-apa untuk saya?</td><td>Saya ada ____ mesej untuk anda.</td></tr>
+                      <tr><th>QRV</th><td>Adakah anda bersedia?</td><td>Saya bersedia.</td></tr>
+                      <tr><th>QRW</th><td>Adakah saya akan memaklumkan kepada ____ bahawa anda sedang menghubungi (dia) pada ____ kHz / MHz?</td><td>Sila maklumkan kepada ____ bahawa saya memanggil (dia) pada ____ kHz / MHz.</td></tr>
+                      <tr><th>QRX</th><td>Bolehkah saya bersedia? / Bilakah anda akan menghubungi saya lagi?</td><td>Sila bersedia / Saya akan menghubungi anda sekali lagi pada ____ (jam) pada ____ kHz / MHz</td></tr>
+                      <tr><th>QRZ</th><td>Siapa yang memanggil saya?</td><td>Anda sedang dipanggil oleh ____ pada ____ kHz / MHz</td></tr>
+                      <tr><th>QSA</th><td>Apakah kekuatan isyarat saya (atau isyarat ____ )?</td><td>Kekuatan isyarat anda (atau isyarat ____) ialah ____ (1 hingga 5).</td></tr>
+                      <tr><th>QSB</th><td>Adakah isyarat saya pudar?</td><td>Isyarat anda semakin pudar.</td></tr>
+                      <tr><th>QSD</th><td>Adakah kekunci saya rosak?</td><td>Kekunci anda rosak.</td></tr>
+                      <tr><th>QSG</th><td>Adakah saya akan menghantar ____ telegram (mesej) pada satu masa?</td><td>Hantar ____ telegram (mesej) pada satu masa.</td></tr>
+                      <tr><th>QSK</th><td>Bolehkah anda mendengar saya di antara isyarat anda?</td><td>Saya boleh mendengar anda di antara isyarat saya.</td></tr>
+                      <tr><th>QSL</th><td>Bolehkah anda mengakui penerimaan?</td><td>Saya akan mengaku terima.</td></tr>
+                      <tr><th>QSM</th><td>Adakah saya akan mengulangi telegram (mesej) terakhir yang saya hantar kepada anda, atau beberapa telegram (mesej) sebelumnya?</td><td>Ulang telegram (mesej) terakhir yang anda hantar kepada saya (atau nombor telegram / mesej ____ ).</td></tr>
+                      <tr><th>QSN</th><td>Adakah anda mendengar saya (atau ____ (tanda panggilan)) pada ____ kHz / MHz?</td><td>Saya memang mendengar anda (atau ____ (tanda panggilan)) pada ____ kHz / MHz.</td></tr>
+                      <tr><th>QSO</th><td>Bolehkah anda berkomunikasi dengan ____ terus atau melalui geganti?</td><td>Saya boleh berkomunikasi dengan ____ terus (atau melalui geganti melalui ____ ).</td></tr>
+                      <tr><th>QSP</th><td>Adakah anda akan menyampaikan mesej kepada ____ ?</td><td>Saya akan menyampaikan mesej kepada ____ .</td></tr>
+                      <tr><th>QSR</th><td>Adakah anda mahu saya mengulangi panggilan saya?</td><td>Sila ulangi panggilan anda; Saya tidak mendengar awak.</td></tr>
+                      <tr><th>QSS</th><td>Apakah kekerapan kerja yang akan anda gunakan?</td><td>Saya akan menggunakan frekuensi kerja ____ kHz / MHz.</td></tr>
+                      <tr><th>QST</th><td>Perlukah saya mengulangi mesej terdahulu kepada semua amatur yang saya hubungi?</td><td>Di sini mengikuti mesej siaran kepada semua amatur.</td></tr>
+                      <tr><th>QSU</th><td>Adakah saya akan menghantar atau membalas pada frekuensi ini (atau pada ____ kHz / MHz)?</td><td>Hantar atau balas pada frekuensi ini (atau pada ____ kHz / MHz).</td></tr>
+                      <tr><th>QSW</th><td>Adakah anda akan menghantar pada frekuensi ini (atau pada ____ kHz / MHz)?</td><td>Saya akan menghantar pada frekuensi ini (atau pada ____ kHz / MHz).</td></tr>
+                      <tr><th>QSX</th><td>Adakah anda akan mendengar ____ (tanda panggilan pada ____ kHz / MHz)?</td><td>Saya sedang mendengar ____ (tanda panggilan pada ____ kHz / MHz)</td></tr>
+                      <tr><th>QSY</th><td>Adakah saya perlu menukar kepada penghantaran pada frekuensi lain?</td><td>Tukar kepada penghantaran pada frekuensi lain (atau pada ____ kHz / MHz).</td></tr>
+                      <tr><th>QSZ</th><td>Adakah saya akan menghantar setiap perkataan atau kumpulan lebih daripada sekali?</td><td>Hantar setiap perkataan atau kumpulan dua kali (atau ____ kali).</td></tr>
+                      <tr><th>QTA</th><td>Adakah saya akan membatalkan telegram (mesej) nombor ____ seolah-olah ia tidak dihantar?</td><td>Batalkan telegram (mesej) nombor ____ seolah-olah ia tidak dihantar.</td></tr>
+                      <tr><th>QTC</th><td>Berapa banyak telegram (mesej) yang perlu anda hantar?</td><td>Saya ada ____ telegram (mesej) untuk anda (atau untuk ____ ).</td></tr>
+                      <tr><th>QTH</th><td>Apakah kedudukan anda dalam latitud dan longitud? (atau mengikut sebarang petunjuk lain)</td><td>Kedudukan saya ialah ____ latitud ____ longitud.</td></tr>
+                      <tr><th>QTR</th><td>Apakah masa yang betul?</td><td>Masa yang betul ialah jam ____ UTC.</td></tr>
+                      <tr><th>QTU</th><td>Pukul berapa anda beroperasi?</td><td>Saya beroperasi dari ____ hingga jam ____.</td></tr>
+                      <tr><th>QTX</th><td>Adakah anda akan memastikan stesen anda dibuka untuk komunikasi selanjutnya dengan saya sehingga diberitahu kelak (atau sehingga jam ____)?</td><td>Saya akan memastikan stesen saya dibuka untuk komunikasi lanjut dengan anda sehingga diberitahu kelak (atau sehingga jam ____).</td></tr>
+                      <tr><th>QUA</th><td>Adakah anda mempunyai berita tentang ____ (tanda panggilan)?</td><td>Berikut ialah berita tentang ____ (tanda panggilan).</td></tr>
+                      <tr><th>QUC</th><td>Apakah nombor (atau petunjuk lain) mesej terakhir yang anda terima daripada saya (atau daripada ____ (tanda panggilan))?</td><td>Nombor (atau petunjuk lain) mesej terakhir yang saya terima daripada anda (atau daripada ____ (tanda panggilan)) ialah ____.</td></tr>
+                      <tr><th>QUD</th><td>Adakah anda menerima isyarat mendesak yang dihantar oleh ____ (tanda panggilan stesen mudah alih)?</td><td>Saya telah menerima isyarat segera yang dihantar oleh ____ (tanda panggilan stesen mudah alih) pada jam ____.</td></tr>
+                      <tr><th>QUE</th><td>Bolehkah anda bercakap dalam ____ (bahasa) – dengan jurubahasa jika perlu – jika ya, pada frekuensi apa?</td><td>Saya boleh bercakap dalam ____ (bahasa) pada ____ kHz / MHz.</td></tr>
+                      <tr><th>QUF</th><td>Adakah anda menerima isyarat kecemasan yang dihantar oleh ____ (tanda panggilan stesen mudah alih)?</td><td>Saya telah menerima isyarat kecemasan yang dihantar oleh ____ (tanda panggilan stesen mudah alih) pada jam ____.</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class='modal-footer'>
+                  <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Tutup</button>
                 </div>
               </div>
             </div>

@@ -291,7 +291,8 @@
 					<img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' loading='lazy' alt='NetGraphMode23'>
 				</div>
 				<div class='col-lg-9 figure my-1 d-flex align-items-center'>
-					<img class='figure-img img-fluid mx-auto d-block rounded-5 w-100' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'>
+					<!-- <img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'> -->
+					<img class='figure-img img-fluid mx-auto d-block rounded-5' src='/media/image/prog_countries.png' loading='lazy' alt='NetGraphMap23'>
 				</div>
 				<div class='col-lg-3 table-responsive d-flex justify-content-center'>
 					<table class='table table-sm table-striped text-center align-middle' id='uniq-ham-origin'></table>

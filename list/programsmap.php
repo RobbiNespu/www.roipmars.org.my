@@ -2,7 +2,7 @@
 <html data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Members Directory</title>
+    <title>RoIPMARS Network | Program</title>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
     <meta name='author' content='HafiziRuslan'>
@@ -51,7 +51,7 @@
     <script src='https://cdn.jsdelivr.net/gh/xguaita/Leaflet.MapCenterCoord@0.7/src/L.Control.MapCenterCoord.js' integrity='sha256-iwIPxUTYPTIJ7zMm2RDXhxUDuFBnzBZkwa5L+ChijGg=' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/gh/leaflet-extras/leaflet-providers@1.13.0/leaflet-providers.js' integrity='sha256-CX9R50bNZCPMIADWDXkdQWc8lbmtTzIY9KftJiiDfl0=' crossorigin='anonymous'></script>
     <script src='https://api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
-    <script src='/assets/js/membersmap.js'></script>
+    <script src='/assets/js/programsmap.js'></script>
   </body>
 
 </html>

@@ -2,10 +2,10 @@ let getStoredTheme = localStorage.getItem('theme')
 let YrNow = new Date().getFullYear()
 let JMAT = 'Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ'
 let mapOptions = {
-  center: [4.10932, 109.455475],
-  zoom: 1,
-  minZoom: 3,
-  maxZoom: 17,
+  center: [0,0],
+  zoom: 3,
+  minZoom: 1,
+  maxZoom: 15,
   loadingControl: true,
   fullscreenControl: true,
 }
@@ -62,16 +62,6 @@ L.control.rainviewer({
   animationInterval: 1000,
   opacity: 0.25
 }).addTo(map)
-map.addControl(new JawgPlaces.Leaflet({
-  searchOnTyping: true,
-  transition: { type: 'hybrid' },
-  marker: { icon: L.icon({ iconUrl: 'https://img.icons8.com/plasticine/100/000000/map-pin.png', iconSize: [32, 32] }), show: true },
-  position: 'topright',
-  language: 'ms',
-  placeholder: 'Cari Lokasi',
-  inputClasses: ['form-control', 'rounded-3', 'text-end', 'fs-6'],
-  L: L
-}))
 L.control.worldMiniMap({
   position: 'bottomright',
   width: 140,
@@ -79,8 +69,4 @@ L.control.worldMiniMap({
   view: 'square',
   style: { opacity: 0.4, border: '0px transparent', borderRadius: '30px' }
 }).addTo(map)
-var marsattr = '<a href="//www.roipmars.org.my">RoIPMARS&trade;</a>'
-var marsMemIcon = L.icon({ iconUrl: '../media/image/brands/favicon/favicon-96x96.png', iconSize: [24, 24] })
-var marsGateIcon = L.icon({ iconUrl: 'https://img.icons8.com/plasticine/100/null/radio-tower.png', iconSize: [32, 32] })
 
-// L.layerGroup([GMS, GYQ, GOZ, GPA, A001, A001C, A002, A002C, A003, A003C, A004, A004C, B005, B005C, A006, A006C, A007, A007C, A008, A008C, A009, A009C, A010, A010C, A011, A011C, A012, A012C, /*A013, A013C, A014, A014C, A015, A015C,*/ A016, A016C, A017, A017C, /*A018, A018C, B019, B019C, A020, A020C, A021, A021C,*/ A022, A022C, A023, A023C, /*A024, A024C,*/ A025, A025C, A026, A026C, A027, A027C, A028, A028C, A029, A029C, A030, A030C, A031, A031C, B032, B032C, A033, A033C, A034, A034C, A035, A035C]).addTo(map)

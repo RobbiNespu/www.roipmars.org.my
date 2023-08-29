@@ -50,7 +50,6 @@
     <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer@bcc7b7f035ab082e7ddcffe1b7621aa7ccd6d214/leaflet.rainviewer.js' integrity='sha256-Tz6IOIMhdWJso70T0rbWS1DkxzvVQ1/kCdPqM6IWQdo=' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/gh/xguaita/Leaflet.MapCenterCoord@0.7/src/L.Control.MapCenterCoord.js' integrity='sha256-iwIPxUTYPTIJ7zMm2RDXhxUDuFBnzBZkwa5L+ChijGg=' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/gh/leaflet-extras/leaflet-providers@1.13.0/leaflet-providers.js' integrity='sha256-CX9R50bNZCPMIADWDXkdQWc8lbmtTzIY9KftJiiDfl0=' crossorigin='anonymous'></script>
-    <script src='https://api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
     <script src='/assets/js/programsmap.js'></script>
   </body>
 

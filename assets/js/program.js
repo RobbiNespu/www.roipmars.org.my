@@ -54,51 +54,63 @@ $(document).ready(function () {
   
   $('#all-ncs-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank.json',
-      dataSrc: 'ncs-all'
+      url: '/assets/json/rank-ncs-all.json',
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle' },
-      { title: 'Operator', className: 'text-center align-middle' },
-      { title: 'KPI', className: 'text-center align-middle' }
+      { title: '#', className: 'text-center align-middle', data: 'R' },
+      { title: 'Stesen', className: 'text-center align-middle', data: 'NCS' },
+      { title: 'Operator', className: 'text-center align-middle', data: 'Nickname' },
+      { title: 'KPI', className: 'text-center align-middle', data: 'KPI' }
     ],
     info: false,
     ordering: false,
-    paging: false,
+    order: [0, 'asc'],
+    paging: true,
+    pageLength: 10,
+    pagingTag: 'button',
+    pagingType: 'simple',
     responsive: true,
     searching: false
   })
   
   $('#en-ncs-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank.json',
-      dataSrc: 'ncs-en'
+      url: '/assets/json/rank-ncs-en.json',
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle' },
-      { title: 'Operator', className: 'text-center align-middle' },
-      { title: 'KPI', className: 'text-center align-middle' }
+      { title: '#', className: 'text-center align-middle', data: 'R' },
+      { title: 'Stesen', className: 'text-center align-middle', data: 'NCS' },
+      { title: 'Operator', className: 'text-center align-middle', data: 'Nickname' },
+      { title: 'KPI', className: 'text-center align-middle', data: 'KPI' }
     ],
     info: false,
     ordering: false,
-    paging: false,
+    order: [0, 'asc'],
+    paging: true,
+    pageLength: 10,
+    pagingTag: 'button',
+    pagingType: 'simple',
     responsive: true,
     searching: false
   })
   
   $('#ms-ncs-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank.json',
-      dataSrc: 'ncs-ms'
+      url: '/assets/json/rank-ncs-ms.json',
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle' },
-      { title: 'Operator', className: 'text-center align-middle' },
-      { title: 'KPI', className: 'text-center align-middle' }
+      { title: '#', className: 'text-center align-middle', data: 'R' },
+      { title: 'Stesen', className: 'text-center align-middle', data: 'NCS' },
+      { title: 'Operator', className: 'text-center align-middle', data: 'Nickname' },
+      { title: 'KPI', className: 'text-center align-middle', data: 'KPI' }
     ],
     info: false,
     ordering: false,
-    paging: false,
+    order: [0, 'asc'],
+    paging: true,
+    pageLength: 10,
+    pagingTag: 'button',
+    pagingType: 'simple',
     responsive: true,
     searching: false
   })
@@ -139,80 +151,90 @@ $(document).ready(function () {
   
   $('#all-stn-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank.json',
-      dataSrc: 'stn-all'
+      url: '/assets/json/rank-user.json'
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle' },
-      { title: 'Operator', className: 'text-center align-middle' }
+      { title: 'Stesen', className: 'text-center align-middle', data: 'AM' },
+      { title: 'Kekerapan', className: 'text-center align-middle', data: 'am%' }
     ],
     info: false,
     ordering: false,
-    paging: false,
+    paging: true,
+    pageLength: 10,
+    pagingTag: 'button',
+    pagingType: 'simple',
     responsive: true,
     searching: false
   })
   
   $('#en-stn-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank.json',
-      dataSrc: 'stn-en'
+      url: '/assets/json/rank-user.json'
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle' },
-      { title: 'Operator', className: 'text-center align-middle' }
+      { title: 'Stesen', className: 'text-center align-middle', data: 'AM-EN' },
+      { title: 'Kekerapan', className: 'text-center align-middle', data: 'amen%' }
     ],
     info: false,
     ordering: false,
-    paging: false,
+    paging: true,
+    pageLength: 10,
+    pagingTag: 'button',
+    pagingType: 'simple',
     responsive: true,
     searching: false
   })
   
   $('#ms-stn-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank.json',
-      dataSrc: 'stn-ms'
+      url: '/assets/json/rank-user.json'
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle' },
-      { title: 'Operator', className: 'text-center align-middle' }
+      { title: 'Stesen', className: 'text-center align-middle', data: 'AM-MS' },
+      { title: 'Kekerapan', className: 'text-center align-middle', data: 'amms%' }
     ],
     info: false,
     ordering: false,
-    paging: false,
+    paging: true,
+    pageLength: 10,
+    pagingTag: 'button',
+    pagingType: 'simple',
     responsive: true,
     searching: false
   })
   
   $('#cb-stn-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank.json',
-      dataSrc: 'stn-cb'
+      url: '/assets/json/rank-user.json'
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle' },
-      { title: 'Operator', className: 'text-center align-middle' }
+      { title: 'Stesen', className: 'text-center align-middle', data: 'CB' },
+      { title: 'Kekerapan', className: 'text-center align-middle', data: 'cb%' }
     ],
     info: false,
     ordering: false,
-    paging: false,
+    paging: true,
+    pageLength: 10,
+    pagingTag: 'button',
+    pagingType: 'simple',
     responsive: true,
     searching: false
   })
   
   $('#voi-stn-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank.json',
-      dataSrc: 'stn-voi'
+      url: '/assets/json/rank-user.json'
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle' },
-      { title: 'Operator', className: 'text-center align-middle' }
+      { title: 'Stesen', className: 'text-center align-middle', data: 'VOI' },
+      { title: 'Kekerapan', className: 'text-center align-middle', data: 'voi%' }
     ],
     info: false,
     ordering: false,
-    paging: false,
+    paging: true,
+    pageLength: 10,
+    pagingTag: 'button',
+    pagingType: 'simple',
     responsive: true,
     searching: false
   })

@@ -57,7 +57,7 @@ new Chart(byTime, {
     plugins: {
       title: {
         text: 'UTC'
-      },
+      }
     }
   }
 })

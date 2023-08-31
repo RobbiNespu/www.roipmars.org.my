@@ -6,16 +6,27 @@ const byMonth = document.getElementById('byMonth')
 const byQuarter = document.getElementById('byQuarter')
 const byCategory = document.getElementById('byCategory')
 const byMode = document.getElementById('byMode')
-const byCountry = document.getElementById('byCountry')
+// const byCountry = document.getElementById('byCountry')
 
 Chart.defaults.font.family = 'Open Sans'
 Chart.defaults.font.size = 10
 Chart.defaults.font.lineHeight = 1
+
 Chart.defaults.plugins.title.display = true
 Chart.defaults.plugins.title.position = 'bottom'
 Chart.defaults.plugins.title.align = 'end'
 Chart.defaults.plugins.title.font = {weight: 'bold', style: 'italic', size: 14}
-Chart.defaults.plugins.title.padding = {top: 1, bottom: 1}
+Chart.defaults.plugins.title.padding = {top: 1,bottom: 1}
+
+var brandImg = new Image()
+brandImg.src = '/media/image/brands/roipmars/brand.png'
+Chart.defaults.plugins.watermark.image = brandImg
+Chart.defaults.plugins.watermark.opacity = 0.5
+Chart.defaults.plugins.watermark.width = '100%'
+Chart.defaults.plugins.watermark.height = '100%'
+Chart.defaults.plugins.watermark.alignX = 'middle'
+Chart.defaults.plugins.watermark.alignY = 'middle'
+Chart.defaults.plugins.watermark.position = 'back'
 
 // const rtime = await fetch('/assets/json/rank-time.json').then((t) => t.json())
 new Chart(byTime, {
@@ -46,7 +57,7 @@ new Chart(byTime, {
     plugins: {
       title: {
         text: 'UTC'
-      }
+      },
     }
   }
 })
@@ -257,3 +268,33 @@ new Chart(byMode, {
     }
   }
 })
+
+// await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then((r) => r.json()).then((data) => {
+//   const countries = ChartGeo.topojson.feature(data, data.objects.countries).features
+// 
+//   new Chart(byCountry.getContext('2d'), {
+//     type: 'choropleth',
+//     data: {
+//       labels: countries.map((d) => d.properties.name),
+//       datasets: [{
+//         label: 'Countries',
+//         data: countries.map((d) => ({feature: d, value: Math.random()})),
+//       }]
+//     },
+//     options: {
+//       showOutline: true,
+//       showGraticule: true,
+//       plugins: {
+//         legend: {
+//           display: false
+//         },
+//       },
+//       scales: {
+//         projection: {
+//           axis: 'x',
+//           projection: 'equalEarth'
+//         }
+//       }
+//     }
+//   })
+// })

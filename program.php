@@ -75,8 +75,8 @@
 					<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun membuat selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan:</p>
 					<div class='btn-group d-flex justify-content-center' role='group'>
 						<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/60148453456'><i class='bi-whatsapp'></i> <b>Pegawai Siaraya &amp; Aktiviti</b></a>
-						<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/60138519226'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></a>
-						<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/601137586261'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></a>
+						<!-- <a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/60138519226'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></a>
+						<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/601137586261'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></a> -->
 					</div>
 				</div>
 				<div class='col-lg-6 my-3 d-block text-center'>
@@ -135,21 +135,17 @@
 										<p class='lh-1'>9M6RHM<br>RAHIM</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9m6rmd.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6RMD'>
-										<p class='lh-1'>9M6RMD<br>ROSNI</p>
-									</div>
-									<div class='vstack gap-2'>
 										<img src='/media/image/ncs/9w2esr.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2ESR'>
 										<p class='lh-1'>9W2ESR<br>SULAIMAN</p>
+									</div>
+									<div class='vstack gap-2'>
+										<img src='/media/image/member/028.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2NEW'>
+										<p class='lh-1'>9W2NEW<br>HISHAM</p>
 									</div>
 								</div>
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
-									<div class='vstack gap-2'>
-										<img src='/media/image/member/028.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2NEW'>
-										<p class='lh-1'>9W2NEW<br>HISHAM</p>
-									</div>
 									<div class='vstack gap-2'>
 										<img src='/media/image/ncs/9w2vfp.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2VFP'>
 										<p class='lh-1'>9W2VFP<br>FAHMI</p>
@@ -158,14 +154,14 @@
 										<img src='/media/image/ncs/9w2yhm.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YHM'>
 										<p class='lh-1'>9W2YHM<br>HELMI</p>
 									</div>
-								</div>
-							</div>
-							<div class='carousel-item'>
-								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
 										<img src='/media/image/ncs/9w6aze.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6AZE'>
 										<p class='lh-1'>9W6AZE<br>HAZARI</p>
 									</div>
+								</div>
+							</div>
+							<div class='carousel-item'>
+								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
 										<img src='/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6MOZ'>
 										<p class='lh-1'>9W6MOZ<br>MUSTAFA</p>
@@ -174,14 +170,14 @@
 										<img src='/media/image/ncs/9w6rhn.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6RHN'>
 										<p class='lh-1'>9W6RHN<br>ROSLAN</p>
 									</div>
-								</div>
-							</div>
-							<div class='carousel-item'>
-								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
 										<img src='/media/image/ncs/9w6wot.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='9W6WOT'>
 										<p class='lh-1'>9W6WOT<br>STEWARD</p>
 									</div>
+								</div>
+							</div>
+							<div class='carousel-item'>
+								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
 										<img src='/media/image/member/032.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='V85AFF'>
 										<p class='lh-1'>V85AFF<br>MAHATHIR</p>
@@ -301,6 +297,7 @@
 				<div class='col-lg-9 figure my-1 d-flex align-items-center'>
 					<!-- <img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'> -->
 					<img class='figure-img img-fluid mx-auto d-block rounded-5' src='/media/image/prog_countries.png' loading='lazy' alt='NetGraphMap23'>
+					<!-- <canvas id='byCountry' loading='lazy' alt='NetGraphMap23'></canvas> -->
 				</div>
 				<div class='col-lg-3 table-responsive d-flex justify-content-center'>
 					<table class='table table-sm table-striped text-center align-middle' id='uniq-ham-origin'></table>
@@ -441,6 +438,10 @@
 		<script src='https://cdn.jsdelivr.net/npm/blob-stream@0.1.3/index.js' integrity='sha256-Dpvzq1ZLpIsw8llbYvMoUK7ogA+MmANk/nQwU+rasIU=' crossorigin='anonymous'></script>
 		<script src='/assets/js/eqsl.js'></script> -->
 		<script src='https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js' integrity='sha256-Mh46P6mNpKqpV9EL5Xy7UU3gmJ7tj51ya10FkCzQGQQ=' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js' integrity='sha256-IMCPPZxtLvdt9tam8RJ8ABMzn+Mq3SQiInbDmMYwjDg=' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-chart-geo@4.2.4/build/index.umd.min.js' integrity='sha256-77XpUirDHPDF91abo+PMAGgOxHSsTCQwGr05eb0Vhu0=' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chart.js-image@6.1.3/lib.js' integrity='sha256-1SRuMUZGQownoMNoSMGGFBcPI6AaKcTE5F8jJ6TSiwo=' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2.0.2/chartjs-plugin-watermark.min.js' integrity='sha256-GEtxUgNFiQ+zaEJrs1EG0jhwwZ8R+pHc+yN0vG9IL14=' crossorigin='anonymous'></script>
 		<script src='/assets/js/reports.js'></script>
 	</body>
 

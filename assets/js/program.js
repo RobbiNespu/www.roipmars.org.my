@@ -7,7 +7,7 @@ $(document).ready(function () {
       { title: 'NCS | ECR', className: 'text-center align-middle', searchable: true, name: 'ncs' },
       { title: 'Laporan', className: 'text-center align-middle', searchable: true, name: 'lapor' }
     ],
-    displayStart: 170,
+    displayStart: 180,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
       info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
@@ -35,12 +35,11 @@ $(document).ready(function () {
   
   $('#uniq-ham-origin').DataTable({
     ajax: {
-      url: '/assets/json/rank.json',
-      dataSrc: 'origin-all'
+      url: '/assets/json/unique-origin.json'
     },
     columns: [
-      { title: 'Panggilan Asal', className: 'text-center align-middle' },
-      { title: 'Unik', className: 'text-center align-middle' }
+      { title: 'Panggilan Asal', className: 'text-center align-middle', data: 'Origin' },
+      { title: 'Unik', className: 'text-center align-middle', data: 'x' }
     ],
     info: false,
     lengthChange: false,

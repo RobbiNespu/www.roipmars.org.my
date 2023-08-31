@@ -49,7 +49,23 @@ $(document).ready(function () {
     pagingTag: 'button',
     pagingType: 'numbers',
     responsive: true,
-    searching: false
+    searching: false,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
   })
   
   $('#all-ncs-rank').DataTable({
@@ -70,7 +86,23 @@ $(document).ready(function () {
     pagingTag: 'button',
     pagingType: 'simple',
     responsive: true,
-    searching: false
+    searching: false,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
   })
   
   $('#en-ncs-rank').DataTable({
@@ -91,7 +123,23 @@ $(document).ready(function () {
     pagingTag: 'button',
     pagingType: 'simple',
     responsive: true,
-    searching: false
+    searching: false,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
   })
   
   $('#ms-ncs-rank').DataTable({
@@ -112,7 +160,23 @@ $(document).ready(function () {
     pagingTag: 'button',
     pagingType: 'simple',
     responsive: true,
-    searching: false
+    searching: false,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
   })
   
   $('#cb-ncs-rank').DataTable({
@@ -129,7 +193,23 @@ $(document).ready(function () {
     ordering: false,
     paging: false,
     responsive: true,
-    searching: false
+    searching: false,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
   })
   
   $('#voi-ncs-rank').DataTable({
@@ -146,7 +226,23 @@ $(document).ready(function () {
     ordering: false,
     paging: false,
     responsive: true,
-    searching: false
+    searching: false,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
   })
   
   $('#all-stn-rank').DataTable({
@@ -154,7 +250,7 @@ $(document).ready(function () {
       url: '/assets/json/stn-ham-all.json'
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle', data: 'AM' },
+      { title: 'Stesen', className: 'text-center align-middle', data: 'AM', searchable: true },
       { title: 'Kekerapan', className: 'text-center align-middle', data: 'am%' }
     ],
     info: false,
@@ -164,7 +260,23 @@ $(document).ready(function () {
     pagingTag: 'button',
     pagingType: 'simple',
     responsive: true,
-    searching: false
+    searching: true,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
   })
   
   $('#en-stn-rank').DataTable({
@@ -172,7 +284,7 @@ $(document).ready(function () {
       url: '/assets/json/stn-ham-en.json'
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle', data: 'AM-EN' },
+      { title: 'Stesen', className: 'text-center align-middle', data: 'AM-EN', searchable: true },
       { title: 'Kekerapan', className: 'text-center align-middle', data: 'amen%' }
     ],
     info: false,
@@ -180,9 +292,25 @@ $(document).ready(function () {
     paging: true,
     pageLength: 10,
     pagingTag: 'button',
-    pagingType: 'simple',
+    pagingType: 'full',
     responsive: true,
-    searching: false
+    searching: true,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
   })
   
   $('#ms-stn-rank').DataTable({
@@ -190,7 +318,7 @@ $(document).ready(function () {
       url: '/assets/json/stn-ham-ms.json'
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle', data: 'AM-MS' },
+      { title: 'Stesen', className: 'text-center align-middle', data: 'AM-MS', searchable: true },
       { title: 'Kekerapan', className: 'text-center align-middle', data: 'amms%' }
     ],
     info: false,
@@ -198,9 +326,25 @@ $(document).ready(function () {
     paging: true,
     pageLength: 10,
     pagingTag: 'button',
-    pagingType: 'simple',
+    pagingType: 'full',
     responsive: true,
-    searching: false
+    searching: true,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
   })
   
   $('#cb-stn-rank').DataTable({
@@ -208,7 +352,7 @@ $(document).ready(function () {
       url: '/assets/json/stn-cb.json'
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle', data: 'CB' },
+      { title: 'Stesen', className: 'text-center align-middle', data: 'CB', searchable: true },
       { title: 'Kekerapan', className: 'text-center align-middle', data: 'cb%' }
     ],
     info: false,
@@ -216,9 +360,25 @@ $(document).ready(function () {
     paging: true,
     pageLength: 10,
     pagingTag: 'button',
-    pagingType: 'simple',
+    pagingType: 'full',
     responsive: true,
-    searching: false
+    searching: true,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
   })
   
   $('#voi-stn-rank').DataTable({
@@ -226,7 +386,7 @@ $(document).ready(function () {
       url: '/assets/json/stn-voi.json'
     },
     columns: [
-      { title: 'Stesen', className: 'text-center align-middle', data: 'VOI' },
+      { title: 'Stesen', className: 'text-center align-middle', data: 'VOI', searchable: true },
       { title: 'Kekerapan', className: 'text-center align-middle', data: 'voi%' }
     ],
     info: false,
@@ -234,9 +394,25 @@ $(document).ready(function () {
     paging: true,
     pageLength: 10,
     pagingTag: 'button',
-    pagingType: 'simple',
+    pagingType: 'full',
     responsive: true,
-    searching: false
+    searching: true,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
   })
   
   const netrep = document.getElementById('netrep')

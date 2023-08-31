@@ -304,7 +304,7 @@
 				</div>
 			</div>
 			<hr>
-			<div class='row'>
+			<div class='row my-1'>
 				<div class='col-12'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
 				<div class='col-12'>
 					<p class='text-center'>RoIPMARS HAM Net &#40;digabungkan&#41;</p>
@@ -340,7 +340,7 @@
 					</div>
 				</div>
 			</div>
-			<div class='row'>
+			<div class='row my-1'>
 				<div class='col-lg-6'>
 					<h3 class='text-center'>Kategori Jalur Rakyat</h3>
 					<p class='text-center'>RoIPMARS CB Net Bahasa Melayu</p>
@@ -371,7 +371,7 @@
 				</div>
 			</div>
 			<!-- <hr> -->
-			<!-- <div class='row'>
+			<!-- <div class='row my-1'>
 				<div class='col-12'>
 					<h3 class='text-center'>Pemenang Bertuah Rangkaian RoIPMARS</h3>
 				</div>

@@ -35,7 +35,7 @@ $(document).ready(function () {
   
   $('#uniq-ham-origin').DataTable({
     ajax: {
-      url: '/assets/json/unique-origin.json'
+      url: '/assets/json/stn-origin.json'
     },
     columns: [
       { title: 'Panggilan Asal', className: 'text-center align-middle', data: 'Origin' },
@@ -54,7 +54,7 @@ $(document).ready(function () {
   
   $('#all-ncs-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank-ncs-all.json',
+      url: '/assets/json/ncs-ham-all.json',
     },
     columns: [
       { title: '#', className: 'text-center align-middle', data: 'R' },
@@ -75,7 +75,7 @@ $(document).ready(function () {
   
   $('#en-ncs-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank-ncs-en.json',
+      url: '/assets/json/ncs-ham-en.json',
     },
     columns: [
       { title: '#', className: 'text-center align-middle', data: 'R' },
@@ -96,7 +96,7 @@ $(document).ready(function () {
   
   $('#ms-ncs-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank-ncs-ms.json',
+      url: '/assets/json/ncs-ham-ms.json',
     },
     columns: [
       { title: '#', className: 'text-center align-middle', data: 'R' },
@@ -151,7 +151,7 @@ $(document).ready(function () {
   
   $('#all-stn-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank-user.json'
+      url: '/assets/json/stn-ham-all.json'
     },
     columns: [
       { title: 'Stesen', className: 'text-center align-middle', data: 'AM' },
@@ -169,7 +169,7 @@ $(document).ready(function () {
   
   $('#en-stn-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank-user.json'
+      url: '/assets/json/stn-ham-en.json'
     },
     columns: [
       { title: 'Stesen', className: 'text-center align-middle', data: 'AM-EN' },
@@ -187,7 +187,7 @@ $(document).ready(function () {
   
   $('#ms-stn-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank-user.json'
+      url: '/assets/json/stn-ham-ms.json'
     },
     columns: [
       { title: 'Stesen', className: 'text-center align-middle', data: 'AM-MS' },
@@ -205,7 +205,7 @@ $(document).ready(function () {
   
   $('#cb-stn-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank-user.json'
+      url: '/assets/json/stn-cb.json'
     },
     columns: [
       { title: 'Stesen', className: 'text-center align-middle', data: 'CB' },
@@ -223,7 +223,7 @@ $(document).ready(function () {
   
   $('#voi-stn-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank-user.json'
+      url: '/assets/json/stn-voi.json'
     },
     columns: [
       { title: 'Stesen', className: 'text-center align-middle', data: 'VOI' },

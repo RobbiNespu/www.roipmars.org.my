@@ -434,15 +434,16 @@
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js' integrity='sha512-a9NgEEK7tsCvABL7KqtUTQjl69z7091EVPpw5KxPlZ93T141ffe1woLtbXTX+r2/8TtTvRX/v4zTL2UlMUPgwg==' crossorigin='anonymous'></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.min.js' integrity='sha512-P0bOMePRS378NwmPDVPU455C/TuxDS+8QwJozdc7PGgN8kLqR4ems0U/3DeJkmiE31749vYWHvBOtR+37qDCZQ==' crossorigin='anonymous'></script>
 		<script src='/assets/js/program.js'></script>
-		<!-- <script src='https://cdn.jsdelivr.net/npm/pdfkit@0.13.0/js/pdfkit.standalone.js' integrity='sha256-41qk5dewLKulpzhP3H6G7mY+5q+vzxMaxolsOGmZD/8=' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/pdfkit@0.13.0/js/pdfkit.standalone.js' integrity='sha256-41qk5dewLKulpzhP3H6G7mY+5q+vzxMaxolsOGmZD/8=' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/blob-stream@0.1.3/index.js' integrity='sha256-Dpvzq1ZLpIsw8llbYvMoUK7ogA+MmANk/nQwU+rasIU=' crossorigin='anonymous'></script>
-		<script src='/assets/js/eqsl.js'></script> -->
+		<script src='/assets/js/eqsl.js'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js' integrity='sha256-Mh46P6mNpKqpV9EL5Xy7UU3gmJ7tj51ya10FkCzQGQQ=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js' integrity='sha256-IMCPPZxtLvdt9tam8RJ8ABMzn+Mq3SQiInbDmMYwjDg=' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-chart-geo@4.2.4/build/index.umd.min.js' integrity='sha256-77XpUirDHPDF91abo+PMAGgOxHSsTCQwGr05eb0Vhu0=' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js' integrity='sha256-IMCPPZxtLvdt9tam8RJ8ABMzn+Mq3SQiInbDmMYwjDg=' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chart.js-image@6.1.3/lib.js' integrity='sha256-1SRuMUZGQownoMNoSMGGFBcPI6AaKcTE5F8jJ6TSiwo=' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2.0.2/chartjs-plugin-watermark.min.js' integrity='sha256-GEtxUgNFiQ+zaEJrs1EG0jhwwZ8R+pHc+yN0vG9IL14=' crossorigin='anonymous'></script>
 		<script src='/assets/js/reports.js'></script>
+		<script src='/assets/js/pg-chartjs-map.js'></script>
 	</body>
 
 </html>

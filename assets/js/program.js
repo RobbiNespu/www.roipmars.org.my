@@ -1,4 +1,5 @@
-$(document).ready(function () {
+// 'use strict';
+$(document).ready(function() {
   var takwimtable = $('#takwim').DataTable({
     ajax: 'assets/json/schedule.json',
     columns: [
@@ -423,8 +424,8 @@ $(document).ready(function () {
       const tableid = `net-${sourcedate}`
       
       const modalTitle = netrep.querySelector('.modal-title')
+      // 'use strict';
       $('#takwim').delegate('tbody tr td:last-child','click',function() {
-        'use strict';
         const takwimrowno = takwimtable.row(this).index()
         const takwimrowdata = takwimtable.row(takwimrowno).data()
         const takwimdate = takwimrowdata[0].split('<br>')[1]
@@ -498,8 +499,8 @@ $(document).ready(function () {
       })      
       // netReportTable.ajax.reload(null, false)
       
+      // 'use strict';
       $('#' + tableid).delegate('tbody tr td:nth-child(2)','click',function() {
-        'use strict';
         let d = `${sourcedate}`.slice(0,2)
         let m = `${sourcedate}`.slice(2,4)
         let y = `${sourcedate}`.slice(4,6)
@@ -510,7 +511,7 @@ $(document).ready(function () {
         let clickdate = d + '/' + m + '/'+y
         let clicktime = rowdata[3]
         // console.clear()
-        console.log(rowno + '\t' + clickcall + '\t' + clickmode + '\t' + clickdate + ' @ ' + clicktime)
+        // alert(rowno + 1 + '\t' + clickcall + '\t' + clickmode + '\t' + clickdate + ' @ ' + clicktime)
         // netReportTable.ajax.reload(null,false)
         // downeQSL(clickcall, clickmode, clicktime)
       })

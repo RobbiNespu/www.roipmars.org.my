@@ -163,7 +163,7 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w6wot.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6WOT'>
+										<img src='/media/image/ncs/9w6wot.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='9W6WOT'>
 										<p class='lh-1'>9W6WOT<br>STEWARD</p>
 									</div>
 									<div class='vstack gap-2'>

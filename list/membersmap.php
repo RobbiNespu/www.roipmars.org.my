@@ -45,6 +45,7 @@
     <script src='https://cdn.jsdelivr.net/npm/leaflet-loading@0.1.24/src/Control.Loading.js' integrity='sha256-FquvQIblVRto7kZlJ5hTS0rpr9fzTyNmCCmQzsy5EnU=' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js' integrity='sha256-jVdNHjjOOJMoykxLOdGxOUzGJDlmr8MM6sFF++b1/sI=' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/@joergdietrich/leaflet.terminator@1.1.0/L.Terminator.js' integrity='sha256-hfZoLKHov8w/oA11Uc0Grg6lRTOuyTGY7geKPnYnang=' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet.smooth_marker_bouncing@3.0.3/dist/bundle.min.js' integrity='sha256-1FG0C2EBgj3i1IUlqPgyfEL5K++RAuKlzeLFvRk3jI0=' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/gh/ha8tks/Leaflet.Maidenhead@6cff9ca9e7950a8d60cde86e6e4f900b602d32b4/src/L.Maidenhead.js' integrity='sha256-3eUDZHZ3hoAXMHz5GxZ7wDpyK/eUUkZk1QXiTxorBW0=' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap@1.0.0/dist/Control.WorldMiniMap.js' integrity='sha512-PFw8St3qenU1/dmwCfiYYN/bRcqY1p3+sBATR+rZ6622eyXOk/8izVtlmm/k8qW7KbRIJsku838WCV5LMs6FCg==' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer@bcc7b7f035ab082e7ddcffe1b7621aa7ccd6d214/leaflet.rainviewer.js' integrity='sha256-Tz6IOIMhdWJso70T0rbWS1DkxzvVQ1/kCdPqM6IWQdo=' crossorigin='anonymous'></script>

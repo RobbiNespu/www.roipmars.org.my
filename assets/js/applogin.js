@@ -1,9 +1,10 @@
+let input = document.getElementsByTagName('input')
+let button = document.getElementsByTagName('button')
+var qrz = input.getElementById('callsign').value.toUpperCase()
+var qra = input.getElementById('name').value.toUpperCase()
+var qth = input.getElementById('location').value.toUpperCase()
 
-var qrz = document.getElementsByTagName('input').getElementById('callsign').value.toUpperCase
-var qra = document.getElementsByTagName('input').getElementById('name').value.toUpperCase
-var qth = document.getElementsByTagName('input').getElementById('location').value.toUpperCase
-
-var tshamLoginButton = document.getElementsByTagName('button').getElementById('ts3hamlogin')
+var tshamLoginButton = button.getElementById('ts3hamlogin')
 tshamLoginButton.onclick = function() {
   if((qrz == null) || (qra == null) || (qth == null)) {
     return new error('Sila isi semua ruangan')
@@ -11,7 +12,7 @@ tshamLoginButton.onclick = function() {
     ts3hamlogin()
   }
 }
-var mumbleLoginButton = document.getElementsByTagName('button').getElementById('mumblelogin')
+var mumbleLoginButton = button.getElementById('mumblelogin')
 mumbleLoginButton.onclick = function() {
   if((qrz == null) || (qra == null) || (qth == null)) {
     return new error('Sila isi semua ruangan')
@@ -19,7 +20,7 @@ mumbleLoginButton.onclick = function() {
     mumblelogin()
   }
 }
-var teamtalkLoginButton = document.getElementsByTagName('button').getElementById('teamtalklogin')
+var teamtalkLoginButton = button.getElementById('teamtalklogin')
 teamtalkLoginButton.onclick = function() {
   if((qrz == null) || (qra == null) || (qth == null)) {
     return new error('Sila isi semua ruangan')
@@ -27,7 +28,7 @@ teamtalkLoginButton.onclick = function() {
     teamtalklogin()
   }
 }
-var tscbLoginButton = document.getElementsByTagName('button').getElementById('ts3cblogin')
+var tscbLoginButton = button.getElementById('ts3cblogin')
 tscbLoginButton.onclick = function() {
   if((qrz == null) || (qra == null) || (qth == null)) {
     return new error('Sila isi semua ruangan')

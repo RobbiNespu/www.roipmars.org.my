@@ -17,15 +17,20 @@ Chart.defaults.plugins.title.align = 'end'
 Chart.defaults.plugins.title.font = {weight: 'bold', style: 'italic', size: 14}
 Chart.defaults.plugins.title.padding = {top: 1,bottom: 1}
 
+Chart.defaults.plugins.legend.position = 'bottom'
+
 var brandImg = new Image()
 brandImg.src = '/media/image/brands/roipmars/brand.png'
-Chart.defaults.plugins.watermark.image = brandImg
-Chart.defaults.plugins.watermark.opacity = 0.5
-Chart.defaults.plugins.watermark.width = '100%'
-Chart.defaults.plugins.watermark.height = '100%'
-Chart.defaults.plugins.watermark.alignX = 'middle'
-Chart.defaults.plugins.watermark.alignY = 'middle'
-Chart.defaults.plugins.watermark.position = 'back'
+const wmOptions = {
+  image: '/media/image/brands/roipmars/brand.png',
+  opacity: 0.25,
+  y: '30',
+  width: '376',
+  height: '60',
+  alignX: 'middle',
+  alignY: 'middle',
+  position: 'between'
+}
 
 // const rtime = await fetch('/assets/json/rank-time.json').then((t) => t.json())
 new Chart(byTime, {
@@ -54,10 +59,9 @@ new Chart(byTime, {
     pointBorderWidth: 1,
     pointStyle: 'rectRounded',
     plugins: {
-      title: {
-        text: 'UTC'
-      }
-    }
+      title: { text: 'UTC' },
+    },
+    watermark: wmOptions,
   }
 })
 
@@ -88,10 +92,9 @@ new Chart(byDate, {
     pointBorderWidth: 1,
     pointStyle: 'crossRot',
     plugins: {
-      title: {
-        text: 'Harian'
-      }
-    }
+      title: { text: 'Harian' }
+    },
+    watermark: wmOptions,
   }
 })
 
@@ -117,14 +120,13 @@ new Chart(byDay, {
     barPercentage: 1,
     categoryPercentage: 0.95,
     plugins: {
-      title: {
-        text: 'Hari'
-      }
+      title: { text: 'Hari' }
     },
     scales: {
       x: { stacked: true },
       y: { stacked: true }
-    }
+    },
+    watermark: wmOptions,
   }
 })
 
@@ -154,10 +156,9 @@ new Chart(byWeek, {
     pointBorderWidth: 1,
     pointStyle: 'rectRot',
     plugins: {
-      title: {
-        text: 'Minggu'
-      }
-    }
+      title: { text: 'Minggu' }
+    },
+    watermark: wmOptions,
   }
 })
 
@@ -183,14 +184,13 @@ new Chart(byMonth, {
     barPercentage: 0.95,
     categoryPercentage: 0.95,
     plugins: {
-      title: {
-        text: 'Bulan'
-      }
+      title: { text: 'Bulan' }
     },
     scales: {
       x: { stacked: true },
       y: { stacked: true }
-    }
+    },
+    watermark: wmOptions,
   }
 })
 
@@ -221,19 +221,18 @@ new Chart(byQuarter, {
     barPercentage: 0.95,
     categoryPercentage: 0.95,
     plugins: {
-      title: {
-        text: 'Suku Tahun'
-      }
+      title: { text: 'Suku Tahun' }
     },
     scales: {
       x: { stacked: true },
       y: { stacked: true }
-    }
+    },
+    watermark: wmOptions,
   }
 })
 
 new Chart(byCategory, {
-  type: 'polarArea',
+  type: 'doughnut',
   data: {
     labels: ['HAM-MS','HAM-EN','CB-MS','VOI-MS'],
     datasets: [{
@@ -243,15 +242,14 @@ new Chart(byCategory, {
   options: {
     borderWidth: 0,
     plugins: {
-      title: {
-        text: 'Purata Penyertaan'
-      }
-    }
+      title: { text: 'Purata Penyertaan' }
+    },
+    watermark: wmOptions,
   }
 })
 
 new Chart(byMode, {
-  type: 'doughnut',
+  type: 'pie',
   data: {
     labels: ['Discord','EchoLink','Free Radio Network','Mumble','Peanut','Radio Transceiver','Telegram','TeamSpeak','TeamTalk','WhatsApp','Zello'],
     datasets: [{
@@ -261,9 +259,8 @@ new Chart(byMode, {
   options: {
     borderWidth: 0,
     plugins: {
-      title: {
-        text: 'Mod Penyertaan'
-      }
-    }
+      title: { text: 'Mod Penyertaan' }
+    },
+    watermark: wmOptions,
   }
 })

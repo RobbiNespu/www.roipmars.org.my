@@ -139,29 +139,17 @@
 										<p class='lh-1'>9W2ESR<br>SULAIMAN</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/member/028.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2NEW'>
-										<p class='lh-1'>9W2NEW<br>HISHAM</p>
+										<img src='/media/image/ncs/9w2yhm.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YHM'>
+										<p class='lh-1'>9W2YHM<br>HELMI</p>
 									</div>
 								</div>
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
-									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w2vfp.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2VFP'>
-										<p class='lh-1'>9W2VFP<br>FAHMI</p>
-									</div>
-									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w2yhm.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YHM'>
-										<p class='lh-1'>9W2YHM<br>HELMI</p>
-									</div>
 									<div class='vstack gap-2'>
 										<img src='/media/image/ncs/9w6aze.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6AZE'>
 										<p class='lh-1'>9W6AZE<br>HAZARI</p>
 									</div>
-								</div>
-							</div>
-							<div class='carousel-item'>
-								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
 										<img src='/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6MOZ'>
 										<p class='lh-1'>9W6MOZ<br>MUSTAFA</p>
@@ -170,14 +158,14 @@
 										<img src='/media/image/ncs/9w6rhn.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6RHN'>
 										<p class='lh-1'>9W6RHN<br>ROSLAN</p>
 									</div>
-									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w6wot.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='9W6WOT'>
-										<p class='lh-1'>9W6WOT<br>STEWARD</p>
-									</div>
 								</div>
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
+									<div class='vstack gap-2'>
+										<img src='/media/image/ncs/9w6wot.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6WOT'>
+										<p class='lh-1'>9W6WOT<br>STEWARD</p>
+									</div>
 									<div class='vstack gap-2'>
 										<img src='/media/image/member/032.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='V85AFF'>
 										<p class='lh-1'>V85AFF<br>MAHATHIR</p>
@@ -191,7 +179,6 @@
 							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='2' aria-label='Slide 3'></button>
 							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='3' aria-label='Slide 4'></button>
 							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='4' aria-label='Slide 5'></button>
-							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='5' aria-label='Slide 6'></button>
 						</div>
 					</div>
 				</div>

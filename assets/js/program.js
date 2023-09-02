@@ -40,7 +40,7 @@ $(document).ready(function() {
     },
     columns: [
       { title: 'Panggilan Asal', className: 'text-center align-middle', data: 'Origin' },
-      { title: 'Unik', className: 'text-center align-middle', data: 'x' }
+      { title: 'Unik', className: 'text-center align-middle', data: 'Unique' }
     ],
     info: false,
     lengthChange: false,
@@ -295,7 +295,7 @@ $(document).ready(function() {
     pagingTag: 'button',
     pagingType: 'full',
     responsive: true,
-    searching: true,
+    searching: false,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
       info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
@@ -329,7 +329,7 @@ $(document).ready(function() {
     pagingTag: 'button',
     pagingType: 'full',
     responsive: true,
-    searching: true,
+    searching: false,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
       info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
@@ -363,7 +363,7 @@ $(document).ready(function() {
     pagingTag: 'button',
     pagingType: 'full',
     responsive: true,
-    searching: true,
+    searching: false,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
       info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
@@ -397,7 +397,7 @@ $(document).ready(function() {
     pagingTag: 'button',
     pagingType: 'full',
     responsive: true,
-    searching: true,
+    searching: false,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
       info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',

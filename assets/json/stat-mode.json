@@ -1,1 +1,1 @@
-{"data":[{"Mode":"TeamSpeak","x":3206},{"Mode":"EchoLink","x":980},{"Mode":"Zello","x":354},{"Mode":"Radio Transceiver","x":306},{"Mode":"Mumble","x":13},{"Mode":"Telegram","x":12},{"Mode":"Free Radio Network","x":11},{"Mode":"Peanut","x":8},{"Mode":"Discord","x":3},{"Mode":"TeamTalk","x":1}]}
+{"Mode":["TeamSpeak","EchoLink","Zello","Radio Transceiver","Telegram","Mumble","Free Radio Network","Peanut","Discord","TeamTalk"],"Count":[3227,1010,362,308,14,13,11,8,3,1]}

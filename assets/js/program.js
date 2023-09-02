@@ -36,7 +36,7 @@ $(document).ready(function() {
   
   $('#uniq-ham-origin').DataTable({
     ajax: {
-      url: '/assets/json/stn-origin.json'
+      url: '/assets/json/stat-origin.json'
     },
     columns: [
       { title: 'Panggilan Asal', className: 'text-center align-middle', data: 'Origin' },

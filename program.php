@@ -429,7 +429,9 @@
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js' integrity='sha256-IMCPPZxtLvdt9tam8RJ8ABMzn+Mq3SQiInbDmMYwjDg=' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chart.js-image@6.1.3/lib.js' integrity='sha256-1SRuMUZGQownoMNoSMGGFBcPI6AaKcTE5F8jJ6TSiwo=' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2.0.2/chartjs-plugin-watermark.min.js' integrity='sha256-GEtxUgNFiQ+zaEJrs1EG0jhwwZ8R+pHc+yN0vG9IL14=' crossorigin='anonymous'></script>
-		<script src='/assets/js/reports.js'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0/dist/chartjs-plugin-datasource.min.js' integrity='sha256-IETwD2SE/IWT0oZy2CvQY78kyHqNsum864WdfYQ7chU=' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/sheetjs@2.0.0/index.js' integrity='sha256-l/Mq/mKQpV93H9k1bqRMgt0KULqqY1xm79A7OG81BYA=' crossorigin='anonymous'></script>
+		<script src='/assets/js/stats.js'></script>
 		<script src='/assets/js/pg-chartjs-map.js'></script>
 	</body>
 

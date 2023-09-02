@@ -1,1 +1,59 @@
-{"data":[{"TIME":"01:00","HAM-MS":103},{"TIME":"02:00","HAM-MS":100},{"TIME":"04:00","HAM-MS":26},{"TIME":"05:00","HAM-MS":20},{"TIME":"12:00","HAM-MS":22},{"TIME":"13:00","HAM-MS":1727,"HAM-EN":606,"CB-MS":337},{"TIME":"14:00","HAM-MS":1361,"HAM-EN":371,"CB-MS":103},{"TIME":"15:00","HAM-MS":230,"HAM-EN":1},{"TIME":"16:00","HAM-MS":14},{"TIME":"20:00","HAM-MS":"","HAM-EN":"","CB-MS":"","VOI-MS":717},{"TIME":"21:00","HAM-MS":"","HAM-EN":"","CB-MS":"","VOI-MS":415}]}
+{
+	"data": [
+		{
+			"TIME": "01:00",
+			"HAM-MS": 103
+		},
+		{
+			"TIME": "02:00",
+			"HAM-MS": 100
+		},
+		{
+			"TIME": "04:00",
+			"HAM-MS": 26
+		},
+		{
+			"TIME": "05:00",
+			"HAM-MS": 20
+		},
+		{
+			"TIME": "12:00",
+			"HAM-MS": 22
+		},
+		{
+			"TIME": "13:00",
+			"HAM-MS": 1727,
+			"HAM-EN": 606,
+			"CB-MS": 337
+		},
+		{
+			"TIME": "14:00",
+			"HAM-MS": 1361,
+			"HAM-EN": 371,
+			"CB-MS": 103
+		},
+		{
+			"TIME": "15:00",
+			"HAM-MS": 230,
+			"HAM-EN": 1
+		},
+		{
+			"TIME": "16:00",
+			"HAM-MS": 14
+		},
+		{
+			"TIME": "20:00",
+			"HAM-MS": "",
+			"HAM-EN": "",
+			"CB-MS": "",
+			"VOI-MS": 717
+		},
+		{
+			"TIME": "21:00",
+			"HAM-MS": "",
+			"HAM-EN": "",
+			"CB-MS": "",
+			"VOI-MS": 415
+		}
+	]
+}

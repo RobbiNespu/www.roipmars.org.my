@@ -19,8 +19,6 @@ Chart.defaults.plugins.title.padding = {top: 1,bottom: 1}
 
 Chart.defaults.plugins.legend.position = 'bottom'
 
-var brandImg = new Image()
-brandImg.src = '/media/image/brands/roipmars/brand.png'
 const wmOptions = {
   image: '/media/image/brands/roipmars/brand.png',
   opacity: 0.25,
@@ -32,7 +30,6 @@ const wmOptions = {
   position: 'between'
 }
 
-// const rtime = await fetch('/assets/json/rank-time.json').then((t) => t.json())
 new Chart(byTime, {
   type: 'line',
   data: {
@@ -59,7 +56,7 @@ new Chart(byTime, {
     pointBorderWidth: 1,
     pointStyle: 'rectRounded',
     plugins: {
-      title: { text: 'UTC' },
+      title: {text: 'UTC'},
     },
     watermark: wmOptions,
   }

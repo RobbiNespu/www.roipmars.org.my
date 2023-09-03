@@ -135,8 +135,8 @@
 										<p class='lh-1'>9M6RHM<br>RAHIM</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w2esr.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2ESR'>
-										<p class='lh-1'>9W2ESR<br>SULAIMAN</p>
+										<img src='/media/image/ncs/9w2ybt.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YBT'>
+										<p class='lh-1'>9W2YBT<br>Faisal</p>
 									</div>
 									<div class='vstack gap-2'>
 										<img src='/media/image/ncs/9w2yhm.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YHM'>
@@ -147,10 +147,10 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w6aze.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6AZE'>
-										<p class='lh-1'>9W6AZE<br>HAZARI</p>
-									</div>
-									<div class='vstack gap-2'>
+										<div class='vstack gap-2'>
+											<img src='/media/image/ncs/9w6aze.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6AZE'>
+											<p class='lh-1'>9W6AZE<br>HAZARI</p>
+										</div>
 										<img src='/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6MOZ'>
 										<p class='lh-1'>9W6MOZ<br>MUSTAFA</p>
 									</div>
@@ -163,7 +163,7 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='/media/image/ncs/9w6wot.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='9W6WOT'>
+										<img src='/media/image/ncs/9w6wot.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6WOT'>
 										<p class='lh-1'>9W6WOT<br>STEWARD</p>
 									</div>
 									<div class='vstack gap-2'>

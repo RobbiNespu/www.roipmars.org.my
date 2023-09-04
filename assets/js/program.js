@@ -119,7 +119,7 @@ $(document).ready(function() {
     info: false,
     ordering: false,
     order: [0, 'asc'],
-    paging: true,
+    paging: false,
     pageLength: 10,
     pagingTag: 'button',
     pagingType: 'simple',

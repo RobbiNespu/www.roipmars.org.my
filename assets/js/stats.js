@@ -18,7 +18,6 @@ Chart.defaults.plugins.legend.position = 'top'
 const wmOptions = {
   image: '/media/image/brands/roipmars/brand.png',
   opacity: 0.25,
-  y: '-15',
   width: '85%',
   height: '28%',
   alignX: 'middle',
@@ -32,8 +31,8 @@ $.getJSON('/assets/json/stat-time.json', function(timeData) {
       datasets: [
         {data: timeData.HAMMS, label: 'HAM-MS'},
         {data: timeData.HAMEN, label: 'HAM-EN'},
-        {data: timeData.CBMS, label: 'CB-MS'},
-        {data: timeData.VOIMS, label: 'VOI-MS'},
+        {data: timeData.CBMS, label: 'CB'},
+        {data: timeData.VOIMS, label: 'VOI'},
       ],
       labels: timeData.TIME,
     },
@@ -61,8 +60,8 @@ $.getJSON('/assets/json/stat-days.json', function(daysData) {
       datasets: [
         {data: daysData.HAMMS, label: 'HAM-MS'},
         {data: daysData.HAMEN, label: 'HAM-EN'},
-        {data: daysData.CB, label: 'CB-MS'},
-        {data: daysData.VOI, label: 'VOI-MS'},
+        {data: daysData.CB, label: 'CB'},
+        {data: daysData.VOI, label: 'VOI'},
       ],
       labels: daysData.Days,
     },
@@ -91,8 +90,8 @@ $.getJSON('/assets/json/stat-day.json', function(dayData) {
       datasets: [
         {data: dayData.HAMMS, label: 'HAM-MS'},
         {data: dayData.HAMEN, label: 'HAM-EN'},
-        {data: dayData.CB, label: 'CB-MS'},
-        {data: dayData.VOI, label: 'VOI-MS'},
+        {data: dayData.CB, label: 'CB'},
+        {data: dayData.VOI, label: 'VOI'},
       ],
       labels: dayData.Day,
     },
@@ -117,8 +116,8 @@ $.getJSON('/assets/json/stat-week.json', function(weekData) {
       datasets: [
         {data: weekData.HAMMS, label: 'HAM-MS'},
         {data: weekData.HAMEN, label: 'HAM-EN'},
-        {data: weekData.CB, label: 'CB-MS'},
-        {data: weekData.VOI, label: 'VOI-MS'}
+        {data: weekData.CB, label: 'CB'},
+        {data: weekData.VOI, label: 'VOI'}
       ],
       labels: weekData.Week,
     },
@@ -146,8 +145,8 @@ $.getJSON('/assets/json/stat-month.json', function(monthData) {
       datasets: [
         {data: monthData.HAMMS, label: 'HAM-MS'},
         {data: monthData.HAMEN, label: 'HAM-EN'},
-        {data: monthData.CB, label: 'CB-MS'},
-        {data: monthData.VOI, label: 'VOI-MS'}
+        {data: monthData.CB, label: 'CB'},
+        {data: monthData.VOI, label: 'VOI'}
       ],
       labels: monthData.Month,
     },
@@ -172,8 +171,8 @@ $.getJSON('/assets/json/stat-quarter.json', function(quarterData) {
       datasets: [
         {axis: 'y', data: quarterData.HAMMS, label: 'HAM-MS'},
         {axis: 'y', data: quarterData.HAMEN, label: 'HAM-EN'},
-        {axis: 'y', data: quarterData.CB, label: 'CB-MS'},
-        {axis: 'y', data: quarterData.VOI, label: 'VOI-MS'},
+        {axis: 'y', data: quarterData.CB, label: 'CB'},
+        {axis: 'y', data: quarterData.VOI, label: 'VOI'},
       ],
       labels: quarterData.Quarter,
     },

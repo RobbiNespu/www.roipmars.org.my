@@ -54,7 +54,7 @@
               if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
                 $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_IPCITY'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
               } else {
-                $ipAdress = $_SERVER['https://api64.ipify.org'];
+                $ipAdress = file_get_contents('https://api64.ipify.org');
               }
               return $ipAdress;
             }

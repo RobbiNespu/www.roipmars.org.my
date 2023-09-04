@@ -250,41 +250,31 @@
 					<h6 class='text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan Kita Semua <i class='fas fa-quote-right fa-xs'></i></h6>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<!-- <img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1851683566&format=image' loading='lazy' alt='NetGraphTime23'> -->
 					<canvas id='byTime' loading='lazy' alt='NetGraphTime23'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<!-- <img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1113695626&format=image' loading='lazy' alt='NetGraphDaily23'> -->
 					<canvas id='byDate' loading='lazy' alt='NetGraphDaily23'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<!-- <img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=861710611&format=image' loading='lazy' alt='NetGraphDay23'> -->
 					<canvas id='byDay' loading='lazy' alt='NetGraphDay23'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<!-- <img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=2115584175&format=image' loading='lazy' alt='NetGraphWeekly23'> -->
 					<canvas id='byWeek' loading='lazy' alt='NetGraphWeekly23'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<!-- <img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=1702452281&format=image' loading='lazy' alt='NetGraphMonthly23'> -->
 					<canvas id='byMonth' loading='lazy' alt='NetGraphMonthly23'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<!-- <img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=455644558&format=image' loading='lazy' alt='NetGraphQuarterly23'> -->
 					<canvas id='byQuarter' loading='lazy' alt='NetGraphQuarterly23'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<!-- <img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=4802909&format=image' loading='lazy' alt='NetGraphBand23'> -->
 					<canvas id='byCategory' loading='lazy' alt='NetGraphBand23'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<!-- <img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=792401302&format=image' loading='lazy' alt='NetGraphMode23'> -->
 					<canvas id='byMode' loading='lazy' alt='NetGraphMode23'></canvas>
 				</div>
 				<div class='col-lg-9 figure my-1 d-flex align-items-center'>
-					<!-- <img class='figure-img img-fluid mx-auto d-block rounded-5' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vShZ-_IdCzojc-O7PF899NODVVjv29Kc4iPYmIVWiQToxb3ypmCqLK9CP-6Oy9bYQ0SwDo4mcJJiSxg/pubchart?oid=523885909&format=image' loading='lazy' alt='NetGraphMap23'> -->
-					<img class='figure-img img-fluid mx-auto d-block rounded-5' src='/media/image/prog_countries.png' loading='lazy' alt='NetGraphMap23'>
-					<!-- <canvas id='byCountry' loading='lazy' alt='NetGraphMap23'></canvas> -->
+					<canvas id='byCountry' loading='lazy' alt='NetGraphMap23'></canvas>
 				</div>
 				<div class='col-lg-3 table-responsive d-flex justify-content-center'>
 					<table class='table table-sm table-striped text-center align-middle' id='uniq-ham-origin'></table>
@@ -421,16 +411,12 @@
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js' integrity='sha512-a9NgEEK7tsCvABL7KqtUTQjl69z7091EVPpw5KxPlZ93T141ffe1woLtbXTX+r2/8TtTvRX/v4zTL2UlMUPgwg==' crossorigin='anonymous'></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.min.js' integrity='sha512-P0bOMePRS378NwmPDVPU455C/TuxDS+8QwJozdc7PGgN8kLqR4ems0U/3DeJkmiE31749vYWHvBOtR+37qDCZQ==' crossorigin='anonymous'></script>
 		<script src='/assets/js/program.js'></script>
-		<script src='https://cdn.jsdelivr.net/npm/pdfkit@0.13.0/js/pdfkit.standalone.js' integrity='sha256-41qk5dewLKulpzhP3H6G7mY+5q+vzxMaxolsOGmZD/8=' crossorigin='anonymous'></script>
+		<!-- <script src='https://cdn.jsdelivr.net/npm/pdfkit@0.13.0/js/pdfkit.standalone.js' integrity='sha256-41qk5dewLKulpzhP3H6G7mY+5q+vzxMaxolsOGmZD/8=' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/blob-stream@0.1.3/index.js' integrity='sha256-Dpvzq1ZLpIsw8llbYvMoUK7ogA+MmANk/nQwU+rasIU=' crossorigin='anonymous'></script>
-		<script src='/assets/js/eqsl.js'></script>
+		<script src='/assets/js/eqsl.js'></script> -->
 		<script src='https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js' integrity='sha256-Mh46P6mNpKqpV9EL5Xy7UU3gmJ7tj51ya10FkCzQGQQ=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-chart-geo@4.2.4/build/index.umd.min.js' integrity='sha256-77XpUirDHPDF91abo+PMAGgOxHSsTCQwGr05eb0Vhu0=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js' integrity='sha256-IMCPPZxtLvdt9tam8RJ8ABMzn+Mq3SQiInbDmMYwjDg=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chart.js-image@6.1.3/lib.js' integrity='sha256-1SRuMUZGQownoMNoSMGGFBcPI6AaKcTE5F8jJ6TSiwo=' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2.0.2/chartjs-plugin-watermark.min.js' integrity='sha256-GEtxUgNFiQ+zaEJrs1EG0jhwwZ8R+pHc+yN0vG9IL14=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0/dist/chartjs-plugin-datasource.min.js' integrity='sha256-IETwD2SE/IWT0oZy2CvQY78kyHqNsum864WdfYQ7chU=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/sheetjs@2.0.0/index.js' integrity='sha256-l/Mq/mKQpV93H9k1bqRMgt0KULqqY1xm79A7OG81BYA=' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-chart-geo@4.2.4/build/index.umd.min.js' integrity='sha256-77XpUirDHPDF91abo+PMAGgOxHSsTCQwGr05eb0Vhu0=' crossorigin='anonymous'></script>
 		<script src='/assets/js/stats.js'></script>
 		<script src='/assets/js/pg-chartjs-map.js'></script>
 	</body>

@@ -10,270 +10,217 @@ const byMode = document.getElementById('byMode')
 Chart.defaults.font.family = 'Open Sans'
 Chart.defaults.font.size = 10
 Chart.defaults.font.lineHeight = 1
-
 Chart.defaults.plugins.title.display = true
-Chart.defaults.plugins.title.position = 'bottom'
-Chart.defaults.plugins.title.align = 'end'
-Chart.defaults.plugins.title.font = {weight: 'bold', style: 'italic', size: 14}
+Chart.defaults.plugins.title.position = 'top'
+Chart.defaults.plugins.title.font = {weight: 'bold', size: 16}
 Chart.defaults.plugins.title.padding = {top: 1,bottom: 1}
-
-Chart.defaults.plugins.legend.position = 'bottom'
-
+Chart.defaults.plugins.legend.position = 'top'
 const wmOptions = {
   image: '/media/image/brands/roipmars/brand.png',
   opacity: 0.25,
-  y: '30',
-  width: '376',
-  height: '60',
+  y: '-15',
+  width: '85%',
+  height: '28%',
   alignX: 'middle',
   alignY: 'middle',
   position: 'between'
 }
 
-$.getJSON('/assets/json/stat-time.json',function(timeData) {
+$.getJSON('/assets/json/stat-time.json', function(timeData) {
   new Chart(byTime,{
-    type: 'line',
     data: {
+      datasets: [
+        {data: timeData.HAMMS, label: 'HAM-MS'},
+        {data: timeData.HAMEN, label: 'HAM-EN'},
+        {data: timeData.CBMS, label: 'CB-MS'},
+        {data: timeData.VOIMS, label: 'VOI-MS'},
+      ],
       labels: timeData.TIME,
-      datasets: [{
-        label: 'HAM-MS',
-        data: timeData.HAMMS
-      },{
-        label: 'HAM-EN',
-        data: timeData.HAMEN
-      },{
-        label: 'CB-MS',
-        data: timeData.CBMS
-      },{
-        label: 'VOI-MS',
-        data: timeData.VOIMS
-      }]
     },
     options: {
-      tension: 0.5,
-      showLine: true,
-      borderWidth: 1,
       borderJoinStyle: 'round',
+      borderWidth: 1,
       pointBorderWidth: 1,
       pointStyle: 'rectRounded',
-      plugins: {
-        title: {text: 'UTC'},
+      plugins: {title: {text: 'UTC'}},
+      scales: {
+        x: {grid: {display: false}},
+        y: {grid: {display: false}}
       },
+      showLine: true,
+      tension: 0.5,
       watermark: wmOptions,
-    }
+    },
+    type: 'line',
   })
 })
 
-$.getJSON('/assets/json/stat-days.json',function(daysData) {
+$.getJSON('/assets/json/stat-days.json', function(daysData) {
   new Chart(byDate,{
-    type: 'line',
     data: {
+      datasets: [
+        {data: daysData.HAMMS, label: 'HAM-MS'},
+        {data: daysData.HAMEN, label: 'HAM-EN'},
+        {data: daysData.CB, label: 'CB-MS'},
+        {data: daysData.VOI, label: 'VOI-MS'},
+      ],
       labels: daysData.Days,
-      datasets: [{
-        label: 'HAM-MS',
-        data: daysData.HAMMS
-      },{
-        label: 'HAM-EN',
-        data: daysData.HAMEN
-      },{
-        label: 'CB-MS',
-        data: daysData.CB
-      },{
-        label: 'VOI-MS',
-        data: daysData.VOI
-      }]
     },
     options: {
-      tension: 0.25,
-      showLine: true,
-      spanGaps: true,
-      borderWidth: 1,
       borderJoinStyle: 'round',
+      borderWidth: 1,
       pointBorderWidth: 1,
       pointStyle: 'crossRot',
-      plugins: {
-        title: {text: 'Harian'}
+      plugins: {title: {text: 'Harian'}},
+      showLine: true,
+      spanGaps: true,
+      scales: {
+        x: {grid: {display: false}},
+        y: {grid: {display: false}}
       },
+      tension: 0.25,
       watermark: wmOptions,
-    }
+    },
+    type: 'line',
   })
 })
 
-$.getJSON('/assets/json/stat-day.json',function(dayData) {
+$.getJSON('/assets/json/stat-day.json', function(dayData) {
   new Chart(byDay,{
-    type: 'bar',
     data: {
+      datasets: [
+        {data: dayData.HAMMS, label: 'HAM-MS'},
+        {data: dayData.HAMEN, label: 'HAM-EN'},
+        {data: dayData.CB, label: 'CB-MS'},
+        {data: dayData.VOI, label: 'VOI-MS'},
+      ],
       labels: dayData.Day,
-      datasets: [{
-        label: 'HAM-MS',
-        data: dayData.HAMMS
-      },{
-        label: 'HAM-EN',
-        data: dayData.HAMEN
-      },{
-        label: 'CB-MS',
-        data: dayData.CB
-      },{
-        label: 'VOI-MS',
-        data: dayData.VOI
-      }]
     },
     options: {
       barPercentage: 1,
+      borderRadius: 10,
       categoryPercentage: 0.95,
-      plugins: {
-        title: {text: 'Hari'}
-      },
+      plugins: {title: {text: 'Hari'}},
       scales: {
-        x: {stacked: true},
-        y: {stacked: true}
+        x: {stacked: true, grid: {display: false}},
+        y: {stacked: true, grid: {display: false}}
       },
       watermark: wmOptions,
-    }
+    },
+    type: 'bar',
   })
 })
 
-$.getJSON('/assets/json/stat-week.json',function(weekData) {
+$.getJSON('/assets/json/stat-week.json', function(weekData) {
   new Chart(byWeek,{
-    type: 'line',
     data: {
+      datasets: [
+        {data: weekData.HAMMS, label: 'HAM-MS'},
+        {data: weekData.HAMEN, label: 'HAM-EN'},
+        {data: weekData.CB, label: 'CB-MS'},
+        {data: weekData.VOI, label: 'VOI-MS'}
+      ],
       labels: weekData.Week,
-      datasets: [{
-        label: 'HAM-MS',
-        data: weekData.HAMMS
-      },{
-        label: 'HAM-EN',
-        data: weekData.HAMEN
-      },{
-        label: 'CB-MS',
-        data: weekData.CB
-      },{
-        label: 'VOI-MS',
-        data: weekData.VOI
-      }]
     },
     options: {
-      tension: 0.25,
-      showLine: true,
-      borderWidth: 1,
       borderJoinStyle: 'round',
+      borderWidth: 1,
+      plugins: {title: {text: 'Minggu'}},
       pointBorderWidth: 1,
       pointStyle: 'rectRot',
-      plugins: {
-        title: {text: 'Minggu'}
+      scales: {
+        x: {grid: {display: false}},
+        y: {grid: {display: false}}
       },
+      showLine: true,
+      tension: 0.25,
       watermark: wmOptions,
-    }
+    },
+    type: 'line',
   })
 })
 
-$.getJSON('/assets/json/stat-month.json',function(monthData) {
+$.getJSON('/assets/json/stat-month.json', function(monthData) {
   new Chart(byMonth, {
-    type: 'bar',
     data: {
+      datasets: [
+        {data: monthData.HAMMS, label: 'HAM-MS'},
+        {data: monthData.HAMEN, label: 'HAM-EN'},
+        {data: monthData.CB, label: 'CB-MS'},
+        {data: monthData.VOI, label: 'VOI-MS'}
+      ],
       labels: monthData.Month,
-      datasets: [{
-        label: 'HAM-MS',
-        data: monthData.HAMMS
-      },{
-        label: 'HAM-EN',
-        data: monthData.HAMEN
-      },{
-        label: 'CB-MS',
-        data: monthData.CB
-      },{
-        label: 'VOI-MS',
-        data: monthData.VOI
-      }]
     },
     options: {
       barPercentage: 0.95,
+      borderRadius: 10,
       categoryPercentage: 0.95,
-      plugins: {
-        title: { text: 'Bulan' }
-      },
+      plugins: {title: {text: 'Bulan'}},
       scales: {
-        x: { stacked: true },
-        y: { stacked: true }
+        x: {stacked: true, grid: {display: false}},
+        y: {stacked: true, grid: {display: false}}
       },
       watermark: wmOptions,
-    }
-  })
-})
-
-$.getJSON('/assets/json/stat-quarter.json',function(quarterData) {
-  new Chart(byQuarter,{
+    },
     type: 'bar',
+  })
+})
+
+$.getJSON('/assets/json/stat-quarter.json', function(quarterData) {
+  new Chart(byQuarter,{
     data: {
+      datasets: [
+        {axis: 'y', data: quarterData.HAMMS, label: 'HAM-MS'},
+        {axis: 'y', data: quarterData.HAMEN, label: 'HAM-EN'},
+        {axis: 'y', data: quarterData.CB, label: 'CB-MS'},
+        {axis: 'y', data: quarterData.VOI, label: 'VOI-MS'},
+      ],
       labels: quarterData.Quarter,
-      datasets: [{
-        axis: 'y',
-        label: 'HAM-MS',
-        data: quarterData.HAMMS
-      },{
-        axis: 'y',
-        label: 'HAM-EN',
-        data: quarterData.HAMEN
-      },{
-        axis: 'y',
-        label: 'CB-MS',
-        data: quarterData.CB
-      },{
-        axis: 'y',
-        label: 'VOI-MS',
-        data: quarterData.VOI
-      }]
     },
     options: {
-      indexAxis: 'y',
       barPercentage: 0.95,
+      borderRadius: 10,
       categoryPercentage: 0.95,
-      plugins: {
-        title: {text: 'Suku Tahun'}
-      },
+      indexAxis: 'y',
+      plugins: {title: {text: 'Suku Tahun'}},
       scales: {
-        x: {stacked: true},
-        y: {stacked: true}
+        x: {stacked: true, grid: {display: false}},
+        y: {stacked: true, grid: {display: false}}
       },
       watermark: wmOptions,
-    }
+    },
+    type: 'bar',
   })
 })
 
-$.getJSON('/assets/json/stat-band.json',function(bandData) {
+$.getJSON('/assets/json/stat-band.json', function(bandData) {
   new Chart(byCategory,{
-    type: 'doughnut',
     data: {
+      datasets: [{data: [bandData.average_HAMMS,bandData.average_HAMEN,bandData.average_CB,bandData.average_VOI]}],
       labels: ['HAM-MS','HAM-EN','CB','VOI'],
-      datasets: [{
-        data: [bandData.average_HAMMS,bandData.average_HAMEN,bandData.average_CB,bandData.average_VOI]
-      }]
     },
     options: {
+      aspectRatio: 2,
       borderWidth: 0,
-      plugins: {
-        title: {text: 'Purata Penyertaan'}
-      },
+      plugins: {title: {text: 'Purata Penyertaan'}},
       watermark: wmOptions,
-    }
+    },
+    type: 'doughnut',
   })
 })
 
-$.getJSON('/assets/json/stat-mode.json',function(modeData) {
+$.getJSON('/assets/json/stat-mode.json', function(modeData) {
   new Chart(byMode,{
-    type: 'doughnut',
     data: {
+      datasets: [{data: modeData.Count}],
       labels: modeData.Mode,
-      datasets: [{
-        data: modeData.Count
-      }]
     },
     options: {
+      aspectRatio: 2,
       borderWidth: 0,
-      plugins: {
-        title: {text: 'Mod Penyertaan'}
-      },
+      plugins: {title: {text: 'Mod Penyertaan'}},
       watermark: wmOptions,
-    }
+    },
+    type: 'doughnut',
   })
 })

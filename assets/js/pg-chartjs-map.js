@@ -7,12 +7,8 @@ $.getJSON('/assets/json/stat-country.json', function(countryData) {
     const countryValues = countryData.Count
     
     const features = []
-    for (let c = 0; c < countryNames.length; c++) {
-      features[c] = countries.find((d) => d.properties.name === countryNames[c])
-    }
-    for (let v = 0; v < countryValues.length; v++) {
-      features[v].value = countryValues[v]
-    }
+    for (let c = 0; c < countryNames.length; c++) { features[c] = countries.find((d) => d.properties.name === countryNames[c]) }
+    for (let v = 0; v < countryValues.length; v++) { features[v].value = countryValues[v] }
 
     new Chart(byCountry, {
       data: {

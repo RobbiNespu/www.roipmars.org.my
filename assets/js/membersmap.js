@@ -82,10 +82,10 @@ L.control.worldMiniMap({
 var marsattr = '<a href="//www.roipmars.org.my">RoIPMARS&trade;</a>'
 var marsMemIcon = L.icon({ iconUrl: '../media/image/brands/favicon/favicon-96x96.png', iconSize: [24, 24] })
 var marsGateIcon = L.icon({ iconUrl: 'https://img.icons8.com/plasticine/100/null/radio-tower.png', iconSize: [32, 32] })
-var GMS = L.marker([3.444039, 101.5528566], { title: '9W4GMS', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GMS 147.400MHz -3.2MHz<br>VHF, TeamSpeak, EchoLink</p>', { closeButton: false, attribution: marsattr })
-var GYQ = L.marker([3.77112, 103.27712], { title: '9W4GYQ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GYQ 144.800MHz<br>VHF, TeamSpeak</p>', { closeButton: false, attribution: marsattr })
-var GOZ = L.marker([5.741363, 115.934101], { title: '9W4GOZ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GOZ 144.800MHz C203 -0.6MHz<br>VHF, TeamSpeak, EchoLink</p>', { closeButton: false, attribution: marsattr })
-var GPA = L.marker([3.23111, 101.423487], { title: '9W4GPA', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GPA<br>TeamSpeak, EchoLink, DMR, YSF, C4FM, Free Radio Network, Mumble, Peanut, Zello, Discord, Telegram, TeamTalk</p>', { closeButton: false, attribution: marsattr })
+var GMS = L.marker([3.444039, 101.5528566], { title: '9W4GMS', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GMS 144.9800MHz<br>VHF, TeamSpeak, EchoLink</p>', { closeButton: false, attribution: marsattr })
+var GYQ = L.marker([3.77112, 103.27712], { title: '9W4GYQ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GYQ 144.8000MHz<br>VHF, TeamSpeak</p>', { closeButton: false, attribution: marsattr })
+var GOZ = L.marker([5.741363, 115.934101], { title: '9W4GOZ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GOZ 144.8000MHz C203 -0.6MHz<br>VHF, TeamSpeak, EchoLink</p>', { closeButton: false, attribution: marsattr })
+var GPA = L.marker([3.23111, 101.423487], { title: '9W4GPA', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GPA 144.8500MHz C100<br>TeamSpeak, EchoLink, DMR, YSF, C4FM, Free Radio Network, Mumble, Peanut, Zello, Discord, Telegram, TeamTalk</p>', { closeButton: false, attribution: marsattr })
 
 var A001 = L.marker([3.23111, 101.423487], { title: 'A001', icon: marsMemIcon }).bindPopup('<img class="img-fluid object-fit-fill rounded-circle mx-auto my-1" src="../media/image/member/001.png" loading="lazy"><p class="text-center fw-bold fs-3 m-0">A001</p><p class="text-center fw-light fs-5 m-0">9W2LGX @ OJ03RF</p><p class="text-center m-0">MOHAMAD HAFIZI BIN RUSLAN</p>', { closeButton: false, attribution: marsattr })
 var A001C = L.circle([3.23111, 101.423487], { radius: 10000, stroke: false, fillOpacity: 0.175, interactive: false })

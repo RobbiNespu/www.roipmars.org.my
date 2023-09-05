@@ -7,14 +7,18 @@ const byQuarter = document.getElementById('byQuarter')
 const byCategory = document.getElementById('byCategory')
 const byMode = document.getElementById('byMode')
 
+Chart.register(ChartDeferred)
+// Chart.register(annotationPlugin)
 Chart.defaults.font.family = 'Open Sans'
-Chart.defaults.font.size = 10
 Chart.defaults.font.lineHeight = 1
+Chart.defaults.font.size = 10
+Chart.defaults.plugins.deferred.daley = 1000
+Chart.defaults.plugins.deferred.yOffset = '80%'
+Chart.defaults.plugins.legend.position = 'top'
 Chart.defaults.plugins.title.display = true
-Chart.defaults.plugins.title.position = 'top'
 Chart.defaults.plugins.title.font = {weight: 'bold', size: 16}
 Chart.defaults.plugins.title.padding = {top: 1,bottom: 1}
-Chart.defaults.plugins.legend.position = 'top'
+Chart.defaults.plugins.title.position = 'top'
 const wmOptions = {
   image: '/media/image/brands/roipmars/brand.png',
   opacity: 0.25,
@@ -70,7 +74,21 @@ $.getJSON('/assets/json/stat-days.json', function(daysData) {
       borderWidth: 1,
       pointBorderWidth: 1,
       pointStyle: 'crossRot',
-      plugins: {title: {text: 'Harian'}},
+      plugins: {
+        title: { text: 'Harian' },
+        annotation: {
+          annotations: {
+            avgHAMMS: {
+              type: 'line',
+              yMin: 40,
+              yMax: 40,
+              borderColor: '#336699',
+              borderWidth: 0.5,
+              borderDash: [15, 3, 3, 3],
+            }
+          }
+        }
+      },
       showLine: true,
       spanGaps: true,
       scales: {

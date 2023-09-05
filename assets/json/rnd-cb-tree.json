@@ -1,0 +1,15 @@
+[
+  {"label": "Rangkaian\nSekunder\nRoIPMARS\nCB"},
+  {"label": "113RG11\nOJ03RF", "parent": 0},
+  {"label": "113RGMS\nOJ03SK", "parent": 0},
+  {"label": "91KMEGG\nOI42BJ", "parent": 0},
+  {"label": "FRN", "parent": 1},
+  {"label": "Mumble", "parent": 1},
+  {"label": "Zello\n[113 Jalur Selatan]", "parent": 1},
+  {"label": "Zello\n[113 One Nation]", "parent": 1},
+  {"label": "Zello\n[AT CB Radio GW]", "parent": 1},
+  {"label": "merahputih", "parent": 2},
+  {"label": "kopdarmobile.id", "parent": 3},
+  {"label": "Mumble", "parent": 3},
+  {"label": "Zello\n[kopdarmobile]", "parent": 3}
+]

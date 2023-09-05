@@ -17,7 +17,7 @@ Chart.defaults.plugins.deferred.yOffset = '80%'
 Chart.defaults.plugins.legend.position = 'top'
 Chart.defaults.plugins.title.display = true
 Chart.defaults.plugins.title.font = {weight: 'bold', size: 16}
-Chart.defaults.plugins.title.padding = {top: 1,bottom: 1}
+Chart.defaults.plugins.title.padding = {top: 1, bottom: 1}
 Chart.defaults.plugins.title.position = 'top'
 const wmOptions = {
   image: '/media/image/brands/roipmars/brand.png',

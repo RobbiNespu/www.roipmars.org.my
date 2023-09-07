@@ -78,6 +78,10 @@
 						<!-- <a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/60138519226'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></a>
 						<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/601137586261'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></a> -->
 					</div>
+					<div class='mt-3 text-center'>
+						<h4>Suapan Langsung Rangkaian RoIPMARS</h4>
+						<audio class='rounded-5 w-100' controls preload='none' src='https://broadcastify.cdnstream1.com/41368' type='audio/mp3' crossorigin='anonymous'></audio>
+					</div>
 				</div>
 				<div class='col-lg-6 my-3 d-block text-center'>
 					<h4>Aktiviti Net Mingguan RoIPMARS</h4>

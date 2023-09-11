@@ -8,7 +8,7 @@ $(document).ready(function() {
       { title: 'NCS | ECR', className: 'text-center align-middle', searchable: true, name: 'ncs' },
       { title: 'Laporan', className: 'text-center align-middle', searchable: true, name: 'lapor' }
     ],
-    displayStart: 180,
+    displayStart: 190,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
       info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',

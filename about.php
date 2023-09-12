@@ -379,6 +379,7 @@
           </div>
           <hr>
           <h4 class='text-center'>Suapan Langsung Rangkaian RoIPMARS</h4>
+          <!-- <div class='text-center'><span id='bcfy-desc'><div class='spinner-border fs-6' role='status'><span class='visually-hidden'>Memuatkan...</span></div></span> - <span id='bcfy-status'><div class='spinner-border fs-6' role='status'><span class='visually-hidden'>Memuatkan...</span></div></span> - <span id='bcfy-listeners'><div class='spinner-border fs-6' role='status'><span class='visually-hidden'>Memuatkan...</span></div></span></div> -->
           <audio class='rounded-5 w-100' controls preload='none' src='https://broadcastify.cdnstream1.com/41368' type='audio/mp3' crossorigin='anonymous'></audio>
         </div>
       </div>

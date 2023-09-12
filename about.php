@@ -392,6 +392,16 @@
               <div class='direction-r'>
                 <div class='flag-wrapper'>
                   <span class='hexa'></span>
+                  <span class='flag'>CQ 9M66MK</span>
+                  <span class='time-wrapper'><span class='time'>27 Ogos 2023</span></span>
+                </div>
+                <div class='desc'>RoIPMARS&trade; dengan nama Persatuan Peminat Radio Komunikasi &#40;ROIP&#41; menerima hasrat dari wakil Kelab Radio Amatur Jalan Klang Lama, Kelab Komunikasi Radio Amatur Kuala Muda &amp; YOTA Malaysia untuk menggunakan jaringan RoIPMARS semasa aktiviti Tahunan CQ Hari Kebangsaan kali ke-66.<img class='img-thumbnail rounded-4 mx-auto d-block mt-2' loading='lazy' src='/media/image/9m66mk_arol.png'></div>
+              </div>
+            </li>
+            <li>
+              <div class='direction-r'>
+                <div class='flag-wrapper'>
+                  <span class='hexa'></span>
                   <span class='flag'>Ahli Gabungan MARTS</span>
                   <span class='time-wrapper'><span class='time'>24 Mei 2023</span></span>
                 </div>

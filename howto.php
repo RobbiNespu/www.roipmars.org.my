@@ -74,7 +74,7 @@
             <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.3-x86_64.deb' download>RustDesk <i class='bi-ubuntu'></i></a>
             <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.3-x86_64.dmg' download>RustDesk <i class='bi-apple'></i></a>
           </div>
-          <div class='btn-group d-flex mx-auto mb-1' role='group'>
+          <div class='btn-group d-flex mx-auto mx-2' role='group'>
             <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe' download>TeamViewer <i class='bi-windows'></i></a>
             <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/linux/teamviewer_amd64.deb' download>TeamViewer <i class='bi-ubuntu'></i></a>
             <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/TeamViewer.dmg' download>TeamViewer <i class='bi-apple'></i></a>
@@ -286,7 +286,7 @@
               </tr>
               <tr>
                 <th scope='row'>Server Address</th>
-                <td><a href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
+                <td><a href='#' onClick='TSLoginWindow=window.open("/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
               </tr>
               <tr>
                 <th scope='row'>Nickname</th>
@@ -382,7 +382,7 @@
           <table class='table table-sm text-center align-middle'>
             <tbody>
               <tr><th scope='row'>Label</th><td>RoIPMARS Network</td></tr>
-              <tr><th scope='row'>Address</th><td><a href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td></tr>
+              <tr><th scope='row'>Address</th><td><a href='#' onClick='TSLoginWindow=window.open("/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td></tr>
               <tr><th scope='row'>Nickname</th><td>[CALLSIGN] [NAME] [QTH/LOCATION]</td></tr>
             </tbody>
           </table>
@@ -481,7 +481,7 @@
             <tbody>
               <tr>
                 <th scope='row'>Address</th>
-                <td><a href='#' onClick='TSLoginWindow=window.open("//www.roipmars.org.my/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
+                <td><a href='#' onClick='TSLoginWindow=window.open("/applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;'>roipmars.org.my</a></td>
               </tr>
               <tr>
                 <th scope='row'>Label</th>

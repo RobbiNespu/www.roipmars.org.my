@@ -56,9 +56,9 @@
           <div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div>
         </div>
         <div class='col-12 mt-2'>
-          <audio class='rounded-5 w-75' controls preload='none' src='https://broadcastify.cdnstream1.com/41368' type='audio/mp3' crossorigin='anonymous'></audio>
-          <span>Suapan mungkin tertunda 5 ke 15 minit.</span>
+          <audio class='rounded-5 w-75 mx-auto' controls preload='none' src='https://broadcastify.cdnstream1.com/41368' type='audio/mp3' crossorigin='anonymous'></audio>
         </div>
+        <span>Suapan mungkin tertunda 5 ke 15 minit.</span>
       </div>
     </main>
     <?php require_once 'footer.min.php' ?>

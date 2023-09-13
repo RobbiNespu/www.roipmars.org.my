@@ -2,24 +2,10 @@
 <html data-bs-theme='auto'>
 
   <head>
-		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css'  integrity='sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9' crossorigin='anonymous'>
-		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css' integrity='sha256-BicZsQAhkGHIoR//IB2amPN5SrRb3fHB8tFsnqRAwnk=' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
-    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
-    <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
-    <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
-    <script async src='https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
-    <script src='/assets/js/gtm.js'></script>
-    <script src='/assets/js/gtag.js'></script>
-    <script src='/assets/js/gfc.js' nonce='nLBiTr-Hd6zWbl5ZT9wqvA'></script>
-    <script src='/assets/js/clarity.js'></script>
+    <script src='/assets/js/sources.js'></script>
   </head>
 
-  <body>	
-    <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-    <div id='fb-root'></div>
-    <div id='fb-customer-chat' class='fb-customerchat'></div>
-    <script src='/assets/js/fbchat.js'></script>
+  <body>
     <footer class='footer page-footer font-small bg-body-tertiary text-center'>
       <div class='container'>
         <div class='row p-3 d-flex align-items-center'>
@@ -66,7 +52,7 @@
     </footer>
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js' integrity='sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=' crossorigin='anonymous'></script>
-    <script src='https://roipmarsnetwork.statuspage.io/embed/script.js' crossorigin='anonymous'></script>    
+    <script src='https://roipmarsnetwork.statuspage.io/embed/script.js' crossorigin='anonymous'></script>
     <script src='/assets/js/theme.js'></script>
   </body>
 

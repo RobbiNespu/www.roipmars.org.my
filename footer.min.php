@@ -2,7 +2,10 @@
 <html data-bs-theme='auto'>
 
   <head>
-    <script src='/assets/js/sources.js'></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css' integrity='sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css' integrity='sha256-BicZsQAhkGHIoR//IB2amPN5SrRb3fHB8tFsnqRAwnk=' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
+    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
   </head>
 
   <body>
@@ -12,8 +15,8 @@
           <div class='col-md-3 py-2'>
             <a class='text-reset text-decoration-none' href='https://fb.me/roipmarsnetwork' aria-label='Facebook RoIPMARS'><i class='bi-facebook h1 mx-1' style='color: #0165E1'></i></a>
             <a class='text-reset text-decoration-none' href='https://bit.ly/448EkGn' aria-label='YouTube RoIPMARS'><i class='bi-youtube h1 mx-1' style='color: #FF0000'></i></a>
-            <a class='text-reset text-decoration-none' href='#' onClick='TSLoginWindow=window.open("applogin", "Login RoIPMARS Comm Apps", "width=800,height=600"); return false;' aria-label='Log Masuk RoIPMARS'><i class='bi-headset h1 mx-1' style='color: #336699'></i></a>
-            <a class='text-reset text-decoration-none' href='#' onClick='AudioFeed=window.open("livefeed", "RoIPMARS Network Live Audio Feed", "width=800,height=480,scrollbars=no"); return false;' aria-label='RoIPMARS Network Live Audio Feed'><i class='bi-broadcast h1 mx-1' style='color: #336699'></i></a>
+            <a class='text-reset text-decoration-none' href='#' onClick='TSLoginWindow=window.open("applogin", "Login RoIPMARS Comm Apps", "width=720,height=640"); return false;' aria-label='Log Masuk RoIPMARS'><i class='bi-headset h1 mx-1' style='color: #336699'></i></a>
+            <a class='text-reset text-decoration-none' href='#' onClick='AudioFeed=window.open("livefeed", "RoIPMARS Network Live Audio Feed", "width=720,height=480,scrollbars=no"); return false;' aria-label='RoIPMARS Network Live Audio Feed'><i class='bi-broadcast h1 mx-1' style='color: #336699'></i></a>
             <a class='text-reset text-decoration-none' href='https://discord.gg/ExEEGhgaWx' aria-label='Discord RoIPMARS'><i class='bi-discord h1 mx-1' style='color: #5865F2'></i></a>
             <a class='text-reset text-decoration-none' href='https://zello.me/k/eqiml' aria-label='Zello RoIPMARS'><img class='bi h1 mx-1 pb-2' loading='lazy' src='/media/image/brands/zello/orange.png' width='32' style='color: #e95d2f' alt='zello'></a>
             <a class='text-reset text-decoration-none' href='https://t.me/roipmarsnetwork' aria-label='Telegram RoIPMARS'><i class='bi-telegram h1 mx-1' style='color: #27A7E7'></i></a>
@@ -52,7 +55,8 @@
     </footer>
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js' integrity='sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=' crossorigin='anonymous'></script>
-    <script src='https://roipmarsnetwork.statuspage.io/embed/script.js' crossorigin='anonymous'></script>
+    <script src='https://roipmarsnetwork.statuspage.io/embed/script.js' crossorigin='anonymous'></script>    
+    <script src='/assets/js/sources.js'></script>
     <script src='/assets/js/theme.js'></script>
   </body>
 

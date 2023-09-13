@@ -25,27 +25,6 @@
     <meta name='twitter:url' content='https://www.roipmars.org.my/member'>
     <meta name='twitter:image' content='/media/image/brands/roipmars/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
-    <meta name='msapplication-TileColor' content='#56C3E7'>
-    <meta name='msapplication-TileImage' content='/media/image/ms-icon-144x144.png'>
-    <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
-    <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
-    <meta name='color-scheme' content='auto'>
-    <link rel='shortcut icon' type='image/x-icon' href='/media/image/brands/favicon/favicon.ico'>
-    <link rel='icon' type='image/x-icon' href='/media/image/brands/favicon/favicon.ico'>
-    <link rel='icon' type='image/png' sizes='16x16' href='/media/image/brands/favicon/favicon-16x16.png'>
-    <link rel='icon' type='image/png' sizes='32x32' href='/media/image/brands/favicon/favicon-32x32.png'>
-    <link rel='icon' type='image/png' sizes='96x96' href='/media/image/brands/favicon/favicon-96x96.png'>
-    <link rel='icon' type='image/png' sizes='192x192' href='/media/image/brands/favicon/android-icon-192x192.png'>
-    <link rel='apple-touch-icon' sizes='57x57' href='/media/image/brands/favicon/apple-icon-57x57.png'>
-    <link rel='apple-touch-icon' sizes='60x60' href='/media/image/brands/favicon/apple-icon-60x60.png'>
-    <link rel='apple-touch-icon' sizes='72x72' href='/media/image/brands/favicon/apple-icon-72x72.png'>
-    <link rel='apple-touch-icon' sizes='76x76' href='/media/image/brands/favicon/apple-icon-76x76.png'>
-    <link rel='apple-touch-icon' sizes='114x114' href='/media/image/brands/favicon/apple-icon-114x114.png'>
-    <link rel='apple-touch-icon' sizes='120x120' href='/media/image/brands/favicon/apple-icon-120x120.png'>
-    <link rel='apple-touch-icon' sizes='144x144' href='/media/image/brands/favicon/apple-icon-144x144.png'>
-    <link rel='apple-touch-icon' sizes='152x152' href='/media/image/brands/favicon/apple-icon-152x152.png'>
-    <link rel='apple-touch-icon' sizes='180x180' href='/media/image/brands/favicon/apple-icon-180x180.png'>
-    <link rel='manifest' href='/assets/json/manifest.json'>
     <link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.6/af-2.6.0/b-2.4.1/b-colvis-2.4.1/b-html5-2.4.1/b-print-2.4.1/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.css' crossorigin='anonymous'>   
   </head>
 

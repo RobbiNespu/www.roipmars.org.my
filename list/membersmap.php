@@ -6,27 +6,6 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
     <meta name='author' content='HafiziRuslan'>
-    <meta name='msapplication-TileColor' content='#56C3E7'>
-    <meta name='msapplication-TileImage' content='/media/image/ms-icon-144x144.png'>
-    <meta name='theme-color' media='(prefers-color-scheme: light)' content='#336699'>
-    <meta name='theme-color' media='(prefers-color-scheme: dark)' content='#56C3E7'>
-    <meta name='color-scheme' content='auto'>
-    <link rel='shortcut icon' type='image/x-icon' href='/media/image/brands/favicon/favicon.ico'>
-    <link rel='icon' type='image/x-icon' href='/media/image/brands/favicon/favicon.ico'>
-    <link rel='icon' type='image/png' sizes='16x16' href='/media/image/brands/favicon/favicon-16x16.png'>
-    <link rel='icon' type='image/png' sizes='32x32' href='/media/image/brands/favicon/favicon-32x32.png'>
-    <link rel='icon' type='image/png' sizes='96x96' href='/media/image/brands/favicon/favicon-96x96.png'>
-    <link rel='icon' type='image/png' sizes='192x192' href='/media/image/brands/favicon/android-icon-192x192.png'>
-    <link rel='apple-touch-icon' sizes='57x57' href='/media/image/brands/favicon/apple-icon-57x57.png'>
-    <link rel='apple-touch-icon' sizes='60x60' href='/media/image/brands/favicon/apple-icon-60x60.png'>
-    <link rel='apple-touch-icon' sizes='72x72' href='/media/image/brands/favicon/apple-icon-72x72.png'>
-    <link rel='apple-touch-icon' sizes='76x76' href='/media/image/brands/favicon/apple-icon-76x76.png'>
-    <link rel='apple-touch-icon' sizes='114x114' href='/media/image/brands/favicon/apple-icon-114x114.png'>
-    <link rel='apple-touch-icon' sizes='120x120' href='/media/image/brands/favicon/apple-icon-120x120.png'>
-    <link rel='apple-touch-icon' sizes='144x144' href='/media/image/brands/favicon/apple-icon-144x144.png'>
-    <link rel='apple-touch-icon' sizes='152x152' href='/media/image/brands/favicon/apple-icon-152x152.png'>
-    <link rel='apple-touch-icon' sizes='180x180' href='/media/image/brands/favicon/apple-icon-180x180.png'>
-    <link rel='manifest' href='/assets/json/manifest.json'>
 		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css'  integrity='sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9' crossorigin='anonymous'>
 		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css' integrity='sha256-BicZsQAhkGHIoR//IB2amPN5SrRb3fHB8tFsnqRAwnk=' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css' integrity='sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=' crossorigin='anonymous'>

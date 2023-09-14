@@ -20,7 +20,7 @@
             <a class='text-reset text-decoration-none' href='https://discord.gg/ExEEGhgaWx' aria-label='Discord RoIPMARS'><i class='bi-discord h1 mx-1' style='color: #5865F2'></i></a>
             <a class='text-reset text-decoration-none' href='https://zello.me/k/eqiml' aria-label='Zello RoIPMARS'><img class='bi h1 mx-1 pb-2' loading='lazy' src='/media/image/brands/zello/orange.png' width='32' style='color: #e95d2f' alt='zello'></a>
             <a class='text-reset text-decoration-none' href='https://t.me/roipmarsnetwork' aria-label='Telegram RoIPMARS'><i class='bi-telegram h1 mx-1' style='color: #27A7E7'></i></a>
-            <a class='text-reset text-decoration-none' href='https://wa.me/60333960874' aria-label='WhatsApp RoIPMARS'><i class='bi-whatsapp h1 mx-1' style='color: #25D366'></i></a>
+            <a class='text-reset text-decoration-none' href='https://whatsapp.com/channel/0029Va6r6C70wak02IxJtT0r' aria-label='WhatsApp RoIPMARS'><i class='bi-whatsapp h1 mx-1' style='color: #25D366'></i></a>
           </div>
           <div class='col-md-9'>
             <p class='text-md-end font-monospace user-select-none text-break m-0'><a href='/policies' class='text-reset text-decoration-none pe-auto'>Polisi Perkhidmatan</a><span class='text-body-tertiary'> &#124; <i class='fa-solid fa-code'></i> <i class='fa-brands fa-github'></i> <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-square-js'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-font-awesome'></i><br>
@@ -40,13 +40,13 @@
             $fileindir = filemtime($src_folder.'/'.$files[0]);
             function getVisitorIp() {
               if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-                $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_IPCITY'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
+                $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_IPCITY'] . ', ' . $_SERVER['HTTP_CF_REGION'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
               } else {
                 $ipAdress = file_get_contents('https://api64.ipify.org');
               }
               return $ipAdress;
             }
-            echo 'Kemaskini: ' . date('D, j/n/Y, H:i T', $fileindir) . ' &#124; IP Anda: ' . getVisitorIp();
+            echo 'Kemaskini: ' . date('D, j/n/Y, H:i T', $fileindir) . '<br>IP Anda: ' . getVisitorIp();
             ?>
             <br><i class='bi-c-circle'></i> 2020&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. RoIPMARS&trade;<br>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;RoIP&#41; PPM-006-10-01062020</span></p>
           </div>

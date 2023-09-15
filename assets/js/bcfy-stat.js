@@ -9,8 +9,7 @@ setInterval(function () {
     let descr = data.Feed[0].descr
     if (status == 1) {
       var stats = 'Status: <span class="text-success-emphasis"><i class="fa-solid fa-volume-high fa-beat-fade"></i> Online</span>'
-    }
-    else {
+    } else {
       var stats = 'Status: <span class="text-danger-emphasis"><i class="fa-solid fa-volume-xmark fa-fade"></i> Offline</span>'
     }
     docBcfy.innerHTML = '<div class="col-12"><span>' + descr + '</span></div><div class="row"><div class="col-6">' + stats + '</div><div class="col-6">Pendengar: <span class="text-primary-emphasis">' + listeners + '</span></div></div>'

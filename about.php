@@ -358,7 +358,12 @@
           </div>
           <hr>
           <h4 class='text-center'>Suapan Langsung Rangkaian RoIPMARS</h4>
-          <audio class='rounded-5 w-100' controls preload='none' src='https://broadcastify.cdnstream1.com/41368' type='audio/mp3' crossorigin='anonymous'></audio>
+          <div class='row text-center'>
+            <div id='bcfy'>
+              <div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div>
+            </div>
+            <div id='bcfy-audio'></div>
+          </div>
         </div>
       </div>
       <div class='row' id='kisahroipmars'>
@@ -667,6 +672,7 @@
       </div>
     </div>
     <?php require_once 'footer.php' ?>
+    <script src='/assets/js/bcfy-stat.js'></script>
   </body>
 
 </html>

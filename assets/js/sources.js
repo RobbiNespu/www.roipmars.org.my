@@ -5,6 +5,7 @@ const colorScheme =
 const favIcons = 
 '<meta name="msapplication-TileColor" content="#56C3E7">\
 <meta name="msapplication-TileImage" content="/media/image/ms-icon-144x144.png">\
+<meta name="google-adsense-account" content="ca-pub-1205248207690495">\
 <link rel="shortcut icon" type="image/x-icon" href="/media/image/brands/favicon/favicon.ico">\
 <link rel="icon" type="image/x-icon" href="/media/image/brands/favicon/favicon.ico">\
 <link rel="icon" type="image/png" sizes="16x16" href="/media/image/brands/favicon/favicon-16x16.png">\

@@ -12,7 +12,7 @@
     <footer class='footer page-footer font-small bg-body-tertiary text-center'>
       <div class='container'>
         <div class='row p-3 d-flex align-items-center'>
-          <div class='col-md-3 py-2'>
+          <div class='col-md-4 py-2'>
             <a class='text-reset text-decoration-none' href='https://fb.me/roipmarsnetwork' aria-label='Facebook RoIPMARS'><i class='bi-facebook h1 mx-1' style='color: #0165E1'></i></a>
             <a class='text-reset text-decoration-none' href='https://bit.ly/448EkGn' aria-label='YouTube RoIPMARS'><i class='bi-youtube h1 mx-1' style='color: #FF0000'></i></a>
             <a class='text-reset text-decoration-none' href='#' onClick='TSLoginWindow=window.open("applogin", "Login RoIPMARS Comm Apps", "width=720,height=640"); return false;' aria-label='Log Masuk RoIPMARS'><i class='bi-headset h1 mx-1' style='color: #336699'></i></a>
@@ -22,7 +22,7 @@
             <a class='text-reset text-decoration-none' href='https://t.me/roipmarsnetwork' aria-label='Telegram RoIPMARS'><i class='bi-telegram h1 mx-1' style='color: #27A7E7'></i></a>
             <a class='text-reset text-decoration-none' href='https://whatsapp.com/channel/0029Va6r6C70wak02IxJtT0r' aria-label='WhatsApp RoIPMARS'><i class='bi-whatsapp h1 mx-1' style='color: #25D366'></i></a>
           </div>
-          <div class='col-md-9'>
+          <div class='col-md-8'>
             <p class='text-md-end font-monospace user-select-none text-break m-0'><a href='/policies' class='text-reset text-decoration-none pe-auto'>Polisi Perkhidmatan</a><span class='text-body-tertiary'> &#124; <i class='fa-solid fa-code'></i> <i class='fa-brands fa-github'></i> <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-square-js'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-font-awesome'></i><br>
             <?php
             function scan_dir($dir) {

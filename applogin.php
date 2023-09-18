@@ -17,13 +17,13 @@
     <meta property='og:title' content='RoIPMARS Network | App Login'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Log Masuk Aplikasi'>
     <meta property='og:url' content='https://www.roipmars.org.my/applogin'>
-    <meta property='og:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='RoIPMARS Network | App Login'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Log Masuk Aplikasi'>
     <meta name='twitter:url' content='https://www.roipmars.org.my/applogin'>
-    <meta name='twitter:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
   </head>
 

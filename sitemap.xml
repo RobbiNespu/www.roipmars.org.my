@@ -2,953 +2,224 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.roipmars.org.my/</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/banner/roipmarsv.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/pic01.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/pic02.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/pic03.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/pic04.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/snotice</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/faq</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/howto</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/banner-howto.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ps_ts3dau.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/tsan_bookmark.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/tsan_audio.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/tsan_interface.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/tsao_bookmark.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/tsao_audio.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/tsao_interface.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/tsip_bookmark.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/tsip_menu.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/tsip_setting1.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/tsip_setting2.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/rnd</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/002.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/001.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/member</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ros-sijil.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p01.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p02.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p03.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p04.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p05.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p06.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p07.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p08.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p09.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p10.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p11.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p12.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p13.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/perlembagaan/p14.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ros-surat.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/002.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/008.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/001.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/007.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/025.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/016.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/006.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/004.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/policies</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/activity</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/070.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/071.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/072.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/073.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/074.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/075.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/076.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/077.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/078.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/069.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/068.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/067.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/066.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/065.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/064.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/063.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/062.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/061.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/060.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/059.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/058.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/057.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/056.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/055.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/pspprk23.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/054.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/053.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/052.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/051.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/050.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/049.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/reds0802.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/048.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/047.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/046.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/krasb22.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/042.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/041.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/040.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/039.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/038.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/037.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/036.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/035.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/034.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/033.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/032.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/031.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/bota22sq.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/043.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/044.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/045.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/030.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/029.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/028.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/027.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/026.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/025.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/024.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/023.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/022.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/021.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/020.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/019.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/018.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/017.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/016.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/015.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/014.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/013.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/012.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/011.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/010.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/009.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/008.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/007.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/006.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/005.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/004.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/003.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/002.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/001.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/cbinfo</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ipjr.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/program</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/025.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ncs/9m6jay.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/029.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ncs/9m2sfl.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/010.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/017.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ncs/9m6rhm.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ncs/9w2ybt.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ncs/9w2yhm.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ncs/9w6aze.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/006.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ncs/9w6rhn.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/ncs/9w6wot.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/member/032.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/about</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/9m66mk_arol.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/myptp23-9m8sota.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/050.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/akademi9mbw.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/krasb22.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/bota22.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/018.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/krtc18.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/akademi9m.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/jasra18.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/001.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/002.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/cbmars</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2022/01</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2022/02</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/freq/27cb</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/09</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/08</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/05</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/04</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2023/07</loc>
-    <lastmod>2023-09-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/06</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2023/01</loc>
-    <lastmod>2023-09-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/03</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2023/01</loc>
+    <lastmod>2023-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2023/07</loc>
+    <lastmod>2023-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/02</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/freq/27cbmy</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/freq/446pmr</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/09</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/list/membersmap</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/04</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2020/03</loc>
-    <lastmod>2023-09-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/02</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2020/03</loc>
+    <lastmod>2023-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/01</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/08</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/kaedah_cbcs_recycle.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2020/06</loc>
-    <lastmod>2023-09-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/07</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2020/06</loc>
+    <lastmod>2023-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/05</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2021/01</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.roipmars.org.my/media/image/brands/zello/orange.png</image:loc>
-      </image:image>
   </url>
 </urlset>

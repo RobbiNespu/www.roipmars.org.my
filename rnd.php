@@ -17,13 +17,13 @@
     <meta property='og:title' content='RoIPMARS Network | Penyelidikan & Pembangunan'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penyelidikan & Pembangunan'>
     <meta property='og:url' content='https://www.roipmars.org.my/rnd'>
-    <meta property='og:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='RoIPMARS Network | Penyelidikan & Pembangunan'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penyelidikan & Pembangunan'>
     <meta name='twitter:url' content='https://www.roipmars.org.my/rnd'>
-    <meta name='twitter:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
   </head>
 
@@ -44,7 +44,7 @@
         <div class='col-lg-6 my-2'>
           <div class='row g-1 text-lg-start text-center'>
             <div class='col-2 align-self-center'>
-              <img src='/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2UZL'>
+              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2UZL'>
             </div>
             <div class='col-10 d-flex align-content-center flex-wrap'>
               <div class='card-body mx-3'>
@@ -68,7 +68,7 @@
               </div>
             </div>
             <div class='col-2 align-self-center'>
-              <img src='/media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2LGX'>
+              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2LGX'>
             </div>
           </div>
         </div>
@@ -102,8 +102,8 @@
         <div class='col-md-3 mb-md-0 p-md-3 my-3' id='rlandroid'>
           <p class='text-center my-0'>Sistem Pengulang pada Pemancar Mudah Alih dan Telefon Pintar Android &#40;Repeater Linking ROIP&#41;</p>
           <video class='rounded-5 w-100' loading='lazy' controls preload='metadata'>
-            <source src='/media/video/repeater-linking-roip.webm' type='video/webm'>
-            <source src='/media/video/repeater-linking-roip.mp4' type='video/mp4'>
+            <source src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/video/repeater-linking-roip.webm' type='video/webm'>
+            <source src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/video/repeater-linking-roip.mp4' type='video/mp4'>
           </video>
         </div>
         <div class='col-md-4 mb-md-0 p-md-3 my-3' id='rpgw'>

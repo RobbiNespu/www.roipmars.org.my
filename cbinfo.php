@@ -17,13 +17,13 @@
     <meta property='og:title' content='RoIPMARS Network | Informasi Jalur Rakyat'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Jalur Rakyat'>
     <meta property='og:url' content='https://www.roipmars.org.my/cbinfo'>
-    <meta property='og:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='RoIPMARS Network | Informasi Jalur Rakyat'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Jalur Rakyat'>
     <meta name='twitter:url' content='https://www.roipmars.org.my/cbinfo'>
-    <meta name='twitter:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css'  integrity='sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css' integrity='sha256-BicZsQAhkGHIoR//IB2amPN5SrRb3fHB8tFsnqRAwnk=' crossorigin='anonymous'>
@@ -230,7 +230,7 @@
       <div class='row'>
         <div class='col-12 text-center'>
           <h2>Identiti Isyarat Panggilan Jalur Rakyat</h2>
-          <img class='img-fluid rounded-5' loading='lazy' src='/media/image/ipjr.png' width='75%'>
+          <img class='img-fluid rounded-5' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ipjr.png' width='75%'>
         </div>
       </div>
       <div class='row my-3'>

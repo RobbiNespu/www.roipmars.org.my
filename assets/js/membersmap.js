@@ -80,7 +80,7 @@ L.control.worldMiniMap({
   style: { opacity: 0.4, border: '0px transparent', borderRadius: '30px' }
 }).addTo(map)
 var marsattr = '<a href="//www.roipmars.org.my">RoIPMARS&trade;</a>'
-var marsMemIcon = L.icon({ iconUrl: '../media/image/brands/favicon/favicon-96x96.png', iconSize: [24, 24] })
+var marsMemIcon = L.icon({ iconUrl: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/favicon/favicon-96x96.png', iconSize: [24, 24] })
 var marsGateIcon = L.icon({ iconUrl: 'https://img.icons8.com/plasticine/100/null/radio-tower.png', iconSize: [32, 32] })
 var GMS = L.marker([3.444039, 101.5528566], { title: '9W4GMS', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GMS 144.9800MHz<br>VHF, TeamSpeak, EchoLink</p>', { closeButton: false, attribution: marsattr })
 var GYQ = L.marker([3.77112, 103.27712], { title: '9W4GYQ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GYQ 144.8000MHz<br>VHF, TeamSpeak</p>', { closeButton: false, attribution: marsattr })

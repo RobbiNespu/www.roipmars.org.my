@@ -17,13 +17,13 @@
     <meta property='og:title' content='RoIPMARS Network | Keahlian'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
     <meta property='og:url' content='https://www.roipmars.org.my/member'>
-    <meta property='og:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='RoIPMARS Network | Keahlian'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
     <meta name='twitter:url' content='https://www.roipmars.org.my/member'>
-    <meta name='twitter:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
     <link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.6/af-2.6.0/b-2.4.1/b-colvis-2.4.1/b-html5-2.4.1/b-print-2.4.1/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.css' crossorigin='anonymous'>   
   </head>
@@ -66,7 +66,7 @@
                 <div class='modal-header'>
                   <h5 class='modal-title' id='roscertModalTitle'>Sijil Pendaftaran Pertubuhan</h5>
                 </div>
-                <div class='modal-body'><img class='img-fluid' loading='lazy' src='/media/image/ros-sijil.png'></div>
+                <div class='modal-body'><img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ros-sijil.png'></div>
               </div>
             </div>
           </div>
@@ -77,20 +77,20 @@
                   <h5 class='modal-title' id='rosconstModalTitle'>Perlembagaan Pertubuhan</h5>
                 </div>
                 <div class='modal-body'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p01.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p02.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p03.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p04.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p05.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p06.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p07.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p08.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p09.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p10.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p11.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p12.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p13.png'>
-                  <img class='img-fluid' loading='lazy' src='/media/image/perlembagaan/p14.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p01.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p02.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p03.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p04.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p05.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p06.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p07.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p08.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p09.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p10.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p11.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p12.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p13.png'>
+                  <img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/perlembagaan/p14.png'>
                 </div>
                 <div class='modal-footer'><a type='button' class='btn btn-sm btn-success' href='https://dl.roipmars.org.my/files/members/mars-perlembagaan.pdf' download>Muat Turun</a></div>
               </div>
@@ -102,7 +102,7 @@
                 <div class='modal-header'>
                   <h5 class='modal-title' id='rosappletModalTitle'>Surat Kelulusan Pendaftaran Pertubuhan</h5>
                 </div>
-                <div class='modal-body'><img class='img-fluid' loading='lazy' src='/media/image/ros-surat.png'></div>
+                <div class='modal-body'><img class='img-fluid' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ros-surat.png'></div>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@
                   <p>PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZULKIFLI ABU</p>
@@ -133,7 +133,7 @@
                   <p>TIMBALAN PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='/media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>KAMARUDZAMAN ABD RAHIM</p>
@@ -147,7 +147,7 @@
                   <p>SETIAUSAHA AGUNG</p>
                 </div>
                 <div class='card-img'>
-                  <img src='/media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>HAFIZI RUSLAN</p>
@@ -175,7 +175,7 @@
                   <p>BENDAHARI AGUNG</p>
                 </div>
                 <div class='card-img'>
-                  <img src='/media/image/member/007.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/007.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>SULAIMAN MAZLAN</p>
@@ -191,7 +191,7 @@
                   <p class='lh-1'>BAHAGIAN SIARAYA &amp; AKTIVITI<br>&#40;Pegawai Lantikan Khas&#41;</p>
                 </div>
                 <div class='card-img'>
-                  <img src='/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>SABRI IBRAHIM</p>
@@ -205,7 +205,7 @@
                   <p>BAHAGIAN TEKNIKAL</p>
                 </div>
                 <div class='card-img'>
-                  <img src='/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZAHEER ZAKARIA</p>
@@ -219,7 +219,7 @@
                   <p>BAHAGIAN KEBAJIKAN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>MUSTAFA OMAR</p>
@@ -233,7 +233,7 @@
                   <p>BAHAGIAN EKONOMI</p>
                 </div>
                 <div class='card-img'>
-                  <img src='/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>FAIZNURNIZAM MAT RASOL</p>

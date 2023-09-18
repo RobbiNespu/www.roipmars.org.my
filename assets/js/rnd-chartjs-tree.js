@@ -22,7 +22,7 @@ Chart.defaults.plugins.title.padding = {top: 1, bottom: 20}
 Chart.defaults.plugins.title.position = 'top'
 Chart.defaults.plugins.tooltip.enabled = false
 const wmOptions = {
-  image: '/media/image/brands/roipmars/brand.png',
+  image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png',
   opacity: 0.25,
   width: '90%',
   height: '28%',

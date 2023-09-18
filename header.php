@@ -8,7 +8,7 @@
     <header class='sticky-top'>
       <nav class='navbar navbar-expand-lg bg-body-tertiary'>
         <div class='container'>
-          <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='/media/image/brands/roipmars/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+          <a class='navbar-brand' href='/'><img class='img-fluid d-inline-block' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
           <div class='dropdown'>
             <button class='btn nav-link d-flex align-items-center dropdown-toggle' id='theme' type='button' aria-expanded='false' data-bs-toggle='dropdown' data-bs-display='static' aria-label='Toggle theme (auto)'><span class='ms-2' id='theme-text'>theme</span></button>
             <ul class='dropdown-menu bg-body-tertiary border-0' aria-labelledby='theme-text'>

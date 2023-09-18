@@ -17,13 +17,13 @@
     <meta property='og:title' content='RoIPMARS Network | Notis Rombakan Isyarat Panggilan Jalur Rakyat'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Rombakan Semua Isyarat Panggilan Jalur Rakyat Kumpulan RoIPMARS'>
     <meta property='og:url' content='https://www.roipmars.org.my/nts/2023/09'>
-    <meta property='og:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='RoIPMARS Network | Notis Rombakan Isyarat Panggilan Jalur Rakyat'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Rombakan Semua Isyarat Panggilan Jalur Rakyat Kumpulan RoIPMARS'>
     <meta name='twitter:url' content='https://www.roipmars.org.my/nts/2023/09'>
-    <meta name='twitter:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
   </head>
 

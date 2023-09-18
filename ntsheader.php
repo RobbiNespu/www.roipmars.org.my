@@ -11,7 +11,7 @@
     <header class='sticky-top bg-body-tertiary'>
       <div class='container d-flex py-2'>
         <div class='vstack text-start ms-5'>
-          <a href='/'><img class='img-fluid d-inline-block' src='/media/image/brands/roipmars/brand.png' width='300' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
+          <a href='/'><img class='img-fluid d-inline-block' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png' width='300' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
           <div class='dropdown'>
             <button class='btn nav-link d-flex align-items-center dropdown-toggle' id='theme' type='button' aria-expanded='false' data-bs-toggle='dropdown' data-bs-display='static' aria-label='Toggle theme (auto)'><span class='ms-2' id='theme-text'>theme</span></button>
             <ul class='dropdown-menu bg-body-tertiary border-0' aria-labelledby='theme-text'>

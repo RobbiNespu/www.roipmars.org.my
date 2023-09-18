@@ -17,13 +17,13 @@
     <meta property='og:title' content='RoIPMARS Network'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP)'>
     <meta property='og:url' content='https://www.roipmars.org.my'>
-    <meta property='og:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='RoIPMARS Network'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP)'>
     <meta name='twitter:url' content='https://www.roipmars.org.my'>
-    <meta name='twitter:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
   </head>
 
@@ -32,7 +32,7 @@
     <div class='container-fluid'>
       <div class='row text-center'>
         <div class='col my-3'>
-          <img src='/media/image/banner/roipmarsv.png' loading='lazy' class='img-fluid rounded-5 shadow mb-3' width='85%' alt='banner-index'>
+          <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/banner/roipmarsv.png' loading='lazy' class='img-fluid rounded-5 shadow mb-3' width='85%' alt='banner-index'>
           <h1 class='h1-responsive'>Selamat Datang ke RoIPMARS</h1>
           <p class='fs-5'>Malaysian Amateur Radio over Internet Protocol Society &#40;RoIPMARS&#41;</p>
           <p class='fs-3'>&#8212; MUDAH &#8212; MURAH &#8212; MERIAH &#8212; MERAPATKAN HUBUNGAN &#8212; MENJAGA SILATURRAHIM &#8212;</p>
@@ -78,7 +78,7 @@
       <div class='row text-center'>
         <div class='col-xxl-3 col-md-6 my-2'>
           <div class='card'>
-            <img class='card-img-top' loading='lazy' src='/media/image/pic01.jpg'>
+            <img class='card-img-top' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/pic01.jpg'>
             <div class='card-body'>
               <h4 class='card-title'>Promosi</h4>
               <p class='card-text'>Ianya bukanlah satu tugas yang mudah untuk mempromosikan ROIP. Pada masa itu, kami telah dikejutkan kerana memperkenalkan teknologi internet sebagai alternatif ke radio ham. Kami berharap agar lama-kelamaan warga ham secara amnya akan terus menerajui teknologi baru.</p>
@@ -87,7 +87,7 @@
         </div>
         <div class='col-xxl-3 col-md-6 my-2'>
           <div class='card'>
-            <img class='card-img-top' loading='lazy' src='/media/image/pic02.jpg'>
+            <img class='card-img-top' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/pic02.jpg'>
             <div class='card-body'>
               <h4 class='card-title'>Kerjasama</h4>
               <p class='card-text'>Apabila peluang muncul, kami berusaha untuk bekerjasama dengan kelab / persatuan lain untuk mempromosikan radio amatur. Beberapa kelab tempatan telah bersama berganding bahu mendalami teknologi ROIP. Semua bersepakat bahawa ROIP adalah alternatif apabila pengulang tidak berfungsi.</p>
@@ -96,7 +96,7 @@
         </div>
         <div class='col-xxl-3 col-md-6 my-2'>
           <div class='card'>
-            <img class='card-img-top' loading='lazy' src='/media/image/pic03.jpg'>
+            <img class='card-img-top' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/pic03.jpg'>
             <div class='card-body'>
               <h4 class='card-title'>Jamboree</h4>
               <p class='card-text'>Kami mengambil bahagian secara aktif dalam acara tahunan JOTA JOTI. Pengakap diperkenalkan kepada komunikasi tanpa wayar dan diberi peluang untuk mengalami QSO buat kali pertama. Ramai yang teruja dan berminat untuk mengejar hobi radio amatur dalam masa terdekat.</p>
@@ -105,7 +105,7 @@
         </div>
         <div class='col-xxl-3 col-md-6 my-2'>
           <div class='card'>
-            <img class='card-img-top' loading='lazy' src='/media/image/pic04.jpg'>
+            <img class='card-img-top' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/pic04.jpg'>
             <div class='card-body'>
               <h4 class='card-title'>Generasi Baru</h4>
               <p class='card-text'>Sambutan daripada kanak-kanak adalah di luar jangkaan kami. Mereka bersemangat apabila diberi peluang untuk mengendalikan sebuah stesen. Orang yang ramai lebih sukar untuk dikendalikan tetapi bernilai masa dan usaha kami. Kami menyukai semangat tinggi yang dipaparkan.</p>

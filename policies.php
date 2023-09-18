@@ -17,13 +17,13 @@
     <meta property='og:title' content='RoIPMARS Network | Polisi Perkhidmatan'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Polisi Perkhidmatan'>
     <meta property='og:url' content='https://www.roipmars.org.my/policies'>
-    <meta property='og:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='RoIPMARS Network | Polisi Perkhidmatan'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Polisi Perkhidmatan'>
     <meta name='twitter:url' content='https://www.roipmars.org.my/policies'>
-    <meta name='twitter:image' content='/media/image/brands/roipmars/brand_sq.png'>
+    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
   </head>
 

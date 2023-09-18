@@ -46,9 +46,9 @@
               }
               return $ipAdress;
             }
-            echo 'Kemaskini: ' . date('D, j/n/Y, H:i T', $fileindir) . '<br>IP Anda: ' . getVisitorIp();
+            echo 'Kemaskini: ' . date('D, j/n/Y, H:i T', $fileindir) . ' &#124; IP Anda: ' . getVisitorIp();
             ?>
-            <br><i class='bi-c-circle'></i> 2020&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. RoIPMARS&trade;<br>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;RoIP&#41; PPM-006-10-01062020</span></p>
+            <br><i class='bi-c-circle'></i> 2020&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. RoIPMARS&trade; &#124; PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;RoIP&#41; PPM-006-10-01062020</span></p>
           </div>
         </div>
       </div>

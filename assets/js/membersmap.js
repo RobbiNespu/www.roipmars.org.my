@@ -52,7 +52,7 @@ L.control.scale({
   imperial: false,
   updateWhenIdle: false
 }).addTo(map)
-/* L.control.rainviewer({
+L.control.rainviewer({
   position: 'bottomleft',
   nextButtonText: '>',
   playStopButtonText: 'Main/Henti',
@@ -61,7 +61,7 @@ L.control.scale({
   opacitySliderLabelText: 'Kegelapan:',
   animationInterval: 1000,
   opacity: 0.25
-}).addTo(map) */
+}).addTo(map)
 map.addControl(new JawgPlaces.Leaflet({
   searchOnTyping: true,
   transition: { type: 'hybrid' },

@@ -26,6 +26,7 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     },
     ordering: false,
+    lengthChange: false,
     pageLength: 10,
     pagingTag: 'button',
     pagingType: 'full_numbers',
@@ -80,6 +81,7 @@ $(document).ready(function() {
       { title: 'KPI', className: 'text-center align-middle', data: 'KPI' }
     ],
     info: false,
+    lengthChange: false,
     ordering: false,
     order: [0, 'asc'],
     paging: true,
@@ -87,7 +89,7 @@ $(document).ready(function() {
     pagingTag: 'button',
     pagingType: 'simple',
     responsive: true,
-    searching: false,
+    searching: true,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
       info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
@@ -117,6 +119,7 @@ $(document).ready(function() {
       { title: 'KPI', className: 'text-center align-middle', data: 'KPI' }
     ],
     info: false,
+    lengthChange: false,
     ordering: false,
     order: [0, 'asc'],
     paging: false,
@@ -154,6 +157,7 @@ $(document).ready(function() {
       { title: 'KPI', className: 'text-center align-middle', data: 'KPI' }
     ],
     info: false,
+    lengthChange: false,
     ordering: false,
     order: [0, 'asc'],
     paging: true,
@@ -255,6 +259,7 @@ $(document).ready(function() {
       { title: 'Kekerapan', className: 'text-center align-middle', data: 'am%' }
     ],
     info: false,
+    lengthChange: false,
     ordering: false,
     paging: true,
     pageLength: 10,
@@ -289,6 +294,7 @@ $(document).ready(function() {
       { title: 'Kekerapan', className: 'text-center align-middle', data: 'amen%' }
     ],
     info: false,
+    lengthChange: false,
     ordering: false,
     paging: true,
     pageLength: 10,
@@ -323,6 +329,7 @@ $(document).ready(function() {
       { title: 'Kekerapan', className: 'text-center align-middle', data: 'amms%' }
     ],
     info: false,
+    lengthChange: false,
     ordering: false,
     paging: true,
     pageLength: 10,
@@ -357,6 +364,7 @@ $(document).ready(function() {
       { title: 'Kekerapan', className: 'text-center align-middle', data: 'cb%' }
     ],
     info: false,
+    lengthChange: false,
     ordering: false,
     paging: true,
     pageLength: 10,
@@ -391,6 +399,7 @@ $(document).ready(function() {
       { title: 'Kekerapan', className: 'text-center align-middle', data: 'voi%' }
     ],
     info: false,
+    lengthChange: false,
     ordering: false,
     paging: true,
     pageLength: 10,

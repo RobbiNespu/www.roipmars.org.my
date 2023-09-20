@@ -11,15 +11,15 @@
         <div class='row mt-2'>
           <div class='col-lg-8 mx-auto my-1 text-md-start'>
             <h5 class='text-uppercase mb-2 fw-bold'>Sumbangan</h5>
-            <p class='mb-2'>Sumbangan &amp; Derma anda membantu Penyelidikan &amp; Pembangunan serta Perkhidmatan kami tersedia untuk anda sepanjang masa di mana sahaja.</p>
-            <table class='table table-sm table-bordered text-center align-middle text-wrap my-0 mx-auto w-auto' style='white-space: nowrap'>
+            <p class='mb-2'>Sumbangan anda membantu Penyelidikan &amp; Pembangunan serta Perkhidmatan kami tersedia untuk anda sepanjang masa di mana sahaja.</p>
+            <table class='table table-sm table-bordered text-center align-middle my-0'>
               <tbody>
                 <tr><th>Nama</th><td>PERSATUAN PEMINAT RADIO KOMUNIKASI</td></tr>
                 <tr><th>Bank</th><td>BANK MUAMALAT MALAYSIA BERHAD</td></tr>
                 <tr><th>Akaun</th><td>1 2140 0004 3771 2</td></tr>
+                <tr><td colspan='2'>Kami juga menerima: <btn class='btn btn-sm' type='button' onClick='donateTngd()' aria-label='Sumbang melalui TNG E-Wallet'><img class='img-fluid bg-light rounded-2 px-1 mb-1' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/tngew/tngew_ht.png?tr=h-17' alt='donate via tng ewallet'> TnG eWallet</btn> &#124; <btn class='btn btn-sm' type='button' onClick='donateToyyib()' aria-label='Sumbang melalui FPX'><img class='img-fluid bg-light rounded-2 p-1 mb-1' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/fpx/fpx.png?tr=h-10' alt='donate via fpx'> Malaysian Local Banks</btn> &#124; <btn class='btn btn-sm' type='button' onClick='donateStripe()' aria-label='Sumbang melalui Kad Debit atau Kredit'><i class='bi-credit-card-fill fs-5 align-middle pb-1'></i> Cards</btn></td></tr>
               </tbody>
             </table>
-            <p class='mt-2 mb-0 text-center'>Kami juga menerima <a class='text-reset text-decoration-none' href='#' onClick='donateTngd()' aria-label='Sumbang melalui TNG E-Wallet'><img class='img-fluid bg-light-subtle rounded-2 px-1' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/tngew/tngew_ht.png' width='45' alt='donate via tng ewallet'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateToyyib()' aria-label='Sumbang melalui FPX'><img class='img-fluid bg-light-subtle rounded-2 p-1' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/fpx/fpx.png' width='50' alt='donate via fpx'></a> &#124; <a class='text-reset text-decoration-none' href='#' onClick='donateStripe()' aria-label='Sumbang melalui Kad Debit atau Kredit'><i class='bi-stripe fs-3 align-middle'></i></a></p>
             <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
           </div>
           <div class='col-lg-4 mx-auto my-1'>

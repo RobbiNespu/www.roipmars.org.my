@@ -127,11 +127,11 @@
       </div>
     </div>
     <?php require_once 'footer.php' ?>    
-		<script src='https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js' integrity='sha256-Mh46P6mNpKqpV9EL5Xy7UU3gmJ7tj51ya10FkCzQGQQ=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@2.0.0-beta.1/dist/chartjs-plugin-deferred.min.js' integrity='sha256-tiwxhUFnkOwtgvuCTgBQ4mT639JDFNiU4GdLKIxkNsI=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/chartjs-chart-graph@4.2.3/build/index.umd.min.js' integrity='sha256-6IxnL3S4M/B0AOEnZqgEox+OD37Rd9+2gNzq5yBeb5I=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2.0.2/chartjs-plugin-watermark.min.js' integrity='sha256-GEtxUgNFiQ+zaEJrs1EG0jhwwZ8R+pHc+yN0vG9IL14=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js' integrity='sha256-IMCPPZxtLvdt9tam8RJ8ABMzn+Mq3SQiInbDmMYwjDg=' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/chartjs-chart-graph@4/build/index.umd.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2/dist/chartjs-plugin-datalabels.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@2/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/rnd-chartjs-tree.js'></script>
   </body>
 

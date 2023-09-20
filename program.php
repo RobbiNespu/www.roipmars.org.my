@@ -259,7 +259,7 @@
 				<div class='col-lg-9 figure my-1 d-flex align-items-center'>
 					<canvas id='byCountry' loading='lazy' alt='NetGraphMap23'></canvas>
 				</div>
-				<div class='col-lg-3 table-responsive d-flex justify-content-center'>
+				<div class='col-lg-3 table-responsive d-flex align-self-center'>
 					<table class='table table-sm table-striped text-center align-middle' id='uniq-ham-origin'></table>
 				</div>
 			</div>
@@ -399,7 +399,6 @@
 		<script src='/assets/js/eqsl.js'></script> -->
 		<script src='https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-chart-geo@4/build/index.umd.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2/dist/chartjs-plugin-datalabels.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3/dist/chartjs-plugin-annotation.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@2/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>

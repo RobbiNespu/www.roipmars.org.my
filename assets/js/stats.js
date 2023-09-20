@@ -13,7 +13,7 @@ Chart.defaults.font.family = 'Open Sans'
 Chart.defaults.font.lineHeight = 1
 Chart.defaults.font.size = 10
 Chart.defaults.plugins.deferred.daley = 1000
-Chart.defaults.plugins.deferred.yOffset = '80%'
+Chart.defaults.plugins.deferred.yOffset = '100%'
 Chart.defaults.plugins.legend.position = 'top'
 Chart.defaults.plugins.title.display = true
 Chart.defaults.plugins.title.font = {weight: 'bold', size: 16}
@@ -48,7 +48,7 @@ $.getJSON('/assets/json/stat-time.json', function(timeData) {
       plugins: {title: {text: 'UTC'}},
       scales: {
         x: {grid: {display: false}},
-        y: {grid: {display: false}}
+        y: {grid: {display: false}, type: 'logarithmic'}
       },
       showLine: true,
       tension: 0.5,
@@ -75,7 +75,7 @@ $.getJSON('/assets/json/stat-days.json', function(daysData) {
       pointBorderWidth: 1,
       pointStyle: 'crossRot',
       plugins: {
-        title: { text: 'Harian' },
+        title: {text: 'Harian'},
         annotation: {
           annotations: {
             avgHAMMS: {
@@ -93,7 +93,7 @@ $.getJSON('/assets/json/stat-days.json', function(daysData) {
       spanGaps: true,
       scales: {
         x: {grid: {display: false}},
-        y: {grid: {display: false}}
+        y: {grid: {display: false}, type: 'logarithmic'}
       },
       tension: 0.25,
       watermark: wmOptions,
@@ -119,8 +119,8 @@ $.getJSON('/assets/json/stat-day.json', function(dayData) {
       categoryPercentage: 0.95,
       plugins: {title: {text: 'Hari'}},
       scales: {
-        x: {stacked: true, grid: {display: false}},
-        y: {stacked: true, grid: {display: false}}
+        x: {grid: {display: false}, stacked: true},
+        y: {grid: {display: false}, stacked: true}
       },
       watermark: wmOptions,
     },
@@ -147,7 +147,7 @@ $.getJSON('/assets/json/stat-week.json', function(weekData) {
       pointStyle: 'rectRot',
       scales: {
         x: {grid: {display: false}},
-        y: {grid: {display: false}}
+        y: {grid: {display: false}, type: 'logarithmic'}
       },
       showLine: true,
       tension: 0.25,
@@ -174,8 +174,8 @@ $.getJSON('/assets/json/stat-month.json', function(monthData) {
       categoryPercentage: 0.95,
       plugins: {title: {text: 'Bulan'}},
       scales: {
-        x: {stacked: true, grid: {display: false}},
-        y: {stacked: true, grid: {display: false}}
+        x: {grid: {display: false}, stacked: true},
+        y: {grid: {display: false}, stacked: true}
       },
       watermark: wmOptions,
     },
@@ -201,8 +201,8 @@ $.getJSON('/assets/json/stat-quarter.json', function(quarterData) {
       indexAxis: 'y',
       plugins: {title: {text: 'Suku Tahun'}},
       scales: {
-        x: {stacked: true, grid: {display: false}},
-        y: {stacked: true, grid: {display: false}}
+        x: {grid: {display: false}, stacked: true},
+        y: {grid: {display: false}, stacked: true}
       },
       watermark: wmOptions,
     },
@@ -213,7 +213,7 @@ $.getJSON('/assets/json/stat-quarter.json', function(quarterData) {
 $.getJSON('/assets/json/stat-band.json', function(bandData) {
   new Chart(byCategory,{
     data: {
-      datasets: [{data: [bandData.average_HAMMS,bandData.average_HAMEN,bandData.average_CB,bandData.average_VOI]}],
+      datasets: [{data: [bandData.average_HAMMS.toFixed(),bandData.average_HAMEN.toFixed(),bandData.average_CB.toFixed(),bandData.average_VOI.toFixed()]}],
       labels: ['HAM-MS','HAM-EN','CB','VOI'],
     },
     options: {

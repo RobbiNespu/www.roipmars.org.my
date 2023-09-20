@@ -46,7 +46,7 @@ $(document).ready(function() {
     info: false,
     lengthChange: false,
     ordering: false,
-    pageLength: 15,
+    pageLength: 10,
     paging: true,
     pagingTag: 'button',
     pagingType: 'numbers',

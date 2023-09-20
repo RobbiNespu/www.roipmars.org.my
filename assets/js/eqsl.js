@@ -1,6 +1,3 @@
-import PDFDocument from 'pdfkit'
-import blobStream from 'blob-stream'
-
 function downeQSL(call, mode, time) {  
   const doc = new PDFDocument()
   const stream = doc.pipe(blobStream())

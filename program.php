@@ -393,8 +393,8 @@
 		<!-- <script src='https://cdn.jsdelivr.net/npm/pdfkit@0.13.0/js/pdfkit.standalone.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/blob-stream@0.1.3/index.min.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/eqsl.js'></script> -->
-		<script src='https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-chart-geo@4/build/index.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-chart-geo@4/build/index.umd.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3/dist/chartjs-plugin-annotation.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@2/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>

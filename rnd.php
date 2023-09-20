@@ -127,7 +127,7 @@
       </div>
     </div>
     <?php require_once 'footer.php' ?>    
-		<script src='https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/chartjs-chart-graph@4/build/index.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2/dist/chartjs-plugin-datalabels.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@2/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>

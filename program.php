@@ -391,17 +391,11 @@
 		</div>
 		<?php require_once 'footer.php' ?>
 		<script src='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.6/af-2.6.0/b-2.4.1/b-colvis-2.4.1/b-html5-2.4.1/b-print-2.4.1/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js' integrity='sha512-a9NgEEK7tsCvABL7KqtUTQjl69z7091EVPpw5KxPlZ93T141ffe1woLtbXTX+r2/8TtTvRX/v4zTL2UlMUPgwg==' crossorigin='anonymous'></script>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.min.js' integrity='sha512-P0bOMePRS378NwmPDVPU455C/TuxDS+8QwJozdc7PGgN8kLqR4ems0U/3DeJkmiE31749vYWHvBOtR+37qDCZQ==' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@0.3.0-beta.5,npm/pdfmake@0.3.0-beta.5/build/vfs_fonts.min.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/program.js'></script>
-		<!-- <script src='https://cdn.jsdelivr.net/npm/pdfkit@0.13.0/js/pdfkit.standalone.js' integrity='sha256-41qk5dewLKulpzhP3H6G7mY+5q+vzxMaxolsOGmZD/8=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/blob-stream@0.1.3/index.js' integrity='sha256-Dpvzq1ZLpIsw8llbYvMoUK7ogA+MmANk/nQwU+rasIU=' crossorigin='anonymous'></script>
+		<!-- <script src='https://cdn.jsdelivr.net/combine/npm/pdfkit@0.13.0,npm/blob-stream@0.1.3' crossorigin='anonymous'></script>
 		<script src='/assets/js/eqsl.js'></script> -->
-		<script src='https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js' integrity='sha256-Mh46P6mNpKqpV9EL5Xy7UU3gmJ7tj51ya10FkCzQGQQ=' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@2.0.0-beta.1/dist/chartjs-plugin-deferred.min.js' integrity='sha256-tiwxhUFnkOwtgvuCTgBQ4mT639JDFNiU4GdLKIxkNsI=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js' integrity='sha256-8BDDxChCyYOB80/6VhOpmr7qI5EIDyDPzxsWePPFVfo=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2.0.2/chartjs-plugin-watermark.min.js' integrity='sha256-GEtxUgNFiQ+zaEJrs1EG0jhwwZ8R+pHc+yN0vG9IL14=' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-chart-geo@4.2.4/build/index.umd.min.js' integrity='sha256-77XpUirDHPDF91abo+PMAGgOxHSsTCQwGr05eb0Vhu0=' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/combine/npm/chart.js@4,npm/chartjs-plugin-deferred@2.0.0-beta.1,npm/chartjs-plugin-annotation@3,npm/chartjs-plugin-watermark@2,npm/chartjs-chart-geo@4' crossorigin='anonymous'></script>
 		<script src='/assets/js/stats.js'></script>
 		<script src='/assets/js/pg-chartjs-map.js'></script>
 	</body>

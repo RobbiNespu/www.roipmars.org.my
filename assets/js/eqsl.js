@@ -10,9 +10,9 @@ function downeQSL(call, mode, time) {
   doc.fontSize(25).text(call + ' ' + mode + ' ' + time, 100, 100)
   doc.end()
 
-  const a = document.createElement("a")
+  const a = document.createElement('a')
   document.body.appendChild(a)
-  a.style = "display: none"
+  a.style = 'display: none'
 
   let blob
 
@@ -25,8 +25,8 @@ function downeQSL(call, mode, time) {
     window.URL.revokeObjectURL(url)
   }
 
-  stream.on("finish", function() {
+  stream.on('finish', function() {
     // get a blob you can do whatever you like with
-    blob = stream.toBlob("application/pdf")
+    blob = stream.toBlob('application/pdf')
   })
 }

@@ -195,14 +195,10 @@
 								</div>
 								<div class='modal-body'>
 									<div class='row'>
-										<div class='col-12 text-center mb-2'>
-											<span><?php $reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini: ' . date('j/n/Y, H:i T', $reportLastMod); ?></span>
-										</div>
-										<div class='col-8 table-responsive d-grid justify-content-center'>
-											<table class='table table-sm table-striped table-hover text-center align-middle' id='netrep'></table>
-										</div>
-										<div class='col-4'>
-											<table class='table table-sm text-center align-middle' style='font-size: xx-small'>
+										<div class='col-8'><table class='table table-sm table-striped text-center align-middle' id='netrep'></table></div>
+										<div class='col-4 align-self-center text-center'>
+											<p><?php $reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini:<br>' . date('jS M Y\<\b\r\>H:i:s.B T', $reportLastMod); ?></p>
+											<table class='table table-sm text-center align-middle' style='font-size: x-small'>
 												<thead class='table-primary'><tr><td colspan='2'>Mod Penghantaran</td></tr></thead>
 												<tbody>
 													<tr><td>DC</td><td>Discord</td></tr>
@@ -256,10 +252,10 @@
 				<div class='col-lg-6 figure my-1'>
 					<canvas id='byMode' loading='lazy' alt='NetGraphMode23'></canvas>
 				</div>
-				<div class='col-lg-9 figure my-1 d-flex align-items-center'>
+				<div class='col-lg-9 figure my-1 align-items-center'>
 					<canvas id='byCountry' loading='lazy' alt='NetGraphMap23'></canvas>
 				</div>
-				<div class='col-lg-3 table-responsive d-flex align-self-center'>
+				<div class='col-lg-3 align-self-center'>
 					<table class='table table-sm table-striped text-center align-middle' id='uniq-ham-origin'></table>
 				</div>
 			</div>
@@ -267,7 +263,7 @@
 			<div class='row my-1'>
 				<div class='col-12'><h3 class='text-center'>Kategori Jalur Amatur</h3></div>
 				<div class='col-12'>
-					<p class='text-center'>RoIPMARS HAM Net &#40;digabungkan&#41;</p>
+					<p class='text-center'>RoIPMARS HAM Net</p>
 					<div class='row'>
 						<div class='col-sm-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
 							<table class='table table-sm table-striped text-center align-middle' id='all-ncs-rank'></table>

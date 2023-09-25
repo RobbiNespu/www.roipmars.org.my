@@ -3,7 +3,7 @@ const colorScheme =
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#56C3E7">\
 <meta name="color-scheme" content="auto">'
 const favIcons = 
-'<meta name="msapplication-TileColor" content="#56C3E7">\
+'<meta name="msapplication-TileColor" content="#336699">\
 <meta name="msapplication-TileImage" content="https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ms-icon-144x144.png">\
 <meta name="google-adsense-account" content="ca-pub-1205248207690495">\
 <link rel="shortcut icon" type="image/x-icon" href="https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/favicon/favicon.ico">\

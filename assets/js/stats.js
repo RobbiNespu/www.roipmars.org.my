@@ -21,7 +21,7 @@ Chart.defaults.plugins.title.padding = {top: 1, bottom: 1}
 Chart.defaults.plugins.title.position = 'top'
 const wmOptions = {
   image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png',
-  opacity: 0.25,
+  opacity: 0.15,
   width: '85%',
   height: '28%',
   alignX: 'middle',
@@ -48,7 +48,7 @@ $.getJSON('/assets/json/stat-time.json', function(timeData) {
       plugins: {title: {text: 'UTC'}},
       scales: {
         x: {grid: {display: false}},
-        y: {grid: {display: false}, type: 'logarithmic'}
+        y: {grid: {display: false}, min: 10, type: 'logarithmic'}
       },
       showLine: true,
       tension: 0.5,
@@ -58,47 +58,79 @@ $.getJSON('/assets/json/stat-time.json', function(timeData) {
   })
 })
 
-$.getJSON('/assets/json/stat-days.json', function(daysData) {
-  new Chart(byDate,{
-    data: {
-      datasets: [
-        {data: daysData.HAMMS, label: 'HAM-MS'},
-        {data: daysData.HAMEN, label: 'HAM-EN'},
-        {data: daysData.CB, label: 'CB'},
-        {data: daysData.VOI, label: 'VOI'},
-      ],
-      labels: daysData.Days,
-    },
-    options: {
-      borderJoinStyle: 'round',
-      borderWidth: 1,
-      pointBorderWidth: 1,
-      pointStyle: 'crossRot',
-      plugins: {
-        title: {text: 'Harian'},
-        annotation: {
-          annotations: {
-            avgHAMMS: {
-              type: 'line',
-              yMin: 40,
-              yMax: 40,
-              borderColor: '#336699',
-              borderWidth: 0.5,
-              borderDash: [15, 3, 3, 3],
+$.getJSON('/assets/json/stat-days.json', function (daysData) {
+  $.getJSON('/assets/json/stat-band.json', function (avgData) {
+    new Chart(byDate, {
+      data: {
+        datasets: [
+          { data: daysData.HAMMS, label: 'HAM-MS' },
+          { data: daysData.HAMEN, label: 'HAM-EN' },
+          { data: daysData.CB, label: 'CB' },
+          { data: daysData.VOI, label: 'VOI' },
+        ],
+        labels: daysData.Days,
+      },
+      options: {
+        borderJoinStyle: 'round',
+        borderWidth: 1,
+        pointBorderWidth: 1,
+        pointStyle: 'crossRot',
+        plugins: {
+          title: { text: 'Harian' },
+          annotation: {
+            annotations: {
+              avgHAMMSval: {
+                borderColor: '#336699',
+                borderDash: [15, 3, 3, 3],
+                borderWidth: 1,
+                type: 'line',
+                yMax: avgData.average_HAMMS.toFixed(),
+                yMin: avgData.average_HAMMS.toFixed(),
+              },
+              avgHAMMSlab: {
+                backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+                color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+                content: 'MS: ' + avgData.average_HAMMS.toFixed(),
+                font: { size: 10 },
+                padding: 1.5,
+                position: 'start',
+                type: 'label',
+                xValue: 0,
+                yValue: avgData.average_HAMMS.toFixed(),
+              },
+              avgHAMENval: {
+                borderColor: '#56C3E7',
+                borderDash: [15, 3, 3, 3],
+                borderWidth: 1,
+                type: 'line',
+                yMax: avgData.average_HAMEN.toFixed(),
+                yMin: avgData.average_HAMEN.toFixed(),
+              },
+              avgHAMENlab: {
+                backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+                color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+                content: 'EN: ' + avgData.average_HAMEN.toFixed(),
+                font: { size: 10 },
+                padding: 1.5,
+                position: 'start',
+                type: 'label',
+                xValue: 0,
+                yValue: avgData.average_HAMEN.toFixed(),
+              }
             }
           }
-        }
+        },
+        showLine: true,
+        spanGaps: true,
+        scales: {
+          x: { grid: { display: false } },
+          y: { grid: { display: false }, min: 10, type: 'logarithmic' }
+        },
+        tension: 0.25,
+        watermark: wmOptions,
       },
-      showLine: true,
-      spanGaps: true,
-      scales: {
-        x: {grid: {display: false}},
-        y: {grid: {display: false}, type: 'logarithmic'}
-      },
-      tension: 0.25,
-      watermark: wmOptions,
-    },
-    type: 'line',
+      type: 'line',
+    })
   })
 })
 
@@ -135,7 +167,7 @@ $.getJSON('/assets/json/stat-week.json', function(weekData) {
         {data: weekData.HAMMS, label: 'HAM-MS'},
         {data: weekData.HAMEN, label: 'HAM-EN'},
         {data: weekData.CB, label: 'CB'},
-        {data: weekData.VOI, label: 'VOI'}
+        {data: weekData.VOI, label: 'VOI'},
       ],
       labels: weekData.Week,
     },
@@ -144,10 +176,10 @@ $.getJSON('/assets/json/stat-week.json', function(weekData) {
       borderWidth: 1,
       plugins: {title: {text: 'Minggu'}},
       pointBorderWidth: 1,
-      pointStyle: 'rectRot',
+      pointStyle: 'cross',
       scales: {
         x: {grid: {display: false}},
-        y: {grid: {display: false}, type: 'logarithmic'}
+        y: {grid: {display: false}, min: 10, type: 'logarithmic'}
       },
       showLine: true,
       tension: 0.25,
@@ -169,9 +201,9 @@ $.getJSON('/assets/json/stat-month.json', function(monthData) {
       labels: monthData.Month,
     },
     options: {
-      barPercentage: 0.95,
+      barPercentage: 0.99,
       borderRadius: 10,
-      categoryPercentage: 0.95,
+      categoryPercentage: 0.99,
       plugins: {title: {text: 'Bulan'}},
       scales: {
         x: {grid: {display: false}, stacked: true},
@@ -187,18 +219,17 @@ $.getJSON('/assets/json/stat-quarter.json', function(quarterData) {
   new Chart(byQuarter,{
     data: {
       datasets: [
-        {axis: 'y', data: quarterData.HAMMS, label: 'HAM-MS'},
-        {axis: 'y', data: quarterData.HAMEN, label: 'HAM-EN'},
-        {axis: 'y', data: quarterData.CB, label: 'CB'},
-        {axis: 'y', data: quarterData.VOI, label: 'VOI'},
+        {data: quarterData.HAMMS, label: 'HAM-MS'},
+        {data: quarterData.HAMEN, label: 'HAM-EN'},
+        {data: quarterData.CB, label: 'CB'},
+        {data: quarterData.VOI, label: 'VOI'},
       ],
       labels: quarterData.Quarter,
     },
     options: {
-      barPercentage: 0.95,
+      barPercentage: 0.99,
       borderRadius: 10,
-      categoryPercentage: 0.95,
-      indexAxis: 'y',
+      categoryPercentage: 0.99,
       plugins: {title: {text: 'Suku Tahun'}},
       scales: {
         x: {grid: {display: false}, stacked: true},
@@ -207,22 +238,6 @@ $.getJSON('/assets/json/stat-quarter.json', function(quarterData) {
       watermark: wmOptions,
     },
     type: 'bar',
-  })
-})
-
-$.getJSON('/assets/json/stat-band.json', function(bandData) {
-  new Chart(byCategory,{
-    data: {
-      datasets: [{data: [bandData.average_HAMMS.toFixed(),bandData.average_HAMEN.toFixed(),bandData.average_CB.toFixed(),bandData.average_VOI.toFixed()]}],
-      labels: ['HAM-MS','HAM-EN','CB','VOI'],
-    },
-    options: {
-      aspectRatio: 2,
-      borderWidth: 0,
-      plugins: {title: {text: 'Purata Penyertaan'}},
-      watermark: wmOptions,
-    },
-    type: 'doughnut',
   })
 })
 
@@ -239,5 +254,32 @@ $.getJSON('/assets/json/stat-mode.json', function(modeData) {
       watermark: wmOptions,
     },
     type: 'doughnut',
+  })
+})
+
+$.getJSON('/assets/json/stat-week.json', function(localeData) {
+  new Chart(byCSLocale,{
+    data: {
+      datasets: [
+        {data: localeData.LOC, label: 'Domestik'},
+        {data: localeData.INTL, label: 'Antarabangsa'},
+      ],
+      labels: localeData.Week,
+    },
+    options: {
+      borderJoinStyle: 'round',
+      borderWidth: 1,
+      plugins: {title: {text: 'Panggilan'}},
+      pointBorderWidth: 1,
+      pointStyle: 'rectRounded',
+      scales: {
+        x: {grid: {display: false}},
+        y: {grid: {display: false}, type: 'logarithmic'}
+      },
+      showLine: true,
+      tension: 0.25,
+      watermark: wmOptions,
+    },
+    type: 'line',
   })
 })

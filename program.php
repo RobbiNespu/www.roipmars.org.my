@@ -73,7 +73,7 @@
 							<tr class='opacity-25'><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
 							<tr class='table-primary'><td>Jumaat</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Santai</td><td>Rangkaian HAM RoIPMARS</td></tr>
 							<tr class='table-primary'><td>Sabtu</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='table-primary'><td>Ahad</td><td>0100Z<br>0900MY</td><td>RoIPMARS Net Hujung Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
+							<tr class='table-primary'><td>Ahad</td><td>0200Z<br>1000MY</td><td>RoIPMARS Net Hujung Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
 						</tbody>
 					</table>
 					<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>
@@ -247,10 +247,10 @@
 					<canvas id='byQuarter' loading='lazy' alt='NetGraphQuarterly23'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byCategory' loading='lazy' alt='NetGraphBand23'></canvas>
+					<canvas id='byMode' loading='lazy' alt='NetGraphMode23'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byMode' loading='lazy' alt='NetGraphMode23'></canvas>
+					<canvas id='byCSLocale' loading='lazy' alt='NetGraphCaller23'></canvas>
 				</div>
 				<div class='col-lg-9 figure my-1 align-items-center'>
 					<canvas id='byCountry' loading='lazy' alt='NetGraphMap23'></canvas>

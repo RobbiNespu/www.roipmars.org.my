@@ -9,7 +9,7 @@ $(document).ready(function() {
       {title: 'Laporan', className: 'text-center align-middle', searchable: true, name: 'lapor'}
     ],
     deferRender: true,
-    displayStart: 190,
+    displayStart: 200,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
       info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',

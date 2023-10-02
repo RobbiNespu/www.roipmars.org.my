@@ -180,7 +180,7 @@
 								<li class='list-group-item list-group-item-secondary'><sup>2</sup> Pilihan Acara oleh NCS</li>
 							</ul>
 							<ul class='list-group list-group-horizontal'>
-								<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-person-x text-danger'></i> Pengawal gagal hadir</li>
+								<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-person-x-fill text-danger'></i> Pengawal gagal hadir</li>
 								<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-envelope-x-fill text-danger'></i> Laporan gagal dihantar</li>
 								<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-send-x-fill text-danger'></i> Laporan belum diterima</li>
 							</ul>

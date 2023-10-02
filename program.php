@@ -170,7 +170,7 @@
 			<div class='row'>
 				<div class='col-12 my-1 text-center'>
 					<h2 class='font-weight-bold'>Takwim Program</h2>
-					<span><?php $scheduleLastMod = filemtime(__DIR__.'/assets/json/schedule.json'); echo 'kemaskini pada: ' . date('D, j/n/Y, H:i T', $scheduleLastMod); ?></span>
+					<span><?php $scheduleLastMod = filemtime(__DIR__.'/assets/json/scheduled.json'); echo 'kemaskini pada: ' . date('D, j/n/Y, H:i T', $scheduleLastMod); ?></span>
 				</div>
 				<div class='table-responsive'>
 					<table class='table table-sm table-striped text-center align-middle' id='takwim'>

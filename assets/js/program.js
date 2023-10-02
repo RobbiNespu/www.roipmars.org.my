@@ -1,12 +1,12 @@
 // 'use strict';
 $(document).ready(function() {
   var takwimtable = $('#takwim').DataTable({
-    ajax: 'assets/json/schedule.json',
+    ajax: 'assets/json/scheduled.json',
     columns: [
-      {title: 'Hari', className: 'text-center align-middle', searchable: true, name: 'hari'},
-      {title: 'Acara', className: 'text-center align-middle', searchable: true, name: 'acara'},
-      {title: 'NCS | ECR', className: 'text-center align-middle', searchable: true, name: 'ncs'},
-      {title: 'Laporan', className: 'text-center align-middle', searchable: true, name: 'lapor'}
+      { className: 'text-center align-middle', data: 'Hari', name: 'hari', searchable: true, title: 'Hari' },
+      { className: 'text-center align-middle', data: 'Acara', name: 'acara', searchable: true, title: 'Acara' },
+      { className: 'text-center align-middle', data: 'NCS', name: 'ncs|ecr', searchable: true, title: 'NCS | ECR' },
+      { className: 'text-center align-middle', data: 'Laporan', name: 'lapor', searchable: true, title: 'Laporan', render: function (data, type, row, meta) { return (/* "<button type='button' class='btn' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-sourcerow='" + meta.row + "'>" +  */data/*  + "</button>" */) } },
     ],
     deferRender: true,
     displayStart: 200,
@@ -20,11 +20,12 @@ $(document).ready(function() {
         first: '<<',
         last: '>>',
         next: '>',
-        previous: '<'
+        previous: '<',
       },
       processing: 'Sedang memuat...',
       search: 'Cari Acara/Pengawal:',
-      zeroRecords: 'Rekod Tidak Ditemui'
+      select: { rows: { _: 'memilih %d baris' } },
+      zeroRecords: 'Rekod Tidak Ditemui',
     },
     ordering: false,
     lengthChange: false,
@@ -38,9 +39,9 @@ $(document).ready(function() {
       blurable: true,
       items: 'row',
       style: 'single',
-      toggleable: true
-    }
-  })
+      toggleable: true,
+    },
+  });
   
   $('#uniq-ham-origin').DataTable({
     ajax: '/assets/json/stat-origin.json',
@@ -429,17 +430,18 @@ $(document).ready(function() {
   const netrep = document.getElementById('netrep')
   netrep.addEventListener('show.bs.modal', event => {
     const button = event.relatedTarget
-    $('#takwim').delegate('tbody tr td:last-child','click',function () {
+    const sourceRow = button.getAttribute('data-bs-sourcerow')
+    $('#takwim').delegate('tbody tr td:last-child', 'click', function () {
       const modalTitle = netrep.querySelector('.modal-title')
-      const takwimrowno = takwimtable.row(this).index()
-      const takwimrowdata = takwimtable.row(takwimrowno).data()
+      // const takwimrowno = takwimtable.row(this).index()
+      const takwimrowdata = takwimtable.row(sourceRow).data()
       const takwimdate = takwimrowdata[0].split('<br>')[1]
-      const takwimact = takwimrowdata[1].replaceAll('<br>',' ')
+      const takwimact = takwimrowdata[1]
       const takwimncs = takwimrowdata[2].split('|')[0].trim()
       modalTitle.textContent = `Laporan ${takwimact} pada ${takwimdate} bersama ${takwimncs}`
       const reportTitle = `Laporan ${takwimact} pada ${takwimdate} bersama ${takwimncs}`
       const sourcedate = takwimdate.replaceAll('/','')
-      const tableid = 'net-'+takwimdate.replaceAll('/','')      
+      const tableid = 'net-'+sourcedate
       const modalBodyTable = netrep.querySelector('.modal-body table')
       modalBodyTable.id = tableid
       var netReportTable = $('#' + tableid).DataTable({
@@ -500,6 +502,7 @@ $(document).ready(function() {
           },
           processing: '<span class="visually-hidden">Sedang memuat...</span>',
           search: 'Cari:',
+          select: { cells: { _: 'memilih %d petak' } },
           zeroRecords: 'Laporan Tidak Ditemui'
         },
         lengthChange: false,

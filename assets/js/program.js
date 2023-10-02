@@ -6,7 +6,7 @@ $(document).ready(function() {
       { className: 'text-center align-middle', data: 'Hari', name: 'hari', searchable: true, title: 'Hari' },
       { className: 'text-center align-middle', data: 'Acara', name: 'acara', searchable: true, title: 'Acara' },
       { className: 'text-center align-middle', data: 'NCS', name: 'ncs|ecr', searchable: true, title: 'NCS | ECR' },
-      { className: 'text-center align-middle', data: 'Laporan', name: 'lapor', searchable: true, title: 'Laporan', render: function (data, type, row, meta) { return (/* "<button type='button' class='btn' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-sourcerow='" + meta.row + "'>" +  */data/*  + "</button>" */) } },
+      { className: 'text-center align-middle', data: 'Laporan', name: 'lapor', searchable: true, title: 'Laporan' },
     ],
     deferRender: true,
     displayStart: 200,
@@ -24,7 +24,7 @@ $(document).ready(function() {
       },
       processing: 'Sedang memuat...',
       search: 'Cari Acara/Pengawal:',
-      select: { rows: { _: 'memilih %d baris' } },
+      select: { rows: { 1: 'memilih %d baris' } },
       zeroRecords: 'Rekod Tidak Ditemui',
     },
     ordering: false,
@@ -430,18 +430,18 @@ $(document).ready(function() {
   const netrep = document.getElementById('netrep')
   netrep.addEventListener('show.bs.modal', event => {
     const button = event.relatedTarget
-    const sourceRow = button.getAttribute('data-bs-sourcerow')
+    const source = button.getAttribute('data-bs-source')
+    const sourcedate = source
     $('#takwim').delegate('tbody tr td:last-child', 'click', function () {
       const modalTitle = netrep.querySelector('.modal-title')
-      // const takwimrowno = takwimtable.row(this).index()
-      const takwimrowdata = takwimtable.row(sourceRow).data()
-      const takwimdate = takwimrowdata[0].split('<br>')[1]
-      const takwimact = takwimrowdata[1]
-      const takwimncs = takwimrowdata[2].split('|')[0].trim()
-      modalTitle.textContent = `Laporan ${takwimact} pada ${takwimdate} bersama ${takwimncs}`
-      const reportTitle = `Laporan ${takwimact} pada ${takwimdate} bersama ${takwimncs}`
-      const sourcedate = takwimdate.replaceAll('/','')
-      const tableid = 'net-'+sourcedate
+      const takwimrowno = takwimtable.row(this).index()
+      const takwimrowdata = takwimtable.row(takwimrowno).data()
+      const takwimdate = takwimrowdata.Hari.split('<br>')[1]
+      const takwimact = takwimrowdata.Acara
+      const takwimncs = takwimrowdata.NCS.split('|')[0].trim()
+      const reportTitle = `Laporan aktiviti ${takwimact} pada ${takwimdate} bersama ${takwimncs}`
+      modalTitle.textContent = reportTitle
+      const tableid = `net-${sourcedate}`
       const modalBodyTable = netrep.querySelector('.modal-body table')
       modalBodyTable.id = tableid
       var netReportTable = $('#' + tableid).DataTable({

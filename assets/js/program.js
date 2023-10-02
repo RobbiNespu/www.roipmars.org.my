@@ -517,8 +517,8 @@ $(document).ready(function() {
           blurable: true,
           style: 'single'
         }
-      })      
-      // netReportTable.ajax.reload(null, false)    
+      })
+      // netReportTable.ajax.reload(null, false)
       $('#' + tableid).delegate('tbody tr td:nth-child(2)','click',function() {
         // let d = `${sourcedate}`.slice(0,2)
         // let m = `${sourcedate}`.slice(2,4)
@@ -529,6 +529,8 @@ $(document).ready(function() {
         // let clickmode = rowdata[2]
         // let clickdate = d + '/' + m + '/'+y
         // let clicktime = rowdata[3]
+        const occurrences = netReportTable.column(2).data().toArray().reduce(function (acc, curr) { return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc }, {})
+        console.log(occurrences)
         console.log(netReportTable.row(this).data())
         // console.clear()
         // alert(rowno + 1 + '\t' + clickcall + '\t' + clickmode + '\t' + clickdate + ' @ ' + clicktime)

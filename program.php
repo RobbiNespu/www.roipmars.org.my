@@ -187,18 +187,18 @@
 						</capton>
 					</table>
 					<div class='modal fade' id='netrep' tabindex='-1' aria-labelledby='netreport' aria-hidden='true'>
-						<div class='modal-dialog modal-dialog-centered modal-dialog-scrollable'>
+						<div class='modal-dialog modal-dialog-centered'>
 							<div class='modal-content'>
 								<div class='modal-header'>
 									<h4 class='modal-title text-center' id='netreport'>Laporan Aktiviti</h4>
-									<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
 								</div>
 								<div class='modal-body'>
 									<div class='row'>
-										<div class='col-8'><table class='table table-sm table-striped text-center align-middle' id='netrep'></table></div>
-										<div class='col-4 align-self-center text-center'>
-											<p><?php $reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini:<br>' . date('jS M Y\<\b\r\>H:i:s.B T', $reportLastMod); ?></p>
-											<table class='table table-sm text-center align-middle' style='font-size: x-small'>
+										<div class='col-8'>
+											<table class='table table-sm table-striped text-center align-middle' id='netRep'></table>
+										</div>
+										<div class='col-4 align-self-center text-center' style='font-size: x-small'>
+											<table class='table table-sm text-center align-middle'>
 												<thead class='table-primary'><tr><td colspan='2'>Mod Penghantaran</td></tr></thead>
 												<tbody>
 													<tr><td>DC</td><td>Discord</td></tr>
@@ -214,6 +214,8 @@
 													<tr><td>ZL</td><td>Zello</td></tr>
 												</tbody>
 											</table>
+											<!-- <table class='table table-sm table-striped text-center align-middle' id='netRepMod'></table> -->
+											<span class='lh-1 fst-italic'><?php $reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini:<br>' . date('jS M Y\<\b\r\>H:i:s.B T', $reportLastMod); ?></span>
 										</div>
 									</div>
 								</div>

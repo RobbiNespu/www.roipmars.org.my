@@ -24,7 +24,7 @@ $(document).ready(function() {
       },
       processing: 'Sedang memuat...',
       search: 'Cari Acara/Pengawal:',
-      select: { rows: { 1: 'memilih %d baris' } },
+      select: { rows: { 1: '' } },
       zeroRecords: 'Rekod Tidak Ditemui',
     },
     ordering: false,
@@ -51,7 +51,7 @@ $(document).ready(function() {
       {title: 'Unik', className: 'text-center align-middle', data: 'Unique'}
     ],
     deferRender: true,
-    info: false,
+    info: true,
     lengthChange: false,
     ordering: false,
     pageLength: 10,
@@ -427,13 +427,15 @@ $(document).ready(function() {
     }
   })
   
-  const netrep = document.getElementById('netrep')
-  netrep.addEventListener('show.bs.modal', event => {
+  const netRep = document.getElementById('netrep')
+  const netReport = document.getElementById('netRep')
+  const netRepMod = document.getElementById('netRepMod')
+  netRep.addEventListener('show.bs.modal', event => {
     const button = event.relatedTarget
     const source = button.getAttribute('data-bs-source')
     const sourcedate = source
     $('#takwim').delegate('tbody tr td:last-child', 'click', function () {
-      const modalTitle = netrep.querySelector('.modal-title')
+      const modalTitle = netRep.querySelector('.modal-title')
       const takwimrowno = takwimtable.row(this).index()
       const takwimrowdata = takwimtable.row(takwimrowno).data()
       const takwimdate = takwimrowdata.Hari.split('<br>')[1]
@@ -441,10 +443,9 @@ $(document).ready(function() {
       const takwimncs = takwimrowdata.NCS.split('|')[0].trim()
       const reportTitle = `Laporan aktiviti ${takwimact} pada ${takwimdate} bersama ${takwimncs}`
       modalTitle.textContent = reportTitle
-      const tableid = `net-${sourcedate}`
-      const modalBodyTable = netrep.querySelector('.modal-body table')
-      modalBodyTable.id = tableid
-      var netReportTable = $('#' + tableid).DataTable({
+      const reportID = `net-${sourcedate}`
+      netReport.id = reportID
+      var netReportTable = $('#' + reportID).DataTable({
         ajax: {
           url: '/assets/json/netrep.json',
           dataSrc: `${sourcedate}`
@@ -487,7 +488,7 @@ $(document).ready(function() {
         destroy: true,
         deferRender: true,
         fixedHeader: true,
-        info: false,
+        info: true,
         language: {
           emptyTable: 'Laporan Tidak Ditemui',
           info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
@@ -502,7 +503,7 @@ $(document).ready(function() {
           },
           processing: '<span class="visually-hidden">Sedang memuat...</span>',
           search: 'Cari:',
-          select: { cells: { _: 'memilih %d petak' } },
+          select: { rows: { 1: '' } },
           zeroRecords: 'Laporan Tidak Ditemui'
         },
         lengthChange: false,
@@ -518,8 +519,34 @@ $(document).ready(function() {
           style: 'single'
         }
       })
-      // netReportTable.ajax.reload(null, false)
-      $('#' + tableid).delegate('tbody tr td:nth-child(2)','click',function() {
+
+      // netReportTable.ajax.reload(null, false)  
+      
+      // const modReportID = `net-${sourcedate}-mod`
+      // netRepMod.id = modReportID
+      // const netRepModData = netReportTable.column(2).data()
+      // $('#' + reportID + '-mod').DataTable({
+      //   ajax: {
+      //     url: '/assets/json/netrep.json',
+      //     dataSrc: `${sourcedate}-mod`
+      //   },      
+      //   columns: [
+      //     {title: 'Mod', className: 'text-center align-middle', name: 'mod'},
+      //     {title: 'Kaedah', className: 'text-center align-middle', name: 'method'},
+      //     {title: '', className: 'text-center align-middle', name: 'count'},
+      //   ],
+      //   autoWidth: false,
+      //   destroy: true,
+      //   deferRender: true,
+      //   info: false,
+      //   lengthChange: false,
+      //   ordering: false,
+      //   paging: false,
+      //   responsive: true,
+      //   searching: false,
+      // })
+
+      $('#' + reportID).delegate('tbody tr td:nth-child(2)','click',function() {
         // let d = `${sourcedate}`.slice(0,2)
         // let m = `${sourcedate}`.slice(2,4)
         // let y = `${sourcedate}`.slice(4,6)
@@ -539,13 +566,11 @@ $(document).ready(function() {
       })      
     })
   })
-  netrep.addEventListener('hidden.bs.modal', event => {  
-    const modal = event.relatedTarget
-  
-    const modalTitle = netrep.querySelector('.modal-title')
-    modalTitle.textContent = `Laporan Aktiviti`
-  
-    const modalBodyTable = netrep.querySelector('.modal-body table')
-    modalBodyTable.id = 'netrep'
+  netRep.addEventListener('hidden.bs.modal', event => {  
+    const modal = event.relatedTarget  
+    const modalTitle = netRep.querySelector('.modal-title')
+    modalTitle.textContent = `Laporan Aktiviti`  
+    netReport.id = 'netRep'
+    // netRepMod.id = 'netRepMod'
   })
 })

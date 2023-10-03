@@ -23,14 +23,15 @@ $.getJSON('/assets/json/stat-country.json', function(countryData) {
       },
       options: {
         plugins: {
-          legend: {display: false},
-          title: {text: 'Panggilan Penyertaan'},
+          legend: { display: false },
+          title: { text: 'Panggilan Penyertaan' },
         },
         scales: {
           color: {
             axis: 'x',
             interpolate: 'gnBu',
-            quantize: 4,
+            missing: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-dark-bg-subtle'),
+            quantize: 5,
           },
           projection: {
             axis: 'x',

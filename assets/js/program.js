@@ -42,7 +42,7 @@ $(document).ready(function() {
       toggleable: true,
     },
   });
-  
+
   $('#uniq-ham-origin').DataTable({
     ajax: '/assets/json/stat-origin.json',
     autoWidth: false,
@@ -77,7 +77,7 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     }
   })
-  
+
   $('#all-ncs-rank').DataTable({
     ajax: '/assets/json/ncs-ham-all.json',
     columns: [
@@ -114,7 +114,7 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     }
   })
-  
+
   $('#en-ncs-rank').DataTable({
     ajax: '/assets/json/ncs-ham-en.json',
     columns: [
@@ -151,7 +151,7 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     }
   })
-  
+
   $('#ms-ncs-rank').DataTable({
     ajax: '/assets/json/ncs-ham-ms.json',
     columns: [
@@ -188,7 +188,7 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     }
   })
-  
+
   $('#cb-ncs-rank').DataTable({
     ajax: {
       url: '/assets/json/rank.json',
@@ -222,7 +222,7 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     }
   })
-  
+
   $('#voi-ncs-rank').DataTable({
     ajax: {
       url: '/assets/json/rank.json',
@@ -256,7 +256,7 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     }
   })
-  
+
   $('#all-stn-rank').DataTable({
     ajax: '/assets/json/stn-ham-all.json',
     columns: [
@@ -290,7 +290,7 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     }
   })
-  
+
   $('#en-stn-rank').DataTable({
     ajax: '/assets/json/stn-ham-en.json',
     columns: [
@@ -324,7 +324,7 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     }
   })
-  
+
   $('#ms-stn-rank').DataTable({
     ajax: '/assets/json/stn-ham-ms.json',
     columns: [
@@ -358,7 +358,7 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     }
   })
-  
+
   $('#cb-stn-rank').DataTable({
     ajax: '/assets/json/stn-cb.json',
     columns: [
@@ -392,7 +392,7 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     }
   })
-  
+
   $('#voi-stn-rank').DataTable({
     ajax: '/assets/json/stn-voi.json',
     columns: [
@@ -426,29 +426,30 @@ $(document).ready(function() {
       zeroRecords: 'Rekod Tidak Ditemui'
     }
   })
-  
+
   const netRep = document.getElementById('netrep')
   const netReport = document.getElementById('netRep')
   const netRepMod = document.getElementById('netRepMod')
   netRep.addEventListener('show.bs.modal', event => {
     const button = event.relatedTarget
     const source = button.getAttribute('data-bs-source')
-    const sourcedate = source
     $('#takwim').delegate('tbody tr td:last-child', 'click', function () {
       const modalTitle = netRep.querySelector('.modal-title')
       const takwimrowno = takwimtable.row(this).index()
       const takwimrowdata = takwimtable.row(takwimrowno).data()
+      const takwimday = takwimrowdata.Hari.split('<br>')[0]
       const takwimdate = takwimrowdata.Hari.split('<br>')[1]
+      const takwimtime = takwimrowdata.Hari.split('<br>')[2]
       const takwimact = takwimrowdata.Acara
       const takwimncs = takwimrowdata.NCS.split('|')[0].trim()
-      const reportTitle = `Laporan aktiviti ${takwimact} pada ${takwimdate} bersama ${takwimncs}`
+      const reportTitle = `Laporan aktiviti ${takwimact} pada ${takwimday}, ${takwimdate}, ${takwimtime} bersama ${takwimncs}`
       modalTitle.textContent = reportTitle
-      const reportID = `net-${sourcedate}`
+      const reportID = `net-${source}`
       netReport.id = reportID
       var netReportTable = $('#' + reportID).DataTable({
         ajax: {
           url: '/assets/json/netrep.json',
-          dataSrc: `${sourcedate}`
+          dataSrc: `${source}`
         },
         autoWidth: false,
         dom: 'Bfrtip',
@@ -457,7 +458,7 @@ $(document).ready(function() {
           download: 'download',
           className: 'btn-sm rounded-3 d-grid mb-1 mx-auto',
           text: 'Muat Turun Laporan',
-          filename: `RoIPMARS-Net_${sourcedate}`,
+          filename: `RoIPMARS-Net_${source}`,
           title: `${reportTitle}`,
           messageBottom: [{
             text: 'Report generated via roipmars.org.my on ' + new Date().toLocaleString() + '\nRF > Radio Transceiver | EL > EchoLink | PNT > Peanut for HAM\nTS > TeamSpeak | ZL > Zello | MBL > Mumble\nFRN > Free Radio Network | DC > Discord | TG > Telegram | TT > Team Talk',
@@ -520,16 +521,16 @@ $(document).ready(function() {
         }
       })
 
-      // netReportTable.ajax.reload(null, false)  
-      
-      // const modReportID = `net-${sourcedate}-mod`
+      // netReportTable.ajax.reload(null, false)
+
+      // const modReportID = `net-${source}-mod`
       // netRepMod.id = modReportID
       // const netRepModData = netReportTable.column(2).data()
       // $('#' + reportID + '-mod').DataTable({
       //   ajax: {
       //     url: '/assets/json/netrep.json',
-      //     dataSrc: `${sourcedate}-mod`
-      //   },      
+      //     dataSrc: `${source}-mod`
+      //   },
       //   columns: [
       //     {title: 'Mod', className: 'text-center align-middle', name: 'mod'},
       //     {title: 'Kaedah', className: 'text-center align-middle', name: 'method'},
@@ -547,9 +548,9 @@ $(document).ready(function() {
       // })
 
       $('#' + reportID).delegate('tbody tr td:nth-child(2)','click',function() {
-        // let d = `${sourcedate}`.slice(0,2)
-        // let m = `${sourcedate}`.slice(2,4)
-        // let y = `${sourcedate}`.slice(4,6)
+        // let d = `${source}`.slice(0,2)
+        // let m = `${source}`.slice(2,4)
+        // let y = `${source}`.slice(4,6)
         // let rowno = netReportTable.row(this).index()
         // let rowdata = netReportTable.row(rowno).data()
         // let clickcall = rowdata[1]
@@ -563,13 +564,13 @@ $(document).ready(function() {
         // alert(rowno + 1 + '\t' + clickcall + '\t' + clickmode + '\t' + clickdate + ' @ ' + clicktime)
         // netReportTable.ajax.reload(null,false)
         // downeQSL(clickcall, clickmode, clicktime)
-      })      
+      })
     })
   })
-  netRep.addEventListener('hidden.bs.modal', event => {  
-    const modal = event.relatedTarget  
+  netRep.addEventListener('hidden.bs.modal', event => {
+    const modal = event.relatedTarget
     const modalTitle = netRep.querySelector('.modal-title')
-    modalTitle.textContent = `Laporan Aktiviti`  
+    modalTitle.textContent = `Laporan Aktiviti`
     netReport.id = 'netRep'
     // netRepMod.id = 'netRepMod'
   })

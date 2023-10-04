@@ -51,7 +51,7 @@
                 <p class='card-title fs-2 fw-bold'><a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-info-circle-fill'></i></a> ZULKIFLI ABU</p>
                 <p class='card-subtitle fs-5 fw-semibold'>FOUNDER, LEAD ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
                 <p class='card-subtitle fs-5 fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; PENYELIDIK</p>
-                <p class='card-subtitle fw-light'>&#91;2018&#93; Dilantik oleh MART&acute;S sebagai penyelidik &#39;SIG&#39; &#40;Special Interest Group&#41;pengkhususan &#39;ROIP&#39; &#40;Radio over Internet Protocol&#41; &amp; &#39;VoIP&#39; &#40;Voice over Internet Protocol&#41;</p>
+                <p class='card-subtitle fw-light'>&#91;2018&#93; Dilantik oleh MART&acute;S sebagai penyelidik &#39;SIG&#39; &#40;Special Interest Group&#41; pengkhususan &#39;ROIP&#39; &#40;Radio over Internet Protocol&#41; &amp; &#39;VoIP&#39; &#40;Voice over Internet Protocol&#41;</p>
               </div>
             </div>
           </div>
@@ -128,7 +128,7 @@
     </div>
     <?php require_once 'footer.php' ?>    
 		<script src='https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/chartjs-chart-graph@4/build/index.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/chartjs-chart-graph@4/build/index.umd.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2/dist/chartjs-plugin-datalabels.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@2/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>

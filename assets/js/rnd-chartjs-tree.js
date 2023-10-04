@@ -5,7 +5,7 @@ Chart.register(ChartDeferred)
 Chart.register(ChartDataLabels)
 Chart.defaults.font.family = 'Open Sans'
 Chart.defaults.font.lineHeight = 1
-Chart.defaults.font.size = 10
+Chart.defaults.font.size = 11
 Chart.defaults.plugins.datalabels.backgroundColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-tertiary-bg')
 Chart.defaults.plugins.datalabels.borderColor = '#336699'
 Chart.defaults.plugins.datalabels.borderRadius = 5
@@ -46,7 +46,7 @@ fetch('/assets/json/rnd-ham-tree.json').then((r) => r.json()).then((data) => {
     },
     options: {
       layout: {padding: {bottom: 20, left: 50, right: 50, top: 5}},
-      plugins: {title: {text: 'RoIPMARS HAM Network'}},      
+      plugins: {title: {text: 'RoIPMARS HAM Network'}},
       watermark: wmOptions,
     },
     type: 'forceDirectedGraph',
@@ -62,7 +62,7 @@ fetch('/assets/json/rnd-cb-tree.json').then((r) => r.json()).then((data) => {
         label: data.map((d) => d.label),
         pointRadius: 11,
         pointStyle: 'rectRounded',
-        tension: 0.5,
+        tension: 0,
       }],
       labels: data.map((d) => d.label),
     },

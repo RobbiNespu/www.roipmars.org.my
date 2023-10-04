@@ -5,7 +5,7 @@
 		}
 	],
 	"settings": {
-		"php.version": "v8.4.0-dev_cgi",
+		"php.version": "8.3.0RC3",
 		"search.useGlobalIgnoreFiles": false
 	}
 }

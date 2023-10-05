@@ -25,7 +25,7 @@
     <meta name='twitter:url' content='https://www.roipmars.org.my/member'>
     <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
-    <link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.6/af-2.6.0/b-2.4.2/b-colvis-2.4.2/b-html5-2.4.2/b-print-2.4.2/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.css' crossorigin='anonymous'>   
+    <link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.6/af-2.6.0/b-2.4.2/b-colvis-2.4.2/b-html5-2.4.2/b-print-2.4.2/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.css' crossorigin='anonymous'>
   </head>
 
   <body>
@@ -294,7 +294,7 @@
               <!-- <tr class='opacity-25'><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>2021-07-02</td></tr> -->
               <!-- <tr class='opacity-75'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>2022-12-31</td></tr> -->
               <!-- <tr class='opacity-25'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>2021-07-02</td></tr> -->
-              <tr class='opacity-75'><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2022-12-31</td></tr>
+              <tr><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2023-06-30</td></tr>
               <tr><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>2023-12-31</td></tr>
               <!-- <tr class='opacity-25'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>2021-07-02</td></tr> -->
               <tr class='opacity-75'><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>2022-12-31</td></tr>
@@ -314,9 +314,9 @@
       </div>
     </div>
     <?php require_once 'footer.php' ?>
+		<script src='https://cdn.jsdelivr.net/npm/pdfmake@0.3.0-beta.5/build/pdfmake.min.js' integrity='sha256-tUkM6Eux54YcZfZT+Y4fYFaP/Qrp9slOUDMaNEvSMhk=' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/pdfmake@0.3.0-beta.5/build/vfs_fonts.js' integrity='sha256-4IreCWwcWQ5hWSbNRGQnYsFl9Oddywhe04LdPfNSsDg=' crossorigin='anonymous'></script>
 		<script src='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.6/af-2.6.0/b-2.4.2/b-colvis-2.4.2/b-html5-2.4.2/b-print-2.4.2/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js' integrity='sha512-a9NgEEK7tsCvABL7KqtUTQjl69z7091EVPpw5KxPlZ93T141ffe1woLtbXTX+r2/8TtTvRX/v4zTL2UlMUPgwg==' crossorigin='anonymous'></script>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.min.js' integrity='sha512-P0bOMePRS378NwmPDVPU455C/TuxDS+8QwJozdc7PGgN8kLqR4ems0U/3DeJkmiE31749vYWHvBOtR+37qDCZQ==' crossorigin='anonymous'></script>
     <script src='/assets/js/member.js'></script>
   </body>
 

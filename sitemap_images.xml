@@ -697,12 +697,6 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/freq/27cb</loc>
-    <lastmod>2023-10-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.roipmars.org.my/nts/2023/09</loc>
     <lastmod>2023-10-06</lastmod>
     <changefreq>daily</changefreq>
@@ -811,18 +805,6 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/freq/446pmr</loc>
-    <lastmod>2023-10-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/freq/27cbmy</loc>
-    <lastmod>2023-10-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.roipmars.org.my/nts/2020/09</loc>
     <lastmod>2023-10-06</lastmod>
     <changefreq>daily</changefreq>
@@ -833,12 +815,6 @@
       <image:image>
         <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/zello/orange.png</image:loc>
       </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/list/membersmap</loc>
-    <lastmod>2023-10-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/04</loc>

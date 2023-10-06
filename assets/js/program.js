@@ -9,7 +9,7 @@ $(document).ready(function() {
       { className: 'text-center align-middle', data: 'Laporan', name: 'lapor', searchable: true, title: 'Laporan' },
     ],
     deferRender: true,
-    displayStart: 200,
+    displayStart: 210,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
       info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
@@ -41,7 +41,7 @@ $(document).ready(function() {
       style: 'single',
       toggleable: true,
     },
-  });
+  })
 
   $('#uniq-ham-origin').DataTable({
     ajax: '/assets/json/stat-origin.json',

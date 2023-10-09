@@ -5,13 +5,16 @@ Chart.register(ChartDeferred)
 Chart.register(ChartDataLabels)
 Chart.defaults.font.family = 'Open Sans'
 Chart.defaults.font.lineHeight = 1
-Chart.defaults.font.size = 11
+Chart.defaults.font.size = 10
 Chart.defaults.plugins.datalabels.backgroundColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-tertiary-bg')
 Chart.defaults.plugins.datalabels.borderColor = '#336699'
 Chart.defaults.plugins.datalabels.borderRadius = 5
 Chart.defaults.plugins.datalabels.borderWidth = 0.75
 Chart.defaults.plugins.datalabels.color = '#56C3E7'
+Chart.defaults.plugins.datalabels.clamp = true
+Chart.defaults.plugins.datalabels.font.lineHeight = 1
 Chart.defaults.plugins.datalabels.textAlign = 'center'
+Chart.defaults.plugins.datalabels.padding = {top: 2, bottom: 2, left: 4, right: 4}
 Chart.defaults.plugins.deferred.daley = 1000
 Chart.defaults.plugins.deferred.yOffset = '100%'
 Chart.defaults.plugins.legend.display = false
@@ -38,7 +41,7 @@ fetch('/assets/json/rnd-ham-tree.json').then((r) => r.json()).then((data) => {
         borderWidth: 1,
         data: data.map((d) => Object.assign({}, d)),
         label: data.map((d) => d.label),
-        pointRadius: 11,
+        pointRadius: 5,
         pointStyle: 'rectRounded',
         tension: 0.5,
       }],
@@ -60,15 +63,15 @@ fetch('/assets/json/rnd-cb-tree.json').then((r) => r.json()).then((data) => {
         borderWidth: 1,
         data: data.map((d) => Object.assign({}, d)),
         label: data.map((d) => d.label),
-        pointRadius: 11,
+        pointRadius: 5,
         pointStyle: 'rectRounded',
-        tension: 0,
+        tension: 0.25,
       }],
       labels: data.map((d) => d.label),
     },
     options: {
       layout: {padding: {bottom: 20, left: 50, right: 50, top: 5}},
-      plugins: {title: {text: 'RoIPMARS CB Network'}},      
+      plugins: {title: {text: 'RoIPMARS CB Network'}},
       watermark: wmOptions,
     },
     type: 'forceDirectedGraph',

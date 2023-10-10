@@ -251,8 +251,11 @@
 				<div class='col-lg-6 figure my-1'>
 					<canvas id='byMode' loading='lazy' alt='NetGraphMode23'></canvas>
 				</div>
+				<!-- <div class='col-lg-6 figure my-1'>
+					<canvas id='byCSLocaleDays' loading='lazy' alt='NetGraphCallerDays23'></canvas>
+				</div> -->
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byCSLocale' loading='lazy' alt='NetGraphCaller23'></canvas>
+					<canvas id='byCSLocaleWeek' loading='lazy' alt='NetGraphCallerWeek23'></canvas>
 				</div>
 				<div class='col-lg-9 figure my-1 align-items-center'>
 					<canvas id='byCountry' loading='lazy' alt='NetGraphMap23'></canvas>

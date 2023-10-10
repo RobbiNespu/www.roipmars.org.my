@@ -6,6 +6,8 @@ const byMonth = document.getElementById('byMonth')
 const byQuarter = document.getElementById('byQuarter')
 const byCategory = document.getElementById('byCategory')
 const byMode = document.getElementById('byMode')
+const byCSLocaleWeek = document.getElementById('byCSLocaleWeek')
+const byCSLocaleDays = document.getElementById('byCSLocaleDays')
 
 Chart.register(ChartDeferred)
 // Chart.register(annotationPlugin)
@@ -63,10 +65,10 @@ $.getJSON('/assets/json/stat-days.json', function (daysData) {
     new Chart(byDate, {
       data: {
         datasets: [
-          { data: daysData.HAMMS, label: 'HAM-MS' },
-          { data: daysData.HAMEN, label: 'HAM-EN' },
-          { data: daysData.CB, label: 'CB' },
-          { data: daysData.VOI, label: 'VOI' },
+          {data: daysData.HAMMS, label: 'HAM-MS'},
+          {data: daysData.HAMEN, label: 'HAM-EN'},
+          {data: daysData.CB, label: 'CB'},
+          {data: daysData.VOI, label: 'VOI'},
         ],
         labels: daysData.Days,
       },
@@ -76,11 +78,11 @@ $.getJSON('/assets/json/stat-days.json', function (daysData) {
         pointBorderWidth: 1,
         pointStyle: 'crossRot',
         plugins: {
-          title: { text: 'Harian' },
+          title: {text: 'Harian'},
           annotation: {
             annotations: {
               avgHAMMSval: {
-                borderColor: '#336699',
+                borderColor: 'rgb(54, 162, 235)',
                 borderDash: [15, 3, 3, 3],
                 borderWidth: 1,
                 type: 'line',
@@ -91,7 +93,7 @@ $.getJSON('/assets/json/stat-days.json', function (daysData) {
                 backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
                 color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
                 content: 'MS: ' + avgData.average_HAMMS.toFixed(),
-                font: { size: 10 },
+                font: {size: 10},
                 padding: 1.5,
                 position: 'start',
                 type: 'label',
@@ -99,7 +101,7 @@ $.getJSON('/assets/json/stat-days.json', function (daysData) {
                 yValue: avgData.average_HAMMS.toFixed(),
               },
               avgHAMENval: {
-                borderColor: '#56C3E7',
+                borderColor: 'rgb(255, 99, 132)',
                 borderDash: [15, 3, 3, 3],
                 borderWidth: 1,
                 type: 'line',
@@ -110,7 +112,7 @@ $.getJSON('/assets/json/stat-days.json', function (daysData) {
                 backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
                 color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
                 content: 'EN: ' + avgData.average_HAMEN.toFixed(),
-                font: { size: 10 },
+                font: {size: 10},
                 padding: 1.5,
                 position: 'start',
                 type: 'label',
@@ -123,8 +125,8 @@ $.getJSON('/assets/json/stat-days.json', function (daysData) {
         showLine: true,
         spanGaps: true,
         scales: {
-          x: { grid: { display: false } },
-          y: { grid: { display: false }, min: 10, type: 'logarithmic' }
+          x: {grid: {display: false}} ,
+          y: {grid: {display: false}, min: 10, type: 'logarithmic'}
         },
         tension: 0.25,
         watermark: wmOptions,
@@ -257,8 +259,35 @@ $.getJSON('/assets/json/stat-mode.json', function(modeData) {
   })
 })
 
+/* $.getJSON('/assets/json/stat-days.json', function(localeData) {
+  new Chart(byCSLocaleDays,{
+    data: {
+      datasets: [
+        {data: localeData.LOC, label: 'Domestik'},
+        {data: localeData.INTL, label: 'Antarabangsa'},
+      ],
+      labels: localeData.Days,
+    },
+    options: {
+      borderJoinStyle: 'round',
+      borderWidth: 1,
+      plugins: {title: {text: 'Panggilan'}},
+      pointBorderWidth: 1,
+      pointStyle: 'crossRot',
+      scales: {
+        x: {grid: {display: false}},
+        y: {grid: {display: false}, type: 'logarithmic'}
+      },
+      showLine: true,
+      tension: 0.25,
+      watermark: wmOptions,
+    },
+    type: 'line',
+  })
+}) */
+
 $.getJSON('/assets/json/stat-week.json', function(localeData) {
-  new Chart(byCSLocale,{
+  new Chart(byCSLocaleWeek,{
     data: {
       datasets: [
         {data: localeData.LOC, label: 'Domestik'},
@@ -271,7 +300,7 @@ $.getJSON('/assets/json/stat-week.json', function(localeData) {
       borderWidth: 1,
       plugins: {title: {text: 'Panggilan'}},
       pointBorderWidth: 1,
-      pointStyle: 'rectRounded',
+      pointStyle: 'cross',
       scales: {
         x: {grid: {display: false}},
         y: {grid: {display: false}, type: 'logarithmic'}

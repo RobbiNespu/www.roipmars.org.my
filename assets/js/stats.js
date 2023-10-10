@@ -259,14 +259,14 @@ $.getJSON('/assets/json/stat-mode.json', function(modeData) {
   })
 })
 
-/* $.getJSON('/assets/json/stat-days.json', function(localeData) {
+/* $.getJSON('/assets/json/stat-days.json', function(localeDaysData) {
   new Chart(byCSLocaleDays,{
     data: {
       datasets: [
-        {data: localeData.LOC, label: 'Domestik'},
-        {data: localeData.INTL, label: 'Antarabangsa'},
+        {data: localeDaysData.LOC, label: 'Domestik'},
+        {data: localeDaysData.INTL, label: 'Antarabangsa'},
       ],
-      labels: localeData.Days,
+      labels: localeDaysData.Days,
     },
     options: {
       borderJoinStyle: 'round',
@@ -286,14 +286,14 @@ $.getJSON('/assets/json/stat-mode.json', function(modeData) {
   })
 }) */
 
-$.getJSON('/assets/json/stat-week.json', function(localeData) {
+$.getJSON('/assets/json/stat-week.json', function(localeWeekData) {
   new Chart(byCSLocaleWeek,{
     data: {
       datasets: [
-        {data: localeData.LOC, label: 'Domestik'},
-        {data: localeData.INTL, label: 'Antarabangsa'},
+        {data: localeWeekData.LOC, label: 'Domestik'},
+        {data: localeWeekData.INTL, label: 'Antarabangsa'},
       ],
-      labels: localeData.Week,
+      labels: localeWeekData.Week,
     },
     options: {
       borderJoinStyle: 'round',

@@ -70,9 +70,9 @@
           </table>
           <p class='mb-1'>Perisian tambahan untuk bantuan desktop:</p>
           <div class='btn-group d-flex mx-auto' role='group'>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.3-x86_64.exe' download>RustDesk <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.3-x86_64.deb' download>RustDesk <i class='bi-ubuntu'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.3-x86_64.dmg' download>RustDesk <i class='bi-apple'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe' download>RustDesk <i class='bi-windows'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb' download>RustDesk <i class='bi-ubuntu'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg' download>RustDesk <i class='bi-apple'></i></a>
           </div>
           <div class='btn-group d-flex mx-auto mx-2' role='group'>
             <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe' download>TeamViewer <i class='bi-windows'></i></a>

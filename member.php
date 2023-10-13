@@ -294,7 +294,7 @@
               <!-- <tr class='opacity-25'><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>2021-07-02</td></tr> -->
               <!-- <tr class='opacity-75'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>2022-12-31</td></tr> -->
               <!-- <tr class='opacity-25'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>2021-07-02</td></tr> -->
-              <tr><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2023-06-30</td></tr>
+              <tr><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2024-06-30</td></tr>
               <tr><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>2023-12-31</td></tr>
               <!-- <tr class='opacity-25'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>2021-07-02</td></tr> -->
               <tr class='opacity-75'><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>2022-12-31</td></tr>

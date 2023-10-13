@@ -1,5 +1,3 @@
-module.exports = {
-  cache: false,
-  https: true,
-  withExtension: 'redirect'
-};
+export const cache = false
+export const https = false
+export const withExtension = 'redirect'

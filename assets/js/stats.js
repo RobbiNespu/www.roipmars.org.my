@@ -14,7 +14,7 @@ Chart.register(ChartDeferred)
 Chart.defaults.font.family = 'Open Sans'
 Chart.defaults.font.lineHeight = 1
 Chart.defaults.font.size = 10
-Chart.defaults.plugins.deferred.daley = 1000
+Chart.defaults.plugins.deferred.delay = 1000
 Chart.defaults.plugins.deferred.yOffset = '50%'
 Chart.defaults.plugins.legend.position = 'top'
 Chart.defaults.plugins.title.display = true

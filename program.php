@@ -77,91 +77,78 @@
 						</tbody>
 					</table>
 					<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>
-					<div id='ncs23' class='carousel slide' data-bs-ride='carousel'>
+					<div id='ncsgroup' class='carousel slide' data-bs-ride='carousel'>
 						<div class='carousel-inner my-0'>
 							<div class='carousel-item active'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2AYP'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png'alt='9W2AYP'>
 										<p class='lh-1'>9W2AYP<br>SABRI</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6JAY'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png' alt='9M6JAY'>
 										<p class='lh-1'>9M6JAY<br>JOHN JUNIOR</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/029.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2JCP'>
-										<p class='lh-1'>9W2JCP<br>ROSLI</p>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png' alt='9M2SFL'>
+										<p class='lh-1'>9M2SFL<br>SAIFUL</p>
 									</div>
 								</div>
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M2SFL'>
-										<p class='lh-1'>9M2SFL<br>SAIFUL</p>
-									</div>
-									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6AUA'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png' alt='9M6AUA'>
 										<p class='lh-1'>9M6AUA<br>JEOFREY</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6RDY'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
 										<p class='lh-1'>9M6RDY<br>MATTHEUS &#64; RUDY</p>
+									</div>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6rhm.png' alt='9M6RHM'>
+										<p class='lh-1'>9M6RHM<br>RAHIM</p>
 									</div>
 								</div>
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6rhm.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9M6RHM'>
-										<p class='lh-1'>9M6RHM<br>RAHIM</p>
-									</div>
 									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YBT'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png' alt='9W2YBT'>
 										<p class='lh-1'>9W2YBT<br>FAISAL</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2yhm.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W2YHM'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2yhm.png' alt='9W2YHM'>
 										<p class='lh-1'>9W2YHM<br>HELMI</p>
 									</div>
-								</div>
-							</div>
-							<div class='carousel-item'>
-								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6aze.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6AZE'>
-										<p class='lh-1'>9W6AZE<br>HAZARI</p>
-									</div>
-									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6MOZ'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' alt='9W6MOZ'>
 										<p class='lh-1'>9W6MOZ<br>MUSTAFA</p>
 									</div>
-									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' alt='9W6RHN'>
-										<p class='lh-1'>9W6RHN<br>ROSLAN</p>
-									</div>
 								</div>
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6wot.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='9W6WOT'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
+										<p class='lh-1'>9W6RHN<br>ROSLAN</p>
+									</div>
+									<div class='vstack gap-2'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6wot.png' alt='9W6WOT'>
 										<p class='lh-1'>9W6WOT<br>STEWARD</p>
 									</div>
 									<div class='vstack gap-2'>
-										<img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' loading='lazy' class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' alt='V85AFF'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' alt='V85AFF'>
 										<p class='lh-1'>V85AFF<br>MAHATHIR</p>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class='carousel-indicators position-relative my-0 mx-auto pe-none'>
-							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='0' aria-label='Slide 1' class='active' aria-current='true'></button>
-							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='1' aria-label='Slide 2'></button>
-							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='2' aria-label='Slide 3'></button>
-							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='3' aria-label='Slide 4'></button>
-							<button type='button' data-bs-target='#ncs23' data-bs-slide-to='4' aria-label='Slide 5'></button>
+							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='0' aria-label='ncsgroup-1' class='active' aria-current='true'></button>
+							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='1' aria-label='ncsgroup-2'></button>
+							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='2' aria-label='ncsgroup-3'></button>
+							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='3' aria-label='ncsgroup-4'></button>
 						</div>
 					</div>
 				</div>

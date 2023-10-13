@@ -105,6 +105,7 @@
 										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
 										<p class='lh-1'>9M6RDY<br>MATTHEUS &#64; RUDY</p>
 									</div>
+									<div class='vstack gap-2'>
 										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6rhm.png' alt='9M6RHM'>
 										<p class='lh-1'>9M6RHM<br>RAHIM</p>
 									</div>
@@ -112,7 +113,6 @@
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
-									<div class='vstack gap-2'>
 									<div class='vstack gap-2'>
 										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png' alt='9W2YBT'>
 										<p class='lh-1'>9W2YBT<br>FAISAL</p>

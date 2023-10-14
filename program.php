@@ -157,7 +157,18 @@
 			<div class='row'>
 				<div class='col-12 my-1 text-center'>
 					<h2 class='font-weight-bold'>Takwim Program</h2>
-					<span><?php $scheduleLastMod = filemtime(__DIR__.'/assets/json/scheduled.json'); echo 'kemaskini pada: ' . date('D, j/n/Y, H:i T', $scheduleLastMod); ?></span>
+					<span><?php
+						$dtfmt = datefmt_create(
+							'ms_MY',
+							IntlDateFormatter::FULL,
+							IntlDateFormatter::FULL,
+							'Asia/Kuala_Lumpur',
+							IntlDateFormatter::GREGORIAN,
+							'EEEE, dd MMMM yyyy, HH:mm zzzz'
+						);
+						$scheduleLastMod = filemtime(__DIR__ . '/assets/json/scheduled.json');
+						echo 'kemaskini pada: ' . datefmt_format($dtfmt, $scheduleLastMod);
+					?></span>
 				</div>
 				<div class='table-responsive'>
 					<table class='table table-sm table-striped text-center align-middle' id='takwim'>
@@ -202,7 +213,17 @@
 												</tbody>
 											</table>
 											<!-- <table class='table table-sm table-striped text-center align-middle' id='netRepMod'></table> -->
-											<span class='lh-1 fst-italic'><?php $reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini:<br>' . date('jS M Y\<\b\r\>H:i:s.B T', $reportLastMod); ?></span>
+											<span class='lh-1 fst-italic'><?php
+												$dtfmt = datefmt_create(
+													'ms_MY',
+													IntlDateFormatter::FULL,
+													IntlDateFormatter::FULL,
+													'Asia/Kuala_Lumpur',
+													IntlDateFormatter::GREGORIAN,
+													'EEEE, dd MMMM yyyy, HH:mm zzzz'
+												);
+												$reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+											?></span>
 										</div>
 									</div>
 								</div>

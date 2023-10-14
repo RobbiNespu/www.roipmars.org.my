@@ -30,8 +30,20 @@
   <body>
     <?php require_once 'header.php' ?>
     <div class='container'>
-      <div class='row'>
-        <h1 class='h1-responsive text-center my-3'>Polisi Perkhidmatan RoIPMARS</h1>
+      <div class='row text-center my-3'>
+        <h1 class='h1-responsive'>Polisi Perkhidmatan RoIPMARS</h1>
+        <p><?php
+          $dtfmt = datefmt_create(
+            'ms_MY',
+            IntlDateFormatter::FULL,
+            IntlDateFormatter::FULL,
+            'Asia/Kuala_Lumpur',
+            IntlDateFormatter::GREGORIAN,
+            'EEEE, dd MMMM yyyy, HH:mm zzzz'
+          );
+          $file_last_mod = filemtime(__FILE__);
+          echo 'Pindaan: ' . datefmt_format($dtfmt, $file_last_mod);
+        ?></p>
       </div>
       <div class='row my-3'>
         <div class='col-4'>
@@ -69,8 +81,8 @@
           <div data-bs-spy='scroll' data-bs-target='#navbar-policy' data-bs-offset='0' data-bs-smooth-scroll='true' class='scrollspy-policy' tabindex='0'>
             <div id='tos'>
               <h4>Terma &amp; Syarat</h4>
-              <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], terletak di //www.roipmars.org.my.</p>
-              <p>Dengan mengakses laman sesawang ini, kami menganggap anda menerima dan bersetuju dengan terma dan syarat ini. Jangan terus menggunakan RoIPMARS jika anda tidak bersetuju untuk menerima semua terma dan syarat yang dinyatakan di halaman ini.</p>
+              <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], terletak di roipmars.org.my.</p>
+              <p>Dengan mengakses laman sesawang ini, kami menganggap anda menerima dan bersetuju dengan terma dan syarat ini. Jangan terus menggunakan Perkhidmatan RoIPMARS jika anda tidak bersetuju untuk menerima semua terma dan syarat yang dinyatakan di halaman ini.</p>
               <p>Istilah berikut digunakan untuk Terma dan Syarat ini, Pernyataan Privasi dan Notis Penafian dan semua Perjanjian:</p>
               <ul>
                 <li>&quot;Pengguna&quot;, &quot;Anda&quot;, merujuk kepada anda, orang yang log masuk ke laman sesawang ini dan mematuhi terma dan syarat.</li>
@@ -163,7 +175,7 @@
             </div>
             <div id='disclaimer'>
               <h5>Penafian</h5>
-              <p>Setakat maksimum yang dibenarkan oleh undang-undang yang terpakai, kami mengecualikan semua representasi, waranti dan syarat yang berkaitan dengan laman sesawang kami dan penggunaan laman sesawang ini. Tiada apa-apa dalam penafian ini akan:</p>
+              <p>Setakat yang dibenarkan oleh undang-undang yang terpakai, kami mengecualikan semua representasi, waranti dan syarat yang berkaitan dengan laman sesawang kami dan penggunaan laman sesawang ini. Tiada apa-apa dalam penafian ini akan:</p>
               <ul>
                 <li>menghadkan atau mengecualikan liabiliti kami atau anda untuk kematian atau kecederaan peribadi;</li>
                 <li>menghadkan atau mengecualikan liabiliti kami atau anda untuk penipuan atau salah nyata penipuan;</li>
@@ -179,7 +191,7 @@
             </div>
             <div id='privacy'>
               <h4>Dasar Privasi</h4>
-              <p>Di RoIPMARS, boleh diakses daripada //www.roipmars.org.my dan semua sub-domainnya, salah satu keutamaan utama kami ialah privasi pelawat kami. Dokumen Dasar Privasi ini mengandungi jenis maklumat yang dikumpul dan direkodkan oleh RoIPMARS dan cara kami menggunakannya.</p>
+              <p>Di RoIPMARS, boleh diakses daripada roipmars.org.my dan semua sub-domainnya, salah satu keutamaan utama kami ialah privasi pelawat kami. Dokumen Dasar Privasi ini mengandungi jenis maklumat yang dikumpul dan direkodkan oleh RoIPMARS dan cara kami menggunakannya.</p>
               <p>Jika anda mempunyai soalan tambahan atau memerlukan maklumat lanjut tentang Dasar Privasi kami, jangan teragak-agak untuk menghubungi kami.</p>
               <p>Dasar Privasi ini hanya terpakai untuk aktiviti dalam talian kami dan sah untuk pelawat ke laman web kami berkenaan dengan maklumat yang mereka kongsi dan/atau kumpulkan dalam RoIPMARS. Dasar ini tidak terpakai kepada sebarang maklumat yang dikumpul di luar talian atau melalui saluran selain laman web ini.</p>
             </div>
@@ -235,7 +247,7 @@
             </div>
             <div id='return'>
               <h4>Dasar Pemulangan dan Bayaran Balik</h4>
-              <p>Terima kasih kerana membeli-belah di RoIPMARS. Jika, atas sebarang sebab, Anda tidak berpuas hati sepenuhnya dengan pembelian Kami menjemput Anda untuk menyemak dasar kami mengenai bayaran balik dan pemulangan. Terma berikut terpakai untuk sebarang produk / perkhidmatan yang Anda beli dengan Kami.</p>
+              <p>Terima kasih kerana membeli-belah di RoIPMARS. Jika, atas sebarang sebab, anda tidak berpuas hati sepenuhnya dengan pembelian / langganan, kami menjemput anda untuk menyemak dasar kami mengenai bayaran balik dan pemulangan. Terma berikut terpakai untuk sebarang produk / perkhidmatan yang anda beli / langgan dengan Kami.</p>
             </div>
             <div id='interpretation'>
               <h5>Tafsiran</h5>
@@ -244,10 +256,10 @@
               <p>Untuk tujuan Polisi Pemulangan dan Bayaran Balik ini:</p>
               <ul>
                 <li><strong>Organisasi</strong> (dirujuk sama ada &quot;Organisasi&quot;, &quot;Kami&quot; dalam Perjanjian ini) merujuk kepada PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP(RADIO OVER NTERNET PROTOKOL)) [PPM-006-10-01062020]</li>
-                <li><strong>Barang</strong> merujuk kepada item yang ditawarkan untuk dijual pada Perkhidmatan.</li>
+                <li><strong>Barang</strong> merujuk kepada produk / khidmat yang ditawarkan untuk dijual pada Perkhidmatan.</li>
                 <li><strong>Pesanan</strong> bermaksud permintaan oleh Anda untuk membeli Barang daripada Kami.</li>
-                <li><strong>Perkhidmatan</strong> merujuk kepada laman Web.</li>
-                <li><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada //www.roipmars.org.my dan semua sub-domainnya</li>
+                <li><strong>Perkhidmatan</strong> merujuk kepada laman Web dan/atau khidmat.</li>
+                <li><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada roipmars.org.my dan semua sub-domainnya</li>
                 <li><strong>Anda</strong> bermaksud individu yang mengakses atau menggunakan Perkhidmatan, atau organisasi, atau entiti undang-undang lain bagi pihak individu tersebut mengakses atau menggunakan Perkhidmatan, mengikut mana yang berkenaan.</li>
               </ul>
             </div>
@@ -259,7 +271,7 @@
               <ul>
                 <li>Melalui e-mel: member@roipmars.org.my</li>
               </ul>
-              <p>Kami akan membayar balik kepada Anda tidak lewat daripada 7 hari bekerja dari hari Kami menerima Barang yang dikembalikan. Kami akan menggunakan cara pembayaran yang sama seperti yang Anda gunakan untuk Pesanan dan Anda tidak akan dikenakan sebarang bayaran untuk pembayaran balik tersebut.</p>
+              <p>Kami akan membayar balik kepada Anda tidak lewat daripada 14 hari bekerja dari hari Kami menerima Barang yang dikembalikan. Kami akan menggunakan cara pembayaran yang sama seperti yang Anda gunakan untuk Pesanan dan Anda tidak akan dikenakan sebarang bayaran untuk pembayaran balik tersebut.</p>
             </div>
             <div id='retuning'>
               <h5>Syarat untuk Pemulangan</h5>

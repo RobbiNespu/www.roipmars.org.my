@@ -25,6 +25,14 @@
           <div class='col-md-8'>
             <p class='text-md-end font-monospace user-select-none text-break m-0'><a href='/policies' class='text-reset text-decoration-none pe-auto'>Polisi Perkhidmatan</a><span class='text-body-tertiary'> &#124; <i class='fa-solid fa-code'></i> <i class='fa-brands fa-github'></i> <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-square-js'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-font-awesome'></i><br>
             <?php
+            $dtfmt = datefmt_create(
+              'ms_MY',
+              IntlDateFormatter::FULL,
+              IntlDateFormatter::FULL,
+              'Asia/Kuala_Lumpur',
+              IntlDateFormatter::GREGORIAN,
+              'EEEE, dd MMMM yyyy, HH:mm zzzz'
+            );
             function scan_dir($dir) {
               $files = array();
               foreach (scandir($dir) as $file) {
@@ -46,7 +54,7 @@
               }
               return $ipAdress;
             }
-            echo 'Kemaskini: ' . date('D, j/n/Y, H:i T', $fileindir) . '<br>IP Anda: ' . getVisitorIp();
+            echo 'Kemaskini: ' . datefmt_format($dtfmt, $fileindir) . '<br>IP Anda: ' . getVisitorIp();
             ?></span></p>
           </div>
           <div class='col-md-12 my-0'>
@@ -58,7 +66,7 @@
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js' crossorigin='anonymous'></script>
     <script src='/assets/js/sources.js'></script>
-    <script src='https://roipmarsnetwork.statuspage.io/embed/script.js' crossorigin='anonymous'></script>    
+    <script src='https://roipmarsnetwork.statuspage.io/embed/script.js' crossorigin='anonymous'></script>
     <script src='/assets/js/theme.js'></script>
   </body>
 

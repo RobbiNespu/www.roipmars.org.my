@@ -9,18 +9,18 @@
     <meta name='language' content='Malay'>
     <meta name='author' content='HafiziRuslan'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
-    <meta name='title' content='RoIPMARS Network | Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS'>
+    <meta name='title' content='RoIPMARS™ Network | Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS'>
     <meta name='description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS'>
     <meta name='keywords' content='roipmarsnetwork, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
     <meta name='robots' content='index, follow'>
     <meta property='og:site_name' content='RoIPMARS'>
-    <meta property='og:title' content='RoIPMARS Network | Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS'>
+    <meta property='og:title' content='RoIPMARS™ Network | Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS'>
     <meta property='og:url' content='https://www.roipmars.org.my/nts/2023/07'>
     <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
-    <meta name='twitter:title' content='RoIPMARS Network | Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS'>
+    <meta name='twitter:title' content='RoIPMARS™ Network | Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS'>
     <meta name='twitter:url' content='https://www.roipmars.org.my/nts/2023/07'>
     <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>

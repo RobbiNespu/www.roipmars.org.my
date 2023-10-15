@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Perubahan Platform Kedai RoIPMARS</title>
+    <title>RoIPMARS™ Network | Perubahan Platform Kedai RoIPMARS</title>
     <meta charset='utf-8'>
     <meta http-equiv='Content-Type' content='text/html'>
     <meta http-equiv='content-language' content='ms-MY'>

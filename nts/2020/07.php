@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Notice Teamspeak Connection Issue</title>
+    <title>RoIPMARS™ Network | Notice Teamspeak Connection Issue</title>
     <meta charset='utf-8'>
     <meta http-equiv='Content-Type' content='text/html'>
     <meta http-equiv='content-language' content='ms-MY'>

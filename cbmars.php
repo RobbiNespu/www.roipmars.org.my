@@ -77,14 +77,7 @@
         </div>
         <div class='col-12 text-center lh-1'>
           <p><span class='cscount badge rounded-3 text-bg-success'></span><?php
-            $dtfmt = datefmt_create(
-              'ms_MY',
-              IntlDateFormatter::FULL,
-              IntlDateFormatter::FULL,
-              'Asia/Kuala_Lumpur',
-              IntlDateFormatter::GREGORIAN,
-              'EEEE, dd MMMM yyyy, HH:mm zzzz'
-            );
+            $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
             $file_last_modified = filemtime(__DIR__ . '/assets/json/cbmars.json');
             echo ' setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>

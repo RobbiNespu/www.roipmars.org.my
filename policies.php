@@ -33,14 +33,7 @@
       <div class='row text-center my-3'>
         <h1 class='h1-responsive'>Polisi Perkhidmatan RoIPMARS</h1>
         <p><?php
-          $dtfmt = datefmt_create(
-            'ms_MY',
-            IntlDateFormatter::FULL,
-            IntlDateFormatter::FULL,
-            'Asia/Kuala_Lumpur',
-            IntlDateFormatter::GREGORIAN,
-            'EEEE, dd MMMM yyyy, HH:mm zzzz'
-          );
+          $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
           $file_last_mod = filemtime(__FILE__);
           echo 'Pindaan: ' . datefmt_format($dtfmt, $file_last_mod);
         ?></p>

@@ -51,15 +51,11 @@
 					<div class='ratio ratio-21x9'>
 						<embed loading='lazy' class='rounded-4' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0'></embed>
 					</div>
-					<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun membuat selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan:</p>
-					<div class='btn-group d-flex justify-content-center' role='group'>
-						<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/60148453456'><i class='bi-whatsapp'></i> <b>Pegawai Siaraya &amp; Aktiviti</b></a>
-						<!-- <a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/60138519226'><i class='bi-whatsapp'></i> <b>Pengurus Siaraya &amp; Aktiviti</b></a>
-						<a class='btn border-success bg-success-subtle text-success-emphasis' href='https://wa.me/601137586261'><i class='bi-whatsapp'></i> <b>Penolong Pengurus Aktiviti</b></a> -->
-					</div>
+					<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun membuat selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan: <a class='btn btn-sm btn-link' role='button' href='https://wa.me/60333960874'><i class='bi-whatsapp'></i> <b>Pegawai Bahagian Rekod</b></a></p>
 					<div class='mt-3 text-center'>
 						<h4>Suapan Langsung Rangkaian RoIPMARS</h4>
-						<audio class='rounded-5 w-100' controls preload='none' src='https://broadcastify.cdnstream1.com/41368' type='audio/mp3' crossorigin='anonymous'></audio>
+						<div id='bcfy'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
+						<div id='bcfy-audio'></div>
 					</div>
 				</div>
 				<div class='col-lg-6 my-3 d-block text-center'>
@@ -158,14 +154,7 @@
 				<div class='col-12 my-1 text-center'>
 					<h2 class='font-weight-bold'>Takwim Program</h2>
 					<span><?php
-						$dtfmt = datefmt_create(
-							'ms_MY',
-							IntlDateFormatter::FULL,
-							IntlDateFormatter::FULL,
-							'Asia/Kuala_Lumpur',
-							IntlDateFormatter::GREGORIAN,
-							'EEEE, dd MMMM yyyy, HH:mm zzzz'
-						);
+						$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
 						$scheduleLastMod = filemtime(__DIR__ . '/assets/json/scheduled.json');
 						echo 'kemaskini pada: ' . datefmt_format($dtfmt, $scheduleLastMod);
 					?></span>
@@ -214,14 +203,7 @@
 											</table>
 											<!-- <table class='table table-sm table-striped text-center align-middle' id='netRepMod'></table> -->
 											<span class='lh-1 fst-italic'><?php
-												$dtfmt = datefmt_create(
-													'ms_MY',
-													IntlDateFormatter::FULL,
-													IntlDateFormatter::FULL,
-													'Asia/Kuala_Lumpur',
-													IntlDateFormatter::GREGORIAN,
-													'EEEE, dd MMMM yyyy, HH:mm zzzz'
-												);
+												$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
 												$reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
 											?></span>
 										</div>
@@ -413,6 +395,7 @@
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/stats.js'></script>
 		<script src='/assets/js/pg-chartjs-map.js'></script>
+    <script src='/assets/js/bcfy-stat.js'></script>
 	</body>
 
 </html>

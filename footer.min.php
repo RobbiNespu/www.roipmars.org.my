@@ -25,36 +25,32 @@
           <div class='col-md-8'>
             <p class='text-md-end font-monospace user-select-none text-break m-0'><a href='/policies' class='text-reset text-decoration-none pe-auto'>Polisi Perkhidmatan</a><span class='text-body-tertiary'> &#124; <i class='fa-solid fa-code'></i> <i class='fa-brands fa-github'></i> <i class='fa-brands fa-php'></i> <i class='fa-brands fa-html5'></i> <i class='fa-brands fa-css3'></i> <i class='fa-brands fa-square-js'></i> <i class='fa-brands fa-bootstrap'></i> <i class='fa-brands fa-font-awesome'></i><br>
             <?php
-            $dtfmt = datefmt_create(
-              'ms_MY',
-              IntlDateFormatter::FULL,
-              IntlDateFormatter::FULL,
-              'Asia/Kuala_Lumpur',
-              IntlDateFormatter::GREGORIAN,
-              'EEEE, dd MMMM yyyy, HH:mm zzzz'
-            );
-            function scan_dir($dir) {
-              $files = array();
-              foreach (scandir($dir) as $file) {
-                $filemtime = filemtime($dir . '/' . $file);
-                $files[$file] = $filemtime;
+              $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+              function scan_dir($dir) {
+                $files = array();
+                foreach (scandir($dir) as $file) {
+                  $filemtime = filemtime($dir . '/' . $file);
+                  $files[$file] = $filemtime;
+                }
+                arsort($files);
+                $files = array_keys($files);
+                return ($files) ? $files : false;
               }
-              arsort($files);
-              $files = array_keys($files);
-              return ($files) ? $files : false;
-            }
-            $src_folder = __DIR__;
-            $files = scan_dir($src_folder);
-            $fileindir = filemtime($src_folder.'/'.$files[0]);
-            function getVisitorIp() {
-              if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-                $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_IPCITY'] . ', ' . $_SERVER['HTTP_CF_REGION'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
-              } else {
-                $ipAdress = file_get_contents('https://api64.ipify.org');
+              $src_folder = __DIR__;
+              $files = scan_dir($src_folder);
+              $fileindir = filemtime($src_folder . '/' . $files[0]);
+              function getVisitorIp() {
+                if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+                  $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_IPCITY'] . ', ' . $_SERVER['HTTP_CF_REGION'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
+                } else {
+                  $ipAdress = file_get_contents('https://api64.ipify.org');
+                  // $getIp = file_get_contents('https://api64.ipify.org');
+                  // $getGeoIp = json_decode(file_get_contents('https://ipwho.is/' + $getIp + '?output=json&fields=ip,city,region,country_code'), true);
+                  // $ipAdress = $getGeoIp['ip'] . ' dari ' . $getGeoIp['city'] . ', ' . $getGeoIp['region'] . ', ' . $getGeoIp['country_code'];
+                }
+                return $ipAdress;
               }
-              return $ipAdress;
-            }
-            echo 'Kemaskini: ' . datefmt_format($dtfmt, $fileindir) . '<br>IP Anda: ' . getVisitorIp();
+              echo 'Kemaskini: ' . datefmt_format($dtfmt, $fileindir) . '<br>IP Anda: ' . getVisitorIp();
             ?></span></p>
           </div>
           <div class='col-md-12 my-0'>

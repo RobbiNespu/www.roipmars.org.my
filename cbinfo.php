@@ -69,7 +69,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe loading='lazy' src='/freq/27cb'></iframe>
+                    <embed loading='lazy' src='/freq/27cb'></embed>
                   </div>
                 </div>
                 <div class='modal-footer'>
@@ -87,7 +87,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe loading='lazy' src='/freq/27cbmy'></iframe>
+                    <embed loading='lazy' src='/freq/27cbmy'></embed>
                   </div>
                 </div>
                 <div class='modal-footer'>
@@ -121,7 +121,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe loading='lazy' src='/freq/446pmr'></iframe>
+                    <embed loading='lazy' src='/freq/446pmr'></embed>
                   </div>
                 </div>
                 <div class='modal-footer'>
@@ -158,7 +158,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe loading='lazy' src='/freq/477cb'></iframe>
+                    <embed loading='lazy' src='/freq/477cb'></embed>
                   </div>
                 </div>
                 <div class='modal-footer'>
@@ -176,7 +176,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe loading='lazy' src='/freq/477cbmy'></iframe>
+                    <embed loading='lazy' src='/freq/477cbmy'></embed>
                   </div>
                 </div>
                 <div class='modal-footer'>
@@ -213,7 +213,7 @@
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
-                    <iframe loading='lazy' src='/freq/477fb'></iframe>
+                    <embed loading='lazy' src='/freq/477fb'></embed>
                   </div>
                 </div>
                 <div class='modal-footer'>

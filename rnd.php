@@ -96,7 +96,7 @@
         <div class='col-md-9 mb-md-0 p-md-3 my-3'>
           <p class='text-center my-0'>Apa itu Gateway?</p>
           <div class='ratio ratio-16x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/CihK_ebySF0' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/CihK_ebySF0' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
         <div class='col-md-3 mb-md-0 p-md-3 my-3' id='rlandroid'>
@@ -109,19 +109,19 @@
         <div class='col-md-4 mb-md-0 p-md-3 my-3' id='rpgw'>
           <p class='text-center my-0'>Sistem Pengulang &amp; Perantara pada Pemancar Mudah Alih &amp; Telefon Pintar Android &#40;Repeater Linking ROIP&#41;</p>
           <div class='ratio ratio-16x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/2oag-Flz0Ss' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/2oag-Flz0Ss' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
         <div class='col-md-4 mb-md-0 p-md-3 my-3' id='gwpc'>
           <p class='text-center my-0'>Sistem Perantara pada Pemancar Mudah Alih &amp; PC</p>
           <div class='ratio ratio-16x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/-JGQpxAyEQo' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/-JGQpxAyEQo' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
         <div class='col-md-4 mb-md-0 p-md-3 my-3' id='gwandroid'>
           <p class='text-center my-0'>Sistem Perantara pada Pemancar Mudah Alih &amp; Telefon Pintar Android</p>
           <div class='ratio ratio-16x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/dDiEqN2xC3M' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/dDiEqN2xC3M' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
       </div>

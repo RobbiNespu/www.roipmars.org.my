@@ -53,7 +53,7 @@
               <nav class='nav nav-pills flex-column'>
                 <a class='nav-link ms-3 my-1' href='#license'>Lesen</a>
                 <a class='nav-link ms-3 my-1' href='#link'>Pautan</a>
-                <a class='nav-link ms-3 my-1' href='#iframe'>Bingkai</a>
+                <a class='nav-link ms-3 my-1' href='#embed'>Bingkai</a>
                 <a class='nav-link ms-3 my-1' href='#content'>Kandungan</a>
                 <a class='nav-link ms-3 my-1' href='#rights'>Hak</a>
                 <a class='nav-link ms-3 my-1' href='#disclaimer'>Penafian</a>
@@ -158,8 +158,8 @@
               </ul>
               <p>Tiada penggunaan logo organisasi atau karya seni lain akan dibenarkan untuk dipautkan tanpa perjanjian lesen tanda dagangan.</p>
             </div>
-            <div id='iframe'>
-              <h5>iFrames</h5>
+            <div id='embed'>
+              <h5>embeds</h5>
               <p>Tanpa kelulusan dan kebenaran bertulis terlebih dahulu, anda tidak boleh membuat bingkai di sekeliling Halaman sesawang kami yang mengubah dalam apa jua cara persembahan visual atau penampilan Laman sesawang kami.</p>
             </div>
             <div id='content'>

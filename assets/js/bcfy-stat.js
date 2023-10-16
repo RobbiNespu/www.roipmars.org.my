@@ -4,9 +4,9 @@ const bcfyOwnHook = 'https://api.mhrtech.my/webhook/bcfy-stat'
 
 setInterval(function () {
   $.getJSON(bcfyOwnHook, function (data) {
-    let status = data.Feed[0].status
-    let listeners = data.Feed[0].listeners
-    let descr = data.Feed[0].descr
+    let status = data.status
+    let listeners = data.listeners
+    let descr = data.descr
     if (status == 1) {
       var stats = 'Status: <span class="text-success-emphasis"><i class="fa-solid fa-volume-high fa-beat-fade"></i> Online</span>'
     } else {
@@ -17,7 +17,7 @@ setInterval(function () {
 }, 10000)
 
 $.getJSON(bcfyOwnHook, function (data) {
-  let status = data.Feed[0].status
+  let status = data.status
   if (status == 1) {
     docBcfyAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls preload="none" src="https://broadcastify.cdnstream1.com/41368" type="audio/mp3" crossorigin="anonymous"></audio></div><span>Suapan mungkin tertunda 1 ke 10 minit.</span>'
   }

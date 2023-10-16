@@ -89,7 +89,7 @@
       <div id='pcwin' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
         <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
           <div class='ratio ratio-21x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/ds73Lvt696E' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/ds73Lvt696E' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
         <div class='col-lg-5 position-static p-3'>
@@ -119,7 +119,7 @@
       <div id='pclinux' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
         <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
           <div class='ratio ratio-21x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/fqR1OPaK_cc' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/fqR1OPaK_cc' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
         <div class='col-lg-5 position-static p-3'>
@@ -149,7 +149,7 @@
       <div id='pcmac' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
         <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
           <div class='ratio ratio-21x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/DGJDt5RsDg4' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/DGJDt5RsDg4' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
         <div class='col-lg-5 position-static p-3'>
@@ -174,7 +174,7 @@
       <div id='pcwincc' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
         <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
           <div class='ratio ratio-21x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/2XeQNtOpTIs' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/2XeQNtOpTIs' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
         <div class='col-lg-5 position-static p-3'>
@@ -201,7 +201,7 @@
       <div id='pcwintsgc' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
         <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
           <div class='ratio ratio-21x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/11KnBz72j5Y' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/11KnBz72j5Y' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
         <div class='col-lg-5 position-static p-3'>
@@ -249,7 +249,7 @@
       <div id='androidps' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
         <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
           <div class='ratio ratio-21x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/l8IClMdolHE' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/l8IClMdolHE' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
         <div class='col-lg-5 position-static p-3'>
@@ -365,7 +365,7 @@
       <div id='androidcr' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
         <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
           <div class='ratio ratio-21x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/LpjCtsJBd88' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/LpjCtsJBd88' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
         <div class='col-lg-5 position-static p-3'>
@@ -456,7 +456,7 @@
       <div id='ios' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
         <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
           <div class='ratio ratio-21x9'>
-            <iframe class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/_ewHhv-IGvs' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/_ewHhv-IGvs' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
           </div>
         </div>
         <div class='col-lg-5 position-static p-3'>

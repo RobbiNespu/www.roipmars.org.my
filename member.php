@@ -262,7 +262,7 @@
         <div class='col-lg-5 my-1 text-center'>
           <h4 class='h4'>Peta RoIPMARS</h4>
           <div class='ratio ratio-4x3 my-3'>
-            <iframe loading='lazy' class='rounded-3' src='/list/membersmap'></iframe>
+            <embed loading='lazy' class='rounded-3' src='/list/membersmap'></embed>
           </div>
         </div>
         <div class='col-lg-7 my-3 text-center'>

@@ -160,7 +160,7 @@
               <p class='card-text'>Persidangan bersama dengan 9M2PRO &#40;Wakil MARTS&#41; melalui pelayan kami
                 membincangkan mengenai kepentingan persidangan video semasa Perintah Kawalan Pergerakan &#40;PKP&#41;.</p>
               <div class='ratio ratio-16x9'>
-                <iframe class='rounded-3 rounded-top' loading='lazy' src='https://www.youtube.com/embed/iWNZUnVvm-o' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+                <embed class='rounded-3 rounded-top' loading='lazy' src='https://www.youtube.com/embed/iWNZUnVvm-o' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
               </div>
             </div>
           </div>

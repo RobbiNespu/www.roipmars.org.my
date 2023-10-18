@@ -11,7 +11,7 @@ const byCSLocaleDays = document.getElementById('byCSLocaleDays')
 
 Chart.register(ChartDeferred)
 // Chart.register(annotationPlugin)
-Chart.defaults.font.family = 'Open Sans'
+Chart.defaults.font.family = 'Source Sans Pro'
 Chart.defaults.font.lineHeight = 1
 Chart.defaults.font.size = 10
 Chart.defaults.plugins.deferred.delay = 1000

@@ -3,7 +3,7 @@ const rndCBtree = document.getElementById('rndCBtree')
 
 Chart.register(ChartDeferred)
 Chart.register(ChartDataLabels)
-Chart.defaults.font.family = 'Open Sans'
+Chart.defaults.font.family = 'Source Sans Pro'
 Chart.defaults.font.lineHeight = 1
 Chart.defaults.font.size = 10
 Chart.defaults.plugins.datalabels.backgroundColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-tertiary-bg')

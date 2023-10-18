@@ -155,7 +155,7 @@
 					<h2 class='font-weight-bold'>Takwim Program</h2>
 					<span><?php
 						$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
-						$scheduleLastMod = filemtime(__DIR__ . '/assets/json/scheduled.json');
+						$scheduleLastMod = filemtime(__DIR__ . '/assets/json/sch.json');
 						echo 'kemaskini pada: ' . datefmt_format($dtfmt, $scheduleLastMod);
 					?></span>
 				</div>

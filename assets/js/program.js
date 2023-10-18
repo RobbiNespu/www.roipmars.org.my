@@ -91,7 +91,7 @@ $(document).ready(function() {
     },
     columns: [
       {title: '#', className: 'text-center align-middle', data: 'R'},
-      {title: 'Stesen', className: 'text-center align-middle', data: 'NCS'},
+      {title: 'Stesen', className: 'text-center align-middle', data: 'NCS', searchable: true},
       {title: 'Operator', className: 'text-center align-middle', data: 'Nickname'},
       {title: 'KPI', className: 'text-center align-middle', data: 'KPI'}
     ],
@@ -287,7 +287,7 @@ $(document).ready(function() {
     paging: true,
     pageLength: 10,
     pagingTag: 'button',
-    pagingType: 'simple',
+    pagingType: 'full',
     responsive: true,
     searching: true,
     language: {

@@ -1,7 +1,10 @@
 // 'use strict';
 $(document).ready(function() {
   var takwimtable = $('#takwim').DataTable({
-    ajax: 'assets/json/scheduled.json',
+    ajax: {
+      url: 'assets/json/sch.json',
+      dataSrc: 'scheduled'
+    },
     columns: [
       { className: 'text-center align-middle', data: 'Hari', name: 'hari', searchable: true, title: 'Hari' },
       { className: 'text-center align-middle', data: 'Acara', name: 'acara', searchable: true, title: 'Acara' },
@@ -44,7 +47,10 @@ $(document).ready(function() {
   })
 
   $('#uniq-ham-origin').DataTable({
-    ajax: '/assets/json/stat-origin.json',
+    ajax: {
+      url: '/assets/json/s-origin.json',
+      dataSrc: 'origin'
+    },
     autoWidth: false,
     columns: [
       {title: 'Panggilan Asal', className: 'text-center align-middle', data: 'Origin'},
@@ -79,7 +85,10 @@ $(document).ready(function() {
   })
 
   $('#all-ncs-rank').DataTable({
-    ajax: '/assets/json/ncs-ham-all.json',
+    ajax: {
+      url: '/assets/json/r-ncs-a.json',
+      dataSrc: 'NCS-A'
+    },
     columns: [
       {title: '#', className: 'text-center align-middle', data: 'R'},
       {title: 'Stesen', className: 'text-center align-middle', data: 'NCS'},
@@ -90,7 +99,6 @@ $(document).ready(function() {
     info: false,
     lengthChange: false,
     ordering: false,
-    order: [0, 'asc'],
     paging: true,
     pageLength: 10,
     pagingTag: 'button',
@@ -116,7 +124,10 @@ $(document).ready(function() {
   })
 
   $('#en-ncs-rank').DataTable({
-    ajax: '/assets/json/ncs-ham-en.json',
+    ajax: {
+      url: '/assets/json/r-ncs-en.json',
+      dataSrc: 'NCS-EN'
+    },
     columns: [
       {title: '#', className: 'text-center align-middle', data: 'R'},
       {title: 'Stesen', className: 'text-center align-middle', data: 'NCS'},
@@ -127,7 +138,6 @@ $(document).ready(function() {
     info: false,
     lengthChange: false,
     ordering: false,
-    order: [0, 'asc'],
     paging: false,
     pageLength: 10,
     pagingTag: 'button',
@@ -153,7 +163,10 @@ $(document).ready(function() {
   })
 
   $('#ms-ncs-rank').DataTable({
-    ajax: '/assets/json/ncs-ham-ms.json',
+    ajax: {
+      url: '/assets/json/r-ncs-ms.json',
+      dataSrc: 'NCS-MS'
+    },
     columns: [
       {title: '#', className: 'text-center align-middle', data: 'R'},
       {title: 'Stesen', className: 'text-center align-middle', data: 'NCS'},
@@ -164,7 +177,6 @@ $(document).ready(function() {
     info: false,
     lengthChange: false,
     ordering: false,
-    order: [0, 'asc'],
     paging: true,
     pageLength: 10,
     pagingTag: 'button',
@@ -191,13 +203,14 @@ $(document).ready(function() {
 
   $('#cb-ncs-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank.json',
-      dataSrc: 'ncs-cb'
+      url: '/assets/json/r-ncs-cb.json',
+      dataSrc: 'NCS-CB'
     },
     columns: [
-      {title: 'Stesen', className: 'text-center align-middle'},
-      {title: 'Operator', className: 'text-center align-middle'},
-      {title: 'KPI', className: 'text-center align-middle'}
+      {title: '#', className: 'text-center align-middle', data: 'R'},
+      {title: 'Stesen', className: 'text-center align-middle', data: 'NCS'},
+      {title: 'Operator', className: 'text-center align-middle', data: 'Nickname'},
+      {title: 'KPI', className: 'text-center align-middle', data: 'KPI'}
     ],
     deferRender: true,
     info: false,
@@ -225,13 +238,14 @@ $(document).ready(function() {
 
   $('#voi-ncs-rank').DataTable({
     ajax: {
-      url: '/assets/json/rank.json',
-      dataSrc: 'ncs-voi'
+      url: '/assets/json/r-ncs-voi.json',
+      dataSrc: 'NCS-VOI'
     },
     columns: [
-      {title: 'Stesen', className: 'text-center align-middle'},
-      {title: 'Operator', className: 'text-center align-middle'},
-      {title: 'KPI', className: 'text-center align-middle'}
+      {title: '#', className: 'text-center align-middle', data: 'R'},
+      {title: 'Stesen', className: 'text-center align-middle', data: 'NCS'},
+      {title: 'Operator', className: 'text-center align-middle', data: 'Nickname'},
+      {title: 'KPI', className: 'text-center align-middle', data: 'KPI'}
     ],
     deferRender: true,
     info: false,
@@ -258,7 +272,10 @@ $(document).ready(function() {
   })
 
   $('#all-stn-rank').DataTable({
-    ajax: '/assets/json/stn-ham-all.json',
+    ajax: {
+      url: '/assets/json/r-stn-a.json',
+      dataSrc: 'STN-A'
+    },
     columns: [
       {title: 'Stesen', className: 'text-center align-middle', data: 'AM', searchable: true},
       {title: 'Kekerapan', className: 'text-center align-middle', data: 'am%'}
@@ -292,7 +309,10 @@ $(document).ready(function() {
   })
 
   $('#en-stn-rank').DataTable({
-    ajax: '/assets/json/stn-ham-en.json',
+    ajax: {
+      url: '/assets/json/r-stn-en.json',
+      dataSrc: 'STN-EN'
+    },
     columns: [
       {title: 'Stesen', className: 'text-center align-middle', data: 'AM-EN', searchable: true},
       {title: 'Kekerapan', className: 'text-center align-middle', data: 'amen%'}
@@ -326,7 +346,10 @@ $(document).ready(function() {
   })
 
   $('#ms-stn-rank').DataTable({
-    ajax: '/assets/json/stn-ham-ms.json',
+    ajax: {
+      url: '/assets/json/r-stn-ms.json',
+      dataSrc: 'STN-MS'
+    },
     columns: [
       {title: 'Stesen', className: 'text-center align-middle', data: 'AM-MS', searchable: true},
       {title: 'Kekerapan', className: 'text-center align-middle', data: 'amms%'}
@@ -360,7 +383,10 @@ $(document).ready(function() {
   })
 
   $('#cb-stn-rank').DataTable({
-    ajax: '/assets/json/stn-cb.json',
+    ajax: {
+      url: '/assets/json/r-stn-cb.json',
+      dataSrc: 'STN-CB'
+    },
     columns: [
       {title: 'Stesen', className: 'text-center align-middle', data: 'CB', searchable: true},
       {title: 'Kekerapan', className: 'text-center align-middle', data: 'cb%'}
@@ -394,7 +420,10 @@ $(document).ready(function() {
   })
 
   $('#voi-stn-rank').DataTable({
-    ajax: '/assets/json/stn-voi.json',
+    ajax: {
+      url: '/assets/json/r-stn-voi.json',
+      dataSrc: 'STN-VOI'
+    },
     columns: [
       {title: 'Stesen', className: 'text-center align-middle', data: 'VOI', searchable: true},
       {title: 'Kekerapan', className: 'text-center align-middle', data: 'voi%'}

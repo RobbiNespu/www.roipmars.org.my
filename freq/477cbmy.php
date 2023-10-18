@@ -17,13 +17,13 @@
     <meta property='og:title' content='RoIPMARS™ Network | 477MHz Citizen Band Malaysia 2000'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) 477MHz Citizen Band Malaysia 2000'>
     <meta property='og:url' content='https://www.roipmars.org.my/freq/477cbmy'>
-    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png'>
+    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brandnet_sq.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='RoIPMARS™ Network | 477MHz Citizen Band Malaysia 2000'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) 477MHz Citizen Band Malaysia 2000'>
     <meta name='twitter:url' content='https://www.roipmars.org.my/freq/477cbmy'>
-    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png'>
+    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brandnet_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
   </head>
 

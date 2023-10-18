@@ -9,7 +9,7 @@
 
   <body>
     <header class='sticky-top bg-body-tertiary'>
-      <div class='container d-flex py-2'>
+      <div class='container-fluid d-flex py-2'>
         <div class='vstack text-start ms-5'>
           <a href='/'><img class='img-fluid d-inline-block' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png' width='300' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>
           <div class='dropdown'>

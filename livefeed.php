@@ -29,7 +29,7 @@
 
   <body>
     <?php require_once 'ntsheader.php' ?>
-    <main class='container text-center'>
+    <main class='container-fluid text-center'>
       <div class='row'>
         <div id='bcfy'>
           <div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div>

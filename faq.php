@@ -17,13 +17,13 @@
     <meta property='og:title' content='RoIPMARS™ Network | Soalan Lazim'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Soalan Lazim'>
     <meta property='og:url' content='https://www.roipmars.org.my/faq'>
-    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
+    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='RoIPMARS™ Network | Soalan Lazim'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Soalan Lazim'>
     <meta name='twitter:url' content='https://www.roipmars.org.my/faq'>
-    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
+    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
   </head>
 

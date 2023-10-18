@@ -17,13 +17,13 @@
     <meta property='og:title' content='RoIPMARS™ Network | Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group'>
     <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group'>
     <meta property='og:url' content='https://www.roipmars.org.my/nts/2020/05'>
-    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
+    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png'>
     <meta property='og:type' content='website'>
     <meta property='og:locale' content='ms-MY'>
     <meta name='twitter:title' content='RoIPMARS™ Network | Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group'>
     <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group'>
     <meta name='twitter:url' content='https://www.roipmars.org.my/nts/2020/05'>
-    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_sq.png'>
+    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
     <link rel='preconnect' href='https://fonts.googleapis.com'>
     <link rel='preconnect' href='https://fonts.gstatic.com'>

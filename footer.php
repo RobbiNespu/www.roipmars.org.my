@@ -9,7 +9,7 @@
     <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
       <div class='container-fluid'>
         <div class='row mt-2'>
-          <div class='col-lg-8 mx-auto my-1 text-md-start'>
+          <div class='col-lg-8 mx-auto my-1 text-lg-start'>
             <h5 class='text-uppercase mb-2 fw-bold'>Sumbangan</h5>
             <p class='mb-2'>Sumbangan anda membantu Penyelidikan &amp; Pembangunan serta Perkhidmatan kami tersedia untuk anda sepanjang masa di mana sahaja.</p>
             <table class='table table-sm table-bordered text-center align-middle my-0'>
@@ -23,9 +23,9 @@
             <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
           </div>
           <div class='col-lg-4 mx-auto my-1'>
-            <h5 class='text-uppercase mb-2 fw-bold text-md-end'>Hubungi Kami</h5>
-            <div class='d-grid gap-1 d-md-flex justify-content-md-end mb-2'>
-              <a type='button' class='btn btn-primary rounded-5 me-md-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi-envelope-at'></i> member@roipmars.org.my</a>
+            <h5 class='text-uppercase mb-2 fw-bold text-lg-end'>Hubungi Kami</h5>
+            <div class='d-grid gap-1 d-lg-flex justify-content-lg-end mb-2'>
+              <a type='button' class='btn btn-primary rounded-5 me-lg-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi-envelope-at'></i> member@roipmars.org.my</a>
               <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi-envelope-paper'></i> Langgan surat berita kami</button>
             </div>
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>
@@ -39,8 +39,8 @@
                 </div>
               </div>
             </div>
-            <div class='d-md-flex justify-content-md-end opacity-75'>
-              <img class='img-fluid rounded-3 bg-body-tertiary me-md-2' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?muf=drwn&nwra=global&heline=eve&bgcolor=black&back=black&heline=eve' alt='solar data'>
+            <div class='d-lg-flex justify-content-lg-end'>
+              <img class='img-fluid rounded-3 bg-body-tertiary' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?muf=drwn&nwra=global&heline=eve&bgcolor=black&back=black&heline=eve' alt='solar data'>
             </div>
           </div>
         </div>

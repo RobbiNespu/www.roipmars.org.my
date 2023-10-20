@@ -48,19 +48,19 @@
           </table>
           <p class='mb-1'>Perisian tambahan untuk bantuan desktop:</p>
           <div class='btn-group d-flex mx-auto' role='group'>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe' download>RustDesk <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb' download>RustDesk <i class='bi-ubuntu'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg' download>RustDesk <i class='bi-apple'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe' target='_blank' rel='nofollow' download>RustDesk <i class='bi-windows'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb' target='_blank' rel='nofollow' download>RustDesk <i class='bi-ubuntu'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg' target='_blank' rel='nofollow' download>RustDesk <i class='bi-apple'></i></a>
           </div>
           <div class='btn-group d-flex mx-auto mx-2' role='group'>
-            <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe' download>TeamViewer <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/linux/teamviewer_amd64.deb' download>TeamViewer <i class='bi-ubuntu'></i></a>
-            <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/TeamViewer.dmg' download>TeamViewer <i class='bi-apple'></i></a>
+            <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe' target='_blank' rel='nofollow' download>TeamViewer <i class='bi-windows'></i></a>
+            <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/linux/teamviewer_amd64.deb' target='_blank' rel='nofollow' download>TeamViewer <i class='bi-ubuntu'></i></a>
+            <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/TeamViewer.dmg' target='_blank' rel='nofollow' download>TeamViewer <i class='bi-apple'></i></a>
           </div>
           <div class='btn-group d-flex mx-auto' role='group'>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/AnyDesk.exe' download>AnyDesk <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/linux/anydesk_6.2.1-1_amd64.deb' download>AnyDesk <i class='bi-ubuntu'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/anydesk.dmg' download>AnyDesk <i class='bi-apple'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/AnyDesk.exe' target='_blank' rel='nofollow' download>AnyDesk <i class='bi-windows'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/linux/anydesk_6.2.1-1_amd64.deb' target='_blank' rel='nofollow' download>AnyDesk <i class='bi-ubuntu'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/anydesk.dmg' target='_blank' rel='nofollow' download>AnyDesk <i class='bi-apple'></i></a>
           </div>
         </div>
       </div>
@@ -82,13 +82,13 @@
               </tr>
               <tr>
                 <th scope='row'>Windows 32-bit</th>
-                <td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' download>win32</a></td>
-                <td><a class='btn btn-sm btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' download>win32</a></td>
+                <td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' target='_blank' rel='nofollow' download>win32</a></td>
+                <td><a class='btn btn-sm btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' target='_blank' rel='nofollow' download>win32</a></td>
               </tr>
               <tr>
                 <th scope='row'>Windows 64-bit</th>
-                <td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/teamspeak3-client-win64-3.1.10.exe' download>win64</a></td>
-                <td><a class='btn btn-sm btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win64-3.5.6.exe' download>win64</a></td>
+                <td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/teamspeak3-client-win64-3.1.10.exe' target='_blank' rel='nofollow' download>win64</a></td>
+                <td><a class='btn btn-sm btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win64-3.5.6.exe' target='_blank' rel='nofollow' download>win64</a></td>
               </tr>
             </tbody>
           </table>
@@ -112,13 +112,13 @@
               </tr>
               <tr>
                 <th scope='row'>Linux x86</th>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_x86-3.1.10.run' download>linux32</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_x86-3.5.6.run' download>linux32</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_x86-3.1.10.run' target='_blank' rel='nofollow' download>linux32</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_x86-3.5.6.run' target='_blank' rel='nofollow' download>linux32</a></td>
               </tr>
               <tr>
                 <th scope='row'>Linux AMD64</th>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_amd64-3.1.10.run' download>linux64</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_amd64-3.5.6.run' download>linux64</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_amd64-3.1.10.run' target='_blank' rel='nofollow' download>linux64</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_amd64-3.5.6.run' target='_blank' rel='nofollow' download>linux64</a></td>
               </tr>
             </tbody>
           </table>
@@ -142,8 +142,8 @@
               </tr>
               <tr>
                 <th scope='row'>MacOS</th>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/mac/teamspeak3-client-macosx-3.1.10.dmg' download>macosx</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-macosx-3.5.6.dmg' download>macosx</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/mac/teamspeak3-client-macosx-3.1.10.dmg' target='_blank' rel='nofollow' download>macosx</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-macosx-3.5.6.dmg' target='_blank' rel='nofollow' download>macosx</a></td>
               </tr>
             </tbody>
           </table>
@@ -162,14 +162,14 @@
             <tbody>
               <tr>
                 <th scope='row'>Windows</th>
-                <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.11/Conference_Client-0.11_Setup.exe' download>CCv20</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.13/Conference_Client-0.13_Setup.exe' download>CCv22</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.14/Conference_Client-0.14_Setup.exe' download>CCv23</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.11/Conference_Client-0.11_Setup.exe' target='_blank' rel='nofollow' download>CCv20</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.13/Conference_Client-0.13_Setup.exe' target='_blank' rel='nofollow' download>CCv22</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://github.com/mfreiholz/ts3video/releases/download/v0.14/Conference_Client-0.14_Setup.exe' target='_blank' rel='nofollow' download>CCv23</a></td>
               </tr>
               <tr>
                 <th scope='row'>Fail Sokongan</th>
                 <td colspan='3'>
-                  <div class='hstack gap-1'><a class='btn btn-sm btn-primary' role='button' href='https://aka.ms/vs/17/release/vc_redist.x86.exe' download>VCRedistAIO (x86)</a><a class='btn btn-sm btn-primary ms-auto' role='button' href='https://aka.ms/vs/17/release/vc_redist.x64.exe' download>VCRedistAIO (x64)</a></div>
+                  <div class='hstack gap-1'><a class='btn btn-sm btn-primary' role='button' href='https://aka.ms/vs/17/release/vc_redist.x86.exe' target='_blank' rel='nofollow' download>VCRedistAIO (x86)</a><a class='btn btn-sm btn-primary ms-auto' role='button' href='https://aka.ms/vs/17/release/vc_redist.x64.exe' target='_blank' rel='nofollow' download>VCRedistAIO (x64)</a></div>
                 </td>
               </tr>
             </tbody>
@@ -189,21 +189,21 @@
             <tbody>
               <tr>
                 <th scope='row'>TS</th>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.0.19.4.exe' download>TSv3.0.19.4</a></td>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' download>TSv3.1.10</a></td>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' download>TSv3.5.6</a></td>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.0.19.4.exe' target='_blank' rel='nofollow' download>TSv3.0.19.4</a></td>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' target='_blank' rel='nofollow' download>TSv3.1.10</a></td>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' target='_blank' rel='nofollow' download>TSv3.5.6</a></td>
               </tr>
               <tr>
                 <th scope='row'>Gateway</th>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-3.0.14.exe' download>GCv3.0.14</a></td>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-4.0.2.exe' download>GCv4.0.2</a></td>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-3.0.14.exe' target='_blank' rel='nofollow' download>GCv3.0.14</a></td>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-4.0.2.exe' target='_blank' rel='nofollow' download>GCv4.0.2</a></td>
                 <td class='text-nowrap'></td>
               </tr>
               <tr>
                 <th scope='row'>Plugin</th>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api20.dll' download>GCPv20</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api21.dll' download>GCPv21</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api23.dll' download>GCPv23</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api20.dll' target='_blank' rel='nofollow' download>GCPv20</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api21.dll' target='_blank' rel='nofollow' download>GCPv21</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api23.dll' target='_blank' rel='nofollow' download>GCPv23</a></td>
               </tr>
             </tbody>
           </table>
@@ -242,15 +242,15 @@
               </tr>
               <tr>
                 <td>Tiada Sokongan Google</td>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' download>Versi Tiada Sokongan Google<br>&#40;kurang ciri khas&#41;</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' target='_blank' rel='nofollow' download>Versi Tiada Sokongan Google<br>&#40;kurang ciri khas&#41;</a></td>
               </tr>
               <!-- <tr>
                 <td>v3.1.9-beta.194</td>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/ts-3.1.9_b194.apk' download>Muat Turun</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/ts-3.1.9_b194.apk' target='_blank' rel='nofollow' download>Muat Turun</a></td>
               </tr> -->
               <tr>
                 <td><i class='bi-google-play fs-2'></i><br>&#40;DISYORKAN&#41;</td>
-                <td><a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'><img src='https://play.google.com/intl/en_us/badges/static/images/badges/ms_badge_web_generic.png' class='img-fluid w-50'></a></td>
+                <td><a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='nofollow'><img src='https://play.google.com/intl/en_us/badges/static/images/badges/ms_badge_web_generic.png' class='img-fluid w-50'></a></td>
               </tr>
             </tbody>
           </table>
@@ -352,7 +352,7 @@
           <table class='table table-sm text-center align-middle'>
             <tbody>
               <tr><th scope='row'>Version</th><td>v3.0.13.1</td></tr>
-              <tr><th scope='row'>Android</th><td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' download>Muat Turun</a></td></tr>
+              <tr><th scope='row'>Android</th><td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' target='_blank' rel='nofollow' download>Muat Turun</a></td></tr>
             </tbody>
           </table>
         </div>
@@ -449,7 +449,7 @@
               </tr>
               <tr>
                 <td><i class='fa-brands fa-app-store fs-2'></i></td>
-                <td><a href='https://itunes.apple.com/my/app/teamspeak-3/id577628510' target='_blank' rel='noopener'><img src='https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg' class='img-fluid'></a></td>
+                <td><a href='https://itunes.apple.com/my/app/teamspeak-3/id577628510' target='_blank' rel='nofollow'><img src='https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg' class='img-fluid'></a></td>
               </tr>
             </tbody>
           </table>

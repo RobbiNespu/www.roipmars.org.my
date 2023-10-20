@@ -2,6 +2,13 @@
 <html data-bs-theme='auto'>
 
   <head>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1/font/bootstrap-icons.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
+    <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
+    <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
+    <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1205248207690495' crossorigin='anonymous'></script>
+    <script async src="https://fundingchoicesmessages.google.com/i/pub-1205248207690495?ers=1" nonce="nLBiTr-Hd6zWbl5ZT9wqvA"></script>
     <script src='/assets/js/gtm.js'></script>
     <script src='/assets/js/gtag.js'></script>
     <script src='/assets/js/gfc.js'></script>
@@ -61,6 +68,9 @@
         </div>
       </div>
     </footer>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js' crossorigin='anonymous'></script>
+    <script src='https://roipmarsnetwork.statuspage.io/embed/script.js' crossorigin='anonymous'></script>
     <script src='/assets/js/theme.js'></script>
     <script src='/assets/js/sources.js'></script>
   </body>

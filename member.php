@@ -93,11 +93,11 @@
           <div class='row justify-content-between'>
             <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-header fw-bold m-0'>
-                  <p>PRESIDEN</p>
+                <div class='card-header fw-bold'>
+                  <p class='lh-1 mb-0'>PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZULKIFLI ABU</p>
@@ -107,25 +107,25 @@
             </div>
             <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-header fw-bold m-0'>
-                  <p>TIMBALAN PRESIDEN</p>
+                <div class='card-header fw-bold'>
+                  <p class='lh-1 mb-0'>TIMBALAN PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0'>KAMARUDZAMAN ABD RAHIM</p>
+                  <p class='fw-bolder m-0'>KAMARUDZAMAN</p>
                   <p class='fw-semibold m-0'>9W2OGK</p>
                 </div>
               </div>
             </div>
             <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-header fw-bold m-0'>
-                  <p>SETIAUSAHA AGUNG</p>
+                <div class='card-header fw-bold'>
+                  <p class='lh-1 mb-0'>SETIAUSAHA AGUNG</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>HAFIZI RUSLAN</p>
@@ -135,25 +135,25 @@
             </div>
             <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-header fw-bold m-0'>
-                  <p>PENOLONG SETIAUSAHA</p>
+                <div class='card-header fw-bold'>
+                  <p class='lh-1 mb-0'>PENOLONG SETIAUSAHA</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0 opacity-25'>LANTIKAN 2024</p>
-                  <p class='fw-semibold m-0 opacity-25'>&mdash;</p>
+                  <p class='fw-bolder m-0'>LANTIKAN 2024</p>
+                  <p class='fw-semibold m-0'>&mdash;</p>
                 </div>
               </div>
             </div>
             <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-header fw-bold m-0'>
-                  <p>BENDAHARI AGUNG</p>
+                <div class='card-header fw-bold'>
+                  <p class='lh-1 mb-0'>BENDAHARI AGUNG</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/007.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/007.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>SULAIMAN MAZLAN</p>
@@ -165,11 +165,11 @@
           <div class='row border-top justify-content-between'>
             <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-header fw-bold m-0'>
-                  <p class='lh-1'>BAHAGIAN SIARAYA &amp; AKTIVITI<br>&#40;Pegawai Lantikan Khas&#41;</p>
+                <div class='card-header fw-bold'>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>SIARAYA &amp; AKTIVITI<br><sup>&#40;Pegawai Lantikan Sementara&#41;</sup></p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>SABRI IBRAHIM</p>
@@ -179,11 +179,11 @@
             </div>
             <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-header fw-bold m-0'>
-                  <p>BAHAGIAN TEKNIKAL</p>
+                <div class='card-header fw-bold'>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>TEKNIKAL</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZAHEER ZAKARIA</p>
@@ -193,11 +193,11 @@
             </div>
             <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-header fw-bold m-0'>
-                  <p>BAHAGIAN KEBAJIKAN</p>
+                <div class='card-header fw-bold'>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>KEBAJIKAN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>MUSTAFA OMAR</p>
@@ -207,11 +207,11 @@
             </div>
             <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-header fw-bold m-0'>
-                  <p>BAHAGIAN EKONOMI</p>
+                <div class='card-header fw-bold'>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>EKONOMI</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>FAIZNURNIZAM MAT RASOL</p>
@@ -221,11 +221,11 @@
             </div>
             <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
-                <div class='card-header fw-bold m-0'>
-                  <p>BAHAGIAN PERHUBUNGAN AWAM</p>
+                <div class='card-header fw-bold'>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>PERHUBUNGAN AWAM</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-50'>
+                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>LANTIKAN 2024</p>

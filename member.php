@@ -2,29 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS™ Network | Keahlian</title>
-    <meta charset='utf-8'>
-    <meta http-equiv='Content-Type' content='text/html'>
-    <meta http-equiv='content-language' content='ms-MY'>
-    <meta name='language' content='Malay'>
-    <meta name='author' content='HafiziRuslan'>
-    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
-    <meta name='title' content='RoIPMARS™ Network | Keahlian'>
-    <meta name='description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
-    <meta name='keywords' content='roipmars, malaysiats3, ts3servermalaysia, teamspeak3malaysia, persatuanpeminatradiokomunikasi, roipmalaysia, cbroipmalaysia, amaturroipmalaysia'>
-    <meta name='robots' content='index, follow'>
-    <meta property='og:site_name' content='RoIPMARS'>
-    <meta property='og:title' content='RoIPMARS™ Network | Keahlian'>
-    <meta property='og:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
-    <meta property='og:url' content='https://www.roipmars.org.my/member'>
-    <meta property='og:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brandnet_sq.png'>
-    <meta property='og:type' content='website'>
-    <meta property='og:locale' content='ms-MY'>
-    <meta name='twitter:title' content='RoIPMARS™ Network | Keahlian'>
-    <meta name='twitter:description' content='Persatuan Peminat Radio Komunikasi (RoIP) Informasi Keahlian Pertubuhan'>
-    <meta name='twitter:url' content='https://www.roipmars.org.my/member'>
-    <meta name='twitter:image' content='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brandnet_sq.png'>
-    <meta name='twitter:creator' content='@HafiziRuslan'>
+    <title>RoIPMARS℠ Network | Keahlian</title>
     <link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.6/af-2.6.0/b-2.4.2/b-colvis-2.4.2/b-html5-2.4.2/b-print-2.4.2/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.css' crossorigin='anonymous'>
   </head>
 

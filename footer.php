@@ -7,7 +7,7 @@
   <body>
     <button id='scrollToTop' class='btn position-fixed bottom-0 start-0'><i class='bi-arrow-up-square fs-1'></i></button>
     <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
-      <div class='container-fluid'>
+      <div class='container'>
         <div class='row mt-2'>
           <div class='col-lg-8 mx-auto my-1 text-lg-start'>
             <h5 class='text-uppercase mb-2 fw-bold'>Sumbangan</h5>
@@ -44,8 +44,8 @@
             </div>
           </div>
         </div>
-        <?php require_once 'footer.min.php' ?>
       </div>
+      <?php require_once 'footermin.php' ?>
     </footer>
     <script src='/assets/js/donate.js'></script>
     <script src='/assets/js/stt.js'></script>

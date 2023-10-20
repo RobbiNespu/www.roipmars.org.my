@@ -41,8 +41,8 @@
                 <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN <a href='https://bit.ly/m/hafiziruslan'><i class='bi-info-circle-fill'></i></a></p>
                 <p class='card-subtitle fs-5 fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
                 <p class='card-subtitle fs-5 fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
-                <p class='card-subtitle fw-light'>&#91;2019&#93; Dilantik oleh RoIPMARS&trade; sebagai pembangun perisian</p>
-                <p class='card-subtitle fw-light'>&#91;2021&#93; Memulakan sambungan Rangkaian RoIPMARS&trade; ke seluruh dunia</p>
+                <p class='card-subtitle fw-light'>&#91;2019&#93; Dilantik oleh RoIPMARS&#8480; sebagai pembangun perisian</p>
+                <p class='card-subtitle fw-light'>&#91;2021&#93; Memulakan sambungan Rangkaian RoIPMARS&#8480; ke seluruh dunia</p>
               </div>
             </div>
             <div class='col-2 align-self-center'>

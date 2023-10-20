@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class='vstack text-end me-5'>
-          <h2 class='h2' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Jaringan RoIPMARS&trade;</h2>
+          <h2 class='h2' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Jaringan RoIPMARS&#8480;</h2>
           <p class='fs-6 fw-light' style='font-family: "Electrolize", sans-serif'>roipmars.com &mdash; roipmars.org.my</p>
         </div>
       </div>

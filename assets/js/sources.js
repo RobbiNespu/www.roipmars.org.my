@@ -41,5 +41,7 @@ const favIcons = '<link rel="apple-touch-icon" sizes="180x180" href="/assets/fav
 
 const bodyStartLinks = '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>\
 <div id="fb-root"></div>\
-<div id="fb-customer-chat" class="fb-customerchat"></div>'
+<div id="fb-customer-chat" class="fb-customerchat"></div>\
+<script>var chatbox = document.getElementById("fb-customer-chat"); chatbox.setAttribute("page_id", "100870702762488"); chatbox.setAttribute("attribution", "biz_inbox");</script>\
+<script>window.fbAsyncInit = function() {FB.init({xfbml: true,version: "v18.0"}); }; (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;js.src = "https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js"; fjs.parentNode.insertBefore(js, fjs); }(document, "script", "facebook-jssdk"));</script>'
 document.querySelector('body').insertAdjacentHTML('afterbegin', bodyStartLinks)

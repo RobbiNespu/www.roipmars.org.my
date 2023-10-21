@@ -8,24 +8,57 @@ const byCategory = document.getElementById('byCategory')
 const byMode = document.getElementById('byMode')
 const byCSLocaleWeek = document.getElementById('byCSLocaleWeek')
 const byCSLocaleDays = document.getElementById('byCSLocaleDays')
+const byCountry = document.getElementById('byCountry')
+
+function dtCFormat(input) {
+  return new Intl.DateTimeFormat('ms-MY', {
+    formatMatcher: 'basic',
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    timeZoneName: 'longGeneric',
+    hour12: false,
+    timeZone: 'Asia/Kuala_Lumpur'
+  }).format(new Date(input))
+}
+
+function lastMod(url) {
+  try {
+    var req = new XMLHttpRequest()
+    req.open('HEAD', url, false)
+    req.send(null)
+    if (req.status == 200) {
+      return 'kemaskini pada: ' + dtCFormat(req.getResponseHeader('Last-Modified'))
+    }
+    else return false
+  } catch (er) {
+    return er.message
+  }
+}
 
 Chart.register(ChartDeferred)
-// Chart.register(annotationPlugin)
 Chart.defaults.font.family = 'Source Sans Pro'
 Chart.defaults.font.lineHeight = 1
 Chart.defaults.font.size = 10
 Chart.defaults.plugins.deferred.delay = 1000
-Chart.defaults.plugins.deferred.yOffset = '50%'
+Chart.defaults.plugins.deferred.yOffset = '80%'
 Chart.defaults.plugins.legend.position = 'top'
+Chart.defaults.plugins.subtitle.align = 'right'
+Chart.defaults.plugins.subtitle.display = true
+Chart.defaults.plugins.subtitle.padding = { bottom: 1, top: 1 }
+Chart.defaults.plugins.subtitle.position = 'bottom'
 Chart.defaults.plugins.title.display = true
-Chart.defaults.plugins.title.font = { weight: 'bold', size: 16 }
-Chart.defaults.plugins.title.padding = { top: 1, bottom: 1 }
-Chart.defaults.plugins.title.position = 'top'
+Chart.defaults.plugins.title.font = { size: 16, weight: 'bold' }
+Chart.defaults.plugins.title.padding = { bottom: 1, top: 1 }
+Chart.defaults.plugins.title.position = 'bottom'
 const wmOptions = {
   image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png',
   opacity: 0.15,
   width: '85%',
-  height: '28%',
+  height: '30%',
   alignX: 'middle',
   alignY: 'middle',
   position: 'between'
@@ -47,7 +80,10 @@ $.getJSON('/assets/json/s-time.json', function (timeData) {
       borderWidth: 1,
       pointBorderWidth: 1,
       pointStyle: 'rectRounded',
-      plugins: { title: { text: 'UTC' } },
+      plugins: {
+        subtitle: { text: lastMod('/assets/json/s-time.json') },
+        title: { text: 'UTC' }
+      },
       scales: {
         x: { grid: { display: false } },
         y: { grid: { display: false }, min: 10, type: 'logarithmic' }
@@ -77,7 +113,6 @@ $.getJSON('/assets/json/s-days.json', function (daysData) {
       pointBorderWidth: 1,
       pointStyle: 'crossRot',
       plugins: {
-        title: { text: 'Harian' },
         annotation: {
           annotations: {
             avgHAMMSval: {
@@ -119,7 +154,9 @@ $.getJSON('/assets/json/s-days.json', function (daysData) {
               yValue: daysData.avg_dsHAMEN.toFixed(),
             }
           }
-        }
+        },
+        subtitle: { text: lastMod('/assets/json/s-days.json') },
+        title: { text: 'Harian' }
       },
       showLine: true,
       spanGaps: true,
@@ -149,7 +186,10 @@ $.getJSON('/assets/json/s-day.json', function (dayData) {
       barPercentage: 1,
       borderRadius: 10,
       categoryPercentage: 0.95,
-      plugins: { title: { text: 'Hari' } },
+      plugins: {
+        subtitle: { text: lastMod('/assets/json/s-day.json') },
+        title: { text: 'Hari' }
+      },
       scales: {
         x: { grid: { display: false }, stacked: true },
         y: { grid: { display: false }, stacked: true }
@@ -174,7 +214,52 @@ $.getJSON('/assets/json/s-week.json', function (weekData) {
     options: {
       borderJoinStyle: 'round',
       borderWidth: 1,
-      plugins: { title: { text: 'Minggu' } },
+      plugins: {
+        annotation: {
+          annotations: {
+            avgHAMMSval: {
+              borderColor: 'rgb(54, 162, 235)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: weekData.avg_wHAMMS.toFixed(),
+              yMin: weekData.avg_wHAMMS.toFixed(),
+            },
+            avgHAMMSlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'MS: ' + weekData.avg_wHAMMS.toFixed(),
+              font: { size: 10 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: weekData.avg_wHAMMS.toFixed(),
+            },
+            avgHAMENval: {
+              borderColor: 'rgb(255, 99, 132)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: weekData.avg_wHAMEN.toFixed(),
+              yMin: weekData.avg_wHAMEN.toFixed(),
+            },
+            avgHAMENlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'EN: ' + weekData.avg_wHAMEN.toFixed(),
+              font: { size: 10 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: weekData.avg_wHAMEN.toFixed(),
+            }
+          }
+        },
+        subtitle: { text: lastMod('/assets/json/s-week.json') },
+        title: { text: 'Minggu' },
+      },
       pointBorderWidth: 1,
       pointStyle: 'cross',
       scales: {
@@ -204,7 +289,10 @@ $.getJSON('/assets/json/s-month.json', function (monthData) {
       barPercentage: 0.99,
       borderRadius: 10,
       categoryPercentage: 0.99,
-      plugins: { title: { text: 'Bulan' } },
+      plugins: {
+        subtitle: { text: lastMod('/assets/json/s-month.json') },
+        title: { text: 'Bulan' }
+      },
       scales: {
         x: { grid: { display: false }, stacked: true },
         y: { grid: { display: false }, stacked: true }
@@ -230,7 +318,10 @@ $.getJSON('/assets/json/s-quarter.json', function (quarterData) {
       barPercentage: 0.99,
       borderRadius: 10,
       categoryPercentage: 0.99,
-      plugins: { title: { text: 'Suku Tahun' } },
+      plugins: {
+        subtitle: { text: lastMod('/assets/json/s-quarter.json') },
+        title: { text: 'Suku Tahun' }
+      },
       scales: {
         x: { grid: { display: false }, stacked: true },
         y: { grid: { display: false }, stacked: true }
@@ -250,7 +341,10 @@ $.getJSON('/assets/json/s-mode.json', function (modeData) {
     options: {
       aspectRatio: 2,
       borderWidth: 0,
-      plugins: { title: { text: 'Mod Penyertaan' } },
+      plugins: {
+        subtitle: { text: lastMod('/assets/json/s-mode.json') },
+        title: { text: 'Mod Penyertaan' }
+      },
       watermark: wmOptions,
     },
     type: 'doughnut',
@@ -269,7 +363,10 @@ $.getJSON('/assets/json/s-mode.json', function (modeData) {
     options: {
       borderJoinStyle: 'round',
       borderWidth: 1,
-      plugins: {title: {text: 'Panggilan'}},
+      plugins: {
+        subtitle: { text: lastMod('/assets/json/s-days.json') },
+        title: { text: 'Panggilan' }
+      },
       pointBorderWidth: 1,
       pointStyle: 'crossRot',
       scales: {
@@ -297,49 +394,50 @@ $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
       borderJoinStyle: 'round',
       borderWidth: 1,
       plugins: {
-        title: { text: 'Panggilan' },
-        // annotation: {
-        //   annotations: {
-        //     avgLOCval: {
-        //       borderColor: 'rgb(54, 162, 235)',
-        //       borderDash: [15, 3, 3, 3],
-        //       borderWidth: 1,
-        //       type: 'line',
-        //       yMax: localeWeekData.avg_wLOC.toFixed(),
-        //       yMin: localeWeekData.avg_wLOC.toFixed(),
-        //     },
-        //     avgLOClab: {
-        //       backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
-        //       color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
-        //       content: 'Local: ' + localeWeekData.avg_wLOC.toFixed(),
-        //       font: { size: 10 },
-        //       padding: 1.5,
-        //       position: 'start',
-        //       type: 'label',
-        //       xValue: 0,
-        //       yValue: localeWeekData.avg_wLOC.toFixed(),
-        //     },
-        //     avgINTLval: {
-        //       borderColor: 'rgb(255, 99, 132)',
-        //       borderDash: [15, 3, 3, 3],
-        //       borderWidth: 1,
-        //       type: 'line',
-        //       yMax: localeWeekData.avg_wINTL.toFixed(),
-        //       yMin: localeWeekData.avg_wINTL.toFixed(),
-        //     },
-        //     avgINTLlab: {
-        //       backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
-        //       color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
-        //       content: 'International: ' + localeWeekData.avg_wINTL.toFixed(),
-        //       font: { size: 10 },
-        //       padding: 1.5,
-        //       position: 'start',
-        //       type: 'label',
-        //       xValue: 0,
-        //       yValue: localeWeekData.avg_wINTL.toFixed(),
-        //     }
-        //   }
-        // }
+        annotation: {
+          annotations: {
+            avgLOCval: {
+              borderColor: 'rgb(54, 162, 235)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: localeWeekData.avg_wLOC.toFixed(),
+              yMin: localeWeekData.avg_wLOC.toFixed(),
+            },
+            avgLOClab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'Domestik: ' + localeWeekData.avg_wLOC.toFixed(),
+              font: { size: 10 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: localeWeekData.avg_wLOC.toFixed(),
+            },
+            avgINTLval: {
+              borderColor: 'rgb(255, 99, 132)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: localeWeekData.avg_wINTL.toFixed(),
+              yMin: localeWeekData.avg_wINTL.toFixed(),
+            },
+            avgINTLlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'Antarabangsa: ' + localeWeekData.avg_wINTL.toFixed(),
+              font: { size: 10 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: localeWeekData.avg_wINTL.toFixed(),
+            }
+          }
+        },
+        subtitle: { text: lastMod('/assets/json/s-week.json') },
+        title: { text: 'Panggilan Mingguan' }
       },
       pointBorderWidth: 1,
       pointStyle: 'cross',
@@ -352,5 +450,50 @@ $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
       watermark: wmOptions,
     },
     type: 'line',
+  })
+})
+
+$.getJSON('/assets/json/s-country.json', function (countryData) {
+  fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then((r) => r.json()).then((data) => {
+    const countries = ChartGeo.topojson.feature(data, data.objects.countries).features
+    const countryNames = countryData.Country
+    const countryValues = countryData.Count
+
+    const features = []
+    for (let c = 0; c < countryNames.length; c++) { features[c] = countries.find((d) => d.properties.name === countryNames[c]) }
+    for (let v = 0; v < countryValues.length; v++) { features[v].value = countryValues[v] }
+
+    new Chart(byCountry, {
+      data: {
+        datasets: [{
+          data: features.map((d) => ({
+            feature: d,
+            value: d.value
+          }))
+        }],
+        labels: countryNames,
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          subtitle: { text: lastMod('/assets/json/s-country.json') },
+          title: { text: 'Penyertaan' }
+        },
+        scales: {
+          color: {
+            axis: 'x',
+            interpolate: 'gnBu',
+            missing: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-dark-bg-subtle'),
+            quantize: 5,
+          },
+          projection: {
+            axis: 'x',
+            projection: 'equirectangular'
+          }
+        },
+        watermark: wmOptions,
+      },
+      type: 'choropleth',
+    })
   })
 })

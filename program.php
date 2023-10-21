@@ -229,6 +229,11 @@
 					<canvas id='byCountry' loading='lazy' alt='NetGraphMap23'></canvas>
 				</div>
 				<div class='col-lg-3 align-self-center'>
+					<p class='text-center lh-1 fst-italic mb-0'><sub><?php
+					$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+					$reportLastMod = filemtime(__DIR__ . '/assets/json/s-origin.json');
+					echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+					?></sub></p>
 					<table class='table table-sm table-striped text-center align-middle' id='uniq-ham-origin'></table>
 				</div>
 			</div>
@@ -238,10 +243,22 @@
 				<div class='col-12'>
 					<p class='text-center'>RoIPMARS HAM Net</p>
 					<div class='row'>
-						<div class='col-sm-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
+						<div class='col-sm-6'>
+							<h6 class='text-center'>Pengawal Tertinggi</h6>
+							<p class='text-center lh-1 fst-italic mb-0'><sub><?php
+							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-ncs-a.json');
+							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='all-ncs-rank'></table>
 						</div>
-						<div class='col-sm-6'><h6 class='text-center'>Stesen Aktif</h6>
+						<div class='col-sm-6'>
+							<h6 class='text-center'>Stesen Aktif</h6>
+							<p class='text-center lh-1 fst-italic mb-0'><sub><?php
+							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-stn-a.json');
+							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='all-stn-rank'></table>
 						</div>
 					</div>
@@ -249,10 +266,22 @@
 				<div class='col-lg-6'>
 					<p class='text-center'>RoIPMARS HAM Net Bahasa Inggeris</p>
 					<div class='row'>
-						<div class='col-sm-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
+						<div class='col-sm-6'>
+							<h6 class='text-center'>Pengawal Tertinggi</h6>
+							<p class='text-center lh-1 fst-italic mb-0'><sub><?php
+							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-ncs-en.json');
+							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='en-ncs-rank'></table>
 						</div>
-						<div class='col-sm-6'><h6 class='text-center'>Stesen Aktif</h6>
+						<div class='col-sm-6'>
+							<h6 class='text-center'>Stesen Aktif</h6>
+							<p class='text-center lh-1 fst-italic mb-0'><sub><?php
+							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-stn-en.json');
+							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle'id='en-stn-rank'></table>
 						</div>
 					</div>
@@ -260,10 +289,22 @@
 				<div class='col-lg-6'>
 					<p class='text-center'>RoIPMARS HAM Net Bahasa Melayu</p>
 					<div class='row'>
-						<div class='col-sm-6'><h6 class='text-center'>Pengawal Tertinggi</h6>
+						<div class='col-sm-6'>
+							<h6 class='text-center'>Pengawal Tertinggi</h6>
+							<p class='text-center lh-1 fst-italic mb-0'><sub><?php
+							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-ncs-ms.json');
+							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='ms-ncs-rank'></table>
 						</div>
-						<div class='col-sm-6'><h6 class='text-center'>Stesen Aktif</h6>
+						<div class='col-sm-6'>
+							<h6 class='text-center'>Stesen Aktif</h6>
+							<p class='text-center lh-1 fst-italic mb-0'><sub><?php
+							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-stn-ms.json');
+							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='ms-stn-rank'></table>
 						</div>
 					</div>
@@ -276,10 +317,20 @@
 					<div class='row'>
 						<div class='col-sm-6'>
 							<h6 class='text-center'>Pengawal Tertinggi</h6>
+							<p class='text-center lh-1 fst-italic mb-0'><sub><?php
+							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-ncs-cb.json');
+							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='cb-ncs-rank'></table>
 						</div>
 						<div class='col-sm-6'>
 							<h6 class='text-center'>Stesen Paling Aktif</h6>
+							<p class='text-center lh-1 fst-italic mb-0'><sub><?php
+							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-stn-cb.json');
+							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='cb-stn-rank'></table>
 						</div>
 					</div>
@@ -290,10 +341,20 @@
 					<div class='row'>
 						<div class='col-sm-6'>
 							<h6 class='text-center'>Pengawal Tertinggi</h6>
+							<p class='text-center lh-1 fst-italic mb-0'><sub><?php
+							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-ncs-voi.json');
+							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='voi-ncs-rank'></table>
 						</div>
 						<div class='col-sm-6'>
 							<h6 class='text-center'>Stesen Paling Aktif</h6>
+							<p class='text-center lh-1 fst-italic mb-0'><sub><?php
+							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-stn-voi.json');
+							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
+							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='voi-stn-rank'></table>
 						</div>
 					</div>
@@ -372,7 +433,6 @@
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@2/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/stats.js'></script>
-		<script src='/assets/js/pg-chartjs-map.js'></script>
     <script src='/assets/js/bcfy-stat.js'></script>
 	</body>
 

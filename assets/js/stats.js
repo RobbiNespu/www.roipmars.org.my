@@ -19,8 +19,10 @@ function dtCFormat(input) {
     year: 'numeric',
     hour: 'numeric',
     minute: '2-digit',
+    dayPeriod: 'long',
     timeZoneName: 'longGeneric',
-    hour12: false,
+    hour12: true,
+    hourCycle: 'h12',
     timeZone: 'Asia/Kuala_Lumpur'
   }).format(new Date(input))
 }
@@ -31,7 +33,7 @@ function lastMod(url) {
     req.open('HEAD', url, false)
     req.send(null)
     if (req.status == 200) {
-      return 'kemaskini pada: ' + dtCFormat(req.getResponseHeader('Last-Modified'))
+      return 'kemaskini: ' + dtCFormat(req.getResponseHeader('Last-Modified'))
     }
     else return false
   } catch (er) {
@@ -40,6 +42,7 @@ function lastMod(url) {
 }
 
 Chart.register(ChartDeferred)
+Chart.register(ChartjsPluginStacked100.default)
 Chart.defaults.font.family = 'Source Sans Pro'
 Chart.defaults.font.lineHeight = 1
 Chart.defaults.font.size = 10
@@ -48,17 +51,17 @@ Chart.defaults.plugins.deferred.yOffset = '80%'
 Chart.defaults.plugins.legend.position = 'top'
 Chart.defaults.plugins.subtitle.align = 'right'
 Chart.defaults.plugins.subtitle.display = true
-Chart.defaults.plugins.subtitle.padding = { bottom: 1, top: 1 }
+Chart.defaults.plugins.subtitle.padding = { bottom: 1, top: 1.5 }
 Chart.defaults.plugins.subtitle.position = 'bottom'
 Chart.defaults.plugins.title.display = true
 Chart.defaults.plugins.title.font = { size: 16, weight: 'bold' }
-Chart.defaults.plugins.title.padding = { bottom: 1, top: 1 }
+Chart.defaults.plugins.title.padding = { bottom: 1.5, top: 1 }
 Chart.defaults.plugins.title.position = 'bottom'
 const wmOptions = {
   image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png',
   opacity: 0.15,
-  width: '85%',
-  height: '30%',
+  width: '80%',
+  height: '25%',
   alignX: 'middle',
   alignY: 'middle',
   position: 'between'
@@ -127,7 +130,7 @@ $.getJSON('/assets/json/s-days.json', function (daysData) {
               backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
               color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
               content: 'MS: ' + daysData.avg_dsHAMMS.toFixed(),
-              font: { size: 10 },
+              font: { size: 9 },
               padding: 1.5,
               position: 'start',
               type: 'label',
@@ -146,7 +149,7 @@ $.getJSON('/assets/json/s-days.json', function (daysData) {
               backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
               color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
               content: 'EN: ' + daysData.avg_dsHAMEN.toFixed(),
-              font: { size: 10 },
+              font: { size: 9 },
               padding: 1.5,
               position: 'start',
               type: 'label',
@@ -164,7 +167,7 @@ $.getJSON('/assets/json/s-days.json', function (daysData) {
         x: { grid: { display: false } },
         y: { grid: { display: false }, min: 10, type: 'logarithmic' }
       },
-      tension: 0.25,
+      tension: 0.5,
       watermark: wmOptions,
     },
     type: 'line',
@@ -184,10 +187,10 @@ $.getJSON('/assets/json/s-day.json', function (dayData) {
     },
     options: {
       barPercentage: 1,
-      borderRadius: 10,
-      categoryPercentage: 0.95,
+      categoryPercentage: 0.98,
       plugins: {
         subtitle: { text: lastMod('/assets/json/s-day.json') },
+        stacked100: { enable: true, precision: 0 },
         title: { text: 'Hari' }
       },
       scales: {
@@ -229,7 +232,7 @@ $.getJSON('/assets/json/s-week.json', function (weekData) {
               backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
               color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
               content: 'MS: ' + weekData.avg_wHAMMS.toFixed(),
-              font: { size: 10 },
+              font: { size: 9 },
               padding: 1.5,
               position: 'start',
               type: 'label',
@@ -248,7 +251,7 @@ $.getJSON('/assets/json/s-week.json', function (weekData) {
               backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
               color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
               content: 'EN: ' + weekData.avg_wHAMEN.toFixed(),
-              font: { size: 10 },
+              font: { size: 9 },
               padding: 1.5,
               position: 'start',
               type: 'label',
@@ -267,7 +270,7 @@ $.getJSON('/assets/json/s-week.json', function (weekData) {
         y: { grid: { display: false }, min: 10, type: 'logarithmic' }
       },
       showLine: true,
-      tension: 0.25,
+      tension: 0.5,
       watermark: wmOptions,
     },
     type: 'line',
@@ -286,11 +289,11 @@ $.getJSON('/assets/json/s-month.json', function (monthData) {
       labels: monthData.Month,
     },
     options: {
-      barPercentage: 0.99,
-      borderRadius: 10,
-      categoryPercentage: 0.99,
+      barPercentage: 1,
+      categoryPercentage: 0.98,
       plugins: {
         subtitle: { text: lastMod('/assets/json/s-month.json') },
+        stacked100: { enable: true, precision: 0 },
         title: { text: 'Bulan' }
       },
       scales: {
@@ -315,11 +318,11 @@ $.getJSON('/assets/json/s-quarter.json', function (quarterData) {
       labels: quarterData.Quarter,
     },
     options: {
-      barPercentage: 0.99,
-      borderRadius: 10,
-      categoryPercentage: 0.99,
+      barPercentage: 1,
+      categoryPercentage: 0.98,
       plugins: {
         subtitle: { text: lastMod('/assets/json/s-quarter.json') },
+        stacked100: { enable: true, precision: 0 },
         title: { text: 'Suku Tahun' }
       },
       scales: {
@@ -408,7 +411,7 @@ $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
               backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
               color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
               content: 'Domestik: ' + localeWeekData.avg_wLOC.toFixed(),
-              font: { size: 10 },
+              font: { size: 9 },
               padding: 1.5,
               position: 'start',
               type: 'label',
@@ -427,7 +430,7 @@ $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
               backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
               color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
               content: 'Antarabangsa: ' + localeWeekData.avg_wINTL.toFixed(),
-              font: { size: 10 },
+              font: { size: 9 },
               padding: 1.5,
               position: 'start',
               type: 'label',
@@ -446,7 +449,7 @@ $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
         y: { grid: { display: false }, type: 'logarithmic' }
       },
       showLine: true,
-      tension: 0.25,
+      tension: 0.5,
       watermark: wmOptions,
     },
     type: 'line',

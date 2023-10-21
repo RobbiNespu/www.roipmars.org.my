@@ -246,7 +246,7 @@
         <div class='col-lg-7 my-3 text-center'>
           <h4 class='h4'>Ahli RoIPMARS</h4>
           <p><span class='membercount badge rounded-3 text-bg-success'></span><?php
-            $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, dd MMMM yyyy, HH:mm zzzz');
+            $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, 'Asia/Kuala_Lumpur', IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
             $file_last_modified = filemtime(__FILE__);
             echo ' yang disahkan setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>

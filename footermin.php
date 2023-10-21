@@ -98,9 +98,8 @@
                   $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_IPCITY'] . ', ' . $_SERVER['HTTP_CF_REGION'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
                 } else {
                   $ipAdress = file_get_contents('https://api64.ipify.org');
-                  // $getIp = file_get_contents('https://api64.ipify.org');
-                  // $getGeoIp = json_decode(file_get_contents('https://ipwho.is/' + $getIp + '?output=json&fields=ip,city,region,country_code'), true);
-                  // $ipAdress = $getGeoIp['ip'] . ' dari ' . $getGeoIp['city'] . ', ' . $getGeoIp['region'] . ', ' . $getGeoIp['country_code'];
+                  // $GeoIp = json_decode(file_get_contents('https://ipapi.co/' . file_get_contents('https://api64.ipify.org') . '/json'), true);
+                  // $ipAdress = $GeoIp['ip'] . ' dari ' . $GeoIp['city'] . ', ' . $GeoIp['region'] . ', ' . $GeoIp['country'];
                 }
                 return $ipAdress;
               }

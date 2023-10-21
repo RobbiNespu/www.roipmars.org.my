@@ -1,3 +1,6 @@
-export const cache = false
-export const https = false
-export const withExtension = 'redirect'
+// fiveserver.config.js
+module.exports = {
+  https: false,
+  cache: false,
+  withExtension: 'redirect'
+}

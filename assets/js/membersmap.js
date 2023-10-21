@@ -83,8 +83,8 @@ var marsMemIcon = L.icon({ iconUrl: 'https://ik.imagekit.io/mhrtech/roipmars-org
 var marsGateIcon = L.icon({ iconUrl: 'https://img.icons8.com/plasticine/100/null/radio-tower.png', iconSize: [28, 28] })
 var attrPopup = { closeButton: false, attribution: marsattr }
 var circOpt = { radius: 10000, stroke: false, fillOpacity: 0.175, interactive: false }
-var gw9M4GLG = L.marker([4.1872, 102.1381], { title: '9W4GLG', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9M4GLG 144.8250MHz</p>', attrPopup)
-var gw9W4GMS = L.marker([3.444039, 101.5528566], { title: '9W4GMS', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GMS 144.9800MHz<br>VHF, TeamSpeak, EchoLink</p>', attrPopup)
+var gw9M4GLG = L.marker([4.110997, 102.236697], { title: '9M4GLG', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9M4GLG 144.8250MHz</p>', attrPopup)
+var gw9W4GMS = L.marker([3.444039, 101.552856], { title: '9W4GMS', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GMS 144.9800MHz<br>VHF, TeamSpeak, EchoLink</p>', attrPopup)
 var gw9W4GOZ = L.marker([5.741363, 115.934101], { title: '9W4GOZ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GOZ 144.8000MHz C203 -0.6MHz<br>VHF, TeamSpeak, EchoLink</p>', attrPopup)
 var gw9W4GPA = L.marker([3.23111, 101.423487], { title: '9W4GPA', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GPA 144.8500MHz C100<br>TeamSpeak, EchoLink, DMR, YSF, C4FM, Free Radio Network, Mumble, Peanut, Zello, Discord, Telegram, TeamTalk</p>', attrPopup)
 var gw9W4GWI = L.marker([5.9668, 102.0765], { title: '9W4GWI', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GWI 145.2750MHz</p>', attrPopup)

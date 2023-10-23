@@ -52,11 +52,11 @@ Chart.defaults.plugins.legend.position = 'top'
 Chart.defaults.plugins.subtitle.align = 'right'
 Chart.defaults.plugins.subtitle.display = true
 Chart.defaults.plugins.subtitle.padding = { bottom: 1, top: 1.5 }
-Chart.defaults.plugins.subtitle.position = 'bottom'
+Chart.defaults.plugins.subtitle.position = 'top'
 Chart.defaults.plugins.title.display = true
 Chart.defaults.plugins.title.font = { size: 16, weight: 'bold' }
 Chart.defaults.plugins.title.padding = { bottom: 1.5, top: 1 }
-Chart.defaults.plugins.title.position = 'bottom'
+Chart.defaults.plugins.title.position = 'top'
 const wmOptions = {
   image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png',
   opacity: 0.15,

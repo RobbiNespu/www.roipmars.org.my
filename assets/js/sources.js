@@ -1,7 +1,7 @@
 let currentURL = window.location.href
 let docTitle = document.querySelector('title').textContent
 let docDesc = document.querySelector('h1').textContent + '\n' + document.querySelector('p').textContent
-const referrers = '<meta charset="utf-8">\
+const meta = '<meta charset="utf-8">\
 <meta http-equiv="Content-Type" content="text/html">\
 <meta http-equiv="content-language" content="ms-MY">\
 <meta name="language" content="Malay">\
@@ -22,8 +22,8 @@ const referrers = '<meta charset="utf-8">\
 <meta name="twitter:description" content="'+ docDesc + '">\
 <meta name="twitter:url" content="'+ currentURL + '">\
 <meta name="twitter:image" content="/assets/favicon/favicon-194x194.png">\
-<meta name="twitter:creator" content="@HafiziRuslan">'
-const colorScheme = '<meta name="color-scheme" content="auto">'
+<meta name="twitter:creator" content="@HafiziRuslan">\
+<meta name="color-scheme" content="auto">'
 const favIcons = '<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">\
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">\
 <link rel="icon" type="image/png" sizes="194x194" href="/assets/favicon/favicon-194x194.png">\
@@ -38,6 +38,7 @@ const favIcons = '<link rel="apple-touch-icon" sizes="180x180" href="/assets/fav
 <meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png">\
 <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">\
 <meta name="theme-color" content="#ffffff">'
+document.querySelector('head').insertAdjacentHTML('beforeend', meta + favIcons + headEndLinks)
 
 const bodyStartLinks = '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>\
 <div id="fb-root"></div>\

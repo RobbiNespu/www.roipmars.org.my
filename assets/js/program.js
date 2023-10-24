@@ -1,3 +1,39 @@
+const MYT = document.getElementById('MYTime')
+function mytLive() {
+  MYT.textContent = new Intl.DateTimeFormat('ms-MY', {
+    formatMatcher: 'basic',
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    second: '2-digit',
+    dayPeriod: 'narrow',
+    timeZoneName: 'shortGeneric',
+    hour12: true,
+    timeZone: 'Asia/Kuala_Lumpur'
+  }).format(new Date())
+}
+setInterval(mytLive, 1000)
+const UTC = document.getElementById('UTCTime')
+function utcLive() {
+  UTC.textContent = new Intl.DateTimeFormat('en-MY', {
+    formatMatcher: 'basic',
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    second: '2-digit',
+    timeZoneName: 'short',
+    hour12: false,
+    timeZone: 'UTC'
+  }).format(new Date())
+}
+setInterval(utcLive, 1000)
+
 // 'use strict';
 $(document).ready(function () {
   var takwimtable = $('#takwim').DataTable({

@@ -19,17 +19,13 @@
 			<div class='row'>
 				<div class='col-lg-6 my-1 align-self-center'>
 					<div class='row text-center'>
-						<div class='col-sm'>
-							<embed loading='lazy' class='bg-transparent rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n122/tlmy40/fn17/ftb/tt0/td1/th1/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></embed>
-						</div>
-						<div class='col-sm'>
-							<embed loading='lazy' class='bg-transparent rounded-4 pe-none' src='https://free.timeanddate.com/clock/i8p043xx/n1440/tlmy/fn17/pd2/tt0/ta1' frameborder='0' width='350' height='20' allowtransparency='true'></embed>
-						</div>
+						<div class='col-xxl'><span id='MYTime'></span></div>
+						<div class='col-xxl'><span id='UTCTime'></span></div>
 					</div>
 					<div class='ratio ratio-21x9'>
 						<embed loading='lazy' class='rounded-4' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0'></embed>
 					</div>
-					<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun membuat selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan: <a class='btn btn-sm btn-link' role='button' href='https://wa.me/60333960874'><i class='bi-whatsapp'></i> <b>Pegawai Bahagian Rekod</b></a></p>
+					<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun menyampaikan selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan: <a class='btn btn-sm btn-link' role='button' href='https://wa.me/60333960874'><i class='bi-whatsapp'></i> <b>Pegawai Bahagian Rekod</b></a></p>
 					<div class='mt-3 text-center'>
 						<h4>Suapan Langsung Rangkaian RoIPMARS</h4>
 						<div id='bcfy'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
@@ -137,7 +133,7 @@
 						echo 'kemaskini: ' . datefmt_format($dtfmt, $scheduleLastMod);
 					?></span>
 				</div>
-				<div class='table-responsive'>
+				<div class='table'>
 					<table class='table table-sm table-striped text-center align-middle' id='takwim'>
 						<caption class='text-center'>
 							<ul class='list-group'>

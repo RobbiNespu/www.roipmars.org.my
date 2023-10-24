@@ -18,9 +18,9 @@
     <div class='container'>
       <div class='row'>
         <p class='text-center font-weight-bold h3 fs-2'>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;<br><sup>PPM-006-10-01062020</sup></p>
-        <div class='col-lg-6 mb-3'>
-          <h4 class='h4 text-center'>Kelebihan Keahlian Kumpulan RoIPMARS&#8480;</h4>
-          <ul class='list-group list-group-flush text-center align-middle'>
+        <div class='col-lg-7 mb-3'>
+          <h4 class='h4 text-center'>Kelebihan Keahlian RoIPMARS&#8480;</h4>
+          <ul class='list-group list-group-numbered align-middle'>
             <li class='list-group-item'>Memiliki hak bersama dalam semua perkhidmatan yang disediakan persatuan</li>
             <li class='list-group-item'>Menjadi fasilitator perkhidmatan melalui kursus secara lantikan dari jawatankuasa</li>
             <li class='list-group-item'>Berhak mendapat surat sokongan daripada persatuan &#40;sekiranya diperlukan&#41;</li>
@@ -28,7 +28,7 @@
             <li class='list-group-item'>Memilih &amp; mengundi Jawatankuasa di Pemilihan Jawatankuasa pada Mesyuarat Agung Dwi-Tahunan / Biennial General Meeting &#40;BGM&#41;</li>
           </ul>
         </div>
-        <div class='col-lg-6'>
+        <div class='col-lg-5'>
           <div class='hstack gap-1 mb-2 justify-content-center'>
             <a type='button' class='btn btn-primary rounded-pill' data-bs-toggle='modal' data-bs-target='#roscertModalLong'>Sijil Kelulusan Pertubuhan</a>
             <a type='button' class='btn btn-info rounded-pill' data-bs-toggle='modal' data-bs-target='#rosconstModalLong'>Perlembagaan Pertubuhan</a>
@@ -97,7 +97,7 @@
                   <p class='lh-1 mb-0'>PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-primary-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZULKIFLI ABU</p>
@@ -111,7 +111,7 @@
                   <p class='lh-1 mb-0'>TIMBALAN PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>KAMARUDZAMAN</p>
@@ -125,7 +125,7 @@
                   <p class='lh-1 mb-0'>SETIAUSAHA AGUNG</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-primary-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>HAFIZI RUSLAN</p>
@@ -139,7 +139,7 @@
                   <p class='lh-1 mb-0'>PENOLONG SETIAUSAHA</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
+                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>LANTIKAN 2024</p>
@@ -153,7 +153,7 @@
                   <p class='lh-1 mb-0'>BENDAHARI AGUNG</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/007.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/007.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-primary-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>SULAIMAN MAZLAN</p>
@@ -169,7 +169,7 @@
                   <p class='lh-1 mb-0'>BAHAGIAN<br>SIARAYA &amp; AKTIVITI<br><sup>&#40;Pegawai Lantikan Sementara&#41;</sup></p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>SABRI IBRAHIM</p>
@@ -183,7 +183,7 @@
                   <p class='lh-1 mb-0'>BAHAGIAN<br>TEKNIKAL</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZAHEER ZAKARIA</p>
@@ -197,7 +197,7 @@
                   <p class='lh-1 mb-0'>BAHAGIAN<br>KEBAJIKAN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>MUSTAFA OMAR</p>
@@ -211,25 +211,11 @@
                   <p class='lh-1 mb-0'>BAHAGIAN<br>EKONOMI</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>FAIZNURNIZAM MAT RASOL</p>
                   <p class='fw-semibold m-0'>9W2UBE</p>
-                </div>
-              </div>
-            </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
-              <div class='card-group justify-content-center'>
-                <div class='card-header fw-bold'>
-                  <p class='lh-1 mb-0'>BAHAGIAN<br>PERHUBUNGAN AWAM</p>
-                </div>
-                <div class='card-img'>
-                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient w-75'>
-                </div>
-                <div class='card-footer'>
-                  <p class='fw-bolder m-0'>LANTIKAN 2024</p>
-                  <p class='fw-semibold m-0'>&mdash;</p>
                 </div>
               </div>
             </div>

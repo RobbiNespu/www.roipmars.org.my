@@ -58,7 +58,7 @@ Chart.defaults.plugins.title.font = { size: 16, weight: 'bold' }
 Chart.defaults.plugins.title.padding = { bottom: 1.5, top: 1 }
 Chart.defaults.plugins.title.position = 'top'
 const wmOptions = {
-  image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png',
+  image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_oglow.png',
   opacity: 0.15,
   width: '80%',
   height: '25%',

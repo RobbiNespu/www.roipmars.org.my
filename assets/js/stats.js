@@ -59,9 +59,9 @@ Chart.defaults.plugins.title.padding = { bottom: 1.5, top: 1 }
 Chart.defaults.plugins.title.position = 'top'
 const wmOptions = {
   image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_oglow.png',
-  opacity: 0.15,
-  width: '80%',
-  height: '25%',
+  opacity: 0.2,
+  width: '85%',
+  height: '32%',
   alignX: 'middle',
   alignY: 'middle',
   position: 'between'

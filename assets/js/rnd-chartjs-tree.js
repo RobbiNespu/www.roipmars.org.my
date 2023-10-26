@@ -28,7 +28,7 @@ const wmOptions = {
   image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_oglow.png',
   opacity: 0.25,
   width: '90%',
-  height: '28%',
+  height: '30%',
   alignX: 'middle',
   alignY: 'middle',
   position: 'between'

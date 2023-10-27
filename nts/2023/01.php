@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Sambungan Sijil NCS &amp; Kad QSL</title>
+    <title>RoIPMARS Network | Sambungan Sijil NCS &amp; Kad QSL</title>
   </head>
 
   <body>

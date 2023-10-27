@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Pemberhentian Sementara Net CB RoIPMARS</title>
+    <title>RoIPMARS Network | Pemberhentian Sementara Net CB RoIPMARS</title>
   </head>
 
   <body>

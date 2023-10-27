@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Gangguan Sambungan Berjadual RoIPDarulAman</title>
+    <title>RoIPMARS Network | Gangguan Sambungan Berjadual RoIPDarulAman</title>
   </head>
 
   <body>

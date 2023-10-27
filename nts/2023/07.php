@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</title>t.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brandnet_sq.png'>
+    <title>RoIPMARS Network | Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</title>t.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brandnet_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
   </head>
 

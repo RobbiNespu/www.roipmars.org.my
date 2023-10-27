@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Soalan Lazim</title>
+    <title>RoIPMARS Network | Soalan Lazim</title>
   </head>
 
   <body>

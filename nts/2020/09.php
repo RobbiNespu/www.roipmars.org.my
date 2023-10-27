@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Server Downtime 30 Aug 2020</title>
+    <title>RoIPMARS Network | Server Downtime 30 Aug 2020</title>
   </head>
 
   <body>

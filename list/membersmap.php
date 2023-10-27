@@ -2,7 +2,7 @@
 <html data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Members Directory</title>
+    <title>RoIPMARS Network | Members Directory</title>
 		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1/font/bootstrap-icons.min.css' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet@1/dist/leaflet.min.css' crossorigin='anonymous'>

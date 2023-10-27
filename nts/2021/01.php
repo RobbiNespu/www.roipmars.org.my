@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Rombakan Isyarat Panggilan Jalur Rakyat</title>
+    <title>RoIPMARS Network | Rombakan Isyarat Panggilan Jalur Rakyat</title>
   </head>
 
   <body>

@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Website Interruption for Upgrade</title>
+    <title>RoIPMARS Network | Website Interruption for Upgrade</title>
   </head>
 
   <body>

@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Notice CB CS Inactive Status and Methods</title>
+    <title>RoIPMARS Network | Notice CB CS Inactive Status and Methods</title>
   </head>
 
   <body>

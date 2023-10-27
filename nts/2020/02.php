@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Sijil NCS Mingguan RoIP MARS</title>
+    <title>RoIPMARS Network | Sijil NCS Mingguan RoIP MARS</title>
   </head>
 
   <body>

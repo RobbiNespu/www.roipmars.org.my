@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Penutupan Pelayan RoIPDARULAMAN</title>
+    <title>RoIPMARS Network | Penutupan Pelayan RoIPDARULAMAN</title>
   </head>
 
   <body>

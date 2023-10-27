@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Perubahan domain RoIPMARS</title>
+    <title>RoIPMARS Network | Perubahan domain RoIPMARS</title>
   </head>
 
   <body>

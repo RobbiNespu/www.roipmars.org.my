@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Polisi Perkhidmatan</title>
+    <title>RoIPMARS Network | Polisi Perkhidmatan</title>
   </head>
 
   <body>

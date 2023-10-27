@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | 477MHz CB-MY2000</title>t.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brandnet_sq.png'>
+    <title>RoIPMARS Network | 477MHz CB-MY2000</title>t.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brandnet_sq.png'>
     <meta name='twitter:creator' content='@HafiziRuslan'>
   </head>
 

@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | Downloads Webpage</title>
+    <title>RoIPMARS Network | Downloads Webpage</title>
   </head>
 
   <body>

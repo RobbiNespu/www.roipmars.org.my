@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS℠ Network | 477MHz CB-PRS</title>
+    <title>RoIPMARS Network | 477MHz CB-PRS</title>
   </head>
 
   <body>

@@ -45,6 +45,16 @@
                 <a class='nav-link ms-3 my-1' href='#cancellation'>Pembatalan Pesanan</a>
                 <a class='nav-link ms-3 my-1' href='#retuning'>Syarat Pemulangan</a>
               </nav>
+              <a class='nav-link' href='#scam'>NOTIS PENIPUAN</a>
+              <a class='nav-link' href='#whistleblowing'>Pemberi Maklumat</a>
+              <nav class='nav nav-pills flex-column'>
+                <a class='nav-link ms-3 my-1' href='#wbwhat'>Apa itu Pemberitahuan Maklumat?</a>
+                <a class='nav-link ms-3 my-1' href='#wbwho'>Siapa yang patut menimbulkan kebimbangan?</a>
+                <a class='nav-link ms-3 my-1' href='#wbhow'>Bagaimana untuk membuat pendedahan?</a>
+                <a class='nav-link ms-3 my-1' href='#wbprocess'>Bagaimanakah &quot;RoIPMARS&quot; Mengendalikan Maklumat Pemberi Maklumat?</a>
+                <a class='nav-link ms-3 my-1' href='#wbprotection'>Perlindungan Pemberi Maklumat</a>
+                <a class='nav-link ms-3 my-1' href='#wbresponsibilty'>Tanggungjawab Pemberi Maklumat</a>
+              </nav>
             </nav>
           </nav>
         </div>
@@ -52,8 +62,8 @@
           <div data-bs-spy='scroll' data-bs-target='#navbar-policy' data-bs-offset='0' data-bs-smooth-scroll='true' class='scrollspy-policy' tabindex='0'>
             <div id='tos'>
               <h4>Terma &amp; Syarat</h4>
-              <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI [ROIP (RADIO OVER INTERNET PROTOCOL)], terletak di roipmars.org.my.</p>
-              <p>Dengan mengakses laman sesawang ini, kami menganggap anda menerima dan bersetuju dengan terma dan syarat ini. Jangan terus menggunakan Perkhidmatan RoIPMARS jika anda tidak bersetuju untuk menerima semua terma dan syarat yang dinyatakan di halaman ini.</p>
+              <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI, terletak di roipmars.org.my.</p>
+              <p>Dengan mengakses laman sesawang ini, kami menganggap anda menerima dan bersetuju dengan terma dan syarat ini. Jangan terus menggunakan Perkhidmatan &quot;RoIPMARS&quot; jika anda tidak bersetuju untuk menerima semua terma dan syarat yang dinyatakan di halaman ini.</p>
               <p>Istilah berikut digunakan untuk Terma dan Syarat ini, Pernyataan Privasi dan Notis Penafian dan semua Perjanjian:</p>
               <ul>
                 <li>&quot;Pengguna&quot;, &quot;Anda&quot;, merujuk kepada anda, orang yang log masuk ke laman sesawang ini dan mematuhi terma dan syarat.</li>
@@ -62,18 +72,18 @@
               </ul>
               <p>Semua terma merujuk kepada tawaran, penerimaan dan pertimbangan pembayaran yang diperlukan untuk menjalankan proses bantuan kami kepada pengguna dengan cara yang paling sesuai untuk tujuan nyata memenuhi keperluan pengguna berkenaan dengan penyediaan perkhidmatan yang dinyatakan oleh Organisasi, selaras dengan dan tertakluk kepada, undang-undang semasa Malaysia. Sebarang penggunaan istilah di atas atau perkataan lain dalam bentuk tunggal, jamak, huruf besar dan/atau dia atau mereka, dianggap sebagai boleh ditukar ganti dan oleh itu merujuk kepada yang sama.</p>
               <h5>Kuki</h5>
-              <p>Kami menggunakan penggunaan kuki. Dengan mengakses RoIPMARS, anda bersetuju untuk menggunakan kuki dalam persetujuan dengan Dasar Privasi Organisasi. </p>
+              <p>Kami menggunakan penggunaan kuki. Dengan mengakses &quot;RoIPMARS&quot;, anda bersetuju untuk menggunakan kuki dalam persetujuan dengan Dasar Privasi Organisasi. </p>
               <p>Kebanyakan laman sesawang interaktif menggunakan kuki untuk membolehkan kami mendapatkan semula butiran pengguna untuk setiap lawatan. Kuki digunakan oleh laman sesawang kami untuk membolehkan kefungsian kawasan tertentu untuk memudahkan orang melawat laman sesawang kami. Beberapa ahli gabungan/rakan kongsi pengiklanan kami juga mungkin menggunakan kuki.</p>
             </div>
             <div id='license'>
               <h5>Lesen</h5>
-              <p>Melainkan dinyatakan sebaliknya, Organisasi dan/atau pemberi lesennya memiliki hak harta intelek untuk semua bahan di RoIPMARS. Semua hak harta intelek adalah terpelihara. Anda boleh mengakses ini daripada RoIPMARS untuk kegunaan peribadi anda sendiri tertakluk pada sekatan yang ditetapkan dalam terma dan syarat ini.</p>
+              <p>Melainkan dinyatakan sebaliknya, Organisasi dan/atau pemberi lesennya memiliki hak harta intelek untuk semua bahan di &quot;RoIPMARS&quot;. Semua hak harta intelek adalah terpelihara. Anda boleh mengakses ini daripada &quot;RoIPMARS&quot; untuk kegunaan peribadi anda sendiri tertakluk pada sekatan yang ditetapkan dalam terma dan syarat ini.</p>
               <p>Anda tidak boleh:</p>
               <ul>
-                <li>Terbitkan semula bahan daripada RoIPMARS</li>
-                <li>Jual, sewa atau sub-lesen bahan daripada RoIPMARS</li>
-                <li>Menghasilkan semula, menduplikasi atau menyalin bahan daripada RoIPMARS</li>
-                <li>Agihkan semula kandungan daripada RoIPMARS</li>
+                <li>Terbitkan semula bahan daripada &quot;RoIPMARS&quot;</li>
+                <li>Jual, sewa atau sub-lesen bahan daripada &quot;RoIPMARS&quot;</li>
+                <li>Menghasilkan semula, menduplikasi atau menyalin bahan daripada &quot;RoIPMARS&quot;</li>
+                <li>Agihkan semula kandungan daripada &quot;RoIPMARS&quot;</li>
               </ul>
               <p>Perjanjian ini hendaklah bermula pada tarikh ini.</p>
               <p>Sebahagian daripada laman sesawang ini menawarkan peluang kepada pengguna untuk menyiarkan dan bertukar-tukar pendapat dan maklumat dalam kawasan tertentu laman sesawang. Organisasi tidak menapis, mengubah, menerbitkan atau menyemak Komen sebelum kehadirannya di laman sesawang. Komen tidak menggambarkan pandangan dan pendapat organisasi, ejen dan/atau ahli gabungannya. Komen mencerminkan pandangan dan pendapat orang yang menyiarkan pandangan dan pendapat mereka. Setakat yang dibenarkan oleh undang-undang yang terpakai, organisasi tidak akan bertanggungjawab ke atas Komen atau untuk sebarang liabiliti, kerosakan atau perbelanjaan yang disebabkan dan/atau dialami akibat daripada sebarang penggunaan dan/atau penyiaran dan/atau penampilan Ulasan di laman sesawang ini.</p>
@@ -162,9 +172,9 @@
             </div>
             <div id='privacy'>
               <h4>Dasar Privasi</h4>
-              <p>Di RoIPMARS, boleh diakses daripada roipmars.org.my dan semua sub-domainnya, salah satu keutamaan utama kami ialah privasi pelawat kami. Dokumen Dasar Privasi ini mengandungi jenis maklumat yang dikumpul dan direkodkan oleh RoIPMARS dan cara kami menggunakannya.</p>
+              <p>Di &quot;RoIPMARS&quot;, boleh diakses daripada roipmars.org.my dan semua sub-domainnya, salah satu keutamaan utama kami ialah privasi pelawat kami. Dokumen Dasar Privasi ini mengandungi jenis maklumat yang dikumpul dan direkodkan oleh &quot;RoIPMARS&quot; dan cara kami menggunakannya.</p>
               <p>Jika anda mempunyai soalan tambahan atau memerlukan maklumat lanjut tentang Dasar Privasi kami, jangan teragak-agak untuk menghubungi kami.</p>
-              <p>Dasar Privasi ini hanya terpakai untuk aktiviti dalam talian kami dan sah untuk pelawat ke laman web kami berkenaan dengan maklumat yang mereka kongsi dan/atau kumpulkan dalam RoIPMARS. Dasar ini tidak terpakai kepada sebarang maklumat yang dikumpul di luar talian atau melalui saluran selain laman web ini.</p>
+              <p>Dasar Privasi ini hanya terpakai untuk aktiviti dalam talian kami dan sah untuk pelawat ke laman web kami berkenaan dengan maklumat yang mereka kongsi dan/atau kumpulkan dalam &quot;RoIPMARS&quot;. Dasar ini tidak terpakai kepada sebarang maklumat yang dikumpul di luar talian atau melalui saluran selain laman web ini.</p>
             </div>
             <div id='agreement'>
               <h5>Persetujuan</h5>
@@ -189,36 +199,36 @@
             </div>
             <div id='logging'>
               <h5>Fail Log</h5>
-              <p>RoIPMARS mengikut prosedur standard menggunakan fail log. Fail ini merekodkan pelawat apabila mereka melawat laman web. Semua syarikat pengehosan melakukan ini dan sebahagian daripada analisis perkhidmatan pengehosan. Maklumat yang dikumpul oleh fail log termasuk alamat protokol Internet (IP), jenis pelayar, Pembekal Perkhidmatan Internet (ISP), tarikh dan masa, halaman rujukan/keluar, dan mungkin bilangan klik. Ini tidak dikaitkan dengan sebarang maklumat yang boleh dikenal pasti secara peribadi. Tujuan maklumat adalah untuk menganalisis arah aliran, mentadbir laman, menjejaki pergerakan pengguna di laman web, dan mengumpul maklumat demografi.</p>
+              <p>&quot;RoIPMARS&quot; mengikut prosedur standard menggunakan fail log. Fail ini merekodkan pelawat apabila mereka melawat laman web. Semua syarikat pengehosan melakukan ini dan sebahagian daripada analisis perkhidmatan pengehosan. Maklumat yang dikumpul oleh fail log termasuk alamat protokol Internet (IP), jenis pelayar, Pembekal Perkhidmatan Internet (ISP), tarikh dan masa, halaman rujukan/keluar, dan mungkin bilangan klik. Ini tidak dikaitkan dengan sebarang maklumat yang boleh dikenal pasti secara peribadi. Tujuan maklumat adalah untuk menganalisis arah aliran, mentadbir laman, menjejaki pergerakan pengguna di laman web, dan mengumpul maklumat demografi.</p>
             </div>
             <div id='cookies2'>
               <h5>Kuki dan Suar Web</h5>
-              <p>Seperti mana-mana laman web lain, RoIPMARS menggunakan 'kuki'. Kuki ini digunakan untuk menyimpan maklumat termasuk keutamaan pelawat, dan halaman di laman web yang diakses atau dilawati oleh pelawat. Maklumat ini digunakan untuk mengoptimumkan pengalaman pengguna dengan menyesuaikan kandungan halaman web kami berdasarkan jenis pelayar pelawat dan/atau maklumat lain.</p>
+              <p>Seperti mana-mana laman web lain, &quot;RoIPMARS&quot; menggunakan 'kuki'. Kuki ini digunakan untuk menyimpan maklumat termasuk keutamaan pelawat, dan halaman di laman web yang diakses atau dilawati oleh pelawat. Maklumat ini digunakan untuk mengoptimumkan pengalaman pengguna dengan menyesuaikan kandungan halaman web kami berdasarkan jenis pelayar pelawat dan/atau maklumat lain.</p>
               <h5>Kuki DART Google DoubleClick</h5>
-              <p>Google ialah salah satu vendor pihak ketiga di laman kami. Ia juga menggunakan kuki, dikenali sebagai kuki DART, untuk menyiarkan iklan kepada pelawat laman kami berdasarkan lawatan mereka ke RoIPMARS dan laman lain di internet. Walau bagaimanapun, pelawat boleh memilih untuk menolak penggunaan kuki DART dengan melawati iklan Google dan Dasar Privasi rangkaian kandungan di URL berikut <a href='https://policies.google.com/technologies/ads?hl=ms&gl=my' target='_blank' rel='noopener' rel='noopener noreferrer'>Google</a></p>
+              <p>Google ialah salah satu vendor pihak ketiga di laman kami. Ia juga menggunakan kuki, dikenali sebagai kuki DART, untuk menyiarkan iklan kepada pelawat laman kami berdasarkan lawatan mereka ke &quot;RoIPMARS&quot; dan laman lain di internet. Walau bagaimanapun, pelawat boleh memilih untuk menolak penggunaan kuki DART dengan melawati iklan Google dan Dasar Privasi rangkaian kandungan di URL berikut <a href='https://policies.google.com/technologies/ads?hl=ms&gl=my' target='_blank' rel='noopener' rel='noopener noreferrer'>Google</a></p>
             </div>
             <div id='advertisement'>
               <h5>Dasar Privasi Rakan Kongsi Pengiklanan</h5>
-              <P>Anda boleh merujuk senarai ini untuk mencari Dasar Privasi bagi setiap rakan kongsi pengiklanan RoIPMARS.</p>
+              <P>Anda boleh merujuk senarai ini untuk mencari Dasar Privasi bagi setiap rakan kongsi pengiklanan &quot;RoIPMARS&quot;.</p>
               <ul>
                 <li><a href='https://policies.google.com/technologies/ads?hl=ms&gl=my' target='_blank' rel='noopener' rel='noopener noreferrer'>Google</a></li>
               </ul>
-              <p>Pelayan iklan pihak ketiga atau rangkaian iklan menggunakan teknologi seperti kuki, JavaScript atau Suar Web yang digunakan dalam iklan dan pautan masing-masing yang dipaparkan di RoIPMARS, yang dihantar terus ke pelayar pengguna. Mereka secara automatik menerima alamat IP anda apabila ini berlaku. Teknologi ini digunakan untuk mengukur keberkesanan kempen pengiklanan mereka dan/atau untuk memperibadikan kandungan pengiklanan yang anda lihat di laman web yang anda lawati.</p>
-              <p>Ambil perhatian bahawa RoIPMARS tidak mempunyai akses kepada atau kawalan ke atas kuki ini yang digunakan oleh pengiklan pihak ketiga.</p>
+              <p>Pelayan iklan pihak ketiga atau rangkaian iklan menggunakan teknologi seperti kuki, JavaScript atau Suar Web yang digunakan dalam iklan dan pautan masing-masing yang dipaparkan di &quot;RoIPMARS&quot;, yang dihantar terus ke pelayar pengguna. Mereka secara automatik menerima alamat IP anda apabila ini berlaku. Teknologi ini digunakan untuk mengukur keberkesanan kempen pengiklanan mereka dan/atau untuk memperibadikan kandungan pengiklanan yang anda lihat di laman web yang anda lawati.</p>
+              <p>Ambil perhatian bahawa &quot;RoIPMARS&quot; tidak mempunyai akses kepada atau kawalan ke atas kuki ini yang digunakan oleh pengiklan pihak ketiga.</p>
             </div>
             <div id='third-party'>
               <h5>Dasar Privasi Pihak Ketiga</h5>
-              <p>Dasar Privasi RoIPMARS tidak terpakai kepada pengiklan atau laman web lain. Oleh itu, kami menasihatkan anda untuk merujuk Dasar Privasi masing-masing bagi pelayan iklan pihak ketiga ini untuk mendapatkan maklumat yang lebih terperinci. Ia mungkin termasuk amalan dan arahan mereka tentang cara memilih keluar daripada pilihan tertentu. </p>
+              <p>Dasar Privasi &quot;RoIPMARS&quot; tidak terpakai kepada pengiklan atau laman web lain. Oleh itu, kami menasihatkan anda untuk merujuk Dasar Privasi masing-masing bagi pelayan iklan pihak ketiga ini untuk mendapatkan maklumat yang lebih terperinci. Ia mungkin termasuk amalan dan arahan mereka tentang cara memilih keluar daripada pilihan tertentu. </p>
               <p>Anda boleh memilih untuk melumpuhkan kuki melalui pilihan pelayar individu anda. Untuk mengetahui maklumat lebih terperinci tentang pengurusan kuki dengan pelayan web tertentu, ia boleh didapati di laman web pelayar masing-masing.</p>
             </div>
             <div id='kids-info'>
               <h5>Maklumat Kanak-kanak</h5>
               <p>Satu lagi bahagian keutamaan kami ialah menambah perlindungan untuk kanak-kanak semasa menggunakan internet. Kami menggalakkan ibu bapa dan penjaga untuk memerhati, mengambil bahagian dalam dan/atau memantau serta membimbing aktiviti dalam talian mereka.</p>
-              <p>RoIPMARS tidak secara sengaja mengumpul sebarang Maklumat Pengenalan Peribadi daripada kanak-kanak di bawah umur 18 tahun. Jika anda berpendapat bahawa anak anda memberikan maklumat seperti ini di laman web kami, kami amat menggalakkan anda menghubungi kami dengan segera dan kami akan melakukan usaha yang terbaik untuk mengalih keluar maklumat sedemikian dengan segera daripada rekod kami.</p>
+              <p>&quot;RoIPMARS&quot; tidak secara sengaja mengumpul sebarang Maklumat Pengenalan Peribadi daripada kanak-kanak di bawah umur 18 tahun. Jika anda berpendapat bahawa anak anda memberikan maklumat seperti ini di laman web kami, kami amat menggalakkan anda menghubungi kami dengan segera dan kami akan melakukan usaha yang terbaik untuk mengalih keluar maklumat sedemikian dengan segera daripada rekod kami.</p>
             </div>
             <div id='return'>
               <h4>Dasar Pemulangan dan Bayaran Balik</h4>
-              <p>Terima kasih kerana membeli-belah di RoIPMARS. Jika, atas sebarang sebab, anda tidak berpuas hati sepenuhnya dengan pembelian / langganan, kami menjemput anda untuk menyemak dasar kami mengenai bayaran balik dan pemulangan. Terma berikut terpakai untuk sebarang produk / perkhidmatan yang anda beli / langgan dengan Kami.</p>
+              <p>Terima kasih kerana membeli-belah di &quot;RoIPMARS&quot;. Jika, atas sebarang sebab, anda tidak berpuas hati sepenuhnya dengan pembelian / langganan, kami menjemput anda untuk menyemak dasar kami mengenai bayaran balik dan pemulangan. Terma berikut terpakai untuk sebarang produk / perkhidmatan yang anda beli / langgan dengan Kami.</p>
             </div>
             <div id='interpretation'>
               <h5>Tafsiran</h5>
@@ -226,11 +236,11 @@
               <h5>Takrif</h5>
               <p>Untuk tujuan Polisi Pemulangan dan Bayaran Balik ini:</p>
               <ul>
-                <li><strong>Organisasi</strong> (dirujuk sama ada &quot;Organisasi&quot;, &quot;Kami&quot; dalam Perjanjian ini) merujuk kepada PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP(RADIO OVER NTERNET PROTOKOL)) [PPM-006-10-01062020]</li>
+                <li><strong>Organisasi</strong> (dirujuk sama ada &quot;Organisasi&quot;, &quot;Kami&quot; dalam Perjanjian ini) merujuk kepada PERSATUAN PEMINAT RADIO KOMUNIKASI</li>
                 <li><strong>Barang</strong> merujuk kepada produk / khidmat yang ditawarkan untuk dijual pada Perkhidmatan.</li>
                 <li><strong>Pesanan</strong> bermaksud permintaan oleh Anda untuk membeli Barang daripada Kami.</li>
                 <li><strong>Perkhidmatan</strong> merujuk kepada laman Web dan/atau khidmat.</li>
-                <li><strong>laman web</strong> merujuk kepada RoIPMARS, boleh diakses daripada roipmars.org.my dan semua sub-domainnya</li>
+                <li><strong>laman web</strong> merujuk kepada &quot;RoIPMARS&quot;, boleh diakses daripada roipmars.org.my dan semua sub-domainnya</li>
                 <li><strong>Anda</strong> bermaksud individu yang mengakses atau menggunakan Perkhidmatan, atau organisasi, atau entiti undang-undang lain bagi pihak individu tersebut mengakses atau menggunakan Perkhidmatan, mengikut mana yang berkenaan.</li>
               </ul>
             </div>
@@ -272,6 +282,75 @@
               <ul>
                 <li>Melalui e-mel: member@roipmars.org.my</li>
               </ul>
+            </div>
+            <div id='scam'>
+              <h4>NOTIS PENIPUAN</h4>
+              <p>PENAFIAN: &quot;ROIPMARS&quot; tidak bertanggungjawab ke atas kandungan apa-apa maklumat dan tidak akan bertanggungjawab ke atas sebarang akibat, kerugian, atau kerosakan dalam apa jua bentuk yang ditanggung atau mungkin ditanggung oleh mana-mana individu atau orang awam disebabkan pergantungan mereka pada atau penggunaan maklumat berkenaan skim penebusan hadiah, cabutan bertuah, peraduan dan pengambilan dalam &quot;ROIPMARS&quot; daripada portal yang tidak dibenarkan, tapak web atau domain e-mel yang tidak disokong oleh &quot;ROIPMARS&quot;.</p>
+            </div>
+            <div id='whistleblowing'>
+              <h4>Pemberi Maklumat</h4>
+              <p>Di &quot;RoIPMARS&quot;, kami menjunjung standard tertinggi profesionalisme dan etika dalam semua aktiviti profesional kami. Sebagai sebahagian daripada komitmen kami terhadap tadbir urus yang baik, &quot;RoIPMARS&quot; telah mewujudkan Dasar Pemberitahuan Maklumat yang menyediakan ruang untuk penyiasatan objektif dan penyelesaian kebimbangan yang sah. Kami menggalakkan individu untuk mengemukakan kebimbangan mengenai amalan yang menyalahi undang-undang, tidak beretika atau boleh dipersoalkan dengan jaminan kerahsiaan dan tanpa rasa takut akan tindakan.</p>
+            </div>
+            <div id='wbwhat'>
+              <h5>Apa itu Pemberitahuan Maklumat?</h5>
+              <p>Pemberitahuan Maklumat merujuk kepada pendedahan sukarela kelakuan dan amalan yang tidak sesuai, tidak beretika atau menyalahi undang-undang oleh pengurusan atau ahli &quot;RoIPMARS&quot;. Ini termasuk cara ahli, pelanggan dan pelabur dilayan. Perlakuan berikut dianggap tidak wajar dan boleh dilaporkan untuk pemberi maklumat, walaupun senarai itu tidak lengkap:</p>
+              <ul>
+                <li>Sebarang aktiviti yang menyalahi undang-undang, sama ada jenayah atau pelanggaran undang-undang sivil;</li>
+                <li>Pelanggaran dasar dan/atau prosedur;</li>
+                <li>Penipuan, kecurian, penyelewengan atau ketidakjujuran;</li>
+                <li>Rasuah;</li>
+                <li>Buli dan gangguan;</li>
+                <li>Tindakan yang mendatangkan bahaya/mudarat fizikal kepada individu atau berisiko merosakkan harta benda/aset;</li>
+                <li>Pemalsuan atau pengubahan mana-mana dokumen milik &quot;RoIPMARS&quot;, pelanggan, Institusi Kewangan lain atau ejen Organisasi;</li>
+                <li>Pencatutan kerana pengetahuan orang dalam;</li>
+                <li>Salah urus atau pengabaian tugas yang teruk;</li>
+                <li>Konflik kepentingan;</li>
+                <li>Penyalahgunaan kedudukan atau maklumat;</li>
+                <li>Sebarang penyelewengan lain yang serupa atau berkaitan;</li>
+              </ul>
+            </div>
+            <div id='wbwho'>
+              <h5>Siapa yang patut menimbulkan kebimbangan?</h5>
+              <p>Sesiapa yang terjumpa amalan yang tidak sesuai dalam &quot;RoIPMARS&quot; berhak untuk memberi maklumat. Dasar ini terpakai kepada semua perkara yang melibatkan ahli &quot;RoIPMARS&quot; (termasuk bekas ahli, tanpa mengira status keahlian), pelanggan dan mana-mana pihak berkepentingan atau individu lain yang menyediakan perkhidmatan kepada organisasi, termasuk perunding, vendor, kontraktor bebas, agensi luar dan sesiapa sahaja yang mempunyai hubungan perniagaan dengan &quot;RoIPMARS&quot;.</p>
+            </div>
+            <div id='wbhow'>
+              <h5>Bagaimana untuk membuat pendedahan?</h5>
+              <p>Kami mengambil maklum balas dengan serius, dan kebimbangan anda penting kepada kami. Jika anda ingin mendedahkan sebarang amalan tidak wajar yang berlaku dalam &quot;RoIPMARS&quot;, anda boleh berbuat demikian melalui mana-mana saluran laporan khusus berikut:</p>
+              <ul>
+                <li>E-mel kepada member@roipmars.org.my</li>
+                <li>Hantar melalui pos kepada: Pengerusi, Jawatankuasa Rekod & Audit Jaringan RoIPMARS &#91;31, Lorong Naluri Sukma 8/13, Seksyen 8, Bandar Puncak Alam, 42300 Kuala Selangor, Selangor Darul Ehsan, Malaysia&#93;</li>
+                <li>Saluran tambahan untuk penyerahan pendedahan oleh ahli &quot;RoIPMARS&quot;:</li>
+                <ol type='a'>
+                  <li>E-mel kepada member@roipmars.org.my;</li>
+                  <li>E-mel, telefon atau tulis terus kepada Pengerusi Jawatankuasa Rekod & Audit Jaringan RoIPMARS, Ketua Pegawai Eksekutif Organisasi, Pegawai Organisasi dan/atau Ketua Juruaudit Dalaman Organisasi, berdasarkan jenis, dan/atau kategori pendedahan yang akan dibuat;</li>
+                </ol>
+              </ul>
+              <p>Sebagai alternatif, pemberi maklumat boleh melaporkan terus kepada pihak berkuasa kerajaan atau kawal selia dan agensi penguatkuasaan yang berkaitan di Malaysia, seperti yang ditetapkan oleh Akta Perlindungan Pemberi Maklumat 2010, seperti Bank Negara Malaysia (BNM), Suruhanjaya Pencegahan Rasuah Malaysia (SPRM), Persatuan Bank Malaysia (ABM), Polis, dsb.</p>
+              <p>Untuk memudahkan penyiasatan, sila sertakan maklumat berikut semasa membuat pendedahan, jika boleh dan berkenaan:</p>
+              <ol type='i'>
+                <li>Penerangan ringkas tentang salah laku;</li>
+                <li>Tarikh dan lokasi kejadian;</li>
+                <li>Identiti pesalah;</li>
+                <li>Butiran saksi, (jika ada);</li>
+                <li>Bukti sokongan dan/atau dokumen lain yang dianggap berguna untuk memudahkan pemeriksaan dan tindakan;</li>
+              </ol>
+              <p>Pemberi maklumat adalah digalakkan mendedahkan butiran peribadi mereka bagi membolehkan pihak berkaitan yang menjalankan siasatan untuk mendapatkan maklumat lanjut, termasuk nama dan butiran hubungan.</p>
+            </div>
+            <div id='wbprocess'>
+              <h5>Bagaimanakah &quot;RoIPMARS&quot; Mengendalikan Maklumat Pemberi Maklumat?</h5>
+              <p>Selepas meneliti maklumat yang didedahkan, Ketua Juruaudit Dalaman Organisasi akan berunding dengan Pengarah Bukan Eksekutif yang dilantik dan menentukan sama ada penyiasatan adalah wajar atau jika tindakan lain perlu diambil.</p>
+              <p>Bergantung pada hasil siasatan, Ketua Juruaudit Dalaman Organisasi akan mengesyorkan tindakan yang sewajarnya kepada Pengurusan, dengan Pengarah Bukan Eksekutif yang dilantik diberi taklimat mengenai perkara itu.</p>
+            </div>
+            <div id='wbprotection'>
+              <h5>Perlindungan Pemberi Maklumat</h5>
+              <p>&quot;RoIPMARS&quot; komited untuk mengendalikan semua maklumat yang didedahkan, termasuk identiti pemberi maklumat, dengan kerahsiaan yang ketat. Semua kakitangan yang terlibat dalam kes pemberi maklumat mesti melindungi identiti pemberi maklumat dan saksi daripada pendedahan tanpa kebenaran sebelum, semasa dan selepas penyiasatan.</p>
+              <p>Kami juga berjanji untuk melindungi pemberi maklumat daripada gangguan, tindakan, penganiayaan dan pendakwaan yang timbul daripada membuat pendedahan dengan niat baik. Walau bagaimanapun, keadaan mungkin timbul di mana identiti pemberi maklumat perlu didedahkan atas dasar yang perlu diketahui (cth., keperluan untuk memberi keterangan di mahkamah). Dalam kes sedemikian, &quot;RoIPMARS&quot; akan berbincang dan mendapatkan persetujuan daripada pemberi maklumat sebelum meneruskan.</p>
+              <p>Perlindungan akan terbatal jika didapati pemberi maklumat turut terlibat dalam kelakuan tidak wajar atau jika pendedahan dibuat dengan niat jahat.</p>
+            </div>
+            <div id='wbresponsibilty'>
+              <h5>Tanggungjawab Pemberi Maklumat</h5>
+              <p>Pemberi maklumat mesti membuat pendedahan dengan suci hati dan secara munasabah percaya bahawa maklumat dan dakwaan itu adalah benar. Selain itu, pemberi maklumat tidak seharusnya bertindak untuk kepentingan peribadi, dan jika kes itu melibatkan kepentingan peribadi pengadu, ia mesti dimaklumkan pada awalnya.</p>
+              <p>Di &quot;RoIPMARS&quot;, kami mengambil serius kebimbangan anda dan tetap berdedikasi untuk menegakkan etika dan ketelusan tertinggi. Komitmen anda untuk memastikan sebuah organisasi yang bertanggungjawab amat dihargai.</p>
             </div>
           </div>
         </div>

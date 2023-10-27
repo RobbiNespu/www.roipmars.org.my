@@ -1,3 +1,5 @@
+let currentPage = window.location.pathname.replace('/','')
+document.querySelector('a#' + currentPage).classList.add('active')
 let currentURL = window.location.href
 let docTitle = document.querySelector('title').textContent
 let docDesc = document.querySelector('h1').textContent + '\n' + document.querySelector('p').textContent

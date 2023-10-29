@@ -48,7 +48,7 @@ $(document).ready(function () {
       { className: 'text-center align-middle', data: 'Laporan', name: 'lapor', searchable: true, title: 'Laporan' },
     ],
     deferRender: true,
-    displayStart: 220,
+    displayStart: 230,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
       info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',

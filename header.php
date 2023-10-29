@@ -34,9 +34,9 @@
               <li class='nav-item dropdown my-auto'>
                 <button class='btn btn-sm btn-info dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>RoIPMARS</button>
                 <ul class='dropdown-menu dropdown-menu-end text-lg-center text-end bg-body-tertiary border-0'>
-                  <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsnetwork' target='_blank' rel='noopener'><i class='bi-person-vcard'></i> Portal Ahli</a></li>
-                  <li><a class='dropdown-item text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cart4'></i> Kedai</a></li>
-                  <li><a class='dropdown-item text-info-emphasis' href='https://dl.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-download'></i> Muat Turun</a></li>
+                  <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsnetwork' target='_blank' rel='noopener'><i class='bi-person-workspace'></i> Portal Ahli</a></li>
+                  <li><a class='dropdown-item text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-basket'></i> Kedai</a></li>
+                  <li><a class='dropdown-item text-info-emphasis' href='https://dl.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cloud-download'></i> Muat Turun</a></li>
                 </ul>
               </li>
             </ul>

@@ -5,7 +5,7 @@
   </head>
 
   <body>
-    <button id='scrollToTop' class='btn position-fixed bottom-0 start-0'><i class='bi-arrow-up-square fs-1'></i></button>
+    <button id='scrollToTop' class='btn position-fixed bottom-0 start-0'><i class='bi-chevron-double-up fs-1'></i></button>
     <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
       <div class='container'>
         <div class='row mt-2'>

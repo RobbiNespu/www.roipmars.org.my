@@ -212,12 +212,12 @@
 				<div class='col-lg-6 figure my-1'>
 					<canvas id='byQuarter' loading='lazy' alt='NetGraphQuarterly23'></canvas>
 				</div>
-				<div class='col-lg-6 figure my-1'>
-					<canvas id='byMode' loading='lazy' alt='NetGraphMode23'></canvas>
-				</div>
 				<!-- <div class='col-lg-6 figure my-1'>
-					<canvas id='byCSLocaleDays' loading='lazy' alt='NetGraphCallerDays23'></canvas>
+					<canvas id='byMode' loading='lazy' alt='NetGraphMode23'></canvas>
 				</div> -->
+				<div class='col-lg-6 figure my-1'>
+					<canvas id='byCSLocaleDays' loading='lazy' alt='NetGraphCallerDays23'></canvas>
+				</div>
 				<div class='col-lg-6 figure my-1'>
 					<canvas id='byCSLocaleWeek' loading='lazy' alt='NetGraphCallerWeek23'></canvas>
 				</div>

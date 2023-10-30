@@ -85,7 +85,7 @@ $.getJSON('/assets/json/s-time.json', function (timeData) {
       pointStyle: 'rectRounded',
       plugins: {
         subtitle: { text: lastMod('/assets/json/s-time.json') },
-        title: { text: 'UTC' }
+        title: { text: 'Jam (UTC)' }
       },
       scales: {
         x: { grid: { display: false } },
@@ -354,12 +354,12 @@ $.getJSON('/assets/json/s-mode.json', function (modeData) {
   })
 })
 
-/* $.getJSON('/assets/json/s-days.json', function(localeDaysData) {
+$.getJSON('/assets/json/s-days.json', function(localeDaysData) {
   new Chart(byCSLocaleDays,{
     data: {
       datasets: [
-        {data: localeDaysData.LOC, label: 'Domestik'},
-        {data: localeDaysData.INTL, label: 'Antarabangsa'},
+        {data: localeDaysData.dsLOC, label: 'Domestik'},
+        {data: localeDaysData.dsINTL, label: 'Antarabangsa'},
       ],
       labels: localeDaysData.Days,
     },
@@ -367,8 +367,50 @@ $.getJSON('/assets/json/s-mode.json', function (modeData) {
       borderJoinStyle: 'round',
       borderWidth: 1,
       plugins: {
+        annotation: {
+          annotations: {
+            avgLOCval: {
+              borderColor: 'rgb(54, 162, 235)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: localeDaysData.avg_dsLOC.toFixed(),
+              yMin: localeDaysData.avg_dsLOC.toFixed(),
+            },
+            avgLOClab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'Domestik: ' + localeDaysData.avg_dsLOC.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: localeDaysData.avg_dsLOC.toFixed(),
+            },
+            avgINTLval: {
+              borderColor: 'rgb(255, 99, 132)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: localeDaysData.avg_dsINTL.toFixed(),
+              yMin: localeDaysData.avg_dsINTL.toFixed(),
+            },
+            avgINTLlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'Antarabangsa: ' + localeDaysData.avg_dsINTL.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: localeDaysData.avg_dsINTL.toFixed(),
+            }
+          }
+        },
         subtitle: { text: lastMod('/assets/json/s-days.json') },
-        title: { text: 'Panggilan' }
+        title: { text: 'Panggilan Harian' }
       },
       pointBorderWidth: 1,
       pointStyle: 'crossRot',
@@ -382,7 +424,7 @@ $.getJSON('/assets/json/s-mode.json', function (modeData) {
     },
     type: 'line',
   })
-}) */
+})
 
 $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
   new Chart(byCSLocaleWeek, {

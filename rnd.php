@@ -38,7 +38,7 @@
           <div class='row g-1 text-end'>
             <div class='col-10 d-flex align-content-center flex-wrap'>
               <div class='card-body mx-3'>
-                <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN <a href='https://bit.ly/m/hafiziruslan'><i class='bi-info-circle-fill'></i></a></p>
+                <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN <a href='https://mhrtech.my/cv'><i class='bi-info-circle-fill'></i></a></p>
                 <p class='card-subtitle fs-5 fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
                 <p class='card-subtitle fs-5 fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
                 <p class='card-subtitle fw-light'>&#91;2019&#93; Dilantik oleh RoIPMARS&#8480; sebagai pembangun perisian</p>

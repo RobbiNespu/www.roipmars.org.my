@@ -30,7 +30,8 @@ setInterval(function () {
 $.getJSON(bcfyOwnHook, function (data) {
   let status = data.status
   if (status == 1) {
-    docBcfyAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls preload="none" src="https://broadcastify.cdnstream1.com/41368" type="audio/mp3" crossorigin="anonymous"></audio></div><span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kelajuan dan kepandaman rangkaian.</span>'
+    docBcfyAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls preload="none" src="https://broadcastify.cdnstream1.com/41368" type="audio/mp3" crossorigin="anonymous"></audio></div>\
+    <span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kelajuan dan kepandaman rangkaian.<br>>Sebagai alternatif, anda boleh mendengar dengan kelewatan siaran yang lebih pantas di sini: <a href="https://stream.mhrtech.my" target="_blank">stream.mhrtech.my</a></span>'
   } else {
     docBcfyAud.innerHTML = ''
   }

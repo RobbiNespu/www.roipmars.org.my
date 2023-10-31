@@ -19,7 +19,7 @@
           </div> -->
           <button class='navbar-toggler border-0' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>nav</button>
           <div class='collapse navbar-collapse text-end' id='navbarNav'>
-            <ul class='nav navbar-nav nav-pills text-xl-center d-flex ms-auto gap-1'>
+            <ul class='nav navbar-nav nav-pills text-center d-flex ms-auto gap-1'>
               <li class='nav-item'><a class='nav-link' href='about' id='about'>Tentang Kami</a></li>
               <li class='nav-item'><a class='nav-link' href='rnd' id='rnd'>Kajian</a></li>
               <li class='nav-item'><a class='nav-link' href='cbinfo' id='cbinfo'>Info CB</a></li>

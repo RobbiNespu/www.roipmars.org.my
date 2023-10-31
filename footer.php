@@ -9,7 +9,7 @@
     <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
       <div class='container'>
         <div class='row mt-2'>
-          <div class='col-lg-8 mx-auto my-1 text-lg-start'>
+          <div class='col-xl-8 mx-auto my-1 text-xl-start'>
             <h5 class='text-uppercase mb-2 fw-bold'>Sumbangan</h5>
             <p class='mb-2'>Sumbangan anda membantu Penyelidikan &amp; Pembangunan serta Perkhidmatan kami tersedia untuk anda sepanjang masa di mana sahaja.</p>
             <table class='table table-sm table-bordered text-center align-middle my-0'>
@@ -22,10 +22,10 @@
             </table>
             <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
           </div>
-          <div class='col-lg-4 mx-auto my-1'>
-            <h5 class='text-uppercase mb-2 fw-bold text-lg-end'>Hubungi Kami</h5>
-            <div class='d-grid gap-1 d-lg-flex justify-content-lg-end mb-2'>
-              <a type='button' class='btn btn-primary rounded-5 me-lg-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi-envelope-at'></i> member@roipmars.org.my</a>
+          <div class='col-xl-4 mx-auto my-1'>
+            <h5 class='text-uppercase mb-2 fw-bold text-xl-end'>Hubungi Kami</h5>
+            <div class='d-grid gap-1 d-xl-flex justify-content-xl-end mb-2'>
+              <a type='button' class='btn btn-primary rounded-5 me-xl-2' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'><i class='bi-envelope-at'></i> member@roipmars.org.my</a>
               <button type='button' class='btn btn-primary rounded-5' data-bs-toggle='modal' data-bs-target='.bd-subnewsletter-modal-xl'><i class='bi-envelope-paper'></i> Langgan surat berita kami</button>
             </div>
             <div class='modal fade bd-subnewsletter-modal-xl' tabindex='-1' role='dialog' aria-labelledby='subnewsletterModalLabel' aria-hidden='true'>
@@ -39,7 +39,7 @@
                 </div>
               </div>
             </div>
-            <div class='d-lg-flex justify-content-lg-end'>
+            <div class='d-xl-flex justify-content-xl-end'>
               <img class='img-fluid rounded-3 bg-body-tertiary' loading='lazy' src='https://www.hamqsl.com/solar101sc.php?muf=drwn&nwra=global&heline=eve&bgcolor=black&back=black&heline=eve' alt='solar data'>
             </div>
           </div>

@@ -97,7 +97,7 @@
                   <p class='lh-1 mb-0'>PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-primary-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-primary-subtle bg-gradient w-75' style='filter: grayscale(100%);'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZULKIFLI ABU</p>

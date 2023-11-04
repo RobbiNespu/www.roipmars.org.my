@@ -20,9 +20,9 @@
           <h2 class='h2 text-center'>Pengurusan Kumpulan Rangkaian RoIPMARS</h2>
         </div>
         <div class='col-lg-6 my-2'>
-          <div class='row g-1 text-lg-start text-center'>
+          <div class='row g-1 text-start'>
             <div class='col-2 align-self-center'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2UZL' style='filter: grayscale(100%);'>
+              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2UZL'>
             </div>
             <div class='col-10 d-flex align-content-center flex-wrap'>
               <div class='card-body mx-3'>

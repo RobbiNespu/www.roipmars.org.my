@@ -97,7 +97,7 @@
                   <p class='lh-1 mb-0'>PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-primary-subtle bg-gradient w-75' style='filter: grayscale(100%);'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-primary-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZULKIFLI ABU</p>
@@ -163,13 +163,13 @@
             </div>
           </div>
           <div class='row border-top justify-content-between'>
-            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
+            <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
                   <p class='lh-1 mb-0'>BAHAGIAN<br>SIARAYA &amp; AKTIVITI<br><sup>&#40;Pegawai Lantikan Sementara&#41;</sup></p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>SABRI IBRAHIM</p>
@@ -177,13 +177,13 @@
                 </div>
               </div>
             </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
+            <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
                   <p class='lh-1 mb-0'>BAHAGIAN<br>TEKNIKAL</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZAHEER ZAKARIA</p>
@@ -191,13 +191,13 @@
                 </div>
               </div>
             </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
+            <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
                   <p class='lh-1 mb-0'>BAHAGIAN<br>KEBAJIKAN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>MUSTAFA OMAR</p>
@@ -205,13 +205,13 @@
                 </div>
               </div>
             </div>
-            <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
+            <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
                   <p class='lh-1 mb-0'>BAHAGIAN<br>EKONOMI</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>FAIZNURNIZAM MAT RASOL</p>

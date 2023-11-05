@@ -52,11 +52,6 @@
             <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb' target='_blank' rel='nofollow' download>RustDesk <i class='bi-ubuntu'></i></a>
             <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg' target='_blank' rel='nofollow' download>RustDesk <i class='bi-apple'></i></a>
           </div>
-          <div class='btn-group d-flex mx-auto mx-2' role='group'>
-            <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe' target='_blank' rel='nofollow' download>TeamViewer <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/linux/teamviewer_amd64.deb' target='_blank' rel='nofollow' download>TeamViewer <i class='bi-ubuntu'></i></a>
-            <a class='btn' style='color: #0E8EE9; border-color: #0E8EE9' type='button' href='https://download.teamviewer.com/download/TeamViewer.dmg' target='_blank' rel='nofollow' download>TeamViewer <i class='bi-apple'></i></a>
-          </div>
           <div class='btn-group d-flex mx-auto' role='group'>
             <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/AnyDesk.exe' target='_blank' rel='nofollow' download>AnyDesk <i class='bi-windows'></i></a>
             <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/linux/anydesk_6.2.1-1_amd64.deb' target='_blank' rel='nofollow' download>AnyDesk <i class='bi-ubuntu'></i></a>

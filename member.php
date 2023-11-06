@@ -35,8 +35,8 @@
             <a type='button' class='btn btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
           </div>
           <div class='vstack gap-1 justify-content-center'>
-            <a type='button' class='btn btn-lg btn-primary rounded-5 fs-3' href='https://bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian &#40;Google Form&#41; <i class='bi-google'></i></a>
-            <a type='button' class='btn btn-lg btn-success rounded-5 fs-3' href='https://dl.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian &#40;Fail PDF&#41; <i class='bi-file-pdf-fill'></i></a>
+            <a type='button' class='btn btn-lg btn-primary rounded-5' href='https://bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian &#40;Google Form&#41; <i class='bi-google'></i></a>
+            <a type='button' class='btn btn-lg btn-success rounded-5' href='https://dl.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian &#40;Fail PDF&#41; <i class='bi-file-pdf-fill'></i></a>
           </div>
           <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>
             <div class='modal-dialog modal-dialog-centered' role='document'>
@@ -139,11 +139,11 @@
                   <p class='lh-1 mb-0'>PENOLONG SETIAUSAHA</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0'>LANTIKAN 2024</p>
-                  <p class='fw-semibold m-0'>&mdash;</p>
+                  <p class='fw-bolder m-0'>ROZAIMAN SUFFIAN</p>
+                  <p class='fw-semibold m-0'>9M2SFF</p>
                 </div>
               </div>
             </div>
@@ -169,7 +169,8 @@
                   <p class='lh-1 mb-0'>BAHAGIAN<br>SIARAYA &amp; AKTIVITI<br><sup>&#40;Pegawai Lantikan Sementara&#41;</sup></p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'>
+                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
+                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>SABRI IBRAHIM</p>
@@ -183,7 +184,8 @@
                   <p class='lh-1 mb-0'>BAHAGIAN<br>TEKNIKAL</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'>
+                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
+                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>ZAHEER ZAKARIA</p>
@@ -197,7 +199,8 @@
                   <p class='lh-1 mb-0'>BAHAGIAN<br>KEBAJIKAN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'>
+                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
+                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>MUSTAFA OMAR</p>
@@ -211,7 +214,8 @@
                   <p class='lh-1 mb-0'>BAHAGIAN<br>EKONOMI</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'>
+                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
+                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
                 </div>
                 <div class='card-footer'>
                   <p class='fw-bolder m-0'>FAIZNURNIZAM MAT RASOL</p>

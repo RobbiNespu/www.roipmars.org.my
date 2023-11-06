@@ -5,7 +5,7 @@
   {"label": "9W4GWI\nOJ15AX", "parent": 0},
   {"label": "9M4GLG\nOJ14CC", "parent": 0},
   {"label": "9W4GZA\nOJ02TX", "parent": 0},
-  {"label": "RF\n144.85MHz\nC100", "parent": 1},
+  {"label": "144.85MHz\nC100", "parent": 1},
   {"label": "Discord", "parent": 1},
   {"label": "EchoLink", "parent": 1},
   {"label": "FRN", "parent": 1},
@@ -14,10 +14,10 @@
   {"label": "Telegram", "parent": 1},
   {"label": "Zello\neQSO MY NET", "parent": 1},
   {"label": "Live Feed", "parent": 8},
-  {"label": "RF\n144.8MHz", "parent": 2},
-  {"label": "RF\n145.275MHz", "parent": 3},
-  {"label": "RF\n144.825MHz", "parent": 4},
-  {"label": "RF\n144.875MHz", "parent": 5},
+  {"label": "144.8MHz", "parent": 2},
+  {"label": "145.275MHz", "parent": 3},
+  {"label": "144.825MHz", "parent": 4},
+  {"label": "144.875MHz", "parent": 5},
   {"label": "Pautan Silang\nRoIPMARS HAM", "parent": 0},
   {"label": "9W4GPA", "parent": 19},
   {"label": "ANDALLAS", "parent": 20},
@@ -37,5 +37,8 @@
   {"label": "YD7IEA\nVENIEA", "parent": 19},
   {"label": "YG1AWU\nKOPDARMOBILE", "parent": 19},
   {"label": "YC2BAH\nLINUS", "parent": 19},
-  {"label": "YF8WEK\nSARUMA", "parent": 19}
+  {"label": "YF8WEK\nSARUMA", "parent": 19},
+  {"label": "9W4GOZ\nRoIPMARS SABAH", "parent": 19},
+  {"label": "144.8MHz\nC203 -0.6", "parent": 39},
+  {"label": "EchoLink", "parent": 39}
 ]

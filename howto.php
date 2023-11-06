@@ -48,14 +48,14 @@
           </table>
           <p class='mb-1'>Perisian tambahan untuk bantuan desktop:</p>
           <div class='btn-group d-flex mx-auto' role='group'>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe' target='_blank' rel='nofollow' download>RustDesk <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb' target='_blank' rel='nofollow' download>RustDesk <i class='bi-ubuntu'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg' target='_blank' rel='nofollow' download>RustDesk <i class='bi-apple'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe' target='_blank' rel='nofollow' download>RustDesk &#40;Windows&#41; <i class='bi-windows'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb' target='_blank' rel='nofollow' download>RustDesk &#40;Linux&#41; <i class='bi-ubuntu'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg' target='_blank' rel='nofollow' download>RustDesk &#40;Mac&#41; <i class='bi-apple'></i></a>
           </div>
           <div class='btn-group d-flex mx-auto' role='group'>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/AnyDesk.exe' target='_blank' rel='nofollow' download>AnyDesk <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/linux/anydesk_6.2.1-1_amd64.deb' target='_blank' rel='nofollow' download>AnyDesk <i class='bi-ubuntu'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/anydesk.dmg' target='_blank' rel='nofollow' download>AnyDesk <i class='bi-apple'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/AnyDesk.exe' target='_blank' rel='nofollow' download>AnyDesk &#40;Windows&#41; <i class='bi-windows'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/linux/anydesk-6.3.0-amd64.tar.gz' target='_blank' rel='nofollow' download>AnyDesk &#40;Linux&#41; <i class='bi-ubuntu'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/anydesk.dmg' target='_blank' rel='nofollow' download>AnyDesk &#40;Mac&#41; <i class='bi-apple'></i></a>
           </div>
         </div>
       </div>

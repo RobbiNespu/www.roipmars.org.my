@@ -48,7 +48,7 @@
                   </div>
                 </div>
                 <div class='modal-footer'>
-                  <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/CA-No-2-of-2015.pdf' download><button type='button' class='btn btn-outline-primary'>Muat Turun Peruntukan Kelas 2015</button></a>
+                  <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Class-Assignment-No-1-of-2023.pdf' download><button type='button' class='btn btn-outline-primary'>Muat Turun Peruntukan Kelas 2023</button></a>
                   <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
                 </div>
               </div>
@@ -85,8 +85,8 @@
           </table>
           <hr>
           <div class='hstack'>
-            <h3 class='text-secondary'>UHF &#40;PMR&#41; - 446MHz</h3>
-            <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-446pmr-modal-xl'>446 PMR</button>
+            <h3 class='text-secondary'>UHF &#40;PRS&#41; - 446MHz</h3>
+            <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-446pmr-modal-xl'>446 PRS</button>
           </div>
           <div class='modal fade bd-446pmr-modal-xl' tabindex='-1' role='dialog' aria-labelledby='446pmrModalLabel' aria-hidden='true'>
             <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
@@ -100,7 +100,7 @@
                   </div>
                 </div>
                 <div class='modal-footer'>
-                  <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf' download><button type='button' class='btn btn-outline-primary'>Muat Turun Peruntukan Kelas No. 2 2022</button></a>
+                <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Class-Assignment-No-1-of-2023.pdf' download><button type='button' class='btn btn-outline-primary'>Muat Turun Peruntukan Kelas 2023</button></a>
                   <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
                 </div>
               </div>
@@ -118,7 +118,7 @@
           <hr>
           <div class='hstack gap-1'>
             <h3 class='text-secondary text-decoration-line-through'>UHF &#40;CB&#41; - 477MHz</h3>
-            <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' rel='noopener' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN DI MALAYSIA</a>
+            <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/photo/Final-Notice-PRS-477-MHz_BI.pdf' target='_blank' rel='noopener' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN DI MALAYSIA</a>
   <!--
             <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477cb-modal-xl'>477 CB</button>
             <button type='button' class='btn btn-sm btn-secondary' data-bs-toggle='modal' data-bs-target='.bd-477cbmy-modal-xl'>477 CB MY</button>

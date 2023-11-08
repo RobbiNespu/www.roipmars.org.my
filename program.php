@@ -204,6 +204,9 @@
 					<canvas id='byDay' loading='lazy' alt='NetGraphDay23'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
+					<canvas id='byWeekDay' loading='lazy' alt='NetGraphWeekDay23'></canvas>
+				</div>
+				<div class='col-lg-6 figure my-1'>
 					<canvas id='byWeek' loading='lazy' alt='NetGraphWeekly23'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
@@ -212,9 +215,9 @@
 				<div class='col-lg-6 figure my-1'>
 					<canvas id='byQuarter' loading='lazy' alt='NetGraphQuarterly23'></canvas>
 				</div>
-				<!-- <div class='col-lg-6 figure my-1'>
+				<div class='col-lg-6 figure my-1'>
 					<canvas id='byMode' loading='lazy' alt='NetGraphMode23'></canvas>
-				</div> -->
+				</div>
 				<div class='col-lg-6 figure my-1'>
 					<canvas id='byCSLocaleDays' loading='lazy' alt='NetGraphCallerDays23'></canvas>
 				</div>

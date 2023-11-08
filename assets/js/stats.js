@@ -1,6 +1,7 @@
 const byTime = document.getElementById('byTime')
 const byDate = document.getElementById('byDate')
 const byDay = document.getElementById('byDay')
+const byWeekDay = document.getElementById('byWeekDay')
 const byWeek = document.getElementById('byWeek')
 const byMonth = document.getElementById('byMonth')
 const byQuarter = document.getElementById('byQuarter')
@@ -190,8 +191,40 @@ $.getJSON('/assets/json/s-day.json', function (dayData) {
       categoryPercentage: 0.98,
       plugins: {
         subtitle: { text: lastMod('/assets/json/s-day.json') },
-        stacked100: { enable: true, precision: 0 },
+        // stacked100: { enable: true, precision: 0 },
         title: { text: 'Hari' }
+      },
+      scales: {
+        x: { grid: { display: false }, stacked: true },
+        y: { grid: { display: false }, stacked: true }
+      },
+      watermark: wmOptions,
+    },
+    type: 'bar',
+  })
+})
+
+$.getJSON('/assets/json/s-weekday.json', function (weekDayData) {
+  new Chart(byWeekDay, {
+    data: {
+      datasets: [
+        { data: weekDayData.Isnin, label: 'Isn/Mon' },
+        { data: weekDayData.Selasa, label: 'Sel/Tue' },
+        { data: weekDayData.Rabu, label: 'Rab/Wed' },
+        { data: weekDayData.Khamis, label: 'Kha/Thu' },
+        { data: weekDayData.Jumaat, label: 'Jum/Fri' },
+        { data: weekDayData.Sabtu, label: 'Sab/Sat' },
+        { data: weekDayData.Ahad, label: 'Aha/Sun' },
+      ],
+      labels: weekDayData.WeekDay,
+    },
+    options: {
+      barPercentage: 1,
+      categoryPercentage: 0.98,
+      plugins: {
+        subtitle: { text: lastMod('/assets/json/s-weekday.json') },
+        // stacked100: { enable: true, precision: 0 },
+        title: { text: 'Minggu/Hari' },
       },
       scales: {
         x: { grid: { display: false }, stacked: true },
@@ -293,7 +326,7 @@ $.getJSON('/assets/json/s-month.json', function (monthData) {
       categoryPercentage: 0.98,
       plugins: {
         subtitle: { text: lastMod('/assets/json/s-month.json') },
-        stacked100: { enable: true, precision: 0 },
+        // stacked100: { enable: true, precision: 0 },
         title: { text: 'Bulan' }
       },
       scales: {
@@ -322,7 +355,7 @@ $.getJSON('/assets/json/s-quarter.json', function (quarterData) {
       categoryPercentage: 0.98,
       plugins: {
         subtitle: { text: lastMod('/assets/json/s-quarter.json') },
-        stacked100: { enable: true, precision: 0 },
+        // stacked100: { enable: true, precision: 0 },
         title: { text: 'Suku Tahun' }
       },
       scales: {

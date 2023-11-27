@@ -4,14 +4,14 @@ function mytLive() {
     formatMatcher: 'basic',
     weekday: 'long',
     day: 'numeric',
-    month: 'long',
+    month: 'short',
     year: 'numeric',
     hour: 'numeric',
     minute: '2-digit',
     second: '2-digit',
     dayPeriod: 'narrow',
     timeZoneName: 'shortGeneric',
-    hour12: true,
+    hour12: false,
     timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone
   }).format(new Date())
 }
@@ -22,7 +22,7 @@ function utcLive() {
     formatMatcher: 'basic',
     weekday: 'long',
     day: 'numeric',
-    month: 'long',
+    month: 'short',
     year: 'numeric',
     hour: 'numeric',
     minute: '2-digit',

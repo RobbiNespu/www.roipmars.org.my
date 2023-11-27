@@ -1,6 +1,7 @@
-const MYT = document.getElementById('UserTime')
-function mytLive() {
-  MYT.textContent = new Intl.DateTimeFormat('ms-MY', {
+const UsrT = document.getElementById('UserTime')
+const UsrTZ = Intl.DateTimeFormat().resolvedOptions().timeZone
+function UsrLive() {
+  UsrT.textContent = new Intl.DateTimeFormat('ms-MY', {
     formatMatcher: 'basic',
     weekday: 'long',
     day: 'numeric',
@@ -12,10 +13,10 @@ function mytLive() {
     dayPeriod: 'narrow',
     timeZoneName: 'shortGeneric',
     hour12: false,
-    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone
+    timeZone: UsrTZ
   }).format(new Date())
 }
-setInterval(mytLive, 1000)
+setInterval(UsrLive, 1000)
 const UTC = document.getElementById('ZuluTime')
 function utcLive() {
   UTC.textContent = new Intl.DateTimeFormat('en-MY', {

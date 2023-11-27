@@ -37,13 +37,13 @@
 					<table class='table table-sm table-bordered text-center align-middle'>
 						<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
 						<tbody>
-							<tr class='table-primary'><td>Isnin</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Awal Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='opacity-25'><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+							<tr class='opacity-25'><td>Isnin</td><td>1215Z<br>2015MY</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
+							<tr class='opacity-25'><td>Selasa</td><td>1215Z<br>2015MY</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
 							<tr class='table-info'><td>Wednesday</td><td>1300Z<br>2100MY</td><td>Learning English Net</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='opacity-25'><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+							<tr class='opacity-25'><td>Khamis</td><td>1215Z<br>2015MY</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
 							<tr class='table-primary'><td>Jumaat</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Santai</td><td>Rangkaian HAM RoIPMARS</td></tr>
 							<tr class='table-primary'><td>Sabtu</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Malam Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='table-primary'><td>Ahad</td><td>0200Z<br>1000MY</td><td>RoIPMARS Net Hujung Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
+							<tr class='table-primary'><td>Ahad</td><td>1300Z<br>2100MY</td><td>RoIPMARS Net Hujung Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
 						</tbody>
 					</table>
 					<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>
@@ -51,60 +51,48 @@
 						<div class='carousel-inner my-0'>
 							<div class='carousel-item active'>
 								<div class='hstack gap-2'>
-									<div class='vstack gap-2'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png'alt='9W2AYP'>
-										<p class='lh-1'>9W2AYP<br>SABRI</p>
-									</div>
-									<div class='vstack gap-2'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png' alt='9M6JAY'>
-										<p class='lh-1'>9M6JAY<br>JOHN JUNIOR</p>
-									</div>
-								</div>
-							</div>
-							<div class='carousel-item'>
-								<div class='hstack gap-2'>
-									<div class='vstack gap-2'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png' alt='9M2SFL'>
+									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png' alt='9M2SFL'>
 										<p class='lh-1'>9M2SFL<br>SAIFUL</p>
 									</div>
-									<div class='vstack gap-2'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png' alt='9M6AUA'>
-										<p class='lh-1'>9M6AUA<br>JEOFREY</p>
+									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png'alt='9W2AYP'>
+										<p class='lh-1'>9W2AYP<br>SABRI</p>
 									</div>
-								</div>
-							</div>
-							<div class='carousel-item'>
-								<div class='hstack gap-2'>
-									<div class='vstack gap-2'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
-										<p class='lh-1'>9M6RDY<br>MATTHEUS &#64; RUDY</p>
-									</div>
-									<div class='vstack gap-2'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png' alt='9W2YBT'>
+									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png' alt='9W2YBT'>
 										<p class='lh-1'>9W2YBT<br>FAISAL</p>
 									</div>
 								</div>
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
-									<div class='vstack gap-2'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' alt='9W6MOZ'>
-										<p class='lh-1'>9W6MOZ<br>MUSTAFA</p>
+									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png' alt='9M6JAY'>
+										<p class='lh-1'>9M6JAY<br>JOHN JUNIOR</p>
 									</div>
-									<div class='vstack gap-2'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
-										<p class='lh-1'>9W6RHN<br>ROSLAN</p>
+									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png' alt='9M6AUA'>
+										<p class='lh-1'>9M6AUA<br>JEOFREY</p>
+									</div>
+									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
+										<p class='lh-1'>9M6RDY<br>MATTHEUS &#64; RUDY</p>
 									</div>
 								</div>
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
-									<div class='vstack gap-2'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6wot.png' alt='9W6WOT'>
+									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
+										<p class='lh-1'>9W6RHN<br>ROSLAN</p>
+									</div>
+									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6wot.png' alt='9W6WOT'>
 										<p class='lh-1'>9W6WOT<br>STEWARD</p>
 									</div>
-									<div class='vstack gap-2'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' alt='V85AFF'>
+									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' alt='V85AFF'>
 										<p class='lh-1'>V85AFF<br>MAHATHIR</p>
 									</div>
 								</div>
@@ -114,8 +102,6 @@
 							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='0' aria-label='ncsgroup-1' class='active' aria-current='true'></button>
 							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='1' aria-label='ncsgroup-2'></button>
 							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='2' aria-label='ncsgroup-3'></button>
-							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='3' aria-label='ncsgroup-4'></button>
-							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='4' aria-label='ncsgroup-5'></button>
 						</div>
 					</div>
 				</div>

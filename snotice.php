@@ -24,6 +24,11 @@
           </thead>
           <tbody>
             <tr>
+              <td>28 Nov 2023</td>
+              <td>Notis Perubahan Jadual Net di RoIPMARS</td>
+              <td><a type='button' class='btn btn-outline-secondary d-grid' href='nts/2023/10' target='_blank' rel='noopener'>NtsMARS 2023/10</a></td>
+            </tr>
+            <tr>
               <td>12 Jul 2023</td>
               <td>Notis Rombakan Isyarat Panggilan Jalur Rakyat</td>
               <td><a type='button' class='btn btn-outline-secondary d-grid' href='nts/2023/09' target='_blank' rel='noopener'>NtsMARS 2023/09</a></td>

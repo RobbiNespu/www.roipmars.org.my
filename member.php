@@ -246,7 +246,7 @@
             </thead>
             <tbody class='user-select-none'>
               <tr><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>2023-12-31</td></tr>
-              <tr><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>2025-12-31</td></tr>
+              <!-- <tr><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>2025-12-31</td></tr> -->
               <tr><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>2023-12-31</td></tr>
               <tr><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>2024-12-31</td></tr>
               <tr><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>2024-12-31</td></tr>

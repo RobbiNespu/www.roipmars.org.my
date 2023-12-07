@@ -74,6 +74,7 @@ $.getJSON('/assets/json/s-time.json', function (timeData) {
       datasets: [
         { data: timeData.hHAMMS, label: 'HAM-MS' },
         { data: timeData.hHAMEN, label: 'HAM-EN' },
+        { data: timeData.hHAMID, label: 'HAM-ID' },
         { data: timeData.hCBMS, label: 'CB' },
         { data: timeData.hVOIMS, label: 'VOI' },
       ],
@@ -106,6 +107,7 @@ $.getJSON('/assets/json/s-days.json', function (daysData) {
       datasets: [
         { data: daysData.dsHAMMS, label: 'HAM-MS' },
         { data: daysData.dsHAMEN, label: 'HAM-EN' },
+        { data: daysData.dsHAMID, label: 'HAM-ID' },
         { data: daysData.dsCB, label: 'CB' },
         { data: daysData.dsVOI, label: 'VOI' },
       ],
@@ -181,6 +183,7 @@ $.getJSON('/assets/json/s-day.json', function (dayData) {
       datasets: [
         { data: dayData.dHAMMS, label: 'HAM-MS' },
         { data: dayData.dHAMEN, label: 'HAM-EN' },
+        { data: dayData.dHAMID, label: 'HAM-ID' },
         { data: dayData.dCB, label: 'CB' },
         { data: dayData.dVOI, label: 'VOI' },
       ],
@@ -242,6 +245,7 @@ $.getJSON('/assets/json/s-week.json', function (weekData) {
       datasets: [
         { data: weekData.wHAMMS, label: 'HAM-MS' },
         { data: weekData.wHAMEN, label: 'HAM-EN' },
+        { data: weekData.wHAMID, label: 'HAM-ID' },
         { data: weekData.wCB, label: 'CB' },
         { data: weekData.wVOI, label: 'VOI' },
       ],
@@ -316,6 +320,7 @@ $.getJSON('/assets/json/s-month.json', function (monthData) {
       datasets: [
         { data: monthData.mHAMMS, label: 'HAM-MS' },
         { data: monthData.mHAMEN, label: 'HAM-EN' },
+        { data: monthData.mHAMID, label: 'HAM-ID' },
         { data: monthData.mCB, label: 'CB' },
         { data: monthData.mVOI, label: 'VOI' }
       ],
@@ -345,6 +350,7 @@ $.getJSON('/assets/json/s-quarter.json', function (quarterData) {
       datasets: [
         { data: quarterData.qHAMMS, label: 'HAM-MS' },
         { data: quarterData.qHAMEN, label: 'HAM-EN' },
+        { data: quarterData.qHAMID, label: 'HAM-ID' },
         { data: quarterData.qCB, label: 'CB' },
         { data: quarterData.qVOI, label: 'VOI' },
       ],

@@ -49,7 +49,7 @@ $(document).ready(function () {
       { className: 'text-center align-middle', data: 'Laporan', name: 'lapor', searchable: true, title: 'Laporan' },
     ],
     deferRender: true,
-    displayStart: 250,
+    displayStart: 255,
     language: {
       emptyTable: 'Rekod Tidak Ditemui',
       info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
@@ -69,7 +69,7 @@ $(document).ready(function () {
     },
     ordering: false,
     lengthChange: false,
-    pageLength: 10,
+    pageLength: 15,
     pagingTag: 'button',
     pagingType: 'full_numbers',
     processing: true,
@@ -175,8 +175,8 @@ $(document).ready(function () {
     info: false,
     lengthChange: false,
     ordering: false,
-    paging: false,
-    pageLength: 10,
+    paging: true,
+    pageLength: 5,
     pagingTag: 'button',
     pagingType: 'simple',
     responsive: true,
@@ -215,7 +215,46 @@ $(document).ready(function () {
     lengthChange: false,
     ordering: false,
     paging: true,
-    pageLength: 10,
+    pageLength: 5,
+    pagingTag: 'button',
+    pagingType: 'simple',
+    responsive: true,
+    searching: false,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
+  })
+
+  $('#id-ncs-rank').DataTable({
+    ajax: {
+      url: '/assets/json/r-ncs-id.json',
+      dataSrc: 'NCS-ID'
+    },
+    columns: [
+      { title: '#', className: 'text-center align-middle', data: 'R' },
+      { title: 'Stesen', className: 'text-center align-middle', data: 'NCS' },
+      { title: 'Operator', className: 'text-center align-middle', data: 'Nickname' },
+      { title: 'KPI', className: 'text-center align-middle', data: 'KPI' }
+    ],
+    deferRender: true,
+    info: false,
+    lengthChange: false,
+    ordering: false,
+    paging: true,
+    pageLength: 5,
     pagingTag: 'button',
     pagingType: 'simple',
     responsive: true,
@@ -390,6 +429,43 @@ $(document).ready(function () {
     columns: [
       { title: 'Stesen', className: 'text-center align-middle', data: 'AM-MS', searchable: true },
       { title: 'Kekerapan', className: 'text-center align-middle', data: 'amms%' }
+    ],
+    deferRender: true,
+    info: false,
+    lengthChange: false,
+    ordering: false,
+    paging: true,
+    pageLength: 10,
+    pagingTag: 'button',
+    pagingType: 'full',
+    responsive: true,
+    searching: false,
+    language: {
+      emptyTable: 'Rekod Tidak Ditemui',
+      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+      infoEmpty: 'Rekod Tidak Ditemui',
+      infoFiltered: ' - tapisan dari _MAX_ rekod',
+      lengthMenu: 'Paparan _MENU_ rekod',
+      paginate: {
+        first: '<<',
+        last: '>>',
+        next: '>',
+        previous: '<'
+      },
+      processing: 'Sedang memuat...',
+      search: 'Cari Stesen:',
+      zeroRecords: 'Rekod Tidak Ditemui'
+    }
+  })
+
+  $('#id-stn-rank').DataTable({
+    ajax: {
+      url: '/assets/json/r-stn-id.json',
+      dataSrc: 'STN-ID'
+    },
+    columns: [
+      { title: 'Stesen', className: 'text-center align-middle', data: 'AM-ID', searchable: true },
+      { title: 'Kekerapan', className: 'text-center align-middle', data: 'amid%' }
     ],
     deferRender: true,
     info: false,

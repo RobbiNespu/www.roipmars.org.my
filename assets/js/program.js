@@ -598,8 +598,8 @@ $(document).ready(function () {
         buttons: [{
           extend: 'pdfHtml5',
           download: 'download',
-          className: 'btn-sm rounded-3 d-grid mb-1 mx-auto',
-          text: 'Muat Turun Laporan',
+          className: 'mb-3 rounded-3',
+          text: `Muat Turun Laporan Aktiviti<br>${takwimdate}, ${takwimtime}`,
           filename: `RoIPMARS-Net_${source}`,
           title: `${reportTitle}`,
           messageBottom: [{

@@ -17,15 +17,15 @@
     </div>
     <div class='container'>
       <div class='row'>
-        <p class='text-center font-weight-bold h3 fs-2'>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;<br><sup>PPM-006-10-01062020</sup></p>
+        <p class='text-center font-weight-bold h3 fs-2'>PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;ROIP&lpar;RADIO OVER INTERNET PROTOCOL&rpar;&rpar;<br><sup>PPM-006-10-01062020</sup></p>
         <div class='col-lg-7 mb-3'>
           <h4 class='h4 text-center'>Kelebihan Keahlian RoIPMARS&#8480;</h4>
           <ul class='list-group list-group-numbered align-middle'>
             <li class='list-group-item'>Memiliki hak bersama dalam semua perkhidmatan yang disediakan persatuan</li>
             <li class='list-group-item'>Menjadi fasilitator perkhidmatan melalui kursus secara lantikan dari jawatankuasa</li>
-            <li class='list-group-item'>Berhak mendapat surat sokongan daripada persatuan &#40;sekiranya diperlukan&#41;</li>
-            <li class='list-group-item'>Boleh mewakili / diwakili persatuan pada perkara / acara tertentu &#40;setelah mendapat kelulusan jawatankuasa&#41;</li>
-            <li class='list-group-item'>Memilih &amp; mengundi Jawatankuasa di Pemilihan Jawatankuasa pada Mesyuarat Agung Dwi-Tahunan / Biennial General Meeting &#40;BGM&#41;</li>
+            <li class='list-group-item'>Berhak mendapat surat sokongan daripada persatuan &lpar;sekiranya diperlukan&rpar;</li>
+            <li class='list-group-item'>Boleh mewakili / diwakili persatuan pada perkara / acara tertentu &lpar;setelah mendapat kelulusan jawatankuasa&rpar;</li>
+            <li class='list-group-item'>Memilih &amp; mengundi Jawatankuasa di Pemilihan Jawatankuasa pada Mesyuarat Agung Dwi-Tahunan / Biennial General Meeting &lpar;BGM&rpar;</li>
           </ul>
         </div>
         <div class='col-lg-5'>
@@ -35,8 +35,8 @@
             <a type='button' class='btn btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
           </div>
           <div class='vstack gap-1 justify-content-center'>
-            <a type='button' class='btn btn-lg btn-primary rounded-5' href='https://bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian &#40;Google Form&#41; <i class='bi-google'></i></a>
-            <a type='button' class='btn btn-lg btn-success rounded-5' href='https://dl.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian &#40;Fail PDF&#41; <i class='bi-file-pdf-fill'></i></a>
+            <a type='button' class='btn btn-lg btn-primary rounded-5' href='https://bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian &lpar;Google Form&rpar; <i class='bi-google'></i></a>
+            <a type='button' class='btn btn-lg btn-success rounded-5' href='https://dl.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian &lpar;Fail PDF&rpar; <i class='bi-file-pdf-fill'></i></a>
           </div>
           <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>
             <div class='modal-dialog modal-dialog-centered' role='document'>
@@ -166,7 +166,7 @@
             <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
-                  <p class='lh-1 mb-0'>BAHAGIAN<br>SIARAYA &amp; AKTIVITI<br><sup>&#40;Pegawai Lantikan Sementara&#41;</sup></p>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>SIARAYA &amp; AKTIVITI<br><sup>&lpar;Pegawai Lantikan Sementara&rpar;</sup></p>
                 </div>
                 <div class='card-img'>
                   <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>

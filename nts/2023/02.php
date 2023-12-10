@@ -17,11 +17,11 @@
         <table class='table table-bordered align-middle'>
           <tr>
             <td>Tarikh</td>
-            <td>13 Februari 2023 &#40;Isnin&#41;</td>
+            <td>13 Februari 2023 &lpar;Isnin&rpar;</td>
           </tr>
           <tr>
             <td>Masa</td>
-            <td>12AM hingga 6AM &#40;MYT&#41;</td>
+            <td>12AM hingga 6AM &lpar;MYT&rpar;</td>
           </tr>
           <tr>
             <td>Tempoh Gangguan</td>

@@ -15,7 +15,7 @@
       <p class='mt-2'>Perkara diatas adalah dirujuk.</p>
       <p>Merujuk semula kepada laporan-laporan yang diterima sejak kebelakangan ini, pihak pengurusan rangkaian RoIPMARS membuat keputusan untuk merombak semula jadual dengan melakukan perubahan dibawah;</p>
         <ol type='i'>
-          <li>memansuhkan net pada hari isnin &#40;kecuali net khas&#41;;</li>
+          <li>memansuhkan net pada hari isnin &lpar;kecuali net khas&rpar;;</li>
           <li>menukarkan masa net hari ahad dari jam 10 pagi ke jam 9 malam.</li>
         </ol>
       <p>Perubahan diatas berkuatkuasa <strong>mulai Disember 2023</strong>. Pihak pengurusan juga merancang untuk mengisi kekosongan yang ada dengan mendapatkan kerjasama dan kesinambungan dari pihak ketiga. Sebarang perubahan dalam waktu terdekat akan dikaitkan dengan rujukan diatas.</p>

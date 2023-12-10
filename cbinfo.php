@@ -19,20 +19,20 @@
       <div class='row'>
         <div class='col-lg-8'>
           <h2 class='text-center'>Pengenalan</h2>
-          <p>CB Radio atau CITIZEN BAND radio sangat popular di Amerika sekitar tahun 70-an. Kemudian penggunaanya merebak ke negara-negara lain seperti Britain, Australia, New Zealand serta lain-lain negara. Kebanyakan negara di seluruh dunia sekarang ini, sudah tidak memerlukan lesen peribadi atau lesen CB Radio untuk menggunakan CB Radio, tidak sebagaimana penggunaan Radio Amatur yang memerlukan AA &#40;Aparatus Assignment&#41; dimana pemiliknya perlu lulus ujian atau peperiksaan Radio Amatur. USA menggugurkan keperluan lesen CB Radio sekitar tahun 1982 diikuti negara Australia termasuk UK pada tahun 2006 serta lain-lain negara eropah.</p>
-          <p>Penggunaan CB Radio di Malaysia tidak begitu ketara kerana di Malaysia pada masa lalu sangat-sangat ketat peraturan mengenai pengunaan gelombang radio dan CB radio mulai sah di gunakan di Malaysia bilamana pihak MCMC &#40;Malaysia Communication and Multimedia Comission&#41; atau SKMM &#40;Suruhanjaya Komunikasi dan Mutimedia Malaysia&#41; mengeluarkan notis pengumuman PENGUNTUKAN KELAS pada April 2000 dan di tambah beberapa jalur baru pada 1 APRIL 2010 &#40;Class Assignments no. 1 of 2010&#41;. Penggunaan CB radio di Malaysia TIDAK DI KENAKAN APA-APA BAYARAN atau MEMERLUKAN LESEN PERIBADI &#40;AA&#41; seperti RADIO AMATUR selagi penggunaannya mengikut peraturan-peraturan yang di sebutkan didalam PENGUMUMAN PENGUNTUKAN KELAS.</p>
-          <p>Jadi disini menunjukkan sekarang ini orang ramai tidak dihalang untuk menggunakan peralatan radio komunikasi tanpa perlu mendapatkan lesen peribadi selagi penggunaannya mengikut terma dan syarat MCMC &#40;SKMM&#41;, kerana ianya tidak perlu menduduki apa-apa peperiksaan seperti Radio Amatur atau Ham Radio. Anda boleh menubuhkan kumpulan atau KELAB CB RADIO dikalangan rakan-rakan anda dan memilih senarai jalur mana yang anda ingin gunakan, samada CB HF 27 Mhz atau PMR UHF 446 Mhz atau kesemua frekuensi yang di benarkan dengan membeli transceiver atau walkie-talkie untuk HF 27Mhz CB dan UHF 446Mhz.</p>
-          <p>Sesungguhnya hobi di bidang radio ini mempunyai keseronokan tersendiri yang tidak ditemui dalam hobi yang lain, kenapa anda tidak ceburi dan rasai sendiri keseronokan berkomunikasi dengan rakan-rakan yang anda kenali atau baru ingin mengenalinya melalui udara tanpa memikirkan bil yang harus dibayar seperti penggunaan talifon bimbit. Jarak perhubungan purata CB radio adalah di antara 2km hingga 18km dimana dalam masa-masa tertentu boleh mencapai sehingga ribuan km sekiranya anda menggunakan HF CB 27Mhz mode SSB &#40;USB atau LSB&#41;.</p>
+          <p>CB Radio atau CITIZEN BAND radio sangat popular di Amerika sekitar tahun 70-an. Kemudian penggunaanya merebak ke negara-negara lain seperti Britain, Australia, New Zealand serta lain-lain negara. Kebanyakan negara di seluruh dunia sekarang ini, sudah tidak memerlukan lesen peribadi atau lesen CB Radio untuk menggunakan CB Radio, tidak sebagaimana penggunaan Radio Amatur yang memerlukan AA &lpar;Aparatus Assignment&rpar; dimana pemiliknya perlu lulus ujian atau peperiksaan Radio Amatur. USA menggugurkan keperluan lesen CB Radio sekitar tahun 1982 diikuti negara Australia termasuk UK pada tahun 2006 serta lain-lain negara eropah.</p>
+          <p>Penggunaan CB Radio di Malaysia tidak begitu ketara kerana di Malaysia pada masa lalu sangat-sangat ketat peraturan mengenai pengunaan gelombang radio dan CB radio mulai sah di gunakan di Malaysia bilamana pihak MCMC &lpar;Malaysia Communication and Multimedia Comission&rpar; atau SKMM &lpar;Suruhanjaya Komunikasi dan Mutimedia Malaysia&rpar; mengeluarkan notis pengumuman PENGUNTUKAN KELAS pada April 2000 dan di tambah beberapa jalur baru pada 1 APRIL 2010 &lpar;Class Assignments no. 1 of 2010&rpar;. Penggunaan CB radio di Malaysia TIDAK DI KENAKAN APA-APA BAYARAN atau MEMERLUKAN LESEN PERIBADI &lpar;AA&rpar; seperti RADIO AMATUR selagi penggunaannya mengikut peraturan-peraturan yang di sebutkan didalam PENGUMUMAN PENGUNTUKAN KELAS.</p>
+          <p>Jadi disini menunjukkan sekarang ini orang ramai tidak dihalang untuk menggunakan peralatan radio komunikasi tanpa perlu mendapatkan lesen peribadi selagi penggunaannya mengikut terma dan syarat MCMC &lpar;SKMM&rpar;, kerana ianya tidak perlu menduduki apa-apa peperiksaan seperti Radio Amatur atau Ham Radio. Anda boleh menubuhkan kumpulan atau KELAB CB RADIO dikalangan rakan-rakan anda dan memilih senarai jalur mana yang anda ingin gunakan, samada CB HF 27 Mhz atau PMR UHF 446 Mhz atau kesemua frekuensi yang di benarkan dengan membeli transceiver atau walkie-talkie untuk HF 27Mhz CB dan UHF 446Mhz.</p>
+          <p>Sesungguhnya hobi di bidang radio ini mempunyai keseronokan tersendiri yang tidak ditemui dalam hobi yang lain, kenapa anda tidak ceburi dan rasai sendiri keseronokan berkomunikasi dengan rakan-rakan yang anda kenali atau baru ingin mengenalinya melalui udara tanpa memikirkan bil yang harus dibayar seperti penggunaan talifon bimbit. Jarak perhubungan purata CB radio adalah di antara 2km hingga 18km dimana dalam masa-masa tertentu boleh mencapai sehingga ribuan km sekiranya anda menggunakan HF CB 27Mhz mode SSB &lpar;USB atau LSB&rpar;.</p>
           <p class='alert alert-info text-center'>CB RADIO ADALAH UNTUK KEGUNAAN SEMUA RAKYAT DI DUNIA<br>TANPA PERLU MEMBAYAR SEBARANG LESEN PERIBADI ATAU MENGAMBIL SEBARANG PEPERIKSAAN.</p>
-          <p>Yang perlu cuma anda membeli sebuah CB Transceiver, power supply dan antenna atau Mobile CB antenna &#40;untuk kegunaan pada kereta, lori, caravan atau bas&#41;. Anda boleh membeli CB Transceiver samada melalui e-dagang seperti Shopee, Lazada, Carousell, Mudah.my, Lelong.my, atau kedai yang menjual Radio Transceiver seperti di Jalan Pasar, KL atau Plaza Low Yatt, KL. Tak kira anda siapa, peguam, jurutera, pemandu bas, pemandu lori kontena, pemandu teksi, guru atau sebagainya yang penting anda sukakan hobi perhubungan radio maka cb radio ni sangat berguna untuk anda gunakan semasa dalam perjalanan, semasa berkonvoi, semasa kecemasan atau hanya untuk berkomunikasi.</p>
+          <p>Yang perlu cuma anda membeli sebuah CB Transceiver, power supply dan antenna atau Mobile CB antenna &lpar;untuk kegunaan pada kereta, lori, caravan atau bas&rpar;. Anda boleh membeli CB Transceiver samada melalui e-dagang seperti Shopee, Lazada, Carousell, Mudah.my, Lelong.my, atau kedai yang menjual Radio Transceiver seperti di Jalan Pasar, KL atau Plaza Low Yatt, KL. Tak kira anda siapa, peguam, jurutera, pemandu bas, pemandu lori kontena, pemandu teksi, guru atau sebagainya yang penting anda sukakan hobi perhubungan radio maka cb radio ni sangat berguna untuk anda gunakan semasa dalam perjalanan, semasa berkonvoi, semasa kecemasan atau hanya untuk berkomunikasi.</p>
           <p class='alert alert-danger text-center'>PERINGATAN! Adalah menjadi kesalahan disisi undang-undang dibawah AKTA 588 Komunikasi dan Multimedia 1998, iaitu menggunakan sebarang peralatan komunikasi dua hala selain dari CB RADIO atau PMR di dalam kenderaan atau sebagainya tanpa memiliki lesen yang sah.</p>
         </div>
         <div class='col-lg-4 text-center'>
           <h2>Jalur</h2>
-          <p class='mb-0'>Berdasarkan Akta Komunikasi &amp; Multimedia 1998 &#40;Akta 588&#41;, berikut merupakan senarai jalur yang dibenarkan untuk penggunaan Jalur Rakyat di Malaysia</p>
+          <p class='mb-0'>Berdasarkan Akta Komunikasi &amp; Multimedia 1998 &lpar;Akta 588&rpar;, berikut merupakan senarai jalur yang dibenarkan untuk penggunaan Jalur Rakyat di Malaysia</p>
           <p class='alert alert-success'><a href='member' class='text-decoration-none'>Pihak Pengurusan Kumpulan RoIPMARS</a> telah bersetuju untuk menyelaraskan komunikasi radio dua hala <a href='cbmars' class='text-decoration-none'>Jalur Rakyat RoIPMARS</a><br><strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>HF: 27.305MHz USB</strong>;<strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>UHF: 446.05625MHz FM</strong></p>
           <div class='hstack gap-1'>
-            <h3 class='text-secondary'>HF &#40;CB&#41; - 27MHz</h3>
+            <h3 class='text-secondary'>HF &lpar;CB&rpar; - 27MHz</h3>
             <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-27cb-modal-xl'>27 CB</button>
             <button type='button' class='btn btn-sm btn-secondary' data-bs-toggle='modal' data-bs-target='.bd-27cbmy-modal-xl'>27 CB MY</button>
           </div>
@@ -58,7 +58,7 @@
             <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
               <div class='modal-content'>
                 <div class='modal-header'>
-                  <h5 class='modal-title' id='27cbmyModalLabel'>HF Frequencies &#91;KTKM&#40;S&#41; 353/146/5 Klt. 4; PN&#40;PU2&#41; 601&#93;</h5>
+                  <h5 class='modal-title' id='27cbmyModalLabel'>HF Frequencies &lbrack;KTKM&lpar;S&rpar; 353/146/5 Klt. 4; PN&lpar;PU2&rpar; 601&rbrack;</h5>
                 </div>
                 <div class='modal-body'>
                   <div class='ratio ratio-4x3'>
@@ -74,7 +74,7 @@
           </div>
           <table class='table table-bordered table-responsive table-sm text-wrap' style='font-size:xx-small'>
             <thead class='align-middle'>
-              <tr><th>Channel No.</th><th>Frequency &#40;MHz&#41;</th><th>Modulation Type</th><th>Peak power &#40;Watts&#41;</th><th>Bandwidth &#40;kHz&#41;</th><th>Reserved Channel</th></tr>
+              <tr><th>Channel No.</th><th>Frequency &lpar;MHz&rpar;</th><th>Modulation Type</th><th>Peak power &lpar;Watts&rpar;</th><th>Bandwidth &lpar;kHz&rpar;</th><th>Reserved Channel</th></tr>
             </thead>
             <tbody>
               <tr><td>9</td><td>27.065</td><td>AM</td><td>4</td><td>6</td><td>Emergency</td></tr>
@@ -85,7 +85,7 @@
           </table>
           <hr>
           <div class='hstack'>
-            <h3 class='text-secondary'>UHF &#40;PRS&#41; - 446MHz</h3>
+            <h3 class='text-secondary'>UHF &lpar;PRS&rpar; - 446MHz</h3>
             <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-446pmr-modal-xl'>446 PRS</button>
           </div>
           <div class='modal fade bd-446pmr-modal-xl' tabindex='-1' role='dialog' aria-labelledby='446pmrModalLabel' aria-hidden='true'>
@@ -108,7 +108,7 @@
           </div>
           <table class='table table-bordered table-responsive table-sm text-wrap' style='font-size:xx-small'>
             <thead class='align-middle'>
-              <tr><th>Channel No.</th><th>Frequency &#40;MHz&#41;</th><th>Modulation type</th><th>Peak power &#40;Watts&#41;</th><th>Bandwidth &#40;kHz&#41;</th><th>Channel Mode</th></tr>
+              <tr><th>Channel No.</th><th>Frequency &lpar;MHz&rpar;</th><th>Modulation type</th><th>Peak power &lpar;Watts&rpar;</th><th>Bandwidth &lpar;kHz&rpar;</th><th>Channel Mode</th></tr>
             </thead>
             <tbody>
               <tr style='background-color: #336699;color: white;font-family: tekton-pro, sans-serif;font-weight: 400;font-style: normal;'><td>5</td><td>446.05625</td><td>FM</td><td>0.5</td><td>12.5</td><td>Analog</td></tr>
@@ -117,7 +117,7 @@
           </table>
           <hr>
           <div class='hstack gap-1'>
-            <h3 class='text-secondary text-decoration-line-through'>UHF &#40;CB&#41; - 477MHz</h3>
+            <h3 class='text-secondary text-decoration-line-through'>UHF &lpar;CB&rpar; - 477MHz</h3>
             <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/photo/Final-Notice-PRS-477-MHz_BI.pdf' target='_blank' rel='noopener' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN DI MALAYSIA</a>
   <!--
             <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477cb-modal-xl'>477 CB</button>
@@ -175,7 +175,7 @@
   -->
           <hr>
           <div class='hstack'>
-            <h3 class='text-secondary text-decoration-line-through'>UHF &#40;FB&#41; - 477MHz</h3>
+            <h3 class='text-secondary text-decoration-line-through'>UHF &lpar;FB&rpar; - 477MHz</h3>
             <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/8th-Public-Notice-477MHz_20221013.pdf' target='_blank' rel='noopener' class='btn btn-sm btn-danger fs-6 ms-auto'>DIBATALKAN PERKHIDMATAN DI MALAYSIA</a>
   <!--          <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-477fb-modal-xl'>477 FB</button>-->
           </div>

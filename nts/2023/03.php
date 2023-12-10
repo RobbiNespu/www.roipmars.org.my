@@ -12,15 +12,15 @@
       <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2023/03<br>Tarikh Notis: 07 Mac 2023 | 1230 MYT</p>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
       <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Penyelenggaraan Rangkaian - 25 Mac 2023</p>
-      <p class='mb-2'>Harap maklum bahawa Pasukan Penyelenggaraan Pusat Data akan menjalankan penyelenggaraan rangkaian untuk menaik taraf perisian tegar <i>&#40;firmware&#41;</i> peralatan rangkaian di Pusat Data MYI dan MYS.</p>
+      <p class='mb-2'>Harap maklum bahawa Pasukan Penyelenggaraan Pusat Data akan menjalankan penyelenggaraan rangkaian untuk menaik taraf perisian tegar <i>&lpar;firmware&rpar;</i> peralatan rangkaian di Pusat Data MYI dan MYS.</p>
       <p>Penyelenggaraan ini adalah penting untuk mengelakkan sebarang kelemahan yang mungkin membahayakan dan menjejaskan keselamatan rangkaian.</p>
       <p>Butiran penyelenggaraan adalah seperti berikut:
       <table class='table table-bordered table-sm text-start align-middle'>
         <tbody>
-          <tr><th>Tarikh</th><td>25 Mac 2023 &#40;Sabtu&#41;</td></tr>
-          <tr><th>Masa Gangguan</th><td>11:30 PM &ndash; 3:30 AM &#40;MY&#41;</td></tr>
+          <tr><th>Tarikh</th><td>25 Mac 2023 &lpar;Sabtu&rpar;</td></tr>
+          <tr><th>Masa Gangguan</th><td>11:30 PM &ndash; 3:30 AM &lpar;MY&rpar;</td></tr>
           <tr><th>Tempoh Gangguan</th><td>4 jam</td></tr>
-          <tr><th>Masa Penyelenggaraan</th><td>12:00 AM &#40;MY&#41;</td></tr>
+          <tr><th>Masa Penyelenggaraan</th><td>12:00 AM &lpar;MY&rpar;</td></tr>
           <tr><th>Tempoh Penyelenggaraan</th><td>30 minit</td></tr>
           <tr><th>Punca</th><td>Operasi naiktaraf perisian rangkaian</td></tr>
         </tbody>

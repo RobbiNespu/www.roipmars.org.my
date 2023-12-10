@@ -211,7 +211,7 @@
                 </div>
                 <div id='collapserms1' class='accordion-collapse collapse' aria-labelledby='rms1' data-bs-parent='#rmsfaq'>
                   <div class='accordion-body'>
-                    <p class='m-0'>Anda boleh layari laman <a class='text-muted' href='member'>Ahli</a> dan dapatkan borang keahlian disana. Terdapat 3 kaedah pengisian borang iaitu melalui Google Form, Adobe Sign, dan fail PDF. Anda dikehendaki mengisi lengkap salah satu borang tersebut dan dikembalikan semula kepada Setiausaha Agung Persatuan Peminat Radio Komunikasi &#40;ROIP&#41; bersama dengan bukti yuran pendaftaran, salinan pengenalan diri, dan sekeping gambar berukuran pasport.</p>
+                    <p class='m-0'>Anda boleh layari laman <a class='text-muted' href='member'>Ahli</a> dan dapatkan borang keahlian disana. Terdapat 3 kaedah pengisian borang iaitu melalui Google Form, Adobe Sign, dan fail PDF. Anda dikehendaki mengisi lengkap salah satu borang tersebut dan dikembalikan semula kepada Setiausaha Agung Persatuan Peminat Radio Komunikasi &lpar;ROIP&rpar; bersama dengan bukti yuran pendaftaran, salinan pengenalan diri, dan sekeping gambar berukuran pasport.</p>
                   </div>
                 </div>
               </div>
@@ -225,7 +225,7 @@
                     <p class='m-0'>Antara awalan isyarat panggilan yang digunakan oleh CB Rangkaian RoIPMARS adalah:</p>
                     <table class='table table-sm table-bordered text-center align-middle m-0'>
                       <tbody>
-                        <tr class='fw-bold text-primary-emphasis'><td>&#91;🇲🇾&#93; 113MSA₁A₂A₃</td><td>&#91;🇲🇾&#93; 58MSA₁A₂A₃</td><td>&#91;🇮🇩&#93; 91MSA₁A₂A₃</td><td>&#91;🇹🇭&#93; 153MSA₁A₂A₃</td><td>&#91;🇧🇳&#93; 225MSA₁A₂A₃</td></tr>
+                        <tr class='fw-bold text-primary-emphasis'><td>&lbrack;🇲🇾&rbrack; 113MSA₁A₂A₃</td><td>&lbrack;🇲🇾&rbrack; 58MSA₁A₂A₃</td><td>&lbrack;🇮🇩&rbrack; 91MSA₁A₂A₃</td><td>&lbrack;🇹🇭&rbrack; 153MSA₁A₂A₃</td><td>&lbrack;🇧🇳&rbrack; 225MSA₁A₂A₃</td></tr>
                       </tbody>
                       <caption class='fw-bold text-center'>A₁A₂A₃ hendaklah mewakili sebarang abjad A hingga Z</caption>
                     </table>
@@ -251,7 +251,7 @@
                         <tr><td>connection error</td><td>i. kesilapan alamat/ip pelayan<br>ii. pelayan tidak beroperasi</td></tr>
                       </tbody>
                     </table>
-                    <p class='m-0'>Sekiranya anda tidak berjaya log masuk ke pelayan Rangkaian RoIPMARS &#91;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&#93;, berkemungkinan perisian yang anda gunakan tidak menyokong fungsi &#39;DNS&#39;. Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'>App Store</a>.</p>
+                    <p class='m-0'>Sekiranya anda tidak berjaya log masuk ke pelayan Rangkaian RoIPMARS &lbrack;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&rbrack;, berkemungkinan perisian yang anda gunakan tidak menyokong fungsi &#39;DNS&#39;. Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'>App Store</a>.</p>
                     <p class='m-0'>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' download>roipmars-teamspeak-3.0.3.1.apk</a></p>
                     <p class='m-0'>Pihak Pentadbir Rangkaian RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
                   </div>

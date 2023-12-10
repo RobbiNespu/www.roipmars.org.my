@@ -21,13 +21,13 @@
         <div class='col-lg-4 p-2 text-center align-self-center' id='regind'>
           <h3>Permohonan CS Individu CB RoIPMARS Group</h3>
           <a type='button' class='btn btn-lg btn-block btn-outline-primary rounded-3 fs-4 fw-bold' href='https://forms.gle/hxFgHW3S5S3hqGg49' target='_blank' rel='noopener'>Borang permohonan Isyarat Panggilan Jalur Rakyat Individu Jaringan RoIPMARS&#8480;</a>
-          <p class='fs-6 fw-light'>Sumbangan bernilai RM 10.00 &#40;minimum&#41; digalakkan untuk setiap permohonan isyarat panggilan individu.</p>
+          <p class='fs-6 fw-light'>Sumbangan bernilai RM 10.00 &lpar;minimum&rpar; digalakkan untuk setiap permohonan isyarat panggilan individu.</p>
         </div>
         <!--
         <hr class='h-100'>
         <div class='col-6 p-2 text-end' id='regate'>
           <h3>Permohonan CS Gateway CB MARS Group</h3>
-          <p class='fs-6 fw-light'>Yuran permohonan berupa sumbangan RM 10.00 &#40;minimum&#41; diperlukan untuk permohonan isyarat panggilan Radio Gateway.</p>
+          <p class='fs-6 fw-light'>Yuran permohonan berupa sumbangan RM 10.00 &lpar;minimum&rpar; diperlukan untuk permohonan isyarat panggilan Radio Gateway.</p>
           <a type='button' class='btn btn-sm btn-secondary disabled' aria-disabled='true' href='https://forms.gle/3oX7RdKMF79oSiBo7' target='_blank' rel='noopener'>Borang permohonan Isyarat Panggilan Jalur Rakyat Radio Gateway Jaringan RoIPMARS&#8480;</a>
         </div>
       -->

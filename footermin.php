@@ -107,7 +107,7 @@
             ?></span></p>
           </div>
           <div class='col-md-12 my-0'>
-            <p class='text-center font-monospace text-body-tertiary lh-1'><i class='bi-c-circle'></i>2014&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. RoIPMARS&#8480; &#124; PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;RoIP&#41; PPM-006-10-01062020</p>
+            <p class='text-center font-monospace text-body-tertiary lh-1'><i class='bi-c-circle'></i>2014&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. RoIPMARS&#8480; &#124; PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;RoIP&rpar; PPM-006-10-01062020</p>
           </div>
         </div>
       </div>

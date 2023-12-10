@@ -33,7 +33,7 @@
                 <td colspan='3'>CPU berkebolehan SSE2</td>
               </tr>
               <tr>
-                <th scope='row' class='align-middle'>Memori Capaian Rawak &#40;RAM&#41; <i class='bi-memory'></i></th>
+                <th scope='row' class='align-middle'>Memori Capaian Rawak &lpar;RAM&rpar; <i class='bi-memory'></i></th>
                 <td colspan='3'>Minima 1GB RAM</td>
               </tr>
               <tr>
@@ -42,20 +42,20 @@
               </tr>
               <tr>
                 <th scope='row' class='align-middle'>Aksesori</th>
-                <td colspan='3'><i class='bi-headset'></i> Set Kepala &#40;untuk pengalaman yang lebih baik&#41; atau<br><i class='bi-mic'></i> Mikrofon dan <i class='bi-speaker'></i> Pembesar Suara,<br><i class='bi-webcam-fill'></i> Kamera Web (pilihan)</td>
+                <td colspan='3'><i class='bi-headset'></i> Set Kepala &lpar;untuk pengalaman yang lebih baik&rpar; atau<br><i class='bi-mic'></i> Mikrofon dan <i class='bi-speaker'></i> Pembesar Suara,<br><i class='bi-webcam-fill'></i> Kamera Web (pilihan)</td>
               </tr>
             </tbody>
           </table>
           <p class='mb-1'>Perisian tambahan untuk bantuan desktop:</p>
           <div class='btn-group d-flex mx-auto' role='group'>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe' target='_blank' rel='nofollow' download>RustDesk &#40;Windows&#41; <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb' target='_blank' rel='nofollow' download>RustDesk &#40;Linux&#41; <i class='bi-ubuntu'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg' target='_blank' rel='nofollow' download>RustDesk &#40;Mac&#41; <i class='bi-apple'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe' target='_blank' rel='nofollow' download>RustDesk &lpar;Windows&rpar; <i class='bi-windows'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb' target='_blank' rel='nofollow' download>RustDesk &lpar;Linux&rpar; <i class='bi-ubuntu'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg' target='_blank' rel='nofollow' download>RustDesk &lpar;Mac&rpar; <i class='bi-apple'></i></a>
           </div>
           <div class='btn-group d-flex mx-auto' role='group'>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/AnyDesk.exe' target='_blank' rel='nofollow' download>AnyDesk &#40;Windows&#41; <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/linux/anydesk-6.3.0-amd64.tar.gz' target='_blank' rel='nofollow' download>AnyDesk &#40;Linux&#41; <i class='bi-ubuntu'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/anydesk.dmg' target='_blank' rel='nofollow' download>AnyDesk &#40;Mac&#41; <i class='bi-apple'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/AnyDesk.exe' target='_blank' rel='nofollow' download>AnyDesk &lpar;Windows&rpar; <i class='bi-windows'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/linux/anydesk-6.3.0-amd64.tar.gz' target='_blank' rel='nofollow' download>AnyDesk &lpar;Linux&rpar; <i class='bi-ubuntu'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/anydesk.dmg' target='_blank' rel='nofollow' download>AnyDesk &lpar;Mac&rpar; <i class='bi-apple'></i></a>
           </div>
         </div>
       </div>
@@ -237,14 +237,14 @@
               </tr>
               <tr>
                 <td>Tiada Sokongan Google</td>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' target='_blank' rel='nofollow' download>Versi Tiada Sokongan Google<br>&#40;kurang ciri khas&#41;</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' target='_blank' rel='nofollow' download>Versi Tiada Sokongan Google<br>&lpar;kurang ciri khas&rpar;</a></td>
               </tr>
               <!-- <tr>
                 <td>v3.1.9-beta.194</td>
                 <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/ts-3.1.9_b194.apk' target='_blank' rel='nofollow' download>Muat Turun</a></td>
               </tr> -->
               <tr>
-                <td><i class='bi-google-play fs-2'></i><br>&#40;DISYORKAN&#41;</td>
+                <td><i class='bi-google-play fs-2'></i><br>&lpar;DISYORKAN&rpar;</td>
                 <td><a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='nofollow'><img src='https://play.google.com/intl/en_us/badges/static/images/badges/ms_badge_web_generic.png' class='img-fluid w-50'></a></td>
               </tr>
             </tbody>
@@ -342,7 +342,7 @@
           </div>
         </div>
         <div class='col-lg-5 position-static p-3'>
-          <h5 class='mt-0 text-center'>Pasang &amp; Konfigurasikan Teamspeak dalam Android<br><em>&#40;KEHABISAN SOKONGAN-AKHIR DIS 2020&#41;</em></h5>
+          <h5 class='mt-0 text-center'>Pasang &amp; Konfigurasikan Teamspeak dalam Android<br><em>&lpar;KEHABISAN SOKONGAN-AKHIR DIS 2020&rpar;</em></h5>
           <p class='text-center'>Video tutorial ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di Android Phone anda.</p>
           <table class='table table-sm text-center align-middle'>
             <tbody>

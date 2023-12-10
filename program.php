@@ -77,7 +77,7 @@
 									</div>
 									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
-										<p class='lh-1'>9M6RDY<br>MATTHEUS &#64; RUDY</p>
+										<p class='lh-1'>9M6RDY<br>MATTHEUS &commat; RUDY</p>
 									</div>
 								</div>
 							</div>
@@ -341,7 +341,7 @@
 					</div>
 				</div>
 				<div class='col-lg-6'>
-					<h3 class='text-center'>Kedudukan Kategori Terbuka &#40;VoIP&#41;</h3>
+					<h3 class='text-center'>Kedudukan Kategori Terbuka &lpar;VoIP&rpar;</h3>
 					<p class='text-center'>RoIPMARS OpenVoIP Net Bahasa Melayu</p>
 					<div class='row'>
 						<div class='col-lg-6'>

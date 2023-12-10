@@ -32,13 +32,13 @@
           <p class='text-center'>Merapatkan hubungan siraturahim antara stesen seluruh dunia disamping menguji peralatan masing-masing serta komunikasi antara satu sama lain.</p>
           <h4 class='text-center fw-bold'>PENGENALAN RADIO AMATUR</h4>
           <ol type='1'>
-            <li>Radio Amatur ditakrifkan di dalam <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998' target='_blank' rel='nofollow'>Akta Komunikasi dan Multimedia 1998 &#91;Akta 588&#93;</a> dan <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio' target='_blank' rel='nofollow'>PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA &#40;SPEKTRUM&#41; 2000 &#91;P.U.&#40;A&#41; 128/2000&#93;</a>.</li>
+            <li>Radio Amatur ditakrifkan di dalam <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998' target='_blank' rel='nofollow'>Akta Komunikasi dan Multimedia 1998 &lbrack;Akta 588&rbrack;</a> dan <a class='text-decoration-none' href='https://www.skmm.gov.my/ms/sectors/broadcasting/communications-and-multimedia-act-1998/communications-and-multimedia-(spectrum)-regulatio' target='_blank' rel='nofollow'>PERATURAN-PERATURAN KOMUNIKASI DAN MULTIMEDIA &lpar;SPEKTRUM&rpar; 2000 &lbrack;P.U.&lpar;A&rpar; 128/2000&rbrack;</a>.</li>
             <ol type='i'>
-              <li>Perkhidmatan Radio Komunikasi &#40;termasuk Bumi &#40;Tanah&#41; &amp; Satelit&#41;.</li>
+              <li>Perkhidmatan Radio Komunikasi &lpar;termasuk Bumi &lpar;Tanah&rpar; &amp; Satelit&rpar;.</li>
               <li>Di mana kegunaan stesen dengan tujuan latihan sendiri, komunikasi dan penyiasatan teknikal.</li>
               <li>Dijalankan oleh seseorang yang berkelayakan yang mempunyai keinginan mendalami teknik radio diatas usaha peribadi dan tidak mempunyai niat yang lain.</li>
             </ol>
-            <li>Radio Amatur juga diiktiraf sebagai salah satu peralatan komunikasi radio yang mana ITU &#40;International Telecommunication Union&#41; memantau dan menyediakan jalur khas untuk perkhidmatan Radio Amatur yang mana jalur tersebut dapat digunakan diseluruh dunia.</li>
+            <li>Radio Amatur juga diiktiraf sebagai salah satu peralatan komunikasi radio yang mana ITU &lpar;International Telecommunication Union&rpar; memantau dan menyediakan jalur khas untuk perkhidmatan Radio Amatur yang mana jalur tersebut dapat digunakan diseluruh dunia.</li>
             <li>Pengendali Radio Amatur mesti memberikan perkhidmatan bagi membantu kerajaan sesebuah negara ketika berlakunya bencana sekiranya sistem komunikasi yang lain tidak boleh berfungsi atau tiada kemudahan komunikasi yang lain.</li>
             <li>Salah satu kehebatan yang ada pada Radio Amatur ialah: <span class='badge rounded-pill text-bg-success'>&lsquo;perasaan muhibah antarabangsa&rsquo;</span> diantara rakan HAM seluruh dunia dengan ikatan persaudaraan antara manusia sejagat tanpa mengira golongan, bangsa, jantina, pangkat &amp; kedudukan.</li>
           </ol>
@@ -361,7 +361,7 @@
                   <span class='flag'>Pengenalan</span>
                   <span class='time-wrapper'><span class='time'>Akhir 2014</span></span>
                 </div>
-                <div class='desc'>TeamSpeak3 mula diperkenalkan untuk khidmat komunikasi Amatur dan Komersial di Malaysia oleh 9W2UZL &#40;Zulkifli Abu&#41; yang pelayannya dihoskan sendiri oleh beliau di kediamannya di Bukit Beruntung, Rawang, Selangor. Mula terbentuk beberapa rakan radio amatur yang berminat dengan teknologi komunikasi radio alaf baru dengan konsep Murah &amp; Meriah apabila diperkenalkan dari rakan ke rakan yang lain.</div>
+                <div class='desc'>TeamSpeak3 mula diperkenalkan untuk khidmat komunikasi Amatur dan Komersial di Malaysia oleh 9W2UZL &lpar;Zulkifli Abu&rpar; yang pelayannya dihoskan sendiri oleh beliau di kediamannya di Bukit Beruntung, Rawang, Selangor. Mula terbentuk beberapa rakan radio amatur yang berminat dengan teknologi komunikasi radio alaf baru dengan konsep Murah &amp; Meriah apabila diperkenalkan dari rakan ke rakan yang lain.</div>
               </div>
             </li>
             <li>
@@ -371,7 +371,7 @@
                   <span class='flag'>Komuniti MeDiC</span>
                   <span class='time-wrapper'><span class='time'>Awal 2015</span></span>
                 </div>
-                <div class='desc'><b>Malaysian eQSO Digital Community &#40;MeDiC&#41;</b> adalah antara komuniti yang memperkenalkan teknologi komunikasi digital kepada radio amatur di Malaysia. Antara ahli komuniti yang terawal adalah 9W2UZL, 9W2ZEC, 9W8ZZK, 9W2OGK, 9W2NDI, dan V85ABK.<img class='img-thumbnail rounded-5 mx-auto d-block my-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/002.jpg'>Banyak cabaran dan rintangan yang dihadapi ahli komuniti untuk memperoleh kepercayaan rakan radio amatur terhadap teknologi baru yang semakin pesat membangun. Walau bagaimanapun, mereka tidak patah semangat untuk terus mencuba bagi memperoleh kepercayaan penggiat radio amatur untuk menggunakan teknologi baru.</div>
+                <div class='desc'><b>Malaysian eQSO Digital Community &lpar;MeDiC&rpar;</b> adalah antara komuniti yang memperkenalkan teknologi komunikasi digital kepada radio amatur di Malaysia. Antara ahli komuniti yang terawal adalah 9W2UZL, 9W2ZEC, 9W8ZZK, 9W2OGK, 9W2NDI, dan V85ABK.<img class='img-thumbnail rounded-5 mx-auto d-block my-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/002.jpg'>Banyak cabaran dan rintangan yang dihadapi ahli komuniti untuk memperoleh kepercayaan rakan radio amatur terhadap teknologi baru yang semakin pesat membangun. Walau bagaimanapun, mereka tidak patah semangat untuk terus mencuba bagi memperoleh kepercayaan penggiat radio amatur untuk menggunakan teknologi baru.</div>
               </div>
             </li>
             <li>
@@ -399,7 +399,7 @@
                   <span class='flag'>MARDS</span>
                   <span class='time-wrapper'><span class='time'>2017</span></span>
                 </div>
-                <div class='desc'>Hasrat beberapa ahli komuniti untuk mendaftarkan MeDiC sebagai satu organisasi yang sah di Malaysia terjadi apabila berlaku lantikan Jawatankuasa Penaja <b>Malaysian Amateur Radio Digital Society &#40;MARDS&#41;</b> seramai 15 orang yang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle'>
+                <div class='desc'>Hasrat beberapa ahli komuniti untuk mendaftarkan MeDiC sebagai satu organisasi yang sah di Malaysia terjadi apabila berlaku lantikan Jawatankuasa Penaja <b>Malaysian Amateur Radio Digital Society &lpar;MARDS&rpar;</b> seramai 15 orang yang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle'>
                     <tbody>
                       <tr><td>9W2UZL</td><td>Presiden</td></tr>
                       <tr><td>9W2ZEC</td><td>Timbalan Presiden</td></tr>
@@ -420,7 +420,7 @@
                   <span class='flag'>RoIPMARS&#8480;</span>
                   <span class='time-wrapper'><span class='time'>Awal 2018</span></span>
                 </div>
-                <div class='desc'>MARDS gagal didaftarkan berpunca daripada beberapa masalah yang berlaku pada ketika itu. Tidak lama kemudian, sekali lagi penjenamaan dilakukan dengan lantikan Jawatankuasa Penaja <b>Malaysian Amateur ROIP Society &#40;MARS&#41;</b> seramai 19 orang yang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle'>
+                <div class='desc'>MARDS gagal didaftarkan berpunca daripada beberapa masalah yang berlaku pada ketika itu. Tidak lama kemudian, sekali lagi penjenamaan dilakukan dengan lantikan Jawatankuasa Penaja <b>Malaysian Amateur ROIP Society &lpar;MARS&rpar;</b> seramai 19 orang yang terdiri daripada&#58;<table class='table table-sm table-bordered table-responsive table-striped text-center align-middle'>
                     <tbody>
                       <tr><td>9W2UZL</td><td>Presiden</td></tr>
                       <tr><td>9W2ZEC</td><td>Timbalan Presiden</td></tr>
@@ -444,7 +444,7 @@
                   <span class='flag'>Promosi ROIP bersama ASTRA</span>
                   <span class='time-wrapper'><span class='time'>21 Okt 2018</span></span>
                 </div>
-                <div class='desc'>Usaha terus dijalankan untuk mempromosikan RoIPMARS&#8480; dimana kami dijemput untuk memberikan penerangan berkenaan ROIP &amp; VOIP di acara Mesyuarat Agung Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &#40;ASTRA&#41; kali ke-20 &amp; Jamboree-On-The-Air&reg; &#40;JOTA&#41; ke-61 dan Jamboree-On-The-Internet&reg; &#40;JOTI&#41; ke-22 pada 19-21 Oktober 2018 yang bertempat di Guar Cempedak, Yan, Kedah.
+                <div class='desc'>Usaha terus dijalankan untuk mempromosikan RoIPMARS&#8480; dimana kami dijemput untuk memberikan penerangan berkenaan ROIP &amp; VOIP di acara Mesyuarat Agung Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &lpar;ASTRA&rpar; kali ke-20 &amp; Jamboree-On-The-Air&reg; &lpar;JOTA&rpar; ke-61 dan Jamboree-On-The-Internet&reg; &lpar;JOTI&rpar; ke-22 pada 19-21 Oktober 2018 yang bertempat di Guar Cempedak, Yan, Kedah.
                   <div class='ratio ratio-16x9'>
                     <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/hWG5OXBC0nY' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
                   </div>
@@ -458,7 +458,7 @@
                   <span class='flag'>JASRA</span>
                   <span class='time-wrapper'><span class='time'>30 Okt 2018</span></span>
                 </div>
-                <div class='desc'>Permohonan pihak <b>Persatuan Jalur Selatan Radio Amatur Johor &#40;JASRA&#41;</b> untuk menghubungkan jaringan dua hala antara RoIPMARS&#8480; dan pengulang mereka bagi menyemarakkan lagi aktiviti yang dijalankan di kedua-dua platform.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/jasra18.jpg'></div>
+                <div class='desc'>Permohonan pihak <b>Persatuan Jalur Selatan Radio Amatur Johor &lpar;JASRA&rpar;</b> untuk menghubungkan jaringan dua hala antara RoIPMARS&#8480; dan pengulang mereka bagi menyemarakkan lagi aktiviti yang dijalankan di kedua-dua platform.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/jasra18.jpg'></div>
               </div>
             </li>
             <li>
@@ -468,7 +468,7 @@
                   <span class='flag'>Akademi 9M</span>
                   <span class='time-wrapper'><span class='time'>Akhir 2018</span></span>
                 </div>
-                <div class='desc'><b>Idea Asal Akademi 9M &#40;Akademi NineMike&#41;</b> bermula dari kelas pembuatan antaramuka ROIP oleh 9W2UZL. Lalu dijenamakan ke &#39;<i>Discussion Class A</i>&#39;, &#39;<i>Pembelajaran Kelas A</i>&#39;, dan akhirnya beralih ke <b>&#39;<i>AKADEMI 9M</i>&#39;</b> sejak akhir 2018 yang diterajui oleh 9M2RAN &amp; 9M2VBC.<img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/akademi9m.jpg'>Konsep asal yang dibawakan akademi ini adalah bagi membantu dan memberi khidmat latihan kepada pengendali radio amatur supaya lulus peperiksaan naik taraf kelas &#40;OCW&#41;.</div>
+                <div class='desc'><b>Idea Asal Akademi 9M &lpar;Akademi NineMike&rpar;</b> bermula dari kelas pembuatan antaramuka ROIP oleh 9W2UZL. Lalu dijenamakan ke &#39;<i>Discussion Class A</i>&#39;, &#39;<i>Pembelajaran Kelas A</i>&#39;, dan akhirnya beralih ke <b>&#39;<i>AKADEMI 9M</i>&#39;</b> sejak akhir 2018 yang diterajui oleh 9M2RAN &amp; 9M2VBC.<img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/akademi9m.jpg'>Konsep asal yang dibawakan akademi ini adalah bagi membantu dan memberi khidmat latihan kepada pengendali radio amatur supaya lulus peperiksaan naik taraf kelas &lpar;OCW&rpar;.</div>
               </div>
             </li>
             <li>
@@ -478,7 +478,7 @@
                   <span class='flag'>KRTC</span>
                   <span class='time-wrapper'><span class='time'>05 Dis 2018</span></span>
                 </div>
-                <div class='desc'>Syarikat <b>Kalumpang Resort &amp; Training Centre &#40;KRTC&#41;</b> juga pernah membuat permohonan pelayan TeamSpeak3 untuk penggunaan pekerjanya berhubung antara satu sama lain.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/krtc18.jpg'></div>
+                <div class='desc'>Syarikat <b>Kalumpang Resort &amp; Training Centre &lpar;KRTC&rpar;</b> juga pernah membuat permohonan pelayan TeamSpeak3 untuk penggunaan pekerjanya berhubung antara satu sama lain.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/krtc18.jpg'></div>
               </div>
             </li>
             <li>
@@ -518,10 +518,10 @@
                   <span class='flag'>Pendaftaran Organisasi</span>
                   <span class='time-wrapper'><span class='time'>01 Jun 2020</span></span>
                 </div>
-                <div class='desc'>Cubaan untuk mendaftarkan organisasi tidak semudah yang disangka. Ianya memakan masa hampir setengah dekad dengan pelbagai cabaran dan rintangan dalaman mahupun luaran yang perlu ditempuh. Bagaimanapun, Pengerusi &#40;Ustaz Zulkifli Abu&#41; dengan bantuan Setiausahanya &#40;Hafizi Ruslan&#41; dan semua jawatankuasa berpendirian teguh ingin meneruskan proses pendaftaran organisasi sehingga diperakui sah oleh Jabatan Pendaftar Pertubuhan Malaysia.<br>Akhirnya, dengan segala usaha dan bantuan yang diberikan, tepat pada <i><b>jam 10 pagi 1 Jun 2020</b></i>, organisasi berjaya didaftarkan secara sah dengan<table class='table table-sm table-borderless table-responsive text-center align-middle my-0'>
+                <div class='desc'>Cubaan untuk mendaftarkan organisasi tidak semudah yang disangka. Ianya memakan masa hampir setengah dekad dengan pelbagai cabaran dan rintangan dalaman mahupun luaran yang perlu ditempuh. Bagaimanapun, Pengerusi &lpar;Ustaz Zulkifli Abu&rpar; dengan bantuan Setiausahanya &lpar;Hafizi Ruslan&rpar; dan semua jawatankuasa berpendirian teguh ingin meneruskan proses pendaftaran organisasi sehingga diperakui sah oleh Jabatan Pendaftar Pertubuhan Malaysia.<br>Akhirnya, dengan segala usaha dan bantuan yang diberikan, tepat pada <i><b>jam 10 pagi 1 Jun 2020</b></i>, organisasi berjaya didaftarkan secara sah dengan<table class='table table-sm table-borderless table-responsive text-center align-middle my-0'>
                     <tbody>
                       <tr><td>Nama Pertubuhan</td></tr>
-                      <tr><td><b>PERSATUAN PEMINAT RADIO KOMUNIKASI &#40;ROIP&#40;RADIO OVER INTERNET PROTOCOL&#41;&#41;</b></td></tr>
+                      <tr><td><b>PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;ROIP&lpar;RADIO OVER INTERNET PROTOCOL&rpar;&rpar;</b></td></tr>
                       <tr><td>No. Pendaftaran</td></tr>
                       <tr><td><b>PPM-006-10-01062020</b></td></tr>
                     </tbody>
@@ -554,7 +554,7 @@
                   <span class='flag'>CQ 9M64MB</span>
                   <span class='time-wrapper'><span class='time'>20 Ogos 2021</span></span>
                 </div>
-                <div class='desc'><i>Persatuan Peminat Radio Komunikasi</i> diberi kepercayaan oleh <i>Malaysian Amateur Radio Transmitter&#39;s Society</i> &#40;MARTS&#41; untuk mengendalikan Isyarat Panggilan Khas Negeri Selangor bersempena dengan Hari Kebangsaan kali ke-64 <i>&#40;9M64MB&#41;</i> bagi menyemarakkan lagi semangat patriotik antara penggiat komunikasi radio seluruh Malaysia. Aktiviti dijalankan selama 6 hari berturut-turut dari 27 Ogos 2021 hingga 1 September 2021 di <i>&#39;All Band All Mode&#39;</i>.<img class='img-thumbnail rounded-circle mx-auto d-block my-2' loading='lazy' src='https://cdn-bio.qrz.com/b/9m64mb/9M64MB.jpg'><a class='btn btn-sm btn-outline-primary' role='button' href='https://www.qrz.com/db/9m64mb' target='_blank' rel='nofollow'>QRZ</a> <a class='btn btn-sm btn-outline-primary' role='button' href='https://dxnews.com/forum/forum/special-event-stations/37809-9m64mb-puncak-alam-selangor-malaysia' target='_blank' rel='nofollow'>DX News</a> <a class='btn btn-sm btn-outline-primary' role='button' href='http://www.9mdxc.com/2021/08/9m64mx-station' target='_blank' rel='nofollow'>9MDXC</a></div>
+                <div class='desc'><i>Persatuan Peminat Radio Komunikasi</i> diberi kepercayaan oleh <i>Malaysian Amateur Radio Transmitter&#39;s Society</i> &lpar;MARTS&rpar; untuk mengendalikan Isyarat Panggilan Khas Negeri Selangor bersempena dengan Hari Kebangsaan kali ke-64 <i>&lpar;9M64MB&rpar;</i> bagi menyemarakkan lagi semangat patriotik antara penggiat komunikasi radio seluruh Malaysia. Aktiviti dijalankan selama 6 hari berturut-turut dari 27 Ogos 2021 hingga 1 September 2021 di <i>&#39;All Band All Mode&#39;</i>.<img class='img-thumbnail rounded-circle mx-auto d-block my-2' loading='lazy' src='https://cdn-bio.qrz.com/b/9m64mb/9M64MB.jpg'><a class='btn btn-sm btn-outline-primary' role='button' href='https://www.qrz.com/db/9m64mb' target='_blank' rel='nofollow'>QRZ</a> <a class='btn btn-sm btn-outline-primary' role='button' href='https://dxnews.com/forum/forum/special-event-stations/37809-9m64mb-puncak-alam-selangor-malaysia' target='_blank' rel='nofollow'>DX News</a> <a class='btn btn-sm btn-outline-primary' role='button' href='http://www.9mdxc.com/2021/08/9m64mx-station' target='_blank' rel='nofollow'>9MDXC</a></div>
               </div>
             </li>
             <li>
@@ -564,7 +564,7 @@
                   <span class='flag'>BOTA Lumut</span>
                   <span class='time-wrapper'><span class='time'>16 Mac 2022</span></span>
                 </div>
-                <div class='desc'>Jemputan dari komuniti RoIPDarulAman bagi menjayakan <i>Beach On The Air</i> &#40;BOTA&#41; yang berlansung di Pantai Kg. Acheh, Lumut, Perak.<img class='img-thumbnail rounded-circle mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/bota22.png'></div>
+                <div class='desc'>Jemputan dari komuniti RoIPDarulAman bagi menjayakan <i>Beach On The Air</i> &lpar;BOTA&rpar; yang berlansung di Pantai Kg. Acheh, Lumut, Perak.<img class='img-thumbnail rounded-circle mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/bota22.png'></div>
               </div>
             </li>
             <li>
@@ -574,7 +574,7 @@
                   <span class='flag'>CQ 9M65MB</span>
                   <span class='time-wrapper'><span class='time'>30 Ogos 2022</span></span>
                 </div>
-                <div class='desc'>Jemputan dari Komuniti Radio Amatur Sungai Buloh dengan kerjasama Jabatan Penerangan Malaysia yang diwakilkan oleh komuniti RoIPDarulAman untuk mengadakan pameran <i>&#39;Radio over Internet Protocol&#39;</i> &#40;RoIP&#41; semasa Sambutan Malam Hari Kebangsaan kali ke-65 yang berlansung di Paya Jaras, Sungai Buloh.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/krasb22.jpg'></div>
+                <div class='desc'>Jemputan dari Komuniti Radio Amatur Sungai Buloh dengan kerjasama Jabatan Penerangan Malaysia yang diwakilkan oleh komuniti RoIPDarulAman untuk mengadakan pameran <i>&#39;Radio over Internet Protocol&#39;</i> &lpar;RoIP&rpar; semasa Sambutan Malam Hari Kebangsaan kali ke-65 yang berlansung di Paya Jaras, Sungai Buloh.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/krasb22.jpg'></div>
               </div>
             </li>
             <li>
@@ -584,17 +584,17 @@
                   <span class='flag'>Perolehan Aset Pelayan</span>
                   <span class='time-wrapper'><span class='time'>01 September 2022</span></span>
                 </div>
-                <div class='desc'>Bermula daripada 27 Julai 2022 pihak Jawatankuasa dibawah kelolaan Biro Pengurusan Pelayan berjaya memperoleh pelayan berasaskan &#39;Windows Server&#39; yang disewa atas nama pertubuhan di Pusat Data Cyberjaya dan mula membuat peralihan maklumat dari pelayan sebelum ini &#91;<i>roipmars.com</i>&#93; &#40;milik peribadi&#41; ke pelayan semasa &#91;<i>roipmars.org.my</i>&#93; &#40;milik persatuan&#41;. Setelah kerja-kerja peralihan dan percubaan serta ujian penggunaan &amp; beban tinggi yang dijalankan, tepat pada jam 6 pagi 01 September 2022 &#91;<b><i>roipmars.org.my</i></b>&#93; bersedia memberikan perkhidmatannya kepada semua Penggiat &amp; Peminat Radio Komunikasi dari seluruh dunia pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='/nts/2022/01' target='_blank' rel='noopener'>Baca lanjut...</a></div>
+                <div class='desc'>Bermula daripada 27 Julai 2022 pihak Jawatankuasa dibawah kelolaan Biro Pengurusan Pelayan berjaya memperoleh pelayan berasaskan &#39;Windows Server&#39; yang disewa atas nama pertubuhan di Pusat Data Cyberjaya dan mula membuat peralihan maklumat dari pelayan sebelum ini &lbrack;<i>roipmars.com</i>&rbrack; &lpar;milik peribadi&rpar; ke pelayan semasa &lbrack;<i>roipmars.org.my</i>&rbrack; &lpar;milik persatuan&rpar;. Setelah kerja-kerja peralihan dan percubaan serta ujian penggunaan &amp; beban tinggi yang dijalankan, tepat pada jam 6 pagi 01 September 2022 &lbrack;<b><i>roipmars.org.my</i></b>&rbrack; bersedia memberikan perkhidmatannya kepada semua Penggiat &amp; Peminat Radio Komunikasi dari seluruh dunia pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='/nts/2022/01' target='_blank' rel='noopener'>Baca lanjut...</a></div>
               </div>
             </li>
             <li>
               <div class='direction-r'>
                 <div class='flag-wrapper'>
                   <span class='hexa'></span>
-                  <span class='flag'>Peraturan KMM &#40;Spektrum&#41; Pindaan 2022</span>
+                  <span class='flag'>Peraturan KMM &lpar;Spektrum&rpar; Pindaan 2022</span>
                   <span class='time-wrapper'><span class='time'>01 Januari 2023</span></span>
                 </div>
-                <div class='desc'>Selaras dengan pindaan kepada Peraturan-Peraturan Komunikasi dan Multimedia &#40;Standard Teknik&#41; 2000 yang diluluskan pada 25 April 2022 &#91;<a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/communications-and-multimedia-spectrum-regulatio#content44480' target='_blank' rel='nofollow'>KKMM.600-1/4/8; PN(PU2)601/J1d. 12</a>&#93; dan berkuat kuasa pada 1 Januari 2023 &#40;iaitu bagi <b>peruntukan yang berkaitan dengan radio amatur</b>&#41;, Suruhanjaya Komunikasi dan Multimedia Malaysia &#40;MCMC&#41; memaklumkan bahawa terdapat perubahan kepada struktur perakuan pengendali radio amatur di Malaysia iaitu:<table class='table table-responsive table-borderless table-sm text-start align-middle mb-0'>
+                <div class='desc'>Selaras dengan pindaan kepada Peraturan-Peraturan Komunikasi dan Multimedia &lpar;Standard Teknik&rpar; 2000 yang diluluskan pada 25 April 2022 &lbrack;<a href='https://www.mcmc.gov.my/ms/legal/acts/communications-and-multimedia-act-1998-reprint-200/communications-and-multimedia-spectrum-regulatio#content44480' target='_blank' rel='nofollow'>KKMM.600-1/4/8; PN(PU2)601/J1d. 12</a>&rbrack; dan berkuat kuasa pada 1 Januari 2023 &lpar;iaitu bagi <b>peruntukan yang berkaitan dengan radio amatur</b>&rpar;, Suruhanjaya Komunikasi dan Multimedia Malaysia &lpar;MCMC&rpar; memaklumkan bahawa terdapat perubahan kepada struktur perakuan pengendali radio amatur di Malaysia iaitu:<table class='table table-responsive table-borderless table-sm text-start align-middle mb-0'>
                     <tbody>
                       <tr><td>i.</td><td>Format peperiksaan</td></tr>
                       <tr><td>ii.</td><td>Silibus peperiksaan</td></tr>
@@ -603,7 +603,7 @@
                       <tr><td>v.</td><td>Ujian Kod Morse untuk menaik taraf ke Kelas A digantikan dengan peperiksaan pilihan jawapan berkomputer</td></tr>
                       <tr><td>vi.</td><td>Penggunaan frekuensi dan had kuasa pancaran bagi setiap kelas</td></tr>
                     </tbody>
-                  </table>Perubahan kepada struktur ini adalah untuk memastikan perakuan pengendali radio amatur yang diadakan di Malaysia sejajar dengan latihan yang diamalkan di negara-negara lain. Perubahan ini juga bertujuan untuk menggalakkan minat dari kalangan pelajar dalam bidang Sains, Teknologi, Kejuruteraan dan Matematik &#40;STEM&#41; melalui radio amatur dan menjurus kepada peningkatan pengendali radio amatur yang dapat membantu ketika bencana.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/press-releases/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='nofollow'>Siaran Akhbar MCMC</a> <a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/announcements/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='nofollow'>Pengumuman MCMC</a>
+                  </table>Perubahan kepada struktur ini adalah untuk memastikan perakuan pengendali radio amatur yang diadakan di Malaysia sejajar dengan latihan yang diamalkan di negara-negara lain. Perubahan ini juga bertujuan untuk menggalakkan minat dari kalangan pelajar dalam bidang Sains, Teknologi, Kejuruteraan dan Matematik &lpar;STEM&rpar; melalui radio amatur dan menjurus kepada peningkatan pengendali radio amatur yang dapat membantu ketika bencana.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/press-releases/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='nofollow'>Siaran Akhbar MCMC</a> <a class='btn btn-sm btn-outline-primary mt-2' role='button' href='https://www.mcmc.gov.my/en/media/announcements/struktur-baharu-perakuan-pengendali-radio-amatur' target='_blank' rel='nofollow'>Pengumuman MCMC</a>
                   <hr><img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/akademi9mbw.jpg'>Dukacita dimaklumkan, selaras dengan perubahan format &amp; silibus peperiksaan, Akademi 9M dihentikan khidmatnya bagi membantu pengendali radio amatur menaiktaraf kelas mereka. Sejak memulakan Akademi 9M, seramai lebih 70 pengendali telahpun dilahirkan antaranya: 9M2MWZ, 9M2NUZ, 9M2SFF, 9M2VJP, 9M2VVH, 9M2BUN, 9M6RDY, 9M6AUA, 9M6JAY, 9M6RMD, 9M2KZI, dan ramai lagi.
                 </div>
               </div>
@@ -615,17 +615,17 @@
                   <span class='flag'>Perjumpaan Santai PPRK</span>
                   <span class='time-wrapper'><span class='time'>18 Februari 2023</span></span>
                 </div>
-                <div class='desc'>Buat pertama kali secara rasmi, <i>Persatuan Peminat Radio Komunikasi</i> menganjurkan <b>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</b> yang berlansung di Kalumpang Resort &amp; Training Centre, Hulu Selangor.<br>Antara pengisian acara adalah Pameran <i>&#39;Radio Over Internet Protocol&#39;</i> &#40;RoIP&#41;, BBQ, Karaoke, dan Cabutan Bertuah disamping dapat mengenal dengan lebih dekat dan mengeratkan lagi silaturrahim antara Penggiat dan Peminat Radio Komunikasi.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/050.jpg'></div>
+                <div class='desc'>Buat pertama kali secara rasmi, <i>Persatuan Peminat Radio Komunikasi</i> menganjurkan <b>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</b> yang berlansung di Kalumpang Resort &amp; Training Centre, Hulu Selangor.<br>Antara pengisian acara adalah Pameran <i>&#39;Radio Over Internet Protocol&#39;</i> &lpar;RoIP&rpar;, BBQ, Karaoke, dan Cabutan Bertuah disamping dapat mengenal dengan lebih dekat dan mengeratkan lagi silaturrahim antara Penggiat dan Peminat Radio Komunikasi.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/050.jpg'></div>
               </div>
             </li>
             <li>
               <div class='direction-r'>
                 <div class='flag-wrapper'>
                   <span class='hexa'></span>
-                  <span class='flag'>Malaysia Peak To Peak &#91;My-PTP&#93;</span>
+                  <span class='flag'>Malaysia Peak To Peak &lbrack;My-PTP&rbrack;</span>
                   <span class='time-wrapper'><span class='time'>18 Mac 2023</span></span>
                 </div>
-                <div class='desc'>RoIPMARS&#8480; diwakilkan oleh ahli &#40;9W8ZZK&#41; dalam acara &#39;<i>Malaysia Peak To Peak</i>&#39; dengan kerjasama Malaysia Amateur Radio Transmitter&#39; Society &#40;MARTS&#41; yang dijalankan bersama Pasukan SOTA Sarawak di Bukit Selang, Telaga Air, Kuching, Sarawak.<img class='img-thumbnail rounded-4 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/myptp23-9m8sota.jpg'></div>
+                <div class='desc'>RoIPMARS&#8480; diwakilkan oleh ahli &lpar;9W8ZZK&rpar; dalam acara &#39;<i>Malaysia Peak To Peak</i>&#39; dengan kerjasama Malaysia Amateur Radio Transmitter&#39; Society &lpar;MARTS&rpar; yang dijalankan bersama Pasukan SOTA Sarawak di Bukit Selang, Telaga Air, Kuching, Sarawak.<img class='img-thumbnail rounded-4 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/myptp23-9m8sota.jpg'></div>
               </div>
             </li>
             <li>
@@ -635,7 +635,7 @@
                   <span class='flag'>Ahli Gabungan MARTS</span>
                   <span class='time-wrapper'><span class='time'>24 Mei 2023</span></span>
                 </div>
-                <div class='desc'>RoIPMARS&#8480; dengan nama Persatuan Peminat Radio Komunikasi &#40;ROIP&#41; secara sah menjadi Ahli Gabungan Malaysia Amateur Radio Transmitter&#39; Society &#40;MARTS&#41;.</div>
+                <div class='desc'>RoIPMARS&#8480; dengan nama Persatuan Peminat Radio Komunikasi &lpar;ROIP&rpar; secara sah menjadi Ahli Gabungan Malaysia Amateur Radio Transmitter&#39; Society &lpar;MARTS&rpar;.</div>
               </div>
             </li>
             <li>
@@ -645,7 +645,7 @@
                   <span class='flag'>CQ 9M66MK</span>
                   <span class='time-wrapper'><span class='time'>27 Ogos 2023</span></span>
                 </div>
-                <div class='desc'>RoIPMARS&#8480; dengan nama Persatuan Peminat Radio Komunikasi &#40;ROIP&#41; menerima hasrat dari wakil Kelab Radio Amatur Jalan Klang Lama, Kelab Komunikasi Radio Amatur Kuala Muda &amp; YOTA Malaysia untuk menggunakan jaringan RoIPMARS semasa aktiviti Tahunan CQ Hari Kebangsaan kali ke-66.<img class='img-thumbnail rounded-4 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/9m66mk_arol.png'></div>
+                <div class='desc'>RoIPMARS&#8480; dengan nama Persatuan Peminat Radio Komunikasi &lpar;ROIP&rpar; menerima hasrat dari wakil Kelab Radio Amatur Jalan Klang Lama, Kelab Komunikasi Radio Amatur Kuala Muda &amp; YOTA Malaysia untuk menggunakan jaringan RoIPMARS semasa aktiviti Tahunan CQ Hari Kebangsaan kali ke-66.<img class='img-thumbnail rounded-4 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/9m66mk_arol.png'></div>
               </div>
             </li>
           </ul>

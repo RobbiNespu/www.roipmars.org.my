@@ -138,12 +138,12 @@
         <div class='col-12 m-0 p-1'>
           <div class='card text-center rounded-3'>
             <div class='card-header'>
-              <h4 class='card-header-pills'>Persidangan bersama MARTS &#40;Malaysian Amateur Radio Transmitters'
-                Society&#41;</h4>
+              <h4 class='card-header-pills'>Persidangan bersama MARTS &lpar;Malaysian Amateur Radio Transmitters'
+                Society&rpar;</h4>
             </div>
             <div class='card-body'>
-              <p class='card-text'>Persidangan bersama dengan 9M2PRO &#40;Wakil MARTS&#41; melalui pelayan kami
-                membincangkan mengenai kepentingan persidangan video semasa Perintah Kawalan Pergerakan &#40;PKP&#41;.</p>
+              <p class='card-text'>Persidangan bersama dengan 9M2PRO &lpar;Wakil MARTS&rpar; melalui pelayan kami
+                membincangkan mengenai kepentingan persidangan video semasa Perintah Kawalan Pergerakan &lpar;PKP&rpar;.</p>
               <div class='ratio ratio-16x9'>
                 <embed class='rounded-3 rounded-top' loading='lazy' src='https://www.youtube.com/embed/iWNZUnVvm-o' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
               </div>

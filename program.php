@@ -40,10 +40,10 @@
 							<tr class='table-primary'><td>Isnin</td><td>1300 z<br>2100 my</td><td>RoIPMARS Net Awal Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
 							<tr class='table-danger'><td>Selasa</td><td>1215 z<br>1915 wib</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
 							<tr class='table-success'><td>Wednesday</td><td>1300 z<br>2100 my</td><td>RoIPMARS Learning English Net</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='table-danger'><td>Khamis</td><td>1215 z<br>1915 wib</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
+							<tr class='table-danger'><td>Kamis</td><td>1215 z<br>1915 wib</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
 							<tr class='opacity-25'><td>Jumaat</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
 							<tr class='table-primary'><td>Sabtu</td><td>1300 z<br>2100 my</td><td>RoIPMARS Net Malam Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='table-danger'><td>Ahad</td><td>1215 z<br>1915 wib</td><td>SMP Net Hujung Minggu</td><td>SMP RoIPMARS</td></tr>
+							<tr class='table-danger'><td>Minggu</td><td>1215 z<br>1915 wib</td><td>SMP Net Akhir Minggu</td><td>SMP RoIPMARS</td></tr>
 						</tbody>
 					</table>
 					<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>

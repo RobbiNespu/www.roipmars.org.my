@@ -41,7 +41,7 @@
         </tbody>
       </table>
       <p>Sekiranya hari peringatan &#40;Net Khas&#41; jatuh pada hari selain anjuran RoIPMARS &#40;selain dari hari peringatan/kelepasan kebangsaan negara tertentu&#41;, pihak RoIPMARS akan mengambil alih aktiviti tersebut.</p>
-      <p>Sehubungan dengan itu, Ketua Bahagian Siaraya &amp; Aktiviti masih lagi menunggu keputusan perbincangan dari pihak &quot;Komuniti RoIPMARS Sabah&quot; untuk turut serta dalam kerjasama ini. Bahagian Siaraya &amp; Aktiviti RoIPMARS menjemput mana mana pihak untuk turut berkolaborasi bersama menjayakan aktiviti yang telah dirancang. Sebarang persoalan, anda boleh menghubungi pegawai kami di talian WhatsApp &#40;<a href='https://wa.me/60148453456' target='_blank'>+60148453456</a>&#41;.</p>
+      <p>Sehubungan dengan itu, Bahagian Siaraya &amp; Aktiviti RoIPMARS menjemput mana mana pihak untuk turut berkolaborasi bersama menjayakan aktiviti yang telah dirancang. Sebarang persoalan, anda boleh menghubungi pegawai kami di talian WhatsApp &#40;<a href='https://wa.me/60148453456' target='_blank'>+60148453456</a>&#41;.</p>
       <p>Diharap dengan usahasama ini, dapat kita bersatu dalam kerjasama erat demi menaikkan lagi semangat komunikasi dikalangan penggiat radio dua hala.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2311'>member@roipmars.org.my</a></p>
       <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "caliban-std", sans-serif'>Pentadbir Rangkaian</p>

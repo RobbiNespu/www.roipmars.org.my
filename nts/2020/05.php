@@ -8,10 +8,15 @@
   <body>
     <?php include_once '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Notice Change of Info in CB_DB</p>
-      <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2020/05<br>Tarikh Notis: 06 Mac 2020 | 0130 MYT</p>
+      <p class='fs-1 text-center'>Notice Change of Info in CB_DB</p>
+      <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
+        <tbody>
+          <tr><td>Rujukan Notis</td><td>NtsMARS2020/05</td></tr>
+          <tr><td>Tarikh Notis</td><td>06 Mac 2020, 0130 MYT</td></tr>
+        </tbody>
+      </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group</p>
+      <p class='fs-2 fw-bold text-decoration-underline'>Per: Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group</p>
       <p class='mb-2'>Berhubung perkara diatas, pihak pengurusan MARS Group melarang keras untuk anda menghantar borang berkali-kali untuk penukaran maklumat seperti Isyarat Panggilan, Rangkaian ataupun maklumat lain yang berkaitan.</p>
       <p>Bagi penukaran maklumat, boleh berbuat demikian melalui salah satu cara dibawah:
       <ol type='a'>
@@ -29,8 +34,8 @@
       <p>Mulai Mac 2020, segala maklumat baru yang diberikan bakal mengambil masa maksimum 48 jam waktu bekerja untuk proses permohonan &amp; pendaftaran bagi tujuan semakan terlebih dahulu dengan maklumat sedia ada bagi mengelakkan pertindihan.</p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member@roipmars.org.my</a></p>
-      <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "caliban-std", sans-serif'>Pentadbir Rangkaian</p>
-      <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
+      <p class='fs-3 fw-bold text-end mt-2 mb-0' style='font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive; font-weight: 600;'>Pentadbir Rangkaian</p>
+      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
     </div>
     <?php include_once '../../footermin.php' ?>
   </body>

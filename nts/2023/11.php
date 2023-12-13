@@ -8,10 +8,15 @@
   <body>
     <?php include_once '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Usahasama SMP &lpar;Serambi Merah Putih&rpar; dalam menjayakan aktiviti mingguan</p>
-      <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2023/11<br>Tarikh Notis: 11 Dis 2023 | 0000 MYT</p>
+      <p class='fs-1 text-center'>Usahasama SMP &lpar;Serambi Merah Putih&rpar; dalam menjayakan aktiviti mingguan</p>
+      <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
+        <tbody>
+          <tr><td>Rujukan Notis</td><td>NtsMARS2023/11</td></tr>
+          <tr><td>Tarikh Notis</td><td>11 Dis 2023, 0000 MYT</td></tr>
+        </tbody>
+      </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Notis Rombakan dan Perubahan Jadual Net di RoIPMARS &lpar;Samb.&rpar;</p>
+      <p class='fs-2 fw-bold text-decoration-underline'>Per: Notis Rombakan dan Perubahan Jadual Net di RoIPMARS &lpar;Samb.&rpar;</p>
       <p class='mt-2'>Merujuk semula kepada notis <a href='10' target='_blank'>NtsMARS2023/10</a>.</p>
       <p>Hasil mesyuarat dalaman, Ketua Bahagian Siaraya &amp; Aktiviti telah membuat keputusan untuk meneruskan aktiviti net seperti ketetapan dibawah;</p>
       <table class='table table-sm table-bordered text-center align-middle caption-top'>
@@ -44,8 +49,9 @@
       <p>Sehubungan dengan itu, Bahagian Siaraya &amp; Aktiviti RoIPMARS menjemput mana mana pihak untuk turut berkolaborasi bersama menjayakan aktiviti yang telah dirancang. Sebarang persoalan, anda boleh menghubungi pegawai kami di talian WhatsApp &lpar;<a href='https://wa.me/60148453456' target='_blank'>+60148453456</a>&rpar;.</p>
       <p>Diharap dengan usahasama ini, dapat kita bersatu dalam kerjasama erat demi menaikkan lagi semangat komunikasi dikalangan penggiat radio dua hala.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2311'>member@roipmars.org.my</a></p>
-      <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "caliban-std", sans-serif'>Pentadbir Rangkaian</p>
-      <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Rangkaian RoIPMARS</p>
+      <p class='fs-3 fw-bold text-end mt-2 mb-0' style='font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive; font-weight: 600;'>Pentadbir Rangkaian</p>
+      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
+
     </div>
     <?php include_once '../../footermin.php' ?>
   </body>

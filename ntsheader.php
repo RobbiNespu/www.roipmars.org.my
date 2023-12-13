@@ -2,9 +2,6 @@
 <html data-bs-theme='auto'>
 
   <head>
-    <link rel='preconnect' href='https://fonts.googleapis.com'>
-    <link rel='preconnect' href='https://fonts.gstatic.com'>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?&family=Oxanium&family=Nanum+Gothic+Coding&family=Saira+Extra+Condensed&family=Orbitron&family=Electrolize&family=Coda&display=swap'>
   </head>
 
   <body>
@@ -22,8 +19,8 @@
           </div> -->
         </div>
         <div class='vstack text-end me-5'>
-          <h2 class='h2' style='font-family: "Orbitron", sans-serif; font-weight: 900'>Jaringan RoIPMARS&#8480;</h2>
-          <p class='fs-6 fw-light' style='font-family: "Electrolize", sans-serif'>roipmars.com &mdash; roipmars.org.my</p>
+          <h2 class='h2'>Jaringan RoIPMARS&#8480;</h2>
+          <p class='fs-6 fw-lighter'>roipmars.com &mdash; roipmars.org.my</p>
         </div>
       </div>
     </header>

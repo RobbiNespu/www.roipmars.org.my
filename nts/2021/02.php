@@ -8,10 +8,15 @@
   <body>
     <?php include_once '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Penyeleggaraan Aplikasi</p>
-      <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2021/02<br>Tarikh Notis: 10 Ogos 2021 | 1630 MYT</p>
+      <p class='fs-1 text-center'>Penyeleggaraan Aplikasi</p>
+      <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
+        <tbody>
+          <tr><td>Rujukan Notis</td><td>NtsMARS2021/02</td></tr>
+          <tr><td>Tarikh Notis</td><td>10 Ogo 2021, 1630 MYT</td></tr>
+        </tbody>
+      </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Penyeleggaraan migrasi tidak berjadual</p>
+      <p class='fs-2 fw-bold text-decoration-underline'>Per: Penyeleggaraan migrasi tidak berjadual</p>
       <p class='mb-2'>Harap Maaf buat semua pengguna MARS Group kerana tidak dapat menggunakan perkhidmatan kami sejak Isnin, 9 Ogos 2021. Pihak kami sedang membuat penyelenggaraan migrasi tidak berjadual terhadap semua 'server' dan 'domain' di bawah kelolaan kami.</p>
       <p>Penyelengaraan tersebut meliputi aplikasi
       <ul type='circle'>
@@ -38,8 +43,8 @@
       </p>
       <p>Pihak pengguna tidak perlu membuat apa-apa perubahan ke atas 'software' selepas penyelenggaraan ini selesai.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2102'>member@roipmars.org.my</a></p>
-      <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "caliban-std", sans-serif'>Pentadbir Rangkaian</p>
-      <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
+      <p class='fs-3 fw-bold text-end mt-2 mb-0' style='font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive; font-weight: 600;'>Pentadbir Rangkaian</p>
+      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
     </div>
     <?php include_once '../../footermin.php' ?>
   </body>

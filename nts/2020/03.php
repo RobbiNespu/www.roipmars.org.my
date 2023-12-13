@@ -8,10 +8,15 @@
   <body>
     <?php include_once '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Notice Downloads Webpage</p>
-      <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2020/03<br>Tarikh Notis: 16 Februari 2020 | 0000 MYT</p>
+      <p class='fs-1 text-center'>Notice Downloads Webpage</p>
+      <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
+        <tbody>
+          <tr><td>Rujukan Notis</td><td>NtsMARS2020/03</td></tr>
+          <tr><td>Tarikh Notis</td><td>16 Feb 2020, 0000 MYT</td></tr>
+        </tbody>
+      </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Makluman buat pengguna TeamSpeak samada baru mahupun sedia ada</p>
+      <p class='fs-2 fw-bold text-decoration-underline'>Per: Makluman buat pengguna TeamSpeak samada baru mahupun sedia ada</p>
       <p class='mb-2'>Berhubung dengan perkara diatas, bermula Februari 2020, pihak pengurusan MARS Group bakal mengambil inisiatif untuk memberitahu kepada umum bagaimana untuk berhubung dengan MARS Group.</p>
       <p>Segala platform perhubungan (Teamspeak, Echolink, Zello, eQSO, FRN) akan dibuat video 'tutorial' dan akan dimuatnaik di [<a href='/howto' target='_blank' rel='noopener'>Tutorial</a>] untuk rujukan kita bersama. </p>
       <p>Berikut merupakan senarai laman:</p>
@@ -58,8 +63,8 @@
         <p>Harap maaf bagi pengguna iOS, kami tidak mempunyai fail aplikasi untuk versi percuma pada peranti iOS (semua pembelian mesti dibuat terus melalui akaun apple)</p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2003'>member@roipmars.org.my</a></p>
-      <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "caliban-std", sans-serif'>Pentadbir Rangkaian</p>
-      <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
+      <p class='fs-3 fw-bold text-end mt-2 mb-0' style='font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive; font-weight: 600;'>Pentadbir Rangkaian</p>
+      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
     </div>
     <?php include_once '../../footermin.php' ?>
   </body>

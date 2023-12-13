@@ -8,10 +8,15 @@
   <body>
     <?php include_once '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center' style='font-family: "Coda", cursive'>Penyelenggaraan Menaik Taraf <i>&#39;Firmware&#39;</i> Rangkaian - 25 Mac 2023</p>
-      <p class='fs-2 text-end lh-1' style='font-family: "Saira Extra Condensed", sans-serif'>Ruj: NtsMARS2023/03<br>Tarikh Notis: 07 Mac 2023 | 1230 MYT</p>
+      <p class='fs-1 text-center'>Penyelenggaraan Menaik Taraf <i>&#39;Firmware&#39;</i> Rangkaian - 25 Mac 2023</p>
+      <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
+        <tbody>
+          <tr><td>Rujukan Notis</td><td>NtsMARS2023/03</td></tr>
+          <tr><td>Tarikh Notis</td><td>07 Mac 2023, 1230 MYT</td></tr>
+        </tbody>
+      </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline' style='font-family: "Nanum Gothic Coding", monospace'>Per: Penyelenggaraan Rangkaian - 25 Mac 2023</p>
+      <p class='fs-2 fw-bold text-decoration-underline'>Per: Penyelenggaraan Rangkaian - 25 Mac 2023</p>
       <p class='mb-2'>Harap maklum bahawa Pasukan Penyelenggaraan Pusat Data akan menjalankan penyelenggaraan rangkaian untuk menaik taraf perisian tegar <i>&lpar;firmware&rpar;</i> peralatan rangkaian di Pusat Data MYI dan MYS.</p>
       <p>Penyelenggaraan ini adalah penting untuk mengelakkan sebarang kelemahan yang mungkin membahayakan dan menjejaskan keselamatan rangkaian.</p>
       <p>Butiran penyelenggaraan adalah seperti berikut:
@@ -29,8 +34,8 @@
       <p>Pelayan tidak akan ditutup semasa tempoh penyelenggaraan kerana ia hanya menjejaskan sambungan pelayan. Dinasihatkan supaya tidak lakukan apa-apa aktiviti semasa tempoh penyelenggaraan kerana ia akan mengakibatkan kerosakan data akibat daripada sambungan yang tidak konsisten.</p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Persefahaman dan kerjasama anda amat kami hargai. Jutaan kemaafan kami pohon dari Pihak Pengurusan Kumpulan RoIPMARS kepada anda semua.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2303'>member@roipmars.org.my</a></p>
-      <p class='fs-1 fw-bold text-end mt-2 mb-0' style='font-family: "caliban-std", sans-serif'>Pentadbir Rangkaian</p>
-      <p class='text-end mt-0 mb-2' style='font-family: "Oxanium", cursive'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
+      <p class='fs-3 fw-bold text-end mt-2 mb-0' style='font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive; font-weight: 600;'>Pentadbir Rangkaian</p>
+      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
     </div>
     <?php include_once '../../footermin.php' ?>
   </body>

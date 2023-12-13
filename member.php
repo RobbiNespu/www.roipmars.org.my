@@ -35,8 +35,8 @@
             <a type='button' class='btn btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
           </div>
           <div class='vstack gap-1 justify-content-center'>
-            <a type='button' class='btn btn-lg btn-primary rounded-5' href='https://bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian &lpar;Google Form&rpar; <i class='bi-google'></i></a>
-            <a type='button' class='btn btn-lg btn-success rounded-5' href='https://dl.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian &lpar;Fail PDF&rpar; <i class='bi-file-pdf-fill'></i></a>
+            <a type='button' class='btn btn-lg btn-primary rounded-3' href='https://bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian &lpar;Google Form&rpar; <i class='bi-google'></i></a>
+            <a type='button' class='btn btn-secondary rounded-3 opacity-50' href='https://dl.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian &lpar;Fail PDF&rpar; <i class='bi-file-earmark-pdf'></i></a>
           </div>
           <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>
             <div class='modal-dialog modal-dialog-centered' role='document'>
@@ -89,7 +89,7 @@
       <div class='row'>
         <div class='col-12 my-2 text-center'>
           <h3 class='h3 text-center'>Jawatankuasa</h3>
-          <p class='fw-bold'>Organisasi Pusat Sesi 2020-2023</p>
+          <p class='fw-bold'>Organisasi Pusat Sesi 2024/2025</p>
           <div class='row justify-content-between'>
             <div class='col-4 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
@@ -97,11 +97,11 @@
                   <p class='lh-1 mb-0'>PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-primary-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-primary-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0'>ZULKIFLI ABU</p>
-                  <p class='fw-semibold m-0'>9W2UZL</p>
+                  <p class='fw-bolder m-0'>KAMARUDZAMAN</p>
+                  <p class='fw-semibold m-0'>9W2OGK</p>
                 </div>
               </div>
             </div>
@@ -111,11 +111,11 @@
                   <p class='lh-1 mb-0'>TIMBALAN PRESIDEN</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/008.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0'>KAMARUDZAMAN</p>
-                  <p class='fw-semibold m-0'>9W2OGK</p>
+                  <p class='fw-bolder m-0'>SABRI IBRAHIM</p>
+                  <p class='fw-semibold m-0'>9W2AYP</p>
                 </div>
               </div>
             </div>
@@ -139,11 +139,11 @@
                   <p class='lh-1 mb-0'>PENOLONG SETIAUSAHA</p>
                 </div>
                 <div class='card-img'>
-                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/020.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
+                  <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/023.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0'>ROZAIMAN SUFFIAN</p>
-                  <p class='fw-semibold m-0'>9M2SFF</p>
+                  <p class='fw-bolder m-0'>SYED IDRUS</p>
+                  <p class='fw-semibold m-0'>9W2DRQ</p>
                 </div>
               </div>
             </div>
@@ -166,60 +166,60 @@
             <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
-                  <p class='lh-1 mb-0'>BAHAGIAN<br>SIARAYA &amp; AKTIVITI<br><sup>&lpar;Pegawai Lantikan Sementara&rpar;</sup></p>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>SIARAYA &amp; AKTIVITI</p>
                 </div>
                 <div class='card-img'>
-                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
-                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
+                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
+                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0'>SABRI IBRAHIM</p>
-                  <p class='fw-semibold m-0'>9W2AYP</p>
+                  <p class='fw-bolder m-0'>NASARUDDIN ARIF</p>
+                  <p class='fw-semibold m-0'>9W2NDI</p>
                 </div>
               </div>
             </div>
             <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
-                  <p class='lh-1 mb-0'>BAHAGIAN<br>TEKNIKAL</p>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>&mdash;</p>
                 </div>
                 <div class='card-img'>
-                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
-                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/016.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
+                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/022.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
+                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/022.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0'>ZAHEER ZAKARIA</p>
-                  <p class='fw-semibold m-0'>9W8ZZK</p>
+                  <p class='fw-bolder m-0'>DAUD JUSOH</p>
+                  <p class='fw-semibold m-0'>9W2DMJ</p>
                 </div>
               </div>
             </div>
             <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
-                  <p class='lh-1 mb-0'>BAHAGIAN<br>KEBAJIKAN</p>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>&mdash;</p>
                 </div>
                 <div class='card-img'>
-                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
-                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
+                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/036.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
+                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/036.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0'>MUSTAFA OMAR</p>
-                  <p class='fw-semibold m-0'>9W6MOZ</p>
+                  <p class='fw-bolder m-0'>ROBBI NESPU</p>
+                  <p class='fw-semibold m-0'>9W2NSP</p>
                 </div>
               </div>
             </div>
             <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
-                  <p class='lh-1 mb-0'>BAHAGIAN<br>EKONOMI</p>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>PERHUBUNGAN AWAM</p>
                 </div>
                 <div class='card-img'>
-                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
-                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
+                  <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
+                  <div class='d-none d-lg-block'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-75'></div>
                 </div>
                 <div class='card-footer'>
-                  <p class='fw-bolder m-0'>FAIZNURNIZAM MAT RASOL</p>
-                  <p class='fw-semibold m-0'>9W2UBE</p>
+                  <p class='fw-bolder m-0'>MAHATHIR ARIFFIN</p>
+                  <p class='fw-semibold m-0'>V85AFF</p>
                 </div>
               </div>
             </div>

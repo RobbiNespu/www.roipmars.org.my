@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'Orbitron';
+	src: url('/assets/font/OrbitronBlack.woff') format('woff');
+	font-weight: 900;
+}
+@font-face {
+	font-family: 'Orbitron';
+	src: url('/assets/font/OrbitronBold.woff') format('woff');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Orbitron';
+	src: url('/assets/font/OrbitronMedium.woff') format('woff');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Orbitron';
+	src: url('/assets/font/OrbitronLight.woff') format('woff');
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'Heatwood';
+	src: url('/assets/font/Heatwood.woff') format('woff');
+	font-weight: 100;
+}
+
+.ft-orbitron-black {
+	font-family: 'Orbitron';
+	font-weight: 900;
+}
+.ft-orbitron-bold {
+	font-family: 'Orbitron';
+	font-weight: bold;
+}
+.ft-orbitron {
+	font-family: 'Orbitron';
+	font-weight: normal;
+}
+.ft-orbitron-light {
+	font-family: 'Orbitron';
+	font-weight: 100;
+}
+.ft-signature {
+	font-family: 'Heatwood';
+	font-weight: normal;
+}

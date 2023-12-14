@@ -21,8 +21,8 @@
       <p>Setelah meneliti berkenaan pengeluaran sijil NCS Mingguan tersebut, kami mengambil keputusan untuk tidak lagi mengeluarkan sijil NCS secara mingguan atas sebab kekangan ruang <i>&lpar;disk space&rpar;</i> di laman sesawang &lpar;<a href='https://dl.roipmars.org.my'>Sijil</a>&rpar; untuk kami simpan dan siarkan kepada umum.</p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2002'>member@roipmars.org.my</a></p>
-      <p class='fs-3 fw-bold text-end mt-2 mb-0' style='font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive; font-weight: 600;'>Pentadbir Rangkaian</p>
-      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
+      <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
+      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>
     <?php include_once '../../footermin.php' ?>
   </body>

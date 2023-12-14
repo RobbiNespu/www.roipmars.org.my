@@ -410,7 +410,7 @@
                       <tr><td>9M2MBT<br>9W2JE<br>9W2NDI<br>9W2TVE<br>9W2OOL<br>9W2ZDP<br>9W2BUN</td><td>AJK Domestik</td></tr>
                       <tr><td>V85ABK<br>HS9QMG</td><td>AJK Antarabangsa</td></tr>
                     </tbody>
-                  </table>Motto yang dibawakan oleh MARD&#39;S adalah &#39;<b>Jika Bukan Kita Siapa Lagi, Jika Bukan Sekarang Bila Lagi</b>&#39;.<br>Pada waktu yang sama, pelayan yang berasaskan Linux yang berada di Singapura mengalami masalah waktu operasi lalu dipindahkan ke Pusat Data di Perancis bagi mengatasi masalah tersebut.</div>
+                  </table>Motto yang dibawakan oleh MARD&apos;S adalah &apos;<b>Jika Bukan Kita Siapa Lagi, Jika Bukan Sekarang Bila Lagi</b>&apos;.<br>Pada waktu yang sama, pelayan yang berasaskan Linux yang berada di Singapura mengalami masalah waktu operasi lalu dipindahkan ke Pusat Data di Perancis bagi mengatasi masalah tersebut.</div>
               </div>
             </li>
             <li>
@@ -468,7 +468,7 @@
                   <span class='flag'>Akademi 9M</span>
                   <span class='time-wrapper'><span class='time'>Akhir 2018</span></span>
                 </div>
-                <div class='desc'><b>Idea Asal Akademi 9M &lpar;Akademi NineMike&rpar;</b> bermula dari kelas pembuatan antaramuka ROIP oleh 9W2UZL. Lalu dijenamakan ke &#39;<i>Discussion Class A</i>&#39;, &#39;<i>Pembelajaran Kelas A</i>&#39;, dan akhirnya beralih ke <b>&#39;<i>AKADEMI 9M</i>&#39;</b> sejak akhir 2018 yang diterajui oleh 9M2RAN &amp; 9M2VBC.<img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/akademi9m.jpg'>Konsep asal yang dibawakan akademi ini adalah bagi membantu dan memberi khidmat latihan kepada pengendali radio amatur supaya lulus peperiksaan naik taraf kelas &lpar;OCW&rpar;.</div>
+                <div class='desc'><b>Idea Asal Akademi 9M &lpar;Akademi NineMike&rpar;</b> bermula dari kelas pembuatan antaramuka ROIP oleh 9W2UZL. Lalu dijenamakan ke &apos;<i>Discussion Class A</i>&apos;, &apos;<i>Pembelajaran Kelas A</i>&apos;, dan akhirnya beralih ke <b>&apos;<i>AKADEMI 9M</i>&apos;</b> sejak akhir 2018 yang diterajui oleh 9M2RAN &amp; 9M2VBC.<img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/akademi9m.jpg'>Konsep asal yang dibawakan akademi ini adalah bagi membantu dan memberi khidmat latihan kepada pengendali radio amatur supaya lulus peperiksaan naik taraf kelas &lpar;OCW&rpar;.</div>
               </div>
             </li>
             <li>
@@ -498,7 +498,7 @@
                   <span class='flag'>Naik Taraf Pelayan</span>
                   <span class='time-wrapper'><span class='time'>September 2019</span></span>
                 </div>
-                <div class='desc'>Berlaku pertukaran dan naik taraf sistem pelayan &#39;<i>Linux</i>&#39; ke &#39;<i>Windows Server</i>&#39; dengan spesifikasi yang lebih tinggi bagi menampung segala servis yang ditawarkan untuk pengguna komuniti. Antara aplikasi yang dihoskan adalah &#39;<i>TeamSpeak3</i>&#39;, &#39;<i>eQSO</i>&#39;, &#39;<i>Free Radio Network</i>&#39;, dan &#39;<i>Mumble</i>&#39;. Pada masa sama, penggunaan laman sesawang bagi mendapatkan maklumat terkini mula diterapkan.</div>
+                <div class='desc'>Berlaku pertukaran dan naik taraf sistem pelayan &apos;<i>Linux</i>&apos; ke &apos;<i>Windows Server</i>&apos; dengan spesifikasi yang lebih tinggi bagi menampung segala servis yang ditawarkan untuk pengguna komuniti. Antara aplikasi yang dihoskan adalah &apos;<i>TeamSpeak3</i>&apos;, &apos;<i>eQSO</i>&apos;, &apos;<i>Free Radio Network</i>&apos;, dan &apos;<i>Mumble</i>&apos;. Pada masa sama, penggunaan laman sesawang bagi mendapatkan maklumat terkini mula diterapkan.</div>
               </div>
             </li>
             <li>
@@ -508,7 +508,7 @@
                   <span class='flag'>Perintah Kawalan Pergerakan</span>
                   <span class='time-wrapper'><span class='time'>April 2020</span></span>
                 </div>
-                <div class='desc'>Berkuat kuasa pada 18 Mac 2020, Malaysia secara rasmi melaksanakan langkah kawalan pergerakan. Kami juga turut terkesan dari PKP ini disebabkan ramai pengguna mula mencari kaedah komunikasi dengan pantas. Kami memperkenalkan perkhidmatan penstriman baharu bernama &#39;<i>TS-Video Conference</i>&#39; yang membolehkan persidangan video semasa komunikasi di pelayan kami.<div class='ratio ratio-16x9 my-2'><embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/iWNZUnVvm-o' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed></div>Beban pada pelayan mulai meningkat apabila ramai mula berkerja dari rumah. Pentadbir pelayan kekal komited untuk memberikan servis dan perkhidmatan terbaik kepada semua pengguna pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='/howto#pcwincc' target='_blank' rel='noopener'>Baca lanjut...</a></div>
+                <div class='desc'>Berkuat kuasa pada 18 Mac 2020, Malaysia secara rasmi melaksanakan langkah kawalan pergerakan. Kami juga turut terkesan dari PKP ini disebabkan ramai pengguna mula mencari kaedah komunikasi dengan pantas. Kami memperkenalkan perkhidmatan penstriman baharu bernama &apos;<i>TS-Video Conference</i>&apos; yang membolehkan persidangan video semasa komunikasi di pelayan kami.<div class='ratio ratio-16x9 my-2'><embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/iWNZUnVvm-o' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed></div>Beban pada pelayan mulai meningkat apabila ramai mula berkerja dari rumah. Pentadbir pelayan kekal komited untuk memberikan servis dan perkhidmatan terbaik kepada semua pengguna pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='/howto#pcwincc' target='_blank' rel='noopener'>Baca lanjut...</a></div>
               </div>
             </li>
             <li>
@@ -554,7 +554,7 @@
                   <span class='flag'>CQ 9M64MB</span>
                   <span class='time-wrapper'><span class='time'>20 Ogos 2021</span></span>
                 </div>
-                <div class='desc'><i>Persatuan Peminat Radio Komunikasi</i> diberi kepercayaan oleh <i>Malaysian Amateur Radio Transmitter&#39;s Society</i> &lpar;MARTS&rpar; untuk mengendalikan Isyarat Panggilan Khas Negeri Selangor bersempena dengan Hari Kebangsaan kali ke-64 <i>&lpar;9M64MB&rpar;</i> bagi menyemarakkan lagi semangat patriotik antara penggiat komunikasi radio seluruh Malaysia. Aktiviti dijalankan selama 6 hari berturut-turut dari 27 Ogos 2021 hingga 1 September 2021 di <i>&#39;All Band All Mode&#39;</i>.<img class='img-thumbnail rounded-circle mx-auto d-block my-2' loading='lazy' src='https://cdn-bio.qrz.com/b/9m64mb/9M64MB.jpg'><a class='btn btn-sm btn-outline-primary' role='button' href='https://www.qrz.com/db/9m64mb' target='_blank' rel='nofollow'>QRZ</a> <a class='btn btn-sm btn-outline-primary' role='button' href='https://dxnews.com/forum/forum/special-event-stations/37809-9m64mb-puncak-alam-selangor-malaysia' target='_blank' rel='nofollow'>DX News</a> <a class='btn btn-sm btn-outline-primary' role='button' href='http://www.9mdxc.com/2021/08/9m64mx-station' target='_blank' rel='nofollow'>9MDXC</a></div>
+                <div class='desc'><i>Persatuan Peminat Radio Komunikasi</i> diberi kepercayaan oleh <i>Malaysian Amateur Radio Transmitter&apos;s Society</i> &lpar;MARTS&rpar; untuk mengendalikan Isyarat Panggilan Khas Negeri Selangor bersempena dengan Hari Kebangsaan kali ke-64 <i>&lpar;9M64MB&rpar;</i> bagi menyemarakkan lagi semangat patriotik antara penggiat komunikasi radio seluruh Malaysia. Aktiviti dijalankan selama 6 hari berturut-turut dari 27 Ogos 2021 hingga 1 September 2021 di <i>&apos;All Band All Mode&apos;</i>.<img class='img-thumbnail rounded-circle mx-auto d-block my-2' loading='lazy' src='https://cdn-bio.qrz.com/b/9m64mb/9M64MB.jpg'><a class='btn btn-sm btn-outline-primary' role='button' href='https://www.qrz.com/db/9m64mb' target='_blank' rel='nofollow'>QRZ</a> <a class='btn btn-sm btn-outline-primary' role='button' href='https://dxnews.com/forum/forum/special-event-stations/37809-9m64mb-puncak-alam-selangor-malaysia' target='_blank' rel='nofollow'>DX News</a> <a class='btn btn-sm btn-outline-primary' role='button' href='http://www.9mdxc.com/2021/08/9m64mx-station' target='_blank' rel='nofollow'>9MDXC</a></div>
               </div>
             </li>
             <li>
@@ -574,7 +574,7 @@
                   <span class='flag'>CQ 9M65MB</span>
                   <span class='time-wrapper'><span class='time'>30 Ogos 2022</span></span>
                 </div>
-                <div class='desc'>Jemputan dari Komuniti Radio Amatur Sungai Buloh dengan kerjasama Jabatan Penerangan Malaysia yang diwakilkan oleh komuniti RoIPDarulAman untuk mengadakan pameran <i>&#39;Radio over Internet Protocol&#39;</i> &lpar;RoIP&rpar; semasa Sambutan Malam Hari Kebangsaan kali ke-65 yang berlansung di Paya Jaras, Sungai Buloh.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/krasb22.jpg'></div>
+                <div class='desc'>Jemputan dari Komuniti Radio Amatur Sungai Buloh dengan kerjasama Jabatan Penerangan Malaysia yang diwakilkan oleh komuniti RoIPDarulAman untuk mengadakan pameran <i>&apos;Radio over Internet Protocol&apos;</i> &lpar;RoIP&rpar; semasa Sambutan Malam Hari Kebangsaan kali ke-65 yang berlansung di Paya Jaras, Sungai Buloh.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/krasb22.jpg'></div>
               </div>
             </li>
             <li>
@@ -584,7 +584,7 @@
                   <span class='flag'>Perolehan Aset Pelayan</span>
                   <span class='time-wrapper'><span class='time'>01 September 2022</span></span>
                 </div>
-                <div class='desc'>Bermula daripada 27 Julai 2022 pihak Jawatankuasa dibawah kelolaan Biro Pengurusan Pelayan berjaya memperoleh pelayan berasaskan &#39;Windows Server&#39; yang disewa atas nama pertubuhan di Pusat Data Cyberjaya dan mula membuat peralihan maklumat dari pelayan sebelum ini &lbrack;<i>roipmars.com</i>&rbrack; &lpar;milik peribadi&rpar; ke pelayan semasa &lbrack;<i>roipmars.org.my</i>&rbrack; &lpar;milik persatuan&rpar;. Setelah kerja-kerja peralihan dan percubaan serta ujian penggunaan &amp; beban tinggi yang dijalankan, tepat pada jam 6 pagi 01 September 2022 &lbrack;<b><i>roipmars.org.my</i></b>&rbrack; bersedia memberikan perkhidmatannya kepada semua Penggiat &amp; Peminat Radio Komunikasi dari seluruh dunia pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='/nts/2022/01' target='_blank' rel='noopener'>Baca lanjut...</a></div>
+                <div class='desc'>Bermula daripada 27 Julai 2022 pihak Jawatankuasa dibawah kelolaan Biro Pengurusan Pelayan berjaya memperoleh pelayan berasaskan &apos;Windows Server&apos; yang disewa atas nama pertubuhan di Pusat Data Cyberjaya dan mula membuat peralihan maklumat dari pelayan sebelum ini &lbrack;<i>roipmars.com</i>&rbrack; &lpar;milik peribadi&rpar; ke pelayan semasa &lbrack;<i>roipmars.org.my</i>&rbrack; &lpar;milik persatuan&rpar;. Setelah kerja-kerja peralihan dan percubaan serta ujian penggunaan &amp; beban tinggi yang dijalankan, tepat pada jam 6 pagi 01 September 2022 &lbrack;<b><i>roipmars.org.my</i></b>&rbrack; bersedia memberikan perkhidmatannya kepada semua Penggiat &amp; Peminat Radio Komunikasi dari seluruh dunia pada bila-bila masa dimana sahaja.<br><a class='btn btn-sm btn-outline-primary mt-2' role='button' href='/nts/2022/01' target='_blank' rel='noopener'>Baca lanjut...</a></div>
               </div>
             </li>
             <li>
@@ -615,7 +615,7 @@
                   <span class='flag'>Perjumpaan Santai PPRK</span>
                   <span class='time-wrapper'><span class='time'>18 Februari 2023</span></span>
                 </div>
-                <div class='desc'>Buat pertama kali secara rasmi, <i>Persatuan Peminat Radio Komunikasi</i> menganjurkan <b>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</b> yang berlansung di Kalumpang Resort &amp; Training Centre, Hulu Selangor.<br>Antara pengisian acara adalah Pameran <i>&#39;Radio Over Internet Protocol&#39;</i> &lpar;RoIP&rpar;, BBQ, Karaoke, dan Cabutan Bertuah disamping dapat mengenal dengan lebih dekat dan mengeratkan lagi silaturrahim antara Penggiat dan Peminat Radio Komunikasi.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/050.jpg'></div>
+                <div class='desc'>Buat pertama kali secara rasmi, <i>Persatuan Peminat Radio Komunikasi</i> menganjurkan <b>Perjumpaan Santai Penggiat dan Peminat Radio Komunikasi</b> yang berlansung di Kalumpang Resort &amp; Training Centre, Hulu Selangor.<br>Antara pengisian acara adalah Pameran <i>&apos;Radio Over Internet Protocol&apos;</i> &lpar;RoIP&rpar;, BBQ, Karaoke, dan Cabutan Bertuah disamping dapat mengenal dengan lebih dekat dan mengeratkan lagi silaturrahim antara Penggiat dan Peminat Radio Komunikasi.<img class='img-thumbnail rounded-5 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/050.jpg'></div>
               </div>
             </li>
             <li>
@@ -625,7 +625,7 @@
                   <span class='flag'>Malaysia Peak To Peak &lbrack;My-PTP&rbrack;</span>
                   <span class='time-wrapper'><span class='time'>18 Mac 2023</span></span>
                 </div>
-                <div class='desc'>RoIPMARS&#8480; diwakilkan oleh ahli &lpar;9W8ZZK&rpar; dalam acara &#39;<i>Malaysia Peak To Peak</i>&#39; dengan kerjasama Malaysia Amateur Radio Transmitter&#39; Society &lpar;MARTS&rpar; yang dijalankan bersama Pasukan SOTA Sarawak di Bukit Selang, Telaga Air, Kuching, Sarawak.<img class='img-thumbnail rounded-4 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/myptp23-9m8sota.jpg'></div>
+                <div class='desc'>RoIPMARS&#8480; diwakilkan oleh ahli &lpar;9W8ZZK&rpar; dalam acara &apos;<i>Malaysia Peak To Peak</i>&apos; dengan kerjasama Malaysia Amateur Radio Transmitter&apos; Society &lpar;MARTS&rpar; yang dijalankan bersama Pasukan SOTA Sarawak di Bukit Selang, Telaga Air, Kuching, Sarawak.<img class='img-thumbnail rounded-4 mx-auto d-block mt-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/myptp23-9m8sota.jpg'></div>
               </div>
             </li>
             <li>
@@ -635,7 +635,7 @@
                   <span class='flag'>Ahli Gabungan MARTS</span>
                   <span class='time-wrapper'><span class='time'>24 Mei 2023</span></span>
                 </div>
-                <div class='desc'>RoIPMARS&#8480; dengan nama Persatuan Peminat Radio Komunikasi &lpar;ROIP&rpar; secara sah menjadi Ahli Gabungan Malaysia Amateur Radio Transmitter&#39; Society &lpar;MARTS&rpar;.</div>
+                <div class='desc'>RoIPMARS&#8480; dengan nama Persatuan Peminat Radio Komunikasi &lpar;ROIP&rpar; secara sah menjadi Ahli Gabungan Malaysia Amateur Radio Transmitter&apos; Society &lpar;MARTS&rpar;.</div>
               </div>
             </li>
             <li>

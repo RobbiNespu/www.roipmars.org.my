@@ -32,8 +32,8 @@
       <p>p/s: <i>domain</i> dan pelayan roipmars.com adalah milik sepenuhya syarikat swasta &lpar;bukan pemilikan pertubuhan&rpar;.</p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Persefahaman dan kerjasama anda amat kami hargai. Jutaan kemaafan kami pohon dari Pihak Pengurusan Kumpulan RoIPMARS kepada anda semua.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2306'>member@roipmars.org.my</a></p>
-      <p class='fs-3 fw-bold text-end mt-2 mb-0' style='font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive; font-weight: 600;'>Pentadbir Rangkaian</p>
-      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
+      <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
+      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>
     <?php include_once '../../footermin.php' ?>
   </body>

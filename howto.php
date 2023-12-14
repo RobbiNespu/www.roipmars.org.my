@@ -228,7 +228,7 @@
         <div class='col-lg-5 position-static p-3'>
           <h5 class='mt-0 text-center'>Pasang &amp; Konfigurasikan Teamspeak dalam Android</h5>
           <p class='text-center'>Tutorial video ini menunjukkan cara memasang dan mengkonfigurasi Teamspeak pada telefon pintar Android anda.</p>
-          <h6 class='text-center text-uppercase'>Sila buat pembelian aplikasi &#39;<em>TeamSpeak3</em>&#39; di Google Play berharga <strong>RM4.49</strong> terlebih dahulu</h6>
+          <h6 class='text-center text-uppercase'>Sila buat pembelian aplikasi &apos;<em>TeamSpeak3</em>&apos; di Google Play berharga <strong>RM4.49</strong> terlebih dahulu</h6>
           <table class='table table-sm text-center align-middle'>
             <tbody>
               <tr>
@@ -435,7 +435,7 @@
         <div class='col-lg-5 position-static p-3'>
           <h5 class='mt-0 text-center'>Pasang &amp; Konfigurasikan Teamspeak dalam iOS</h5>
           <p class='text-center'>Tutorial video ini menunjukkan cara memasang dan mengkonfigurasi Teamspeak pada telefon pintar iPhone/iPad/iPod Touch anda.</p>
-          <h6 class='text-center text-uppercase'>Sila buat pembelian aplikasi &#39;<em>TeamSpeak3</em>&#39; di App Store berharga <strong>RM4.90</strong> terlebih dahulu</h6>
+          <h6 class='text-center text-uppercase'>Sila buat pembelian aplikasi &apos;<em>TeamSpeak3</em>&apos; di App Store berharga <strong>RM4.90</strong> terlebih dahulu</h6>
           <table class='table table-sm text-center align-middle'>
             <tbody>
               <tr>

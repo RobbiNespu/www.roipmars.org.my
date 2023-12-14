@@ -17,35 +17,35 @@
     <div class='container'>
       <div class='row'>
         <div class='col-12'>
-          <h2 class='h2 text-center'>Pengurusan Kumpulan Rangkaian RoIPMARS</h2>
+          <h2 class='h2 text-center'>Pengurusan Rangkaian Kumpulan RoIPMARS</h2>
         </div>
-        <div class='col-lg-6 my-2'>
+        <div class='col-12 my-2'>
           <div class='row g-1 text-start'>
-            <div class='col-2 align-self-center'>
+            <div class='col-3 col-lg-2 align-self-center'>
               <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2UZL'>
             </div>
-            <div class='col-10 d-flex align-content-center flex-wrap'>
+            <div class='col-9 col-lg-10 d-flex align-content-center flex-wrap'>
               <div class='card-body mx-3'>
-                <p class='card-title fs-2 fw-bold'><a href='mailto:zulkifli.abu@roipmars.org.my'><i class='bi-info-circle-fill'></i></a> ZULKIFLI ABU</p>
-                <p class='card-subtitle fs-5 fw-semibold'>FOUNDER, LEAD ADMINISTRATOR &amp; CHIEF RESEARCHER</p>
+                <p class='card-title fs-2 fw-bold'>ZULKIFLI ABU</p>
+                <p class='card-subtitle fs-5 fw-semibold'>FOUNDER, LEAD ADMIN &amp; CHIEF RESEARCHER</p>
                 <p class='card-subtitle fs-5 fw-bolder'>PENGASAS, KETUA PENTADBIR &amp; PENYELIDIK</p>
-                <p class='card-subtitle fw-light'>&lbrack;2018&rbrack; Dilantik oleh MART&acute;S sebagai penyelidik &#39;SIG&#39; &lpar;Special Interest Group&rpar; pengkhususan &#39;ROIP&#39; &lpar;Radio over Internet Protocol&rpar; &amp; &#39;VoIP&#39; &lpar;Voice over Internet Protocol&rpar;</p>
+                <p class='card-subtitle fw-light'>&lbrack;2018&rbrack; Dilantik oleh MART&acute;S sebagai penyelidik &apos;SIG&apos; &lpar;Special Interest Group&rpar; pengkhususan &apos;ROIP&apos; &lpar;Radio over Internet Protocol&rpar; &amp; &apos;VoIP&apos; &lpar;Voice over Internet Protocol&rpar;</p>
               </div>
             </div>
           </div>
         </div>
-        <div class='col-lg-6 my-2'>
+        <div class='col-12 my-2'>
           <div class='row g-1 text-end'>
-            <div class='col-10 d-flex align-content-center flex-wrap'>
+            <div class='col-9 col-lg-10 d-flex align-content-center flex-wrap'>
               <div class='card-body mx-3'>
-                <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN <a href='https://mhrtech.my/cv'><i class='bi-info-circle-fill'></i></a></p>
-                <p class='card-subtitle fs-5 fw-semibold'>SOFTWARE DEVELOPER &amp; NETWORK ADMINISTRATOR</p>
-                <p class='card-subtitle fs-5 fw-bolder'>PEMBANGUN PERISIAN &amp; PENTADBIR RANGKAIAN</p>
-                <p class='card-subtitle fw-light'>&lbrack;2019&rbrack; Dilantik oleh RoIPMARS&#8480; sebagai pembangun perisian</p>
+                <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN <a href='https://www.mhrtech.my/cv'><i class='bi-info-circle-fill'></i></a></p>
+                <p class='card-subtitle fs-5 fw-semibold'>CO-FOUNDER, NETWORK DEV &amp; ADMIN</p>
+                <p class='card-subtitle fs-5 fw-bolder'>PENGASAS BERSAMA, PEMBANGUN &amp; PENTADBIR RANGKAIAN</p>
+                <p class='card-subtitle fw-light'>&lbrack;2019&rbrack; Dilantik oleh RoIPMARS&#8480; sebagai penyelenggara &amp; pengelola rangkaian</p>
                 <p class='card-subtitle fw-light'>&lbrack;2021&rbrack; Memulakan sambungan Rangkaian RoIPMARS&#8480; ke seluruh dunia</p>
               </div>
             </div>
-            <div class='col-2 align-self-center'>
+            <div class='col-3 col-lg-2 align-self-center'>
               <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2LGX'>
             </div>
           </div>

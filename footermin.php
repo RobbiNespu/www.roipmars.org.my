@@ -5,6 +5,7 @@
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1/font/bootstrap-icons.min.css' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
+    <link rel='stylesheet' href='/assets/css/cfonts.css'>
     <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
     <script async src='https://www.googletagmanager.com/gtag/js?id=G-DJYTZHZXFN'></script>
     <script>
@@ -107,7 +108,7 @@
             ?></span></p>
           </div>
           <div class='col-md-12 my-0'>
-            <p class='text-center font-monospace text-body-tertiary lh-1'><i class='bi-c-circle'></i>2014&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. RoIPMARS&#8480; &#124; PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;RoIP&rpar; PPM-006-10-01062020</p>
+            <p class='text-center font-monospace text-body-tertiary lh-1'>&copy;2014&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. RoIPMARS&#8480; &#124; PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;RoIP&rpar; PPM-006-10-01062020</p>
           </div>
         </div>
       </div>

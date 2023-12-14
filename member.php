@@ -166,7 +166,7 @@
             <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
-                  <p class='lh-1 mb-0'>BAHAGIAN<br>SIARAYA &amp; AKTIVITI</p>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>SIARAYA</p>
                 </div>
                 <div class='card-img'>
                   <div class='d-lg-none'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>

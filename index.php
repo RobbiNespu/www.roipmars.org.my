@@ -43,7 +43,7 @@
           <div class='alert alert-info shadow p-3 bg-body-secondary rounded-5'>
             <h4 class='fs-1 text-info-emphasis alert-heading text-center fw-bolder'>SEBARAN AWAM</h4>
             <p class='fs-4 mx-2 text-break text-center'>Kepada Inividu / Komuniti / Kelab, samada AMATUR mahupun KOMERSIAL yang berminat untuk meluaskan hubungan komunikasi dua hala, anda dialu-alukan untuk mendirikan perantara bersama kami di RoIPMARS.<br>Kami juga menyediakan khidmat nasihat untuk SYARIKAT yang berminat untuk mendirikan jaringan komunikasi.<br>Pasukan teknikal kami sedia membantu. Hubungi kami melalui emel ke <a class='text-info-emphasis text-decoration-none' href='mailto:member@roipmars.org.my?subject=Email%20Sent%20from%20Website'>member@roipmars.org.my</a> untuk mendapatkan maklumat lanjut.</p>
-            <p class='fs-6 lh-1 font-monospace text-sm-end'>&#39;JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI&#39;<br>Tulus Ikhlas,<br>Bahagian Pengurusan Kumpulan Rangkaian RoIPMARS</p>
+            <p class='fs-6 lh-1 font-monospace text-sm-end'>&apos;JIKA BUKAN KITA SIAPA LAGI, JIKA BUKAN SEKARANG BILA LAGI&apos;<br>Tulus Ikhlas,<br>Bahagian Pengurusan Rangkaian Kumpulan RoIPMARS</p>
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@
         <div class='col-lg-4 my-1'>
           <div class='btn-group-vertical d-flex rounded-3' role='group'>
             <div class='btn btn-secondary disabled text-center bg-dark-subtle'>Kerjasama Kelab &amp; Persatuan Luar</div>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://marts.org.my' target='_blank' rel='nofollow'>Malaysia Amateur Radio Transmitters&#39; Society &lpar;MARTS&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://marts.org.my' target='_blank' rel='nofollow'>Malaysia Amateur Radio Transmitters&apos; Society &lpar;MARTS&rpar;</a>
             <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://mares.org.my' target='_blank' rel='nofollow'>Malaysian Amateur Radio Emergency Service Society &lpar;MARES&rpar;</a>
             <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.jasra.org.my' target='_blank' rel='nofollow'>Persatuan Jalur Selatan Radio Amatur Johor &lpar;JASRA&rpar;</a>
             <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.astra.name.my' target='_blank' rel='nofollow'>Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &lpar;ASTRA&rpar;</a>

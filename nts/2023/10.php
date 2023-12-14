@@ -26,8 +26,8 @@
       <p>Perubahan diatas berkuatkuasa <strong>mulai Disember 2023</strong>. Pihak pengurusan juga merancang untuk mengisi kekosongan yang ada dengan mendapatkan kerjasama dan kesinambungan dari pihak ketiga. Sebarang perubahan dalam waktu terdekat akan dikaitkan dengan rujukan diatas.</p>
       <p>Diharap dengan perubahan ini, dapat kita bersatu dalam kerjasama erat demi menaikkan lagi semangat komunikasi dikalangan penggiat radio dua hala.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2310'>member@roipmars.org.my</a></p>
-      <p class='fs-3 fw-bold text-end mt-2 mb-0' style='font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive; font-weight: 600;'>Pentadbir Rangkaian</p>
-      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
+      <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
+      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
 
     </div>
     <?php include_once '../../footermin.php' ?>

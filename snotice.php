@@ -60,7 +60,7 @@
             </tr>
             <tr>
               <td>20 Apr 2023</td>
-              <td>Penyelenggaraan Kemas Kini <i>&#39;Firmware&#39;</i> Pelayan - 12 Mei 2023</td>
+              <td>Penyelenggaraan Kemas Kini <i>&apos;Firmware&apos;</i> Pelayan - 12 Mei 2023</td>
               <td><a type='button' class='btn btn-outline-secondary d-grid' href='nts/2023/04' target='_blank' rel='noopener'>NtsMARS 2023/04</a></td>
             </tr>
             <tr>

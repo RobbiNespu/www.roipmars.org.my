@@ -251,7 +251,7 @@
                         <tr><td>connection error</td><td>i. kesilapan alamat/ip pelayan<br>ii. pelayan tidak beroperasi</td></tr>
                       </tbody>
                     </table>
-                    <p class='m-0'>Sekiranya anda tidak berjaya log masuk ke pelayan Rangkaian RoIPMARS &lbrack;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&rbrack;, berkemungkinan perisian yang anda gunakan tidak menyokong fungsi &#39;DNS&#39;. Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'>App Store</a>.</p>
+                    <p class='m-0'>Sekiranya anda tidak berjaya log masuk ke pelayan Rangkaian RoIPMARS &lbrack;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&rbrack;, berkemungkinan perisian yang anda gunakan tidak menyokong fungsi &apos;DNS&apos;. Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'>App Store</a>.</p>
                     <p class='m-0'>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' download>roipmars-teamspeak-3.0.3.1.apk</a></p>
                     <p class='m-0'>Pihak Pentadbir Rangkaian RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
                   </div>
@@ -259,7 +259,7 @@
               </div>
               <div class='accordion-item border-primary-subtle bg-primary-subtle'>
                 <div class='accordion-header' id='rms4'>
-                  <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' data-bs-target='#collapserms4' aria-expanded='false' aria-controls='collapserms4'><i class='bi-4-circle-fill text-primary-emphasis fs-4 pe-3'></i>Mengapa saya gagal memasang &#39;apk&#39; TeamSpeak3 yang diberikan rakan pada peranti iOS saya?</button>
+                  <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' data-bs-target='#collapserms4' aria-expanded='false' aria-controls='collapserms4'><i class='bi-4-circle-fill text-primary-emphasis fs-4 pe-3'></i>Mengapa saya gagal memasang &apos;apk&apos; TeamSpeak3 yang diberikan rakan pada peranti iOS saya?</button>
                 </div>
                 <div id='collapserms4' class='accordion-collapse collapse' aria-labelledby='rms4' data-bs-parent='#rmsfaq'>
                   <div class='accordion-body'>

@@ -253,7 +253,7 @@
               <tr><td>10-43</td><td>Kesesakan Jalan Raya di ...</td></tr>
               <tr><td>10-44</td><td>Ada Pesanan Untuk Anda</td></tr>
               <tr><td>10-45</td><td>Yang Berhampiran Sila Lapor</td></tr>
-              <tr><td>10-50</td><td>&#39;Break!&#39; Sila Kosongkan Saluran</td></tr>
+              <tr><td>10-50</td><td>&apos;Break!&apos; Sila Kosongkan Saluran</td></tr>
               <tr><td>10-51</td><td>Salam Hormat</td></tr>
               <tr><td>10-55</td><td>Apa Khabar</td></tr>
               <tr><td>10-60</td><td>Ada Informasi Lanjut</td></tr>

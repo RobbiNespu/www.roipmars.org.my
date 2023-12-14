@@ -41,8 +41,8 @@
       </table>
       <p>Diharap pihak pemunya berdaftar dapat menyemak semula isyarat panggilan anda di: <a href='/cbmars'>SINI</a>.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2101'>member@roipmars.org.my</a></p>
-      <p class='fs-3 fw-bold text-end mt-2 mb-0' style='font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive; font-weight: 600;'>Pentadbir Rangkaian</p>
-      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Kumpulan Rangkaian RoIPMARS</p>
+      <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
+      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>
     <?php include_once '../../footermin.php' ?>
   </body>

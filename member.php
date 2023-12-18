@@ -254,16 +254,16 @@
               <tr><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>2025-12-31</td></tr>
               <tr><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>2024-12-31</td></tr>
               <tr><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>2025-12-31</td></tr>
-              <tr class='opacity-75'><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>2022-12-31</td></tr>
+              <tr><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>2023-12-31</td></tr>
               <tr class='opacity-75'><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>2022-12-31</td></tr>
               <tr><td>A012</td><td>9W2RNH</td><td>ROSNAH BINTI ABD RAPAR</td><td>2025-12-31</td></tr>
               <!-- <tr class='opacity-25'><td>A013</td><td>9W8VWW</td><td>VERONICA CATHERINE ANAK NOHAN</td><td>2021-07-02</td></tr> -->
               <!-- <tr class='opacity-25'><td>A014</td><td>9W8DNX</td><td>STANLEY SUMPING ANAK ALBERT BEJIE</td><td>2021-07-02</td></tr> -->
               <!-- <tr class='opacity-25'><td>A015</td><td>9M2NUZ</td><td>SITI NUSILAH BINTI HASAN</td><td>2021-07-02</td></tr> -->
               <tr class='opacity-75'><td>A016</td><td>9W8ZZK</td><td>MOHAMAD ZAHEER BIN ZAKARIA</td><td>2022-12-31</td></tr>
-              <tr class='opacity-75'><td>A017</td><td>9M6RDY</td><td>MATTHEUS @ RUDY BIN BENEDICT</td><td>2022-12-31</td></tr>
+              <tr><td>A017</td><td>9M6RDY</td><td>MATTHEUS @ RUDY BIN BENEDICT</td><td>2024-12-31</td></tr>
               <!-- <tr class='opacity-25'><td>A018</td><td>9W6GEO</td><td>GEOFFREY BIN COSMAS</td><td>2021-07-02</td></tr> -->
-              <!-- <tr class='opacity-25'><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>2021-07-02</td></tr> -->
+              <tr><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>2024-12-31</td></tr>
               <!-- <tr class='opacity-75'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>2022-12-31</td></tr> -->
               <!-- <tr class='opacity-25'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>2021-07-02</td></tr> -->
               <tr><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2024-06-30</td></tr>

@@ -227,62 +227,20 @@
         </div>
       </div>
       <div class='row'>
-        <div class='col-lg-5 my-1 text-center'>
+        <div class='col-12 my-1 text-center'>
           <h4 class='h4'>Peta RoIPMARS</h4>
-          <div class='ratio ratio-4x3 my-3'>
+          <div class='ratio ratio-21x9 my-3'>
             <embed loading='lazy' class='rounded-3' src='/list/membersmap'></embed>
           </div>
         </div>
-        <div class='col-lg-7 my-3 text-center'>
+        <div class='col-12 my-3 text-center'>
           <h4 class='h4'>Ahli RoIPMARS</h4>
           <p><span class='membercount badge rounded-3 text-bg-success'></span><?php
             $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-            $file_last_modified = filemtime(__FILE__);
+            $file_last_modified = filemtime(__DIR__ . '/assets/json/member.json');
             echo ' yang disahkan setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>
-          <table class='table table-sm table-striped align-middle' id='memberlist'>
-            <thead>
-              <tr><th class='dt-head-center'>NO. AHLI</th><th class='dt-head-center'>CALLSIGN</th><th class='dt-head-center'>NAMA AHLI</th><th class='dt-head-center'>SAH SEHINGGA</th></tr>
-            </thead>
-            <tbody class='user-select-none'>
-              <tr><td>A001</td><td>9W2LGX</td><td>MOHAMAD HAFIZI BIN RUSLAN</td><td>2023-12-31</td></tr>
-              <!-- <tr><td>A002</td><td>9W2UZL</td><td>ZULKIFLI BIN ABU</td><td>2025-12-31</td></tr> -->
-              <tr><td>A003</td><td>9M2RAN</td><td>NOR IMRAN BIN AZIZ</td><td>2023-12-31</td></tr>
-              <tr><td>A004</td><td>9W2UBE</td><td>FAISNURNIZAM BIN MAT RASOL</td><td>2024-12-31</td></tr>
-              <tr><td>B005</td><td>V85ABK</td><td>PG. SULIMAN BIN PG. HJ. SHAMSUDDIN</td><td>2024-12-31</td></tr>
-              <tr><td>A006</td><td>9W6MOZ</td><td>MUSTAFA BIN OMAR</td><td>2024-12-31</td></tr>
-              <tr><td>A007</td><td>9W2ELM</td><td>MOHD SULAIMAN BIN MAZLAN</td><td>2025-12-31</td></tr>
-              <tr><td>A008</td><td>9W2OGK</td><td>KAMARUDZAMAN BIN ABDUL RAHIM</td><td>2024-12-31</td></tr>
-              <tr><td>A009</td><td>9W2YQN</td><td>AHMAD NURILYAQIN BIN AHMAD TAJUDDIN</td><td>2025-12-31</td></tr>
-              <tr><td>A010</td><td>9W6AUA</td><td>JEOFREY BIN AVITUS @ VITUS</td><td>2023-12-31</td></tr>
-              <tr class='opacity-75'><td>A011</td><td>9W2NDI</td><td>NASARUDDIN BIN ARIF</td><td>2022-12-31</td></tr>
-              <tr><td>A012</td><td>9W2RNH</td><td>ROSNAH BINTI ABD RAPAR</td><td>2025-12-31</td></tr>
-              <!-- <tr class='opacity-25'><td>A013</td><td>9W8VWW</td><td>VERONICA CATHERINE ANAK NOHAN</td><td>2021-07-02</td></tr> -->
-              <!-- <tr class='opacity-25'><td>A014</td><td>9W8DNX</td><td>STANLEY SUMPING ANAK ALBERT BEJIE</td><td>2021-07-02</td></tr> -->
-              <!-- <tr class='opacity-25'><td>A015</td><td>9M2NUZ</td><td>SITI NUSILAH BINTI HASAN</td><td>2021-07-02</td></tr> -->
-              <tr class='opacity-75'><td>A016</td><td>9W8ZZK</td><td>MOHAMAD ZAHEER BIN ZAKARIA</td><td>2022-12-31</td></tr>
-              <tr><td>A017</td><td>9M6RDY</td><td>MATTHEUS @ RUDY BIN BENEDICT</td><td>2024-12-31</td></tr>
-              <!-- <tr class='opacity-25'><td>A018</td><td>9W6GEO</td><td>GEOFFREY BIN COSMAS</td><td>2021-07-02</td></tr> -->
-              <tr><td>B019</td><td>V85MUH</td><td>ROZAN BIN HAJI KADERI</td><td>2024-12-31</td></tr>
-              <!-- <tr class='opacity-75'><td>A020</td><td>9M2SFF</td><td>ROZAIMAN SUFFIAN BIN OTHMAN</td><td>2022-12-31</td></tr> -->
-              <!-- <tr class='opacity-25'><td>A021</td><td>9W2WZZ</td><td>ABD MUNIR MOHAMAD BIN ABD KHALIL</td><td>2021-07-02</td></tr> -->
-              <tr><td>A022</td><td>9W2DMJ</td><td>MOHD DAUD BIN JUSOH</td><td>2024-06-30</td></tr>
-              <tr><td>A023</td><td>9W2DRQ</td><td>SYED IDRUS BIN SYED AGIL</td><td>2023-12-31</td></tr>
-              <!-- <tr class='opacity-25'><td>A024</td><td>9W2SRF</td><td>CHE SHARIFF BIN OTHMAN</td><td>2021-07-02</td></tr> -->
-              <tr class='opacity-75'><td>A025</td><td>9W2AYP</td><td>MOHD SABRI BIN IBRAHIM</td><td>2022-12-31</td></tr>
-              <tr><td>A026</td><td>9W2VMB</td><td>ASRULHISYAM BIN ASURA</td><td>2023-12-31</td></tr>
-              <tr><td>A027</td><td>9M2EZU</td><td>MOHD IZZUDIN BIN ABD RAHIM</td><td>2023-12-31</td></tr>
-              <tr><td>A028</td><td>9W2NEW</td><td>NORHISHAM BIN BAHAROM</td><td>2023-12-31</td></tr>
-              <tr><td>A029</td><td>9W2JCP</td><td>MOHAMAD ROSLI BIN AWANG</td><td>2023-12-31</td></tr>
-              <tr><td>A030</td><td>9W2HLM</td><td>ABDUL HALIM BIN HJ HASHIM</td><td>2023-12-31</td></tr>
-              <tr><td>A031</td><td>9W2EZK</td><td>MOHD IFFIQ ZIKRY BIN JAMAL</td><td>2025-12-31</td></tr>
-              <tr><td>B032</td><td>V85AFF</td><td>MAHATHIR BIN ARIFFIN</td><td>2023-12-31</td></tr>
-              <tr><td>A033</td><td>9W2AKK</td><td>MUHAMMAD KHAIRUL AMILIN BIN ISMAIL</td><td>2023-12-31</td></tr>
-              <tr><td>A034</td><td>9W2IKA</td><td>IDHAM KHALIL BIN ABDULL WAHAB</td><td>2023-12-31</td></tr>
-              <tr><td>A035</td><td>113MSRAO</td><td>GOWTAMROA A/L MANICKAROW</td><td>2023-12-31</td></tr>
-              <tr><td>A036</td><td>9W2NSP</td><td>ROBBI NESPU BIN MOHAMAD</td><td>2023-12-31</td></tr>
-            </tbody>
-          </table>
+          <table class='table table-sm table-striped align-middle' id='memberlist'></table>
         </div>
       </div>
     </div>

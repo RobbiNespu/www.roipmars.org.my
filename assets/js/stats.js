@@ -122,7 +122,7 @@ $.getJSON('/assets/json/s-days.json', function (daysData) {
         annotation: {
           annotations: {
             avgHAMMSval: {
-              borderColor: 'rgb(54, 162, 235)',
+              borderColor: 'rgba(54, 162, 235, 0.5)',
               borderDash: [15, 3, 3, 3],
               borderWidth: 1,
               type: 'line',
@@ -141,7 +141,7 @@ $.getJSON('/assets/json/s-days.json', function (daysData) {
               yValue: daysData.avg_dsHAMMS.toFixed(),
             },
             avgHAMENval: {
-              borderColor: 'rgb(255, 99, 132)',
+              borderColor: 'rgba(255, 99, 132, 0.5)',
               borderDash: [15, 3, 3, 3],
               borderWidth: 1,
               type: 'line',
@@ -158,6 +158,25 @@ $.getJSON('/assets/json/s-days.json', function (daysData) {
               type: 'label',
               xValue: 0,
               yValue: daysData.avg_dsHAMEN.toFixed(),
+            },
+            avgHAMIDval: {
+              borderColor: 'rgba(255, 159, 64, 0.5)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: daysData.avg_dsHAMID.toFixed(),
+              yMin: daysData.avg_dsHAMID.toFixed(),
+            },
+            avgHAMIDlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'ID: ' + daysData.avg_dsHAMID.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: daysData.avg_dsHAMID.toFixed(),
             }
           }
         },
@@ -258,7 +277,7 @@ $.getJSON('/assets/json/s-week.json', function (weekData) {
         annotation: {
           annotations: {
             avgHAMMSval: {
-              borderColor: 'rgb(54, 162, 235)',
+              borderColor: 'rgba(54, 162, 235, 0.5)',
               borderDash: [15, 3, 3, 3],
               borderWidth: 1,
               type: 'line',
@@ -277,7 +296,7 @@ $.getJSON('/assets/json/s-week.json', function (weekData) {
               yValue: weekData.avg_wHAMMS.toFixed(),
             },
             avgHAMENval: {
-              borderColor: 'rgb(255, 99, 132)',
+              borderColor: 'rgba(255, 99, 132, 0.5)',
               borderDash: [15, 3, 3, 3],
               borderWidth: 1,
               type: 'line',
@@ -294,6 +313,25 @@ $.getJSON('/assets/json/s-week.json', function (weekData) {
               type: 'label',
               xValue: 0,
               yValue: weekData.avg_wHAMEN.toFixed(),
+            },
+            avgHAMIDval: {
+              borderColor: 'rgba(255, 159, 64, 0.5)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: weekData.avg_wHAMID.toFixed(),
+              yMin: weekData.avg_wHAMID.toFixed(),
+            },
+            avgHAMIDlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'ID: ' + weekData.avg_wHAMID.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: weekData.avg_wHAMID.toFixed(),
             }
           }
         },
@@ -409,7 +447,7 @@ $.getJSON('/assets/json/s-days.json', function(localeDaysData) {
         annotation: {
           annotations: {
             avgLOCval: {
-              borderColor: 'rgb(54, 162, 235)',
+              borderColor: 'rgba(54, 162, 235, 0.5)',
               borderDash: [15, 3, 3, 3],
               borderWidth: 1,
               type: 'line',
@@ -428,7 +466,7 @@ $.getJSON('/assets/json/s-days.json', function(localeDaysData) {
               yValue: localeDaysData.avg_dsLOC.toFixed(),
             },
             avgINTLval: {
-              borderColor: 'rgb(255, 99, 132)',
+              borderColor: 'rgba(255, 99, 132, 0.5)',
               borderDash: [15, 3, 3, 3],
               borderWidth: 1,
               type: 'line',
@@ -481,7 +519,7 @@ $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
         annotation: {
           annotations: {
             avgLOCval: {
-              borderColor: 'rgb(54, 162, 235)',
+              borderColor: 'rgba(54, 162, 235, 0.5)',
               borderDash: [15, 3, 3, 3],
               borderWidth: 1,
               type: 'line',
@@ -500,7 +538,7 @@ $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
               yValue: localeWeekData.avg_wLOC.toFixed(),
             },
             avgINTLval: {
-              borderColor: 'rgb(255, 99, 132)',
+              borderColor: 'rgba(255, 99, 132, 0.5)',
               borderDash: [15, 3, 3, 3],
               borderWidth: 1,
               type: 'line',

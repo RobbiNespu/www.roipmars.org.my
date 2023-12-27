@@ -24,6 +24,11 @@
           </thead>
           <tbody>
             <tr>
+              <td>28 Dis 2023</td>
+              <td>Gangguan sementara notifikasi automatik aktiviti</td>
+              <td><a type='button' class='btn btn-outline-secondary d-grid' href='nts/2023/12' target='_blank' rel='noopener'>NtsMARS 2023/12</a></td>
+            </tr>
+            <tr>
               <td>11 Dis 2023</td>
               <td>Usahasama SMP dalam menjayakan aktiviti mingguan</td>
               <td><a type='button' class='btn btn-outline-secondary d-grid' href='nts/2023/11' target='_blank' rel='noopener'>NtsMARS 2023/11</a></td>

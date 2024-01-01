@@ -52,15 +52,15 @@
 							<div class='carousel-item active'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png' alt='9M2SFL'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='/media/image/ncs/9m2sfl.png' alt='9M2SFL'>
 										<p class='lh-1'>9M2SFL<br>SAIFUL</p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png'alt='9W2AYP'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='/media/image/member/025.png'alt='9W2AYP'>
 										<p class='lh-1'>9W2AYP<br>SABRI</p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' alt='9W2NDI'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='/media/image/member/011.png' alt='9W2NDI'>
 										<p class='lh-1'>9W2NDI<br>NASA</p>
 									</div>
 								</div>
@@ -68,15 +68,15 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png' alt='9W2YBT'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='/media/image/ncs/9w2ybt.png' alt='9W2YBT'>
 										<p class='lh-1'>9W2YBT<br>FAISAL</p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png' alt='9M6JAY'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='/media/image/ncs/9m6jay.png' alt='9M6JAY'>
 										<p class='lh-1'>9M6JAY<br>JOHN JUNIOR</p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png' alt='9M6AUA'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='/media/image/member/010.png' alt='9M6AUA'>
 										<p class='lh-1'>9M6AUA<br>JEOFREY</p>
 									</div>
 								</div>
@@ -84,15 +84,15 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='/media/image/member/017.png' alt='9M6RDY'>
 										<p class='lh-1'>9M6RDY<br>MATTHEUS &commat; RUDY</p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
 										<p class='lh-1'>9W6RHN<br>ROSLAN</p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' alt='V85AFF'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='/media/image/member/032.png' alt='V85AFF'>
 										<p class='lh-1'>V85AFF<br>MAHATHIR</p>
 									</div>
 								</div>

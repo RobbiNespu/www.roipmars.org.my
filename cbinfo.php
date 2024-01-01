@@ -205,7 +205,7 @@
       <div class='row'>
         <div class='col-12 text-center'>
           <h2>Identiti Isyarat Panggilan Jalur Rakyat</h2>
-          <img class='img-fluid rounded-5' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ipjr.png' width='75%'>
+          <img class='img-fluid rounded-5' loading='lazy' src='/media/image/ipjr.png' width='75%'>
         </div>
       </div>
       <div class='row my-3'>

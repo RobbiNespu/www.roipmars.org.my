@@ -73,7 +73,7 @@
             <a class='text-reset text-decoration-none' href='#' onClick='TSLoginWindow=window.open("applogin", "Login RoIPMARS Comm Apps", "width=720,height=640"); return false;' aria-label='Log Masuk RoIPMARS'><i class='bi-headset h1 mx-1' style='color: #336699'></i></a>
             <a class='text-reset text-decoration-none' href='#' onClick='AudioFeed=window.open("livefeed", "RoIPMARS Network Live Audio Feed", "width=720,height=480,scrollbars=no"); return false;' aria-label='RoIPMARS Network Live Audio Feed'><i class='bi-broadcast h1 mx-1' style='color: #336699'></i></a>
             <a class='text-reset text-decoration-none' href='https://discord.gg/ExEEGhgaWx' aria-label='Discord RoIPMARS'><i class='bi-discord h1 mx-1' style='color: #5865F2'></i></a>
-            <a class='text-reset text-decoration-none' href='https://zello.com/roipmarsnetwork' aria-label='Zello RoIPMARS'><img class='bi h1 my-1' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/zello/orange.png' width='38' style='color: #e95d2f' alt='zello'></a>
+            <a class='text-reset text-decoration-none' href='https://zello.com/roipmarsnetwork' aria-label='Zello RoIPMARS'><img class='bi h1 my-1' loading='lazy' src='/media/image/brands/zello/orange.png' width='38' style='color: #e95d2f' alt='zello'></a>
             <a class='text-reset text-decoration-none' href='https://t.me/roipmarsnetwork' aria-label='Telegram RoIPMARS'><i class='bi-telegram h1 mx-1' style='color: #27A7E7'></i></a>
             <a class='text-reset text-decoration-none' href='https://whatsapp.com/channel/0029VaInKA4KmCPKsna5r81j' aria-label='WhatsApp RoIPMARS'><i class='bi-whatsapp h1 mx-1' style='color: #25D366'></i></a>
           </div>

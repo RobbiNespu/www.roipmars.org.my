@@ -22,7 +22,7 @@
         <div class='col-12 my-2'>
           <div class='row g-1 text-start'>
             <div class='col-3 col-lg-2 align-self-center'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2UZL'>
+              <img src='/media/image/member/002.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2UZL'>
             </div>
             <div class='col-9 col-lg-10 d-flex align-content-center flex-wrap'>
               <div class='card-body mx-3'>
@@ -46,7 +46,7 @@
               </div>
             </div>
             <div class='col-3 col-lg-2 align-self-center'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2LGX'>
+              <img src='/media/image/member/001.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-dark-subtle bg-gradient' alt='9W2LGX'>
             </div>
           </div>
         </div>
@@ -81,8 +81,8 @@
         <div class='col-md-3 mb-md-0 p-md-3 my-3' id='rlandroid'>
           <p class='text-center my-0'>Sistem Pengulang pada Pemancar Mudah Alih dan Telefon Pintar Android &lpar;Repeater Linking ROIP&rpar;</p>
           <video class='rounded-5 w-100' loading='lazy' controls preload='metadata'>
-            <source src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/video/repeater-linking-roip.webm' type='video/webm'>
-            <source src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/video/repeater-linking-roip.mp4' type='video/mp4'>
+            <source src='/media/video/repeater-linking-roip.webm' type='video/webm'>
+            <source src='/media/video/repeater-linking-roip.mp4' type='video/mp4'>
           </video>
         </div>
         <div class='col-md-4 mb-md-0 p-md-3 my-3' id='rpgw'>

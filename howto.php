@@ -10,7 +10,7 @@
     <div class='container-fluid'>
       <div class='row text-center'>
         <div class='col mt-2 mb-2 jumbotron-fluid'>
-          <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/banner-howto.jpg' class='img-fluid rounded-pill' alt='banner-howto'>
+          <img src='/media/image/banner-howto.jpg' class='img-fluid rounded-pill' alt='banner-howto'>
           <h1 class='h1-responsive'>Cara-cara untuk berhubung bersama kami</h1>
         </div>
       </div>
@@ -269,7 +269,7 @@
           </table>
           <div class='row text-center'>
             <div class='col'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ps_ts3dau.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#ps_ts3dau'>
+              <img src='/media/image/ps_ts3dau.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#ps_ts3dau'>
               <div class='modal fade' id='ps_ts3dau' tabindex='-1' role='dialog' aria-labelledby='ps_ts3dauTitle' aria-hidden='true'>
                 <div class='modal-dialog modal-dialog-centered' role='document'>
                   <div class='modal-content'>
@@ -278,14 +278,14 @@
                       <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body bg-dark'>
-                      <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ps_ts3dau.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
+                      <img src='/media/image/ps_ts3dau.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class='col'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsan_bookmark.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_bookmark'>
+              <img src='/media/image/tsan_bookmark.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_bookmark'>
               <div class='modal fade' id='tsan_bookmark' tabindex='-1' role='dialog' aria-labelledby='tsan_bookmarkTitle' aria-hidden='true'>
                 <div class='modal-dialog modal-dialog-centered' role='document'>
                   <div class='modal-content'>
@@ -294,14 +294,14 @@
                       <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body bg-dark'>
-                      <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsan_bookmark.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
+                      <img src='/media/image/tsan_bookmark.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class='col'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsan_audio.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_audio'>
+              <img src='/media/image/tsan_audio.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_audio'>
               <div class='modal fade' id='tsan_audio' tabindex='-1' role='dialog' aria-labelledby='tsan_audioTitle' aria-hidden='true'>
                 <div class='modal-dialog modal-dialog-centered' role='document'>
                   <div class='modal-content'>
@@ -310,14 +310,14 @@
                       <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body bg-dark'>
-                      <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsan_audio.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
+                      <img src='/media/image/tsan_audio.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class='col'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsan_interface.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_interface'>
+              <img src='/media/image/tsan_interface.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsan_interface'>
               <div class='modal fade' id='tsan_interface' tabindex='-1' role='dialog' aria-labelledby='tsan_interfaceTitle' aria-hidden='true'>
                 <div class='modal-dialog modal-dialog-centered' role='document'>
                   <div class='modal-content'>
@@ -326,7 +326,7 @@
                       <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body bg-dark'>
-                      <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsan_interface.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
+                      <img src='/media/image/tsan_interface.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
                     </div>
                   </div>
                 </div>
@@ -361,7 +361,7 @@
           </table>
           <div class='row text-center'>
             <div class='col'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsao_bookmark.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsao_bookmark'>
+              <img src='/media/image/tsao_bookmark.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsao_bookmark'>
               <div class='modal fade' id='tsao_bookmark' tabindex='-1' role='dialog' aria-labelledby='tsao_bookmarkTitle' aria-hidden='true'>
                 <div class='modal-dialog modal-dialog-centered' role='document'>
                   <div class='modal-content'>
@@ -370,14 +370,14 @@
                       <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body bg-dark'>
-                      <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsao_bookmark.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
+                      <img src='/media/image/tsao_bookmark.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class='col'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsao_audio.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsao_audio'>
+              <img src='/media/image/tsao_audio.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsao_audio'>
               <div class='modal fade' id='tsao_audio' tabindex='-1' role='dialog' aria-labelledby='tsao_audioTitle' aria-hidden='true'>
                 <div class='modal-dialog modal-dialog-centered' role='document'>
                   <div class='modal-content'>
@@ -386,14 +386,14 @@
                       <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body bg-dark'>
-                      <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsao_audio.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
+                      <img src='/media/image/tsao_audio.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class='col'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsao_interface.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsao_interface'>
+              <img src='/media/image/tsao_interface.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsao_interface'>
               <div class='modal fade' id='tsao_interface' tabindex='-1' role='dialog' aria-labelledby='tsao_interfaceTitle' aria-hidden='true'>
                 <div class='modal-dialog modal-dialog-centered' role='document'>
                   <div class='modal-content'>
@@ -402,7 +402,7 @@
                       <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body bg-dark'>
-                      <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsao_interface.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
+                      <img src='/media/image/tsao_interface.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
                     </div>
                   </div>
                 </div>
@@ -468,7 +468,7 @@
           </table>
           <div class='row text-center'>
             <div class='col'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsip_bookmark.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_bookmark'>
+              <img src='/media/image/tsip_bookmark.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_bookmark'>
               <div class='modal fade' id='tsip_bookmark' tabindex='-1' role='dialog' aria-labelledby='tsip_bookmarkTitle' aria-hidden='true'>
                 <div class='modal-dialog modal-dialog-centered' role='document'>
                   <div class='modal-content'>
@@ -477,14 +477,14 @@
                       <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body bg-dark'>
-                      <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsip_bookmark.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
+                      <img src='/media/image/tsip_bookmark.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class='col'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsip_menu.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_menu'>
+              <img src='/media/image/tsip_menu.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_menu'>
               <div class='modal fade' id='tsip_menu' tabindex='-1' role='dialog' aria-labelledby='tsip_menuTitle' aria-hidden='true'>
                 <div class='modal-dialog modal-dialog-centered' role='document'>
                   <div class='modal-content'>
@@ -493,14 +493,14 @@
                       <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body bg-dark'>
-                      <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsip_menu.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
+                      <img src='/media/image/tsip_menu.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class='col'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsip_setting1.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_setting1'>
+              <img src='/media/image/tsip_setting1.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_setting1'>
               <div class='modal fade' id='tsip_setting1' tabindex='-1' role='dialog' aria-labelledby='tsip_setting1Title' aria-hidden='true'>
                 <div class='modal-dialog modal-dialog-centered' role='document'>
                   <div class='modal-content'>
@@ -509,14 +509,14 @@
                       <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body bg-dark'>
-                      <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsip_setting1.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
+                      <img src='/media/image/tsip_setting1.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class='col'>
-              <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsip_setting2.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_setting2'>
+              <img src='/media/image/tsip_setting2.png?tr=n-wm_rms_w10' class='img-fluid rounded-3 w-50' loading='lazy' data-bs-toggle='modal' data-bs-target='#tsip_setting2'>
               <div class='modal fade' id='tsip_setting2' tabindex='-1' role='dialog' aria-labelledby='tsip_setting2Title' aria-hidden='true'>
                 <div class='modal-dialog modal-dialog-centered' role='document'>
                   <div class='modal-content'>
@@ -525,7 +525,7 @@
                       <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body bg-dark'>
-                      <img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tsip_setting2.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
+                      <img src='/media/image/tsip_setting2.png?tr=n-wm_rms_w10' class='img-fluid' loading='lazy'>
                     </div>
                   </div>
                 </div>

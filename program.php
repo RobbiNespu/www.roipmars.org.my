@@ -26,6 +26,9 @@
 						<embed loading='lazy' class='rounded-4' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0'></embed>
 					</div>
 					<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun menyampaikan selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan: <a class='btn btn-sm btn-link' role='button' href='https://wa.me/60333960874'><i class='bi-whatsapp'></i> <b>Pegawai Bahagian Rekod</b></a></p>
+					<div class='d-grid gap-2 col-8 mx-auto'>
+						<a class='btn btn-success' role='button' href='https://wa.me/60333960874?text=TERIMA%20NOTIFIKASI'><i class='bi-whatsapp'></i> Langgan mesej peribadi Aktiviti Khas kami</a>
+					</div>
 					<div class='mt-3 text-center'>
 						<h4>Suapan Langsung Rangkaian RoIPMARS</h4>
 						<div id='bcfy'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
@@ -37,13 +40,13 @@
 					<table class='table table-sm table-bordered text-center align-middle'>
 						<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
 						<tbody>
-							<tr class='table-primary'><td>Isnin</td><td>1300 z<br>2100 my</td><td>RoIPMARS Net Awal Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='table-danger'><td>Selasa</td><td>1215 z<br>1915 wib</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
-							<tr class='table-success'><td>Wednesday</td><td>1300 z<br>2100 my</td><td>RoIPMARS Learning English Net</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='table-danger'><td>Kamis</td><td>1215 z<br>1915 wib</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
+							<tr class='table-primary'><td>Isnin</td><td>1300z<br>2100my</td><td>RoIPMARS Net Awal Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
+							<tr class='table-danger'><td>Selasa</td><td>1215z<br>1915wib</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
+							<tr class='table-success'><td>Wednesday</td><td>1300z<br>2100my</td><td>RoIPMARS Learning English Net</td><td>Rangkaian HAM RoIPMARS</td></tr>
+							<tr class='table-danger'><td>Kamis</td><td>1215z<br>1915wib</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
 							<tr class='opacity-25'><td>Jumaat</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
-							<tr class='table-primary'><td>Sabtu</td><td>1300 z<br>2100 my</td><td>RoIPMARS Net Malam Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='table-danger'><td>Minggu</td><td>1215 z<br>1915 wib</td><td>SMP Net Akhir Minggu</td><td>SMP RoIPMARS</td></tr>
+							<tr class='table-primary'><td>Sabtu</td><td>1300z<br>2100my</td><td>RoIPMARS Net Malam Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
+							<tr class='table-danger'><td>Minggu</td><td>1215z<br>1915wib</td><td>SMP Net Akhir Minggu</td><td>SMP RoIPMARS</td></tr>
 						</tbody>
 					</table>
 					<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>

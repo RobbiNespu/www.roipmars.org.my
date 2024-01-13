@@ -166,7 +166,7 @@
             <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
-                  <p class='lh-1 mb-0'>BAHAGIAN<br>SIARAYA</p>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>KEBAJIKAN</p>
                 </div>
                 <div class='card-img'>
                   <div class='d-lg-none'><img src='/media/image/member/011.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
@@ -181,7 +181,7 @@
             <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
-                  <p class='lh-1 mb-0'>BAHAGIAN<br>&mdash;</p>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>EKONOMI</p>
                 </div>
                 <div class='card-img'>
                   <div class='d-lg-none'><img src='/media/image/member/022.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
@@ -196,7 +196,7 @@
             <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
-                  <p class='lh-1 mb-0'>BAHAGIAN<br>&mdash;</p>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>TEKNIKAL</p>
                 </div>
                 <div class='card-img'>
                   <div class='d-lg-none'><img src='/media/image/member/036.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>
@@ -211,7 +211,7 @@
             <div class='col-6 col-lg-2 my-1 mx-0 text-center'>
               <div class='card-group justify-content-center'>
                 <div class='card-header fw-bold'>
-                  <p class='lh-1 mb-0'>BAHAGIAN<br>PERHUBUNGAN AWAM</p>
+                  <p class='lh-1 mb-0'>BAHAGIAN<br>AKTIVITI</p>
                 </div>
                 <div class='card-img'>
                   <div class='d-lg-none'><img src='/media/image/member/032.png' loading='lazy' class='img-fluid rounded-circle object-fit-fill bg-info-subtle bg-gradient w-50'></div>

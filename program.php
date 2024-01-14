@@ -368,8 +368,8 @@
 					</div>
 				</div>
 			</div>
-			<!-- <hr> -->
-			<!-- <div class='row my-1'>
+			<hr>
+			<div class='row my-1'>
 				<div class='col-12'>
 					<h3 class='text-center'>Pemenang Bertuah Rangkaian RoIPMARS</h3>
 				</div>
@@ -425,7 +425,31 @@
 						</tbody>
 					</table>
 				</div>
-			</div> -->
+				<div class='col-lg-6'>
+					<h4 class='text-center'>Hadiah Misteri Petugas Aktiviti 2023</h4>
+					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
+						<thead><th>No</th><th>Stesen</th><th>Kategori</th></thead>
+						<tbody>
+							<tr><td>1<sup>st</sup></td><td>9M2SFL</td><td>Rekod <sup>2nd</sup>, Tugasan <sup>2nd</sup>, KPI <sup>2nd</sup></td></tr>
+							<tr><td>2<sup>nd</sup></td><td>9W6RHN</td><td>Tugasan <sup>3rd</sup>, KPI <sup>3rd</sup></td></tr>
+							<tr><td>3<sup>rd</sup></td><td>9M6JAY</td><td>KPI <sup>4th</sup></td></tr>
+						</tbody>
+					</table>
+				</div>
+				<div class='col-lg-6'>
+					<h4 class='text-center'>Saguhati Petugas Aktiviti 2023</h4>
+					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
+						<thead><th>No</th><th>Stesen</th><th>Sokongan</th></thead>
+						<tbody>
+							<tr><td>1<sup>st</sup></td><td>9W2AYP</td><td>99%</td></tr>
+							<tr><td>2<sup>nd</sup></td><td>V85AFF</td><td>76%</td></tr>
+							<tr><td>3<sup>rd</sup></td><td>9W6MOZ</td><td>63%</td></tr>
+							<tr><td>4<sup>th</sup></td><td>9W2SNN</td><td>59%</td></tr>
+							<tr><td>5<sup>th</sup></td><td>9W2YBT</td><td>58%</td></tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
 		</div>
 		<?php require_once 'footer.php' ?>
 		<script src='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.8/af-2.6.0/b-2.4.2/b-colvis-2.4.2/b-html5-2.4.2/b-print-2.4.2/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.11.0/r-2.5.0/rg-1.4.1/rr-1.4.1/sc-2.3.0/sb-1.6.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.js' crossorigin='anonymous'></script>

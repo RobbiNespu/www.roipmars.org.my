@@ -85,9 +85,11 @@ var attrPopup = { closeButton: false, attribution: marsattr }
 var circOpt = { radius: 10000, stroke: false, fillOpacity: 0.175, interactive: false }
 
 $.getJSON('/assets/json/member.json', function (memberData) {
-  var gw9W4GOZ = L.marker([5.741363, 115.934101], { title: '9W4GOZ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GOZ 144.8MHz C203 -0.6MHz<br>VHF, TeamSpeak, EchoLink</p>', attrPopup)
-  var gw9W4GPA = L.marker([3.23111, 101.423487], { title: '9W4GPA', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GPA 144.85MHz C100<br>VHF, TeamSpeak, EchoLink, DMR, YSF, C4FM, Free Radio Network, Mumble, Peanut, Zello, Discord, Telegram, TeamTalk</p>', attrPopup)
-  var gw9W4GYQ = L.marker([3.77112, 103.27712], { title: '9W4GYQ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GYQ 144.8MHz<br>VHF, TeamSpeak</p>', attrPopup)
+  var gw9W4GPA = L.marker([3.23111, 101.423487], { title: '9W4GPA', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GPA 144.85MHz C100<br>FM, TeamSpeak, EchoLink, DMR, YSF, C4FM, Free Radio Network, Mumble, Peanut, Zello, Discord, Telegram, TeamTalk</p>', attrPopup)
+  var gw9W4GYQ = L.marker([3.77112, 103.27712], { title: '9W4GYQ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GYQ 144.8MHz<br>FM, TeamSpeak</p>', attrPopup)
+  var gw9W4GOZ = L.marker([5.741363, 115.934101], { title: '9W4GOZ', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9W4GOZ 144.8MHz C203 -0.6MHz<br>FM, TeamSpeak, EchoLink</p>', attrPopup)
+  var gw9M4GPR = L.marker([5.991959, 116.092358], { title: '9M4GPR', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9M4GPR<br>TeamSpeak</p>', attrPopup)
+  var gw9M4GUA = L.marker([5.957909, 116.070744], { title: '9M4GUA', icon: marsGateIcon }).bindPopup('<p class="text-center m-0">9M4GUA<br>TeamSpeak</p>', attrPopup)
   for (let md = 0; md < memberData.activeMembers.length; md++) {
     var mDtLL = memberData.LatLong[md]
     var mDtMN = memberData.MemberNo[md]
@@ -99,6 +101,6 @@ $.getJSON('/assets/json/member.json', function (memberData) {
     var MemberMarkers = L.marker(mDtLL, { title: mDtMN, icon: marsMemIcon }).bindPopup('<img class="img-fluid object-fit-fill rounded-circle mx-auto my-1" loading="lazy" src="' + mDtIS + '"><p class="text-center fw-bold fs-3 m-0">' + mDtMN + '</p><p class="text-center fw-light fs-5 m-0">' + mDtCS + ' @ ' + mDtGS + '</p><p class="text-center m-0">' + mDtNM + '</p>', attrPopup)
     var MemberCircles = L.circle(mDtLL, circOpt)
 
-    L.layerGroup([gw9W4GOZ, gw9W4GPA, gw9W4GYQ, MemberMarkers, MemberCircles]).addTo(map)
+    L.layerGroup([gw9W4GPA, gw9W4GYQ, gw9W4GOZ, gw9M4GPR, gw9M4GUA, MemberMarkers, MemberCircles]).addTo(map)
   }
 })

@@ -21,7 +21,7 @@ $(document).ready(function () {
     keys: { blurable: true, keys: ['\n'.charCodeAt(0)], columns: [1, 2, 3] },
     language: {
       lengthMenu: 'Paparan _MENU_ rekod',
-      search: 'Cari Callsign/Nama:',
+      search: 'Cari Callsign/Nama/Lokal:',
       processing: 'Rekod sedang disusun semula',
       emptyTable: 'Rekod Tidak Ditemui',
       infoEmpty: 'Rekod Tidak Ditemui',

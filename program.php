@@ -27,7 +27,7 @@
 					</div>
 					<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun menyampaikan selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan: <a class='btn btn-sm btn-link' role='button' href='https://wa.me/60333960874'><i class='bi-whatsapp'></i> <b>Pegawai Bahagian Rekod</b></a></p>
 					<div class='d-grid gap-2 col-8 mx-auto'>
-						<a class='btn btn-success' role='button' href='https://wa.me/60333960874?text=TERIMA%20NOTIFIKASI'><i class='bi-whatsapp'></i> Langgan mesej peribadi Aktiviti Khas kami</a>
+						<a class='btn btn-success' role='button' href='https://wa.me/60333960874?text=TERIMA%20PEMBERITAHUAN'><i class='bi-whatsapp'></i> Langgan pemberitahuan peribadi Aktiviti Khas kami</a>
 					</div>
 					<div class='mt-3 text-center'>
 						<h4>Suapan Langsung Rangkaian RoIPMARS</h4>

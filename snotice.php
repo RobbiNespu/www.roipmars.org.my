@@ -24,6 +24,11 @@
           </thead>
           <tbody>
             <tr>
+              <td>19 Jan 2024</td>
+              <td>Makluman penukaran WhatsApp Rasmi</td>
+              <td><a type='button' class='btn btn-outline-secondary d-grid' href='nts/2024/01' target='_blank' rel='noopener'>NtsMARS 2024/01</a></td>
+            </tr>
+            <tr>
               <td>28 Dis 2023</td>
               <td>Gangguan sementara notifikasi automatik aktiviti</td>
               <td><a type='button' class='btn btn-outline-secondary d-grid' href='nts/2023/12' target='_blank' rel='noopener'>NtsMARS 2023/12</a></td>

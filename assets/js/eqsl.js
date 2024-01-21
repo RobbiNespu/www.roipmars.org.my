@@ -1,9 +1,17 @@
-function downeQSL(call, mode, time) {  
+import { jsPDF } from "jspdf";
+
+// Default export is a4 paper, portrait, using millimeters for units
+const doc = new jsPDF();
+
+doc.text("Hello world!", 10, 10);
+doc.save("a4.pdf");
+
+function downeQSL(call, mode, time) {
   const doc = new PDFDocument()
   const stream = doc.pipe(blobStream())
-    
+
   // add your content to the document here, as usual
-  
+
   doc.fontSize(25).text(call + ' ' + mode + ' ' + time, 100, 100)
   doc.end()
 

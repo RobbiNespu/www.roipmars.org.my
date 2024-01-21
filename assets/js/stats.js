@@ -576,7 +576,7 @@ $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
 })
 
 $.getJSON('/assets/json/s-country.json', function (countryData) {
-  fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then((r) => r.json()).then((data) => {
+  fetch('https://cdn.jsdelivr.net/npm/world-atlas@latest/countries-110m.json').then((r) => r.json()).then((data) => {
     const countries = ChartGeo.topojson.feature(data, data.objects.countries).features
     const countryNames = countryData.Country
     const countryValues = countryData.Count

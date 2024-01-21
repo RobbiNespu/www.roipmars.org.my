@@ -453,17 +453,18 @@
 		</div>
 		<?php require_once 'footer.php' ?>
 		<script src='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.8/af-2.6.0/b-2.4.2/b-colvis-2.4.2/b-html5-2.4.2/b-print-2.4.2/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.11.0/r-2.5.0/rg-1.4.1/rr-1.4.1/sc-2.3.0/sb-1.6.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@0.3.0-beta.6,npm/pdfmake@0.3.0-beta.6/build/vfs_fonts.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/program.js'></script>
-		<!-- <script src='https://cdn.jsdelivr.net/npm/pdfkit@0.13.0/js/pdfkit.standalone.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/blob-stream@0.1.3/index.min.js' crossorigin='anonymous'></script>
+		<!-- <script src='https://cdn.jsdelivr.net/npm/pdfkit@latest/js/pdfkit.standalone.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/blob-stream@latest/index.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/jspdf@latest/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/eqsl.js'></script> -->
-		<script src='https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-chart-geo@4/build/index.umd.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3/dist/chartjs-plugin-annotation.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@2/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-stacked100@1/build/index.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@2/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chart.js@latest/dist/chart.umd.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-chart-geo@latest/build/index.umd.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@latest/dist/chartjs-plugin-annotation.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@latest/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-stacked100@latest/build/index.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@latest/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/stats.js'></script>
 		<script src='/assets/js/bcfy-stat.js'></script>
 	</body>

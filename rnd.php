@@ -57,8 +57,7 @@
           <figure class='figure d-grid'>
             <figcaption class='figure-caption text-center fs-4'>Rangkaian Utama &lpar;kegunaan Jalur Amatur&rpar;</figcaption>
             <canvas id='rndHAMtree' class='rounded-5' loading='lazy' alt='ham-link-map'></canvas>
-            <audio class='rounded-5 w-100' controls preload='none' src='https://broadcastify.cdnstream1.com/41368' type='audio/mp3' crossorigin='anonymous'></audio>
-            <span class='text-center'>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kelajuan dan kepandaman rangkaian.<br>Sebagai alternatif, anda boleh mendengar di sini: <a href='https://stream.mhrtech.my' target='_blank'>stream.mhrtech.my</a></span>
+            <audio class='rounded-5 w-100' controls preload='none' src='https://mhrtech.my:5000/HTMLAudioPlayerfeed' type='audio/mpeg'></audio>
           </figure>
         </div>
         <div class='col-12 my-1'>

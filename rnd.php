@@ -57,7 +57,7 @@
           <figure class='figure d-grid'>
             <figcaption class='figure-caption text-center fs-4'>Rangkaian Utama &lpar;kegunaan Jalur Amatur&rpar;</figcaption>
             <canvas id='rndHAMtree' class='rounded-5' loading='lazy' alt='ham-link-map'></canvas>
-            <audio class='rounded-5 w-100' controls preload='none' src='https://mhrtech.my:5000/HTMLAudioPlayerfeed' type='audio/mpeg'></audio>
+            <audio class='rounded-5 w-100' controls autoplay preload='metadata' src='https://mhrtech.my:5000/HTMLAudioPlayerfeed' type='audio/mpeg'></audio>
           </figure>
         </div>
         <div class='col-12 my-1'>

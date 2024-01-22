@@ -603,7 +603,7 @@ $(document).ready(function () {
           filename: `RoIPMARS-Net_${source}`,
           title: `${reportTitle}`,
           messageBottom: [{
-            text: 'Report generated via roipmars.org.my on ' + new Date().toLocaleString() + '\nRF > Radio Transceiver | EL > EchoLink | PNT > Peanut for HAM\nTS > TeamSpeak | ZL > Zello | MBL > Mumble\nFRN > Free Radio Network | DC > Discord | TG > Telegram | TT > Team Talk',
+            text: 'Report generated via roipmars.org.my on ' + new Date().toLocaleString() + '\nRF➜Radio Transceiver | EL➜EchoLink | PNT➜Peanut for HAM | TS➜TeamSpeak | ZL➜Zello | MBL➜Mumble | FRN➜Free Radio Network | DC➜Discord | TG➜Telegram | TT➜Team Talk | WA➜WhatsApp',
             alignment: 'center',
             fontSize: 8,
           }],
@@ -615,7 +615,7 @@ $(document).ready(function () {
             }),
               doc['footer'] = function (currentPage, pageCount) {
                 return [{
-                  text: '©' + new Date().getFullYear() + ' RoIPMARS Network | coded by mhrtech.my\n' + currentPage.toString() + ' of ' + pageCount,
+                  text: '©' + new Date().getFullYear() + ' RoIPMARS Network | developed by dev@roipmars.org.my | ' + currentPage.toString() + ' of ' + pageCount,
                   alignment: 'center',
                   fontSize: 8,
                 }]

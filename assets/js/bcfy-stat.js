@@ -37,7 +37,7 @@ $.getJSON(bcfyOwnHook, function (data) {
   let status = data.status
   if (status) {
     docBcfyAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls autoplay preload="metadata" src="https://audio.broadcastify.com/41368.mp3" type="audio/mp3" crossorigin="anonymous"></audio></div>\
-    <span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kelajuan dan kependaman rangkaian.<br>Sebagai alternatif, anda boleh mendengar di sini: <a href="https://stream.mhrtech.my" target="_blank">stream.mhrtech.my</a></span>'
+    <span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kelajuan dan kependaman rangkaian.<br>Sebagai alternatif, anda boleh mendengar di: <a href="https://stream.mhrtech.my" target="_blank">stream.mhrtech.my</a>; periksa kelajuan jaringan: <a href="https://speedtest.mhrtech.my" target="_blank">speedtest.mhrtech.my</a>; </span>'
   } else {
     docBcfyAud.innerHTML = ''
   }

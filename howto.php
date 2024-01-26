@@ -49,13 +49,13 @@
           <p class='mb-1'>Perisian tambahan untuk bantuan desktop:</p>
           <div class='btn-group d-flex mx-auto' role='group'>
             <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe' target='_blank' rel='nofollow' download>RustDesk &lpar;Windows&rpar; <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb' target='_blank' rel='nofollow' download>RustDesk &lpar;Linux&rpar; <i class='bi-ubuntu'></i></a>
             <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg' target='_blank' rel='nofollow' download>RustDesk &lpar;Mac&rpar; <i class='bi-apple'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb' target='_blank' rel='nofollow' download>RustDesk &lpar;Linux&rpar; <i class='bi-ubuntu'></i></a>
           </div>
           <div class='btn-group d-flex mx-auto' role='group'>
             <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/AnyDesk.exe' target='_blank' rel='nofollow' download>AnyDesk &lpar;Windows&rpar; <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/linux/anydesk-6.3.0-amd64.tar.gz' target='_blank' rel='nofollow' download>AnyDesk &lpar;Linux&rpar; <i class='bi-ubuntu'></i></a>
             <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/anydesk.dmg' target='_blank' rel='nofollow' download>AnyDesk &lpar;Mac&rpar; <i class='bi-apple'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/linux/anydesk_6.3.0-1_amd64.deb' target='_blank' rel='nofollow' download>AnyDesk &lpar;Linux&rpar; <i class='bi-ubuntu'></i></a>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@
               <tr>
                 <th scope='row'>Versi</th>
                 <td>v3.1.10</td>
-                <td>v3.5.6</td>
+                <td>v3.6.1</td>
               </tr>
               <tr>
                 <th scope='row'>Windows 32-bit</th>
@@ -83,37 +83,7 @@
               <tr>
                 <th scope='row'>Windows 64-bit</th>
                 <td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/teamspeak3-client-win64-3.1.10.exe' target='_blank' rel='nofollow' download>win64</a></td>
-                <td><a class='btn btn-sm btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win64-3.5.6.exe' target='_blank' rel='nofollow' download>win64</a></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div id='pclinux' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
-        <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
-          <div class='ratio ratio-21x9'>
-            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/fqR1OPaK_cc' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
-          </div>
-        </div>
-        <div class='col-lg-5 position-static p-3'>
-          <h5 class='mt-0 text-center'>Pasang &amp; Konfigurasikan Teamspeak dalam Linux</h5>
-          <p class='text-center'>Video ini menunjukkan cara pemasangan dan konfigurasi Teamspeak pada PC/Laptop Linux anda.</p>
-          <table class='table table-sm text-center align-middle'>
-            <tbody>
-              <tr>
-                <th scope='row'>Versi</th>
-                <td>v3.1.10</td>
-                <td>v3.5.6</td>
-              </tr>
-              <tr>
-                <th scope='row'>Linux x86</th>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_x86-3.1.10.run' target='_blank' rel='nofollow' download>linux32</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_x86-3.5.6.run' target='_blank' rel='nofollow' download>linux32</a></td>
-              </tr>
-              <tr>
-                <th scope='row'>Linux AMD64</th>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_amd64-3.1.10.run' target='_blank' rel='nofollow' download>linux64</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_amd64-3.5.6.run' target='_blank' rel='nofollow' download>linux64</a></td>
+                <td><a class='btn btn-sm btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.6.1/TeamSpeak3-Client-win64-3.6.1.exe' target='_blank' rel='nofollow' download>win64</a></td>
               </tr>
             </tbody>
           </table>
@@ -133,12 +103,74 @@
               <tr>
                 <th scope='row'>Versi</th>
                 <td>v3.1.10</td>
-                <td>v3.5.6</td>
+                <td>v3.6.1</td>
               </tr>
               <tr>
                 <th scope='row'>MacOS</th>
                 <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/mac/teamspeak3-client-macosx-3.1.10.dmg' target='_blank' rel='nofollow' download>macosx</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-macosx-3.5.6.dmg' target='_blank' rel='nofollow' download>macosx</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.6.1/TeamSpeak3-Client-macosx-3.6.1.dmg' target='_blank' rel='nofollow' download>macosx</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id='pclinux' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
+        <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
+          <div class='ratio ratio-21x9'>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/fqR1OPaK_cc' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
+          </div>
+        </div>
+        <div class='col-lg-5 position-static p-3'>
+          <h5 class='mt-0 text-center'>Pasang &amp; Konfigurasikan Teamspeak dalam Linux</h5>
+          <p class='text-center'>Video ini menunjukkan cara pemasangan dan konfigurasi Teamspeak pada PC/Laptop Linux anda.</p>
+          <table class='table table-sm text-center align-middle'>
+            <tbody>
+              <tr>
+                <th scope='row'>Versi</th>
+                <td>v3.1.10</td>
+                <td>v3.6.1</td>
+              </tr>
+              <tr>
+                <th scope='row'>Linux x86</th>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_x86-3.1.10.run' target='_blank' rel='nofollow' download>linux32</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-linux_x86-3.5.6.run' target='_blank' rel='nofollow' download>linux32</a></td>
+              </tr>
+              <tr>
+                <th scope='row'>Linux AMD64</th>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/linux/teamspeak3-client-linux_amd64-3.1.10.run' target='_blank' rel='nofollow' download>linux64</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.6.1/TeamSpeak3-Client-linux_amd64-3.6.1.run' target='_blank' rel='nofollow' download>linux64</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id='pcwintsgc' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
+        <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
+          <div class='ratio ratio-21x9'>
+            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/11KnBz72j5Y' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
+          </div>
+        </div>
+        <div class='col-lg-5 position-static p-3'>
+          <h5 class='mt-0 text-center'>Pasang &amp; Konfigurasikan TS-Gateway Commander Plugin dalam Windows</h5>
+          <p class='text-center'>Video ini menunjukkan cara pemasangan dan konfigurasi TS-Gateway Commander Plugin di PC/Laptop Windows anda.</p>
+          <table class='table table-sm text-center align-middle'>
+            <tbody>
+              <tr>
+                <th scope='row'>TS</th>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.0.19.4.exe' target='_blank' rel='nofollow' download>TSv3.0.19.4</a></td>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' target='_blank' rel='nofollow' download>TSv3.1.10</a></td>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' target='_blank' rel='nofollow' download>TSv3.5.6</a></td>
+              </tr>
+              <tr>
+                <th scope='row'>Gateway</th>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-3.0.14.exe' target='_blank' rel='nofollow' download>GCv3.0.14</a></td>
+                <td colspan='2' class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-4.0.2.exe' target='_blank' rel='nofollow' download>GCv4.0.2</a></td>
+              </tr>
+              <tr>
+                <th scope='row'>Plugin</th>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api20.dll' target='_blank' rel='nofollow' download>GCPv20</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api21.dll' target='_blank' rel='nofollow' download>GCPv21</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api23.dll' target='_blank' rel='nofollow' download>GCPv23</a></td>
               </tr>
             </tbody>
           </table>
@@ -166,39 +198,6 @@
                 <td colspan='3'>
                   <div class='hstack gap-1'><a class='btn btn-sm btn-primary' role='button' href='https://aka.ms/vs/17/release/vc_redist.x86.exe' target='_blank' rel='nofollow' download>VCRedistAIO (x86)</a><a class='btn btn-sm btn-primary ms-auto' role='button' href='https://aka.ms/vs/17/release/vc_redist.x64.exe' target='_blank' rel='nofollow' download>VCRedistAIO (x64)</a></div>
                 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div id='pcwintsgc' class='row no-gutters bg-light-subtle position-relative mb-3 rounded-5'>
-        <div class='col-lg-7 my-2 px-2 d-flex align-self-center'>
-          <div class='ratio ratio-21x9'>
-            <embed class='rounded-5' loading='lazy' src='https://www.youtube.com/embed/11KnBz72j5Y' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></embed>
-          </div>
-        </div>
-        <div class='col-lg-5 position-static p-3'>
-          <h5 class='mt-0 text-center'>Pasang &amp; Konfigurasikan TS-Gateway Commander Plugin dalam Windows</h5>
-          <p class='text-center'>Video ini menunjukkan cara pemasangan dan konfigurasi TS-Gateway Commander Plugin di PC/Laptop Windows anda.</p>
-          <table class='table table-sm text-center align-middle'>
-            <tbody>
-              <tr>
-                <th scope='row'>TS</th>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.0.19.4.exe' target='_blank' rel='nofollow' download>TSv3.0.19.4</a></td>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' target='_blank' rel='nofollow' download>TSv3.1.10</a></td>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' target='_blank' rel='nofollow' download>TSv3.5.6</a></td>
-              </tr>
-              <tr>
-                <th scope='row'>Gateway</th>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-3.0.14.exe' target='_blank' rel='nofollow' download>GCv3.0.14</a></td>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts-gateway-commander-4.0.2.exe' target='_blank' rel='nofollow' download>GCv4.0.2</a></td>
-                <td class='text-nowrap'></td>
-              </tr>
-              <tr>
-                <th scope='row'>Plugin</th>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api20.dll' target='_blank' rel='nofollow' download>GCPv20</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api21.dll' target='_blank' rel='nofollow' download>GCPv21</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api23.dll' target='_blank' rel='nofollow' download>GCPv23</a></td>
               </tr>
             </tbody>
           </table>
@@ -342,7 +341,7 @@
           </div>
         </div>
         <div class='col-lg-5 position-static p-3'>
-          <h5 class='mt-0 text-center'>Pasang &amp; Konfigurasikan Teamspeak dalam Android<br><em>&lpar;KEHABISAN SOKONGAN-AKHIR DIS 2020&rpar;</em></h5>
+          <h5 class='mt-0 text-center'>Pasang &amp; Konfigurasikan Teamspeak dalam Android<br><em>&lpar;TIADA SOKONGAN-AKHIR DIS 2020&rpar;</em></h5>
           <p class='text-center'>Video tutorial ini menunjukkan cara pemasangan dan konfigurasi Teamspeak di Android Phone anda.</p>
           <table class='table table-sm text-center align-middle'>
             <tbody>

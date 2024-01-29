@@ -39,7 +39,7 @@ setInterval(utcLive, 1000)
 $(document).ready(function () {
   var takwimtable = $('#takwim').DataTable({
     ajax: {
-      url: 'assets/json/sch.json',
+      url: '/assets/json/sch.json',
       dataSrc: 'scheduled'
     },
     columns: [

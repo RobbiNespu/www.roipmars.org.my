@@ -3,7 +3,8 @@ document.querySelector('a#' + currentPage).classList.add('active')
 let currentURL = window.location.href
 let docTitle = document.querySelector('title').textContent
 let docDesc = document.querySelector('h1').textContent + '\n' + document.querySelector('p').textContent
-const meta = '<meta charset="utf-8">\
+const meta = '<base href="~/">\
+<meta charset="utf-8">\
 <meta http-equiv="Content-Type" content="text/html">\
 <meta http-equiv="content-language" content="ms-MY">\
 <meta http-equiv="Accept-CH" content="Sec-CH-DPR, Sec-CH-Width">\

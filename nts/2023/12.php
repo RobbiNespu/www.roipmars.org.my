@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <?php include_once '../../ntsheader.php' ?>
+    <?php include '../../ntsheader.php' ?>
     <div class='container my-2'>
       <p class='fs-1 text-center'>Gangguan sementara notifikasi automatik aktiviti</p>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
@@ -17,7 +17,6 @@
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
       <p class='fs-2 fw-bold text-decoration-underline'>Per: Notis penyelenggaraan sistem notifikasi automatik aktiviti</p>
-      <p class='mt-2'>Perkara diatas adalah dirujuk.</p>
       <p>Pentadbir sistem akan menjalankan penyelenggaraan &amp; kemas kini kepada keseluruhan sistem notifikasi aktiviti semasa. Sehubungan dengan itu, keseluruhan notifikasi akan mengalami gangguan semasa tempoh penyelenggaraan dijalankan. Berikut adalah maklumat gangguan yang bakal dijalankan;</p>
         <table class='table table-sm table-bordered text-center d-flex justify-content-start'>
           <tbody>
@@ -32,7 +31,7 @@
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>
-    <?php include_once '../../footermin.php' ?>
+    <?php include '../../footermin.php' ?>
   </body>
 
 </html>

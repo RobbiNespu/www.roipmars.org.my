@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <?php include_once '../../ntsheader.php' ?>
+    <?php include '../../ntsheader.php' ?>
     <div class='container my-2'>
       <p class='fs-1 text-center'>Pemberhentian Sementara Net CB RoIPMARS</p>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
@@ -17,7 +17,6 @@
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
       <p class='fs-2 fw-bold text-decoration-underline'>Per: Pemberhentian Sementara Net CB RoIPMARS</p>
-      <p class='mt-2'>Perkara diatas adalah dirujuk.</p>
       <p>Hasil statistik terkini menunjukkan tiada kenaikan stesen CB yang turut serta dalam Net CB pada setiap hari ahad malam. Oleh disebabkan itu, pihak pengurusan RoIPMARS mengambil keputusan untuk merehatkan Net CB pada setiap ahad malam sehingga satu waktu yang akan diberitahu kelak dan diganti kepada Net Amatur Hujung Minggu pada setiap ahad bermula jam 9 pagi.</p>
       <p>Keputusan ini diambil setelah mengambil kira pelbagai aspek dalaman serta luaran. Perubahan ini akan berkuat kuasa mulai minggu 28/2023.</p>
       <p>Sekiranya ada pihak ketiga atau kumpulan yang ingin menerajui Net CB di Rangkaian RoIPMARS, anda boleh menghubungi pihak pengurusan untuk maklumat lanjut.</p>
@@ -26,7 +25,7 @@
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>
-    <?php include_once '../../footermin.php' ?>
+    <?php include '../../footermin.php' ?>
   </body>
 
 </html>

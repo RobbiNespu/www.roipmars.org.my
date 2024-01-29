@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <?php include_once '../../ntsheader.php' ?>
+    <?php include '../../ntsheader.php' ?>
     <div class='container my-2'>
       <p class='fs-1 text-center'>Notis Rombakan Isyarat Panggilan Jalur Rakyat</p>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
@@ -17,7 +17,6 @@
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
       <p class='fs-2 fw-bold text-decoration-underline'>Per: Rombakan Semua Isyarat Panggilan Jalur Rakyat Kumpulan RoIPMARS</p>
-      <p class='mt-2'>Perkara diatas adalah dirujuk.</p>
       <p>Merujuk semula kepada notis <a href='../2021/01'>NtsMARS2021/01</a> &amp; <a href='05'>NtsMARS2023/05</a>, pihak pengurusan tertinggi Rangkaian RoIPMARS membuat keputusan untuk merombak semua isyarat panggilan jalur rakyat dibawah naungannya kepada hanya satu prefix yang sah digunakan iaitu xxMSxx dimana kod negara tidak berubah.</p>
       <p>Keputusan ini diputuskan atas sebab tiada lagi jawatankuasa bertindak untuk mengawal semua jaringan dan pendaftaran jalur rakyat sebelum ini. Selepas ini, segala pendaftaran dan kawalan adalah dibawah Rangkaian RoIPMARS dimana isyarat panggilan yang sah hanya xxMSxx.</p>
       <p>Berikut senarai semua Prefix sebelum ini yang dirombak;</p>
@@ -40,7 +39,7 @@
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>
-    <?php include_once '../../footermin.php' ?>
+    <?php include '../../footermin.php' ?>
   </body>
 
 </html>

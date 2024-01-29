@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <?php include_once '../../ntsheader.php' ?>
+    <?php include '../../ntsheader.php' ?>
     <div class='container my-2'>
       <p class='fs-1 text-center'>Notice Change of Info in CB_DB</p>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
@@ -30,14 +30,14 @@
           <tr><th>Akaun</th><td>1214 0000 4377 12</td></tr>
         </tbody>
       </table>
-      <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("//payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='/media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("//toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='/media/image/fpx.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("//donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
+      <p class='my-0 text-center'>Kami juga menerima <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("//payment.tngdigital.com.my/sc/bDLnBmDoDq", "TNGD RoIPMARS Donation", "width=800,height=600"); return false;'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/tngew_ht.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("//toyyibpay.com/sumbanganroipmars", "FPX Donation", "width=800,height=600"); return false;'><img src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/fpx.png' class='img-fluid' width='50px'></a> <a class='text-decoration-none' href='#' onClick='DonateWindow=window.open("//donate.stripe.com/5kA8AceIg7Gegbm5kk", "Stripe Donation", "width=800,height=600"); return false;'><i class='bi-credit-card fs-4 align-middle'></i></a></p>
       <p>Mulai Mac 2020, segala maklumat baru yang diberikan bakal mengambil masa maksimum 48 jam waktu bekerja untuk proses permohonan &amp; pendaftaran bagi tujuan semakan terlebih dahulu dengan maklumat sedia ada bagi mengelakkan pertindihan.</p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>
-    <?php include_once '../../footermin.php' ?>
+    <?php include '../../footermin.php' ?>
   </body>
 
 </html>

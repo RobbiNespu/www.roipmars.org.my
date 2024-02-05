@@ -157,7 +157,7 @@
 													<tr><td>TG</td><td>Telegram</td></tr>
 													<tr><td>TS</td><td>TeamSpeak</td></tr>
 													<tr><td>TT</td><td>Team Talk</td></tr>
-													<!-- <tr><td>WA</td><td>WhatsApp</td></tr> -->
+													<tr><td>WA</td><td>WhatsApp</td></tr>
 													<tr><td>ZL</td><td>Zello</td></tr>
 												</tbody>
 											</table>

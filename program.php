@@ -181,37 +181,43 @@
 					<h6 class='text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan Kita Semua <i class='fas fa-quote-right fa-xs'></i></h6>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byTime' loading='lazy' alt='NetGraphTime23'></canvas>
+					<canvas id='byTime' loading='lazy' alt='NetGraphTime'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byDate' loading='lazy' alt='NetGraphDaily23'></canvas>
+					<canvas id='byDate' loading='lazy' alt='NetGraphDaily'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byDay' loading='lazy' alt='NetGraphDay23'></canvas>
+					<canvas id='byDay' loading='lazy' alt='NetGraphDay'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byWeekDay' loading='lazy' alt='NetGraphWeekDay23'></canvas>
+					<canvas id='byWeekDay' loading='lazy' alt='NetGraphWeekDay'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byWeek' loading='lazy' alt='NetGraphWeekly23'></canvas>
+					<canvas id='byWeek' loading='lazy' alt='NetGraphWeekly'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byMonth' loading='lazy' alt='NetGraphMonthly23'></canvas>
+					<canvas id='byMonth' loading='lazy' alt='NetGraphMonthly'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byQuarter' loading='lazy' alt='NetGraphQuarterly23'></canvas>
+					<canvas id='byQuarter' loading='lazy' alt='NetGraphQuarterly'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byMode' loading='lazy' alt='NetGraphMode23'></canvas>
+					<canvas id='byMode' loading='lazy' alt='NetGraphMode'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byCSLocaleDays' loading='lazy' alt='NetGraphCallerDays23'></canvas>
+					<canvas id='byCSLocaleDays' loading='lazy' alt='NetGraphCallerDays'></canvas>
 				</div>
 				<div class='col-lg-6 figure my-1'>
-					<canvas id='byCSLocaleWeek' loading='lazy' alt='NetGraphCallerWeek23'></canvas>
+					<canvas id='byCSLocaleWeek' loading='lazy' alt='NetGraphCallerWeek'></canvas>
+				</div>
+				<div class='col-lg-6 figure my-1'>
+					<canvas id='byCSLocaleMonth' loading='lazy' alt='NetGraphCallerMonth'></canvas>
+				</div>
+				<div class='col-lg-6 figure my-1'>
+					<canvas id='byCSLocaleQuarter' loading='lazy' alt='NetGraphCallerQuarter'></canvas>
 				</div>
 				<div class='col-lg-9 figure my-1 align-items-center'>
-					<canvas id='byCountry' loading='lazy' alt='NetGraphMap23'></canvas>
+					<canvas id='byCountry' loading='lazy' alt='NetGraphMap'></canvas>
 				</div>
 				<div class='col-lg-3 align-self-center'>
 					<p class='text-center fst-italic mb-0'><sub><?php

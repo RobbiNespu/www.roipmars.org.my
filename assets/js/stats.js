@@ -575,6 +575,150 @@ $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
   })
 })
 
+$.getJSON('/assets/json/s-month.json', function (localeMonthData) {
+  new Chart(byCSLocaleMonth, {
+    data: {
+      datasets: [
+        { data: localeMonthData.mLOC, label: 'Domestik' },
+        { data: localeMonthData.mINTL, label: 'Antarabangsa' },
+      ],
+      labels: localeMonthData.Month,
+    },
+    options: {
+      borderJoinStyle: 'round',
+      borderWidth: 1,
+      plugins: {
+        annotation: {
+          annotations: {
+            avgLOCval: {
+              borderColor: 'rgba(54, 162, 235, 0.5)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: localeMonthData.avg_mLOC.toFixed(),
+              yMin: localeMonthData.avg_mLOC.toFixed(),
+            },
+            avgLOClab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'Domestik: ' + localeMonthData.avg_mLOC.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: localeMonthData.avg_mLOC.toFixed(),
+            },
+            avgINTLval: {
+              borderColor: 'rgba(255, 99, 132, 0.5)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: localeMonthData.avg_mINTL.toFixed(),
+              yMin: localeMonthData.avg_mINTL.toFixed(),
+            },
+            avgINTLlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'Antarabangsa: ' + localeMonthData.avg_mINTL.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: localeMonthData.avg_mINTL.toFixed(),
+            }
+          }
+        },
+        subtitle: { text: lastMod('/assets/json/s-month.json') },
+        title: { text: 'Panggilan Bulanan' }
+      },
+      pointBorderWidth: 1,
+      pointStyle: 'cross',
+      scales: {
+        x: { grid: { display: false } },
+        y: { grid: { display: false }, type: 'logarithmic' }
+      },
+      showLine: true,
+      tension: 0.5,
+      watermark: wmOptions,
+    },
+    type: 'line',
+  })
+})
+
+$.getJSON('/assets/json/s-quarter.json', function (localeQuarterData) {
+  new Chart(byCSLocaleQuarter, {
+    data: {
+      datasets: [
+        { data: localeQuarterData.qLOC, label: 'Domestik' },
+        { data: localeQuarterData.qINTL, label: 'Antarabangsa' },
+      ],
+      labels: localeQuarterData.Quarter,
+    },
+    options: {
+      borderJoinStyle: 'round',
+      borderWidth: 1,
+      plugins: {
+        annotation: {
+          annotations: {
+            avgLOCval: {
+              borderColor: 'rgba(54, 162, 235, 0.5)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: localeQuarterData.avg_qLOC.toFixed(),
+              yMin: localeQuarterData.avg_qLOC.toFixed(),
+            },
+            avgLOClab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'Domestik: ' + localeQuarterData.avg_qLOC.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: localeQuarterData.avg_qLOC.toFixed(),
+            },
+            avgINTLval: {
+              borderColor: 'rgba(255, 99, 132, 0.5)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: localeQuarterData.avg_qINTL.toFixed(),
+              yMin: localeQuarterData.avg_qINTL.toFixed(),
+            },
+            avgINTLlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'Antarabangsa: ' + localeQuarterData.avg_qINTL.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: localeQuarterData.avg_qINTL.toFixed(),
+            }
+          }
+        },
+        subtitle: { text: lastMod('/assets/json/s-quarter.json') },
+        title: { text: 'Panggilan Suku Tahun' }
+      },
+      pointBorderWidth: 1,
+      pointStyle: 'cross',
+      scales: {
+        x: { grid: { display: false } },
+        y: { grid: { display: false }, type: 'logarithmic' }
+      },
+      showLine: true,
+      tension: 0.5,
+      watermark: wmOptions,
+    },
+    type: 'line',
+  })
+})
+
 $.getJSON('/assets/json/s-country.json', function (countryData) {
   fetch('https://cdn.jsdelivr.net/npm/world-atlas@latest/countries-110m.json').then((r) => r.json()).then((data) => {
     const countries = ChartGeo.topojson.feature(data, data.objects.countries).features

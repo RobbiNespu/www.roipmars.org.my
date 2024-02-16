@@ -20,17 +20,17 @@
           <button class='navbar-toggler border-0' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>nav</button>
           <div class='collapse navbar-collapse text-end' id='navbarNav'>
             <ul class='nav navbar-nav nav-pills text-center d-flex ms-auto gap-1'>
-              <li class='nav-item'><a class='nav-link' href='about' id='about'>Tentang Kami</a></li>
-              <li class='nav-item'><a class='nav-link' href='rnd' id='rnd'>Kajian</a></li>
-              <li class='nav-item'><a class='nav-link' href='cbinfo' id='cbinfo'>Info CB</a></li>
-              <li class='nav-item'><a class='nav-link' href='cbmars' id='cbmars'>CB MARS</a></li>
-              <li class='nav-item'><a class='nav-link' href='howto' id='howto'>Tutorial</a></li>
-              <li class='nav-item'><a class='nav-link' href='activity' id='activity'>Galeri</a></li>
-              <li class='nav-item'><a class='nav-link' href='program' id='program'>Program</a></li>
-              <li class='nav-item'><a class='nav-link' href='faq' id='faq'>Soalan Lazim</a></li>
-              <li class='nav-item'><a class='nav-link' href='snotice' id='snotice'>Notis</a></li>
-              <li class='nav-item'><a class='nav-link' href='member' id='member'>Keahlian</a></li>
-              <li class='nav-item'><a class='nav-link' href='contact' id='contact'>Hubungi Kami</a></li>
+              <li class='nav-item'><a class='nav-link' href='/about' id='about'>Tentang Kami</a></li>
+              <li class='nav-item'><a class='nav-link' href='/rnd' id='rnd'>Kajian</a></li>
+              <li class='nav-item'><a class='nav-link' href='/cbinfo' id='cbinfo'>Info CB</a></li>
+              <li class='nav-item'><a class='nav-link' href='/cbmars' id='cbmars'>CB MARS</a></li>
+              <li class='nav-item'><a class='nav-link' href='/howto' id='howto'>Tutorial</a></li>
+              <li class='nav-item'><a class='nav-link' href='/activity' id='activity'>Galeri</a></li>
+              <li class='nav-item'><a class='nav-link' href='/program' id='program'>Program</a></li>
+              <li class='nav-item'><a class='nav-link' href='/faq' id='faq'>Soalan Lazim</a></li>
+              <li class='nav-item'><a class='nav-link' href='/snotice' id='snotice'>Notis</a></li>
+              <li class='nav-item'><a class='nav-link' href='/member' id='member'>Keahlian</a></li>
+              <li class='nav-item'><a class='nav-link' href='/contact' id='contact'>Hubungi Kami</a></li>
               <li class='nav-item dropdown my-auto'>
                 <button class='btn btn-sm btn-info rounded-3 dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>RoIPMARS</button>
                 <ul class='dropdown-menu dropdown-menu-end bg-body-secondary'>

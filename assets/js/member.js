@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $('#memberlist').DataTable({
     ajax: {
-      url: 'assets/json/member.json',
+      url: '/assets/json/member.json',
       dataSrc: 'activeMembers'
     },
     columns: [

@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('#cbcslist').DataTable({
-    ajax: 'assets/json/cbmars.json',
+    ajax: '/assets/json/cbmars.json',
     processing: true,
     ordering: false,
     pagingType: 'full_numbers',

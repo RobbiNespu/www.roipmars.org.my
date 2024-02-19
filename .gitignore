@@ -1,6 +1,3 @@
-# //git-scm.com/docs/gitignore
-# //help.github.com/articles/ignoring-files
-# Example.gitignore files : //github.com/github/gitignore
-_notes/
-/bower_components/
-/node_modules/
+.vscode
+*.code-workspace
+fiveserver.config.js

@@ -115,7 +115,8 @@
     </footer>
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js' crossorigin='anonymous'></script>
-    <script src='https://roipmarsnetwork.statuspage.io/embed/script.js' crossorigin='anonymous'></script>
+    <!-- <script src='https://cdn.jsdelivr.net/npm/prometheus-query@latest/dist/prometheus-query.umd.min.js' crossorigin='anonymous'></script> -->
+    <!-- <script src='/assets/js/server-status.js'></script> -->
     <script src='/assets/js/theme.js'></script>
     <script src='/assets/js/sources.js'></script>
   </body>

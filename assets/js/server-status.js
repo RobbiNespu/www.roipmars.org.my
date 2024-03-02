@@ -2,9 +2,8 @@ const prom = new Prometheus.PrometheusDriver({
 	endpoint: 'https://status.mhrtech.my',
 	baseURL: 'metrics',
 	auth: {
-		username: 'owner',
-		password: 'ub4gqVtH57njrMkQ',
+		password: 'uk1_ZvmQ-yLJNl1bv06zgJyZxM07LzUpCCpPb050NuwD',
 	},
 })
 
-var owner = 'ub4gqVtH57njrMkQ'
+var api = 'uk1_ZvmQ-yLJNl1bv06zgJyZxM07LzUpCCpPb050NuwD'

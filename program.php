@@ -119,6 +119,10 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc3mfy.png' alt='YC3MFY'>
+										<p class='lh-1'>YC3MFY<br>HENDRA</p>
+									</div>
+									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2zpa.png' alt='9W2ZPA'>
 										<p class='lh-1'>9W2ZPA<br>ZULPAH</p>
 									</div>
@@ -126,24 +130,12 @@
 										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2euk.png' alt='9W2EUK'>
 										<p class='lh-1'>9W2EUK<br>ZAID</p>
 									</div>
-									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ubs.png' alt='9W2UBS'>
-										<p class='lh-1'>9W2UBS<br>FAIZAL</p>
-									</div>
 								</div>
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc3mfy.png' alt='YC3MFY'>
-										<p class='lh-1'>YC3MFY<br>HENDRA</p>
-									</div>
-									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/e25pzd.png' alt='E25PZD'>
-										<p class='lh-1'>E25PZD<br>HARON</p>
-									</div>
-									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' alt='9W2NDI'>
+										<img class='img-fluid rounded-circle object-fit-cover w-25 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' alt='9W2NDI'>
 										<p class='lh-1'>9W2NDI<br>NASA</p>
 									</div>
 								</div>
@@ -270,7 +262,7 @@
 				<div class='col-lg-9 figure my-1 align-items-center'>
 					<canvas id='byCountry' loading='lazy' alt='NetGraphMap'></canvas>
 				</div>
-				<div class='col-lg-3 align-self-center'>
+				<div class='col-lg-3 align-self-top'>
 					<p class='text-center fst-italic mb-0'><sub><?php
 					$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
 					$reportLastMod = filemtime(__DIR__ . '/assets/json/s-origin.json');
@@ -430,7 +422,7 @@
 				<div class='col-12'>
 					<h3 class='text-center'>Pemenang Bertuah Rangkaian RoIPMARS</h3>
 				</div>
-				<div class='col-lg-6'>
+				<!-- <div class='col-lg-6'>
 					<h4 class='text-center'>HAM Net Khas Ambang Tahun Baru 2023</h4>
 					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
 						<thead><th>No</th><th>Stesen</th></thead>
@@ -481,7 +473,7 @@
 							<tr><td>5<sup>th</sup></td><td>91KMAGP</td></tr>
 						</tbody>
 					</table>
-				</div>
+				</div> -->
 				<div class='col-lg-6'>
 					<h4 class='text-center'>Hadiah Misteri Petugas Aktiviti 2023</h4>
 					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>

@@ -48,9 +48,9 @@
           </table>
           <p class='mb-1'>Perisian tambahan untuk bantuan desktop:</p>
           <div class='btn-group d-flex mx-auto' role='group'>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.exe' target='_blank' rel='nofollow' download>RustDesk &lpar;Windows&rpar; <i class='bi-windows'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg' target='_blank' rel='nofollow' download>RustDesk &lpar;Mac&rpar; <i class='bi-apple'></i></a>
-            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb' target='_blank' rel='nofollow' download>RustDesk &lpar;Linux&rpar; <i class='bi-ubuntu'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/hafiziruslan/rustdesk-roipmars/releases/download/nightly/rustdesk-1.2.4-x86_64.exe' target='_blank' rel='nofollow' download>RustDesk &lpar;Windows&rpar; <i class='bi-windows'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/hafiziruslan/rustdesk-roipmars/releases/download/nightly/rustdesk-1.2.4-x86_64.dmg' target='_blank' rel='nofollow' download>RustDesk &lpar;Mac&rpar; <i class='bi-apple'></i></a>
+            <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://github.com/hafiziruslan/rustdesk-roipmars/releases/download/nightly/rustdesk-1.2.4-x86_64.deb' target='_blank' rel='nofollow' download>RustDesk &lpar;Linux&rpar; <i class='bi-ubuntu'></i></a>
           </div>
           <div class='btn-group d-flex mx-auto' role='group'>
             <a class='btn' style='color: #fb4137; border-color: #fb4137' type='button' href='https://download.anydesk.com/AnyDesk.exe' target='_blank' rel='nofollow' download>AnyDesk &lpar;Windows&rpar; <i class='bi-windows'></i></a>

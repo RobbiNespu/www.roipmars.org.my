@@ -69,7 +69,7 @@ $(document).ready(function () {
 		},
 		ordering: false,
 		lengthChange: false,
-		pageLength: 10,
+		pageLength: 15,
 		pagingTag: 'button',
 		pagingType: 'full_numbers',
 		processing: true,
@@ -584,7 +584,7 @@ $(document).ready(function () {
 			const takwimtime = takwimrowdata.Hari.split('<br>')[2]
 			const takwimact = takwimrowdata.Acara
 			const takwimncs = takwimrowdata.NCS.split('|')[0].trim()
-			const reportTitle = `Laporan aktiviti ${takwimact} pada ${takwimday}, ${takwimdate}, ${takwimtime} bersama ${takwimncs}`
+			const reportTitle = `Laporan ${takwimact} pada ${takwimday}, ${takwimdate}; ${takwimtime} bersama ${takwimncs}`
 			modalTitle.textContent = reportTitle
 			const reportID = `net-${source}`
 			netReport.id = reportID
@@ -600,15 +600,12 @@ $(document).ready(function () {
 						extend: 'pdfHtml5',
 						download: 'download',
 						className: 'mb-3 rounded-3',
-						text: `Muat Turun Laporan Aktiviti<br>${takwimdate}, ${takwimtime}`,
+						text: `Laporan Aktiviti ${takwimdate}, ${takwimtime}`,
 						filename: `RoIPMARS-Net_${source}`,
 						title: `${reportTitle}`,
 						messageBottom: [
 							{
-								text:
-									'Report generated via roipmars.org.my on ' +
-									new Date().toLocaleString() +
-									'\nRF➜Radio Transceiver | EL➜EchoLink | PNT➜Peanut for HAM | TS➜TeamSpeak | ZL➜Zello | MBL➜Mumble | FRN➜Free Radio Network | DC➜Discord | TG➜Telegram | TT➜Team Talk | WA➜WhatsApp',
+								text: 'RF->Radio Transceiver | EL->EchoLink | TS->TeamSpeak | ZL->Zello | MBL->Mumble | FRN->Free Radio Network\nPNT->Peanut for HAM | DC->Discord | TG->Telegram | TT->Team Talk | WA->WhatsApp',
 								alignment: 'center',
 								fontSize: 8,
 							},
@@ -623,7 +620,7 @@ $(document).ready(function () {
 								(doc['footer'] = function (currentPage, pageCount) {
 									return [
 										{
-											text: '©' + new Date().getFullYear() + ' RoIPMARS Network | developed by dev@roipmars.org.my | ' + currentPage.toString() + ' of ' + pageCount,
+											text: `© ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()} | ${currentPage.toString()} of ${pageCount}`,
 											alignment: 'center',
 											fontSize: 8,
 										},
@@ -700,6 +697,12 @@ $(document).ready(function () {
 			// })
 
 			$('#' + reportID).delegate('tbody tr td', 'click', function () {
+				try {
+					generateQsl(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
+				} catch (err) {
+					alert('eQSL generator subprocess error. page refresh required.')
+					setTimeout(location.reload(), 5000)
+				}
 				// let d = `${source}`.slice(0,2)
 				// let m = `${source}`.slice(2,4)
 				// let y = `${source}`.slice(4,6)
@@ -711,20 +714,20 @@ $(document).ready(function () {
 				// let clicktime = rowdata[3]
 				// const occurrences = netReportTable.column(2).data().toArray().reduce(function (acc, curr) { return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc }, {})
 				// console.log(occurrences)
-				const clickReportData = []
-				clickReportData.push({
-					id: netReportTable.row(this).data()[0],
-					caller: netReportTable.row(this).data()[1],
-					mode: netReportTable.row(this).data()[2],
-					utc: netReportTable.row(this).data()[3],
-					date: takwimdate,
-					activity: takwimact,
-					ncs: takwimncs,
-				})
-				console.log(clickReportData)
-				setTimeout(function () {
-					clickReportData.splice(0, clickReportData.length)
-				}, 3000)
+				// const clickReportData = []
+				// clickReportData.push({
+				// 	id: netReportTable.row(this).data()[0],
+				// 	caller: netReportTable.row(this).data()[1],
+				// 	mode: netReportTable.row(this).data()[2],
+				// 	utc: netReportTable.row(this).data()[3],
+				// 	date: takwimdate,
+				// 	activity: takwimact,
+				// 	ncs: takwimncs,
+				// })
+				// console.log(clickReportData)
+				// setTimeout(function () {
+				// 	clickReportData.splice(0, clickReportData.length)
+				// }, 3000)
 				// console.clear()
 				// alert(rowno + 1 + '\t' + clickcall + '\t' + clickmode + '\t' + clickdate + ' @ ' + clicktime)
 				// downeQSL(clickcall, clickmode, clicktime)

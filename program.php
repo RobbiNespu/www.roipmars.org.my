@@ -119,11 +119,11 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-25 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2zpa.png' alt='9W2ZPA'>
+										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2zpa.png' alt='9W2ZPA'>
 										<p class='lh-1'>9W2ZPA<br>ZULPAH</p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-25 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' alt='9W2NDI'>
+										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' alt='9W2NDI'>
 										<p class='lh-1'>9W2NDI<br>NASA</p>
 									</div>
 								</div>

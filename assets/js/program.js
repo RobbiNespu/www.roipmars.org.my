@@ -698,39 +698,65 @@ $(document).ready(function () {
 
 			$('#' + reportID).delegate('tbody tr td', 'click', function () {
 				try {
-					generateQsl(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
-				} catch (err) {
+					generateQSL(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
+				} catch (error) {
 					alert('eQSL generator subprocess error. page refresh required.')
 					setTimeout(location.reload(), 5000)
 				}
-				// let d = `${source}`.slice(0,2)
-				// let m = `${source}`.slice(2,4)
-				// let y = `${source}`.slice(4,6)
-				// let rowno = netReportTable.row(this).index()
-				// let rowdata = netReportTable.row(rowno).data()
-				// let clickcall = rowdata[1]
-				// let clickmode = rowdata[2]
-				// let clickdate = d + '/' + m + '/'+y
-				// let clicktime = rowdata[3]
-				// const occurrences = netReportTable.column(2).data().toArray().reduce(function (acc, curr) { return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc }, {})
-				// console.log(occurrences)
-				// const clickReportData = []
-				// clickReportData.push({
-				// 	id: netReportTable.row(this).data()[0],
-				// 	caller: netReportTable.row(this).data()[1],
-				// 	mode: netReportTable.row(this).data()[2],
-				// 	utc: netReportTable.row(this).data()[3],
-				// 	date: takwimdate,
-				// 	activity: takwimact,
-				// 	ncs: takwimncs,
-				// })
-				// console.log(clickReportData)
-				// setTimeout(function () {
-				// 	clickReportData.splice(0, clickReportData.length)
-				// }, 3000)
-				// console.clear()
-				// alert(rowno + 1 + '\t' + clickcall + '\t' + clickmode + '\t' + clickdate + ' @ ' + clicktime)
-				// downeQSL(clickcall, clickmode, clicktime)
+				async function generateQSL(date, activity, ncs, caller, modes, utctime) {
+					const { jsPDF } = window.jspdf
+					switch (modes) {
+						case 'RF':
+							var mode = 'FM (144.800MHz)'
+							break
+						default:
+							var mode = 'VOI'
+							break
+					}
+					var eQSL = new jsPDF({
+						orientation: 'l',
+						unit: 'mm',
+						format: 'a4',
+						compress: true,
+					})
+					eQSL.addFont('/assets/font/Handlee-Regular.ttf', 'Handlee-Regular', 'normal')
+					eQSL.addFont('/assets/font/KodeMono-Bold.ttf', 'KodeMono-Bold', 'normal')
+					eQSL.addFont('/assets/font/KodeMono-Medium.ttf', 'KodeMono-Medium', 'normal')
+					eQSL.addFont('/assets/font/KodeMono-Regular.ttf', 'KodeMono-Regular', 'normal')
+					eQSL.addFont('/assets/font/KodeMono-SemiBold.ttf', 'KodeMono-SemiBold', 'normal')
+					eQSL.addFont('/assets/font/Orbitron-Black.ttf', 'Orbitron-Black', 'normal')
+					eQSL.addFont('/assets/font/SairaExtraCondensed-Thin.ttf', 'SairaExtraCondensed-Thin', 'normal')
+					eQSL.addImage('/assets/eqsl/eQSL_template_site.png', 'PNG', 0, 0, 297, 210)
+					eQSL.setFont('Handlee-Regular').setFontSize(30).setTextColor('#72c7ef').text(date.replaceAll('-', ' ').toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+					eQSL.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.replace(/(\[(KHAS|SPECIAL|KHUSUS)\])/g,'').trim(), 148.5, 55, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
+					try {
+						let respCALL = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${caller}`)
+						if (respCALL) {
+							let NetCaller = await respCALL.json()
+							eQSL.setFont('KodeMono-Bold').setFontSize(70).setTextColor('#5cce54').text(NetCaller.call, 148.5, 110, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+							eQSL.setFont('KodeMono-Regular').setFontSize(25).setTextColor('#5cce54').text(`(${NetCaller.name})`, 148.5, 125, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+						}
+					} catch (error) {
+						eQSL.setFont('KodeMono-Bold').setFontSize(70).setTextColor('#5cce54').text(caller, 148.5, 110, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+					}
+					eQSL.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('MoT', 49.5, 147, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					eQSL.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(mode, 49.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					eQSL.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('NCS', 148.5, 147, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					try {
+						let respNCS = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${ncs}`)
+						if (respNCS) {
+							let NetNCS = await respNCS.json()
+							eQSL.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(NetNCS.call, 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+							eQSL.setFont('KodeMono-Regular').setFontSize(12).setTextColor('black').text(`(${NetNCS.name})`, 148.5, 162, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+						}
+					} catch (error) {
+						eQSL.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(ncs, 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					}
+					eQSL.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('UTC', 247.5, 147, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					eQSL.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(utctime.replaceAll(':', ''), 247.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					eQSL.setFont('KodeMono-Regular').setFontSize(8).setTextColor('#414a4c').text(`© ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+					eQSL.save(date.split(' ').reverse().join('-') + '_' + caller + '.pdf')
+				}
 			})
 		})
 	})

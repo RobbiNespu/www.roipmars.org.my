@@ -698,6 +698,7 @@ $(document).ready(function () {
 
 			$('#' + reportID).delegate('tbody tr td', 'click', function () {
 				try {
+					fetch('https://api.roipmars.org.my/hook/eqsl-gen?caller='+netReportTable.row(this).data()[1])
 					generateQSL(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
 				} catch (error) {
 					alert('eQSL generator subprocess error. page refresh required.')

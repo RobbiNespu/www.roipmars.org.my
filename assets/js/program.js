@@ -701,7 +701,7 @@ $(document).ready(function () {
 				let confirmtxt = `You have selected eQSL dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}.\nAre you sure?\n\nnote: Please note that you are only able to download 1 eQSL each session. to download another, please reload the page.`
 				if (confirm(confirmtxt) == true) {
 					try {
-						// fetch('https://api.roipmars.org.my/hook/eqslgen?caller=' + netReportTable.row(this).data()[1])
+						fetch('https://api.roipmars.org.my/hook/eqslgen?caller=' + netReportTable.row(this).data()[1])
 						generateQSL(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
 					} catch (error) {
 						alert('eQSL generator subprocess error. reload required.\nclick "ok" to refresh.')

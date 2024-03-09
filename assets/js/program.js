@@ -699,7 +699,7 @@ $(document).ready(function () {
 
 			$('#' + reportID).delegate('tbody tr td', 'click', async function () {
 				let eCertProg = document.getElementById('eCert-progress')
-				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}.\nAre you sure?\n\nnote: Please note that you are only able to download 1 eCert each session. to download another, please reload the page.`
+				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}.\nAre you sure?\nClick 'ok' to continue.\n\nnote: Please note that you are only able to download 1 eCert each session. to download another, please reload the page.`
 				if (confirm(confirmtxt) == true) {
 					try {
 						eCertProg.innerText = 'request confirmed. generating eCert...'

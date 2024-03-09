@@ -697,14 +697,17 @@ $(document).ready(function () {
 			// })
 
 
-			$('#' + reportID).delegate('tbody tr td', 'click', function () {
-				let confirmtxt = `You have selected eQSL dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}.\nAre you sure?\n\nnote: Please note that you are only able to download 1 eQSL each session. to download another, please reload the page.`
+			$('#' + reportID).delegate('tbody tr td', 'click', async function () {
+				let eCertProg = document.getElementById('eCert-progress')
+				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}.\nAre you sure?\n\nnote: Please note that you are only able to download 1 eCert each session. to download another, please reload the page.`
 				if (confirm(confirmtxt) == true) {
 					try {
-						fetch('https://api.roipmars.org.my/hook/eqslgen?caller=' + netReportTable.row(this).data()[1])
-						generateQSL(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
+						eCertProg.innerText = 'request confirmed. generating eCert...'
+						await fetch('https://api.roipmars.org.my/hook/eqslgen?caller=' + netReportTable.row(this).data()[1])
+						await generateQSL(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
 					} catch (error) {
-						alert('eQSL generator subprocess error. reload required.\nclick "ok" to refresh.')
+						console.log(error)
+						alert('eCert generator subprocess error. reload required.\nclick "ok" to refresh.')
 						setTimeout(location.reload(), 5000)
 					}
 				}
@@ -712,7 +715,7 @@ $(document).ready(function () {
 					const { jsPDF } = window.jspdf
 					switch (modes) {
 						case 'RF':
-							var mode = 'FM (144.800MHz)'
+							var mode = 'FM (144.8MHz)'
 							break
 						default:
 							var mode = 'VOI'
@@ -724,6 +727,7 @@ $(document).ready(function () {
 						format: 'a4',
 						compress: true,
 					})
+
 					eQSL.addFont('/assets/font/HYPost-Light.ttf', 'HYPost-Light', 'normal')
 					eQSL.addFont('/assets/font/KodeMono-Bold.ttf', 'KodeMono-Bold', 'normal')
 					eQSL.addFont('/assets/font/KodeMono-Medium.ttf', 'KodeMono-Medium', 'normal')
@@ -733,13 +737,17 @@ $(document).ready(function () {
 					eQSL.addFont('/assets/font/Orbitron-Black.ttf', 'Orbitron-Black', 'normal')
 					eQSL.addFont('/assets/font/SairaExtraCondensed-Thin.ttf', 'SairaExtraCondensed-Thin', 'normal')
 					eQSL.addFont('/assets/font/SourceSansPro-Regular.ttf', 'SourceSansPro-Regular', 'normal')
+
 					// eQSL.addImage('/assets/eqsl/eQSL_template_site.png', 'PNG', 0, 0, 297, 210)
 					eQSL.addImage('/assets/eqsl/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
 					eQSL.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 98, 10, 100, 20)
 					eQSL.addImage('/media/image/roip-concept.png', 'PNG', 10, 179, 62, 20)
 					eQSL.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 220, 179, 65, 20)
+
 					eQSL.setFont('Orbitron-Black').setFontSize(30).setTextColor('#72c7ef').text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(new Date(date.split('/')[2], date.split('/')[1] - 1, date.split('/')[0])).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
 					eQSL.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250, renderingMode: 'fillThenStroke' })
+
+					eCertProg.innerText = 'lookup caller data...'
 					try {
 						let respCALL = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${caller}`)
 						if (respCALL) {
@@ -750,9 +758,12 @@ $(document).ready(function () {
 					} catch (error) {
 						eQSL.setFont('KodeMono-Bold').setFontSize(90).setTextColor('#5cce54').text(caller, 148.5, 100, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
 					}
+
 					eQSL.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('MoT', 49.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					eQSL.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(mode, 49.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					eQSL.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+
+					eCertProg.innerText = 'lookup controller data...'
 					try {
 						let respNCS = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${ncs}`)
 						if (respNCS) {
@@ -763,16 +774,18 @@ $(document).ready(function () {
 					} catch (error) {
 						eQSL.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(ncs, 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					}
+
 					eQSL.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('UTC', 247.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					eQSL.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(utctime.replaceAll(':', ''), 247.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 
 					eQSL.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY', 148.5, 186, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fill' })
 					eQSL.setFont('SourceSansPro-Regular').setFontSize(10).setTextColor('black').text('PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP) [PPM-006-10-01062020]', 148.5, 189, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fill' })
 					eQSL.setFont('HYPost-Light').setFontSize(7).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 148.5, 193, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fill' })
-					eQSL.setFont('OpenSansCondensed-Regular').setFontSize(8).setTextColor('black').text('this ‘Electronic QSL’ (eQSL) are system generated based on reports submitted by controller. contact member@roipmars.org.my for any discrepancy.', 148.5, 196, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fill' })
+					eQSL.setFont('OpenSansCondensed-Regular').setFontSize(8).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) are computer generated based on reports submitted by controller. contact member@roipmars.org.my for any discrepancy.', 148.5, 196, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fill' })
 					eQSL.setFont('KodeMono-Regular').setFontSize(9).setTextColor('black').text(`© ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fill' })
 
-					eQSL.save(date.split('/').reverse().join('-') + '_' + caller + '.pdf')
+					eQSL.save(`${date.split('/').reverse().join('-')}_${caller}.pdf`)
+					eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller}.pdf saved`
 				}
 			})
 		})
@@ -783,5 +796,6 @@ $(document).ready(function () {
 		modalTitle.textContent = `Laporan Aktiviti`
 		netReport.id = 'netRep'
 		// netRepMod.id = 'netRepMod'
+		document.getElementById('eCert-progress').innerText = ''
 	})
 })

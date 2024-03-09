@@ -31,7 +31,7 @@ setInterval(function () {
     }
     docBcfy.innerHTML = '<div class="col-12"><span>' + descr + '</span></div><div class="row d-flex justify-content-center">' + stats + lists + rate + metas + '</div>'
   })
-}, 30000)
+}, 60000)
 
 $.getJSON(bcfyOwnHook, function (data) {
   let status = data.status

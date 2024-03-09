@@ -167,9 +167,10 @@
 						<div class='modal-dialog modal-dialog-centered'>
 							<div class='modal-content'>
 								<div class='modal-header'>
-									<h4 class='modal-title text-center' id='netreport'>Laporan Aktiviti</h4>
+									<h4 class='modal-title text-center lh-1' id='netreport'>Laporan Aktiviti</h4>
 								</div>
 								<div class='modal-body'>
+									<span class='d-flex justify-content-center fs-6 font-monospace lh-1 mb-3' id='eCert-progress'></span>
 									<div class='row'>
 										<div class='col-8'>
 											<table class='table table-sm table-striped text-center align-middle' id='netRep'></table>

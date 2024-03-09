@@ -733,6 +733,7 @@ $(document).ready(function () {
 						compress: true,
 					})
 
+					eCertProg.innerText = 'loading fonts...'
 					eCert.addFont('/assets/font/HYPost-Light.ttf', 'HYPost-Light', 'normal')
 					eCert.addFont('/assets/font/KodeMono-Bold.ttf', 'KodeMono-Bold', 'normal')
 					eCert.addFont('/assets/font/KodeMono-Medium.ttf', 'KodeMono-Medium', 'normal')
@@ -743,12 +744,21 @@ $(document).ready(function () {
 					eCert.addFont('/assets/font/SairaExtraCondensed-Thin.ttf', 'SairaExtraCondensed-Thin', 'normal')
 					eCert.addFont('/assets/font/SourceSansPro-Regular.ttf', 'SourceSansPro-Regular', 'normal')
 
+					eCertProg.innerText = 'loading images...'
 					// eCert.addImage('/assets/ecert/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
-					eCert.addImage('/assets/ecert/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
+					await fetch(`/assets/ecert/${source}.jpg`)
+						.then((response) => {
+							if (response.ok) {
+								eCert.addImage(`/assets/ecert/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
+							} else {
+								eCert.addImage('/assets/ecert/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
+							}
+						})
 					eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 98, 10, 100, 20)
 					eCert.addImage('/media/image/roip-concept.png', 'PNG', 10, 179, 62, 20)
 					eCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 220, 179, 65, 20)
 
+					eCertProg.innerText = 'loading texts...'
 					eCert.setFont('Orbitron-Black').setFontSize(30).setTextColor('#72c7ef').text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(new Date(date.split('/')[2], date.split('/')[1] - 1, date.split('/')[0])).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
 					eCert.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250, renderingMode: 'fillThenStroke' })
 

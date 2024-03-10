@@ -762,7 +762,7 @@ $(document).ready(function () {
 					eCert.setFont('Orbitron-Black').setFontSize(30).setTextColor('#72c7ef').text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(new Date(date.split('/')[2], date.split('/')[1] - 1, date.split('/')[0])).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
 					eCert.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250, renderingMode: 'fillThenStroke' })
 
-					eCertProg.innerText = 'lookup caller data...'
+					eCertProg.innerText = 'lookup caller detail...'
 					try {
 						let respCALL = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${caller}`)
 						if (respCALL) {
@@ -776,18 +776,22 @@ $(document).ready(function () {
 
 					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('MoT', 49.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(mode, 49.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 
-					eCertProg.innerText = 'lookup controller data...'
-					try {
-						let respNCS = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${ncs}`)
-						if (respNCS) {
-							let NetNCS = await respNCS.json()
-							eCert.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(NetNCS.call, 148.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-							eCert.setFont('KodeMono-Regular').setFontSize(12).setTextColor('#5a5a5a').text(`(${NetNCS.name})`, 148.5, 170, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					if (ncs != caller) {
+						eCertProg.innerText = 'lookup controller detail...'
+						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+						try {
+							let respNCS = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${ncs}`)
+							if (respNCS) {
+								let NetNCS = await respNCS.json()
+								eCert.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(NetNCS.call, 148.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+								eCert.setFont('KodeMono-Regular').setFontSize(12).setTextColor('#5a5a5a').text(`(${NetNCS.name})`, 148.5, 170, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+							}
+						} catch (error) {
+							eCert.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(ncs, 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 						}
-					} catch (error) {
-						eCert.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(ncs, 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					} else {
+						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('Congratulations and thanks for duty as NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					}
 
 					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('UTC', 247.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })

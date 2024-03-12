@@ -749,9 +749,13 @@ $(document).ready(function () {
 					await fetch(`/assets/ecert/${source}.jpg`)
 						.then((response) => {
 							if (response.ok) {
-								eCert.addImage(`/assets/ecert/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
+									eCert.addImage(`/assets/ecert/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
 							} else {
-								eCert.addImage('/assets/ecert/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
+								if (activity.toLowerCase().search('sahur') > 0) {
+									eCert.addImage(`/assets/ecert/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
+								} else {
+									eCert.addImage('/assets/ecert/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
+								}
 							}
 						})
 					eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 98, 10, 100, 20)

@@ -171,7 +171,7 @@
 									<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
 								</div>
 								<div class='modal-body'>
-									<span class='d-flex justify-content-center fs-6 font-monospace lh-1 mb-3' id='eCert-progress'></span>
+									<span class='d-flex justify-content-center fs-6 font-monospace lh-1 mb-3 text-center' id='eCert-progress'></span>
 									<div class='row'>
 										<div class='col-8 align-self-center text-center'>
 											<table class='table table-sm table-striped text-center align-middle' id='netRep'></table>

@@ -812,8 +812,35 @@ $(document).ready(function () {
 					eCert.setFont('OpenSansCondensed-Regular').setFontSize(8).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) are computer generated based on reports submitted by controller. contact member@roipmars.org.my for any discrepancy.', 148.5, 196, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fill' })
 					eCert.setFont('KodeMono-Regular').setFontSize(9).setTextColor('black').text(`© ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fill' })
 
-					eCert.save(`${date.split('/').reverse().join('-')}_${caller}.pdf`)
-					eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller}.pdf saved. check your 'downloads' folder.`
+					eCertProg.innerText = `eCert Ready!`
+					let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', '60123456789')
+					if (WaCtc == null || WaCtc == '') {
+						eCert.save(`${date.split('/').reverse().join('-')}_${caller}.pdf`)
+						eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller} saved.\ncheck your 'downloads' folder.`
+					} else {
+						eCertProg.innerText = `sending eCert via WhatsApp...`
+						let eCertURI = eCert.output('datauristring', { filename: `${date.split('/').reverse().join('-')}_${caller}.pdf` })
+						await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
+							method: 'POST',
+							headers: {
+								'Content-Type': 'application/json',
+								authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+							},
+							body: JSON.stringify({
+								phone: WaCtc,
+								isGroup: false,
+								isNewsletter: false,
+								filename: `eCert_${date.split('/').reverse().join('-')}_${caller}.pdf`,
+								base64: eCertURI,
+							}),
+						}).then((response) => {
+							if (response.ok) {
+								eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller} sent to ${WaCtc}.\ncheck your WhatsApp message from 601153440440.`
+							} else {
+								eCertProg.innerText = `eCert sending fail. retry again later.`
+							}
+						})
+					}
 				}
 			})
 		})

@@ -582,7 +582,7 @@ $(document).ready(function () {
 			const takwimday = takwimrowdata.Hari.split('<br>')[0]
 			const takwimdate = takwimrowdata.Hari.split('<br>')[1]
 			const takwimtime = takwimrowdata.Hari.split('<br>')[2]
-			const takwimact = takwimrowdata.Acara.replace(/(\[(KHAS|SPECIAL|KHUSUS)\])/g,'').trim()
+			const takwimact = takwimrowdata.Acara.replace(/(\[(KHAS|SPECIAL|KHUSUS)\])/g,'').trim().replace(/[\u006E\u00B0\u00B2\u00B3\u00B9\u02AF\u0670\u0711\u2121\u213B\u2207\u29B5\uFC5B-\uFC5D\uFC63\uFC90\uFCD9\u2070\u2071\u2074-\u208E\u2090-\u209C\u0345\u0656\u17D2\u1D62-\u1D6A\u2A27\u2C7C]+/g, '')
 			const takwimncs = takwimrowdata.NCS.split('|')[0].trim()
 			const reportTitle = `Laporan ${takwimact} pada ${takwimday}, ${takwimdate} ${takwimtime} bersama ${takwimncs}`
 			modalTitle.textContent = reportTitle

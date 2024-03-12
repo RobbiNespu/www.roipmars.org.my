@@ -818,7 +818,7 @@ $(document).ready(function () {
 						eCert.save(`${date.split('/').reverse().join('-')}_${caller}.pdf`)
 						eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller} saved.\ncheck your 'downloads' folder.`
 					} else {
-						eCertProg.innerText = `sending eCert via WhatsApp...`
+						eCertProg.innerText = `sending eCert to ${WaCtc}...`
 						let eCertURI = eCert.output('datauristring', { filename: `${date.split('/').reverse().join('-')}_${caller}.pdf` })
 						await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 							method: 'POST',
@@ -835,9 +835,9 @@ $(document).ready(function () {
 							}),
 						}).then((response) => {
 							if (response.ok) {
-								eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller} sent to ${WaCtc}.\ncheck your WhatsApp message from 601153440440.`
+								eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller} sent to ${WaCtc}.\ncheck your message from 601153440440.`
 							} else {
-								eCertProg.innerText = `eCert sending fail. retry again later.`
+								eCertProg.innerText = `eCert send fail. retry again later.`
 							}
 						})
 					}

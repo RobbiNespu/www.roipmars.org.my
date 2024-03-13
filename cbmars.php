@@ -42,7 +42,7 @@
                 <td>RoIPMARS</td>
                 <td><span class='badge bg-primary-subtle rounded-3'>113MSxxx</span> <span class='badge bg-primary-subtle rounded-3'>58MSxxx</span><br><span class='badge bg-primary-subtle rounded-3'>91MSxxx</span> <span class='badge bg-primary-subtle rounded-3'>225MSxxx</span> <span class='badge bg-primary-subtle rounded-3'>153MSxxx</span></td>
                 <td>Rangkaian Kumpulan RoIPMARS</td>
-                <td><a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='https://wa.me/601110795693' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 113MSUZL</a></td>
+                <td><a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='https://wa.me/60134009222' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 113MSOGK</a></td>
               </tr>
               <tr>
                 <td>Indonesia</td>

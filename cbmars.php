@@ -61,6 +61,7 @@
           ?></p>
           <p class='fw-bold'>Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
           <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
+          <span class='d-flex justify-content-center fs-6 font-monospace lh-1 mb-3 text-center' id='cbCert-progress'></span>
         </div>
         <div class='col-12 my-3'>
           <table class='table align-middle text-uppercase text-wrap user-select-none' id='cbcslist'>
@@ -86,6 +87,7 @@
     <?php require_once 'footer.php' ?>
 		<script src='https://cdn.datatables.net/v/bs5/dt-2.0.2/b-3.0.1/b-html5-3.0.1/fh-4.0.1/kt-2.12.0/r-3.0.0/rg-1.5.0/rr-1.5.0/sc-2.4.1/sb-1.7.0/sp-2.3.0/sl-2.0.0/datatables.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/jspdf@latest/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
     <script src='/assets/js/cbcs.js'></script>
   </body>
 

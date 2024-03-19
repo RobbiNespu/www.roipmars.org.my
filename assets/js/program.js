@@ -577,7 +577,6 @@ $(document).ready(function () {
 		const source = button.getAttribute('data-bs-source')
 		$('#takwim').delegate('tbody tr td:last-child', 'click', function () {
 			const modalTitle = netRep.querySelector('.modal-title')
-			// const takwimrowno = takwimtable.row(this).index()
 			const takwimrowdata = takwimtable.row(this).data()
 			const takwimday = takwimrowdata.Hari.split('<br>')[0]
 			const takwimdate = takwimrowdata.Hari.split('<br>')[1]
@@ -745,16 +744,16 @@ $(document).ready(function () {
 					eCert.addFont('/assets/font/SourceSansPro-Regular.ttf', 'SourceSansPro-Regular', 'normal')
 
 					eCertProg.innerText = 'loading images...'
-					// eCert.addImage('/media/image/ecert/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
-					await fetch(`/media/image/ecert/${source}.jpg`)
+					// eCert.addImage('/assets/image/program/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
+					await fetch(`/assets/image/program/${source}.jpg`)
 						.then((response) => {
 							if (response.ok) {
-									eCert.addImage(`/media/image/ecert/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
+									eCert.addImage(`/assets/image/program/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
 							} else {
 								if (activity.toLowerCase().search('sahur') > 0) {
-									eCert.addImage(`/media/image/ecert/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
+									eCert.addImage(`/assets/image/program/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
 								} else {
-									eCert.addImage('/media/image/ecert/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
+									eCert.addImage('/assets/image/program/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
 								}
 							}
 						})

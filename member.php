@@ -240,6 +240,7 @@
             $file_last_modified = filemtime(__DIR__ . '/assets/json/member.json');
             echo ' yang disahkan setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>
+          <span class='d-flex justify-content-center fs-6 font-monospace lh-1 mb-3 text-center' id='memCert-progress'></span>
           <table class='table table-sm table-striped align-middle' id='memberlist'></table>
         </div>
       </div>
@@ -247,6 +248,7 @@
     <?php require_once 'footer.php' ?>
 		<script src='https://cdn.datatables.net/v/bs5/dt-2.0.2/b-3.0.1/b-html5-3.0.1/fh-4.0.1/kt-2.12.0/r-3.0.0/rg-1.5.0/rr-1.5.0/sc-2.4.1/sb-1.7.0/sp-2.3.0/sl-2.0.0/datatables.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/jspdf@latest/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
     <script src='/assets/js/member.js'></script>
   </body>
 

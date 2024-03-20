@@ -113,12 +113,12 @@ $(document).ready(function () {
 			memCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('f3e5ab').text(`© ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
       memCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 740, 725, 275, 65)
 
-			memCert.setCreationDate(new Date())
-			memCert.setDocumentProperties({
+			memCert.setCreationDate(new Date()).setLanguage('ms-MY').setDocumentProperties({
 				title: `Cert_RoIPMARS-${call}`,
 				subject: `${id} - ${call}`,
 				author: '9W2LGX (Hafizi Ruslan)',
-				creator: 'RoIPMARS Member Cert generator',
+				keywords: 'roipmars, teamspeak, ts3malaysia, network, komunikasi, radio, roip, voip, technology',
+				creator: 'RoIPMARS Member Cert generator'
 			})
 
       roipmarsCert.innerText = `Certificate Ready!`

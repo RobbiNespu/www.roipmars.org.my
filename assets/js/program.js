@@ -810,11 +810,12 @@ $(document).ready(function () {
 					eCert.setFont('HYPost-Light').setFontSize(7).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 148.5, 193, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('OpenSansCondensed-Regular').setFontSize(8).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 148.5, 196, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('KodeMono-Regular').setFontSize(9).setTextColor('black').text(`© ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
-					eCert.setCreationDate(new Date())
-					eCert.setDocumentProperties({
+
+					eCert.setCreationDate(new Date()).setLanguage('en-MY').setDocumentProperties({
 						title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,
 						subject: `${caller} | ${date.split('/').reverse().join('-')}T${utctime}`,
 						author: '9W2LGX (Hafizi Ruslan)',
+						keywords: 'roipmars, teamspeak, ts3malaysia, network, komunikasi, radio, roip, voip, technology',
 						creator: 'RoIPMARS eCert generator'
 					})
 

@@ -66,12 +66,7 @@
         <div class='col-12 my-3'>
           <table class='table align-middle text-uppercase text-wrap user-select-none' id='cbcslist'>
             <thead><tr><th class='dt-head-center'>ID</th><th class='dt-head-center'>CALLSIGN</th><th class='dt-head-center'>NAMA</th><th class='dt-head-center'>LOKALAN</th><th class='dt-head-center'>DAFTAR</th></tr></thead>
-            <!-- <tbody> -->
-              <!--<tr><td>I466</td><td>113MSJMI</td><td>MUHAMAD JAMIL BIN MUHAMAD SAHA ROZI</td><td>GURUN</td><td>20 Oct 2022</td></tr>-->
-              <!--<tr><td>I497</td><td>113MSZNL</td><td>ZAINAL BIN YAACOB</td><td>FELDA KEMELAH, SEGAMAT, JOHOR</td><td>15 Feb 2020</td></tr>-->
-              <!--<tr><td>I003</td><td>113MSKAC</td><td>ABDUL KARIM BIN SAAD</td><td>SIK, KEDAH</td><td>06 Feb 2020</td></tr>-->
-              <!--<tr><td>I001</td><td>113MSYKV</td><td>ABD HAMID BIN JAAFAR</td><td>PENDANG, KEDAH</td><td>06 Feb 2020</td></tr>-->
-            <!-- </tbody> -->
+            
           </table>
         </div>
       </div>

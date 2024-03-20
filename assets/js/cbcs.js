@@ -115,13 +115,13 @@ $(document).ready(function () {
 			} catch (err) {
 				callctc = '601234567890'
 			}
-			let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', '60123456789')
+			let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', callctc)
 			if (WaCtc == null || WaCtc == '') {
 				cbcsCert.save(`Cert_RoIPMARS_CB-${call}.pdf`)
 				CBCert.innerText = `Cert_RoIPMARS_CB-${call} saved.\ncheck your 'downloads' folder.`
 			} else {
 				CBCert.innerText = `sending Certificate to ${WaCtc}...`
-				await fetch(`https://api.roipmars.org.my/hook/getcontact`, {
+				await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
 					method: 'POST',
 					headers: { 'content-type': 'application/json' },
 					body: JSON.stringify({

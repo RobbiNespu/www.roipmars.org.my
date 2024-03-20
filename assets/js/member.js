@@ -136,7 +136,7 @@ $(document).ready(function () {
 				roipmarsCert.innerText = `Cert_RoIPMARS-${call} saved.\ncheck your 'downloads' folder.`
 			} else {
 				roipmarsCert.innerText = `sending Certificate to ${WaCtc}...`
-				await fetch(`https://api.roipmars.org.my/hook/getcontact`, {
+				await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
 					method: 'POST',
 					headers: { 'content-type': 'application/json' },
 					body: JSON.stringify({

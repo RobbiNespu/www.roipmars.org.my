@@ -821,7 +821,7 @@ $(document).ready(function () {
 
 					eCertProg.innerText = `eCert Ready!`
 					try {
-						let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${call}`)
+						let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${caller}`)
 						if (respCtc) {
 							let callContact = await respCtc.json()
 							callCtc = callContact.contact
@@ -829,17 +829,17 @@ $(document).ready(function () {
 					} catch (err) {
 						callctc = '601234567890'
 					}
-					let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', '60123456789')
+					let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', callCtc)
 					if (WaCtc == null || WaCtc == '') {
 						eCert.save(`${date.split('/').reverse().join('-')}_${caller}.pdf`)
 						eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller} saved.\ncheck your 'downloads' folder.`
 					} else {
 						eCertProg.innerText = `sending eCert to ${WaCtc}...`
-						await fetch(`https://api.roipmars.org.my/hook/getcontact`, {
+						await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
 							method: 'POST',
 							headers: { 'content-type': 'application/json' },
 							body: JSON.stringify({
-								callsign: `${call}`,
+								callsign: `${caller}`,
 								contact: `${WaCtc}`,
 							}),
 						})

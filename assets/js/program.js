@@ -699,7 +699,7 @@ $(document).ready(function () {
 
 			$('#' + reportID).delegate('tbody tr td', 'click', async function () {
 				let eCertProg = document.getElementById('eCert-progress')
-				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}.\nAre you sure?\nClick 'ok' to continue`
+				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}. Are you sure?\nClick 'ok' to continue`
 				if (confirm(confirmtxt) == true) {
 					try {
 						eCertProg.innerText = 'request confirmed. generating eCert...'
@@ -815,17 +815,34 @@ $(document).ready(function () {
 						title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,
 						subject: `${caller} | ${date.split('/').reverse().join('-')}T${utctime}`,
 						author: '9W2LGX (Hafizi Ruslan)',
-						keywords: 'roipmars, teamspeak, ts3malaysia, network, komunikasi, radio, roip, voip, technology',
+						keywords: 'roipmars,teamspeak,teamspeakmalaysia,teamspeak3malaysia,ts3malaysia,network,komunikasi,radio,roip,voip,technology',
 						creator: 'RoIPMARS eCert generator'
 					})
 
 					eCertProg.innerText = `eCert Ready!`
+					try {
+						let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${call}`)
+						if (respCtc) {
+							let callContact = await respCtc.json()
+							callCtc = callContact.contact
+						}
+					} catch (err) {
+						callctc = '601234567890'
+					}
 					let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', '60123456789')
 					if (WaCtc == null || WaCtc == '') {
 						eCert.save(`${date.split('/').reverse().join('-')}_${caller}.pdf`)
 						eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller} saved.\ncheck your 'downloads' folder.`
 					} else {
 						eCertProg.innerText = `sending eCert to ${WaCtc}...`
+						await fetch(`https://api.roipmars.org.my/hook/getcontact`, {
+							method: 'POST',
+							headers: { 'content-type': 'application/json' },
+							body: JSON.stringify({
+								callsign: `${call}`,
+								contact: `${WaCtc}`,
+							}),
+						})
 						let eCertURI = eCert.output('datauristring', { filename: `${date.split('/').reverse().join('-')}_${caller}.pdf` })
 						await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 							method: 'POST',

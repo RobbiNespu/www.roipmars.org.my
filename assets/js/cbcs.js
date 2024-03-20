@@ -43,17 +43,16 @@ $(document).ready(function () {
     }
   })
   let CBCert = document.getElementById('cbCert-progress')
-  $('#cbcslist').delegate('tbody tr td', 'click', async function () {
+  $('#cbcslist').delegate('tbody tr td', 'click', function () {
 		const cbcsdata = cbmarsreg.row(this).data()
 		const cbcsID = cbcsdata[0]
 		const cbcsCall = cbcsdata[1]
 		const cbcsName = cbcsdata[2]
 		const cbcsRegDate = cbcsdata[4]
-		let confirmtxt = `You are about to download Certificate for ${cbcsCall}.\nAre you sure?\nClick 'ok' to continue`
+		let confirmtxt = `You are requesting Certificate for ${cbcsCall}. Are you sure?\nClick 'ok' to continue`
 		if (confirm(confirmtxt) == true) {
       try {
-        CBCert.innerText = `request confirmed. generating Certificate...`
-				await genCert(cbcsID, cbcsCall, cbcsName, cbcsRegDate)
+				genCert(cbcsID, cbcsCall, cbcsName, cbcsRegDate)
 			} catch (error) {
 				console.log(error)
 				alert('Cert generator subprocess error. reload required.\nclick "ok" to refresh.')
@@ -102,17 +101,34 @@ $(document).ready(function () {
 				title: `Cert_RoIPMARS_CB-${call}`,
 				subject: `${id} - ${call}`,
 				author: '9W2LGX (Hafizi Ruslan)',
-				keywords: 'roipmars, teamspeak, ts3malaysia, network, komunikasi, radio, roip, voip, technology',
+				keywords: 'roipmars,teamspeak,teamspeakmalaysia,teamspeak3malaysia,ts3malaysia,network,komunikasi,radio,roip,voip,technology',
 				creator: 'RoIPMARS CB Cert generator',
 			})
 
       CBCert.innerText = `Certificate Ready!`
+			try {
+				let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${call}`)
+				if (respCtc) {
+					let callContact = await respCtc.json()
+					callCtc = callContact.contact
+				}
+			} catch (err) {
+				callctc = '601234567890'
+			}
 			let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', '60123456789')
 			if (WaCtc == null || WaCtc == '') {
 				cbcsCert.save(`Cert_RoIPMARS_CB-${call}.pdf`)
 				CBCert.innerText = `Cert_RoIPMARS_CB-${call} saved.\ncheck your 'downloads' folder.`
 			} else {
 				CBCert.innerText = `sending Certificate to ${WaCtc}...`
+				await fetch(`https://api.roipmars.org.my/hook/getcontact`, {
+					method: 'POST',
+					headers: { 'content-type': 'application/json' },
+					body: JSON.stringify({
+						callsign: `${call}`,
+						contact: `${WaCtc}`,
+					}),
+				})
 				let eCertURI = cbcsCert.output('datauristring', { filename: `Cert_RoIPMARS_CB-${call}.pdf` })
 				await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 					method: 'POST',

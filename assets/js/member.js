@@ -37,17 +37,16 @@ $(document).ready(function () {
     }
   })
   let roipmarsCert = document.getElementById('memCert-progress')
-  $('#memberlist').delegate('tbody tr td', 'click', async function () {
+  $('#memberlist').delegate('tbody tr td', 'click', function () {
 		const memberdata = memmarsreg.row(this).data()
 		const memID = memberdata.MemberNo
 		const memCall = memberdata.CallSign
 		const memName = memberdata.Name
 		const memValidDate = memberdata.Expiry
-		let confirmtxt = `You are about to download Certificate for ${memCall}.\nAre you sure?\nClick 'ok' to continue`
+		let confirmtxt = `You are requesting Certificate for ${memID}. Are you sure?\nClick 'ok' to continue`
 		if (confirm(confirmtxt) == true) {
-      try {
-        roipmarsCert.innerText = `request confirmed. generating Certificate...`
-				await genCert(memID, memCall, memName, memValidDate)
+			try {
+				genCert(memID, memCall, memName, memValidDate)
 			} catch (error) {
 				console.log(error)
 				alert('Cert generator subprocess error. reload required.\nclick "ok" to refresh.')
@@ -117,22 +116,39 @@ $(document).ready(function () {
 				title: `Cert_RoIPMARS-${call}`,
 				subject: `${id} - ${call}`,
 				author: '9W2LGX (Hafizi Ruslan)',
-				keywords: 'roipmars, teamspeak, ts3malaysia, network, komunikasi, radio, roip, voip, technology',
+				keywords: 'roipmars,teamspeak,teamspeakmalaysia,teamspeak3malaysia,ts3malaysia,network,komunikasi,radio,roip,voip,technology',
 				creator: 'RoIPMARS Member Cert generator'
 			})
 
-      roipmarsCert.innerText = `Certificate Ready!`
-			let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', '60123456789')
+			roipmarsCert.innerText = `Certificate Ready!`
+			try {
+				let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${call}`)
+				if (respCtc) {
+					let callContact = await respCtc.json()
+					callCtc = callContact.contact
+				}
+			} catch (err) {
+				callctc = '601234567890'
+			}
+			let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', callCtc)
 			if (WaCtc == null || WaCtc == '') {
 				memCert.save(`Cert_RoIPMARS-${call}.pdf`)
 				roipmarsCert.innerText = `Cert_RoIPMARS-${call} saved.\ncheck your 'downloads' folder.`
 			} else {
 				roipmarsCert.innerText = `sending Certificate to ${WaCtc}...`
+				await fetch(`https://api.roipmars.org.my/hook/getcontact`, {
+					method: 'POST',
+					headers: { 'content-type': 'application/json' },
+					body: JSON.stringify({
+						callsign: `${call}`,
+						contact: `${WaCtc}`,
+					}),
+				})
 				let eCertURI = memCert.output('datauristring', { filename: `Cert_RoIPMARS-${call}.pdf` })
 				await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 					method: 'POST',
 					headers: {
-						'Content-Type': 'application/json',
+						'content-type': 'application/json',
 						authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
 					},
 					body: JSON.stringify({

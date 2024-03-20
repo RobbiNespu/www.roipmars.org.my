@@ -581,7 +581,7 @@ $(document).ready(function () {
 			const takwimday = takwimrowdata.Hari.split('<br>')[0]
 			const takwimdate = takwimrowdata.Hari.split('<br>')[1]
 			const takwimtime = takwimrowdata.Hari.split('<br>')[2]
-			const takwimact = takwimrowdata.Acara.replace(/(\[(KHAS|SPECIAL|KHUSUS)\])/g,'').trim().replace(/[\u006E\u00B0\u00B2\u00B3\u00B9\u02AF\u0670\u0711\u2121\u213B\u2207\u29B5\uFC5B-\uFC5D\uFC63\uFC90\uFCD9\u2070\u2071\u2074-\u208E\u2090-\u209C\u0345\u0656\u17D2\u1D62-\u1D6A\u2A27\u2C7C]+/g, '')
+			const takwimact = takwimrowdata.Acara.replace(/\[(KHAS|SPECIAL|KHUSUS)\]/g, '').trim().replaceAll(/\^1|\^2/g, '')
 			const takwimncs = takwimrowdata.NCS.split('|')[0].trim()
 			const reportTitle = `Laporan ${takwimact} pada ${takwimday}, ${takwimdate} ${takwimtime} bersama ${takwimncs}`
 			modalTitle.textContent = reportTitle
@@ -705,7 +705,7 @@ $(document).ready(function () {
 						eCertProg.innerText = 'request confirmed. generating eCert...'
 						await fetch('https://api.roipmars.org.my/hook/ecertgen', {
 							method: 'POST',
-							headers: { 'Content-Type': 'application/json' },
+							headers: { 'content-type': 'application/json' },
 							body: JSON.stringify({ caller: netReportTable.row(this).data()[1], date: takwimdate }),
 						})
 						await generateCert(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
@@ -827,9 +827,9 @@ $(document).ready(function () {
 							callCtc = callContact.contact
 						}
 					} catch (err) {
-						callctc = '601234567890'
+						callCtc = '601234567890'
 					}
-					let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', callCtc)
+					let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download via browser.', callCtc)
 					if (WaCtc == null || WaCtc == '') {
 						eCert.save(`${date.split('/').reverse().join('-')}_${caller}.pdf`)
 						eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller} saved.\ncheck your 'downloads' folder.`
@@ -847,7 +847,7 @@ $(document).ready(function () {
 						await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 							method: 'POST',
 							headers: {
-								'Content-Type': 'application/json',
+								'content-type': 'application/json',
 								authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
 							},
 							body: JSON.stringify({

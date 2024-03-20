@@ -128,9 +128,9 @@ $(document).ready(function () {
 					callCtc = callContact.contact
 				}
 			} catch (err) {
-				callctc = '601234567890'
+				callCtc = '601234567890'
 			}
-			let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', callCtc)
+			let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download via browser', callCtc)
 			if (WaCtc == null || WaCtc == '') {
 				memCert.save(`Cert_RoIPMARS-${call}.pdf`)
 				roipmarsCert.innerText = `Cert_RoIPMARS-${call} saved.\ncheck your 'downloads' folder.`

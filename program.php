@@ -153,8 +153,8 @@
 					<table class='table table-sm table-striped text-center align-middle' id='takwim'>
 						<caption class='text-center'>
 							<ul class='list-group'>
-								<li class='list-group-item list-group-item-secondary'><sup>1</sup> Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-								<li class='list-group-item list-group-item-secondary'><sup>2</sup> Pilihan Acara oleh NCS</li>
+								<li class='list-group-item list-group-item-secondary'>^1 Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
+								<li class='list-group-item list-group-item-secondary'>^2 Pilihan Acara oleh NCS</li>
 							</ul>
 							<ul class='list-group list-group-horizontal'>
 								<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-person-slash text-danger'></i> Pengawal gagal hadir</li>

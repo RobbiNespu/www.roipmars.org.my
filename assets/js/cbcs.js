@@ -113,9 +113,9 @@ $(document).ready(function () {
 					callCtc = callContact.contact
 				}
 			} catch (err) {
-				callctc = '601234567890'
+				callCtc = '601234567890'
 			}
-			let WaCtc = prompt('Enter your WhatsApp number (including country code without +) if you want to receive by WhatsApp;\ncancel to download via browser.', callctc)
+			let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download via browser', callCtc)
 			if (WaCtc == null || WaCtc == '') {
 				cbcsCert.save(`Cert_RoIPMARS_CB-${call}.pdf`)
 				CBCert.innerText = `Cert_RoIPMARS_CB-${call} saved.\ncheck your 'downloads' folder.`
@@ -133,7 +133,7 @@ $(document).ready(function () {
 				await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 					method: 'POST',
 					headers: {
-						'Content-Type': 'application/json',
+						'content-type': 'application/json',
 						authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
 					},
 					body: JSON.stringify({

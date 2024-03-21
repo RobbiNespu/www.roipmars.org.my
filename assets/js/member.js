@@ -16,7 +16,7 @@ $(document).ready(function () {
     lengthChange: false,
     ordering: false,
     pagingType: 'first_last_numbers',
-    pageLength: 25,
+    pageLength: 10,
     searchDelay: 500,
     keys: { blurable: true, keys: ['\n'.charCodeAt(0)], columns: [1, 2, 3] },
     language: {
@@ -36,20 +36,26 @@ $(document).ready(function () {
       $('.membercount').html(tds + ' ahli aktif')
     }
   })
-  let roipmarsCert = document.getElementById('memCert-progress')
-  $('#memberlist').delegate('tbody tr td', 'click', function () {
+  let memCertProg = document.getElementById('memCert-progress')
+  $('#memberlist').delegate('tbody tr td', 'click', async function () {
 		const memberdata = memmarsreg.row(this).data()
 		const memID = memberdata.MemberNo
 		const memCall = memberdata.CallSign
 		const memName = memberdata.Name
 		const memValidDate = memberdata.Expiry
-		let confirmtxt = `You are requesting Certificate for ${memID}. Are you sure?\nClick 'ok' to continue`
+		let confirmtxt = `You are requesting Certificate for ${memID}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
 			try {
-				genCert(memID, memCall, memName, memValidDate)
+				memCertProg.innerText = 'request confirmed. generating Certificate...'
+				await fetch('https://api.roipmars.org.my/hook/certgen', {
+					method: 'PUT',
+					headers: { 'content-type': 'application/json' },
+					body: JSON.stringify({ callsign: memCall, id: memID }),
+				})
+				await genCert(memID, memCall, memName, memValidDate)
 			} catch (error) {
 				console.log(error)
-				alert('Cert generator subprocess error. reload required.\nclick "ok" to refresh.')
+				alert('Cert generator subprocess error. reload required.')
 				setTimeout(location.reload(), 5000)
 			}
 		}
@@ -106,21 +112,22 @@ $(document).ready(function () {
 			memCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('SAH SEHINGGA', 460, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 
 			memCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 20, 725, 320, 65)
-			memCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('f3e5ab').text('ROIPMARS.ORG.MY', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			memCert.setFont('HYPost-Light').setFontSize(10).setTextColor('f3e5ab').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			memCert.setFont('OpenSansCondensed-Regular').setFontSize(10).setTextColor('f3e5ab').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 528, 780, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			memCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('f3e5ab').text(`© ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-      memCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 740, 725, 275, 65)
+			memCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('f7fcfe').text('ROIPMARS.ORG.MY', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+			memCert.setFont('HYPost-Light').setFontSize(10).setTextColor('f7fcfe').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+			memCert.setFont('OpenSansCondensed-Regular').setFontSize(10).setTextColor('f7fcfe').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 528, 780, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+			memCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('f7fcfe').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+      memCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
 
+			let fileName = `RoIPMARS_${call}`
 			memCert.setCreationDate(new Date()).setLanguage('ms-MY').setDocumentProperties({
-				title: `Cert_RoIPMARS-${call}`,
+				title: `${fileName}`,
 				subject: `${id} - ${call}`,
 				author: '9W2LGX (Hafizi Ruslan)',
 				keywords: 'roipmars,teamspeak,teamspeakmalaysia,teamspeak3malaysia,ts3malaysia,network,komunikasi,radio,roip,voip,technology',
 				creator: 'RoIPMARS Member Cert generator'
 			})
 
-			roipmarsCert.innerText = `Certificate Ready!`
+			memCertProg.innerText = `Certificate Ready!`
 			try {
 				let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${call}`)
 				if (respCtc) {
@@ -132,10 +139,10 @@ $(document).ready(function () {
 			}
 			let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download via browser', callCtc)
 			if (WaCtc == null || WaCtc == '') {
-				memCert.save(`Cert_RoIPMARS-${call}.pdf`)
-				roipmarsCert.innerText = `Cert_RoIPMARS-${call} saved.\ncheck your 'downloads' folder.`
+				memCert.save(`${fileName}.pdf`)
+				memCertProg.innerText = `${fileName} saved.\ncheck your 'downloads' folder.`
 			} else {
-				roipmarsCert.innerText = `sending Certificate to ${WaCtc}...`
+				memCertProg.innerText = `sending Certificate to ${WaCtc}...`
 				await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
 					method: 'POST',
 					headers: { 'content-type': 'application/json' },
@@ -144,7 +151,7 @@ $(document).ready(function () {
 						contact: `${WaCtc}`,
 					}),
 				})
-				let eCertURI = memCert.output('datauristring', { filename: `Cert_RoIPMARS-${call}.pdf` })
+				let eCertURI = memCert.output('datauristring', { filename: `${fileName}.pdf` })
 				await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 					method: 'POST',
 					headers: {
@@ -155,14 +162,14 @@ $(document).ready(function () {
 						phone: WaCtc,
 						isGroup: false,
 						isNewsletter: false,
-						filename: `Cert_RoIPMARS-${call}.pdf`,
+						filename: `${fileName}.pdf`,
 						base64: eCertURI,
 					}),
 				}).then((res) => {
 					if (res.ok) {
-						roipmarsCert.innerText = `Cert_RoIPMARS-${call} sent to ${WaCtc}.\ncheck your message from 601153440440.`
+						memCertProg.innerText = `${fileName} sent to ${WaCtc}.\ncheck your message from 601153440440.`
 					} else {
-						roipmarsCert.innerText = `Certificate send fail. retry again later.`
+						memCertProg.innerText = `Certificate send fail. retry again later.`
 					}
 				})
 			}

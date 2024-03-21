@@ -32,23 +32,21 @@
         </div>
       -->
         <div class='col-lg-8 mt-1'>
-          <table class='table table-bordered fs-5 align-middle text-center'>
+          <table class='table table-bordered align-middle text-center'>
             <thead>
-              <th colspan='3'>Rangkaian</th>
+              <th colspan='2'>Rangkaian</th>
               <th>Pengurus</th>
             </thead>
             <tbody>
               <tr>
-                <td>RoIPMARS</td>
                 <td><span class='badge bg-primary-subtle rounded-3'>113MSxxx</span> <span class='badge bg-primary-subtle rounded-3'>58MSxxx</span><br><span class='badge bg-primary-subtle rounded-3'>91MSxxx</span> <span class='badge bg-primary-subtle rounded-3'>225MSxxx</span> <span class='badge bg-primary-subtle rounded-3'>153MSxxx</span></td>
                 <td>Rangkaian Kumpulan RoIPMARS</td>
-                <td><a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='https://wa.me/60134009222' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 113MSOGK</a></td>
+                <td><a type='button' class='btn btn-sm btn-outline-success rounded-5' href='https://wa.me/60134009222' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 113MSOGK</a></td>
               </tr>
               <tr>
-                <td>Indonesia</td>
                 <td><span class='badge bg-danger-subtle rounded-3'>91KMxxx</span></td>
                 <td>KOPDARMOBILE</td>
-                <td><a type='button' class='btn btn-lg btn-outline-success rounded-5 fs-5' href='https://wa.me/6281323111121' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 91KMEGG</a></td>
+                <td><a type='button' class='btn btn-sm btn-outline-success rounded-5' href='https://wa.me/6281323111121' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 91KMEGG</a></td>
               </tr>
             </tbody>
           </table>
@@ -59,14 +57,13 @@
             $file_last_modified = filemtime(__DIR__ . '/assets/json/cbmars.json');
             echo ' setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>
-          <p class='fw-bold'>Penafian: Sekiranya anda telah berdaftar sebagai Ahli CB, anda hanyalah sebagai Ahli CB kami bukanlah Ahli Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti yang berbeza.</p>
+          <p class='fw-bold'>Penafian: Sekiranya anda telah sah berdaftar sebagai Ahli CB, anda tidak termaktub dengan perlembagaan Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti keahlian yang berbeza.</p>
           <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
-          <span class='d-flex justify-content-center fs-6 font-monospace lh-1 mb-3 text-center' id='cbCert-progress'></span>
+          <span class='d-flex justify-content-center fs-6 font-monospace lh-1 text-center' id='cbCert-progress'></span>
         </div>
         <div class='col-12 my-3'>
           <table class='table align-middle text-uppercase text-wrap user-select-none' id='cbcslist'>
-            <thead><tr><th class='dt-head-center'>ID</th><th class='dt-head-center'>CALLSIGN</th><th class='dt-head-center'>NAMA</th><th class='dt-head-center'>LOKALAN</th><th class='dt-head-center'>DAFTAR</th></tr></thead>
-            
+            <thead class='align-middle'><tr><th class='dt-head-center'>No Ahli</th><th class='dt-head-center'>CALLSIGN</th><th class='dt-head-center'>NAMA</th><th class='dt-head-center'>LOKALAN</th><th class='dt-head-center'>TARIKH DAFTAR</th></tr></thead>
           </table>
         </div>
       </div>

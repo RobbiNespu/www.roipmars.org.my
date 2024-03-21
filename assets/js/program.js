@@ -696,22 +696,21 @@ $(document).ready(function () {
 			//   searching: false,
 			// })
 
-
+			let eCertProg = document.getElementById('eCert-progress')
 			$('#' + reportID).delegate('tbody tr td', 'click', async function () {
-				let eCertProg = document.getElementById('eCert-progress')
-				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}. Are you sure?\nClick 'ok' to continue`
+				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}. Are you sure?`
 				if (confirm(confirmtxt) == true) {
 					try {
 						eCertProg.innerText = 'request confirmed. generating eCert...'
 						await fetch('https://api.roipmars.org.my/hook/ecertgen', {
-							method: 'POST',
+							method: 'PUT',
 							headers: { 'content-type': 'application/json' },
 							body: JSON.stringify({ caller: netReportTable.row(this).data()[1], date: takwimdate }),
 						})
 						await generateCert(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
 					} catch (error) {
 						console.log(error)
-						alert('eCert generator subprocess error. reload required.\nclick "ok" to refresh.')
+						alert('eCert generator subprocess error. reload required.')
 						setTimeout(location.reload(), 5000)
 					}
 				}
@@ -758,8 +757,8 @@ $(document).ready(function () {
 							}
 						})
 					if (activity.toLowerCase().search('sahur') > 0) {
-						eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 50, 10, 100, 20)
-						eCert.addImage('/media/image/brands/kopdarmobile_sm.png', 'PNG', 160, 10, 100, 20)
+						eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 85, 10, 100, 20)
+						eCert.addImage('/media/image/brands/kopdarmobile_sq.png', 'PNG', 190, 10, 20, 20)
 					} else {
 						eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 98, 10, 100, 20)
 					}
@@ -809,7 +808,7 @@ $(document).ready(function () {
 					eCert.setFont('SourceSansPro-Regular').setFontSize(10).setTextColor('black').text('PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP) [PPM-006-10-01062020]', 148.5, 189, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('HYPost-Light').setFontSize(7).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 148.5, 193, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('OpenSansCondensed-Regular').setFontSize(8).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 148.5, 196, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
-					eCert.setFont('KodeMono-Regular').setFontSize(9).setTextColor('black').text(`© ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+					eCert.setFont('KodeMono-Regular').setFontSize(9).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 
 					eCert.setCreationDate(new Date()).setLanguage('en-MY').setDocumentProperties({
 						title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,
@@ -819,6 +818,7 @@ $(document).ready(function () {
 						creator: 'RoIPMARS eCert generator'
 					})
 
+					let fileName = `${date.split('/').reverse().join('')}_${caller}`
 					eCertProg.innerText = `eCert Ready!`
 					try {
 						let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${caller}`)
@@ -831,8 +831,8 @@ $(document).ready(function () {
 					}
 					let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download via browser.', callCtc)
 					if (WaCtc == null || WaCtc == '') {
-						eCert.save(`${date.split('/').reverse().join('-')}_${caller}.pdf`)
-						eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller} saved.\ncheck your 'downloads' folder.`
+						eCert.save(`${fileName}.pdf`)
+						eCertProg.innerText = `eCert ${fileName} saved.\ncheck your 'downloads' folder.`
 					} else {
 						eCertProg.innerText = `sending eCert to ${WaCtc}...`
 						await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
@@ -843,7 +843,7 @@ $(document).ready(function () {
 								contact: `${WaCtc}`,
 							}),
 						})
-						let eCertURI = eCert.output('datauristring', { filename: `${date.split('/').reverse().join('-')}_${caller}.pdf` })
+						let eCertURI = eCert.output('datauristring', { filename: `${fileName}.pdf` })
 						await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 							method: 'POST',
 							headers: {
@@ -854,12 +854,12 @@ $(document).ready(function () {
 								phone: WaCtc,
 								isGroup: false,
 								isNewsletter: false,
-								filename: `eCert_${date.split('/').reverse().join('-')}_${caller}.pdf`,
+								filename: `eCert_${fileName}.pdf`,
 								base64: eCertURI,
 							}),
 						}).then((res) => {
 							if (res.ok) {
-								eCertProg.innerText = `eCert ${date.split('/').reverse().join('-')}_${caller} sent to ${WaCtc}.\ncheck your message from 601153440440.`
+								eCertProg.innerText = `eCert ${fileName} sent to ${WaCtc}.\ncheck your message from 601153440440.`
 							} else {
 								eCertProg.innerText = `eCert send fail. retry again later.`
 							}

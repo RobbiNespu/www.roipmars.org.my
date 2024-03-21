@@ -240,7 +240,7 @@
             $file_last_modified = filemtime(__DIR__ . '/assets/json/member.json');
             echo ' yang disahkan setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>
-          <span class='d-flex justify-content-center fs-6 font-monospace lh-1 mb-3 text-center' id='memCert-progress'></span>
+          <span class='d-flex justify-content-center fs-6 font-monospace lh-1 text-center' id='memCert-progress'></span>
           <table class='table table-sm table-striped align-middle' id='memberlist'></table>
         </div>
       </div>

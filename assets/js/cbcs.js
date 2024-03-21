@@ -1,6 +1,9 @@
 $(document).ready(function () {
   var cbmarsreg = $('#cbcslist').DataTable({
-    ajax: '/assets/json/cbmars.json',
+    ajax: {
+      url: '/assets/json/cbmars.json',
+      dataSrc: 'activeCBMembers'
+    },
     processing: true,
     ordering: false,
     pagingType: 'full_numbers',
@@ -39,23 +42,29 @@ $(document).ready(function () {
     },
     initComplete: function () {
       let tds = $('#cbcslist').DataTable().page.info().recordsTotal
-      $('.cscount').html(tds + ' isyarat panggilan berdaftar')
+      $('.cscount').html(tds + ' isyarat panggilan sah')
     }
   })
-  let CBCert = document.getElementById('cbCert-progress')
-  $('#cbcslist').delegate('tbody tr td', 'click', function () {
+  let cbCertProg = document.getElementById('cbCert-progress')
+  $('#cbcslist').delegate('tbody tr td', 'click', async function () {
 		const cbcsdata = cbmarsreg.row(this).data()
 		const cbcsID = cbcsdata[0]
 		const cbcsCall = cbcsdata[1]
 		const cbcsName = cbcsdata[2]
 		const cbcsRegDate = cbcsdata[4]
-		let confirmtxt = `You are requesting Certificate for ${cbcsCall}. Are you sure?\nClick 'ok' to continue`
+		let confirmtxt = `You are requesting Certificate for ${cbcsCall}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
       try {
-				genCert(cbcsID, cbcsCall, cbcsName, cbcsRegDate)
+				cbCertProg.innerText = 'request confirmed. generating eCert...'
+				await fetch('https://api.roipmars.org.my/hook/certgen', {
+					method: 'PUT',
+					headers: { 'content-type': 'application/json' },
+					body: JSON.stringify({ callsign: cbcsCall, id: cbcsID }),
+				})
+				await genCert(cbcsID, cbcsCall, cbcsName, cbcsRegDate)
 			} catch (error) {
 				console.log(error)
-				alert('Cert generator subprocess error. reload required.\nclick "ok" to refresh.')
+				alert('Cert generator subprocess error. reload required.')
 				setTimeout(location.reload(), 5000)
 			}
 		}
@@ -90,22 +99,24 @@ $(document).ready(function () {
 			cbcsCert.setFont('AgencyFB').setFontSize(48).setTextColor('#72c7ef').text(regDate.toUpperCase(), 915, 660, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 200, renderingMode: 'fillThenStroke' })
 			cbcsCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('TARIKH DAFTAR', 915, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 
+			cbcsCert.addImage('/media/image/brands/kopdarmobile_sq.png', 'PNG', 20, 650, 65, 65)
 			cbcsCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 20, 725, 320, 65)
 			cbcsCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			cbcsCert.setFont('HYPost-Light').setFontSize(10).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			cbcsCert.setFont('OpenSansCondensed-Regular').setFontSize(10).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 528, 780, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			cbcsCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('black').text(`© ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-      cbcsCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 740, 725, 275, 65)
+			cbcsCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+      cbcsCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
 
+			let fileName = `RoIPMARS-CB_${call}`
 			cbcsCert.setCreationDate(new Date()).setLanguage('ms-MY').setDocumentProperties({
-				title: `Cert_RoIPMARS_CB-${call}`,
+				title: `${fileName}`,
 				subject: `${id} - ${call}`,
 				author: '9W2LGX (Hafizi Ruslan)',
 				keywords: 'roipmars,teamspeak,teamspeakmalaysia,teamspeak3malaysia,ts3malaysia,network,komunikasi,radio,roip,voip,technology',
 				creator: 'RoIPMARS CB Cert generator',
 			})
 
-      CBCert.innerText = `Certificate Ready!`
+			cbCertProg.innerText = `Certificate Ready!`
 			try {
 				let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${call}`)
 				if (respCtc) {
@@ -117,10 +128,10 @@ $(document).ready(function () {
 			}
 			let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download via browser', callCtc)
 			if (WaCtc == null || WaCtc == '') {
-				cbcsCert.save(`Cert_RoIPMARS_CB-${call}.pdf`)
-				CBCert.innerText = `Cert_RoIPMARS_CB-${call} saved.\ncheck your 'downloads' folder.`
+				cbcsCert.save(`${fileName}.pdf`)
+				cbCertProg.innerText = `${fileName} saved.\ncheck your 'downloads' folder.`
 			} else {
-				CBCert.innerText = `sending Certificate to ${WaCtc}...`
+				cbCertProg.innerText = `sending Certificate to ${WaCtc}...`
 				await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
 					method: 'POST',
 					headers: { 'content-type': 'application/json' },
@@ -129,7 +140,7 @@ $(document).ready(function () {
 						contact: `${WaCtc}`,
 					}),
 				})
-				let eCertURI = cbcsCert.output('datauristring', { filename: `Cert_RoIPMARS_CB-${call}.pdf` })
+				let eCertURI = cbcsCert.output('datauristring', { filename: `${fileName}.pdf` })
 				await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 					method: 'POST',
 					headers: {
@@ -140,14 +151,14 @@ $(document).ready(function () {
 						phone: WaCtc,
 						isGroup: false,
 						isNewsletter: false,
-						filename: `Cert_RoIPMARS_CB-${call}.pdf`,
+						filename: `${fileName}.pdf`,
 						base64: eCertURI,
 					}),
 				}).then((res) => {
 					if (res.ok) {
-						CBCert.innerText = `Cert_RoIPMARS_CB-${call} sent to ${WaCtc}.\ncheck your message from 601153440440.`
+						cbCertProg.innerText = `${fileName} sent to ${WaCtc}.\ncheck your message from 601153440440.`
 					} else {
-						CBCert.innerText = `Certificate send fail. retry again later.`
+						cbCertProg.innerText = `Certificate send fail. retry again later.`
 					}
 				})
 			}

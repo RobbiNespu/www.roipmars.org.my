@@ -50,7 +50,7 @@ $(document).ready(function () {
 				await fetch('https://api.roipmars.org.my/hook/certgen', {
 					method: 'PUT',
 					headers: { 'content-type': 'application/json' },
-					body: JSON.stringify({ callsign: memCall, id: memID }),
+					body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/','') }),
 				})
 				await genCert(memID, memCall, memName, memValidDate)
 			} catch (error) {
@@ -62,24 +62,12 @@ $(document).ready(function () {
 		async function genCert(id, call, name, validDate) {
 			const { jsPDF } = window.jspdf
       switch (id[0]) {
-				case 'A':
-					var idStat = 'Ahli Biasa'
-					break
-				case 'B':
-					var idStat = 'Ahli Bersekutu'
-					break
-				case 'D':
-					var idStat = 'Ahli Seumur Hidup'
-					break
-				case 'E':
-					var idStat = 'Ahli Remaja'
-					break
-				case 'X':
-					var idStat = 'Ahli Luput'
-					break
-				default:
-					var idStat = 'Ahli Tidak Berdaftar'
-					break
+				case 'A': var idStat = 'Ahli Biasa'; break
+				case 'B': var idStat = 'Ahli Bersekutu'; break
+				case 'D': var idStat = 'Ahli Seumur Hidup'; break
+				case 'E': var idStat = 'Ahli Remaja'; break
+				case 'X': var idStat = 'Ahli Luput'; break
+				default: var idStat = 'Ahli Tidak Berdaftar'
 			}
 			var memCert = new jsPDF({
 				orientation: 'l',
@@ -115,7 +103,7 @@ $(document).ready(function () {
 			memCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('f7fcfe').text('ROIPMARS.ORG.MY', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			memCert.setFont('HYPost-Light').setFontSize(10).setTextColor('f7fcfe').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			memCert.setFont('OpenSansCondensed-Regular').setFontSize(10).setTextColor('f7fcfe').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 528, 780, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			memCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('f7fcfe').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+			memCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('f7fcfe').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
       memCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
 
 			let fileName = `RoIPMARS_${call}`

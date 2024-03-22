@@ -59,7 +59,7 @@ $(document).ready(function () {
 				await fetch('https://api.roipmars.org.my/hook/certgen', {
 					method: 'PUT',
 					headers: { 'content-type': 'application/json' },
-					body: JSON.stringify({ callsign: cbcsCall, id: cbcsID }),
+					body: JSON.stringify({ call: cbcsCall, id: cbcsID, source: location.pathname.replaceAll('/','') }),
 				})
 				await genCert(cbcsID, cbcsCall, cbcsName, cbcsRegDate)
 			} catch (error) {
@@ -104,7 +104,7 @@ $(document).ready(function () {
 			cbcsCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			cbcsCert.setFont('HYPost-Light').setFontSize(10).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			cbcsCert.setFont('OpenSansCondensed-Regular').setFontSize(10).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 528, 780, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			cbcsCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+			cbcsCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
       cbcsCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
 
 			let fileName = `RoIPMARS-CB_${call}`

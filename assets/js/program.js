@@ -702,10 +702,10 @@ $(document).ready(function () {
 				if (confirm(confirmtxt) == true) {
 					try {
 						eCertProg.innerText = 'request confirmed. generating eCert...'
-						await fetch('https://api.roipmars.org.my/hook/ecertgen', {
+						await fetch('https://api.roipmars.org.my/hook/certgen', {
 							method: 'PUT',
 							headers: { 'content-type': 'application/json' },
-							body: JSON.stringify({ caller: netReportTable.row(this).data()[1], date: takwimdate }),
+							body: JSON.stringify({ call: netReportTable.row(this).data()[1], id: takwimdate, source: location.pathname.replaceAll('/','') }),
 						})
 						await generateCert(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
 					} catch (error) {
@@ -717,12 +717,18 @@ $(document).ready(function () {
 				async function generateCert(date, activity, ncs, caller, modes, utctime) {
 					const { jsPDF } = window.jspdf
 					switch (modes) {
-						case 'RF':
-							var mode = 'FM (144.8MHz)'
-							break
-						default:
-							var mode = 'VOI'
-							break
+						case 'RF': var mode = 'FM (144.8MHz)'; break
+						case 'DC': var mode = 'VOI-Discord'; break
+						case 'EL': var mode = 'VOI-EchoLink'; break
+						case 'FRN': var mode = 'VOI-Free Radio Network'; break
+						case 'MBL': var mode = 'VOI-Mumble'; break
+						case 'PNT': var mode = 'VOI-Peanut'; break
+						case 'TG': var mode = 'VOI-Telegram'; break
+						case 'TS': var mode = 'VOI-TeamSpeak'; break
+						case 'TT': var mode = 'VOI-Team Talk'; break
+						case 'WA': var mode = 'VOI-WhatsApp'; break
+						case 'ZL': var mode = 'VOI-Zello'; break
+						default: var mode = 'unknown'
 					}
 					var eCert = new jsPDF({
 						orientation: 'l',
@@ -808,7 +814,7 @@ $(document).ready(function () {
 					eCert.setFont('SourceSansPro-Regular').setFontSize(10).setTextColor('black').text('PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP) [PPM-006-10-01062020]', 148.5, 189, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('HYPost-Light').setFontSize(7).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 148.5, 193, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('OpenSansCondensed-Regular').setFontSize(8).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 148.5, 196, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
-					eCert.setFont('KodeMono-Regular').setFontSize(9).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+					eCert.setFont('KodeMono-Regular').setFontSize(9).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 
 					eCert.setCreationDate(new Date()).setLanguage('en-MY').setDocumentProperties({
 						title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,

@@ -126,20 +126,22 @@ $(document).ready(function () {
 			} catch (err) {
 				callCtc = '601234567890'
 			}
-			let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download via browser', callCtc)
+			let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download', callCtc)
 			if (WaCtc == null || WaCtc == '') {
 				cbcsCert.save(`${fileName}.pdf`)
 				cbCertProg.innerText = `${fileName} saved.\ncheck your 'downloads' folder.`
 			} else {
 				cbCertProg.innerText = `sending Certificate to ${WaCtc}...`
-				await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
-					method: 'POST',
-					headers: { 'content-type': 'application/json' },
-					body: JSON.stringify({
-						callsign: `${call}`,
-						contact: `${WaCtc}`,
-					}),
-				})
+				if (callCtc != WaCtc) {
+					await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
+						method: 'POST',
+						headers: { 'content-type': 'application/json' },
+						body: JSON.stringify({
+							callsign: `${call}`,
+							contact: `${WaCtc}`,
+						}),
+					})
+				}
 				let eCertURI = cbcsCert.output('datauristring', { filename: `${fileName}.pdf` })
 				await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 					method: 'POST',

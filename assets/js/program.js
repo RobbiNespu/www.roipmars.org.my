@@ -829,20 +829,22 @@ $(document).ready(function () {
 					} catch (err) {
 						callCtc = '601234567890'
 					}
-					let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download via browser.', callCtc)
+					let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download', callCtc)
 					if (WaCtc == null || WaCtc == '') {
 						eCert.save(`${fileName}.pdf`)
 						eCertProg.innerText = `eCert ${fileName} saved.\ncheck your 'downloads' folder.`
 					} else {
 						eCertProg.innerText = `sending eCert to ${WaCtc}...`
-						await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
-							method: 'POST',
-							headers: { 'content-type': 'application/json' },
-							body: JSON.stringify({
-								callsign: `${caller}`,
-								contact: `${WaCtc}`,
-							}),
-						})
+						if (callCtc != WaCtc) {
+							await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
+								method: 'POST',
+								headers: { 'content-type': 'application/json' },
+								body: JSON.stringify({
+									callsign: `${caller}`,
+									contact: `${WaCtc}`,
+								}),
+							})
+						}
 						let eCertURI = eCert.output('datauristring', { filename: `${fileName}.pdf` })
 						await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 							method: 'POST',

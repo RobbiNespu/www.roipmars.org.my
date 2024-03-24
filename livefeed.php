@@ -7,7 +7,7 @@
 
   <body>
     <?php require_once 'ntsheader.php' ?>
-    <main class='container-fluid text-center my-3'>
+    <main class='container text-center my-3'>
       <div class='row'>
         <div id='hamlive'>
           <div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div>

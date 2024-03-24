@@ -1,7 +1,7 @@
 const dochamLive = document.getElementById('hamlive')
 const dochamLiveAud = document.getElementById('hamlive-audio')
 const hamLiveOwnHook = 'https://api.mhrtech.my/webhook/hamlive-stat'
-const gethamLiveMeta = $.getJSON(hamLiveOwnHook, function (data) {
+$.getJSON(hamLiveOwnHook, function (data) {
   let status = data.status
   let listeners = data.listeners
   let descr = data.descr
@@ -17,13 +17,12 @@ const gethamLiveMeta = $.getJSON(hamLiveOwnHook, function (data) {
     var lists = ''
   }
   if (meta) {
-    var metas = '<br><div class="col-auto">EchoLink Metadata: <span class="text-success-emphasis">' + meta + '</span></div>'
+    var metas = '<br><div class="col-12">EchoLink Metadata: <span class="text-success-emphasis">' + meta + '</span></div>'
   } else {
     var metas = ''
   }
-  dochamLive.innerHTML = '<div class="col-12"><span>' + descr + '</span></div><div class="row d-flex justify-content-center">' + stats + lists + '<br>' + metas + '</div>'
+  dochamLive.innerHTML = '<div class="col-12"><span>' + descr + '</span></div><div class="row d-flex justify-content-center">' + stats + lists + metas + '</div>'
 })
-setInterval(gethamLiveMeta, 60000)
 $.getJSON(hamLiveOwnHook, function (data) {
   let status = data.status
   if (status) {
@@ -37,7 +36,7 @@ $.getJSON(hamLiveOwnHook, function (data) {
 const doccbLive = document.getElementById('cblive')
 const doccbLiveAud = document.getElementById('cblive-audio')
 const cbLiveOwnHook = 'https://api.mhrtech.my/webhook/cblive-stat'
-const getcbLiveMeta = $.getJSON(cbLiveOwnHook, function (data) {
+$.getJSON(cbLiveOwnHook, function (data) {
   let status = data.status
   let listeners = data.listeners
   let descr = data.descr
@@ -53,7 +52,6 @@ const getcbLiveMeta = $.getJSON(cbLiveOwnHook, function (data) {
   }
   doccbLive.innerHTML = '<div class="col-12"><span>' + descr + '</span></div><div class="row d-flex justify-content-center">' + stats + lists + '</div>'
 })
-setInterval(getcbLiveMeta, 60000)
 $.getJSON(cbLiveOwnHook, function (data) {
   let status = data.status
   if (status) {

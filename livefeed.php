@@ -9,10 +9,17 @@
     <?php require_once 'ntsheader.php' ?>
     <main class='container-fluid text-center my-3'>
       <div class='row'>
-        <div id='bcfy'>
+        <div id='hamlive'>
           <div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div>
         </div>
-        <div id='bcfy-audio'></div>
+        <div id='hamlive-audio'></div>
+      </div>
+      <hr>
+      <div class='row'>
+        <div id='cblive'>
+          <div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div>
+        </div>
+        <div id='cblive-audio'></div>
       </div>
     </main>
     <?php require_once 'footermin.php' ?>

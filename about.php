@@ -345,8 +345,8 @@
       </div>
       <h4 class='text-center'>Suapan Langsung Rangkaian RoIPMARS</h4>
       <div class='row text-center'>
-        <div id='bcfy'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
-        <div id='bcfy-audio'></div>
+        <div id='hamlive'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
+        <div id='hamlive-audio'></div>
       </div>
       <hr>
       <div class='row' id='kisahroipmars'>

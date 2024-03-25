@@ -1,11 +1,13 @@
+if (document.querySelector('.nav') != null) {
+	let currentPage = location.pathname.replace('/', '')
+	document.querySelector('a#' + currentPage).classList.add('active')
+}
 if (location.port) {
 	var currentPort = ':' + location.port
 } else {
 	var currentPort = ''
 }
 let currentHost = location.protocol + '//' + location.hostname + currentPort
-let currentPage = location.pathname.replace('/', '')
-document.querySelector('a#' + currentPage).classList.add('active')
 let currentURL = location.href
 let docTitle = document.querySelector('title').textContent
 let docDesc = document.querySelector('h1').textContent + '\n' + document.querySelector('p').textContent

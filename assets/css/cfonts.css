@@ -1,28 +1,27 @@
 @font-face {
-	font-family: 'Orbitron';
-	src: url('/assets/font/Orbitron-Black.ttf') format('ttf');
-	font-weight: 900;
-}
-@font-face {
-	font-family: 'Orbitron';
-	src: url('/assets/font/Orbitron-Regular.ttf') format('ttf');
+	font-family: 'heatwoodregular';
+	src: url('/assets/font/heatwood-webfont.woff2') format('woff2'), url('/assets/font/heatwood-webfont.woff') format('woff');
 	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-	font-family: 'Heatwood';
-	src: url('/assets/font/Heatwood.ttf') format('ttf');
-	font-weight: 100;
+	font-family: 'orbitronblack';
+	src: url('/assets/font/orbitron-black-webfont.woff2') format('woff2'), url('/assets/font/orbitron-black-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
-
+@font-face {
+	font-family: 'orbitronlight';
+	src: url('/assets/font/orbitron-light-webfont.woff2') format('woff2'), url('/assets/font/orbitron-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 .ft-orbitron-black {
-	font-family: 'Orbitron';
-	font-weight: 900;
+	font-family: 'orbitronblack';
 }
 .ft-orbitron {
-	font-family: 'Orbitron';
-	font-weight: normal;
+	font-family: 'orbitronlight';
 }
 .ft-signature {
-	font-family: 'Heatwood';
-	font-weight: normal;
+	font-family: 'heatwoodregular';
 }

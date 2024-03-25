@@ -29,11 +29,6 @@
 					<div class='d-grid gap-2 col-8 mx-auto'>
 						<a class='btn btn-success' role='button' href='https://wa.me/601153440440?text=bantuan'><i class='bi-whatsapp'></i></a>
 					</div>
-					<div class='mt-3 text-center'>
-						<h4>Suapan Langsung Rangkaian RoIPMARS</h4>
-						<div id='hamlive'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
-						<div id='hamlive-audio'></div>
-					</div>
 				</div>
 				<div class='col-lg-6 my-3 d-block text-center'>
 					<h4>Aktiviti Net Mingguan RoIPMARS</h4>
@@ -139,6 +134,17 @@
 					</div>
 				</div>
 			</div>
+      <div class='row'>
+        <h4 class='text-center'>Suapan Langsung Rangkaian RoIPMARS</h4>
+        <div class='col-lg-6 text-center'>
+          <div id='hamlive'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
+          <div id='hamlive-audio'></div>
+        </div>
+        <div class='col-lg-6 text-center'>
+          <div id='cblive'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
+          <div id='cblive-audio'></div>
+        </div>
+      </div>
 			<hr>
 			<div class='row'>
 				<div class='col-12 my-1 text-center'>

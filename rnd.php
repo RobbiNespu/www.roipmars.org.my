@@ -57,14 +57,14 @@
           <figure class='figure d-grid'>
             <figcaption class='figure-caption text-center fs-4'>Rangkaian Utama &lpar;kegunaan Jalur Amatur&rpar;</figcaption>
             <canvas id='rndHAMtree' class='rounded-5' loading='lazy' alt='ham-link-map'></canvas>
-            <audio class='rounded-5 w-100' controls preload='metadata' src='https://mhrtech.my:5000/HTMLAudioPlayerfeed' type='audio/mpeg'></audio>
+            <audio class='rounded-5 w-100' controls preload='metadata' src='http://mhrtech.my:5000/htmlaudioplayerfeed' type='audio/mpeg'></audio>
           </figure>
         </div>
         <div class='col-12 my-1'>
           <figure class='figure d-grid'>
             <figcaption class='figure-caption text-center fs-4'>Rangkaian Sekunder &lpar;kegunaan Jalur Rakyat&rpar;</figcaption>
             <canvas id='rndCBtree' class='rounded-5' loading='lazy' alt='cb-link-map'></canvas>
-            <audio class='rounded-5 w-100' controls preload='metadata' src='https://mhrtech.my:5001/HTMLAudioPlayerfeed' type='audio/mpeg'></audio>
+            <audio class='rounded-5 w-100' controls preload='metadata' src='http://mhrtech.my:5001/htmlaudioplayerfeed' type='audio/mpeg'></audio>
           </figure>
         </div>
       </div>

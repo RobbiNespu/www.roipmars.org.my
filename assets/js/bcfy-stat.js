@@ -26,8 +26,8 @@ $.getJSON(hamLiveOwnHook, function (data) {
 $.getJSON(hamLiveOwnHook, function (data) {
   let status = data.status
   if (status) {
-    dochamLiveAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls preload="metadata" src="https://broadcastify.cdnstream1.com/41368" type="audio/mp3" crossorigin="anonymous"></audio></div>\
-    <span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kelajuan dan kependaman rangkaian.<br>Sebagai alternatif, anda boleh mendengar di: <a href="https://mhrtech.my:5000" target="_blank">hamlive.mhrtech.my</a>; periksa kelajuan jaringan: <a href="https://speed.mhrtech.my" target="_blank">speed.mhrtech.my</a>; </span>'
+    dochamLiveAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls preload="metadata" src="http://mhrtech.my:5000/htmlaudioplayerfeed" type="audio/mpeg" crossorigin="anonymous"></audio></div>\
+    <span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kelajuan dan kependaman rangkaian.<br>Sebagai alternatif, anda boleh mendengar di: <a href="http://mhrtech.my:5000" target="_blank">hamlive.mhrtech.my</a>; periksa kelajuan jaringan: <a href="https://speed.mhrtech.my" target="_blank">speed.mhrtech.my</a>; </span>'
   } else {
     dochamLiveAud.innerHTML = ''
   }
@@ -55,8 +55,8 @@ $.getJSON(cbLiveOwnHook, function (data) {
 $.getJSON(cbLiveOwnHook, function (data) {
   let status = data.status
   if (status) {
-    doccbLiveAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls preload="metadata" src="https://mhrtech.my:5001/HTMLAudioPlayerfeed" type="audio/mpeg"></audio></div>\
-    <span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kelajuan dan kependaman rangkaian.<br>Sebagai alternatif, anda boleh mendengar di: <a href="https://mhrtech.my:5001" target="_blank">cblive.mhrtech.my</a>; periksa kelajuan jaringan: <a href="https://speed.mhrtech.my" target="_blank">speed.mhrtech.my</a>; </span>'
+    doccbLiveAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls preload="metadata" src="http://mhrtech.my:5001/htmlaudioplayerfeed" type="audio/mpeg"></audio></div>\
+    <span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kelajuan dan kependaman rangkaian.<br>Sebagai alternatif, anda boleh mendengar di: <a href="http://mhrtech.my:5001" target="_blank">cblive.mhrtech.my</a>; periksa kelajuan jaringan: <a href="https://speed.mhrtech.my" target="_blank">speed.mhrtech.my</a>; </span>'
   } else {
     doccbLiveAud.innerHTML = ''
   }

@@ -343,10 +343,16 @@
           </div>
         </div>
       </div>
-      <h4 class='text-center'>Suapan Langsung Rangkaian RoIPMARS</h4>
-      <div class='row text-center'>
-        <div id='hamlive'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
-        <div id='hamlive-audio'></div>
+      <div class='row'>
+        <h4 class='text-center'>Suapan Langsung Rangkaian RoIPMARS</h4>
+        <div class='col-lg-6 text-center'>
+          <div id='hamlive'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
+          <div id='hamlive-audio'></div>
+        </div>
+        <div class='col-lg-6 text-center'>
+          <div id='cblive'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
+          <div id='cblive-audio'></div>
+        </div>
       </div>
       <hr>
       <div class='row' id='kisahroipmars'>

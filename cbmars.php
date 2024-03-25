@@ -59,9 +59,13 @@
           ?></p>
           <p class='fw-bold'>Penafian: Sekiranya anda telah sah berdaftar sebagai Ahli CB, anda tidak termaktub dengan perlembagaan Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti keahlian yang berbeza.</p>
           <p>Nota: Untuk semakan lebih lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
-          <span class='d-flex justify-content-center fs-6 font-monospace lh-1 text-center' id='cbCert-progress'></span>
+          <div class='toast-container position-fixed top-50 start-50 translate-middle p-3 z-3'>
+            <div id='prog-info' class='toast text-bg-info' role='status' aria-live='polite' aria-atomic='true'></div>
+            <div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
+            <div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
+          </div>
         </div>
-        <div class='col-12 my-3'>
+        <div class='col-12 mb-3'>
           <table class='table align-middle text-uppercase text-wrap user-select-none' id='cbcslist'>
             <thead class='align-middle'><tr><th class='dt-head-center'>No Ahli</th><th class='dt-head-center'>CALLSIGN</th><th class='dt-head-center'>NAMA</th><th class='dt-head-center'>LOKALAN</th><th class='dt-head-center'>TARIKH DAFTAR</th></tr></thead>
           </table>

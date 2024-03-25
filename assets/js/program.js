@@ -696,12 +696,18 @@ $(document).ready(function () {
 			//   searching: false,
 			// })
 
-			let eCertProg = document.getElementById('eCert-progress')
 			$('#' + reportID).delegate('tbody tr td', 'click', async function () {
+				const toastSuccess = document.getElementById('prog-success')
+				const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })
+				const toastInfo = document.getElementById('prog-info')
+				const msgInfo = bootstrap.Toast.getOrCreateInstance(toastInfo)
+				const toastDanger = document.getElementById('prog-danger')
+				const msgDanger = bootstrap.Toast.getOrCreateInstance(toastDanger, { delay: 10000 })
 				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}. Are you sure?`
 				if (confirm(confirmtxt) == true) {
 					try {
-						eCertProg.innerText = 'request confirmed. generating eCert...'
+						toastSuccess.innerHTML = `<div class='toast-body'>request confirmed. generating eCert...</div>`
+						msgSuccess.show()
 						await fetch('https://api.roipmars.org.my/hook/certgen', {
 							method: 'PUT',
 							headers: { 'content-type': 'application/json' },
@@ -710,8 +716,9 @@ $(document).ready(function () {
 						await generateCert(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
 					} catch (error) {
 						console.log(error)
-						alert('eCert generator subprocess error. reload required.')
-						setTimeout(location.reload(), 5000)
+						toastDanger.innerHTML = `<div class='toast-body'>eCert generator subprocess error. reload required.</div>`
+						msgDanger.show()
+						toastDanger.addEventListener('hidden-bs-toast', () => { location.reload() })
 					}
 				}
 				async function generateCert(date, activity, ncs, caller, modes, utctime) {
@@ -737,7 +744,8 @@ $(document).ready(function () {
 						compress: true,
 					})
 
-					eCertProg.innerText = 'loading fonts...'
+					toastInfo.innerHTML = `<div class='toast-body'>loading fonts...</div>`
+					msgInfo.show()
 					eCert.addFont('/assets/font/HYPost-Light.ttf', 'HYPost-Light', 'normal')
 					eCert.addFont('/assets/font/KodeMono-Bold.ttf', 'KodeMono-Bold', 'normal')
 					eCert.addFont('/assets/font/KodeMono-Medium.ttf', 'KodeMono-Medium', 'normal')
@@ -748,7 +756,8 @@ $(document).ready(function () {
 					eCert.addFont('/assets/font/SairaExtraCondensed-Thin.ttf', 'SairaExtraCondensed-Thin', 'normal')
 					eCert.addFont('/assets/font/SourceSansPro-Regular.ttf', 'SourceSansPro-Regular', 'normal')
 
-					eCertProg.innerText = 'loading images...'
+					toastInfo.innerHTML = `<div class='toast-body'>loading images...</div>`
+					msgInfo.show()
 					// eCert.addImage('/assets/image/program/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
 					await fetch(`/assets/image/program/${source}.jpg`)
 						.then((response) => {
@@ -771,11 +780,13 @@ $(document).ready(function () {
 					eCert.addImage('/media/image/roip-concept.png', 'PNG', 8, 179, 62, 20)
 					eCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 225, 179, 65, 20)
 
-					eCertProg.innerText = 'loading texts...'
+					toastInfo.innerHTML = `<div class='toast-body'>loading texts...</div>`
+					msgInfo.show()
 					eCert.setFont('Orbitron-Black').setFontSize(30).setTextColor('#72c7ef').text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(new Date(date.split('/')[2], date.split('/')[1] - 1, date.split('/')[0])).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
 					eCert.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250, renderingMode: 'fillThenStroke' })
 
-					eCertProg.innerText = 'lookup caller detail...'
+					toastInfo.innerHTML = `<div class='toast-body'>lookup caller detail...</div>`
+					msgInfo.show()
 					try {
 						let respCALL = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${caller}`)
 						if (respCALL) {
@@ -791,7 +802,8 @@ $(document).ready(function () {
 					eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(mode, 49.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 
 					if (ncs != caller) {
-						eCertProg.innerText = 'lookup controller detail...'
+						toastInfo.innerHTML = `<div class='toast-body'>lookup controller detail...</div>`
+						msgInfo.show()
 						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 						try {
 							let respNCS = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${ncs}`)
@@ -825,7 +837,8 @@ $(document).ready(function () {
 					})
 
 					let fileName = `${date.split('/').reverse().join('')}_${caller}`
-					eCertProg.innerText = `eCert Ready!`
+					toastInfo.innerHTML = `<div class='toast-body'>eCert Ready!</div>`
+					msgInfo.show()
 					try {
 						let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${caller}`)
 						if (respCtc) {
@@ -837,10 +850,12 @@ $(document).ready(function () {
 					}
 					let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download', callCtc)
 					if (WaCtc == null || WaCtc == '') {
+						toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
+						msgSuccess.show()
 						eCert.save(`${fileName}.pdf`)
-						eCertProg.innerText = `eCert ${fileName} saved.\ncheck your 'downloads' folder.`
 					} else {
-						eCertProg.innerText = `sending eCert to ${WaCtc}...`
+						toastInfo.innerHTML = `<div class='toast-body'>sending eCert to ${WaCtc}...</div>`
+						msgInfo.show()
 						if (callCtc != WaCtc) {
 							await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
 								method: 'POST',
@@ -867,9 +882,11 @@ $(document).ready(function () {
 							}),
 						}).then((res) => {
 							if (res.ok) {
-								eCertProg.innerText = `eCert ${fileName} sent to ${WaCtc}.\ncheck your message from 601153440440.`
+								toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck your message from 601153440440.</div>`
+								msgSuccess.show()
 							} else {
-								eCertProg.innerText = `eCert send fail. retry again later.`
+								toastDanger.innerHTML = `<div class='toast-body'>eCert send fail. retry again later.</div>`
+								msgDanger.show()
 							}
 						})
 					}

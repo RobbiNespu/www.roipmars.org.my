@@ -45,8 +45,13 @@ $(document).ready(function () {
       $('.cscount').html(tds + ' isyarat panggilan sah')
     }
   })
-  let cbCertProg = document.getElementById('cbCert-progress')
   $('#cbcslist').delegate('tbody tr td', 'click', async function () {
+		const toastSuccess = document.getElementById('prog-success')
+		const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })
+		const toastInfo = document.getElementById('prog-info')
+		const msgInfo = bootstrap.Toast.getOrCreateInstance(toastInfo)
+		const toastDanger = document.getElementById('prog-danger')
+		const msgDanger = bootstrap.Toast.getOrCreateInstance(toastDanger, { delay: 10000 })
 		const cbcsdata = cbmarsreg.row(this).data()
 		const cbcsID = cbcsdata[0]
 		const cbcsCall = cbcsdata[1]
@@ -55,7 +60,8 @@ $(document).ready(function () {
 		let confirmtxt = `You are requesting Certificate for ${cbcsCall}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
       try {
-				cbCertProg.innerText = 'request confirmed. generating eCert...'
+				toastSuccess.innerHTML = `<div class='toast-body'>request confirmed. generating Certificate...</div>`
+				msgSuccess.show()
 				await fetch('https://api.roipmars.org.my/hook/certgen', {
 					method: 'PUT',
 					headers: { 'content-type': 'application/json' },
@@ -64,8 +70,9 @@ $(document).ready(function () {
 				await genCert(cbcsID, cbcsCall, cbcsName, cbcsRegDate)
 			} catch (error) {
 				console.log(error)
-				alert('Cert generator subprocess error. reload required.')
-				setTimeout(location.reload(), 5000)
+				toastDanger.innerHTML = `<div class='toast-body'>Certificate generator subprocess error. reload required.</div>`
+				msgDanger.show()
+				toastDanger.addEventListener('hidden-bs-toast', () => { location.reload() })
 			}
 		}
 		async function genCert(id, call, name, regDate) {
@@ -116,7 +123,8 @@ $(document).ready(function () {
 				creator: 'RoIPMARS CB Cert generator',
 			})
 
-			cbCertProg.innerText = `Certificate Ready!`
+			toastInfo.innerHTML = `<div class='toast-body'>Certificate Ready!</div>`
+			msgInfo.show()
 			try {
 				let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${call}`)
 				if (respCtc) {
@@ -128,10 +136,12 @@ $(document).ready(function () {
 			}
 			let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download', callCtc)
 			if (WaCtc == null || WaCtc == '') {
+				toastSuccess.innerHTML = `<div class='toast-body'>${fileName} saved.\ncheck your 'downloads' folder.</div>`
+				msgSuccess.show()
 				cbcsCert.save(`${fileName}.pdf`)
-				cbCertProg.innerText = `${fileName} saved.\ncheck your 'downloads' folder.`
 			} else {
-				cbCertProg.innerText = `sending Certificate to ${WaCtc}...`
+				toastInfo.innerHTML = `<div class='toast-body'>sending Certificate to ${WaCtc}...</div>`
+				msgInfo.show()
 				if (callCtc != WaCtc) {
 					await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
 						method: 'POST',
@@ -158,9 +168,11 @@ $(document).ready(function () {
 					}),
 				}).then((res) => {
 					if (res.ok) {
-						cbCertProg.innerText = `${fileName} sent to ${WaCtc}.\ncheck your message from 601153440440.`
+						toastSuccess.innerHTML = `<div class='toast-body'>${fileName} sent to ${WaCtc}.\ncheck your message from 601153440440.</div>`
+						msgSuccess.show()
 					} else {
-						cbCertProg.innerText = `Certificate send fail. retry again later.`
+						toastDanger.innerHTML = `<div class='toast-body'>Certificate send fail. retry again later.</div>`
+						msgDanger.show()
 					}
 				})
 			}

@@ -240,7 +240,11 @@
             $file_last_modified = filemtime(__DIR__ . '/assets/json/member.json');
             echo ' yang disahkan setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>
-          <span class='d-flex justify-content-center fs-6 font-monospace lh-1 text-center' id='memCert-progress'></span>
+          <div class='toast-container position-fixed top-50 start-50 translate-middle p-3 z-3'>
+            <div id='prog-info' class='toast text-bg-info' role='status' aria-live='polite' aria-atomic='true'></div>
+            <div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
+            <div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
+          </div>
           <table class='table table-sm table-striped align-middle' id='memberlist'></table>
         </div>
       </div>

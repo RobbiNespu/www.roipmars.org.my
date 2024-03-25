@@ -8,7 +8,7 @@
   <body>
     <?php include '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center'>Notis Perubahan Jadual Net di RoIPMARS</p>
+      <h1 class='text-center'>Notis Perubahan Jadual Net di RoIPMARS</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
         <tbody>
           <tr><td>Rujukan Notis</td><td>NtsMARS2023/10</td></tr>

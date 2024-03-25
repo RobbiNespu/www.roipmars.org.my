@@ -8,7 +8,7 @@
   <body>
     <?php include '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center'>Server Downtime 30 Aug 2020</p>
+      <h1 class='text-center'>Server Downtime 30 Aug 2020</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
         <tbody>
           <tr><td>Rujukan Notis</td><td>NtsMARS2020/09</td></tr>
@@ -33,7 +33,6 @@
           <td>naiktaraf Sistem Operasi Penghala Rangkaian (Network Router)</td>
         </tr>
       </table>
-      </p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak PPRK/MARS kepada anda semua.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2009'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>

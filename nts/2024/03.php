@@ -8,7 +8,7 @@
   <body>
     <?php include '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center'>Pemberhentian Operasi Pelayan roipmars.com</p>
+      <h1 class='text-center'>Pemberhentian Operasi Pelayan roipmars.com</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
         <tbody>
           <tr><td>Rujukan Notis</td><td>NtsMARS2024/03</td></tr>

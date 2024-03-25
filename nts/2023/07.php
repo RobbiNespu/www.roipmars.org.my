@@ -2,14 +2,13 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</title>t.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brandnet_sq.png'>
-    <meta name='twitter:creator' content='@HafiziRuslan'>
+    <title>RoIPMARS Network | Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</title>
   </head>
 
   <body>
     <?php include '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center'>Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</p>
+      <h1 class='text-center'>Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
         <tbody>
           <tr><td>Rujukan Notis</td><td>NtsMARS2023/07</td></tr>

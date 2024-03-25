@@ -8,7 +8,7 @@
   <body>
     <?php include '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center'>Notice Website interruption for service upgrade</p>
+      <h1 class='text-center'>Notice Website interruption for service upgrade</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
         <tbody>
           <tr><td>Rujukan Notis</td><td>NtsMARS2020/06</td></tr>

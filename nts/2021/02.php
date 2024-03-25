@@ -8,7 +8,7 @@
   <body>
     <?php include '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center'>Penyeleggaraan Aplikasi</p>
+      <h1 class='text-center'>Penyeleggaraan Aplikasi</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
         <tbody>
           <tr><td>Rujukan Notis</td><td>NtsMARS2021/02</td></tr>
@@ -18,7 +18,7 @@
       <p class='lh-sm'>Pengguna yang dihormati,</p>
       <p class='fs-2 fw-bold text-decoration-underline'>Per: Penyeleggaraan migrasi tidak berjadual</p>
       <p class='mb-2'>Harap Maaf buat semua pengguna MARS Group kerana tidak dapat menggunakan perkhidmatan kami sejak Isnin, 9 Ogos 2021. Pihak kami sedang membuat penyelenggaraan migrasi tidak berjadual terhadap semua 'server' dan 'domain' di bawah kelolaan kami.</p>
-      <p>Penyelengaraan tersebut meliputi aplikasi
+      <p>Penyelengaraan tersebut meliputi aplikasi</p>
       <ul type='circle'>
         <li>TeamSpeak</li>
         <li>Conference Server (TS Add-On)</li>
@@ -26,8 +26,7 @@
         <li><s>Mumble</s></li>
         <li><s>eQSO</s></li>
       </ul>
-      </p>
-      <p>Semua penyelengaraan ini dijangka selesai pada
+      <p>Semua penyelengaraan ini dijangka selesai pada</p>
       <table class='table table-sm table-responsive table-bordered text-center'>
         <thead>
           <th>Tarikh</th>
@@ -40,7 +39,6 @@
           </tr>
         </tbody>
       </table>
-      </p>
       <p>Pihak pengguna tidak perlu membuat apa-apa perubahan ke atas 'software' selepas penyelenggaraan ini selesai.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2102'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>

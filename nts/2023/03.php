@@ -8,7 +8,7 @@
   <body>
     <?php include '../../ntsheader.php' ?>
     <div class='container my-2'>
-      <p class='fs-1 text-center'>Penyelenggaraan Menaik Taraf <i>&apos;Firmware&apos;</i> Rangkaian - 25 Mac 2023</p>
+      <h1 class='text-center'>Penyelenggaraan Menaik Taraf <i>&apos;Firmware&apos;</i> Rangkaian - 25 Mac 2023</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
         <tbody>
           <tr><td>Rujukan Notis</td><td>NtsMARS2023/03</td></tr>
@@ -30,7 +30,6 @@
           <tr><th>Punca</th><td>Operasi naiktaraf perisian rangkaian</td></tr>
         </tbody>
       </table>
-      </p>
       <p>Pelayan tidak akan ditutup semasa tempoh penyelenggaraan kerana ia hanya menjejaskan sambungan pelayan. Dinasihatkan supaya tidak lakukan apa-apa aktiviti semasa tempoh penyelenggaraan kerana ia akan mengakibatkan kerosakan data akibat daripada sambungan yang tidak konsisten.</p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Persefahaman dan kerjasama anda amat kami hargai. Jutaan kemaafan kami pohon dari Pihak Pengurusan Kumpulan RoIPMARS kepada anda semua.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2303'>member@roipmars.org.my</a></p>

@@ -10,7 +10,10 @@ if (location.port) {
 let currentHost = location.protocol + '//' + location.hostname + currentPort
 let currentURL = location.href
 let docTitle = document.querySelector('title').textContent
-let docDesc = document.querySelector('h1').textContent + '\n' + document.querySelector('p').textContent
+let docPar = document.querySelectorAll('p')
+let list = [].slice.call(docPar)
+let innertext = list.map(function (e) { return e.innerText }).join(' ')
+let docDesc = (document.querySelector('h1').textContent + ' | ' + innertext).slice(0, 150)
 const meta = `<base href="${currentHost}">\
 <meta charset="utf-8">\
 <meta http-equiv="Content-Type" content="text/html">\

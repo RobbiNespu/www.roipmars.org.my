@@ -18,17 +18,17 @@ const meta = `<base href="${currentHost}">\
 <meta name="author" content="HafiziRuslan">\
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">\
 <meta name="robots" content="all">\
-<meta name="title" content="RoIPMARS Network | ${docTitle}">\
+<meta name="title" content="${docTitle}">\
 <meta name="description" content="${docDesc}">\
 <meta name="keywords" content="roipmars,malaysia,ts3,teamspeak3,radio,roip,voip,komunikasi,amatur,teamspeak,hosting,amateur,jalurrakyat,citizenband,network">\
 <meta property="og:site_name" content="RoIPMARS Network">\
-<meta property="og:title" content="RoIPMARS Network | ${docTitle}">\
+<meta property="og:title" content="${docTitle}">\
 <meta property="og:description" content="${docDesc}">\
 <meta property="og:url" content="${currentURL}">\
 <meta property="og:image" content="${currentHost}/assets/icon/favicon-194x194.png">\
 <meta property="og:type" content="website">\
 <meta property="og:locale" content="ms-MY">\
-<meta name="twitter:title" content="RoIPMARS Network | ${docTitle}">\
+<meta name="twitter:title" content="${docTitle}">\
 <meta name="twitter:description" content="${docDesc}">\
 <meta name="twitter:url" content="${currentURL}">\
 <meta name="twitter:image" content="${currentHost}/assets/icon/favicon-194x194.png">\

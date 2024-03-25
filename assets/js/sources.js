@@ -1,7 +1,7 @@
-if (location.port == 80 || location.port == 443) {
-	var currentPort = ''
-} else {
+if (location.port) {
 	var currentPort = ':' + location.port
+} else {
+	var currentPort = ''
 }
 let currentHost = location.protocol + '//' + location.hostname + currentPort
 let currentPage = location.pathname.replace('/', '')

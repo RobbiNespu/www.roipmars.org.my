@@ -19,28 +19,39 @@
           </div>
           <button class='navbar-toggler border-0' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>nav</button>
           <div class='collapse navbar-collapse text-end' id='navbarNav'>
-            <ul class='nav navbar-nav nav-pills text-center d-flex ms-auto gap-1'>
+            <ul class='nav navbar-nav nav-pills mt-3 me-lg-3 mb-lg-3 d-flex ms-auto gap-1'>
               <li class='nav-item'><a class='nav-link' href='/about' id='about'>Tentang Kami</a></li>
-              <li class='nav-item'><a class='nav-link' href='/rnd' id='rnd'>Kajian</a></li>
-              <li class='nav-item'><a class='nav-link' href='/cbinfo' id='cbinfo'>Info CB</a></li>
-              <li class='nav-item'><a class='nav-link' href='/cbmars' id='cbmars'>CB MARS</a></li>
-              <li class='nav-item'><a class='nav-link' href='/howto' id='howto'>Tutorial</a></li>
-              <li class='nav-item'><a class='nav-link' href='/activity' id='activity'>Galeri</a></li>
-              <li class='nav-item'><a class='nav-link' href='/program' id='program'>Program</a></li>
-              <li class='nav-item'><a class='nav-link' href='/faq' id='faq'>Soalan Lazim</a></li>
-              <li class='nav-item'><a class='nav-link' href='/snotice' id='snotice'>Notis</a></li>
+              <li class='nav-item dropdown my-auto'>
+                <button class='btn btn-sm rounded-3 dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Aktiviti</button>
+                <ul class='dropdown-menu dropdown-menu-end text-center text-nowrap bg-body-secondary'>
+                  <li class='nav-item'><a class='nav-link' href='/activity' id='activity'>Galeri</a></li>
+                  <li class='nav-item'><a class='nav-link' href='/rnd' id='rnd'>Kajian</a></li>
+                  <li class='nav-item'><a class='nav-link' href='/howto' id='howto'>Tutorial</a></li>
+                  <li class='nav-item'><a class='nav-link' href='/faq' id='faq'>Soalan Lazim</a></li>
+                  <li class='nav-item'><a class='nav-link' href='/snotice' id='snotice'>Notis</a></li>
+                  <li class='nav-item'><a class='nav-link' href='/program' id='program'>Program</a></li>
+                  <li class='nav-item'><a class='nav-link' href='/applogin' target='_blank' id='applogin'>Log Masuk Aplikasi</a></li>
+                  <li class='nav-item'><a class='nav-link' href='/livefeed' target='_blank' id='livefeed'>Suapan Lansung</a></li>
+                </ul>
+              </li>
               <li class='nav-item'><a class='nav-link' href='/member' id='member'>Keahlian</a></li>
+              <li class='nav-item dropdown my-auto'>
+                <button class='btn btn-sm rounded-3 dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Jalur Rakyat</button>
+                <ul class='dropdown-menu dropdown-menu-end text-center text-nowrap bg-body-secondary'>
+                  <li class='nav-item'><a class='nav-link' href='/cbinfo' id='cbinfo'>Informasi Jalur Rakyat</a></li>
+                  <li class='nav-item'><a class='nav-link' href='/cbmars' id='cbmars'>Jalur Rakyat RoIPMARS</a></li>
+                </ul>
+              </li>
               <li class='nav-item'><a class='nav-link' href='/contact' id='contact'>Hubungi Kami</a></li>
               <li class='nav-item dropdown my-auto'>
-                <button class='btn btn-sm btn-info rounded-3 dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>RoIPMARS</button>
-                <ul class='dropdown-menu dropdown-menu-end bg-body-secondary'>
-                  <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsnetwork' target='_blank' rel='noopener'><i class='bi-receipt'></i> Member Portal</a></li>
-                  <li><a class='dropdown-item text-success-emphasis' href='https://billing.stripe.com/p/login/6oE3d5ejyccoaDCeUU' target='_blank' rel='noopener'><i class='bi-stripe'></i> Stripe Portal</a></li>
-                  <li>
-                    <hr>
-                  </li>
+                <button class='btn btn-sm btn-outline-info rounded-3 dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Pautan Luar</button>
+                <ul class='dropdown-menu dropdown-menu-end text-center text-nowrap bg-body-secondary'>
+                  <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsnetwork' target='_blank' rel='noopener'><i class='bi-receipt'></i> Portal Keahlian</a></li>
+                  <li><a class='dropdown-item text-success-emphasis' href='https://billing.stripe.com/p/login/6oE3d5ejyccoaDCeUU' target='_blank' rel='noopener'><i class='bi-stripe'></i> Portal Pembayaran</a></li>
+                  <li><hr></li>
                   <li><a class='dropdown-item text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-basket'></i> Kedai</a></li>
                   <li><a class='dropdown-item text-info-emphasis' href='https://dl.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cloud-download'></i> Muat Turun</a></li>
+                  <li><a class='dropdown-item text-secondary-emphasis' href='https://speed.mhrtech.my' target='_blank' rel='noopener'><i class='bi-speedometer2'></i> Ujian Kecekapan Internet</a></li>
                 </ul>
               </li>
             </ul>

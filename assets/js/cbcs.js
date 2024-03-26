@@ -72,7 +72,7 @@ $(document).ready(function () {
 				console.log(error)
 				toastDanger.innerHTML = `<div class='toast-body'>Certificate generator subprocess error. reload required.</div>`
 				msgDanger.show()
-				toastDanger.addEventListener('hidden-bs-toast', () => { location.reload() })
+				setTimeout(function () { location.reload() }, 10000)
 			}
 		}
 		async function genCert(id, call, name, regDate) {

@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <?php include '../../ntsheader.php' ?>
+    <?php include __DIR__.'/../../ntsheader.php' ?>
     <div class='container my-2'>
       <h1 class='text-center'>Notis Rombakan Isyarat Panggilan Jalur Rakyat</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
@@ -37,9 +37,9 @@
       <p>Diminta semua pemilik isyarat panggilan RoIPMARS Network supaya menukarkan isyarat panggilan sebelum ini kepada isyarat panggilan semasa yang dapat disemak di: <a href='/cbmars'>SINI</a>.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2309'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
-      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
+      <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>
-    <?php include '../../footermin.php' ?>
+    <?php include __DIR__.'/../../footermin.php' ?>
   </body>
 
 </html>

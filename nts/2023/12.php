@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <?php include '../../ntsheader.php' ?>
+    <?php include __DIR__.'/../../ntsheader.php' ?>
     <div class='container my-2'>
       <h1 class='text-center'>Gangguan sementara notifikasi automatik aktiviti</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
@@ -29,9 +29,9 @@
       <p>Namun yang demikian, pihak pentadbir sistem akan sedaya upaya untuk meneruskan notifikasi ke platform Facebook &amp; Telegram kami semasa tempoh penyelenggaraan. Anda boleh membuat carian &quot;RoIPMARS Network&quot; di kedua-dua platform tersebut bagi mendapatkan maklumat lanjut.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2312'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
-      <p class='text-end mt-0 mb-2' style='font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 500;'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
+      <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>
-    <?php include '../../footermin.php' ?>
+    <?php include __DIR__.'/../../footermin.php' ?>
   </body>
 
 </html>

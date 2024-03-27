@@ -16,6 +16,12 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'oxygen_monoregular';
+	src: url('/assets/font/oxygenmono-regular-webfont.woff2') format('woff2'), url('/assets/font/oxygenmono-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 .ft-orbitron-black {
 	font-family: 'orbitronblack';
 }
@@ -24,4 +30,7 @@
 }
 .ft-signature {
 	font-family: 'heatwoodregular';
+}
+.ft-signature1 {
+	font-family: 'oxygen_monoregular';
 }

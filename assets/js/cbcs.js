@@ -93,24 +93,30 @@ $(document).ready(function () {
 			cbcsCert.addFont('/assets/font/AgencyFB.ttf', 'AgencyFB', 'normal')
 
 			cbcsCert.addImage('/assets/image/certs/cb.png', 'PNG', 0, 0, 1056, 816)
+			cbcsCert.addImage('/assets/image/certs/countryflags/my.png', 'PNG', 20, 20, 150, 100)
+			cbcsCert.addImage('/assets/image/certs/countryflags/id.png', 'PNG', 150, 30, 150, 75)
+			cbcsCert.addImage('/assets/image/certs/countryflags/bn.png', 'PNG', 20, 90, 150, 100)
+			cbcsCert.addImage('/assets/image/certs/countryflags/th.png', 'PNG', 150, 100, 150, 75)
+			cbcsCert.addImage('/media/image/brands/kopdarmobile.png', 'PNG', 20, 615, 145.6, 100)
+			cbcsCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 20, 725, 320, 65)
 
-			cbcsCert.setFont('AgencyFB').setFontSize(72).setTextColor('#336699').text(name, 775, 225, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 350, renderingMode: 'fillThenStroke' })
+			cbcsCert.setFont('AgencyFB').setFontSize(80).setTextColor('#336699').text(name, 775, 225, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 350, renderingMode: 'fillThenStroke' })
       cbcsCert.setFont('AgencyFB').setFontSize(52).setTextColor('#5cce54').text(`${call} - [${id}]`, 775, 520, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 350, renderingMode: 'fillThenStroke' })
-
-      if (call == '113MSOGK') {
-				cbcsCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('HAFIZI RUSLAN, SETIAUSAHA', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
-				cbcsCert.addImage('/assets/image/certs/lgx_sign.png', 'PNG', 580, 575, 150, 150)
-			} else {
-				cbcsCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('KAMARUDZAMAN, PRESIDEN', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
-				cbcsCert.addImage('/assets/image/certs/ogk_sign.png', 'PNG', 615, 585, 87.2, 136.4)
-			}
-
 			cbcsCert.setFont('AgencyFB').setFontSize(48).setTextColor('#72c7ef').text(regDate.toUpperCase(), 915, 660, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 200, renderingMode: 'fillThenStroke' })
 			cbcsCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('TARIKH DAFTAR', 915, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 
-			cbcsCert.addImage('/media/image/brands/kopdarmobile_sq.png', 'PNG', 20, 650, 65, 65)
-			cbcsCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 20, 725, 320, 65)
-			cbcsCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+      if (call.match(/113MSOGK|91KMEGG/g)) {
+				cbcsCert.addImage('/assets/image/certs/lgx_sign.png', 'PNG', 580, 575, 150, 150)
+				cbcsCert.setFont('AgencyFB').setFontSize(30).setTextColor('black').text('HAFIZI RUSLAN, SETIAUSAHA\nRoIPMARS', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
+			} /* else if (call.match(/\d{1,3}KM.{1,}/g)) {
+				cbcsCert.addImage('/assets/image/certs/egg_sign.png', 'PNG', 580, 575, 150, 150)
+				cbcsCert.setFont('AgencyFB').setFontSize(30).setTextColor('black').text('GILANG GUMILAR, PENGASAS\nKOPDARMOBILE', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
+			} */ else {
+				cbcsCert.addImage('/assets/image/certs/ogk_sign.png', 'PNG', 615, 585, 87.2, 136.4)
+				cbcsCert.setFont('AgencyFB').setFontSize(30).setTextColor('black').text('KAMARUDZAMAN, PRESIDEN\nRoIPMARS', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
+			}
+
+			cbcsCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY / KOPDARMOBILE.ID', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			cbcsCert.setFont('HYPost-Light').setFontSize(10).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			cbcsCert.setFont('OpenSansCondensed-Regular').setFontSize(10).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 528, 780, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			cbcsCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })

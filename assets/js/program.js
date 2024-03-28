@@ -708,11 +708,13 @@ $(document).ready(function () {
 					try {
 						toastSuccess.innerHTML = `<div class='toast-body'>request confirmed. generating eCert...</div>`
 						msgSuccess.show()
-						await fetch('https://api.roipmars.org.my/hook/certgen', {
-							method: 'PUT',
-							headers: { 'content-type': 'application/json' },
-							body: JSON.stringify({ call: netReportTable.row(this).data()[1], id: takwimdate, source: location.pathname.replaceAll('/','') }),
-						})
+						if (location.hostname != 'localhost') {
+							await fetch('https://api.roipmars.org.my/hook/certgen', {
+								method: 'PUT',
+								headers: { 'content-type': 'application/json' },
+								body: JSON.stringify({ call: netReportTable.row(this).data()[1], id: takwimdate, source: location.pathname.replaceAll('/', '') }),
+							})
+						}
 						await generateCert(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
 					} catch (error) {
 						console.log(error)

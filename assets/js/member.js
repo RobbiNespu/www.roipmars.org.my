@@ -53,11 +53,13 @@ $(document).ready(function () {
 			try {
 				toastSuccess.innerHTML = `<div class='toast-body'>request confirmed. generating Certificate...</div>`
 				msgSuccess.show()
-				await fetch('https://api.roipmars.org.my/hook/certgen', {
-					method: 'PUT',
-					headers: { 'content-type': 'application/json' },
-					body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/','') }),
-				})
+				if (location.hostname != 'localhost') {
+					await fetch('https://api.roipmars.org.my/hook/certgen', {
+						method: 'PUT',
+						headers: { 'content-type': 'application/json' },
+						body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/', '') }),
+					})
+				}
 				await genCert(memID, memCall, memName, memValidDate)
 			} catch (error) {
 				console.log(error)

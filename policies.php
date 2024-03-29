@@ -55,14 +55,16 @@
                 <a class='nav-link ms-3 my-1' href='#wbprotection'>Perlindungan Pemberi Maklumat</a>
                 <a class='nav-link ms-3 my-1' href='#wbresponsibilty'>Tanggungjawab Pemberi Maklumat</a>
               </nav>
+              <a class='nav-link' href='#ncs'>Petugas Aktiviti</a>
+              <a class='nav-link' href='#svcsubs'>Langganan Pelayan</a>
             </nav>
           </nav>
         </div>
         <div class='col-8'>
-          <div data-bs-spy='scroll' data-bs-target='#navbar-policy' data-bs-offset='0' data-bs-smooth-scroll='true' class='scrollspy-policy' tabindex='0'>
+          <d data-bs-spy='scroll' data-bs-target='#navbar-policy' data-bs-offset='0' data-bs-smooth-scroll='true' class='scrollspy-policy' tabindex='0'>
             <div id='tos'>
               <h4>Terma &amp; Syarat</h4>
-              <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI, terletak di roipmars.org.my.</p>
+              <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI, terletak di RoIPMARS.org.my.</p>
               <p>Dengan mengakses laman sesawang ini, kami menganggap anda menerima dan bersetuju dengan terma dan syarat ini. Jangan terus menggunakan Perkhidmatan &quot;RoIPMARS&quot; jika anda tidak bersetuju untuk menerima semua terma dan syarat yang dinyatakan di halaman ini.</p>
               <p>Istilah berikut digunakan untuk Terma dan Syarat ini, Pernyataan Privasi dan Notis Penafian dan semua Perjanjian:</p>
               <ul>
@@ -130,7 +132,7 @@
                 <li>faedah kepada kami daripada keterlihatan pautan mengimbangi ketiadaan organisasi; dan</li>
                 <li>pautan adalah dalam konteks maklumat sumber am.</li>
               </ol>
-              <p>Jika anda adalah salah satu organisasi yang disenaraikan dalam perenggan 2 di atas dan berminat untuk memaut ke laman sesawang kami, anda mesti memaklumkan kami dengan menghantar e-mel kepada member@roipmars.org.my. Sila sertakan nama anda, nama organisasi anda, maklumat hubungan serta URL laman anda, senarai mana-mana URL yang anda ingin dipautkan ke Laman sesawang kami dan senarai URL di laman kami yang anda ingin pautkan. Tunggu 2-3 minggu untuk maklum balas.</p>
+              <p>Jika anda adalah salah satu organisasi yang disenaraikan dalam perenggan 2 di atas dan berminat untuk memaut ke laman sesawang kami, anda mesti memaklumkan kami dengan menghantar e-mel kepada member@roipmars.org.my. Sila sertakan nama anda, nama organisasi anda, maklumat hubungan serta URL laman anda, senarai mana-mana URL yang anda ingin dipautkan ke Laman sesawang kami dan senarai URL di laman kami yang anda ingin pautkan. Tunggu 1-7 hari bekerja untuk maklum balas.</p>
               <p>Organisasi yang diluluskan boleh membuat pautan ke Laman sesawang kami seperti berikut:</p>
               <ul>
                 <li>Dengan menggunakan organisasi atau nama jenama kami; atau</li>
@@ -170,9 +172,10 @@
               </ol>
               <p>Selagi laman sesawang dan maklumat serta perkhidmatan di laman sesawang disediakan secara percuma, kami tidak akan bertanggungjawab ke atas sebarang kehilangan atau kerosakan dalam apa jua bentuk.</p>
             </div>
+            <hr>
             <div id='privacy'>
               <h4>Dasar Privasi</h4>
-              <p>Di &quot;RoIPMARS&quot;, boleh diakses daripada roipmars.org.my dan semua sub-domainnya, salah satu keutamaan utama kami ialah privasi pelawat kami. Dokumen Dasar Privasi ini mengandungi jenis maklumat yang dikumpul dan direkodkan oleh &quot;RoIPMARS&quot; dan cara kami menggunakannya.</p>
+              <p>Di &quot;RoIPMARS&quot;, boleh diakses daripada RoIPMARS.org.my dan semua sub-domainnya, salah satu keutamaan utama kami ialah privasi pelawat kami. Dokumen Dasar Privasi ini mengandungi jenis maklumat yang dikumpul dan direkodkan oleh &quot;RoIPMARS&quot; dan cara kami menggunakannya.</p>
               <p>Jika anda mempunyai soalan tambahan atau memerlukan maklumat lanjut tentang Dasar Privasi kami, jangan teragak-agak untuk menghubungi kami.</p>
               <p>Dasar Privasi ini hanya terpakai untuk aktiviti dalam talian kami dan sah untuk pelawat ke laman web kami berkenaan dengan maklumat yang mereka kongsi dan/atau kumpulkan dalam &quot;RoIPMARS&quot;. Dasar ini tidak terpakai kepada sebarang maklumat yang dikumpul di luar talian atau melalui saluran selain laman web ini.</p>
             </div>
@@ -226,6 +229,7 @@
               <p>Satu lagi bahagian keutamaan kami ialah menambah perlindungan untuk kanak-kanak semasa menggunakan internet. Kami menggalakkan ibu bapa dan penjaga untuk memerhati, mengambil bahagian dalam dan/atau memantau serta membimbing aktiviti dalam talian mereka.</p>
               <p>&quot;RoIPMARS&quot; tidak secara sengaja mengumpul sebarang Maklumat Pengenalan Peribadi daripada kanak-kanak di bawah umur 18 tahun. Jika anda berpendapat bahawa anak anda memberikan maklumat seperti ini di laman web kami, kami amat menggalakkan anda menghubungi kami dengan segera dan kami akan melakukan usaha yang terbaik untuk mengalih keluar maklumat sedemikian dengan segera daripada rekod kami.</p>
             </div>
+            <hr>
             <div id='return'>
               <h4>Dasar Pemulangan dan Bayaran Balik</h4>
               <p>Terima kasih kerana membeli-belah di &quot;RoIPMARS&quot;. Jika, atas sebarang sebab, anda tidak berpuas hati sepenuhnya dengan pembelian / langganan, kami menjemput anda untuk menyemak dasar kami mengenai bayaran balik dan pemulangan. Terma berikut terpakai untuk sebarang produk / perkhidmatan yang anda beli / langgan dengan Kami.</p>
@@ -240,7 +244,7 @@
                 <li><strong>Barang</strong> merujuk kepada produk / khidmat yang ditawarkan untuk dijual pada Perkhidmatan.</li>
                 <li><strong>Pesanan</strong> bermaksud permintaan oleh Anda untuk membeli Barang daripada Kami.</li>
                 <li><strong>Perkhidmatan</strong> merujuk kepada laman Web dan/atau khidmat.</li>
-                <li><strong>laman web</strong> merujuk kepada &quot;RoIPMARS&quot;, boleh diakses daripada roipmars.org.my dan semua sub-domainnya</li>
+                <li><strong>laman web</strong> merujuk kepada &quot;RoIPMARS&quot;, boleh diakses daripada RoIPMARS.org.my dan semua sub-domainnya</li>
                 <li><strong>Anda</strong> bermaksud individu yang mengakses atau menggunakan Perkhidmatan, atau organisasi, atau entiti undang-undang lain bagi pihak individu tersebut mengakses atau menggunakan Perkhidmatan, mengikut mana yang berkenaan.</li>
               </ul>
             </div>
@@ -250,7 +254,7 @@
               <p>Tarikh akhir untuk membatalkan Pesanan ialah 3 hari dari tarikh Anda menerima Barangan atau pada mana pihak ketiga yang anda lantik, yang bukan pembawa, mengambil milik produk yang dihantar.</p>
               <p>Untuk melaksanakan hak pembatalan Anda, Anda mesti memaklumkan Kami tentang keputusan anda melalui pernyataan yang jelas. Anda boleh memaklumkan kepada kami keputusan anda dengan:</p>
               <ul>
-                <li>Melalui e-mel: member@roipmars.org.my</li>
+                <li>Melalui e-mel: member@RoIPMARS.org.my</li>
               </ul>
               <p>Kami akan membayar balik kepada Anda tidak lewat daripada 14 hari bekerja dari hari Kami menerima Barang yang dikembalikan. Kami akan menggunakan cara pembayaran yang sama seperti yang Anda gunakan untuk Pesanan dan Anda tidak akan dikenakan sebarang bayaran untuk pembayaran balik tersebut.</p>
             </div>
@@ -280,12 +284,13 @@
               <h5>Hubungi Kami</h5>
               <p>Jika anda mempunyai sebarang soalan tentang Polisi Pemulangan dan Bayaran Balik kami, sila hubungi kami:</p>
               <ul>
-                <li>Melalui e-mel: member@roipmars.org.my</li>
+                <li>Melalui e-mel: member@RoIPMARS.org.my</li>
               </ul>
             </div>
+            <hr>
             <div id='scam'>
               <h4>NOTIS PENIPUAN</h4>
-              <p>PENAFIAN: &quot;ROIPMARS&quot; tidak bertanggungjawab ke atas kandungan apa-apa maklumat dan tidak akan bertanggungjawab ke atas sebarang akibat, kerugian, atau kerosakan dalam apa jua bentuk yang ditanggung atau mungkin ditanggung oleh mana-mana individu atau orang awam disebabkan pergantungan mereka pada atau penggunaan maklumat berkenaan skim penebusan hadiah, cabutan bertuah, peraduan dan pengambilan dalam &quot;ROIPMARS&quot; daripada portal yang tidak dibenarkan, tapak web atau domain e-mel yang tidak disokong oleh &quot;ROIPMARS&quot;.</p>
+              <p>PENAFIAN: &quot;RoIPMARS&quot; tidak bertanggungjawab ke atas kandungan apa-apa maklumat dan tidak akan bertanggungjawab ke atas sebarang akibat, kerugian, atau kerosakan dalam apa jua bentuk yang ditanggung atau mungkin ditanggung oleh mana-mana individu atau orang awam disebabkan pergantungan mereka pada atau penggunaan maklumat berkenaan skim penebusan hadiah, cabutan bertuah, peraduan dan pengambilan dalam &quot;RoIPMARS&quot; daripada portal yang tidak dibenarkan, tapak web atau domain e-mel yang tidak disokong oleh &quot;RoIPMARS&quot;.</p>
             </div>
             <div id='whistleblowing'>
               <h4>Pemberi Maklumat</h4>
@@ -317,11 +322,11 @@
               <h5>Bagaimana untuk membuat pendedahan?</h5>
               <p>Kami mengambil maklum balas dengan serius, dan kebimbangan anda penting kepada kami. Jika anda ingin mendedahkan sebarang amalan tidak wajar yang berlaku dalam &quot;RoIPMARS&quot;, anda boleh berbuat demikian melalui mana-mana saluran laporan khusus berikut:</p>
               <ul>
-                <li>E-mel kepada member@roipmars.org.my</li>
+                <li>E-mel kepada member@RoIPMARS.org.my</li>
                 <li>Hantar melalui pos kepada: Pengerusi, Jawatankuasa Rekod & Audit Jaringan RoIPMARS &lbrack;31, Lorong Naluri Sukma 8/13, Seksyen 8, Bandar Puncak Alam, 42300 Kuala Selangor, Selangor Darul Ehsan, Malaysia&rbrack;</li>
                 <li>Saluran tambahan untuk penyerahan pendedahan oleh ahli &quot;RoIPMARS&quot;:</li>
                 <ol type='a'>
-                  <li>E-mel kepada member@roipmars.org.my;</li>
+                  <li>E-mel kepada member@RoIPMARS.org.my;</li>
                   <li>E-mel, telefon atau tulis terus kepada Pengerusi Jawatankuasa Rekod & Audit Jaringan RoIPMARS, Ketua Pegawai Eksekutif Organisasi, Pegawai Organisasi dan/atau Ketua Juruaudit Dalaman Organisasi, berdasarkan jenis, dan/atau kategori pendedahan yang akan dibuat;</li>
                 </ol>
               </ul>
@@ -352,6 +357,10 @@
               <p>Pemberi maklumat mesti membuat pendedahan dengan suci hati dan secara munasabah percaya bahawa maklumat dan dakwaan itu adalah benar. Selain itu, pemberi maklumat tidak seharusnya bertindak untuk kepentingan peribadi, dan jika kes itu melibatkan kepentingan peribadi pengadu, ia mesti dimaklumkan pada awalnya.</p>
               <p>Di &quot;RoIPMARS&quot;, kami mengambil serius kebimbangan anda dan tetap berdedikasi untuk menegakkan etika dan ketelusan tertinggi. Komitmen anda untuk memastikan sebuah organisasi yang bertanggungjawab amat dihargai.</p>
             </div>
+            <hr>
+            <div id='ncs'></div>
+            <hr>
+            <div id='svcsubs'></div>
           </div>
         </div>
       </div>

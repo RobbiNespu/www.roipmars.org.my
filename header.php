@@ -22,7 +22,7 @@
             <ul class='nav navbar-nav nav-pills d-flex me-lg-3 my-1 ms-auto gap-1'>
               <li class='nav-item'><a class='nav-link' href='/about' id='about'>Tentang Kami</a></li>
               <li class='nav-item dropdown my-auto'>
-                <button class='btn btn-sm rounded-3 dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Aktiviti</button>
+                <button class='btn dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Aktiviti</button>
                 <ul class='dropdown-menu dropdown-menu-end text-center text-nowrap bg-body-secondary'>
                   <li class='nav-item'><a class='nav-link' href='/activity' id='activity'>Galeri</a></li>
                   <li class='nav-item'><a class='nav-link' href='/rnd' id='rnd'>Kajian</a></li>
@@ -35,7 +35,7 @@
                 </ul>
               </li>
               <li class='nav-item dropdown my-auto'>
-                <button class='btn btn-sm rounded-3 dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Jalur Rakyat</button>
+                <button class='btn dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Jalur Rakyat</button>
                 <ul class='dropdown-menu dropdown-menu-end text-center text-nowrap bg-body-secondary'>
                   <li class='nav-item'><a class='nav-link' href='/cbinfo' id='cbinfo'>Informasi Jalur Rakyat</a></li>
                   <li class='nav-item'><a class='nav-link' href='/cbmars' id='cbmars'>Jalur Rakyat RoIPMARS</a></li>
@@ -44,7 +44,7 @@
               <li class='nav-item'><a class='nav-link' href='/member' id='member'>Keahlian</a></li>
               <li class='nav-item'><a class='nav-link' href='/contact' id='contact'>Hubungi Kami</a></li>
               <li class='nav-item dropdown my-auto'>
-                <button class='btn btn-sm rounded-3 dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Pautan Luar</button>
+                <button class='btn dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Pautan Luar</button>
                 <ul class='dropdown-menu dropdown-menu-end text-center text-nowrap bg-body-secondary'>
                   <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsnetwork' target='_blank' rel='noopener'><i class='bi-receipt'></i> Portal Keahlian</a></li>
                   <li><a class='dropdown-item text-success-emphasis' href='https://billing.stripe.com/p/login/6oE3d5ejyccoaDCeUU' target='_blank' rel='noopener'><i class='bi-stripe'></i> Portal Pembayaran</a></li>

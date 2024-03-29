@@ -1,6 +1,10 @@
-if (document.querySelector('.nav') != null) {
-	let currentPage = location.pathname.replace('/', '')
+let currentPage = location.pathname.replace('/', '')
+if (document.querySelector('.nav') && currentPage) {
 	document.querySelector('a#' + currentPage).classList.add('active')
+	let dropPage = document.querySelector('a#' + currentPage).parentElement.parentElement.parentElement.children[0]
+	if (dropPage) {
+		dropPage.classList.add('btn-outline-primary', 'active')
+	}
 }
 if (location.port) {
 	var currentPort = ':' + location.port

@@ -764,7 +764,7 @@ $(document).ready(function () {
 					await fetch(`/assets/image/program/${source}.jpg`)
 						.then((response) => {
 							if (response.ok) {
-									eCert.addImage(`/assets/image/program/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
+								eCert.addImage(`/assets/image/program/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
 							} else {
 								if (activity.toLowerCase().search('sahur') > 0) {
 									eCert.addImage(`/assets/image/program/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
@@ -775,7 +775,7 @@ $(document).ready(function () {
 						})
 					if (activity.toLowerCase().search('sahur') > 0) {
 						eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 85, 10, 100, 20)
-						eCert.addImage('/media/image/brands/kopdarmobile_sq.png', 'PNG', 190, 10, 20, 20)
+						eCert.addImage('/media/image/brands/kopdarmobile.png', 'PNG', 190, 10, 30, 20)
 					} else {
 						eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 98, 10, 100, 20)
 					}
@@ -816,11 +816,11 @@ $(document).ready(function () {
 							eCert.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(ncs, 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 						}
 					} else {
-						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('Congratulations and thanks for duty as NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('Congrats and thanks for duty as NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					}
 
 					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('TIME', 247.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(utctime.replaceAll(':', '') + 'z', 247.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(`${utctime.replaceAll(':', '')}z`, 247.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 
 					eCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY', 148.5, 186, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('SourceSansPro-Regular').setFontSize(10).setTextColor('black').text('PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP) [PPM-006-10-01062020]', 148.5, 189, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
@@ -900,6 +900,5 @@ $(document).ready(function () {
 		modalTitle.textContent = `Laporan Aktiviti`
 		netReport.id = 'netRep'
 		// netRepMod.id = 'netRepMod'
-		document.getElementById('eCert-progress').innerText = ''
 	})
 })

@@ -177,7 +177,7 @@
 									<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
 								</div>
 								<div class='modal-body'>
-									<div class='toast-container position-fixed bottom-0 end-0 p-3 z-3'>
+									<div class='toast-container top-50 start-50 translate-middle p-3 z-3'>
 										<div id='prog-info' class='toast text-bg-info' role='status' aria-live='polite' aria-atomic='true'></div>
 										<div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
 										<div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>

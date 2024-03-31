@@ -51,7 +51,7 @@ $(document).ready(function () {
 		let confirmtxt = `You are requesting Certificate for ${memID}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
 			try {
-				toastSuccess.innerHTML = `<div class='toast-body'>request confirmed. generating Certificate...</div>`
+				toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating Certificate...</div>`
 				msgSuccess.show()
 				if (location.hostname != 'localhost') {
 					await fetch('https://api.roipmars.org.my/hook/certgen', {
@@ -141,7 +141,7 @@ $(document).ready(function () {
 				msgSuccess.show()
 				memCert.save(`${fileName}.pdf`)
 			} else {
-				toastSuccess.innerHTML = `<div class='toast-body'>sending Certificate to ${WaCtc}...</div>`
+				toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border' role='status'><span class='visually-hidden'>Loading...</span></div>sending Certificate to ${WaCtc}...</div>`
 				msgInfo.show()
 				if (callCtc != WaCtc) {
 					await fetch(`https://api.roipmars.org.my/hook/setcontact`, {

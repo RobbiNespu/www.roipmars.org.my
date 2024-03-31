@@ -214,62 +214,6 @@
 							</div>
 						</div>
 					</div>
-
-					<!-- <div class='modal fade' tabindex='0' aria-hidden='true' aria-labelledby='certconfirm' id='certconf'>
-						<div class='modal-dialog modal-dialog-centered'>
-							<div class='modal-content rounded-3 shadow'>
-								<div class='modal-body p-4 text-center'>
-									<h5 class='mb-0' id='certconfirm'>Anda Pasti?</h5>
-								</div>
-								<div class='modal-footer flex-nowrap p-0'>
-									<button type='button' class='btn btn-lg btn-link text-decoration-none col-6 py-3 m-0 rounded-0 border-end'><strong>Teruskan</strong></button>
-									<button type='button' class='btn btn-lg btn-link text-decoration-none col-6 py-3 m-0 rounded-0' data-bs-dismiss='modal'>Batal</button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class='modal fade' tabindex='0' aria-hidden='true' aria-labelledby='certsendopt' id='certsen'>
-						<div class='modal-dialog modal-dialog-centered'>
-							<div class='modal-content rounded-4 shadow'>
-								<div class='modal-header border-bottom-0'>
-									<h5 class='modal-title fs-2'>Pilihan Penghantaran</h5>
-								</div>
-								<div class='modal-body text-center py-0'></div>
-								<div class='modal-footer flex-column align-items-stretch w-100 gap-2 pb-3 border-top-0' id='certsendopt'>
-									<button type='button' class='btn btn-lg btn-success'>WhatsApp</button>
-									<button type='button' class='btn btn-lg btn-primary'>eMail</button>
-									<button type='button' class='btn btn-lg btn-secondary' data-bs-dismiss='modal'>Muat Turun</button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class='modal fade' tabindex='0' aria-hidden='true' aria-labelledby='certsendform' id='certsf'>
-						<div class='modal-dialog modal-dialog-centered'>
-							<div class='modal-content rounded-4 shadow'>
-								<div class='modal-header p-5 pb-4 border-bottom-0'>
-									<h5 class='fw-bold mb-0 fs-2'>Pengesahan Penghantaran</h5>
-									<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
-								</div>
-								<div class='modal-body p-5 pt-0'>
-									<form id='certsendform'>
-										<div class='form-floating mb-3'>
-											<input type='email' class='form-control rounded-3' id='floatEmail' placeholder='user@domain.tld' required>
-											<label for='floatEmail'>Email address</label>
-										</div>
-										<div class='form-floating mb-3'>
-											<input type='tel' class='form-control rounded-3' id='floatWhatsApp' placeholder='60123456789' required>
-											<label for='floatWhatsApp'>WhatsApp</label>
-										</div>
-										<button class='w-100 mb-2 btn btn-lg rounded-3 btn-primary' type='submit'>Hantar</button>
-										<small class='text-body-secondary'>Dengan mengklik Hantar, anda bersetuju dengan terma penggunaan.</small>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div> -->
-
 				</div>
 			</div>
 			<hr>

@@ -26,7 +26,7 @@ $(document).ready(function () {
     language: {
       lengthMenu: 'Paparkan _MENU_ rekod',
       search: 'Cari Callsign/Nama/Lokal:',
-      processing: '<div class="spinner-border" role="status"><span class="visually-hidden">Sedang memuat...</span></div>',
+      processing: '<div class="spinner-border spinner-border-sm" role="status"><span class="visually-hidden">Sedang memuat...</span></div>',
       emptyTable: 'Rekod Tidak Ditemui',
       infoEmpty: 'Rekod Tidak Ditemui',
       zeroRecords: 'Rekod Tidak Ditemui',
@@ -60,7 +60,7 @@ $(document).ready(function () {
 		let confirmtxt = `You are requesting Certificate for ${cbcsCall}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
       try {
-				toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating Certificate...</div>`
+				toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating Certificate...</div>`
 				msgSuccess.show()
 				if (location.hostname != 'localhost') {
 					await fetch('https://api.roipmars.org.my/hook/certgen', {
@@ -148,7 +148,7 @@ $(document).ready(function () {
 				msgSuccess.show()
 				cbcsCert.save(`${fileName}.pdf`)
 			} else {
-				toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border' role='status'><span class='visually-hidden'>Loading...</span></div>sending Certificate to ${WaCtc}...</div>`
+				toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>sending Certificate to ${WaCtc}...</div>`
 				msgInfo.show()
 				if (callCtc != WaCtc) {
 					await fetch(`https://api.roipmars.org.my/hook/setcontact`, {

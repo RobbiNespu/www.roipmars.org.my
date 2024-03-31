@@ -571,7 +571,6 @@ $(document).ready(function () {
 
 	const netRep = document.getElementById('netrep')
 	const netReport = document.getElementById('netRep')
-	// const netRepMod = document.getElementById('netRepMod')
 	netRep.addEventListener('show.bs.modal', (event) => {
 		const button = event.relatedTarget
 		const source = button.getAttribute('data-bs-source')
@@ -668,10 +667,14 @@ $(document).ready(function () {
 					blurable: true,
 					style: 'single',
 				},
+				// createdRow: function (row, data, dataIndex) {
+				// 	$(row).attr('data-bs-toggle', 'modal')
+				// 	$(row).attr('data-bs-target', `#${source}-${data[0]}`)
+				// },
 			})
 
 			// netReportTable.ajax.reload(null, false)
-
+			// const netRepMod = document.getElementById('netRepMod')
 			// const modReportID = `net-${source}-mod`
 			// netRepMod.id = modReportID
 			// const netRepModData = netReportTable.column(2).data()
@@ -696,205 +699,216 @@ $(document).ready(function () {
 			//   searching: false,
 			// })
 
-			$('#' + reportID).delegate('tbody tr td', 'click', async function () {
-				const toastSuccess = document.getElementById('prog-success')
-				const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })
-				const toastInfo = document.getElementById('prog-info')
-				const msgInfo = bootstrap.Toast.getOrCreateInstance(toastInfo)
-				const toastDanger = document.getElementById('prog-danger')
-				const msgDanger = bootstrap.Toast.getOrCreateInstance(toastDanger, { delay: 10000 })
-				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}. Are you sure?`
-				if (confirm(confirmtxt) == true) {
-					try {
-						toastSuccess.innerHTML = `<div class='toast-body'>request confirmed. generating eCert...</div>`
-						msgSuccess.show()
-						if (location.hostname != 'localhost') {
-							await fetch('https://api.roipmars.org.my/hook/certgen', {
-								method: 'PUT',
-								headers: { 'content-type': 'application/json' },
-								body: JSON.stringify({ call: netReportTable.row(this).data()[1], id: takwimdate, source: location.pathname.replaceAll('/', '') }),
-							})
-						}
-						await generateCert(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
-					} catch (error) {
-						console.log(error)
-						toastDanger.innerHTML = `<div class='toast-body'>eCert generator subprocess error. reload required.</div>`
-						msgDanger.show()
-						setTimeout(function () { location.reload() }, 10000)
-					}
-				}
-				async function generateCert(date, activity, ncs, caller, modes, utctime) {
-					const { jsPDF } = window.jspdf
-					switch (modes) {
-						case 'RF': var mode = 'FM (144.8MHz)'; break
-						case 'DC': var mode = 'VOI-Discord'; break
-						case 'EL': var mode = 'VOI-EchoLink'; break
-						case 'FRN': var mode = 'VOI-Free Radio Network'; break
-						case 'MBL': var mode = 'VOI-Mumble'; break
-						case 'PNT': var mode = 'VOI-Peanut'; break
-						case 'TG': var mode = 'VOI-Telegram'; break
-						case 'TS': var mode = 'VOI-TeamSpeak'; break
-						case 'TT': var mode = 'VOI-Team Talk'; break
-						case 'WA': var mode = 'VOI-WhatsApp'; break
-						case 'ZL': var mode = 'VOI-Zello'; break
-						default: var mode = 'unknown'
-					}
-					var eCert = new jsPDF({
-						orientation: 'l',
-						unit: 'mm',
-						format: 'a4',
-						compress: true,
-					})
+			// const confirmation = document.getElementById('certconf')
+			// confirmation.addEventListener('show.bs.modal', (event) => {
+			// 	const confmodal = event.relatedTarget
+			// 	const clicksource = confmodal.getAttribute('data-bs-target')
+			// 	const confirmtext = confirmation.querySelector('.modal-body')
+				$('#' + reportID).delegate('tbody tr td', 'click', async function () {
+					// confirmation.id = clicksource
+					// confirmtext.appendChild(`<p class='mb-0'>Anda memilih untuk menjana sijil;<br>bertarikh: ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))},<br>pemanggil: ${netReportTable.row(this).data()[1]}.</p>`)
+					// const sendoptions = document.getElementById('certsen')
+					// const sendform = document.getElementById('certsf')
 
-					toastInfo.innerHTML = `<div class='toast-body'>loading fonts...</div>`
-					msgInfo.show()
-					eCert.addFont('/assets/font/HYPost-Light.ttf', 'HYPost-Light', 'normal')
-					eCert.addFont('/assets/font/KodeMono-Bold.ttf', 'KodeMono-Bold', 'normal')
-					eCert.addFont('/assets/font/KodeMono-Medium.ttf', 'KodeMono-Medium', 'normal')
-					eCert.addFont('/assets/font/KodeMono-Regular.ttf', 'KodeMono-Regular', 'normal')
-					eCert.addFont('/assets/font/KodeMono-SemiBold.ttf', 'KodeMono-SemiBold', 'normal')
-					eCert.addFont('/assets/font/OpenSansCondensed-Regular.ttf', 'OpenSansCondensed-Regular', 'normal')
-					eCert.addFont('/assets/font/Orbitron-Black.ttf', 'Orbitron-Black', 'normal')
-					eCert.addFont('/assets/font/SairaExtraCondensed-Thin.ttf', 'SairaExtraCondensed-Thin', 'normal')
-					eCert.addFont('/assets/font/SourceSansPro-Regular.ttf', 'SourceSansPro-Regular', 'normal')
-
-					toastInfo.innerHTML = `<div class='toast-body'>gathering contact informations...</div>`
-					msgInfo.show()
-					// eCert.addImage('/assets/image/program/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
-					await fetch(`/assets/image/program/${source}.jpg`)
-						.then((response) => {
-							if (response.ok) {
-								eCert.addImage(`/assets/image/program/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
-							} else {
-								if (activity.toLowerCase().search('sahur') > 0) {
-									eCert.addImage(`/assets/image/program/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
-								} else {
-									eCert.addImage('/assets/image/program/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
-								}
-							}
-						})
-					if (activity.toLowerCase().search('sahur') > 0) {
-						eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 85, 10, 100, 20)
-						eCert.addImage('/media/image/brands/kopdarmobile.png', 'PNG', 190, 10, 30, 20)
-					} else {
-						eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 98, 10, 100, 20)
-					}
-					eCert.addImage('/media/image/roip-concept.png', 'PNG', 8, 179, 62, 20)
-					eCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 225, 179, 65, 20)
-
-					toastInfo.innerHTML = `<div class='toast-body'>lookup caller detail...</div>`
-					msgInfo.show()
-					try {
-						let respCALL = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${caller}`)
-						if (respCALL) {
-							let NetCaller = await respCALL.json()
-							eCert.setFont('KodeMono-Bold').setFontSize(90).setTextColor('#5cce54').text(NetCaller.call, 148.5, 100, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
-							eCert.setFont('KodeMono-Regular').setFontSize(25).setTextColor('#5a5a5a').text(`(${NetCaller.name})`, 148.5, 120, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
-						}
-					} catch (error) {
-						eCert.setFont('KodeMono-Bold').setFontSize(90).setTextColor('#5cce54').text(caller, 148.5, 100, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
-					}
-
-					if (ncs != caller) {
-						toastInfo.innerHTML = `<div class='toast-body'>lookup controller detail...</div>`
-						msgInfo.show()
-						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					const toastSuccess = document.getElementById('prog-success')
+					const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })
+					const toastInfo = document.getElementById('prog-info')
+					const msgInfo = bootstrap.Toast.getOrCreateInstance(toastInfo)
+					const toastDanger = document.getElementById('prog-danger')
+					const msgDanger = bootstrap.Toast.getOrCreateInstance(toastDanger, { delay: 10000 })
+					let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}. Are you sure?`
+					if (confirm(confirmtxt) == true) {
 						try {
-							let respNCS = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${ncs}`)
-							if (respNCS) {
-								let NetNCS = await respNCS.json()
-								eCert.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(NetNCS.call, 148.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-								eCert.setFont('KodeMono-Regular').setFontSize(12).setTextColor('#5a5a5a').text(`(${NetNCS.name})`, 148.5, 170, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+							toastSuccess.innerHTML = `<div class='toast-body'>request confirmed. generating eCert...</div>`
+							msgSuccess.show()
+							if (location.hostname != 'localhost') {
+								await fetch('https://api.roipmars.org.my/hook/certgen', {
+									method: 'PUT',
+									headers: { 'content-type': 'application/json' },
+									body: JSON.stringify({ call: netReportTable.row(this).data()[1], id: takwimdate, source: location.pathname.replaceAll('/', '') }),
+								})
+							}
+							await generateCert(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
+						} catch (error) {
+							console.log(error)
+							toastDanger.innerHTML = `<div class='toast-body'>eCert generator subprocess error. reload required.</div>`
+							msgDanger.show()
+							setTimeout(function () { location.reload() }, 10000)
+						}
+					}
+					async function generateCert(date, activity, ncs, caller, modes, utctime) {
+						const { jsPDF } = window.jspdf
+						switch (modes) {
+							case 'RF': var mode = 'FM (144.8MHz)'; break
+							case 'DC': var mode = 'VOI-Discord'; break
+							case 'EL': var mode = 'VOI-EchoLink'; break
+							case 'FRN': var mode = 'VOI-Free Radio Network'; break
+							case 'MBL': var mode = 'VOI-Mumble'; break
+							case 'PNT': var mode = 'VOI-Peanut'; break
+							case 'TG': var mode = 'VOI-Telegram'; break
+							case 'TS': var mode = 'VOI-TeamSpeak'; break
+							case 'TT': var mode = 'VOI-Team Talk'; break
+							case 'WA': var mode = 'VOI-WhatsApp'; break
+							case 'ZL': var mode = 'VOI-Zello'; break
+							default: var mode = 'unknown'
+						}
+						var eCert = new jsPDF({
+							orientation: 'l',
+							unit: 'mm',
+							format: 'a4',
+							compress: true,
+						})
+
+						toastInfo.innerHTML = `<div class='toast-body'>loading fonts...</div>`
+						msgInfo.show()
+						eCert.addFont('/assets/font/HYPost-Light.ttf', 'HYPost-Light', 'normal')
+						eCert.addFont('/assets/font/KodeMono-Bold.ttf', 'KodeMono-Bold', 'normal')
+						eCert.addFont('/assets/font/KodeMono-Medium.ttf', 'KodeMono-Medium', 'normal')
+						eCert.addFont('/assets/font/KodeMono-Regular.ttf', 'KodeMono-Regular', 'normal')
+						eCert.addFont('/assets/font/KodeMono-SemiBold.ttf', 'KodeMono-SemiBold', 'normal')
+						eCert.addFont('/assets/font/OpenSansCondensed-Regular.ttf', 'OpenSansCondensed-Regular', 'normal')
+						eCert.addFont('/assets/font/Orbitron-Black.ttf', 'Orbitron-Black', 'normal')
+						eCert.addFont('/assets/font/SairaExtraCondensed-Thin.ttf', 'SairaExtraCondensed-Thin', 'normal')
+						eCert.addFont('/assets/font/SourceSansPro-Regular.ttf', 'SourceSansPro-Regular', 'normal')
+
+						toastInfo.innerHTML = `<div class='toast-body'>gathering contact informations...</div>`
+						msgInfo.show()
+						// eCert.addImage('/assets/image/program/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
+						await fetch(`/assets/image/program/${source}.jpg`)
+							.then((response) => {
+								if (response.ok) {
+									eCert.addImage(`/assets/image/program/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
+								} else {
+									if (activity.toLowerCase().search('sahur') > 0) {
+										eCert.addImage(`/assets/image/program/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
+									} else {
+										eCert.addImage('/assets/image/program/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
+									}
+								}
+							})
+						if (activity.toLowerCase().search('sahur') > 0) {
+							eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 85, 10, 100, 20)
+							eCert.addImage('/media/image/brands/kopdarmobile.png', 'PNG', 190, 10, 30, 20)
+						} else {
+							eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 98, 10, 100, 20)
+						}
+						eCert.addImage('/media/image/roip-concept.png', 'PNG', 8, 179, 62, 20)
+						eCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 225, 179, 65, 20)
+
+						toastInfo.innerHTML = `<div class='toast-body'>lookup caller detail...</div>`
+						msgInfo.show()
+						try {
+							let respCALL = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${caller}`)
+							if (respCALL) {
+								let NetCaller = await respCALL.json()
+								eCert.setFont('KodeMono-Bold').setFontSize(90).setTextColor('#5cce54').text(NetCaller.call, 148.5, 100, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
+								eCert.setFont('KodeMono-Regular').setFontSize(25).setTextColor('#5a5a5a').text(`(${NetCaller.name})`, 148.5, 120, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
 							}
 						} catch (error) {
-							eCert.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(ncs, 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+							eCert.setFont('KodeMono-Bold').setFontSize(90).setTextColor('#5cce54').text(caller, 148.5, 100, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
 						}
-					} else {
-						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('Congrats and thanks for duty as NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					}
 
-					if (utctime.split(':')[0] >= 16) {
-						var dtl = new Date(date.split('/')[2], parseInt(date.split('/')[1]) - 1, date.split('/')[0], utctime.split(':')[0] - 16, utctime.split(':')[1])
-					} else {
-						var dtl = new Date(date.split('/')[2], parseInt(date.split('/')[1]) - 1, parseInt(date.split('/')[0]) + 1, utctime.split(':')[0] - 16, utctime.split(':')[1])
-					}
-					eCert.setFont('Orbitron-Black').setFontSize(30).setTextColor('#72c7ef').text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(dtl).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
-					eCert.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250, renderingMode: 'fillThenStroke' })
-					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('MoT', 49.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(mode, 49.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('TIME', 247.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					eCert.setFont('KodeMono-SemiBold').setFontSize(16).setTextColor('black').text(`${dtl.getFullYear()}-${(dtl.getMonth() + 1).toString().padStart(2, '0')}-${dtl.getDate().toString().padStart(2, '0')}T${dtl.getHours().toString().padStart(2, '0')}:${dtl.getMinutes().toString().padStart(2, '0')}MY\n${dtl.toISOString().substring(0, 16)}Z`, 247.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-
-					eCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY', 148.5, 186, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
-					eCert.setFont('SourceSansPro-Regular').setFontSize(10).setTextColor('black').text('PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP) [PPM-006-10-01062020]', 148.5, 189, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
-					eCert.setFont('HYPost-Light').setFontSize(7).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 148.5, 193, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
-					eCert.setFont('OpenSansCondensed-Regular').setFontSize(8).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 148.5, 196, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
-					eCert.setFont('KodeMono-Regular').setFontSize(9).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
-
-					eCert.setCreationDate(new Date()).setLanguage('en-MY').setDocumentProperties({
-						title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,
-						subject: `${caller} | ${date.split('/').reverse().join('-')}T${utctime}`,
-						author: document.querySelector('meta[name="author"]').content,
-						keywords: document.querySelector('meta[name="keywords"]').content,
-						creator: 'RoIPMARS eCert generator'
-					})
-
-					let fileName = `${date.split('/').reverse().join('')}_${caller}`
-					toastInfo.innerHTML = `<div class='toast-body'>eCert Ready!</div>`
-					msgInfo.show()
-					try {
-						let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${caller}`)
-						if (respCtc) {
-							let callContact = await respCtc.json()
-							callCtc = callContact.contact
+						if (ncs != caller) {
+							toastInfo.innerHTML = `<div class='toast-body'>lookup controller detail...</div>`
+							msgInfo.show()
+							eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+							try {
+								let respNCS = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${ncs}`)
+								if (respNCS) {
+									let NetNCS = await respNCS.json()
+									eCert.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(NetNCS.call, 148.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+									eCert.setFont('KodeMono-Regular').setFontSize(12).setTextColor('#5a5a5a').text(`(${NetNCS.name})`, 148.5, 170, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+								}
+							} catch (error) {
+								eCert.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(ncs, 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+							}
+						} else {
+							eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('Congrats and thanks for duty as NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 						}
-					} catch (err) {
-						callCtc = '601234567890'
-					}
-					let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download', callCtc)
-					if (WaCtc == null || WaCtc == '') {
-						toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
-						msgSuccess.show()
-						eCert.save(`${fileName}.pdf`)
-					} else {
-						toastInfo.innerHTML = `<div class='toast-body'>sending eCert to ${WaCtc}...</div>`
+
+						if (utctime.split(':')[0] >= 16) {
+							var dtl = new Date(date.split('/')[2], parseInt(date.split('/')[1]) - 1, date.split('/')[0], utctime.split(':')[0] - 16, utctime.split(':')[1])
+						} else {
+							var dtl = new Date(date.split('/')[2], parseInt(date.split('/')[1]) - 1, parseInt(date.split('/')[0]) + 1, utctime.split(':')[0] - 16, utctime.split(':')[1])
+						}
+						eCert.setFont('Orbitron-Black').setFontSize(30).setTextColor('#72c7ef').text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(dtl).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
+						eCert.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250, renderingMode: 'fillThenStroke' })
+						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('MoT', 49.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+						eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(mode, 49.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('TIME', 247.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+						eCert.setFont('KodeMono-SemiBold').setFontSize(16).setTextColor('black').text(`${dtl.getFullYear()}-${(dtl.getMonth() + 1).toString().padStart(2, '0')}-${dtl.getDate().toString().padStart(2, '0')}T${dtl.getHours().toString().padStart(2, '0')}:${dtl.getMinutes().toString().padStart(2, '0')}MY\n${dtl.toISOString().substring(0, 16)}Z`, 247.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+
+						eCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY', 148.5, 186, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+						eCert.setFont('SourceSansPro-Regular').setFontSize(10).setTextColor('black').text('PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP) [PPM-006-10-01062020]', 148.5, 189, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+						eCert.setFont('HYPost-Light').setFontSize(7).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 148.5, 193, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+						eCert.setFont('OpenSansCondensed-Regular').setFontSize(8).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 148.5, 196, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+						eCert.setFont('KodeMono-Regular').setFontSize(9).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+
+						eCert.setCreationDate(new Date()).setLanguage('en-MY').setDocumentProperties({
+							title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,
+							subject: `${caller} | ${date.split('/').reverse().join('-')}T${utctime}`,
+							author: document.querySelector('meta[name="author"]').content,
+							keywords: document.querySelector('meta[name="keywords"]').content,
+							creator: 'RoIPMARS eCert generator'
+						})
+
+						let fileName = `${date.split('/').reverse().join('')}_${caller}`
+						toastInfo.innerHTML = `<div class='toast-body'>eCert Ready!</div>`
 						msgInfo.show()
-						if (callCtc != WaCtc) {
-							await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
+						try {
+							let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${caller}`)
+							if (respCtc) {
+								let callContact = await respCtc.json()
+								callCtc = callContact.contact
+							}
+						} catch (err) {
+							callCtc = '601234567890'
+						}
+						let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download', callCtc)
+						if (WaCtc == null || WaCtc == '') {
+							toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
+							msgSuccess.show()
+							eCert.save(`${fileName}.pdf`)
+						} else {
+							toastInfo.innerHTML = `<div class='toast-body'>sending eCert to ${WaCtc}...</div>`
+							msgInfo.show()
+							if (callCtc != WaCtc) {
+								await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
+									method: 'POST',
+									headers: { 'content-type': 'application/json' },
+									body: JSON.stringify({
+										callsign: `${caller}`,
+										contact: `${WaCtc}`,
+									}),
+								})
+							}
+							let eCertURI = eCert.output('datauristring', { filename: `${fileName}.pdf` })
+							await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 								method: 'POST',
-								headers: { 'content-type': 'application/json' },
+								headers: {
+									'content-type': 'application/json',
+									authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+								},
 								body: JSON.stringify({
-									callsign: `${caller}`,
-									contact: `${WaCtc}`,
+									phone: WaCtc,
+									isGroup: false,
+									isNewsletter: false,
+									filename: `eCert_${fileName}.pdf`,
+									base64: eCertURI,
 								}),
+							}).then((res) => {
+								if (res.ok) {
+									toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck your message from 601153440440.</div>`
+									msgSuccess.show()
+								} else {
+									toastDanger.innerHTML = `<div class='toast-body'>eCert send fail. retry again later.</div>`
+									msgDanger.show()
+								}
 							})
 						}
-						let eCertURI = eCert.output('datauristring', { filename: `${fileName}.pdf` })
-						await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
-							method: 'POST',
-							headers: {
-								'content-type': 'application/json',
-								authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
-							},
-							body: JSON.stringify({
-								phone: WaCtc,
-								isGroup: false,
-								isNewsletter: false,
-								filename: `eCert_${fileName}.pdf`,
-								base64: eCertURI,
-							}),
-						}).then((res) => {
-							if (res.ok) {
-								toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck your message from 601153440440.</div>`
-								msgSuccess.show()
-							} else {
-								toastDanger.innerHTML = `<div class='toast-body'>eCert send fail. retry again later.</div>`
-								msgDanger.show()
-							}
-						})
 					}
-				}
-			})
+				})
+			// })
 		})
 	})
 	netRep.addEventListener('hidden.bs.modal', (event) => {

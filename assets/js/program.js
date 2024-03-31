@@ -571,7 +571,7 @@ $(document).ready(function () {
 
 	const netRep = document.getElementById('netrep')
 	const netReport = document.getElementById('netRep')
-	const netRepMod = document.getElementById('netRepMod')
+	// const netRepMod = document.getElementById('netRepMod')
 	netRep.addEventListener('show.bs.modal', (event) => {
 		const button = event.relatedTarget
 		const source = button.getAttribute('data-bs-source')
@@ -782,9 +782,6 @@ $(document).ready(function () {
 					eCert.addImage('/media/image/roip-concept.png', 'PNG', 8, 179, 62, 20)
 					eCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 225, 179, 65, 20)
 
-					eCert.setFont('Orbitron-Black').setFontSize(30).setTextColor('#72c7ef').text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(new Date(date.split('/')[2], date.split('/')[1] - 1, date.split('/')[0])).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
-					eCert.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250, renderingMode: 'fillThenStroke' })
-
 					toastInfo.innerHTML = `<div class='toast-body'>lookup caller detail...</div>`
 					msgInfo.show()
 					try {
@@ -797,9 +794,6 @@ $(document).ready(function () {
 					} catch (error) {
 						eCert.setFont('KodeMono-Bold').setFontSize(90).setTextColor('#5cce54').text(caller, 148.5, 100, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
 					}
-
-					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('MoT', 49.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(mode, 49.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 
 					if (ncs != caller) {
 						toastInfo.innerHTML = `<div class='toast-body'>lookup controller detail...</div>`
@@ -819,8 +813,17 @@ $(document).ready(function () {
 						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('Congrats and thanks for duty as NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					}
 
+					if (utctime.split(':')[0] >= 16) {
+						var dtl = new Date(date.split('/')[2], parseInt(date.split('/')[1]) - 1, date.split('/')[0], utctime.split(':')[0] - 16, utctime.split(':')[1])
+					} else {
+						var dtl = new Date(date.split('/')[2], parseInt(date.split('/')[1]) - 1, parseInt(date.split('/')[0]) + 1, utctime.split(':')[0] - 16, utctime.split(':')[1])
+					}
+					eCert.setFont('Orbitron-Black').setFontSize(30).setTextColor('#72c7ef').text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(dtl).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
+					eCert.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250, renderingMode: 'fillThenStroke' })
+					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('MoT', 49.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(mode, 49.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('TIME', 247.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(`${utctime.replaceAll(':', '')}z`, 247.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					eCert.setFont('KodeMono-SemiBold').setFontSize(16).setTextColor('black').text(`${dtl.getFullYear()}-${(dtl.getMonth() + 1).toString().padStart(2, '0')}-${dtl.getDate().toString().padStart(2, '0')}T${dtl.getHours().toString().padStart(2, '0')}:${dtl.getMinutes().toString().padStart(2, '0')}MY\n${dtl.toISOString().substring(0, 16)}Z`, 247.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 
 					eCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY', 148.5, 186, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('SourceSansPro-Regular').setFontSize(10).setTextColor('black').text('PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP) [PPM-006-10-01062020]', 148.5, 189, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
@@ -831,8 +834,8 @@ $(document).ready(function () {
 					eCert.setCreationDate(new Date()).setLanguage('en-MY').setDocumentProperties({
 						title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,
 						subject: `${caller} | ${date.split('/').reverse().join('-')}T${utctime}`,
-						author: '9W2LGX (Hafizi Ruslan)',
-						keywords: 'roipmars,teamspeak,teamspeakmalaysia,teamspeak3malaysia,ts3malaysia,network,komunikasi,radio,roip,voip,technology',
+						author: document.querySelector('meta[name="author"]').content,
+						keywords: document.querySelector('meta[name="keywords"]').content,
 						creator: 'RoIPMARS eCert generator'
 					})
 

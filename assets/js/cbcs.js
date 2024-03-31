@@ -126,8 +126,8 @@ $(document).ready(function () {
 			cbcsCert.setCreationDate(new Date()).setLanguage('ms-MY').setDocumentProperties({
 				title: `${fileName}`,
 				subject: `${id} - ${call}`,
-				author: '9W2LGX (Hafizi Ruslan)',
-				keywords: 'roipmars,teamspeak,teamspeakmalaysia,teamspeak3malaysia,ts3malaysia,network,komunikasi,radio,roip,voip,technology',
+				author: document.querySelector('meta[name="author"]').content,
+				keywords: document.querySelector('meta[name="keywords"]').content,
 				creator: 'RoIPMARS CB Cert generator',
 			})
 

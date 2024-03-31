@@ -29,7 +29,7 @@ const meta = `<base href="${currentHost}">\
 <meta name="robots" content="all">\
 <meta name="title" content="${docTitle}">\
 <meta name="description" content="${docDesc}">\
-<meta name="keywords" content="roipmars,malaysia,ts3,teamspeak3,radio,roip,voip,komunikasi,amatur,teamspeak,hosting,amateur,jalurrakyat,citizenband,network">\
+<meta name="keywords" content="roipmars,teamspeak3 malaysia,teamspeak,radio amatur,amateur radio over internet,radio over internet protocol,voice over internet protocol,roip,viop,cb band malaysia,citizen band,jalur rakyat">\
 <meta property="og:site_name" content="RoIPMARS Network">\
 <meta property="og:title" content="${docTitle}">\
 <meta property="og:description" content="${docDesc}">\

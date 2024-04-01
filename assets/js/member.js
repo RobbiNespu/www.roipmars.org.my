@@ -33,7 +33,7 @@ $(document).ready(function () {
     },
     initComplete: function () {
       let tds = $('#memberlist').DataTable().page.info().recordsTotal
-      $('.membercount').html(tds + ' ahli aktif')
+      $('.membercount').html(tds + ' ahli')
     }
   })
 	$('#memberlist').delegate('tbody tr td', 'click', async function () {
@@ -50,9 +50,9 @@ $(document).ready(function () {
 		const memValidDate = memberdata.Expiry
 		let confirmtxt = `You are requesting Certificate for ${memID}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
+			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating Certificate...</div>`
+			msgSuccess.show()
 			try {
-				toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating Certificate...</div>`
-				msgSuccess.show()
 				if (location.hostname != 'localhost') {
 					await fetch('https://api.roipmars.org.my/hook/certgen', {
 						method: 'PUT',
@@ -133,9 +133,9 @@ $(document).ready(function () {
 					callCtc = callContact.contact
 				}
 			} catch (err) {
-				callCtc = '601234567890'
+				callCtc = ''
 			}
-			let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download', callCtc)
+			let WaCtc = prompt(`fill your contact number (including country code without +), ex: '601234567890', if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
 			if (WaCtc == null || WaCtc == '') {
 				toastSuccess.innerHTML = `<div class='toast-body'>${fileName} saved.\ncheck your 'downloads' folder.</div>`
 				msgSuccess.show()

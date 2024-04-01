@@ -704,9 +704,9 @@ $(document).ready(function () {
 				const msgDanger = bootstrap.Toast.getOrCreateInstance(toastDanger, { delay: 10000 })
 				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}. Are you sure?`
 				if (confirm(confirmtxt) == true) {
+					toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating eCert...</div>`
+					msgSuccess.show()
 					try {
-						toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating eCert...</div>`
-						msgSuccess.show()
 						if (location.hostname != 'localhost') {
 							await fetch('https://api.roipmars.org.my/hook/certgen', {
 								method: 'PUT',
@@ -848,9 +848,9 @@ $(document).ready(function () {
 							callCtc = callContact.contact
 						}
 					} catch (err) {
-						callCtc = '601234567890'
+						callCtc = ''
 					}
-					let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download', callCtc)
+					let WaCtc = prompt(`fill your contact number (including country code without +), ex: '601234567890', if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
 					if (WaCtc == null || WaCtc == '') {
 						toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
 						msgSuccess.show()

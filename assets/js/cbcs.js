@@ -59,9 +59,9 @@ $(document).ready(function () {
 		const cbcsRegDate = cbcsdata[4]
 		let confirmtxt = `You are requesting Certificate for ${cbcsCall}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
+			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating Certificate...</div>`
+			msgSuccess.show()
       try {
-				toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating Certificate...</div>`
-				msgSuccess.show()
 				if (location.hostname != 'localhost') {
 					await fetch('https://api.roipmars.org.my/hook/certgen', {
 						method: 'PUT',
@@ -107,13 +107,15 @@ $(document).ready(function () {
 
       if (call.match(/113MSOGK|91KMEGG/g)) {
 				cbcsCert.addImage('/assets/image/certs/lgx_sign.png', 'PNG', 580, 575, 150, 150)
-				cbcsCert.setFont('AgencyFB').setFontSize(30).setTextColor('black').text('HAFIZI RUSLAN, SETIAUSAHA\nRoIPMARS', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
-			} /* else if (call.match(/\d{1,3}KM.{1,}/g)) {
-				cbcsCert.addImage('/assets/image/certs/egg_sign.png', 'PNG', 580, 575, 150, 150)
-				cbcsCert.setFont('AgencyFB').setFontSize(30).setTextColor('black').text('GILANG GUMILAR, PENGASAS\nKOPDARMOBILE', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
-			} */ else {
+				cbcsCert.setFont('AgencyFB').setFontSize(30).setTextColor('black').text('HAFIZI RUSLAN\nSETIAUSAHA RoIPMARS', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
+			} else if (call.match(/\d{1,3}KM.{1,}/g)) {
+				cbcsCert.addImage('/assets/image/certs/egg_sign.png', 'PNG', 480, 600, 170, 80)
+				cbcsCert.setFont('AgencyFB').setFontSize(28).setTextColor('black').text('GILANG GUMILAR\nPENGASAS KOPDARMOBILE', 560, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
+				cbcsCert.addImage('/assets/image/certs/ogk_sign.png', 'PNG', 700, 585, 87.2, 136.4)
+				cbcsCert.setFont('AgencyFB').setFontSize(28).setTextColor('black').text('KAMARUDZAMAN\nPRESIDEN RoIPMARS', 740, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
+			} else {
 				cbcsCert.addImage('/assets/image/certs/ogk_sign.png', 'PNG', 615, 585, 87.2, 136.4)
-				cbcsCert.setFont('AgencyFB').setFontSize(30).setTextColor('black').text('KAMARUDZAMAN, PRESIDEN\nRoIPMARS', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
+				cbcsCert.setFont('AgencyFB').setFontSize(30).setTextColor('black').text('KAMARUDZAMAN\nPRESIDEN RoIPMARS', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 			}
 
 			cbcsCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY / KOPDARMOBILE.ID', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
@@ -140,9 +142,9 @@ $(document).ready(function () {
 					callCtc = callContact.contact
 				}
 			} catch (err) {
-				callCtc = '601234567890'
+				callCtc = ''
 			}
-			let WaCtc = prompt('fill your contact number (including country code without +) if you want to receive by WhatsApp; "cancel" to download', callCtc)
+			let WaCtc = prompt(`fill your contact number (including country code without +), ex: '601234567890', if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
 			if (WaCtc == null || WaCtc == '') {
 				toastSuccess.innerHTML = `<div class='toast-body'>${fileName} saved.\ncheck your 'downloads' folder.</div>`
 				msgSuccess.show()

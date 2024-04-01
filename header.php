@@ -51,6 +51,7 @@
                   <li><hr></li>
                   <li><a class='dropdown-item text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-basket'></i> Kedai</a></li>
                   <li><a class='dropdown-item text-info-emphasis' href='https://dl.roipmars.org.my' target='_blank' rel='noopener'><i class='bi-cloud-download'></i> Muat Turun</a></li>
+                  <li><a class='dropdown-item text-secondary-emphasis' href='https://archived.mhrtech.my' target='_blank' rel='noopener'><i class='bi-archive'></i> Arkib Fail</a></li>
                   <li><a class='dropdown-item text-secondary-emphasis' href='https://speed.mhrtech.my' target='_blank' rel='noopener'><i class='bi-speedometer2'></i> Ujian Kecekapan Internet</a></li>
                 </ul>
               </li>

@@ -862,16 +862,6 @@ $(document).ready(function () {
 					} else {
 						toastInfo.innerHTML = `<div class='toast-body'>sending eCert to ${WaCtc}...</div>`
 						msgInfo.show()
-						if (callCtc != WaCtc) {
-							await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
-								method: 'POST',
-								headers: { 'content-type': 'application/json' },
-								body: JSON.stringify({
-									callsign: `${caller}`,
-									contact: `${WaCtc}`,
-								}),
-							})
-						}
 						let eCertURI = eCert.output('datauristring', { filename: `${fileName}.pdf` })
 						await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
 							method: 'POST',
@@ -886,10 +876,20 @@ $(document).ready(function () {
 								filename: `eCert_${fileName}.pdf`,
 								base64: eCertURI,
 							}),
-						}).then((res) => {
+						}).then(async (res) => {
 							if (res.ok) {
 								toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck your message from 601153440440.</div>`
 								msgSuccess.show()
+								if (callCtc != WaCtc) {
+									await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
+										method: 'POST',
+										headers: { 'content-type': 'application/json' },
+										body: JSON.stringify({
+											callsign: `${caller}`,
+											contact: `${WaCtc}`,
+										}),
+									})
+								}
 							} else {
 								toastDanger.innerHTML = `<div class='toast-body'>eCert send fail. retry again later.</div>`
 								msgDanger.show()

@@ -759,16 +759,16 @@ $(document).ready(function () {
 
 					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>gathering contact informations...</div>`
 					msgInfo.show()
-					// eCert.addImage('/assets/image/program/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
-					await fetch(`/assets/image/program/${source}.jpg`)
+					// eCert.addImage('/assets/image/certs/program/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
+					await fetch(`/assets/image/certs/program/${source}.jpg`)
 						.then((response) => {
 							if (response.ok) {
-								eCert.addImage(`/assets/image/program/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
+								eCert.addImage(`/assets/image/certs/program/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
 							} else {
 								if (activity.toLowerCase().search('sahur') > 0) {
-									eCert.addImage(`/assets/image/program/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
+									eCert.addImage(`/assets/image/certs/program/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
 								} else {
-									eCert.addImage('/assets/image/program/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
+									eCert.addImage('/assets/image/certs/program/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
 								}
 							}
 						})

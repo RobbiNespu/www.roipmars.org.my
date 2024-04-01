@@ -144,7 +144,7 @@ $(document).ready(function () {
 			} catch (err) {
 				callCtc = ''
 			}
-			let WaCtc = prompt(`fill your contact number (including country code without +), ex: '601234567890', if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
+			let WaCtc = prompt(`fill your contact number (including country code without +), ex: 601234567890, if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
 			if (WaCtc == null || WaCtc == '') {
 				toastSuccess.innerHTML = `<div class='toast-body'>${fileName} saved.\ncheck your 'downloads' folder.</div>`
 				msgSuccess.show()

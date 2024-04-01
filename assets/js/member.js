@@ -62,8 +62,12 @@ $(document).ready(function () {
 				}
 				await genCert(memID, memCall, memName, memValidDate)
 			} catch (error) {
-				console.log(error)
-				toastDanger.innerHTML = `<div class='toast-body'>Cert generator subprocess error. reload required.</div>`
+				await fetch('https://api.roipmars.org.my/hook/certerr', {
+					method: 'POST',
+					headers: { 'content-type': 'application/json' },
+					body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.message }),
+				})
+				toastDanger.innerHTML = `<div class='toast-body'>generator script error. reload required.</div>`
 				msgDanger.show()
 				setTimeout(function () { location.reload() }, 10000)
 			}
@@ -116,12 +120,12 @@ $(document).ready(function () {
       memCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
 
 			let fileName = `RoIPMARS_${call}`
-			memCert.setCreationDate(new Date()).setLanguage('ms-MY').setDocumentProperties({
+			memCert.setFileId(crypto.randomUUID()).setCreationDate(new Date()).setLanguage('ms-MY').setDocumentProperties({
 				title: `${fileName}`,
 				subject: `${id} - ${call}`,
 				author: document.querySelector('meta[name="author"]').content,
 				keywords: document.querySelector('meta[name="keywords"]').content,
-				creator: 'RoIPMARS Member Cert generator'
+				creator: `RoIPMARS Member Cert generator`
 			})
 
 			toastInfo.innerHTML = `<div class='toast-body'>Certificate Ready!</div>`

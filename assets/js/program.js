@@ -716,8 +716,12 @@ $(document).ready(function () {
 						}
 						await generateCert(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
 					} catch (error) {
-						console.log(error)
-						toastDanger.innerHTML = `<div class='toast-body'>eCert generator subprocess error. reload required.</div>`
+						await fetch('https://api.roipmars.org.my/hook/certerr', {
+							method: 'POST',
+							headers: { 'content-type': 'application/json' },
+							body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.message }),
+						})
+						toastDanger.innerHTML = `<div class='toast-body'>generator script error. reload required.</div>`
 						msgDanger.show()
 						setTimeout(function () { location.reload() }, 10000)
 					}
@@ -830,15 +834,15 @@ $(document).ready(function () {
 					eCert.setFont('OpenSansCondensed-Regular').setFontSize(8).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 148.5, 196, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('KodeMono-Regular').setFontSize(9).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 
-					eCert.setCreationDate(new Date()).setLanguage('en-MY').setDocumentProperties({
+					let fileName = `${date.split('/').reverse().join('')}_${caller}`
+					eCert.setFileId(crypto.randomUUID()).setCreationDate(new Date()).setLanguage('en-MY').setDocumentProperties({
 						title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,
 						subject: `${caller} | ${date.split('/').reverse().join('-')}T${utctime}`,
 						author: document.querySelector('meta[name="author"]').content,
 						keywords: document.querySelector('meta[name="keywords"]').content,
-						creator: 'RoIPMARS eCert generator'
+						creator: 'RoIPMARS eCert generator',
 					})
 
-					let fileName = `${date.split('/').reverse().join('')}_${caller}`
 					toastInfo.innerHTML = `<div class='toast-body'>eCert Ready!</div>`
 					msgInfo.show()
 					try {

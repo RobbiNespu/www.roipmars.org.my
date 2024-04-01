@@ -71,8 +71,12 @@ $(document).ready(function () {
 				}
 				await genCert(cbcsID, cbcsCall, cbcsName, cbcsRegDate)
 			} catch (error) {
-				console.log(error)
-				toastDanger.innerHTML = `<div class='toast-body'>Certificate generator subprocess error. reload required.</div>`
+				await fetch('https://api.roipmars.org.my/hook/certerr', {
+					method: 'POST',
+					headers: { 'content-type': 'application/json' },
+					body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.message }),
+				})
+				toastDanger.innerHTML = `<div class='toast-body'>generator script error. reload required.</div>`
 				msgDanger.show()
 				setTimeout(function () { location.reload() }, 10000)
 			}
@@ -125,7 +129,7 @@ $(document).ready(function () {
       cbcsCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
 
 			let fileName = `RoIPMARS-CB_${call}`
-			cbcsCert.setCreationDate(new Date()).setLanguage('ms-MY').setDocumentProperties({
+			cbcsCert.setFileId(crypto.randomUUID()).setCreationDate(new Date()).setLanguage('ms-MY').setDocumentProperties({
 				title: `${fileName}`,
 				subject: `${id} - ${call}`,
 				author: document.querySelector('meta[name="author"]').content,

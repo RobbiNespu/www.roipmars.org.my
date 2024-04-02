@@ -244,15 +244,16 @@
                     <table class='table table-sm table-bordered text-center align-middle m-0'>
                       <thead><tr><th>Ralat</th><th>Penerangan</th></tr></thead>
                       <tbody>
-                        <tr><td>server outdated</td><td>pelayan tidak menyokong sambungan dari versi yang anda gunakan</td></tr>
-                        <tr><td>client outdated</td><td>versi yang anda gunakan tidak disokong oleh pelayan</td></tr>
-                        <tr><td>TSDNS error</td><td>i. kesilapan alamat pelayan<br>ii. ralat konfigurasi DNS dari pihak pembekal hos</td></tr>
-                        <tr><td>flood prevention</td>ralat konfigurasi pelayan dari pihak pembekal hos</tr>
-                        <tr><td>server blacklisted</td><td>pelayan telah disenarai hitam oleh pihak pembangun perisian</td></tr>
-                        <tr><td>connection error</td><td>i. kesilapan alamat/ip pelayan<br>ii. pelayan tidak beroperasi</td></tr>
+                        <tr><td class='fw-bold fst-italic'>server outdated</td><td>pelayan tidak menyokong sambungan melalui versi yang anda gunakan &lpar;pengguna&rpar;</td></tr>
+                        <tr><td class='fw-bold fst-italic'>client outdated</td><td>versi yang anda gunakan tidak disokong oleh pelayan &lpar;pengguna&rpar;</td></tr>
+                        <tr><td class='fw-bold fst-italic'>TSDNS error</td><td>i. kesilapan alamat pelayan &lpar;pengguna&rpar;<br>ii. ralat tetapan DNS &lpar;penyedia perkhidmatan&rpar;</td></tr>
+                        <tr><td class='fw-bold fst-italic'>flood prevention</td><td>ralat tetapan pelayan &lpar;penyedia perkhidmatan&rpar;</td></tr>
+                        <tr><td class='fw-bold fst-italic'>server blacklisted</td><td>pelayan disenarai hitam &lpar;TeamSpeak Systems, Inc.&rpar;</td></tr>
+                        <tr><td class='fw-bold fst-italic'>connection error</td><td>i. kesilapan alamat/ip pelayan &lpar;pengguna&rpar;<br>ii. pelayan tidak beroperasi &lpar;penyedia perkhidmatan&rpar;</td></tr>
                       </tbody>
                     </table>
-                    <p class='m-0'>Sekiranya anda tidak berjaya log masuk ke pelayan Rangkaian RoIPMARS &lbrack;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&rbrack;, berkemungkinan perisian yang anda gunakan tidak menyokong fungsi &apos;DNS&apos;. Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'>App Store</a>.</p>
+                    <p class='m-0'>Sekiranya anda tidak berjaya log masuk ke pelayan Rangkaian RoIPMARS &lbrack;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&rbrack;, berkemungkinan perisian yang anda gunakan tidak menyokong fungsi &apos;DNS&apos;.</p>
+                    <p class='m-0'>Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'>App Store</a>.</p>
                     <p class='m-0'>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' download>roipmars-teamspeak-3.0.3.1.apk</a></p>
                     <p class='m-0'>Pihak Pentadbir Rangkaian RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
                   </div>

@@ -247,6 +247,7 @@
                         <tr><td>server outdated</td><td>pelayan tidak menyokong sambungan dari versi yang anda gunakan</td></tr>
                         <tr><td>client outdated</td><td>versi yang anda gunakan tidak disokong oleh pelayan</td></tr>
                         <tr><td>TSDNS error</td><td>i. kesilapan alamat pelayan<br>ii. ralat konfigurasi DNS dari pihak pembekal hos</td></tr>
+                        <tr><td>flood prevention</td>ralat konfigurasi pelayan dari pihak pembekal hos</tr>
                         <tr><td>server blacklisted</td><td>pelayan telah disenarai hitam oleh pihak pembangun perisian</td></tr>
                         <tr><td>connection error</td><td>i. kesilapan alamat/ip pelayan<br>ii. pelayan tidak beroperasi</td></tr>
                       </tbody>

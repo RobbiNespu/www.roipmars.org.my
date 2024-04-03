@@ -5,209 +5,16 @@
     <title>RoIPMARS Network | Soalan Lazim</title>
   </head>
 
-  <body>
-    <?php require_once 'header.php' ?>
-    <div class='container'>
+  <body> <?php require_once 'header.php' ?> <div class='container'>
       <h1 class='h1 text-center'>Soalan Lazim</h1>
       <div class='row'>
-        <div class='col-5 text-center'>
-          <table class='table table-sm table-bordered table-striped text-center align-middle mb-3 mx-auto w-auto text-wrap' style='white-space: nowrap'>
-            <thead class='align-middle'>
-              <th>Abjad</th>
-              <th>Fonetik</th>
-              <th>International Morse</th>
-            </thead>
-            <tbody class='fs-4'>
-              <tr>
-                <td>A</td>
-                <td>Alfa<br>Agas</td>
-                <td>&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f3/A_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>B</td>
-                <td>Bravo<br>Bola</td>
-                <td>&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/b1/B_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>C</td>
-                <td>Charlie<br>Ciku</td>
-                <td>&ndash;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/2/25/C_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>D</td>
-                <td>Delta<br>Duku</td>
-                <td>&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/92/D_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>E</td>
-                <td>Echo<br>Elok</td>
-                <td>&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/e7/E_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>F</td>
-                <td>Foxtrot<br>Fajar</td>
-                <td>&bull;&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/63/F_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>G</td>
-                <td>Golf<br>Gagak</td>
-                <td>&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/72/G_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>H</td>
-                <td>Hotel<br>Handal</td>
-                <td>&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/93/H_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>I</td>
-                <td>India<br>Intan</td>
-                <td>&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d9/I_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>J</td>
-                <td>Juliett<br>Jala</td>
-                <td>&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9e/J_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>K</td>
-                <td>Kilo<br>Kota</td>
-                <td>&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/K_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>L</td>
-                <td>Lima<br>Laju</td>
-                <td>&bull;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/a/a8/L_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>M</td>
-                <td>Mike<br>Merah</td>
-                <td>&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/97/M_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>N</td>
-                <td>November<br>Nuri</td>
-                <td>&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5a/N_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>O</td>
-                <td>Oscar<br>Ombak</td>
-                <td>&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/41/O_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>P</td>
-                <td>Papa<br>Palang</td>
-                <td>&bull;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/c/c6/P_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>Q</td>
-                <td>Quebec<br>Quen</td>
-                <td>&ndash;&ndash;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f0/Q_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>R</td>
-                <td>Romeo<br>Rakit</td>
-                <td>&bull;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>S</td>
-                <td>Sierra<br>Singa</td>
-                <td>&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d8/S_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>T</td>
-                <td>Tango<br>Tari</td>
-                <td>&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/ba/T_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>U</td>
-                <td>Uniform<br>Udang</td>
-                <td>&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/34/U_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>V</td>
-                <td>Victor<br>Victor</td>
-                <td>&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/37/V_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>W</td>
-                <td>Whiskey<br>Wayang</td>
-                <td>&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/68/W_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>X</td>
-                <td>X-ray<br>X-ray</td>
-                <td>&ndash;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/be/X_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>Y</td>
-                <td>Yankee<br>Yakin</td>
-                <td>&ndash;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/Y_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>Z</td>
-                <td>Zulu<br>Zaman</td>
-                <td>&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Z_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>0</td>
-                <td>Zero<br>Kosong</td>
-                <td>&ndash;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/0_number_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>One<br>Satu</td>
-                <td>&bull;&ndash;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9b/1_number_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Two<br>Dua</td>
-                <td>&bull;&bull;&ndash;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ee/2_number_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Three<br>Tiga</td>
-                <td>&bull;&bull;&bull;&ndash;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/fd/3_number_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Four<br>Empat</td>
-                <td>&bull;&bull;&bull;&bull;&ndash;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5c/4_number_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Five<br>Lima</td>
-                <td>&bull;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/52/5_number_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Six<br>Enam</td>
-                <td>&ndash;&bull;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/4d/6_number_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>Seven<br>Tujuh</td>
-                <td>&ndash;&ndash;&bull;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/1/14/7_number_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>Eight<br>Lapan</td>
-                <td>&ndash;&ndash;&ndash;&bull;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/3a/8_number_morse_code.ogg'></audio></td>
-              </tr>
-              <tr>
-                <td>9</td>
-                <td>Nine<br>Sembilan</td>
-                <td>&ndash;&ndash;&ndash;&ndash;&bull;<br><audio controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/44/9_number_morse_code.ogg'></audio></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class='col-7'>
+        <div class='col-8'>
           <div class='col-auto mb-3'>
             <h3 class='text-capitalize text-center text-primary-emphasis'>Rangkaian RoIPMARS</h3>
             <div class='accordion' id='rmsfaq'>
-              <div class='accordion-item border-primary-subtle bg-primary-subtle'>
+              <div class='accordion-item'>
                 <div class='accordion-header' id='rms1'>
-                  <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' data-bs-target='#collapserms1' aria-expanded='false' aria-controls='collapserms1'><i class='bi-1-circle-fill text-primary-emphasis fs-4 pe-3'></i>Bagaimana cara untuk menjadi ahli Rangkaian RoIPMARS?</button>
+                  <button type='button' class='accordion-button collapsed bg-primary-subtle text-primary-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapserms1' aria-expanded='false' aria-controls='collapserms1'><i class='bi-1-circle-fill text-primary-emphasis fs-5 pe-3'></i>Bagaimana cara untuk menjadi ahli RoIPMARS?</button>
                 </div>
                 <div id='collapserms1' class='accordion-collapse collapse' aria-labelledby='rms1' data-bs-parent='#rmsfaq'>
                   <div class='accordion-body'>
@@ -215,17 +22,23 @@
                   </div>
                 </div>
               </div>
-              <div class='accordion-item border-primary-subtle bg-primary-subtle'>
+              <div class='accordion-item'>
                 <div class='accordion-header' id='rms2'>
-                  <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' data-bs-target='#collapserms2' aria-expanded='false' aria-controls='collapserms2'><i class='bi-2-circle-fill text-primary-emphasis fs-4 pe-3'></i>Saya telah berdaftar sebagai Ahli CB Rangkaian RoIPMARS, adakah secara automatik saya sah menjadi Ahli Persatuan?</button>
+                  <button type='button' class='accordion-button collapsed bg-primary-subtle text-primary-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapserms2' aria-expanded='false' aria-controls='collapserms2'><i class='bi-2-circle-fill text-primary-emphasis fs-5 pe-3'></i>Saya telah berdaftar sebagai Ahli CB RoIPMARS, adakah saya secara sah menjadi Ahli Persatuan?</button>
                 </div>
                 <div id='collapserms2' class='accordion-collapse collapse' aria-labelledby='rms2' data-bs-parent='#rmsfaq'>
                   <div class='accordion-body'>
-                    <p class='m-0'>Tidak sama sekali. Anda telah mendaftar sebagai ahli CB rangkaian kami hanya sebagai rekod bagi mengelakkan pertindihan isyarat panggilan yang digunakan.</p>
+                    <p class='m-0'>Tidak sama sekali. Identiti ahli CB dan ahli RoIPMARS adalah berbeza. Anda mendaftar sebagai ahli CB rangkaian kami hanya sebagai rekod bagi mengelakkan pertindihan isyarat panggilan jalur rakyat yang digunakan.</p>
                     <p class='m-0'>Antara awalan isyarat panggilan yang digunakan oleh CB Rangkaian RoIPMARS adalah:</p>
                     <table class='table table-sm table-bordered text-center align-middle m-0'>
                       <tbody>
-                        <tr class='fw-bold text-primary-emphasis'><td>&lbrack;🇲🇾&rbrack; 113MSA₁A₂A₃</td><td>&lbrack;🇲🇾&rbrack; 58MSA₁A₂A₃</td><td>&lbrack;🇮🇩&rbrack; 91MSA₁A₂A₃</td><td>&lbrack;🇹🇭&rbrack; 153MSA₁A₂A₃</td><td>&lbrack;🇧🇳&rbrack; 225MSA₁A₂A₃</td></tr>
+                        <tr class='fw-bold text-primary-emphasis'>
+                          <td>&lbrack;🇲🇾&rbrack; 113MSA₁A₂A₃</td>
+                          <td>&lbrack;🇲🇾&rbrack; 58MSA₁A₂A₃</td>
+                          <td>&lbrack;🇮🇩&rbrack; 91MSA₁A₂A₃</td>
+                          <td>&lbrack;🇹🇭&rbrack; 153MSA₁A₂A₃</td>
+                          <td>&lbrack;🇧🇳&rbrack; 225MSA₁A₂A₃</td>
+                        </tr>
                       </tbody>
                       <caption class='fw-bold text-center'>A₁A₂A₃ hendaklah mewakili sebarang abjad A hingga Z</caption>
                     </table>
@@ -233,35 +46,58 @@
                   </div>
                 </div>
               </div>
-              <div class='accordion-item border-primary-subtle bg-primary-subtle'>
+              <div class='accordion-item'>
                 <div class='accordion-header' id='rms3'>
-                  <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' data-bs-target='#collapserms3' aria-expanded='false' aria-controls='collapserms3'><i class='bi-3-circle-fill text-primary-emphasis fs-4 pe-3'></i>Mengapa sambungan ke pelayan TeamSpeak3 selain RoIPMARS gagal pada peranti saya?</button>
+                  <button type='button' class='accordion-button collapsed bg-primary-subtle text-primary-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapserms3' aria-expanded='false' aria-controls='collapserms3'><i class='bi-3-circle-fill text-primary-emphasis fs-5 pe-3'></i>Mengapa sambungan ke pelayan TeamSpeak3 selain RoIPMARS gagal pada peranti saya?</button>
                 </div>
                 <div id='collapserms3' class='accordion-collapse collapse' aria-labelledby='rms3' data-bs-parent='#rmsfaq'>
                   <div class='accordion-body'>
-                    <p class='m-0'>Pelayan TeamSpeak3 milik <abbr title='roipmars.org.my'>Rangkaian RoIPMARS</abbr> merupakan sebuah pembekal pengehosan berlesen sah yang dibiaya oleh ahli-ahli Persatuan Peminat Radio Komunikasi (ROIP). Tambahan lagi, pelayan milik Rangkaian RoIPMARS menyokong sambungan dari semua versi pengguna.</p>
+                    <p class='m-0'>Pelayan TeamSpeak3 milik <abbr title='roipmars.org.my'>Rangkaian RoIPMARS</abbr> merupakan sebuah penyedia perkhidmatan berlesen yang dibiaya oleh ahli-ahli Persatuan Peminat Radio Komunikasi &lpar;ROIP&rpar;. Tambahan lagi, pelayan milik Rangkaian RoIPMARS menyokong sambungan dari semua versi pengguna.</p>
                     <p class='m-0'>Terdapat beberapa faktor yang tidak membenarkan anda masuk ke pelayan selain Rangkaian RoIPMARS, antaranya:</p>
                     <table class='table table-sm table-bordered text-center align-middle m-0'>
-                      <thead><tr><th>Ralat</th><th>Penerangan</th></tr></thead>
+                      <thead>
+                        <tr>
+                          <th>Ralat</th>
+                          <th>Penerangan</th>
+                        </tr>
+                      </thead>
                       <tbody>
-                        <tr><td class='fw-bold fst-italic'>server outdated</td><td>pelayan tidak menyokong sambungan melalui versi yang anda gunakan &lpar;pengguna&rpar;</td></tr>
-                        <tr><td class='fw-bold fst-italic'>client outdated</td><td>versi yang anda gunakan tidak disokong oleh pelayan &lpar;pengguna&rpar;</td></tr>
-                        <tr><td class='fw-bold fst-italic'>TSDNS error</td><td>i. kesilapan alamat pelayan &lpar;pengguna&rpar;<br>ii. ralat tetapan DNS &lpar;penyedia perkhidmatan&rpar;</td></tr>
-                        <tr><td class='fw-bold fst-italic'>flood prevention</td><td>ralat tetapan pelayan &lpar;penyedia perkhidmatan&rpar;</td></tr>
-                        <tr><td class='fw-bold fst-italic'>server blacklisted</td><td>pelayan disenarai hitam &lpar;TeamSpeak Systems, Inc.&rpar;</td></tr>
-                        <tr><td class='fw-bold fst-italic'>connection error</td><td>i. kesilapan alamat/ip pelayan &lpar;pengguna&rpar;<br>ii. pelayan tidak beroperasi &lpar;penyedia perkhidmatan&rpar;</td></tr>
+                        <tr>
+                          <td class='fw-bold fst-italic'>server outdated</td>
+                          <td>pelayan tidak menyokong sambungan melalui perisian yang anda gunakan &lpar;pengguna&rpar;</td>
+                        </tr>
+                        <tr>
+                          <td class='fw-bold fst-italic'>client outdated</td>
+                          <td>perisian yang anda gunakan tidak disokong oleh pelayan &lpar;pengguna&rpar;</td>
+                        </tr>
+                        <tr>
+                          <td class='fw-bold fst-italic'>TSDNS error</td>
+                          <td>i. kesilapan alamat pelayan &lpar;pengguna&rpar;<br>ii. ralat tetapan DNS &lpar;penyedia perkhidmatan&rpar;</td>
+                        </tr>
+                        <tr>
+                          <td class='fw-bold fst-italic'>flood prevention</td>
+                          <td>ralat tetapan pelayan &lpar;penyedia perkhidmatan&rpar;</td>
+                        </tr>
+                        <tr>
+                          <td class='fw-bold fst-italic'>server blacklisted</td>
+                          <td>pelayan disenarai hitam &lpar;TeamSpeak Systems, Inc.&rpar;</td>
+                        </tr>
+                        <tr>
+                          <td class='fw-bold fst-italic'>connection error</td>
+                          <td>i. kesilapan alamat/ip pelayan &lpar;pengguna&rpar;<br>ii. pelayan tidak beroperasi &lpar;penyedia perkhidmatan&rpar;</td>
+                        </tr>
                       </tbody>
                     </table>
-                    <p class='m-0'>Sekiranya anda tidak berjaya log masuk ke pelayan Rangkaian RoIPMARS &lbrack;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&rbrack;, berkemungkinan perisian yang anda gunakan tidak menyokong fungsi &apos;DNS&apos;.</p>
-                    <p class='m-0'>Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank' rel='noopener'>Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank' rel='noopener'>App Store</a>.</p>
-                    <p class='m-0'>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' download>roipmars-teamspeak-3.0.3.1.apk</a></p>
+                    <p class='m-0'>Sekiranya anda tidak berjaya log masuk ke pelayan Rangkaian RoIPMARS &lbrack;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&rbrack;, berkemungkinan sumber perisian yang digunakan tidak menyokong fungsi &apos;DNS&apos;.</p>
+                    <p class='m-0'>Disarankan untuk memasang aplikasi dari <a href='https://sl.roipmars.org.my/zlee24' target='_blank' rel='noopener'>Google Play Store</a> / <a href='https://sl.roipmars.org.my/0e3qul' target='_blank' rel='noopener'>Apple App Store</a> / <a href='https://sl.roipmars.org.my/qudkou' target='_blank' rel='noopener'>Microsoft Store</a>.</p>
+                    <p class='m-0'>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='https://sl.roipmars.org.my/qinlu6' download>ts-3.0.3.1.apk</a></p>
                     <p class='m-0'>Pihak Pentadbir Rangkaian RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
                   </div>
                 </div>
               </div>
-              <div class='accordion-item border-primary-subtle bg-primary-subtle'>
+              <div class='accordion-item'>
                 <div class='accordion-header' id='rms4'>
-                  <button type='button' class='accordion-button collapsed text-primary-emphasis' data-bs-toggle='collapse' data-bs-target='#collapserms4' aria-expanded='false' aria-controls='collapserms4'><i class='bi-4-circle-fill text-primary-emphasis fs-4 pe-3'></i>Mengapa saya gagal memasang &apos;apk&apos; TeamSpeak3 yang diberikan rakan pada peranti iOS saya?</button>
+                  <button type='button' class='accordion-button collapsed bg-primary-subtle text-primary-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapserms4' aria-expanded='false' aria-controls='collapserms4'><i class='bi-4-circle-fill text-primary-emphasis fs-5 pe-3'></i>Mengapa saya gagal memasang &apos;apk&apos; TeamSpeak3 yang diberikan rakan pada peranti iOS saya?</button>
                 </div>
                 <div id='collapserms4' class='accordion-collapse collapse' aria-labelledby='rms4' data-bs-parent='#rmsfaq'>
                   <div class='accordion-body'>
@@ -270,15 +106,45 @@
                   </div>
                 </div>
               </div>
-
+            </div>
+          </div>
+          <div class='col-auto mb-3'>
+            <h3 class='text-capitalize text-center text-secondary-emphasis'>Gerbang Audio / Radio</h3>
+            <div class='accordion' id='gwfaq' aria-multiselectable='true'>
+              <div class='accordion-item'>
+                <div class='accordion-header' id='gw1'>
+                  <button type='button' class='accordion-button collapsed bg-secondary-subtle text-secondary-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapsegw1' aria-expanded='false' aria-controls='collapsegw1'><i class='bi-1-circle-fill text-secondary-emphasis fs-5 pe-3'></i>Mengapa kualiti audio mempunyai kelewatan dan tidak jernih?</button>
+                </div>
+                <div id='collapsegw1' class='accordion-collapse collapse' aria-labelledby='gw1' data-bs-parent='#gwfaq'>
+                  <div class='accordion-body'>
+                    <p class='m-0'>Segala gerbang yang disediakan adalah kepunyaan INDIVIDU sepenuhnya. Pelbagai faktor perlu diambil kira untuk menyediakan gerbang tersebut, antaranya:</p>
+                    <ol class='m-0' type='i'>
+                      <li>spesifikasi &amp; kestabilan peranti</li>
+                      <li>kelajuan, kependaman &amp; kestabilan sambungan</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class='accordion-item'>
+                <div class='accordion-header' id='gw2'>
+                  <button type='button' class='accordion-button collapsed bg-secondary-subtle text-secondary-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapsegw2' aria-expanded='false' aria-controls='collapsegw2'><i class='bi-2-circle-fill text-secondary-emphasis fs-5 pe-3'></i>Bolehkah saya membuat sambungan ke RoIPMARS?</button>
+                </div>
+                <div id='collapsegw2' class='accordion-collapse collapse' aria-labelledby='gw2' data-bs-parent='#gwfaq'>
+                  <div class='accordion-body'>
+                    <p class='m-0'>Segala sambungan dari/ke komuniti/kumpulan lain adalah dialu-alukan. Namun yang demikian, pemilik gerbang wajib menetapkan &apos;nickname&apos; berpandukan pada format ini;</p>
+                    <p class='m-0 text-center fw-bold font-monospace user-select-none'>CALLSIGN IP/ADDRESS/FREKUENSI LOKAL</p>
+                    <p class='m-0 text-center'>contoh: <span class='fst-italic font-monospace user-select-none'>9W4GPA 144.8250MHz KUALA SELANGOR</span></p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class='col-auto mb-3'>
             <h3 class='text-capitalize text-center text-success-emphasis'>Jalur Amatur</h3>
             <div class='accordion' id='hamfaq' aria-multiselectable='true'>
-              <div class='accordion-item border-success-subtle bg-success-subtle'>
+              <div class='accordion-item'>
                 <div class='accordion-header' id='ham1'>
-                  <button type='button' class='accordion-button collapsed text-success-emphasis' data-bs-toggle='collapse' data-bs-target='#collapseham1' aria-expanded='false' aria-controls='collapseham1'><i class='bi-1-circle-fill text-success-emphasis fs-4 pe-3'></i>Bagaimana cara untuk menyertai aktiviti net yang dijalankan?</button>
+                  <button type='button' class='accordion-button collapsed bg-success-subtle text-success-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapseham1' aria-expanded='false' aria-controls='collapseham1'><i class='bi-1-circle-fill text-success-emphasis fs-5 pe-3'></i>Bagaimana cara untuk menyertai aktiviti net yang dijalankan?</button>
                 </div>
                 <div id='collapseham1' class='accordion-collapse collapse' aria-labelledby='ham1' data-bs-parent='#hamfaq'>
                   <div class='accordion-body'>
@@ -286,30 +152,14 @@
                   </div>
                 </div>
               </div>
-              <div class='accordion-item border-success-subtle bg-success-subtle'>
-                <div class='accordion-header' id='ham2'>
-                  <button type='button' class='accordion-button collapsed text-success-emphasis' data-bs-toggle='collapse' data-bs-target='#collapseham2' aria-expanded='false' aria-controls='collapseham2'><i class='bi-2-circle-fill text-success-emphasis fs-4 pe-3'></i>Mengapa kualiti audio di aplikasi selain TeamSpeak3 yang disambungkan ke RoIPMARS mempunyai kelewatan dan tidak jernih?</button>
-                </div>
-                <div id='collapseham2' class='accordion-collapse collapse' aria-labelledby='ham2' data-bs-parent='#hamfaq'>
-                  <div class='accordion-body'>
-                    <p class='m-0'>Segala sambungan (pautan silang) yang disediakan adalah kepunyaan INDIVIDU sepenuhnya. Pelbagai faktor perlu diambil kira untuk menyediakan pautan silang tersebut, antaranya:</p>
-                    <ol class='m-0' type='i'>
-                      <li>spesifikasi komputer yang digunakan</li>
-                      <li>kestabilan sambungan yang digunakan</li>
-                      <li>penyelenggaraan komputer yang digunakan</li>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-
             </div>
           </div>
           <div class='col-auto mb-3'>
             <h3 class='text-capitalize text-center text-danger-emphasis'>Jalur Rakyat</h3>
             <div class='accordion' id='cbfaq' aria-multiselectable='true'>
-              <div class='accordion-item border-danger-subtle bg-danger-subtle'>
+              <div class='accordion-item'>
                 <div class='accordion-header' id='cb1'>
-                  <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' data-bs-target='#collapsecb1' aria-expanded='false' aria-controls='collapsecb1'><i class='bi-1-circle-fill text-danger-emphasis fs-4 pe-3'></i>Adakah lesen dari MCMC (SKMM) diperlukan untuk penggunaan CB RADIO?</button>
+                  <button type='button' class='accordion-button collapsed bg-danger-subtle text-danger-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapsecb1' aria-expanded='false' aria-controls='collapsecb1'><i class='bi-1-circle-fill text-danger-emphasis fs-5 pe-3'></i>Adakah lesen dari MCMC (SKMM) diperlukan untuk penggunaan CB RADIO?</button>
                 </div>
                 <div id='collapsecb1' class='accordion-collapse collapse' aria-labelledby='cb1' data-bs-parent='#cbfaq'>
                   <div class='accordion-body'>
@@ -334,9 +184,9 @@
                   </div>
                 </div>
               </div>
-              <div class='accordion-item border-danger-subtle bg-danger-subtle'>
+              <div class='accordion-item'>
                 <div class='accordion-header' id='cb2'>
-                  <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' data-bs-target='#collapsecb2' aria-expanded='false' aria-controls='collapsecb2'><i class='bi-2-circle-fill text-danger-emphasis fs-4 pe-3'></i>Adakah perlu pendaftaran dengan mana-mana kelab atau SKMM untuk mendapatkan Isyarat Panggilan?</button>
+                  <button type='button' class='accordion-button collapsed bg-danger-subtle text-danger-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapsecb2' aria-expanded='false' aria-controls='collapsecb2'><i class='bi-2-circle-fill text-danger-emphasis fs-5 pe-3'></i>Adakah perlu pendaftaran dengan mana-mana kelab atau SKMM untuk mendapatkan Isyarat Panggilan?</button>
                 </div>
                 <div id='collapsecb2' class='accordion-collapse collapse' aria-labelledby='cb2' data-bs-parent='#cbfaq'>
                   <div class='accordion-body'>
@@ -348,9 +198,9 @@
                   </div>
                 </div>
               </div>
-              <div class='accordion-item border-danger-subtle bg-danger-subtle'>
+              <div class='accordion-item'>
                 <div class='accordion-header' id='cb3'>
-                  <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' data-bs-target='#collapsecb3' aria-expanded='false' aria-controls='collapsecb3'><i class='bi-3-circle-fill text-danger-emphasis fs-4 pe-3'></i>Dimana saya boleh membeli peralatan CB RADIO?</button>
+                  <button type='button' class='accordion-button collapsed bg-danger-subtle text-danger-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapsecb3' aria-expanded='false' aria-controls='collapsecb3'><i class='bi-3-circle-fill text-danger-emphasis fs-5 pe-3'></i>Dimana saya boleh membeli peralatan CB RADIO?</button>
                 </div>
                 <div id='collapsecb3' class='accordion-collapse collapse' aria-labelledby='cb3' data-bs-parent='#cbfaq'>
                   <div class='accordion-body'>
@@ -358,9 +208,9 @@
                   </div>
                 </div>
               </div>
-              <div class='accordion-item border-danger-subtle bg-danger-subtle'>
+              <div class='accordion-item'>
                 <div class='accordion-header' id='cb4'>
-                  <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' data-bs-target='#collapsecb4' aria-expanded='false' aria-controls='collapsecb4'><i class='bi-4-circle-fill text-danger-emphasis fs-4 pe-3'></i>Berapa harga sebuah CB RADIO jenis Handy atau jenis Rig?</a>
+                  <button type='button' class='accordion-button collapsed bg-danger-subtle text-danger-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapsecb4' aria-expanded='false' aria-controls='collapsecb4'><i class='bi-4-circle-fill text-danger-emphasis fs-5 pe-3'></i>Berapa harga sebuah CB RADIO jenis Handy atau jenis Rig?</a>
                 </div>
                 <div id='collapsecb4' class='accordion-collapse collapse' aria-labelledby='cb4' data-bs-parent='#cbfaq'>
                   <div class='accordion-body'>
@@ -368,9 +218,9 @@
                   </div>
                 </div>
               </div>
-              <div class='accordion-item border-danger-subtle bg-danger-subtle'>
+              <div class='accordion-item'>
                 <div class='accordion-header' id='cb5'>
-                  <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' data-bs-target='#collapsecb5' aria-expanded='false' aria-controls='collapsecb5'><i class='bi-5-circle-fill text-danger-emphasis fs-4 pe-3'></i>Masih adakah pengguna CB RADIO di Malaysia?</button>
+                  <button type='button' class='accordion-button collapsed bg-danger-subtle text-danger-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapsecb5' aria-expanded='false' aria-controls='collapsecb5'><i class='bi-5-circle-fill text-danger-emphasis fs-5 pe-3'></i>Masih adakah pengguna CB RADIO di Malaysia?</button>
                 </div>
                 <div id='collapsecb5' class='accordion-collapse collapse' aria-labelledby='cb5' data-bs-parent='#cbfaq'>
                   <div class='accordion-body'>
@@ -392,9 +242,9 @@
                   </div>
                 </div>
               </div>
-              <div class='accordion-item border-danger-subtle bg-danger-subtle'>
+              <div class='accordion-item'>
                 <div class='accordion-header' id='cb6'>
-                  <button type='button' class='accordion-button collapsed text-danger-emphasis' data-bs-toggle='collapse' data-bs-target='#collapsecb6' aria-expanded='false' aria-controls='collapsecb6'><i class='bi-6-circle-fill text-danger-emphasis fs-4 pe-3'></i>Berapa jarak perhubungan yang boleh di capai menggunakan CB RADIO atau PRS RADIO?</button>
+                  <button type='button' class='accordion-button collapsed bg-danger-subtle text-danger-emphasis fs-5' data-bs-toggle='collapse' data-bs-target='#collapsecb6' aria-expanded='false' aria-controls='collapsecb6'><i class='bi-6-circle-fill text-danger-emphasis fs-5 pe-3'></i>Berapa jarak perhubungan yang boleh di capai menggunakan CB RADIO atau PRS RADIO?</button>
                 </div>
                 <div id='collapsecb6' class='accordion-collapse collapse' aria-labelledby='cb6' data-bs-parent='#cbfaq'>
                   <div class='accordion-body'>
@@ -402,13 +252,201 @@
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
+        <div class='col-4 text-center'>
+          <table class='table table-sm table-bordered table-striped text-center align-middle mb-3 mx-auto w-auto text-wrap' style='white-space: nowrap'>
+            <thead class='align-middle'>
+              <th>Abjad</th>
+              <th>Fonetik</th>
+              <th>International Morse</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>A</td>
+                <td>Alfa<br>Agas</td>
+                <td>&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f3/A_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>B</td>
+                <td>Bravo<br>Bola</td>
+                <td>&ndash;&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/b1/B_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>C</td>
+                <td>Charlie<br>Ciku</td>
+                <td>&ndash;&bull;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/2/25/C_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>D</td>
+                <td>Delta<br>Duku</td>
+                <td>&ndash;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/92/D_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>E</td>
+                <td>Echo<br>Elok</td>
+                <td>&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/e7/E_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>F</td>
+                <td>Foxtrot<br>Fajar</td>
+                <td>&bull;&bull;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/63/F_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>G</td>
+                <td>Golf<br>Gagak</td>
+                <td>&ndash;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/72/G_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>H</td>
+                <td>Hotel<br>Handal</td>
+                <td>&bull;&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/93/H_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>I</td>
+                <td>India<br>Intan</td>
+                <td>&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d9/I_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>J</td>
+                <td>Juliett<br>Jala</td>
+                <td>&bull;&ndash;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9e/J_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>K</td>
+                <td>Kilo<br>Kota</td>
+                <td>&ndash;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/K_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>Lima<br>Laju</td>
+                <td>&bull;&ndash;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/a/a8/L_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>M</td>
+                <td>Mike<br>Merah</td>
+                <td>&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/97/M_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>N</td>
+                <td>November<br>Nuri</td>
+                <td>&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5a/N_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>O</td>
+                <td>Oscar<br>Ombak</td>
+                <td>&ndash;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/41/O_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>P</td>
+                <td>Papa<br>Palang</td>
+                <td>&bull;&ndash;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/c/c6/P_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>Q</td>
+                <td>Quebec<br>Quen</td>
+                <td>&ndash;&ndash;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f0/Q_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>R</td>
+                <td>Romeo<br>Rakit</td>
+                <td>&bull;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>S</td>
+                <td>Sierra<br>Singa</td>
+                <td>&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d8/S_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>T</td>
+                <td>Tango<br>Tari</td>
+                <td>&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/ba/T_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>U</td>
+                <td>Uniform<br>Udang</td>
+                <td>&bull;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/34/U_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>V</td>
+                <td>Victor<br>Victor</td>
+                <td>&bull;&bull;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/37/V_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>W</td>
+                <td>Whiskey<br>Wayang</td>
+                <td>&bull;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/68/W_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>X</td>
+                <td>X-ray<br>X-ray</td>
+                <td>&ndash;&bull;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/be/X_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>Y</td>
+                <td>Yankee<br>Yakin</td>
+                <td>&ndash;&bull;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/Y_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>Z</td>
+                <td>Zulu<br>Zaman</td>
+                <td>&ndash;&ndash;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Z_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>Zero<br>Kosong</td>
+                <td>&ndash;&ndash;&ndash;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/0_number_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>One<br>Satu</td>
+                <td>&bull;&ndash;&ndash;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9b/1_number_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Two<br>Dua</td>
+                <td>&bull;&bull;&ndash;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ee/2_number_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Three<br>Tiga</td>
+                <td>&bull;&bull;&bull;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/fd/3_number_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Four<br>Empat</td>
+                <td>&bull;&bull;&bull;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5c/4_number_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Five<br>Lima</td>
+                <td>&bull;&bull;&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/52/5_number_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Six<br>Enam</td>
+                <td>&ndash;&bull;&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/4d/6_number_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Seven<br>Tujuh</td>
+                <td>&ndash;&ndash;&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/1/14/7_number_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Eight<br>Lapan</td>
+                <td>&ndash;&ndash;&ndash;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/3a/8_number_morse_code.ogg'></audio></td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Nine<br>Sembilan</td>
+                <td>&ndash;&ndash;&ndash;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/44/9_number_morse_code.ogg'></audio></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-    </div>
-    <?php require_once 'footer.php' ?>
-  </body>
+    </div> <?php require_once 'footer.php' ?> </body>
 
 </html>

@@ -580,7 +580,9 @@ $(document).ready(function () {
 			const takwimday = takwimrowdata.Hari.split('<br>')[0]
 			const takwimdate = takwimrowdata.Hari.split('<br>')[1]
 			const takwimtime = takwimrowdata.Hari.split('<br>')[2]
-			const takwimact = takwimrowdata.Acara.replace(/\[(KHAS|SPECIAL|KHUSUS)\]/g, '').trim().replaceAll(/\^1|\^2/g, '')
+			const takwimact = takwimrowdata.Acara.replace(/\[(KHAS|SPECIAL|KHUSUS)\]/g, '')
+				.trim()
+				.replaceAll(/\^1|\^2/g, '')
 			const takwimncs = takwimrowdata.NCS.split('|')[0].trim()
 			const reportTitle = `Laporan ${takwimact} pada ${takwimday}, ${takwimdate} ${takwimtime} bersama ${takwimncs}`
 			modalTitle.textContent = reportTitle
@@ -702,7 +704,9 @@ $(document).ready(function () {
 				const msgInfo = bootstrap.Toast.getOrCreateInstance(toastInfo)
 				const toastDanger = document.getElementById('prog-danger')
 				const msgDanger = bootstrap.Toast.getOrCreateInstance(toastDanger, { delay: 10000 })
-				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${netReportTable.row(this).data()[1]}. Are you sure?`
+				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${
+					netReportTable.row(this).data()[1]
+				}. Are you sure?`
 				if (confirm(confirmtxt) == true) {
 					toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating eCert...</div>`
 					msgSuccess.show()
@@ -723,24 +727,49 @@ $(document).ready(function () {
 						})
 						toastDanger.innerHTML = `<div class='toast-body'>generator script error. reload required.</div>`
 						msgDanger.show()
-						setTimeout(function () { location.reload() }, 10000)
+						setTimeout(function () {
+							location.reload()
+						}, 10000)
 					}
 				}
 				async function generateCert(date, activity, ncs, caller, modes, utctime) {
 					const { jsPDF } = window.jspdf
 					switch (modes) {
-						case 'RF': var mode = 'FM (144.8MHz)'; break
-						case 'DC': var mode = 'VOI-Discord'; break
-						case 'EL': var mode = 'VOI-EchoLink'; break
-						case 'FRN': var mode = 'VOI-Free Radio Network'; break
-						case 'MBL': var mode = 'VOI-Mumble'; break
-						case 'PNT': var mode = 'VOI-Peanut'; break
-						case 'TG': var mode = 'VOI-Telegram'; break
-						case 'TS': var mode = 'VOI-TeamSpeak'; break
-						case 'TT': var mode = 'VOI-Team Talk'; break
-						case 'WA': var mode = 'VOI-WhatsApp'; break
-						case 'ZL': var mode = 'VOI-Zello'; break
-						default: var mode = 'unknown'
+						case 'RF':
+							var mode = 'FM (144.8MHz)'
+							break
+						case 'DC':
+							var mode = 'VOI-Discord'
+							break
+						case 'EL':
+							var mode = 'VOI-EchoLink'
+							break
+						case 'FRN':
+							var mode = 'VOI-Free Radio Network'
+							break
+						case 'MBL':
+							var mode = 'VOI-Mumble'
+							break
+						case 'PNT':
+							var mode = 'VOI-Peanut'
+							break
+						case 'TG':
+							var mode = 'VOI-Telegram'
+							break
+						case 'TS':
+							var mode = 'VOI-TeamSpeak'
+							break
+						case 'TT':
+							var mode = 'VOI-Team Talk'
+							break
+						case 'WA':
+							var mode = 'VOI-WhatsApp'
+							break
+						case 'ZL':
+							var mode = 'VOI-Zello'
+							break
+						default:
+							var mode = 'unknown'
 					}
 					var eCert = new jsPDF({
 						orientation: 'l',
@@ -764,18 +793,17 @@ $(document).ready(function () {
 					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>gathering contact informations...</div>`
 					msgInfo.show()
 					// eCert.addImage('/assets/image/certs/program/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
-					await fetch(`/assets/image/certs/program/${source}.jpg`)
-						.then((response) => {
-							if (response.ok) {
-								eCert.addImage(`/assets/image/certs/program/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
+					await fetch(`/assets/image/certs/program/${source}.jpg`).then((response) => {
+						if (response.ok) {
+							eCert.addImage(`/assets/image/certs/program/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
+						} else {
+							if (activity.toLowerCase().search('sahur') > 0) {
+								eCert.addImage(`/assets/image/certs/program/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
 							} else {
-								if (activity.toLowerCase().search('sahur') > 0) {
-									eCert.addImage(`/assets/image/certs/program/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
-								} else {
-									eCert.addImage('/assets/image/certs/program/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
-								}
+								eCert.addImage('/assets/image/certs/program/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
 							}
-						})
+						}
+					})
 					if (activity.toLowerCase().search('sahur') > 0) {
 						eCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 85, 10, 100, 20)
 						eCert.addImage('/media/image/brands/kopdarmobile.png', 'PNG', 190, 10, 30, 20)
@@ -813,7 +841,11 @@ $(document).ready(function () {
 							eCert.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(ncs, 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 						}
 					} else {
-						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('Congrats and thanks for duty as NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+						eCert
+							.setFont('SairaExtraCondensed-Thin')
+							.setFontSize(25)
+							.setTextColor('black')
+							.text('Congrats and thanks for duty as NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					}
 
 					if (utctime.split(':')[0] >= 16) {
@@ -821,27 +853,59 @@ $(document).ready(function () {
 					} else {
 						var dtl = new Date(date.split('/')[2], parseInt(date.split('/')[1]) - 1, parseInt(date.split('/')[0]) + 1, utctime.split(':')[0] - 16, utctime.split(':')[1])
 					}
-					eCert.setFont('Orbitron-Black').setFontSize(30).setTextColor('#72c7ef').text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(dtl).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
+					eCert
+						.setFont('Orbitron-Black')
+						.setFontSize(30)
+						.setTextColor('#72c7ef')
+						.text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(dtl).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
 					eCert.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250, renderingMode: 'fillThenStroke' })
 					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('MoT', 49.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(mode, 49.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('TIME', 247.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					eCert.setFont('KodeMono-SemiBold').setFontSize(16).setTextColor('black').text(`${dtl.getFullYear()}-${(dtl.getMonth() + 1).toString().padStart(2, '0')}-${dtl.getDate().toString().padStart(2, '0')}T${dtl.getHours().toString().padStart(2, '0')}:${dtl.getMinutes().toString().padStart(2, '0')}MY\n${dtl.toISOString().substring(0, 16)}Z`, 247.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					eCert
+						.setFont('KodeMono-SemiBold')
+						.setFontSize(16)
+						.setTextColor('black')
+						.text(
+							`${dtl.getFullYear()}-${(dtl.getMonth() + 1).toString().padStart(2, '0')}-${dtl.getDate().toString().padStart(2, '0')}T${dtl.getHours().toString().padStart(2, '0')}:${dtl.getMinutes().toString().padStart(2, '0')}MY\n${dtl
+								.toISOString()
+								.substring(0, 16)}Z`,
+							247.5,
+							163,
+							{ align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' }
+						)
 
 					eCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY', 148.5, 186, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('SourceSansPro-Regular').setFontSize(10).setTextColor('black').text('PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP) [PPM-006-10-01062020]', 148.5, 189, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('HYPost-Light').setFontSize(7).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 148.5, 193, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
-					eCert.setFont('OpenSansCondensed-Regular').setFontSize(8).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 148.5, 196, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
-					eCert.setFont('KodeMono-Regular').setFontSize(9).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 148.5, 200, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+					eCert
+						.setFont('OpenSansCondensed-Regular')
+						.setFontSize(8)
+						.setTextColor('black')
+						.text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 148.5, 196, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
+					eCert
+						.setFont('KodeMono-Regular')
+						.setFontSize(9)
+						.setTextColor('black')
+						.text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 148.5, 200, {
+							align: 'center',
+							baseline: 'middle',
+							lineHeightFactor: 1,
+							maxWidth: 280,
+						})
 
 					let fileName = `${date.split('/').reverse().join('')}_${caller}`
-					eCert.setFileId(crypto.randomUUID()).setCreationDate(new Date()).setLanguage('en-MY').setDocumentProperties({
-						title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,
-						subject: `${caller} | ${date.split('/').reverse().join('-')}T${utctime}`,
-						author: document.querySelector('meta[name="author"]').content,
-						keywords: document.querySelector('meta[name="keywords"]').content,
-						creator: 'RoIPMARS eCert generator',
-					})
+					eCert
+						.setFileId(crypto.randomUUID())
+						.setCreationDate(new Date())
+						.setLanguage('en-MY')
+						.setDocumentProperties({
+							title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,
+							subject: `${caller} | ${date.split('/').reverse().join('-')}T${utctime}`,
+							author: document.querySelector('meta[name="author"]').content,
+							keywords: document.querySelector('meta[name="keywords"]').content,
+							creator: 'RoIPMARS eCert generator',
+						})
 
 					toastInfo.innerHTML = `<div class='toast-body'>eCert Ready!</div>`
 					msgInfo.show()
@@ -854,7 +918,7 @@ $(document).ready(function () {
 					} catch (err) {
 						callCtc = ''
 					}
-					let WaCtc = prompt(`fill your contact number (including country code without plus sign), ex: 601234567890, if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
+					let WaCtc = prompt(`fill your contact number (INCLUDING country code WITHOUT plus sign; example: 601234567890) if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
 					if (WaCtc == null || WaCtc == '') {
 						toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
 						msgSuccess.show()

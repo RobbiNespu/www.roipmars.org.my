@@ -1,41 +1,41 @@
 $(document).ready(function () {
-  let memmarsreg = $('#memberlist').DataTable({
-    ajax: {
-      url: '/assets/json/member.json',
-      dataSrc: 'activeMembers'
-    },
-    columns: [
-      { className: 'text-center align-middle', data: 'MemberNo', name: 'MemberNo', searchable: false, title: 'NO AHLI' },
-      { className: 'text-center align-middle', data: 'CallSign', name: 'CallSign', searchable: true, title: 'CALLSIGN' },
-      { className: 'text-center align-middle', data: 'Name', name: 'Name', searchable: true, title: 'NAMA AHLI' },
-      { className: 'text-center align-middle', data: 'Locale', name: 'Locale', searchable: true, title: 'LOKALITI' },
-      { className: 'text-center align-middle', data: 'Expiry', name: 'Expiry', searchable: false, title: 'SAH SEHINGGA' },
-    ],
-    deferRender: true,
-    processing: true,
-    lengthChange: false,
-    ordering: false,
-    pagingType: 'first_last_numbers',
-    pageLength: 10,
-    searchDelay: 500,
-    keys: { blurable: true, keys: ['\n'.charCodeAt(0)], columns: [1, 2, 3] },
-    language: {
-      lengthMenu: 'Paparan _MENU_ rekod',
-      search: 'Cari Callsign/Nama/Lokal:',
-      processing: 'Rekod sedang disusun semula',
-      emptyTable: 'Rekod Tidak Ditemui',
-      infoEmpty: 'Rekod Tidak Ditemui',
-      zeroRecords: 'Rekod Tidak Ditemui',
-      paginate: { first: '<<', previous: '<', next: '>', last: '>>' },
-      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
-      infoFiltered: ' - tapisan dari _MAX_ rekod',
-      infoPostFix: ' | Rekod diperoleh daripada maklumat sebenar.'
-    },
-    initComplete: function () {
-      let tds = $('#memberlist').DataTable().page.info().recordsTotal
-      $('.membercount').html(tds + ' ahli')
-    }
-  })
+	let memmarsreg = $('#memberlist').DataTable({
+		ajax: {
+			url: '/assets/json/member.json',
+			dataSrc: 'activeMembers',
+		},
+		columns: [
+			{ className: 'text-center align-middle', data: 'MemberNo', name: 'MemberNo', searchable: false, title: 'NO AHLI' },
+			{ className: 'text-center align-middle', data: 'CallSign', name: 'CallSign', searchable: true, title: 'CALLSIGN' },
+			{ className: 'text-center align-middle', data: 'Name', name: 'Name', searchable: true, title: 'NAMA AHLI' },
+			{ className: 'text-center align-middle', data: 'Locale', name: 'Locale', searchable: true, title: 'LOKALITI' },
+			{ className: 'text-center align-middle', data: 'Expiry', name: 'Expiry', searchable: false, title: 'SAH SEHINGGA' },
+		],
+		deferRender: true,
+		processing: true,
+		lengthChange: false,
+		ordering: false,
+		pagingType: 'first_last_numbers',
+		pageLength: 10,
+		searchDelay: 500,
+		keys: { blurable: true, keys: ['\n'.charCodeAt(0)], columns: [1, 2, 3] },
+		language: {
+			lengthMenu: 'Paparan _MENU_ rekod',
+			search: 'Cari Callsign/Nama/Lokal:',
+			processing: 'Rekod sedang disusun semula',
+			emptyTable: 'Rekod Tidak Ditemui',
+			infoEmpty: 'Rekod Tidak Ditemui',
+			zeroRecords: 'Rekod Tidak Ditemui',
+			paginate: { first: '<<', previous: '<', next: '>', last: '>>' },
+			info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+			infoFiltered: ' - tapisan dari _MAX_ rekod',
+			infoPostFix: ' | Rekod diperoleh daripada maklumat sebenar.',
+		},
+		initComplete: function () {
+			let tds = $('#memberlist').DataTable().page.info().recordsTotal
+			$('.membercount').html(tds + ' ahli')
+		},
+	})
 	$('#memberlist').delegate('tbody tr td', 'click', async function () {
 		const toastSuccess = document.getElementById('prog-success')
 		const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })
@@ -69,18 +69,31 @@ $(document).ready(function () {
 				})
 				toastDanger.innerHTML = `<div class='toast-body'>generator script error. reload required.</div>`
 				msgDanger.show()
-				setTimeout(function () { location.reload() }, 10000)
+				setTimeout(function () {
+					location.reload()
+				}, 10000)
 			}
 		}
 		async function genCert(id, call, name, validDate) {
 			const { jsPDF } = window.jspdf
-      switch (id[0]) {
-				case 'A': var idStat = 'Ahli Biasa'; break
-				case 'B': var idStat = 'Ahli Bersekutu'; break
-				case 'D': var idStat = 'Ahli Seumur Hidup'; break
-				case 'E': var idStat = 'Ahli Remaja'; break
-				case 'X': var idStat = 'Ahli Luput'; break
-				default: var idStat = 'Ahli Tidak Berdaftar'
+			switch (id[0]) {
+				case 'A':
+					var idStat = 'Ahli Biasa'
+					break
+				case 'B':
+					var idStat = 'Ahli Bersekutu'
+					break
+				case 'D':
+					var idStat = 'Ahli Seumur Hidup'
+					break
+				case 'E':
+					var idStat = 'Ahli Remaja'
+					break
+				case 'X':
+					var idStat = 'Ahli Luput'
+					break
+				default:
+					var idStat = 'Ahli Tidak Berdaftar'
 			}
 			var memCert = new jsPDF({
 				orientation: 'l',
@@ -99,9 +112,9 @@ $(document).ready(function () {
 
 			memCert.setFont('AgencyFB').setFontSize(76).setTextColor('#336699').text(`${name}\n(${call})`, 315, 230, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 385, renderingMode: 'fillThenStroke' })
 			memCert.setFont('AgencyFB').setFontSize(64).setTextColor('#336699').text(`${idStat}`, 315, 475, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 385, renderingMode: 'fillThenStroke' })
-      memCert.setFont('AgencyFB').setFontSize(52).setTextColor('#5cce54').text(`${id}`, 315, 545, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 385, renderingMode: 'fillThenStroke' })
+			memCert.setFont('AgencyFB').setFontSize(52).setTextColor('#5cce54').text(`${id}`, 315, 545, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 385, renderingMode: 'fillThenStroke' })
 
-      if (id == 'A008') {
+			if (id == 'A008') {
 				memCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('HAFIZI RUSLAN, SETIAUSAHA', 172, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 				memCert.addImage('/assets/image/certs/lgx_sign.png', 'PNG', 110, 575, 150, 150)
 			} else {
@@ -115,18 +128,35 @@ $(document).ready(function () {
 			memCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 20, 725, 320, 65)
 			memCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('f7fcfe').text('ROIPMARS.ORG.MY', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			memCert.setFont('HYPost-Light').setFontSize(10).setTextColor('f7fcfe').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			memCert.setFont('OpenSansCondensed-Regular').setFontSize(10).setTextColor('f7fcfe').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 528, 780, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			memCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('f7fcfe').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-      memCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
+			memCert
+				.setFont('OpenSansCondensed-Regular')
+				.setFontSize(10)
+				.setTextColor('f7fcfe')
+				.text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 528, 780, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+			memCert
+				.setFont('KodeMono-Regular')
+				.setFontSize(10)
+				.setTextColor('f7fcfe')
+				.text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, {
+					align: 'center',
+					baseline: 'middle',
+					lineHeightFactor: 1,
+					maxWidth: 800,
+				})
+			memCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
 
 			let fileName = `RoIPMARS_${call}`
-			memCert.setFileId(crypto.randomUUID()).setCreationDate(new Date()).setLanguage('ms-MY').setDocumentProperties({
-				title: `${fileName}`,
-				subject: `${id} - ${call}`,
-				author: document.querySelector('meta[name="author"]').content,
-				keywords: document.querySelector('meta[name="keywords"]').content,
-				creator: `RoIPMARS Member Cert generator`
-			})
+			memCert
+				.setFileId(crypto.randomUUID())
+				.setCreationDate(new Date())
+				.setLanguage('ms-MY')
+				.setDocumentProperties({
+					title: `${fileName}`,
+					subject: `${id} - ${call}`,
+					author: document.querySelector('meta[name="author"]').content,
+					keywords: document.querySelector('meta[name="keywords"]').content,
+					creator: `RoIPMARS Member Cert generator`,
+				})
 
 			toastInfo.innerHTML = `<div class='toast-body'>Certificate Ready!</div>`
 			msgInfo.show()
@@ -139,7 +169,7 @@ $(document).ready(function () {
 			} catch (err) {
 				callCtc = ''
 			}
-			let WaCtc = prompt(`fill your contact number (including country code without plus sign), ex: 601234567890, if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
+			let WaCtc = prompt(`fill your contact number (INCLUDING country code WITHOUT plus sign; example: 601234567890) if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
 			if (WaCtc == null || WaCtc == '') {
 				toastSuccess.innerHTML = `<div class='toast-body'>${fileName} saved.\ncheck your 'downloads' folder.</div>`
 				msgSuccess.show()

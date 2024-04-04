@@ -1,51 +1,51 @@
 $(document).ready(function () {
-  var cbmarsreg = $('#cbcslist').DataTable({
-    ajax: {
-      url: '/assets/json/cbmars.json',
-      dataSrc: 'activeCBMembers'
-    },
-    processing: true,
-    ordering: false,
-    pagingType: 'full_numbers',
-    pageLength: 25,
-    searchDelay: 350,
-    responsive: true,
-    order: [
-      [0, 'desc'],
-      [4, 'desc']
-    ],
-    keys: {
-      blurable: true,
-      keys: ['\n'.charCodeAt(0)],
-      columns: [2, 3, 4]
-    },
-    columnDefs: [
-      { className: 'text-center', targets: '_all' },
-      { searchable: false, targets: [0, 4] }
-    ],
-    language: {
-      lengthMenu: 'Paparkan _MENU_ rekod',
-      search: 'Cari Callsign/Nama/Lokal:',
-      processing: '<div class="spinner-border spinner-border-sm" role="status"><span class="visually-hidden">Sedang memuat...</span></div>',
-      emptyTable: 'Rekod Tidak Ditemui',
-      infoEmpty: 'Rekod Tidak Ditemui',
-      zeroRecords: 'Rekod Tidak Ditemui',
-      paginate: {
-        first: '<<',
-        previous: '<',
-        next: '>',
-        last: '>>'
-      },
-      info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
-      infoFiltered: ' - tapisan dari _MAX_ rekod',
-      infoPostFix: ' | Rekod diperoleh daripada maklumat sebenar.'
-    },
-    initComplete: function () {
-      let tds = $('#cbcslist').DataTable().page.info().recordsTotal
-      $('.cscount').html(tds + ' isyarat panggilan sah')
-    }
-  })
-  $('#cbcslist').delegate('tbody tr td', 'click', async function () {
+	var cbmarsreg = $('#cbcslist').DataTable({
+		ajax: {
+			url: '/assets/json/cbmars.json',
+			dataSrc: 'activeCBMembers',
+		},
+		processing: true,
+		ordering: false,
+		pagingType: 'full_numbers',
+		pageLength: 25,
+		searchDelay: 350,
+		responsive: true,
+		order: [
+			[0, 'desc'],
+			[4, 'desc'],
+		],
+		keys: {
+			blurable: true,
+			keys: ['\n'.charCodeAt(0)],
+			columns: [2, 3, 4],
+		},
+		columnDefs: [
+			{ className: 'text-center', targets: '_all' },
+			{ searchable: false, targets: [0, 4] },
+		],
+		language: {
+			lengthMenu: 'Paparkan _MENU_ rekod',
+			search: 'Cari Callsign/Nama/Lokal:',
+			processing: '<div class="spinner-border spinner-border-sm" role="status"><span class="visually-hidden">Sedang memuat...</span></div>',
+			emptyTable: 'Rekod Tidak Ditemui',
+			infoEmpty: 'Rekod Tidak Ditemui',
+			zeroRecords: 'Rekod Tidak Ditemui',
+			paginate: {
+				first: '<<',
+				previous: '<',
+				next: '>',
+				last: '>>',
+			},
+			info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+			infoFiltered: ' - tapisan dari _MAX_ rekod',
+			infoPostFix: ' | Rekod diperoleh daripada maklumat sebenar.',
+		},
+		initComplete: function () {
+			let tds = $('#cbcslist').DataTable().page.info().recordsTotal
+			$('.cscount').html(tds + ' isyarat panggilan sah')
+		},
+	})
+	$('#cbcslist').delegate('tbody tr td', 'click', async function () {
 		const toastSuccess = document.getElementById('prog-success')
 		const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })
 		const toastInfo = document.getElementById('prog-info')
@@ -61,7 +61,7 @@ $(document).ready(function () {
 		if (confirm(confirmtxt) == true) {
 			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating Certificate...</div>`
 			msgSuccess.show()
-      try {
+			try {
 				if (location.hostname != 'localhost') {
 					await fetch('https://api.roipmars.org.my/hook/certgen', {
 						method: 'PUT',
@@ -78,7 +78,9 @@ $(document).ready(function () {
 				})
 				toastDanger.innerHTML = `<div class='toast-body'>generator script error. reload required.</div>`
 				msgDanger.show()
-				setTimeout(function () { location.reload() }, 10000)
+				setTimeout(function () {
+					location.reload()
+				}, 10000)
 			}
 		}
 		async function genCert(id, call, name, regDate) {
@@ -105,11 +107,11 @@ $(document).ready(function () {
 			cbcsCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 20, 725, 320, 65)
 
 			cbcsCert.setFont('AgencyFB').setFontSize(80).setTextColor('#336699').text(name, 775, 225, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 350, renderingMode: 'fillThenStroke' })
-      cbcsCert.setFont('AgencyFB').setFontSize(52).setTextColor('#5cce54').text(`${call} - [${id}]`, 775, 520, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 350, renderingMode: 'fillThenStroke' })
+			cbcsCert.setFont('AgencyFB').setFontSize(52).setTextColor('#5cce54').text(`${call} - [${id}]`, 775, 520, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 350, renderingMode: 'fillThenStroke' })
 			cbcsCert.setFont('AgencyFB').setFontSize(48).setTextColor('#72c7ef').text(regDate.toUpperCase(), 915, 660, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 200, renderingMode: 'fillThenStroke' })
 			cbcsCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('TARIKH DAFTAR', 915, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 
-      if (call.match(/113MSOGK|91KMEGG/g)) {
+			if (call.match(/113MSOGK|91KMEGG/g)) {
 				cbcsCert.addImage('/assets/image/certs/lgx_sign.png', 'PNG', 580, 575, 150, 150)
 				cbcsCert.setFont('AgencyFB').setFontSize(30).setTextColor('black').text('HAFIZI RUSLAN\nSETIAUSAHA RoIPMARS', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 			} else if (call.match(/\d{1,3}KM.{1,}/g)) {
@@ -124,18 +126,35 @@ $(document).ready(function () {
 
 			cbcsCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY / KOPDARMOBILE.ID', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			cbcsCert.setFont('HYPost-Light').setFontSize(10).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			cbcsCert.setFont('OpenSansCondensed-Regular').setFontSize(10).setTextColor('black').text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 528, 780, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			cbcsCert.setFont('KodeMono-Regular').setFontSize(10).setTextColor('black').text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-      cbcsCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
+			cbcsCert
+				.setFont('OpenSansCondensed-Regular')
+				.setFontSize(10)
+				.setTextColor('black')
+				.text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 528, 780, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+			cbcsCert
+				.setFont('KodeMono-Regular')
+				.setFontSize(10)
+				.setTextColor('black')
+				.text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, {
+					align: 'center',
+					baseline: 'middle',
+					lineHeightFactor: 1,
+					maxWidth: 800,
+				})
+			cbcsCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
 
 			let fileName = `RoIPMARS-CB_${call}`
-			cbcsCert.setFileId(crypto.randomUUID()).setCreationDate(new Date()).setLanguage('ms-MY').setDocumentProperties({
-				title: `${fileName}`,
-				subject: `${id} - ${call}`,
-				author: document.querySelector('meta[name="author"]').content,
-				keywords: document.querySelector('meta[name="keywords"]').content,
-				creator: 'RoIPMARS CB Cert generator',
-			})
+			cbcsCert
+				.setFileId(crypto.randomUUID())
+				.setCreationDate(new Date())
+				.setLanguage('ms-MY')
+				.setDocumentProperties({
+					title: `${fileName}`,
+					subject: `${id} - ${call}`,
+					author: document.querySelector('meta[name="author"]').content,
+					keywords: document.querySelector('meta[name="keywords"]').content,
+					creator: 'RoIPMARS CB Cert generator',
+				})
 
 			toastInfo.innerHTML = `<div class='toast-body'>Certificate Ready!</div>`
 			msgInfo.show()
@@ -148,7 +167,7 @@ $(document).ready(function () {
 			} catch (err) {
 				callCtc = ''
 			}
-			let WaCtc = prompt(`fill your contact number (including country code without plus sign), ex: 601234567890, if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
+			let WaCtc = prompt(`fill your contact number (INCLUDING country code WITHOUT plus sign; example: 601234567890) if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
 			if (WaCtc == null || WaCtc == '') {
 				toastSuccess.innerHTML = `<div class='toast-body'>${fileName} saved.\ncheck your 'downloads' folder.</div>`
 				msgSuccess.show()

@@ -3,13 +3,6 @@
 
   <head>
     <title>RoIPMARS Network | App Login</title>
-    <meta charset='utf-8'>
-    <meta http-equiv='Content-Type' content='text/html'>
-    <meta http-equiv='content-language' content='ms-MY'>
-    <meta name='language' content='Malay'>
-    <meta name='author' content='HafiziRuslan'>
-    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
-    <meta name='robots' content='index, follow'>
   </head>
 
   <body>
@@ -43,6 +36,6 @@
     </main>
     <?php require_once 'footermin.php' ?>
     <script src='/assets/js/applogin.js'></script>
-    </body>
+  </body>
 
 </html>

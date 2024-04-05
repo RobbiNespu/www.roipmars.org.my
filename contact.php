@@ -27,7 +27,7 @@
           sitekey: '0x4AAAAAAABo4nJ8nQ9QZgbE',
           callback: function (token) {
             console.log(`Challenge Success ${token}`)
-            window.open('https://api.roipmars.org.my/hook/7983dec6-39c4-477e-b79a-2db6d1886f9e/n8n-form')
+            window.open('https://api.roipmars.org.my/hook/roipmars-ctc/n8n-form')
           }
         })
       }

@@ -19,7 +19,7 @@
       <div class='row'>
         <p class='text-center font-weight-bold h3 fs-2'>PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;ROIP&lpar;RADIO OVER INTERNET PROTOCOL&rpar;&rpar;<br><sup>PPM-006-10-01062020</sup></p>
         <div class='col-lg-7 mb-3'>
-          <h4 class='h4 text-center'>Kelebihan Keahlian RoIPMARS&#8480;</h4>
+          <h4 class='h4 text-center'>Kelebihan Keahlian RoIPMARS</h4>
           <ul class='list-group list-group-numbered align-middle'>
             <li class='list-group-item'>Memiliki hak bersama dalam semua perkhidmatan yang disediakan persatuan</li>
             <li class='list-group-item'>Menjadi fasilitator perkhidmatan melalui kursus secara lantikan dari jawatankuasa</li>

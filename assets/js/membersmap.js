@@ -78,7 +78,7 @@ L.control.worldMiniMap({
   view: 'square',
   style: { opacity: 0.4, border: '0px transparent', borderRadius: '30px' }
 }).addTo(map)
-var marsattr = '<a href="https://www.roipmars.org.my">RoIPMARS&#8480;</a>'
+var marsattr = '<a href="https://www.roipmars.org.my">RoIPMARS</a>'
 var marsMemIcon = L.icon({ iconUrl: '/assets/icon/android-chrome-36x36.png', iconSize: [32, 32] })
 var marsGateIcon = L.icon({ iconUrl: 'https://img.icons8.com/plasticine/100/null/radio-tower.png', iconSize: [28, 28] })
 var attrPopup = { closeButton: false, attribution: marsattr }

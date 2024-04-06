@@ -108,17 +108,28 @@
               echo 'Kemaskini: ' . datefmt_format($dtfmt, $fileindir) . '<br>IP Anda: ' . getVisitorIp();
             ?></span></p>
           </div>
+          <div class='modal fade' id='serverstats' tabindex='-1' aria-labelledby='serverstatus' aria-hidden='true'>
+            <div class='modal-dialog modal-xl'>
+              <div class='modal-content'>
+                <div class='modal-header'>
+                  <h4 class='modal-title' id='serverstatus'></h4>
+                  <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
+                </div>
+                <div class='modal-body'></div>
+              </div>
+            </div>
+          </div>
           <div class='col-md-12 my-0'>
-            <p class='text-center font-monospace text-body-tertiary lh-1'>&copy;2014&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. RoIPMARS&#8480; &#124; PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;RoIP&rpar; PPM-006-10-01062020</p>
+            <p class='text-center font-monospace text-body-tertiary lh-1'>&copy;2014&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. RoIPMARS &#124; PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;RoIP&rpar; PPM-006-10-01062020</p>
           </div>
         </div>
       </div>
     </footer>
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js' crossorigin='anonymous'></script>
-    <!-- <script src='/assets/js/server-status.js'></script> -->
     <script src='/assets/js/theme.js'></script>
     <script src='/assets/js/sources.js'></script>
+    <script src=/assets/js/server-status.js></script>
   </body>
 
 </html>

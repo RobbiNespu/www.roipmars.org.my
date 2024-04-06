@@ -12,8 +12,8 @@ if (location.port) {
 	var currentPort = ''
 }
 let currentHost = location.protocol + '//' + location.hostname + currentPort
-let currentURL = location.href
-let docTitle = document.querySelector('title').textContent
+let currentURL = document.URL
+let docTitle = document.title
 let docPar = document.querySelectorAll('p')
 let list = [].slice.call(docPar)
 let innertext = list.map(function (e) { return e.innerText }).join(' ')
@@ -57,12 +57,11 @@ const favIcons = `<link rel="apple-touch-icon" sizes="180x180" href="${currentHo
 <meta name="msapplication-TileImage" content="${currentHost}/assets/image/icon/mstile-144x144.png">\
 <meta name="msapplication-config" content="${currentHost}/assets/image/icon/browserconfig.xml">\
 <meta name="theme-color" content="#ffffff">`
-document.querySelector('head').insertAdjacentHTML('afterbegin', meta + favIcons)
+document.head.insertAdjacentHTML('afterbegin', meta + favIcons)
 
-const bodyStartLinks =
-	'<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>\
+const bodyStartLinks = `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>\
 <div id="fb-root"></div>\
 <div id="fb-customer-chat" class="fb-customerchat"></div>\
 <script>var chatbox = document.getElementById("fb-customer-chat"); chatbox.setAttribute("page_id", "100870702762488"); chatbox.setAttribute("attribution", "biz_inbox");</script>\
-<script>window.fbAsyncInit = function() {FB.init({xfbml: true,version: "v18.0"}); }; (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;js.src = "https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js"; fjs.parentNode.insertBefore(js, fjs); }(document, "script", "facebook-jssdk"));</script>'
-document.querySelector('body').insertAdjacentHTML('afterbegin', bodyStartLinks)
+<script>window.fbAsyncInit = function() {FB.init({xfbml: true,version: "v18.0"}); }; (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;js.src = "https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js"; fjs.parentNode.insertBefore(js, fjs); }(document, "script", "facebook-jssdk"));</script>`
+document.body.insertAdjacentHTML('afterbegin', bodyStartLinks)

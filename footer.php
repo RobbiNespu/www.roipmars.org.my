@@ -5,7 +5,10 @@
   </head>
 
   <body>
-    <button id='scrollToTop' class='btn position-fixed bottom-0 start-0'><i class='bi-chevron-double-up fs-1'></i></button>
+    <div class='d-flex justify-content-start position-fixed bottom-0 start-0'>
+      <button id='scrollToTop' class='btn'><i class='bi-chevron-double-up fs-1'></i></button>
+      <button id='checkserverstatus' class='btn d-none d-lg-block' data-bs-toggle='modal' data-bs-target='#serverstats'><i class='bi-server fs-1'></i></button>
+    </div>
     <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
       <div class='container'>
         <div class='row mt-2'>

@@ -30,7 +30,7 @@
         <div class='col-lg-4 text-center'>
           <h2>Jalur</h2>
           <p class='mb-0'>Berdasarkan Akta Komunikasi &amp; Multimedia 1998 &lpar;Akta 588&rpar;, berikut merupakan senarai jalur yang dibenarkan untuk penggunaan Jalur Rakyat di Malaysia</p>
-          <p class='alert alert-success'><a href='member' class='text-decoration-none'>Pihak Pengurusan Kumpulan RoIPMARS</a> telah bersetuju untuk menyelaraskan komunikasi radio dua hala <a href='cbmars' class='text-decoration-none'>Jalur Rakyat RoIPMARS</a><br><strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>HF: 27.305MHz USB</strong>;<strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>UHF: 446.05625MHz FM</strong></p>
+          <p class='alert alert-success'><a href='member' class='text-success-emphasis text-decoration-none'>Pengurusan RoIPMARS</a> telah menyelaraskan penggunaan dengan tujuan komunikasi pada <a href='cbmars' class='text-success-emphasis text-decoration-none'>Jalur Rakyat RoIPMARS</a><br><strong style='font-family: tekton-pro, sans-serif;font-weight: 700;font-style: normal;'>HF: CH30 27.305MHz USB<br>UHFA: CH5 446.05625MHz FM<br>UHFD: CH10 446.159375MHz 4FSK</strong></p>
           <div class='hstack gap-1'>
             <h3 class='text-secondary'>HF &lpar;CB&rpar; - 27MHz</h3>
             <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-27cb-modal-xl'>27 CB</button>
@@ -199,6 +199,11 @@
             </div>
           </div>
   -->
+        <hr>
+        <div class='col-auto'>
+          <div id='cblive'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
+          <div id='cblive-audio'></div>
+        </div>
         </div>
       </div>
       <hr>
@@ -656,6 +661,7 @@
 		<script src='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-2.0.3/af-2.7.0/b-3.0.1/b-colvis-3.0.1/b-html5-3.0.1/b-print-3.0.1/cr-2.0.0/date-1.5.2/fc-5.0.0/fh-4.0.1/kt-2.12.0/r-3.0.0/rg-1.5.0/rr-1.5.0/sc-2.4.1/sb-1.7.0/sp-2.3.0/sl-2.0.0/sr-1.4.0/datatables.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.js' crossorigin='anonymous'></script>
     <script src='/assets/js/cbpre.js'></script>
+    <script src='/assets/js/bcfy-stat.js'></script>
   </body>
 
 </html>

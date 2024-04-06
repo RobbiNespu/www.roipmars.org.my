@@ -41,8 +41,8 @@
                 <p class='card-title fs-2 fw-bold'>HAFIZI RUSLAN <a href='https://www.mhrtech.my/cv'><i class='bi-info-circle-fill'></i></a></p>
                 <p class='card-subtitle fs-5 fw-semibold'>CO-FOUNDER, NETWORK DEV &amp; ADMIN</p>
                 <p class='card-subtitle fs-5 fw-bolder'>PENGASAS BERSAMA, PEMBANGUN &amp; PENTADBIR RANGKAIAN</p>
-                <p class='card-subtitle fw-light'>&lbrack;2019&rbrack; Dilantik oleh RoIPMARS&#8480; sebagai penyelenggara &amp; pengelola rangkaian</p>
-                <p class='card-subtitle fw-light'>&lbrack;2021&rbrack; Memulakan sambungan Rangkaian RoIPMARS&#8480; ke seluruh dunia</p>
+                <p class='card-subtitle fw-light'>&lbrack;2019&rbrack; Dilantik oleh RoIPMARS sebagai penyelenggara &amp; pengelola rangkaian</p>
+                <p class='card-subtitle fw-light'>&lbrack;2021&rbrack; Memulakan sambungan Rangkaian RoIPMARS ke seluruh dunia</p>
               </div>
             </div>
             <div class='col-3 col-lg-2 align-self-center'>

@@ -12,24 +12,28 @@ if (location.port) {
 	var currentPort = ''
 }
 let currentHost = location.protocol + '//' + location.hostname + currentPort
+let currentDomain = location.hostname
 let currentURL = document.URL
 let docTitle = document.title
 let docPar = document.querySelectorAll('p')
 let list = [].slice.call(docPar)
 let innertext = list.map(function (e) { return e.innerText }).join(' ')
-let docDesc = (document.querySelector('h1').textContent + ' | ' + innertext).slice(0, 150)
+let docDesc = (document.querySelector('h1').textContent + ' | ' + innertext).slice(0, 155)
 const meta = `<base href="${currentHost}">\
 <meta charset="utf-8">\
 <meta http-equiv="Content-Type" content="text/html">\
 <meta http-equiv="content-language" content="ms-MY">\
 <meta http-equiv="Accept-CH" content="Sec-CH-DPR, Sec-CH-Width">\
-<meta name="language" content="Malay">\
-<meta name="author" content="HafiziRuslan">\
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">\
-<meta name="robots" content="all">\
+<!-- Primary Meta Tags -->\
 <meta name="title" content="${docTitle}">\
 <meta name="description" content="${docDesc}">\
 <meta name="keywords" content="roipmars,teamspeak3 malaysia,teamspeak,radio amatur,amateur radio over internet,radio over internet protocol,voice over internet protocol,roip,viop,cb band malaysia,citizen band,jalur rakyat">\
+<meta name="author" content="HafiziRuslan">\
+<meta name="language" content="Malay">\
+<meta name="color-scheme" content="auto">\
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">\
+<meta name="robots" content="all">\
+<!-- Open Graph / Facebook -->\
 <meta property="og:site_name" content="RoIPMARS Network">\
 <meta property="og:title" content="${docTitle}">\
 <meta property="og:description" content="${docDesc}">\
@@ -37,12 +41,13 @@ const meta = `<base href="${currentHost}">\
 <meta property="og:image" content="${currentHost}/assets/image/icon/favicon-194x194.png">\
 <meta property="og:type" content="website">\
 <meta property="og:locale" content="ms-MY">\
+<!-- Twitter -->\
 <meta name="twitter:title" content="${docTitle}">\
 <meta name="twitter:description" content="${docDesc}">\
+<meta name="twitter:domain" content="${currentDomain}">\
 <meta name="twitter:url" content="${currentURL}">\
 <meta name="twitter:image" content="${currentHost}/assets/image/icon/favicon-194x194.png">\
-<meta name="twitter:creator" content="@HafiziRuslan">\
-<meta name="color-scheme" content="auto">`
+<meta name="twitter:creator" content="@HafiziRuslan">`
 const favIcons = `<link rel="apple-touch-icon" sizes="180x180" href="${currentHost}/assets/image/icon/apple-touch-icon.png">\
 <link rel="icon" type="image/png" sizes="32x32" href="${currentHost}/assets/image/icon/favicon-32x32.png">\
 <link rel="icon" type="image/png" sizes="194x194" href="${currentHost}/assets/image/icon/favicon-194x194.png">\

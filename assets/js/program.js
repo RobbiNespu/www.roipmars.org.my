@@ -1,5 +1,4 @@
 const UsrT = document.getElementById('UserTime')
-const UsrTZ = Intl.DateTimeFormat().resolvedOptions().timeZone
 function UsrLive() {
 	UsrT.textContent = new Intl.DateTimeFormat('ms-MY', {
 		formatMatcher: 'basic',
@@ -10,13 +9,14 @@ function UsrLive() {
 		hour: 'numeric',
 		minute: '2-digit',
 		second: '2-digit',
+		fractionalSecondDigits: 3,
 		dayPeriod: 'narrow',
 		timeZoneName: 'shortGeneric',
 		hour12: false,
-		timeZone: UsrTZ,
+		timeZone: UserTZ,
 	}).format(new Date())
 }
-setInterval(UsrLive, 1000)
+setInterval(UsrLive, 1)
 const UTC = document.getElementById('ZuluTime')
 function utcLive() {
 	UTC.textContent = new Intl.DateTimeFormat('en-MY', {
@@ -28,12 +28,13 @@ function utcLive() {
 		hour: 'numeric',
 		minute: '2-digit',
 		second: '2-digit',
+		fractionalSecondDigits: 3,
 		timeZoneName: 'short',
 		hour12: false,
 		timeZone: 'UTC',
 	}).format(new Date())
 }
-setInterval(utcLive, 1000)
+setInterval(utcLive, 1)
 
 // 'use strict';
 $(document).ready(function () {
@@ -584,8 +585,8 @@ $(document).ready(function () {
 				.trim()
 				.replaceAll(/\^1|\^2/g, '')
 			const takwimncs = takwimrowdata.NCS.split('|')[0].trim()
-			const reportTitle = `Laporan ${takwimact} pada ${takwimday}, ${takwimdate} ${takwimtime} bersama ${takwimncs}`
-			modalTitle.textContent = reportTitle
+			const reportTitle = `Laporan ${takwimact}\npada ${takwimday}, ${takwimdate} ${takwimtime}\nbersama ${takwimncs}`
+			modalTitle.innerText = reportTitle
 			const reportID = `net-${source}`
 			netReport.id = reportID
 			var netReportTable = $('#' + reportID).DataTable({
@@ -600,12 +601,12 @@ $(document).ready(function () {
 						extend: 'pdfHtml5',
 						download: 'download',
 						className: 'mb-3 rounded-3',
-						text: `Laporan Aktiviti ${takwimdate}, ${takwimtime}`,
+						text: `Laporan Penuh Aktiviti<br>${takwimdate}, ${takwimtime}`,
 						filename: `RoIPMARS-Net_${source}`,
-						title: `${reportTitle}`,
+						title: `${reportTitle.replaceAll('\n', ' ')}`,
 						messageBottom: [
 							{
-								text: 'RF->Radio Transceiver | EL->EchoLink | TS->TeamSpeak | ZL->Zello | MBL->Mumble | FRN->Free Radio Network\nPNT->Peanut for HAM | DC->Discord | TG->Telegram | TT->Team Talk | WA->WhatsApp',
+								text: 'RF->Radio Transceiver | EL->EchoLink | TS->TeamSpeak | MBL->Mumble | FRN->Free Radio Network\nPNT->Peanut for HAM | DC->Discord | TG->Telegram | TT->Team Talk | WA->WhatsApp | ZL->Zello',
 								alignment: 'center',
 								fontSize: 8,
 							},
@@ -620,12 +621,28 @@ $(document).ready(function () {
 								(doc['footer'] = function (currentPage, pageCount) {
 									return [
 										{
-											text: `© ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via web on ${new Date().toISOString()} | ${currentPage.toString()} of ${pageCount}`,
+											text: `(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()} | ${currentPage.toString()} of ${pageCount}`,
 											alignment: 'center',
-											fontSize: 8,
+											fontSize: 7,
 										},
 									]
-								})
+								}),
+								((doc.content[2].table.widths = Array(doc.content[2].table.body[0].length + 1)
+									.join('*')
+									.split('')),
+								(doc.defaultStyle = {
+									alignment: 'center',
+									fontSize: 11,
+									margin: 0,
+								}),
+								(doc.info = {
+									title: `${reportTitle}`,
+									subject: `Laporan Penuh Aktiviti ${takwimdate}, ${takwimtime}`,
+									author: document.querySelector('meta[name="author"]').content,
+									keywords: document.querySelector('meta[name="keywords"]').content,
+									creator: 'RoIPMARS Report generator',
+									modDate: new Date(),
+								}))
 						},
 					},
 				],

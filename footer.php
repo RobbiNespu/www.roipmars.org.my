@@ -7,7 +7,7 @@
   <body>
     <div class='d-flex justify-content-start position-fixed bottom-0 start-0'>
       <button id='scrollToTop' class='btn'><i class='bi-chevron-double-up fs-1'></i></button>
-      <button id='checkserverstatus' class='btn d-none d-lg-block' data-bs-toggle='modal' data-bs-target='#serverstats'><i class='bi-server fs-1'></i></button>
+      <button id='checkserverstatus' class='btn d-none d-md-block' data-bs-toggle='modal' data-bs-target='#serverstats'><i class='bi-server fs-1'></i></button>
     </div>
     <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
       <div class='container'>
@@ -51,6 +51,7 @@
     </footer>
     <script src='/assets/js/donate.js'></script>
     <script src='/assets/js/stt.js'></script>
+    <script src='/assets/js/server-status.js'></script>
   </body>
 
 </html>

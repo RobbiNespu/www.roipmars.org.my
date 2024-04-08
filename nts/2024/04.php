@@ -26,19 +26,19 @@
           </tr>
           <tr>
             <th>Halaman berkaitan</th>
-            <td><a href='https://dl.roipmars.org.my/#files%2Fcertificates' target='_blank' rel='noopener'>dl.roipmars.org.my > files > certificates</a></td>
+            <td><a href='https://dl.roipmars.org.my/#files%2Fcertificates' target='_blank'>dl.roipmars.org.my > files > certificates</a></td>
           </tr>
           <tr>
             <th>Halaman sumber</th>
             <td><ul>
-              <li><a href='./program' target='_blank' rel='noopener'>Jadual Aktiviti &amp; Program</a></li>
-              <li><a href='./cbmars' target='_blank' rel='noopener'>Jalur Rakyat RoIPMARS</a></li>
-              <li><a href='./member' target='_blank' rel='noopener'>Keahlian RoIPMARS</a></li>
+              <li><a href='./program' target='_blank'>Jadual Aktiviti &amp; Program</a></li>
+              <li><a href='./cbmars' target='_blank'>Jalur Rakyat RoIPMARS</a></li>
+              <li><a href='./member' target='_blank'>Keahlian RoIPMARS</a></li>
             </ul></td>
           </tr>
         </tbody>
       </table>
-      <p>Buat masa ini, semua fail sijil &amp; eQSL siap masih boleh didapati di <a href='https://dl.roipmars.org.my/#files%2Fcertificates' target='_blank' rel='noopener'>dl.roipmars.org.my</a> sehingga tarikh diatas. Selepas pada tarikh diatas, segala fail sijil &amp; eQSL akan dialihkan ke pelayan pihak ketiga iaitu <a href='https://archived.mhrtech.my' target='_blank' rel='noopener'>archived.mhrtech.my</a>. Dalam masa yang sama, semua eQSL yang dihantar ke bahagian rekod tidak lagi wajib seperti sebelum ini, pembuatan &amp; pengedarannya adalah tanggungjawab NCS sendiri dan pihak ketiga &lpar;seperti diatas&rpar; tidak memberi jaminan bahawa semua fail yang dihantar akan dimuatnaik ke pelayan tersebut.</p>
+      <p>Buat masa ini, semua fail sijil &amp; eQSL siap masih boleh didapati di <a href='https://dl.roipmars.org.my/#files%2Fcertificates' target='_blank'>dl.roipmars.org.my</a> sehingga tarikh diatas. Selepas pada tarikh diatas, segala fail sijil &amp; eQSL akan dialihkan ke pelayan pihak ketiga iaitu <a href='https://archived.mhrtech.my' target='_blank'>archived.mhrtech.my</a>. Dalam masa yang sama, semua eQSL yang dihantar ke bahagian rekod tidak lagi wajib seperti sebelum ini, pembuatan &amp; pengedarannya adalah tanggungjawab NCS sendiri dan pihak ketiga &lpar;seperti diatas&rpar; tidak memberi jaminan bahawa semua fail yang dihantar akan dimuatnaik ke pelayan tersebut.</p>
       <p>Namun yang demikian, anda boleh mula menggunakan penjana sijil yang telah diskripkan pada halaman sumber seperti diatas dengan memilih dan klik pada baris data pilihan anda.</p>
       <p>Pihak Pengurusan Rangkaian Kumpulan RoIPMARS memohon maaf atas kesulitan yang bakal dihadapi demi seluruh kelansungan Rangkaian Kumpulan RoIPMARS.</p>
       <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2404'>member@roipmars.org.my</a>

@@ -89,7 +89,7 @@
                       </tbody>
                     </table>
                     <p class='m-0'>Sekiranya anda tidak berjaya log masuk ke pelayan Rangkaian RoIPMARS &lbrack;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&rbrack;, berkemungkinan sumber perisian yang digunakan tidak menyokong fungsi &apos;DNS&apos;.</p>
-                    <p class='m-0'>Disarankan untuk memasang aplikasi dari <a href='https://sl.roipmars.org.my/zlee24' target='_blank' rel='noopener'>Google Play Store</a> / <a href='https://sl.roipmars.org.my/0e3qul' target='_blank' rel='noopener'>Apple App Store</a> / <a href='https://sl.roipmars.org.my/qudkou' target='_blank' rel='noopener'>Microsoft Store</a>.</p>
+                    <p class='m-0'>Disarankan untuk memasang aplikasi dari <a href='https://sl.roipmars.org.my/zlee24' target='_blank'>Google Play Store</a> / <a href='https://sl.roipmars.org.my/0e3qul' target='_blank'>Apple App Store</a> / <a href='https://sl.roipmars.org.my/qudkou' target='_blank'>Microsoft Store</a>.</p>
                     <p class='m-0'>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='https://sl.roipmars.org.my/qinlu6' download>ts-3.0.3.1.apk</a></p>
                     <p class='m-0'>Pihak Pentadbir Rangkaian RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
                   </div>
@@ -230,14 +230,14 @@
                       <h5 class='text-center'>CLASS ASSIGNMENT NO. 2 OF 2022</h5>
                       <p>IN exercise of the powers conferred by section 169 of the Communications and Multimedia Act 1998 [Act 588] ("Act"), the Commission issues class assignments which confers rights on any person to use the frequency bands for the following devices:</p>
                       <p>(4) personal radio service ("PRS") device as specified in the Fourth Schedule;</p>
-                      <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=5' target='_blank' rel='noopener'>Baca Lanjut...</a>
+                      <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=5' target='_blank'>Baca Lanjut...</a>
                       <hr>
                       <h4 class='text-center'>FOURTH SCHEDULE</h4>
                       <h5 class='text-center'>Class Assignment for Personal Radio Service Device</h5>
                       <p>1. Definition</p>
                       <p>(1) In this class assignment, "PRS device" means a two-way radiocommunications device operating in the designated frequency bands.</p>
                       <p>(2) Subject to subparagraph 1(1) of this schedule, all terminologies of an absolute technical nature shall have the same meaning as provided in the International Telecommunication Convention.</p>
-                      <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=23' target='_blank' rel='noopener'>Baca Lanjut...</a>
+                      <a href='https://www.mcmc.gov.my/skmmgovmy/media/General/registers/cma/Class-Assignment-No-2-of-2022.pdf#page=23' target='_blank'>Baca Lanjut...</a>
                     </div>
                   </div>
                 </div>

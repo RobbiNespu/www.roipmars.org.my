@@ -20,7 +20,7 @@
       <div class='row'>
         <div class='col-lg-5 p-2 text-center align-self-center' id='regind'>
           <h4>Permohonan CS Individu CB RoIPMARS Group</h4>
-          <a type='button' class='btn btn-block btn-outline-primary rounded-3 fw-bold' href='https://forms.gle/hxFgHW3S5S3hqGg49' target='_blank' rel='noopener'>Borang permohonan Isyarat Panggilan Jalur Rakyat Individu<br>Kumpulan Rangkaian RoIPMARS</a>
+          <a type='button' class='btn btn-block btn-outline-primary rounded-3 fw-bold' href='https://forms.gle/hxFgHW3S5S3hqGg49' target='_blank'>Borang permohonan Isyarat Panggilan Jalur Rakyat Individu<br>Kumpulan Rangkaian RoIPMARS</a>
           <p class='fw-light'>Sumbangan bernilai RM 10.00 &lpar;minimum&rpar; digalakkan untuk setiap permohonan isyarat panggilan individu.</p>
         </div>
         <!--
@@ -28,7 +28,7 @@
         <div class='col-5 p-2 text-end' id='regate'>
           <h4>Permohonan CS Gateway CB MARS Group</h4>
           <p class='fw-light'>Yuran permohonan berupa sumbangan RM 10.00 &lpar;minimum&rpar; diperlukan untuk permohonan isyarat panggilan Radio Gateway.</p>
-          <a type='button' class='btn btn-secondary disabled' aria-disabled='true' href='https://forms.gle/3oX7RdKMF79oSiBo7' target='_blank' rel='noopener'>Borang permohonan Isyarat Panggilan Jalur Rakyat Radio Gateway<br>Kumpulan Rangkaian RoIPMARS</a>
+          <a type='button' class='btn btn-secondary disabled' aria-disabled='true' href='https://forms.gle/3oX7RdKMF79oSiBo7' target='_blank'>Borang permohonan Isyarat Panggilan Jalur Rakyat Radio Gateway<br>Kumpulan Rangkaian RoIPMARS</a>
         </div>
       -->
         <div class='col-lg-7 mt-1'>
@@ -41,12 +41,12 @@
               <tr>
                 <td><span class='badge bg-primary-subtle rounded-3'>113MSxxx</span> <span class='badge bg-primary-subtle rounded-3'>58MSxxx</span><br><span class='badge bg-primary-subtle rounded-3'>91MSxxx</span> <span class='badge bg-primary-subtle rounded-3'>225MSxxx</span> <span class='badge bg-primary-subtle rounded-3'>153MSxxx</span></td>
                 <td>RoIPMARS</td>
-                <td><a type='button' class='btn btn-success rounded-5' href='https://wa.me/60134009222' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 113MSOGK</a></td>
+                <td><a type='button' class='btn btn-success rounded-5' href='https://wa.me/60134009222' target='_blank'><i class='bi-whatsapp'></i> 113MSOGK</a></td>
               </tr>
               <tr>
                 <td><span class='badge bg-danger-subtle rounded-3'>91KMxxx</span></td>
                 <td>KOPDARMOBILE</td>
-                <td><a type='button' class='btn btn-success rounded-5' href='https://wa.me/6281323111121' target='_blank' rel='noopener'><i class='bi-whatsapp'></i> 91KMEGG</a></td>
+                <td><a type='button' class='btn btn-success rounded-5' href='https://wa.me/6281323111121' target='_blank'><i class='bi-whatsapp'></i> 91KMEGG</a></td>
               </tr>
             </tbody>
           </table>

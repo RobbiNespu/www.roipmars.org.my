@@ -171,10 +171,10 @@
 						</capton>
 					</table>
 					<div class='modal fade' id='netrep' tabindex='-1' aria-labelledby='netreport' aria-hidden='true'>
-						<div class='modal-dialog modal-dialog-centered modal-xl'>
+						<div class='modal-dialog modal-dialog-centered modal-md'>
 							<div class='modal-content shadow'>
 								<div class='modal-header'>
-									<h4 class='modal-title text-center lh-1' id='netreport'>Laporan Aktiviti</h4>
+									<h4 class='modal-title text-center mx-auto lh-1' id='netreport'>Laporan Aktiviti</h4>
 									<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
 								</div>
 								<div class='modal-body'>

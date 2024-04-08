@@ -109,13 +109,15 @@
             ?></span></p>
           </div>
           <div class='modal fade' id='serverstats' tabindex='-1' aria-labelledby='serverstatus' aria-hidden='true'>
-            <div class='modal-dialog modal-xl'>
+            <div class='modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable'>
               <div class='modal-content'>
                 <div class='modal-header'>
-                  <h4 class='modal-title' id='serverstatus'></h4>
+                  <h4 class='modal-title mx-auto lh-1' id='serverstatus'></h4>
                   <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                 </div>
-                <div class='modal-body'></div>
+                <div class='modal-body'>
+                  <div class='spinner-border spinner-border-lg' role='status'><span class='visually-hidden'>Loading...</span></div>
+                </div>
               </div>
             </div>
           </div>
@@ -129,7 +131,6 @@
     <script src='https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js' crossorigin='anonymous'></script>
     <script src='/assets/js/theme.js'></script>
     <script src='/assets/js/sources.js'></script>
-    <script src='/assets/js/server-status.js'></script>
   </body>
 
 </html>

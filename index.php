@@ -21,7 +21,7 @@
       <div class='row text-center'>
         <div class='col-sm'>
           <i class='fa-solid fa-tower-broadcast fa-7x'></i>
-          <p>Yang Terhebat dari semua Hobi Saintifik<br><a class='text-decoration-none' href='https://www.iaru-r3.org/' target='_blank' rel='nofollow'>Kesatuan Radio Amatur Antarabangsa Wilayah 3</a> | <a class='text-decoration-none' href='https://www.mcmc.gov.my/ms/home' target='_blank' rel='nofollow'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia</a> | <a class='text-decoration-none' href='https://marts.org.my/' target='_blank' rel='nofollow'>Persatuan Pemancar Radio Amatur Malaysia</a></p>
+          <p>Yang Terhebat dari semua Hobi Saintifik<br><a class='text-decoration-none' href='https://www.iaru-r3.org' target='_blank' rel='external'>Kesatuan Radio Amatur Antarabangsa Wilayah 3</a> | <a class='text-decoration-none' href='https://www.mcmc.gov.my/ms/home' target='_blank' rel='external'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia</a> | <a class='text-decoration-none' href='https://marts.org.my' target='_blank' rel='external'>Persatuan Pemancar Radio Amatur Malaysia</a></p>
         </div>
       </div>
       <div class='row text-center'>
@@ -95,22 +95,22 @@
         <div class='col-lg-4 my-1'>
           <div class='btn-group-vertical d-flex rounded-3' role='group'>
             <div class='btn btn-secondary disabled text-center bg-dark-subtle'>Bacaan Lanjut</div>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.arrl.org/files/file/VoIP.pdf' target='_blank' rel='nofollow' download><i class='bi-file-earmark-pdf'></i> VoIP dan Radio Amatur &ndash; ARRL</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Guidelines-for-Amateur-Radio-Service-in-Malaysia-3rd-Edition.pdf' target='_blank' rel='nofollow' download><i class='bi-file-earmark-pdf'></i> Garis Panduan Perkhidmatan Radio Amatur Di Malaysia &ndash; MCMC</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Guideline-on-the-Allocation-of-Call-Sign-to-the-Amateur-Radio-Service.pdf' target='_blank' rel='nofollow' download><i class='bi-file-earmark-pdf'></i> Garis Panduan Mengenai Peruntukan Tanda Panggilan Untuk Perkhidmatan Radio Amatur Di Malaysia &ndash; MCMC</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Amateur-Radio-Handbook-1st-Edition.pdf' target='_blank' rel='nofollow' download><i class='bi-file-earmark-pdf'></i> Buku Panduan Radio Amatur Di Malaysia &ndash; MCMC</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://sems.mcmc.gov.my/sems/exams/examinfo' target='_blank' rel='nofollow'>Sistem Pengurusan Peperiksaan SKMM &lpar;SEMS&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Form-AMATEUR-SERVICE_v2018_ISO.pdf' target='_blank' rel='nofollow' download><i class='bi-file-earmark-pdf'></i> Borang Permohonan Tugasan Radas Amatur &ndash; MCMC</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.arrl.org/files/file/VoIP.pdf' target='_blank' rel='external' download><i class='bi-file-earmark-pdf'></i> VoIP dan Radio Amatur &ndash; ARRL</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Guidelines-for-Amateur-Radio-Service-in-Malaysia-3rd-Edition.pdf' target='_blank' rel='external' download><i class='bi-file-earmark-pdf'></i> Garis Panduan Perkhidmatan Radio Amatur Di Malaysia &ndash; MCMC</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Guideline-on-the-Allocation-of-Call-Sign-to-the-Amateur-Radio-Service.pdf' target='_blank' rel='external' download><i class='bi-file-earmark-pdf'></i> Garis Panduan Mengenai Peruntukan Tanda Panggilan Untuk Perkhidmatan Radio Amatur Di Malaysia &ndash; MCMC</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/Amateur-Radio-Handbook-1st-Edition.pdf' target='_blank' rel='external' download><i class='bi-file-earmark-pdf'></i> Buku Panduan Radio Amatur Di Malaysia &ndash; MCMC</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://sems.mcmc.gov.my/sems/exams/examinfo' target='_blank' rel='external'>Sistem Pengurusan Peperiksaan SKMM &lpar;SEMS&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Form-AMATEUR-SERVICE_v2018_ISO.pdf' target='_blank' rel='external' download><i class='bi-file-earmark-pdf'></i> Borang Permohonan Tugasan Radas Amatur &ndash; MCMC</a>
             <div class='btn-group dropup-center dropup' role='group'>
               <button type='button' class='btn btn-outline-secondary text-secondary-emphasis dropdown-toggle text-wrap' data-bs-toggle='dropdown' data-bs-auto-close='outside' aria-expanded='false'>Bank Soalan &amp; Jawapan ORAE Malaysia 2023 &ndash; MCMC</button>
               <ul class='dropdown-menu rounded-3 fs-4 bg-body-secondary text-center'>
                 <li class='dropdown-header text-white fs-4'>Soalan Dwi-Bahasa &mdash; MCMC</li>
-                <li><a class='dropdown-item icon-link' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-A_v301222.pdf' target='_blank' rel='nofollow' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
-                <li><a class='dropdown-item icon-link' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-B_v301222.pdf' target='_blank' rel='nofollow' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas B <span class='badge bg-success-subtle'>9W</span></a></li>
-                <li><a class='dropdown-item icon-link' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-C_v301222.pdf' target='_blank' rel='nofollow' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas C <span class='badge bg-success-subtle'>9W3</span></a></li>
+                <li><a class='dropdown-item icon-link' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-A_v301222.pdf' target='_blank' rel='external' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
+                <li><a class='dropdown-item icon-link' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-B_v301222.pdf' target='_blank' rel='external' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas B <span class='badge bg-success-subtle'>9W</span></a></li>
+                <li><a class='dropdown-item icon-link' href='https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MCMC-Question-Bank-Class-C_v301222.pdf' target='_blank' rel='external' download><i class='bi-file-earmark-pdf' aria-hidden='true'></i> Soalan Kelas C <span class='badge bg-success-subtle'>9W3</span></a></li>
                 <li><hr class='dropdown-divider'></li>
                 <li class='dropdown-header text-white fs-4'>Jawapan Dwi-Bahasa</li>
-                <li><a class='dropdown-item icon-link' href='https://docs.google.com/spreadsheets/u/8/d/1ds9UTqvW5HDPU-CWn7N58vkkJrxvpbchp5pMkP7eHV4/htmlview' target='_blank' rel='nofollow'><i class='bi-file-earmark-spreadsheet' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
+                <li><a class='dropdown-item icon-link' href='https://docs.google.com/spreadsheets/u/8/d/1ds9UTqvW5HDPU-CWn7N58vkkJrxvpbchp5pMkP7eHV4/htmlview' target='_blank' rel='external'><i class='bi-file-earmark-spreadsheet' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success-subtle'>9M</span></a></li>
                 <li><a class='dropdown-item icon-link' href='https://dl.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classa.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas A <span class='badge bg-success'>9M</span></a></li>
                 <!-- <li><a class='dropdown-item icon-link disabled text-muted' href='https://dl.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classb.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas B <span class='badge bg-success'>9W</span></a></li> -->
                 <li><a class='dropdown-item icon-link' href='https://dl.roipmars.org.my/files/question-bank-skmm/mcmcanswers-classc.pdf' download><i class='bi-file-pdf' aria-hidden='true'></i> Jawapan Kelas C <span class='badge bg-success'>9W3</span></a></li>
@@ -121,28 +121,28 @@
         <div class='col-lg-4 my-1'>
           <div class='btn-group-vertical d-flex rounded-3' role='group'>
             <div class='btn btn-secondary disabled text-center bg-dark-subtle'>Kerjasama Kelab &amp; Persatuan Luar</div>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://marts.org.my' target='_blank' rel='nofollow'>Malaysia Amateur Radio Transmitters&apos; Society &lpar;MARTS&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://mares.org.my' target='_blank' rel='nofollow'>Malaysian Amateur Radio Emergency Service Society &lpar;MARES&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.jasra.org.my' target='_blank' rel='nofollow'>Persatuan Jalur Selatan Radio Amatur Johor &lpar;JASRA&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.astra.name.my' target='_blank' rel='nofollow'>Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &lpar;ASTRA&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.facebook.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063' target='_blank' rel='nofollow'>Radio Emergency &amp; Drone Squad &lpar;REDS&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.facebook.com/krasb.selangor' target='_blank' rel='nofollow'>Komuniti Radio Amatur Sungai Buloh &lpar;KRASB&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.qrz.com/db/9M4CRP' target='_blank' rel='nofollow'>Papar Amateur Radio Club &lpar;PARC&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.borneoamateurradio.org' target='_blank' rel='nofollow'>Borneo Amateur Radio Club &lpar;BARC&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://kopdarmobile.com' target='_blank' rel='nofollow'>KOPDARMOBILE</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://marts.org.my' target='_blank' rel='external'>Malaysia Amateur Radio Transmitters&apos; Society &lpar;MARTS&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://mares.org.my' target='_blank' rel='external'>Malaysian Amateur Radio Emergency Service Society &lpar;MARES&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.jasra.org.my' target='_blank' rel='external'>Persatuan Jalur Selatan Radio Amatur Johor &lpar;JASRA&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.astra.name.my' target='_blank' rel='external'>Persatuan Radio Amator Melayu Semenanjung Utara Malaysia &lpar;ASTRA&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.facebook.com/REDS-Radio-Emergency-Drone-Sarawak-123044475224063' target='_blank' rel='external'>Radio Emergency &amp; Drone Squad &lpar;REDS&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.facebook.com/krasb.selangor' target='_blank' rel='external'>Komuniti Radio Amatur Sungai Buloh &lpar;KRASB&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.qrz.com/db/9M4CRP' target='_blank' rel='external'>Papar Amateur Radio Club &lpar;PARC&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.borneoamateurradio.org' target='_blank' rel='external'>Borneo Amateur Radio Club &lpar;BARC&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://kopdarmobile.com' target='_blank' rel='external'>KOPDARMOBILE</a>
           </div>
         </div>
         <div class='col-lg-4 my-1'>
           <div class='btn-group-vertical d-flex rounded-3' role='group'>
             <div class='btn btn-secondary disabled text-center bg-dark-subtle'>Pautan Luar</div>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.iaru-r3.org' target='_blank' rel='nofollow'>Kesatuan Radio Amatur Antarabangsa &ndash; Wilayah 3</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.kkd.gov.my' target='_blank' rel='nofollow'>Kementerian Komunikasi &amp; Digiital &lpar;KKD&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my' target='_blank' rel='nofollow'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia &lpar;SKMM&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.ros.gov.my' target='_blank' rel='nofollow'>Jabatan Pendaftaran Pertubuhan Malaysia &lpar;JPPM&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://ms.wikipedia.org/wiki/Senarai_persatuan_radio_amatur_di_Malaysia' target='_blank' rel='nofollow'>Senarai Persatuan Radio Amatur Malaysia</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://bruneiamatureradio.blogspot.com' target='_blank' rel='nofollow'>Brunei Darussalam Amateur Radio Association &lpar;BDARA&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://orari.or.id' target='_blank' rel='nofollow'>Organisasi Amatir Radio Indonesia &lpar;ORARI&rpar;</a>
-            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.rast.or.th' target='_blank' rel='nofollow'>Radio Amateur Society of Thailand &lpar;RAST&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.iaru-r3.org' target='_blank' rel='external'>Kesatuan Radio Amatur Antarabangsa &ndash; Wilayah 3</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.kkd.gov.my' target='_blank' rel='external'>Kementerian Komunikasi &amp; Digiital &lpar;KKD&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.mcmc.gov.my' target='_blank' rel='external'>Suruhanjaya Komunikasi &amp; Multimedia Malaysia &lpar;SKMM&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.ros.gov.my' target='_blank' rel='external'>Jabatan Pendaftaran Pertubuhan Malaysia &lpar;JPPM&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://ms.wikipedia.org/wiki/Senarai_persatuan_radio_amatur_di_Malaysia' target='_blank' rel='external'>Senarai Persatuan Radio Amatur Malaysia</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://bruneiamatureradio.blogspot.com' target='_blank' rel='external'>Brunei Darussalam Amateur Radio Association &lpar;BDARA&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://orari.or.id' target='_blank' rel='external'>Organisasi Amatir Radio Indonesia &lpar;ORARI&rpar;</a>
+            <a type='button' class='btn btn-outline-secondary text-secondary-emphasis' href='https://www.rast.or.th' target='_blank' rel='external'>Radio Amateur Society of Thailand &lpar;RAST&rpar;</a>
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@
             <a type='button' class='btn btn-success rounded-pill' data-bs-toggle='modal' data-bs-target='#rosappletModalLong'>Surat Kelulusan Pertubuhan</a>
           </div>
           <div class='vstack gap-1 justify-content-center'>
-            <a type='button' class='btn btn-lg btn-primary rounded-3' href='https://bit.ly/daftarmars' target='_blank' rel='noopener'>Permohonan Keahlian &lpar;Google Form&rpar; <i class='bi-google'></i></a>
+            <a type='button' class='btn btn-lg btn-primary rounded-3' href='https://bit.ly/daftarmars' target='_blank'>Permohonan Keahlian &lpar;Google Form&rpar; <i class='bi-google'></i></a>
             <a type='button' class='btn btn-secondary rounded-3 opacity-50' href='https://dl.roipmars.org.my/files/members/pprk_manualregform.pdf' download>Permohonan Keahlian &lpar;Fail PDF&rpar; <i class='bi-file-earmark-pdf'></i></a>
           </div>
           <div class='modal fade' id='roscertModalLong' tabindex='-1' role='dialog' aria-labelledby='roscertModalTitle' aria-hidden='true'>

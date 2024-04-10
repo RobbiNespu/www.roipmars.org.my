@@ -132,9 +132,9 @@ modal.addEventListener('show.bs.modal', (event) => {
 			}
 			getAllImg[i].src = imgwithrand
 		}
-		tableCaption.textContent = `updated at ${new Date().toISOString()} ; full stats page <a href='https://status.mhrtech.my/status/roipmars' target='_blank' rel='external'>here</a>`
+		tableCaption.innerHTML = `updated at ${new Date().toISOString()} ; full stats page <a href='https://status.mhrtech.my/status/roipmars' target='_blank' rel='external'>here</a>`
 	}
-	setInterval(imgReload, 1 * 60 * 1000)
+	setInterval(imgReload, 3 * 60 * 1000)
 })
 
 modal.addEventListener('hide.bs.modal', (event) => {

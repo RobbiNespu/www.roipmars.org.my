@@ -50,7 +50,7 @@ $(document).ready(function () {
 			{ className: 'text-center align-middle', data: 'Laporan', name: 'lapor', searchable: true, title: 'Laporan' },
 		],
 		deferRender: true,
-		displayStart: 375,
+		displayStart: 380,
 		language: {
 			emptyTable: 'Rekod Tidak Ditemui',
 			info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
@@ -70,7 +70,7 @@ $(document).ready(function () {
 		},
 		ordering: false,
 		lengthChange: false,
-		pageLength: 25,
+		pageLength: 10,
 		pagingTag: 'button',
 		pagingType: 'full_numbers',
 		processing: true,

@@ -728,13 +728,6 @@ $(document).ready(function () {
 					toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating eCert...</div>`
 					msgSuccess.show()
 					try {
-						if (location.hostname != 'localhost') {
-							await fetch('https://api.roipmars.org.my/hook/certgen', {
-								method: 'PUT',
-								headers: { 'content-type': 'application/json' },
-								body: JSON.stringify({ call: netReportTable.row(this).data()[1], id: takwimdate, source: location.pathname.replaceAll('/', '') }),
-							})
-						}
 						await generateCert(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
 					} catch (error) {
 						await fetch('https://api.roipmars.org.my/hook/certerr', {
@@ -921,9 +914,16 @@ $(document).ready(function () {
 							subject: `${caller} | ${date.split('/').reverse().join('-')}T${utctime}`,
 							author: document.querySelector('meta[name="author"]').content,
 							keywords: document.querySelector('meta[name="keywords"]').content,
-							creator: 'RoIPMARS eCert generator',
+							creator: 'RoIPMARS Activity Certificate Generator',
 						})
 
+					if (location.hostname != 'localhost') {
+						await fetch('https://api.roipmars.org.my/hook/certgen', {
+							method: 'PUT',
+							headers: { 'content-type': 'application/json' },
+							body: JSON.stringify({ call: netReportTable.row(this).data()[1], id: takwimdate, source: location.pathname.replaceAll('/', '') }),
+						})
+					}
 					toastInfo.innerHTML = `<div class='toast-body'>eCert Ready!</div>`
 					msgInfo.show()
 					try {

@@ -18,6 +18,8 @@ $(document).ready(function () {
 		pagingType: 'first_last_numbers',
 		pageLength: 10,
 		searchDelay: 500,
+		responsive: false,
+		scrollX: true,
 		keys: { blurable: true, keys: ['\n'.charCodeAt(0)], columns: [1, 2, 3] },
 		language: {
 			lengthMenu: 'Paparan _MENU_ rekod',
@@ -27,7 +29,7 @@ $(document).ready(function () {
 			infoEmpty: 'Rekod Tidak Ditemui',
 			zeroRecords: 'Rekod Tidak Ditemui',
 			paginate: { first: '<<', previous: '<', next: '>', last: '>>' },
-			info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+			info: '_START_ - _END_ dari _TOTAL_ rekod',
 			infoFiltered: ' - tapisan dari _MAX_ rekod',
 			infoPostFix: ' | Rekod diperoleh daripada maklumat sebenar.',
 		},

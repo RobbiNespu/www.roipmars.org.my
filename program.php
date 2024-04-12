@@ -184,10 +184,10 @@
 										<div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
 									</div>
 									<div class='row'>
-										<div class='col-8 align-self-center text-center'>
+										<div class='col-8 align-self-start text-center'>
 											<table class='table table-sm table-striped text-center align-middle' id='netRep'></table>
 										</div>
-										<div class='col-4 align-self-center text-center' style='font-size: x-small'>
+										<div class='col-4 align-self-start text-center' style='font-size: small'>
 											<table class='table table-sm text-center align-middle'>
 												<thead class='table-primary'><tr><td colspan='2'>Mod Penghantaran</td></tr></thead>
 												<tbody>

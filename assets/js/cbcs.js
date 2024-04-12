@@ -9,7 +9,8 @@ $(document).ready(function () {
 		pagingType: 'full_numbers',
 		pageLength: 25,
 		searchDelay: 350,
-		responsive: true,
+		responsive: false,
+		scrollX: true,
 		order: [
 			[0, 'desc'],
 			[4, 'desc'],
@@ -36,7 +37,7 @@ $(document).ready(function () {
 				next: '>',
 				last: '>>',
 			},
-			info: 'Menunjukkan _START_ - _END_ dari _TOTAL_ rekod',
+			info: '_START_ - _END_ dari _TOTAL_ rekod',
 			infoFiltered: ' - tapisan dari _MAX_ rekod',
 			infoPostFix: ' | Rekod diperoleh daripada maklumat sebenar.',
 		},

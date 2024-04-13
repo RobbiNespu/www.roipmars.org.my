@@ -245,7 +245,9 @@
             <div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
             <div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
           </div>
-          <table class='table table-sm table-striped align-middle' id='memberlist'></table>
+          <table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='memberlist'>
+            <caption class='text-lowercase text-center text-wrap'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Pendaftaran</caption>
+          </table>
         </div>
       </div>
     </div>

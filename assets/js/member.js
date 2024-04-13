@@ -5,11 +5,15 @@ $(document).ready(function () {
 			dataSrc: 'activeMembers',
 		},
 		columns: [
-			{ className: 'text-center align-middle', data: 'MemberNo', name: 'MemberNo', searchable: false, title: 'NO AHLI' },
-			{ className: 'text-center align-middle', data: 'CallSign', name: 'CallSign', searchable: true, title: 'CALLSIGN' },
-			{ className: 'text-center align-middle', data: 'Name', name: 'Name', searchable: true, title: 'NAMA AHLI' },
-			{ className: 'text-center align-middle', data: 'Locale', name: 'Locale', searchable: true, title: 'LOKALITI' },
-			{ className: 'text-center align-middle', data: 'Expiry', name: 'Expiry', searchable: false, title: 'SAH SEHINGGA' },
+			{ data: 'MemberNo', name: 'MemberNo', title: 'NO AHLI' },
+			{ data: 'CallSign', name: 'CallSign', title: 'CALLSIGN' },
+			{ data: 'Name', name: 'Name', title: 'NAMA AHLI' },
+			{ data: 'Locale', name: 'Locale', title: 'LOKALITI' },
+			{ data: 'Expiry', name: 'Expiry', title: 'SAH SEHINGGA' },
+		],
+		columnDefs: [
+			{ className: 'text-center align-middle', targets: '_all' },
+			{ searchable: false, targets: [0, 4] },
 		],
 		deferRender: true,
 		processing: true,
@@ -18,8 +22,7 @@ $(document).ready(function () {
 		pagingType: 'first_last_numbers',
 		pageLength: 10,
 		searchDelay: 500,
-		responsive: false,
-		scrollX: true,
+		responsive: true,
 		keys: { blurable: true, keys: ['\n'.charCodeAt(0)], columns: [1, 2, 3] },
 		language: {
 			lengthMenu: 'Paparan _MENU_ rekod',
@@ -38,7 +41,7 @@ $(document).ready(function () {
 			$('.membercount').html(tds + ' ahli')
 		},
 	})
-	$('#memberlist').delegate('tbody tr td', 'click', async function () {
+	$('#memberlist').delegate('tbody tr td:nth-child(2)', 'click', async function () {
 		const toastSuccess = document.getElementById('prog-success')
 		const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })
 		const toastInfo = document.getElementById('prog-info')

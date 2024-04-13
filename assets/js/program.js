@@ -44,10 +44,14 @@ $(document).ready(function () {
 			dataSrc: 'scheduled',
 		},
 		columns: [
-			{ className: 'text-center align-middle', data: 'Hari', name: 'hari', searchable: true, title: 'Hari' },
-			{ className: 'text-center align-middle', data: 'Acara', name: 'acara', searchable: true, title: 'Acara' },
-			{ className: 'text-center align-middle', data: 'NCS', name: 'ncs|ecr', searchable: true, title: 'NCS | ECR' },
-			{ className: 'text-center align-middle', data: 'Laporan', name: 'lapor', searchable: true, title: 'Laporan' },
+			{ data: 'Hari', name: 'hari', title: 'Hari' },
+			{ data: 'Acara', name: 'acara', title: 'Acara' },
+			{ data: 'NCS', name: 'ncs|ecr', title: 'NCS | ECR' },
+			{ data: 'Laporan', name: 'lapor', title: 'Laporan' },
+		],
+		columnDefs: [
+			{ className: 'text-center align-middle', targets: '_all' },
+			{ searchable: false, targets: -1 },
 		],
 		deferRender: true,
 		displayStart: 380,
@@ -57,8 +61,7 @@ $(document).ready(function () {
 		pagingTag: 'button',
 		pagingType: 'full_numbers',
 		processing: true,
-		responsive: false,
-		scrollX: true,
+		responsive: true,
 		searchDelay: 350,
 		select: {
 			blurable: true,
@@ -79,7 +82,7 @@ $(document).ready(function () {
 				previous: '<',
 			},
 			processing: '<div class="spinner-border spinner-border-sm" role="status"><span class="visually-hidden">Sedang memuat...</span></div>',
-			search: 'Cari Acara/Pengawal:',
+			search: 'Cari Tarikh/Acara/Pengawal:',
 			select: { rows: { 1: '' } },
 			zeroRecords: 'Rekod Tidak Ditemui',
 		},
@@ -587,7 +590,7 @@ $(document).ready(function () {
 				.replaceAll(/\^1|\^2/g, '')
 			const takwimncs = takwimrowdata.NCS.split('|')[0].trim()
 			const reportTitle = `Laporan ${takwimact}\npada ${takwimday}, ${takwimdate} ${takwimtime}\nbersama ${takwimncs}`
-			modalTitle.innerText = reportTitle
+			modalTitle.innerText = reportTitle.replaceAll('\n', ' ')
 			const reportID = `net-${source}`
 			netReport.id = reportID
 			var netReportTable = $('#' + reportID).DataTable({
@@ -596,10 +599,15 @@ $(document).ready(function () {
 					dataSrc: `${source}`,
 				},
 				columns: [
-					{ title: 'CQ#', className: 'text-center align-middle', name: 'cq', searchable: false },
-					{ title: 'Call', className: 'text-center align-middle', name: 'cs', searchable: true },
-					{ title: 'Mod', className: 'text-center align-middle', name: 'mod', searchable: false },
-					{ title: 'UTC', className: 'text-center align-middle', name: 'time', searchable: false },
+					{ title: 'CQ#', name: 'cq' },
+					{ title: 'Call', name: 'cs' },
+					{ title: 'Mod', name: 'mod' },
+					{ title: 'UTC', name: 'time' },
+				],
+				columnDefs: [
+					{ className: 'text-center align-middle', targets: '_all' },
+					{ searchable: true, targets: 1 },
+					{ visible: false, targets: 0 },
 				],
 				autoWidth: false,
 				destroy: true,
@@ -624,7 +632,7 @@ $(document).ready(function () {
 					{
 						extend: 'pdfHtml5',
 						download: 'download',
-						className: 'mb-3 rounded-3',
+						className: 'btn-success rounded-3',
 						text: `Laporan Penuh Aktiviti<br>${takwimdate}, ${takwimtime}`,
 						filename: `RoIPMARS-Net_${source}`,
 						title: `${reportTitle.replaceAll('\n', ' ')}`,
@@ -651,7 +659,8 @@ $(document).ready(function () {
 										},
 									]
 								}),
-								((doc.content[2].table.widths = Array(doc.content[2].table.body[0].length + 1)
+								delete doc.content[2],
+								(doc.content[3].table.widths = Array(doc.content[3].table.body[0].length + 1)
 									.join('*')
 									.split('')),
 								(doc.defaultStyle = {
@@ -666,7 +675,7 @@ $(document).ready(function () {
 									keywords: document.querySelector('meta[name="keywords"]').content,
 									creator: 'RoIPMARS Report generator',
 									modDate: new Date(),
-								}))
+								})
 						},
 					},
 				],
@@ -715,7 +724,7 @@ $(document).ready(function () {
 			//   searching: false,
 			// })
 
-			$('#' + reportID).delegate('tbody tr td', 'click', async function () {
+			$('#' + reportID).delegate('tbody tr td:nth-child(2)', 'click', async function () {
 				const toastSuccess = document.getElementById('prog-success')
 				const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })
 				const toastInfo = document.getElementById('prog-info')

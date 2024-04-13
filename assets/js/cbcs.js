@@ -4,13 +4,23 @@ $(document).ready(function () {
 			url: '/assets/json/cbmars.json',
 			dataSrc: 'activeCBMembers',
 		},
+		columns: [
+			{ name: 'MemberNo', title: 'No Ahli' },
+			{ name: 'CallSign', title: 'Tanda Panggilan' },
+			{ name: 'Name', title: 'Nama' },
+			{ name: 'Locale', title: 'Lokaliti' },
+			{ name: 'Register', title: 'Daftar' },
+		],
+		columnDefs: [
+			{ className: 'text-center align-middle', targets: '_all' },
+			{ searchable: false, targets: [0, 4] },
+		],
 		processing: true,
 		ordering: false,
 		pagingType: 'full_numbers',
 		pageLength: 25,
 		searchDelay: 350,
-		responsive: false,
-		scrollX: true,
+		responsive: true,
 		order: [
 			[0, 'desc'],
 			[4, 'desc'],
@@ -20,10 +30,6 @@ $(document).ready(function () {
 			keys: ['\n'.charCodeAt(0)],
 			columns: [2, 3, 4],
 		},
-		columnDefs: [
-			{ className: 'text-center', targets: '_all' },
-			{ searchable: false, targets: [0, 4] },
-		],
 		language: {
 			lengthMenu: 'Paparkan _MENU_ rekod',
 			search: 'Cari Callsign/Nama/Lokal:',
@@ -46,7 +52,7 @@ $(document).ready(function () {
 			$('.cscount').html(tds + ' isyarat panggilan sah')
 		},
 	})
-	$('#cbcslist').delegate('tbody tr td', 'click', async function () {
+	$('#cbcslist').delegate('tbody tr td:nth-child(2)', 'click', async function () {
 		const toastSuccess = document.getElementById('prog-success')
 		const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })
 		const toastInfo = document.getElementById('prog-info')

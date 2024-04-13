@@ -157,7 +157,7 @@
 					?></span>
 				</div>
 				<div class='table'>
-					<table class='table table-sm table-striped text-center align-middle' id='takwim'>
+					<table class='table table-sm table-striped text-center align-middle user-select-none' id='takwim'>
 						<caption class='text-center'>
 							<ul class='list-group'>
 								<li class='list-group-item list-group-item-secondary'>^1 Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
@@ -171,7 +171,7 @@
 						</capton>
 					</table>
 					<div class='modal fade' id='netrep' tabindex='-1' aria-labelledby='netreport' aria-hidden='true'>
-						<div class='modal-dialog modal-dialog-centered modal-md'>
+						<div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md'>
 							<div class='modal-content shadow'>
 								<div class='modal-header'>
 									<h4 class='modal-title text-center mx-auto lh-1' id='netreport'>Laporan Aktiviti</h4>
@@ -184,12 +184,16 @@
 										<div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
 									</div>
 									<div class='row'>
-										<div class='col-8 align-self-start text-center'>
-											<table class='table table-sm table-striped text-center align-middle' id='netRep'></table>
-										</div>
-										<div class='col-4 align-self-start text-center' style='font-size: small'>
+										<div class='col-auto align-self-start text-center'>
+											<table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='netRep'>
+												<caption class='text-lowercase text-center text-wrap p-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Penyertaan</caption>
+											</table>
+											<p class='fst-italic'><?php
+												$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
+												$reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini: ' . datefmt_format($dtfmt, $reportLastMod);
+											?></p>
 											<table class='table table-sm text-center align-middle'>
-												<thead class='table-primary'><tr><td colspan='2'>Mod Penghantaran</td></tr></thead>
+												<thead><tr><td colspan='2'>Mod Penghantaran</td></tr></thead>
 												<tbody>
 													<tr><td>DC</td><td>Discord</td></tr>
 													<tr><td>EL</td><td>EchoLink</td></tr>
@@ -205,10 +209,6 @@
 												</tbody>
 											</table>
 											<!-- <table class='table table-sm table-striped text-center align-middle' id='netRepMod'></table> -->
-											<span class='lh-1 fst-italic'><?php
-												$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-												$reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-											?></span>
 										</div>
 									</div>
 								</div>

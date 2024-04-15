@@ -589,8 +589,8 @@ $(document).ready(function () {
 				.trim()
 				.replaceAll(/\^1|\^2/g, '')
 			const takwimncs = takwimrowdata.NCS.split('|')[0].trim()
-			const reportTitle = `Laporan ${takwimact}\npada ${takwimday}, ${takwimdate} ${takwimtime}\nbersama ${takwimncs}`
-			modalTitle.innerText = reportTitle.replaceAll('\n', ' ')
+			const reportTitle = `Laporan ${takwimact} pada ${takwimday}, ${takwimdate} ${takwimtime} bersama ${takwimncs}`
+			modalTitle.innerText = reportTitle
 			const reportID = `net-${source}`
 			netReport.id = reportID
 			var netReportTable = $('#' + reportID).DataTable({
@@ -633,9 +633,9 @@ $(document).ready(function () {
 						extend: 'pdfHtml5',
 						download: 'download',
 						className: 'btn-success rounded-3',
-						text: `Laporan Penuh Aktiviti<br>${takwimdate}, ${takwimtime}`,
+						text: `Laporan Penuh ${takwimact}, ${takwimdate}`,
 						filename: `RoIPMARS-Net_${source}`,
-						title: `${reportTitle.replaceAll('\n', ' ')}`,
+						title: `${reportTitle}`,
 						messageBottom: [
 							{
 								text: 'RF->Radio Transceiver | EL->EchoLink | TS->TeamSpeak | MBL->Mumble | FRN->Free Radio Network\nPNT->Peanut for HAM | DC->Discord | TG->Telegram | TT->Team Talk | WA->WhatsApp | ZL->Zello',
@@ -659,8 +659,8 @@ $(document).ready(function () {
 										},
 									]
 								}),
-								delete doc.content[2],
-								(doc.content[3].table.widths = Array(doc.content[3].table.body[0].length + 1)
+								doc.content.splice(2, 1),
+								(doc.content[2].table.widths = Array(doc.content[2].table.body[0].length + 1)
 									.join('*')
 									.split('')),
 								(doc.defaultStyle = {
@@ -724,7 +724,7 @@ $(document).ready(function () {
 			//   searching: false,
 			// })
 
-			$('#' + reportID).delegate('tbody tr td:nth-child(2)', 'click', async function () {
+			$('#' + reportID).delegate('tbody tr td:nth-child(1)', 'click', async function () {
 				const toastSuccess = document.getElementById('prog-success')
 				const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })
 				const toastInfo = document.getElementById('prog-info')

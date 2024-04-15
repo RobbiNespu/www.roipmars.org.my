@@ -112,19 +112,22 @@ $(document).ready(function () {
 			cbcsCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('TARIKH DAFTAR', 915, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 
 			if (call.match(/113MSOGK|91KMEGG/g)) {
+				cbcsCert.addImage('/assets/image/certs/stamp-su.png', 'PNG', 600, 590, 100, 100)
 				cbcsCert.addImage('/assets/image/certs/lgx_sign.png', 'PNG', 580, 575, 150, 150)
 				cbcsCert.setFont('AgencyFB').setFontSize(30).setTextColor('black').text('HAFIZI RUSLAN\nSETIAUSAHA RoIPMARS', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 			} else if (call.match(/\d{1,3}KM.{1,}/g)) {
 				cbcsCert.addImage('/assets/image/certs/egg_sign.png', 'PNG', 480, 600, 170, 80)
 				cbcsCert.setFont('AgencyFB').setFontSize(28).setTextColor('black').text('GILANG GUMILAR\nPENGASAS KOPDARMOBILE', 560, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
+				cbcsCert.addImage('/assets/image/certs/stamp-pres.png', 'PNG', 685, 590, 100, 100)
 				cbcsCert.addImage('/assets/image/certs/ogk_sign.png', 'PNG', 700, 585, 87.2, 136.4)
 				cbcsCert.setFont('AgencyFB').setFontSize(28).setTextColor('black').text('KAMARUDZAMAN\nPRESIDEN RoIPMARS', 740, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 			} else {
+				cbcsCert.addImage('/assets/image/certs/stamp-pres.png', 'PNG', 600, 590, 100, 100)
 				cbcsCert.addImage('/assets/image/certs/ogk_sign.png', 'PNG', 615, 585, 87.2, 136.4)
 				cbcsCert.setFont('AgencyFB').setFontSize(30).setTextColor('black').text('KAMARUDZAMAN\nPRESIDEN RoIPMARS', 650, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 			}
 
-			cbcsCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY / KOPDARMOBILE.ID', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+			cbcsCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY | KOPDARMOBILE.ID', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			cbcsCert.setFont('HYPost-Light').setFontSize(10).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			cbcsCert
 				.setFont('OpenSansCondensed-Regular')

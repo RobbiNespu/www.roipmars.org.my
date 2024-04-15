@@ -113,28 +113,30 @@ $(document).ready(function () {
 			memCert.setFont('AgencyFB').setFontSize(52).setTextColor('#5cce54').text(`${id}`, 315, 545, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 385, renderingMode: 'fillThenStroke' })
 
 			if (id == 'A008') {
-				memCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('HAFIZI RUSLAN, SETIAUSAHA', 172, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
+				memCert.addImage('/assets/image/certs/stamp-su.png', 'PNG', 125, 590, 100, 100)
 				memCert.addImage('/assets/image/certs/lgx_sign.png', 'PNG', 110, 575, 150, 150)
+				memCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('HAFIZI RUSLAN, SETIAUSAHA', 172, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 			} else {
+				memCert.addImage('/assets/image/certs/stamp-pres.png', 'PNG', 125, 590, 100, 100)
+				memCert.addImage('/assets/image/certs/ogk_sign.png', 'PNG', 135, 580, 87.2, 136.4)
 				memCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('KAMARUDZAMAN, PRESIDEN', 172, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
-				memCert.addImage('/assets/image/certs/ogk_sign.png', 'PNG', 120, 580, 87.2, 136.4)
 			}
 
-			memCert.setFont('AgencyFB').setFontSize(48).setTextColor('#72c7ef').text(validDate.toUpperCase(), 460, 660, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 200, renderingMode: 'fillThenStroke' })
+			memCert.setFont('AgencyFB').setFontSize(48).setTextColor('#3d3d3d').text(validDate.toUpperCase(), 460, 660, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 200, renderingMode: 'fillThenStroke' })
 			memCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('SAH SEHINGGA', 460, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 
 			memCert.addImage('/media/image/brands/roipmars/brand_oglow.png', 'PNG', 20, 725, 320, 65)
-			memCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('f7fcfe').text('ROIPMARS.ORG.MY', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			memCert.setFont('HYPost-Light').setFontSize(10).setTextColor('f7fcfe').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+			memCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('#f7fcfe').text('ROIPMARS.ORG.MY', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+			memCert.setFont('HYPost-Light').setFontSize(10).setTextColor('#f7fcfe').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			memCert
 				.setFont('OpenSansCondensed-Regular')
 				.setFontSize(10)
-				.setTextColor('f7fcfe')
+				.setTextColor('#f7fcfe')
 				.text('this ‘Electronic Certificate’ (eCert) is computer generated. contact member@roipmars.org.my for any discrepancy.', 528, 780, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			memCert
 				.setFont('KodeMono-Regular')
 				.setFontSize(10)
-				.setTextColor('f7fcfe')
+				.setTextColor('#f7fcfe')
 				.text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, {
 					align: 'center',
 					baseline: 'middle',

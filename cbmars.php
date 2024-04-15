@@ -57,21 +57,17 @@
             $file_last_modified = filemtime(__DIR__ . '/assets/json/cbmars.json');
             echo ' setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>
-          <p class='fw-bold'>Penafian: Sekiranya anda telah sah berdaftar sebagai Ahli CB, anda tidak termaktub dengan seluruh perlembagaan Persatuan.<br>Ahli CB dan Ahli Persatuan adalah dua identiti keahlian yang berbeza.</p>
-          <ul class='text-start lh-sm'>Nota:
-            <li>Untuk semakan lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></li>
-            <li>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Pendaftaran</li>
-          </ul>
+          <p class='fw-bold'>Penafian: Ahli CB RoIPMARS tidak termaktub dengan seluruh perlembagaan Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti keahlian yang berbeza.<br>Nota: Untuk semakan lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
+        </div>
+        <div class='col-12 mb-3 text-center'>
+          <table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='cbcslist'>
+            <caption class='text-lowercase text-center text-wrap py-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Pendaftaran</caption>
+          </table>
           <div class='toast-container position-fixed top-50 start-50 translate-middle p-3 z-3'>
             <div id='prog-info' class='toast text-bg-info' role='status' aria-live='polite' aria-atomic='true'></div>
             <div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
             <div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
           </div>
-        </div>
-        <div class='col-12 mb-3 text-center'>
-          <table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='cbcslist'>
-            <caption class='text-lowercase text-center text-wrap'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Pendaftaran</caption>
-          </table>
         </div>
       </div>
       <!--

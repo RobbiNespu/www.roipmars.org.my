@@ -235,19 +235,19 @@
         </div>
         <div class='col-12 my-3 text-center'>
           <h4 class='h4'>Ahli RoIPMARS</h4>
-          <p><span class='membercount badge rounded-3 text-bg-success'></span><?php
+          <p class='mb-0'><span class='membercount badge rounded-3 text-bg-success'></span><?php
             $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
             $file_last_modified = filemtime(__DIR__ . '/assets/json/member.json');
             echo ' yang disahkan setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>
+          <table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='memberlist'>
+            <caption class='text-lowercase text-center text-wrap py-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Pendaftaran</caption>
+          </table>
           <div class='toast-container position-fixed top-50 start-50 translate-middle p-3 z-3'>
             <div id='prog-info' class='toast text-bg-info' role='status' aria-live='polite' aria-atomic='true'></div>
             <div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
             <div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
           </div>
-          <table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='memberlist'>
-            <caption class='text-lowercase text-center text-wrap'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Pendaftaran</caption>
-          </table>
         </div>
       </div>
     </div>

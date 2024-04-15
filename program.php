@@ -157,7 +157,7 @@
 					?></span>
 				</div>
 				<div class='table'>
-					<table class='table table-sm table-striped text-center align-middle user-select-none' id='takwim'>
+					<table class='table table-striped text-center align-middle user-select-none' id='takwim'>
 						<caption class='text-center'>
 							<ul class='list-group'>
 								<li class='list-group-item list-group-item-secondary'>^1 Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>

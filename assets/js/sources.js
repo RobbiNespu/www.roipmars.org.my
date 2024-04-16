@@ -62,7 +62,7 @@ const favIcons = `<link rel="apple-touch-icon" sizes="180x180" href="${currentHo
 <meta name="msapplication-TileImage" content="${currentHost}/assets/image/icon/mstile-144x144.png">\
 <meta name="msapplication-config" content="${currentHost}/assets/image/icon/browserconfig.xml">\
 <meta name="theme-color" content="#ffffff">`
-document.head.insertAdjacentHTML('afterbegin', meta + favIcons)
+document.head.insertAdjacentHTML('beforeend', meta + favIcons)
 
 const bodyStartLinks = `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHLPNS8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>\
 <div id="fb-root"></div>\

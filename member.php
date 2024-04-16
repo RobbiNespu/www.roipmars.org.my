@@ -4,6 +4,12 @@
   <head>
     <title>RoIPMARS Network | Keahlian</title>
     <link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-2.0.3/af-2.7.0/b-3.0.1/b-colvis-3.0.1/b-html5-3.0.1/b-print-3.0.1/cr-2.0.0/date-1.5.2/fc-5.0.0/fh-4.0.1/kt-2.12.0/r-3.0.0/rg-1.5.0/rr-1.5.0/sc-2.4.1/sb-1.7.0/sp-2.3.0/sl-2.0.0/sr-1.4.0/datatables.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet@latest/dist/leaflet.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@latest/dist/L.Control.Locate.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-loading@latest/src/Control.Loading.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-fullscreen@latest/dist/leaflet.fullscreen.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer@latest/leaflet.rainviewer.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/xguaita/Leaflet.MapCenterCoord@latest/src/L.Control.MapCenterCoord.min.css' crossorigin='anonymous'>
   </head>
 
   <body>
@@ -229,8 +235,8 @@
       <div class='row'>
         <div class='col-12 my-1 text-center'>
           <h4 class='h4'>Peta RoIPMARS</h4>
-          <div class='ratio ratio-21x9 my-3'>
-            <embed loading='lazy' class='rounded-3' src='/list/membersmap'></embed>
+          <div class='ratio ratio-16x9 my-3'>
+            <div class='position-absolute w-100 h-100' id='map'></div>
           </div>
         </div>
         <div class='col-12 my-3 text-center'>
@@ -256,6 +262,19 @@
 		<script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.js' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jspdf@latest/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
     <script src='/assets/js/member.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet@latest/dist/leaflet.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@latest/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet-loading@latest/src/Control.Loading.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet-fullscreen@latest/dist/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@joergdietrich/leaflet.terminator@latest/L.Terminator.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet.smooth_marker_bouncing@latest/dist/bundle.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/gh/ha8tks/Leaflet.Maidenhead@latest/src/L.Maidenhead.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap@latest/dist/Control.WorldMiniMap.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer@latest/leaflet.rainviewer.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/gh/xguaita/Leaflet.MapCenterCoord@latest/src/L.Control.MapCenterCoord.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/gh/leaflet-extras/leaflet-providers@latest/leaflet-providers.min.js' crossorigin='anonymous'></script>
+    <script src='https://api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
+    <script src='/assets/js/membersmap.js'></script>
   </body>
 
 </html>

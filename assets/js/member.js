@@ -20,7 +20,7 @@ $(document).ready(function () {
 		lengthChange: false,
 		ordering: false,
 		pagingType: 'first_last_numbers',
-		pageLength: 10,
+		pageLength: 25,
 		searchDelay: 500,
 		responsive: true,
 		keys: { blurable: true, keys: ['\n'.charCodeAt(0)], columns: [1, 2, 3] },

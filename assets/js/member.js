@@ -97,8 +97,11 @@ $(document).ready(function () {
 				orientation: 'l',
 				unit: 'px',
 				format: [1056, 816],
+				putOnlyUsedFonts: true,
 				compress: true,
 			})
+			memCert.__private__.setPdfVersion('1.7')
+			memCert.setCreationDate(new Date())
 
 			memCert.addFont('/assets/font/HYPost-Light.ttf', 'HYPost-Light', 'normal')
 			memCert.addFont('/assets/font/KodeMono-Regular.ttf', 'KodeMono-Regular', 'normal')
@@ -143,12 +146,11 @@ $(document).ready(function () {
 					lineHeightFactor: 1,
 					maxWidth: 800,
 				})
-			memCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
+			memCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 825, 730, 207, 65)
 
 			let fileName = `RoIPMARS_${call}`
 			memCert
 				.setFileId(crypto.randomUUID())
-				.setCreationDate(new Date())
 				.setLanguage('ms-MY')
 				.setDocumentProperties({
 					title: `${fileName}`,
@@ -157,6 +159,14 @@ $(document).ready(function () {
 					keywords: document.querySelector('meta[name="keywords"]').content,
 					creator: `RoIPMARS Member Certificate Generator`,
 				})
+			// memCert.addMetadata(`<rdf:Description xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/" rdf:about=""><pdfaid:part>3</pdfaid:part><pdfaid:conformance>B</pdfaid:conformance></rdf:Description>`, 'http://www.w3.org/1999/02/22-rdf-syntax-ns#')
+			// memCert.addMetadata(
+			// 	`<xmpRights:Certificate>${location}</xmpRights:Certificate><xmpRights:Marked>true</xmpRights:Marked><xmpRights:Owner>${
+			// 		document.querySelector('meta[name="author"]').content
+			// 	}</xmpRights:Owner><xmpRights:UsageTerms>https://www.roipmars.org.my/policies</xmpRights:UsageTerms><xmpRights:WebStatement>https://www.roipmars.org.my/policies</xmpRights:WebStatement>`,
+			// 	'http://ns.adobe.com/xap/1.0/rights/'
+			// )
+			// memCert.addMetadata(`<xmp:MetadataDate>${new Date()}</xmp:MetadataDate><xmp:ModifyDate>${new Date()}</xmp:ModifyDate><xmp:BaseURL>${location.origin}</xmp:BaseURL>`, 'http://ns.adobe.com/xap/1.0/')
 
 			if (location.hostname != 'localhost') {
 				await fetch('https://api.roipmars.org.my/hook/certgen', {

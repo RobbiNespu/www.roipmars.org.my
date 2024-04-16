@@ -17,7 +17,7 @@
 		</div>
 		<div class='container'>
 			<div class='row'>
-				<div class='col-lg-6 my-1 align-self-center'>
+				<div class='col-lg-6 align-self-center'>
 					<div class='row text-center'>
 						<div class='col-xxl'>Waktu Tempatan:<br><span id='UserTime'></span></div>
 						<div class='col-xxl'>Waktu UTC:<br><span id='ZuluTime'></span></div>
@@ -31,7 +31,7 @@
 						<a class='btn btn-success' role='button' href='https://wa.me/60148453456'><i class='bi-whatsapp'></i> Pegawai Siaraya RoIPMARS</a>
 					</div>
 				</div>
-				<div class='col-lg-6 my-3 d-block text-center'>
+				<div class='col-lg-6 d-block text-center'>
 					<h4>Aktiviti Net Mingguan RoIPMARS</h4>
 					<table class='table table-sm table-bordered text-center align-middle'>
 						<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
@@ -45,82 +45,76 @@
 							<tr class='table-danger'><td>Minggu</td><td>1300z<br>2000wib</td><td>SMP Net Akhir Minggu</td><td>SMP RoIPMARS</td></tr>
 						</tbody>
 					</table>
+				</div>
+				<div class='col-12 my-3 text-center'>
 					<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>
-					<div id='ncsgroup' class='carousel slide' data-bs-ride='carousel'>
+					<div id='ncsgroup' class='carousel slide' data-bs-ride='carousel' data-bs-interval='10000'>
 						<div class='carousel-inner my-0'>
 							<div class='carousel-item active'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png' alt='9M2SFL'>
-										<p class='lh-1'>9M2SFL<br>SAIFUL</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png' alt='9M2SFL'>
+										<p class='lh-1 my-0'>9M2SFL<br><span class='fw-bold'>SAIFUL</span></p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png'alt='9W2AYP'>
-										<p class='lh-1'>9W2AYP<br>SABRI</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png'alt='9W2AYP'>
+										<p class='lh-1 my-0'>9W2AYP<br><span class='fw-bold'>SABRI</span></p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' alt='V85AFF'>
-										<p class='lh-1'>V85AFF<br>MAHATHIR</p>
-									</div>
-								</div>
-							</div>
-							<div class='carousel-item'>
-								<div class='hstack gap-2'>
-									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png' alt='9W2YBT'>
-										<p class='lh-1'>9W2YBT<br>FAISAL</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' alt='V85AFF'>
+										<p class='lh-1 my-0'>V85AFF<br><span class='fw-bold'>MAHATHIR</span></p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
-										<p class='lh-1'>9W6RHN<br>ROSLAN</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png' alt='9W2YBT'>
+										<p class='lh-1 my-0'>9W2YBT<br><span class='fw-bold'>FAISAL</span></p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png' alt='9M6AUA'>
-										<p class='lh-1'>9M6AUA<br>JEOFREY</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
+										<p class='lh-1 my-0'>9W6RHN<br><span class='fw-bold'>ROSLAN</span></p>
 									</div>
 								</div>
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
-										<p class='lh-1'>9M6RDY<br>RUDY</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png' alt='9M6AUA'>
+										<p class='lh-1 my-0'>9M6AUA<br><span class='fw-bold'>JEOFREY</span></p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png' alt='9M6JAY'>
-										<p class='lh-1'>9M6JAY<br>JOHN JR.</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
+										<p class='lh-1 my-0'>9M6RDY<br><span class='fw-bold'>RUDY</span></p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yd4dta.png' alt='YD4DTA'>
-										<p class='lh-1'>YD4DTA<br>DITA</p>
-									</div>
-								</div>
-							</div>
-							<div class='carousel-item'>
-								<div class='hstack gap-2'>
-									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc3mfy.png' alt='YC3MFY'>
-										<p class='lh-1'>YC3MFY<br>HENDRA</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png' alt='9M6JAY'>
+										<p class='lh-1 my-0'>9M6JAY<br><span class='fw-bold'>JOHN JR.</span></p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc4aum.png' alt='YC4AUM'>
-										<p class='lh-1'>YC4AUM<br>INDRA</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yd4dta.png' alt='YD4DTA'>
+										<p class='lh-1 my-0'>YD4DTA<br><span class='fw-bold'>DITA</span></p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-75 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yf5nzl.png' alt='YF5NZL'>
-										<p class='lh-1'>YF5NZL<br>NUZUL</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc3mfy.png' alt='YC3MFY'>
+										<p class='lh-1 my-0'>YC3MFY<br><span class='fw-bold'>HENDRA</span></p>
 									</div>
 								</div>
 							</div>
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2zpa.png' alt='9W2ZPA'>
-										<p class='lh-1'>9W2ZPA<br>ZULPAH</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc4aum.png' alt='YC4AUM'>
+										<p class='lh-1 my-0'>YC4AUM<br><span class='fw-bold'>INDRA</span></p>
 									</div>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover w-50 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' alt='9W2NDI'>
-										<p class='lh-1'>9W2NDI<br>NASA</p>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yf5nzl.png' alt='YF5NZL'>
+										<p class='lh-1 my-0'>YF5NZL<br><span class='fw-bold'>NUZUL</span></p>
+									</div>
+									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2zpa.png' alt='9W2ZPA'>
+										<p class='lh-1 my-0'>9W2ZPA<br><span class='fw-bold'>ZULPAH</span></p>
+									</div>
+									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' alt='9W2NDI'>
+										<p class='lh-1 my-0'>9W2NDI<br><span class='fw-bold'>NASA</span></p>
 									</div>
 								</div>
 							</div>
@@ -129,8 +123,6 @@
 							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='0' aria-label='ncsgroup-1' class='active' aria-current='true'></button>
 							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='1' aria-label='ncsgroup-2'></button>
 							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='2' aria-label='ncsgroup-3'></button>
-							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='3' aria-label='ncsgroup-4'></button>
-							<button type='button' data-bs-target='#ncsgroup' data-bs-slide-to='4' aria-label='ncsgroup-5'></button>
 						</div>
 					</div>
 				</div>
@@ -157,7 +149,7 @@
 					?></span>
 				</div>
 				<div class='table'>
-					<table class='table table-striped text-center align-middle user-select-none' id='takwim'>
+					<table class='table table-sm table-striped text-center align-middle user-select-none' id='takwim'>
 						<caption class='text-center'>
 							<ul class='list-group'>
 								<li class='list-group-item list-group-item-secondary'>^1 Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
@@ -185,14 +177,14 @@
 									</div>
 									<div class='row'>
 										<div class='col-auto align-self-start text-center'>
-											<table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='netRep'>
-												<caption class='text-lowercase text-center text-wrap p-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Penyertaan</caption>
-											</table>
 											<p class='fst-italic'><?php
 												$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
 												$reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini: ' . datefmt_format($dtfmt, $reportLastMod);
 											?></p>
-											<table class='table table-sm text-center align-middle'>
+											<table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='netRep'>
+												<caption class='text-lowercase text-center text-wrap p-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Penyertaan</caption>
+											</table>
+											<table class='table table-sm text-center align-middle mt-3'>
 												<thead><tr><td colspan='2'>Mod Penghantaran</td></tr></thead>
 												<tbody>
 													<tr><td>DC</td><td>Discord</td></tr>

@@ -89,8 +89,11 @@ $(document).ready(function () {
 				orientation: 'l',
 				unit: 'px',
 				format: [1056, 816],
+				putOnlyUsedFonts: true,
 				compress: true,
 			})
+			cbcsCert.__private__.setPdfVersion('1.7')
+			cbcsCert.setCreationDate(new Date())
 
 			cbcsCert.addFont('/assets/font/HYPost-Light.ttf', 'HYPost-Light', 'normal')
 			cbcsCert.addFont('/assets/font/KodeMono-Regular.ttf', 'KodeMono-Regular', 'normal')
@@ -144,12 +147,11 @@ $(document).ready(function () {
 					lineHeightFactor: 1,
 					maxWidth: 800,
 				})
-			cbcsCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 775, 730, 207, 65)
+			cbcsCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 825, 730, 207, 65)
 
 			let fileName = `RoIPMARS-CB_${call}`
 			cbcsCert
 				.setFileId(crypto.randomUUID())
-				.setCreationDate(new Date())
 				.setLanguage('ms-MY')
 				.setDocumentProperties({
 					title: `${fileName}`,

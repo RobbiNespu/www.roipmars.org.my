@@ -44,10 +44,10 @@ $(document).ready(function () {
 			dataSrc: 'scheduled',
 		},
 		columns: [
-			{ data: 'Hari', name: 'hari', title: 'Hari' },
-			{ data: 'Acara', name: 'acara', title: 'Acara' },
-			{ data: 'NCS', name: 'ncs|ecr', title: 'NCS | ECR' },
-			{ data: 'Laporan', name: 'lapor', title: 'Laporan' },
+			{ data: 'Hari', name: 'day', title: 'Waktu' },
+			{ data: 'Acara', name: 'act', title: 'Aktiviti' },
+			{ data: 'NCS', name: 'ctrl', title: 'Pengawal' },
+			{ data: 'Laporan', name: 'rep', title: 'Laporan' },
 		],
 		columnDefs: [
 			{ className: 'text-center align-middle', targets: '_all' },
@@ -613,11 +613,11 @@ $(document).ready(function () {
 				destroy: true,
 				deferRender: true,
 				fixedHeader: true,
-				info: true,
+				info: false,
 				lengthChange: false,
 				ordering: false,
 				pageLength: 10,
-				paging: true,
+				paging: false,
 				pagingTag: 'button',
 				pagingType: 'simple_numbers',
 				processing: true,
@@ -675,7 +675,8 @@ $(document).ready(function () {
 									keywords: document.querySelector('meta[name="keywords"]').content,
 									creator: 'RoIPMARS Report generator',
 									modDate: new Date(),
-								})
+								}),
+								(doc.version = '1.7')
 						},
 					},
 				],
@@ -795,11 +796,12 @@ $(document).ready(function () {
 						orientation: 'l',
 						unit: 'mm',
 						format: 'a4',
+						putOnlyUsedFonts: true,
 						compress: true,
 					})
+					eCert.__private__.setPdfVersion('1.7')
+					eCert.setCreationDate(new Date())
 
-					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>loading fonts...</div>`
-					msgInfo.show()
 					eCert.addFont('/assets/font/HYPost-Light.ttf', 'HYPost-Light', 'normal')
 					eCert.addFont('/assets/font/KodeMono-Bold.ttf', 'KodeMono-Bold', 'normal')
 					eCert.addFont('/assets/font/KodeMono-Medium.ttf', 'KodeMono-Medium', 'normal')
@@ -917,7 +919,6 @@ $(document).ready(function () {
 					let fileName = `${date.split('/').reverse().join('')}_${caller}`
 					eCert
 						.setFileId(crypto.randomUUID())
-						.setCreationDate(new Date())
 						.setLanguage('en-MY')
 						.setDocumentProperties({
 							title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,

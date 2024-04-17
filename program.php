@@ -17,6 +17,21 @@
 		</div>
 		<div class='container'>
 			<div class='row'>
+				<div class='col-lg-6 d-block text-center'>
+					<h4>Aktiviti Net Mingguan RoIPMARS</h4>
+					<table class='table table-bordered text-center align-middle'>
+						<thead><th>Hari</th><th>Masa</th><th>Program</th></thead>
+						<tbody>
+							<tr class='table-primary'><td>Isnin</td><td>1300z &vert; 2100my</td><td>RoIPMARS Net Awal Minggu</td></tr>
+							<tr class='table-danger'><td>Selasa</td><td>1300z &vert; 2000wib</td><td>Net Mingguan SMP</td></tr>
+							<tr class='table-success'><td>Wednesday</td><td>1300z &vert; 2100my</td><td>RoIPMARS Learning English Net</td></tr>
+							<tr class='table-danger'><td>Kamis</td><td>1300z &vert; 2000wib</td><td>Net Mingguan SMP</td></tr>
+							<tr class='opacity-25'><td>Jumaat</td><td>&mdash;</td><td>&mdash;</td></tr>
+							<tr class='table-primary'><td>Sabtu</td><td>1300z &vert; 2100my</td><td>RoIPMARS Net Malam Minggu</td></tr>
+							<tr class='table-danger'><td>Minggu</td><td>1300z &vert; 2000wib</td><td>SMP Net Akhir Minggu</td></tr>
+						</tbody>
+					</table>
+				</div>
 				<div class='col-lg-6 align-self-center'>
 					<div class='row text-center'>
 						<div class='col-xxl'>Waktu Tempatan:<br><span id='UserTime'></span></div>
@@ -30,21 +45,6 @@
 						<a class='btn btn-outline-success' role='button' href='https://wa.me/601153440440?text=bantuan'><i class='bi-whatsapp'></i> RoIPMARS Bot</a>
 						<a class='btn btn-success' role='button' href='https://wa.me/60148453456'><i class='bi-whatsapp'></i> Pegawai Siaraya RoIPMARS</a>
 					</div>
-				</div>
-				<div class='col-lg-6 d-block text-center'>
-					<h4>Aktiviti Net Mingguan RoIPMARS</h4>
-					<table class='table table-sm table-bordered text-center align-middle'>
-						<thead><th>Hari</th><th>Masa</th><th>Program</th><th>Penganjur</th></thead>
-						<tbody>
-							<tr class='table-primary'><td>Isnin</td><td>1300z<br>2100my</td><td>RoIPMARS Net Awal Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='table-danger'><td>Selasa</td><td>1300z<br>2000wib</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
-							<tr class='table-success'><td>Wednesday</td><td>1300z<br>2100my</td><td>RoIPMARS Learning English Net</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='table-danger'><td>Kamis</td><td>1300z<br>2000wib</td><td>Net Mingguan SMP</td><td>SMP RoIPMARS</td></tr>
-							<tr class='opacity-25'><td>Jumaat</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
-							<tr class='table-primary'><td>Sabtu</td><td>1300z<br>2100my</td><td>RoIPMARS Net Malam Minggu</td><td>Rangkaian HAM RoIPMARS</td></tr>
-							<tr class='table-danger'><td>Minggu</td><td>1300z<br>2000wib</td><td>SMP Net Akhir Minggu</td><td>SMP RoIPMARS</td></tr>
-						</tbody>
-					</table>
 				</div>
 				<div class='col-12 my-3 text-center'>
 					<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>
@@ -152,8 +152,8 @@
 					<table class='table table-sm table-striped text-center align-middle user-select-none' id='takwim'>
 						<caption class='text-center'>
 							<ul class='list-group'>
-								<li class='list-group-item list-group-item-secondary'>^1 Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
-								<li class='list-group-item list-group-item-secondary'>^2 Pilihan Acara oleh NCS</li>
+								<li class='list-group-item list-group-item-secondary'>&sup1; Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
+								<li class='list-group-item list-group-item-secondary'>&sup2; Pilihan Acara oleh NCS</li>
 							</ul>
 							<ul class='list-group list-group-horizontal'>
 								<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-person-slash text-danger'></i> Pengawal gagal hadir</li>
@@ -170,17 +170,19 @@
 									<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
 								</div>
 								<div class='modal-body'>
-									<div class='toast-container top-50 start-50 translate-middle p-3 z-3'>
-										<div id='prog-info' class='toast text-bg-info' role='status' aria-live='polite' aria-atomic='true'></div>
-										<div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
-										<div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
-									</div>
 									<div class='row'>
-										<div class='col-auto align-self-start text-center'>
-											<p class='fst-italic'><?php
-												$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-												$reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini: ' . datefmt_format($dtfmt, $reportLastMod);
-											?></p>
+										<div class='col-12 align-self-start text-center'>
+											<p class='fst-italic'>
+												<?php
+													$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
+													$reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini: ' . datefmt_format($dtfmt, $reportLastMod);
+												?>
+											</p>
+											<div class='toast-container position-fixed top-50 start-50 translate-middle p-3 z-3'>
+												<div id='prog-info' class='toast text-bg-info' role='status' aria-live='polite' aria-atomic='true'></div>
+												<div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
+												<div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
+											</div>
 											<table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='netRep'>
 												<caption class='text-lowercase text-center text-wrap p-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Penyertaan</caption>
 											</table>
@@ -213,7 +215,7 @@
 			<div class='row'>
 				<div class='col-12 my-2 d-block mx-auto'>
 					<h2 class='text-center'>Statistik Program</h2>
-					<h6 class='text-center'><i class='fas fa-quote-left fa-xs'></i> Penyertaan &amp; Sokongan Anda adalah Kebanggaan Kita Semua <i class='fas fa-quote-right fa-xs'></i></h6>
+					<p class='text-center'>&quot;Penyertaan &amp; Sokongan Anda adalah Kebanggaan Kita Semua&quot;</p>
 				</div>
 				<div class='col-lg-6 figure my-1'><canvas id='byTime' loading='lazy' alt='NetGraphTime'></canvas></div>
 				<div class='col-lg-6 figure my-1'><canvas id='byDate' loading='lazy' alt='NetGraphDaily'></canvas></div>

@@ -14,7 +14,7 @@ if (location.port) {
 let currentHost = location.protocol + '//' + location.hostname + currentPort
 let currentDomain = location.hostname
 let currentURL = document.URL
-if (currentPage != 'index') {
+if (currentPage != '') {
 	document.querySelector('title').innerText = `RoIPMARS Network | ${document.title}`
 }
 let docTitle = document.title

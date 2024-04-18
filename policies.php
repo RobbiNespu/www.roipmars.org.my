@@ -9,7 +9,7 @@
     <?php require_once 'header.php' ?>
     <div class='container'>
       <div class='row text-center my-3'>
-        <h1 class='h1-responsive'>Polisi Perkhidmatan RoIPMARS</h1>
+        <h1>Polisi Perkhidmatan RoIPMARS</h1>
         <p><?php
           $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
           $file_last_mod = filemtime(__FILE__);
@@ -45,7 +45,7 @@
                 <a class='nav-link ms-3 my-1' href='#cancellation'>Pembatalan Pesanan</a>
                 <a class='nav-link ms-3 my-1' href='#retuning'>Syarat Pemulangan</a>
               </nav>
-              <a class='nav-link' href='#scam'>NOTIS PENIPUAN</a>
+              <a class='nav-link' href='#scam'>Penipuan</a>
               <a class='nav-link' href='#whistleblowing'>Pemberi Maklumat</a>
               <nav class='nav nav-pills flex-column'>
                 <a class='nav-link ms-3 my-1' href='#wbwhat'>Apa itu Pemberitahuan Maklumat?</a>
@@ -61,7 +61,7 @@
           </nav>
         </div>
         <div class='col-8'>
-          <d data-bs-spy='scroll' data-bs-target='#navbar-policy' data-bs-offset='0' data-bs-smooth-scroll='true' class='scrollspy-policy' tabindex='0'>
+          <div data-bs-spy='scroll' data-bs-target='#navbar-policy' data-bs-offset='0' data-bs-smooth-scroll='true' class='scrollspy-policy' tabindex='0'>
             <div id='tos'>
               <h4>Terma &amp; Syarat</h4>
               <p>Terma dan syarat ini menggariskan peraturan-peraturan untuk penggunaan laman sesawang PERSATUAN PEMINAT RADIO KOMUNIKASI, terletak di RoIPMARS.org.my.</p>
@@ -289,9 +289,10 @@
             </div>
             <hr>
             <div id='scam'>
-              <h4>NOTIS PENIPUAN</h4>
+              <h4>Penipuan</h4>
               <p>PENAFIAN: &quot;RoIPMARS&quot; tidak bertanggungjawab ke atas kandungan apa-apa maklumat dan tidak akan bertanggungjawab ke atas sebarang akibat, kerugian, atau kerosakan dalam apa jua bentuk yang ditanggung atau mungkin ditanggung oleh mana-mana individu atau orang awam disebabkan pergantungan mereka pada atau penggunaan maklumat berkenaan skim penebusan hadiah, cabutan bertuah, peraduan dan pengambilan dalam &quot;RoIPMARS&quot; daripada portal yang tidak dibenarkan, tapak web atau domain e-mel yang tidak disokong oleh &quot;RoIPMARS&quot;.</p>
             </div>
+            <hr>
             <div id='whistleblowing'>
               <h4>Pemberi Maklumat</h4>
               <p>Di &quot;RoIPMARS&quot;, kami menjunjung standard tertinggi profesionalisme dan etika dalam semua aktiviti profesional kami. Sebagai sebahagian daripada komitmen kami terhadap tadbir urus yang baik, &quot;RoIPMARS&quot; telah mewujudkan Dasar Pemberitahuan Maklumat yang menyediakan ruang untuk penyiasatan objektif dan penyelesaian kebimbangan yang sah. Kami menggalakkan individu untuk mengemukakan kebimbangan mengenai amalan yang menyalahi undang-undang, tidak beretika atau boleh dipersoalkan dengan jaminan kerahsiaan dan tanpa rasa takut akan tindakan.</p>

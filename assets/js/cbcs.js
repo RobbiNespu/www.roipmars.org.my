@@ -200,6 +200,7 @@ $(document).ready(function () {
 						isNewsletter: false,
 						filename: `${fileName}.pdf`,
 						base64: eCertURI,
+						caption: `Hai ${call},\n\nAnda dijemput menyertai kumpulan WhatsApp Jalur Rakyat RoIPMARS melalui pautan ini: https://chat.whatsapp.com/HIzqDJsESMJ67POmbIqbne`,
 					}),
 				}).then(async (res) => {
 					if (res.ok) {

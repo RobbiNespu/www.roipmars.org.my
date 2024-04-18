@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Penyelidikan &amp; Pembangunan</title>
+    <title>Penyelidikan &amp; Pembangunan</title>
   </head>
 
   <body>

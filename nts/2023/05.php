@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Penutupan Pelayan RoIPDARULAMAN</title>
+    <title>Penutupan Pelayan RoIPDARULAMAN</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Penutupan Pelayan RoIPDARULAMAN</p>
       <p class='mb-2'>Untuk makluman semua, setelah dipertimbangkan pelayan roipdarulaman.com memaklumkan kepada semua sahabat disini bahawa dengan rasminya pelayan roipdarulaman.com ditutup berkuatkuasa serta merta. Semua pendaftaran baru untuk isyarat panggilan xxDAxx juga akan ditolak.</p>
       <p>Oleh yang demikian untuk meneruskan kesinabungan silaturrahim sesama rakan-rakan CB Band, boleh beralih ke pelayan roipmars.org.my untuk meneruskan komunikasi (10/25) bersama rakan-rakan. Semua perantara juga diarahkan untuk beralih kesana.</p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Persefahaman dan kerjasama anda amat kami hargai. Jutaan kemaafan kami pohon dari Pihak Pengurusan Kumpulan RoIPMARS kepada anda semua.</p>

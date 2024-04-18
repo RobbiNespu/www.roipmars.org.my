@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Perubahan domain RoIPMARS</title>
+    <title>Perubahan domain RoIPMARS</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Perubahan berjadual domain dari (roipmars.com) ke (roipmars.org.my)</p>
       <p class='mb-2'>Adalah dengan ini dimaklumkan bahawa domain roipmars.com akan berpindah ke roipmars.org.my yang akan dijadualkan pada awal bulan September 2022.</p>
       <p>Sehubungan dengan itu, semua aplikasi yang terhubung dengan pelayan semasa akan dipindahkan perkhidmatannya ke pelayan baru pada ketetapan berikut;</p>
       <div>

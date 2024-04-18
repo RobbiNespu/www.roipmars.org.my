@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Live Feed</title>
+    <title>Live Feed</title>
   </head>
 
   <body>

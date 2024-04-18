@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | App Login</title>
+    <title>App Login</title>
   </head>
 
   <body>

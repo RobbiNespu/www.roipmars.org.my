@@ -2,13 +2,13 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group</title>
+    <title>Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group</title>
   </head>
 
   <body>
     <?php include __DIR__.'/../../ntsheader.php' ?>
     <div class='container my-2'>
-      <h1 class='text-center'>Notice Change of Info in CB_DB</h1>
+      <h1 class='text-center'>PEnukaran Maklumat Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
         <tbody>
           <tr><td>Rujukan Notis</td><td>NtsMARS2020/05</td></tr>
@@ -16,12 +16,11 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Permohonan Penukaran Maklumat di dalam Pengkalan Data Isyarat Panggilan Jalur Rakyat MARS Group</p>
-      <p class='mb-2'>Berhubung perkara diatas, pihak pengurusan MARS Group melarang keras untuk anda menghantar borang berkali-kali untuk penukaran maklumat seperti Isyarat Panggilan, Rangkaian ataupun maklumat lain yang berkaitan.</p>
+      <p class='mb-2'>Berhubung perkara diatas, pihak pengurusan MARS Group melarang keras untuk anda menghantar borang berulang kali untuk penukaran maklumat seperti Isyarat Panggilan, Rangkaian ataupun maklumat lain yang berkaitan.</p>
       <p>Bagi penukaran maklumat, boleh berbuat demikian melalui salah satu cara dibawah:
       <ol type='a'>
-        <li>email maklumat yang telah anda hantar (submit) dan juga maklumat baru yang ingin ditukar <strong>kepada <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member@roipmars.org.my</a> BERSERTA DENGAN RESIT SUMBANGAN</strong> (minimum RM 10.00) ke akaun yang tertera di bawah</li>
-        <li>mengisi borang sekali lagi BERSERTA DENGAN RESIT SUMBANGAN (minimum RM 10.00) ke akaun yang tertera di bawah dan <strong>dihantar bersama borang tersebut (upload diruangan resit sebelum submit)</strong> <sub>Borang kedua yang diisi tanpa resit sumbangan akan ditolak</sub></li>
+        <li>email maklumat yang telah anda hantar dan juga maklumat baru yang ingin ditukar <strong>kepada <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2005'>member@roipmars.org.my</a> BERSERTA DENGAN RESIT SUMBANGAN</strong> (minimum RM 10.00) ke akaun yang tertera di bawah</li>
+        <li>mengisi borang sekali lagi BERSERTA DENGAN RESIT SUMBANGAN (minimum RM 10.00) ke akaun yang tertera di bawah dan <strong>dihantar bersama borang tersebut (muat naik diruangan resit sebelum hantar)</strong> <sub>Borang kedua yang diisi tanpa resit sumbangan akan ditolak</sub></li>
       </ol>
       <table class='table table-sm table-bordered table-striped text-center align-middle my-0 mx-auto w-auto' style='white-space: nowrap'>
         <tbody>

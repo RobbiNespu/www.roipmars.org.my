@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Website Interruption for Upgrade</title>
+    <title>Website Interruption for Upgrade</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Gangguan Sementara Interaksi Laman Sesawang [roipmars.com]</p>
       <p class='mb-2'>Berhubung perkara diatas, pihak pengurusan MARS Group ingin memaklumkan bahawa kami akan <strong>menutup sementara sebarang interaksi di laman sesawang</strong> kami (roipmars.com) bagi tujuan naik taraf.</p>
       <p>Ingin kami tekankan disini, <strong>hanya interaksi di laman sesawang sahaja</strong> akan terganggu seperti pendaftaran CS CB, informasi terkini, dsb. Semua aplikasi seperti Teamspeak, eQso, FRN yang terhubung sama sekali tidak akan terjejas dengan ganguan ini.</p>
       <p>Gangguan naik taraf ini akan bermula pada <strong>jam 2 pagi (0200) 23 Mac 2020</strong> sehingga <strong>6 pagi (0600) 25 Mac 2020</strong></p>

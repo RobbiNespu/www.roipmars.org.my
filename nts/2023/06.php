@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Peralihan Pelayan roipmars.com</title>
+    <title>Peralihan Pelayan roipmars.com</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Peralihan Pelayan roipmars.com</p>
       <p>Adalah dimaklumkan bahawa semua maklumat dan <i>data</i> yang kini berada di pelayan roipmars.com &lpar;IPv4: 101.xx.xx.75&rpar; akan beralih ke pelayan lain dengan IP yang baru pada ketetapan berikut;</p>
       <table class='table table-sm table-bordered'>
         <tbody>

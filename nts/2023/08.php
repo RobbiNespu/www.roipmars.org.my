@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Pemberhentian Sementara Net CB RoIPMARS</title>
+    <title>Pemberhentian Sementara Net CB RoIPMARS</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Pemberhentian Sementara Net CB RoIPMARS</p>
       <p>Hasil statistik terkini menunjukkan tiada kenaikan stesen CB yang turut serta dalam Net CB pada setiap hari ahad malam. Oleh disebabkan itu, pihak pengurusan RoIPMARS mengambil keputusan untuk merehatkan Net CB pada setiap ahad malam sehingga satu waktu yang akan diberitahu kelak dan diganti kepada Net Amatur Hujung Minggu pada setiap ahad bermula jam 9 pagi.</p>
       <p>Keputusan ini diambil setelah mengambil kira pelbagai aspek dalaman serta luaran. Perubahan ini akan berkuat kuasa mulai minggu 28/2023.</p>
       <p>Sekiranya ada pihak ketiga atau kumpulan yang ingin menerajui Net CB di Rangkaian RoIPMARS, anda boleh menghubungi pihak pengurusan untuk maklumat lanjut.</p>

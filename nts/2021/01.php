@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Rombakan Isyarat Panggilan Jalur Rakyat</title>
+    <title>Rombakan Isyarat Panggilan Jalur Rakyat</title>
   </head>
 
   <body>
@@ -16,8 +16,7 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Perhatian buat semua pemunya berdaftar Isyarat Panggilan Jalur Rakyat TS3 MARS Group!</p>
-      <p class='mb-2'>Setelah pihak pengurusan server-server MARS Group bermesyuarat, dimaklumkan bahawa beberapa server dibawah kelolaan MARS Group telahpun ditamatkan perkhidmatannya atas sebab sebab yang tidak dapat dielakkan.</p>
+      <p class='mb-2'>Setelah pihak pengurusan MARS Group bermesyuarat, dimaklumkan bahawa beberapa server dibawah kelolaan MARS Group telahpun ditamatkan perkhidmatannya atas sebab sebab yang tidak dapat dielakkan.</p>
       <p>Berikut dinyatakan bahawa beberapa Prefix yang telahpun dirombak;</p>
       <table class='table table-bordered table-sm table-striped'>
         <thead>

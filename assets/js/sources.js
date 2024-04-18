@@ -14,6 +14,9 @@ if (location.port) {
 let currentHost = location.protocol + '//' + location.hostname + currentPort
 let currentDomain = location.hostname
 let currentURL = document.URL
+if (currentPage != 'index') {
+	document.querySelector('title').innerText = `RoIPMARS Network | ${document.title}`
+}
 let docTitle = document.title
 let docPar = document.querySelectorAll('p')
 let list = [].slice.call(docPar)
@@ -56,8 +59,8 @@ const favIcons = `<link rel="apple-touch-icon" sizes="180x180" href="${currentHo
 <link rel="manifest" href="${currentHost}/assets/image/icon/site.webmanifest">\
 <link rel="mask-icon" href="${currentHost}/assets/image/icon/safari-pinned-tab.svg" color="#336699">\
 <link rel="shortcut icon" href="${currentHost}/assets/image/icon/favicon.ico">\
-<meta name="apple-mobile-web-app-title" content="RoIPMARS">\
-<meta name="application-name" content="RoIPMARS">\
+<meta name="apple-mobile-web-app-title" content="RoIPMARS Network">\
+<meta name="application-name" content="RoIPMARS Network">\
 <meta name="msapplication-TileColor" content="#2d89ef">\
 <meta name="msapplication-TileImage" content="${currentHost}/assets/image/icon/mstile-144x144.png">\
 <meta name="msapplication-config" content="${currentHost}/assets/image/icon/browserconfig.xml">\

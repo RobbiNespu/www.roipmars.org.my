@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | 477MHz FB-PRS</title>
+    <title>477MHz FB-PRS</title>
   </head>
 
   <body>

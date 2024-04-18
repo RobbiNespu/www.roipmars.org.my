@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Notice Teamspeak Connection Issue</title>
+    <title>Notice Teamspeak Connection Issue</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Notis perubahan alamat server TS3 di bawah naungan MARS</p>
       <p>Berhubung perkara diatas, pihak pengurusan MARS ingin memaklumkan bahawa kami sedang menyelenggara sistem <span class='fst-italic'>Domain Name System (DNS)</span> kami.</p>
       <p>Namun begitu, sistem tersebut tidak dapat menghasilkan apa yang kami harapkan. Antara masalah yang telah ditemui adalah ketidakboleh kerja TSDNS bagi aplikasi Teamspeak.</p>
       <p>Terdapat beberapa server Teamspeak dibawah naungan kami terjejas dengan isu ini. Jadi, bagi mengatasi masalah ini, pengguna perlu menukar alamat server ke subdomain yang baru. Server yang tidak tersenarai di bawah alamatnya tidak terjejas, anda boleh masuk seperti biasa. Server yang terjejas dan subdomain yang baru adalah seperti jadual di bawah</p>

@@ -2,13 +2,13 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Server Maintainence</title>
+    <title>Server Maintenance</title>
   </head>
 
   <body>
     <?php include __DIR__.'/../../ntsheader.php' ?>
     <div class='container my-2'>
-      <h1 class='text-center'>Notice Server Maintainence</h1>
+      <h1 class='text-center'>Notice Server Maintenance</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
         <tbody>
           <tr><td>Rujukan Notis</td><td>NtsMARS2020/01</td></tr>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Perhatian buat semua pengguna SERVER TS3 MARS Group!</p>
       <p class='mb-2'>Pihak <i>'data centre'</i> bakal melakukan penyelenggaraan terhadap MyIX (Malaysia Internet Exchange) pada ketetapan berikut: (30 minit <i>downtime</i>)</p>
       <table class='table table-bordered table-sm table-striped'>
         <thead>

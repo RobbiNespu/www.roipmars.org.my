@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Notis Perubahan Jadual Net di RoIPMARS</title>
+    <title>Notis Perubahan Jadual Net di RoIPMARS</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Notis Rombakan dan Perubahan Jadual Net di RoIPMARS</p>
       <p>Merujuk semula kepada laporan-laporan yang diterima sejak kebelakangan ini, pihak pengurusan rangkaian RoIPMARS membuat keputusan untuk merombak semula jadual dengan melakukan perubahan dibawah;</p>
         <ol type='i'>
           <li>memansuhkan net pada hari isnin &lpar;kecuali net khas&rpar;;</li>

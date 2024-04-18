@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Usahasama SMP dalam menjayakan aktiviti mingguan</title>
+    <title>Usahasama SMP dalam menjayakan aktiviti mingguan</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Notis Rombakan dan Perubahan Jadual Net di RoIPMARS &lpar;Samb.&rpar;</p>
       <p class='mt-2'>Merujuk semula kepada notis <a href='10' target='_blank'>NtsMARS2023/10</a>.</p>
       <p>Hasil mesyuarat dalaman, Ketua Bahagian Siaraya &amp; Aktiviti telah membuat keputusan untuk meneruskan aktiviti net seperti ketetapan dibawah;</p>
       <table class='table table-sm table-bordered text-center align-middle caption-top'>

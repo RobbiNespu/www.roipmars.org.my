@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</title>
+    <title>Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Penafian Sambungan ke Pengulang dari Rangkaian RoIPMARS</p>
       <p>Adalah dimaklumkan bahawa rangkaian RoIPMARS <strong>tidak pernah dan tidak akan</strong> dengan <strong>niat atau tidak</strong> menyambungkan rangkaian kami ke mana-mana jaringan pengulang yang bukan milik kami tanpa kebenaran bertulis dari kedua-dua belah pihak.</p>
       <p>Sehubungan dengan kejadian baru-baru ini, pihak kami juga terkejut dengan apa yang telah berlaku, namun kejadian tersebut dapat diselesaikan oleh Pegawai Rangkaian kami dengan pantas dan kami tidak akan bertanggungjawab atas apa yang telah berlaku.</p>
       <p>Kami memohon agar semua penggiat radio perantara &lpar;gateway&rpar; untuk tidak melakukan sambungan dari mana-mana rangkaian kami ke mana-mana pengulang tanpa keizinan bertulis dari kedua-dua pihak.</p>

@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Notis Rombakan Isyarat Panggilan Jalur Rakyat</title>
+    <title>Notis Rombakan Isyarat Panggilan Jalur Rakyat</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Rombakan Semua Isyarat Panggilan Jalur Rakyat Kumpulan RoIPMARS</p>
       <p>Merujuk semula kepada notis <a href='../2021/01'>NtsMARS2021/01</a> &amp; <a href='05'>NtsMARS2023/05</a>, pihak pengurusan tertinggi Rangkaian RoIPMARS membuat keputusan untuk merombak semua isyarat panggilan jalur rakyat dibawah naungannya kepada hanya satu prefix yang sah digunakan iaitu xxMSxx dimana kod negara tidak berubah.</p>
       <p>Keputusan ini diputuskan atas sebab tiada lagi jawatankuasa bertindak untuk mengawal semua jaringan dan pendaftaran jalur rakyat sebelum ini. Selepas ini, segala pendaftaran dan kawalan adalah dibawah Rangkaian RoIPMARS dimana isyarat panggilan yang sah hanya xxMSxx.</p>
       <p>Berikut senarai semua Prefix sebelum ini yang dirombak;</p>

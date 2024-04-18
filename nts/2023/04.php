@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Penyelenggaraan Kemas Kini Perisian Tegar Pelayan - 12 Mei 2023</title>
+    <title>Penyelenggaraan Kemas Kini Perisian Tegar Pelayan - 12 Mei 2023</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Penyelenggaraan Pelayan - 12 Mei 2023</p>
       <p class='mb-2'>Harap maklum bahawa Pasukan Penyelenggaraan Pusat Data akan menjalankan penyelenggaraan pelayan untuk mengemas kini perisian tegar <i>&lpar;firmware&rpar;</i> peralatan di Pusat Data. Oleh yang demikian, akan ada masa henti untuk semua pelayan yang berada di Pusat Data, kerana pelayan akan dibut semula beberapa kali semasa proses selenggara.</p>
       <p>Penyelenggaraan ini adalah penting untuk mengelakkan sebarang kelemahan yang mungkin membahayakan dan menjejaskan keselamatan pelayan.</p>
       <p>Butiran penyelenggaraan adalah seperti berikut:

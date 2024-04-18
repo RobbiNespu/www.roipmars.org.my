@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Downloads Webpage</title>
+    <title>Downloads Webpage</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Makluman buat pengguna TeamSpeak samada baru mahupun sedia ada</p>
       <p class='mb-2'>Berhubung dengan perkara diatas, bermula Februari 2020, pihak pengurusan MARS Group bakal mengambil inisiatif untuk memberitahu kepada umum bagaimana untuk berhubung dengan MARS Group.</p>
       <p>Segala platform perhubungan (Teamspeak, Echolink, Zello, eQSO, FRN) akan dibuat video 'tutorial' dan akan dimuatnaik di [<a href='/howto' target='_blank'>Tutorial</a>] untuk rujukan kita bersama. </p>
       <p>Berikut merupakan senarai laman:</p>

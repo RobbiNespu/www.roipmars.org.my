@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | 27MHz CB-MY2000</title>
+    <title>27MHz CB-MY2000</title>
   </head>
 
   <body>

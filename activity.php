@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Aktiviti &amp; Program</title>
+    <title>Aktiviti &amp; Program</title>
   </head>
 
   <body>

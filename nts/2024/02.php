@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Naik Taraf Sistem Operasi Pelayan Berjadual</title>
+    <title>Naik Taraf Sistem Operasi Pelayan Berjadual</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Naik Taraf Sistem Operasi Pelayan Berjadual</p>
       <p>Adalah dmaklumkan tentang naik taraf akan datang bagi meningkatkan prestasi dan keselamatan infrastruktur kami. Naik taraf ini adalah sebahagian daripada usaha berterusan kami untuk menyediakan anda dengan teknologi terkini dan paling selamat.</p>
       <p>Semasa berlakunya naik taraf, akan terdapat gangguan sementara pada perkhidmatan kami. Kami menjangkakan masa henti yang minimum, dan pasukan kami akan bekerja dengan gigih untuk menyelesaikan proses dengan cekap.</p>
       <table class='table table-sm align-middle caption-top'>

@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Penyelenggaraan Menaik Taraf Perisian Tegar Rangkaian - 25 Mac 2023</title>
+    <title>Penyelenggaraan Menaik Taraf Perisian Tegar Rangkaian - 25 Mac 2023</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Penyelenggaraan Rangkaian - 25 Mac 2023</p>
       <p class='mb-2'>Harap maklum bahawa Pasukan Penyelenggaraan Pusat Data akan menjalankan penyelenggaraan rangkaian untuk menaik taraf perisian tegar <i>&lpar;firmware&rpar;</i> peralatan rangkaian di Pusat Data MYI dan MYS.</p>
       <p>Penyelenggaraan ini adalah penting untuk mengelakkan sebarang kelemahan yang mungkin membahayakan dan menjejaskan keselamatan rangkaian.</p>
       <p>Butiran penyelenggaraan adalah seperti berikut:

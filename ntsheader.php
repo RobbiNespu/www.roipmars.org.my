@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class='vstack text-end me-5'>
-          <h2 class='h2 ft-orbitron-black'>Jaringan RoIPMARS</h2>
+          <h2 class='fs-1 ft-orbitron-black'>Jaringan RoIPMARS</h2>
           <p class='fs-5 ft-orbitron'>roipmars.com &mdash; roipmars.org.my</p>
         </div>
       </div>

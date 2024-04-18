@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Notis Henti Operasi Pelayan roipmars.com</title>
+    <title>Notis Henti Operasi Pelayan roipmars.com</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Notis Henti Operasi Pelayan roipmars.com</p>
       <p>Merujuk kepada perkara diatas, adalah dimaklumkan bahawa semua perkhidmatan dibawah seliaan roipmars.com akan dihentikan operasinya.</p>
       <p>Setelah diteliti dengan lebih lanjut, Pihak Pengurusan Jaringan RoIPMARS mengambil keputusan untuk menghentikan operasinya pada tarikh akhir tempoh pembiayaanya atas beberapa faktor yang tidak dapat dielakkan. Pelayan roipmars.com adalah sebuah pelayan yang dibiaya sepenuhnya oleh Arwah Zulkifli Abu dan dikawal selia bersama Pentadbir Jaringan RoIPMARS.</p>
       <table class='table table-sm align-middle caption-top'>

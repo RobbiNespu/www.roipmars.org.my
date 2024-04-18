@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Soalan Lazim</title>
+    <title>Soalan Lazim</title>
   </head>
 
   <body> <?php require_once 'header.php' ?> <div class='container'>

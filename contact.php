@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Hubungi Kami</title>
+    <title>Hubungi Kami</title>
   </head>
 
   <body>

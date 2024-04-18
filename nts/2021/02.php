@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Penyeleggaraan Aplikasi</title>
+    <title>Penyeleggaraan Aplikasi</title>
   </head>
 
   <body>
@@ -16,15 +16,14 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Penyeleggaraan migrasi tidak berjadual</p>
       <p class='mb-2'>Harap Maaf buat semua pengguna MARS Group kerana tidak dapat menggunakan perkhidmatan kami sejak Isnin, 9 Ogos 2021. Pihak kami sedang membuat penyelenggaraan migrasi tidak berjadual terhadap semua 'server' dan 'domain' di bawah kelolaan kami.</p>
       <p>Penyelengaraan tersebut meliputi aplikasi</p>
       <ul type='circle'>
         <li>TeamSpeak</li>
         <li>Conference Server (TS Add-On)</li>
-        <li><s>FRN</s></li>
-        <li><s>Mumble</s></li>
-        <li><s>eQSO</s></li>
+        <li>FRN</li>
+        <li>Mumble</li>
+        <li>eQSO</li>
       </ul>
       <p>Semua penyelengaraan ini dijangka selesai pada</p>
       <table class='table table-sm table-responsive table-bordered text-center'>

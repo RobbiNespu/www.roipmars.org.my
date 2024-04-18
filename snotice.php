@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Notis Perkhidmatan</title>
+    <title>Notis Perkhidmatan</title>
   </head>
 
   <body>

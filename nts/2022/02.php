@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Perubahan Platform Kedai RoIPMARS</title>
+    <title>Perubahan Platform Kedai RoIPMARS</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Perubahan Platform <a href='https://kedai.roipmars.org.my/' target='_blank'>Kedai.RoIPMARS.org.MY</a> berkuatkuasa serta merta</p>
       <p class='mb-2'>Adalah dengan ini dimaklumkan bahawa platform kedai kami sebelum ini mempunyai ralat kritikal yang menjadikan platform tersebut tidak dapat berfungsi dengan sempurna.</p>
       <p>Namun begitu, pihak pengurusan teknikal kami telahpun mengambil insiatif dengan serta merta menukar ke platform lain. Segala maklumat dari platform lama telahpun dibuang dan tidak lagi dapat diperoleh kembali.</p>
       <p>Diharap mana-mana pihak yang telahpun mendaftar di platform lama untuk mendaftar kembali di platform yang baru bagi membolehkan pembelian barangan kami.</p>

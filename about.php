@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Tentang Kami</title>
+    <title>Tentang Kami</title>
     <link rel='stylesheet' href='/assets/css/timeline.css'>
   </head>
 

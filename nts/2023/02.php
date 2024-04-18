@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Gangguan Sambungan Berjadual RoIPDarulAman</title>
+    <title>Gangguan Sambungan Berjadual RoIPDarulAman</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Penyelenggaraan Berjadual '<em>domain</em>' &amp; pelayan RoIPDarulAman</p>
       <p class='mb-2'>Berhubung perkara diatas, pihak Pengurusan Pelayan Kumpulan RoIPMARS ingin memaklumkan bahawa ralat sambungan bakal berlaku pada pelayan TeamSpeak3 dan Laman Sesawang untuk '<em>domain</em>' &amp; pelayan '<strong>roipdarulaman.com</strong>' bagi membolehkan pihak pengurus rangkaian membuat penyelenggaraan keseluruhan untuk kelancaran sistem dimasa akan datang.</p>
       <p>Maklumat penyeleggaraan adalah seperti berikut:
         <table class='table table-bordered align-middle'>

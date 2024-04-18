@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Server Downtime 30 Aug 2020</title>
+    <title>Server Downtime 30 Aug 2020</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Notis Server Maintenance Downtime</p>
       <p>Berhubung perkara diatas, pihak pengurusan Persatuan Peminat Radio Komunikasi (ROIP) / MARS ingin memaklumkan berkenaan ketidakboleh akses kepada server TeamSpeak3, FRN, eQSO, dan Laman Sesawang yang dijalankan di 'domain' &amp; server 'roipmars.com' yang berpusat di Cyberjaya, Malaysia bagi membolehkan pihak pusat maklumat (datacenter) membuat penyelenggaraan bagi kelancaran dimasa akan datang.</p>
       <p>Maklumat penyeleggaraan adalah seperti berikut:
       <table class='table table-bordered'>

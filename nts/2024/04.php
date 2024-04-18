@@ -2,7 +2,7 @@
 <html lang='ms-MY' data-bs-theme='auto'>
 
   <head>
-    <title>RoIPMARS Network | Notis Peralihan Koleksi Sijil &amp; eQSL</title>
+    <title>Notis Peralihan Koleksi Sijil &amp; eQSL</title>
   </head>
 
   <body>
@@ -16,7 +16,6 @@
         </tbody>
       </table>
       <p class='lh-sm'>Pengguna yang dihormati,</p>
-      <p class='fs-2 fw-bold text-decoration-underline'>Per: Notis Peralihan Koleksi Sijil &amp; eQSL</p>
       <p>Merujuk kepada perkara diatas, adalah dimaklumkan bahawa koleksi sijil &amp; eQSL akan dialihkan bagi memberi ruang kepada peruntukan sumber pelayan kami untuk jangka panjang.</p>
       <table class='table table-sm align-middle'>
         <tbody>

@@ -55,8 +55,8 @@
                 <a class='nav-link ms-3 my-1' href='#wbprotection'>Perlindungan Pemberi Maklumat</a>
                 <a class='nav-link ms-3 my-1' href='#wbresponsibilty'>Tanggungjawab Pemberi Maklumat</a>
               </nav>
-              <a class='nav-link' href='#ncs'>Petugas Aktiviti</a>
-              <a class='nav-link' href='#svcsubs'>Langganan Pelayan</a>
+              <!-- <a class='nav-link' href='#ncs'>Petugas Aktiviti</a>
+              <a class='nav-link' href='#svcsubs'>Langganan Pelayan</a> -->
             </nav>
           </nav>
         </div>
@@ -357,10 +357,10 @@
               <p>Pemberi maklumat mesti membuat pendedahan dengan suci hati dan secara munasabah percaya bahawa maklumat dan dakwaan itu adalah benar. Selain itu, pemberi maklumat tidak seharusnya bertindak untuk kepentingan peribadi, dan jika kes itu melibatkan kepentingan peribadi pengadu, ia mesti dimaklumkan pada awalnya.</p>
               <p>Di &quot;RoIPMARS&quot;, kami mengambil serius kebimbangan anda dan tetap berdedikasi untuk menegakkan etika dan ketelusan tertinggi. Komitmen anda untuk memastikan sebuah organisasi yang bertanggungjawab amat dihargai.</p>
             </div>
-            <hr>
+            <!-- <hr>
             <div id='ncs'></div>
             <hr>
-            <div id='svcsubs'></div>
+            <div id='svcsubs'></div> -->
           </div>
         </div>
       </div>

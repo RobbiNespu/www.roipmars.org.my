@@ -952,6 +952,23 @@ $(document).ready(function () {
 						msgSuccess.show()
 						eCert.save(`${fileName}.pdf`)
 					} else {
+						let IsUserInGroup = await fetch('https://wa-api.roipmars.org.my/api/601153440440/group-members/60127066185-1460002129', {
+							method: 'GET',
+							headers: {
+								'content-type': 'application/json',
+								authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+							},
+						})
+							.then((res) => res.json())
+							.then((data) => {
+								for (const groupusers of data.response) {
+									if (groupusers.id.user == `${WaCtc}`) {
+										return true
+									} else {
+										return false
+									}
+								}
+							})
 						toastInfo.innerHTML = `<div class='toast-body'>sending eCert to ${WaCtc}...</div>`
 						msgInfo.show()
 						let eCertURI = eCert.output('datauristring', { filename: `${fileName}.pdf` })
@@ -979,6 +996,21 @@ $(document).ready(function () {
 										body: JSON.stringify({
 											callsign: `${caller}`,
 											contact: `${WaCtc}`,
+										}),
+									})
+								}
+								if (IsUserInGroup == false) {
+									await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-message', {
+										method: 'POST',
+										headers: {
+											'content-type': 'application/json',
+											authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+										},
+										body: JSON.stringify({
+											phone: WaCtc,
+											isGroup: false,
+											isNewsletter: false,
+											message: `Hai ${caller},\n\nAnda dijemput menyertai kumpulan WhatsApp RoIPMARS melalui pautan ini: https://chat.whatsapp.com/JFE98UvEJDaHG8nkJfQA1b`,
 										}),
 									})
 								}

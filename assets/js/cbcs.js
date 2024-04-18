@@ -74,7 +74,7 @@ $(document).ready(function () {
 				await fetch('https://api.roipmars.org.my/hook/certerr', {
 					method: 'POST',
 					headers: { 'content-type': 'application/json' },
-					body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.message }),
+					body: JSON.stringify({ call: cbcsCall, id: cbcsID, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.message }),
 				})
 				toastDanger.innerHTML = `<div class='toast-body'>generator script error. reload required.</div>`
 				msgDanger.show()
@@ -185,6 +185,23 @@ $(document).ready(function () {
 				msgSuccess.show()
 				cbcsCert.save(`${fileName}.pdf`)
 			} else {
+				let IsUserInGroup = await fetch('https://wa-api.roipmars.org.my/api/601153440440/group-members/601110795693-1580955360', {
+					method: 'GET',
+					headers: {
+						'content-type': 'application/json',
+						authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+					},
+				})
+					.then((res) => res.json())
+					.then((data) => {
+						for (const groupusers of data.response) {
+							if (groupusers.id.user == `${WaCtc}`) {
+								return true
+							} else {
+								return false
+							}
+						}
+					})
 				toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>sending Certificate to ${WaCtc}...</div>`
 				msgInfo.show()
 				let eCertURI = cbcsCert.output('datauristring', { filename: `${fileName}.pdf` })
@@ -200,7 +217,6 @@ $(document).ready(function () {
 						isNewsletter: false,
 						filename: `${fileName}.pdf`,
 						base64: eCertURI,
-						caption: `Hai ${call},\n\nAnda dijemput menyertai kumpulan WhatsApp Jalur Rakyat RoIPMARS melalui pautan ini: https://chat.whatsapp.com/HIzqDJsESMJ67POmbIqbne`,
 					}),
 				}).then(async (res) => {
 					if (res.ok) {
@@ -213,6 +229,21 @@ $(document).ready(function () {
 								body: JSON.stringify({
 									callsign: `${call}`,
 									contact: `${WaCtc}`,
+								}),
+							})
+						}
+						if (IsUserInGroup == false) {
+							await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-message', {
+								method: 'POST',
+								headers: {
+									'content-type': 'application/json',
+									authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+								},
+								body: JSON.stringify({
+									phone: WaCtc,
+									isGroup: false,
+									isNewsletter: false,
+									message: `Hai ${call},\n\nAnda dijemput menyertai kumpulan WhatsApp Jalur Rakyat RoIPMARS melalui pautan ini: https://chat.whatsapp.com/HIzqDJsESMJ67POmbIqbne`,
 								}),
 							})
 						}

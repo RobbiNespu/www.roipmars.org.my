@@ -2,9 +2,8 @@
 	{ "label": "Rangkaian\nSekunder\nRoIPMARS\nCB" },
 	{ "label": "113RG11\nOJ03RF", "parent": 0 },
 	{ "label": "91KMEGG\nOI42BJ", "parent": 0 },
-	{ "label": "Free Radio Network\nroipmars.org.my", "parent": 1 },
 	{ "label": "Zello\n[Android Team\nCB Radio GATEWAY]", "parent": 1 },
+	{ "label": "🎧Live Feed\ncblive.mhrtech.my", "parent": 1 },
 	{ "label": "Teamspeak\nkopdarmobile.id", "parent": 2 },
-	{ "label": "Zello\n[kopdarmobile]", "parent": 2 },
-	{ "label": "🎧Live Feed\ncblive.mhrtech.my", "parent": 3 }
+	{ "label": "Zello\n[kopdarmobile]", "parent": 2 }
 ]

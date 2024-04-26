@@ -5,7 +5,9 @@
     <title>Soalan Lazim</title>
   </head>
 
-  <body> <?php require_once 'header.php' ?> <div class='container'>
+  <body>
+    <?php require_once 'header.php' ?>
+    <div class='container'>
       <h1 class='h1 text-center'>Soalan Lazim</h1>
       <div class='row'>
         <div class='col-8'>
@@ -447,6 +449,8 @@
           </table>
         </div>
       </div>
-    </div> <?php require_once 'footer.php' ?> </body>
+    </div>
+    <?php require_once 'footer.php' ?>
+  </body>
 
 </html>

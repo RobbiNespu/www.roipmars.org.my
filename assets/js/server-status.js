@@ -43,17 +43,6 @@ modal.addEventListener('show.bs.modal', (event) => {
 				</td>
 			</tr>
 			<tr>
-				<th>TeamSpeak<br>&lpar;roipmars.com&rpar;</th>
-				<td>
-					<img src='${statBadge}/23/status?style=${statBadgeStyle}' loading='lazy' alt='roipmarscom-teamspeak-server status'> <img src='${statBadge}/23/response?style=${statBadgeStyle}' loading='lazy' alt='roipmarscom-teamspeak-server response time'>
-					<br>
-					<img src='${statBadge}/23/uptime?style=${statBadgeStyle}' loading='lazy' alt='roipmarscom-teamspeak-server uptime'>
-					<br>
-					<img src='${statBadge}/23/ping?style=${statBadgeStyle}' loading='lazy' alt='roipmarscom-teamspeak-server average ping'>
-					<img src='${statBadge}/23/avg-response?style=${statBadgeStyle}' loading='lazy' alt='roipmarscom-teamspeak-server average response time'>
-				</td>
-			</tr>
-			<tr>
 				<th>Mumble<br>&lpar;roipmars.org.my&rpar;</th>
 				<td>
 					<img src='${statBadge}/35/status?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-mumble-server status'> <img src='${statBadge}/35/response?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-mumble-server response time'>

@@ -105,10 +105,6 @@
 							<div class='carousel-item'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yb1ell.png' alt='YB1ELL'>
-										<p class='lh-1 my-0'>YB1ELL<br><span class='fw-bold'>WAHYUNI</span></p>
-									</div>
-									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc4aum.png' alt='YC4AUM'>
 										<p class='lh-1 my-0'>YC4AUM<br><span class='fw-bold'>INDRA</span></p>
 									</div>

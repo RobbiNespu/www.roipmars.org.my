@@ -73,3 +73,29 @@ const bodyStartLinks = `<noscript><iframe src="https://www.googletagmanager.com/
 <script>var chatbox = document.getElementById("fb-customer-chat"); chatbox.setAttribute("page_id", "100870702762488"); chatbox.setAttribute("attribution", "biz_inbox");</script>\
 <script>window.fbAsyncInit = function() {FB.init({xfbml: true,version: "v18.0"}); }; (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;js.src = "https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js"; fjs.parentNode.insertBefore(js, fjs); }(document, "script", "facebook-jssdk"));</script>`
 document.body.insertAdjacentHTML('afterbegin', bodyStartLinks)
+
+function dtCFormat(input) {
+	return new Intl.DateTimeFormat('ms-MY', {
+		formatMatcher: 'basic',
+		day: 'numeric',
+		month: 'short',
+		year: 'numeric',
+		hour: 'numeric',
+		minute: '2-digit',
+		timeZoneName: 'short',
+		hour12: false,
+	}).format(new Date(input))
+}
+
+function lastMod(url) {
+	try {
+		var req = new XMLHttpRequest()
+		req.open('HEAD', url, false)
+		req.send(null)
+		if (req.status == 200) {
+			return dtCFormat(req.getResponseHeader('Last-Modified'))
+		} else return false
+	} catch (er) {
+		return er.message
+	}
+}

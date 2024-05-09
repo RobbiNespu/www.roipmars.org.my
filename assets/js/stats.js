@@ -11,34 +11,6 @@ const byCSLocaleWeek = document.getElementById('byCSLocaleWeek')
 const byCSLocaleDays = document.getElementById('byCSLocaleDays')
 const byCountry = document.getElementById('byCountry')
 
-function dtCFormat(input) {
-  return new Intl.DateTimeFormat('ms-MY', {
-    formatMatcher: 'basic',
-    day: 'numeric',
-    month: 'short',
-    year: 'numeric',
-    hour: 'numeric',
-    minute: '2-digit',
-    timeZoneName: 'short',
-    hour12: false,
-    // timeZone: 'Asia/Kuala_Lumpur'
-  }).format(new Date(input))
-}
-
-function lastMod(url) {
-  try {
-    var req = new XMLHttpRequest()
-    req.open('HEAD', url, false)
-    req.send(null)
-    if (req.status == 200) {
-      return dtCFormat(req.getResponseHeader('Last-Modified'))
-    }
-    else return false
-  } catch (er) {
-    return er.message
-  }
-}
-
 Chart.register(ChartDeferred)
 Chart.register(ChartjsPluginStacked100.default)
 Chart.defaults.backgroundColor= window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg')

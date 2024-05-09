@@ -27,7 +27,7 @@ if (dochamLive || dochamLiveAud) {
   $.getJSON(hamLiveOwnHook, function (data) {
     let status = data.status
     if (status) {
-      dochamLiveAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls preload="metadata"><source src="https://mhrtech.my:5000/htmlaudioplayerfeed" type="audio/mp3"></source><source src="https://mhrtech.my:5000/feed.m3u" type="audio/mpeg"></source>Pelayar anda tidak menyokong tag audio.</audio></div><span>Siaran mungkin tertunda sehingga 10 minit bergantung pada kecekapan jaringan.<br>Sebagai alternatif, anda boleh mendengar di: <a href="https://mhrtech.my:5000" target="_blank">hamlive.mhrtech.my</a>; periksa kelajuan jaringan: <a href="https://speed.mhrtech.my" target="_blank">speed.mhrtech.my</a>; </span>'
+      dochamLiveAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls preload="metadata"><source src="https://mhrtech.my:5000/htmlaudioplayerfeed" type="audio/mp3"></source><source src="https://mhrtech.my:5000/feed.m3u" type="audio/mpeg"></source>Pelayar anda tidak menyokong tag audio.</audio></div><span>Siaran mungkin tertunda sehingga 10 minit bergantung pada kecekapan jaringan.<br>Sebagai alternatif, anda boleh mendengar di: <a href="https://mhrtech.my:5000" target="_blank">hamlive.mhrtech.my</a>; periksa kelajuan jaringan: <a href="https://speed.roipmars.org.my" target="_blank">speed.roipmars.org.my</a>; </span>'
     } else {
       dochamLiveAud.innerHTML = ''
     }
@@ -57,7 +57,7 @@ if (doccbLive || doccbLiveAud) {
   $.getJSON(cbLiveOwnHook, function (data) {
     let status = data.status
     if (status) {
-      doccbLiveAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls preload="metadata"><source src="https://mhrtech.my:5001/htmlaudioplayerfeed" type="audio/mp3"></source><source src="https://mhrtech.my:5001/feed.m3u" type="audio/mpeg"></source>Pelayar anda tidak menyokong tag audio.</audio></div><span>Siaran mungkin tertunda sehingga 10 minit bergantung pada kecekapan jaringan.<br>Sebagai alternatif, anda boleh mendengar di: <a href="https://mhrtech.my:5001" target="_blank">cblive.mhrtech.my</a>; periksa kelajuan jaringan: <a href="https://speed.mhrtech.my" target="_blank">speed.mhrtech.my</a>; </span>'
+      doccbLiveAud.innerHTML = '<div class="col-12 mt-2"><audio class="rounded-5 w-75 mx-auto" controls preload="metadata"><source src="https://mhrtech.my:5001/htmlaudioplayerfeed" type="audio/mp3"></source><source src="https://mhrtech.my:5001/feed.m3u" type="audio/mpeg"></source>Pelayar anda tidak menyokong tag audio.</audio></div><span>Siaran mungkin tertunda sehingga 10 minit bergantung pada kecekapan jaringan.<br>Sebagai alternatif, anda boleh mendengar di: <a href="https://mhrtech.my:5001" target="_blank">cblive.mhrtech.my</a>; periksa kelajuan jaringan: <a href="https://speed.roipmars.org.my" target="_blank">speed.roipmars.org.my</a>; </span>'
     } else {
       doccbLiveAud.innerHTML = ''
     }

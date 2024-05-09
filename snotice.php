@@ -25,7 +25,7 @@
           <tbody>
             <tr>
               <td>27 Mac 2024</td>
-              <td>Naik Peralihan Koleksi Sijil &amp; eQSL</td>
+              <td>Peralihan Koleksi Sijil &amp; eQSL</td>
               <td><a type='button' class='btn btn-outline-secondary d-grid' href='nts/2024/04' target='_blank'>NtsMARS 2024/04</a></td>
             </tr>
             <tr>

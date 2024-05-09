@@ -14,17 +14,14 @@ const byCountry = document.getElementById('byCountry')
 function dtCFormat(input) {
   return new Intl.DateTimeFormat('ms-MY', {
     formatMatcher: 'basic',
-    weekday: 'long',
     day: 'numeric',
-    month: 'long',
+    month: 'short',
     year: 'numeric',
     hour: 'numeric',
     minute: '2-digit',
-    dayPeriod: 'long',
-    timeZoneName: 'longGeneric',
-    hour12: true,
-    hourCycle: 'h12',
-    timeZone: 'Asia/Kuala_Lumpur'
+    timeZoneName: 'short',
+    hour12: false,
+    // timeZone: 'Asia/Kuala_Lumpur'
   }).format(new Date(input))
 }
 
@@ -34,7 +31,7 @@ function lastMod(url) {
     req.open('HEAD', url, false)
     req.send(null)
     if (req.status == 200) {
-      return 'kemaskini: ' + dtCFormat(req.getResponseHeader('Last-Modified'))
+      return dtCFormat(req.getResponseHeader('Last-Modified'))
     }
     else return false
   } catch (er) {
@@ -44,20 +41,26 @@ function lastMod(url) {
 
 Chart.register(ChartDeferred)
 Chart.register(ChartjsPluginStacked100.default)
-Chart.defaults.font.family = 'Source Sans Pro'
+Chart.defaults.backgroundColor= window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg')
+Chart.defaults.borderColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-border-color')
+Chart.defaults.color = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-color')
+Chart.defaults.font.family = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-font-monospace')
 Chart.defaults.font.lineHeight = 1
 Chart.defaults.font.size = 10
 Chart.defaults.plugins.deferred.delay = 1000
 Chart.defaults.plugins.deferred.yOffset = '80%'
 Chart.defaults.plugins.legend.position = 'top'
-Chart.defaults.plugins.subtitle.align = 'right'
-Chart.defaults.plugins.subtitle.display = true
-Chart.defaults.plugins.subtitle.padding = { bottom: 1, top: 1.5 }
-Chart.defaults.plugins.subtitle.position = 'top'
 Chart.defaults.plugins.title.display = true
-Chart.defaults.plugins.title.font = { size: 16, weight: 'bold' }
-Chart.defaults.plugins.title.padding = { bottom: 1.5, top: 1 }
+Chart.defaults.plugins.title.font.family = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-font-family')
+Chart.defaults.plugins.title.font.lineHeight = 1
+Chart.defaults.plugins.title.font.size = 18
+Chart.defaults.plugins.title.font.weight = 'bold'
+Chart.defaults.plugins.title.padding = { top: 0, bottom: 1 }
 Chart.defaults.plugins.title.position = 'top'
+Chart.defaults.plugins.subtitle.display = true
+Chart.defaults.plugins.subtitle.align = 'end'
+Chart.defaults.plugins.subtitle.padding = { top: 1, bottom: 0 }
+Chart.defaults.plugins.subtitle.position = 'top'
 const wmOptions = {
   image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_oglow_f-50.png',
   opacity: 0.2,

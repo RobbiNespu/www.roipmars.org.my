@@ -1,16 +1,46 @@
 const rndHAMtree = document.getElementById('rndHAMtree')
 const rndCBtree = document.getElementById('rndCBtree')
 
+function dtCFormat(input) {
+	return new Intl.DateTimeFormat('ms-MY', {
+		formatMatcher: 'basic',
+		day: 'numeric',
+		month: 'short',
+		year: 'numeric',
+		hour: 'numeric',
+		minute: '2-digit',
+		dayPeriod: 'short',
+		timeZoneName: 'short',
+		hour12: false,
+		timeZone: 'Asia/Kuala_Lumpur',
+	}).format(new Date(input))
+}
+
+function lastMod(url) {
+	try {
+		var req = new XMLHttpRequest()
+		req.open('HEAD', url, false)
+		req.send(null)
+		if (req.status == 200) {
+			return 'kemaskini: ' + dtCFormat(req.getResponseHeader('Last-Modified'))
+		} else return false
+	} catch (er) {
+		return er.message
+	}
+}
+
 Chart.register(ChartDeferred)
 Chart.register(ChartDataLabels)
-Chart.defaults.font.family = 'Source Sans Pro'
+Chart.defaults.backgroundColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg')
+Chart.defaults.borderColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-border-color')
+Chart.defaults.color = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-color')
+Chart.defaults.font.family = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-font-monospace')
 Chart.defaults.font.lineHeight = 1
 Chart.defaults.font.size = 12
 Chart.defaults.plugins.datalabels.backgroundColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-tertiary-bg')
-Chart.defaults.plugins.datalabels.borderColor = '#336699'
+Chart.defaults.plugins.datalabels.borderColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-border-color')
 Chart.defaults.plugins.datalabels.borderRadius = 5
 Chart.defaults.plugins.datalabels.borderWidth = 1
-Chart.defaults.plugins.datalabels.color = '#56C3E7'
 Chart.defaults.plugins.datalabels.clamp = true
 Chart.defaults.plugins.datalabels.font.lineHeight = 1
 Chart.defaults.plugins.datalabels.textAlign = 'center'
@@ -18,11 +48,15 @@ Chart.defaults.plugins.datalabels.padding = { top: 2, bottom: 2, left: 4, right:
 Chart.defaults.plugins.deferred.delay = 1000
 Chart.defaults.plugins.deferred.yOffset = '50%'
 Chart.defaults.plugins.legend.display = false
-Chart.defaults.plugins.title.color = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis')
 Chart.defaults.plugins.title.display = true
-Chart.defaults.plugins.title.font = { weight: 'bold', size: 18 }
-Chart.defaults.plugins.title.padding = { top: 1, bottom: 20 }
-Chart.defaults.plugins.title.position = 'top'
+Chart.defaults.plugins.title.font.family = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-font-family')
+Chart.defaults.plugins.title.font.lineHeight = 1
+Chart.defaults.plugins.title.font.size = 18
+Chart.defaults.plugins.title.font.weight = 'bold'
+Chart.defaults.plugins.subtitle.display = true
+Chart.defaults.plugins.subtitle.align = 'end'
+Chart.defaults.plugins.subtitle.padding = { top: 1, bottom: 0 }
+Chart.defaults.plugins.subtitle.position = 'top'
 Chart.defaults.plugins.tooltip.enabled = false
 const wmOptions = {
 	image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_oglow_f-50.png',
@@ -53,7 +87,10 @@ fetch('/assets/json/rnd-ham-tree.json')
 			},
 			options: {
 				layout: { padding: { bottom: 20, left: 100, right: 100, top: 5 } },
-				plugins: { title: { text: 'RoIPMARS HAM Network' } },
+				plugins: {
+					subtitle: { text: lastMod('/assets/json/rnd-ham-tree.json') },
+					title: { text: 'RoIPMARS HAM Network' },
+				},
 				watermark: wmOptions,
 			},
 			type: 'forceDirectedGraph',
@@ -79,7 +116,10 @@ fetch('/assets/json/rnd-cb-tree.json')
 			},
 			options: {
 				layout: { padding: { bottom: 20, left: 100, right: 100, top: 5 } },
-				plugins: { title: { text: 'RoIPMARS CB Network' } },
+				plugins: {
+					subtitle: { text: lastMod('/assets/json/rnd-cb-tree.json') },
+					title: { text: 'RoIPMARS CB Network' },
+				},
 				watermark: wmOptions,
 			},
 			type: 'forceDirectedGraph',

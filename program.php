@@ -3,7 +3,7 @@
 
 	<head>
 		<title>Jadual Aktiviti & Program</title>
-		<link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-2.0.3/af-2.7.0/b-3.0.1/b-colvis-3.0.1/b-html5-3.0.1/b-print-3.0.1/cr-2.0.0/date-1.5.2/fc-5.0.0/fh-4.0.1/kt-2.12.0/r-3.0.0/rg-1.5.0/rr-1.5.0/sc-2.4.1/sb-1.7.0/sp-2.3.0/sl-2.0.0/sr-1.4.0/datatables.min.css' crossorigin='anonymous'>
+		<link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/dt-2.0.7/b-3.0.2/b-html5-3.0.2/kt-2.12.0/r-3.0.2/rg-1.5.0/rr-1.5.0/sp-2.3.1/sl-2.0.1/datatables.min.css' crossorigin='anonymous'>
 	</head>
 
 	<body>
@@ -150,11 +150,6 @@
 			<div class='row'>
 				<div class='col-12 my-1 text-center'>
 					<h2 class='font-weight-bold'>Takwim Program</h2>
-					<span><?php
-						$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-						$scheduleLastMod = filemtime(__DIR__ . '/assets/json/sch.json');
-						echo 'kemaskini: ' . datefmt_format($dtfmt, $scheduleLastMod);
-					?></span>
 				</div>
 				<div class='table'>
 					<table class='table table-sm table-striped text-center align-middle user-select-none' id='takwim'>
@@ -180,12 +175,6 @@
 								<div class='modal-body'>
 									<div class='row'>
 										<div class='col-12 align-self-start text-center'>
-											<p class='fst-italic'>
-												<?php
-													$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-													$reportLastMod = filemtime(__DIR__.'/assets/json/netrep.json'); echo 'kemaskini: ' . datefmt_format($dtfmt, $reportLastMod);
-												?>
-											</p>
 											<div class='toast-container position-fixed top-50 start-50 translate-middle p-3 z-3'>
 												<div id='prog-info' class='toast text-bg-info' role='status' aria-live='polite' aria-atomic='true'></div>
 												<div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
@@ -239,11 +228,6 @@
 				<div class='col-lg-6 figure my-1'><canvas id='byCSLocaleQuarter' loading='lazy' alt='NetGraphCallerQuarter'></canvas></div>
 				<div class='col-lg-9 figure my-1 align-items-center'><canvas id='byCountry' loading='lazy' alt='NetGraphMap'></canvas></div>
 				<div class='col-lg-3 align-self-top'>
-					<p class='text-center fst-italic mb-0'><sub><?php
-					$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-					$reportLastMod = filemtime(__DIR__ . '/assets/json/s-origin.json');
-					echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-					?></sub></p>
 					<table class='table table-sm table-striped text-center align-middle' id='uniq-ham-origin'></table>
 				</div>
 			</div>
@@ -255,20 +239,10 @@
 					<div class='row'>
 						<div class='col-lg-6'>
 							<h4 class='text-center'>Pengawal Tertinggi</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-ncs-a.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='all-ncs-rank'></table>
 						</div>
 						<div class='col-lg-6'>
 							<h4 class='text-center'>Stesen Aktif</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-stn-a.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='all-stn-rank'></table>
 						</div>
 					</div>
@@ -278,20 +252,10 @@
 					<div class='row'>
 						<div class='col-lg-12'>
 							<h4 class='text-center'>Pengawal Tertinggi</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-ncs-en.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='en-ncs-rank'></table>
 						</div>
 						<div class='col-lg-12'>
 							<h4 class='text-center'>Stesen Aktif</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-stn-en.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle'id='en-stn-rank'></table>
 						</div>
 					</div>
@@ -301,20 +265,10 @@
 					<div class='row'>
 						<div class='col-lg-12'>
 							<h4 class='text-center'>Pengawal Tertinggi</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-ncs-ms.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='ms-ncs-rank'></table>
 						</div>
 						<div class='col-lg-12'>
 							<h4 class='text-center'>Stesen Aktif</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-stn-ms.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='ms-stn-rank'></table>
 						</div>
 					</div>
@@ -324,20 +278,10 @@
 					<div class='row'>
 						<div class='col-lg-12'>
 							<h4 class='text-center'>Pengawal Tertinggi</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-ncs-id.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='id-ncs-rank'></table>
 						</div>
 						<div class='col-lg-12'>
 							<h4 class='text-center'>Stesen Aktif</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-stn-id.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='id-stn-rank'></table>
 						</div>
 					</div>
@@ -350,20 +294,10 @@
 					<div class='row'>
 						<div class='col-lg-6'>
 							<h4 class='text-center'>Pengawal Tertinggi</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-ncs-cb.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='cb-ncs-rank'></table>
 						</div>
 						<div class='col-lg-6'>
 							<h4 class='text-center'>Stesen Paling Aktif</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-stn-cb.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='cb-stn-rank'></table>
 						</div>
 					</div>
@@ -374,20 +308,10 @@
 					<div class='row'>
 						<div class='col-lg-6'>
 							<h4 class='text-center'>Pengawal Tertinggi</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-ncs-voi.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='voi-ncs-rank'></table>
 						</div>
 						<div class='col-lg-6'>
 							<h4 class='text-center'>Stesen Paling Aktif</h4>
-							<p class='text-center fst-italic mb-0'><sub><?php
-							$dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-							$reportLastMod = filemtime(__DIR__ . '/assets/json/r-stn-voi.json');
-							echo 'kemaskini:<br>' . datefmt_format($dtfmt, $reportLastMod);
-							?></sub></p>
 							<table class='table table-sm table-striped text-center align-middle' id='voi-stn-rank'></table>
 						</div>
 					</div>
@@ -477,7 +401,7 @@
 			</div>
 		</div>
 		<?php require_once 'footer.php' ?>
-		<script src='https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-2.0.3/af-2.7.0/b-3.0.1/b-colvis-3.0.1/b-html5-3.0.1/b-print-3.0.1/cr-2.0.0/date-1.5.2/fc-5.0.0/fh-4.0.1/kt-2.12.0/r-3.0.0/rg-1.5.0/rr-1.5.0/sc-2.4.1/sb-1.7.0/sp-2.3.0/sl-2.0.0/sr-1.4.0/datatables.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.datatables.net/v/bs5/dt-2.0.7/b-3.0.2/b-html5-3.0.2/kt-2.12.0/r-3.0.2/rg-1.5.0/rr-1.5.0/sp-2.3.1/sl-2.0.1/datatables.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/jspdf@latest/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/program.js'></script>

@@ -57,7 +57,7 @@ $(document).ready(function () {
 		displayStart: 400,
 		ordering: false,
 		lengthChange: false,
-		pageLength: 10,
+		pageLength: 25,
 		pagingTag: 'button',
 		pagingType: 'full_numbers',
 		processing: true,

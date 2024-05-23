@@ -3,7 +3,7 @@
 
   <head>
     <title>Citizen Band CallSign</title>
-		<link rel='stylesheet' href='https://cdn.datatables.net/v/bs5/dt-2.0.7/b-3.0.2/b-html5-3.0.2/kt-2.12.0/r-3.0.2/rg-1.5.0/rr-1.5.0/sp-2.3.1/sl-2.0.1/datatables.min.css' crossorigin='anonymous'>
+		<link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/datatables.net-bs5@latest/css/dataTables.bootstrap5.min.css,npm/datatables.net-autofill-bs5@latest/css/autoFill.bootstrap5.min.css,npm/datatables.net-buttons-bs5@latest/css/buttons.bootstrap5.min.css,npm/datatables.net-colreorder-bs5@latest/css/colReorder.bootstrap5.min.css,npm/datatables.net-fixedcolumns-bs5@latest/css/fixedColumns.bootstrap5.min.css,npm/datatables.net-fixedheader-bs5@latest/css/fixedHeader.bootstrap5.min.css,npm/datatables.net-keytable-bs5@latest/css/keyTable.bootstrap5.min.css,npm/datatables.net-responsive-bs5@latest/css/responsive.bootstrap5.min.css,npm/datatables.net-rowgroup-bs5@latest/css/rowGroup.bootstrap5.min.css,npm/datatables.net-rowreorder-bs5@latest/css/rowReorder.bootstrap5.min.css,npm/datatables.net-scroller-bs5@latest/css/scroller.bootstrap5.min.css,npm/datatables.net-searchbuilder-bs5@latest/css/searchBuilder.bootstrap5.min.css,npm/datatables.net-searchpanes-bs5@latest/css/searchPanes.bootstrap5.min.css,npm/datatables.net-select-bs5@latest/css/select.bootstrap5.min.css,npm/datatables.net-staterestore-bs5@latest/css/stateRestore.bootstrap5.min.css' crossorigin='anonymous'>
   </head>
 
   <body>
@@ -80,8 +80,7 @@
       </div>
     </div>
     <?php require_once 'footer.php' ?>
-		<script src='https://cdn.datatables.net/v/bs5/dt-2.0.7/b-3.0.2/b-html5-3.0.2/kt-2.12.0/r-3.0.2/rg-1.5.0/rr-1.5.0/sp-2.3.1/sl-2.0.1/datatables.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/combine/npm/jszip@latest,npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.min.js,npm/datatables.net@latest,npm/datatables.net-bs5@latest,npm/datatables.net-autofill-bs5@latest,npm/datatables.net-buttons-bs5@latest,npm/datatables.net-colreorder-bs5@latest,npm/datatables.net-fixedcolumns-bs5@latest,npm/datatables.net-fixedheader-bs5@latest,npm/datatables.net-keytable-bs5@latest,npm/datatables.net-responsive-bs5@latest,npm/datatables.net-rowgroup-bs5@latest,npm/datatables.net-rowreorder-bs5@latest,npm/datatables.net-scroller-bs5@latest,npm/datatables.net-searchbuilder-bs5@latest,npm/datatables.net-searchpanes-bs5@latest,npm/datatables.net-select-bs5@latest,npm/datatables.net-staterestore-bs5@latest' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jspdf@latest/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
     <script src='/assets/js/cbcs.js'></script>
   </body>

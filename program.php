@@ -66,7 +66,7 @@
 									</div>
 									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png' alt='9M6JAY'>
-										<p class='lh-1 my-0'>9M6JAY<br><span class='fw-bold'>JOHN JR.</span></p>
+										<p class='lh-1 my-0'>9M6JAY<br><span class='fw-bold'>JOHN JOSHUA</span></p>
 									</div>
 									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' alt='9W2NDI'>
@@ -98,7 +98,7 @@
 									</div>
 									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/037.png' alt='V85PZ'>
-										<p class='lh-1 my-0'>V85PZ<br><span class='fw-bold'>AZIZ</span></p>
+										<p class='lh-1 my-0'>V85PZ<br><span class='fw-bold'>PENGIRAN AZIZ</span></p>
 									</div>
 								</div>
 							</div>

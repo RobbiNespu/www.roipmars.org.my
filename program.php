@@ -20,15 +20,47 @@
 				<div class='col-lg-6 d-block text-center'>
 					<h4>Aktiviti Net Mingguan RoIPMARS</h4>
 					<table class='table table-bordered text-center align-middle'>
-						<thead><th>Hari</th><th>Masa</th><th>Program</th></thead>
+						<thead>
+							<th>Hari</th>
+							<th>Masa</th>
+							<th>Program</th>
+						</thead>
 						<tbody>
-							<tr class='table-primary'><td>Isnin</td><td>1300z &vert; 2100my</td><td>RoIPMARS Net Awal Minggu</td></tr>
-							<tr class='table-danger'><td>Selasa</td><td>1300z &vert; 2000wib</td><td>Net Mingguan SMP</td></tr>
-							<tr class='table-success'><td>Wednesday</td><td>1300z &vert; 2100my</td><td>RoIPMARS Learning English Net</td></tr>
-							<tr class='table-danger'><td>Kamis</td><td>1300z &vert; 2000wib</td><td>Net Mingguan SMP</td></tr>
-							<tr class='opacity-25'><td>Jumaat</td><td>&mdash;</td><td>&mdash;</td></tr>
-							<tr class='table-primary'><td>Sabtu</td><td>1300z &vert; 2100my</td><td>RoIPMARS Net Malam Minggu</td></tr>
-							<tr class='table-danger'><td>Minggu</td><td>1300z &vert; 2000wib</td><td>SMP Net Akhir Minggu</td></tr>
+							<tr class='table-primary'>
+								<td>Isnin</td>
+								<td>1300z &vert; 2100my</td>
+								<td>RoIPMARS Net Awal Minggu</td>
+							</tr>
+							<tr class='table-danger'>
+								<td>Selasa</td>
+								<td>1300z &vert; 2000wib</td>
+								<td>Net Mingguan SMP</td>
+							</tr>
+							<tr class='table-success'>
+								<td>Wednesday</td>
+								<td>1300z &vert; 2100my</td>
+								<td>RoIPMARS Learning English Net</td>
+							</tr>
+							<tr class='table-danger'>
+								<td>Kamis</td>
+								<td>1300z &vert; 2000wib</td>
+								<td>Net Mingguan SMP</td>
+							</tr>
+							<tr class='opacity-25'>
+								<td>Jumaat</td>
+								<td>&mdash;</td>
+								<td>&mdash;</td>
+							</tr>
+							<tr class='table-primary'>
+								<td>Sabtu</td>
+								<td>1300z &vert; 2100my</td>
+								<td>RoIPMARS Net Malam Minggu</td>
+							</tr>
+							<tr class='table-danger'>
+								<td>Minggu</td>
+								<td>1300z &vert; 2000wib</td>
+								<td>SMP Net Akhir Minggu</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>
@@ -53,7 +85,7 @@
 							<div class='carousel-item active'>
 								<div class='hstack gap-2'>
 									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png'alt='9W2AYP'>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' alt='9W2AYP'>
 										<p class='lh-1 my-0'>9W2AYP<br><span class='fw-bold'>SABRI</span></p>
 									</div>
 									<div class='vstack gap-3'>
@@ -139,17 +171,21 @@
 					</div>
 				</div>
 			</div>
-      <div class='row'>
-        <h4 class='text-center'>Suapan Langsung Rangkaian RoIPMARS</h4>
-        <div class='col-lg-6 text-center'>
-          <div id='hamlive'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
-          <div id='hamlive-audio'></div>
-        </div>
-        <div class='col-lg-6 text-center'>
-          <div id='cblive'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
-          <div id='cblive-audio'></div>
-        </div>
-      </div>
+			<div class='row'>
+				<h4 class='text-center'>Suapan Langsung Rangkaian RoIPMARS</h4>
+				<div class='col-lg-6 text-center'>
+					<div id='hamlive'>
+						<div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div>
+					</div>
+					<div id='hamlive-audio'></div>
+				</div>
+				<div class='col-lg-6 text-center'>
+					<div id='cblive'>
+						<div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div>
+					</div>
+					<div id='cblive-audio'></div>
+				</div>
+			</div>
 			<hr>
 			<div class='row'>
 				<div class='col-12 my-1 text-center'>
@@ -167,7 +203,7 @@
 								<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-envelope-slash text-danger'></i> Laporan gagal dihantar</li>
 								<li class='list-group-item list-group-item-danger flex-fill'><i class='bi-send-slash text-danger'></i> Laporan belum diterima</li>
 							</ul>
-						</capton>
+							</capton>
 					</table>
 					<div class='modal fade' id='netrep' tabindex='-1' aria-labelledby='netreport' aria-hidden='true'>
 						<div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md'>
@@ -188,19 +224,56 @@
 												<caption class='text-lowercase text-center text-wrap p-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Penyertaan</caption>
 											</table>
 											<table class='table table-sm text-center align-middle mt-3'>
-												<thead><tr><td colspan='2'>Mod Penghantaran</td></tr></thead>
+												<thead>
+													<tr>
+														<td colspan='2'>Mod Penghantaran</td>
+													</tr>
+												</thead>
 												<tbody>
-													<tr><td>DC</td><td>Discord</td></tr>
-													<tr><td>EL</td><td>EchoLink</td></tr>
-													<tr><td>FRN</td><td>Free Radio Network</td></tr>
-													<tr><td>MBL</td><td>Mumble</td></tr>
-													<tr><td>PNT</td><td>Peanut for HAM</td></tr>
-													<tr><td>RF</td><td>Radio Transceiver</td></tr>
-													<tr><td>TG</td><td>Telegram</td></tr>
-													<tr><td>TS</td><td>TeamSpeak</td></tr>
-													<tr><td>TT</td><td>Team Talk</td></tr>
-													<tr><td>WA</td><td>WhatsApp</td></tr>
-													<tr><td>ZL</td><td>Zello</td></tr>
+													<tr>
+														<td>DC</td>
+														<td>Discord</td>
+													</tr>
+													<tr>
+														<td>EL</td>
+														<td>EchoLink</td>
+													</tr>
+													<tr>
+														<td>FRN</td>
+														<td>Free Radio Network</td>
+													</tr>
+													<tr>
+														<td>MBL</td>
+														<td>Mumble</td>
+													</tr>
+													<tr>
+														<td>PNT</td>
+														<td>Peanut for HAM</td>
+													</tr>
+													<tr>
+														<td>RF</td>
+														<td>Radio Transceiver</td>
+													</tr>
+													<tr>
+														<td>TG</td>
+														<td>Telegram</td>
+													</tr>
+													<tr>
+														<td>TS</td>
+														<td>TeamSpeak</td>
+													</tr>
+													<tr>
+														<td>TT</td>
+														<td>Team Talk</td>
+													</tr>
+													<tr>
+														<td>WA</td>
+														<td>WhatsApp</td>
+													</tr>
+													<tr>
+														<td>ZL</td>
+														<td>Zello</td>
+													</tr>
 												</tbody>
 											</table>
 											<!-- <table class='table table-sm table-striped text-center align-middle' id='netRepMod'></table> -->
@@ -237,7 +310,9 @@
 			</div>
 			<hr>
 			<div class='row my-1'>
-				<div class='col-12'><h3 class='text-center'>Kedudukan Kategori Jalur Amatur</h3></div>
+				<div class='col-12'>
+					<h3 class='text-center'>Kedudukan Kategori Jalur Amatur</h3>
+				</div>
 				<div class='col-12'>
 					<p class='text-center'>RoIPMARS HAM Net</p>
 					<div class='row'>
@@ -260,7 +335,7 @@
 						</div>
 						<div class='col-lg-12'>
 							<h4 class='text-center'>Stesen Aktif</h4>
-							<table class='table table-sm table-striped text-center align-middle'id='en-stn-rank'></table>
+							<table class='table table-sm table-striped text-center align-middle' id='en-stn-rank'></table>
 						</div>
 					</div>
 				</div>
@@ -381,24 +456,64 @@
 				<div class='col-lg-6'>
 					<h4 class='text-center'>Hadiah Misteri Petugas Aktiviti 2023</h4>
 					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
-						<thead><th>No</th><th>Stesen</th><th>Kategori</th></thead>
+						<thead>
+							<th>No</th>
+							<th>Stesen</th>
+							<th>Kategori</th>
+						</thead>
 						<tbody>
-							<tr><td>1<sup>st</sup></td><td>9M2SFL</td><td>Rekod <sup>2nd</sup>, Tugasan <sup>2nd</sup>, KPI <sup>2nd</sup></td></tr>
-							<tr><td>2<sup>nd</sup></td><td>9W6RHN</td><td>Tugasan <sup>3rd</sup>, KPI <sup>3rd</sup></td></tr>
-							<tr><td>3<sup>rd</sup></td><td>9M6JAY</td><td>KPI <sup>4th</sup></td></tr>
+							<tr>
+								<td>1<sup>st</sup></td>
+								<td>9M2SFL</td>
+								<td>Rekod <sup>2nd</sup>, Tugasan <sup>2nd</sup>, KPI <sup>2nd</sup></td>
+							</tr>
+							<tr>
+								<td>2<sup>nd</sup></td>
+								<td>9W6RHN</td>
+								<td>Tugasan <sup>3rd</sup>, KPI <sup>3rd</sup></td>
+							</tr>
+							<tr>
+								<td>3<sup>rd</sup></td>
+								<td>9M6JAY</td>
+								<td>KPI <sup>4th</sup></td>
+							</tr>
 						</tbody>
 					</table>
 				</div>
 				<div class='col-lg-6'>
 					<h4 class='text-center'>Saguhati Petugas Aktiviti 2023</h4>
 					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
-						<thead><th>No</th><th>Stesen</th><th>Sokongan</th></thead>
+						<thead>
+							<th>No</th>
+							<th>Stesen</th>
+							<th>Sokongan</th>
+						</thead>
 						<tbody>
-							<tr><td>1<sup>st</sup></td><td>9W2AYP</td><td>99%</td></tr>
-							<tr><td>2<sup>nd</sup></td><td>V85AFF</td><td>76%</td></tr>
-							<tr><td>3<sup>rd</sup></td><td>9W6MOZ</td><td>63%</td></tr>
-							<tr><td>4<sup>th</sup></td><td>9W2SNN</td><td>59%</td></tr>
-							<tr><td>5<sup>th</sup></td><td>9W2YBT</td><td>58%</td></tr>
+							<tr>
+								<td>1<sup>st</sup></td>
+								<td>9W2AYP</td>
+								<td>99%</td>
+							</tr>
+							<tr>
+								<td>2<sup>nd</sup></td>
+								<td>V85AFF</td>
+								<td>76%</td>
+							</tr>
+							<tr>
+								<td>3<sup>rd</sup></td>
+								<td>9W6MOZ</td>
+								<td>63%</td>
+							</tr>
+							<tr>
+								<td>4<sup>th</sup></td>
+								<td>9W2SNN</td>
+								<td>59%</td>
+							</tr>
+							<tr>
+								<td>5<sup>th</sup></td>
+								<td>9W2YBT</td>
+								<td>58%</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>

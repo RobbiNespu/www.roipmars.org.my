@@ -3,7 +3,7 @@
 
   <head>
     <title>Citizen Band CallSign</title>
-		<link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/datatables.net-bs5@latest/css/dataTables.bootstrap5.min.css,npm/datatables.net-autofill-bs5@latest/css/autoFill.bootstrap5.min.css,npm/datatables.net-buttons-bs5@latest/css/buttons.bootstrap5.min.css,npm/datatables.net-colreorder-bs5@latest/css/colReorder.bootstrap5.min.css,npm/datatables.net-fixedcolumns-bs5@latest/css/fixedColumns.bootstrap5.min.css,npm/datatables.net-fixedheader-bs5@latest/css/fixedHeader.bootstrap5.min.css,npm/datatables.net-keytable-bs5@latest/css/keyTable.bootstrap5.min.css,npm/datatables.net-responsive-bs5@latest/css/responsive.bootstrap5.min.css,npm/datatables.net-rowgroup-bs5@latest/css/rowGroup.bootstrap5.min.css,npm/datatables.net-rowreorder-bs5@latest/css/rowReorder.bootstrap5.min.css,npm/datatables.net-scroller-bs5@latest/css/scroller.bootstrap5.min.css,npm/datatables.net-searchbuilder-bs5@latest/css/searchBuilder.bootstrap5.min.css,npm/datatables.net-searchpanes-bs5@latest/css/searchPanes.bootstrap5.min.css,npm/datatables.net-select-bs5@latest/css/select.bootstrap5.min.css,npm/datatables.net-staterestore-bs5@latest/css/stateRestore.bootstrap5.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/datatables.net-bs5@latest/css/dataTables.bootstrap5.min.css,npm/datatables.net-autofill-bs5@latest/css/autoFill.bootstrap5.min.css,npm/datatables.net-buttons-bs5@latest/css/buttons.bootstrap5.min.css,npm/datatables.net-colreorder-bs5@latest/css/colReorder.bootstrap5.min.css,npm/datatables.net-fixedcolumns-bs5@latest/css/fixedColumns.bootstrap5.min.css,npm/datatables.net-fixedheader-bs5@latest/css/fixedHeader.bootstrap5.min.css,npm/datatables.net-keytable-bs5@latest/css/keyTable.bootstrap5.min.css,npm/datatables.net-responsive-bs5@latest/css/responsive.bootstrap5.min.css,npm/datatables.net-rowgroup-bs5@latest/css/rowGroup.bootstrap5.min.css,npm/datatables.net-rowreorder-bs5@latest/css/rowReorder.bootstrap5.min.css,npm/datatables.net-scroller-bs5@latest/css/scroller.bootstrap5.min.css,npm/datatables.net-searchbuilder-bs5@latest/css/searchBuilder.bootstrap5.min.css,npm/datatables.net-searchpanes-bs5@latest/css/searchPanes.bootstrap5.min.css,npm/datatables.net-select-bs5@latest/css/select.bootstrap5.min.css,npm/datatables.net-staterestore-bs5@latest/css/stateRestore.bootstrap5.min.css' crossorigin='anonymous'>
   </head>
 
   <body>
@@ -53,9 +53,9 @@
         </div>
         <div class='col-12 text-center lh-1'>
           <p class='mb-0'><span class='cscount badge rounded-3 text-bg-success'></span><?php
-            $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-            $file_last_modified = filemtime(__DIR__ . '/assets/json/cbmars.json');
-            echo ' setakat ' . datefmt_format($dtfmt, $file_last_modified);
+          $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
+          $file_last_modified = filemtime(__DIR__ . '/assets/json/cbmars.json');
+          echo ' setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>
           <p class='fw-bold'>Penafian: Ahli CB RoIPMARS tidak termaktub dengan seluruh perlembagaan Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti keahlian yang berbeza.<br>Nota: Untuk semakan lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
         </div>
@@ -70,17 +70,9 @@
           </div>
         </div>
       </div>
-      <!--
-    <div class='footer fixed-bottom'>
-      <div class='col-sm-12 py-1 bg-dark text-white text-center text-uppercase align-middle fw-light fs-6'>
-        ERROR LEGENDS: <code class='text-danger'>REGISTRATION VERIFICATION FAILED</code> / <code class='text-danger text-decoration-underline'>CALLSIGN PENDING VERIFICATION</code>
-      </div>
-    </div>
-    -->
-      </div>
     </div>
     <?php require_once 'footer.php' ?>
-		<script src='https://cdn.jsdelivr.net/combine/npm/jszip@latest,npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.min.js,npm/datatables.net@latest,npm/datatables.net-bs5@latest,npm/datatables.net-autofill-bs5@latest,npm/datatables.net-buttons-bs5@latest,npm/datatables.net-colreorder-bs5@latest,npm/datatables.net-fixedcolumns-bs5@latest,npm/datatables.net-fixedheader-bs5@latest,npm/datatables.net-keytable-bs5@latest,npm/datatables.net-responsive-bs5@latest,npm/datatables.net-rowgroup-bs5@latest,npm/datatables.net-rowreorder-bs5@latest,npm/datatables.net-scroller-bs5@latest,npm/datatables.net-searchbuilder-bs5@latest,npm/datatables.net-searchpanes-bs5@latest,npm/datatables.net-select-bs5@latest,npm/datatables.net-staterestore-bs5@latest' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/combine/npm/jszip@latest,npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.min.js,npm/datatables.net@latest,npm/datatables.net-bs5@latest,npm/datatables.net-autofill-bs5@latest,npm/datatables.net-buttons-bs5@latest,npm/datatables.net-colreorder-bs5@latest,npm/datatables.net-fixedcolumns-bs5@latest,npm/datatables.net-fixedheader-bs5@latest,npm/datatables.net-keytable-bs5@latest,npm/datatables.net-responsive-bs5@latest,npm/datatables.net-rowgroup-bs5@latest,npm/datatables.net-rowreorder-bs5@latest,npm/datatables.net-scroller-bs5@latest,npm/datatables.net-searchbuilder-bs5@latest,npm/datatables.net-searchpanes-bs5@latest,npm/datatables.net-select-bs5@latest,npm/datatables.net-staterestore-bs5@latest' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jspdf@latest/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
     <script src='/assets/js/cbcs.js'></script>
   </body>

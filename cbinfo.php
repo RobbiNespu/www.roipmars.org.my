@@ -3,7 +3,7 @@
 
   <head>
     <title>Informasi Jalur Rakyat</title>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/datatables.net-bs5@latest/css/dataTables.bootstrap5.min.css,npm/datatables.net-autofill-bs5@latest/css/autoFill.bootstrap5.min.css,npm/datatables.net-buttons-bs5@latest/css/buttons.bootstrap5.min.css,npm/datatables.net-colreorder-bs5@latest/css/colReorder.bootstrap5.min.css,npm/datatables.net-fixedcolumns-bs5@latest/css/fixedColumns.bootstrap5.min.css,npm/datatables.net-fixedheader-bs5@latest/css/fixedHeader.bootstrap5.min.css,npm/datatables.net-keytable-bs5@latest/css/keyTable.bootstrap5.min.css,npm/datatables.net-responsive-bs5@latest/css/responsive.bootstrap5.min.css,npm/datatables.net-rowgroup-bs5@latest/css/rowGroup.bootstrap5.min.css,npm/datatables.net-rowreorder-bs5@latest/css/rowReorder.bootstrap5.min.css,npm/datatables.net-scroller-bs5@latest/css/scroller.bootstrap5.min.css,npm/datatables.net-searchbuilder-bs5@latest/css/searchBuilder.bootstrap5.min.css,npm/datatables.net-searchpanes-bs5@latest/css/searchPanes.bootstrap5.min.css,npm/datatables.net-select-bs5@latest/css/select.bootstrap5.min.css,npm/datatables.net-staterestore-bs5@latest/css/stateRestore.bootstrap5.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/datatables.net-bs5@latest/css/dataTables.bootstrap5.min.css,npm/datatables.net-buttons-bs5@latest/css/buttons.bootstrap5.min.css,npm/datatables.net-responsive-bs5@latest/css/responsive.bootstrap5.min.css,npm/datatables.net-searchpanes-bs5@latest/css/searchPanes.bootstrap5.min.css,npm/datatables.net-select-bs5@latest/css/select.bootstrap5.min.css' crossorigin='anonymous'>
   </head>
 
   <body>
@@ -1995,7 +1995,7 @@
       </div>
     </div>
     <?php require_once 'footer.php' ?>
-    <script src='https://cdn.jsdelivr.net/combine/npm/jszip@latest,npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.min.js,npm/datatables.net@latest,npm/datatables.net-bs5@latest,npm/datatables.net-autofill-bs5@latest,npm/datatables.net-buttons-bs5@latest,npm/datatables.net-colreorder-bs5@latest,npm/datatables.net-fixedcolumns-bs5@latest,npm/datatables.net-fixedheader-bs5@latest,npm/datatables.net-keytable-bs5@latest,npm/datatables.net-responsive-bs5@latest,npm/datatables.net-rowgroup-bs5@latest,npm/datatables.net-rowreorder-bs5@latest,npm/datatables.net-scroller-bs5@latest,npm/datatables.net-searchbuilder-bs5@latest,npm/datatables.net-searchpanes-bs5@latest,npm/datatables.net-select-bs5@latest,npm/datatables.net-staterestore-bs5@latest' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.min.js,npm/datatables.net@latest,npm/datatables.net-bs5@latest,npm/datatables.net-buttons@latest,npm/datatables.net-buttons-bs5@latest,npm/datatables.net-buttons@latest/js/buttons.html5.min.js,npm/datatables.net-responsive@latest,npm/datatables.net-responsive-bs5@latest,npm/datatables.net-searchpanes@latest,npm/datatables.net-searchpanes-bs5@latest,npm/datatables.net-select@latest,npm/datatables.net-select-bs5@latest' crossorigin='anonymous'></script>
     <script src='/assets/js/cbpre.js'></script>
     <script src='/assets/js/bcfy-stat.js'></script>
   </body>

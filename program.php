@@ -34,7 +34,7 @@
 							<tr class='table-danger'>
 								<td>Selasa</td>
 								<td>1300z &vert; 2000wib</td>
-								<td>Net Mingguan SMP</td>
+								<td>RoIPMARS Indo Net Selasa</td>
 							</tr>
 							<tr class='table-success'>
 								<td>Wednesday</td>
@@ -44,7 +44,7 @@
 							<tr class='table-danger'>
 								<td>Kamis</td>
 								<td>1300z &vert; 2000wib</td>
-								<td>Net Mingguan SMP</td>
+								<td>RoIPMARS Indo Net Malam Jumat</td>
 							</tr>
 							<tr class='opacity-25'>
 								<td>Jumaat</td>
@@ -59,7 +59,7 @@
 							<tr class='table-danger'>
 								<td>Minggu</td>
 								<td>1300z &vert; 2000wib</td>
-								<td>SMP Net Akhir Minggu</td>
+								<td>RoIPMARS Indo Net Hujung Minggu</td>
 							</tr>
 						</tbody>
 					</table>

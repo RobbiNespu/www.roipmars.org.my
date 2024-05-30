@@ -24,10 +24,10 @@
               <input type='text' class='form-control form-control-lg text-center rounded-3 w-75 mx-auto' pattern='[\w]{3-19}' minlength='3' maxlength='19' aria-label='location' id='location' placeholder='SEPANG' required>
             </div>
             <div class='vstack gap-1 mt-3 text-center'>
-              <button class='btn btn-lg rounded-pill w-50 mx-auto' type='submit' id='ts3hamlogin' style='background-color: #0165E1'>Log Masuk TeamSpeak RoIPMARS</button>
-              <button class='btn btn-lg rounded-pill w-50 mx-auto' type='submit' id='ts3cblogin' style='background-color: #0165E1'>Log Masuk TeamSpeak RoIPMARS</button>
+              <button class='btn btn-lg rounded-pill w-50 mx-auto' type='submit' id='ts3hamlogin' style='background-color: #0165E1'>Log Masuk TeamSpeak HAM RoIPMARS</button>
+              <button class='btn btn-lg rounded-pill w-50 mx-auto' type='submit' id='ts3cblogin' style='background-color: #0165E1'>Log Masuk TeamSpeak CB RoIPMARS</button>
               <button class='btn btn-lg rounded-pill w-50 mx-auto' type='submit' id='ts3kopdarlogin' style='background-color: #0165E1'>Log Masuk TeamSpeak KOPDARMOBILE</button>
-              <button class='btn btn-lg rounded-pill w-50 mx-auto' type='submit' id='mumblelogin' style='background-color: grey'>Log Masuk Mumble RoIPMARS</button>
+              <!-- <button class='btn btn-lg rounded-pill w-50 mx-auto' type='submit' id='mumblelogin' style='background-color: grey'>Log Masuk Mumble RoIPMARS</button> -->
               <!-- <button class='btn btn-lg rounded-pill w-50 mx-auto' type='submit' id='teamtalklogin' style='background-color: #abb8c3'>Log Masuk Team Talk RoIPMARS</button> -->
             </div>
           </form>

@@ -43,6 +43,38 @@ modal.addEventListener('show.bs.modal', (event) => {
 				</td>
 			</tr>
 			<tr>
+				<th>APRS<br>&lpar;roipmars.org.my&rpar;</th>
+				<td>
+					<img src='${statBadge}/57/status?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs status'> <img src='${statBadge}/57/response?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs response time'>
+					<br>
+					<img src='${statBadge}/57/uptime?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs uptime'>
+					<br>
+					<img src='${statBadge}/57/ping?styleStyle}' loading='lazy' alt='roipmarsorgmy-aprs average ping'> <img src='${statBadge}/57/avg-response?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs average response time'>
+				</td>
+			</tr>
+			<tr>
+				<th>HAM Stream<br>&lpar;hamlive.mhrtech.my&rpar;</th>
+				<td>
+					<img src='${statBadge}/61/status?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream status'> <img src='${statBadge}/61/response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream response time'>
+					<br>
+					<img src='${statBadge}/61/uptime?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream uptime'>
+					<br>
+					<img src='${statBadge}/61/ping?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream average ping'> <img src='${statBadge}/61/avg-response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream average response time'>
+				</td>
+			</tr>
+			<tr>
+				<th>CB Stream<br>&lpar;cblive.mhrtech.my&rpar;</th>
+				<td>
+					<img src='${statBadge}/63/status?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream status'> <img src='${statBadge}/63/response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream response time'>
+					<br>
+					<img src='${statBadge}/63/uptime?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream uptime'>
+					<br>
+					<img src='${statBadge}/63/ping?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream average ping'> <img src='${statBadge}/63/avg-response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream average response time'>
+				</td>
+			</tr>
+		</tbody>
+	</table>`
+	/* let disabledMonitor = `<tr>
 				<th>Mumble<br>&lpar;roipmars.org.my&rpar;</th>
 				<td>
 					<img src='${statBadge}/35/status?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-mumble-server status'> <img src='${statBadge}/35/response?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-mumble-server response time'>
@@ -75,39 +107,7 @@ modal.addEventListener('show.bs.modal', (event) => {
 					<img src='${statBadge}/64/ping?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamtalk-server average ping'>
 					<img src='${statBadge}/64/avg-response?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamtalk-server average response time'>
 				</td>
-			</tr>
-			<tr>
-				<th>APRS<br>&lpar;roipmars.org.my&rpar;</th>
-				<td>
-					<img src='${statBadge}/57/status?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs status'> <img src='${statBadge}/57/response?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs response time'>
-					<br>
-					<img src='${statBadge}/57/uptime?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs uptime'>
-					<br>
-					<img src='${statBadge}/57/ping?styleStyle}' loading='lazy' alt='roipmarsorgmy-aprs average ping'> <img src='${statBadge}/57/avg-response?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs average response time'>
-				</td>
-			</tr>
-			<tr>
-				<th>HAM Stream<br>&lpar;hamlive.mhrtech.my&rpar;</th>
-				<td>
-					<img src='${statBadge}/61/status?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream status'> <img src='${statBadge}/61/response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream response time'>
-					<br>
-					<img src='${statBadge}/61/uptime?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream uptime'>
-					<br>
-					<img src='${statBadge}/61/ping?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream average ping'> <img src='${statBadge}/61/avg-response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream average response time'>
-				</td>
-			</tr>
-			<tr>
-				<th>CB Stream<br>&lpar;cblive.mhrtech.my&rpar;</th>
-				<td>
-					<img src='${statBadge}/63/status?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream status'> <img src='${statBadge}/63/response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream response time'>
-					<br>
-					<img src='${statBadge}/63/uptime?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream uptime'>
-					<br>
-					<img src='${statBadge}/63/ping?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream average ping'> <img src='${statBadge}/63/avg-response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream average response time'>
-				</td>
-			</tr>
-		</tbody>
-	</table>`
+			</tr>` */
 	function imgReload() {
 		let getAllImg = modal.getElementsByTagName('img')
 		let tableCaption = modal.querySelector('caption')

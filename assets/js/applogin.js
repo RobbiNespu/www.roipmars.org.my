@@ -12,14 +12,14 @@ tshamLoginButton.onclick = function () {
 		ts3hamlogin()
 	}
 }
-var mumbleLoginButton = button.getElementById('mumblelogin')
+/* var mumbleLoginButton = button.getElementById('mumblelogin')
 mumbleLoginButton.onclick = function () {
 	if (qrz == null || qra == null || qth == null) {
 		return new error('Sila isi semua ruangan')
 	} else {
 		mumblelogin()
 	}
-}
+} */
 /* var teamtalkLoginButton = button.getElementById('teamtalklogin')
 teamtalkLoginButton.onclick = function () {
 	if (qrz == null || qra == null || qth == null) {
@@ -54,9 +54,9 @@ function ts3cblogin() {
 function ts3kopdarlogin() {
 	location.href = 'ts3server://kopdarmobile.id?nickname=' + qrz + '%20' + qra + '%20' + qth + '&cid=15&addbookmark=KOPDARMOBILE'
 }
-function mumblelogin() {
+/* function mumblelogin() {
 	location.href = 'mumble://' + qrz + '%20' + qra + '%20' + qth + '@roipmars.org.my/root?title=RoIPMARS.org.MY&url=roipmars.org.my'
-}
+} */
 /* function teamtalklogin() {
 	location.href = 'tt://roipmars.org.my?encrypted=0&username=guest&password=guest&channel=%2FLobby%2F&nickname=' + qrz + '%20' + qra + '%20' + qth
 } */

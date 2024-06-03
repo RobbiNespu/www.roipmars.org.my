@@ -873,8 +873,23 @@ $(document).ready(function () {
 					} else {
 						var dtl = new Date(date.split('/')[2], parseInt(date.split('/')[1]) - 1, parseInt(date.split('/')[0]) + 1, utctime.split(':')[0] - 16, utctime.split(':')[1])
 					}
-					eCert.setFont('Orbitron-Black').setFontSize(30).setTextColor('#72c7ef').text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(dtl).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
-					eCert.setFont('KodeMono-SemiBold').setFontSize(16).setTextColor('black').text(`${dtl.getFullYear()}-${(dtl.getMonth() + 1).toString().padStart(2, '0')}-${dtl.getDate().toString().padStart(2, '0')}T${dtl.getHours().toString().padStart(2, '0')}:${dtl.getMinutes().toString().padStart(2, '0')}MY\n${dtl.toISOString().substring(0, 16)}Z`, 247.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					eCert
+						.setFont('Orbitron-Black')
+						.setFontSize(30)
+						.setTextColor('#72c7ef')
+						.text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(dtl).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
+					eCert
+						.setFont('KodeMono-SemiBold')
+						.setFontSize(16)
+						.setTextColor('black')
+						.text(
+							`${dtl.getFullYear()}-${(dtl.getMonth() + 1).toString().padStart(2, '0')}-${dtl.getDate().toString().padStart(2, '0')}T${dtl.getHours().toString().padStart(2, '0')}:${dtl.getMinutes().toString().padStart(2, '0')}MY\n${dtl
+								.toISOString()
+								.substring(0, 16)}Z`,
+							247.5,
+							163,
+							{ align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' }
+						)
 
 					eCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY', 148.5, 186, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('SourceSansPro-Regular').setFontSize(10).setTextColor('black').text('PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP) [PPM-006-10-01062020]', 148.5, 189, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })

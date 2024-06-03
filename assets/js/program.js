@@ -737,13 +737,14 @@ $(document).ready(function () {
 						await fetch('https://api.roipmars.org.my/hook/certerr', {
 							method: 'POST',
 							headers: { 'content-type': 'application/json' },
-							body: JSON.stringify({ call: netReportTable.row(this).data()[1], date: takwimdate, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.message }),
+							body: JSON.stringify({ call: netReportTable.row(this).data()[1], id: takwimdate, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.name + ':' + error.message }),
 						})
-						toastDanger.innerHTML = `<div class='toast-body'>generator script error. reload required.</div>`
+						toastDanger.innerHTML = `<div class='toast-body'>generator script error.<br>${error.name}:${error.message}<br>reported to developer</div>`
 						msgDanger.show()
-						setTimeout(function () {
-							location.reload()
-						}, 10000)
+						console.log(error)
+						// setTimeout(function () {
+						// 	location.reload()
+						// }, 10000)
 					}
 				}
 				async function generateCert(date, activity, ncs, caller, modes, utctime) {
@@ -863,32 +864,17 @@ $(document).ready(function () {
 							.text('Congrats and thanks for duty as NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					}
 
+					eCert.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250, renderingMode: 'fillThenStroke' })
+					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('MoT', 49.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(mode, 49.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('TIME', 247.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					if (utctime.split(':')[0] >= 16) {
 						var dtl = new Date(date.split('/')[2], parseInt(date.split('/')[1]) - 1, date.split('/')[0], utctime.split(':')[0] - 16, utctime.split(':')[1])
 					} else {
 						var dtl = new Date(date.split('/')[2], parseInt(date.split('/')[1]) - 1, parseInt(date.split('/')[0]) + 1, utctime.split(':')[0] - 16, utctime.split(':')[1])
 					}
-					eCert
-						.setFont('Orbitron-Black')
-						.setFontSize(30)
-						.setTextColor('#72c7ef')
-						.text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(dtl).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
-					eCert.setFont('Orbitron-Black').setFontSize(35).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250, renderingMode: 'fillThenStroke' })
-					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('MoT', 49.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					eCert.setFont('KodeMono-SemiBold').setFontSize(25).setTextColor('black').text(mode, 49.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('TIME', 247.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
-					eCert
-						.setFont('KodeMono-SemiBold')
-						.setFontSize(16)
-						.setTextColor('black')
-						.text(
-							`${dtl.getFullYear()}-${(dtl.getMonth() + 1).toString().padStart(2, '0')}-${dtl.getDate().toString().padStart(2, '0')}T${dtl.getHours().toString().padStart(2, '0')}:${dtl.getMinutes().toString().padStart(2, '0')}MY\n${dtl
-								.toISOString()
-								.substring(0, 16)}Z`,
-							247.5,
-							163,
-							{ align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' }
-						)
+					eCert.setFont('Orbitron-Black').setFontSize(30).setTextColor('#72c7ef').text(new Intl.DateTimeFormat('en-MY', { dateStyle: 'long' }).format(dtl).toUpperCase(), 148.5, 35, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280, renderingMode: 'fillThenStroke' })
+					eCert.setFont('KodeMono-SemiBold').setFontSize(16).setTextColor('black').text(`${dtl.getFullYear()}-${(dtl.getMonth() + 1).toString().padStart(2, '0')}-${dtl.getDate().toString().padStart(2, '0')}T${dtl.getHours().toString().padStart(2, '0')}:${dtl.getMinutes().toString().padStart(2, '0')}MY\n${dtl.toISOString().substring(0, 16)}Z`, 247.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 
 					eCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY', 148.5, 186, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })
 					eCert.setFont('SourceSansPro-Regular').setFontSize(10).setTextColor('black').text('PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP) [PPM-006-10-01062020]', 148.5, 189, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 280 })

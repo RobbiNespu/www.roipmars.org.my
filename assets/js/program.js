@@ -54,7 +54,7 @@ $(document).ready(function () {
 			{ searchable: false, targets: -1 },
 		],
 		deferRender: true,
-		displayStart: 400,
+		displayStart: 425,
 		ordering: false,
 		lengthChange: false,
 		pageLength: 25,
@@ -737,7 +737,7 @@ $(document).ready(function () {
 						await fetch('https://api.roipmars.org.my/hook/certerr', {
 							method: 'POST',
 							headers: { 'content-type': 'application/json' },
-							body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.message }),
+							body: JSON.stringify({ call: netReportTable.row(this).data()[1], date: takwimdate, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.message }),
 						})
 						toastDanger.innerHTML = `<div class='toast-body'>generator script error. reload required.</div>`
 						msgDanger.show()

@@ -63,9 +63,9 @@ $(document).ready(function () {
 				await fetch('https://api.roipmars.org.my/hook/certerr', {
 					method: 'POST',
 					headers: { 'content-type': 'application/json' },
-					body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.name + ':' + error.message }),
+					body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.name + ': ' + error.message }),
 				})
-				toastDanger.innerHTML = `<div class='toast-body'>generator script error.<br>${error.name}:${error.message}<br>reported to developer</div>`
+				toastDanger.innerHTML = `<div class='toast-body'>generator script error.<br>${error.name}: ${error.message}<br>reported to developer</div>`
 				msgDanger.show()
 				console.log(error)
 				// setTimeout(function () {

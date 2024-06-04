@@ -719,25 +719,28 @@ $(document).ready(function () {
 			// })
 
 			$('#' + reportID).delegate('tbody tr td:nth-child(1)', 'click', async function () {
+				let selected = {
+					call: netReportTable.row(this).data()[1],
+					mode: netReportTable.row(this).data()[2],
+					utc: netReportTable.row(this).data()[3],
+				}
 				const toastSuccess = document.getElementById('prog-success')
 				const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })
 				const toastInfo = document.getElementById('prog-info')
 				const msgInfo = bootstrap.Toast.getOrCreateInstance(toastInfo)
 				const toastDanger = document.getElementById('prog-danger')
 				const msgDanger = bootstrap.Toast.getOrCreateInstance(toastDanger, { delay: 10000 })
-				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${
-					netReportTable.row(this).data()[1]
-				}. Are you sure?`
+				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${selected.call}. Are you sure?`
 				if (confirm(confirmtxt) == true) {
 					toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating eCert...</div>`
 					msgSuccess.show()
 					try {
-						await generateCert(takwimdate, takwimact, takwimncs, netReportTable.row(this).data()[1], netReportTable.row(this).data()[2], netReportTable.row(this).data()[3])
+						await generateCert(takwimdate, takwimact, takwimncs, selected.call, selected.mode, selected.utc)
 					} catch (error) {
 						await fetch('https://api.roipmars.org.my/hook/certerr', {
 							method: 'POST',
 							headers: { 'content-type': 'application/json' },
-							body: JSON.stringify({ call: netReportTable.row(this).data()[1], id: takwimdate, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.name + ': ' + error.message }),
+							body: JSON.stringify({ call: selected.call, id: takwimdate, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.name + ': ' + error.message }),
 						})
 						toastDanger.innerHTML = `<div class='toast-body'>generator script error.<br>${error.name}: ${error.message}<br>reported to developer</div>`
 						msgDanger.show()

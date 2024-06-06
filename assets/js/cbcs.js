@@ -222,7 +222,7 @@ $(document).ready(function () {
 					}),
 				}).then(async (res) => {
 					if (res.ok) {
-						toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck message from 601153440440.</div>`
+						toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck WhatsApp message from 601153440440.</div>`
 						msgSuccess.show()
 						if (callCtc != WaCtc) {
 							await fetch(`https://api.roipmars.org.my/hook/setcontact`, {

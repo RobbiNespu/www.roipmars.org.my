@@ -186,7 +186,7 @@ $(document).ready(function () {
 				msgSuccess.show()
 				cbcsCert.save(`${fileName}.pdf`)
 			} else {
-				let IsUserInGroup = await fetch('https://wa-api.roipmars.org.my/api/601153440440/group-members/601110795693-1580955360', {
+				let isUserinCommunity = await fetch('https://wa-api.roipmars.org.my/api/601153440440/group-members/120363237967506395', {
 					method: 'GET',
 					headers: {
 						'content-type': 'application/json',
@@ -195,8 +195,8 @@ $(document).ready(function () {
 				})
 					.then((res) => res.json())
 					.then((data) => {
-						for (const groupusers of data.response) {
-							if (groupusers.id.user == `${WaCtc}`) {
+						for (const communityUsers of data.response) {
+							if (communityUsers.id.user == `${WaCtc}`) {
 								return true
 							} else {
 								return false
@@ -215,13 +215,14 @@ $(document).ready(function () {
 					body: JSON.stringify({
 						phone: WaCtc,
 						isGroup: false,
+						isCommunity: false,
 						isNewsletter: false,
 						filename: `${fileName}.pdf`,
 						base64: eCertURI,
 					}),
 				}).then(async (res) => {
 					if (res.ok) {
-						toastSuccess.innerHTML = `<div class='toast-body'>${fileName} sent to ${WaCtc}.\ncheck your message from 601153440440.</div>`
+						toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck message from 601153440440.</div>`
 						msgSuccess.show()
 						if (callCtc != WaCtc) {
 							await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
@@ -233,7 +234,18 @@ $(document).ready(function () {
 								}),
 							})
 						}
-						if (IsUserInGroup == false) {
+						if (isUserinCommunity == false) {
+							let communityInviteLink = await fetch('https://wa-api.roipmars.org.my/api/601153440440/group-invite-link/120363237967506395', {
+								method: 'GET',
+								headers: {
+									'content-type': 'application/json',
+									authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+								},
+							})
+								.then((res) => res.json())
+								.then((data) => {
+									return data.response
+								})
 							await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-message', {
 								method: 'POST',
 								headers: {
@@ -243,13 +255,14 @@ $(document).ready(function () {
 								body: JSON.stringify({
 									phone: WaCtc,
 									isGroup: false,
+									isCommunity: false,
 									isNewsletter: false,
-									message: `Hai ${call},\n\nAnda dijemput menyertai kumpulan WhatsApp Jalur Rakyat RoIPMARS melalui pautan ini: https://chat.whatsapp.com/HIzqDJsESMJ67POmbIqbne`,
+									message: `Hai ${call},\n\nAnda dijemput menyertai Komuniti WhatsApp RoIPMARS melalui pautan ini: ${communityInviteLink}`,
 								}),
 							})
 						}
 					} else {
-						toastDanger.innerHTML = `<div class='toast-body'>Certificate send fail. retry again later.</div>`
+						toastDanger.innerHTML = `<div class='toast-body'>Certificate send failed. retry again later.</div>`
 						msgDanger.show()
 					}
 				})

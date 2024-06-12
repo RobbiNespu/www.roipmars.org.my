@@ -101,9 +101,13 @@
 										<p class='lh-1 my-0'>9M6JAY<br><span class='fw-bold'>JOHN JOSHUA</span></p>
 									</div>
 									<div class='vstack gap-3'>
+										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
+										<p class='lh-1 my-0'>9W6RHN<br><span class='fw-bold'>ROSLAN</span></p>
+									</div>
+									<!-- <div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' alt='9W2NDI'>
 										<p class='lh-1 my-0'>9W2NDI<br><span class='fw-bold'>NASA</span></p>
-									</div>
+									</div> -->
 								</div>
 							</div>
 							<div class='carousel-item'>
@@ -120,14 +124,10 @@
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png' alt='9W2YBT'>
 										<p class='lh-1 my-0'>9W2YBT<br><span class='fw-bold'>FAISAL</span></p>
 									</div>
-									<div class='vstack gap-3'>
+									<!-- <div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2zpa.png' alt='9W2ZPA'>
 										<p class='lh-1 my-0'>9W2ZPA<br><span class='fw-bold'>ZULPAH</span></p>
-									</div>
-									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
-										<p class='lh-1 my-0'>9W6RHN<br><span class='fw-bold'>ROSLAN</span></p>
-									</div>
+									</div> -->
 									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/037.png' alt='V85PZ'>
 										<p class='lh-1 my-0'>V85PZ<br><span class='fw-bold'>PENGIRAN AZIZ</span></p>
@@ -148,7 +148,7 @@
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yd4dta.png' alt='YD4DTA'>
 										<p class='lh-1 my-0'>YD4DTA<br><span class='fw-bold'>DITA</span></p>
 									</div>
-									<div class='vstack gap-3'>
+									<!-- <div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yd4lllz.png' alt='YD4LLLZ'>
 										<p class='lh-1 my-0'>YD4LLLZ<br><span class='fw-bold'>HENDRI</span></p>
 									</div>
@@ -159,7 +159,7 @@
 									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yf5wco.png' alt='YF5WCO'>
 										<p class='lh-1 my-0'>YF5WCO<br><span class='fw-bold'>ISMAIL</span></p>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>

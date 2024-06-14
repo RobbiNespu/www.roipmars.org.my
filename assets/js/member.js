@@ -202,11 +202,10 @@ $(document).ready(function () {
 				})
 					.then(async (res) => res.json())
 					.then(async (data) => {
-						for (const communityUsers of data.response) {
-							if (communityUsers.user == `${WaCtc}`) {
+						for (let r = 0; r < data.response.length; r++) {
+							let communityUsers = data.response[r].user
+							if (communityUsers == `${WaCtc}`) {
 								return true
-							} else {
-								return false
 							}
 						}
 					})
@@ -241,7 +240,7 @@ $(document).ready(function () {
 								}),
 							})
 						}
-						if (isUserinCommunity == false) {
+						if (isUserinCommunity != true) {
 							let communityInviteLink = await fetch(`${waAPI.BaseURL}/group-invite-link/120363237967506395`, {
 								method: 'GET',
 								headers: {

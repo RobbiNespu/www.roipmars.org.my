@@ -732,7 +732,7 @@ $(document).ready(function () {
 				const msgDanger = bootstrap.Toast.getOrCreateInstance(toastDanger, { delay: 10000 })
 				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${selected.call}. Are you sure?`
 				if (confirm(confirmtxt) == true) {
-					toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating eCert...</div>`
+					toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> request confirmed. generating eCert...</div>`
 					msgSuccess.show()
 					try {
 						await generateCert(takwimdate, takwimact, takwimncs, selected.call, selected.mode, selected.utc)
@@ -809,7 +809,7 @@ $(document).ready(function () {
 					eCert.addFont('/assets/font/SairaExtraCondensed-Thin.ttf', 'SairaExtraCondensed-Thin', 'normal')
 					eCert.addFont('/assets/font/SourceSansPro-Regular.ttf', 'SourceSansPro-Regular', 'normal')
 
-					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>gathering contact informations...</div>`
+					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> gathering contact informations...</div>`
 					msgInfo.show()
 					// eCert.addImage('/assets/image/certs/program/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
 					await fetch(`/assets/image/certs/program/${source}.jpg`).then((response) => {
@@ -832,7 +832,7 @@ $(document).ready(function () {
 					eCert.addImage('/media/image/roip-concept.png', 'PNG', 8, 179, 62, 20)
 					eCert.addImage('/media/image/malaysian-teamspeak.png', 'PNG', 225, 179, 65, 20)
 
-					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>lookup caller detail...</div>`
+					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> lookup caller detail...</div>`
 					msgInfo.show()
 					try {
 						let respCALL = await fetch(`https://api.roipmars.org.my/hook/csnames?callsign=${caller}`)
@@ -846,7 +846,7 @@ $(document).ready(function () {
 					}
 
 					if (ncs != caller) {
-						toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>lookup controller detail...</div>`
+						toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> lookup controller detail...</div>`
 						msgInfo.show()
 						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 						try {
@@ -965,7 +965,7 @@ $(document).ready(function () {
 									}
 								}
 							})
-						toastInfo.innerHTML = `<div class='toast-body'>sending eCert to ${WaCtc}...</div>`
+						toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> sending eCert to ${WaCtc}...</div>`
 						msgInfo.show()
 						let eCertURI = eCert.output('datauristring', { filename: `${fileName}.pdf` })
 						await fetch(`${waAPI.BaseURL}/send-file`, {

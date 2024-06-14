@@ -55,7 +55,7 @@ $(document).ready(function () {
 		const memValidDate = memberdata.Expiry
 		let confirmtxt = `You are requesting Certificate for ${memID}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
-			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating Certificate...</div>`
+			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> request confirmed. generating Certificate...</div>`
 			msgSuccess.show()
 			try {
 				await genCert(memID, memCall, memName, memValidDate)
@@ -209,7 +209,7 @@ $(document).ready(function () {
 							}
 						}
 					})
-				toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>sending Certificate to ${WaCtc}...</div>`
+				toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> sending Certificate to ${WaCtc}...</div>`
 				msgInfo.show()
 				let eCertURI = memCert.output('datauristring', { filename: `${fileName}.pdf` })
 				await fetch(`${waAPI.BaseURL}/send-file`, {

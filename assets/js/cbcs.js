@@ -66,7 +66,7 @@ $(document).ready(function () {
 		const cbcsRegDate = cbcsdata[4]
 		let confirmtxt = `You are requesting Certificate for ${cbcsCall}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
-			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>request confirmed. generating Certificate...</div>`
+			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> request confirmed. generating Certificate...</div>`
 			msgSuccess.show()
 			try {
 				await genCert(cbcsID, cbcsCall, cbcsName, cbcsRegDate)
@@ -202,7 +202,7 @@ $(document).ready(function () {
 							}
 						}
 					})
-				toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>sending Certificate to ${WaCtc}...</div>`
+				toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> sending Certificate to ${WaCtc}...</div>`
 				msgInfo.show()
 				let eCertURI = cbcsCert.output('datauristring', { filename: `${fileName}.pdf` })
 				await fetch(`${waAPI.BaseURL}/send-file`, {

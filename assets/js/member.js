@@ -193,17 +193,17 @@ $(document).ready(function () {
 				msgSuccess.show()
 				memCert.save(`${fileName}.pdf`)
 			} else {
-				let isUserinCommunity = await fetch('https://wa-api.roipmars.org.my/api/601153440440/group-members/120363237967506395', {
+				let isUserinCommunity = await fetch(`${waAPI.BaseURL}/group-members-ids/120363237967506395`, {
 					method: 'GET',
 					headers: {
 						'content-type': 'application/json',
-						authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+						authorization: `Bearer ${waAPI.Token}`,
 					},
 				})
-					.then((res) => res.json())
-					.then((data) => {
+					.then(async (res) => res.json())
+					.then(async (data) => {
 						for (const communityUsers of data.response) {
-							if (communityUsers.id.user == `${WaCtc}`) {
+							if (communityUsers.user == `${WaCtc}`) {
 								return true
 							} else {
 								return false
@@ -213,11 +213,11 @@ $(document).ready(function () {
 				toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>sending Certificate to ${WaCtc}...</div>`
 				msgInfo.show()
 				let eCertURI = memCert.output('datauristring', { filename: `${fileName}.pdf` })
-				await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-file', {
+				await fetch(`${waAPI.BaseURL}/send-file`, {
 					method: 'POST',
 					headers: {
 						'content-type': 'application/json',
-						authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+						authorization: `Bearer ${waAPI.Token}`,
 					},
 					body: JSON.stringify({
 						phone: WaCtc,
@@ -242,22 +242,22 @@ $(document).ready(function () {
 							})
 						}
 						if (isUserinCommunity == false) {
-							let communityInviteLink = await fetch('https://wa-api.roipmars.org.my/api/601153440440/group-invite-link/120363237967506395', {
+							let communityInviteLink = await fetch(`${waAPI.BaseURL}/group-invite-link/120363237967506395`, {
 								method: 'GET',
 								headers: {
 									'content-type': 'application/json',
-									authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+									authorization: `Bearer ${waAPI.Token}`,
 								},
 							})
 								.then((res) => res.json())
 								.then((data) => {
 									return data.response
 								})
-							await fetch('https://wa-api.roipmars.org.my/api/601153440440/send-message', {
+							await fetch(`${waAPI.BaseURL}/send-message`, {
 								method: 'POST',
 								headers: {
 									'content-type': 'application/json',
-									authorization: 'Bearer $2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+									authorization: `Bearer ${waAPI.Token}`,
 								},
 								body: JSON.stringify({
 									phone: WaCtc,
@@ -268,6 +268,20 @@ $(document).ready(function () {
 								}),
 							})
 						}
+						await fetch(`${waAPI.BaseURL}/archive-chat`, {
+							method: 'POST',
+							headers: {
+								'content-type': 'application/json',
+								authorization: `Bearer ${waAPI.Token}`,
+							},
+							body: JSON.stringify({
+								phone: WaCtc,
+								isGroup: false,
+								isCommunity: false,
+								isNewsletter: false,
+								value: true,
+							}),
+						})
 					} else {
 						toastDanger.innerHTML = `<div class='toast-body'>Certificate send failed. retry again later.</div>`
 						msgDanger.show()

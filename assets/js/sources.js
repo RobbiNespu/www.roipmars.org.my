@@ -20,7 +20,11 @@ if (currentPage != '') {
 let docTitle = document.title
 let docPar = document.querySelectorAll('p')
 let list = [].slice.call(docPar)
-let innertext = list.map(function (e) { return e.innerText }).join(' ')
+let innertext = list
+	.map(function (e) {
+		return e.innerText
+	})
+	.join(' ')
 let docDesc = (document.querySelector('h1').textContent + ' | ' + innertext).slice(0, 155)
 const meta = `<base href="${currentHost}">\
 <meta charset="utf-8">\
@@ -98,4 +102,9 @@ function lastMod(url) {
 	} catch (er) {
 		return er.message
 	}
+}
+
+let waAPI = {
+	BaseURL: 'https://wa-api.roipmars.org.my/api/601153440440',
+	Token: '$2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
 }

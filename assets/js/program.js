@@ -911,13 +911,14 @@ $(document).ready(function () {
 							maxWidth: 280,
 						})
 
-					let fileName = `${date.split('/').reverse().join('')}_${caller}`
+					let fileName = `${parseInt(Math.floor(dtl.getTime() / 1000)).toFixed(0)}-${caller}`
 					eCert
 						.setFileId(crypto.randomUUID())
 						.setLanguage('en-MY')
+						.setCreationDate(dtl)
 						.setDocumentProperties({
-							title: `eCert_RoIPMARS-${caller}_${date.split('/').reverse().join('-')}T${utctime}`,
-							subject: `${caller} | ${date.split('/').reverse().join('-')}T${utctime}`,
+							title: `eCert_RoIPMARS-${caller}-${dtl.toISOString()}`,
+							subject: `${caller} | ${dtl.toISOString()}`,
 							author: document.querySelector('meta[name="author"]').content,
 							keywords: document.querySelector('meta[name="keywords"]').content,
 							creator: 'RoIPMARS Activity Certificate Generator',

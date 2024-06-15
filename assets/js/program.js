@@ -594,15 +594,13 @@ $(document).ready(function () {
 					dataSrc: `${source}`,
 				},
 				columns: [
-					{ title: 'CQ#', name: 'cq' },
 					{ title: 'Call', name: 'cs' },
 					{ title: 'Mod', name: 'mod' },
 					{ title: 'UTC', name: 'time' },
 				],
 				columnDefs: [
 					{ className: 'text-center align-middle', targets: '_all' },
-					{ searchable: true, targets: 1 },
-					{ visible: false, targets: 0 },
+					{ searchable: true, targets: 0 },
 				],
 				autoWidth: false,
 				destroy: true,
@@ -720,9 +718,9 @@ $(document).ready(function () {
 
 			$('#' + reportID).delegate('tbody tr td:nth-child(1)', 'click', async function () {
 				let selected = {
-					call: netReportTable.row(this).data()[1],
-					mode: netReportTable.row(this).data()[2],
-					utc: netReportTable.row(this).data()[3],
+					call: netReportTable.row(this).data()[0],
+					mode: netReportTable.row(this).data()[1],
+					utc: netReportTable.row(this).data()[2],
 				}
 				const toastSuccess = document.getElementById('prog-success')
 				const msgSuccess = bootstrap.Toast.getOrCreateInstance(toastSuccess, { delay: 7000 })

@@ -106,5 +106,9 @@ function lastMod(url) {
 
 let waAPI = {
 	BaseURL: 'https://wa-api.roipmars.org.my/api/601153440440',
-	Token: '$2b$10$xNYcfg_bwZlnET1ULGYLRuSEJQ.wiItCQ0Kj1VUNgEIFeJPpk_wUi',
+	Token: '${{ secrets.WA_API_TOKEN }}',
+}
+let mailAPI = {
+	BaseURL: 'https://api.brevo.com/v3',
+	Token: '${{ secrets.BREVO_API_TOKEN }}',
 }

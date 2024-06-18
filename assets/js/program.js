@@ -931,6 +931,7 @@ $(document).ready(function () {
 							body: JSON.stringify({ call: caller, id: date, source: location.pathname.replaceAll('/', '') }),
 						})
 					}
+					let eCertURI = eCert.output('datauristring', { filename: `${fileName}.pdf` })
 					toastInfo.innerHTML = `<div class='toast-body'>eCert Ready!</div>`
 					msgInfo.show()
 					try {
@@ -938,21 +939,93 @@ $(document).ready(function () {
 						if (respCtc) {
 							let callContact = await respCtc.json()
 							callCtc = callContact.contact
+							callMail = callContact.email
 						}
 					} catch (err) {
 						callCtc = ''
+						callMail = ''
 					}
 					let WaCtc = prompt(`fill your contact number (INCLUDING country code WITHOUT plus sign; example: 601234567890) if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
 					if (WaCtc == null || WaCtc == '') {
-						toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
-						msgSuccess.show()
-						eCert.save(`${fileName}.pdf`)
+						let MailCtc = prompt(`fill your email if you want to receive by eMail; choose "cancel" to download`, callMail)
+						if (MailCtc == null || MailCtc == '') {
+							toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
+							msgSuccess.show()
+							eCert.save(`${fileName}.pdf`)
+						} else {
+							toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> checking eMail availability...</div>`
+							msgInfo.show()
+							let checkMail = await fetch(`${mailAPI.BaseURL}/account`, {
+								method: 'GET',
+								headers: {
+									'content-type': 'application/json',
+									'api-key': mailAPI.Token,
+								},
+							})
+								.then((res) => res.json())
+								.then((data) => {
+									for (let p = 0; p < data.plan.length; p++) {
+										let type = data.plan[p].type
+										let credit = data.plan[p].credits
+										if (type == 'free') {
+											return credit
+										}
+									}
+								})
+							if (checkMail > 0) {
+								toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> sending eCert via eMail to ${MailCtc}...</div>`
+								msgInfo.show()
+								await fetch(`${mailAPI.BaseURL}/smtp/email`, {
+									method: 'POST',
+									headers: {
+										'content-type': 'application/json',
+										'api-key': mailAPI.Token,
+									},
+									body: JSON.stringify({
+										sender: { name: 'eQSL RoIPMARS', email: 'noreply@roipmars.org.my' },
+										to: [{ email: MailCtc, name: caller }],
+										replyTo: { name: 'Member RoIPMARS', email: 'member@roipmars.org.my' },
+										subject: `eCert_RoIPMARS-${caller}`,
+										htmlContent: `<html><body>eCert_RoIPMARS-${caller}</body></html>`,
+										textContent: `eCert_RoIPMARS-${caller}`,
+										attachment: [{ content: eCertURI.split(',')[1], name: `${fileName}.pdf` }],
+										tags: ['eQSL'],
+									}),
+								})
+									.then((res) => res.json())
+									.then(async (data) => {
+										if (data.messageId) {
+											toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${MailCtc}.\ncheck eMail message from noreply@roipmars.org.my</div>`
+											msgSuccess.show()
+											if (callMail != MailCtc) {
+												await fetch(`https://api.roipmars.org.my/hook/setmail`, {
+													method: 'POST',
+													headers: { 'content-type': 'application/json' },
+													body: JSON.stringify({
+														callsign: `${caller}`,
+														email: `${MailCtc}`,
+													}),
+												})
+											}
+										} else {
+											toastDanger.innerHTML = `<div class='toast-body'>eCert send failed. retry again later.</div>`
+											msgDanger.show()
+										}
+									})
+							} else {
+								toastDanger.innerHTML = `<div class='toast-body'>eMail unavailable. downloading to your browser...</div>`
+								msgDanger.show()
+								toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
+								msgSuccess.show()
+								eCert.save(`${fileName}.pdf`)
+							}
+						}
 					} else {
 						let isUserinCommunity = await fetch(`${waAPI.BaseURL}/group-members-ids/120363237967506395`, {
 							method: 'GET',
 							headers: {
 								'content-type': 'application/json',
-								authorization: `Bearer ${waAPI.Token}`,
+								authorization: waAPI.Token,
 							},
 						})
 							.then((res) => res.json())
@@ -964,14 +1037,13 @@ $(document).ready(function () {
 									}
 								}
 							})
-						toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> sending eCert to ${WaCtc}...</div>`
+						toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> sending eCert via WhatsApp to ${WaCtc}...</div>`
 						msgInfo.show()
-						let eCertURI = eCert.output('datauristring', { filename: `${fileName}.pdf` })
 						await fetch(`${waAPI.BaseURL}/send-file`, {
 							method: 'POST',
 							headers: {
 								'content-type': 'application/json',
-								authorization: `Bearer ${waAPI.Token}`,
+								authorization: waAPI.Token,
 							},
 							body: JSON.stringify({
 								phone: WaCtc,
@@ -986,7 +1058,7 @@ $(document).ready(function () {
 								toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck WhatsApp message from 601153440440.</div>`
 								msgSuccess.show()
 								if (callCtc != WaCtc) {
-									await fetch(`https://api.roipmars.org.my/hook/setcontact`, {
+									await fetch(`https://api.roipmars.org.my/hook/setctc`, {
 										method: 'POST',
 										headers: { 'content-type': 'application/json' },
 										body: JSON.stringify({
@@ -1000,7 +1072,7 @@ $(document).ready(function () {
 										method: 'GET',
 										headers: {
 											'content-type': 'application/json',
-											authorization: `Bearer ${waAPI.Token}`,
+											authorization: waAPI.Token,
 										},
 									})
 										.then(async (res) => res.json())
@@ -1011,7 +1083,7 @@ $(document).ready(function () {
 										method: 'POST',
 										headers: {
 											'content-type': 'application/json',
-											authorization: `Bearer ${waAPI.Token}`,
+											authorization: waAPI.Token,
 										},
 										body: JSON.stringify({
 											phone: WaCtc,
@@ -1026,7 +1098,7 @@ $(document).ready(function () {
 									method: 'POST',
 									headers: {
 										'content-type': 'application/json',
-										authorization: `Bearer ${waAPI.Token}`,
+										authorization: waAPI.Token,
 									},
 									body: JSON.stringify({
 										phone: WaCtc,

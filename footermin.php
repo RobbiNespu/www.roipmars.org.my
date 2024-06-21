@@ -127,7 +127,7 @@
       <div class='container-fluid'>
         <div class='row p-0 d-flex align-items-center'>
           <div class='col-md-12 my-0'>
-            <p class='text-center font-monospace text-body-tertiary lh-1'>&copy;2014&ndash;<script>document.write(new Date().getFullYear())</script> Hak Cipta Terpelihara. RoIPMARS &#124; PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;RoIP&rpar; PPM-006-10-01062020</p>
+            <p class='text-center font-monospace text-body-tertiary lh-1'>&copy;2014&ndash;<script>document.write(new Date().getFullYear())</script> RoIPMARS&trade; &#124; PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;RoIP&rpar; PPM-006-10-01062020</p>
           </div>
         </div>
       </div>

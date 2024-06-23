@@ -2662,7 +2662,7 @@
 			"Hari": "Sabtu<br>22/06/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "9W2AYP | V85PZ",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Ahad<br>23/06/2024<br>21:00 MYT",

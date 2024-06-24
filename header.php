@@ -46,7 +46,7 @@
               <li class='nav-item dropdown my-auto'>
                 <button class='btn dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Pautan Luar</button>
                 <ul class='dropdown-menu dropdown-menu-end text-center text-nowrap bg-body-secondary'>
-                  <li><a class='dropdown-item text-success-emphasis' href='https://books.zoho.com/portal/roipmarsnetwork' target='_blank'><i class='bi-receipt'></i> Portal Keahlian</a></li>
+                  <li><a class='dropdown-item text-success-emphasis' href='https://books.zohosecure.com/portal/roipmarsnetwork' target='_blank'><i class='bi-receipt'></i> Portal Keahlian</a></li>
                   <li><a class='dropdown-item text-success-emphasis' href='https://billing.stripe.com/p/login/6oE3d5ejyccoaDCeUU' target='_blank'><i class='bi-stripe'></i> Portal Pembayaran</a></li>
                   <li><hr></li>
                   <li><a class='dropdown-item text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-basket'></i> Kedai</a></li>

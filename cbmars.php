@@ -72,7 +72,7 @@
       </div>
     </div>
     <?php require_once 'footer.php' ?>
-    <script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.min.js,npm/datatables.net@latest,npm/datatables.net-bs5@latest,npm/datatables.net-buttons@latest,npm/datatables.net-buttons-bs5@latest,npm/datatables.net-buttons@latest/js/buttons.html5.min.js,npm/datatables.net-responsive@latest,npm/datatables.net-responsive-bs5@latest,npm/datatables.net-searchpanes@latest,npm/datatables.net-searchpanes-bs5@latest,npm/datatables.net-select@latest,npm/datatables.net-select-bs5@latest' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.min.js,npm/datatables.net@latest,npm/datatables.net-bs5@latest,npm/datatables.net-buttons@latest,npm/datatables.net-buttons-bs5@latest,npm/datatables.net-buttons@latest/js/buttons.html5.min.js,npm/datatables.net-plugins@latest/dataRender/intl.min.js,npm/datatables.net-responsive@latest,npm/datatables.net-responsive-bs5@latest,npm/datatables.net-searchpanes@latest,npm/datatables.net-searchpanes-bs5@latest,npm/datatables.net-select@latest,npm/datatables.net-select-bs5@latest' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jspdf@latest/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
     <script src='/assets/js/cbcs.js'></script>
   </body>

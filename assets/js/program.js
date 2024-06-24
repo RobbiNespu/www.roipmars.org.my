@@ -904,7 +904,7 @@ $(document).ready(function () {
 						.setFont('KodeMono-Regular')
 						.setFontSize(9)
 						.setTextColor('black')
-						.text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 148.5, 200, {
+						.text(`(C) ${new Date().getFullYear()} RoIPMARS™ Network | developed by mdpizi | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 148.5, 200, {
 							align: 'center',
 							baseline: 'middle',
 							lineHeightFactor: 1,
@@ -938,8 +938,8 @@ $(document).ready(function () {
 						let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${caller}`)
 						if (respCtc) {
 							let callContact = await respCtc.json()
-							callCtc = callContact.contact
-							callMail = callContact.email
+							callCtc = callContact.contact || ''
+							callMail = callContact.email || ''
 						}
 					} catch (err) {
 						callCtc = ''
@@ -986,8 +986,8 @@ $(document).ready(function () {
 										to: [{ email: MailCtc, name: caller }],
 										replyTo: { name: 'Member RoIPMARS', email: 'member@roipmars.org.my' },
 										subject: `eCert_RoIPMARS-${caller}`,
-										htmlContent: `<html><body>eCert_RoIPMARS-${caller}</body></html>`,
-										textContent: `eCert_RoIPMARS-${caller}`,
+										htmlContent: `<html><body><p>Hi, thank you for using our services. Here is your requested certificate;</p><table><tr><td>CallSign</td><td>${caller}</td></tr><tr><td>Time</td><td>${dtl.toUTCString()}</td></tr></table><p>You have requested a certificate from our records via ${location.hostname + location.pathname} on ${new Date().toString()} using ${navigator.userAgent}.</p><p>Please keep it in a safe place. If you have any questions, do not hesitate to contact us.<br><br>Sincerely,<br>Records Division, RoIPMARS</p></body></html>`,
+										textContent: `You have requested a certificate from our records`,
 										attachment: [{ content: eCertURI.split(',')[1], name: `${fileName}.pdf` }],
 										tags: ['eQSL'],
 									}),

@@ -102,7 +102,6 @@ $(document).ready(function () {
 				compress: true,
 			})
 			memCert.__private__.setPdfVersion('1.7')
-			memCert.setCreationDate(new Date())
 
 			memCert.addFont('/assets/font/HYPost-Light.ttf', 'HYPost-Light', 'normal')
 			memCert.addFont('/assets/font/KodeMono-Regular.ttf', 'KodeMono-Regular', 'normal')
@@ -141,7 +140,7 @@ $(document).ready(function () {
 				.setFont('KodeMono-Regular')
 				.setFontSize(10)
 				.setTextColor('#f7fcfe')
-				.text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, {
+				.text(`(C) ${new Date().getFullYear()} RoIPMARS™ Network | developed by mdpizi | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, {
 					align: 'center',
 					baseline: 'middle',
 					lineHeightFactor: 1,
@@ -153,6 +152,7 @@ $(document).ready(function () {
 			memCert
 				.setFileId(crypto.randomUUID())
 				.setLanguage('ms-MY')
+				.setCreationDate(new Date())
 				.setDocumentProperties({
 					title: `${fileName}`,
 					subject: `${id} - ${call}`,
@@ -183,8 +183,8 @@ $(document).ready(function () {
 				let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${call}`)
 				if (respCtc) {
 					let callContact = await respCtc.json()
-					callCtc = callContact.contact
-					callMail = callContact.email
+					callCtc = callContact.contact || ''
+					callMail = callContact.email || ''
 				}
 			} catch (err) {
 				callCtc = ''
@@ -231,8 +231,8 @@ $(document).ready(function () {
 								to: [{ email: MailCtc, name: call }],
 								replyTo: { name: 'Member RoIPMARS', email: 'member@roipmars.org.my' },
 								subject: `[${id}] Member-Certificate_RoIPMARS-${call}`,
-								htmlContent: `<html><body>[${id}] Member-Certificate_RoIPMARS-${call}</body></html>`,
-								textContent: `[${id}] Member-Certificate_RoIPMARS-${call}`,
+								htmlContent: `<html><body><p>Hi, thank you for using our services. Here is your requested certificate;</p><table><tr><td>CallSign</td><td>${call}</td></tr><tr><td>Name</td><td>${name}</td></tr><tr><td>ID</td><td>${id}</td></tr><tr><td>Valid thru</td><td>${validDate}</td></tr></table><p>You have requested a certificate from our records via ${location.hostname + location.pathname} on ${new Date().toString()} using ${navigator.userAgent}.</p><p>Please keep it in a safe place. If you have any questions, do not hesitate to contact us.<br><br>Sincerely,<br>Records Division, RoIPMARS</p></body></html>`,
+								textContent: `You have requested a certificate from our records`,
 								attachment: [{ content: eCertURI.split(',')[1], name: `${fileName}.pdf` }],
 								tags: ['Cert'],
 							}),

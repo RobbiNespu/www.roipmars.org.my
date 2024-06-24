@@ -14,6 +14,7 @@ $(document).ready(function () {
 		columnDefs: [
 			{ className: 'text-center align-middle', targets: '_all' },
 			{ searchable: false, targets: [0, 4] },
+			{ render: DataTable.render.intlDateTime('en-MY', { day: '2-digit', month: 'short', year: 'numeric' }), targets: 4 },
 		],
 		processing: true,
 		ordering: false,
@@ -64,7 +65,7 @@ $(document).ready(function () {
 		const cbcsCall = cbcsdata[1]
 		const cbcsName = cbcsdata[2]
 		const cbcsRegDate = cbcsdata[4]
-		let confirmtxt = `You are requesting Certificate for ${cbcsCall}. Are you sure?`
+		let confirmtxt = `You are requesting Certificate for ${cbcsCall} registered on ${cbcsRegDate}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
 			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> request confirmed. generating Certificate...</div>`
 			msgSuccess.show()
@@ -85,6 +86,7 @@ $(document).ready(function () {
 			}
 		}
 		async function genCert(id, call, name, regDate) {
+			let regDateF = new Intl.DateTimeFormat('en-MY', { day: '2-digit', month: 'short', year: 'numeric' }).format(new Date(regDate))
 			const { jsPDF } = window.jspdf
 			var cbcsCert = new jsPDF({
 				orientation: 'l',
@@ -94,7 +96,6 @@ $(document).ready(function () {
 				compress: true,
 			})
 			cbcsCert.__private__.setPdfVersion('1.7')
-			cbcsCert.setCreationDate(new Date())
 
 			cbcsCert.addFont('/assets/font/HYPost-Light.ttf', 'HYPost-Light', 'normal')
 			cbcsCert.addFont('/assets/font/KodeMono-Regular.ttf', 'KodeMono-Regular', 'normal')
@@ -112,7 +113,7 @@ $(document).ready(function () {
 
 			cbcsCert.setFont('AgencyFB').setFontSize(80).setTextColor('#336699').text(name, 775, 225, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 350, renderingMode: 'fillThenStroke' })
 			cbcsCert.setFont('AgencyFB').setFontSize(52).setTextColor('#5cce54').text(`${call} - [${id}]`, 775, 520, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 350, renderingMode: 'fillThenStroke' })
-			cbcsCert.setFont('AgencyFB').setFontSize(48).setTextColor('#72c7ef').text(regDate.toUpperCase(), 915, 660, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 200, renderingMode: 'fillThenStroke' })
+			cbcsCert.setFont('AgencyFB').setFontSize(48).setTextColor('#72c7ef').text(regDateF, 915, 660, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 200, renderingMode: 'fillThenStroke' })
 			cbcsCert.setFont('AgencyFB').setFontSize(32).setTextColor('black').text('TARIKH DAFTAR', 915, 700, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 250 })
 
 			if (call.match(/113MSOGK|91KMEGG/g)) {
@@ -132,7 +133,7 @@ $(document).ready(function () {
 			}
 
 			cbcsCert.setFont('Orbitron-Black').setFontSize(10).setTextColor('black').text('ROIPMARS.ORG.MY | KOPDARMOBILE.ID', 528, 760, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
-			cbcsCert.setFont('HYPost-Light').setFontSize(10).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (9W2UZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
+			cbcsCert.setFont('HYPost-Light').setFontSize(10).setTextColor('black').text('IN MEMORIES OF LATE ZULKIFLI ABU (113MSUZL) - FOUNDER OF ROIPMARS (est. 2016)', 528, 770, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 800 })
 			cbcsCert
 				.setFont('OpenSansCondensed-Regular')
 				.setFontSize(10)
@@ -142,7 +143,7 @@ $(document).ready(function () {
 				.setFont('KodeMono-Regular')
 				.setFontSize(10)
 				.setTextColor('black')
-				.text(`(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, {
+				.text(`(C) ${new Date().getFullYear()} RoIPMARS™ Network | developed by mdpizi | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, {
 					align: 'center',
 					baseline: 'middle',
 					lineHeightFactor: 1,
@@ -154,6 +155,7 @@ $(document).ready(function () {
 			cbcsCert
 				.setFileId(crypto.randomUUID())
 				.setLanguage('ms-MY')
+				.setCreationDate(new Date(regDate))
 				.setDocumentProperties({
 					title: `${fileName}`,
 					subject: `${id} - ${call}`,
@@ -176,8 +178,8 @@ $(document).ready(function () {
 				let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${call}`)
 				if (respCtc) {
 					let callContact = await respCtc.json()
-					callCtc = callContact.contact
-					callMail = callContact.email
+					callCtc = callContact.contact || ''
+					callMail = callContact.email || ''
 				}
 			} catch (err) {
 				callCtc = ''
@@ -224,8 +226,8 @@ $(document).ready(function () {
 								to: [{ email: MailCtc, name: call }],
 								replyTo: { name: 'Member RoIPMARS', email: 'member@roipmars.org.my' },
 								subject: `[${id}] CB-Certificate_RoIPMARS-${call}`,
-								htmlContent: `<html><body>[${id}] CB-Certificate_RoIPMARS-${call}</body></html>`,
-								textContent: `[${id}] CB-Certificate_RoIPMARS-${call}`,
+								htmlContent: `<html><body><p>Hi, thank you for using our services. Here is your requested certificate;</p><table><tr><td>CallSign</td><td>${call}</td></tr><tr><td>Name</td><td>${name}</td></tr><tr><td>ID</td><td>${id}</td></tr><tr><td>Registration Date</td><td>${regDateF}</td></tr></table><p>You have requested a certificate from our records via ${location.hostname + location.pathname} on ${new Date().toString()} using ${navigator.userAgent}.</p><p>Please keep it in a safe place. If you have any questions, do not hesitate to contact us.<br><br>Sincerely,<br>Records Division, RoIPMARS</p></body></html>`,
+								textContent: `You have requested a certificate from our records`,
 								attachment: [{ content: eCertURI.split(',')[1], name: `${fileName}.pdf` }],
 								tags: ['Cert'],
 							}),

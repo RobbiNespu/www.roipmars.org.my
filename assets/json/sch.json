@@ -2643,8 +2643,8 @@
 		{
 			"Hari": "Selasa<br>18/06/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "YC4AUM | YF5WCO",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "YC4AUM | YD4DTA",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1806242100'>13</button>"
 		},
 		{
 			"Hari": "Rabu<br>19/06/2024<br>21:00 MYT",
@@ -2656,19 +2656,19 @@
 			"Hari": "Khamis<br>20/06/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Malam Jumat",
 			"NCS": "YD4DTA | YD4LLLZ",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2006242100'>28</button>"
 		},
 		{
 			"Hari": "Sabtu<br>22/06/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "9W2AYP | V85PZ",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2206242100'>17</button>"
 		},
 		{
 			"Hari": "Ahad<br>23/06/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Janda Sedunia",
-			"NCS": "9W2YBT | 9M6AUA",
-			"Laporan": "&shy;"
+			"NCS": "9M6RDY | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2306242100'>20</button>"
 		},
 		{
 			"Hari": "Isnin<br>24/06/2024<br>21:00 MYT",

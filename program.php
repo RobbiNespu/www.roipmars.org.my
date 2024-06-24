@@ -120,17 +120,13 @@
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
 										<p class='lh-1 my-0'>9M6RDY<br><span class='fw-bold'>RUDY</span></p>
 									</div>
-									<!-- <div class='vstack gap-3'>
+									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2orl.png' alt='9W2ORL'>
 										<p class='lh-1 my-0'>9W2ORL<br><span class='fw-bold'>RAHIM</span></p>
-									</div> -->
+									</div>
 									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png' alt='9W2YBT'>
 										<p class='lh-1 my-0'>9W2YBT<br><span class='fw-bold'>FAISAL</span></p>
-									</div>
-									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2zpa.png' alt='9W2ZPA'>
-										<p class='lh-1 my-0'>9W2ZPA<br><span class='fw-bold'>ZULPAH</span></p>
 									</div>
 									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/037.png' alt='V85PZ'>
@@ -152,10 +148,6 @@
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yd4dta.png' alt='YD4DTA'>
 										<p class='lh-1 my-0'>YD4DTA<br><span class='fw-bold'>DITA</span></p>
 									</div>
-									<!-- <div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yd4lllz.png' alt='YD4LLLZ'>
-										<p class='lh-1 my-0'>YD4LLLZ<br><span class='fw-bold'>HENDRI</span></p>
-									</div> -->
 									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yf5nzl.png' alt='YF5NZL'>
 										<p class='lh-1 my-0'>YF5NZL<br><span class='fw-bold'>NUZUL</span></p>

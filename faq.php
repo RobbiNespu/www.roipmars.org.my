@@ -134,11 +134,11 @@
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://38.47.176.16' target='_blank' rel='noopener noreferrer'>38.47.176.16</a></td>
                         </tr>
                         <tr>
-                          <td>DEWA <sup><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i></sup></td>
+                          <td>eQSO DEWA <sup><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i></sup></td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://101.255.4.194:9983' target='_blank' rel='noopener noreferrer'>101.255.4.194:9983</a></td>
                         </tr>
                         <tr>
-                          <td>EQSO NASIONAL <sup><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i></sup></td>
+                          <td>eQSO NASIONAL <sup><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i></sup></td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://ts3.nasional.net.id' target='_blank' rel='noopener noreferrer'>ts3.nasional.net.id</a></td>
                         </tr>
                         <tr>

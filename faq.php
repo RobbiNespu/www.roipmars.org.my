@@ -95,132 +95,125 @@
                     <p class='m-0'>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='https://sl.roipmars.org.my/qinlu6' download>ts-3.0.3.1.apk</a></p>
                     <p class='m-0'>Pihak Pentadbir Rangkaian RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
                     <hr>
-                    <p class='m-0'>Antara pelayan TeamSpeak lain:</p>
-                    <table class='table table-sm table-responsive table-striped table-hover align-middle text-center'>
+                    <p class='m-0'>Senarai pelayan TeamSpeak lain;</p>
+                    <table class='table table-sm table-responsive table-striped table-hover align-middle text-center caption-top'>
+                      <caption class='text-center'><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i> &mdash; Pelayan telah disenarai hitam oleh TeamSpeak Systems, Inc.<br><i class='bi-exclamation-diamond-fill text-warning-emphasis'></i> &mdash; Pemilik IKRAP RAPI &lpar;JZ&rpar; sahaja.</caption>
                       <thead>
                         <tr>
                           <th>Pelayan</th>
                           <th>Alamat</th>
-                          <th>Saluran</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr class='table-active'>
-                          <th>RoIPMARS Network</th>
+                        <tr class='table-primary'>
+                          <td>RoIPMARS Network</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://roipmars.org.my' target='_blank' rel='noopener noreferrer'>roipmars.org.my</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>Sabah RoIP Community &lpar;SRC&rpar;</th>
+                          <td>Sabah RoIP Community &lpar;SRC&rpar;</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://sabah.roipmars.org.my' target='_blank' rel='noopener noreferrer'>sabah.roipmars.org.my</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>ANDALAS</th>
+                          <td>ANDALAS</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://103.189.235.112:2112' target='_blank' rel='noopener noreferrer'>103.189.235.112:2112</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>ARIZONA</th>
+                          <td>ARIZONA</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://128.199.196.14:882' target='_blank' rel='noopener noreferrer'>128.199.196.14:882</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>BORNEO AMATIR</th>
+                          <td>BORNEO AMATIR</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://103.63.25.56' target='_blank' rel='noopener noreferrer'>103.63.25.56</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>CAKRAWALA <sup><i class='bi-exclamation-triangle-fill text-warning-emphasis'></i></sup></th>
+                          <td>CAKRAWALA <sup><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i></sup></td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://202.4.186.132:9965' target='_blank' rel='noopener noreferrer'>202.4.186.132:9965</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>DELI SERDANG</th>
+                          <td>DELI SERDANG</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://38.47.176.16' target='_blank' rel='noopener noreferrer'>38.47.176.16</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>DEWA <sup><i class='bi-exclamation-triangle-fill text-warning-emphasis'></i></sup></th>
+                          <td>DEWA <sup><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i></sup></td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://101.255.4.194:9983' target='_blank' rel='noopener noreferrer'>101.255.4.194:9983</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>EQSO NASIONAL <sup><i class='bi-exclamation-triangle-fill text-warning-emphasis'></i></sup></th>
+                          <td>EQSO NASIONAL <sup><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i></sup></td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://ts3.nasional.net.id' target='_blank' rel='noopener noreferrer'>ts3.nasional.net.id</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>HAM RADIO INDONESIA</th>
+                          <td>HAM RADIO INDONESIA</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://hamradio.id' target='_blank' rel='noopener noreferrer'>hamradio.id</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>IJEN JENGGIRAT <sup><i class='bi-exclamation-triangle-fill text-warning-emphasis'></i></sup></th>
+                          <td>IJEN JENGGIRAT <sup><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i></sup></td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://128.199.196.14' target='_blank' rel='noopener noreferrer'>128.199.196.14</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>LATIMOJONG</th>
+                          <td>LATIMOJONG</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://latimojong.com' target='_blank' rel='noopener noreferrer'>latimojong.com</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>LINTAS NUSANTARA</th>
+                          <td>LINTAS NUSANTARA</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://ts3linus.my.id' target='_blank' rel='noopener noreferrer'>ts3linus.my.id</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>PELANGI AMATIR</th>
+                          <td>PELANGI AMATIR</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://101.255.4.194:9981' target='_blank' rel='noopener noreferrer'>101.255.4.194:9981</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>PHINISI</th>
+                          <td>PHINISI</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://phinisi.my.id' target='_blank' rel='noopener noreferrer'>phinisi.my.id</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>RAJAWALI</th>
+                          <td>RAJAWALI</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://103.13.207.133:333' target='_blank' rel='noopener noreferrer'>103.13.207.133:333</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>RINJANI</th>
+                          <td>RINJANI</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://91.192.81.104:3726' target='_blank' rel='noopener noreferrer'>91.192.81.104:3726</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>SAMERNET <sup><i class='bi-exclamation-triangle-fill text-warning-emphasis'></i></sup></th>
+                          <td>SAMERNET <sup><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i></sup></td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://202.4.186.132:9956' target='_blank' rel='noopener noreferrer'>202.4.186.132:9956</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>SARUMA BACAN</th>
+                          <td>SARUMA BACAN</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://sarumabacan.my.id' target='_blank' rel='noopener noreferrer'>sarumabacan.my.id</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>TAKALAR</th>
+                          <td>TAKALAR</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://103.226.138.143:333' target='_blank' rel='noopener noreferrer'>103.226.138.143:333</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>TANAH RENCONG</th>
+                          <td>TANAH RENCONG</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://206.237.98.143' target='_blank' rel='noopener noreferrer'>206.237.98.143</a></td>
-                          <td></td>
                         </tr>
                         <tr>
-                          <th>TUDUNG SAJI</th>
+                          <td>TUDUNG SAJI</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://203.55.176.240' target='_blank' rel='noopener noreferrer'>203.55.176.240</a></td>
-                          <td></td>
                         </tr>
                       </tbody>
                       <tbody class='table-group-divider'>
                         <tr>
                           <td>KOPDARMOBILE</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://kopdarmobile.id' target='_blank' rel='noopener noreferrer'>kopdarmobile.id</a></td>
-                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Ts3 RoIP KRAP <sup><i class='bi-exclamation-diamond-fill text-warning-emphasis'></i></sup></td>
+                          <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://ts3.krap.or.id' target='_blank' rel='noopener noreferrer'>ts3.krap.or.id</a></td>
+                        </tr>
+                        <tr>
+                          <td>ROIP MERDEKA <sup><i class='bi-exclamation-diamond-fill text-warning-emphasis'></i></sup></td>
+                          <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://ts.roipmerdeka.id' target='_blank' rel='noopener noreferrer'>ts.roipmerdeka.id</a></td>
+                        </tr>
+                        <tr>
+                          <td>RADIO DIGITAL 272</td>
+                          <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://103.49.228.211:9988' target='_blank' rel='noopener noreferrer'>103.49.228.211:9988</a></td>
+                        </tr>
+                        <tr>
+                          <td>EMERGENCY RESPONSE TEAMS <sup><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i></sup></td>
+                          <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://103.130.166.160:9988' target='_blank' rel='noopener noreferrer'>103.130.166.160:9988</a></td>
                         </tr>
                       </tbody>
                     </table>

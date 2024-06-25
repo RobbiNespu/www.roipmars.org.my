@@ -77,12 +77,12 @@
               </tr>
               <tr>
                 <th scope='row'>Windows 32-bit</th>
-                <td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' target='_blank' download>win32</a></td>
-                <td><a class='btn btn-sm btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' target='_blank' rel='external' download>win32</a></td>
+                <td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/win32/ts3-win32-3.1.10.exe' target='_blank' download>win32</a></td>
+                <td></td>
               </tr>
               <tr>
                 <th scope='row'>Windows 64-bit</th>
-                <td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/teamspeak3-client-win64-3.1.10.exe' target='_blank' download>win64</a></td>
+                <td><a class='btn btn-sm btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/win64/ts3-win64-3.1.10.exe' target='_blank' download>win64</a></td>
                 <td><a class='btn btn-sm btn-primary' role='button' href='https://files.teamspeak-services.com/pre_releases/client/5.0.0-beta77/teamspeak-client.msi' target='_blank' rel='external' download>win64</a></td>
               </tr>
             </tbody>
@@ -157,9 +157,9 @@
             <tbody>
               <tr>
                 <th scope='row'>TS</th>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.0.19.4.exe' target='_blank' download>TSv3.0.19.4</a></td>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/ts3.x_x86/ts3-win32-3.1.10.exe' target='_blank' download>TSv3.1.10</a></td>
-                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://files.teamspeak-services.com/releases/client/3.5.6/TeamSpeak3-Client-win32-3.5.6.exe' target='_blank' rel='external' download>TSv3.5.6</a></td>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/win32/ts3-win32-3.0.19.4.exe' target='_blank' download>TSv3.0.19.4</a></td>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/win32/ts3-win32-3.1.10.exe' target='_blank' download>TSv3.1.10</a></td>
+                <td class='text-nowrap'><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/win32/ts3-win32-3.5.6.exe' target='_blank' rel='external' download>TSv3.5.6</a></td>
               </tr>
               <tr>
                 <th scope='row'>Gateway</th>
@@ -168,9 +168,9 @@
               </tr>
               <tr>
                 <th scope='row'>Plugin</th>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api20.dll' target='_blank' download>GCPv20</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api21.dll' target='_blank' download>GCPv21</a></td>
-                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/tsgateway_link_32bit_api23.dll' target='_blank' download>GCPv23</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/win32/ts3-gatewaylink_32bit_api20.dll' target='_blank' download>GCPv20</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/win32/ts3-gatewaylink_32bit_api21.dll' target='_blank' download>GCPv21</a></td>
+                <td><a class='btn btn-primary' role='button' href='https://dl.roipmars.org.my/files/downloads/windows/teamspeak/win32/ts3-gatewaylink_32bit_api23.dll' target='_blank' download>GCPv23</a></td>
               </tr>
             </tbody>
           </table>

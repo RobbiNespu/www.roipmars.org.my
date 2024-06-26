@@ -2680,7 +2680,7 @@
 			"Hari": "Selasa<br>25/06/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Pelaut",
 			"NCS": "V85AFF | 9M6RDY",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2506242100'>32</button>"
 		},
 		{
 			"Hari": "Rabu<br>26/06/2024<br>21:00 MYT",

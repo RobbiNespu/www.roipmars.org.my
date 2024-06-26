@@ -122,6 +122,10 @@
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://128.199.196.14:882' target='_blank' rel='noopener noreferrer'>128.199.196.14:882</a></td>
                         </tr>
                         <tr>
+                          <td>BOGANI</td>
+                          <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://149.129.218.218:9986' target='_blank' rel='noopener noreferrer'>149.129.218.218:9986</a></td>
+                        </tr>
+                        <tr>
                           <td>BORNEO AMATIR</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://103.63.25.56' target='_blank' rel='noopener noreferrer'>103.63.25.56</a></td>
                         </tr>

@@ -175,7 +175,10 @@ $(document).ready(function () {
 			toastInfo.innerHTML = `<div class='toast-body'>CB-Certificate Ready!</div>`
 			msgInfo.show()
 			try {
-				let respCtc = await fetch(`https://api.roipmars.org.my/hook/getcontact?callsign=${call}`)
+				let respCtc = await fetch(`https://api.roipmars.org.my/hook/callctc?callsign=${call}`, {
+					method: 'GET',
+					headers: { 'content-type': 'application/json' },
+				})
 				if (respCtc) {
 					let callContact = await respCtc.json()
 					callCtc = callContact.contact || ''
@@ -238,12 +241,13 @@ $(document).ready(function () {
 									toastSuccess.innerHTML = `<div class='toast-body'>CB-Certificate ${fileName} sent to ${MailCtc}.\ncheck eMail message from noreply@roipmars.org.my</div>`
 									msgSuccess.show()
 									if (callMail != MailCtc) {
-										await fetch(`https://api.roipmars.org.my/hook/setmail`, {
+										await fetch('https://api.roipmars.org.my/hook/callctc', {
 											method: 'POST',
 											headers: { 'content-type': 'application/json' },
 											body: JSON.stringify({
-												callsign: `${call}`,
-												email: `${MailCtc}`,
+												callsign: call,
+												contact: callCtc,
+												email: MailCtc,
 											}),
 										})
 									}
@@ -298,12 +302,13 @@ $(document).ready(function () {
 						toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck WhatsApp message from 601153440440.</div>`
 						msgSuccess.show()
 						if (callCtc != WaCtc) {
-							await fetch(`https://api.roipmars.org.my/hook/setctc`, {
+							await fetch('https://api.roipmars.org.my/hook/callctc', {
 								method: 'POST',
 								headers: { 'content-type': 'application/json' },
 								body: JSON.stringify({
-									callsign: `${call}`,
-									contact: `${WaCtc}`,
+									callsign: call,
+									contact: WaCtc,
+									email: callMail,
 								}),
 							})
 						}

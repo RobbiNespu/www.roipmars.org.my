@@ -154,6 +154,10 @@
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://128.199.196.14' target='_blank' rel='noopener noreferrer'>128.199.196.14</a></td>
                         </tr>
                         <tr>
+                          <td>KIE RAHA</td>
+                          <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://103.187.147.251:7777' target='_blank' rel='noopener noreferrer'>103.187.147.251:7777</a></td>
+                        </tr>
+                        <tr>
                           <td>LATIMOJONG</td>
                           <td><a class='text-reset text-decoration-none font-monospace' href='ts3server://latimojong.com' target='_blank' rel='noopener noreferrer'>latimojong.com</a></td>
                         </tr>

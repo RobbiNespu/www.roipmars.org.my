@@ -24,6 +24,11 @@
           </thead>
           <tbody>
             <tr>
+              <td>28 Jun 2024</td>
+              <td>Notis Gangguan Sementara Perkhidmatan</td>
+              <td><a type='button' class='btn btn-outline-secondary d-grid' href='nts/2024/06' target='_blank'>NtsMARS 2024/06</a></td>
+            </tr>
+            <tr>
               <td>31 Mei 2024</td>
               <td>Penutupan Platform</td>
               <td><a type='button' class='btn btn-outline-secondary d-grid' href='nts/2024/05' target='_blank'>NtsMARS 2024/05</a></td>

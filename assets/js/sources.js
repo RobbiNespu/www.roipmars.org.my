@@ -105,12 +105,3 @@ function lastMod(url) {
 		return err.message
 	}
 }
-
-const waAPI = {
-	BaseURL: `https://wa-api.roipmars.org.my/api/${keys.whatsapp.session}`,
-	Token: `Bearer ${keys.whatsapp.token}`,
-}
-const mailAPI = {
-	BaseURL: 'https://api.brevo.com/v3',
-	Token: keys.email.token,
-}

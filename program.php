@@ -547,6 +547,7 @@
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@latest/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-stacked100@latest/build/index.min.js' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@latest/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
+		<script src='/assets/js/keys.js'></script>
 		<script src='/assets/js/program.js'></script>
 		<script src='/assets/js/stats.js'></script>
 		<script src='/assets/js/bcfy-stat.js'></script>

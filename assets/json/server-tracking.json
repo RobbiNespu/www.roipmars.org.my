@@ -1,0 +1,33 @@
+{
+	"tsServers": [
+		{ "nickname": "RoIPMARS Network", "address": "roipmars.org.my", "note": "" },
+		{ "nickname": "Sabah RoIP Community", "address": "sabah.roipmars.org.my", "note": "" },
+		{ "nickname": "ANDALAS", "address": "103.189.235.112:2112", "note": "" },
+		{ "nickname": "ARIZONA", "address": "128.199.196.14:882", "note": "" },
+		{ "nickname": "BOGANI", "address": "149.129.218.218:9986", "note": "" },
+		{ "nickname": "BORNEO AMATIR", "address": "103.63.25.56", "note": "" },
+		{ "nickname": "CAKRAWALA", "address": "202.4.186.132:9965", "note": "<i class='bi-exclamation-triangle-fill text-danger-emphasis'></i>" },
+		{ "nickname": "DELI SERDANG", "address": "38.47.176.16", "note": "" },
+		{ "nickname": "eQSO DEWA", "address": "101.255.4.194:9983", "note": "<i class='bi-exclamation-triangle-fill text-danger-emphasis'></i>" },
+		{ "nickname": "eQSO NASIONAL", "address": "ts3.nasional.net.id", "note": "<i class='bi-exclamation-triangle-fill text-danger-emphasis'></i>" },
+		{ "nickname": "HAM RADIO INDONESIA", "address": "hamradio.id", "note": "" },
+		{ "nickname": "IJEN JENGGIRAT", "address": "128.199.196.14", "note": "<i class='bi-exclamation-triangle-fill text-danger-emphasis'></i>" },
+		{ "nickname": "KIE RAHA", "address": "103.187.147.251:7777", "note": "" },
+		{ "nickname": "LATIMOJONG", "address": "latimojong.com", "note": "" },
+		{ "nickname": "LINTAS NUSANTARA", "address": "ts3linus.my.id", "note": "" },
+		{ "nickname": "PELANGI AMATIR", "address": "101.255.4.194:9981", "note": "" },
+		{ "nickname": "PHINISI", "address": "phinisi.my.id", "note": "" },
+		{ "nickname": "RAJAWALI", "address": "103.13.207.133:333", "note": "" },
+		{ "nickname": "RINJANI", "address": "91.192.81.104:3726", "note": "" },
+		{ "nickname": "SAMERNET", "address": "202.4.186.132:9956", "note": "<i class='bi-exclamation-triangle-fill text-danger-emphasis'></i>" },
+		{ "nickname": "SARUMA BACAN", "address": "sarumabacan.my.id", "note": "" },
+		{ "nickname": "TAKALAR", "address": "103.226.138.143:333", "note": "" },
+		{ "nickname": "TANAH RENCONG", "address": "206.237.98.143", "note": "" },
+		{ "nickname": "TUDUNG SAJI", "address": "203.55.176.240", "note": "" },
+		{ "nickname": "KOPDARMOBILE", "address": "kopdarmobile.id", "note": "" },
+		{ "nickname": "TS3 RoIP KRAP", "address": "ts3.krap.or.id", "note": "<i class='bi-exclamation-diamond-fill text-warning-emphasis'></i>" },
+		{ "nickname": "ROIP MERDEKA", "address": "ts.roipmerdeka.id", "note": "<i class='bi-exclamation-diamond-fill text-warning-emphasis'></i>" },
+		{ "nickname": "RADIO DIGITAL 272", "address": "103.49.228.211:9988", "note": "" },
+		{ "nickname": "EMERGENCY RESPONSE TEAMS", "address": "103.130.166.160:9988", "note": "<i class='bi-exclamation-triangle-fill text-danger-emphasis'></i>" }
+	]
+}

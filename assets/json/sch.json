@@ -2685,8 +2685,8 @@
 		{
 			"Hari": "Rabu<br>26/06/2024<br>21:00 MYT",
 			"Acara": "[SPECIAL] International Day against Drug Abuse and Illicit Trafficking",
-			"NCS": "9W6RHN | 9M6RDY",
-			"Laporan": "&shy;"
+			"NCS": "9M6RDY | 9M6JAY",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2606242100'>19</button>"
 		},
 		{
 			"Hari": "Khamis<br>27/06/2024<br>21:00 MYT",

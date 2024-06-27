@@ -134,8 +134,9 @@
     </footer>
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
     <script src='https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js' crossorigin='anonymous'></script>
-    <script src='/assets/js/theme.js'></script>
+    <script src='/assets/js/keys.js'></script>
     <script src='/assets/js/sources.js'></script>
+    <script src='/assets/js/theme.js'></script>
   </body>
 
 </html>

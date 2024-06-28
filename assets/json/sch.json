@@ -2674,7 +2674,7 @@
 			"Hari": "Isnin<br>24/06/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "9M6JAY | 9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2406242100'>18</button>"
 		},
 		{
 			"Hari": "Selasa<br>25/06/2024<br>21:00 MYT",
@@ -2692,7 +2692,7 @@
 			"Hari": "Khamis<br>27/06/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Malam Jumat",
 			"NCS": "YC8HBQ | YD4DTA",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2706242100'>38</button>"
 		},
 		{
 			"Hari": "Sabtu<br>29/06/2024<br>21:00 MYT",

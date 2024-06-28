@@ -2692,7 +2692,7 @@
 			"Hari": "Khamis<br>27/06/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Malam Jumat",
 			"NCS": "YC8HBQ | YD4DTA",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>29/06/2024<br>21:00 MYT",
@@ -2818,24 +2818,6 @@
 			"Hari": "Isnin<br>22/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kemerdekaan Sarawak",
 			"NCS": "9M2SFL | 9W6RHN",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>23/07/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Anak Nasional",
-			"NCS": "YC4AUM | YF5NZL",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Rabu<br>24/07/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "9W6RHN | 9M6AUA",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Khamis<br>25/07/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Malam Jumat",
-			"NCS": "YD4DTA | YF5WCO",
 			"Laporan": "&shy;"
 		},
 		{

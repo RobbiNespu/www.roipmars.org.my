@@ -2698,7 +2698,7 @@
 			"Hari": "Sabtu<br>29/06/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Tropika Antarabangsa",
 			"NCS": "9M2SFL | 9W6RHN",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Ahad<br>30/06/2024<br>21:00 MYT",

@@ -54,7 +54,7 @@ $(document).ready(function () {
 			{ searchable: false, targets: -1 },
 		],
 		deferRender: true,
-		displayStart: 425,
+		displayStart: 450,
 		ordering: false,
 		lengthChange: false,
 		pageLength: 25,

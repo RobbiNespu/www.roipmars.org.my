@@ -2697,14 +2697,14 @@
 		{
 			"Hari": "Sabtu<br>29/06/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Tropika Antarabangsa",
-			"NCS": "9M2SFL | 9W6RHN",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W6RHN | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2906242100'>33</button>"
 		},
 		{
 			"Hari": "Ahad<br>30/06/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Asteroid Antarabangsa",
-			"NCS": "9W2AYP | 9M2SFL",
-			"Laporan": "&shy;"
+			"NCS": "V85AFF | YD4DTA",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='3006242100'>35</button>"
 		},
 		{
 			"Hari": "Isnin<br>01/07/2024<br>21:00 MYT",

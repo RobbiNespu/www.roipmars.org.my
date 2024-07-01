@@ -593,11 +593,7 @@ $(document).ready(function () {
 					url: '/assets/json/netrep.json',
 					dataSrc: `${source}`,
 				},
-				columns: [
-					{ title: 'Call', name: 'cs' },
-					{ title: 'Mod', name: 'mod' },
-					{ title: 'UTC', name: 'time' },
-				],
+				columns: [{ title: 'Call' }, { title: 'MoT' }, { title: 'UTC' }],
 				columnDefs: [
 					{ className: 'text-center align-middle', targets: '_all' },
 					{ searchable: true, targets: 0 },

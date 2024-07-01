@@ -28,6 +28,7 @@
 		{ "nickname": "TS3 RoIP KRAP", "address": "ts3.krap.or.id", "note": "<i class='bi-exclamation-diamond-fill text-warning-emphasis'></i>" },
 		{ "nickname": "ROIP MERDEKA", "address": "ts.roipmerdeka.id", "note": "<i class='bi-exclamation-diamond-fill text-warning-emphasis'></i>" },
 		{ "nickname": "RADIO DIGITAL 272", "address": "103.49.228.211:9988", "note": "" },
-		{ "nickname": "EMERGENCY RESPONSE TEAMS", "address": "103.130.166.160:9988", "note": "<i class='bi-exclamation-triangle-fill text-danger-emphasis'></i>" }
+		{ "nickname": "EMERGENCY RESPONSE TEAMS", "address": "ert-mdn.link", "note": "<i class='bi-exclamation-triangle-fill text-danger-emphasis'></i>" },
+		{ "nickname": "EMERGENCY RESPONSE TEAMS (N)", "address": "ert.ts3lu.pro", "note": "" }
 	]
 }

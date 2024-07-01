@@ -35,7 +35,7 @@ const meta = `<base href='${currentHost}'>\
 <meta name='title' content='${docTitle}'>\
 <meta name='description' content='${docDesc}'>\
 <meta name='keywords' content='roipmars,teamspeak3 malaysia,teamspeak,radio amatur,amateur radio over internet,radio over internet protocol,voice over internet protocol,roip,viop,cb band malaysia,citizen band,jalur rakyat'>\
-<meta name='author' content='HafiziRuslan'>\
+<meta name='author' content='Hafizi Ruslan'>\
 <meta name='language' content='Malay'>\
 <meta name='color-scheme' content='auto'>\
 <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=yes'>\

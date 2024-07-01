@@ -2710,7 +2710,7 @@
 			"Hari": "Isnin<br>01/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Koperasi Antarabangsa",
 			"NCS": "9W2YBT | 9W2AYP",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Selasa<br>02/07/2024<br>21:00 MYT",

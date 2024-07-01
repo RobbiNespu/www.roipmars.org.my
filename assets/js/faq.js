@@ -15,7 +15,6 @@ $(document).ready(function () {
 			],
 			columnDefs: [
 				{ className: 'text-center align-middle', targets: '_all' },
-				{ className: 'font-monospace', targets: 2 },
 				{
 					render: function (data, type, row) {
 						return data + ' ' + row.note

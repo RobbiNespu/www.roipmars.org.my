@@ -1054,6 +1054,16 @@ $(document).ready(function () {
 								isNewsletter: false,
 								filename: `eCert_${fileName}.pdf`,
 								base64: eCertURI,
+								caption: `Hai ${caller},\nTerima kasih telah menggunakan perkhidmatan kami. Inilah sijil yang anda minta;\n- CallSign: ${caller}\n- Masa: ${dtl.toUTCString()}\n\nAnda telah meminta sijil dari rekod kami melalui ${location} pada ${new Intl.DateTimeFormat(
+									'ms-MY',
+									{
+										dateStyle: 'medium',
+										timeStyle: 'long',
+										hourCycle: 'h24',
+									}
+								).format(new Date())} menggunakan ${
+									navigator.userAgent
+								}.\nSila simpan di tempat yang selamat.\nJika anda mempunyai sebarang pertanyaan, jangan teragak-agak untuk menghubungi salah satu pentadbir kami.\n\nIkhlas,\nBahagian Rekod, RoIPMARS`,
 							}),
 						}).then(async (res) => {
 							if (res.ok) {

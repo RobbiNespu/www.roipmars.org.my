@@ -234,7 +234,9 @@ $(document).ready(function () {
 								to: [{ email: MailCtc, name: call }],
 								replyTo: { name: 'Member RoIPMARS', email: 'member@roipmars.org.my' },
 								subject: `[${id}] Member-Certificate_RoIPMARS-${call}`,
-								htmlContent: `<html><body><p>Hi, thank you for using our services. Here is your requested certificate;</p><table><tr><td>CallSign</td><td>${call}</td></tr><tr><td>Name</td><td>${name}</td></tr><tr><td>ID</td><td>${id}</td></tr><tr><td>Valid thru</td><td>${validDate}</td></tr></table><p>You have requested a certificate from our records via ${location.hostname + location.pathname} on ${new Date().toString()} using ${navigator.userAgent}.</p><p>Please keep it in a safe place. If you have any questions, do not hesitate to contact us.<br><br>Sincerely,<br>Records Division, RoIPMARS</p></body></html>`,
+								htmlContent: `<html><body><p>Hi, thank you for using our services. Here is your requested certificate;</p><table><tr><td>CallSign</td><td>${call}</td></tr><tr><td>Name</td><td>${name}</td></tr><tr><td>ID</td><td>${id}</td></tr><tr><td>Valid thru</td><td>${validDate}</td></tr></table><p>You have requested a certificate from our records via ${
+									location.hostname + location.pathname
+								} on ${new Date().toString()} using ${navigator.userAgent}.</p><p>Please keep it in a safe place. If you have any questions, do not hesitate to contact us.<br><br>Sincerely,<br>Records Division, RoIPMARS</p></body></html>`,
 								textContent: `You have requested a certificate from our records`,
 								attachment: [{ content: eCertURI.split(',')[1], name: `${fileName}.pdf` }],
 								tags: ['Cert'],
@@ -301,6 +303,12 @@ $(document).ready(function () {
 						isNewsletter: false,
 						filename: `${fileName}.pdf`,
 						base64: eCertURI,
+						caption: `Hai ${call},\nTerima kasih telah menggunakan perkhidmatan kami. Inilah sijil yang anda minta;\n- CallSign: ${call}\n- Nama: ${name}\n- ID: ${id}\n- Sah sehingga: ${validDate}\n\nAnda telah meminta sijil dari rekod kami melalui ${location} pada ${new Intl.DateTimeFormat(
+							'ms-MY',
+							{ dateStyle: 'medium', timeStyle: 'long', hourCycle: 'h24' }
+						).format(new Date())} menggunakan ${
+							navigator.userAgent
+						}.\nSila simpan di tempat yang selamat.\nJika anda mempunyai sebarang pertanyaan, jangan teragak-agak untuk menghubungi salah satu pentadbir kami.\n\nIkhlas,\nBahagian Rekod, RoIPMARS`,
 					}),
 				}).then(async (res) => {
 					if (res.ok) {

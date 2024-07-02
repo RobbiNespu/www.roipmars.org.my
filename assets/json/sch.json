@@ -2715,8 +2715,8 @@
 		{
 			"Hari": "Selasa<br>02/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "YC4AUM | YC8HBQ",
-			"Laporan": "&shy;"
+			"NCS": "YD4DTA | YC8HBQ",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0207242100'>32</button>"
 		},
 		{
 			"Hari": "Rabu<br>03/07/2024<br>21:00 MYT",

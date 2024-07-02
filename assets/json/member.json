@@ -204,13 +204,13 @@
 			"Locale": "TAIPING, PERAK"
 		}
 	],
-		"activeMembersMap": [
+	"activeMembersMap": [
 		{
 			"MemberNo": "A001",
 			"CallSign": "9W2LGX",
 			"Name": "MOHAMAD HAFIZI BIN RUSLAN",
 			"Gender": "LELAKI",
-			"LatLong": [3.230987,101.423511],
+			"LatLong": [3.230987, 101.423511],
 			"GridSquare": "OJ03RF",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/001.png?tr=n-wm_rms_w10"
 		},
@@ -219,7 +219,7 @@
 			"CallSign": "9M2RAN",
 			"Name": "NOR IMRAN BIN AZIZ",
 			"Gender": "LELAKI",
-			"LatLong": [6.216034,100.395538],
+			"LatLong": [6.216034, 100.395538],
 			"GridSquare": "OJ06EF",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/003.png?tr=n-wm_rms_w10"
 		},
@@ -228,7 +228,7 @@
 			"CallSign": "9W2UBE",
 			"Name": "FAISNURNIZAM BIN MAT RASOL",
 			"Gender": "LELAKI",
-			"LatLong": [3.644159,101.589101],
+			"LatLong": [3.644159, 101.589101],
 			"GridSquare": "OJ03TP",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/004.png?tr=n-wm_rms_w10"
 		},
@@ -237,7 +237,7 @@
 			"CallSign": "V85ABK",
 			"Name": "PG. SULIMAN BIN PG. HJ. SHAMSUDDIN",
 			"Gender": "LELAKI",
-			"LatLong": [4.997056,114.989282],
+			"LatLong": [4.997056, 114.989282],
 			"GridSquare": "OJ74LX",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/005.png?tr=n-wm_rms_w10"
 		},
@@ -246,7 +246,7 @@
 			"CallSign": "9W6MOZ",
 			"Name": "MUSTAFA BIN OMAR",
 			"Gender": "LELAKI",
-			"LatLong": [5.741363,115.934101],
+			"LatLong": [5.741363, 115.934101],
 			"GridSquare": "OJ75XR",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/006.png?tr=n-wm_rms_w10"
 		},
@@ -255,7 +255,7 @@
 			"CallSign": "9W2ELM",
 			"Name": "MOHD SULAIMAN BIN MAZLAN",
 			"Gender": "LELAKI",
-			"LatLong": [3.644242,101.589101],
+			"LatLong": [3.644242, 101.589101],
 			"GridSquare": "OJ03TP",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/007.png?tr=n-wm_rms_w10"
 		},
@@ -264,7 +264,7 @@
 			"CallSign": "9W2OGK",
 			"Name": "KAMARUDZAMAN BIN ABDUL RAHIM",
 			"Gender": "LELAKI",
-			"LatLong": [4.180928,100.657381],
+			"LatLong": [4.180928, 100.657381],
 			"GridSquare": "OJ04HE",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/008.png?tr=n-wm_rms_w10"
 		},
@@ -273,7 +273,7 @@
 			"CallSign": "9W2YQN",
 			"Name": "AHMAD NURILYAQIN BIN AHMAD TAJUDDIN",
 			"Gender": "LELAKI",
-			"LatLong": [3.771167,103.277089],
+			"LatLong": [3.771167, 103.277089],
 			"GridSquare": "OJ13PS",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/009.png?tr=n-wm_rms_w10"
 		},
@@ -282,7 +282,7 @@
 			"CallSign": "9M6AUA",
 			"Name": "JEOFREY BIN AVITUS @ VITUS",
 			"Gender": "LELAKI",
-			"LatLong": [5.957909,116.070744],
+			"LatLong": [5.957909, 116.070744],
 			"GridSquare": "OJ85AW",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png?tr=n-wm_rms_w10"
 		},
@@ -291,7 +291,7 @@
 			"CallSign": "9W2RNH",
 			"Name": "ROSNAH BINTI ABD RAPAR",
 			"Gender": "PEREMPUAN",
-			"LatLong": [6.092719,100.369957],
+			"LatLong": [6.092719, 100.369957],
 			"GridSquare": "OJ06EC",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/012.png?tr=n-wm_rms_w10"
 		},
@@ -300,7 +300,7 @@
 			"CallSign": "9M6RDY",
 			"Name": "MATTHEUS @ RUDY BIN BENEDICT",
 			"Gender": "LELAKI",
-			"LatLong": [5.991959,116.092358],
+			"LatLong": [5.991959, 116.092358],
 			"GridSquare": "OJ85BX",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png?tr=n-wm_rms_w10"
 		},
@@ -309,7 +309,7 @@
 			"CallSign": "V85MUH",
 			"Name": "ROZAN BIN HAJI KADERI",
 			"Gender": "LELAKI",
-			"LatLong": [4.877381,114.830574],
+			"LatLong": [4.877381, 114.830574],
 			"GridSquare": "OJ74JV",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/019.png?tr=n-wm_rms_w10"
 		},
@@ -318,7 +318,7 @@
 			"CallSign": "9W2DMJ",
 			"Name": "MOHD DAUD BIN JUSOH ",
 			"Gender": "LELAKI",
-			"LatLong": [5.960464,102.292143],
+			"LatLong": [5.960464, 102.292143],
 			"GridSquare": "OJ15DX",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/022.png?tr=n-wm_rms_w10"
 		},
@@ -327,7 +327,7 @@
 			"CallSign": "9W2DRQ",
 			"Name": "SYED IDRUS BIN SYED AGIL",
 			"Gender": "LELAKI",
-			"LatLong": [3.266927,102.444595],
+			"LatLong": [3.266927, 102.444595],
 			"GridSquare": "OJ13FG",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/023.png?tr=n-wm_rms_w10"
 		},
@@ -336,7 +336,7 @@
 			"CallSign": "9W2AYP",
 			"Name": "MOHD SABRI BIN IBRAHIM",
 			"Gender": "LELAKI",
-			"LatLong": [3.472367,102.327774],
+			"LatLong": [3.472367, 102.327774],
 			"GridSquare": "OJ13DL",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png?tr=n-wm_rms_w10"
 		},
@@ -345,7 +345,7 @@
 			"CallSign": "9W2VMB",
 			"Name": "ASRULHISYAM BIN HAJI ASURA",
 			"Gender": "LELAKI",
-			"LatLong": [2.557167,102.123333],
+			"LatLong": [2.557167, 102.123333],
 			"GridSquare": "OJ12BN",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/026.png?tr=n-wm_rms_w10"
 		},
@@ -354,7 +354,7 @@
 			"CallSign": "9M2EZU",
 			"Name": "MOHD IZZUDIN BIN ABD RAHIM",
 			"Gender": "LELAKI",
-			"LatLong": [3.227169,101.652835],
+			"LatLong": [3.227169, 101.652835],
 			"GridSquare": "OJ03TF",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/027.png?tr=n-wm_rms_w10"
 		},
@@ -363,7 +363,7 @@
 			"CallSign": "9W2NEW",
 			"Name": "NORHISHAM BIN BAHAROM",
 			"Gender": "LELAKI",
-			"LatLong": [1.541136,103.734621],
+			"LatLong": [1.541136, 103.734621],
 			"GridSquare": "OJ11UM",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/028.png?tr=n-wm_rms_w10"
 		},
@@ -372,7 +372,7 @@
 			"CallSign": "9W2JCP",
 			"Name": "MOHAMAD ROSLI BIN AWANG",
 			"Gender": "LELAKI",
-			"LatLong": [1.561548,103.620784],
+			"LatLong": [1.561548, 103.620784],
 			"GridSquare": "OJ11TN",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/029.png?tr=n-wm_rms_w10"
 		},
@@ -381,7 +381,7 @@
 			"CallSign": "9W2HLM",
 			"Name": "ABDUL HALIM BIN HJ HASHIM",
 			"Gender": "LELAKI",
-			"LatLong": [5.176567,100.474308],
+			"LatLong": [5.176567, 100.474308],
 			"GridSquare": "OJ05FE",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/030.png?tr=n-wm_rms_w10"
 		},
@@ -390,7 +390,7 @@
 			"CallSign": "9W2EZK",
 			"Name": "MOHD IFFIQ ZIKRY BIN JAMAL",
 			"Gender": "LELAKI",
-			"LatLong": [3.222652,101.533664],
+			"LatLong": [3.222652, 101.533664],
 			"GridSquare": "OJ03SF",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/031.png?tr=n-wm_rms_w10"
 		},
@@ -399,7 +399,7 @@
 			"CallSign": "V85AFF",
 			"Name": "MAHATHIR BIN ARIFFIN",
 			"Gender": "LELAKI",
-			"LatLong": [5.015883,115.009728],
+			"LatLong": [5.015883, 115.009728],
 			"GridSquare": "OJ75MA",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png?tr=n-wm_rms_w10"
 		},
@@ -408,7 +408,7 @@
 			"CallSign": "9W2AKK",
 			"Name": "MUHAMMAD KHAIRUL AMILIN BIN ISMAIL",
 			"Gender": "LELAKI",
-			"LatLong": [6.112726,102.27742],
+			"LatLong": [6.112726, 102.27742],
 			"GridSquare": "OJ16DC",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/033.png?tr=n-wm_rms_w10"
 		},
@@ -417,7 +417,7 @@
 			"CallSign": "9W2IKA",
 			"Name": "IDHAM KHALIL BIN ABDULL WAHAB",
 			"Gender": "LELAKI",
-			"LatLong": [2.465392,101.856669],
+			"LatLong": [2.465392, 101.856669],
 			"GridSquare": "OJ02WL",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/034.png?tr=n-wm_rms_w10"
 		},
@@ -426,7 +426,7 @@
 			"CallSign": "113MSRAO",
 			"Name": "GOWTAMROA A/L MANICKAROW",
 			"Gender": "LELAKI",
-			"LatLong": [5.663925,100.507457],
+			"LatLong": [5.663925, 100.507457],
 			"GridSquare": "OJ05GP",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/035.png?tr=n-wm_rms_w10"
 		},
@@ -435,7 +435,7 @@
 			"CallSign": "9W2NSP",
 			"Name": "ROBBI NESPU BIN MOHAMAD",
 			"Gender": "LELAKI",
-			"LatLong": [1.653044,103.261128],
+			"LatLong": [1.653044, 103.261128],
 			"GridSquare": "OJ11PP",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/036.png?tr=n-wm_rms_w10"
 		},
@@ -444,12 +444,12 @@
 			"CallSign": "V85PZ",
 			"Name": "PG ABD AZIZ BIN PG MOHAMMED",
 			"Gender": "LELAKI",
-			"LatLong": [4.898412,114.985607],
+			"LatLong": [4.898412, 114.985607],
 			"GridSquare": "OJ74LV",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/037.png?tr=n-wm_rms_w10"
 		}
 	],
-		"deactivatedMembers": [
+	"deactivatedMembers": [
 		{
 			"MemberNo": "X024",
 			"Expiry": "2 Jul 2021",

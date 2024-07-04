@@ -69,12 +69,11 @@
 						<div class='col-xxl'>Waktu Tempatan:<br><span id='UserTime'></span></div>
 						<div class='col-xxl'>Waktu UTC:<br><span id='ZuluTime'></span></div>
 					</div>
-					<div class='ratio ratio-21x9'>
-						<embed loading='lazy' class='rounded-3' src='https://calendar.google.com/calendar/embed?src=2j7dblv8rh7gpdsfv4cd3rrtf0%40group.calendar.google.com&hl=ms&mode=AGENDA&ctz=Asia%2FKuala_Lumpur&wkst=2&showTitle=0&showDate=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0'></embed>
-					</div>
-					<p class='text-center my-2'>Bagi individu / kumpulan / komuniti / kelab yang berhasrat untuk menjalankan sebarang aktiviti bersama kami ataupun menyampaikan selingan hebahan semasa aktiviti kami berlansung, anda boleh berhubung terus dengan;</p>
-					<div class='d-grid gap-2 d-flex justify-content-center'>
-						<a class='btn btn-outline-success' role='button' href='https://wa.me/601153440440?text=bantuan'><i class='bi-whatsapp'></i> <i class='bi-robot'></i> RoIPMARS Bot</a>
+					<div id='gcal'></div>
+				</div>
+				<div class='col-12'>
+					<p class='text-center my-2'>Sekiranya berhasrat untuk menjalankan sebarang aktiviti ataupun menyampaikan hebahan semasa aktiviti berlansung, sila berhubung terus dengan;</p>
+					<div class='d-grid gap-2 col-10 mx-auto'>
 						<a class='btn btn-success' role='button' href='https://wa.me/60148453456'><i class='bi-whatsapp'></i> Pegawai Siaraya RoIPMARS</a>
 					</div>
 				</div>

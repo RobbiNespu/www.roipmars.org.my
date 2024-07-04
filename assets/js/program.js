@@ -35,6 +35,30 @@ function utcLive() {
 	}).format(new Date())
 }
 setInterval(utcLive, 1)
+const GCal = document.getElementById('gcal')
+GCal.setAttribute('class', 'ratio ratio-21x9')
+const GCalSrc = {
+	title: 'RoIPMARS Events',
+	src: '2j7dblv8rh7gpdsfv4cd3rrtf0@group.calendar.google.com',
+	mode: 'AGENDA',
+	bgcolor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+	hl: navigator.language || 'ms', //language
+	ctz: Intl.DateTimeFormat().resolvedOptions().timeZone, //timezone
+	wkst: 2, //weekstart 1(sun) - 7(sat)
+	showCalendars: 0,
+	showDate: 0,
+	showNav: 0,
+	showPrint: 0,
+	showTabs: 0,
+	showTitle: 0,
+	showTz: 1
+}
+const GCalQuery = $.param(GCalSrc)
+const GCalEmbed = document.createElement('embed')
+GCalEmbed.setAttribute('loading', 'lazy')
+GCalEmbed.setAttribute('class', 'rounded-3')
+GCalEmbed.setAttribute('src', `https://calendar.google.com/calendar/embed?${GCalQuery}`)
+GCal.appendChild(GCalEmbed)
 
 // 'use strict';
 $(document).ready(function () {

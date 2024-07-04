@@ -303,9 +303,7 @@ $(document).ready(function () {
 								timeStyle: 'long',
 								hourCycle: 'h24',
 							}
-						).format(new Date())} menggunakan ${
-							navigator.userAgent
-						}.\nSila simpan di tempat yang selamat.\nJika anda mempunyai sebarang pertanyaan, jangan teragak-agak untuk menghubungi salah satu pentadbir kami.\n\nIkhlas,\nBahagian Rekod, RoIPMARS`,
+						).format(new Date())}.\nSila simpan di tempat yang selamat.\nJika anda mempunyai sebarang pertanyaan, jangan teragak-agak untuk menghubungi salah satu pentadbir kami.\n\nIkhlas,\nBahagian Rekod, RoIPMARS`,
 					}),
 				}).then(async (res) => {
 					if (res.ok) {

@@ -306,9 +306,7 @@ $(document).ready(function () {
 						caption: `Hai ${call},\nTerima kasih telah menggunakan perkhidmatan kami. Inilah sijil yang anda minta;\n- CallSign: ${call}\n- Nama: ${name}\n- ID: ${id}\n- Sah sehingga: ${validDate}\n\nAnda telah meminta sijil dari rekod kami melalui ${location} pada ${new Intl.DateTimeFormat(
 							'ms-MY',
 							{ dateStyle: 'medium', timeStyle: 'long', hourCycle: 'h24' }
-						).format(new Date())} menggunakan ${
-							navigator.userAgent
-						}.\nSila simpan di tempat yang selamat.\nJika anda mempunyai sebarang pertanyaan, jangan teragak-agak untuk menghubungi salah satu pentadbir kami.\n\nIkhlas,\nBahagian Rekod, RoIPMARS`,
+						).format(new Date())}.\nSila simpan di tempat yang selamat.\nJika anda mempunyai sebarang pertanyaan, jangan teragak-agak untuk menghubungi salah satu pentadbir kami.\n\nIkhlas,\nBahagian Rekod, RoIPMARS`,
 					}),
 				}).then(async (res) => {
 					if (res.ok) {

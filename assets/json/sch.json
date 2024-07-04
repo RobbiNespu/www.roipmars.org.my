@@ -2722,13 +2722,13 @@
 			"Hari": "Rabu<br>03/07/2024<br>21:00 MYT",
 			"Acara": "[SPECIAL] World Bicycle Day",
 			"NCS": "9W6RHN | 9M6JAY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0307242100'>29</button>"
 		},
 		{
 			"Hari": "Khamis<br>04/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Malam Jumat",
 			"NCS": "YD4DTA | YC4AUM",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>06/07/2024<br>21:00 MYT",

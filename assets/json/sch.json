@@ -2728,7 +2728,7 @@
 			"Hari": "Khamis<br>04/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Malam Jumat",
 			"NCS": "YD4DTA | YC4AUM",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0407242100'>39</button>"
 		},
 		{
 			"Hari": "Sabtu<br>06/07/2024<br>21:00 MYT",

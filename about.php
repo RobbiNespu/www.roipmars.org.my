@@ -90,20 +90,21 @@
           <hr>
           <div class='hstack'>
             <h4>Saluran Amatur VHF</h4>
-            <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-vsimplex-modal-xl'>Saluran V</button>
+            <button type='button' class='btn btn-sm btn-secondary ms-auto' data-bs-toggle='modal' data-bs-target='.bd-vsimplex-modal-xl'>Saluran V &lpar;2m&rpar;</button>
           </div>
           <div class='modal fade bd-vsimplex-modal-xl' tabindex='-1' role='dialog' aria-labelledby='vsimplexModalLabel' aria-hidden='true'>
             <div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl' role='document'>
               <div class='modal-content'>
                 <div class='modal-header'>
-                  <h5 class='modal-title' id='vsimplexModalLabel'>Saluran Amatur VHF</h5>
+                  <h5 class='modal-title' id='vsimplexModalLabel'>Saluran Amatur VHF &lpar;2m&rpar;</h5>
                 </div>
                 <div class='modal-body'>
                   <div class='row'>
                     <div class='col-lg-12 m-0 text-center'>
-                      <h5>A short-range simplex radiocommunications service for amateur use</h5>
-                      <p class='fs-6'>as per Standard Radio System Plan Amateur Radio Service 144</p>
-                      <table class='table table-sm'>
+                      <h4>Kesatuan Telekomunikasi Antarabangsa Wilayah 3 Peruntukan Amatur: 144.0000MHz - 148.0000MHz &lpar;2m&rpar;</h4>
+                      <h5>Perkhidmatan radiokomunikasi simplex jarak pendek untuk kegunaan amatur</h5>
+                      <p>mengikut pelan sistem radio standard perkhidmatan radio amatur 144</p>
+                      <table class='table table-sm table-striped'>
                         <thead>
                           <tr>
                             <th>Channel</th>
@@ -381,9 +382,9 @@
                   </div>
                   <div class='row'>
                     <div class='col-lg-12 m-0 text-center'>
-                      <h5>A short-range repeater radiocommunications service for amateur use</h5>
-                      <p class='fs-6'>as per Standard Radio System Plan Amateur Radio Service 144</p>
-                      <table class='table table-sm'>
+                      <h5>Perkhidmatan radiokomunikasi pengulang jarak pendek untuk kegunaan amatur</h5>
+                      <p>mengikut pelan sistem radio standard perkhidmatan radio amatur 144</p>
+                      <table class='table table-sm table-striped'>
                         <thead>
                           <tr>
                             <th>Channel</th>
@@ -811,7 +812,7 @@
                   <h5 class='modal-title' id='qcodeModalLabel'>Kod Q</h5>
                 </div>
                 <div class='modal-body'>
-                  <table class='table table-sm text-center align-middle'>
+                  <table class='table table-sm table-bordered table-striped text-center align-middle'>
                     <thead>
                       <tr>
                         <th>Kod</th>
@@ -822,13 +823,13 @@
                     <tbody>
                       <tr>
                         <th>QRA</th>
-                        <td>Apakah nama (atau tanda panggilan) stesen anda?</td>
-                        <td>Nama (atau tanda panggilan) stesen saya ialah ____</td>
+                        <td>Apakah nama &lpar;atau tanda panggilan&rpar; stesen anda?</td>
+                        <td>Nama &lpar;atau tanda panggilan&rpar; stesen saya ialah ____</td>
                       </tr>
                       <tr>
                         <th>QRG</th>
-                        <td>Adakah anda akan memberitahu saya kekerapan tepat saya (atau frekuensi ____)?</td>
-                        <td>Kekerapan tepat anda (atau ____ ) ialah ____ kHz / MHz.</td>
+                        <td>Adakah anda akan memberitahu saya kekerapan tepat saya &lpar;atau frekuensi ____&rpar;?</td>
+                        <td>Kekerapan tepat anda &lpar;atau ____&rpar; ialah ____ kHz / MHz.</td>
                       </tr>
                       <tr>
                         <th>QRH</th>
@@ -838,7 +839,7 @@
                       <tr>
                         <th>QRI</th>
                         <td>Bagaimanakah nada penghantaran saya?</td>
-                        <td>Nada penghantaran anda ialah (1. Baik; 2. Pembolehubah; 3. Buruk)</td>
+                        <td>Nada penghantaran anda ialah &lpar;1. Baik; 2. Pembolehubah; 3. Buruk&rpar;</td>
                       </tr>
                       <tr>
                         <th>QRJ</th>
@@ -847,13 +848,13 @@
                       </tr>
                       <tr>
                         <th>QRK</th>
-                        <td>Apakah kebolehbacaan isyarat saya (atau isyarat ____)?</td>
-                        <td>Kebolehbacaan isyarat anda (atau isyarat ____) ialah ____ (1 hingga 5).</td>
+                        <td>Apakah kebolehbacaan isyarat saya &lpar;atau isyarat ____&rpar;?</td>
+                        <td>Kebolehbacaan isyarat anda &lpar;atau isyarat ____&rpar; ialah ____ &lpar;1 hingga 5&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QRL</th>
                         <td>Adakah anda sibuk?</td>
-                        <td>Saya sibuk (berhubungan dengan ____ ). Tolong jangan masuk campur.</td>
+                        <td>Saya sibuk &lpar;berhubungan dengan ____&rpar;. Tolong jangan masuk campur.</td>
                       </tr>
                       <tr>
                         <th>QRM</th>
@@ -878,12 +879,12 @@
                       <tr>
                         <th>QRQ</th>
                         <td>Adakah saya akan menghantar lebih cepat?</td>
-                        <td>Hantar lebih cepat (____ WPM).</td>
+                        <td>Hantar lebih cepat &lpar;____ WPM&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QRS</th>
                         <td>Adakah saya akan menghantar lebih perlahan?</td>
-                        <td>Hantar lebih perlahan (____ WPM).</td>
+                        <td>Hantar lebih perlahan &lpar;____ WPM&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QRT</th>
@@ -902,13 +903,13 @@
                       </tr>
                       <tr>
                         <th>QRW</th>
-                        <td>Adakah saya akan memaklumkan kepada ____ bahawa anda sedang menghubungi (dia) pada ____ kHz / MHz?</td>
-                        <td>Sila maklumkan kepada ____ bahawa saya memanggil (dia) pada ____ kHz / MHz.</td>
+                        <td>Adakah saya akan memaklumkan kepada ____ bahawa anda sedang menghubungi &lpar;dia&rpar; pada ____ kHz / MHz?</td>
+                        <td>Sila maklumkan kepada ____ bahawa saya memanggil &lpar;dia&rpar; pada ____ kHz / MHz.</td>
                       </tr>
                       <tr>
                         <th>QRX</th>
                         <td>Bolehkah saya bersedia? / Bilakah anda akan menghubungi saya lagi?</td>
-                        <td>Sila bersedia / Saya akan menghubungi anda sekali lagi pada ____ (jam) pada ____ kHz / MHz</td>
+                        <td>Sila bersedia / Saya akan menghubungi anda sekali lagi pada ____ &lpar;jam&rpar; pada ____ kHz / MHz</td>
                       </tr>
                       <tr>
                         <th>QRZ</th>
@@ -917,8 +918,8 @@
                       </tr>
                       <tr>
                         <th>QSA</th>
-                        <td>Apakah kekuatan isyarat saya (atau isyarat ____ )?</td>
-                        <td>Kekuatan isyarat anda (atau isyarat ____) ialah ____ (1 hingga 5).</td>
+                        <td>Apakah kekuatan isyarat saya &lpar;atau isyarat ____ &rpar;?</td>
+                        <td>Kekuatan isyarat anda &lpar;atau isyarat ____&rpar; ialah ____ &lpar;1 hingga 5&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QSB</th>
@@ -932,8 +933,8 @@
                       </tr>
                       <tr>
                         <th>QSG</th>
-                        <td>Adakah saya akan menghantar ____ telegram (mesej) pada satu masa?</td>
-                        <td>Hantar ____ telegram (mesej) pada satu masa.</td>
+                        <td>Adakah saya akan menghantar ____ telegram &lpar;mesej&rpar; pada satu masa?</td>
+                        <td>Hantar ____ telegram &lpar;mesej&rpar; pada satu masa.</td>
                       </tr>
                       <tr>
                         <th>QSK</th>
@@ -947,23 +948,23 @@
                       </tr>
                       <tr>
                         <th>QSM</th>
-                        <td>Adakah saya akan mengulangi telegram (mesej) terakhir yang saya hantar kepada anda, atau beberapa telegram (mesej) sebelumnya?</td>
-                        <td>Ulang telegram (mesej) terakhir yang anda hantar kepada saya (atau nombor telegram / mesej ____ ).</td>
+                        <td>Adakah saya akan mengulangi telegram &lpar;mesej&rpar; terakhir yang saya hantar kepada anda, atau beberapa telegram &lpar;mesej&rpar; sebelumnya?</td>
+                        <td>Ulang telegram &lpar;mesej&rpar; terakhir yang anda hantar kepada saya &lpar;atau nombor telegram / mesej ____&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QSN</th>
-                        <td>Adakah anda mendengar saya (atau ____ (tanda panggilan)) pada ____ kHz / MHz?</td>
-                        <td>Saya memang mendengar anda (atau ____ (tanda panggilan)) pada ____ kHz / MHz.</td>
+                        <td>Adakah anda mendengar saya &lpar;atau ____&lpar;tanda panggilan&rpar;&rpar; pada ____ kHz / MHz?</td>
+                        <td>Saya memang mendengar anda &lpar;atau ____&lpar;tanda panggilan&rpar;&rpar; pada ____ kHz / MHz.</td>
                       </tr>
                       <tr>
                         <th>QSO</th>
                         <td>Bolehkah anda berkomunikasi dengan ____ terus atau melalui geganti?</td>
-                        <td>Saya boleh berkomunikasi dengan ____ terus (atau melalui geganti melalui ____ ).</td>
+                        <td>Saya boleh berkomunikasi dengan ____ terus &lpar;atau melalui geganti melalui ____&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QSP</th>
-                        <td>Adakah anda akan menyampaikan mesej kepada ____ ?</td>
-                        <td>Saya akan menyampaikan mesej kepada ____ .</td>
+                        <td>Adakah anda akan menyampaikan mesej kepada ____?</td>
+                        <td>Saya akan menyampaikan mesej kepada ____.</td>
                       </tr>
                       <tr>
                         <th>QSR</th>
@@ -982,42 +983,42 @@
                       </tr>
                       <tr>
                         <th>QSU</th>
-                        <td>Adakah saya akan menghantar atau membalas pada frekuensi ini (atau pada ____ kHz / MHz)?</td>
-                        <td>Hantar atau balas pada frekuensi ini (atau pada ____ kHz / MHz).</td>
+                        <td>Adakah saya akan menghantar atau membalas pada frekuensi ini &lpar;atau pada ____ kHz / MHz&rpar;?</td>
+                        <td>Hantar atau balas pada frekuensi ini &lpar;atau pada ____ kHz / MHz&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QSW</th>
-                        <td>Adakah anda akan menghantar pada frekuensi ini (atau pada ____ kHz / MHz)?</td>
-                        <td>Saya akan menghantar pada frekuensi ini (atau pada ____ kHz / MHz).</td>
+                        <td>Adakah anda akan menghantar pada frekuensi ini &lpar;atau pada ____ kHz / MHz&rpar;?</td>
+                        <td>Saya akan menghantar pada frekuensi ini &lpar;atau pada ____ kHz / MHz&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QSX</th>
-                        <td>Adakah anda akan mendengar ____ (tanda panggilan pada ____ kHz / MHz)?</td>
-                        <td>Saya sedang mendengar ____ (tanda panggilan pada ____ kHz / MHz)</td>
+                        <td>Adakah anda akan mendengar ____ &lpar;tanda panggilan pada ____ kHz / MHz&rpar;?</td>
+                        <td>Saya sedang mendengar ____ &lpar;tanda panggilan pada ____ kHz / MHz&rpar;</td>
                       </tr>
                       <tr>
                         <th>QSY</th>
                         <td>Adakah saya perlu menukar kepada penghantaran pada frekuensi lain?</td>
-                        <td>Tukar kepada penghantaran pada frekuensi lain (atau pada ____ kHz / MHz).</td>
+                        <td>Tukar kepada penghantaran pada frekuensi lain &lpar;atau pada ____ kHz / MHz&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QSZ</th>
                         <td>Adakah saya akan menghantar setiap perkataan atau kumpulan lebih daripada sekali?</td>
-                        <td>Hantar setiap perkataan atau kumpulan dua kali (atau ____ kali).</td>
+                        <td>Hantar setiap perkataan atau kumpulan dua kali &lpar;atau ____ kali&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QTA</th>
-                        <td>Adakah saya akan membatalkan telegram (mesej) nombor ____ seolah-olah ia tidak dihantar?</td>
-                        <td>Batalkan telegram (mesej) nombor ____ seolah-olah ia tidak dihantar.</td>
+                        <td>Adakah saya akan membatalkan telegram &lpar;mesej&rpar; nombor ____ seolah-olah ia tidak dihantar?</td>
+                        <td>Batalkan telegram &lpar;mesej&rpar; nombor ____ seolah-olah ia tidak dihantar.</td>
                       </tr>
                       <tr>
                         <th>QTC</th>
-                        <td>Berapa banyak telegram (mesej) yang perlu anda hantar?</td>
-                        <td>Saya ada ____ telegram (mesej) untuk anda (atau untuk ____ ).</td>
+                        <td>Berapa banyak telegram &lpar;mesej&rpar; yang perlu anda hantar?</td>
+                        <td>Saya ada ____ telegram &lpar;mesej&rpar; untuk anda &lpar;atau untuk ____&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QTH</th>
-                        <td>Apakah kedudukan anda dalam latitud dan longitud? (atau mengikut sebarang petunjuk lain)</td>
+                        <td>Apakah kedudukan anda dalam latitud dan longitud? &lpar;atau mengikut sebarang petunjuk lain&rpar;</td>
                         <td>Kedudukan saya ialah ____ latitud ____ longitud.</td>
                       </tr>
                       <tr>
@@ -1032,33 +1033,33 @@
                       </tr>
                       <tr>
                         <th>QTX</th>
-                        <td>Adakah anda akan memastikan stesen anda dibuka untuk komunikasi selanjutnya dengan saya sehingga diberitahu kelak (atau sehingga jam ____)?</td>
-                        <td>Saya akan memastikan stesen saya dibuka untuk komunikasi lanjut dengan anda sehingga diberitahu kelak (atau sehingga jam ____).</td>
+                        <td>Adakah anda akan memastikan stesen anda dibuka untuk komunikasi selanjutnya dengan saya sehingga diberitahu kelak &lpar;atau sehingga jam ____&rpar;?</td>
+                        <td>Saya akan memastikan stesen saya dibuka untuk komunikasi lanjut dengan anda sehingga diberitahu kelak &lpar;atau sehingga jam ____&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QUA</th>
-                        <td>Adakah anda mempunyai berita tentang ____ (tanda panggilan)?</td>
-                        <td>Berikut ialah berita tentang ____ (tanda panggilan).</td>
+                        <td>Adakah anda mempunyai berita tentang ____&lpar;tanda panggilan&rpar;?</td>
+                        <td>Berikut ialah berita tentang ____&lpar;tanda panggilan&rpar;.</td>
                       </tr>
                       <tr>
                         <th>QUC</th>
-                        <td>Apakah nombor (atau petunjuk lain) mesej terakhir yang anda terima daripada saya (atau daripada ____ (tanda panggilan))?</td>
-                        <td>Nombor (atau petunjuk lain) mesej terakhir yang saya terima daripada anda (atau daripada ____ (tanda panggilan)) ialah ____.</td>
+                        <td>Apakah nombor &lpar;atau petunjuk lain&rpar; mesej terakhir yang anda terima daripada saya &lpar;atau daripada ____&lpar;tanda panggilan&rpar;&rpar;?</td>
+                        <td>Nombor &lpar;atau petunjuk lain&rpar; mesej terakhir yang saya terima daripada anda &lpar;atau daripada ____&lpar;tanda panggilan&rpar;&rpar; ialah ____.</td>
                       </tr>
                       <tr>
                         <th>QUD</th>
-                        <td>Adakah anda menerima isyarat mendesak yang dihantar oleh ____ (tanda panggilan stesen mudah alih)?</td>
-                        <td>Saya telah menerima isyarat segera yang dihantar oleh ____ (tanda panggilan stesen mudah alih) pada jam ____.</td>
+                        <td>Adakah anda menerima isyarat mendesak yang dihantar oleh ____ &lpar;tanda panggilan stesen mudah alih&rpar;?</td>
+                        <td>Saya telah menerima isyarat segera yang dihantar oleh ____ &lpar;tanda panggilan stesen mudah alih&rpar; pada jam ____.</td>
                       </tr>
                       <tr>
                         <th>QUE</th>
-                        <td>Bolehkah anda bercakap dalam ____ (bahasa) – dengan jurubahasa jika perlu – jika ya, pada frekuensi apa?</td>
-                        <td>Saya boleh bercakap dalam ____ (bahasa) pada ____ kHz / MHz.</td>
+                        <td>Bolehkah anda bercakap dalam ____ &lpar;bahasa&rpar; &ndash; dengan jurubahasa jika perlu &ndash; jika ya, pada frekuensi apa?</td>
+                        <td>Saya boleh bercakap dalam ____ &lpar;bahasa&rpar; pada ____ kHz / MHz.</td>
                       </tr>
                       <tr>
                         <th>QUF</th>
-                        <td>Adakah anda menerima isyarat kecemasan yang dihantar oleh ____ (tanda panggilan stesen mudah alih)?</td>
-                        <td>Saya telah menerima isyarat kecemasan yang dihantar oleh ____ (tanda panggilan stesen mudah alih) pada jam ____.</td>
+                        <td>Adakah anda menerima isyarat kecemasan yang dihantar oleh ____ &lpar;tanda panggilan stesen mudah alih&rpar;?</td>
+                        <td>Saya telah menerima isyarat kecemasan yang dihantar oleh ____ &lpar;tanda panggilan stesen mudah alih&rpar; pada jam ____.</td>
                       </tr>
                     </tbody>
                   </table>
@@ -1329,14 +1330,12 @@
                         <ul class='list-group'>
                           <li class='list-group-item d-flex justify-content-center m-0'>
                             <div class='ms-2 me-auto fw-bold'>
-                              <div class='fw-light text-decoration-underline'>Nama Pertubuhan</div>
-                              PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;ROIP&lpar;RADIO OVER INTERNET PROTOCOL&rpar;&rpar;
+                              <div class='fw-light text-decoration-underline'>Nama Pertubuhan</div> PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;ROIP&lpar;RADIO OVER INTERNET PROTOCOL&rpar;&rpar;
                             </div>
                           </li>
                           <li class='list-group-item d-flex justify-content-center m-0'>
                             <div class='ms-2 me-auto fw-bold text-break'>
-                              <div class='fw-light text-decoration-underline'>Pendaftaran Pertubuhan</div>
-                              PPM-006-10-01062020
+                              <div class='fw-light text-decoration-underline'>Pendaftaran Pertubuhan</div> PPM-006-10-01062020
                             </div>
                           </li>
                         </ul>

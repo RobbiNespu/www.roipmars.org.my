@@ -81,7 +81,7 @@ $(document).ready(function () {
 		displayStart: 450,
 		ordering: false,
 		lengthChange: false,
-		pageLength: 25,
+		pageLength: 10,
 		pagingTag: 'button',
 		pagingType: 'full_numbers',
 		processing: true,

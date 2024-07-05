@@ -1009,9 +1009,7 @@ $(document).ready(function () {
 										to: [{ email: MailCtc, name: caller }],
 										replyTo: { name: 'Member RoIPMARS', email: 'member@roipmars.org.my' },
 										subject: `eCert_RoIPMARS-${caller}`,
-										htmlContent: `<html><body><p>Hi, thank you for using our services. Here is your requested certificate;</p><table><tr><td>CallSign</td><td>${caller}</td></tr><tr><td>Time</td><td>${dtl.toUTCString()}</td></tr></table><p>You have requested a certificate from our records via ${
-											location.hostname + location.pathname
-										} on ${new Date().toString()} using ${navigator.userAgent}.</p><p>Please keep it in a safe place. If you have any questions, do not hesitate to contact us.<br><br>Sincerely,<br>Records Division, RoIPMARS</p></body></html>`,
+										htmlContent: `<html><body><p>Hi, thank you for using our services. Here is your requested certificate;</p><table><tr><td>CallSign</td><td>${caller}</td></tr><tr><td>Time</td><td>${dtl.toUTCString()}</td></tr></table><p>You have requested a certificate from our records via ${location} on ${new Date().toString()} using ${navigator.userAgent}.</p><p>Please keep it in a safe place. If you have any questions, do not hesitate to contact us.<br><br>Sincerely,<br>Records Division, RoIPMARS</p></body></html>`,
 										textContent: `You have requested a certificate from our records`,
 										attachment: [{ content: eCertURI.split(',')[1], name: `${fileName}.pdf` }],
 										tags: ['eQSL'],

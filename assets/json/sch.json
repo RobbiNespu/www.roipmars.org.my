@@ -2733,8 +2733,8 @@
 		{
 			"Hari": "Sabtu<br>06/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "9W2ORL | 9W2YBT",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0607242100'>30</button>"
 		},
 		{
 			"Hari": "Ahad<br>07/07/2024<br>21:00 MYT",

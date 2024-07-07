@@ -2740,7 +2740,7 @@
 			"Hari": "Ahad<br>07/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Awal Muharram 1446H",
 			"NCS": "V85AFF | 9W2ORL",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>08/07/2024<br>21:00 MYT",

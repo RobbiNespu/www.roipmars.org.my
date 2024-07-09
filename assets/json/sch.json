@@ -2739,20 +2739,20 @@
 		{
 			"Hari": "Ahad<br>07/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Awal Muharram 1446H",
-			"NCS": "V85AFF | 9W2ORL",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "V85AFF | V85PZ",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0707242100'>14</button>"
 		},
 		{
 			"Hari": "Isnin<br>08/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "9M2SFL | V85AFF",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Selasa<br>09/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "YC4AUM | YF5NZL",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Rabu<br>10/07/2024<br>21:00 MYT",

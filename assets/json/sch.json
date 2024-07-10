@@ -2751,14 +2751,14 @@
 		{
 			"Hari": "Selasa<br>09/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "YC4AUM | YF5NZL",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "YD4DTA | YF5NZL",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0907242100'>15</button>"
 		},
 		{
 			"Hari": "Rabu<br>10/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "9M6JAY | 9M2SFL",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Khamis<br>11/07/2024<br>21:00 MYT",
